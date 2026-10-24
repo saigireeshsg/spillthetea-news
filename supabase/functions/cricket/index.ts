@@ -134,12 +134,15 @@ function applyItems(base: any, items: any[]) {
       t.score = `${inn.runs}/${inn.wickets} (${base.overs}${lim}${inn.target ? ", target " + inn.target : ""})`;
     }
   });
+  base.lastBallTs = Number(last.bbbTimestamp || 0);
   if (base.state === "in") {
-    base.headline = inn.target
+    base.headline = inn.target && Number(inn.remainingRuns) > 0
       ? `${base.batting} need ${inn.remainingRuns} off ${inn.remainingBalls} ball${inn.remainingBalls === 1 ? "" : "s"}`
+      : inn.target ? `${base.batting} ${inn.runs}/${inn.wickets} · chase complete`
       : `${base.batting} ${inn.runs}/${inn.wickets} (${base.overs} ov) · RR ${inn.runRate}`;
   }
 }
+const FINISHED = /\bwon\b|\btied\b|no result|abandoned|match drawn/i;
 
 // Big moments in balls bowled in the last few minutes (never replays history).
 async function detectEvents(base: any, fresh: any[]) {
@@ -212,12 +215,15 @@ async function trackMatch(league: string, ev: any, prevState?: string): Promise<
       applyItems(base, items);
     } catch (e) { base.err = String(e).slice(0, 200); }
   }
-  if (state === "post") base.headline = base.result;
+  const finished = state === "post" || FINISHED.test(base.result);
+  if (finished && base.result) { base.headline = base.result; base.finished = true; base.state = "post"; (base.teams || []).forEach((t: any) => (t.batting = false)); }
   if (state === "pre") base.headline = `Starts ${new Date(ev.date).toLocaleTimeString("en-IN", { hour: "numeric", minute: "2-digit", timeZone: "Asia/Kolkata" })} IST`;
 
   const sh = base.short || base.title;
   if (state === "in" && prevState === "pre") await pushOnce(`${id}:start`, `🏏 Live now · ${sh}`, [base.desc.split(",")[0], base.toss && "Toss: " + base.toss].filter(Boolean).join(" · "), id);
-  if (state === "post" && prevState === "in" && base.result) await pushOnce(`${id}:result`, `🏆 ${sh} · Result`, base.result, id);
+  // Result alert as soon as the result is known (only for matches that ended in the last 45 min).
+  const recentEnd = prevState === "in" || (base.lastBallTs && Date.now() - base.lastBallTs < 45 * 60e3);
+  if (finished && base.result && recentEnd) await pushOnce(`${id}:result`, `🏆 ${sh} · ${base.result}`, [base.teams.map((t: any) => `${t.abbr} ${t.score}`).join(" · "), "Tap for the full scorecard"].join("\n"), id);
 
   base.updated = Date.now();
   await save(base);
@@ -246,6 +252,8 @@ async function follow(t: Track, until: number) {
       t.base.updated = Date.now();
       await save(t.base);
       await detectEvents(t.base, fresh);
+      const inn = t.items[t.items.length - 1]?.innings || {};
+      if (inn.target && Number(inn.remainingRuns) <= 0) break; // chase done: next run fetches the result
     } catch (_) { /* transient: try again next tick */ }
   }
 }
@@ -283,7 +291,7 @@ Deno.serve(async (req) => {
         keep.add(String(ev.id));
         const tr = await trackMatch(league, ev, prev[String(ev.id)]);
         out.push({ id: tr.base.id, state: tr.base.state, headline: tr.base.headline });
-        if (tr.base.state === "in") live.push(tr);
+        if (tr.base.state === "in" && !tr.base.finished) live.push(tr);
       }
     }
     for (const r of prevRows || []) if (!keep.has(r.id)) await sb.from("cricket_live").update({ active: false }).eq("id", r.id).eq("active", true);
