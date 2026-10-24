@@ -23,6 +23,8 @@ If the newest `fetched_at` is older than 2 hours, check `select name,last_status
 ## 2. Pick
 Group headlines about the same event. Prefer events reported by 2+ outlets. Skip crime gossip, celebrity news, ads and press-release puffery.
 
+**Value test (every story must pass at least one):** a reader aged 15–30 in that city or in India can (a) *act* on it (deadline, exam, job, fee, scheme, traffic, water/power, safety, money), (b) *talk* about it (big national/world moment their friends will discuss), or (c) *understand* something that shapes their future (policy, economy, climate, tech, rights). If you can't write a concrete `beats.care` line, drop the story. Regional first: Hyderabad/Telangana, then the other six cities, then national, then world.
+
 | Run | What to publish |
 | --- | --- |
 | Morning (by 7 am IST) | 14–18 stories dated today: 1 featured editorial (from The Hindu editorial feed), 5–7 Hyderabad/Telangana (`cat: "local"`, `city: "Hyderabad"`), 1–2 each for Bengaluru, Chennai, Delhi, Mumbai, Pune, Kolkata (`cat: "local"` with that `city`), 3–4 India, 1–2 money, 1–2 world, 1 sport or tech or planet. Plus a morning notification and fresh weather for each city. |
