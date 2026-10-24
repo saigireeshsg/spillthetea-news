@@ -191,3 +191,20 @@ Live temperature, forecast and AQI come from Open-Meteo in the reader's browser 
 - "Need to know" is only for key stories. Never write a live alert for a political spat or a crime story unless it changes daily life (curfew, bandh, road closure, safety advisory).
 - Set `until` on every live alert, and keep at most 5 active at a time. Older ones fold into "📦 Earlier alerts".
 - Depth goes to the feed: if a key story needs the why, write a drop (§17). Live links to it with `open`.
+
+
+## 20. One stream, named, visual, hooked (applies to everything you write)
+The app is now one Live stream: weather/alerts → Need to know → 🧠 Explained today (drops) → Matters today (wire) → Also buzzing → Archive. Home and category tabs are gone; only Money remains as a second tab.
+**Wire headline copy (every run, before anything else, SQL only, no web fetches):**
+```sql
+select w.id, w.title, left(s.summary,300) from live_wire w join scout_items s on s.id = w.id
+ where w.tier = 'key' and w.hook is null order by w.published_at desc limit 15;
+update scout_items set hook = '<new headline>' where id = <id>;   -- then: select refresh_live_wire();
+```
+Rules for the `hook` (≤ 90 chars, starts with one fitting emoji):
+- Use only facts in the headline/summary. Never add a number, name or claim.
+- **Name it:** the place (area, district), the person with their role, the number. No suspense ("You won't believe…", "This city…"), unless the punchline really is the point.
+- **Hooked:** lead with the reader's stake or the most concrete detail: what changes, for whom, by when. Active voice, plain words, Gen-Z tone, no clickbait.
+- Example: "HYDRAA busts water racket in Sunnam Cheruvu" → "💧 HYDRAA finds borewells inside bedrooms near Sunnam Cheruvu lake, removes 15".
+**Live alerts that need explaining:** add `steps` (2–4) in story-card style, `[{"t":"What happened","b":"…"},{"t":"Why","b":"…"},{"t":"What's next","b":"…"}]`, plus `viz` tiles (§10) whenever there are numbers. Show, don't tell.
+**Names everywhere:** live titles, drops and notifs name the place and the person. Don't write "a city", "a minister" or "a top university".
