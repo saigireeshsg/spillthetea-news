@@ -4,7 +4,7 @@ Spill publishes directly: what you push to `main` goes live on spillthetea.news 
 
 ## Budget (read first — stay inside the owner's daily/weekly usage limits)
 - Lean runs. No subagents, no screenshots, no headless browsers, no re-reading big files. Read only the 2–3 example drops you need, not the whole folder (`ls content/drops | grep <date>` for duplicates).
-- Scout table first; web searches max **3** per run (morning), **2** (midday/evening).
+- Start from the ranked shortlist (section 1). Web searches only to fill a gap or verify: max **2** per run.
 - WebFetch: **1 article per story** (2 only if facts conflict). Skip any page that fails once — don't retry.
 - Story caps: morning **6–7**, midday **0–2 live alerts + weather** (no stories unless major breaking), evening **2**. Readers said the app felt text-heavy and overwhelming: fewer, sharper stories beat more.
 - Write each drop compactly: `cards` = tea + 1 extra + poll + quiz. Write all files in one script/Bash call where possible.
@@ -16,23 +16,34 @@ Spill publishes directly: what you push to `main` goes live on spillthetea.news 
 2. Commit as `Claude <noreply@anthropic.com>`: run `git config user.name Claude && git config user.email noreply@anthropic.com`.
 3. Supabase project id: `tvhfqkvyfkqxxiqxavjp` (use the Supabase connector's `execute_sql`).
 
-## 1. Scout (already running)
-A Supabase cron job runs the `scout` edge function every 10 minutes, round the clock and stores headlines in `public.scout_items` (`url, title, summary, source, region, published_at, status`).
-Regions: `hyderabad, telangana, india, world, money, tech, sport, edit, bengaluru, chennai, delhi, mumbai, kolkata, pune`.
+## 1. Scout (already running — use it, don't redo it)
+Supabase scouts 36 feeds every 10 min into `public.scout_items` and, every 10 min, `refresh_live_wire()` groups duplicate headlines into stories and ranks them by **recency, relatability (Hyderabad > Telangana > India; daily-life impact), weightage (number of outlets) and importance** into `public.live_wire` (`members` = the scout item ids in each story). Your shortlist starts there — no broad web searching needed.
 
-Read fresh candidates:
+**A. Ranked shortlist (English, not yet covered):**
 ```sql
-select id, region, source, title, summary, url, published_at
+select w.id, w.region, w.score, w.outlets, w.why, w.title, w.publisher, w.url, w.sources, w.members,
+       to_char(w.published_at at time zone 'Asia/Kolkata','DD Mon HH24:MI') ist
+from public.live_wire w
+where not exists (select 1 from public.scout_items s where s.id = any(w.members) and s.status in ('published','skipped'))
+order by w.score desc limit 25;
+```
+**B. Telangana papers in Telugu** (local stories the English press may miss — read them, verify, write in English):
+```sql
+select id, source, title, url, to_char(coalesce(published_at,fetched_at) at time zone 'Asia/Kolkata','DD Mon HH24:MI') ist
 from public.scout_items
-where status = 'new' and coalesce(published_at, fetched_at) > now() - interval '20 hours'
+where status = 'new' and title ~ '[\u0C00-\u0C7F]' and coalesce(published_at, fetched_at) > now() - interval '18 hours'
+order by coalesce(published_at, fetched_at) desc limit 30;
+```
+**C. Editorial + money/world/tech/sport** (morning only; the wire covers Hyderabad/Telangana/India):
+```sql
+select id, region, source, title, url from public.scout_items
+where status = 'new' and region in ('edit','money','world','tech','sport') and coalesce(published_at, fetched_at) > now() - interval '20 hours'
 order by region, published_at desc nulls last;
 ```
-If the newest `fetched_at` is older than 2 hours, check `select name,last_status from scout_sources where active` and trigger a run with `select net.http_post(...)` exactly as in the cron job (`select command from cron.job`).
+If the newest `fetched_at` in `scout_items` is older than 1 hour, check `select name,last_status from scout_sources where active` and trigger the scout once with the `net.http_post` from `select command from cron.job where jobname like 'spill-scout%'`, then `select refresh_live_wire();`.
 
 ## 2. Pick
-**Local papers:** `scout_items` also carries Telangana papers — English (Telangana Today sections, Deccan Chronicle, Hans India, New Indian Express, The News Minute) and **Telugu** (Namasthe Telangana, Sakshi, Google News Telugu for Telangana/Hyderabad). Read the Telugu headlines for local stories the English press missed; verify from the article (and a second outlet where possible) and write the drop in English. Telugu headlines never appear in the app's Live wire.
-
-Group headlines about the same event. Prefer events reported by 2+ outlets. Skip crime gossip, celebrity news, ads and press-release puffery.
+Work down list A from the top. A story earns its place if it is **new** (not already in `content/drops` from the last 3 days — `ls content/drops | tail -40`; if it moved forward, write an update on the same `thread`), **relatable** (passes the value test below) and **important** (prefer `outlets ≥ 2` or an official source). Swap in a Telugu-paper story (list B) when it is more relatable than the next English one. Skip crime gossip, celebrity, ads and press-release puffery even if they rank high.
 
 **Value test (every story must pass at least one):** a reader aged 15–30 in that city or in India can (a) *act* on it (deadline, exam, job, fee, scheme, traffic, water/power, safety, money), (b) *talk* about it (big national/world moment their friends will discuss), or (c) *understand* something that shapes their future (policy, economy, climate, tech, rights). If you can't write a concrete `beats.care` line, drop the story. Regional first: Hyderabad/Telangana, then national, then world. (Other cities paused until the owner expands beyond Hyderabad.)
 
@@ -42,7 +53,6 @@ Group headlines about the same event. Prefer events reported by 2+ outlets. Skip
 | Midday (around 12:30 pm) | Live alerts only: traffic, rain, power or water cuts, civic alerts, big breaking news, as `content/live/*.json`. Refresh `content/now/hyderabad.json` weather (Hyderabad only for now). Add a story only for real breaking news. |
 | Evening (by 6 pm) | 2 new stories that broke during the day, updates to ongoing threads (reuse the same `thread`), an evening notification (`slot: "evening"`), and expire stale live alerts by setting `until`. |
 
-Before writing, list today's existing files in `content/drops/` so you never publish the same story twice. If a story moved forward, write a new drop on the same `thread` that says what changed.
 
 ## 3. Verify (never skip)
 RSS summaries are not enough. Open the article (WebFetch) for every story and take facts only from what you read. Use 2 sources when possible. Put real article URLs in `sources` (`name`, `title`, `url`). Never invent numbers, names, dates or quotes. Rewrite everything in your own words; no copied sentences.
@@ -60,7 +70,7 @@ Files: `content/drops/d<YYYYMMDD>-<slug>.json`, `content/live/l<YYYYMMDD>-<slug>
 1. `python3 tools/build-data.py`
 2. Check every new JSON parses: `python3 -c "import json,glob;[json.load(open(f)) for f in glob.glob('content/**/*.json',recursive=True)]"`
 3. `git add -A && git commit -m "<run>: <n> stories, <m> live alerts"` with the trailers `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>` and the session line, then `git pull --rebase origin main && git push origin HEAD:main`.
-4. Mark used scout items: `update public.scout_items set status='published', drop_id='<id>' where id in (...)`, and `status='skipped'` for ones you reviewed and rejected.
+4. Mark what you used **by story, not just one headline**: `update public.scout_items set status='published', drop_id='<drop id>' where id = any('<members array from list A>'::bigint[]);` (or `where id in (...)` for list B/C items). Mark stories you reviewed and rejected from the top of list A with `status='skipped'` the same way, so the next run sees fresh candidates.
 
 ## 6. Report
 Send the user a 2–4 line summary: how many stories and alerts went live, the top Hyderabad story, and anything you couldn't verify or publish.
