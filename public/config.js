@@ -2,7 +2,7 @@
 // Fill these in from Supabase → Project Settings → API.
 window.SPILL_CONFIG = {
   // PostHog: Project settings → Project API key (starts with phc_). Host: us.i.posthog.com or eu.i.posthog.com
-  posthogKey: "",
+  posthogKey: "phc_sa3vuQTENx8XM4iLXqcyYcLFTWaXHS2VPaAVJdm5owcw",
   posthogHost: "https://us.i.posthog.com",
   supabaseUrl: "https://tvhfqkvyfkqxxiqxavjp.supabase.co",
   vapidPublicKey: "BFgeM8ZhBtvn-SXaaEMAaKJqwAm4uA3OSg4US6BxGAeHJut71yUAEzSJ-NXZP1Bui52qSRQkzjdPFwIhQCETpkU",
