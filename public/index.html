@@ -1915,6 +1915,7 @@ function liveView(){
   const scope=liveTab;const arr=liveList(scope,true).sort((a,b)=>(b.ts||0)-(a.ts||0));
   const nowA=arr.filter(x=>activeLive(x)&&Date.now()-Math.max(x.ts||0,x.updated||0)<12*3600e3),earlier=arr.filter(x=>!nowA.includes(x));
   let h=`<section class="livebox"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE</b><span class="upd">updated every 10 min, round the clock</span></div><div class="ltabs"><button data-act="ltab" data-key="local" aria-pressed="${scope==="local"}">📍 ${esc(me.city||"Your city")}</button><button data-act="ltab" data-key="national" aria-pressed="${scope==="national"}">🇮🇳 India</button></div>${scope==="local"?nowHTML():""}${scope==="local"&&areasFor(me.city).length?`<button class="areabtn" data-act="area">📍 ${me.area?"Your area: "+esc(me.area)+" · change":"Set your area for \"near you\" alerts"}</button>`:""}${window.newsBellHTML?window.newsBellHTML():""}</section>`;
+  h+=(window.civicHTML?window.civicHTML(scope):"");
   if(nowA.length)h+=`<section class="livebox ntk"><span class="lgrp">🔥 Need to know</span>${nowA.map(x=>liveItemHTML(x)).join("")}</section>`;
   h+=(window.wireHTML?window.wireHTML(scope,25):"");
   if(!arr.length&&!(window.wireCount&&window.wireCount(scope)))h+=`<div class="end"><span class="big">📡</span><b>All quiet right now</b><span>${scope==="local"&&!me.city?"Pick your city to see local live updates.":"New updates land here as they happen."}</span></div>`;

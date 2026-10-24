@@ -48,11 +48,11 @@
   document.head.appendChild(css);
   window.newsBellHTML = function () {
     const P = window.spillPush;
-    if (P.has("news")) return `<button class="nbell on" data-nbell="off">🔔 Breaking news alerts on <small>tap to turn off</small></button>`;
+    if (P.has("news")) return `<button class="nbell on" data-nbell="off">🔔 Alerts on: power, water & big news <small>tap to turn off</small></button>`;
     if (P.iosNeedsInstall()) return `<button class="nbell" data-nbell="ios">🔔 Get alerts for big news <small>Add to Home Screen first</small></button>`;
     if (!P.supported()) return "";
     if (P.blocked()) return `<button class="nbell" data-nbell="blocked">🔕 Alerts are blocked in your browser settings</button>`;
-    return `<button class="nbell" data-nbell="on">🔔 Alert me when something big happens <small>max 2 a day</small></button>`;
+    return `<button class="nbell" data-nbell="on">🔔 Alert me for power cuts, water & big news <small>max 3 a day</small></button>`;
   };
   function toastP(msg) {
     if (typeof window.toast === "function") return window.toast(msg);
@@ -64,7 +64,7 @@
     const b = e.target.closest("[data-nbell]"); if (!b) return;
     e.preventDefault(); e.stopPropagation();
     const v = b.dataset.nbell;
-    if (v === "on") { const ok = await window.spillPush.add("news").catch(() => false); toastP(ok ? "🔔 Done. We'll only ping you for the big stuff." : "Couldn't turn on alerts. Try again?"); }
+    if (v === "on") { const ok = await window.spillPush.add("news").catch(() => false); toastP(ok ? "🔔 Done. Power cuts, water alerts and big news only. Max 3 a day." : "Couldn't turn on alerts. Try again?"); }
     else if (v === "off") { await window.spillPush.remove("news").catch(() => {}); toastP("Alerts off"); }
     else if (v === "ios") toastP("Tap Share, then 'Add to Home Screen'. Open Spill from there to turn on alerts.");
     else if (v === "blocked") toastP("Allow notifications for spillthetea.news in your browser settings.");

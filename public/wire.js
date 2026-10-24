@@ -44,6 +44,16 @@
   }
 
   window.wireCount = (scope) => pickFor(scope).length;
+  // ---------- Civic alerts (power, water, weather, traffic, holidays): detected automatically every 10 min ----------
+  let CA = [];
+  const KIND_ICON = { power: "⚡", water: "🚰", weather: "🌧️", traffic: "🚦", holiday: "🏫", metro: "🚇" };
+  const KIND_NAME = { power: "Power cut", water: "Water supply", weather: "Weather alert", traffic: "Traffic", holiday: "Holiday", metro: "Metro" };
+  window.civicHTML = function (scope) {
+    if (scope && scope !== "local") return "";
+    const list = CA.slice(0, 6);
+    if (!list.length) return "";
+    return `<section class="livebox calerts" aria-label="Alerts"><span class="lgrp">🚨 Alerts · power, water, weather</span>${list.map((a) => `<a class="ca" href="${E(a.url)}" target="_blank" rel="noopener" data-ca="${E(a.id)}"><span class="ci">${KIND_ICON[a.kind] || "🚨"}</span><span class="ct"><small>${E(KIND_NAME[a.kind] || "Alert")} · ${ago(a.published_at || a.created_at)}${a.lang === "te" ? " · Telugu report" : ""}</small><b>${E(a.headline)}</b><span>${E(a.publisher || "")} · read the details ↗</span></span></a>`).join("")}</section>`;
+  };
   // Home ticker: just the single most important headline + how many more.
   window.wireList = () => W;
   window.wireTop = () => (W.length ? { item: W[0], count: W.length } : null);
@@ -82,6 +92,13 @@
 @keyframes hlrun{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){#hotline .hl-run{animation:none}}
 html.embed #hotline{display:none}
+.calerts{border-color:#7a1f1f!important}
+.ca{display:grid;grid-template-columns:34px minmax(0,1fr);gap:10px;align-items:start;text-decoration:none;color:inherit;padding:9px 0;border-top:1px solid var(--line,#343536)}
+.ca:first-of-type{border-top:0}
+.ca .ci{width:34px;height:34px;border-radius:10px;background:#3a0f17;display:grid;place-items:center;font-size:17px}
+.ca small{display:block;font-size:11.5px;font-weight:800;color:#ff8a8a;letter-spacing:.03em}
+.ca b{display:block;font-size:14.5px;line-height:1.35;margin:2px 0}
+.ca .ct span{font-size:12px;color:var(--muted,#a3acb0)}
 #hotline.inflow{max-width:676px;margin:10px auto 0;border:1px solid var(--line,#343536);border-radius:12px;width:calc(100% - 24px)}
 html.desk #hotline.inflow{max-width:676px}
 `;
@@ -112,7 +129,8 @@ html.desk #hotline.inflow{max-width:676px}
     place(el);
     const items = W.slice().sort(byNew).slice(0, 10);
     const cr = window.cricTop ? window.cricTop() : null;
-    const parts = (cr ? [`<span class="hl-it cr">${E(cr)}</span>`] : []).concat(items.map((x) => `<span class="hl-it">${E(x.title)} <small>${mins(x.published_at)}</small></span>`));
+    const al = CA.slice(0, 3).map((a) => `<span class="hl-it cr">${KIND_ICON[a.kind] || "🚨"} ${E(a.headline)}</span>`);
+    const parts = al.concat(cr ? [`<span class="hl-it cr">${E(cr)}</span>`] : []).concat(items.map((x) => `<span class="hl-it">${E(x.title)} <small>${mins(x.published_at)}</small></span>`));
     if (!parts.length) { el.hidden = true; return; }
     el.hidden = false;
     const sig = parts.join("");
@@ -127,6 +145,9 @@ html.desk #hotline.inflow{max-width:676px}
 
   async function load() {
     try {
+      const since = new Date(Date.now() - 18 * 3600e3).toISOString();
+      sb.from("civic_alerts").select("id,kind,headline,publisher,url,lang,published_at,created_at").gte("created_at", since).order("published_at", { ascending: false }).limit(8)
+        .then(({ data: ca }) => { if (ca) { const changed = ca.map((x) => x.id).join() !== CA.map((x) => x.id).join(); CA = ca; if (changed) { hotline(); window.spillRerender && window.spillRerender(); } } });
       const { data, error } = await sb.from("live_wire").select("id,title,publisher,url,region,published_at,score,outlets,why").order("score", { ascending: false }).limit(60);
       if (!error && data) {
         W = data;
