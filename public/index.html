@@ -1176,6 +1176,10 @@ const isFollow=d=>!!me.follow[gkey(d)];
 const nearArea=d=>!!me.area&&(d.areas||[]).some(a=>String(a).toLowerCase()===me.area.toLowerCase());
 const catReads=c=>drops.filter(x=>x.cat===c&&me.done[x.id]).length;
 function scoreOf(d){let s=(d.heat||0)*2;const k=gkey(d);
+  // Recency, weightage and the desk's importance order (sort NN) alongside personal relevance.
+  s+=Math.max(0,3-dAge(d))*4;
+  s+=Math.min((d.sources||[]).length,3)*1.5;
+  const nn=parseInt(String(d.sort||"").split("-")[3]||"0",10);if(nn)s+=Math.min(nn,99)/12;
   if(isFollow(d))s+=40;
   if(d.cat==="local"&&me.city&&d.city===me.city)s+=6;
   if(nearArea(d))s+=8;
@@ -1927,7 +1931,7 @@ document.addEventListener("click",async e=>{
   if(act==="follow"){const d=drops.find(x=>gkey(x)===key);if(me.follow[key]){delete me.follow[key];toast("Unfollowed")}else{me.follow[key]=Date.now();if(d)bump(d,6);toast("🔔 Following. New updates go to the top of your feed")}save();open?postView(open,false,true):feed();return}
   if(act==="call"){me.callSeen[key]=1;save();folds["deep:pred:"+key]=1;postView(key);setTimeout(()=>$("#pred")?.scrollIntoView({behavior:"smooth",block:"center"}),80);return}
   if(act==="savestreak"){const d=visible().find(x=>!me.done[x.id]&&me.quiz[x.id]==null&&(x.cards||[]).some(c=>c.k==="quiz"))||visible().find(x=>me.quiz[x.id]==null&&(x.cards||[]).some(c=>c.k==="quiz"));if(!d){toast("You've done every quick check today. New ones at 7am");return}if(me.skipq)delete me.skipq[d.id];postView(d.id);setTimeout(()=>$("#got")?.scrollIntoView({behavior:"smooth",block:"center"}),120);return}
-  if(act==="whyorder"){toast("Ranked by what you open, finish, vote on and follow. Read stories move down.");return}
+  if(act==="whyorder"){toast("Sorted by how new it is, how close to home it is (Hyderabad first), how many outlets report it, and how big it is. Stories you follow come first; ones you've read drop down.");return}
   if(act==="tip"){tipSheet();return}
   if(act==="cmmore"){cmMore=true;comments();return}
   if(act==="reply"){replyTo=replyTo===key?null:key;comments();setTimeout(()=>$("#rtext")?.focus(),30);return}
