@@ -1,0 +1,43 @@
+{
+ "city": "Mumbai",
+ "date": "2026-10-18",
+ "items": [
+  {
+   "area": "Navi Mumbai",
+   "icon": "🚆",
+   "src": "Central Railway (Free Press Journal)",
+   "text": "Sun block: no Panvel–Vashi locals 11:05 am–4:05 pm; Thane–Kalyan 5th/6th lines 9 am–1 pm."
+  },
+  {
+   "area": "Citywide",
+   "icon": "💧",
+   "src": "BMC (Free Press Journal)",
+   "text": "BMC's 10% water cut continues (20% for industry and commercial). Fix leaks, skip long showers."
+  },
+  {
+   "area": "Citywide",
+   "icon": "🎆",
+   "src": "Bombay High Court (Free Press Journal)",
+   "text": "Bombay HC: no bursting crackers on public roads, all year, all festivals. Use permitted private spaces."
+  },
+  {
+   "area": "Citywide",
+   "icon": "🌡️",
+   "src": "IMD (Free Press Journal)",
+   "text": "Santacruz stuck near 38°C after the monsoon's early exit. Carry water, avoid long midday walks."
+  },
+  {
+   "area": "Jogeshwari",
+   "icon": "🍞",
+   "src": "Maharashtra FDA (Free Press Journal)",
+   "text": "FDA suspended 29 food licences, incl. Sophia College canteen and Janata Bakery, Jogeshwari."
+  },
+  {
+   "area": "BKC",
+   "icon": "🛂",
+   "src": "Mumbai Metro (Free Press Journal)",
+   "text": "Aqua Line passport: collect stamps at 10 stations for ₹250. Limited stock, digital payment only."
+  }
+ ],
+ "kind": "area"
+}

@@ -1,0 +1,117 @@
+{
+ "areas": [
+  "Chorbagan",
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Pandal-hopping in the final days? Go at quieter hours, note the exits, and step back if a crowd feels too tight.",
+  "what": "A crowd crush at the Chorbagan Sarbojanin pandal killed at least 19 people. CM Suvendu Adhikari said 17 died on the spot.",
+  "why": "The cause is still being investigated. An eyewitness told The Statesman the entry and exit gates were both narrow."
+ },
+ "cards": [
+  {
+   "body": "The state also promised a government job to each family, ₹5 lakh to each injured person, and free treatment.",
+   "caption": "aid for each family that lost someone",
+   "k": "num",
+   "value": "₹25 lakh"
+  },
+  {
+   "body": "Of the 25 injured, 24 are out of danger and one is critical, the CM said. The injured were taken to Calcutta Medical College. The PMO asked the Chief Secretary for a report, which has been sent.",
+   "k": "tea",
+   "title": "Where things stand"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Pick the best pandal",
+    "Work out what caused the crush and who was responsible",
+    "Plan Puja metro timings",
+    "Decide immersion dates"
+   ],
+   "q": "What will a fact-finding committee mainly do here?",
+   "why": "The CM wants a team with STF and forensic experts to find out how the crush happened."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Go only at off-peak hours",
+    "Stick to smaller pujas",
+    "Skip crowded pandals",
+    "No change"
+   ],
+   "q": "Will this change your Puja plans?"
+  }
+ ],
+ "cat": "local",
+ "city": "Kolkata",
+ "cover": {
+  "bg": [
+   "#15181f",
+   "#55657f"
+  ],
+  "big": "19",
+  "label": "lives lost in Chorbagan pandal crush",
+  "motion": "drift",
+  "scene": [
+   "🕯️",
+   "🏮",
+   "🚑"
+  ]
+ },
+ "date": "2026-10-18",
+ "heat": 5,
+ "hook": "What happened at the *Chorbagan pandal* on Saptami night?",
+ "lead": "local",
+ "learn": {
+  "t": "The CM says he will ask the Calcutta High Court's Chief Justice for a fact-finding team with STF and forensic experts."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "👥",
+    "label": "Very heavy Saptami crowd"
+   },
+   {
+    "icon": "🚪",
+    "label": "Narrow entry and exit"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏥",
+    "label": "25 injured, one critical"
+   },
+   {
+    "icon": "🔍",
+    "label": "Fact-finding probe sought"
+   },
+   {
+    "icon": "💰",
+    "label": "Aid for families"
+   }
+  ],
+  "event": {
+   "icon": "⚠️",
+   "label": "Crowd crush at Chorbagan pandal"
+  }
+ },
+ "order": 90,
+ "readSecs": 50,
+ "sort": "2026-10-18-09",
+ "sources": [
+  {
+   "name": "The Statesman",
+   "title": "Stampede at Kolkata's Chorbagan Puja Pandal: 17 killed, around 25 injured",
+   "url": "https://www.thestatesman.com/india/stampede-at-kolkatas-chorbagan-puja-pandal-several-feared-dead-around-20-injured-1503652305.html"
+  },
+  {
+   "name": "Asianet Newsable (ANI)",
+   "title": "Kolkata Durga Puja stampede: 19 dead, 25 injured, says Suvendu Adhikari",
+   "url": "https://newsable.asianetnews.com/india/kolkata-durga-puja-stampede-19-dead-25-injured-says-suvendu-adhikari-articleshow-cxhg1gf"
+  }
+ ],
+ "thread": "kol-puja-safety",
+ "tldr": "At least 19 people died and 25 were hurt in a crowd crush at the Chorbagan Sarbojanin Durga Puja pandal on Saptami.",
+ "topic": "Pandal crowd crush"
+}

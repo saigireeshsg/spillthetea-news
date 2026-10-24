@@ -1,0 +1,114 @@
+{
+ "beats": {
+  "care": "If you order groceries in minutes, check expiry dates and seals on arrival. You can complain to FSSAI if something is off.",
+  "what": "Maharashtra's Food and Drug Administration suspended licences of five warehouses run by Reliance Retail, Reliance Consumer, Blinkit and Zomato Hyperpure.",
+  "why": "The FDA says expired, damaged or rejected food was sold on through middlemen instead of being destroyed, and found rats and cockroaches."
+ },
+ "cards": [
+  {
+   "body": "Seven teams raided warehouses and disposal centres in Bhiwandi, Ambernath and Khed on 14 and 15 October, after tip-offs gathered from 23 September to 5 October. The seized stock was worth about ₹48 lakh. The companies' responses were not reported.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "At its Pune-area warehouse, the FDA says the cold room was above 5°C, packets leaked, food sat on the floor and cockroaches were found.",
+   "k": "why",
+   "title": "what went wrong at blinkit's site?"
+  },
+  {
+   "body": "Hyperpure's invoices showed cheap sales to a Bengaluru 'disposal' buyer that investigators initially found did not appear to exist.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, I'll check every pack",
+    "No, still convenient",
+    "Only for fresh food"
+   ],
+   "q": "Will this change how you order?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Expired food was resold instead of destroyed",
+    "Prices were too high",
+    "Deliveries were too slow",
+    "Riders had no helmets"
+   ],
+   "q": "What was the FDA's main allegation?",
+   "why": "The FDA says food meant for destruction was routed back into the market through middlemen."
+  }
+ ],
+ "cat": "india",
+ "cover": {
+  "bg": [
+   "#1b1b1b",
+   "#ff7b00"
+  ],
+  "big": "8,392 kg",
+  "label": "Expired or damaged stock seized in raids",
+  "motion": "glitch",
+  "scene": [
+   "📦",
+   "🧪",
+   "🐀"
+  ]
+ },
+ "date": "2026-10-19",
+ "heat": 4,
+ "hook": "Expired food *back on sale*? Inside quick-delivery warehouse raids",
+ "learn": {
+  "t": "Only 5 of about 600 staff at one Blinkit warehouse held basic food-safety training certificates, the FDA says."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗑️",
+    "label": "Expired stock not destroyed"
+   },
+   {
+    "icon": "🔁",
+    "label": "Resold via middlemen, FDA says"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📦",
+    "label": "8,392 kg stock seized"
+   },
+   {
+    "icon": "🔍",
+    "label": "Disposal records under scrutiny"
+   }
+  ],
+  "event": {
+   "icon": "🚫",
+   "label": "Five warehouse licences suspended"
+  }
+ },
+ "order": 7,
+ "readSecs": 60,
+ "sort": "2026-10-19-92",
+ "sources": [
+  {
+   "name": "Vartha Bharati",
+   "title": "FDA suspends licences of warehouses of Reliance Consumer, Reliance Retail, Blinkit, Zomato Hyperpure",
+   "url": "https://english.varthabharati.in/india/fda-suspends-licences-of-warehouses-of-reliance-consumer-reliance-retail-blinkit-zomato-hyperpure-2283673"
+  },
+  {
+   "name": "The Hitavada",
+   "title": "FDA suspends licences of warehouses of Reliance Consumer, Reliance Retail, Blinkit, Zomato Hyperpure",
+   "url": "https://www.thehitavada.com/Encyc/2026/10/18/fda-suspends-licences-of-warehouses-of-reliance-consumer-reliance-retail-blinkit-zomato-hyperpure.html"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Reliance Retail faces FDA crackdown again; action also on Blinkit-linked facility",
+   "url": "https://telanganatoday.com/reliance-retail-faces-fda-crackdown-again-action-also-on-blinkit-linked-facility"
+  }
+ ],
+ "thread": "food-safety",
+ "tldr": "Maharashtra's food regulator suspended licences of five warehouses run by Reliance, Blinkit and Zomato Hyperpure over expired food it says was resold.",
+ "topic": "Quick-commerce food safety"
+}

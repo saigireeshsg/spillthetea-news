@@ -1,0 +1,101 @@
+{
+ "areas": [
+  "ITO",
+  "Yamuna ghats"
+ ],
+ "beats": {
+  "care": "Festival season means more offerings in the river. The CM asked people not to drop plastic or offerings.",
+  "what": "The drive covered 70 ghats and riverbank spots. Students, RWAs and NGOs joined CM Rekha Gupta and minister Parvesh Verma.",
+  "why": "Waste and drain water pollute the river. The government says sewage plants for drains are being built."
+ },
+ "cards": [
+  {
+   "body": "While cleaning, the CM found deities' clothes, broken idols and puja material, and asked people to stop leaving them in the river.",
+   "k": "tea",
+   "title": "What they found"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Visiting ghats",
+    "Leaving offerings and plastic in the river",
+    "Using the Metro",
+    "Swimming in Delhi"
+   ],
+   "q": "What did the CM ask people to stop doing?",
+   "why": "She asked people not to leave offerings or plastic in the Yamuna."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, sign me up",
+    "Maybe on a weekend",
+    "Not my thing",
+    "Already did"
+   ],
+   "q": "Would you join a river clean-up?"
+  },
+  {
+   "body": "Over ₹3,000 crore has been set aside for cleaning the Yamuna, a Union minister said earlier this month.",
+   "k": "twist"
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "date": "2026-10-19",
+ "heat": 2,
+ "hook": "What did volunteers *find in the Yamuna* on Sunday?",
+ "learn": {
+  "t": "You can sign up as a river volunteer on the government's 'Main Bhi Yamuna Prahari' app."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛍️",
+    "label": "Plastic and offerings dumped"
+   },
+   {
+    "icon": "🚰",
+    "label": "Untreated drains"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🙋",
+    "label": "Volunteers join in"
+   },
+   {
+    "icon": "🏗️",
+    "label": "Sewage plants being built"
+   }
+  ],
+  "event": {
+   "icon": "🧹",
+   "label": "Clean-up at 70 ghats"
+  }
+ },
+ "order": 58,
+ "readSecs": 35,
+ "sort": "2026-10-19-41",
+ "sources": [
+  {
+   "name": "ANI",
+   "title": "Delhi CM Gupta, Min Verma participate in Yamuna cleanliness drive",
+   "url": "https://aninews.in/news/national/general-news/delhi-cm-gupta-min-verma-participate-in-yamuna-cleanliness-drive20261018092438/"
+  },
+  {
+   "name": "SocialNews.xyz (IANS)",
+   "title": "'Chalo Yamuna Campaign': Mega cleanliness drive at 70 Delhi ghats, thousands offer 'Shramdaan'",
+   "url": "https://www.socialnews.xyz/2026/10/18/chalo-yamuna-campaign-mega-cleanliness-drive-at-70-delhi-ghats-thousands-offer-shramdaan/"
+  },
+  {
+   "name": "The Tribune",
+   "title": "Students join Yamuna clean-up campaign",
+   "url": "https://www.tribuneindia.com/news/delhi/students-join-yamuna-clean-up-campaign"
+  }
+ ],
+ "thread": "del-yamuna",
+ "tldr": "Students and volunteers cleaned 70 Yamuna ghats on Sunday in the 'Chalo Yamuna' drive, with the CM at Haathi Ghat near ITO.",
+ "topic": "Yamuna clean-up"
+}

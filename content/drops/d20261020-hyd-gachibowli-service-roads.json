@@ -1,0 +1,102 @@
+{
+ "areas": [
+  "Gachibowli",
+  "Kondapur",
+  "HITEC City",
+  "Madhapur"
+ ],
+ "beats": {
+  "care": "If you commute between Kondapur, Gachibowli and the Financial District, separate lanes should make the junction less of a crawl at peak hours.",
+  "what": "GHMC has completed service roads and underpasses along the Shilpa Layout flyover, also called PJR flyover phase 2, at Gachibowli junction.",
+  "why": "Pending land acquisition and drain shifting had kept the junction a bottleneck, with local and airport traffic crossing each other."
+ },
+ "cards": [
+  {
+   "body": "The roads link Gachibowli, Kondapur and the Financial District and give access towards the Outer Ring Road. They were built under the city's Strategic Road Development Plan. Officials gave no exact opening date.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Cars rushing to the airport on the ORR move fast, while local traffic stops and turns. When they share lanes, every turn slows everyone behind.",
+   "k": "why",
+   "title": "why separate airport traffic?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "More flyovers",
+    "Better metro and buses",
+    "Work from home days"
+   ],
+   "q": "What would fix your daily commute most?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "They keep local and fast traffic apart",
+    "They charge a toll",
+    "They add traffic lights",
+    "They close the flyover"
+   ],
+   "q": "How do service roads help a busy junction?",
+   "why": "Splitting slow local traffic from fast through-traffic stops them from blocking each other."
+  },
+  {
+   "by": "31 Oct",
+   "k": "predict",
+   "opts": [
+    "Yes, open by then",
+    "No, later"
+   ],
+   "q": "Will the service roads open by 31 Oct?"
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-20",
+ "heat": 3,
+ "hook": "Stuck daily at *Gachibowli junction*? Relief is almost ready.",
+ "learn": {
+  "t": "Service roads run alongside a flyover so local vehicles stay off the fast lanes, cutting the crossing that causes most jams."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚗",
+    "label": "IT traffic to ORR"
+   },
+   {
+    "icon": "🚧",
+    "label": "Delays over land, drains"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🔀",
+    "label": "Local, airport traffic split"
+   },
+   {
+    "icon": "⏱️",
+    "label": "Shorter junction waits"
+   }
+  ],
+  "event": {
+   "icon": "🛣️",
+   "label": "Shilpa Layout service roads done"
+  }
+ },
+ "order": 7,
+ "readSecs": 45,
+ "sort": "2026-10-20-92",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Shilpa Layout flyover service roads at Gachibowli ready to open",
+   "url": "https://telanganatoday.com/shilpa-layout-flyover-service-roads-at-gachibowli-ready-to-open"
+  }
+ ],
+ "thread": "hyd-commute",
+ "tldr": "GHMC has finished the service roads and underpasses beside the Shilpa Layout flyover at Gachibowli junction, and officials say they will open to traffic soon.",
+ "topic": "Gachibowli service roads"
+}

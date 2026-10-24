@@ -1,0 +1,43 @@
+{
+ "city": "Kolkata",
+ "date": "2026-10-18",
+ "items": [
+  {
+   "area": "Citywide",
+   "icon": "🚇",
+   "src": "Kolkata Metro (Business Today)",
+   "text": "Puja Metro till Oct 20: Blue Line 1 pm–4 am, Green 1:30 pm–3:59 am. No Orange Line service."
+  },
+  {
+   "area": "Ballygunge",
+   "icon": "⛔",
+   "src": "Kolkata Police (ETV Bharat)",
+   "text": "Entry paused at Tala Pratyay, Chetla Agrani, Ballygunge, Salt Lake pujas after Saturday's crush. Check first."
+  },
+  {
+   "area": "Citywide",
+   "icon": "🧭",
+   "src": "Kolkata Police (The Statesman)",
+   "text": "Ten police help vans with women constables patrol pandals till Dashami to find lost kids and elders."
+  },
+  {
+   "area": "Gariahat",
+   "icon": "🏍️",
+   "src": "Millennium Post",
+   "text": "Bikes skidded on freshly painted Chingrighata flyover. Slow down on painted roads when wet."
+  },
+  {
+   "area": "New Town",
+   "icon": "🚌",
+   "src": "WBTC (Millennium Post)",
+   "text": "New AC-59 bus: Bagkhal–Karunamoyee via Dakshineswar, Airport, New Town. Leaves Bagkhal 8:30, 9 am."
+  },
+  {
+   "area": "Citywide",
+   "icon": "☀️",
+   "src": "IMD Kolkata",
+   "text": "Mostly clear skies till Oct 23, highs near 31–32°C. Carry water while pandal-hopping."
+  }
+ ],
+ "kind": "area"
+}

@@ -1,0 +1,117 @@
+{
+ "beats": {
+  "care": "Blanket age bans on going online now face a high bar in India. Expect child modes, private-by-default accounts and stricter limits on strangers messaging teens.",
+  "what": "On 15 October, Justices Pardiwala and Vinod Chandran ruled that every child has a fundamental right to access and use the internet.",
+  "why": "The case was about platforms failing to remove child sexual abuse material. The court said punish the abusers and platforms, not the children."
+ },
+ "cards": [
+  {
+   "body": "The court said keeping children offline would be to mistake the victim for the problem. It still allows targeted limits, like blocking adult sites, parental supervision and a dedicated child mode on social media.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Flagged abuse content must be checked by at least three trained human reviewers, matches to a known database removed at once, and reporting made possible in two steps. Big repeat offenders could face heavy fines.",
+   "k": "why",
+   "title": "what must platforms do now?"
+  },
+  {
+   "body": "Nobody asked the court to declare an internet right. The plea, by an NGO, was about platforms not removing child abuse material since a 2024 ruling.",
+   "k": "twist"
+  },
+  {
+   "body": "The Centre must report on a national database of abuse content, school lessons on digital safety and support for victims.",
+   "caption": "Next hearing",
+   "k": "num",
+   "value": "10 Dec"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, ban it",
+    "No, use child modes",
+    "Parents should decide"
+   ],
+   "q": "Should under-16s be kept off social media?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Target harmful content and offenders, not kids' access",
+    "Ban under-18s from the internet",
+    "Leave it all to apps",
+    "Shut social media"
+   ],
+   "q": "According to the Supreme Court, how should kids be protected online?",
+   "why": "The court said blanket bans punish the victim; the fix is going after harmful material and the people and platforms behind it."
+  }
+ ],
+ "cat": "india",
+ "cover": {
+  "bg": [
+   "#0b1e3f",
+   "#00b4d8"
+  ],
+  "big": "Art 21",
+  "label": "Right to life now covers kids going online",
+  "motion": "pulse",
+  "scene": [
+   "📱",
+   "⚖️",
+   "🧒"
+  ]
+ },
+ "date": "2026-10-18",
+ "heat": 5,
+ "hook": "Can anyone ban you from the internet *for your own safety*? SC says no",
+ "lead": "india",
+ "learn": {
+  "t": "The court read the right from Article 21, the right to life, together with Article 19(1)(a), the right to free speech."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚠️",
+    "label": "Child abuse content stays online"
+   },
+   {
+    "icon": "🐢",
+    "label": "No progress in two years"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚫",
+    "label": "Blanket bans called disproportionate"
+   },
+   {
+    "icon": "🗂️",
+    "label": "National database for abuse content"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "SC: internet is kids' right too"
+  }
+ },
+ "order": 2,
+ "readSecs": 60,
+ "sort": "2026-10-18-97",
+ "sources": [
+  {
+   "name": "Bar & Bench",
+   "title": "Children too have fundamental right to access internet; can't deny it citing online harm: Supreme Court",
+   "url": "https://www.barandbench.com/news/litigation/children-too-have-fundamental-right-to-access-internet-cant-deny-it-citing-online-harm-supreme-court"
+  },
+  {
+   "name": "The Federal",
+   "title": "SC says children have a fundamental right to internet access",
+   "url": "https://thefederal.com/category/news/sc-says-children-have-a-fundamental-right-to-internet-access-259858"
+  }
+ ],
+ "thread": "kids-online-safety",
+ "tldr": "The Supreme Court says children have a fundamental right to use the internet, and safety fears can't justify cutting them off.",
+ "topic": "Kids' internet right",
+ "watch": "The Centre must file a progress report on its steps before the next hearing on 10 December."
+}

@@ -1,0 +1,101 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Parents and grandparents are prime targets. Tell them real police never arrest anyone on a video call or ask for money transfers.",
+  "what": "Scammers posing as CBI officers video-called a 72-year-old woman in Nampally and got her to transfer ₹2.20 crore as so-called security deposits.",
+  "why": "They claimed a parcel with drugs was booked in her name, showed a fake arrest warrant, and kept her scared until she paid."
+ },
+ "cards": [
+  {
+   "body": "It's a scam, not a law. Fraudsters pose as police, CBI or customs, accuse you of a crime, and keep you on a video call for hours so you can't check with anyone. Then they demand money to 'clear your name'.",
+   "k": "why",
+   "title": "what is a 'digital arrest'?"
+  },
+  {
+   "body": "Hyderabad City Police issued a public advisory against digital arrest calls this week. If you're targeted, hang up and report at 1930 or cybercrime.gov.in. Reporting fast gives the best chance of freezing the money.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "The scammers called the transfers 'security deposits', making a theft sound like an official legal step.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, already",
+    "Will do today",
+    "They already know",
+    "First I've heard of it"
+   ],
+   "q": "Have you warned your family about digital arrest scams?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "'Officers' demand money on a video call",
+    "A friend calls to chat",
+    "Your bank sends an OTP you requested",
+    "A parcel arrives on time"
+   ],
+   "q": "What's the biggest red flag in a 'digital arrest' call?",
+   "why": "Real agencies never arrest you or collect money over a video call, so that demand means it's a scam."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "concept": "scams",
+ "date": "2026-10-17",
+ "heat": 3,
+ "hook": "A video call, a fake CBI officer, *₹2.20 crore gone*. Spot the trick",
+ "learn": {
+  "t": "'Digital arrest' isn't a real legal process: no police or agency arrests you or collects money over a video call."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📹",
+    "label": "Fake CBI video call"
+   },
+   {
+    "icon": "📦",
+    "label": "False drugs parcel claim"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚔",
+    "label": "Police warn about digital arrests"
+   },
+   {
+    "icon": "📞",
+    "label": "Report fast on 1930"
+   }
+  ],
+  "event": {
+   "icon": "💸",
+   "label": "Woman loses ₹2.20 crore"
+  }
+ },
+ "order": 12,
+ "readSecs": 50,
+ "sort": "2026-10-17-87",
+ "sources": [
+  {
+   "name": "UNI India",
+   "title": "Hyderabad Woman Loses Rs 2.20 Crore in Digital Arrest",
+   "url": "https://www.uniindia.com/south-india/crime-telangana-digital-arrest/214034"
+  },
+  {
+   "name": "NewsBytes",
+   "title": "Hyderabad woman loses ₹2.20cr in fake CBI video call scam",
+   "url": "https://www.newsbytesapp.com/news/india/hyderabad-woman-loses-rs220cr-in-fake-cbi-video-call-scam/tldr"
+  }
+ ],
+ "thread": "hyd-cyber-scams",
+ "tldr": "A 72-year-old Hyderabad woman lost ₹2.20 crore after fake 'CBI officers' on a video call threatened her with arrest.",
+ "topic": "Digital arrest scam"
+}

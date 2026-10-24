@@ -1,0 +1,131 @@
+{
+ "beats": {
+  "care": "Global fuel prices shape your bus fares and food bills. The tariff fight also affects Indian jobs that depend on selling goods to America.",
+  "what": "The US has allowed Russian diesel back onto world markets until April 2027, after a deal between Trump and Putin to cool fuel prices.",
+  "why": "The Hindu's editorial calls this double standards, because the US hit India with an extra tariff for buying Russian oil."
+ },
+ "cards": [
+  {
+   "body": "The editorial recalls that Washington accused India of funding Russia's war through oil purchases and slapped an extra 25% tariff on Indian goods. Now, with diesel at record prices, the US itself has opened the door to Russian diesel. It argues sanctions haven't worked as planned, and that the rules bend when American voters feel the pain.",
+   "k": "edit",
+   "kind": "Editorial · 16 Oct",
+   "paper": "The Hindu",
+   "title": "Double standards",
+   "verdict": "Bottom line: the US can't lecture India on Russian energy while making exceptions for itself."
+  },
+  {
+   "body": "Russia released over 300,000 tonnes of diesel right away, with 500,000 more planned for November. The first tanker, carrying about 40,000 tonnes, left a Baltic port for Morocco. The Kremlin says it will help calm oil markets, but not fully.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Sanctions are rules that block trade with a country to pressure it. A waiver, or licence, is a temporary exception. Here the US Treasury allowed deals in Russian diesel until 7 April 2027, while other Russia sanctions stay in place.",
+   "k": "why",
+   "title": "what's a sanctions waiver?"
+  },
+  {
+   "body": "Just weeks earlier, Trump signed a law that allows tariffs of up to 100% on countries that buy Russian oil or gas, including India.",
+   "k": "twist"
+  },
+  {
+   "a": {
+    "body": "The US punished India for the very trade it now allows for itself, which weakens its case against Indian oil purchases.",
+    "label": "The Hindu says"
+   },
+   "b": {
+    "body": "Diesel prices are at records and hurting families everywhere. Extra supply is a short-term fix, and other sanctions on Russia stay.",
+    "label": "Supporters of the waiver say"
+   },
+   "k": "sides",
+   "title": "Fair fix or hypocrisy?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, cheapest oil wins",
+    "No, avoid US tariffs",
+    "Buy less, slowly"
+   ],
+   "q": "Should India keep buying Russian oil?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It punished India for Russian oil, then made its own exception",
+    "The US banned all Russian oil",
+    "India stopped buying from Russia",
+    "Russia refused to sell diesel"
+   ],
+   "q": "Why does The Hindu call the US diesel move 'double standards'?",
+   "why": "The US penalised India's Russian oil trade, but eased its own rules on Russian diesel when fuel prices spiked."
+  }
+ ],
+ "cat": "edit",
+ "date": "2026-10-17",
+ "editorial": {
+  "paper": "The Hindu",
+  "title": "Double standards"
+ },
+ "featured": true,
+ "heat": 3,
+ "hook": "US punished India for Russian oil. Now it's *easing Russian diesel*?",
+ "learn": {
+  "t": "In 2025 the US added an extra 25% tariff on Indian goods as a penalty for buying Russian oil."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⛽",
+    "label": "Record global diesel prices"
+   },
+   {
+    "icon": "🤝",
+    "label": "Trump–Putin diesel deal"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📰",
+    "label": "Hindu calls it double standards"
+   },
+   {
+    "icon": "🇺🇦",
+    "label": "Ukraine, Europe object"
+   }
+  ],
+  "event": {
+   "icon": "🇺🇸",
+   "label": "US eases Russian diesel sanctions"
+  }
+ },
+ "order": 1,
+ "readSecs": 75,
+ "sort": "2026-10-17-98",
+ "sources": [
+  {
+   "name": "Editorialwords (summary of The Hindu editorial)",
+   "title": "The Hindu Editorial (Double standards) – Oct 16, 2026",
+   "url": "https://www.editorialwords.com/the-hindu-editorial-double-standards-oct-16-2026/"
+  },
+  {
+   "name": "SuperKalam (summary of The Hindu)",
+   "title": "Double Standards",
+   "url": "https://superkalam.com/current-affairs/16-10-2026/double-standards-pg8-600edecd-e6fa-42ef-a6cf-e18bc1060d29"
+  },
+  {
+   "name": "The Moscow Times",
+   "title": "Kremlin Says Russia Restarts Diesel Exports After Deal With Trump",
+   "url": "https://www.themoscowtimes.com/2026/10/15/kremlin-says-russia-restarts-diesel-exports-after-deal-with-trump-a93977"
+  },
+  {
+   "name": "Outlook India",
+   "title": "Trump Signs Russia Sanctions Bill, India And China Face 100% Tariff Threat",
+   "url": "https://www.outlookindia.com/international/trump-signs-russia-sanctions-bill-india-and-china-face-100-tariff-threat"
+  }
+ ],
+ "thread": "russian-diesel",
+ "tldr": "The Hindu says the US punished India for buying Russian oil, then eased its own rules on Russian diesel once fuel got expensive.",
+ "topic": "Sanctions double standards",
+ "watch": "Russia plans to send another 500,000 tonnes of diesel in November. The US waiver runs until 7 April 2027."
+}

@@ -1,0 +1,83 @@
+{
+ "beats": {
+  "care": "UoH ranked third among central universities, after BHU and Delhi University. Big W if you're eyeing research in Hyderabad.",
+  "what": "Thirty-one University of Hyderabad researchers made the 2026 Stanford and Elsevier list, often called the world's top two percent scientists.",
+  "why": "The list is built from how often other researchers cite their work, across 174 subject areas."
+ },
+ "cards": [
+  {
+   "body": "Nine names come from chemistry and nine from life sciences. Computer science has four, physics three. The list uses Scopus citation data across 20 broad fields.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Two of the 31 are from English, a humanities subject, on a list dominated by science.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, it shows quality",
+    "No, placements matter more",
+    "Depends on the course"
+   ],
+   "q": "Would you pick a college for its research ranking?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Other scientists cite their work a lot",
+    "They won a Nobel Prize",
+    "They have the most students",
+    "They earn the highest salaries"
+   ],
+   "q": "What does making this list mostly show?",
+   "why": "Being cited often means other researchers build on your work, a sign of influence."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-12",
+ "heat": 2,
+ "hook": "31 Hyderabad researchers made a *world's top 2%* list. What does that mean?",
+ "map": {
+  "causes": [
+   {
+    "icon": "📚",
+    "label": "Highly cited research"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🥉",
+    "label": "3rd among central universities"
+   },
+   {
+    "icon": "🧪",
+    "label": "Chemistry, life sciences lead"
+   }
+  ],
+  "event": {
+   "icon": "🏅",
+   "label": "31 UoH names on global list"
+  }
+ },
+ "order": 10,
+ "readSecs": 35,
+ "sort": "2026-10-12-89",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "31 UoH researchers feature in Stanford-Elsevier world's top 2 pc scientists list",
+   "url": "https://telanganatoday.com/31-uoh-researchers-feature-in-stanford-elsevier-worlds-top-2-pc-scientists-list"
+  },
+  {
+   "name": "Siasat",
+   "title": "31 UoH researchers in 'world's top 2 pc scientists' list",
+   "url": "https://www.siasat.com/31-uoh-researchers-in-worlds-top-2-pc-scientists-list-3556098/"
+  }
+ ],
+ "tldr": "31 University of Hyderabad researchers made the 2026 Stanford–Elsevier 'top 2% scientists' list.",
+ "topic": "UoH top scientists"
+}

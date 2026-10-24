@@ -1,0 +1,95 @@
+{
+ "areas": [
+  "Golconda"
+ ],
+ "beats": {
+  "care": "This was meant to tell Hyderabad's story from Golconda to today. Weekend visitors get two parking lots, one ticket counter and confusion.",
+  "what": "The interpretation centre at the Qutb Shahi Tombs is nearly done, but a court order stopped work. Rain water now damages it.",
+  "why": "A small group has filed 90 cases over land title. ₹26.29 crore under the Swadesh Darshan scheme is stuck."
+ },
+ "cards": [
+  {
+   "body": "The state signed an MoU with the Aga Khan Trust for Culture in February to set up a trust to run the site, but no funds have been released.",
+   "k": "tea"
+  },
+  {
+   "body": "₹70.61 crore has been released and spent.",
+   "caption": "Project sanctioned in 2017-18",
+   "k": "num",
+   "value": "₹96.9 cr"
+  },
+  {
+   "body": "Signboards for a café and a 'World Heritage Gallery' are already up inside the unfinished building.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes",
+    "Not yet",
+    "Didn't know about it"
+   ],
+   "q": "Have you visited the Qutb Shahi Tombs?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Court cases over land title",
+    "Lack of visitors",
+    "Earthquake damage",
+    "It was finished"
+   ],
+   "q": "Why has work on the interpretation centre stopped?",
+   "why": "Ninety court cases and a sub judice title dispute have stalled the project."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-24",
+ "heat": 2,
+ "hook": "Hyderabad's Qutb Shahi Tombs: *90 court cases* stall a museum",
+ "learn": {
+  "t": "The Qutb Shahis ruled from Golconda from 1518 to 1687 and founded Hyderabad; Charminar was built in 1591."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚖️",
+    "label": "90 court cases"
+   },
+   {
+    "icon": "💰",
+    "label": "₹26 crore not released"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💧",
+    "label": "Half-built centre getting damaged"
+   },
+   {
+    "icon": "😵",
+    "label": "Confusing visitor experience"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "Museum work stopped"
+  }
+ },
+ "order": 17,
+ "readSecs": 55,
+ "sort": "2026-10-24-82",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Qutb Shahi Tombs await a way out of legal maze (print, Hyderabad edition, 24 Oct, p.4)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "thread": "hyd-heritage",
+ "tldr": "A half-built interpretation centre at the 400-year-old Qutb Shahi Tombs is decaying while 90 court cases and stuck funds hold it up.",
+ "topic": "Qutb Shahi Tombs project",
+ "watch": "Watch whether the state releases funds for the management trust and the courts settle the title dispute."
+}

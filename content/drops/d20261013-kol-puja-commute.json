@@ -1,0 +1,120 @@
+{
+ "areas": [
+  "Citywide",
+  "Kalighat",
+  "Baghbazar",
+  "Salt Lake"
+ ],
+ "beats": {
+  "care": "Take Metro at night, not cabs. On Panchami and Shashthi, Blue and Green Lines run 6 am to 11 pm.",
+  "what": "Police restrict goods vehicles for set hours on Puja days, Oct 13–19. Parking and drop-offs are banned on notified roads.",
+  "why": "Huge crowds move between pandals late at night. Police and Metro want crowds and roads moving."
+ },
+ "cards": [
+  {
+   "body": "Metro will run Blue and Green Line trains from 1 pm to 4 am on Oct 17, 18 and 19.",
+   "caption": "Blue Line peak gap, Saptami–Navami",
+   "k": "num",
+   "value": "6 min"
+  },
+  {
+   "body": "Kalighat gets special curbs on Oct 18 and 20. Roads to Baghbazar and Nimtala ghats have no-parking rules on Oct 18. Immersion curbs run Oct 20–24.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Idol-carrying trucks can't use the AJC Bose Road flyover or Maa flyover on immersion days.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Metro till 4 am",
+    "Walk the north",
+    "Cab and pray",
+    "Stay home, watch reels"
+   ],
+   "q": "Your Puja night plan?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Blue and Green",
+    "Orange and Purple",
+    "Only Yellow",
+    "All lines"
+   ],
+   "q": "Which Metro lines run till 4 am on Saptami to Navami?",
+   "why": "Only the Blue and Green Lines get night-long service; Orange is shut Oct 17–21."
+  }
+ ],
+ "cat": "local",
+ "city": "Kolkata",
+ "cover": {
+  "bg": [
+   "#2a0a12",
+   "#ff4d6d"
+  ],
+  "big": "4 am",
+  "label": "Last Metro on Saptami to Navami",
+  "motion": "drift",
+  "scene": [
+   "🪔",
+   "🚇",
+   "🌙"
+  ]
+ },
+ "date": "2026-10-13",
+ "heat": 4,
+ "hook": "Pandal-hopping till dawn? *Metro runs till 4 am* this Puja",
+ "lead": "local",
+ "learn": {
+  "t": "The Orange Line will run no trains from October 17 to 21, Metro Railway says."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Durga Puja crowds"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚇",
+    "label": "Night Metro Oct 17–19"
+   },
+   {
+    "icon": "🚚",
+    "label": "Goods vehicles restricted"
+   },
+   {
+    "icon": "🅿️",
+    "label": "No-parking stretches"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "Police curbs, extended Metro"
+  }
+ },
+ "order": 84,
+ "readSecs": 50,
+ "sort": "2026-10-13-15",
+ "sources": [
+  {
+   "name": "Millennium Post",
+   "title": "Kolkata Police announce road closures, vehicle curbs for Puja",
+   "url": "https://www.millenniumpost.in/bengal/kolkata-police-announce-road-closures-vehicle-curbs-for-puja-678555"
+  },
+  {
+   "name": "The Statesman",
+   "title": "Pandal hoppers rejoice! Kolkata Metro to run night-long services on peak Durga Puja days",
+   "url": "https://www.thestatesman.com/cities/kolkata/pandal-hoppers-rejoice-kolkata-metro-to-run-night-long-services-on-peak-durga-puja-days-1503648614.html"
+  }
+ ],
+ "thread": "kol-commute",
+ "tldr": "Kolkata Police's Puja traffic curbs run Oct 13–19, and Metro's Blue and Green Lines go till 4 am on Saptami to Navami.",
+ "topic": "Puja commute rules",
+ "watch": "Night-long Metro on Blue and Green Lines runs Oct 17–19, 1 pm to 4 am; immersion curbs start Oct 20."
+}

@@ -1,0 +1,90 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "If you're in school, the break is meant for rest after exams. Lowkey, burnt-out students don't learn better.",
+  "what": "Several Hyderabad schools gave students large holiday homework, and some declared the break from 11 to 21 October instead of 10 to 22.",
+  "why": "A parent told Siasat the homework is spoiling the holidays, turning the break into home-schooling just after SA1 exams."
+ },
+ "cards": [
+  {
+   "body": "SA1 exams were held before the break, with results expected after schools reopen. Class 10 pre-finals must finish before 28 February, and SSC board exams are in March 2027. The schools involved were not named.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Ban it",
+    "A little is fine",
+    "Keeps us sharp"
+   ],
+   "q": "Holiday homework: yay or nay?"
+  },
+  {
+   "body": "The state's academic calendar sets the dates. The report says some schools declared fewer days, but it did not say whether officials have acted on this.",
+   "k": "why",
+   "title": "can a school shorten the holiday?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Homework eats into a rest break after exams",
+    "Schools added extra holidays",
+    "Exams were cancelled",
+    "Fees went up"
+   ],
+   "q": "Why are parents upset?",
+   "why": "The Dasara break comes right after SA1 exams and is meant for rest, not more schoolwork."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-20",
+ "heat": 2,
+ "hook": "13-day Dasara break… *with a pile of homework*? Parents aren't happy.",
+ "learn": {
+  "t": "Telangana's school calendar fixes a 13-day Dasara holiday, 10 to 22 October, with schools reopening on 23 October."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📝",
+    "label": "Heavy holiday assignments"
+   },
+   {
+    "icon": "✂️",
+    "label": "Some cut break short"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "😮‍💨",
+    "label": "Less rest for students"
+   },
+   {
+    "icon": "👪",
+    "label": "Parents doing extra work"
+   }
+  ],
+  "event": {
+   "icon": "🏫",
+   "label": "Parents push back"
+  }
+ },
+ "order": 12,
+ "readSecs": 40,
+ "sort": "2026-10-20-87",
+ "sources": [
+  {
+   "name": "The Siasat Daily",
+   "title": "Hyderabad schools spoil students' Dasara holidays with homework",
+   "url": "https://www.siasat.com/hyderabad-schools-spoil-students-dasara-holidays-with-homework-3560358/"
+  }
+ ],
+ "tldr": "Parents say several Hyderabad schools loaded students with homework over the Dasara break, and some cut the official 13-day holiday to 11 days.",
+ "topic": "Dasara holiday homework",
+ "watch": "Schools reopen on 23 Oct, and SA1 results are expected after the break."
+}

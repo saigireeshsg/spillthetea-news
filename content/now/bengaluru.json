@@ -1,0 +1,19 @@
+{
+ "city": "Bengaluru",
+ "cond": "Overcast, drizzle",
+ "high": 28,
+ "icon": "🌦️",
+ "rain": "IMD: isolated heavy rain in region till Oct 24",
+ "src": [
+  {
+   "name": "The Bengaluru Live (IMD)",
+   "url": "https://thebengalurulive.com/imd-forecasts-isolated-heavy-rain-in-south-interior-karnataka-from-october-21-to-24/"
+  },
+  {
+   "name": "LatestLY forecast",
+   "url": "https://www.latestly.com/india/news/bengaluru-weather-forecast-update-for-today-wednesday-21-october-2026-expect-overcast-skies-and-drizzle-high-of-28c-7651279.html"
+  }
+ ],
+ "tip": "Carry an umbrella today",
+ "ts": 1792563700000
+}

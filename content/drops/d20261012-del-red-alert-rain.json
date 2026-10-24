@@ -1,0 +1,120 @@
+{
+ "areas": [
+  "RK Puram",
+  "Karol Bagh",
+  "Kartavya Path",
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Check traffic before leaving, avoid flooded underpasses, and keep extra time for cabs and buses.",
+  "what": "Safdarjung logged 40 mm of rain by 5:30 am Monday. IMD warned of lightning and gusty winds around 60 km/h.",
+  "why": "The red alert covered all 11 districts, with heavy spells of over 15 mm an hour possible."
+ },
+ "cards": [
+  {
+   "body": "CPCB's 'Satisfactory' band, as the rain washed pollutants out of the air.",
+   "caption": "Delhi AQI, 7 am Monday",
+   "k": "num",
+   "value": "93"
+  },
+  {
+   "body": "Waterlogging hit areas near Jhandewalan temple in Karol Bagh and low-lying stretches. Noida, Ghaziabad, Gurugram and Faridabad also got heavy rain. IMD advised avoiding unnecessary travel.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Highs dipped only 1–2°C. Maximums are still around 30–32°C, so expect muggy weather between spells.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Stuck in traffic",
+    "WFH saved me",
+    "Metro, no stress",
+    "Loved the weather"
+   ],
+   "q": "How did the rain hit your Monday?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Take action: severe weather likely",
+    "Weather is normal",
+    "Only light drizzle expected",
+    "Air quality is very poor"
+   ],
+   "q": "What does an IMD 'red alert' mean?",
+   "why": "Red is IMD's highest warning level, telling people to take action against severe weather."
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "cover": {
+  "bg": [
+   "#0b1a2e",
+   "#2f80ff"
+  ],
+  "big": "40 mm",
+  "label": "Rain at Safdarjung by 5:30 am Monday",
+  "motion": "fall",
+  "scene": [
+   "⛈️",
+   "🚗",
+   "💧"
+  ]
+ },
+ "date": "2026-10-12",
+ "heat": 4,
+ "hook": "A *red alert* for rain in mid-October? Delhi woke up to one",
+ "lead": "local",
+ "learn": {
+  "t": "The rain pulled Delhi's AQI down to 93, in CPCB's 'Satisfactory' band, in mid-October."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌩️",
+    "label": "Thunderstorm spell"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🌊",
+    "label": "Waterlogging near Jhandewalan"
+   },
+   {
+    "icon": "🚦",
+    "label": "Slow traffic, underpasses"
+   },
+   {
+    "icon": "🍃",
+    "label": "AQI dips to 93"
+   }
+  ],
+  "event": {
+   "icon": "⛈️",
+   "label": "IMD red alert for Delhi"
+  }
+ },
+ "order": 88,
+ "readSecs": 40,
+ "sort": "2026-10-12-11",
+ "sources": [
+  {
+   "name": "ETV Bharat",
+   "title": "Delhi Wakes Up To Heavy Rain, Thunderstorm; IMD Issues Red Alert for Capital",
+   "url": "https://etvbharat.com/en/bharat/delhi-wakes-up-to-heavy-rain-thunderstorm-imd-issues-red-alert-for-capital-enn26101201959"
+  },
+  {
+   "name": "The Week",
+   "title": "IMD weather update: Red alert in Delhi, heavy rainfall forecast until Friday",
+   "url": "https://www.theweek.in/news/india/2026/10/12/imd-weather-update-red-alert-in-delhi-heavy-rainfall-forecast-until-friday.amp.html"
+  }
+ ],
+ "thread": "del-weather",
+ "tldr": "IMD put Delhi on red alert on Monday as heavy rain and thunderstorms caused waterlogging and slow traffic.",
+ "topic": "Delhi red alert",
+ "watch": "IMD expects scattered rain till October 15, with gusts up to 60 km/h on Tuesday."
+}

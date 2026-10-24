@@ -1,0 +1,112 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Cooking in a shared flat or hostel? You can buy up to 5 kg each at Amutham and cooperative stores.",
+  "what": "Ministers P Venkataramanan and V Gandhiraj launched ₹30/kg fine rice on Saturday at 11 Amutham and 19 cooperative stores in Chennai.",
+  "why": "The government wants to ease grocery bills. It plans to sell toor dal at ₹130 a kg too, against ₹170–190 outside."
+ },
+ "cards": [
+  {
+   "body": "Each consumer or family member can buy up to 5 kg of the ₹30 rice.",
+   "caption": "limit per consumer",
+   "k": "num",
+   "value": "5 kg"
+  },
+  {
+   "body": "Toor dal sells for ₹170–190 a kg in the open market. The state is looking at selling it for ₹130 at cooperative stores, with a launch expected within days.",
+   "k": "tea",
+   "title": "Dal next?"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "To close private shops",
+    "To sell at a lower price than the open market",
+    "To export rice",
+    "To test new rice types"
+   ],
+   "q": "Why does the state sell rice through its own cooperative stores?",
+   "why": "Selling bought stock through state stores lets it offer rice and dal below open-market prices."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, already going",
+    "Maybe on a weekend",
+    "Only if it's near me",
+    "Nah, I eat out"
+   ],
+   "q": "Would you queue for ₹30 rice?"
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "cover": {
+  "bg": [
+   "#2b1d0e",
+   "#f4a259"
+  ],
+  "big": "₹30/kg",
+  "label": "fine rice at Chennai co-op stores",
+  "motion": "fall",
+  "scene": [
+   "🍚",
+   "🏪",
+   "🧾"
+  ]
+ },
+ "date": "2026-10-18",
+ "heat": 4,
+ "hook": "Where can you buy *fine rice for ₹30 a kg* in Chennai?",
+ "lead": "local",
+ "learn": {
+  "t": "The state bought 25,000 tonnes of rice to sell through 250 cooperative stores across Tamil Nadu."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🫘",
+    "label": "₹170–190 dal outside"
+   },
+   {
+    "icon": "🌾",
+    "label": "25,000 tonnes procured"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏪",
+    "label": "30 Chennai outlets"
+   },
+   {
+    "icon": "🗺️",
+    "label": "Statewide from Sunday"
+   },
+   {
+    "icon": "🫘",
+    "label": "Cheaper toor dal next"
+   }
+  ],
+  "event": {
+   "icon": "🍚",
+   "label": "₹30/kg rice at co-ops"
+  }
+ },
+ "order": 83,
+ "readSecs": 40,
+ "sort": "2026-10-18-16",
+ "sources": [
+  {
+   "name": "DT Next",
+   "title": "Fine rice at Rs 30/kg launched in 30 locations in Chennai",
+   "url": "https://www.dtnext.in/news/chennai/fine-rice-at-rs-30kg-launched-in-30-locations-in-chennai"
+  }
+ ],
+ "thread": "che-prices",
+ "tldr": "Tamil Nadu has started selling fine-quality rice at ₹30 a kg at 30 outlets in Chennai, with a 5 kg limit per person.",
+ "topic": "₹30 fine rice",
+ "watch": "The scheme was set to extend beyond Chennai to cooperative stores statewide from Sunday, October 18."
+}

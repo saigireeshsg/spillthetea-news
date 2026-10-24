@@ -1,0 +1,43 @@
+{
+ "city": "Hyderabad",
+ "date": "2026-10-18",
+ "items": [
+  {
+   "area": "Necklace Road",
+   "icon": "🌸",
+   "src": "HMDA / Hyderabad Traffic Police",
+   "text": "Bathukamma Carnival at Tank Bund from 6 pm Sun. Avoid Upper Tank Bund & Necklace Road 2–11 pm."
+  },
+  {
+   "area": "Gachibowli",
+   "icon": "💧",
+   "src": "HMWSSB (Telangana Today)",
+   "text": "Singur reservoir is at 3.7 of 29.9 TMC; water board is cutting bulk supply. IT corridor: store water."
+  },
+  {
+   "area": "Citywide",
+   "icon": "🎫",
+   "src": "Telangana Transport Minister (The Hans India)",
+   "text": "Metro + RTC common pass (₹400/day, ₹8,500/month) is under review. Do your math before buying."
+  },
+  {
+   "area": "Citywide",
+   "icon": "⚠️",
+   "src": "Hyderabad Police (Siasat)",
+   "text": "Unknown WhatsApp 'money debited, reply NO' text? Don't reply. Block it. Cheated? Call 1930 fast."
+  },
+  {
+   "area": "Nampally",
+   "icon": "📝",
+   "src": "Telangana Today",
+   "text": "TGPSC AEE and SSC JE exams clash on Nov 6. No date change yet; keep checking the TGPSC site."
+  },
+  {
+   "area": "Kukatpally",
+   "icon": "🏠",
+   "src": "Cyberabad Police",
+   "text": "Going home for Dussehra? Cyberabad police flag burglaries. Tell neighbours and your police station."
+  }
+ ],
+ "kind": "area"
+}

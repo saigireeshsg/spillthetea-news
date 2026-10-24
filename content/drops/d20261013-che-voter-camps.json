@@ -1,0 +1,91 @@
+{
+ "areas": [
+  "Thiru Vi Ka Nagar",
+  "Virugambakkam",
+  "Kolathur",
+  "Velachery",
+  "Citywide"
+ ],
+ "beats": {
+  "care": "If you're a first-time voter or moved for college or work, check your name on the roll now.",
+  "what": "Camps ran on October 10 and 11. Of 3,364 forms issued, 2,483 came back filled.",
+  "why": "The district election office is updating rolls. Commissioner G S Sameeran inspected a camp in Virugambakkam."
+ },
+ "cards": [
+  {
+   "body": "Thiru Vi Ka Nagar led with 379 forms received. Velachery had the fewest, at 76.",
+   "caption": "New-voter (Form 6) forms received",
+   "k": "num",
+   "value": "1,854"
+  },
+  {
+   "body": "Nearly 900 of the forms handed out at the camps were never returned.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, all set",
+    "Need to shift it",
+    "Never registered",
+    "Not sure"
+   ],
+   "q": "Is your voter ID address up to date?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Form 8",
+    "Form 6",
+    "No form needed",
+    "A new passport"
+   ],
+   "q": "You moved from Tambaram to Velachery. Which form do you need?",
+   "why": "Form 8 covers shifting residence and correcting entries on the roll."
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "date": "2026-10-13",
+ "heat": 2,
+ "hook": "Turned 18 or moved flats? *Form 6 or Form 8* is your ticket",
+ "learn": {
+  "t": "Form 6 is for new voters; Form 8 is for shifting address, fixing roll entries or replacing a voter ID."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "Roll update drive"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🆕",
+    "label": "1,854 new-voter forms"
+   },
+   {
+    "icon": "🏠",
+    "label": "620 correction forms"
+   }
+  ],
+  "event": {
+   "icon": "📝",
+   "label": "Two-day registration camps"
+  }
+ },
+ "order": 65,
+ "readSecs": 35,
+ "sort": "2026-10-13-34",
+ "sources": [
+  {
+   "name": "DT Next",
+   "title": "Chennai voter registration drive sees 2,483 forms received in two days",
+   "url": "https://www.dtnext.in/news/chennai/chennai-voter-registration-drive-sees-2483-forms-received-in-two-days"
+  }
+ ],
+ "thread": "che-civic",
+ "tldr": "Chennai's special voter registration camps on Oct 10–11 received 1,854 new-voter forms across 16 constituencies.",
+ "topic": "Voter registration camps"
+}

@@ -1,0 +1,137 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "If you ride Metro plus bus to college or work, check the new rates before buying a monthly pass, and do your own math first.",
+  "what": "Transport minister Ponnam Prabhakar says the Telangana government will review prices of the new Metro and RTC bus common pass after public complaints.",
+  "why": "The pass costs ₹400 a day or ₹8,500 a month. Many commuters say the monthly pass costs more than buying normal tickets."
+ },
+ "calc": {
+  "def": 22,
+  "kind": "per",
+  "label": "on day passes (monthly pass: ₹8,500)",
+  "per": 400,
+  "q": "Days a month you'd buy the ₹400 day pass?"
+ },
+ "cards": [
+  {
+   "body": "The pass works on Hyderabad Metro and TGSRTC city buses inside the Outer Ring Road, except Pushpak airport buses. You buy it at any Metro station, with a ₹100 card fee that is refunded when you return the card.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "If you mostly ride buses, this digital weekly pass works out far cheaper.",
+   "caption": "Weekly bus-only pass on the MeeTicket app",
+   "k": "num",
+   "value": "₹600"
+  },
+  {
+   "body": "When it launched, Chief Secretary Sanjay Jaju called the common pass a pilot and said changes would follow.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Under ₹3,000",
+    "₹3,000–5,000",
+    "₹5,000–7,000",
+    "₹8,500 is fine"
+   ],
+   "q": "What's a fair monthly common pass price?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Riders said it costs too much",
+    "Metro is shutting down",
+    "Buses stopped running",
+    "It was too cheap"
+   ],
+   "q": "Why is Telangana reviewing the Metro-bus common pass?",
+   "why": "Many commuters said ₹8,500 a month was more than paying for normal tickets, so the minister ordered a review."
+  },
+  {
+   "by": "31 Oct",
+   "k": "predict",
+   "opts": [
+    "Yes, price cut",
+    "No change by then"
+   ],
+   "q": "Will the ₹8,500 monthly pass get cheaper by 31 Oct?"
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "cover": {
+  "bg": [
+   "#0b1d2e",
+   "#00bcd4"
+  ],
+  "big": "₹8,500",
+  "label": "Monthly Metro + RTC common pass price",
+  "motion": "pulse",
+  "scene": [
+   "🚇",
+   "🚌",
+   "🎟️"
+  ]
+ },
+ "date": "2026-10-17",
+ "heat": 4,
+ "hook": "₹8,500 a month for Metro plus bus. *Worth it, or too much?*",
+ "lead": "local",
+ "learn": {
+  "t": "Of the ₹8,500 monthly common pass, ₹7,000 is the Metro's share and only ₹1,500 goes to RTC buses."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎟️",
+    "label": "Common pass launched 2 Oct"
+   },
+   {
+    "icon": "😤",
+    "label": "Riders call it too costly"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "A cheaper pass possible"
+   },
+   {
+    "icon": "⏳",
+    "label": "No new price yet"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "Government reviews pass prices"
+  }
+ },
+ "order": 3,
+ "readSecs": 55,
+ "sort": "2026-10-17-96",
+ "sources": [
+  {
+   "name": "The Hans India",
+   "title": "Buckling under pressure, govt may cut TGSRTC-Metro pass fares",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/buckling-under-pressure-govt-may-cut-tgsrtc-metro-pass-fares-1131792"
+  },
+  {
+   "name": "The News Minute",
+   "title": "Hyderabad Metro-TSRTC common pass charges to be lowered after complaints",
+   "url": "https://www.thenewsminute.com/telangana/hyderabad-metro-tsrtc-common-pass-charges-to-be-lowered-after-complaints"
+  },
+  {
+   "name": "The Hans India",
+   "title": "TGSRTC launches common Bus-Metro pass",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/tgsrtc-launches-common-bus-metro-pass-1127872"
+  }
+ ],
+ "thread": "hyd-commute",
+ "tldr": "Hyderabad's new ₹8,500 monthly Metro-plus-bus pass drew so many complaints that the state government is reviewing its price.",
+ "topic": "Metro-bus common pass"
+}

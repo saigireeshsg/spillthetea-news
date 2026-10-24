@@ -1,0 +1,159 @@
+{
+ "beats": {
+  "care": "Fuel prices are global, so this matters for India too. India has its own plan to protect energy sites and Black Sea shipping.",
+  "what": "On Sunday, Trump said Russia and Ukraine had agreed to stop attacking each other's power and oil sites, effective immediately.",
+  "why": "Both sides have been hitting energy targets, and a global diesel shortage, mainly from the Iran war, has pushed fuel prices up."
+ },
+ "cards": [
+  {
+   "body": "On Monday the Kremlin said only that contacts are ongoing and it will comment later. It also rejected Zelenskyy's idea of a 60-day truce. Ukraine said overnight Russian strikes hit energy sites in several regions and killed at least 10 people.",
+   "k": "tea",
+   "title": "🆕 Evening update"
+  },
+  {
+   "body": "Trump gave no details. Zelenskyy told Axios the ceasefire was news to him, and said Russian drones and a strike on a Kharkiv power plant continued on Sunday. He said Ukraine backs a truce and would stop hitting Russian refineries if Russia stops too. The Kremlin had not commented.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "a": {
+    "body": "Both sides agreed and the energy ceasefire is in effect immediately.",
+    "label": "Trump says"
+   },
+   "b": {
+    "body": "Ukraine was not informed. It supports a truce, but Russia must stop its attacks for it to work.",
+    "label": "Zelenskyy says"
+   },
+   "k": "sides",
+   "note": "Trump made a similar claim in September, and both sides kept striking energy sites afterwards.",
+   "title": "Is there really a ceasefire?"
+  },
+  {
+   "items": [
+    {
+     "display": "$3.67",
+     "label": "A year ago",
+     "value": 3.67
+    },
+    {
+     "display": "$6.53",
+     "label": "22 Sep 2026 peak",
+     "value": 6.53
+    },
+    {
+     "alt": true,
+     "display": "$6.28",
+     "label": "11 Oct 2026",
+     "value": 6.28
+    }
+   ],
+   "k": "bars",
+   "note": "AAA figures, via TIME.",
+   "title": "US average diesel price, per gallon"
+  },
+  {
+   "body": "India sent Kyiv and Moscow a three-part idea: stop attacks on ports and refineries, let grain, oil and gas leave Black Sea ports freely, and stop attacks on ships. Ukraine called it the most comprehensive plan it received. Five Indian sailors have died in Black Sea attacks.",
+   "k": "why",
+   "title": "what is india's peace plan?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, small steps build trust",
+    "No, it just pauses the war",
+    "Only if a neutral country checks it"
+   ],
+   "q": "Can a partial 'energy only' ceasefire lead to real peace?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Attacks on power plants, grids and refineries",
+    "All fighting everywhere",
+    "Oil sales to Europe",
+    "Ukraine's elections"
+   ],
+   "q": "What would an 'energy ceasefire' stop?",
+   "why": "It is a partial truce: both sides stop hitting each other's energy sites, while the wider war goes on."
+  }
+ ],
+ "cat": "world",
+ "cover": {
+  "bg": [
+   "#10202a",
+   "#3fa7d6"
+  ],
+  "big": "$6.28",
+  "label": "US diesel per gallon, was $3.67 a year ago",
+  "motion": "drift",
+  "scene": [
+   "⚡",
+   "🕊️",
+   "⛽"
+  ]
+ },
+ "date": "2026-10-12",
+ "heat": 4,
+ "hook": "Trump announced an *energy ceasefire*. Ukraine says: news to us",
+ "lead": "world",
+ "map": {
+  "causes": [
+   {
+    "icon": "⚡",
+    "label": "Strikes on plants and refineries"
+   },
+   {
+    "icon": "⛽",
+    "label": "Global diesel shortage"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "❓",
+    "label": "Zelenskyy: not informed"
+   },
+   {
+    "icon": "⚠️",
+    "label": "Zelenskyy: Russian strikes continued"
+   }
+  ],
+  "event": {
+   "icon": "🕊️",
+   "label": "Trump announces energy ceasefire"
+  }
+ },
+ "order": 3,
+ "readSecs": 75,
+ "sort": "2026-10-12-96",
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Zelenskyy says Russia violated energy truce announced by Trump",
+   "url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2"
+  },
+  {
+   "name": "TIME",
+   "title": "What to Know About Trump's Russia-Ukraine 'Energy Ceasefire' Claim",
+   "url": "https://time.com/article/2026/10/11/trump-claims-russia-and-ukraine-have-agreed-to-an-energy-ceasefire-/"
+  },
+  {
+   "name": "Marine Insight",
+   "title": "India Proposes 3-Part Truce to Ease Russia-Ukraine War & Protect Black Sea Shipping",
+   "url": "https://www.marineinsight.com/india-proposes-3-part-truce-to-ease-russia-ukraine-war-protect-black-sea-shipping/"
+  },
+  {
+   "name": "Kyiv Independent",
+   "title": "Kremlin has nothing to say on Trump's energy ceasefire, rejects Zelensky's truce proposal",
+   "url": "https://kyivindependent.com/kremlin-has-nothing-to-say-on-trumps-energy-ceasefire-rejects-zelenskys-truce-proposal-2/"
+  },
+  {
+   "name": "NBC News",
+   "title": "Trump claims 'energy ceasefire,' but Ukraine says Russia keeps striking its energy facilities",
+   "url": "https://www.nbcnews.com/world/ukraine/trump-russia-ukraine-agree-energy-ceasefire-zelenskyy-diesel-rcna602766"
+  }
+ ],
+ "storyline": "russia-ukraine",
+ "tldr": "Trump announced an energy ceasefire, but the Kremlin says it has nothing to say yet, and Ukraine reports fresh strikes on its energy sites.",
+ "topic": "Energy ceasefire"
+}

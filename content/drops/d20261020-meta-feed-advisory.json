@@ -1,0 +1,128 @@
+{
+ "beats": {
+  "care": "Your Reels and feed decide which news you see. Rules on how apps rank posts shape what millions of young Indians believe.",
+  "what": "In an advisory dated 10 October, the IT Ministry asked Meta to keep Instagram and Facebook feeds diverse and to stop amplifying misleading posts.",
+  "why": "It came during protests demanding the Chief Election Commissioner's resignation. Ministry sources say Meta's algorithms seemed to favour some content over others."
+ },
+ "cards": [
+  {
+   "body": "The advisory asks Meta to label photos and videos of public events when their date or place is unclear, watch for old clips passed off as new, and act quickly on posts that could cause violence. Meta must report what it did. The ministry named no specific incident.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "No. It cites the IT Act, 2000 and the IT Rules, 2021, which make platforms do 'due diligence', but critics say the advisory itself is not legally binding.",
+   "k": "why",
+   "title": "is an advisory a law?"
+  },
+  {
+   "a": {
+    "body": "It wants responsible sharing and diverse, credible information on feeds, while respecting lawful expression.",
+    "label": "IT Ministry says"
+   },
+   "b": {
+    "body": "Its head Apar Gupta called it a continuing censorship directive and asked Meta to disclose every takedown and downranking under it.",
+    "label": "Internet Freedom Foundation says"
+   },
+   "k": "sides",
+   "note": "Meta has not publicly responded.",
+   "title": "Fair push or pressure on speech?"
+  },
+  {
+   "body": "In Brazil this month, an election court found Meta's algorithm biased against President Lula's campaign. Meta denied bias and blamed technical glitches.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Me, with settings",
+    "The app",
+    "Govt rules"
+   ],
+   "q": "Who should decide what your feed shows?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "How Meta's feeds rank and recommend posts",
+    "Banning Instagram in India",
+    "Charging users a fee",
+    "Meta's tax payments"
+   ],
+   "q": "What is the advisory mainly about?",
+   "why": "It targets the recommendation systems that decide which posts get pushed to you."
+  }
+ ],
+ "cat": "tech",
+ "cover": {
+  "bg": [
+   "#1a0b2e",
+   "#c13584"
+  ],
+  "big": "6",
+  "label": "things the IT Ministry asked Meta to do",
+  "motion": "glitch",
+  "scene": [
+   "📱",
+   "🏛️",
+   "🔁"
+  ]
+ },
+ "date": "2026-10-20",
+ "heat": 4,
+ "hook": "The government wrote to Meta about *what your feed shows you*. Why?",
+ "lead": "india",
+ "learn": {
+  "t": "A recommendation system is the code that picks what fills your feed, ranking posts by what it predicts you'll watch longest."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📣",
+    "label": "Anti-CEC protests in Delhi"
+   },
+   {
+    "icon": "🎞️",
+    "label": "Old clips shared as new"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🔁",
+    "label": "Review feed ranking"
+   },
+   {
+    "icon": "🏷️",
+    "label": "Add context to visuals"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "IT Ministry advisory to Meta"
+  }
+ },
+ "order": 3,
+ "readSecs": 65,
+ "sort": "2026-10-20-96",
+ "sources": [
+  {
+   "name": "ThePrint (PTI)",
+   "title": "Govt asks Meta to ensure its recommendation systems do not expose users to limited set of narratives",
+   "url": "https://theprint.in/economy/govt-asks-meta-to-ensure-its-recommendation-systems-do-not-expose-users-to-limited-set-of-narratives/3075712/"
+  },
+  {
+   "name": "Indian Television",
+   "title": "MeitY asks Meta to review content recommendations on Instagram and Facebook",
+   "url": "https://indiantelevision.com/iworld/meity-asks-meta-to-review-content-recommendations-on-instagram-and-facebook/"
+  },
+  {
+   "name": "AP",
+   "title": "Meta denies political bias after Brazil electoral court ruling",
+   "url": "https://apnews.com/article/brazil-meta-political-bias-denial-lula-bolsonaro-954d26ac1eed94acd62c8156e7aa55d9"
+  }
+ ],
+ "thread": "social-media-rules",
+ "tldr": "The IT Ministry has told Meta to make sure Instagram and Facebook feeds don't push users towards a narrow set of narratives, amid the anti-CEC protests.",
+ "topic": "Meta feed advisory"
+}

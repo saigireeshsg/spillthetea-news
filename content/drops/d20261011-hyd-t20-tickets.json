@@ -1,0 +1,110 @@
+{
+ "beats": {
+  "care": "You can buy up to four tickets. The cricket association asks fans to avoid cars and arrive at least two hours early.",
+  "what": "India play West Indies in a T20 at Rajiv Gandhi International Stadium, Uppal, on 14 October. Tickets are on the Ticketgenie app.",
+  "why": "It is part of a five-match series that is tied one all. The third game is tonight in Indore."
+ },
+ "cards": [
+  {
+   "body": "About 34,000 tickets are on sale and 12,000 had sold by Friday, says HCA secretary M. Jeevan Reddy. At least 12,000 more will be released in the 24 hours before the game. Free tickets go to 2,500 school students and 250 Army personnel.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "West Indies chased down 250 in the last game in Ranchi, one of the biggest successful chases in men's T20 history.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Stadium, the vibe is everything",
+    "Phone, free and no traffic",
+    "Depends on the price"
+   ],
+   "q": "Would you pay for a seat or watch on your phone?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The five-match series is tied, so every game counts",
+    "It's the World Cup final",
+    "India have already lost the series",
+    "It's a women's match"
+   ],
+   "q": "Why does the Uppal game matter in this series?",
+   "why": "With the series level at 1-1, each match decides who takes the lead."
+  },
+  {
+   "by": "17 Oct",
+   "k": "predict",
+   "opts": [
+    "India",
+    "West Indies",
+    "Drawn"
+   ],
+   "outcome": "Rain washed out the Bengaluru decider on 17 Oct, so the series was shared 2-2.",
+   "q": "Who wins the five-match T20 series?",
+   "resolved": 2
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "cover": {
+  "bg": [
+   "#0b1a3a",
+   "#2f80ff"
+  ],
+  "big": "₹750",
+  "label": "Cheapest ticket for India vs WI at Uppal",
+  "motion": "pulse",
+  "scene": [
+   "🏏",
+   "🎟️",
+   "🏟️"
+  ]
+ },
+ "date": "2026-10-11",
+ "heat": 3,
+ "hook": "India vs West Indies is coming to Uppal. *Tickets start at ₹750*",
+ "map": {
+  "causes": [
+   {
+    "icon": "🏏",
+    "label": "India vs WI T20 series"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🎟️",
+    "label": "₹750 to ₹20,000 tickets"
+   },
+   {
+    "icon": "🚗",
+    "label": "Skip cars, arrive early"
+   }
+  ],
+  "event": {
+   "icon": "🏟️",
+   "label": "Uppal hosts match on 14 Oct"
+  }
+ },
+ "order": 10,
+ "readSecs": 40,
+ "sort": "2026-10-11-89",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "India-West Indies T20I: HCA announces ticket prices from Rs 750 to Rs 20,000",
+   "url": "https://telanganatoday.com/india-west-indies-t20i-hca-announces-ticket-prices-from-rs-750-to-rs-20000"
+  },
+  {
+   "name": "News On AIR",
+   "title": "West Indies beat India by 6 wickets in second T20I to level series 1-1",
+   "url": "https://newsonair.gov.in/mens-cricket-west-indies-beat-india-by-6-wickets-in-second-t20i-to-level-five-match-series-to-1-1/"
+  }
+ ],
+ "thread": "india-wi-t20",
+ "tldr": "India play West Indies at Uppal on 14 Oct; tickets cost ₹750 to ₹20,000 on the Ticketgenie app, max four per person.",
+ "topic": "Uppal T20 tickets"
+}

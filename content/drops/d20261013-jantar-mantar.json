@@ -1,0 +1,132 @@
+{
+ "beats": {
+  "care": "Where you're allowed to protest shapes whether leaders hear you. Today's hearings could set rules for protests by students and everyone else.",
+  "what": "Delhi Police removed Jantar Mantar from its list of approved protest sites. Ramlila Ground, Burari Ground and CBD Ground replace it.",
+  "why": "A Home Ministry committee recommended other venues. It comes amid days of protests demanding the Chief Election Commissioner quit over the voter-list re-check."
+ },
+ "cards": [
+  {
+   "body": "Police Commissioner Anurag Kumar's order changes a 2022 standing order, and a detailed rulebook for the new grounds will come separately. Separately, student body NSUI has asked the High Court for a probe into alleged assaults on protesters on 10 October.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "a": {
+    "body": "The change follows a Home Ministry committee's recommendation to find alternative venues where citizens can exercise their right to protest.",
+    "label": "Police and government say"
+   },
+   "b": {
+    "body": "Peaceful protest is being shut out. A lawyer told the High Court no proper alternative site was earmarked. Congress says it will go to the Supreme Court.",
+    "label": "Opposition and petitioners say"
+   },
+   "k": "sides",
+   "title": "Is moving protests fair?"
+  },
+  {
+   "body": "Yes. Article 19 of the Constitution protects peaceful assembly without arms. The state can put reasonable limits for public order, and courts decide when a limit goes too far.",
+   "k": "why",
+   "title": "is protest a right in india?"
+  },
+  {
+   "body": "Jantar Mantar is actually an 18th-century observatory. Its giant stone instruments were built to track the sun, moon and stars.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Central, where leaders see",
+    "Big grounds outside centre",
+    "Online is enough"
+   ],
+   "q": "Where should big protests happen in a city?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Location affects how visible a protest is",
+    "Grounds are cheaper to rent",
+    "It changes the voting age",
+    "It only affects tourists"
+   ],
+   "q": "Why does moving protest sites matter?",
+   "why": "A protest near Parliament is hard to miss; critics say far-off grounds make protests easier to ignore."
+  }
+ ],
+ "cat": "india",
+ "cover": {
+  "bg": [
+   "#1a1530",
+   "#7c4dff"
+  ],
+  "big": "3",
+  "label": "New protest grounds replacing Jantar Mantar",
+  "motion": "pulse",
+  "scene": [
+   "📢",
+   "🏛️",
+   "📍"
+  ]
+ },
+ "date": "2026-10-13",
+ "heat": 4,
+ "hook": "Delhi's famous protest spot is *off the list*. Where can people go now?",
+ "learn": {
+  "t": "Jantar Mantar has been Delhi's main protest spot for about two decades, from Anna Hazare's 2011 fast to the wrestlers in 2023."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📢",
+    "label": "Daily protests against EC chief"
+   },
+   {
+    "icon": "🏛️",
+    "label": "Home Ministry panel's advice"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏟️",
+    "label": "Ramlila, Burari, CBD grounds instead"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Courts hear challenges today"
+   }
+  ],
+  "event": {
+   "icon": "📍",
+   "label": "Jantar Mantar dropped as venue"
+  }
+ },
+ "order": 5,
+ "readSecs": 60,
+ "sort": "2026-10-13-94",
+ "sources": [
+  {
+   "name": "ANI",
+   "title": "Jantar Mantar de-notified as protest site; Delhi Police designates 3 new venues",
+   "url": "https://aninews.in/news/national/politics/jantar-mantar-de-notified-as-protest-site-delhi-police-designates-3-new-venues20261012135456/"
+  },
+  {
+   "name": "The Economic Times (via inkl)",
+   "title": "Jantar Mantar denotified as protest site, Delhi designates three new venues",
+   "url": "https://www.inkl.com/news/jantar-mantar-denotified-as-protest-site-delhi-designates-three-new-venues"
+  },
+  {
+   "name": "Siasat (PTI)",
+   "title": "Delhi HC to hear plea against Jantar Mantar 'closure' on Oct 13",
+   "url": "https://www.siasat.com/delhi-hc-to-hear-plea-against-jantar-mantar-closure-on-oct-13-3556708/"
+  },
+  {
+   "name": "ThePrint",
+   "title": "De-listed as protest site, but Jantar Mantar's seen 2 decades of dissent",
+   "url": "https://theprint.in/india/de-listed-as-protest-site-but-jantar-mantars-seen-2-decades-of-dissent-anna-hazare-to-wrestlers-to-cjp/3069661/"
+  }
+ ],
+ "storyline": "sir",
+ "tldr": "Delhi Police has dropped Jantar Mantar as an official protest site and named three grounds instead; courts hear challenges today.",
+ "topic": "Delhi protest venues",
+ "watch": "Delhi High Court and the Supreme Court hear protest challenges today, 13 October. Watch for orders on where people can protest."
+}

@@ -1,0 +1,102 @@
+{
+ "areas": [
+  "Meenambakkam"
+ ],
+ "beats": {
+  "care": "If you haven't booked, compare government special buses and nearby dates. Last-minute flights could eat a month's rent.",
+  "what": "Fares from Chennai have shot up. Hyderabad went from Rs 4,467 to Rs 21,665, and Bengaluru from Rs 4,474 to Rs 18,041.",
+  "why": "Ayudha Pooja (Oct 19) and Vijayadashami (Oct 20) make a four-day break, and everyone is booking at the last minute."
+ },
+ "cards": [
+  {
+   "body": "DT Next says the usual fare is around Rs 4,467, so it's nearly five times higher.",
+   "caption": "Chennai–Hyderabad flight now",
+   "k": "num",
+   "value": "Rs 21,665"
+  },
+  {
+   "ans": 2,
+   "k": "quiz",
+   "opts": [
+    "Airlines pay more tax in festivals",
+    "Fuel prices double for a week",
+    "Airline fares rise as seats fill and demand peaks",
+    "The airport charges a festival fee"
+   ],
+   "q": "Why do fares jump so much right before a long weekend?",
+   "why": "Airline prices change with demand and how many seats are left, so last-minute festive bookings cost the most."
+  },
+  {
+   "body": "Mumbai went from Rs 6,469 to Rs 22,353. Coimbatore went from Rs 5,373 to Rs 16,601. Kochi is about Rs 18,255. Madurai rose less, to about Rs 8,500.",
+   "k": "tea",
+   "title": "Other routes"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Paid the flight, oh well",
+    "Govt special bus",
+    "Not going this time",
+    "Train ticket booked early"
+   ],
+   "q": "How are you getting home?"
+  },
+  {
+   "body": "Trains are mostly sold out too, News Today reports, and private bus fares are also rising.",
+   "k": "twist"
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "date": "2026-10-17",
+ "heat": 3,
+ "hook": "A Chennai–Hyderabad flight now costs *nearly five times* more. Why?",
+ "learn": {
+  "t": "Salem has no direct flight from Chennai, so flyers must connect via Bengaluru, now at about Rs 12,237."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Ayudha Pooja on Oct 19"
+   },
+   {
+    "icon": "📅",
+    "label": "Four-day holiday break"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Fares up to 5x"
+   },
+   {
+    "icon": "🚆",
+    "label": "Trains largely sold out"
+   }
+  ],
+  "event": {
+   "icon": "✈️",
+   "label": "Last-minute rush for flights"
+  }
+ },
+ "order": 71,
+ "readSecs": 40,
+ "sort": "2026-10-17-28",
+ "sources": [
+  {
+   "name": "DT Next",
+   "title": "Ayudha pooja rush: Airfare soars; flights to Hyderabad cost 5 times more",
+   "url": "https://www.dtnext.in/news/chennai/ayudha-pooja-rush-airfare-soars-flights-to-hyderabad-cost-5-times-more"
+  },
+  {
+   "name": "News Today",
+   "title": "Ayudha puja rush sends Chennai flight fares soaring",
+   "url": "https://newstodaynet.com/2026/10/16/ayudha-puja-rush-sends-chennai-flight-fares-soaring/"
+  }
+ ],
+ "thread": "che-festival-travel",
+ "tldr": "Flights out of Chennai now cost three to five times more than usual as people rush home for the Ayudha Pooja break.",
+ "topic": "Festive airfares",
+ "watch": "Return-trip fares as the four-day holiday ends after Vijayadashami on October 20."
+}

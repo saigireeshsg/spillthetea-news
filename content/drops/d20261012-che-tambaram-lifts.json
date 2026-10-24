@@ -1,0 +1,92 @@
+{
+ "areas": [
+  "Tambaram"
+ ],
+ "beats": {
+  "care": "Daily Tambaram commuter? Platform changes should get easier soon, though the new foot overbridge's street access is still poor.",
+  "what": "7 of 9 new lifts are built; 5 await inspection and 2 need approach paths. Escalators for a new foot overbridge are underway.",
+  "why": "Tambaram is a busy terminal. Lifts help older people, wheelchair users and anyone with luggage change platforms."
+ },
+ "cards": [
+  {
+   "body": "Plus 10 lifts in total, says Southern Railway.",
+   "caption": "escalators when work is done",
+   "k": "num",
+   "value": "16"
+  },
+  {
+   "body": "The bigger Amrit Bharat redevelopment of Tambaram station hasn't started yet.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Escalator always",
+    "Lift with luggage",
+    "Stairs = free gym",
+    "Whatever's closer"
+   ],
+   "q": "At a busy station, you take…"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "They help people with luggage, wheelchairs or age change platforms",
+    "They make trains faster",
+    "They cut ticket prices",
+    "They replace foot overbridges"
+   ],
+   "q": "Why do lifts at a busy station matter?",
+   "why": "Lifts make platforms reachable for people who can't easily use stairs."
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "date": "2026-10-12",
+ "heat": 2,
+ "hook": "Climbing stairs at *Tambaram station* may get easier by December",
+ "learn": {
+  "t": "Tambaram now handles more originating passengers than Chennai Central among the city's three main terminals."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧳",
+    "label": "Crowded platforms"
+   },
+   {
+    "icon": "🪜",
+    "label": "Too many stairs"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "♿",
+    "label": "Easier access"
+   },
+   {
+    "icon": "⏳",
+    "label": "Done by December"
+   }
+  ],
+  "event": {
+   "icon": "🛗",
+   "label": "9 lifts, 10 escalators coming"
+  }
+ },
+ "order": 55,
+ "readSecs": 35,
+ "sort": "2026-10-12-44",
+ "sources": [
+  {
+   "name": "DT Next",
+   "title": "Tambaram station's lift, escalator works will be completed by December",
+   "url": "https://www.dtnext.in/news/chennai/tambaram-stations-lift-escalator-works-will-be-completed-by-december"
+  }
+ ],
+ "thread": "che-suburban-rail",
+ "tldr": "Southern Railway says Tambaram station will get 9 more lifts and 10 escalators by December.",
+ "topic": "Tambaram station lifts",
+ "watch": "Lifts for Platforms 5-6 and 7-8 are targeted for end-November; the rest by December."
+}

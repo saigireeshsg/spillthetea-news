@@ -1,0 +1,112 @@
+{
+ "beats": {
+  "care": "If you or your family have a floating-rate home, car or education loan, EMIs can rise. On ₹30 lakh, that's roughly ₹480 a month.",
+  "what": "From 15 October, SBI raised its repo-linked lending rate from 7.50% to 7.75%, and several MCLR rates by 0.15 points.",
+  "why": "RBI raised the repo rate to 5.50% on 7 October to fight rising prices. Banks pass that higher cost on to borrowers."
+ },
+ "calc": {
+  "def": 3000000,
+  "kind": "emi",
+  "new": 8.75,
+  "old": 8.5,
+  "q": "Your loan amount (₹)?",
+  "years": 20
+ },
+ "cards": [
+  {
+   "body": "It was 7.50%. Your actual loan rate is this plus a small risk premium the bank adds.",
+   "caption": "SBI's new repo-linked lending rate",
+   "k": "num",
+   "value": "7.75%"
+  },
+  {
+   "body": "SBI isn't alone. Right after RBI's hike, PNB, Bank of Baroda, Indian Bank, Bank of India and Indian Overseas Bank also raised their repo-linked rates by 0.25 points.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Only on floating-rate loans. Repo-linked loans reset fastest; MCLR loans change at your reset date. Fixed-rate loans don't change. Some banks stretch the loan's length instead of raising the EMI.",
+   "k": "why",
+   "title": "will my emi change automatically?"
+  },
+  {
+   "body": "Loans got costlier, but SBI left its fixed deposit rates unchanged in this revision. Borrowers pay more; savers don't earn more, yet.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, delay a loan",
+    "No, still borrow",
+    "I avoid loans"
+   ],
+   "q": "Would a higher EMI change your plans?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "RBI raised the repo rate",
+    "Petrol prices fell",
+    "The rupee hit a record",
+    "SBI made a loss"
+   ],
+   "q": "Why did SBI raise its loan rates?",
+   "why": "When RBI makes borrowing costlier for banks, banks pass it on to you through loan rates."
+  }
+ ],
+ "cat": "money",
+ "concept": "emi",
+ "date": "2026-10-20",
+ "heat": 3,
+ "hook": "RBI hiked rates. Now *SBI's loans cost more*. How much more for you?",
+ "learn": {
+  "t": "Since 2019, new floating-rate home loans must track an outside benchmark, usually RBI's repo rate, so hikes reach EMIs within weeks."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏦",
+    "label": "RBI repo hike to 5.50%"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏠",
+    "label": "₹30L loan: ~₹480/month more"
+   },
+   {
+    "icon": "🧾",
+    "label": "FD rates unchanged"
+   }
+  ],
+  "event": {
+   "icon": "📈",
+   "label": "SBI loan benchmark up 0.25 pts"
+  }
+ },
+ "order": 4,
+ "readSecs": 60,
+ "sort": "2026-10-20-95",
+ "sources": [
+  {
+   "name": "ETV Bharat",
+   "title": "SBI Hikes EBLR, RLLR and MCLR Rates From October 15: Loan EMIs May Rise",
+   "url": "https://www.etvbharat.com/en/business/sbi-hikes-eblr-rllr-and-mclr-rates-from-october-15-loan-emis-may-rise-enn26101604968"
+  },
+  {
+   "name": "Banking Finance",
+   "title": "SBI Raises Lending Rates After RBI Repo Rate Hike",
+   "url": "https://www.bankingfinance.in/sbi-raises-lending-rates-after-rbi-repo-rate-hike.html"
+  },
+  {
+   "name": "Business Today",
+   "title": "Loans get costlier: PNB, BOB others hike rates after RBI's 25 bps repo rate hike",
+   "url": "https://www.businesstoday.in/personal-finance/story/loans-get-costlier-pnb-bob-others-hike-rates-after-rbis-25-bps-repo-rate-hike-560265-2026-10-08"
+  }
+ ],
+ "storyline": "rbi-inflation",
+ "tldr": "SBI raised its loan benchmark rates by up to 0.25 points from 15 October, passing on RBI's rate hike, so many floating-rate EMIs will rise.",
+ "topic": "SBI loan rate hike",
+ "watch": "October's retail inflation data is due in mid-November. If prices keep rising, RBI could hike again and EMIs could climb further."
+}

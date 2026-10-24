@@ -1,0 +1,33 @@
+{
+ "chain": [
+  {
+   "icon": "🚢",
+   "open": "d20261018-hormuz-indian-crew",
+   "text": "Tankers keep getting hit near Hormuz; crude stays above $100"
+  },
+  {
+   "icon": "💱",
+   "open": "d20261012-rupee-window",
+   "text": "Costly oil imports drag the rupee to 96.71 per dollar"
+  },
+  {
+   "icon": "🏦",
+   "open": "d20261012-rupee-window",
+   "text": "RBI starts selling dollars straight to IOC, HPCL and BPCL"
+  },
+  {
+   "icon": "🏭",
+   "open": "d20261017-wpi-inflation",
+   "text": "Wholesale fuel and power prices jump 26% in a year"
+  },
+  {
+   "icon": "💸",
+   "open": "d20261013-inflation",
+   "text": "Prices hit a 23-month high; RBI hikes to 5.50%, so loans cost more"
+  }
+ ],
+ "date": "2026-10-18",
+ "kind": "dots",
+ "title": "gulf oil → your loan EMI",
+ "why": "India buys most of its oil abroad in dollars. When the Gulf flares up, that cost travels through the rupee into prices and loan EMIs."
+}

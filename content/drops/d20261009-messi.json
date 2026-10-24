@@ -1,0 +1,121 @@
+{
+ "beats": {
+  "care": "A 21-year era is over: 208 games, 126 goals. He still plays for his club.",
+  "what": "Messi played his last game for Argentina, scoring once and setting up two goals in a 3–0 win.",
+  "why": "At 39, he chose to step away two days after losing the 2026 World Cup final to Spain."
+ },
+ "cards": [
+  {
+   "body": "Lionel Messi played his final game for Argentina on Tuesday night in Buenos Aires. Argentina beat Benin 3–0. Messi set up two goals and scored a penalty himself.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Over 21 years: 126 goals, the 2022 World Cup and two Copa América trophies.",
+   "caption": "games he played for Argentina",
+   "k": "num",
+   "value": "208"
+  },
+  {
+   "body": "He's 39. He made the decision on 21 July, just two days after Argentina lost this year's World Cup final 1–0 to Spain.",
+   "k": "why",
+   "title": "why did he quit now?"
+  },
+  {
+   "body": "He's NOT retiring from football, only from the national team. He'll keep playing for his club. And Cristiano Ronaldo posted a tribute to his old rival after the match.",
+   "k": "twist"
+  },
+  {
+   "ans": 2,
+   "k": "quiz",
+   "opts": [
+    "Free kick",
+    "Header",
+    "Penalty",
+    "Bicycle kick"
+   ],
+   "q": "How did Messi score his last goal for Argentina?",
+   "why": "Argentina got a penalty and Messi scored it in the 71st minute."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Messi",
+    "Ronaldo",
+    "Pelé",
+    "Someone else"
+   ],
+   "q": "Settle it once and for all. Who's the GOAT?"
+  }
+ ],
+ "cat": "sport",
+ "cover": {
+  "bg": [
+   "#0c2140",
+   "#75aadb"
+  ],
+  "big": "208",
+  "label": "games for Argentina · last one done",
+  "motion": "drift",
+  "scene": [
+   "⚽",
+   "👋",
+   "🏆"
+  ]
+ },
+ "date": "2026-10-09",
+ "heat": 3,
+ "hook": "How did Messi say goodbye to Argentina? *Exactly how you'd want*",
+ "map": {
+  "causes": [
+   {
+    "icon": "💔",
+    "label": "Lost 2026 World Cup final"
+   },
+   {
+    "icon": "🎂",
+    "label": "He's now 39"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⚽",
+    "label": "3–0 win: 1 goal, 2 assists"
+   },
+   {
+    "icon": "📊",
+    "label": "208 games, 126 goals"
+   },
+   {
+    "icon": "🏟️",
+    "label": "Still plays for his club"
+   }
+  ],
+  "event": {
+   "icon": "👋",
+   "label": "Messi's last game for Argentina"
+  }
+ },
+ "order": 8,
+ "readSecs": 55,
+ "sort": "2026-10-09-91",
+ "sources": [
+  {
+   "name": "ITV / AP",
+   "title": "Messi bids Argentina an emotional farewell",
+   "url": "https://www.itv.com/news/2026-10-07/messi-bids-argentina-an-emotional-farewell-after-3-0-win-against-benin"
+  },
+  {
+   "name": "NBC",
+   "title": "Messi scores and tallies 2 assists in farewell",
+   "url": "https://www.nbcwashington.com/news/sports/soccer/messi-final-game-argentina-benin-score/"
+  },
+  {
+   "name": "Flashscore",
+   "title": "Messi gets one last goal & emotional farewell",
+   "url": "https://www.flashscore.com/news/soccer-lionel-messi-argentina-benin-report-october-7-2026/CfxoPT95/"
+  }
+ ],
+ "tldr": "In his last match for Argentina, Messi scored a goal and set up two more in a 3–0 win.",
+ "topic": "Messi farewell"
+}

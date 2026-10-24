@@ -1,0 +1,90 @@
+{
+ "beats": {
+  "care": "Check parcel status only on the courier's official site or app. If you lose money, call 1930 right away.",
+  "what": "The Telangana Cyber Security Bureau warned people about fake delivery messages on World Post Day, 9 October.",
+  "why": "Scammers pose as couriers or postal services, claiming a parcel is stuck over an address error or unpaid fee, to make you click and pay."
+ },
+ "cards": [
+  {
+   "body": "The messages say your parcel is held for a wrong address, customs charges or an unpaid delivery fee, with a link to 'fix' it. The link steals card details or OTPs. TGCSB says: verify first, never pay through unknown links, and block and report the number.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Call immediately if you've lost money, and file a complaint at cybercrime.gov.in.",
+   "caption": "National cybercrime helpline",
+   "k": "num",
+   "value": "1930"
+  },
+  {
+   "body": "They create panic and urgency: a tiny fee, a ticking deadline, a parcel you might actually be expecting. That rush is exactly what makes people skip checking. Pause, and the scam falls apart.",
+   "k": "why",
+   "title": "why do these work?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, so many",
+    "Once or twice",
+    "Never"
+   ],
+   "q": "Have you ever got a fake delivery message?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Check on the courier's official site, not the link",
+    "Pay the small fee quickly",
+    "Reply with your address",
+    "Share the OTP to confirm"
+   ],
+   "q": "A text says your parcel is on hold. What's the safest move?",
+   "why": "Scam links rely on you acting fast, so going straight to the official site cuts them out completely."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-10",
+ "heat": 2,
+ "hook": "Got a *'parcel on hold'* text? Read this before you tap the link",
+ "map": {
+  "causes": [
+   {
+    "icon": "📦",
+    "label": "Fake 'parcel held' messages"
+   },
+   {
+    "icon": "🔗",
+    "label": "Links demand small fees"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🔒",
+    "label": "Never share OTPs"
+   },
+   {
+    "icon": "☎️",
+    "label": "Lost money? Call 1930"
+   }
+  ],
+  "event": {
+   "icon": "🚨",
+   "label": "TGCSB issues scam warning"
+  }
+ },
+ "order": 10,
+ "readSecs": 40,
+ "sort": "2026-10-10-89",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "TGCSB warns against parcel delivery fraud on World Post Day",
+   "url": "https://www.siasat.com/tgcsb-warns-against-parcel-delivery-fraud-on-world-post-day-3554796/"
+  }
+ ],
+ "thread": "hyd-cyber-scams",
+ "tldr": "Telangana's cyber security bureau warns that fake courier messages are being used to steal money and bank details.",
+ "topic": "Parcel delivery scam"
+}

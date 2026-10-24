@@ -1,0 +1,37 @@
+{
+ "city": "Bengaluru",
+ "date": "2026-10-13",
+ "items": [
+  {
+   "area": "JP Nagar",
+   "icon": "🚌",
+   "src": "Deccan Herald",
+   "text": "BMTC plans 5 feeder routes, 30 buses to Pink Line stations: JP Nagar, BTM, Hulimavu, Uttarahalli"
+  },
+  {
+   "area": "Indiranagar",
+   "icon": "🛣️",
+   "src": "Deccan Herald",
+   "text": "Residents formed human chains on 80 & 100 Feet Roads against elevated corridors; plan not final"
+  },
+  {
+   "area": "Hoodi",
+   "icon": "🌳",
+   "src": "Deccan Herald",
+   "text": "GBA conditionally okays felling 321 trees at KPTCL Hoodi substation for a power upgrade"
+  },
+  {
+   "area": "Bellandur",
+   "icon": "⚠️",
+   "src": "Deccan Herald",
+   "text": "Dating-app video call led to ₹1.85 lakh extortion. Don't pay; report at cybercrime.gov.in or 1930"
+  },
+  {
+   "area": "Citywide",
+   "icon": "🎭",
+   "src": "GBA via Deccan Herald",
+   "text": "Bengaluru Jatre, a 10-day citywide fest, runs Dec 4–13. Clubs and bands can register at bengalurujatre.in"
+  }
+ ],
+ "kind": "area"
+}

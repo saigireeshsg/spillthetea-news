@@ -1,0 +1,98 @@
+{
+ "areas": [
+  "Citywide",
+  "Egmore"
+ ],
+ "beats": {
+  "care": "If the government revises fares, short auto rides could cost more. For now, nothing has changed.",
+  "what": "An auto workers' federation planned a candlelight march from Egmore towards the Secretariat on Tuesday.",
+  "why": "Drivers say fuel, spare parts, insurance and permit costs rose, while meter fares stayed frozen since 2013."
+ },
+ "cards": [
+  {
+   "body": "Drivers say costs have kept climbing since then.",
+   "caption": "Last meter fare revision",
+   "k": "num",
+   "value": "2013"
+  },
+  {
+   "body": "Drivers also want rules for Ola, Uber and Rapido, which they accuse of overcharging, and curbs on bike taxis.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Hail on the street",
+    "Ola/Uber/Rapido",
+    "Namma Yatri",
+    "Avoid autos"
+   ],
+   "q": "How do you usually book autos?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "An official meter fare revision",
+    "Free fuel",
+    "A ban on metro",
+    "Fewer passengers"
+   ],
+   "q": "What are Chennai auto drivers mainly asking for?",
+   "why": "They want the government to revise meter fares unchanged since 2013."
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "date": "2026-10-14",
+ "heat": 3,
+ "hook": "Chennai auto meter fares are *13 years old*. Will they change?",
+ "learn": {
+  "t": "Chennai's official auto meter fares were last revised in 2013, the drivers' federation says."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⛽",
+    "label": "Fuel and insurance up"
+   },
+   {
+    "icon": "📱",
+    "label": "App and bike-taxi rivals"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Possible higher meter fares"
+   },
+   {
+    "icon": "📏",
+    "label": "Calls to regulate apps"
+   }
+  ],
+  "event": {
+   "icon": "🛺",
+   "label": "Drivers demand fare revision"
+  }
+ },
+ "order": 64,
+ "readSecs": 40,
+ "sort": "2026-10-14-35",
+ "sources": [
+  {
+   "name": "DT Next",
+   "title": "Auto drivers to hold candlelight rally demanding fare revision",
+   "url": "https://www.dtnext.in/news/chennai/auto-drivers-to-hold-candlelight-rally-demanding-fare-revision"
+  },
+  {
+   "name": "The Hans India (IANS)",
+   "title": "Chennai auto-rickshaw drivers to hold candlelight march today seeking fare revision",
+   "url": "https://www.thehansindia.com/news/cities/chennai/chennai-auto-rickshaw-drivers-to-hold-candlelight-march-today-seeking-fare-revision-1132226"
+  }
+ ],
+ "thread": "che-auto-fares",
+ "tldr": "Chennai auto drivers marched to demand a meter fare revision, saying fares haven't changed since 2013.",
+ "topic": "Auto fare demand"
+}

@@ -1,0 +1,105 @@
+{
+ "areas": [
+  "Karol Bagh",
+  "Rohini",
+  "Civil Lines",
+  "Shahdara",
+  "Seemapuri"
+ ],
+ "beats": {
+  "care": "Renting a PG or flat? Look for cracks and extra floors, and ask the owner about MCD approvals.",
+  "what": "Between Sept 6 and Oct 10, MCD acted on 1,046 properties across all 12 zones, a Delhi government statement said.",
+  "why": "The drive follows CM Rekha Gupta's directions. An unsafe building in Seemapuri was razed after a collapse there."
+ },
+ "cards": [
+  {
+   "body": "Rohini zone led demolition action with 158, then South zone with 121.",
+   "caption": "properties acted on",
+   "k": "num",
+   "value": "1,046"
+  },
+  {
+   "body": "CM Rekha Gupta said there would be no compromise on citizens' safety and the drive will continue citywide. DUSIB served notices on three more houses after the Seemapuri collapse.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "City-SP zone saw the most sealing: 87 properties, more than double any other zone.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Always",
+    "Never thought of it",
+    "Only if it looks old",
+    "Rent is all I check"
+   ],
+   "q": "Do you check building safety before renting?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It's locked and can't be used until issues are fixed",
+    "It gets a fresh coat of paint",
+    "It's sold to a new owner",
+    "It's declared fully safe"
+   ],
+   "q": "What does it mean when MCD 'seals' a property?",
+   "why": "Sealing stops use of a building or part of it until the violation is sorted out."
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "date": "2026-10-12",
+ "heat": 3,
+ "hook": "*47 unsafe buildings* razed in Delhi in a month. Is your PG safe?",
+ "learn": {
+  "t": "Karol Bagh zone, packed with PGs and coaching centres, had the most dangerous buildings razed: 13 of 47."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏚️",
+    "label": "Unsafe, illegal buildings"
+   },
+   {
+    "icon": "⚠️",
+    "label": "Seemapuri building collapse"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🔒",
+    "label": "282 properties sealed"
+   },
+   {
+    "icon": "🧱",
+    "label": "47 unsafe buildings razed"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "MCD drive in 12 zones"
+  }
+ },
+ "order": 72,
+ "readSecs": 45,
+ "sort": "2026-10-12-27",
+ "sources": [
+  {
+   "name": "The Statesman",
+   "title": "Crackdown on illegal construction: MCD acts against 1,046 properties in a month, seals 282 and demolishes 47 unsafe buildings",
+   "url": "https://www.thestatesman.com/cities/delhi/crackdown-on-illegal-construction-mcd-acts-against-1046-properties-in-a-month-seals-282-and-demolishes-47-unsafe-buildings-1503649896.html/amp"
+  },
+  {
+   "name": "UNI",
+   "title": "MCD acts against 1,046 properties in Delhi in a month, seals 282, demolishes 47 unsafe buildings",
+   "url": "https://www.uniindia.com/national/admin-mcd-unsafe-buildings/210481"
+  }
+ ],
+ "thread": "del-civic",
+ "tldr": "MCD acted against 1,046 illegal or unsafe properties in a month, sealing 282 and demolishing 47 dangerous buildings.",
+ "topic": "Unsafe buildings drive"
+}

@@ -1,0 +1,134 @@
+{
+ "areas": [
+  "MG Road",
+  "Cubbon Park",
+  "Queens Road",
+  "Majestic"
+ ],
+ "beats": {
+  "care": "Leave the bike at home. Use Cubbon Park station for Cubbon Road gates and MG Road station for Link Road gates.",
+  "what": "BMRCL extended metro hours on October 17. The last trains leave Majestic at 1 am and RV Road at 1:30 am.",
+  "why": "A 7 pm T20 ends late. The traffic police have banned parking on Queens Road, MG Road, Cubbon Road and nearby streets."
+ },
+ "cards": [
+  {
+   "body": "Whitefield and Bommasandra trains end at midnight. Silk Institute and Madavara end at 12:15 am. Majestic runs until 1 am in all four directions.",
+   "caption": "Last train from RV Road",
+   "k": "num",
+   "value": "1:30 am"
+  },
+  {
+   "body": "Paid match parking runs 11 am to 9 pm at St Joseph's Indian High School ground, UB City, Shivajinagar bus stand (first floor), Freedom Park and St Joseph's European Boys' School grounds.",
+   "k": "tea",
+   "title": "Where to park"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Majestic",
+    "Cubbon Park",
+    "Trinity",
+    "Vidhana Soudha"
+   ],
+   "q": "Your gate is on Cubbon Road. Which metro station should you use?",
+   "why": "BMRCL tells fans to use Cubbon Park for the Cubbon Road gates and MG Road for the Link Road gates."
+  },
+  {
+   "body": "BMRCL says it may limit entry or briefly close station entrances if crowds get too big. Keep some extra time.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "At the stadium",
+    "On my phone",
+    "With friends at home",
+    "Not watching"
+   ],
+   "q": "How are you watching tonight's game?"
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "cover": {
+  "bg": [
+   "#0b1d3a",
+   "#1e88e5"
+  ],
+  "big": "1:30am",
+  "label": "Last metro from RV Road after the T20",
+  "motion": "pulse",
+  "scene": [
+   "🏏",
+   "🚇",
+   "🌙"
+  ]
+ },
+ "date": "2026-10-17",
+ "heat": 4,
+ "hook": "Going to the match tonight? Here's *how late the metro runs*",
+ "lead": "local",
+ "learn": {
+  "t": "Digital match tickets carry a two-way Namma Metro QR code, so fans can skip the token queue."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏏",
+    "label": "India vs WI T20"
+   },
+   {
+    "icon": "🏟️",
+    "label": "Night game at Chinnaswamy"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚫",
+    "label": "No parking on central roads"
+   },
+   {
+    "icon": "🎟️",
+    "label": "QR tickets skip queues"
+   },
+   {
+    "icon": "🚕",
+    "label": "Cab pickup at BRV Grounds"
+   }
+  ],
+  "event": {
+   "icon": "🚇",
+   "label": "Metro runs past midnight"
+  }
+ },
+ "order": 88,
+ "readSecs": 45,
+ "sort": "2026-10-17-11",
+ "sources": [
+  {
+   "name": "Deccan Herald",
+   "title": "Metro services extended till 1.30 am for Ind vs WI T20 match in Bengaluru",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/metro-services-extended-till-130-am-for-ind-vs-wi-t20-match-in-bengaluru-4185106"
+  },
+  {
+   "name": "Deccan Herald",
+   "title": "Traffic curbs, parking ban around Chinnaswamy Stadium for India-West Indies T20 on October 17",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/traffic-curbs-parking-ban-around-chinnaswamy-stadium-for-india-west-indies-t20-on-october-17-4184580"
+  },
+  {
+   "name": "The Siasat Daily",
+   "title": "India-WI T20: Bengaluru Metro extends late-night train services",
+   "url": "https://www.siasat.com/india-wi-t20-bengaluru-metro-extends-late-night-train-services-3559505/"
+  },
+  {
+   "name": "Outlook India",
+   "title": "India Vs West Indies 5th T20I Weather Report: Will Rain Play Spoilsport In Bengaluru Series Decider?",
+   "url": "https://www.outlookindia.com/sports/cricket/india-vs-west-indies-5th-t20i-weather-forecast-bengaluru-m-chinnaswamy-stadium-rain"
+  }
+ ],
+ "thread": "blr-traffic",
+ "tldr": "For tonight's India vs West Indies T20 at Chinnaswamy, Namma Metro runs late, with the last train from RV Road at 1:30 am.",
+ "topic": "Match-day metro",
+ "watch": "IMD expects thundershowers on Saturday, so check the sky before the 7 pm start."
+}

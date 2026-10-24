@@ -1,0 +1,137 @@
+{
+ "beats": {
+  "care": "Expect higher cab and CNG costs, pricier food, and maybe no cut in your loan EMIs soon.",
+  "what": "Brent crude hit $117.42 a barrel on Friday. India's crude basket averaged about $120 in October, far above the RBI's $95 assumption.",
+  "why": "The RBI Bulletin says rice, wheat, pulses and edible oil prices are rising. Wholesale inflation hit 11.4% in September, the first double digit in the new series."
+ },
+ "calc": {
+  "def": 2000,
+  "dir": "up",
+  "kind": "pct",
+  "label": "more a month if fuel rises 5% (illustration)",
+  "pct": 5,
+  "q": "Your monthly spend on fuel or cabs (₹)?"
+ },
+ "cards": [
+  {
+   "items": [
+    {
+     "display": "4.9%",
+     "label": "Urban",
+     "value": 4.9
+    },
+    {
+     "alt": true,
+     "display": "6.1%",
+     "label": "Rural",
+     "value": 6.1
+    }
+   ],
+   "k": "bars",
+   "note": "RBI Bulletin, October.",
+   "title": "Retail inflation, September"
+  },
+  {
+   "body": "Adani Total Gas raised CNG by ₹4.45 a kg. HPCL said LPG losses are ₹245 a cylinder in October. Sensex fell after a week-long rally.",
+   "k": "tea"
+  },
+  {
+   "body": "Inflation is now higher in villages (6.1%) than in cities (4.9%).",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Food",
+    "Travel and fuel",
+    "Rent",
+    "Eating out"
+   ],
+   "q": "Where do you feel price rises most?"
+  },
+  {
+   "by": "30 Nov",
+   "k": "predict",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "q": "Will petrol prices be raised before 30 November?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Houthi attacks on Saudi energy sites",
+    "A new OPEC member",
+    "Cheaper electric cars",
+    "A strong rupee"
+   ],
+   "q": "What pushed oil prices up this week?",
+   "why": "Attacks on Saudi oil and airport infrastructure raised fears of supply disruption."
+  }
+ ],
+ "cat": "money",
+ "cover": {
+  "bg": [
+   "#2b1a05",
+   "#ff4500"
+  ],
+  "big": "$117",
+  "label": "Brent crude per barrel, near a six-month high",
+  "motion": "rise",
+  "scene": [
+   "🛢️",
+   "📈",
+   "⛽"
+  ]
+ },
+ "date": "2026-10-24",
+ "heat": 4,
+ "hook": "Oil nears *$120*, food prices climb. Your wallet feels both",
+ "lead": "india",
+ "learn": {
+  "t": "India imports most of its crude oil, so a $10 rise per barrel quickly shows up in fuel, transport and food prices."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💥",
+    "label": "Houthi attacks on Saudi oil"
+   },
+   {
+    "icon": "🌾",
+    "label": "Weak monsoon"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⛽",
+    "label": "CNG up ₹4.45/kg (Adani)"
+   },
+   {
+    "icon": "🛒",
+    "label": "Wholesale inflation 11.4%"
+   }
+  ],
+  "event": {
+   "icon": "📈",
+   "label": "Prices rising everywhere"
+  }
+ },
+ "order": 9,
+ "readSecs": 65,
+ "sort": "2026-10-24-90",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Oil prices extend rally to a near six-month high; 'Broad-based food price increase seen' (print, Hyderabad edition, 24 Oct, p.13)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "storyline": "rbi-inflation",
+ "thread": "rbi-inflation",
+ "tldr": "Houthi attacks pushed crude to a near six-month high, and the RBI says food prices are rising across rice, wheat, pulses and oils.",
+ "topic": "Oil and food prices",
+ "watch": "Watch the RBI's December policy and whether oil companies raise petrol and diesel prices."
+}

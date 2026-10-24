@@ -1,0 +1,43 @@
+{
+ "city": "Chennai",
+ "date": "2026-10-18",
+ "items": [
+  {
+   "area": "North Chennai",
+   "icon": "🌧️",
+   "src": "RMC Chennai / GCC (DT Next)",
+   "text": "Heavy rain likely till Oct 26. Avoid low roads like Vyasarpadi; report waterlogging on 1913."
+  },
+  {
+   "area": "Citywide",
+   "icon": "🍚",
+   "src": "TN Govt (DT Next)",
+   "text": "Fine rice at ₹30/kg at 11 Amutham and 19 cooperative stores. Up to 5 kg per person."
+  },
+  {
+   "area": "Porur",
+   "icon": "🚇",
+   "src": "CMRL (DT Next)",
+   "text": "New Yellow Line, Poonamallee–Vadapalani: fares ₹10–40, last train 9 pm. Change at Vadapalani."
+  },
+  {
+   "area": "Citywide",
+   "icon": "✈️",
+   "src": "DT Next",
+   "text": "Ayudha Pooja flights to Hyderabad hit ₹21,665. Compare govt special buses or shift dates."
+  },
+  {
+   "area": "Citywide",
+   "icon": "🔇",
+   "src": "Southern Railway (DT Next)",
+   "text": "Southern Railway warns against loud music or reels on trains and stations. Carry earphones."
+  },
+  {
+   "area": "Tambaram",
+   "icon": "🛗",
+   "src": "Southern Railway (DT Next)",
+   "text": "Tambaram station: 7 of 9 new lifts built; lifts and escalator works due by December."
+  }
+ ],
+ "kind": "area"
+}

@@ -1,0 +1,112 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "If your family is from a drought-hit taluka, ask your college about zero-challan before October 30. Already paid? Ask for a refund.",
+  "what": "65,200 SPPU students have filled exam forms without paying, through a 'zero-challan' facility. Across 26 universities, 2,40,365 students have used it so far.",
+  "why": "Weak rain has hit farm families. The state listed 305 drought-affected talukas and told universities to waive exam fees there."
+ },
+ "cards": [
+  {
+   "body": "The government expects the number to cross five lakh once all exam forms are in.",
+   "caption": "students across 26 universities helped so far",
+   "k": "num",
+   "value": "2,40,365"
+  },
+  {
+   "body": "Universities that collected fees are refunding eligible students. COEP Tech and Tilak Maharashtra Vidyapeeth have started refunds. Stuck? Call your university's published helpline.",
+   "k": "tea",
+   "title": "Already paid the fee?"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Skip the exam",
+    "Fill the exam form without paying the fee",
+    "Get a free hostel room",
+    "Change their college"
+   ],
+   "q": "What does the 'zero-challan' facility let a student do?",
+   "why": "It lets eligible students from drought-hit areas submit exam forms with no exam fee."
+  },
+  {
+   "body": "The list of drought-hit talukas grew from 265 to 305, so more students became eligible than first planned.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, always upfront",
+    "Refunds are fine",
+    "Depends on the family",
+    "Not sure"
+   ],
+   "q": "Should fee waivers be upfront, not refunds?"
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "cover": {
+  "bg": [
+   "#0f1a3a",
+   "#3b82f6"
+  ],
+  "big": "65,200",
+  "label": "SPPU students skipped the exam fee",
+  "motion": "rise",
+  "scene": [
+   "🎓",
+   "📝",
+   "🌾"
+  ]
+ },
+ "date": "2026-10-20",
+ "heat": 4,
+ "hook": "Who can fill the SPPU exam form *without paying a rupee*?",
+ "lead": "local",
+ "learn": {
+  "t": "Students from drought-hit talukas can fill exam forms using a 'zero-challan', so they pay nothing upfront."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌾",
+    "label": "Weak rain, drought"
+   },
+   {
+    "icon": "📜",
+    "label": "State order, Sept 25"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📝",
+    "label": "Zero-challan exam forms"
+   },
+   {
+    "icon": "💸",
+    "label": "Refunds for early payers"
+   }
+  ],
+  "event": {
+   "icon": "🎓",
+   "label": "Exam fees waived"
+  }
+ },
+ "order": 85,
+ "readSecs": 50,
+ "sort": "2026-10-20-14",
+ "sources": [
+  {
+   "name": "Punekar News",
+   "title": "Pune University: 65,200 Students Get Exam Fee Waiver Amid Drought",
+   "url": "https://www.punekarnews.in/pune-university-65200-students-get-exam-fee-waiver-amid-drought/"
+  }
+ ],
+ "thread": "pun-exam-fees",
+ "tldr": "65,200 SPPU students from drought-hit areas have filled exam forms without paying the exam fee, under a state waiver.",
+ "topic": "Exam fee waiver",
+ "watch": "The state says exam forms are due by October 30, and expects over five lakh students to use the waiver."
+}

@@ -1,0 +1,102 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "If you finished your degree by 1 November 2023 and live here, you can vote for an MLC who speaks for graduates.",
+  "what": "Enrolment is open for the Mahabubnagar-Rangareddy-Hyderabad and Warangal-Khammam-Nalgonda graduates' seats in Telangana's Legislative Council.",
+  "why": "Two seats fall vacant in March 2027. Parties are already naming candidates, and Kavitha's party named one on 20 October."
+ },
+ "cards": [
+  {
+   "body": "Telangana has a Legislative Council, an upper house, besides its Assembly. Some of its members are elected only by graduates, so issues like jobs and exams get a voice there.",
+   "k": "why",
+   "title": "what is a graduate mlc?"
+  },
+  {
+   "body": "Interest is falling. In Warangal-Khammam-Nalgonda, graduate voters dropped from 5.06 lakh in 2021 to 4.64 lakh. An election watch member says re-registering every time puts people off.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "A diploma equal to a degree also counts, as long as it was finished three years before the qualifying date.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, already did",
+    "Yes, this week",
+    "Not eligible yet",
+    "Not interested"
+   ],
+   "q": "Will you enrol as a graduate voter?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The voter list is made fresh",
+    "Their degrees expired",
+    "Voting moved online",
+    "Only new graduates can vote"
+   ],
+   "q": "Why must past graduate voters register again?",
+   "why": "Graduate MLC rolls are rebuilt from scratch for each election, so everyone has to enrol again."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-21",
+ "heat": 3,
+ "hook": "Got your degree by Nov 2023? You get a *second vote*, if you enrol",
+ "learn": {
+  "t": "Graduate MLC voter lists are made fresh for each election, so even people who voted last time must register again."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏛️",
+    "label": "Two MLC seats fall vacant"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🎓",
+    "label": "Grads must re-register"
+   },
+   {
+    "icon": "📅",
+    "label": "Deadline 6 November"
+   }
+  ],
+  "event": {
+   "icon": "📝",
+   "label": "Graduate voter enrolment open"
+  }
+ },
+ "order": 9,
+ "readSecs": 60,
+ "sort": "2026-10-21-90",
+ "sources": [
+  {
+   "name": "Siasat Daily",
+   "title": "Voter enrolment begins for Telangana Graduate MLC constituencies",
+   "url": "https://www.siasat.com/voter-enrolment-begins-for-telangana-graduate-mlc-constituencies-3549678/"
+  },
+  {
+   "name": "Deccan Chronicle",
+   "title": "Decline in number of graduate voters",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/decline-in-number-of-graduate-voters-1995623"
+  },
+  {
+   "name": "Deccan Chronicle",
+   "title": "Graduate MLC polls: Kavitha names Dr. Srikanth Goud as TRS candidate",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/graduates-mlc-polls-kavitha-names-dr-srikanth-goud-as-trs-candidate-1997405"
+  }
+ ],
+ "thread": "hyd-voter-roll",
+ "tldr": "Graduates in Hyderabad have until 6 November to enrol as voters for the Legislative Council's graduates' seat, even if they voted before.",
+ "topic": "Graduate MLC voter enrolment",
+ "watch": "Last date to apply is 6 November. The draft list comes out on 25 November and the final list on 30 December."
+}

@@ -1,0 +1,140 @@
+{
+ "areas": [
+  "Uppal",
+  "Secunderabad",
+  "LB Nagar"
+ ],
+ "beats": {
+  "care": "About 40,000 fans are expected. Take the metro to Uppal, Stadium or Nagole, reach by 5:30 pm, and leave power banks and big bags home.",
+  "what": "India play West Indies in the fourth T20 at Uppal on Wednesday at 7 pm. India lead the five-match series two to one.",
+  "why": "A win in Hyderabad seals the series for India. A West Indies win sets up a decider in Bengaluru on Saturday."
+ },
+ "cards": [
+  {
+   "body": "Malkajgiri police commissioner B. Sumathi says about 2,200 police, 408 CCTV cameras and two drones will cover the match. Parking entry is via the LG Godown and EK Minar check posts. Police have asked Metro and RTC to consider extra late services.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "4,600 cars and 3,400 two-wheelers, with spots across Uppal and Ramanthapur. With 40,000 fans, the metro is the easier bet.",
+   "caption": "Vehicles that match-day parking can hold",
+   "k": "num",
+   "value": "8,000"
+  },
+  {
+   "body": "Heavy vehicles will be diverted via Nagole U-turn, Mehfil, Habsiguda and Ramanthapur Street No. 8 on match day. If you commute past Uppal on Wednesday evening, leave early.",
+   "k": "tea",
+   "title": "Heads-up for non-fans"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Abhishek Sharma",
+    "Arshdeep Singh",
+    "A West Indies star",
+    "Someone surprising"
+   ],
+   "q": "Who'll be player of the match at Uppal?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "India can clinch the series with a win",
+    "It's the World Cup final",
+    "It's India's first home T20",
+    "West Indies only need a draw"
+   ],
+   "q": "Why is Wednesday's Uppal match a big deal?",
+   "why": "Leading 2-1 in a best-of-five, one more India win means West Indies can't catch up."
+  },
+  {
+   "by": "14 Oct",
+   "k": "predict",
+   "opts": [
+    "Yes, India seal it",
+    "No, it goes to Bengaluru"
+   ],
+   "outcome": "West Indies won by 24 runs at Uppal, so the series went to a decider in Bengaluru on 17 Oct.",
+   "q": "Will India clinch the series at Uppal?",
+   "resolved": 1
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "cover": {
+  "bg": [
+   "#0a1630",
+   "#1e88e5"
+  ],
+  "big": "2-1",
+  "label": "India's lead in the five-match T20 series",
+  "motion": "pulse",
+  "scene": [
+   "🏏",
+   "🏟️",
+   "🚇"
+  ]
+ },
+ "date": "2026-10-13",
+ "heat": 4,
+ "hook": "Can India *seal the series* at Uppal tomorrow?",
+ "learn": {
+  "t": "Win three games of a five-match series and it's yours; any match after that is called a 'dead rubber'."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏏",
+    "label": "India won in Indore"
+   },
+   {
+    "icon": "📊",
+    "label": "Series stands at 2-1"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏆",
+    "label": "India win = series won"
+   },
+   {
+    "icon": "🚦",
+    "label": "Diversions around Uppal, Ramanthapur"
+   }
+  ],
+  "event": {
+   "icon": "🏟️",
+   "label": "4th T20 at Uppal, Wednesday"
+  }
+ },
+ "order": 6,
+ "readSecs": 45,
+ "sort": "2026-10-13-93",
+ "sources": [
+  {
+   "name": "Deccan Chronicle",
+   "title": "Ind vs WI 4th T20: 2,200 Cops, 408 CCTVs, and Drones Deployed for High-Voltage Uppal Clash",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/ind-vs-wi-4th-t20-2200-cops-408-cctvs-and-drones-deployed-for-high-voltage-uppal-clash-1995328"
+  },
+  {
+   "name": "CareerIndia",
+   "title": "IND Vs WI 4th T20I Hyderabad: Pitch Report, Toss Timing, And Stadium Travel Guide",
+   "url": "https://www.careerindia.com/features/ind-vs-wi-4th-t20i-hyderabad-pitch-toss-travel-guide-2026-011-66995.html"
+  },
+  {
+   "name": "Yahoo Sports",
+   "title": "IND vs WI T20 2026 schedule",
+   "url": "https://sports.yahoo.com/articles/ind-vs-wi-t20-2026-133912255.html"
+  },
+  {
+   "name": "NewsMeter",
+   "title": "India Vs West Indies T20: 2750 free tickets for govt school students, soldiers",
+   "url": "https://newsmeter.in/hyderabad/india-vs-west-indies-t20-2750-free-tickets-for-govt-school-students-soldiers-for-oct-14-hyderabad-match-777164"
+  }
+ ],
+ "thread": "india-wi-t20",
+ "tldr": "India lead West Indies 2-1 and can win the T20 series at Uppal on Wednesday; police plan 2,200 personnel and parking for 8,000 vehicles.",
+ "topic": "Uppal series decider",
+ "watch": "India vs West Indies, Uppal, Wednesday 14 Oct, 7 pm. The last game is in Bengaluru on 17 Oct."
+}

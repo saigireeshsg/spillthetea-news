@@ -1,0 +1,87 @@
+{
+ "areas": [
+  "Hoodi"
+ ],
+ "beats": {
+  "care": "If you live or work around Hoodi, steadier power may come at the cost of shade and greenery.",
+  "what": "GBA gave conditional approval to cut 321 trees at KPTCL's Hoodi substation.",
+  "why": "KPTCL says the transmission network needs upgrading to keep supply reliable in busy parts of the city."
+ },
+ "cards": [
+  {
+   "body": "The approval from GBA is conditional, Deccan Herald reported.",
+   "caption": "Trees approved for felling",
+   "k": "num",
+   "value": "321"
+  },
+  {
+   "body": "This comes a day after residents across Bengaluru protested flyovers partly over tree loss.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Power first",
+    "Save the trees",
+    "Replant nearby",
+    "Need more details"
+   ],
+   "q": "Power upgrade vs trees: your call?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "To upgrade the power transmission network",
+    "To build a flyover",
+    "To widen a road",
+    "To build a metro station"
+   ],
+   "q": "Why does KPTCL want the trees cleared?",
+   "why": "KPTCL says the Hoodi substation upgrade is needed for reliable power supply."
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "date": "2026-10-13",
+ "heat": 2,
+ "hook": "Why are *321 trees* in Hoodi set to come down?",
+ "learn": {
+  "t": "KPTCL says parts of the city served by this network have hit peak power capacity, so upgrades are needed."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚡",
+    "label": "Power demand at peak"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🔌",
+    "label": "Stronger transmission network"
+   },
+   {
+    "icon": "🍂",
+    "label": "Less green cover"
+   }
+  ],
+  "event": {
+   "icon": "🌳",
+   "label": "321 trees cleared for felling"
+  }
+ },
+ "order": 59,
+ "readSecs": 35,
+ "sort": "2026-10-13-40",
+ "sources": [
+  {
+   "name": "Deccan Herald",
+   "title": "GBA approves felling of 321 trees for KPTCL project",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/gba-approves-felling-of-321-trees-for-kptcl-project-4180404"
+  }
+ ],
+ "thread": "blr-green-cover",
+ "tldr": "The Greater Bengaluru Authority has conditionally approved felling 321 trees at the Hoodi substation for a KPTCL power upgrade.",
+ "topic": "Hoodi tree felling"
+}

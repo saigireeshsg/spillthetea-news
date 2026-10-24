@@ -1,0 +1,102 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Your last-mile ride from the Metro may get less crowded, but possibly harder to find at peak hours.",
+  "what": "The Transport Department's draft caps Delhi at 2.5 lakh e-rickshaws, with four passengers each and a 25 km/h limit.",
+  "why": "Officials point to jams near markets and Metro stations, road safety and pollution."
+ },
+ "cards": [
+  {
+   "body": "No new registrations beyond this unless the cap is revised. The rules are not in force yet.",
+   "caption": "most e-rickshaws Delhi would register",
+   "k": "num",
+   "value": "2.5 lakh"
+  },
+  {
+   "body": "Drivers need a licence and PSV badge. Each vehicle needs a digital compliance certificate valid for two years. No disturbing music. Unregistered e-rickshaws can be impounded and crushed.",
+   "k": "tea",
+   "title": "Other rules in the draft"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Already in force",
+    "A draft open for public suggestions",
+    "Struck down by court",
+    "Only for Noida"
+   ],
+   "q": "What is the status of these e-rickshaw rules right now?",
+   "why": "It is a draft scheme; the public has 30 days to send suggestions."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, safer rides",
+    "No, fewer rides",
+    "Only at peak hours",
+    "I don't use e-ricks"
+   ],
+   "q": "Four passengers max: good idea?"
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "date": "2026-10-20",
+ "heat": 3,
+ "hook": "Could your e-rickshaw ride *soon have only four seats*?",
+ "learn": {
+  "t": "Under the draft, nobody may sit beside the e-rickshaw driver, and top speed is capped at 25 km/h."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚦",
+    "label": "Jams near Metro stations"
+   },
+   {
+    "icon": "⚠️",
+    "label": "Road safety worries"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "👥",
+    "label": "Max four passengers"
+   },
+   {
+    "icon": "🚫",
+    "label": "Unregistered ones impounded"
+   }
+  ],
+  "event": {
+   "icon": "🛺",
+   "label": "Draft caps e-rickshaws at 2.5 lakh"
+  }
+ },
+ "order": 61,
+ "readSecs": 45,
+ "sort": "2026-10-20-38",
+ "sources": [
+  {
+   "name": "Swarajya",
+   "title": "Delhi seeks public feedback on proposed 250,000 e-rickshaw fleet limit under new scheme",
+   "url": "https://swarajyamag.com/news-brief/delhi-seeks-public-feedback-on-proposed-250000-e-rickshaw-fleet-limit-under-new-scheme"
+  },
+  {
+   "name": "Angel One",
+   "title": "Delhi E-Rickshaw Policy: 2.5 Lakh Cap Proposed Alongside New Operating Rules",
+   "url": "https://www.angelone.in/news/economy/delhi-e-rickshaw-policy-2-5-lakh-cap-proposed-alongside-new-operating-rules"
+  },
+  {
+   "name": "The Economic Times (via inkl)",
+   "title": "Delhi's new e-rickshaw policy: 4-passenger limit and speed limit. Here's how you can submit suggestions",
+   "url": "https://www.inkl.com/news/delhis-new-e-rickshaw-policy-4-passenger-limit-and-speed-limit-heres-how-you-can-submit-suggestions"
+  }
+ ],
+ "thread": "del-commute",
+ "tldr": "Delhi's draft e-rickshaw rules would cap the city at 2.5 lakh e-rickshaws and allow only four passengers each.",
+ "topic": "E-rickshaw cap"
+}

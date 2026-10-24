@@ -1,0 +1,98 @@
+{
+ "areas": [
+  "Kukatpally",
+  "Masab Tank",
+  "Chandanagar",
+  "Tarnaka"
+ ],
+ "beats": {
+  "care": "Buying Deepavali sweets? Check the FSSAI licence number on the box, and avoid loose sweets kept in the open.",
+  "what": "TG SAFE inspected 21 sweet units, seized food worth ₹7.76 lakh and suspended three shops' FSSAI licences.",
+  "why": "Officials found cockroaches, rat droppings, expired items and non-food-grade rose water. One shop had 705 kg seized."
+ },
+ "cards": [
+  {
+   "body": "Shops in Kukatpally, Masab Tank and Chandanagar had licences suspended; one in Tarnaka was shut for having no licence. 21 samples were sent for testing.",
+   "k": "tea"
+  },
+  {
+   "body": "For selling habit-forming drugs without prescriptions, in a separate drive.",
+   "caption": "Medical shops whose licences were suspended",
+   "k": "num",
+   "value": "106"
+  },
+  {
+   "body": "At one shop, sweets were covered with curtains and newspapers.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Big brand stores",
+    "Local shop I trust",
+    "Homemade only"
+   ],
+   "q": "Where will you buy sweets this Deepavali?"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "GHMC",
+    "TG SAFE",
+    "HYDRAA",
+    "Traffic police"
+   ],
+   "q": "Which body raided the sweet shops?",
+   "why": "The Telangana Standards Authority for Food and Essential Drugs (TG SAFE) ran the drive."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-24",
+ "heat": 3,
+ "hook": "Before Deepavali, *1,035 kg* of sweets and ghee seized in Hyderabad",
+ "learn": {
+  "t": "Every food business must display an FSSAI licence or registration number; you can verify it on FSSAI's website."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Deepavali sweet rush"
+   },
+   {
+    "icon": "🔍",
+    "label": "11 inspection teams"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚫",
+    "label": "3 licences suspended"
+   },
+   {
+    "icon": "💊",
+    "label": "106 medical shops also hit"
+   }
+  ],
+  "event": {
+   "icon": "🍬",
+   "label": "1,035 kg seized"
+  }
+ },
+ "order": 14,
+ "readSecs": 50,
+ "sort": "2026-10-24-85",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "TG SAFE seizes 1,035 kg food products (print, Hyderabad edition, 24 Oct, p.5)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "thread": "food-safety",
+ "tldr": "Food safety teams raided 21 sweet shops, found pests and expired food, and suspended licences of three shops.",
+ "topic": "Sweet shop raids",
+ "watch": "Results of the 21 food samples are due. Six shops got improvement notices and will be re-inspected."
+}

@@ -1,0 +1,83 @@
+{
+ "beats": {
+  "care": "If your hostel is in an old or shaky building, it may need to move soon. Never pay anyone claiming to be from HYDRAA.",
+  "what": "HYDRAA warned that people are posing as its staff to demand money, and said hostels in unsafe buildings must shift by 31 December.",
+  "why": "It received complaints of extortion. HYDRAA says it only removes dangerous buildings when the city corporation asks it to."
+ },
+ "cards": [
+  {
+   "body": "In its statement, HYDRAA said it does not act on its own against illegal or unauthorised buildings. Anyone asked for money can call the ACB on 1064, HYDRAA's control room on 1070, or the local police.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "HYDRAA is Hyderabad's disaster response and asset protection agency. It protects lakes and public land and removes dangerous buildings when civic bodies request it.",
+   "k": "why",
+   "title": "what does hydraa do?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, I'll ask the owner",
+    "I wouldn't know how",
+    "Not my job, it's the owner's"
+   ],
+   "q": "Would you check if your hostel building is safe?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Refuse and report it on 1070 or 1064",
+    "Pay to avoid trouble",
+    "Ignore it and move house",
+    "Pay half and bargain"
+   ],
+   "q": "What should you do if someone from 'HYDRAA' asks for money?",
+   "why": "HYDRAA says it does not collect money like this, so such demands are extortion and should be reported."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-11",
+ "heat": 2,
+ "hook": "Living in a Hyderabad PG? *31 December* could matter to you",
+ "map": {
+  "causes": [
+   {
+    "icon": "🎭",
+    "label": "Fakes posing as HYDRAA staff"
+   },
+   {
+    "icon": "🏚️",
+    "label": "Hostels in unsafe buildings"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📅",
+    "label": "Unsafe hostels: 31 Dec deadline"
+   },
+   {
+    "icon": "📞",
+    "label": "Report on 1070 or 1064"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "HYDRAA issues warning"
+  }
+ },
+ "order": 12,
+ "readSecs": 40,
+ "sort": "2026-10-11-87",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "HYDRAA warns of action against extortionists misusing agency's name",
+   "url": "https://telanganatoday.com/hydraa-warns-of-action-against-extortionists-misusing-agencys-name"
+  }
+ ],
+ "tldr": "HYDRAA warned people are extorting money in its name, and said hostels in unsafe buildings must move by 31 December.",
+ "topic": "HYDRAA hostel deadline"
+}

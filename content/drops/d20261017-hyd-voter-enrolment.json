@@ -1,0 +1,97 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Applying? Upload clear, correct age and address proof. An official says applications get rejected when documents aren't proper.",
+  "what": "Hyderabad district has received 4.13 lakh Form 6 applications for new voter IDs, the most in Telangana, says the Chief Electoral Officer's office.",
+  "why": "First-time voters and people whose names were dropped during the ongoing SIR are applying. So far 2.04 lakh are approved and 73,868 rejected."
+ },
+ "cards": [
+  {
+   "body": "About 4.29 lakh have been approved so far, and 3.8 lakh are still pending.",
+   "caption": "Form 6 applications across Telangana",
+   "k": "num",
+   "value": "10.2 lakh"
+  },
+  {
+   "body": "Rangareddy got 1.59 lakh applications and Medchal-Malkajgiri 1.15 lakh, both behind Hyderabad. Overseas Indians filed 8,100 Form 6A applications, but only 1,059 have been approved.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "It's the form to register as a new voter, or to get back on the list if your name was dropped. You can file it online on the Election Commission's voter portal or through your booth level officer.",
+   "k": "why",
+   "title": "what's form 6?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Smooth, one try",
+    "Took many tries",
+    "Still waiting",
+    "Haven't applied"
+   ],
+   "q": "How easy was getting your voter ID?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "New voters and dropped names are applying",
+    "Voting became compulsory",
+    "Old voter IDs expired",
+    "The city got new districts"
+   ],
+   "q": "Why are so many Hyderabad voter applications coming in now?",
+   "why": "Young first-timers and people removed during the SIR re-check are filing Form 6 to get on the list."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-17",
+ "heat": 3,
+ "hook": "Applied for a voter ID in Hyderabad? *73,868 got rejected*",
+ "learn": {
+  "t": "About 1.35 lakh of Hyderabad's 4.13 lakh voter applications are still pending, so many new voters aren't on the list yet."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "SIR re-check of voter lists"
+   },
+   {
+    "icon": "🧑",
+    "label": "First-time voters applying"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "✅",
+    "label": "2.04 lakh approved"
+   },
+   {
+    "icon": "❌",
+    "label": "73,868 rejected"
+   }
+  ],
+  "event": {
+   "icon": "📋",
+   "label": "4.13 lakh Form 6 applications"
+  }
+ },
+ "order": 10,
+ "readSecs": 50,
+ "sort": "2026-10-17-89",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad leads Telangana in voter enrollment drive",
+   "url": "https://telanganatoday.com/hyderabad-leads-telangana-in-voter-enrollment-drive"
+  }
+ ],
+ "thread": "hyd-voter-roll",
+ "tldr": "Hyderabad leads Telangana with 4.13 lakh new voter applications, but nearly 74,000 have been rejected so far.",
+ "topic": "Hyderabad voter applications"
+}

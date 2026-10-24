@@ -1,0 +1,134 @@
+{
+ "beats": {
+  "care": "Drought shrinks harvests, which can push up prices of rice, vegetables and pulses you buy. Food inflation already hit 7.74% in September.",
+  "what": "Karnataka has declared 217 of its 240 taluks drought-hit, and Andhra Pradesh 388 mandals. Central teams are now checking the damage.",
+  "why": "The Hindu's editorial says that once those teams report, the Centre must release drought support quickly instead of leaving states waiting."
+ },
+ "cards": [
+  {
+   "body": "After the monsoon retreats, states count their losses and the Centre sends teams to verify them. The editorial's point is about timing: as soon as those findings are in, the Centre should release its support, not sit on it.",
+   "k": "edit",
+   "kind": "Editorial · 13 Oct",
+   "paper": "The Hindu",
+   "title": "Drought report: on southwest monsoon, drought in Karnataka and Andhra Pradesh",
+   "verdict": "Bottom line: once the damage is verified, drought relief should not wait."
+  },
+  {
+   "body": "India's monsoon ended about 13% below normal this year, and about 70.6% of the country faced dry or drought conditions, per IIT Gandhinagar's drought monitor. Maharashtra has declared drought in 265 of 358 talukas, and Telangana is about 17% short.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Its worst southwest monsoon in 55 years. The state estimates losses could reach ₹50,000 to ₹60,000 crore.",
+   "caption": "Karnataka's monsoon rain shortfall",
+   "k": "num",
+   "value": "35%"
+  },
+  {
+   "body": "Andhra Pradesh's chief minister says that even during this drought, about 2,000 TMC of river water is flowing into the sea.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "The Centre",
+    "The state",
+    "Crop insurance firms"
+   ],
+   "q": "Who should pay most for drought relief?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Release drought aid fast once damage is verified",
+    "Stop all farming in dry areas",
+    "Build new dams before giving aid",
+    "Let states handle drought alone"
+   ],
+   "q": "What is the editorial's main ask?",
+   "why": "The editorial's point is timing: help should reach farmers soon after their losses are confirmed."
+  }
+ ],
+ "cat": "edit",
+ "cover": {
+  "bg": [
+   "#2a1a0a",
+   "#e0a030"
+  ],
+  "big": "217",
+  "label": "Of Karnataka's 240 taluks are drought-hit",
+  "motion": "drift",
+  "scene": [
+   "🏜️",
+   "🌾",
+   "💧"
+  ]
+ },
+ "date": "2026-10-13",
+ "editorial": {
+  "paper": "The Hindu",
+  "title": "Drought report: on southwest monsoon, drought in Karnataka and Andhra Pradesh"
+ },
+ "featured": true,
+ "heat": 3,
+ "hook": "Drought hit 9 in 10 Karnataka taluks. *What should Delhi do now?*",
+ "learn": {
+  "t": "States declare drought using a 2016 central manual that checks rainfall, crops seen by satellite, soil moisture and reservoir levels."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌊",
+    "label": "El Niño weakens monsoon"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Karnataka rain 35% short"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🌾",
+    "label": "47 lakh hectares crops hit"
+   },
+   {
+    "icon": "💰",
+    "label": "States seek Centre's help"
+   }
+  ],
+  "event": {
+   "icon": "🏜️",
+   "label": "Karnataka, AP declare wide drought"
+  }
+ },
+ "order": 1,
+ "readSecs": 60,
+ "sort": "2026-10-13-98",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Drought report: on southwest monsoon, drought in Karnataka and Andhra Pradesh",
+   "url": "https://www.thehindu.com/opinion/editorial/drought-report-on-southwest-monsoon-drought-in-karnataka-and-andhra-pradesh/article71575181.ece"
+  },
+  {
+   "name": "The Week",
+   "title": "217 of 240 Karnataka taluks now drought-hit; losses estimated up to ₹60,000 crore",
+   "url": "https://www.theweek.in/news/india/2026/10/03/karnataka-drought-worsens-217-taluks-hit.html"
+  },
+  {
+   "name": "The News Minute",
+   "title": "El Niño effect: Andhra declares 388 mandals drought-hit; 283 face severe conditions",
+   "url": "https://www.thenewsminute.com/andhra-pradesh/el-ni%C3%B1o-effect-andhra-declares-388-mandals-drought-hit-283-face-severe-conditions"
+  },
+  {
+   "name": "Down To Earth",
+   "title": "Drought despite decades of water conservation: what a 13% monsoon deficit is exposing",
+   "url": "https://www.downtoearth.org.in/climate-change/drought-despite-decades-of-water-conservation-what-a-13-monsoon-deficit-is-exposing"
+  }
+ ],
+ "thread": "el-nino",
+ "tldr": "The Hindu says the Centre should release drought help quickly once its teams finish checking the damage in Karnataka and Andhra Pradesh.",
+ "topic": "Drought relief",
+ "watch": "Central teams are assessing Karnataka's drought now. Watch how much aid the Centre approves, and how fast, in the coming weeks."
+}

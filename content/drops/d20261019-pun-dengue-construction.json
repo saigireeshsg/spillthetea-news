@@ -1,0 +1,107 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Empty coolers, pots and buckets weekly. Got a fever with body pain? See a doctor and avoid self-medicating.",
+  "what": "Pune recorded 1,826 dengue cases from Jan 1 to Oct 10. September had 662, up from 604 last year.",
+  "why": "Construction sites store lots of water to cure concrete, which helps mosquitoes breed."
+ },
+ "cards": [
+  {
+   "body": "Out of about 13.9 lakh properties PMC inspected this year.",
+   "caption": "properties with mosquito larvae, Jan–Sep",
+   "k": "num",
+   "value": "12,939"
+  },
+  {
+   "body": "PMC issued 2,651 notices and collected about ₹5.57 lakh in fines from January to September.",
+   "k": "tea",
+   "title": "Fines so far"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Dust attracts mosquitoes",
+    "Stored curing water lets mosquitoes breed",
+    "Workers carry dengue",
+    "Noise wakes mosquitoes"
+   ],
+   "q": "Why do construction sites help dengue spread?",
+   "why": "Sites keep large amounts of water for curing slabs, where larvae grow."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, right next door",
+    "A few streets away",
+    "None",
+    "Can't tell"
+   ],
+   "q": "Any construction near your home?"
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "cover": {
+  "bg": [
+   "#14281d",
+   "#84cc16"
+  ],
+  "big": "1,826",
+  "label": "dengue cases in Pune this year",
+  "motion": "rise",
+  "scene": [
+   "🦟",
+   "🏗️",
+   "💧"
+  ]
+ },
+ "date": "2026-10-19",
+ "heat": 4,
+ "hook": "Why are *construction sites* breeding Pune's dengue?",
+ "lead": "local",
+ "learn": {
+  "t": "Dengue mosquitoes can reach the fourth or fifth floor of buildings, a PMC health officer says."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Water stored for curing"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Monsoon puddles"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📄",
+    "label": "Notices and fines"
+   },
+   {
+    "icon": "💨",
+    "label": "Fogging in homes"
+   }
+  ],
+  "event": {
+   "icon": "🦟",
+   "label": "662 dengue cases in Sept"
+  }
+ },
+ "order": 85,
+ "readSecs": 45,
+ "sort": "2026-10-19-14",
+ "sources": [
+  {
+   "name": "Free Press Journal (citing PMC data)",
+   "title": "Pune: Construction Sites Emerge As Dengue Breeding Hotspots",
+   "url": "https://www.freepressjournal.in/pune/pune-construction-sites-emerge-as-dengue-breeding-hotspots"
+  }
+ ],
+ "thread": "pun-health",
+ "tldr": "Pune logged 662 dengue cases in September, more than last September, and PMC says construction sites are breeding hotspots.",
+ "topic": "Dengue cases rise"
+}

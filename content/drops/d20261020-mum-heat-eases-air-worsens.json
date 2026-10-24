@@ -1,0 +1,102 @@
+{
+ "areas": [
+  "Citywide",
+  "Colaba",
+  "Andheri East",
+  "Bhandup West",
+  "Deonar"
+ ],
+ "beats": {
+  "care": "Wear a mask near busy roads and sites if you have asthma, and keep water handy since it's still humid.",
+  "what": "Santacruz hit 34.3°C on Sunday, down from last week's 38.2°C peak. Citywide AQI was 125, with Colaba worst at 165.",
+  "why": "With the monsoon gone, there's less rain to wash dust and pollution out of the air."
+ },
+ "cards": [
+  {
+   "body": "Andheri East (162), Bhandup West (158), Deonar (155) and Malad West (151) were close behind, per CPCB data.",
+   "caption": "AQI at Colaba, the city's worst on Sunday evening",
+   "k": "num",
+   "value": "165"
+  },
+  {
+   "ans": 2,
+   "k": "quiz",
+   "opts": [
+    "Good",
+    "Satisfactory",
+    "Moderate",
+    "Severe"
+   ],
+   "q": "Mumbai's AQI of 125 falls in which CPCB band?",
+   "why": "CPCB's 'moderate' band covers 101–200, which can affect sensitive groups."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Throat feels scratchy",
+    "Just sweaty, not sick",
+    "Masking up again",
+    "Feels fine"
+   ],
+   "q": "How's the October air treating you?"
+  },
+  {
+   "body": "IMD expects Monday to stay hot and humid with clear skies, around 35°C. Wednesday may bring partly cloudy skies and a spell or two of rain.",
+   "k": "tea",
+   "title": "Rain on the way?"
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "date": "2026-10-20",
+ "heat": 3,
+ "hook": "Mumbai's heat eased, so why is *the air getting worse*?",
+ "learn": {
+  "t": "On CPCB's scale, an AQI of 101–200 is 'moderate': it can bother people with asthma, lung or heart problems."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌬️",
+    "label": "Monsoon has withdrawn"
+   },
+   {
+    "icon": "🍂",
+    "label": "Dry post-monsoon air"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🌡️",
+    "label": "Days still near 35°C"
+   },
+   {
+    "icon": "💧",
+    "label": "Humidity up to 91%"
+   }
+  ],
+  "event": {
+   "icon": "😷",
+   "label": "AQI climbs to 125"
+  }
+ },
+ "order": 76,
+ "readSecs": 45,
+ "sort": "2026-10-20-23",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Mumbai Weather Update: City Gets Relief From Weeklong Heatwave As Temperatures Dip, But Air Quality Worsens To AQI 125",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-weather-update-city-gets-relief-from-weeklong-heatwave-as-temperatures-dip-but-air-quality-worsens-to-aqi-125"
+  },
+  {
+   "name": "Free Press Journal",
+   "title": "Mumbai Weather Update: Mercury Set To Touch 35°C After Weekend Relief; AQI In Unhealthy Zone",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-weather-update-mercury-set-to-touch-35c-after-weekend-relief-aqi-in-unhealthy-zone-mumbai-news"
+  }
+ ],
+ "thread": "mum-weather",
+ "tldr": "Mumbai cooled to 34.3°C after last week's heatwave, but CPCB data put the city's air quality index at 125 on Sunday evening.",
+ "topic": "Heat eases, air worsens",
+ "watch": "IMD expects one or two spells of rain or thundershowers in Mumbai on Wednesday, October 21."
+}

@@ -1,0 +1,29 @@
+{
+ "areas": [
+  "Citywide",
+  "Dakshineswar",
+  "Dum Dum",
+  "Shahid Khudiram"
+ ],
+ "body": "140 Blue Line trips, every 8 min at peak. Last trains 10:20 pm from Dakshineswar and Shahid Khudiram. Take a bus or cab for morning trips.",
+ "city": "Kolkata",
+ "kind": "metro",
+ "open": "d20261021-kol-dashami-travel",
+ "scope": "local",
+ "sev": 2,
+ "src": [
+  {
+   "name": "India TV (PTI)",
+   "url": "https://www.indiatvnews.com/west-bengal/kolkata-kolkata-metro-to-run-special-train-services-on-five-corridors-during-durga-puja-check-date-timing-2026-10-08-1056474"
+  },
+  {
+   "name": "Daily Jagran",
+   "url": "https://www.thedailyjagran.com/lite/india/news/durga-puja-2026-kolkata-metro-timings-extended-services-4-am-blue-line-green-line-howrah-salt-lake-full-schedule-routes-10332542"
+  }
+ ],
+ "thread": "kol-commute",
+ "title": "Dashami: Blue Line Metro runs only 1 pm–10:30 pm today",
+ "ts": 1792548593981,
+ "until": 1792602000000,
+ "verified": "2"
+}

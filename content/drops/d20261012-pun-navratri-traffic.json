@@ -1,0 +1,97 @@
+{
+ "areas": [
+  "Bhavani Peth",
+  "Laxmi Road",
+  "Budhwar Peth",
+  "Senapati Bapat Road"
+ ],
+ "beats": {
+  "care": "Bus via Ramoshi Gate? It now goes via Golibar Maidan and Swargate. Park on the riverbed road instead.",
+  "what": "Mahatma Phule Road near Bhavani Mata temple is closed both ways, and entry to Tambdi Jogeshwari Road from Laxmi Road is blocked.",
+  "why": "Navratri brings big crowds to old-city temples, so police keep roads clear for devotees and safety."
+ },
+ "cards": [
+  {
+   "body": "Appa Balwant Chowk–Budhwar Chowk is now one-way, only from Budhwar Chowk. Parking is on the riverbed road between Tilak and Bhide bridges, Mandai and Nehru Road.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Measures run Oct 11 to Oct 20, says Pune City Traffic Police.",
+   "caption": "diversions end",
+   "k": "num",
+   "value": "Oct 20"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Garba every night",
+    "Temple visits",
+    "Dodging old-city traffic",
+    "Staying home"
+   ],
+   "q": "How are you doing Navratri this year?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "They switch on when queues build up",
+    "They apply only on weekends",
+    "They're only for buses",
+    "They start after Navratri"
+   ],
+   "q": "Why are diversions near Chatushrungi only used sometimes?",
+   "why": "Police divert traffic there only when crowds cause long queues."
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "date": "2026-10-12",
+ "heat": 2,
+ "hook": "Heading out for *Navratri* darshan? These Pune roads are shut",
+ "learn": {
+  "t": "Chatushrungi diversions switch on only when queues build, so SB Road routes can change in real time."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Navratri temple crowds"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚌",
+    "label": "PMPML buses diverted"
+   },
+   {
+    "icon": "🅿️",
+    "label": "No-parking zones"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "Closures near major temples"
+  }
+ },
+ "order": 58,
+ "readSecs": 35,
+ "sort": "2026-10-12-41",
+ "sources": [
+  {
+   "name": "PunePulse",
+   "title": "Pune Navratri Traffic Alert: Road Closures And Diversions Near Major Temples",
+   "url": "https://www.mypunepulse.com/pune-navratri-traffic-alert-road-closures-and-diversions-near-major-temples/"
+  },
+  {
+   "name": "Punekar News",
+   "title": "Pune Police Announce Traffic Diversions for Navratri from October 11 to 20",
+   "url": "https://www.punekarnews.in/pune-police-announce-traffic-diversions-for-navratri-from-october-11-to-20/"
+  }
+ ],
+ "thread": "pun-traffic",
+ "tldr": "Pune Traffic Police have closed or diverted roads near Bhavani Mata, Tambdi Jogeshwari and Chatushrungi temples until October 20.",
+ "topic": "Navratri diversions",
+ "watch": "Navratri closures and diversions stay in place until October 20."
+}

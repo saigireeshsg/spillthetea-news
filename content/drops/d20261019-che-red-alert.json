@@ -1,0 +1,140 @@
+{
+ "areas": [
+  "Parry's Corner",
+  "Kathivakkam",
+  "T Nagar",
+  "Velachery",
+  "Madipakkam",
+  "Besant Nagar",
+  "Perambur",
+  "Tiruvottiyur",
+  "Royapuram"
+ ],
+ "beats": {
+  "care": "Avoid GN Road, Velachery Main Road and subways when it pours. Save your zone's GCC helpline number.",
+  "what": "Parry's Corner got 36 cm and Kathivakkam 34 cm in the 24 hours to Sunday morning. IMD issued a red alert for Chennai.",
+  "why": "The northeast monsoon is very active. More rain bands are expected over Tamil Nadu this week."
+ },
+ "cards": [
+  {
+   "body": "GCC says all 22 subways were pumped out, and called the situation 'entirely under control'.",
+   "caption": "subways cleared and reopened by 6 am Sunday",
+   "k": "num",
+   "value": "22"
+  },
+  {
+   "body": "GN Road (T Nagar to Anna Salai), Velachery Main Road near Guru Nanak College, parts of Besant Nagar and Madipakkam, plus Perambur, Tiruvottiyur and Royapuram.",
+   "k": "tea",
+   "title": "Where water collected"
+  },
+  {
+   "body": "GCC has zone helplines from 94451 90001 to 94451 90015. Adyar is 94451 90013 and Sholinganallur is 94451 90015.",
+   "k": "tea",
+   "title": "Who to call"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Light drizzle all day",
+    "Extremely heavy rain, over 20 cm, is possible",
+    "Schools must close",
+    "Cyclone has landed"
+   ],
+   "q": "What does IMD's red alert tell Chennai?",
+   "why": "A red alert is IMD's top warning, for rain above 20 cm in 24 hours."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Totally fine",
+    "Some puddles",
+    "Knee-deep water",
+    "Didn't step out"
+   ],
+   "q": "How's your street after the rain?"
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "cover": {
+  "bg": [
+   "#0b1e33",
+   "#1e90ff"
+  ],
+  "big": "36 cm",
+  "label": "rain at Parry's Corner in 24 hours",
+  "motion": "fall",
+  "scene": [
+   "🌧️",
+   "🚨",
+   "🌊"
+  ]
+ },
+ "date": "2026-10-19",
+ "heat": 5,
+ "hook": "How much rain fell on *north Chennai in one day*?",
+ "lead": "local",
+ "learn": {
+  "t": "A red alert means IMD expects 'extremely heavy' rain: more than 20 cm in a day."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌀",
+    "label": "Northeast monsoon active"
+   },
+   {
+    "icon": "☁️",
+    "label": "Bay of Bengal moisture"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🌊",
+    "label": "Waterlogged main roads"
+   },
+   {
+    "icon": "🚗",
+    "label": "Slow traffic, Anna Salai"
+   },
+   {
+    "icon": "🛟",
+    "label": "Relief centres opened"
+   }
+  ],
+  "event": {
+   "icon": "🚨",
+   "label": "Red alert for Chennai"
+  }
+ },
+ "order": 90,
+ "readSecs": 55,
+ "sort": "2026-10-19-09",
+ "sources": [
+  {
+   "name": "DT Next (PTI)",
+   "title": "Extremely heavy rainfall forecast for Chennai; red alert issued",
+   "url": "https://www.dtnext.in/news/chennai/tn-ld-rains-r"
+  },
+  {
+   "name": "Telangana Today (PTI)",
+   "title": "Heavy rain lashes Chennai; 22 subways reopened after waterlogging",
+   "url": "https://telanganatoday.com/heavy-rain-lashes-chennai-22-subways-reopened-after-waterlogging"
+  },
+  {
+   "name": "The News Minute",
+   "title": "Rain-battered Chennai braces for more heavy showers, CM Vijay reviews preparations",
+   "url": "https://www.thenewsminute.com/tamil-nadu/rain-battered-chennai-braces-for-more-heavy-showers-cm-vijay-reviews-preparations"
+  },
+  {
+   "name": "LiveChennai",
+   "title": "GCC zonal helpline numbers",
+   "url": "https://www.livechennai.com/detailnews.asp?newsid=83909"
+  }
+ ],
+ "thread": "che-monsoon",
+ "tldr": "IMD put Chennai on red alert for extremely heavy rain into Monday, after parts of north Chennai got over 30 cm.",
+ "topic": "Rain red alert",
+ "watch": "Heavy rain is likely across Tamil Nadu until about October 26, says the weather office."
+}

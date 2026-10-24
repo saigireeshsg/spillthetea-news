@@ -1,0 +1,46 @@
+{
+ "emoji": "🏦",
+ "lede": "Inflation means prices going up. A little is normal. Too much hurts everyone, especially people with less money. In India, the RBI (Reserve Bank of India) is the referee.",
+ "mins": 1,
+ "players": [
+  {
+   "name": "RBI",
+   "role": "India's central bank. Sets the repo rate."
+  },
+  {
+   "name": "MPC",
+   "role": "A 6-member committee inside RBI that votes on rates."
+  },
+  {
+   "name": "Government",
+   "role": "Controls taxes, fuel duties and food stocks."
+  },
+  {
+   "name": "Banks",
+   "role": "Borrow from RBI, lend to you."
+  }
+ ],
+ "timeline": [
+  {
+   "what": "A law gives RBI a clear job: keep inflation near 4%, within a 2–6% range.",
+   "when": "2016"
+  },
+  {
+   "what": "The repo rate reaches 6.50% after a series of hikes to fight high inflation.",
+   "when": "Feb 2023"
+  },
+  {
+   "what": "With prices calmer, RBI cuts rates by 1.25 points in total, down to 5.25%.",
+   "when": "2025"
+  },
+  {
+   "what": "Inflation hits 4.82%, above the 4% target for the 3rd month in a row.",
+   "when": "Aug 2026"
+  },
+  {
+   "what": "RBI hikes to 5.50% and September inflation hits 5.54%. Banks pass it on: SBI raises its repo-linked loan rate to 7.75% from 15 Oct, so many EMIs rise. The rupee recovers to about 94.9 per dollar after RBI sells dollars.",
+   "when": "Oct 2026"
+  }
+ ],
+ "title": "How RBI fights rising prices"
+}

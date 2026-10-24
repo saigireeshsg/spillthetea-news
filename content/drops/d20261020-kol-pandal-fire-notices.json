@@ -1,0 +1,99 @@
+{
+ "areas": [
+  "Chetla",
+  "Ballygunge"
+ ],
+ "beats": {
+  "care": "Heading out on Navami? Note the exits when you enter, avoid packed lanes with stalls, and keep friends in sight.",
+  "what": "West Bengal Fire and Emergency Services sent notices to Chetla Agrani, Ballygunge Cultural Association and Tridhara Sammilani over safety gaps.",
+  "why": "After 19 people died at Chorbagan, officials are checking crowded pandals. They found risky stalls, dim lighting and poor ventilation."
+ },
+ "cards": [
+  {
+   "body": "Temporary stalls near pandals, LPG cylinders close to flammable material, dark spots from weak lighting, and poor airflow inside. Officials ordered risky stalls removed at once.",
+   "k": "tea",
+   "title": "What inspectors found"
+  },
+  {
+   "body": "Tridhara Sammilani says it had a fire NOC and sent a compliance report. Ballygunge Cultural Association says it has improved lighting and cleared entry routes.",
+   "k": "tea",
+   "title": "What committees say"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "It ruins photos",
+    "It hides dark spots that make crowd control harder",
+    "It wastes power",
+    "It breaks Puja rules on colour"
+   ],
+   "q": "Why did fire officials worry about dim lighting?",
+   "why": "Officials said poor lighting created dark spots that hampered visibility and crowd management."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Always now",
+    "Sometimes",
+    "Never did before",
+    "Skipping crowds"
+   ],
+   "q": "Do you check exits at a pandal?"
+  }
+ ],
+ "cat": "local",
+ "city": "Kolkata",
+ "date": "2026-10-20",
+ "heat": 3,
+ "hook": "Which *big south Kolkata pandals* got fire safety notices?",
+ "lead": "local",
+ "learn": {
+  "t": "Fire officials flagged poor lighting as a crowd risk: dark spots make it harder to see and guide crowds."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚠️",
+    "label": "Chorbagan crowd crush"
+   },
+   {
+    "icon": "🔍",
+    "label": "Fire services inspections"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏪",
+    "label": "Risky stalls to go"
+   },
+   {
+    "icon": "💡",
+    "label": "Better pandal lighting"
+   }
+  ],
+  "event": {
+   "icon": "📄",
+   "label": "Notices to three committees"
+  }
+ },
+ "order": 84,
+ "readSecs": 45,
+ "sort": "2026-10-20-15",
+ "sources": [
+  {
+   "name": "Millennium Post",
+   "title": "Bengal fire services department issues notices to 3 Kolkata Durga Puja committees over safety lapses",
+   "url": "https://www.millenniumpost.in/bengal/bengal-fire-services-department-issues-notices-to-3-kolkata-durga-puja-committees-over-safety-lapses-680327"
+  },
+  {
+   "name": "India.com",
+   "title": "Bengal pandals witness massive crowds as visitors remain on high alert after Chorbagan stampede, security beefed up",
+   "url": "https://www.india.com/news/india/west-bengal-durga-puja-chorbagan-stampede-navami-kolkata-suvendu-adhikari-traffic-police-sreebhumi-sporting-club-ekdalia-evergreen-suruchi-sangha-8537237/"
+  }
+ ],
+ "thread": "kol-puja-safety",
+ "tldr": "Bengal's fire services sent safety notices to three big south Kolkata Puja committees during checks that followed the Chorbagan crush.",
+ "topic": "Pandal fire safety",
+ "watch": "The state will meet Puja committees at a Bijoya Sammelani on October 26 to discuss preventing such tragedies."
+}

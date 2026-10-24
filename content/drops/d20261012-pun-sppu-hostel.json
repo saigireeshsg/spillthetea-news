@@ -1,0 +1,101 @@
+{
+ "areas": [
+  "Ganeshkhind"
+ ],
+ "beats": {
+  "care": "In a campus hostel? Save your warden's and campus security numbers. Students say they'll keep pushing for concrete changes.",
+  "what": "Students alleged male students questioned and followed a female student near the girls' hostel around 10:30 pm Sunday.",
+  "why": "Students say hostel security is weak. They want stronger CCTV, biometric entry and more guards."
+ },
+ "cards": [
+  {
+   "body": "The university barred two students from their department and hostel, said it will file a police complaint, and set up a committee to probe. The allegations are still being investigated.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Some went to Chatushrungi police station in the early hours of Monday.",
+   "caption": "students in the overnight protest",
+   "k": "num",
+   "value": "300"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, mostly",
+    "Needs more guards & CCTV",
+    "Depends on the time",
+    "Never stayed in one"
+   ],
+   "q": "Does your campus hostel feel safe?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It will investigate the allegations before final action",
+    "It decides hostel food menus",
+    "It sets exam dates",
+    "It replaces the police"
+   ],
+   "q": "Why does SPPU's probe committee matter here?",
+   "why": "The committee checks what happened, while the university also plans a police complaint."
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "date": "2026-10-12",
+ "heat": 3,
+ "hook": "300 students protested all night. *What changed* at SPPU's hostel?",
+ "learn": {
+  "t": "SPPU accepted the girls' hostel chief rector's resignation and removed the assistant chief rector after the protest."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚶",
+    "label": "Student allegedly followed"
+   },
+   {
+    "icon": "🏠",
+    "label": "Hostel security worries"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚫",
+    "label": "Two students barred"
+   },
+   {
+    "icon": "🔍",
+    "label": "Probe committee formed"
+   },
+   {
+    "icon": "🔄",
+    "label": "Hostel staff changed"
+   }
+  ],
+  "event": {
+   "icon": "🪧",
+   "label": "Overnight protest at SPPU"
+  }
+ },
+ "order": 74,
+ "readSecs": 45,
+ "sort": "2026-10-12-25",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Pune: SPPU Suspends Two Students After Hostel Security Row; Girls' Hostel Chief Rector's Resignation Accepted",
+   "url": "https://www.freepressjournal.in/pune/pune-sppu-suspends-two-students-after-hostel-security-row-girls-hostel-chief-rectors-resignation-accepted"
+  },
+  {
+   "name": "Punekar News",
+   "title": "Pune: After Students' Overnight Protest, SPPU Forms Panel to Probe Alleged Moral Policing Near Girls' Hostel; Two Male Students Suspended",
+   "url": "https://www.punekarnews.in/pune-after-students-overnight-protest-sppu-forms-panel-to-probe-alleged-moral-policing-near-girls-hostel-two-male-students-suspended/"
+  }
+ ],
+ "thread": "pun-campus-safety",
+ "tldr": "After about 300 students protested overnight over safety at SPPU's girls' hostel, the university barred two students and changed hostel staff.",
+ "topic": "SPPU hostel safety"
+}

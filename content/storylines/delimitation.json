@@ -1,0 +1,50 @@
+{
+ "emoji": "🏛️",
+ "lede": "Every state sends MPs to the Lok Sabha based on its population. But seat counts have been frozen on the 1971 census for decades, so fast-growing states have fewer seats than their population suggests. In 2023, Parliament promised women a third of seats, but only after a new census and redrawing of seats, called delimitation. The fight now is over when and how to do both.",
+ "mins": 2,
+ "players": [
+  {
+   "name": "Union government",
+   "role": "Wants to redraw seats and start the women's quota before 2029."
+  },
+  {
+   "name": "Opposition parties",
+   "role": "Want the women's quota now, without linking it to new seat maps."
+  },
+  {
+   "name": "Southern states",
+   "role": "Fear losing clout because they slowed population growth."
+  },
+  {
+   "name": "Delimitation Commission",
+   "role": "A panel led by a Supreme Court judge that redraws constituencies."
+  },
+  {
+   "name": "Parliament",
+   "role": "Needs a two-thirds vote to change the Constitution."
+  }
+ ],
+ "timeline": [
+  {
+   "what": "Seat counts per state are frozen on the 1971 census, to avoid punishing states that control population.",
+   "when": "1976"
+  },
+  {
+   "what": "The last Delimitation Commission redraws constituency borders but keeps each state's seat count the same.",
+   "when": "2002–2008"
+  },
+  {
+   "what": "Parliament passes the women's reservation law: one-third of Lok Sabha and Assembly seats, but only after the next census and delimitation.",
+   "when": "Sep 2023"
+  },
+  {
+   "what": "Bills to raise the seat cap to 850 and start the quota sooner win 298 votes to 230, short of the two-thirds needed.",
+   "when": "Apr 2026"
+  },
+  {
+   "what": "Reports say the Centre may call a special session late this month to try again. No dates are announced yet.",
+   "when": "Oct 2026"
+  }
+ ],
+ "title": "Seats, maps and the women's quota"
+}

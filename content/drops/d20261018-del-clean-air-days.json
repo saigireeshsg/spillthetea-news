@@ -1,0 +1,117 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Winter smog usually hits in November. The government wants offices to allow WFH and people to take the Metro on bad days.",
+  "what": "Delhi recorded 211 good, satisfactory or moderate air days by October 17, Environment Minister Manjinder Singh Sirsa said.",
+  "why": "It's the best count since 2016, leaving out Covid-hit 2020. Poor-or-worse days fell from 168 in 2016 to 79."
+ },
+ "cards": [
+  {
+   "body": "In the same stretch of 2016, Delhi had 168 such days.",
+   "caption": "poor, very poor or severe days so far in 2026",
+   "k": "num",
+   "value": "79"
+  },
+  {
+   "body": "Sirsa said 'this is not a moment for complacency.' Low winter winds trap smoke and dust, so he called the coming months the real challenge.",
+   "k": "tea",
+   "title": "Not done yet"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Schools reopen",
+    "Slow winter winds let pollution build up",
+    "Metro fares rise",
+    "Monsoon starts"
+   ],
+   "q": "Why does the government call winter 'the real test'?",
+   "why": "Sirsa said lower wind speeds in winter are the real challenge for Delhi's air."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, clearly",
+    "A little",
+    "Not really",
+    "Waiting for winter"
+   ],
+   "q": "Have you noticed cleaner air this year?"
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "cover": {
+  "bg": [
+   "#0f2a2e",
+   "#2ec4b6"
+  ],
+  "big": "211",
+  "label": "good-to-moderate air days in 2026",
+  "motion": "rise",
+  "scene": [
+   "🌫️",
+   "🌳",
+   "🚇"
+  ]
+ },
+ "date": "2026-10-18",
+ "heat": 4,
+ "hook": "Has Delhi had its *cleanest air year in a decade* so far?",
+ "lead": "local",
+ "learn": {
+  "t": "By October 17, Delhi had more good-to-moderate air days than in all of 2025, which had 200."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧹",
+    "label": "Road dust control"
+   },
+   {
+    "icon": "🚌",
+    "label": "More e-buses"
+   },
+   {
+    "icon": "💨",
+    "label": "Anti-smog guns, sprinklers"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "❄️",
+    "label": "Winter test ahead"
+   },
+   {
+    "icon": "🏠",
+    "label": "WFH push in bad spells"
+   }
+  ],
+  "event": {
+   "icon": "📈",
+   "label": "211 cleaner-air days"
+  }
+ },
+ "order": 84,
+ "readSecs": 45,
+ "sort": "2026-10-18-15",
+ "sources": [
+  {
+   "name": "ANI",
+   "title": "Delhi breaks air quality records with 211 clean air days in 2026; Govt warns winter test ahead",
+   "url": "https://aninews.in/news/national/general-news/delhi-breaks-air-quality-records-with-211-clean-air-days-in-2026-govt-warns-winter-test-ahead20261017190100/"
+  },
+  {
+   "name": "Urban Acres",
+   "title": "Delhi Air Pollution: CAQM Gives MCD 31 October Deadline",
+   "url": "https://urbanacres.in/delhi-air-pollution-caqm-sets-31-october-deadline-for-mcd-cleanup/"
+  }
+ ],
+ "thread": "del-air-quality",
+ "tldr": "Delhi has logged 211 days of good-to-moderate air so far in 2026, but the government says winter will be the real test.",
+ "topic": "Clean air record",
+ "watch": "CAQM has given MCD until October 31 to clear dust and construction debris from roads and open plots."
+}

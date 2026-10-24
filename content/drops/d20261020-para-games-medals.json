@@ -1,0 +1,102 @@
+{
+ "beats": {
+  "care": "These athletes show what proper funding and coaching can do. Follow along: India's para athletes often win more than its Olympic squads.",
+  "what": "By Monday evening, India had 4 golds, 5 silvers and 2 bronzes at the Asian Para Games in Aichi-Nagoya, ranking fourth.",
+  "why": "Mona Agarwal won shooting gold with a Games-record score, and Nishad Kumar, Soumya and Rinku won athletics golds."
+ },
+ "cards": [
+  {
+   "body": "Nishad Kumar took gold in long jump T47 in his first competition in that event. Rinku won javelin F46 gold with Ajeet Singh taking silver. Avani Lekhara won silver in air rifle.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "China leads with 26 golds. Japan (27 medals) and Uzbekistan (23) are second and third.",
+   "caption": "China's medals so far",
+   "k": "num",
+   "value": "62"
+  },
+  {
+   "body": "Nishad Kumar, a high jump star, switched events and won long jump gold on debut.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Not at all",
+    "Getting better",
+    "Yes, enough"
+   ],
+   "q": "Do para sports get enough attention?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "4 golds and a top-4 spot early on",
+    "India leads the table",
+    "India has no golds yet",
+    "India skipped athletics"
+   ],
+   "q": "What makes India's Nagoya start notable?",
+   "why": "Four golds in the first days put India fourth, behind only China, Japan and Uzbekistan."
+  }
+ ],
+ "cat": "sport",
+ "date": "2026-10-20",
+ "heat": 3,
+ "hook": "4 golds already in Japan. Can India *beat its 111-medal record*?",
+ "learn": {
+  "t": "India's best Asian Para Games haul is 111 medals, from Hangzhou 2022; it's chasing that in Nagoya with 168 athletes."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎯",
+    "label": "Mona's record-score gold"
+   },
+   {
+    "icon": "🏃",
+    "label": "Golds in athletics"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🇨🇳",
+    "label": "China leads with 62"
+   },
+   {
+    "icon": "📈",
+    "label": "Record 111 in reach?"
+   }
+  ],
+  "event": {
+   "icon": "🏅",
+   "label": "India: 11 medals, 4th"
+  }
+ },
+ "order": 8,
+ "readSecs": 45,
+ "sort": "2026-10-20-91",
+ "sources": [
+  {
+   "name": "The Sunday Guardian",
+   "title": "Asian Para Games 2026 Medal Tally LIVE: India Reach 11 Medals with 4 Gold, 5 Silver & 2 Bronze",
+   "url": "https://sundayguardianlive.com/sports/asian-para-games-2026-medal-tally-live-india-reach-11-medals-with-4-gold-5-silver-2-bronze-latest-ranking-total-medals-updated-standings-308606/"
+  },
+  {
+   "name": "Daily Jagran",
+   "title": "Today's School Assembly News Headline October 20 (Mona clinches gold, Avani takes silver)",
+   "url": "https://www.thedailyjagran.com/education/news/todays-school-assembly-news-headline-october-20-check-top-national-international-and-sports-news-10333243"
+  },
+  {
+   "name": "ESPN",
+   "title": "Asian Para Games: India medals 111 in record-breaking campaign",
+   "url": "https://www.espn.com/espn/story/_/id/38762397/asian-para-games-india-medals-111-record-breaking-campaign"
+  }
+ ],
+ "thread": "asian-para-games-2026",
+ "tldr": "India had 11 medals, including 4 golds, and sat 4th at the Asian Para Games in Japan by Monday evening, led by Mona Agarwal's record-score shooting gold.",
+ "topic": "India's para medals",
+ "watch": "The Games end on 24 Oct. Spill's prediction on whether India wins 100 or more medals closes then."
+}

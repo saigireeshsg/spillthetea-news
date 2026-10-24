@@ -1,0 +1,37 @@
+{
+ "city": "Mumbai",
+ "date": "2026-10-13",
+ "items": [
+  {
+   "area": "Citywide",
+   "icon": "💧",
+   "src": "BMC via Free Press Journal",
+   "text": "BMC: 10% water cut continues (20% for commercial). Fix leaks, store only what you need"
+  },
+  {
+   "area": "Citywide",
+   "icon": "🌡️",
+   "src": "IMD via Free Press Journal",
+   "text": "Santacruz hit 38°C Sunday, near October record. Carry water, avoid midday walks; slow relief ahead"
+  },
+  {
+   "area": "Citywide",
+   "icon": "🗳️",
+   "src": "Free Press Journal",
+   "text": "Voter-list claims deadline extended to Oct 26; BMC to hold camps. Final roll Nov 16"
+  },
+  {
+   "area": "Citywide",
+   "icon": "🚛",
+   "src": "Free Press Journal",
+   "text": "From Oct 12, BMC fines debris trucks ₹25,000 if GPS tracker is off, to curb dumping and dust"
+  },
+  {
+   "area": "Citywide",
+   "icon": "🌳",
+   "src": "BMC via Free Press Journal",
+   "text": "BMC asks societies to check trees for cracks, leaning trunks, weak branches; report hazards"
+  }
+ ],
+ "kind": "area"
+}

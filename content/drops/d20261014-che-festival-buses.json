@@ -1,0 +1,125 @@
+{
+ "areas": [
+  "Kilambakkam",
+  "Koyambedu",
+  "Madhavaram",
+  "Maraimalai Nagar"
+ ],
+ "beats": {
+  "care": "Check which terminal serves your town before you leave. Report private omnibuses that overcharge — RTO teams can fine them.",
+  "what": "Minister Vijay Tamilan Parthiban said 6,199 special buses will run from Chennai on Oct 15–18, on top of 2,191 regular buses.",
+  "why": "Ayudha Pooja on Oct 19 and Deepavali on Nov 8 send lakhs of people home. Splitting buses across stands eases crowding."
+ },
+ "cards": [
+  {
+   "body": "Kilambakkam: Trichy, Madurai, Tirunelveli, Coimbatore and more. Madhavaram: Andhra Pradesh. Koyambedu: ECR, Kanchipuram, Vellore, Bengaluru. Maraimalai Nagar: Kumbakonam, Thanjavur.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "That's regular plus special buses over three days, the minister said.",
+   "caption": "Buses planned for Deepavali travel days",
+   "k": "num",
+   "value": "15,659"
+  },
+  {
+   "body": "Free MTC shuttles will run between Kilambakkam and Maraimalai Nagar, so a wrong stand isn't a disaster.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Govt bus",
+    "Private omnibus",
+    "Train",
+    "Staying in Chennai"
+   ],
+   "q": "How are you getting home this festival?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "A temporary stand at Maraimalai Nagar",
+    "Koyambedu",
+    "Madhavaram",
+    "Chennai Central"
+   ],
+   "q": "Where do Kumbakonam and Thanjavur buses leave from?",
+   "why": "The state set up a temporary stand at Maraimalai Nagar for these routes."
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "cover": {
+  "bg": [
+   "#1a1036",
+   "#ffb020"
+  ],
+  "big": "6,199",
+  "label": "Special buses from Chennai, Oct 15–18",
+  "motion": "drift",
+  "scene": [
+   "🚌",
+   "🪔",
+   "🛣️"
+  ]
+ },
+ "date": "2026-10-14",
+ "heat": 4,
+ "hook": "Going home for Ayudha Pooja? *Your bus may leave* from a new stand.",
+ "lead": "local",
+ "learn": {
+  "t": "Buses to Kumbakonam, Thanjavur and Nagapattinam will leave from a temporary stand at Maraimalai Nagar, not Kilambakkam."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Ayudha Pooja and Deepavali"
+   },
+   {
+    "icon": "🧳",
+    "label": "Huge home-going rush"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📍",
+    "label": "Check your departure stand"
+   },
+   {
+    "icon": "🚐",
+    "label": "Free shuttles between stands"
+   }
+  ],
+  "event": {
+   "icon": "🚌",
+   "label": "Special buses, temporary terminals"
+  }
+ },
+ "order": 87,
+ "readSecs": 50,
+ "sort": "2026-10-14-12",
+ "sources": [
+  {
+   "name": "DT Next (PTI)",
+   "title": "Tamil Nadu announces temporary bus terminals, special services for Ayudha Pooja, Deepavali rush",
+   "url": "https://www.dtnext.in/news/tamilnadu/tamil-nadu-announces-temporary-bus-terminals-special-services-for-ayudha-pooja-deepavali-rush"
+  },
+  {
+   "name": "Nakkheeran",
+   "title": "Special buses to be operated for Ayudha Puja and Diwali festivals: Minister",
+   "url": "https://www.nakkheeran.in/24-by-7-news/special-buses-to-be-operated-for-ayudha-puja-and-diwali-festivals-minister-announcement-12672014"
+  },
+  {
+   "name": "Maalaimalar",
+   "title": "Minister says 15,659 buses to be operated from Chennai for Diwali",
+   "url": "https://www.maalaimalar.com/news/tamilnadu/minister-vijay-tamizhan-parthiban-says-15659-buses-to-be-operated-from-chennai-for-diwali"
+  }
+ ],
+ "thread": "che-festival-travel",
+ "tldr": "Tamil Nadu will run thousands of special buses from Chennai for Ayudha Pooja and Deepavali, from new temporary terminals.",
+ "topic": "Festival bus plan",
+ "watch": "Ayudha Pooja special buses run October 15–18; fare caps for private omnibuses are due 'soon'."
+}

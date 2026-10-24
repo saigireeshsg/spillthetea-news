@@ -1,0 +1,38 @@
+{
+ "emoji": "🗳️",
+ "lede": "To vote in India, your name must be on the electoral roll (voter list) for your area. The Election Commission updates these lists so names of people who died, moved or are listed twice come off, and new voters get on. SIR (Special Intensive Revision) is a deep, door-to-door re-check of those lists.",
+ "mins": 1,
+ "players": [
+  {
+   "name": "Election Commission",
+   "role": "Runs elections and keeps voter lists. Headed by CEC Gyanesh Kumar."
+  },
+  {
+   "name": "INDIA bloc",
+   "role": "Alliance of opposition parties, incl. Congress. Says SIR is unfair."
+  },
+  {
+   "name": "Supreme Court",
+   "role": "Hearing challenges. On 5 Oct, refused an interim order against the CEC."
+  },
+  {
+   "name": "You",
+   "role": "Any citizen 18+ can register and check their name."
+  }
+ ],
+ "timeline": [
+  {
+   "what": "The Supreme Court rules a voter can't be removed without notice and a hearing.",
+   "when": "1995"
+  },
+  {
+   "what": "The EC runs SIR across states. Al Jazeera reports 130M+ names removed so far; millions have appealed.",
+   "when": "2025–26"
+  },
+  {
+   "what": "Protests against SIR and the CEC run for days in Delhi after Jantar Mantar is dropped as a protest site. On 15 Oct the EC announces a lighter update (SSR) in 17 states to enrol young voters. On 17 Oct, The Hindu called the update a 'necessary corrective' but said wrongly deleted voters must be put back.",
+   "when": "Oct 2026"
+  }
+ ],
+ "title": "Voter lists 101: what's SIR?"
+}

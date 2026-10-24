@@ -1,0 +1,142 @@
+{
+ "beats": {
+  "care": "Planning a US master's? Fewer students may get to work after graduating, which makes that loan harder to repay.",
+  "what": "The US proposed making colleges pay $70,000 for each international student who wants to work there after graduating.",
+  "why": "The US government says its OPT work programme is misused to hire cheaper foreign workers."
+ },
+ "cards": [
+  {
+   "body": "On 7 Oct, the US government (Department of Homeland Security) proposed a new rule: colleges must pay $70,000 for each international student they recommend for OPT, plus $30,000 for each extension.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "If the fee isn't paid, the student doesn't get permission to work.",
+   "caption": "roughly what $70,000 is in rupees",
+   "k": "num",
+   "value": "₹67 lakh"
+  },
+  {
+   "body": "OPT lets foreign students work in the US in their field after they graduate: usually 1 year, and up to 3 years for STEM students. For lots of Indian students, that job is how they pay back their education loan.",
+   "k": "why",
+   "title": "wait, what is OPT?"
+  },
+  {
+   "body": "Breathe: it's a *proposal*, not a law yet. People can send comments first, and colleges or companies may take it to court. But if it passes, the government itself expects colleges to recommend far fewer students.",
+   "k": "you",
+   "title": ""
+  },
+  {
+   "a": {
+    "body": "OPT gets misused and has become a way to hire cheaper foreign workers instead of Americans.",
+    "label": "The US government says"
+   },
+   "b": {
+    "body": "OPT fills skill gaps in tech and science, and it's a big reason students choose the US at all.",
+    "label": "Colleges & student groups say"
+   },
+   "k": "sides",
+   "title": "Why are people fighting about it?"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "The student",
+    "The college",
+    "The company hiring",
+    "Nobody, it's fake news"
+   ],
+   "q": "Under this plan, who pays the $70,000?",
+   "why": "The rule charges the college that recommends the student for OPT."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, I'd look at other countries",
+    "No, still going to the US",
+    "Never planned to go abroad"
+   ],
+   "q": "Would this change your study-abroad plans?"
+  },
+  {
+   "by": "mid-2027",
+   "k": "predict",
+   "opts": [
+    "Yes",
+    "No, it gets blocked or dropped"
+   ],
+   "q": "Will this fee actually be in force by mid-2027?"
+  }
+ ],
+ "cat": "campus",
+ "cover": {
+  "bg": [
+   "#0e2040",
+   "#7193ff"
+  ],
+  "big": "$70,000",
+  "label": "per student · proposed US fee",
+  "motion": "rise",
+  "scene": [
+   "🎓",
+   "✈️",
+   "💰"
+  ]
+ },
+ "date": "2026-10-09",
+ "heat": 5,
+ "hook": "Planning a US master's? There's a new *$70,000* problem",
+ "map": {
+  "causes": [
+   {
+    "icon": "🇺🇸",
+    "label": "US crackdown on foreign workers"
+   },
+   {
+    "icon": "🕵️",
+    "label": "Claims OPT is misused"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🎓",
+    "label": "Fewer students may get OPT"
+   },
+   {
+    "icon": "🇮🇳",
+    "label": "US study plans get riskier"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Could face court challenges"
+   }
+  ],
+  "event": {
+   "icon": "💰",
+   "label": "$70K fee per student proposed"
+  }
+ },
+ "order": 4,
+ "readSecs": 85,
+ "sort": "2026-10-09-95",
+ "sources": [
+  {
+   "name": "ABC11 / AP",
+   "title": "Trump administration proposes a $70,000 fee for international students to work in the US",
+   "url": "https://abc11.com/post/trump-administration-proposes-70000-fee-international-students-work-us/19918116/"
+  },
+  {
+   "name": "Newsweek",
+   "title": "Trump admin proposes $70,000 fee for foreign graduates to work in US",
+   "url": "https://www.newsweek.com/trump-admin-proposes-70000-fee-for-foreign-graduates-to-work-in-us-12535404"
+  },
+  {
+   "name": "SCMP",
+   "title": "US proposes US$70,000 fee for foreign students to work after graduation",
+   "url": "https://www.scmp.com/news/us/diplomacy/article/3370097/us-proposes-us70000-fee-foreign-students-work-after-graduation"
+  }
+ ],
+ "tldr": "The US government wants colleges to pay $70,000 for every international student who works there after graduating.",
+ "topic": "US $70K fee"
+}

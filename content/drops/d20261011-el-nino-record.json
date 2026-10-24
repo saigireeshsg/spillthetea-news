@@ -1,0 +1,129 @@
+{
+ "beats": {
+  "care": "El Niño often means weaker monsoons and hotter weather in India, which can push up food prices and strain water supplies.",
+  "what": "The World Meteorological Organization says the current El Niño will strengthen and peak around December, possibly among the strongest since 1950.",
+  "why": "Forecasters expect the central Pacific to run about 3.7 degrees above normal, beating the record set in 2015 and 2016."
+ },
+ "cards": [
+  {
+   "body": "Thirteen global forecasting centres agree El Niño will almost surely last through February 2027. The last record, in 2015–16, was about 2.6°C above normal.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "items": [
+    {
+     "display": "+2.6°C",
+     "label": "2015–16 record",
+     "value": 2.6
+    },
+    {
+     "alt": true,
+     "display": "+3.7°C",
+     "label": "2026 forecast",
+     "value": 3.7
+    }
+   ],
+   "k": "bars",
+   "note": "Sea-surface temperature above normal in the central Pacific.",
+   "title": "Pacific warming in big El Niño years"
+  },
+  {
+   "body": "In an El Niño, warm water shifts east across the Pacific. That changes winds worldwide and often weakens the moist winds that bring India its rain.",
+   "k": "why",
+   "title": "how does the pacific affect our monsoon?"
+  },
+  {
+   "body": "El Niño is Spanish for 'the boy child'. Fishermen in Peru named it centuries ago because warm water often arrived near Christmas.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, with water rationing plans",
+    "Yes, with crop insurance and storage",
+    "We already do enough"
+   ],
+   "q": "Should India prepare for droughts like it does for floods?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It often weakens India's monsoon rains",
+    "It makes the Indian Ocean freeze",
+    "It causes earthquakes in India",
+    "It has no effect on India"
+   ],
+   "q": "Why does a warm Pacific matter for India?",
+   "why": "El Niño shifts global winds and often means less rain for India, hurting crops and water supplies."
+  }
+ ],
+ "cat": "planet",
+ "cover": {
+  "bg": [
+   "#2a0f06",
+   "#ff7a1a"
+  ],
+  "big": "+3.7°C",
+  "label": "Forecast Pacific warming, Oct–Dec (a record)",
+  "motion": "rise",
+  "scene": [
+   "🌊",
+   "🌡️",
+   "🌾"
+  ]
+ },
+ "date": "2026-10-11",
+ "heat": 3,
+ "hook": "The Pacific is heating up *more than ever recorded*. Why India cares",
+ "map": {
+  "causes": [
+   {
+    "icon": "🌊",
+    "label": "Pacific waters unusually warm"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🌧️",
+    "label": "Weaker rains for India"
+   },
+   {
+    "icon": "🌾",
+    "label": "Crop and food price risk"
+   },
+   {
+    "icon": "🔥",
+    "label": "Hotter months ahead"
+   }
+  ],
+  "event": {
+   "icon": "🌡️",
+   "label": "WMO: El Niño could set records"
+  }
+ },
+ "order": 7,
+ "readSecs": 55,
+ "sort": "2026-10-11-92",
+ "sources": [
+  {
+   "name": "Khaleej Times",
+   "title": "El Niño to intensify, peak in December, UN says",
+   "url": "https://www.khaleejtimes.com/world/el-nino-intensify-peak-in-december-un-says"
+  },
+  {
+   "name": "The Star",
+   "title": "El Niño will intensify then peak in December, warns United Nations",
+   "url": "https://www.thestar.com.my/business/business-news/2026/10/09/el-nino-will-intensify-then-peak-in-december-warns-united-nations"
+  },
+  {
+   "name": "News On AIR",
+   "title": "WMO warns El Niño could become one of the strongest since 1950",
+   "url": "https://newsonair.gov.in/wmo-warns-el-nino-could-become-one-of-the-strongest-since-1950-peak-expected-in-december/"
+  }
+ ],
+ "thread": "el-nino",
+ "tldr": "The UN weather agency says this El Niño could become one of the strongest since 1950 and will peak around December.",
+ "topic": "Record El Niño"
+}

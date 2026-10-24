@@ -1,0 +1,143 @@
+{
+ "beats": {
+  "care": "A deal could protect jobs in export industries like textiles and IT. A 100% tariff would make Indian goods far costlier in America.",
+  "what": "Marco Rubio said on Monday the US is very close to a trade deal with India. He meets Foreign Minister Jaishankar in Mumbai today.",
+  "why": "Last week Trump paused a law's tariffs of up to 100% on big buyers of Russian oil, including India, for a 60-day review."
+ },
+ "cards": [
+  {
+   "body": "Rubio said the trade deal is one thing Trump weighs when deciding these waivers. He called India an important ally that has diversified its energy but still buys a lot from Russia. After Mumbai, he heads to Jamnagar, home to one of the world's biggest oil refineries.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "India reportedly told the US its refineries are built for medium, slightly sulphur-heavy crude, the kind Russia and the Gulf supply. The Iran war has hit Gulf supplies, and US crude is lighter, so switching is not simple.",
+   "k": "why",
+   "title": "why can't india just stop buying russian oil?"
+  },
+  {
+   "body": "The same law also allowed tariffs of up to 500% on goods coming from Russia itself. Both were paused together.",
+   "k": "twist"
+  },
+  {
+   "a": {
+    "body": "Rubio said you cannot unravel other countries' economies over one issue, and that energy prices and supply shocks justify the waiver.",
+    "label": "US officials say"
+   },
+   "b": {
+    "body": "Senate Democrat leader Chuck Schumer and others from both parties criticised Trump's move to suspend the Russia sanctions.",
+    "label": "Critics in the US say"
+   },
+   "k": "sides",
+   "note": "The waiver can be reversed, so India's relief is temporary for now.",
+   "title": "Is the pause good news for India?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, cheap fuel first",
+    "Cut it for a US deal",
+    "Slowly reduce it"
+   ],
+   "q": "Should India keep buying Russian oil?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The US can tariff big buyers of Russian oil",
+    "Russia owns Indian refineries",
+    "The US sells India no goods",
+    "India exports oil to the US"
+   ],
+   "q": "Why does Russian oil matter to the India-US trade deal?",
+   "why": "A US law lets Washington punish big Russian-oil buyers with tariffs, so oil and trade talks are tied together."
+  },
+  {
+   "by": "30 Nov",
+   "k": "predict",
+   "opts": [
+    "Yes, deal announced",
+    "No, not by then"
+   ],
+   "q": "Will India and the US announce a trade deal by 30 Nov?"
+  }
+ ],
+ "cat": "world",
+ "cover": {
+  "bg": [
+   "#0b1d3a",
+   "#2f7de1"
+  ],
+  "big": "100%",
+  "label": "US tariff threat on India, now paused",
+  "motion": "pulse",
+  "scene": [
+   "🤝",
+   "🛢️",
+   "🇮🇳"
+  ]
+ },
+ "date": "2026-10-20",
+ "heat": 4,
+ "hook": "Rubio lands in Mumbai today. Is the *US trade deal* finally close?",
+ "lead": "world",
+ "learn": {
+  "t": "A US law allows tariffs of up to 100% on the five biggest buyers of Russian oil or gas, India included."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛢️",
+    "label": "India buys Russian oil"
+   },
+   {
+    "icon": "⏸️",
+    "label": "Trump pauses 100% tariff"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏙️",
+    "label": "Rubio-Jaishankar talks in Mumbai"
+   },
+   {
+    "icon": "⏳",
+    "label": "60-day tariff review"
+   }
+  ],
+  "event": {
+   "icon": "🤝",
+   "label": "Rubio: deal 'very close'"
+  }
+ },
+ "order": 2,
+ "readSecs": 65,
+ "sort": "2026-10-20-97",
+ "sources": [
+  {
+   "name": "Business Standard",
+   "title": "US is 'very close' to finalising a trade deal with India: Marco Rubio",
+   "url": "https://www.business-standard.com/world-news/us-is-very-close-to-finalising-a-trade-deal-with-india-marco-rubio-126101900913_1.html"
+  },
+  {
+   "name": "Deccan Chronicle",
+   "title": "Rubio: US-India Trade Deal Near Finalisation Amid Tariff Pause",
+   "url": "https://www.deccanchronicle.com/world/americas/rubio-us-india-trade-deal-near-finalisation-amid-tariff-pause-1997098"
+  },
+  {
+   "name": "ANI",
+   "title": "Marco Rubio to commence three-day visit to India; trade deal, talks with Jaishankar on agenda",
+   "url": "https://aninews.in/news/world/asia/marco-rubio-to-commence-three-day-visit-to-india-trade-deal-talks-with-jaishankar-on-agenda20261020012342/"
+  },
+  {
+   "name": "Axios",
+   "title": "Trump Russia waiver draws criticism from Republicans and Democrats",
+   "url": "https://www.axios.com/2026/10/17/trump-russia-waiver-putin-republicans-democrats"
+  }
+ ],
+ "thread": "russian-diesel",
+ "tldr": "US Secretary of State Marco Rubio, who lands in Mumbai today, says a US-India trade deal is very close, days after Trump paused tariffs of up to 100% linked to Russian oil.",
+ "topic": "India-US trade deal",
+ "watch": "Rubio meets Jaishankar in Mumbai today and goes to Jamnagar on 21 Oct. Trump's tariff pause is a 60-day review."
+}

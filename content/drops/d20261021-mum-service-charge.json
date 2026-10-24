@@ -1,0 +1,97 @@
+{
+ "areas": [
+  "Girgaum Chowpatty",
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Eating out with friends? Read the bill. In this case, a compulsory service charge was ruled unfair.",
+  "what": "Cream Centre's operator withdrew its appeal at the state consumer commission and will also drop its plea at the national commission.",
+  "why": "A district commission ruled the compulsory service charge an unfair trade practice and ordered it stopped."
+ },
+ "cards": [
+  {
+   "body": "The restaurant also had to pay ₹25,000 compensation, sent to the Consumer Welfare Fund.",
+   "caption": "the refund the customer won",
+   "k": "num",
+   "value": "₹29.45"
+  },
+  {
+   "body": "The district commission ruled in 2024. The Supreme Court set aside a stay on that order in January 2025. The restaurant dropped its state appeal on October 12, 2026.",
+   "k": "tea",
+   "title": "A long road"
+  },
+  {
+   "body": "The whole fight, over nine years, began with a refund of less than ₹30.",
+   "k": "twist"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Tipping waiters",
+    "A service charge customers had no choice about",
+    "High menu prices",
+    "Card payment fees"
+   ],
+   "q": "What did the consumer commission object to?",
+   "why": "The problem was that the charge was compulsory, not that tips exist."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "All the time",
+    "Sometimes",
+    "I ask them to remove it",
+    "Never noticed"
+   ],
+   "q": "Seen service charge on your bill?"
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "date": "2026-10-21",
+ "heat": 2,
+ "hook": "Can a restaurant make service charge *compulsory*?",
+ "learn": {
+  "t": "A consumer commission said a compulsory service charge falsely suggests a certain standard of service."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧾",
+    "label": "Compulsory 5% charge"
+   },
+   {
+    "icon": "🙋",
+    "label": "Customer complaint, 2017"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🛑",
+    "label": "Order to stop stays"
+   },
+   {
+    "icon": "💰",
+    "label": "₹25,000 compensation"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "Restaurant drops its appeal"
+  }
+ },
+ "order": 66,
+ "readSecs": 40,
+ "sort": "2026-10-21-33",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Mumbai: Cream Centre Withdraws Appeal Against Mandatory Service Charge Order, Agrees To Drop NCDRC Plea",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-cream-centre-withdraws-appeal-against-mandatory-service-charge-order-agrees-to-drop-ncdrc-plea"
+  }
+ ],
+ "thread": "mum-consumer",
+ "tldr": "Cream Centre has dropped its appeal against an order to stop charging a compulsory 5% service charge, ending a case filed in 2017.",
+ "topic": "Service charge case"
+}

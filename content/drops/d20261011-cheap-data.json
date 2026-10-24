@@ -1,0 +1,105 @@
+{
+ "beats": {
+  "care": "Cheap data is why you can stream, study and reel all day. The next goal is a billion 5G users by 2030.",
+  "what": "Telecom minister Jyotiraditya Scindia said one gigabyte of mobile data now costs about eight rupees, compared with 268 rupees in 2014.",
+  "why": "He spoke at India Mobile Congress, Asia's big telecom show, which wrapped up on 10 October."
+ },
+ "cards": [
+  {
+   "body": "India has about 550 million 5G users now. Broadband users rose from 60 million in 2017 to over 1.1 billion. The Bharat 6G Alliance has 90 member institutions working on next-generation networks.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "items": [
+    {
+     "display": "₹268",
+     "label": "2014",
+     "value": 268
+    },
+    {
+     "alt": true,
+     "display": "₹8",
+     "label": "Now",
+     "value": 8
+    }
+   ],
+   "k": "bars",
+   "note": "Figures cited by the telecom minister.",
+   "title": "Price of 1 GB of mobile data"
+  },
+  {
+   "body": "India now makes about $63 billion worth of mobile phones a year, up from just $2–3 billion in 2014.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, speed matters",
+    "No, 4G is fine",
+    "Only if it's a small bump"
+   ],
+   "q": "Would you pay more for faster 5G?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Mobile data became far cheaper",
+    "Phones got banned in schools",
+    "Data became more expensive",
+    "5G was shut down"
+   ],
+   "q": "What changed most for Indian phone users since 2014?",
+   "why": "A gigabyte fell from about ₹268 to about ₹8, putting the internet in almost everyone's pocket."
+  }
+ ],
+ "cat": "tech",
+ "date": "2026-10-11",
+ "heat": 2,
+ "hook": "1 GB of data cost ₹268 in 2014. *What does it cost now?*",
+ "map": {
+  "causes": [
+   {
+    "icon": "📶",
+    "label": "Price wars, cheap 4G"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚀",
+    "label": "550 million 5G users"
+   },
+   {
+    "icon": "🎯",
+    "label": "Target: 1 billion by 2030"
+   }
+  ],
+  "event": {
+   "icon": "📱",
+   "label": "Data now about ₹8 per GB"
+  }
+ },
+ "order": 9,
+ "readSecs": 45,
+ "sort": "2026-10-11-90",
+ "sources": [
+  {
+   "name": "Deccan Chronicle",
+   "title": "India targets 1 billion 5G users by 2030, aims to lead world in 6G: Scindia",
+   "url": "https://www.deccanchronicle.com/amp/nation/india-targets-1-billion-5g-users-by-2030-aims-to-lead-world-in-6g-jyotiraditya-scindia-1994151"
+  },
+  {
+   "name": "Business Today",
+   "title": "India wants to take its technology story to the world: Scindia's 10-year telecom vision",
+   "url": "https://www.businesstoday.in/technology/news/story/india-wants-to-take-its-technology-story-to-the-world-scindias-10-year-telecom-vision-560353-2026-10-08"
+  },
+  {
+   "name": "News On AIR",
+   "title": "India Mobile Congress 2026 concludes",
+   "url": "https://newsonair.gov.in/india-mobile-congress-2026-concludes-emphasises-affordable-and-inclusive-digital-connectivity/"
+  }
+ ],
+ "tldr": "At India Mobile Congress, the government said 1 GB of data now costs about ₹8, down from ₹268 in 2014, and set a target of 1 billion 5G users by 2030.",
+ "topic": "India's cheap data"
+}

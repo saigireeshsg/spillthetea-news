@@ -1,0 +1,127 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Preparing for MPSC? Watch for the exam calendar and the Jan 3 Group C exam; the probe could shape future exams.",
+  "what": "The state formed a panel led by ex-Chief Justice Dilip Bhosale. MPSC chairman Vivek Bhimanwar will stay on leave until it reports.",
+  "why": "Aspirants alleged paper leaks and irregularities and wanted the chairman out. The deal came after talks with Minister Shivendrasinhraje Bhosale."
+ },
+ "cards": [
+  {
+   "body": "Aspirants camped at S M Joshi Bridge for days. A student leader said the stir is \"suspended in principle, not withdrawn\" and will restart if the report is late.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Led by ex-Bombay HC Chief Justice Dilip Bhosale, with IAS officer Tukaram Mundhe as secretary.",
+   "caption": "members on the inquiry panel",
+   "k": "num",
+   "value": "5"
+  },
+  {
+   "body": "Draft promises reported by FPJ include more than doubling posts in the Jan 3 Group C exam and filling 1,600 PWD posts in 15 days.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, if it's fair",
+    "Only with real action",
+    "Not really",
+    "Wait for the report"
+   ],
+   "q": "Will the probe restore trust in MPSC?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "So the probe is independent of MPSC itself",
+    "To cancel all future exams",
+    "To change the syllabus",
+    "To set exam fees"
+   ],
+   "q": "Why did students want an outside judicial panel?",
+   "why": "A panel led by a former judge can examine leak claims without MPSC investigating itself."
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "cover": {
+  "bg": [
+   "#1a1033",
+   "#7c4dff"
+  ],
+  "big": "60 days",
+  "label": "Deadline for the MPSC probe report",
+  "motion": "pulse",
+  "scene": [
+   "📝",
+   "⚖️",
+   "🎓"
+  ]
+ },
+ "date": "2026-10-12",
+ "heat": 4,
+ "hook": "After days on a Pune bridge, what did *MPSC aspirants* win?",
+ "lead": "local",
+ "learn": {
+  "t": "IAS officer Tukaram Mundhe, whom students had demanded, is secretary of the five-member inquiry panel."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📄",
+    "label": "Paper-leak allegations"
+   },
+   {
+    "icon": "🪧",
+    "label": "Bridge sit-in protest"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🧑‍💼",
+    "label": "Chairman goes on leave"
+   },
+   {
+    "icon": "⏸️",
+    "label": "Protest paused, not withdrawn"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "60-day judicial probe ordered"
+  }
+ },
+ "order": 86,
+ "readSecs": 50,
+ "sort": "2026-10-12-13",
+ "sources": [
+  {
+   "name": "The Bridge Chronicle",
+   "title": "Pune: MPSC Protest Called Off Temporarily After Bhimanwar Goes on Leave; Government Orders Judicial Inquiry",
+   "url": "https://www.thebridgechronicle.com/pune/pune-mpsc-protest-called-off-bhimanwar-judicial-inquiry-agn97"
+  },
+  {
+   "name": "Punekar News",
+   "title": "Pune: MPSC Paper Leak Protest Called Off; Chairman Bhimanwar Goes on Leave",
+   "url": "https://www.punekarnews.in/pune-mpsc-paper-leak-protest-called-off-chairman-bhimanwar-goes-on-leave/"
+  },
+  {
+   "name": "Free Press Journal",
+   "title": "MPSC Stir In Pune Called Off Temporarily As Govt Keeps Chairman Vivek Bhimanwar Away Till Probe Ends, Tukaram Mundhe To Lead Inquiry | Video",
+   "url": "https://www.freepressjournal.in/education/mpsc-stir-in-pune-called-off-temporarily-as-govt-keeps-chairman-vivek-bhimanwar-away-till-probe-ends-tukaram-mundhe-to-lead-inquiry-video"
+  },
+  {
+   "name": "National Herald",
+   "title": "MPSC chief steps aside, Tukaram Mundhe named inquiry secretary as Pune stir ends",
+   "url": "https://www.nationalheraldindia.com/national/mpsc-chairman-vivek-bhimanwar-steps-aside-tukaram-mundhe-named-inquiry-secretary-as-pune-stir-ends"
+  }
+ ],
+ "thread": "pun-mpsc",
+ "tldr": "MPSC aspirants paused their Pune protest after the state ordered a 60-day judicial probe and the MPSC chairman went on leave.",
+ "topic": "MPSC paper-leak probe",
+ "watch": "Students say protests resume if the 60-day probe report is late; Group C exam is set for January 3, 2027."
+}

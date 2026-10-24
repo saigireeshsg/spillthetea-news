@@ -1,0 +1,97 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Carry earphones on your daily train and keep calls quiet. Repeat offenders who ignore warnings may face up to Rs 5,000, reports say.",
+  "what": "Southern Railway has warned passengers against playing music, videos, reels or games loudly on phones on trains and at stations.",
+  "why": "Many passengers complained about the noise. An order reportedly lets ticket inspectors and commercial officials collect fines."
+ },
+ "cards": [
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Use earphones and keep calls quiet",
+    "Turn your phone off fully",
+    "Only travel in AC coaches",
+    "Watch videos only at stations"
+   ],
+   "q": "What is the simplest way to stay on the right side of this rule?",
+   "why": "The warning targets loud audio without headphones, so earphones and a low voice are enough."
+  },
+  {
+   "body": "Under the amended Railway Act, a Southern Railway users' committee member said. Up to Rs 5,000 for those who keep at it after a warning.",
+   "caption": "possible fine",
+   "k": "num",
+   "value": "Rs 1,000"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "My biggest pet peeve",
+    "Annoying but whatever",
+    "Not a big deal",
+    "Guilty, I'll buy earphones"
+   ],
+   "q": "Loud reels on trains are…"
+  },
+  {
+   "body": "An order has reportedly gone to all railway divisions. Ticket inspectors and senior commercial officials can collect the fines.",
+   "k": "tea",
+   "title": "Who checks"
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "date": "2026-10-17",
+ "heat": 2,
+ "hook": "Watching reels out loud on the train could now *cost you Rs 1,000*",
+ "learn": {
+  "t": "A railway users' committee member says loud phone use can bring a Rs 1,000 fine, six months' jail, or both."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📱",
+    "label": "Loud reels and music"
+   },
+   {
+    "icon": "🗣️",
+    "label": "Passenger complaints"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💰",
+    "label": "Fines by ticket checkers"
+   },
+   {
+    "icon": "🎧",
+    "label": "Earphones advised"
+   }
+  ],
+  "event": {
+   "icon": "🚆",
+   "label": "Southern Railway issues warning"
+  }
+ },
+ "order": 53,
+ "readSecs": 35,
+ "sort": "2026-10-17-46",
+ "sources": [
+  {
+   "name": "DT Next",
+   "title": "Southern Railway warns of penalties for loud mobile phone use on trains",
+   "url": "https://www.dtnext.in/news/tamilnadu/southern-railway-warns-of-penalties-for-loud-mobile-phone-use-on-trains"
+  },
+  {
+   "name": "News Today",
+   "title": "Loud mobile phone use on trains may attract fines",
+   "url": "https://newstodaynet.com/2026/10/15/loud-mobile-phone-use-on-trains-may-attract-fines/"
+  }
+ ],
+ "thread": "che-train-rules",
+ "tldr": "Southern Railway has warned that playing loud music, reels or games on phones without earphones on trains and at stations can bring fines.",
+ "topic": "Train noise rules"
+}

@@ -1,0 +1,106 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Every litre builders stop taking from the drinking supply is a litre that can reach homes, including yours, next summer.",
+  "what": "The water board, HMWSSB, will launch a Dial-a-Green Tanker service on 1 November, supplying treated sewage water for construction, industries and parks.",
+  "why": "Rain was weak, groundwater is falling and the Singur and Manjira reservoirs are under pressure, raising fears of a summer shortage."
+ },
+ "cards": [
+  {
+   "body": "Managing director K. Ashok Reddy says the board wants 500 million litres a day of treated water used for non-drinking needs. A digital platform will match tankers with nearby treatment plants and track bookings.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Borewells that once struck water at 300 feet are failing far deeper, Telangana Today reports.",
+   "caption": "Depth where some borewells now run dry",
+   "k": "num",
+   "value": "800–1,000 ft"
+  },
+  {
+   "body": "Hyderabad supplies about 150 litres per person a day, more than Bengaluru (108) or Chennai (135), yet still falls short of demand.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, make it compulsory",
+    "Only in summer",
+    "No, let them choose"
+   ],
+   "q": "Should builders be forced to use treated water?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "To save drinking water before summer",
+    "Because it's free for everyone",
+    "To shut down reservoirs",
+    "Because builders demanded it"
+   ],
+   "q": "Why is Hyderabad pushing treated water for builders?",
+   "why": "With weak rain and a supply gap, using treated water for construction leaves more clean water for homes."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-17",
+ "heat": 3,
+ "hook": "Hyderabad will truck *treated sewage water* to builders. Here's why",
+ "learn": {
+  "t": "Hyderabad's water board supplies about 585 million gallons a day against demand of about 735, a 150 MGD gap."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌵",
+    "label": "Weak rain, El Niño fears"
+   },
+   {
+    "icon": "💧",
+    "label": "150 MGD supply gap"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏗️",
+    "label": "Builders use treated water"
+   },
+   {
+    "icon": "🚰",
+    "label": "More drinking water saved"
+   }
+  ],
+  "event": {
+   "icon": "🚛",
+   "label": "Dial-a-Green Tanker from 1 Nov"
+  }
+ },
+ "order": 11,
+ "readSecs": 50,
+ "sort": "2026-10-17-88",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "HMWSSB to launch Dial-a-Green Tanker service on November 1",
+   "url": "https://telanganatoday.com/hmwssb-to-launch-dial-a-green-tanker-service-on-november-1"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad faces 150 MGD water deficit as groundwater levels plunge",
+   "url": "https://telanganatoday.com/hyderabad-faces-150-mgd-water-deficit-as-groundwater-levels-plunge"
+  },
+  {
+   "name": "Siasat",
+   "title": "El Nino fears: Hyderabad to supply treated water to builders",
+   "url": "https://www.siasat.com/el-nino-fears-hyderabad-to-supply-treated-water-to-builders-3559717/"
+  }
+ ],
+ "thread": "hyd-water",
+ "tldr": "From 1 November, Hyderabad's water board will supply treated sewage water by tanker to builders and industries, saving drinking water.",
+ "topic": "Green water tankers",
+ "watch": "Dial-a-Green Tanker launches on 1 November. Watch for the booking platform and prices, not yet announced."
+}

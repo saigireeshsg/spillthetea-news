@@ -1,0 +1,125 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Expect lower pressure in PGs and flats. Fix leaky taps, skip long showers, and store only what you need.",
+  "what": "BMC said on Monday the 10% cut continues. A 20% cut stays for industries, commercial places and sports clubs.",
+  "why": "Rain was below normal and the monsoon ended early. The state wants drinking water to last till August 31, 2027."
+ },
+ "cards": [
+  {
+   "body": "Available sources give about 4,100 MLD, so BMC is stretching every drop, it said.",
+   "caption": "Mumbai's daily water need",
+   "k": "num",
+   "value": "4,664 MLD"
+  },
+  {
+   "body": "BMC asked people to cut car washing and garden watering, and not to fill swimming pools with drinking water. Construction sites should use treated sewage or borewell water.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Mumbai's lakes were about 95% full last week. But with heat, evaporation and leaks, that stock must last a whole year.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Shorter showers",
+    "Bucket, not hose",
+    "Fix leaky taps",
+    "Already super careful"
+   ],
+   "q": "How will you save water this week?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The stock must last till August 2027 after a weak monsoon",
+    "The lakes are polluted",
+    "Pipes are being replaced citywide",
+    "Water is being sent to Pune"
+   ],
+   "q": "Why is BMC cutting water when lakes are mostly full?",
+   "why": "BMC is planning supply until August 31, 2027, after below-normal rain this year."
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "cover": {
+  "bg": [
+   "#0a1f33",
+   "#1fa2ff"
+  ],
+  "big": "10%",
+  "label": "Water cut continues across Mumbai",
+  "motion": "fall",
+  "scene": [
+   "🚰",
+   "💧",
+   "🏙️"
+  ]
+ },
+ "date": "2026-10-13",
+ "heat": 4,
+ "hook": "Lakes look full, so why is Mumbai *still cutting water*?",
+ "lead": "local",
+ "learn": {
+  "t": "Mumbai needs about 4,664 million litres a day, but its sources supply only about 4,100 million litres, BMC says."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Below-normal monsoon"
+   },
+   {
+    "icon": "🌡️",
+    "label": "El Niño, more heat"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚿",
+    "label": "Less water at home"
+   },
+   {
+    "icon": "🚗",
+    "label": "Curbs on car washing"
+   },
+   {
+    "icon": "🔧",
+    "label": "Leak-fixing teams formed"
+   }
+  ],
+  "event": {
+   "icon": "🚰",
+   "label": "BMC keeps 10% water cut"
+  }
+ },
+ "order": 89,
+ "readSecs": 50,
+ "sort": "2026-10-13-10",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Mumbai Continues To Face 10 Per Cent Water Cut Amid Rainfall Deficit; BMC Urges Conservation",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-continues-to-face-10-per-cent-water-cut-amid-rainfall-deficit-bmc-urges-conservation"
+  },
+  {
+   "name": "ETV Bharat",
+   "title": "Despite 95% Capacity In Mumbai's Reservoirs, Evaporation And High Silt Accumulation May Lead To Water Crisis Early Next Year",
+   "url": "https://www.etvbharat.com/en/state/mh-bmc-water-enn26100901915"
+  },
+  {
+   "name": "Free Press Journal",
+   "title": "Mumbai: BMC Plans Safety Audits Of 6 Dams And Pise Weir Ahead Of December 2026 Deadline",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-bmc-plans-safety-audits-of-6-dams-and-pise-weir-ahead-of-december-2026-deadline"
+  }
+ ],
+ "thread": "mum-water",
+ "tldr": "BMC says Mumbai's 10% water cut continues and has asked everyone to save water so stocks last till August 2027.",
+ "topic": "Water cut stays"
+}

@@ -1,0 +1,95 @@
+{
+ "areas": [
+  "Citywide",
+  "Palam",
+  "Ridge"
+ ],
+ "beats": {
+  "care": "Mornings feel cooler, but days warm up again. Carry a light layer for early commutes.",
+  "what": "The Ridge got 49 mm and Safdarjung 41.6 mm in 24 hours to Monday morning.",
+  "why": "A thunderstorm spell hit just before the monsoon fully exits. Skies are now clearing."
+ },
+ "cards": [
+  {
+   "body": "It was 2.3°C below normal and the coolest morning of the month so far. Palam dipped to 17°C.",
+   "caption": "Safdarjung low on Monday",
+   "k": "num",
+   "value": "18.7°C"
+  },
+  {
+   "body": "After all that rain, IMD's forecast shows no rain at all from Tuesday to October 18.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Winter is coming",
+    "Still sweaty",
+    "Perfect chai weather",
+    "Didn't notice"
+   ],
+   "q": "Delhi's first cool morning felt like…"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Dry days with highs around 33–35°C",
+    "More red alerts daily",
+    "Cold wave",
+    "Heavy fog"
+   ],
+   "q": "What does IMD expect for Delhi this week?",
+   "why": "IMD's bulletin shows partly cloudy, rain-free days with highs of 31–35°C through Oct 18."
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "date": "2026-10-13",
+ "heat": 3,
+ "hook": "Delhi had its *wettest October day* since 2022. What comes next?",
+ "learn": {
+  "t": "Delhi's last bigger October rain was on Oct 9, 2022, when Safdarjung got about 74 mm, IMD data shows."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⛈️",
+    "label": "Thunderstorm spell"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🧥",
+    "label": "Cooler 18.7°C morning"
+   },
+   {
+    "icon": "☀️",
+    "label": "Dry week ahead"
+   }
+  ],
+  "event": {
+   "icon": "🌧️",
+   "label": "Wettest October day since 2022"
+  }
+ },
+ "order": 71,
+ "readSecs": 40,
+ "sort": "2026-10-13-28",
+ "sources": [
+  {
+   "name": "Vartha Bharati (PTI)",
+   "title": "Delhi records wettest October day in four years, minimum temperature drops to 18.7 deg C",
+   "url": "https://english.varthabharati.in/india/delhi-records-wettest-october-day-in-four-years-minimum-temperature-drops-to-187-deg-c-2282110"
+  },
+  {
+   "name": "IMD New Delhi",
+   "title": "Delhi forecast, 12 October 2026",
+   "url": "https://mausam.imd.gov.in/newdelhi/mcdata/delhi_forecast.pdf"
+  }
+ ],
+ "thread": "del-weather",
+ "tldr": "Monday's downpour was Delhi's wettest October day in four years, but IMD now sees a dry, warmer week ahead.",
+ "topic": "Wettest October day",
+ "watch": "IMD forecasts no rain through October 18, with highs back near 33–35°C."
+}

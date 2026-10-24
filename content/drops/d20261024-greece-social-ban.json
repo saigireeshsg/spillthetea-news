@@ -1,0 +1,94 @@
+{
+ "beats": {
+  "care": "If you're under 18, rules like this could reach India too. India's data law already needs parental consent for under-18s' data.",
+  "what": "Greece's Parliament passed a law banning social media for under-15s, starting January 1.",
+  "why": "Apps must verify users' age and will be fined if they fail. More countries are curbing young people's app use."
+ },
+ "cards": [
+  {
+   "body": "The law requires age verification on social networks and penalties for companies that don't comply.",
+   "k": "tea"
+  },
+  {
+   "a": {
+    "body": "Kids need protection from addictive feeds, bullying and harmful content.",
+    "label": "Supporters say"
+   },
+   "b": {
+    "body": "Teens will lie about age or use VPNs. Age checks also risk everyone's privacy.",
+    "label": "Critics say"
+   },
+   "k": "sides",
+   "title": "Is a ban the answer?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes",
+    "No",
+    "Only limit screen time"
+   ],
+   "q": "Should India ban social media for under-15s?"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "13",
+    "15",
+    "16",
+    "18"
+   ],
+   "q": "From what age will Greek kids be allowed on social media?",
+   "why": "The law bans children under 15."
+  }
+ ],
+ "cat": "world",
+ "date": "2026-10-24",
+ "heat": 4,
+ "hook": "Greece bans social media for kids *under 15*. Should India?",
+ "lead": "world",
+ "learn": {
+  "t": "Australia was among the first countries to set a minimum social media age, of 16."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📱",
+    "label": "Worries about teen mental health"
+   },
+   {
+    "icon": "🌍",
+    "label": "Other countries acting"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🪪",
+    "label": "Age checks on apps"
+   },
+   {
+    "icon": "💶",
+    "label": "Fines for companies"
+   }
+  ],
+  "event": {
+   "icon": "🚫",
+   "label": "Greece bans under-15s"
+  }
+ },
+ "order": 11,
+ "readSecs": 45,
+ "sort": "2026-10-24-88",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Greece passes legislation banning social media for children under 15 (print, Hyderabad edition, 24 Oct, p.14)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "thread": "kids-online-safety",
+ "tldr": "Greece passed a law banning social media for children under 15 from January 1, joining a growing list of countries.",
+ "topic": "Social media age limits",
+ "watch": "Watch how Greece enforces age checks from January, and whether India debates similar rules."
+}

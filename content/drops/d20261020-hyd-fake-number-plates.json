@@ -1,0 +1,85 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "That 'style' plate with hidden digits can cost you your bike and a criminal case. Use a proper high-security registration plate.",
+  "what": "Hyderabad Traffic Police filed 100 criminal cases and seized 88 two-wheelers and 12 cars with forged or altered number plates over eight months.",
+  "why": "Police say fake plates let riders dodge traffic enforcement and hide vehicle identity, which can also shield other crimes."
+ },
+ "cards": [
+  {
+   "body": "Joint Commissioner (Traffic) D Joel Davis said special drives will continue. Police asked owners to follow plate rules, including high-security registration plates, and asked the public to report suspected fake plates.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Traffic cameras send challans to whoever owns the plate number. A fake plate can send your fines to an innocent person, and make a vehicle used in a crime hard to trace.",
+   "k": "why",
+   "title": "why is it a big deal?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "All the time",
+    "Sometimes",
+    "Never noticed"
+   ],
+   "q": "Seen bikes with hidden plate digits?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "They hide who the vehicle belongs to",
+    "They make bikes faster",
+    "They are cheaper to buy",
+    "They affect fuel use"
+   ],
+   "q": "Why do police treat fake plates as serious?",
+   "why": "A number plate is a vehicle's identity, so faking it defeats cameras and investigations."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-20",
+ "heat": 2,
+ "hook": "Bent the digits on your bike plate? *100 vehicles* got seized.",
+ "learn": {
+  "t": "Faking or altering a number plate is a criminal case, not just a challan, because it hides who is driving."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📸",
+    "label": "Dodging camera enforcement"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🛵",
+    "label": "88 were two-wheelers"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Criminal cases filed"
+   }
+  ],
+  "event": {
+   "icon": "🚓",
+   "label": "100 vehicles seized in 8 months"
+  }
+ },
+ "order": 11,
+ "readSecs": 40,
+ "sort": "2026-10-20-88",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad Traffic Police seize 100 vehicles over fake number plates",
+   "url": "https://telanganatoday.com/hyderabad-traffic-police-seize-100-vehicles-over-fake-number-plates"
+  }
+ ],
+ "tldr": "Hyderabad Traffic Police have booked 100 criminal cases and seized 100 vehicles with fake or tampered number plates in eight months, and say drives will continue.",
+ "topic": "Fake number plates"
+}

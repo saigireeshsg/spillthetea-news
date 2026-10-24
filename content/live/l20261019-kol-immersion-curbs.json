@@ -1,0 +1,24 @@
+{
+ "areas": [
+  "Citywide",
+  "Baghbazar",
+  "Nimtala",
+  "Babughat"
+ ],
+ "body": "Goods vehicles barred from 8am Oct 20. From 3pm on immersion days roads near ghats go one-way; some bus/tram routes diverted. Allow extra time, use Metro.",
+ "city": "Kolkata",
+ "kind": "traffic",
+ "scope": "local",
+ "sev": 2,
+ "src": [
+  {
+   "name": "Millennium Post (Kolkata Police notification)",
+   "url": "https://www.millenniumpost.in/bengal/kolkata-police-announce-road-closures-vehicle-curbs-for-puja-678555"
+  }
+ ],
+ "thread": "kol-puja-safety",
+ "title": "Immersion curbs Oct 20–24: diversions, one-ways from 3pm",
+ "ts": 1792397338474,
+ "until": 1792798200000,
+ "verified": "1"
+}

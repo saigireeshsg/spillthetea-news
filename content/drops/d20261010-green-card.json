@@ -1,0 +1,133 @@
+{
+ "beats": {
+  "care": "If you dream of working in the US, staying long term just got harder. Nearly three in four H-1B work visas go to Indians.",
+  "what": "The US Labor Department stopped accepting green card applications filed through eight companies, including Microsoft, Infosys, TCS, Wipro and HCL.",
+  "why": "Vice President JD Vance says these firms replace Americans with cheaper foreign workers. Microsoft says most of its visa filings are for existing staff."
+ },
+ "cards": [
+  {
+   "body": "On 8 Oct, the US froze the PERM route, the first step a company takes to sponsor a foreign worker for a green card (permanent residence). Named: Microsoft, Adobe, Cognizant, Infosys, Tata, Wipro, HCL and Capgemini. Officials cite active federal investigations.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Before sponsoring a worker for a green card, a US company must advertise the job and prove to the Labor Department it couldn't find an American to fill it. That certificate is called PERM. No PERM, no green card through that employer.",
+   "k": "why",
+   "title": "what's PERM?"
+  },
+  {
+   "a": {
+    "body": "Vance says some firms lay off Americans and fill jobs with foreign workers who can't easily switch jobs. He wants Congress to reform the H-1B system.",
+    "label": "US government says"
+   },
+   "b": {
+    "body": "India's foreign ministry says talent mobility helps both economies and called Vance's wording 'deeply offensive'. Microsoft says 80% of its H-1B filings were for current staff.",
+    "label": "India and Microsoft say"
+   },
+   "k": "sides",
+   "note": "Nasscom says Indian IT firms have already cut H-1B use and hired more locally in the US.",
+   "title": "Is the freeze fair?"
+  },
+  {
+   "body": "Hours after the freeze was announced, Trump gave Microsoft's India-born CEO Satya Nadella the National Medal of Technology and Innovation.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, eyeing other countries",
+    "No, still going",
+    "Never planned on the US"
+   ],
+   "q": "Does this change your plan to study or work in the US?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It blocks a key step to a US green card",
+    "It cancels their current US visas",
+    "It cuts their salaries",
+    "It bans them from visiting the US"
+   ],
+   "q": "Why does freezing PERM matter for Indian workers at these firms?",
+   "why": "PERM is the company-sponsored first step toward permanent residence, so without it these workers can't move toward a green card through their employer."
+  },
+  {
+   "by": "31 Dec",
+   "k": "predict",
+   "opts": [
+    "Yes, at least one",
+    "No, all still frozen"
+   ],
+   "q": "Will the US lift the freeze for any of the 8 firms by 31 Dec?"
+  }
+ ],
+ "cat": "money",
+ "cover": {
+  "bg": [
+   "#0b1a33",
+   "#3a7bff"
+  ],
+  "big": "8",
+  "label": "Tech firms cut off from a US green card route",
+  "motion": "pulse",
+  "scene": [
+   "🪪",
+   "🇺🇸",
+   "💼"
+  ]
+ },
+ "date": "2026-10-10",
+ "heat": 4,
+ "hook": "The US just froze green cards at *Infosys, TCS and Microsoft*. Why?",
+ "map": {
+  "causes": [
+   {
+    "icon": "🗣️",
+    "label": "US: firms replace Americans"
+   },
+   {
+    "icon": "🔍",
+    "label": "Federal probes into firms"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🇮🇳",
+    "label": "Infosys, TCS, Wipro, HCL hit"
+   },
+   {
+    "icon": "⏳",
+    "label": "Workers' green cards stalled"
+   }
+  ],
+  "event": {
+   "icon": "⛔",
+   "label": "PERM green card route frozen"
+  }
+ },
+ "order": 2,
+ "readSecs": 70,
+ "sort": "2026-10-10-97",
+ "sources": [
+  {
+   "name": "Siasat (AP/PTI)",
+   "title": "US suspends green card route for 8 IT firms, including Microsoft",
+   "url": "https://www.siasat.com/us-suspends-green-card-route-for-8-it-firms-including-microsoft-3554586/"
+  },
+  {
+   "name": "Fox Business",
+   "title": "Vance accuses Microsoft of abusing visa system, suspends green card program",
+   "url": "https://www.foxbusiness.com/politics/vance-suspends-microsoft-others-from-foreign-workers-applying-green-cards-accuses-company-visa-abuse"
+  },
+  {
+   "name": "Siasat (PTI)",
+   "title": "India responds to US decision on green card restrictions",
+   "url": "https://www.siasat.com/india-responds-to-us-decision-on-green-card-restrictions-3554660/"
+  }
+ ],
+ "storyline": "us-work-visas",
+ "tldr": "The US has stopped accepting green card applications through eight big tech firms, including Microsoft and four Indian IT giants.",
+ "topic": "US green card freeze"
+}

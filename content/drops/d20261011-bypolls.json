@@ -1,0 +1,118 @@
+{
+ "beats": {
+  "care": "It shows how a film star's new party is pulling votes, and how the national mood may look before big state elections in 2027.",
+  "what": "In bypolls counted on 9 October, the BJP won two Bengal seats and Assam's Nagaon. Vijay's TVK won both Tamil Nadu seats.",
+  "why": "Bypolls fill seats left empty. These were the first votes since the voter-list protests began, so both sides are reading meaning into them."
+ },
+ "cards": [
+  {
+   "body": "In Assam's Nagaon, BJP's Devasish Sharma beat AIUDF chief Badruddin Ajmal. In Tamil Nadu, TVK, which already runs the state government, won Madurantakam and Dharapuram.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "a": {
+    "body": "PM Modi said the mandate gives the party added strength. BJP leaders say voters have rejected the street protests.",
+    "label": "BJP says"
+   },
+   "b": {
+    "body": "Bypolls usually favour ruling parties. DMK's MK Stalin accused TVK of announcing welfare schemes after the polls were called.",
+    "label": "Opposition says"
+   },
+   "k": "sides",
+   "title": "What do the results mean?"
+  },
+  {
+   "body": "A special election held when a seat becomes empty mid-term, for example when an MLA or MP resigns or dies. Only that one seat votes.",
+   "k": "why",
+   "title": "what is a bypoll?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, voters are sending a message",
+    "No, they're mostly local",
+    "Only a little"
+   ],
+   "q": "Do bypolls tell us anything about the national mood?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "They were the first votes since the voter-list protests began",
+    "They decide who becomes PM",
+    "Every state voted",
+    "Only young people could vote"
+   ],
+   "q": "Why are people reading so much into these bypolls?",
+   "why": "Coming right during the protests, both the BJP and the opposition see the results as a sign of how voters feel."
+  }
+ ],
+ "cat": "india",
+ "cover": {
+  "bg": [
+   "#1c1406",
+   "#f39c12"
+  ],
+  "big": "2/2",
+  "label": "Tamil Nadu bypoll seats won by Vijay's TVK",
+  "motion": "rise",
+  "scene": [
+   "🗳️",
+   "📊",
+   "🎬"
+  ]
+ },
+ "date": "2026-10-11",
+ "heat": 3,
+ "hook": "Bypolls during the protests: *who won, and what it signals*",
+ "map": {
+  "causes": [
+   {
+    "icon": "🪑",
+    "label": "Seats fell vacant"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🟧",
+    "label": "BJP sweeps Bengal, Assam seats"
+   },
+   {
+    "icon": "🎬",
+    "label": "TVK wins both TN seats"
+   },
+   {
+    "icon": "🗣️",
+    "label": "BJP cites it against protests"
+   }
+  ],
+  "event": {
+   "icon": "🗳️",
+   "label": "Bypoll results announced"
+  }
+ },
+ "order": 6,
+ "readSecs": 55,
+ "sort": "2026-10-11-93",
+ "sources": [
+  {
+   "name": "ETV Bharat",
+   "title": "Bypolls 2026 results live: West Bengal, Tamil Nadu, Assam",
+   "url": "https://www.etvbharat.com/en/bharat/live-blog--bypolls-2026-results-west-bengal-tamil-nadu-assam-nandigram-rejinagar-dharapuram-madurantakam-byelection-vote-counting-bjp-congress-tmc-tvk-aiadmk-enn26100900561"
+  },
+  {
+   "name": "News On AIR",
+   "title": "BJP says its victory in bypolls reaffirms faith in democracy",
+   "url": "https://newsonair.gov.in/bjp-says-its-victory-in-bypolls-reaffirms-faith-in-democracy/"
+  },
+  {
+   "name": "OpIndia",
+   "title": "BJP sweeps Bengal bypolls, wins Assam's Nagaon; Vijay's TVK wins both Tamil Nadu seats",
+   "url": "https://www.opindia.com/news-updates/bjp-sweeps-bengal-bypolls-wins-assams-nagaon-by-over-1-72-lakh-votes-vijays-tvk-wins-both-tamil/"
+  }
+ ],
+ "tldr": "The BJP won bypolls in West Bengal and Assam, while actor Vijay's party TVK won both seats up for grabs in Tamil Nadu.",
+ "topic": "Bypoll results"
+}

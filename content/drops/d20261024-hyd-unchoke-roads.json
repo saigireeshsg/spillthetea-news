@@ -1,0 +1,103 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Stuck at Panjagutta or Gachibowli daily? This is about how your commute gets fixed for the next 10 years.",
+  "what": "An online petition to the Governor, CM and officials asks to review flyover and road-widening projects.",
+  "why": "Petitioners say adding roads only invites more private vehicles and doesn't keep traffic moving for long."
+ },
+ "cards": [
+  {
+   "body": "They want an audit of flyovers, public cost-benefit and air-quality studies before new projects, new buses, bus-priority lanes, more frequent Metro trains, and feeder buses to Metro and MMTS stations.",
+   "k": "tea"
+  },
+  {
+   "body": "Planners call it 'induced demand': when roads get easier, more people drive, and jams return.",
+   "k": "why",
+   "title": "why don't more roads fix traffic?"
+  },
+  {
+   "a": {
+    "body": "Move people, not vehicles. Fund buses, Metro, walking and cycling first.",
+    "label": "Petitioners say"
+   },
+   "b": {
+    "body": "Ease junction bottlenecks quickly through programmes like SRDP and HCITI.",
+    "label": "Road projects aim to"
+   },
+   "k": "sides",
+   "title": "Flyovers or transit?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "More buses",
+    "Frequent Metro",
+    "More flyovers",
+    "Safe footpaths"
+   ],
+   "q": "What would fix your commute?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Pause flyovers, invest in public transport",
+    "More parking lots",
+    "Ban two-wheelers",
+    "Toll on all roads"
+   ],
+   "q": "What do the petitioners mainly want?",
+   "why": "They argue road expansion fails and public transport, walking and cycling should come first."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-24",
+ "heat": 3,
+ "hook": "More flyovers or more buses? Planners say *stop building roads*",
+ "learn": {
+  "t": "'Induced demand' means building more road space often leads to more traffic, not less."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚗",
+    "label": "Private vehicles keep growing"
+   },
+   {
+    "icon": "🌉",
+    "label": "New flyovers fill up fast"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚌",
+    "label": "Ask: more buses, bus lanes"
+   },
+   {
+    "icon": "🚇",
+    "label": "Ask: frequent Metro, feeders"
+   }
+  ],
+  "event": {
+   "icon": "📝",
+   "label": "'Let's Un-Choke Hyderabad' petition"
+  }
+ },
+ "order": 16,
+ "readSecs": 55,
+ "sort": "2026-10-24-83",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Online petition urges govt. to 'unchoke' Hyderabad roads (print, Hyderabad edition, 24 Oct, p.2)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "thread": "hyd-commute",
+ "tldr": "Urban planners and citizens petitioned the government to pause new flyovers and road widening and invest in buses, Metro and walking.",
+ "topic": "Unchoke Hyderabad petition",
+ "watch": "Watch whether the government reviews SRDP and HCITI projects or responds to the petition."
+}

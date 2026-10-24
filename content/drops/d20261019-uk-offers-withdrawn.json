@@ -1,0 +1,144 @@
+{
+ "beats": {
+  "care": "If you plan a UK degree, an offer letter is no longer a sure thing. Confirm it before paying any non-refundable fees.",
+  "what": "Some UK universities are withdrawing admission offers to international students, including Indians, to avoid breaking tougher Home Office visa rules.",
+  "why": "Since June, a university risks losing its licence if more than 5% of its offer-holders are refused visas, down from 10%."
+ },
+ "cards": [
+  {
+   "items": [
+    {
+     "display": "40.9%",
+     "label": "Pakistan",
+     "value": 40.9
+    },
+    {
+     "display": "23.5%",
+     "label": "Bangladesh",
+     "value": 23.5
+    },
+    {
+     "display": "22.7%",
+     "label": "Nigeria",
+     "value": 22.7
+    },
+    {
+     "display": "10.5%",
+     "label": "All countries",
+     "value": 10.5
+    },
+    {
+     "alt": true,
+     "display": "5.2%",
+     "label": "India",
+     "value": 5.2
+    }
+   ],
+   "k": "bars",
+   "note": "Financial Times analysis of Home Office data, via Business Standard",
+   "title": "Share of UK study visa applications withdrawn, first half of 2026"
+  },
+  {
+   "body": "Universities are also graded on enrolment (at least 95%) and course completion (at least 90%). Their rating is set by their weakest number, so one bad figure can cost them the right to recruit abroad.",
+   "k": "why",
+   "title": "why would a uni cancel my offer?"
+  },
+  {
+   "body": "London's Bloomsbury Institute lost its licence to sponsor international students after failing the checks. Sunderland paused applications from some African countries for January 2027.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Some experts think the squeeze could push UK universities to recruit more from India and China, where refusal rates are lower.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, still top unis",
+    "No, look elsewhere",
+    "Only with a scholarship"
+   ],
+   "q": "Is the UK still worth it?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Too many visa refusals can cost them their licence",
+    "Indian degrees are now banned",
+    "Tuition fees were scrapped",
+    "Courses moved online"
+   ],
+   "q": "Why are some UK universities pulling offers?",
+   "why": "The stricter 5% refusal cap means universities play safe by admitting fewer students they see as risky."
+  }
+ ],
+ "cat": "campus",
+ "cover": {
+  "bg": [
+   "#1a1423",
+   "#e63946"
+  ],
+  "big": "5%",
+  "label": "Max visa refusal rate for UK universities",
+  "motion": "fall",
+  "scene": [
+   "🎓",
+   "🇬🇧",
+   "📄"
+  ]
+ },
+ "date": "2026-10-19",
+ "heat": 4,
+ "hook": "Got a UK uni offer? Why it might *not be safe* anymore",
+ "lead": "world",
+ "learn": {
+  "t": "UK universities can lose the right to sponsor foreign students if over 5% of their offer-holders get visas refused."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📏",
+    "label": "Refusal cap now 5%"
+   },
+   {
+    "icon": "📈",
+    "label": "Withdrawn applications: 10.5%"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🇮🇳",
+    "label": "Indian withdrawals: 1.2% to 5.2%"
+   },
+   {
+    "icon": "💸",
+    "label": "Deposits at risk"
+   }
+  ],
+  "event": {
+   "icon": "✂️",
+   "label": "UK universities pull offers"
+  }
+ },
+ "order": 3,
+ "readSecs": 60,
+ "sort": "2026-10-19-96",
+ "sources": [
+  {
+   "name": "Business Standard",
+   "title": "UK visa curbs hit university offers: What prospective students must know",
+   "url": "https://www.business-standard.com/immigration/uk-visa-curbs-hit-university-offers-what-prospective-students-must-know-126101500387_1.html"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "UK universities withdraw admission offers amid tighter student visa rules",
+   "url": "https://telanganatoday.com/uk-universities-withdraw-admission-offers-amid-tighter-student-visa-rules"
+  }
+ ],
+ "thread": "study-abroad",
+ "tldr": "Some UK universities are pulling admission offers because tougher rules punish them if too many of their foreign students get visas refused.",
+ "topic": "UK visa squeeze",
+ "watch": "January 2027 intakes are next. Watch whether more UK universities pause or pull offers before then."
+}

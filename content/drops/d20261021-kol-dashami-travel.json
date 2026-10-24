@@ -1,0 +1,102 @@
+{
+ "areas": [
+  "Citywide",
+  "Dakshineswar",
+  "Ballygunge",
+  "Sealdah"
+ ],
+ "beats": {
+  "care": "Plan morning trips by bus or cab. The last Blue Line trains leave Dakshineswar and Shahid Khudiram at 10:20 pm.",
+  "what": "Blue Line Metro runs 140 trips from 1 pm to 10:30 pm today. Eastern Railway is regulating some local trains for immersions.",
+  "why": "Dashami is Durga Puja's last day and idol immersions follow, so Metro and Railways run special schedules."
+ },
+ "cards": [
+  {
+   "body": "Extra trains run to Dum Dum and Mahanayak Uttam Kumar at 10:30 pm.",
+   "caption": "last Blue Line trains from both ends",
+   "k": "num",
+   "value": "10:20 pm"
+  },
+  {
+   "body": "Today, five Sealdah–Kalyani Simanta locals end at Kalyani, and some return trips start there. Circular Railway trains are regulated at Tala, Ballygunge, Majherhat and Sealdah North.",
+   "k": "tea",
+   "title": "Locals that change"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Take the Blue Line as usual",
+    "Plan another way; Blue Line starts at 1 pm",
+    "Wait for a night train",
+    "Switch to the Orange Line"
+   ],
+   "q": "You need the Metro at 10 am on Dashami. What should you do?",
+   "why": "Metro's Dashami plan runs Blue Line trains only from 1 pm to about 10:30 pm."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Sindoor khela",
+    "Watching immersions",
+    "Resting at home",
+    "One last pandal run"
+   ],
+   "q": "Your Dashami plan?"
+  }
+ ],
+ "cat": "local",
+ "city": "Kolkata",
+ "date": "2026-10-21",
+ "heat": 3,
+ "hook": "Heading out on Dashami? The *Blue Line starts only at 1 pm*.",
+ "lead": "local",
+ "learn": {
+  "t": "Metro plans 140 Blue Line trips on Dashami, with a train every eight minutes at peak."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Bijoya Dashami"
+   },
+   {
+    "icon": "🌊",
+    "label": "Idol immersions"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🕐",
+    "label": "Metro from 1 pm"
+   },
+   {
+    "icon": "🚆",
+    "label": "Some locals cut short"
+   }
+  ],
+  "event": {
+   "icon": "🚇",
+   "label": "Special Dashami timings"
+  }
+ },
+ "order": 85,
+ "readSecs": 45,
+ "sort": "2026-10-21-14",
+ "sources": [
+  {
+   "name": "India TV (PTI)",
+   "title": "Kolkata Metro to run special train services on five corridors during Durga Puja: Check date, timing",
+   "url": "https://www.indiatvnews.com/west-bengal/kolkata-kolkata-metro-to-run-special-train-services-on-five-corridors-during-durga-puja-check-date-timing-2026-10-08-1056474"
+  },
+  {
+   "name": "Millennium Post",
+   "title": "ER to regulate local train services for idol immersion",
+   "url": "https://www.millenniumpost.in/bengal/er-to-regulate-local-train-services-for-idol-immersion-680197"
+  }
+ ],
+ "thread": "kol-commute",
+ "tldr": "On Dashami, Blue Line Metro runs only from 1 pm to about 10:30 pm, and Eastern Railway is changing some local trains for immersions.",
+ "topic": "Dashami travel plan",
+ "watch": "Kalyani Simanta local changes run till October 24; Circular Railway changes also apply on October 26–27."
+}

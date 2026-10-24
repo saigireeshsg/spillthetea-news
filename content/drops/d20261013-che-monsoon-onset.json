@@ -1,0 +1,127 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Keep an umbrella and power bank handy, and plan around waterlogged roads on your commute.",
+  "what": "IMD said on Monday conditions are favourable for onset over the southern peninsula in two to three days.",
+  "why": "A long wet spell of five to six days is expected over south India once it sets in."
+ },
+ "cards": [
+  {
+   "body": "Greater Chennai Corporation rolled out Rs 65 crore of vehicles and bins on Saturday to clear waste faster in waterlogged areas.",
+   "caption": "New GCC vehicles before the monsoon",
+   "k": "num",
+   "value": "356"
+  },
+  {
+   "body": "IMD's Chennai forecast shows highs of about 35°C, cloudy skies and light rain this week, with thunderstorms on Wednesday and Thursday.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "El Niño hurt the southwest monsoon, but IMD says it usually has no major negative effect on northeast monsoon rain.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Umbrella ready",
+    "Raincoat for bike",
+    "Will WFH on rain days",
+    "What prep?"
+   ],
+   "q": "Your monsoon prep status?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The main rainy season is about to begin",
+    "Rain will stop for the year",
+    "A cyclone will hit tomorrow",
+    "Summer is starting"
+   ],
+   "q": "What does 'onset in two to three days' mean for Chennai?",
+   "why": "The northeast monsoon is Chennai's main rainy season, and IMD says it is about to arrive."
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "cover": {
+  "bg": [
+   "#0b1e2d",
+   "#3aa0ff"
+  ],
+  "big": "2-3 days",
+  "label": "Until monsoon onset, says IMD",
+  "motion": "fall",
+  "scene": [
+   "🌧️",
+   "⚡",
+   "🌴"
+  ]
+ },
+ "date": "2026-10-13",
+ "heat": 4,
+ "hook": "Chennai's *big rain season* is almost here. Are you ready?",
+ "lead": "local",
+ "learn": {
+  "t": "IMD says this year's southwest monsoon ended 12.6% below normal, mainly because of El Niño."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌬️",
+    "label": "Winds turn northeasterly"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⚡",
+    "label": "Thunderstorms Oct 14–15"
+   },
+   {
+    "icon": "🚗",
+    "label": "Waterlogging risk"
+   },
+   {
+    "icon": "🗑️",
+    "label": "GCC readies new vehicles"
+   }
+  ],
+  "event": {
+   "icon": "🌧️",
+   "label": "Northeast monsoon onset nears"
+  }
+ },
+ "order": 87,
+ "readSecs": 45,
+ "sort": "2026-10-13-12",
+ "sources": [
+  {
+   "name": "Business Standard (PTI)",
+   "title": "Northeast monsoon onset over southern peninsula likely in 2-3 days: IMD",
+   "url": "https://www.business-standard.com/india-news/northeast-monsoon-onset-over-southern-peninsula-likely-in-2-3-days-imd-126101200780_1.html"
+  },
+  {
+   "name": "IMD City Forecast",
+   "title": "Chennai-Meenambakkam local forecast, 12 Oct 2026",
+   "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=43279"
+  },
+  {
+   "name": "DT Next",
+   "title": "Greater Chennai Corporation rolls out Rs 65 crore worth of equipment ahead of monsoon",
+   "url": "https://www.dtnext.in/news/chennai/greater-chennai-corporation-rolls-out-rs-65-crore-worth-of-equipment-ahead-of-monsoon"
+  },
+  {
+   "name": "DT Next",
+   "title": "Northeast monsoon may begin between October 15-21: IMD",
+   "url": "https://www.dtnext.in/news/tamilnadu/northeast-monsoon-may-begin-between-october-15-21-imd"
+  }
+ ],
+ "thread": "che-monsoon",
+ "tldr": "IMD says the northeast monsoon could reach south India within two to three days, with thunderstorms forecast for Chennai.",
+ "topic": "Monsoon onset near",
+ "watch": "IMD warns of thunderstorms with lightning in Chennai on Oct 14 and 15; isolated heavy rain in Tamil Nadu Oct 15–18."
+}

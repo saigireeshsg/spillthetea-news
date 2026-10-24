@@ -1,0 +1,91 @@
+{
+ "beats": {
+  "care": "Lots of first-time investors applied. If you did, don't panic or celebrate on listing day alone. Think long term.",
+  "what": "Jio's IPO got over 1 crore applications, beating Waaree Energies' 97 lakh, and was bid more than 20.5 times.",
+  "why": "It was fully subscribed in 100 minutes. Big institutions bid about 15 times their quota, and retail investors over 2 times."
+ },
+ "cards": [
+  {
+   "body": "A global first, says the report.",
+   "caption": "Applications for Jio Platforms' IPO",
+   "k": "num",
+   "value": "1 crore+"
+  },
+  {
+   "body": "Most bids came at the top of the price band, ₹1,119 a share. Total demand topped $15 billion.",
+   "k": "tea"
+  },
+  {
+   "body": "Big funds usually wait till the last day. Here they bid 10 times over by day two.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes",
+    "No",
+    "What's an IPO?"
+   ],
+   "q": "Did you apply for the Jio IPO?"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "About 2 times",
+    "About 20.5 times",
+    "Exactly 1 time",
+    "100 times"
+   ],
+   "q": "How many times was Jio's IPO subscribed?",
+   "why": "Investors bid for more than 20.5 times the shares on offer."
+  }
+ ],
+ "cat": "money",
+ "date": "2026-10-24",
+ "heat": 4,
+ "hook": "Jio IPO becomes the *first in the world* to get 1 crore applications",
+ "learn": {
+  "t": "An IPO (initial public offering) is when a company sells shares to the public for the first time."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📱",
+    "label": "India's biggest telecom firm"
+   },
+   {
+    "icon": "💸",
+    "label": "Retail investor boom"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🌍",
+    "label": "World record applications"
+   },
+   {
+    "icon": "🏦",
+    "label": "Highest-value bid in India"
+   }
+  ],
+  "event": {
+   "icon": "📈",
+   "label": "IPO bid 20.5 times"
+  }
+ },
+ "order": 10,
+ "readSecs": 50,
+ "sort": "2026-10-24-89",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Jio IPO sees a record over 1 cr. applications (print, Hyderabad edition, 24 Oct, p.13)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "thread": "jio-ipo",
+ "tldr": "Jio Platforms' ₹30,213 crore IPO closed with over 1 crore applications and bids worth more than ₹7 lakh crore.",
+ "topic": "Jio IPO record",
+ "watch": "Watch the share allotment and the listing day price."
+}

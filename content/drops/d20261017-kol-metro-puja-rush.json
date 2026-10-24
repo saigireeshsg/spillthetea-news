@@ -1,0 +1,112 @@
+{
+ "areas": [
+  "Esplanade",
+  "Dum Dum",
+  "Kalighat",
+  "Howrah",
+  "Sealdah",
+  "Salt Lake Sector V"
+ ],
+ "beats": {
+  "care": "Scan a QR sticker for your ticket at stations like Esplanade or Sealdah, and don't push into a full train.",
+  "what": "Big Shashthi crowds hit the Metro. RPF teams, including women's squads, are deployed at 12 Blue Line stations from Oct 16 to 21.",
+  "why": "Packed trains and platforms are risky. Reports said crowds made it hard for doors to close at some stations."
+ },
+ "cards": [
+  {
+   "body": "Esplanade, Dum Dum, Dakshineswar, Rabindra Sarobar, Mahanayak Uttam Kumar, Kalighat, Howrah, Sealdah, Sovabazar-Sutanuti, Salt Lake Sector V and Dum Dum Cantonment.",
+   "caption": "stations with QR-sticker tickets",
+   "k": "num",
+   "value": "11"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "To speed up ticket checks",
+    "To stop people from falling or being pushed onto the tracks",
+    "To count daily riders",
+    "To keep seats free for elders"
+   ],
+   "q": "What's the main point of RPF staff keeping people behind the yellow line?",
+   "why": "The yellow line marks a safe gap from the platform edge, which matters most when crowds push forward."
+  },
+  {
+   "body": "Women RPF teams, quick response teams and disaster teams are on stations and trains. Esplanade, Howrah, Howrah Maidan and Sealdah are under special watch, with live CCTV monitoring.",
+   "k": "tea",
+   "title": "Who's watching"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Go after midnight",
+    "Start early afternoon",
+    "Skip metro, walk",
+    "Avoid central Kolkata"
+   ],
+   "q": "Your Puja metro tactic?"
+  }
+ ],
+ "cat": "local",
+ "city": "Kolkata",
+ "date": "2026-10-17",
+ "heat": 3,
+ "hook": "Can you buy a metro ticket *without any app* this Puja?",
+ "learn": {
+  "t": "At 11 Kolkata Metro stations you can buy a ticket by scanning a QR sticker with your phone, no app needed."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🙏",
+    "label": "Pandal-hopping crowds"
+   },
+   {
+    "icon": "🚇",
+    "label": "Shashthi metro rush"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📱",
+    "label": "QR sticker tickets"
+   },
+   {
+    "icon": "🎟️",
+    "label": "Extra booking counters"
+   },
+   {
+    "icon": "🟡",
+    "label": "Stay behind yellow line"
+   }
+  ],
+  "event": {
+   "icon": "🛡️",
+   "label": "RPF guards busy stations"
+  }
+ },
+ "order": 69,
+ "readSecs": 45,
+ "sort": "2026-10-17-30",
+ "sources": [
+  {
+   "name": "The Statesman",
+   "title": "Kolkata Metro steps up security amid Durga Puja pandal-hopper rush",
+   "url": "https://www.thestatesman.com/cities/kolkata/kolkata-metro-steps-up-security-amid-durga-puja-pandal-hopper-rush-1503652003.html"
+  },
+  {
+   "name": "UNI",
+   "title": "Kolkata Metro introduces QR-based ticketing",
+   "url": "https://www.uniindia.com/east-india/transport-wb-metro-qr/214236"
+  },
+  {
+   "name": "Urban Acres (via Sangbad Pratidin)",
+   "title": "Kolkata Metro Crowding Triggers Door Failures During Puja",
+   "url": "https://urbanacres.in/kolkata-metro-crowd-surge-triggers-door-failures-police-action/"
+  }
+ ],
+ "thread": "kol-commute",
+ "tldr": "Metro got packed on Shashthi, so RPF teams now guard 12 busy Blue Line stations till Oct 21, and you can skip ticket queues using QR stickers at 11 stations.",
+ "topic": "Metro Puja rush",
+ "watch": "Metro says the QR-sticker ticketing will later reach other stations on all corridors."
+}

@@ -1,0 +1,99 @@
+{
+ "areas": [
+  "North Campus",
+  "Mukherjee Nagar",
+  "Siri Fort Road",
+  "South Campus"
+ ],
+ "beats": {
+  "care": "Complaints can go to the WhatsApp group with officials. In an emergency, dial 112.",
+  "what": "Students from LSR, Gargi, Maitreyi, JMC and other colleges met CM Rekha Gupta on Monday. They flagged Siri Fort Road, Mukherjee Nagar and metro stations.",
+  "why": "Students say poor lighting, few patrols and long walks to buses make evenings risky."
+ },
+ "cards": [
+  {
+   "body": "Students asked for safety audits of dark spots, more pink booths and women police, more patrols and more DTC buses with stops near remote colleges.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "The CM asked students to use it in any emergency. Unsolved complaints can go to senior police.",
+   "caption": "Emergency number",
+   "k": "num",
+   "value": "112"
+  },
+  {
+   "body": "Problem spots weren't just campuses: metro stations, bridges and PG-heavy streets were named too.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Better street lights",
+    "More buses",
+    "More patrols",
+    "Safe-ride apps"
+   ],
+   "q": "What would make your commute feel safer?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "A WhatsApp group with officials",
+    "A new college",
+    "Free cabs",
+    "Night curfews"
+   ],
+   "q": "What was promised to keep students in touch with officials?",
+   "why": "The CM said a WhatsApp group linking students and officials will stay active."
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "date": "2026-10-14",
+ "heat": 3,
+ "hook": "Which Delhi spots do *college women* say feel unsafe?",
+ "learn": {
+  "t": "Delhi is installing about 1 lakh smart streetlights linked to its Integrated Command and Control Centre."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌑",
+    "label": "Dark stretches near colleges"
+   },
+   {
+    "icon": "🏠",
+    "label": "Crowded PG areas"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💡",
+    "label": "More lights near colleges"
+   },
+   {
+    "icon": "📲",
+    "label": "Student–official WhatsApp group"
+   }
+  ],
+  "event": {
+   "icon": "🗣️",
+   "label": "Students meet Delhi CM"
+  }
+ },
+ "order": 70,
+ "readSecs": 45,
+ "sort": "2026-10-14-29",
+ "sources": [
+  {
+   "name": "The Statesman",
+   "title": "Delhi CM dicusses safety of female college students with their representatives",
+   "url": "https://www.thestatesman.com/cities/delhi/delhi-cm-dicusses-safety-of-female-college-students-with-their-representatives-1503650347.html"
+  }
+ ],
+ "thread": "del-campus-safety",
+ "tldr": "Student leaders from women's colleges met the Delhi CM about dark roads, metro exits and PG areas they feel unsafe in.",
+ "topic": "College women's safety"
+}

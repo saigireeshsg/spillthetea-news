@@ -1,0 +1,24 @@
+{
+ "areas": [
+  "Market Yard",
+  "Bibwewadi",
+  "Swargate",
+  "Satara Road"
+ ],
+ "body": "Trial from Oct 19: no right turns at Chandralok, Pushpamangal and Utsav Hotel chowks. Use U-turns near Aranyeshwar bus stop or Adinath Society.",
+ "city": "Pune",
+ "kind": "traffic",
+ "open": "d20261020-pun-market-yard-turns",
+ "scope": "local",
+ "sev": 2,
+ "src": [
+  {
+   "name": "Punekar News (Pune Traffic Police order)",
+   "url": "https://www.punekarnews.in/traffic-changes-in-market-yard-bibvewadi-satara-road-for-swargate-katraj-pune-metro-work/"
+  }
+ ],
+ "thread": "pun-traffic",
+ "title": "Right turns banned around Market Yard for metro work",
+ "ts": 1792462099519,
+ "verified": "1"
+}

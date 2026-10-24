@@ -1,0 +1,98 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "If you got a notice or missed your hearing, act before 5 November, or you may not be able to vote.",
+  "what": "Data from Telangana's Chief Electoral Officer shows over 2.5 crore electors marked for the final roll, including 5.25 lakh added without hearings.",
+  "why": "About 92.6 lakh people got notices because their details didn't match the 2002 list or had errors like wrong spellings or ages."
+ },
+ "cards": [
+  {
+   "body": "Of 3.38 crore electors before the revision, about 73 lakh were flagged in these categories during enumeration.",
+   "caption": "Marked absent, shifted, dead or duplicate",
+   "k": "num",
+   "value": "73.4 lakh"
+  },
+  {
+   "body": "Rangareddy had the most people added without hearings, about 1.17 lakh, followed by Medchal-Malkajgiri at 1.14 lakh. Hearing dates lapsed for about 3 lakh people.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "A notice asking you to confirm your details. You get one if your form couldn't be matched to the 2002 roll or had mismatched details.",
+   "k": "why",
+   "title": "what is an sir notice?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, I'm on the list",
+    "Not yet",
+    "Not 18 yet"
+   ],
+   "q": "Have you checked your name yet?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Their details didn't match old records",
+    "They voted twice",
+    "They moved abroad",
+    "They skipped elections"
+   ],
+   "q": "Why did lakhs of Telangana voters get SIR notices?",
+   "why": "Notices went to people whose forms couldn't be mapped to the 2002 list or had errors, so officials could verify them."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-19",
+ "heat": 2,
+ "hook": "Got an SIR notice? *Over 90%* of people who did are back on the list",
+ "learn": {
+  "t": "Over 90% of the 92.6 lakh Telangana voters sent SIR notices have been marked for inclusion in the final roll."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📋",
+    "label": "Forms didn't match 2002 list"
+   },
+   {
+    "icon": "✏️",
+    "label": "Spelling or age errors"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "✅",
+    "label": "2.5 crore marked for roll"
+   },
+   {
+    "icon": "📅",
+    "label": "Final list on 9 Nov"
+   }
+  ],
+  "event": {
+   "icon": "🗳️",
+   "label": "SIR hearings near the finish"
+  }
+ },
+ "order": 13,
+ "readSecs": 50,
+ "sort": "2026-10-19-86",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana SIR: Over 5.25 lakh electors marked for inclusion without hearings",
+   "url": "https://telanganatoday.com/telangana-sir-over-5-25-lakh-electors-marked-for-inclusion-without-hearings"
+  }
+ ],
+ "storyline": "sir",
+ "thread": "hyd-voter-roll",
+ "tldr": "Telangana's voter roll revision has marked over 2.5 crore electors for the final list, which comes out on 9 November.",
+ "topic": "Telangana final voter roll",
+ "watch": "Claims and objections close on 5 November. The final voter list is published on 9 November."
+}

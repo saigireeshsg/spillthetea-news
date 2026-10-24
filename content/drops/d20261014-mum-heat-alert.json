@@ -1,0 +1,115 @@
+{
+ "areas": [
+  "Citywide",
+  "Santacruz",
+  "Colaba"
+ ],
+ "beats": {
+  "care": "Carry water on trains, avoid long walks in the afternoon, and wear light cotton. Watch for dizziness or headaches.",
+  "what": "Santacruz logged 38°C on Tuesday, 4.3°C above normal. Colaba hit 36.4°C. IMD's alert covers Oct 14 and 15.",
+  "why": "After the monsoon left, clear skies let the sun heat the city while sea moisture keeps it humid."
+ },
+ "cards": [
+  {
+   "body": "Tuesday's 38°C was the fourth straight day at that level.",
+   "caption": "Above normal at Santacruz",
+   "k": "num",
+   "value": "+4.3°C"
+  },
+  {
+   "body": "IMD scientist Sushma Nair said highs will stay around 37°C for three to four days, then drop to about 35°C.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Nimbu paani",
+    "AC office hideout",
+    "Cold showers",
+    "Just suffering"
+   ],
+   "q": "How are you beating the heat?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Clear skies after the monsoon left, plus humidity",
+    "A heatwave from Delhi",
+    "The sea got colder",
+    "Power cuts"
+   ],
+   "q": "Why is Mumbai so hot right after the monsoon?",
+   "why": "The monsoon withdrew on Oct 3; clear skies and humid air push up both heat and discomfort."
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "cover": {
+  "bg": [
+   "#3a1200",
+   "#ff7a1a"
+  ],
+  "big": "38°C",
+  "label": "Fourth straight day of heat",
+  "motion": "pulse",
+  "scene": [
+   "🌡️",
+   "☀️",
+   "💦"
+  ]
+ },
+ "date": "2026-10-14",
+ "heat": 4,
+ "hook": "Mumbai has hit 38°C *four days running*. When does it ease?",
+ "lead": "local",
+ "learn": {
+  "t": "The monsoon left Mumbai on October 3, which is why skies are clear and the sun hits hard now."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "☀️",
+    "label": "Clear post-monsoon skies"
+   },
+   {
+    "icon": "💧",
+    "label": "High humidity"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🥵",
+    "label": "Sticky commutes"
+   },
+   {
+    "icon": "🚰",
+    "label": "Need more water"
+   }
+  ],
+  "event": {
+   "icon": "🌡️",
+   "label": "Hot and humid alert"
+  }
+ },
+ "order": 89,
+ "readSecs": 40,
+ "sort": "2026-10-14-10",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Mumbai Weather Update: Santacruz Records 38°C For Fourth Consecutive Day As IMD Forecasts Continued Heat",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-weather-update-santacruz-records-38c-for-fourth-consecutive-day-as-imd-forecasts-continued-heat"
+  },
+  {
+   "name": "UNI",
+   "title": "Mumbai October heat",
+   "url": "https://www.uniindia.com/west-india/weather-mumbai-october-heat/212127"
+  }
+ ],
+ "thread": "mum-weather",
+ "tldr": "Santacruz hit 38°C for a fourth day in a row, and IMD has issued a hot and humid alert for Wednesday and Thursday.",
+ "topic": "October heat alert",
+ "watch": "IMD expects highs near 37°C for three to four more days, then around 35°C."
+}

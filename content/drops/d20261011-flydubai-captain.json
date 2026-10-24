@@ -1,0 +1,111 @@
+{
+ "beats": {
+  "care": "The crew and passengers stopped him and landed safely. It raises tough questions about how airlines check pilots' mental fitness and backgrounds.",
+  "what": "On a Flydubai flight to Tel Aviv on 30 September, the Omani co-pilot attacked Captain Smit Machchhar from Gujarat with the cockpit axe.",
+  "why": "UAE investigators now say it was a planned plot to crash into Tel Aviv's airport. India's anti-terror agency has opened a case."
+ },
+ "cards": [
+  {
+   "body": "A reserve pilot, crew and passengers restrained the co-pilot, and the plane landed in Tabuk, Saudi Arabia. According to the UAE probe, as reported by News On AIR, he confessed and had flown the route before. The NIA case uses India's anti-hijacking and anti-terror laws.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "The captain is an Indian citizen. Indian law lets the National Investigation Agency probe serious crimes against Indians abroad, including hijacking and terrorism.",
+   "k": "why",
+   "title": "why is india's nia involved?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, every year",
+    "Only if colleagues raise concerns",
+    "Current checks are enough"
+   ],
+   "q": "Should pilots face regular psychological checks?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The crew and passengers restrained the attacker",
+    "The plane flew on autopilot alone",
+    "Fighter jets forced it down",
+    "The co-pilot gave up on his own"
+   ],
+   "q": "How was the flight saved?",
+   "why": "A reserve pilot, crew and passengers stopped the co-pilot so the plane could land safely in Saudi Arabia."
+  }
+ ],
+ "cat": "world",
+ "cover": {
+  "bg": [
+   "#101826",
+   "#3d6fb0"
+  ],
+  "big": "174",
+  "label": "Passengers on board during the cockpit attack",
+  "motion": "drift",
+  "scene": [
+   "✈️",
+   "🧑‍✈️",
+   "🛡️"
+  ]
+ },
+ "date": "2026-10-11",
+ "heat": 4,
+ "hook": "An Indian pilot was attacked mid-air. *What investigators now say*",
+ "map": {
+  "causes": [
+   {
+    "icon": "⚠️",
+    "label": "Co-pilot attacked the captain"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🛬",
+    "label": "Safe landing in Tabuk"
+   },
+   {
+    "icon": "🏛️",
+    "label": "UAE: planned terror attack"
+   },
+   {
+    "icon": "🔎",
+    "label": "India's NIA opens case"
+   }
+  ],
+  "event": {
+   "icon": "🧑‍✈️",
+   "label": "Indian captain, crew stop him"
+  }
+ },
+ "order": 5,
+ "readSecs": 60,
+ "sort": "2026-10-11-94",
+ "sources": [
+  {
+   "name": "News On AIR",
+   "title": "Flydubai co-pilot planned suicide attack on Tel Aviv airport, reveals UAE investigation",
+   "url": "https://newsonair.gov.in/flydubai-co-pilot-planned-suicide-attack-on-tel-aviv-airport-reveals-uae-investigation/"
+  },
+  {
+   "name": "News On AIR",
+   "title": "NIA registers case to probe attack on Flydubai captain Smit Machchhar",
+   "url": "https://newsonair.gov.in/nia-registers-case-to-probe-attack-on-flydubai-captain-smit-machchhar/"
+  },
+  {
+   "name": "Al-Monitor (Reuters)",
+   "title": "Co-pilot in Flydubai attack, Israeli officials say",
+   "url": "https://www.al-monitor.com/originals/2026/10/co-pilot-planned-flydubai-attack-hired-airline-two-israeli-officials-say"
+  },
+  {
+   "name": "Dawn",
+   "title": "Flydubai cockpit attack",
+   "url": "https://dawn.com/news/2035101"
+  }
+ ],
+ "tldr": "UAE investigators say a co-pilot who attacked an Indian captain mid-flight planned to crash the plane; India's NIA has opened its own case.",
+ "topic": "Flydubai cockpit attack"
+}

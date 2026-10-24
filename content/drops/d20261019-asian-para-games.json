@@ -1,0 +1,105 @@
+{
+ "beats": {
+  "care": "These athletes are some of India's most successful sportspeople. Following them is a quick way to see para sport's rise.",
+  "what": "The Asian Para Games opened in Aichi-Nagoya, Japan, on 18 October and run until 24 October, with Indian athletes in several sports.",
+  "why": "India won a record 111 medals, including 29 golds, at Hangzhou in 2023. This time quotas are tighter and chess and canoeing are gone."
+ },
+ "cards": [
+  {
+   "body": "Names to follow include Sheetal Devi and Harvinder Singh in archery, Sumit Antil in athletics, Avani Lekhara in shooting and Pramod Bhagat in badminton. Harvinder won India's first Paralympic archery gold at Paris 2024.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Chess and canoeing gave India 12 medals in Hangzhou but aren't in these Games, and India isn't sending teams in taekwondo or rowing.",
+   "k": "why",
+   "title": "why fewer medals expected?"
+  },
+  {
+   "body": "Sheetal Devi, who shoots with her feet, won two golds at the last Asian Para Games.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, it's growing",
+    "No, far too little",
+    "Only during big Games"
+   ],
+   "q": "Do para sports get enough attention?"
+  },
+  {
+   "by": "24 Oct",
+   "k": "predict",
+   "opts": [
+    "Yes, 100 or more",
+    "No, under 100"
+   ],
+   "q": "Will India win 100+ medals in Nagoya?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Smaller quotas and fewer sports",
+    "India is boycotting",
+    "Athletes retired",
+    "The Games were shortened to a day"
+   ],
+   "q": "Why might India win fewer medals than in 2023?",
+   "why": "Fewer places in events and the loss of chess and canoeing mean fewer chances to win."
+  }
+ ],
+ "cat": "sport",
+ "date": "2026-10-19",
+ "heat": 3,
+ "hook": "Can India's para athletes beat *111 medals* with a smaller team?",
+ "learn": {
+  "t": "India's para athletics squad was roughly halved, from 123 athletes in 2022 to 62, because of smaller quotas."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏅",
+    "label": "Record 111 medals in Hangzhou"
+   },
+   {
+    "icon": "✂️",
+    "label": "Smaller quotas this time"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🎯",
+    "label": "Stars in archery, athletics"
+   },
+   {
+    "icon": "📊",
+    "label": "Experts predict 90–95 medals"
+   }
+  ],
+  "event": {
+   "icon": "🏟️",
+   "label": "Asian Para Games begin in Nagoya"
+  }
+ },
+ "order": 10,
+ "readSecs": 50,
+ "sort": "2026-10-19-89",
+ "sources": [
+  {
+   "name": "The Bridge",
+   "title": "Asian Para Games 2026: Can India touch the 100-medal mark despite a depleted squad?",
+   "url": "https://thebridge.in/asian-para-games/medal-prediction-indian-para-athletes-58067"
+  },
+  {
+   "name": "Outlook India",
+   "title": "Asian Para Games 2026 Guide: Schedule, Live Streaming, Indian Athletes And All You Need To Know",
+   "url": "https://www.outlookindia.com/sports/others/asian-para-games-2026-guide-schedule-live-streaming-aichi-nagoya"
+  }
+ ],
+ "thread": "asian-para-games-2026",
+ "tldr": "Medal events at the Asian Para Games in Nagoya begin this week, with India trying to match its record 111 medals from Hangzhou.",
+ "topic": "Asian Para Games",
+ "watch": "Medal events run until 24 October in Aichi-Nagoya. Watch archers Sheetal Devi and Harvinder Singh."
+}

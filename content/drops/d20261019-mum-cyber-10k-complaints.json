@@ -1,0 +1,121 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Scammers bought data on students who failed MBBS exams and sold them fake certificates. Buyers got arrested too.",
+  "what": "SP Ajay Kumar Bansal said the department gets up to 10,000 complaints daily and froze over ₹1,600 crore since Oct 2024.",
+  "why": "That's about 30% of the ₹6,000–7,000 crore people lost to online fraud in that time."
+ },
+ "cards": [
+  {
+   "body": "Fraudsters used data on students who failed MBBS exams to sell them fake pass certificates. Students who bought them were also arrested.",
+   "k": "tea",
+   "title": "The certificate trap"
+  },
+  {
+   "body": "Bansal said scammers use fear, urgency like '30-second' deadlines, greed, and fake logos or uniforms to look official.",
+   "k": "tea",
+   "title": "Spot the pressure"
+  },
+  {
+   "body": "Since October 2024, from sextortion, harassment and cyberbullying, Maharashtra Cyber says.",
+   "caption": "girls and children rescued from online harassment",
+   "k": "num",
+   "value": "237"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "It's just expensive",
+    "Buyers can be arrested too",
+    "It expires fast",
+    "Colleges ignore it"
+   ],
+   "q": "Why would buying a 'fake pass certificate' be risky?",
+   "why": "Students who bought the fake certificates were also arrested, Maharashtra Cyber said."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, many",
+    "One or two",
+    "None",
+    "Not sure"
+   ],
+   "q": "Got a scam call or text this month?"
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "cover": {
+  "bg": [
+   "#0f172a",
+   "#22d3ee"
+  ],
+  "big": "10,000",
+  "label": "cyber complaints a day, at peak",
+  "motion": "glitch",
+  "scene": [
+   "💻",
+   "🧊",
+   "🚨"
+  ]
+ },
+ "date": "2026-10-19",
+ "heat": 4,
+ "hook": "What *fake certificate scam* targeted failed MBBS students?",
+ "lead": "local",
+ "learn": {
+  "t": "Fraud losses in Maharashtra are 10–15% lower this year, the first drop since Covid, says Maharashtra Cyber."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📈",
+    "label": "Investment frauds"
+   },
+   {
+    "icon": "📸",
+    "label": "Sextortion"
+   },
+   {
+    "icon": "⏱️",
+    "label": "Fake urgency, fear"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📉",
+    "label": "Losses down 10–15%"
+   },
+   {
+    "icon": "🎓",
+    "label": "Students targeted too"
+   }
+  ],
+  "event": {
+   "icon": "🧊",
+   "label": "₹1,600 crore frozen"
+  }
+ },
+ "order": 87,
+ "readSecs": 50,
+ "sort": "2026-10-19-12",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Maharashtra Cyber Receives Up To 10,000 Complaints Daily, Freezes Over ₹1,600 Crore Linked To Online Fraud Since October 2024",
+   "url": "https://www.freepressjournal.in/mumbai/maharashtra-cyber-receives-up-to-10000-complaints-daily-freezes-over-1600-crore-linked-to-online-fraud-since-october-2024"
+  },
+  {
+   "name": "Free Press Journal",
+   "title": "Maharashtra Cyber Police warn of mule account scams",
+   "url": "https://www.freepressjournal.in/mumbai/maharashtra-cyber-police-warn-of-mule-account-scams-urge-citizens-to-be-cautious-of-easy-money-offers"
+  }
+ ],
+ "thread": "mum-cyber-safety",
+ "tldr": "Maharashtra Cyber gets 8,000–10,000 fraud complaints a day and has frozen over ₹1,600 crore since October 2024.",
+ "topic": "Cyber fraud complaints"
+}

@@ -1,0 +1,113 @@
+{
+ "beats": {
+  "care": "The fourth match is at Uppal in Hyderabad on Wednesday. If India win there, they clinch the series.",
+  "what": "India beat West Indies by 14 runs in Indore on Sunday and now lead the five-match T20 series two to one.",
+  "why": "Abhishek Sharma hit 69 off 30 balls, and Arshdeep Singh's three wickets held West Indies to 209 for 7."
+ },
+ "cards": [
+  {
+   "body": "Abhishek smashed six sixes and five fours to rocket India to 115 for 1. Then the innings fell apart and India were all out for 223. Chasing 224, West Indies got close with Hetmyer and Pooran, but Arshdeep and Naman Dhir kept picking wickets. Lowkey a nervy finish.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "India lost nine wickets for just 108 runs after being 115 for 1, and still won comfortably enough.",
+   "k": "twist"
+  },
+  {
+   "body": "That start gave India enough cushion to survive the collapse.",
+   "caption": "Abhishek Sharma's runs off 30 balls",
+   "k": "num",
+   "value": "69"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Abhishek Sharma",
+    "Sanju Samson",
+    "Arshdeep Singh",
+    "Someone else"
+   ],
+   "q": "Who's been India's MVP of this series so far?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "A fast start built a big total, and bowlers defended it",
+    "West Indies forfeited",
+    "Rain shortened the chase",
+    "India won a Super Over"
+   ],
+   "q": "How did India win even after a batting collapse?",
+   "why": "Abhishek's quick 69 built a cushion, and tight bowling kept West Indies 14 short."
+  }
+ ],
+ "cat": "sport",
+ "cover": {
+  "bg": [
+   "#0a1f3d",
+   "#00b4ff"
+  ],
+  "big": "+14",
+  "label": "India's winning margin in Indore",
+  "motion": "rise",
+  "scene": [
+   "🏏",
+   "🔥",
+   "🏆"
+  ]
+ },
+ "date": "2026-10-12",
+ "heat": 4,
+ "hook": "India were *115 for 1*, then collapsed. How did they still win?",
+ "map": {
+  "causes": [
+   {
+    "icon": "💥",
+    "label": "Abhishek's 69 off 30"
+   },
+   {
+    "icon": "🎯",
+    "label": "Arshdeep takes 3 for 44"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📊",
+    "label": "India lead series 2-1"
+   },
+   {
+    "icon": "🏟️",
+    "label": "Next: Uppal, 14 Oct"
+   }
+  ],
+  "event": {
+   "icon": "🏏",
+   "label": "India win by 14 runs"
+  }
+ },
+ "order": 5,
+ "readSecs": 45,
+ "sort": "2026-10-12-94",
+ "sources": [
+  {
+   "name": "Outlook India",
+   "title": "India Vs West Indies Highlights, 3rd T20I: IND Hold Their Nerve To Clinch Thrilling 14-Run Victory",
+   "url": "https://www.outlookindia.com/sports/cricket/india-vs-west-indies-3rd-t20i-live-score-updates-wi-tour-2026"
+  },
+  {
+   "name": "Yardbarker",
+   "title": "India Vs West Indies 3rd T20I, Match Report: Abhishek, Arshdeep Power Hosts To 14-Run Win",
+   "url": "https://www.yardbarker.com/cricket/articles/india_vs_west_indies_3rd_t20i_match_report_abhishek_arshdeep_power_hosts_to_14_run_win_over_windies_take_2_1_lead/s1_17771_44416180"
+  },
+  {
+   "name": "Yahoo Sports",
+   "title": "IND vs WI 3rd T20I 2026 scorecard, result and highlights",
+   "url": "https://sports.yahoo.com/articles/ind-vs-wi-3rd-t20i-125433219.html"
+  }
+ ],
+ "thread": "india-wi-t20",
+ "tldr": "India beat West Indies by 14 runs in Indore to go 2-1 up, with the next game at Uppal on Wednesday.",
+ "topic": "India lead T20 series"
+}

@@ -1,0 +1,99 @@
+{
+ "areas": [
+  "Panvel",
+  "Vashi",
+  "Belapur",
+  "Nerul",
+  "Thane",
+  "Kalyan"
+ ],
+ "beats": {
+  "care": "Going from Panvel or Belapur? Plan a bus or cab to Vashi. Western Railway has no block today.",
+  "what": "Harbour line: no Panvel–Vashi trains from 11:05 am to 4:05 pm. Thane–Kalyan 5th and 6th lines: block from 9 am to 1 pm.",
+  "why": "Central Railway uses Sunday blocks for engineering and maintenance work on tracks and signals."
+ },
+ "cards": [
+  {
+   "body": "Locals between Panvel and CSMT and trans-harbour trains between Panvel and Thane are cancelled in this window.",
+   "caption": "Harbour block, 11:05 am to 4:05 pm",
+   "k": "num",
+   "value": "5 hrs"
+  },
+  {
+   "body": "Deccan Queen, Sinhagad and Pragati Express are among trains moved to the fast lines between Thane and Kalyan. They may run 10–15 minutes late.",
+   "k": "tea",
+   "title": "Express trains too"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Take the Harbour local as usual",
+    "Get to Vashi another way, then take a special",
+    "Wait at Panvel till 2 pm",
+    "Take a Western line train"
+   ],
+   "q": "You need to go from Panvel to CSMT at 1 pm. What's the smart move?",
+   "why": "Panvel–Vashi is blocked till 4:05 pm, but special locals run between Vashi and CSMT."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Bus or cab instead",
+    "Travel after 4 pm",
+    "Stay home",
+    "I'm on Western line, chill"
+   ],
+   "q": "Your Sunday mega block plan?"
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "date": "2026-10-18",
+ "heat": 3,
+ "hook": "Is your *Harbour line* train running this Sunday afternoon?",
+ "lead": "local",
+ "learn": {
+  "t": "During the Harbour block, Thane–Vashi and Thane–Nerul trans-harbour trains still run, and specials run between CSMT and Vashi."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛠️",
+    "label": "Track maintenance work"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "❌",
+    "label": "Panvel–Vashi locals cancelled"
+   },
+   {
+    "icon": "⏱️",
+    "label": "Express trains 10–15 min late"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "Central, Harbour mega blocks"
+  }
+ },
+ "order": 85,
+ "readSecs": 40,
+ "sort": "2026-10-18-14",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Mumbai Local Train Update: Central, Harbour Lines To Face Mega Block On Sunday, October 18",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-local-train-update-central-harbour-lines-to-face-mega-block-on-sunday-october-18-western-railway-services-unaffected"
+  },
+  {
+   "name": "Punekar News",
+   "title": "Pune–Mumbai Train Services to Face Delays as Central Railway Announces Mega Block on October 18",
+   "url": "https://www.punekarnews.in/pune-mumbai-train-services-to-face-delays-as-central-railway-announces-mega-block-on-october-18/"
+  }
+ ],
+ "thread": "mum-local-trains",
+ "tldr": "Central Railway has mega blocks on Sunday between Thane and Kalyan, and on the Harbour line between Panvel and Vashi.",
+ "topic": "Sunday mega block"
+}

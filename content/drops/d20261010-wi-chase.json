@@ -1,0 +1,112 @@
+{
+ "beats": {
+  "care": "It shows no T20 total is safe anymore. India's bowlers will be under real pressure in the next match of the series.",
+  "what": "India made 249 for 5 in the second T20 international in Ranchi. West Indies chased it down with nine balls left.",
+  "why": "Captain Shai Hope hit an unbeaten 102 off 45 balls, and Sherfane Rutherford smashed 84 off 37 after West Indies were 5 for 2."
+ },
+ "cards": [
+  {
+   "body": "Sanju Samson's 82 off 41 powered India to 249/5. Mayank Yadav's early burst left West Indies at 5/2, and it looked over. Then Hope and Rutherford added 120 for the fourth wicket, and WI got home in 18.3 overs. Lowkey one of the wildest T20Is this year.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "That partnership turned a wobbly chase into a cruise.",
+   "caption": "Hope and Rutherford's 4th-wicket stand",
+   "k": "num",
+   "value": "120"
+  },
+  {
+   "body": "The record chase is still South Africa's 259/4 at Centurion in 2023. The team they beat? West Indies.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, bowlers need help",
+    "No, this is peak fun",
+    "Depends on the pitch"
+   ],
+   "q": "250 chased with 9 balls left. Is T20 now too batting-friendly?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "A 120-run stand between Hope and Rutherford",
+    "India's bowlers got injured",
+    "Rain cut the target",
+    "They won a Super Over"
+   ],
+   "q": "What turned the chase for West Indies?",
+   "why": "After slipping to 5 for 2, Hope and Rutherford's huge partnership swung the game West Indies' way."
+  }
+ ],
+ "cat": "sport",
+ "cover": {
+  "bg": [
+   "#2a0a12",
+   "#ffb703"
+  ],
+  "big": "252/4",
+  "label": "West Indies' winning chase in Ranchi",
+  "motion": "rise",
+  "scene": [
+   "🏏",
+   "🔥",
+   "💯"
+  ]
+ },
+ "date": "2026-10-10",
+ "heat": 4,
+ "hook": "India scored *249* and still lost. How did West Indies pull it off?",
+ "map": {
+  "causes": [
+   {
+    "icon": "🏏",
+    "label": "India post 249/5"
+   },
+   {
+    "icon": "📉",
+    "label": "WI slip to 5/2"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏆",
+    "label": "WI win by 6 wickets"
+   },
+   {
+    "icon": "📊",
+    "label": "2nd-highest T20I chase ever"
+   }
+  ],
+  "event": {
+   "icon": "💯",
+   "label": "Hope's 45-ball century"
+  }
+ },
+ "order": 5,
+ "readSecs": 45,
+ "sort": "2026-10-10-94",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Shai Hope, Sherfane Rutherford power West Indies to six-wicket win over India",
+   "url": "https://telanganatoday.com/shai-hope-sherfane-rutherford-power-west-indies-to-six-wicket-win-over-india"
+  },
+  {
+   "name": "ESPNcricinfo",
+   "title": "India vs West Indies, 2nd T20I, Ranchi",
+   "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-2nd-t20i-1529231/live-cricket-score"
+  },
+  {
+   "name": "The Sports Encounter",
+   "title": "Shai, Rutherford conquer India in Ranchi with nine balls to spare",
+   "url": "https://thesportsencounter.com/2026/10/09/india-west-indies-2nd-t20i-2026-hope-rutherford-250-chase/"
+  }
+ ],
+ "thread": "india-wi-t20",
+ "tldr": "West Indies chased 250 against India in Ranchi with nine balls to spare, the second-highest successful chase in men's T20I history.",
+ "topic": "West Indies run chase"
+}

@@ -1,0 +1,118 @@
+{
+ "beats": {
+  "care": "Rising prices are a worry for young people everywhere, including India. This shows how quickly public anger can spill onto the streets.",
+  "what": "On Saturday, between 5.5 lakh and 8 lakh people marched across France. Masked groups set fires, attacked town halls and looted shops.",
+  "why": "Protesters, many of them students, are angry about rising living costs and school conditions. The government blamed far-left groups for the violence."
+ },
+ "cards": [
+  {
+   "a": {
+    "body": "President Macron said there is no place for violence and looters will pay. The interior minister blamed groups instigated by the far left.",
+    "label": "Government says"
+   },
+   "b": {
+    "body": "Jean-Luc Mélenchon, who joined the Paris march, said those who share the movement's fight should not loot, and blamed leaders for the chaos.",
+    "label": "Left leader says"
+   },
+   "k": "sides",
+   "note": "Far-right leaders also blamed rioters and promised to restore order.",
+   "title": "Who is to blame for the violence?"
+  },
+  {
+   "body": "More than 500 police officers, gendarmes and firefighters were hurt, the interior minister said. Paris police said one person died of a heart attack. In the Paris region alone, 855 people were arrested.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "In Limoges, the 19th-century city hall was set on fire and its roof collapsed.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Cut prices or taxes",
+    "Talk to protesters",
+    "Firm action on violence"
+   ],
+   "q": "Best way to answer price protests?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Anger over rising living costs",
+    "A football result",
+    "A new holiday",
+    "A royal wedding"
+   ],
+   "q": "What started the protests in France?",
+   "why": "People marched over prices and school conditions; the violence came from smaller groups within the crowds."
+  }
+ ],
+ "cat": "world",
+ "cover": {
+  "bg": [
+   "#14213d",
+   "#d62828"
+  ],
+  "big": "1,800+",
+  "label": "People arrested after Saturday's protests",
+  "motion": "pulse",
+  "scene": [
+   "📍",
+   "🏛️",
+   "⚠️"
+  ]
+ },
+ "date": "2026-10-19",
+ "heat": 4,
+ "hook": "Why did a march over *living costs* end with 1,800 arrests in France?",
+ "learn": {
+  "t": "Police counted about 5.5 lakh marchers; organisers said about 8 lakh. Most protests were peaceful."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧾",
+    "label": "Rising cost of living"
+   },
+   {
+    "icon": "🏫",
+    "label": "Students' school grievances"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "At least 1,800 arrested"
+   },
+   {
+    "icon": "🏛️",
+    "label": "Town halls attacked"
+   }
+  ],
+  "event": {
+   "icon": "📍",
+   "label": "Nationwide marches turn violent"
+  }
+ },
+ "order": 9,
+ "readSecs": 55,
+ "sort": "2026-10-19-90",
+ "sources": [
+  {
+   "name": "CBS News (AP)",
+   "title": "French police arrest more than 1,800 people after violent protests erupt across country",
+   "url": "https://www.cbsnews.com/news/protests-france-rising-living-costs-students/"
+  },
+  {
+   "name": "Euronews",
+   "title": "France reels after cost-of-living protests see widespread violence",
+   "url": "https://www.euronews.com/2026/10/18/france-reels-after-cost-of-living-protests-see-widespread-violence"
+  }
+ ],
+ "thread": "france-unrest",
+ "tldr": "Hundreds of thousands marched across France against rising living costs; violence broke out in several cities and at least 1,800 people were arrested.",
+ "topic": "France cost-of-living protests",
+ "watch": "France votes for a new president next spring. Watch whether the government offers cost-of-living relief."
+}

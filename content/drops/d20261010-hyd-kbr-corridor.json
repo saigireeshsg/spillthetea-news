@@ -1,0 +1,104 @@
+{
+ "beats": {
+  "care": "If you travel through Jubilee Hills or Banjara Hills, the one-way loop around KBR Park stays for now. Signal-free travel comes later.",
+  "what": "Officials scrapped the plan for underpasses and grade separators around KBR Park. They will build a 4.3 kilometre elevated corridor instead.",
+  "why": "The old plan needed costly private land. Officials say the new six-lane corridor saves about 1,200 crore rupees and needs less land."
+ },
+ "cards": [
+  {
+   "body": "GHMC plans a six-lane steel corridor from Jubilee Hills Check Post towards NFCL Junction, signal-free at five junctions. Two packages: ₹580 crore up to Mudha Junction, and ₹510 crore onward with a ramp to Banjara Hills Road No. 1. Minister Ponnam Prabhakar was briefed on 9 Oct.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Officials say that's about ₹800 crore less on land and ₹400 crore less on construction than the old plan.",
+   "caption": "Estimated cost of the corridor",
+   "k": "num",
+   "value": "₹1,090 cr"
+  },
+  {
+   "body": "Officials plan modular steel construction, which is meant to speed up work and cut the time roads stay dug up. The change comes amid criticism of poor planning and commuter pain around the park.",
+   "k": "why",
+   "title": "why steel?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "More flyovers",
+    "Better buses and metro",
+    "Both, honestly"
+   ],
+   "q": "What would fix KBR Park traffic best?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It needs less costly land and saves money",
+    "KBR Park is being closed",
+    "The metro will replace the roads",
+    "Underpasses are banned in Hyderabad"
+   ],
+   "q": "Why did officials switch to an elevated corridor?",
+   "why": "Going up instead of down avoids buying lots of expensive private land, which officials say saves about ₹1,200 crore."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "cover": {
+  "bg": [
+   "#062016",
+   "#21c07a"
+  ],
+  "big": "4.3 km",
+  "label": "New elevated corridor near KBR Park",
+  "motion": "rise",
+  "scene": [
+   "🌳",
+   "🚗",
+   "🌉"
+  ]
+ },
+ "date": "2026-10-10",
+ "heat": 3,
+ "hook": "Hyderabad's KBR Park traffic plan just changed. Here's the *new fix*",
+ "lead": "local",
+ "map": {
+  "causes": [
+   {
+    "icon": "🚦",
+    "label": "Jams from NFCL to KBR"
+   },
+   {
+    "icon": "💸",
+    "label": "Old plan needed costly land"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "↪️",
+    "label": "One-way loop stays"
+   },
+   {
+    "icon": "💰",
+    "label": "₹1,200 crore saved, officials say"
+   }
+  ],
+  "event": {
+   "icon": "🌉",
+   "label": "4.3 km elevated corridor planned"
+  }
+ },
+ "order": 9,
+ "readSecs": 45,
+ "sort": "2026-10-10-90",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad: One-way traffic to continue around KBR Park as old plans scrapped",
+   "url": "https://telanganatoday.com/hyderabad-one-way-traffic-to-continue-around-kbr-park-as-old-plans-scrapped"
+  }
+ ],
+ "tldr": "Officials dropped underpass plans around KBR Park and will build a 4.3 km elevated corridor instead; the one-way loop stays for now.",
+ "topic": "KBR Park corridor"
+}

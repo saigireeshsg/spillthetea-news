@@ -1,0 +1,151 @@
+{
+ "beats": {
+  "care": "Lakhs of Indians work at sea, often on tankers. Shipping trouble here also pushes up oil and fertiliser costs, which feed into prices at home.",
+  "what": "A projectile hit the tanker MT ST 3 in the Strait of Hormuz on 16 October. All 15 Indian crew are safe, the minister said.",
+  "why": "Iran says it is stepping up strikes after a US blockade of its ports. Two ships sank near the strait this week."
+ },
+ "cards": [
+  {
+   "items": [
+    {
+     "display": "22",
+     "label": "MT Gem No. 2, 9 Oct",
+     "value": 22
+    },
+    {
+     "alt": true,
+     "display": "11 (2 missing)",
+     "label": "Petro Dolphin, 11 Oct",
+     "value": 11
+    },
+    {
+     "display": "11",
+     "label": "Valthera, 11 Oct",
+     "value": 11
+    },
+    {
+     "display": "15",
+     "label": "MT ST 3, 16 Oct",
+     "value": 15
+    }
+   ],
+   "k": "bars",
+   "note": "Petro Dolphin's two missing sailors were still being searched for in the last official update.",
+   "title": "Indian crew on tankers hit near the Gulf since 9 Oct"
+  },
+  {
+   "body": "A UN plan would let about five fertiliser ships a day through Hormuz, coordinated from Oman. It could start within 7 to 10 days, but only if the US and Iran both agree. A UN official warned farmers could miss the planting season.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Not right now. India began the rabi season with 17 million tonnes in stock, 38% more than last year. But it imports most of the gas used to make urea, so a long blockade still hurts.",
+   "k": "why",
+   "title": "is india short of fertiliser?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Navy escorts for ships",
+    "Keep crews off Gulf routes",
+    "Push for a UN deal",
+    "Not sure"
+   ],
+   "q": "What should India do for its sailors?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Fertiliser and fuel ships pass through it",
+    "India grows rice there",
+    "It's India's main port",
+    "It controls the monsoon"
+   ],
+   "q": "Why does trouble in Hormuz matter for India's food prices?",
+   "why": "Hormuz carries a big share of the world's oil and urea, so blockages raise farming and transport costs."
+  }
+ ],
+ "cat": "world",
+ "cover": {
+  "bg": [
+   "#0a1a2a",
+   "#1e6091"
+  ],
+  "big": "15",
+  "label": "Indian crew on tanker hit on 16 Oct, all safe",
+  "motion": "pulse",
+  "scene": [
+   "🚢",
+   "⚠️",
+   "🕊️"
+  ]
+ },
+ "date": "2026-10-18",
+ "heat": 4,
+ "hook": "Why do Indian sailors keep ending up on *ships hit near Hormuz*?",
+ "lead": "world",
+ "learn": {
+  "t": "Before the war, about a third of the world's traded urea, a key crop fertiliser, passed through the Strait of Hormuz."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚓",
+    "label": "US blockade of Iran's ports"
+   },
+   {
+    "icon": "📈",
+    "label": "Attacks surge in 10 days"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🧑‍✈️",
+    "label": "Indian crews at risk"
+   },
+   {
+    "icon": "🌾",
+    "label": "UN fertiliser route stuck"
+   }
+  ],
+  "event": {
+   "icon": "🚢",
+   "label": "Tanker with Indian crew hit"
+  }
+ },
+ "order": 3,
+ "readSecs": 70,
+ "sort": "2026-10-18-96",
+ "sources": [
+  {
+   "name": "The Tribune",
+   "title": "24 Indian seafarers safe after tanker incidents in Strait of Hormuz, Romania",
+   "url": "https://www.tribuneindia.com/news/indian-seafarers/24-indian-seafarers-safe-after-tanker-incidents-in-strait-of-hormuz-romania"
+  },
+  {
+   "name": "Arab News (Reuters)",
+   "title": "Two ships sink near Hormuz after being hit by projectiles",
+   "url": "https://www.arabnews.com/middle-east/two-ships-sink-near-hormuz-after-being-hit-by-projectiles-3006316"
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "UN official warns of looming food crisis as Hormuz fertiliser plan stalls",
+   "url": "https://www.aljazeera.com/news/2026/10/14/un-official-warns-of-looming-food-crisis-as-hormuz-fertiliser-plan-stalls"
+  },
+  {
+   "name": "The Tribune",
+   "title": "At 17 million tonnes, opening fertiliser stock for rabi season 38% higher than last year",
+   "url": "https://www.tribuneindia.com/news/india/at-17-million-tonnes-opening-fertiliser-stock-for-rabi-season-38-higher-than-last-year/amp"
+  },
+  {
+   "name": "Outlook",
+   "title": "Trade Deal, Russian Oil, Defence: What's At Stake In Rubio's India Visit?",
+   "url": "https://www.outlookindia.com/international/trade-deal-russian-oil-defence-whats-at-stake-in-rubios-india-visit"
+  }
+ ],
+ "storyline": "west-asia",
+ "tldr": "A tanker with 15 Indian crew was hit in the Strait of Hormuz, the latest in a run of attacks on ships carrying Indian sailors.",
+ "topic": "Hormuz shipping attacks",
+ "watch": "US Secretary of State Rubio meets Jaishankar in Mumbai on 20 Oct, with energy and trade on the agenda."
+}

@@ -1,0 +1,131 @@
+{
+ "beats": {
+  "care": "Many first-time investors will hear about this from friends. An IPO price is not a promise; shares can list below it. Never borrow to bid.",
+  "what": "Jio Platforms, Reliance's telecom and digital arm, will sell new shares to the public from 21 to 23 October at ₹1,065 to ₹1,119 each.",
+  "why": "It is valued at about ₹10.3 lakh crore, making it one of India's biggest listings ever."
+ },
+ "cards": [
+  {
+   "body": "An Initial Public Offering is when a company sells shares to the public for the first time. You bid in a price band; if more people bid than shares exist, allotment is by lottery and you may get nothing.",
+   "k": "why",
+   "title": "what is an ipo?"
+  },
+  {
+   "body": "Up to ₹2,500 crore is kept for Reliance shareholders who held shares on 14 Oct, and ₹500 crore for employees, who get ₹54 off per share.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Brokerages expect Jio to raise mobile tariffs in the December quarter, after the IPO. Airtel has already raised postpaid plans by ₹50.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, I'd try",
+    "No, too risky",
+    "I don't invest yet",
+    "What's a demat?"
+   ],
+   "q": "Would you bid in a big IPO like this?"
+  },
+  {
+   "by": "23 Oct",
+   "k": "predict",
+   "opts": [
+    "Yes, fully subscribed",
+    "No, falls short"
+   ],
+   "q": "Will the public part of the Jio IPO be fully subscribed by 23 Oct?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The company itself",
+    "The government",
+    "Old shareholders",
+    "The stock exchange"
+   ],
+   "q": "In a fresh-issue IPO like Jio's, who gets the money raised?",
+   "why": "Fresh shares are newly created, so the cash goes to the company, not to anyone selling old shares."
+  }
+ ],
+ "cat": "money",
+ "concept": "risk",
+ "cover": {
+  "bg": [
+   "#0a1a3a",
+   "#2962ff"
+  ],
+  "big": "₹13,428",
+  "label": "Minimum bid: 12 shares at the top price",
+  "motion": "rise",
+  "scene": [
+   "📶",
+   "📈",
+   "🧾"
+  ]
+ },
+ "date": "2026-10-18",
+ "heat": 4,
+ "hook": "India's *biggest telecom IPO* opens Wednesday. What is an IPO, really?",
+ "learn": {
+  "t": "All ₹30,213 crore is fresh shares, so the money goes to Jio itself; no existing owner is selling any stake."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📶",
+    "label": "Jio wants fresh funds"
+   },
+   {
+    "icon": "🏢",
+    "label": "Reliance lists its telecom arm"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Minimum bid ₹13,428"
+   },
+   {
+    "icon": "📱",
+    "label": "Tariff hike talk after IPO"
+   }
+  ],
+  "event": {
+   "icon": "🧾",
+   "label": "₹30,213 crore IPO opens 21 Oct"
+  }
+ },
+ "order": 5,
+ "readSecs": 60,
+ "sort": "2026-10-18-94",
+ "sources": [
+  {
+   "name": "Outlook Money",
+   "title": "Jio Platforms IPO: price band, dates, valuation, lot size",
+   "url": "https://www.outlookmoney.com/amp/story/invest/jio-platforms-ipo-price-band-dates-valuation-lot-size"
+  },
+  {
+   "name": "TelecomTalk",
+   "title": "Reliance Jio IPO: complete details, date, price",
+   "url": "https://telecomtalk.info/reliance-jio-ipo-complete-details-date-price/1012892/"
+  },
+  {
+   "name": "Dealroom",
+   "title": "Reliance's Jio sets IPO price band, offering $3.4B in fresh shares",
+   "url": "https://dealroom.co/news/162711-reliances-jio-sets-ipo-price-band-offering-3-4b-in-fresh-shares/"
+  },
+  {
+   "name": "Business Today",
+   "title": "Jio IPO: Why Bharti Airtel share price is rising ahead of Rs 30,213 crore offer",
+   "url": "https://www.businesstoday.in/markets/stocks/story/jio-ipo-why-bharti-airtel-share-price-is-rising-ahead-of-rs-30213-crore-offer-562037-2026-10-16"
+  }
+ ],
+ "thread": "jio-ipo",
+ "tldr": "Jio Platforms' ₹30,213 crore IPO opens for the public on 21 October, with a price band of ₹1,065 to ₹1,119 a share.",
+ "topic": "Jio Platforms IPO",
+ "watch": "Public bidding runs 21–23 Oct. Allotment is on 26 Oct, and listing is expected around 28–29 Oct."
+}

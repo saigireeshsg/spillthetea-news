@@ -1,0 +1,108 @@
+{
+ "beats": {
+  "care": "If you're in engineering college, IT giants are still hiring freshers, but slowly and only when projects come in. Skills and internships matter more.",
+  "what": "Wipro ended September with 2,36,328 employees, 6,716 fewer than in June, its biggest drop in recent quarters.",
+  "why": "Its big new contract wins fell 58.6% from the previous quarter, so it needs fewer people on projects."
+ },
+ "cards": [
+  {
+   "body": "That's down from 14,000 the quarter before. TCS says it is hiring for demand.",
+   "caption": "Freshers TCS onboarded in July–September",
+   "k": "num",
+   "value": "10,000"
+  },
+  {
+   "body": "Wipro's net profit slipped 1.4% to ₹3,201 crore even as revenue rose to ₹24,753 crore. About 13.8% of its staff left in the past year.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Instead of hiring big batches every year and training them, companies now hire when a client deal needs people. Offers can come later, or not at all.",
+   "k": "why",
+   "title": "what does 'hiring for demand' mean?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Big IT company",
+    "Startup",
+    "Government job",
+    "Study abroad"
+   ],
+   "q": "Dream first job after college?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It won far fewer big contracts",
+    "It moved offices",
+    "The government banned hiring",
+    "Everyone retired"
+   ],
+   "q": "Why did Wipro need fewer employees last quarter?",
+   "why": "IT firms staff projects; fewer big deals mean fewer people needed."
+  }
+ ],
+ "cat": "money",
+ "date": "2026-10-18",
+ "heat": 3,
+ "hook": "Wipro *cut 6,716 jobs* in 3 months. Is campus hiring in trouble?",
+ "learn": {
+  "t": "Wipro plans about 7,500 fresher hires this year but had brought in only about 1,000 by the end of September."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📉",
+    "label": "Large deals down 58.6%"
+   },
+   {
+    "icon": "🤖",
+    "label": "Firms hire only for demand"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🎓",
+    "label": "Slower fresher intake"
+   },
+   {
+    "icon": "🆚",
+    "label": "TCS still onboards 10,000"
+   }
+  ],
+  "event": {
+   "icon": "🏢",
+   "label": "Wipro headcount falls 6,716"
+  }
+ },
+ "order": 7,
+ "readSecs": 55,
+ "sort": "2026-10-18-92",
+ "sources": [
+  {
+   "name": "Deccan Herald",
+   "title": "Wipro headcount falls by 6,716 in Q2, biggest decline in recent quarters",
+   "url": "https://www.deccanherald.com/business/wipro-headcount-falls-by-6716-in-q2-biggest-decline-in-recent-quarters-4184455"
+  },
+  {
+   "name": "Business Standard",
+   "title": "Wipro Q2 results: Net profit falls 1.4% to ₹3,201 crore, revenue rises",
+   "url": "https://www.business-standard.com/companies/quarterly-results/wipro-q2-results-net-profit-falls-1-4-to-3-200-6-cr-revenue-rises-9-126101500857_1.html"
+  },
+  {
+   "name": "InfotechLead",
+   "title": "Wipro Q2 FY27 results: revenue at $2.61 billion, large deal bookings fall 58.6%",
+   "url": "https://infotechlead.com/software/wipro-q2-fy27-results-revenue-at-2-61-billion-large-deal-bookings-fall-58-6-98896"
+  },
+  {
+   "name": "Business Standard",
+   "title": "TCS onboards 10,000 freshers in Q2 FY27, plans to hire on demand",
+   "url": "https://www.business-standard.com/companies/news/tcs-onboards-10-000-freshers-in-q2-fy27-plans-to-hire-on-demand-126100801677_1.html"
+  }
+ ],
+ "thread": "it-jobs",
+ "tldr": "Wipro's headcount fell by 6,716 last quarter while TCS onboarded 10,000 freshers, a mixed signal for engineering grads.",
+ "topic": "IT fresher hiring"
+}

@@ -1,0 +1,101 @@
+{
+ "areas": [
+  "Church Street",
+  "MG Road"
+ ],
+ "beats": {
+  "care": "Heading to Church Street cafes this weekend? Expect a cordoned patch, and heavy vehicles are banned from the stretch.",
+  "what": "On Monday, part of Church Street caved in under a garbage truck. Four days later, the hole is still there.",
+  "why": "The collapse damaged an underground BWSSB water pipe. GBA officials say full road repairs cannot start until the pipe is fixed."
+ },
+ "cards": [
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "It's waiting for rain to stop",
+    "A damaged water pipe underneath must be fixed first",
+    "Shops asked for a delay",
+    "The road is being widened"
+   ],
+   "q": "Why can't the GBA just patch the Church Street hole right away?",
+   "why": "The collapse hit a BWSSB pipeline, so the pipe gets fixed before the road surface."
+  },
+  {
+   "body": "The road's five-year maintenance warranty has run out. Reports say engineers and civic staff aren't sure who is now responsible for its upkeep.",
+   "k": "tea",
+   "title": "Who maintains it?"
+  },
+  {
+   "body": "The TenderSURE redo started at about ₹9–11 crore and was reportedly revised to ₹17 crore.",
+   "caption": "Reported revised cost",
+   "k": "num",
+   "value": "₹17 cr"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, going anyway",
+    "Skipping it",
+    "Never go there"
+   ],
+   "q": "Church Street plans this weekend?"
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "date": "2026-10-17",
+ "heat": 2,
+ "hook": "Why is *Church Street's sinkhole* still open?",
+ "learn": {
+  "t": "Church Street was rebuilt under the TenderSURE model and reopened in March 2018 with granite cobblestones."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚛",
+    "label": "Garbage truck on stretch"
+   },
+   {
+    "icon": "🪨",
+    "label": "Old cobblestone road"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💧",
+    "label": "BWSSB pipe damaged"
+   },
+   {
+    "icon": "⛔",
+    "label": "Heavy vehicles banned"
+   },
+   {
+    "icon": "⏳",
+    "label": "Repairs on hold"
+   }
+  ],
+  "event": {
+   "icon": "🕳️",
+   "label": "Road caves in"
+  }
+ },
+ "order": 56,
+ "readSecs": 35,
+ "sort": "2026-10-17-43",
+ "sources": [
+  {
+   "name": "Deccan Herald",
+   "title": "Bengaluru: Damaged waterline delays Church Street sinkhole repairs",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-damaged-waterline-delays-church-street-sinkhole-repairs-4185791"
+  },
+  {
+   "name": "Asianet Newsable",
+   "title": "Bengaluru: Garbage Truck Gets Stuck as Church Street Road Caves In, Raising Questions Over Maintenance",
+   "url": "https://newsable.asianetnews.com/karnataka-news/watch-bengaluru-garbage-truck-gets-stuck-church-street-road-caves-in-raising-questions-over-maintenance-articleshow-6e4qo6i"
+  }
+ ],
+ "thread": "blr-roads",
+ "tldr": "The Church Street sinkhole is still unfixed after four days because a damaged BWSSB water pipe must be repaired first.",
+ "topic": "Church Street sinkhole"
+}

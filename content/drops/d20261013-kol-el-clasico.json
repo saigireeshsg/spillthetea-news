@@ -1,0 +1,97 @@
+{
+ "areas": [
+  "Salt Lake"
+ ],
+ "beats": {
+  "care": "Tickets aren't out yet. Watch only official channels and skip resale offers on social media.",
+  "what": "State Sports Minister Indranil Khan said the match is expected on November 25.",
+  "why": "The state sports department pushed for it, and reports say the Chief Minister has given a nod."
+ },
+ "cards": [
+  {
+   "body": "ETV Bharat says the date isn't officially confirmed. Reports say ticket prices will be kept affordable, but none are announced yet.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "A similar legends El Clasico was held in Navi Mumbai in April 2025. Real Madrid won 2-0.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Madrid fan, I'm in",
+    "Barca fan, I'm in",
+    "Only if tickets are cheap",
+    "Not my thing"
+   ],
+   "q": "Would you go to a legends El Clasico?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "A legends match with former stars",
+    "A La Liga league game",
+    "A Champions League final",
+    "An India vs Spain friendly"
+   ],
+   "q": "What kind of match is planned for November 25?",
+   "why": "Reports say legends of both clubs will play, not the current squads."
+  }
+ ],
+ "cat": "local",
+ "city": "Kolkata",
+ "date": "2026-10-13",
+ "heat": 3,
+ "hook": "*Real Madrid vs Barcelona* in Salt Lake? Here's the catch",
+ "learn": {
+  "t": "It's a legends game with former stars, not the current squads, Sangbad Pratidin reports."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚽",
+    "label": "Kolkata's football buzz"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🎟️",
+    "label": "Ticket rush likely"
+   },
+   {
+    "icon": "🚇",
+    "label": "Big crowds in Salt Lake"
+   }
+  ],
+  "event": {
+   "icon": "🏟️",
+   "label": "El Clasico legends match planned"
+  }
+ },
+ "order": 67,
+ "readSecs": 40,
+ "sort": "2026-10-13-32",
+ "sources": [
+  {
+   "name": "Millennium Post",
+   "title": "City gears up for El Clasico, 10-lakh Gita recitation",
+   "url": "https://www.millenniumpost.in/bengal/city-gears-up-for-el-clasico-10-lakh-gita-recitation-679612"
+  },
+  {
+   "name": "Sangbad Pratidin",
+   "title": "Real Madrid vs Barcelona will face each other in November at Yuva Bharati",
+   "url": "https://www.sangbadpratidin.in/sports/football/real-madrid-vs-barcelona-will-face-each-other-in-november-at-yuva-bharati/pid/1383589/"
+  },
+  {
+   "name": "ETV Bharat Bangla",
+   "title": "Kolkata to witness El Clasico: Barcelona vs Real Madrid next month",
+   "url": "https://www.etvbharat.com/bn/sports/kolkata-to-witness-el-clasico-barcelona-vs-real-madrid-match-in-next-month-wbs26101207520"
+  }
+ ],
+ "thread": "kol-events",
+ "tldr": "A Real Madrid vs Barcelona legends match is tentatively set for November 25 at Salt Lake's Yuva Bharati stadium.",
+ "topic": "El Clasico legends",
+ "watch": "Sports Minister Indranil Khan is expected to confirm the match and ticket details at a press conference."
+}

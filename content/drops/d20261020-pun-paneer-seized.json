@@ -1,0 +1,94 @@
+{
+ "areas": [
+  "Bavdhan",
+  "Kasba Peth",
+  "Bibwewadi"
+ ],
+ "beats": {
+  "care": "Paneer rolls and mithai are everywhere this Diwali season. Buy sealed, chilled packs, and report bad food to 1800222365.",
+  "what": "On Monday, the FDA raided spots in Bavdhan, Kasba Peth and Bibwewadi. It seized paneer and khoya worth about ₹31 lakh.",
+  "why": "Officials said the stock was moved and stored without temperature control. Some paneer was sold unsealed in dirty conditions."
+ },
+ "cards": [
+  {
+   "body": "Paneer came from three vehicles. The khoya was found at a dairy in Kasba Peth.",
+   "caption": "value of the paneer and khoya destroyed",
+   "k": "num",
+   "value": "₹31 lakh"
+  },
+  {
+   "body": "Bavdhan: 3,520 kg paneer. Kasba Peth: 3,235 kg paneer plus 720 kg khoya. Bibwewadi: 3,413 kg paneer. All were consignments from Karnataka.",
+   "k": "tea",
+   "title": "Where it was caught"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "It was too expensive",
+    "It was kept without temperature control",
+    "It came by train",
+    "It had no brand name"
+   ],
+   "q": "Why did the FDA call this stock risky?",
+   "why": "Officials said the food was moved and stored at uncontrolled temperatures, which lets it spoil."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Always, sealed only",
+    "Sometimes",
+    "Never thought of it",
+    "I skip paneer"
+   ],
+   "q": "Do you check paneer before buying?"
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "date": "2026-10-20",
+ "heat": 3,
+ "hook": "How much *suspect paneer* did Pune's FDA destroy in one morning?",
+ "learn": {
+  "t": "Maharashtra's FDA has a toll-free line, 1800222365, for complaints about food quality or hygiene."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎉",
+    "label": "Festive sweets demand"
+   },
+   {
+    "icon": "🌡️",
+    "label": "No cold storage"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🗑️",
+    "label": "Stock destroyed"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Food safety case"
+   }
+  ],
+  "event": {
+   "icon": "🧀",
+   "label": "10,888 kg paneer, khoya seized"
+  }
+ },
+ "order": 73,
+ "readSecs": 45,
+ "sort": "2026-10-20-26",
+ "sources": [
+  {
+   "name": "Punekar News",
+   "title": "Pune FDA Seizes 10,888 Kg Paneer, Khoya in Bavdhan, Kasba Peth and Bibwewadi",
+   "url": "https://www.punekarnews.in/pune-fda-seizes-10888-kg-paneer-khoya-in-bavdhan-kasba-peth-and-bibwewadi/"
+  }
+ ],
+ "thread": "pun-food-safety",
+ "tldr": "Pune's FDA seized and destroyed 10,888 kg of paneer and khoya it suspected was unsafe, brought in from Karnataka.",
+ "topic": "Paneer crackdown"
+}

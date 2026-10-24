@@ -1,0 +1,89 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "A cheap festival day out with friends. Book early at ksrtc.in or call 080-26252625.",
+  "what": "KSRTC's Ashwamedha Classic buses leave Bengaluru at 6 am daily for a Mysuru sightseeing loop, Oct 13–28.",
+  "why": "Dasara draws huge crowds to Mysuru. A packaged trip saves you planning the route yourself."
+ },
+ "cards": [
+  {
+   "body": "Children aged 6–12 pay Rs 750. These fares don't apply on Oct 19 and 20.",
+   "caption": "Adult fare",
+   "k": "num",
+   "value": "₹950"
+  },
+  {
+   "body": "Stops include Srirangapatna's temple and Daria Daulat Bagh, St Philomena's Church, Mysuru Palace, the zoo and Chamundi Hills.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Mysuru trip!",
+    "Stay in Bengaluru",
+    "Going home",
+    "Sleeping in"
+   ],
+   "q": "Your Dasara plan?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "6 am",
+    "9 am",
+    "Noon",
+    "10 pm"
+   ],
+   "q": "When does KSRTC's Mysuru day tour leave Bengaluru?",
+   "why": "KSRTC says the tour bus departs Bengaluru at 6 am."
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "date": "2026-10-14",
+ "heat": 2,
+ "hook": "Mysuru Palace, zoo and Chamundi in *one day* for under Rs 1,000?",
+ "learn": {
+  "t": "The tour covers Srirangapatna, Mysuru Palace, the zoo and Chamundi Hills in a single day."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎉",
+    "label": "Mysuru Dasara season"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏰",
+    "label": "Palace, zoo, Chamundi"
+   },
+   {
+    "icon": "💸",
+    "label": "Rs 950 per adult"
+   }
+  ],
+  "event": {
+   "icon": "🚌",
+   "label": "KSRTC day-tour packages"
+  }
+ },
+ "order": 48,
+ "readSecs": 35,
+ "sort": "2026-10-14-51",
+ "sources": [
+  {
+   "name": "Deccan Herald",
+   "title": "KSRTC's Bengaluru-Mysuru package tours from Oct 13 to 28",
+   "url": "https://www.deccanherald.com/india/karnataka/ksrtcs-bengaluru-mysuru-package-tours-from-oct-13-to-28-4180345"
+  }
+ ],
+ "thread": "blr-events",
+ "tldr": "KSRTC is running one-day Bengaluru–Mysuru package tours from October 13 to 28 for Rs 950 per adult.",
+ "topic": "Dasara day trips",
+ "watch": "Tours run daily until October 28; the Rs 950 fare doesn't apply on October 19 and 20."
+}

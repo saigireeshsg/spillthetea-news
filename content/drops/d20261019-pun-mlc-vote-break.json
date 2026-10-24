@@ -1,0 +1,91 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Registered as a graduate voter? Tell your manager now and plan your 4-hour slot on Friday.",
+  "what": "Divisional Commissioner Sheetal Teli-Ugale said registered private-sector voters get a 4-hour concession, up from 2 hours.",
+  "why": "The Pune division votes on Oct 23 for Graduates' and Teachers' seats in Maharashtra's Legislative Council."
+ },
+ "cards": [
+  {
+   "body": "The Graduates' seat covers Pune, Satara, Sangli, Kolhapur and Solapur districts. Only registered graduate voters can vote.",
+   "k": "tea",
+   "title": "Who votes"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Every Pune resident",
+    "Registered voters working in private firms",
+    "Only school students",
+    "Only teachers"
+   ],
+   "q": "Who gets the 4-hour break on Oct 23?",
+   "why": "The concession is for private-sector employees who are registered voters in these seats."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes",
+    "No",
+    "Didn't know it existed",
+    "Not a graduate yet"
+   ],
+   "q": "Are you registered as a graduate voter?"
+  },
+  {
+   "body": "Eligible government staff get a full paid holiday, on top of their casual leave.",
+   "k": "twist"
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "date": "2026-10-19",
+ "heat": 3,
+ "hook": "Registered graduate voter? You may get *4 hours off* on Friday",
+ "learn": {
+  "t": "Only graduates who registered can vote in the Graduates' constituency; it's separate from regular elections."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "Legislative Council polls"
+   },
+   {
+    "icon": "📜",
+    "label": "EC circular, Oct 16"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏢",
+    "label": "Private staff get time off"
+   },
+   {
+    "icon": "🏛️",
+    "label": "Govt staff paid holiday"
+   }
+  ],
+  "event": {
+   "icon": "⏰",
+   "label": "4-hour voting break"
+  }
+ },
+ "order": 74,
+ "readSecs": 35,
+ "sort": "2026-10-19-25",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Pune: Four-Hour Voting Break For Private Employees, Paid Holiday For Graduate & Teacher Voters On Oct 23",
+   "url": "https://www.freepressjournal.in/pune/pune-four-hour-voting-break-for-private-employees-paid-holiday-for-graduate-teacher-voters-on-oct-23"
+  }
+ ],
+ "thread": "pun-civic",
+ "tldr": "Registered graduate and teacher voters working in private firms get a 4-hour break to vote in the October 23 MLC poll.",
+ "topic": "Graduates' MLC poll",
+ "watch": "Polling is on October 23, 8 am to 4 pm; counting is on October 27."
+}

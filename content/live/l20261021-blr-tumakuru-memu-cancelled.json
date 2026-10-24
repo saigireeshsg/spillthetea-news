@@ -1,0 +1,23 @@
+{
+ "areas": [
+  "KSR Bengaluru",
+  "Yeshwanthpur"
+ ],
+ "body": "MEMU 66571/66572 off Oct 23–25, Oct 28–Nov 1, Nov 4–7 for Tumakuru yard work; some expresses delayed. Plan buses or other trains.",
+ "city": "Bengaluru",
+ "kind": "metro",
+ "open": "d20261021-blr-memu-cancellations",
+ "scope": "local",
+ "sev": 1,
+ "src": [
+  {
+   "name": "The Bengaluru Live (SWR CPRO)",
+   "url": "https://thebengalurulive.com/tumakuru-redevelopment-bengaluru-memus-cancelled-on-12-days-express-trains-delayed/"
+  }
+ ],
+ "thread": "blr-trains",
+ "title": "Tumakuru–KSR Bengaluru MEMUs cancelled on 12 days from Oct 23",
+ "ts": 1792563700000,
+ "until": 1794076200000,
+ "verified": "1"
+}

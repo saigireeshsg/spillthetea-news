@@ -1,0 +1,98 @@
+{
+ "areas": [
+  "Hadapsar"
+ ],
+ "beats": {
+  "care": "Going home for Chhath? These specials stop at Prayagraj Chheoki, DDU, Buxar, Danapur and Patliputra.",
+  "what": "01453 leaves Hadapsar Mondays from Oct 19 to Nov 23. 01481 leaves Tuesdays from Oct 20 to Nov 24.",
+  "why": "Lakhs travel home to Bihar and UP for Diwali and Chhath, and regular trains fill fast."
+ },
+ "cards": [
+  {
+   "body": "11 general unreserved, 8 sleeper and a pantry car.",
+   "caption": "LHB coaches on the Monday train",
+   "k": "num",
+   "value": "22"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Only at Patna",
+    "UTS app or station counter",
+    "Airline app",
+    "No tickets needed"
+   ],
+   "q": "How can you get an unreserved ticket for these trains?",
+   "why": "Central Railway says unreserved tickets are sold on UTS or at counters."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Train",
+    "Bus",
+    "Flight",
+    "Staying in Pune"
+   ],
+   "q": "How are you getting home for Diwali?"
+  },
+  {
+   "body": "A Pune–Nagpur special also leaves Pune at 7:30 am today, with 16 unreserved coaches.",
+   "k": "tea",
+   "title": "Nagpur special"
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "date": "2026-10-19",
+ "heat": 3,
+ "hook": "Heading to Bihar? A *new Hadapsar train* leaves tonight",
+ "learn": {
+  "t": "Unreserved tickets for these specials are sold on the UTS app at normal Mail/Express fares."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Diwali and Chhath rush"
+   },
+   {
+    "icon": "🚉",
+    "label": "Packed regular trains"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🎟️",
+    "label": "Unreserved seats via UTS"
+   },
+   {
+    "icon": "🛏️",
+    "label": "Sleeper coaches bookable"
+   }
+  ],
+  "event": {
+   "icon": "🚆",
+   "label": "Hadapsar–Muzaffarpur specials"
+  }
+ },
+ "order": 68,
+ "readSecs": 35,
+ "sort": "2026-10-19-31",
+ "sources": [
+  {
+   "name": "PunePulse",
+   "title": "Pune: Amrit Bharat Festival Special Trains To Run Between Hadapsar and Muzaffarpur",
+   "url": "https://www.mypunepulse.com/pune-amrit-bharat-festival-special-trains-to-run-between-hadapsar-and-muzaffarpur/"
+  },
+  {
+   "name": "PuneNow",
+   "title": "Pune–Nagpur Special Train Schedule Revised for Dhamma Chakra Pravartan Day 2026",
+   "url": "https://www.punenow.com/pune-nagpur-special-train-schedule-revised-for-dhamma-chakra-pravartan-day-2026/"
+  }
+ ],
+ "thread": "pun-festival-travel",
+ "tldr": "Central Railway's unreserved festival specials from Hadapsar to Muzaffarpur start tonight at 7:55 pm and run weekly till November.",
+ "topic": "Festival special trains",
+ "watch": "First Hadapsar–Muzaffarpur special leaves tonight, October 19, at 7:55 pm."
+}

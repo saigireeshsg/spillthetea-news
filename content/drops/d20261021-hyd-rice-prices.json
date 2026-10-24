@@ -1,0 +1,137 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Hostel mess fees, tiffin prices and your family's grocery bill can all rise. Ration card holders are better protected by the state's stock.",
+  "what": "Rice inflation in Telangana rose from 4% in April to 13% in September, and retail Sona rice now costs ₹85 to ₹90 a kilo.",
+  "why": "A weak, El Niño-hit monsoon left a 23% rain shortfall, and the state urged farmers to grow less water-hungry crops than paddy."
+ },
+ "calc": {
+  "def": 1500,
+  "dir": "up",
+  "kind": "pct",
+  "label": "more a month at 13% rice inflation",
+  "pct": 13,
+  "q": "Your family's monthly rice bill (₹)?"
+ },
+ "cards": [
+  {
+   "items": [
+    {
+     "display": "₹2,068",
+     "label": "Oct 2025",
+     "value": 2068
+    },
+    {
+     "alt": true,
+     "display": "₹3,419",
+     "label": "Oct 2026",
+     "value": 3419
+    }
+   ],
+   "k": "bars",
+   "note": "Figures from a Times of India report cited by Siasat.",
+   "title": "Wholesale Sona rice, per quintal"
+  },
+  {
+   "body": "Minister Uttam Kumar Reddy told officials on 19 October to build a buffer for 3.42 crore ration users. The state says it has enough grain for about 11.7 months.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Paddy has a ready system of buyers and mills. Vegetables and pulses have weaker supply chains, so farmers fear they won't sell. Horticulture land still grew from 2.25 to 3.54 lakh acres.",
+   "k": "why",
+   "title": "why don't farmers just switch crops?"
+  },
+  {
+   "body": "Farm leader T Sagar says middle-class families will be hit hardest, because the poorest get rice through ration shops.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, a lot",
+    "A little",
+    "Haven't noticed"
+   ],
+   "q": "Has rice gone up at your home?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Weak rains meant less paddy",
+    "Rice exports were banned",
+    "Ration shops closed",
+    "A new GST on rice"
+   ],
+   "q": "Why is rice getting costlier in Telangana?",
+   "why": "A poor El Niño monsoon and less paddy planting cut supply, so prices rose."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "concept": "inflation",
+ "cover": {
+  "bg": [
+   "#2b1a05",
+   "#f5b700"
+  ],
+  "big": "13%",
+  "label": "rice inflation in Telangana in September",
+  "motion": "rise",
+  "scene": [
+   "🍚",
+   "📈",
+   "🛒"
+  ]
+ },
+ "date": "2026-10-21",
+ "heat": 4,
+ "hook": "Rice inflation in Telangana jumped from 4% to *13%*. What's driving it?",
+ "lead": "local",
+ "learn": {
+  "t": "Wholesale Sona rice rose about 65% in a year, from ₹2,068 to ₹3,419 per quintal, which is 100 kg."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌵",
+    "label": "23% rain shortfall"
+   },
+   {
+    "icon": "🌾",
+    "label": "Less paddy planted"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🛒",
+    "label": "Sona rice ₹85–90 a kg"
+   },
+   {
+    "icon": "🏪",
+    "label": "State builds ration buffer"
+   }
+  ],
+  "event": {
+   "icon": "🍚",
+   "label": "Rice inflation hits 13%"
+  }
+ },
+ "order": 4,
+ "readSecs": 65,
+ "sort": "2026-10-21-95",
+ "sources": [
+  {
+   "name": "Siasat Daily",
+   "title": "Middle class pockets take hit as rice prices surge in Telangana",
+   "url": "https://www.siasat.com/middle-class-pockets-take-hit-as-rice-prices-surge-in-telangana-3561445/"
+  }
+ ],
+ "thread": "hyd-rice-prices",
+ "tldr": "Rice in Telangana has become much costlier this year, and farmers' groups warn prices may not fall soon.",
+ "topic": "Rice price surge",
+ "watch": "Telangana is considering adding wheat flour to ration shops. Watch for a decision, and for new harvest prices in the coming months."
+}

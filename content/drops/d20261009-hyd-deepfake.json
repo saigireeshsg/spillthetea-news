@@ -1,0 +1,116 @@
+{
+ "beats": {
+  "care": "AI fakes now look real. Forwarding one spreads lies about real people, so check before you share.",
+  "what": "An X account posted an AI-made image claiming Police Commissioner VC Sajjanar had arrested someone over a fake Jr NTR video. He called it out as fake.",
+  "why": "A vulgar AI-morphed video of Jr NTR and Janhvi Kapoor went viral last week. A fake 'arrest' pic followed."
+ },
+ "cards": [
+  {
+   "body": "Sajjanar reshared the post, said the image was AI-generated, and warned people not to fall for or forward deepfakes without checking. He tagged Hyderabad Police and the cybercrime police.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "The account deleted the post and apologised to Sajjanar right in his comments.",
+   "k": "twist"
+  },
+  {
+   "a": {
+    "body": "Some fans are misusing his image; people must verify before sharing anything.",
+    "label": "Sajjanar says"
+   },
+   "b": {
+    "body": "The people spreading it aren't real fans, and one account shouldn't be blamed on all of them.",
+    "label": "Some fans say"
+   },
+   "k": "sides",
+   "title": "Who's to blame?"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "A real photo",
+    "An AI-made fake image or video of a real person",
+    "An Instagram filter",
+    "A cybercrime police unit"
+   ],
+   "q": "What's a deepfake?",
+   "why": "Deepfakes use AI to make real people appear to say or do things they never did."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes 😬",
+    "Not that I know of",
+    "Never"
+   ],
+   "q": "Ever forwarded something that turned out to be fake?"
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "cover": {
+  "bg": [
+   "#120f2b",
+   "#8b5cf6"
+  ],
+  "big": "FAKE",
+  "label": "AI 'arrest' image of Hyderabad's top cop",
+  "motion": "glitch",
+  "scene": [
+   "🤖",
+   "📱",
+   "🚓"
+  ]
+ },
+ "date": "2026-10-09",
+ "heat": 4,
+ "hook": "Hyderabad's police chief got *deepfaked*. Here's what he said",
+ "map": {
+  "causes": [
+   {
+    "icon": "🎬",
+    "label": "Viral fake Jr NTR video"
+   },
+   {
+    "icon": "🤖",
+    "label": "AI fakes look real now"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⚠️",
+    "label": "CP: verify before sharing"
+   },
+   {
+    "icon": "🙏",
+    "label": "Account deletes, apologises"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Jr NTR vows legal action"
+   }
+  ],
+  "event": {
+   "icon": "🚓",
+   "label": "Fake 'arrest' pic of CP goes viral"
+  }
+ },
+ "order": 23,
+ "readSecs": 40,
+ "sort": "2026-10-09-76",
+ "sources": [
+  {
+   "name": "The Siasat Daily",
+   "title": "Hyderabad CP Sajjanar calls out Jr NTR fans over his fake AI image",
+   "url": "https://www.siasat.com/hyderabad-cp-sajjanar-calls-out-jr-ntr-fans-over-his-fake-ai-image-3554732/"
+  },
+  {
+   "name": "The News Minute",
+   "title": "Jr NTR, Janhvi Kapoor condemn vulgar AI video, vow legal action",
+   "url": "https://www.thenewsminute.com/flix/jr-ntr-janhvi-kapoor-condemn-vulgar-ai-video-of-chuttamalle-song-vow-legal-action"
+  }
+ ],
+ "topic": "CP deepfake"
+}

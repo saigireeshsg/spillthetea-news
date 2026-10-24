@@ -1,0 +1,99 @@
+{
+ "areas": [
+  "Andheri",
+  "Sahar",
+  "Vile Parle"
+ ],
+ "beats": {
+  "care": "Flying abroad this winter? Fewer slots could mean fewer flight options. Check your booking and keep Navi Mumbai airport in mind.",
+  "what": "MIAL plans to rebuild Terminal 1B's northern part from January 2027 and shift those passengers to T2, cutting international departure slots by 33%.",
+  "why": "About 5 million yearly passengers would be affected. Airlines say their winter schedules were already approved in June."
+ },
+ "cards": [
+  {
+   "body": "No final number of flights or start date has been fixed yet.",
+   "caption": "Proposed cut in international departure slots",
+   "k": "num",
+   "value": "33%"
+  },
+  {
+   "body": "Mumbai's airline operators committee wrote on Oct 2 that the proposal was \"not accepted\". Talks were set for Oct 13.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "The airport is offering airlines a 100% landing-fee discount on new international flights from Navi Mumbai, about 36 km away.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Sure, if cheaper",
+    "Too far for me",
+    "Depends on flight",
+    "Don't fly abroad"
+   ],
+   "q": "Would you fly abroad from Navi Mumbai?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "To rebuild part of the old Terminal 1",
+    "Because of a fuel shortage",
+    "To close the airport",
+    "To raise ticket prices"
+   ],
+   "q": "Why does Mumbai airport want to cut slots?",
+   "why": "MIAL wants to rebuild Terminal 1B from January 2027 and shift passengers to Terminal 2."
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "date": "2026-10-14",
+ "heat": 3,
+ "hook": "Why does Mumbai airport want *fewer international flights*?",
+ "learn": {
+  "t": "Mumbai's Terminal 1 building is about 60 years old; its rebuilt section should handle 20 million passengers a year."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏚️",
+    "label": "Ageing Terminal 1"
+   },
+   {
+    "icon": "🔥",
+    "label": "April fire at T1"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🛬",
+    "label": "Airlines object"
+   },
+   {
+    "icon": "🛫",
+    "label": "Push towards Navi Mumbai"
+   }
+  ],
+  "event": {
+   "icon": "✈️",
+   "label": "33% slot cut proposed"
+  }
+ },
+ "order": 75,
+ "readSecs": 50,
+ "sort": "2026-10-14-24",
+ "sources": [
+  {
+   "name": "Business Standard (Reuters)",
+   "title": "Why Mumbai airport and airlines are at odds over proposed flight cuts",
+   "url": "https://www.business-standard.com/industry/aviation/why-adani-s-mumbai-airport-airlines-are-at-odds-over-flight-cuts-126101300525_1.html"
+  }
+ ],
+ "thread": "mum-airport",
+ "tldr": "Mumbai airport wants to cut international departure slots by a third to rebuild part of Terminal 1, but airlines have pushed back.",
+ "topic": "Airport flight cuts",
+ "watch": "Cuts once planned from October 25 were deferred by a few weeks; Terminal 1B rebuild starts January 2027."
+}

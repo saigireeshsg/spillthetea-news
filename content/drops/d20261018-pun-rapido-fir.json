@@ -1,0 +1,94 @@
+{
+ "areas": [
+  "Vishrantwadi",
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Use bike taxis to beat traffic? Rides on unpermitted vehicles may face action, so keep a backup like PMPML or metro.",
+  "what": "Vishrantwadi police booked Roppen Transportation Services, which runs Rapido, on a complaint from an RTO motor vehicle inspector.",
+  "why": "The RTO says Rapido's app let people book rides on petrol two-wheelers that were never permitted for passenger transport."
+ },
+ "cards": [
+  {
+   "body": "The Bharatiya Nyaya Sanhita, the Motor Vehicles Act and the IT Act.",
+   "caption": "laws cited in the case",
+   "k": "num",
+   "value": "3"
+  },
+  {
+   "body": "The complaint says the company carried passengers without permission and so 'defrauded the government.' Police sub-inspector Raut is investigating.",
+   "k": "tea",
+   "title": "The charge"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Rides are too cheap",
+    "Petrol two-wheelers weren't permitted to carry paying passengers",
+    "Riders don't wear helmets",
+    "The app has no ratings"
+   ],
+   "q": "What is the RTO's main objection?",
+   "why": "The complaint says the transport authority never permitted petrol-powered two-wheelers for passenger transport."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Daily",
+    "Sometimes",
+    "Never",
+    "Will stop after this"
+   ],
+   "q": "Do you use bike taxis in Pune?"
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "date": "2026-10-18",
+ "heat": 3,
+ "hook": "Is your *cheap bike-taxi ride* in Pune actually allowed?",
+ "lead": "local",
+ "learn": {
+  "t": "The complaint says Pune's transport authority never allowed petrol-powered two-wheelers to carry paying passengers."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏍️",
+    "label": "Petrol bike taxis on app"
+   },
+   {
+    "icon": "📋",
+    "label": "No transport permit"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🔍",
+    "label": "Police probe begins"
+   },
+   {
+    "icon": "❓",
+    "label": "Riders unsure of rules"
+   }
+  ],
+  "event": {
+   "icon": "🚔",
+   "label": "FIR against Rapido operator"
+  }
+ },
+ "order": 82,
+ "readSecs": 40,
+ "sort": "2026-10-18-17",
+ "sources": [
+  {
+   "name": "Pune Pulse",
+   "title": "Pune Police Book Rapido Over Alleged Unauthorised Bike-Taxi Services",
+   "url": "https://www.mypunepulse.com/pune-police-book-rapido-over-alleged-unauthorised-bike-taxi-services/"
+  }
+ ],
+ "thread": "pun-bike-taxi",
+ "tldr": "Pune police have booked Rapido's operating company after the RTO said it ran petrol bike taxis without permission.",
+ "topic": "Rapido case filed"
+}

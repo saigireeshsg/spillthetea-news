@@ -1,0 +1,81 @@
+{
+ "areas": [
+  "Sangareddy"
+ ],
+ "beats": {
+  "care": "Hyderabad's pharma belt employs many young chemists and supervisors. Workplace safety rules exist for a reason; ask about them.",
+  "what": "Two employees of Saraca Laboratories in Gaddapotharam, Jinnaram mandal, died after inhaling chloroform vapours late on Thursday.",
+  "why": "The leak happened while chloroform was moved from a first-floor reactor to a ground-floor receiver. Vapours spread fast."
+ },
+ "cards": [
+  {
+   "body": "The victims, a chemist and a supervisor aged 44 and 27, were from Andhra Pradesh. The Telangana Pollution Control Board ordered the unit closed and its power disconnected.",
+   "k": "tea"
+  },
+  {
+   "body": "It's a solvent used in making medicines. Breathing in high amounts in a closed space can cause unconsciousness and death.",
+   "k": "why",
+   "title": "why is chloroform dangerous?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Ordered the unit shut and power cut",
+    "Gave a warning only",
+    "Fined workers",
+    "Nothing yet"
+   ],
+   "q": "What action did the Pollution Control Board take?",
+   "why": "TGPCB ordered immediate closure and disconnection of electricity."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-24",
+ "heat": 3,
+ "hook": "Chemical leak at a pharma unit near Hyderabad leaves *two workers* dead",
+ "learn": {
+  "t": "Telangana's Sangareddy and Medak districts host one of India's biggest bulk drug manufacturing clusters."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧪",
+    "label": "Chloroform being transferred"
+   },
+   {
+    "icon": "🏭",
+    "label": "Leak in production area"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🔒",
+    "label": "Unit ordered shut"
+   },
+   {
+    "icon": "🔌",
+    "label": "Power cut off"
+   }
+  ],
+  "event": {
+   "icon": "⚠️",
+   "label": "Two workers die"
+  }
+ },
+ "order": 15,
+ "readSecs": 45,
+ "sort": "2026-10-24-84",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Two killed in chloroform vapour leak at pharma unit (print, Hyderabad edition, 24 Oct, p.1)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "thread": "tg-industrial-safety",
+ "tldr": "Two employees died after chloroform vapour leaked at a pharma plant in Sangareddy district. The unit has been shut.",
+ "topic": "Pharma unit chemical leak",
+ "watch": "Watch for an inquiry report on safety lapses at the unit."
+}

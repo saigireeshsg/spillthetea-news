@@ -1,0 +1,99 @@
+{
+ "beats": {
+  "care": "Whatever AI app you use, assume what you type may be stored on the company's servers. Keep passwords, ID numbers and private files out.",
+  "what": "The US Department of Homeland Security ordered federal civilian agencies to stop buying DeepSeek products and remove them from their systems.",
+  "why": "US officials say Chinese law could let authorities access data that government users type into DeepSeek's tools."
+ },
+ "cards": [
+  {
+   "body": "The order also cites a 2025 security report on DeepSeek's iPhone app that found weak encryption and data being sent without encryption.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "a": {
+    "body": "Chinese authorities could access sensitive government data and track users, so the tools are a national security risk.",
+    "label": "US officials say"
+   },
+   "b": {
+    "body": "Foreign Ministry spokesperson Mao Ning said the US is overstretching national security and politicising technology and trade.",
+    "label": "China says"
+   },
+   "k": "sides",
+   "title": "Security step or tech politics?"
+  },
+  {
+   "body": "DeepSeek is open-source, so many other apps quietly run on its models. That is why the ban reaches third-party products too.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, all foreign AI",
+    "Only from rival nations",
+    "No, use the best tools"
+   ],
+   "q": "Should India restrict foreign AI in govt offices?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Fear data could reach China's government",
+    "DeepSeek gave wrong answers",
+    "It was too expensive",
+    "It used too much power"
+   ],
+   "q": "Why did the US order DeepSeek off its agencies' systems?",
+   "why": "Officials worry Chinese law could let Beijing get data that government staff type into the AI."
+  }
+ ],
+ "cat": "tech",
+ "date": "2026-10-21",
+ "heat": 3,
+ "hook": "The US just kicked DeepSeek off *government computers*. What's the fear?",
+ "learn": {
+  "t": "The order covers apps built on DeepSeek's AI too, not just DeepSeek's own app, and doesn't stop ordinary Americans using it."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔐",
+    "label": "Fear of data reaching Beijing"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🖥️",
+    "label": "Agencies must uninstall it"
+   },
+   {
+    "icon": "🇨🇳",
+    "label": "China calls it politicised"
+   }
+  ],
+  "event": {
+   "icon": "🚫",
+   "label": "US orders DeepSeek removed"
+  }
+ },
+ "order": 8,
+ "readSecs": 60,
+ "sort": "2026-10-21-91",
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "title": "US orders federal agencies to remove China's DeepSeek AI from their systems",
+   "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/"
+  },
+  {
+   "name": "BleepingComputer",
+   "title": "DHS bans DeepSeek products across US federal civilian agencies",
+   "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/"
+  }
+ ],
+ "thread": "china-ai",
+ "tldr": "The US ordered its civilian government agencies to remove Chinese AI company DeepSeek's products, including apps built on it.",
+ "topic": "US DeepSeek ban",
+ "watch": "US agencies have 60 days to ask for exceptions, which the cyber agency CISA will approve or reject."
+}

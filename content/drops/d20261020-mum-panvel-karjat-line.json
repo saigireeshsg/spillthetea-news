@@ -1,0 +1,96 @@
+{
+ "areas": [
+  "Panvel",
+  "Karjat",
+  "Dadar",
+  "Virar",
+  "Nallasopara",
+  "Vasai Road"
+ ],
+ "beats": {
+  "care": "Commute via Dadar, Virar or Nallasopara? New decks should make platforms less crushed. Panvel–Karjat opens after a safety inspection.",
+  "what": "The Panvel–Karjat line hit 99% completion in September. MRVC also placed 35 big girders at five busy stations for new elevated decks.",
+  "why": "These MUTP projects aim to ease platform crowding and add new routes for Raigad and Navi Mumbai commuters."
+ },
+ "cards": [
+  {
+   "body": "Nallasopara got 18 and Dadar 15. Virar and Vasai Road got girders too, all for elevated decks over platforms.",
+   "caption": "heavy girders placed in one month",
+   "k": "num",
+   "value": "35"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "A public vote",
+    "A railway safety inspection",
+    "A new fare law",
+    "BMC elections"
+   ],
+   "q": "What must happen before the Panvel–Karjat line can open?",
+   "why": "New lines need the Commissioner of Railway Safety's inspection and nod first."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, daily",
+    "Maybe on weekends",
+    "Not my route",
+    "Just want AC locals"
+   ],
+   "q": "Would a Panvel–Karjat local help you?"
+  },
+  {
+   "body": "Dadar's new western deck is designed partly to make switching between local trains and Metro Line 1 easier.",
+   "k": "twist"
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "date": "2026-10-20",
+ "heat": 2,
+ "hook": "How close is the *Panvel–Karjat local line* to done?",
+ "learn": {
+  "t": "MRVC has signed for 238 air-conditioned local trains from Chennai's ICF, with deliveries expected to start in late 2027."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚉",
+    "label": "Crowded western stations"
+   },
+   {
+    "icon": "🛤️",
+    "label": "Few Panvel–Karjat links"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🧍",
+    "label": "Wider decks, less crush"
+   },
+   {
+    "icon": "❄️",
+    "label": "More AC locals later"
+   }
+  ],
+  "event": {
+   "icon": "🏗️",
+   "label": "MRVC upgrades speed up"
+  }
+ },
+ "order": 62,
+ "readSecs": 40,
+ "sort": "2026-10-20-37",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Mumbai Suburban Railway Gets Infrastructure Boost As MRVC Installs 35 Heavy Girders In 1 Month To Upgrade Key Stations",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-suburban-railway-gets-infrastructure-boost-as-mrvc-installs-35-heavy-girders-in-1-month-to-upgrade-key-stations"
+  }
+ ],
+ "thread": "mum-local-trains",
+ "tldr": "MRVC says the new 29.6 km Panvel–Karjat suburban line is 99% built and is being readied for a safety inspection.",
+ "topic": "Panvel–Karjat line"
+}

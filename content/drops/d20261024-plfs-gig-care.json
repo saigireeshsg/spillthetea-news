@@ -1,0 +1,86 @@
+{
+ "beats": {
+  "care": "Better data means better policy for gig workers like delivery riders, and recognition for the work your mom does at home.",
+  "what": "The Statistics Ministry will change the Periodic Labour Force Survey from January 2027.",
+  "why": "It will find homes with at least one gig worker and ask about cooking, cleaning, childcare and elder care, work mostly done by women and never counted before."
+ },
+ "cards": [
+  {
+   "body": "The survey will also capture volunteer and trainee work, and new questions on 'labour underutilisation', people who want more work than they get. Public comments are open for 15 days.",
+   "k": "tea"
+  },
+  {
+   "body": "Housework and caregiving let others go out and earn. If it isn't measured, it's invisible in policy and in GDP debates.",
+   "k": "why",
+   "title": "why does counting unpaid work matter?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, obviously",
+    "Count it, but not in GDP",
+    "No"
+   ],
+   "q": "Should unpaid housework count as 'work' in official data?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Digital platform (gig) workers",
+    "Only government employees",
+    "Farmers abroad",
+    "Retired people"
+   ],
+   "q": "What new type of worker will the labour survey specially track?",
+   "why": "A separate sampling layer will identify homes with at least one digital platform worker."
+  }
+ ],
+ "cat": "money",
+ "date": "2026-10-24",
+ "heat": 3,
+ "hook": "India will finally count *gig workers* and unpaid housework in jobs data",
+ "learn": {
+  "t": "The PLFS, run by the NSSO since 2017, is India's main source of data on jobs and unemployment."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛵",
+    "label": "Gig work booming"
+   },
+   {
+    "icon": "🏠",
+    "label": "Women's housework uncounted"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📈",
+    "label": "Better gig worker data"
+   },
+   {
+    "icon": "👩",
+    "label": "Care work finally measured"
+   }
+  ],
+  "event": {
+   "icon": "📋",
+   "label": "Labour survey redesigned"
+  }
+ },
+ "order": 8,
+ "readSecs": 55,
+ "sort": "2026-10-24-91",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Govt. to revise labour survey to track gig, household work (print, Hyderabad edition, 24 Oct, p.10)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "thread": "india-jobs-data",
+ "tldr": "The national labour survey will track delivery and app-based workers, and measure unpaid household and care work, from January 2027.",
+ "topic": "Counting gig and care work",
+ "watch": "The new design starts in January 2027. Watch for the first numbers on how many Indians do gig work."
+}

@@ -1,0 +1,123 @@
+{
+ "beats": {
+  "care": "You will join huge crowds at festivals, concerts and matches. Knowing who must plan exits and limits helps you spot an unsafe venue.",
+  "what": "The Hindu wrote that the crush at Kolkata's Chorbagan Sarbojanin pandal, which killed 19 people, was a failure of planning.",
+  "why": "It was the first Durga Puja under Bengal's new BJP government, which wanted pandals to showcase religiosity. The paper says safety lagged."
+ },
+ "cards": [
+  {
+   "body": "Heavy rain and lightning sent visitors rushing into a pandal with narrow gates and tight lanes. Fear about the structure caused panic. The paper says organisers and police did not plan for such a surge, and that temporary home guards were deployed where experienced police were needed.",
+   "k": "edit",
+   "kind": "Editorial · 19 Oct",
+   "paper": "The Hindu",
+   "title": "Beyond religiosity",
+   "verdict": "Big celebrations need capacity limits, safety checks before permission, clear exits and an independent inquiry, not action only after deaths."
+  },
+  {
+   "body": "The editorial lists steps: estimate how many people will come, set a safe limit for each venue, inspect temporary structures and wiring before giving permission, keep emergency lanes clear, and use CCTV and announcements to spot crowding early.",
+   "k": "why",
+   "title": "what should change before the next festival?"
+  },
+  {
+   "a": {
+    "body": "Officials and organisers failed to plan for crowds and weather. The state's focus on showcasing religiosity must not come at the cost of public safety.",
+    "label": "The Hindu says"
+   },
+   "b": {
+    "body": "The CM said he would seek a court-backed fact-finding team. Kolkata Police cancelled VIP passes and set new crowd rules after the crush.",
+    "label": "The state government says"
+   },
+   "k": "sides",
+   "note": "Seven people were arrested in the days after the crush, police said.",
+   "title": "Who carries the blame?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Capacity limits per venue",
+    "More trained police",
+    "Safety audit before permit"
+   ],
+   "q": "What would most prevent such crushes?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Safety planning must come before grandeur",
+    "Durga Puja should be banned",
+    "Rain alone caused the deaths",
+    "Pandals need more VIP passes"
+   ],
+   "q": "What is the editorial's main argument?",
+   "why": "The paper says big festivals are fine, but crowd limits, exits and trained staff must be planned before the crowds arrive."
+  }
+ ],
+ "cat": "edit",
+ "date": "2026-10-21",
+ "editorial": {
+  "paper": "The Hindu",
+  "title": "Beyond religiosity"
+ },
+ "featured": true,
+ "heat": 3,
+ "hook": "19 died at a pandal. Is a festival's *grandeur* coming before safety?",
+ "learn": {
+  "t": "Crowd crushes often start with a sudden trigger like rain. The editorial says each venue needs a safe capacity limit set beforehand."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Rain pushed crowds inside"
+   },
+   {
+    "icon": "🚪",
+    "label": "Narrow entry and exit"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏛️",
+    "label": "Paper asks for capacity limits"
+   },
+   {
+    "icon": "👮",
+    "label": "Trained police, not just volunteers"
+   }
+  ],
+  "event": {
+   "icon": "⚠️",
+   "label": "Chorbagan pandal crush, 19 dead"
+  }
+ },
+ "order": 1,
+ "readSecs": 70,
+ "sort": "2026-10-21-98",
+ "sources": [
+  {
+   "name": "Chahal Academy (summary of The Hindu editorial)",
+   "title": "19 Oct 2026: Beyond religiosity",
+   "url": "https://chahalacademy.com/the-hindu-editorial-analysis/19-oct-2026/2948"
+  },
+  {
+   "name": "Editorial Words (summary of The Hindu)",
+   "title": "The Hindu Editorial (Beyond religiosity) – Oct 19, 2026",
+   "url": "https://www.editorialwords.com/the-hindu-editorial-beyond-religiosity-oct-19-2026/"
+  },
+  {
+   "name": "Asianet Newsable",
+   "title": "Kolkata Durga Puja stampede: 19 dead, 25 injured, says Suvendu Adhikari",
+   "url": "https://newsable.asianetnews.com/india/kolkata-durga-puja-stampede-19-dead-25-injured-says-suvendu-adhikari-articleshow-cxhg1gf"
+  },
+  {
+   "name": "National Herald",
+   "title": "Kolkata stampede: seven arrested, curbs imposed",
+   "url": "https://www.nationalheraldindia.com/national/kolkata-stampede-seven-arrested-curbs-imposed-injured-moved-to-apollo"
+  }
+ ],
+ "thread": "kol-puja-safety",
+ "tldr": "The Hindu says the Kolkata pandal crush that killed 19 shows festivals need safety planning before showcasing grandeur.",
+ "topic": "Crowd safety at festivals",
+ "watch": "The CM said he would seek a fact-finding team through the Calcutta High Court. Watch what it finds about permissions and policing."
+}

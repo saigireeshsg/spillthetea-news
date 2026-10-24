@@ -1,0 +1,119 @@
+{
+ "areas": [
+  "Ameerpet",
+  "Khairatabad",
+  "Secunderabad",
+  "Old City",
+  "Mehdipatnam"
+ ],
+ "beats": {
+  "care": "If your PG or flat runs on a borewell, it may dry up sooner in summer, meaning costly tankers and higher bills.",
+  "what": "The 2025-26 groundwater assessment rates 8 Hyderabad areas over-exploited and 7 critical, up from 11 such areas a year earlier.",
+  "why": "Piped water covers only about 30% of demand, so homes, hostels and offices lean on borewells, while concrete stops rain soaking in."
+ },
+ "cards": [
+  {
+   "body": "Over-exploited: Amberpet, Ameerpet, Asifnagar, Charminar, Golconda, Himayatnagar, Khairatabad and Saidabad. Critical: Bahadurpura, Bandlaguda, Maredpally, Musheerabad, Nampally, Secunderabad and Shaikpet. A Telangana groundwater official shared the figures.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "The same region holds nearly a third of the state's people, which is why the pressure is so high.",
+   "caption": "Hyderabad region's share of Telangana groundwater",
+   "k": "num",
+   "value": "~3%"
+  },
+  {
+   "body": "Critical means an area uses 90 to 100% of the groundwater it can safely pull out each year. Over-exploited means it uses more than 100%, eating into reserves.",
+   "k": "why",
+   "title": "what's the difference between critical and over-exploited?"
+  },
+  {
+   "body": "The wider core urban region still uses only about two-thirds of its yearly groundwater. It is the older, dense city core that has run out of room.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, strictly",
+    "Only for new buildings",
+    "No, people need water"
+   ],
+   "q": "Should borewells in red zones be restricted?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Heavy borewell use and less rain soaking in",
+    "Too much rain flooding wells",
+    "Factories leaving the city",
+    "New dams on the Musi"
+   ],
+   "q": "Why is Hyderabad's groundwater running low?",
+   "why": "Borewells pull water out faster than concrete-covered ground lets rain refill it."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "cover": {
+  "bg": [
+   "#062a35",
+   "#13a3c4"
+  ],
+  "big": "15/16",
+  "label": "Hyd areas critical or over-exploited",
+  "motion": "fall",
+  "scene": [
+   "💧",
+   "🕳️",
+   "🏙️"
+  ]
+ },
+ "date": "2026-10-20",
+ "heat": 4,
+ "hook": "Hyderabad pumps *more water than rain puts back*. Is your area listed?",
+ "lead": "local",
+ "learn": {
+  "t": "'Over-exploited' means an area pumps out more groundwater each year than rain puts back, so the water table keeps falling."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Concrete blocks rain recharge"
+   },
+   {
+    "icon": "🚰",
+    "label": "Pipes meet ~30% demand"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⚠️",
+    "label": "8 areas over-exploited"
+   },
+   {
+    "icon": "🕳️",
+    "label": "7 more areas critical"
+   }
+  ],
+  "event": {
+   "icon": "💧",
+   "label": "Extraction tops yearly recharge"
+  }
+ },
+ "order": 6,
+ "readSecs": 60,
+ "sort": "2026-10-20-93",
+ "sources": [
+  {
+   "name": "The Siasat Daily",
+   "title": "Eight Hyderabad areas over-exploit groundwater, 7 turn critical",
+   "url": "https://www.siasat.com/eight-hyderabad-areas-over-exploit-groundwater-7-turn-critical-3560739/"
+  }
+ ],
+ "thread": "hyd-water",
+ "tldr": "A 2025-26 assessment finds Hyderabad district now pumps out more groundwater than rain puts back each year, with 15 of 16 areas critical or over-exploited.",
+ "topic": "Hyderabad groundwater crisis"
+}

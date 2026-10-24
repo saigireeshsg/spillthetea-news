@@ -1,0 +1,105 @@
+{
+ "beats": {
+  "care": "Proof that talent plus support wins. Para sport deserves your follow, not just at medal time.",
+  "what": "India won 114 medals: 30 gold, 35 silver and 49 bronze. Nine golds came on the final day.",
+  "why": "India sent 168 athletes, about half the Hangzhou 2023 squad, and still beat that record."
+ },
+ "cards": [
+  {
+   "body": "Shuttlers Nitesh Kumar and Naveen Sivakumar won gold, Mona won in shooting, and Sandeep ran a 400m world record. Separately, Pankaj Advani won his 29th world title in billiards.",
+   "k": "tea"
+  },
+  {
+   "body": "Up from 27 at Hangzhou 2023.",
+   "caption": "India's gold count in Nagoya",
+   "k": "num",
+   "value": "30 gold"
+  },
+  {
+   "body": "India did it with a squad about half the size of its last one.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes",
+    "Only big events",
+    "Will start now"
+   ],
+   "q": "Do you follow para sports?"
+  },
+  {
+   "ans": 2,
+   "k": "quiz",
+   "opts": [
+    "78",
+    "108",
+    "114",
+    "150"
+   ],
+   "q": "How many medals did India win at these Asian Para Games?",
+   "why": "India won 114 medals, its best ever."
+  }
+ ],
+ "cat": "sport",
+ "cover": {
+  "bg": [
+   "#0f3d2a",
+   "#46a508"
+  ],
+  "big": "114",
+  "label": "medals, India's best ever at the Asian Para Games",
+  "motion": "pulse",
+  "scene": [
+   "🏅",
+   "🇮🇳",
+   "🎉"
+  ]
+ },
+ "date": "2026-10-24",
+ "heat": 3,
+ "hook": "India's para-athletes smash their record with *114* medals",
+ "learn": {
+  "t": "Pankaj Advani has now won 29 world titles in cue sports, an unmatched record."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💪",
+    "label": "168-athlete squad"
+   },
+   {
+    "icon": "🔥",
+    "label": "Record final day"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📈",
+    "label": "Beats Hangzhou 2023's 108"
+   },
+   {
+    "icon": "🌍",
+    "label": "Sandeep sets 400m world record"
+   }
+  ],
+  "event": {
+   "icon": "🏅",
+   "label": "114 medals, 30 gold"
+  }
+ },
+ "order": 12,
+ "readSecs": 45,
+ "sort": "2026-10-24-87",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "India surpasses expectations with best haul of 114 medals (print, Hyderabad edition, 24 Oct, p.16)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "thread": "asian-para-games-2026",
+ "tldr": "India ended the Asian Para Games in Nagoya with 114 medals, including 30 gold, beating its old record of 108.",
+ "topic": "Asian Para Games record",
+ "watch": "Watch for India's Paralympic plans for LA 2028."
+}

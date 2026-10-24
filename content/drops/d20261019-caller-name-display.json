@@ -1,0 +1,117 @@
+{
+ "beats": {
+  "care": "You'll know who's calling before you pick up. But your own registered name will also show to anyone you call.",
+  "what": "The Department of Telecommunications told Jio, Airtel, Vodafone Idea and BSNL to show callers' names on every 4G and 5G call from 1 November.",
+  "why": "A circular dated 13 October makes the service on by default. Trials began in November 2025, and a March 2026 deadline was missed."
+ },
+ "cards": [
+  {
+   "body": "If you've saved the number, your saved name still shows. If not, the name the caller gave during KYC appears. Calls from abroad show International Call. The receiving operator looks the name up and must not keep it after the call ends.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Companies can show a preferred name instead of the person on the bill, but only a registered trademark or a trade name on the GST portal, checked by the operator.",
+   "k": "why",
+   "title": "what about businesses?"
+  },
+  {
+   "body": "TRAI first wanted the feature only on request. The government pushed back, and TRAI agreed in October 2025 to make it on by default.",
+   "k": "twist"
+  },
+  {
+   "body": "Older 2G and 3G networks and landlines are left out for now; the order says they will be considered separately.",
+   "caption": "Not covered yet",
+   "k": "num",
+   "value": "2G, 3G"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Love it, fewer spam calls",
+    "Privacy worry",
+    "Want an opt-out option"
+   ],
+   "q": "Caller names on by default:"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The caller's KYC records with their operator",
+    "A crowdsourced app",
+    "Your social media",
+    "The caller types it each time"
+   ],
+   "q": "Where will the caller's name come from?",
+   "why": "Operators keep verified names from KYC, so the name is tied to the SIM's registered owner."
+  }
+ ],
+ "cat": "tech",
+ "cover": {
+  "bg": [
+   "#0b132b",
+   "#3a86ff"
+  ],
+  "big": "1 Nov",
+  "label": "Caller names start showing on 4G and 5G",
+  "motion": "pulse",
+  "scene": [
+   "📱",
+   "🪪",
+   "🔔"
+  ]
+ },
+ "date": "2026-10-19",
+ "heat": 4,
+ "hook": "Unknown number calling? Soon your phone shows *their real name*",
+ "lead": "india",
+ "learn": {
+  "t": "The name shown comes from the caller's KYC records with their telecom operator, not from crowdsourced apps."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📞",
+    "label": "Calls from unsaved numbers"
+   },
+   {
+    "icon": "🧾",
+    "label": "Names held in KYC records"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🪪",
+    "label": "Name shows on 4G/5G calls"
+   },
+   {
+    "icon": "🚫",
+    "label": "No opt-out in the order"
+   }
+  ],
+  "event": {
+   "icon": "📢",
+   "label": "DoT orders caller name display"
+  }
+ },
+ "order": 2,
+ "readSecs": 55,
+ "sort": "2026-10-19-97",
+ "sources": [
+  {
+   "name": "ThePrint",
+   "title": "No more unknown callers: Govt makes caller name display mandatory from 1 November",
+   "url": "https://theprint.in/india/no-more-unknown-callers-govt-makes-caller-name-display-mandatory-from-1-november/3072774/"
+  },
+  {
+   "name": "Inc42",
+   "title": "Centre Directs Telcos To Display Caller Names From November 1",
+   "url": "https://inc42.com/buzz/centre-directs-telcos-to-display-caller-names-from-november-1/"
+  }
+ ],
+ "thread": "caller-id",
+ "tldr": "From 1 November, phones on 4G and 5G will show the caller's registered name even if you haven't saved the number.",
+ "topic": "Caller name display",
+ "watch": "Rollout starts 1 November on 4G and 5G. Watch whether names appear correctly on calls from other networks."
+}

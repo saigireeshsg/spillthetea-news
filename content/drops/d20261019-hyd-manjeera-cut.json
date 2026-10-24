@@ -1,0 +1,125 @@
+{
+ "areas": [
+  "Kukatpally",
+  "Miyapur",
+  "Ameerpet",
+  "Begumpet",
+  "Secunderabad"
+ ],
+ "beats": {
+  "care": "If you live in Kukatpally, Miyapur, Ameerpet or Secunderabad, store water, fix leaks, and expect pricier tankers next summer.",
+  "what": "The water board, HMWSSB, plans to cut supply from the Manjeera source by 10 million gallons a day from December.",
+  "why": "Singur and Manjeera reservoirs are well below full, and officials expect levels to fall sharply within a month, before summer demand peaks."
+ },
+ "cards": [
+  {
+   "body": "Today Singur gives 71 MGD against a scheduled 75, and Manjeera 44 against 45. Two pumps at emergency stations have run since late September, and more will start as levels fall.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "KPHB, Pragathi Nagar, Miyapur, Chanda Nagar, SR Nagar, Ameerpet, Sanath Nagar, parts of Begumpet, Patancheru, Lingampally, Secunderabad Cantonment, Bowenpally and Alwal, Telangana Today reports.",
+   "k": "why",
+   "title": "which areas get manjeera water?"
+  },
+  {
+   "body": "Of the metro area's 14.5 lakh water connections, about 3 lakh in Singur and Manjeera areas could face shortages, officials assess.",
+   "caption": "Connections at risk by December",
+   "k": "num",
+   "value": "3 lakh"
+  },
+  {
+   "body": "The Krishna basin's reservoirs hold just 78.5 of 270 TMC, a 71% shortfall, so the city can't easily lean on other rivers.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Rainwater harvesting",
+    "Fine water wasters",
+    "Fix leaking pipes first"
+   ],
+   "q": "Best fix for the water crunch?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Reservoirs are falling before summer",
+    "A new pipeline is opening",
+    "Demand has dropped",
+    "Pipes are being painted"
+   ],
+   "q": "Why is the water board planning a cut now?",
+   "why": "Cutting a little early stretches stored water so it lasts through peak summer demand."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "cover": {
+  "bg": [
+   "#03256c",
+   "#2541b2"
+  ],
+  "big": "10 MGD",
+  "label": "Daily Manjeera supply the board plans to cut",
+  "motion": "fall",
+  "scene": [
+   "🚰",
+   "🏞️",
+   "📉"
+  ]
+ },
+ "date": "2026-10-19",
+ "heat": 4,
+ "hook": "Kukatpally to Secunderabad: *your tap* may run thinner from December",
+ "lead": "local",
+ "learn": {
+  "t": "Telangana gives drinking water priority over farms once irrigation needs end on 1 November."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Weak rains, falling reservoirs"
+   },
+   {
+    "icon": "🏞️",
+    "label": "Singur 28 ft below full"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏘️",
+    "label": "Northwest, north suburbs hit"
+   },
+   {
+    "icon": "🪣",
+    "label": "Societies told to find backups"
+   }
+  ],
+  "event": {
+   "icon": "🚰",
+   "label": "10 MGD Manjeera cut planned"
+  }
+ },
+ "order": 4,
+ "readSecs": 55,
+ "sort": "2026-10-19-95",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad water supply: HMWSSB plans 10 MGD Manjeera cut from December",
+   "url": "https://telanganatoday.com/hyderabad-water-supply-hmwssb-plans-10-mgd-manjeera-cut-from-december"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Brace for alternate-day drinking water supply as Telangana crisis deepens",
+   "url": "https://telanganatoday.com/brace-for-alternate-day-drinking-water-supply-as-telangana-crisis-deepens"
+  }
+ ],
+ "thread": "hyd-water",
+ "tldr": "Hyderabad's water board plans to cut 10 million gallons a day of Manjeera supply from December, hitting the city's northwest and north.",
+ "topic": "Manjeera water cut",
+ "watch": "The 10 MGD cut is planned from December. Watch for the board's area-wise supply schedule before then."
+}

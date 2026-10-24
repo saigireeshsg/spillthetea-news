@@ -1,0 +1,22 @@
+{
+ "areas": [
+  "Khairatabad",
+  "Necklace Road",
+  "Secunderabad"
+ ],
+ "body": "Immersions at People's Plaza & Garden Point. Avoid VV Statue, Liberty, Upper Tank Bund, Nallagutta X Rd, Basheerbagh; Necklace Rd/PV Marg diverted. Leave early.",
+ "city": "Hyderabad",
+ "kind": "traffic",
+ "scope": "local",
+ "sev": 2,
+ "src": [
+  {
+   "name": "Siasat (Hyderabad Traffic Police advisory)",
+   "url": "https://www.siasat.com/hyderabad-traffic-restrictions-from-today-for-durga-idol-immersion-3561846/"
+  }
+ ],
+ "title": "Durga immersion diversions around Tank Bund, 3 pm today–Sat 6 am",
+ "ts": 1792565160000,
+ "until": 1792801800000,
+ "verified": "official"
+}

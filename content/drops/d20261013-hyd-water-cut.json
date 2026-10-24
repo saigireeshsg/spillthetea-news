@@ -1,0 +1,167 @@
+{
+ "areas": [
+  "Gachibowli",
+  "HITEC City",
+  "Madhapur",
+  "Kondapur"
+ ],
+ "beats": {
+  "care": "If you live or work in the IT corridor, expect weaker supply and costlier tankers. Fix leaks and store water now.",
+  "what": "Hyderabad's water board will cut supply to IIT Hyderabad, BHEL, Ordnance Factory and Bharat Dynamics by 20 to 50 percent, until next June.",
+  "why": "Singur reservoir, a key source for the western IT corridor, holds just 3.7 of its 29.9 TMC and may run dry within a month."
+ },
+ "cards": [
+  {
+   "body": "Telangana Today says the city needs about 735 MGD (million gallons a day) for 1.3 crore people but gets about 585 MGD. Borewells in IT corridors that hit water at 300 feet are now dry even at 800 to 1,000 feet.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "items": [
+    {
+     "display": "270",
+     "label": "Krishna",
+     "value": 270
+    },
+    {
+     "display": "162",
+     "label": "Godavari",
+     "value": 162
+    },
+    {
+     "alt": true,
+     "display": "71",
+     "label": "Singur",
+     "value": 71
+    },
+    {
+     "display": "44",
+     "label": "Manjeera",
+     "value": 44
+    },
+    {
+     "display": "23",
+     "label": "Osman Sagar",
+     "value": 23
+    },
+    {
+     "display": "14",
+     "label": "Himayat Sagar",
+     "value": 14
+    }
+   ],
+   "k": "bars",
+   "note": "Current daily drawals, per Telangana Today.",
+   "title": "Where Hyderabad's water comes from (MGD)"
+  },
+  {
+   "body": "TMC means a thousand million cubic feet of water, about 28 billion litres. Telangana measures its reservoirs this way. Singur can hold 29.9 TMC but has 3.7.",
+   "k": "why",
+   "title": "what is a tmc?"
+  },
+  {
+   "body": "Drink makers near Sangareddy also draw from Singur. Their supply has been cut back, and water to chemical companies there has already been stopped.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Breweries and industry",
+    "Big campuses",
+    "Pools and car washes",
+    "Everyone equally"
+   ],
+   "q": "Who should face water cuts first?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Singur reservoir is nearly empty after weak rains",
+    "Pipes are being replaced for Diwali",
+    "Water is being sent to other states",
+    "Too much rain flooded the plants"
+   ],
+   "q": "Why is Hyderabad's water board cutting supply?",
+   "why": "A weak monsoon left Singur about 12% full, so the board is rationing what's left."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "cover": {
+  "bg": [
+   "#06202b",
+   "#29b6f6"
+  ],
+  "big": "12%",
+  "label": "How full Singur reservoir is right now",
+  "motion": "fall",
+  "scene": [
+   "🚰",
+   "🏞️",
+   "📉"
+  ]
+ },
+ "date": "2026-10-13",
+ "heat": 4,
+ "hook": "Singur dam is *12% full*. Is western Hyderabad's water next?",
+ "lead": "local",
+ "learn": {
+  "t": "About three-quarters of Hyderabad's piped water comes from the Krishna and Godavari rivers, not the city's own lakes."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Weak monsoon, El Niño"
+   },
+   {
+    "icon": "🏞️",
+    "label": "Singur down to 12%"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏫",
+    "label": "IIT-H, BHEL told find alternatives"
+   },
+   {
+    "icon": "🏙️",
+    "label": "City short 150 MGD"
+   }
+  ],
+  "event": {
+   "icon": "🚰",
+   "label": "Water board cuts supply 20–50%"
+  }
+ },
+ "order": 3,
+ "readSecs": 55,
+ "sort": "2026-10-13-96",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Water board decides to cut water supply to IIT, BHEL, ODF, BDL",
+   "url": "https://telanganatoday.com/water-board-decides-to-cut-water-supply-to-iit-bhel-odf-bdl"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad faces 150 MGD water deficit as groundwater levels plunge",
+   "url": "https://telanganatoday.com/hyderabad-faces-150-mgd-water-deficit-as-groundwater-levels-plunge"
+  },
+  {
+   "name": "Siasat",
+   "title": "Some parts of Hyderabad to see a decline in water supply",
+   "url": "https://www.siasat.com/some-parts-of-hyderabad-to-see-a-decline-in-water-supply-3556946/"
+  },
+  {
+   "name": "Siasat",
+   "title": "Hyderabad's water crisis may hit in December, not summer",
+   "url": "https://www.siasat.com/hyderabads-water-crisis-may-hit-in-december-not-summer-3553096/"
+  }
+ ],
+ "thread": "hyd-water",
+ "tldr": "With Singur reservoir about 12% full, Hyderabad's water board will cut supply to IIT Hyderabad, BHEL and others by 20 to 50 percent.",
+ "topic": "Singur water cuts",
+ "watch": "Singur may run dry within a month, Telangana Today reports. Fresh inflows aren't expected until June 2027."
+}

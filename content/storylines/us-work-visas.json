@@ -1,0 +1,55 @@
+{
+ "emoji": "🛂",
+ "india": "Indians get most H-1B visas, and Indian IT companies are among the biggest sponsors. Every new rule hits Indian students and techies first.",
+ "lede": "Lakhs of Indians study and work in the US. Most work there on an H-1B visa, and many hope to get a green card, which lets you live there permanently. The current US government says these routes let companies hire cheaper foreign workers instead of Americans, so it keeps adding fees and limits.",
+ "mins": 1,
+ "players": [
+  {
+   "name": "US government",
+   "role": "Trump administration. Says it is protecting American jobs."
+  },
+  {
+   "name": "Tech and IT firms",
+   "role": "Microsoft, Infosys, TCS and others that hire foreign workers."
+  },
+  {
+   "name": "Indian workers and students",
+   "role": "Get nearly three-quarters of H-1B approvals."
+  },
+  {
+   "name": "US courts",
+   "role": "Have blocked some new rules, like the $100,000 H-1B fee."
+  },
+  {
+   "name": "Government of India",
+   "role": "Says talent mobility helps both countries."
+  }
+ ],
+ "timeline": [
+  {
+   "what": "Trump tries to raise the H-1B visa fee to $100,000.",
+   "when": "2025"
+  },
+  {
+   "what": "A federal judge strikes down the $100,000 fee.",
+   "when": "Jun 2026"
+  },
+  {
+   "what": "The US proposes a new H-1B fee of $103,265. It isn't final yet.",
+   "when": "Aug 2026"
+  },
+  {
+   "what": "A White House order tells agencies to protect American workers from H-1B abuse.",
+   "when": "Sep 2026"
+  },
+  {
+   "what": "The US proposes a $70,000 fee for each international student who works in the US after graduating (OPT).",
+   "when": "7 Oct 2026"
+  },
+  {
+   "what": "The US freezes the green card route (PERM) at eight firms, including Microsoft, Infosys, TCS, Wipro and HCL.",
+   "when": "8 Oct 2026"
+  }
+ ],
+ "title": "America's work-visa squeeze"
+}

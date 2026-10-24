@@ -1,0 +1,130 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Check your bike or scooter's PUC expiry date now, before November 1, so you aren't stuck at the pump.",
+  "what": "CM Rekha Gupta announced a winter plan: no fuel without a valid PUC, and non-BS-VI vehicles from outside barred from entering.",
+  "why": "Delhi's air usually gets worst in winter. Vehicles, road dust and construction are big sources of the pollution."
+ },
+ "cards": [
+  {
+   "body": "The Cabinet approved mechanised sweeping on 854 roads across 250 wards to cut road dust.",
+   "caption": "of narrow roads getting machine sweeping",
+   "k": "num",
+   "value": "609 km"
+  },
+  {
+   "body": "A 50% work-from-home push, staggered office hours, more e-buses and Metro use, curbs on construction, and AI cameras watching building sites.",
+   "k": "tea",
+   "title": "What else is in the plan"
+  },
+  {
+   "body": "The entry ban covers BS-III and BS-IV vehicles registered outside Delhi, from November 1 to January 31.",
+   "k": "twist"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "To raise fuel prices",
+    "To make vehicles prove their exhaust passed a check",
+    "To cut petrol pump queues",
+    "To track who drives where"
+   ],
+   "q": "Why does Delhi tie fuel sales to a PUC certificate?",
+   "why": "A PUC certificate shows a vehicle passed an emissions check, so the rule targets polluting vehicles."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, checked",
+    "No idea, will check",
+    "Don't own a vehicle",
+    "Expired, oops"
+   ],
+   "q": "Is your PUC valid right now?"
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "cover": {
+  "bg": [
+   "#14201c",
+   "#3fbf7f"
+  ],
+  "big": "Nov 1",
+  "label": "No valid PUC, no fuel in Delhi",
+  "motion": "drift",
+  "scene": [
+   "⛽",
+   "🚗",
+   "🌫️"
+  ]
+ },
+ "date": "2026-10-21",
+ "heat": 4,
+ "hook": "Could your bike be *refused petrol* in Delhi this winter?",
+ "lead": "local",
+ "learn": {
+  "t": "Delhi first enforced 'No PUC, No Fuel' at petrol pumps back in December 2025."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌫️",
+    "label": "Winter smog season"
+   },
+   {
+    "icon": "🚗",
+    "label": "Vehicle exhaust"
+   },
+   {
+    "icon": "🏗️",
+    "label": "Construction dust"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⛽",
+    "label": "No fuel without PUC"
+   },
+   {
+    "icon": "🚛",
+    "label": "Old outside vehicles barred"
+   },
+   {
+    "icon": "🏠",
+    "label": "50% work-from-home push"
+   }
+  ],
+  "event": {
+   "icon": "📋",
+   "label": "Winter plan from Nov 1"
+  }
+ },
+ "order": 88,
+ "readSecs": 55,
+ "sort": "2026-10-21-11",
+ "sources": [
+  {
+   "name": "The Statesman",
+   "title": "No PUC, No Fuel: Delhi announces new vehicle restrictions to fight winter pollution from November 1",
+   "url": "https://www.thestatesman.com/cities/delhi/no-puc-no-fuel-delhi-announces-new-vehicle-restrictions-to-fight-winter-pollution-from-november-1-1503653190.html"
+  },
+  {
+   "name": "India TV",
+   "title": "Delhi winter pollution plan from November 1: No fuel without valid PUCC, non-BS-VI vehicles face entry ban",
+   "url": "https://www.indiatvnews.com/business/news/delhi-winter-pollution-plan-from-november-1-no-fuel-without-valid-pucc-non-bs-vi-vehicles-face-entry-ban-2026-10-20-1057477"
+  },
+  {
+   "name": "All India Radio News",
+   "title": "No PUC, no fuel rule enforced in Delhi from today to tackle air pollution (Dec 2025)",
+   "url": "https://www.newsonair.gov.in/no-puc-no-fuel-rule-enforced-in-delhi-from-today-to-tackle-air-pollution/"
+  }
+ ],
+ "thread": "del-air-quality",
+ "tldr": "Delhi's winter anti-pollution plan starts November 1. It says vehicles without a valid PUC certificate won't get fuel, and older outside vehicles can't enter.",
+ "topic": "Winter pollution plan",
+ "watch": "The plan starts November 1; the entry ban on older outside vehicles runs until January 31."
+}

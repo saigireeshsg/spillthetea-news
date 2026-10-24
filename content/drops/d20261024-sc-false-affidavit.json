@@ -1,0 +1,91 @@
+{
+ "beats": {
+  "care": "You can now check your candidate's affidavit and act if something looks false. Real power for voters.",
+  "what": "The Supreme Court said ordinary citizens, not just officials, can file complaints against candidates who lie in their poll affidavits.",
+  "why": "Affidavits list a candidate's assets, education and criminal cases. Lying in them is an offence, but it was unclear who could complain."
+ },
+ "cards": [
+  {
+   "body": "Justices Dipankar Datta and Sheel Nagu said Section 125-A of the Representation of the People Act lets courts act even on a private person's complaint.",
+   "k": "tea"
+  },
+  {
+   "body": "Or a fine, or both, under Section 125-A.",
+   "caption": "Maximum jail for a false affidavit",
+   "k": "num",
+   "value": "6 months"
+  },
+  {
+   "body": "The court said if lawmakers wanted only officials to complain, they would have changed the law. They didn't.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, always",
+    "Maybe now",
+    "Didn't know I could"
+   ],
+   "q": "Would you check your candidate's affidavit before voting?"
+  },
+  {
+   "ans": 2,
+   "k": "quiz",
+   "opts": [
+    "Only the Election Commission",
+    "Only the police",
+    "Any citizen",
+    "Only rival candidates"
+   ],
+   "q": "Who can now file a case over a false nomination affidavit?",
+   "why": "The SC said any private citizen has the right to file a complaint under Section 125-A."
+  }
+ ],
+ "cat": "india",
+ "date": "2026-10-24",
+ "heat": 3,
+ "hook": "A neta lied in his poll papers? Now *you* can take him to court",
+ "learn": {
+  "t": "Candidates' affidavits, with assets and criminal cases, are public on the Election Commission's website."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📄",
+    "label": "Candidates file affidavits"
+   },
+   {
+    "icon": "❓",
+    "label": "Who can complain?"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🔍",
+    "label": "More checks on candidates"
+   },
+   {
+    "icon": "🗳️",
+    "label": "Voters get more power"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "SC: any citizen can sue"
+  }
+ },
+ "order": 5,
+ "readSecs": 55,
+ "sort": "2026-10-24-94",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "SC backs voters' right to prosecute candidates (print, Hyderabad edition, 24 Oct, p.11)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "thread": "election-law",
+ "tldr": "The Supreme Court ruled that any voter can file a criminal case against a candidate who hides or fakes details in nomination papers.",
+ "topic": "Voters vs lying candidates",
+ "watch": "Watch whether this leads to more cases against candidates in the next round of State elections."
+}

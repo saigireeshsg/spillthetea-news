@@ -1,0 +1,90 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Don't reply YES or NO to unknown bank messages. Block, delete, and check your bank app directly. If cheated, call 1930 fast.",
+  "what": "Hyderabad police commissioner V.C. Sajjanar warned of WhatsApp messages from unknown numbers saying money was debited, then asking you to reply NO.",
+  "why": "He says replying can trigger a hidden malicious file that gives scammers control of the phone. A chartered accountant was recently cheated this way."
+ },
+ "cards": [
+  {
+   "body": "Police call it an 'auto-execution file attack'. They say victims didn't share an OTP or click a link. Banks don't ask customers to confirm transactions over WhatsApp.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Fear makes people act fast. A message saying money just left your account pushes you to respond before you think.",
+   "k": "why",
+   "title": "why do scammers fake a debit?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Ignore and block",
+    "Read, never reply",
+    "Reply if it looks urgent"
+   ],
+   "q": "How do you treat messages from unknown numbers?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Check your bank app directly, don't reply",
+    "Reply NO to cancel it",
+    "Call the number back",
+    "Forward it to friends"
+   ],
+   "q": "WhatsApp says money left your account. What should you do?",
+   "why": "Your bank app shows real transactions; replying to unknown numbers is exactly what scammers want."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-13",
+ "heat": 3,
+ "hook": "A WhatsApp says reply *'NO'* to stop a debit. Don't.",
+ "learn": {
+  "t": "Scammers fake debit alerts to cause panic. The safe check is opening your own bank app, never replying to the message."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📩",
+    "label": "Fake 'money debited' message"
+   },
+   {
+    "icon": "😰",
+    "label": "Panic to reply fast"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📱",
+    "label": "Reply exposes phone, police say"
+   },
+   {
+    "icon": "💸",
+    "label": "Accounts drained in seconds"
+   }
+  ],
+  "event": {
+   "icon": "🚨",
+   "label": "Hyderabad police chief warns"
+  }
+ },
+ "order": 11,
+ "readSecs": 40,
+ "sort": "2026-10-13-88",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "WhatsApp message reply can wipe out savings, warns Sajjanar",
+   "url": "https://www.siasat.com/whatsapp-message-reply-can-wipe-out-savings-warns-sajjanar-3556673/"
+  }
+ ],
+ "thread": "hyd-cyber-scams",
+ "tldr": "Hyderabad police chief V.C. Sajjanar warned that replying 'NO' to fake WhatsApp debit messages from unknown numbers can let scammers drain your account.",
+ "topic": "Fake debit alert scam"
+}

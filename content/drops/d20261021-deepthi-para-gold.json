@@ -1,0 +1,98 @@
+{
+ "beats": {
+  "care": "She is 23, from Kalleda village in Warangal, and was spotted by her school PE teacher in Class 9. Talent gets found when someone looks.",
+  "what": "Deepthi Jeevanji won the women's 400 metres T20 gold in Aichi-Nagoya in 56.36 seconds, over two seconds ahead of the silver medallist.",
+  "why": "She won the same event in Hangzhou in 2023 and took bronze at the Paris Paralympics, so she came in as the favourite."
+ },
+ "cards": [
+  {
+   "body": "Her own old Games record, set in Hangzhou, was 56.69 seconds.",
+   "caption": "Deepthi's winning time, a new Games record",
+   "k": "num",
+   "value": "56.36s"
+  },
+  {
+   "body": "Two Japanese runners, Niina Kanno and Akane Kato, took silver and bronze. Elsewhere, Bhavina Patel won table tennis bronze, and Pramod Bhagat and Manisha Ramdass reached the mixed badminton semi-finals.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "She beat her own Games record, but she has run even faster before: her world record is 55.06 seconds.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Para athletes, equal pay",
+    "Same as now",
+    "Depends on sport"
+   ],
+   "q": "Who should get more prize money?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "She was the defending champion",
+    "No one else entered",
+    "She ran a shorter race",
+    "The event was cancelled"
+   ],
+   "q": "Why was Deepthi's win expected?",
+   "why": "She won this event at the last Asian Para Games and a Paralympic bronze, so she started as the favourite."
+  }
+ ],
+ "cat": "sport",
+ "date": "2026-10-21",
+ "heat": 3,
+ "hook": "From a Warangal village to a *Games record*. How fast did Deepthi run?",
+ "learn": {
+  "t": "T20 is the para-athletics class for athletes with an intellectual impairment. Deepthi also holds the 400m T20 world record."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏅",
+    "label": "Defending 2023 champion"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📈",
+    "label": "Breaks her own Games record"
+   },
+   {
+    "icon": "🇮🇳",
+    "label": "India's fifth gold"
+   }
+  ],
+  "event": {
+   "icon": "🥇",
+   "label": "Gold in 56.36 seconds"
+  }
+ },
+ "order": 7,
+ "readSecs": 55,
+ "sort": "2026-10-21-92",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Asian Para Games 2026: Deepthi Jeevanji wins 400m T20 gold with Games record of 56.36 seconds",
+   "url": "https://www.freepressjournal.in/sports/asian-para-games-2026-deepthi-jeevanji-wins-400m-t20-gold-with-games-record-of-5636-seconds-as-india-claim-fifth-gold"
+  },
+  {
+   "name": "LatestLY",
+   "title": "Deepthi Jeevanji wins gold medal at Asian Para Games 2026 in women's 400m T20",
+   "url": "https://www.latestly.com/sports/deepthi-jeevanji-wins-gold-medal-at-asian-para-games-2026-in-womens-400m-t20-7650595.html"
+  },
+  {
+   "name": "Wikipedia",
+   "title": "Deepthi Jeevanji",
+   "url": "https://en.wikipedia.org/wiki/Deepthi_Jeevanji"
+  }
+ ],
+ "thread": "asian-para-games-2026",
+ "tldr": "Telangana's Deepthi Jeevanji retained her Asian Para Games 400m T20 title in a Games record time.",
+ "topic": "Deepthi Jeevanji's gold",
+ "watch": "The Asian Para Games end on 24 October. Spill's prediction on whether India reaches 100 medals closes then."
+}

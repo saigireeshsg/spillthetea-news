@@ -1,0 +1,36 @@
+{
+ "areas": [
+  "Citywide",
+  "Vadapalani",
+  "Saidapet",
+  "Alandur",
+  "Madipakkam",
+  "Velachery",
+  "Adyar",
+  "Nungambakkam"
+ ],
+ "body": "10–13 cm overnight in Vadapalani, Saidapet, Alandur. RMC orange alert reported till Thu; more heavy spells likely. Avoid flooded roads; report on GCC 1913.",
+ "city": "Chennai",
+ "kind": "rain",
+ "scope": "local",
+ "sev": 2,
+ "src": [
+  {
+   "name": "DT Next (GCC)",
+   "url": "https://www.dtnext.in/news/chennai/overnight-heavy-rain-spell-in-chennai-over-1200-complaints-received-in-24-hours-says-gcc-commissioner"
+  },
+  {
+   "name": "Goodreturns",
+   "url": "https://www.goodreturns.in/news/chennai-weather-today-october-21-school-holidays-in-5-tamil-nadu-districts-imd-forecasts-more-hea-1542733.html"
+  },
+  {
+   "name": "Deccan Chronicle (RMC Chennai)",
+   "url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/bay-of-bengal-weather-systems-orange-alert-for-chennai-other-districts-1997494"
+  }
+ ],
+ "title": "Heavy rain spell continues; schools in Chennai shut today",
+ "ts": 1792555703864,
+ "until": 1792693800000,
+ "updated": 1792563700000,
+ "verified": "2"
+}

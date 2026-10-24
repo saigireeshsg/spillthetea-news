@@ -1,0 +1,101 @@
+{
+ "areas": [
+  "North Campus",
+  "Keshavpuram",
+  "Karol Bagh",
+  "Satya Niketan",
+  "South Delhi"
+ ],
+ "beats": {
+  "care": "If you live in a PG, ask your owner whether an MCD-listed engineer has checked the building. PGs without a certificate could be vacated and sealed.",
+  "what": "MCD told all 12 of its zones to collect structural safety certificates from over 2,400 PGs within 15 days.",
+  "why": "A PG building collapsed in Satya Niketan in September, killing seven people, five of them students. The Delhi High Court then ordered a survey."
+ },
+ "cards": [
+  {
+   "body": "MCD told the High Court that the 2,453 PGs have more than 32,000 rooms.",
+   "caption": "people live in the surveyed PGs",
+   "k": "num",
+   "value": "50,000+"
+  },
+  {
+   "body": "Civil Lines zone, which includes DU's North Campus, has 608 PGs. Keshavpuram has 410, South zone 390, Karol Bagh 365 and Satya Niketan 101.",
+   "k": "tea",
+   "title": "Where the PGs are"
+  },
+  {
+   "body": "Officials say just looking at a building can't show whether it will survive an earthquake. Engineers have to check the beams and columns.",
+   "k": "twist"
+  },
+  {
+   "ans": 2,
+   "k": "quiz",
+   "opts": [
+    "That it has a fire exit",
+    "That the owner pays tax",
+    "That the building itself is strong enough to stay standing safely",
+    "That the rent is fixed by MCD"
+   ],
+   "q": "What does a structural safety certificate tell you about a PG?",
+   "why": "A structural certificate covers the building's strength, such as its beams and columns. It says nothing about fire exits, taxes or rent."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Rent and deposit",
+    "Distance to college",
+    "Building safety",
+    "Food and Wi-Fi"
+   ],
+   "q": "Before renting a PG, what do you check first?"
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "date": "2026-10-17",
+ "heat": 3,
+ "hook": "Is your PG building *actually certified safe*?",
+ "learn": {
+  "t": "In MCD's survey of 2,453 PGs, approved building plans could be traced for only about 30% of them."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏚️",
+    "label": "Satya Niketan collapse"
+   },
+   {
+    "icon": "⚖️",
+    "label": "High Court-ordered survey"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "👷",
+    "label": "Structural engineer checks"
+   },
+   {
+    "icon": "🔒",
+    "label": "Unsafe PGs may be sealed"
+   }
+  ],
+  "event": {
+   "icon": "📋",
+   "label": "MCD demands PG safety certificates"
+  }
+ },
+ "order": 72,
+ "readSecs": 45,
+ "sort": "2026-10-17-27",
+ "sources": [
+  {
+   "name": "ThePrint (PTI)",
+   "title": "MCD seeks safety certificates from over 2,400 PGs within 15 days in Delhi",
+   "url": "https://theprint.in/india/mcd-seeks-safety-certificates-from-over-2400-pgs-within-15-days-in-delhi/3071984/"
+  }
+ ],
+ "thread": "del-civic",
+ "tldr": "MCD has asked more than 2,400 PGs to get structural safety certificates within 15 days, or risk being sealed.",
+ "topic": "PG safety checks",
+ "watch": "Watch whether PG owners file certificates within the 15-day window. Officials say the deadline could be extended."
+}

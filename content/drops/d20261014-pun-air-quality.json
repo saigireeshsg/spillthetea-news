@@ -1,0 +1,115 @@
+{
+ "areas": [
+  "Hadapsar",
+  "Shivajinagar",
+  "Bavdhan",
+  "Viman Nagar",
+  "Pashan"
+ ],
+ "beats": {
+  "care": "If you have asthma, go easy on outdoor runs near busy roads. Report open waste burning to PMC.",
+  "what": "SAFAR readings on Monday ranged from 112 in Pashan to 144 in Hadapsar. PMC acted against five to six unpermitted plants in Bavdhan.",
+  "why": "Dry weather plus construction dust, waste burning and traffic keep pollution hanging over the city."
+ },
+ "cards": [
+  {
+   "body": "The worst in the city on Monday, still in the 'moderate' band.",
+   "caption": "Hadapsar AQI (SAFAR)",
+   "k": "num",
+   "value": "144"
+  },
+  {
+   "body": "PMC also demolished over 35,000 sq ft of illegal structures put up by the plants, City Engineer Aniruddha Pawaskar said.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Monsoon's exit helps clear skies, but without rain to wash dust away, Pune's air gets worse.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, dusty",
+    "A bit",
+    "Not really",
+    "I mask up"
+   ],
+   "q": "Noticed Pune's air getting worse?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "They ran without permissions and caused dust",
+    "They sold fake cement",
+    "They blocked a metro line",
+    "They used too much water"
+   ],
+   "q": "Why did PMC act against plants in Bavdhan?",
+   "why": "PMC shut ready-mix concrete plants operating without required permissions after dust complaints."
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "date": "2026-10-14",
+ "heat": 3,
+ "hook": "Pune's air has slipped for *three days straight*. Who's to blame?",
+ "learn": {
+  "t": "Ready-mix concrete plants and stone crushers are among the dust sources blamed for Pune's worsening air."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Construction and RMC dust"
+   },
+   {
+    "icon": "☀️",
+    "label": "Dry, still weather"
+   },
+   {
+    "icon": "🚗",
+    "label": "Vehicle smoke"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🔒",
+    "label": "Bavdhan plants sealed"
+   },
+   {
+    "icon": "🫁",
+    "label": "Harder for sensitive lungs"
+   }
+  ],
+  "event": {
+   "icon": "😷",
+   "label": "AQI stuck at moderate"
+  }
+ },
+ "order": 68,
+ "readSecs": 40,
+ "sort": "2026-10-14-31",
+ "sources": [
+  {
+   "name": "Punekar News",
+   "title": "Pune's Air Quality Deteriorates, Pollution Levels Remain Moderate For Three Days",
+   "url": "https://www.punekarnews.in/punes-air-quality-deteriorates-pollution-levels-remain-moderate-for-three-days/"
+  },
+  {
+   "name": "Punekar News",
+   "title": "Pune: PMC Shuts Down Six RMC Plants Operating Without Required Permissions in Bavdhan",
+   "url": "https://www.punekarnews.in/pune-pmc-shuts-down-six-rmc-plants-operating-without-required-permissions-in-bavdhan/"
+  },
+  {
+   "name": "Pune Pulse",
+   "title": "Pune Pulse Impact: PMC Acts Against Five RMC Plants In Bavdhan; Residents Await MPCB Action Now",
+   "url": "https://www.mypunepulse.com/pune-pulse-impact-pmc-acts-against-five-rmc-plants-in-bavdhan-residents-await-mpcb-action-now/"
+  }
+ ],
+ "thread": "pun-air-quality",
+ "tldr": "Pune's air has been in the 'moderate' band for three days, and PMC sealed dusty concrete plants in Bavdhan.",
+ "topic": "Air quality dips",
+ "watch": "Bavdhan residents are waiting for the Maharashtra Pollution Control Board to order the plants' closure."
+}

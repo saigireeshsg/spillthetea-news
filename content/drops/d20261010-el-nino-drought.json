@@ -1,0 +1,116 @@
+{
+ "beats": {
+  "care": "Drought means smaller harvests, which can push up prices of rice, vegetables and pulses. Save water at home, it matters more this year.",
+  "what": "Andhra Pradesh declared 388 mandals in 21 districts drought-hit. Telangana's chief minister meets ministers on 12 October about drought there too.",
+  "why": "AP got about half its normal rain from June to August. Officials link the weak monsoon to El Niño, a warming of the Pacific Ocean."
+ },
+ "cards": [
+  {
+   "body": "Of AP's 388 drought mandals, 283 are severely hit. It got 197.6 mm of rain since 1 June against a normal 424.3 mm. Telangana is 17% short on rain and has asked the Centre for a ₹20,000 crore package.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Every few years, the Pacific Ocean near South America gets unusually warm. That shifts winds and rain patterns around the world, and in India it often means a weaker monsoon. Its opposite, La Niña, usually brings more rain.",
+   "k": "why",
+   "title": "what is el niño?"
+  },
+  {
+   "body": "An official declaration unlocks relief, like help for farmers who lost crops and money from the Centre. That's why Telangana's Assembly asked the Centre to declare its dry mandals drought-affected.",
+   "k": "why",
+   "title": "why 'declare' a drought?"
+  },
+  {
+   "body": "AP declared drought weeks early. Its drought manual normally waits until 31 October, but the rain gap was too big to wait.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Better irrigation",
+    "Crops that need less water",
+    "Crop insurance for every farmer"
+   ],
+   "q": "Best way to drought-proof Indian farming?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "A warm Pacific weakens India's monsoon rains",
+    "It blocks Himalayan rivers",
+    "It causes earthquakes that dry wells",
+    "It cools the sea and adds rain"
+   ],
+   "q": "How does El Niño lead to drought in India?",
+   "why": "A warmer Pacific shifts global winds, which often means less monsoon rain over India."
+  }
+ ],
+ "cat": "planet",
+ "cover": {
+  "bg": [
+   "#2b1a05",
+   "#f4a300"
+  ],
+  "big": "53.4%",
+  "label": "AP's rain shortfall, June to August",
+  "motion": "pulse",
+  "scene": [
+   "☀️",
+   "🌾",
+   "💧"
+  ]
+ },
+ "date": "2026-10-10",
+ "heat": 3,
+ "hook": "Explained: why are AP and Telangana *running short of rain*?",
+ "map": {
+  "causes": [
+   {
+    "icon": "🌊",
+    "label": "El Niño warms the Pacific"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Monsoon rains weaken"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "👨‍🌾",
+    "label": "Kharif crops at risk"
+   },
+   {
+    "icon": "🏛️",
+    "label": "Telangana meets on 12 Oct"
+   }
+  ],
+  "event": {
+   "icon": "🌾",
+   "label": "388 AP mandals declared drought-hit"
+  }
+ },
+ "order": 8,
+ "readSecs": 60,
+ "sort": "2026-10-10-91",
+ "sources": [
+  {
+   "name": "Deccan Chronicle",
+   "title": "AP declares 388 mandals in 21 districts as drought-hit",
+   "url": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/ap-declares-388-mandals-in-21-districts-as-drought-hit-1992660"
+  },
+  {
+   "name": "NewsBytes",
+   "title": "Andhra Pradesh declares drought in 388 mandals across 21 districts",
+   "url": "https://www.newsbytesapp.com/news/india/andhra-pradesh-declares-drought-in-388-mandals-across-21-districts/tldr"
+  },
+  {
+   "name": "Siasat",
+   "title": "Telangana CM, ministers to discuss drought conditions on Oct 12",
+   "url": "https://www.siasat.com/telangana-cm-ministers-to-discuss-drought-conditions-on-oct-12-3554846/"
+  }
+ ],
+ "thread": "el-nino",
+ "tldr": "Explainer: weak rains, which officials link to El Niño, have pushed hundreds of mandals in Andhra Pradesh and Telangana into drought.",
+ "topic": "El Niño drought"
+}

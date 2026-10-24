@@ -1,0 +1,103 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Leave the umbrella at home this week. Afternoons will feel warm, around 31–33°C, so carry water if you're commuting.",
+  "what": "Rain on Thursday kept Safdarjung's high at 28.3°C, the lowest this month. Ridge got the most rain, 24.5 mm.",
+  "why": "IMD says an active western disturbance brought the showers. It had issued orange and red alerts until 3 pm."
+ },
+ "cards": [
+  {
+   "body": "That was 4.9 degrees below normal and the coolest maximum so far this October.",
+   "caption": "Thursday's high at Safdarjung",
+   "k": "num",
+   "value": "28.3°C"
+  },
+  {
+   "body": "CPCB put Thursday's AQI at 149, in the 'moderate' band. That is below the 'poor' level where GRAP Stage 1 rules usually start.",
+   "k": "tea",
+   "title": "Air check"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Daily thunderstorms",
+    "No rain, and slowly warmer days",
+    "Another red alert on Sunday",
+    "Cold-wave conditions"
+   ],
+   "q": "What does IMD's forecast for October 17–22 mean for Delhi?",
+   "why": "IMD expects a dry spell, with highs rising from about 31–33°C to 32–34°C."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Loved the cool break",
+    "Hated the traffic",
+    "Missed it, I was indoors",
+    "Bring on winter"
+   ],
+   "q": "Your take on Delhi's rainy October?"
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "date": "2026-10-17",
+ "heat": 2,
+ "hook": "Why did Thursday feel like *the coolest day this month*?",
+ "learn": {
+  "t": "Delhi has had over 57.5 mm of rain this October so far. Normal for the whole month is just 15.1 mm."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌀",
+    "label": "Western disturbance"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Afternoon showers"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Snarls at Mandi House, ITO"
+   },
+   {
+    "icon": "☀️",
+    "label": "Dry week ahead"
+   }
+  ],
+  "event": {
+   "icon": "🌡️",
+   "label": "Coolest October day so far"
+  }
+ },
+ "order": 54,
+ "readSecs": 35,
+ "sort": "2026-10-17-45",
+ "sources": [
+  {
+   "name": "ThePrint (PTI)",
+   "title": "Rain lashes Delhi, mercury dips to 28.3 degrees Celsius; traffic snarls reported",
+   "url": "https://theprint.in/india/rain-lashes-delhi-mercury-dips-to-28-3-degrees-celsius-traffic-snarls-reported/3073121/"
+  },
+  {
+   "name": "The Statesman",
+   "title": "Delhi temperatures to gradually rise as dry spell sets in",
+   "url": "https://thestatesman.com/cities/delhi/delhi-temperatures-to-gradually-rise-as-dry-spell-sets-in-1503651967.html"
+  },
+  {
+   "name": "ETV Bharat",
+   "title": "Delhi Records Sharp Temperature Drop After Showers",
+   "url": "https://www.etvbharat.com/en/bharat/imd-weather-delhi-records-sharp-temperature-drop-after-showers-south-india-braces-for-northeast-monsoon-rain-enn26101600804"
+  }
+ ],
+ "thread": "del-weather",
+ "tldr": "Thursday's rain gave Delhi its coolest day of October so far, and IMD now expects no rain until October 22.",
+ "topic": "Rain, then dry",
+ "watch": "IMD sees no rain from October 17 to 22. Daytime highs may reach 32–34°C by October 21–22."
+}

@@ -1,0 +1,105 @@
+{
+ "beats": {
+  "care": "Global diesel prices shape trucking costs, airfares and inflation in India too, so cheaper diesel abroad can ease prices here.",
+  "what": "After a call between Trump and Putin, the US is allowing Russian diesel to be sold on world markets until April 2027.",
+  "why": "Diesel prices are at records. Attacks on Russian and Saudi refineries cut supply, and US midterm elections are close."
+ },
+ "cards": [
+  {
+   "body": "The plan starts with about 300,000 tonnes, rising to 500,000 tonnes in November and more later. Brent crude was about $104 a barrel on Friday.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "a": {
+    "body": "Fuel is so costly that families and businesses everywhere are hurting. More supply brings prices down.",
+    "label": "Supporters say"
+   },
+   "b": {
+    "body": "Easing sanctions without a lasting peace deal could let Russia keep paying for its war.",
+    "label": "Ukraine's Zelenskyy says"
+   },
+   "k": "sides",
+   "title": "Good move or bad deal?"
+  },
+  {
+   "body": "Diesel runs trucks, buses, trains and farm pumps. When it gets expensive, the cost of moving almost everything goes up, including food.",
+   "k": "why",
+   "title": "why does diesel matter so much?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, people need cheaper fuel",
+    "No, sanctions must stay firm",
+    "Only for a short time"
+   ],
+   "q": "Should fuel prices beat sanctions?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "To bring down record diesel prices",
+    "To punish Ukraine",
+    "Because Russia stopped making diesel",
+    "To help India's trade deal"
+   ],
+   "q": "Why did the US ease sanctions on Russian diesel?",
+   "why": "With supply squeezed and prices at records, more Russian diesel on the market is meant to cool fuel prices."
+  }
+ ],
+ "cat": "money",
+ "date": "2026-10-11",
+ "heat": 2,
+ "hook": "The US let *Russian diesel* back in. Why your fuel bill cares",
+ "map": {
+  "causes": [
+   {
+    "icon": "⛽",
+    "label": "Record diesel prices"
+   },
+   {
+    "icon": "🛢️",
+    "label": "Refineries hit by attacks"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📉",
+    "label": "Could ease global fuel prices"
+   },
+   {
+    "icon": "🇺🇦",
+    "label": "Ukraine says it helps Russia"
+   }
+  ],
+  "event": {
+   "icon": "🇺🇸",
+   "label": "US pauses Russian diesel sanctions"
+  }
+ },
+ "order": 8,
+ "readSecs": 50,
+ "sort": "2026-10-11-91",
+ "sources": [
+  {
+   "name": "News On AIR",
+   "title": "US lifts sanctions on sale of Russian diesel until April next year",
+   "url": "https://newsonair.gov.in/us-lifts-sanctions-on-sale-of-russian-diesel-in-global-markets-until-april-next-year-amid-unprecedented-price-surge/"
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Why is US turning to Russia for diesel despite sanctions?",
+   "url": "https://www.aljazeera.com/news/2026/10/10/why-is-us-turning-to-russia-for-diesel-despite-sanctions"
+  },
+  {
+   "name": "Trading Economics",
+   "title": "Brent crude oil",
+   "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+  }
+ ],
+ "thread": "russian-diesel",
+ "tldr": "The US has paused sanctions on Russian diesel until April 2027 to bring down record fuel prices.",
+ "topic": "Russian diesel sanctions"
+}

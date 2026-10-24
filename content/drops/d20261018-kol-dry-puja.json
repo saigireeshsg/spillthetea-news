@@ -1,0 +1,97 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Rain won't ruin pandal plans, but highs stay near 31–32°C. Carry water and take breaks when walking.",
+  "what": "IMD's Kolkata-Alipur forecast shows partly cloudy skies on Sunday, then mostly clear days till October 23. No warnings are listed.",
+  "why": "The monsoon has pulled out of most of West Bengal. Earlier forecasts had warned of showers around Panchami and Shashthi."
+ },
+ "cards": [
+  {
+   "body": "That was just below normal. IMD expects highs of 31–32°C all week, with nights around 24–26°C.",
+   "caption": "Alipore's high on Saturday",
+   "k": "num",
+   "value": "32.4°C"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Heavy rain is certain",
+    "IMD expects no severe weather like storms or heavy rain",
+    "The forecast is unavailable",
+    "It will be cold"
+   ],
+   "q": "What does 'no warnings' on IMD's 7-day forecast mean for Kolkata?",
+   "why": "IMD lists warnings only when it expects severe weather; none are listed through October 23."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Early morning",
+    "Afternoon",
+    "Late night",
+    "Skip it this year"
+   ],
+   "q": "Best time to pandal-hop this week?"
+  },
+  {
+   "body": "Earlier in the week, Alipore had warned of showers around Panchami. Now the rest of Puja looks mostly dry.",
+   "k": "twist"
+  }
+ ],
+ "cat": "local",
+ "city": "Kolkata",
+ "date": "2026-10-18",
+ "heat": 2,
+ "hook": "Can you finally *leave the umbrella at home* for the rest of Puja?",
+ "learn": {
+  "t": "The monsoon has already withdrawn from most of West Bengal, which is why Puja skies are clearing up."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌬️",
+    "label": "Monsoon withdrawing"
+   },
+   {
+    "icon": "☁️",
+    "label": "Rain spells ending"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚶",
+    "label": "Easier pandal hopping"
+   },
+   {
+    "icon": "🥵",
+    "label": "Warm, humid afternoons"
+   }
+  ],
+  "event": {
+   "icon": "🌤️",
+   "label": "Clear skies ahead"
+  }
+ },
+ "order": 68,
+ "readSecs": 35,
+ "sort": "2026-10-18-31",
+ "sources": [
+  {
+   "name": "IMD (Kolkata-Alipur city forecast)",
+   "title": "Local Weather Report and Forecast",
+   "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=42807"
+  },
+  {
+   "name": "Urban Acres (citing Alipore weather office)",
+   "title": "Kolkata Puja Weather Faces Rain Risk Before Sunday Dry Spell",
+   "url": "https://urbanacres.in/kolkata-puja-weather-faces-rain-risk-before-sunday-dry-spell/"
+  }
+ ],
+ "thread": "kol-weather",
+ "tldr": "IMD's Alipore forecast shows mostly clear skies in Kolkata from Monday to October 23, with no weather warnings.",
+ "topic": "Dry Puja days",
+ "watch": "IMD's Alipore forecast shows mostly clear skies and no warnings through October 23."
+}

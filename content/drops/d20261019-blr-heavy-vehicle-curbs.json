@@ -1,0 +1,124 @@
+{
+ "areas": [
+  "Hebbal",
+  "Yeshwantpur",
+  "Peenya",
+  "Tumakuru Road",
+  "Mysuru Road",
+  "Majestic"
+ ],
+ "beats": {
+  "care": "It's only a proposal now. Leaving town on a festival weekend? Start early or use the metro to edge-of-city hubs.",
+  "what": "BTP is considering fixed hours for heavy and medium goods vehicles and private AITP buses on festivals and weekends.",
+  "why": "On Saturday, people spent 3–4 hours in traffic on Tumakuru Road, Mysuru Road and the airport road."
+ },
+ "cards": [
+  {
+   "body": "Buses took 1–2 hours to go 4–5 km from Majestic to Sandal Soap Factory. Traffic was bumper-to-bumper from Hebbal to Mekhri Circle.",
+   "k": "tea",
+   "title": "How bad was it?"
+  },
+  {
+   "body": "GBA urban planner Deepa Managooli says private buses use unauthorised pick-ups like Govardhan Theatre and KR Puram. She suggests pick-up hubs near metro terminals.",
+   "k": "tea",
+   "title": "A planner's idea"
+  },
+  {
+   "body": "A July draft plan by traffic police already proposed keeping All India Permit buses out from 8 am to 10 pm.",
+   "k": "twist"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Banning all cars",
+    "Fixing hours for heavy vehicles and private buses",
+    "Free metro rides",
+    "Closing Hebbal flyover"
+   ],
+   "q": "What's the main idea police are weighing?",
+   "why": "Police are considering limiting heavy vehicles and AITP buses to set hours on busy days."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, near metro ends",
+    "No, too far",
+    "Only on festivals",
+    "Not sure"
+   ],
+   "q": "Should private buses board only outside the city?"
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "cover": {
+  "bg": [
+   "#1c1917",
+   "#f59e0b"
+  ],
+  "big": "3–4 hrs",
+  "label": "stuck in Saturday's festive jams",
+  "motion": "drift",
+  "scene": [
+   "🚛",
+   "🚌",
+   "🚦"
+  ]
+ },
+ "date": "2026-10-19",
+ "heat": 4,
+ "hook": "Could *private buses be kept out* of Bengaluru by day?",
+ "lead": "local",
+ "learn": {
+  "t": "Garbage trucks in central Bengaluru may be allowed to run only between 10 pm and 7 am."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧳",
+    "label": "Dasara festive exodus"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Rain"
+   },
+   {
+    "icon": "🚌",
+    "label": "Roadside bus pick-ups"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚛",
+    "label": "Heavy vehicles timed"
+   },
+   {
+    "icon": "🗑️",
+    "label": "Night-only garbage trucks"
+   }
+  ],
+  "event": {
+   "icon": "🚦",
+   "label": "Police weigh vehicle curbs"
+  }
+ },
+ "order": 86,
+ "readSecs": 45,
+ "sort": "2026-10-19-13",
+ "sources": [
+  {
+   "name": "Deccan Herald",
+   "title": "Bengaluru Traffic Police mull curbs on heavy vehicles, AITP buses to ease festive traffic",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-traffic-police-mull-curbs-on-heavy-vehicles-aitp-buses-to-ease-festive-traffic-4187615"
+  },
+  {
+   "name": "Asianet Newsable",
+   "title": "Bengaluru Traffic Police propose major curbs: 14-hour traffic ban on heavy vehicles, private buses",
+   "url": "https://newsable.asianetnews.com/karnataka-news/bengaluru-traffic-police-propose-major-curbs-14-hour-traffic-ban-on-heavy-vehicles-private-buses-under-new-traffic-plan-articleshow-8z09nkb"
+  }
+ ],
+ "thread": "blr-traffic",
+ "tldr": "After Saturday's festive gridlock, Bengaluru Traffic Police are considering time limits for heavy vehicles and private interstate buses.",
+ "topic": "Heavy vehicle curbs"
+}

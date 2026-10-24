@@ -1,0 +1,76 @@
+{
+ "beats": {
+  "care": "Hostel or college gang heading the same way? Get 30+ people together and ask TGSRTC for a bus from your gate.",
+  "what": "For Dasara, TGSRTC will run special buses that start right from residential colonies, gated communities, hostels and colleges.",
+  "why": "Festival travel jams up bus stations. Picking up groups near home makes the trip easier."
+ },
+ "cards": [
+  {
+   "body": "Groups of 30 or more can contact the concerned TGSRTC officials and request a bus from their locality. Buses run when there's enough demand from an area.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "It's demand-based: if enough people in one area ask, TGSRTC arranges a special service just for them.",
+   "k": "twist"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "5 people",
+    "30 or more",
+    "100 or more",
+    "Just you"
+   ],
+   "q": "How big must your group be to request a TGSRTC pickup?",
+   "why": "The pickup service is for groups of 30 or more travelling together."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-09",
+ "heat": 3,
+ "hook": "Going home for Dasara? TGSRTC can *pick you up at your hostel*",
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Dasara travel rush"
+   },
+   {
+    "icon": "🚌",
+    "label": "Crowded bus stations"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "👥",
+    "label": "Need a group of 30+"
+   },
+   {
+    "icon": "🎒",
+    "label": "Hostels, colleges, colonies"
+   },
+   {
+    "icon": "📞",
+    "label": "Ask TGSRTC officials"
+   }
+  ],
+  "event": {
+   "icon": "🏠",
+   "label": "TGSRTC buses from your gate"
+  }
+ },
+ "order": 24,
+ "readSecs": 30,
+ "sort": "2026-10-09-75",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "TGSRTC to pick up Dasara travellers from residential colonies, hostels",
+   "url": "https://telanganatoday.com/tgsrtc-to-pick-up-dasara-travellers-from-residential-colonies-hostels"
+  }
+ ],
+ "topic": "Dasara buses"
+}

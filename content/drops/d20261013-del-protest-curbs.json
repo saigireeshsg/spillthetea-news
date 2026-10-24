@@ -1,0 +1,125 @@
+{
+ "areas": [
+  "Connaught Place",
+  "Mandi House",
+  "Central Delhi",
+  "Lodhi Road"
+ ],
+ "beats": {
+  "care": "Leave early for trains, ISBTs or the airport through central Delhi. Avoid non-essential trips there.",
+  "what": "On Monday, entry and exit were shut at Rajiv Chowk, Patel Chowk, Janpath, Mandi House, Central Secretariat and Barakhamba Road, 6 am–4 pm.",
+  "why": "Opposition leaders marched over the voter-list revision (SIR). Police cited the law and order situation."
+ },
+ "cards": [
+  {
+   "body": "They included Dhaula Kuan flyover, Lodhi Road flyover, Mandi House and Rail Bhawan roundabouts.",
+   "caption": "Points flagged for diversions on Monday",
+   "k": "num",
+   "value": "30"
+  },
+  {
+   "body": "Delhi Traffic Police posted that traffic may be hit at various places across Delhi on October 13 too, with diversions based on ground conditions.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Time Out Delhi reported 57 Metro stations were shut two days before Monday's closures.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "WFH if I can",
+    "Metro, any route",
+    "Leave super early",
+    "Just skip going out"
+   ],
+   "q": "How do you dodge protest-day traffic?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Change lines and exit at another station",
+    "Nothing, trains stop",
+    "Exit through the shut gate",
+    "Get a refund only"
+   ],
+   "q": "If your Metro exit is shut but interchange is open, what can you do?",
+   "why": "Interchange stayed open, so riders could switch lines and leave from a nearby open station."
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "cover": {
+  "bg": [
+   "#1f1300",
+   "#ff9f1c"
+  ],
+  "big": "6",
+  "label": "Central Metro stations with gates shut Monday",
+  "motion": "pulse",
+  "scene": [
+   "🚧",
+   "🚇",
+   "🚦"
+  ]
+ },
+ "date": "2026-10-13",
+ "heat": 4,
+ "hook": "Heading to CP today? *Your route may change* without warning",
+ "lead": "local",
+ "learn": {
+  "t": "On Monday, interchange stayed open at the six shut stations, so riders could still switch lines inside."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📢",
+    "label": "Opposition protests, march"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚇",
+    "label": "Exits shut at 6 stations"
+   },
+   {
+    "icon": "🚗",
+    "label": "30 traffic choke points"
+   },
+   {
+    "icon": "⏰",
+    "label": "Longer trips to stations"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "Diversions and station closures"
+  }
+ },
+ "order": 88,
+ "readSecs": 45,
+ "sort": "2026-10-13-11",
+ "sources": [
+  {
+   "name": "ANI",
+   "title": "Delhi Traffic Advisory: Police implement dynamic diversions due to prevailing situation",
+   "url": "https://www.aninews.in/news/national/general-news/delhi-traffic-advisory-police-implement-dynamic-diversions-due-to-prevailing-situation20261012130651/"
+  },
+  {
+   "name": "Time Out Delhi",
+   "title": "Six metro stations closed, traffic curbs in place ahead of fresh protests in Delhi",
+   "url": "https://www.timeout.com/delhi/news/six-metro-stations-in-delhi-closed-until-4pm-amid-fresh-protests-101226"
+  },
+  {
+   "name": "Delhi Traffic Police (X)",
+   "title": "Traffic advisory for 13.10.2026",
+   "url": "https://x.com/dtptraffic/status/2109679063224996133"
+  }
+ ],
+ "thread": "del-commute",
+ "tldr": "Delhi Traffic Police warned of dynamic diversions again on Tuesday after protests shut six central Metro stations' gates on Monday.",
+ "topic": "Protest traffic curbs",
+ "watch": "Check Delhi Traffic Police's X handle or call 1095 before heading into central Delhi on Tuesday."
+}

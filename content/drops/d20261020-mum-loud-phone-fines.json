@@ -1,0 +1,125 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Carry earphones. The fine is up to ₹1,000, and ignoring staff can mean up to ₹5,000 or six months' jail.",
+  "what": "Western and Central Railway staff will ask people playing phone audio without earphones to stop, and can fine those who don't.",
+  "why": "Commuters complain loud audio in crowded peak-hour coaches is annoying and sometimes sparks arguments, a passenger group says."
+ },
+ "cards": [
+  {
+   "body": "Under Section 145 of the Railways Act, continuing after staff tell you to stop can bring this fine, six months' simple jail, or both.",
+   "caption": "maximum fine if you keep going after a warning",
+   "k": "num",
+   "value": "₹5,000"
+  },
+  {
+   "body": "A Western Railway official said offenders 'will first be warned', then fined. Railways may play announcements in Marathi, Hindi and English.",
+   "k": "tea",
+   "title": "How it will work"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Instant arrest",
+    "You get a warning to stop",
+    "Your phone is seized",
+    "Nothing at all"
+   ],
+   "q": "What happens first if staff catch you playing audio loudly?",
+   "why": "Officials say people will be warned first; fines come if they keep going."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Worst part of my commute",
+    "Annoying but whatever",
+    "Never noticed",
+    "Guilty, ngl"
+   ],
+   "q": "Loud reels on the local are…"
+  },
+  {
+   "body": "It's not just trains: BEST has started putting up stickers in its buses asking people not to play loud audio on phones.",
+   "k": "twist"
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "cover": {
+  "bg": [
+   "#1a1033",
+   "#ff3d7f"
+  ],
+  "big": "₹1,000",
+  "label": "fine for loud phone audio on trains",
+  "motion": "pulse",
+  "scene": [
+   "📱",
+   "🔊",
+   "🚆"
+  ]
+ },
+ "date": "2026-10-20",
+ "heat": 4,
+ "hook": "Could *playing reels out loud* on a local cost you money?",
+ "lead": "local",
+ "learn": {
+  "t": "Railway rules on loud calls and offensive ringtones date back to Railway Board guidelines from July 2012."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔊",
+    "label": "Loud reels and music"
+   },
+   {
+    "icon": "😤",
+    "label": "Fights in packed coaches"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⚠️",
+    "label": "Warning first"
+   },
+   {
+    "icon": "💸",
+    "label": "Fine if you continue"
+   },
+   {
+    "icon": "📢",
+    "label": "Announcements planned"
+   }
+  ],
+  "event": {
+   "icon": "🚆",
+   "label": "Railways target speaker-mode phones"
+  }
+ },
+ "order": 88,
+ "readSecs": 45,
+ "sort": "2026-10-20-11",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Mumbai: Loud Mobile Phone Use On Local Trains May Attract ₹5,000 Fine And 6 Months' Jail",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-loud-mobile-phone-use-on-local-trains-may-attract-5000-fine-and-6-months-jail"
+  },
+  {
+   "name": "Deccan Herald",
+   "title": "Train speaker ban: Indian Railways sets Rs 1000 fine for phone audio noise",
+   "url": "https://www.deccanherald.com/amp/story/india/speaker-mode-on-trains-railways-warns-of-fines-jail-4187328"
+  },
+  {
+   "name": "Business Standard",
+   "title": "Loud phone calls, music on trains may cost passengers ₹1,000 or jail time",
+   "url": "https://www.business-standard.com/amp/india-news/loud-phone-calls-music-on-trains-may-cost-passengers-1-000-or-jail-time-126101900632_1.html"
+  }
+ ],
+ "thread": "mum-local-trains",
+ "tldr": "Playing reels or music loudly without earphones on Mumbai locals can now get you warned, then fined under the Railways Act.",
+ "topic": "Loud phone fines"
+}

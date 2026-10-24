@@ -1,0 +1,116 @@
+{
+ "areas": [
+  "Anand Vihar",
+  "Nand Nagri",
+  "Rohini",
+  "Nangloi",
+  "Keshopur"
+ ],
+ "beats": {
+  "care": "More AC buses with CCTV, panic buttons and live tracking. EV owners near these depots also get public charging.",
+  "what": "Transport Minister Pankaj Kumar Singh opened charging stations at Anand Vihar ISBT and DTC depots in Nand Nagri, Rohini Sector-37, Nangloi and Keshopur.",
+  "why": "Delhi wants cleaner air and more buses. Its total fleet is about 6,988, including 1,750 CNG buses."
+ },
+ "cards": [
+  {
+   "body": "5,238 electric and about 1,750 CNG buses.",
+   "caption": "Delhi's total bus fleet",
+   "k": "num",
+   "value": "6,988"
+  },
+  {
+   "body": "The new buses are low-floor and air-conditioned, with CCTV, panic buttons and real-time tracking.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "These five are public EV charging stations, opened at a bus terminal and DTC depots.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Daily",
+    "Few times a week",
+    "Rarely",
+    "Metro only"
+   ],
+   "q": "How often do you take DTC buses?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "About three-quarters",
+    "About 10%",
+    "Half",
+    "All of them"
+   ],
+   "q": "Roughly what share of Delhi's buses are now electric?",
+   "why": "5,238 of about 6,988 buses are electric — roughly 75%."
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "cover": {
+  "bg": [
+   "#062b1a",
+   "#2ee59d"
+  ],
+  "big": "5,238",
+  "label": "Delhi's electric bus fleet",
+  "motion": "rise",
+  "scene": [
+   "🚌",
+   "⚡",
+   "🌿"
+  ]
+ },
+ "date": "2026-10-14",
+ "heat": 4,
+ "hook": "Three in four Delhi buses are now *electric*. What's new?",
+ "lead": "local",
+ "learn": {
+  "t": "Anand Vihar ISBT handles about 2,300 buses and 1.25 lakh commuters every day."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "😷",
+    "label": "Clean-air push"
+   },
+   {
+    "icon": "🚌",
+    "label": "Bus shortage"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "❄️",
+    "label": "More AC low-floor rides"
+   },
+   {
+    "icon": "🔌",
+    "label": "Public EV charging"
+   }
+  ],
+  "event": {
+   "icon": "⚡",
+   "label": "150 e-buses, 5 chargers"
+  }
+ },
+ "order": 88,
+ "readSecs": 45,
+ "sort": "2026-10-14-11",
+ "sources": [
+  {
+   "name": "The Statesman",
+   "title": "Delhi to add 150 electric buses, take zero-emission fleet to 5,238",
+   "url": "https://www.thestatesman.com/cities/delhi/delhi-to-add-150-electric-buses-take-zero-emission-fleet-to-5238-1503650383.html"
+  }
+ ],
+ "thread": "del-commute",
+ "tldr": "Delhi is adding 150 electric buses and opened five public EV charging stations, taking its e-bus fleet to 5,238.",
+ "topic": "New electric buses",
+ "watch": "Delhi aims for about 14,000 buses in its fleet by 2028-29; no route dates for the new buses yet."
+}

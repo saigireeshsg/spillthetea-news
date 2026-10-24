@@ -1,0 +1,94 @@
+{
+ "areas": [
+  "Majestic",
+  "Yesvantpur"
+ ],
+ "beats": {
+  "care": "Travel between Tumakuru and Bengaluru for work or college? Plan a bus or another train on those dates.",
+  "what": "South Western Railway cancelled MEMUs 66571 and 66572 between KSR Bengaluru and Tumakuru on 12 days from October 23.",
+  "why": "Line and power blocks are needed in the Tumakuru station yard for its redevelopment work."
+ },
+ "cards": [
+  {
+   "body": "The KSR Bengaluru–Dharwad Express will also leave 30 minutes late on these dates.",
+   "caption": "late start for Yesvantpur–Shivamogga Express",
+   "k": "num",
+   "value": "75 min"
+  },
+  {
+   "body": "Talguppa–KSR Bengaluru Express by 40 minutes, the KSR Bengaluru–Tumakuru MEMU 66567 by 30 minutes, and Mysuru–Belagavi Express by 15 minutes.",
+   "k": "tea",
+   "title": "Also held on the way"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Too few riders",
+    "Track and power blocks for Tumakuru station work",
+    "Festival crowd control",
+    "A fare revision"
+   ],
+   "q": "Why are these MEMUs cancelled?",
+   "why": "SWR said line and power blocks in the Tumakuru yard are needed for the redevelopment."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "KSRTC bus",
+    "Another train",
+    "Cab share",
+    "WFH day"
+   ],
+   "q": "Your backup when your train is cancelled?"
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "date": "2026-10-21",
+ "heat": 2,
+ "hook": "Commute on the *Tumakuru MEMU*? Check these 12 dates.",
+ "learn": {
+  "t": "On these days the Yesvantpur–Shivamogga Town Express will leave Yesvantpur 75 minutes late."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Tumakuru station rebuild"
+   },
+   {
+    "icon": "⚡",
+    "label": "Line and power blocks"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⏰",
+    "label": "Some expresses run late"
+   },
+   {
+    "icon": "🚌",
+    "label": "Commuters need backups"
+   }
+  ],
+  "event": {
+   "icon": "🚫",
+   "label": "MEMU cancelled on 12 days"
+  }
+ },
+ "order": 58,
+ "readSecs": 40,
+ "sort": "2026-10-21-41",
+ "sources": [
+  {
+   "name": "The Bengaluru Live",
+   "title": "Tumakuru Redevelopment: Bengaluru MEMUs Cancelled on 12 Days, Express Trains Delayed",
+   "url": "https://thebengalurulive.com/tumakuru-redevelopment-bengaluru-memus-cancelled-on-12-days-express-trains-delayed/"
+  }
+ ],
+ "thread": "blr-trains",
+ "tldr": "The Tumakuru–KSR Bengaluru MEMU trains are cancelled on 12 days between October 23 and November 7 for station work at Tumakuru.",
+ "topic": "MEMU cancellations",
+ "watch": "Cancellations fall on October 23–25, October 28–November 1 and November 4–7."
+}

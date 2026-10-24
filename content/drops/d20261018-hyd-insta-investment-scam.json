@@ -1,0 +1,92 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "If an Instagram page or DM promises sure-shot returns, it's a red flag. Check SEBI registration and never pay into their account.",
+  "what": "Hyderabad police said three people lost 5.35 crore rupees in a single day, including 52.51 lakh to a fake investment scheme that started on Instagram.",
+  "why": "Scammers pose as investment advisers or bosses and push quick transfers. Another victim lost 2.70 crore to a fake message from a CEO."
+ },
+ "cards": [
+  {
+   "body": "You're added to a group full of fake 'winners', shown fake profit screenshots, then asked to deposit on an app or site they control. Withdrawals get blocked with new 'fees'.",
+   "k": "why",
+   "title": "how the trick works"
+  },
+  {
+   "body": "Police Commissioner VC Sajjanar said once money moves, tracing and recovery are hard. If you're cheated, call 1930 or report on cybercrime.gov.in right away.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "All the time",
+    "Sometimes",
+    "Never",
+    "I fell for one once"
+   ],
+   "q": "Seen 'guaranteed returns' ads on Insta?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Guaranteed high returns",
+    "A long video",
+    "Lots of emojis",
+    "It's in English"
+   ],
+   "q": "What's the biggest red flag in an online investment pitch?",
+   "why": "Real investments carry risk; anyone promising sure profits is likely running a scam."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "concept": "scams",
+ "date": "2026-10-18",
+ "heat": 3,
+ "hook": "10 years of trading, then *one Instagram DM*. ₹52 lakh gone",
+ "learn": {
+  "t": "Experience doesn't protect you: this victim had traded stocks for nearly 10 years before an Instagram message lured him in."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📱",
+    "label": "Instagram investment message"
+   },
+   {
+    "icon": "💹",
+    "label": "Promise of big gains"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚨",
+    "label": "Police: verify independently"
+   },
+   {
+    "icon": "☎️",
+    "label": "Report fast on 1930"
+   }
+  ],
+  "event": {
+   "icon": "🪤",
+   "label": "₹52.51 lakh lost to fake scheme"
+  }
+ },
+ "order": 12,
+ "readSecs": 45,
+ "sort": "2026-10-18-87",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad cyber frauds: three victims lose Rs 5.35 crore in one day",
+   "url": "https://telanganatoday.com/hyderabad-cyber-frauds-three-victims-lose-rs-5-35-crore-in-one-day"
+  }
+ ],
+ "thread": "hyd-cyber-scams",
+ "tldr": "A Hyderabad trader with 10 years of stock market experience lost ₹52.51 lakh to a fake investment pitch that began on Instagram.",
+ "topic": "Instagram investment scam"
+}

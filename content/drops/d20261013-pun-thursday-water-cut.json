@@ -1,0 +1,121 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "PG or hostel? Fill buckets on Wednesday night, but don't hoard. Report leaks to PMC.",
+  "what": "From October 15, PMC will stop water supply across the whole city every Thursday.",
+  "why": "Rain was below average and El Niño is expected to bite. Khadakwasla dams held 26.22 TMC on Oct 12, below usual."
+ },
+ "cards": [
+  {
+   "body": "PMC says that is below normal for this time of year.",
+   "caption": "Khadakwasla dam stock, Oct 12",
+   "k": "num",
+   "value": "26.22 TMC"
+  },
+  {
+   "body": "PMC says vehicle-washing centres must shut, and drinking water can't be used for pools, gardens or construction. Report leaks on 1800-1030-222 or WhatsApp 9689900002.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "PMC's guidelines also ask people not to stockpile water during the cuts.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Fill buckets Wednesday",
+    "Gym shower hack",
+    "Society tank is enough",
+    "Panic"
+   ],
+   "q": "How will you handle no-water Thursdays?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "To make dam water last till August 2027",
+    "To repair every pipe in Pune",
+    "Because dams are overflowing",
+    "To save electricity"
+   ],
+   "q": "Why is PMC cutting supply every Thursday?",
+   "why": "A state order wants stocks to last till Aug 31, 2027, after weak rainfall."
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "cover": {
+  "bg": [
+   "#0d1b2a",
+   "#00b4d8"
+  ],
+  "big": "Thu",
+  "label": "No water supply every Thursday from Oct 15",
+  "motion": "pulse",
+  "scene": [
+   "🚱",
+   "📅",
+   "💧"
+  ]
+ },
+ "date": "2026-10-13",
+ "heat": 4,
+ "hook": "Pune taps will *run dry every Thursday*. Why now?",
+ "lead": "local",
+ "learn": {
+  "t": "A state order dated October 5 tells cities to cut water use at least 10% so stocks last till Aug 31, 2027."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Below-average rainfall"
+   },
+   {
+    "icon": "📜",
+    "label": "State 10% cut order"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🪣",
+    "label": "Store water Wednesday"
+   },
+   {
+    "icon": "🚗",
+    "label": "Car wash centres shut"
+   },
+   {
+    "icon": "🏊",
+    "label": "No drinking water for pools"
+   }
+  ],
+  "event": {
+   "icon": "🚱",
+   "label": "Weekly Thursday shutdown"
+  }
+ },
+ "order": 86,
+ "readSecs": 50,
+ "sort": "2026-10-13-13",
+ "sources": [
+  {
+   "name": "Pune Pulse",
+   "title": "Pune: PMC Announces Weekly Thursday Water Cut From October 15, Issues Water-Saving Guidelines",
+   "url": "https://www.mypunepulse.com/pune-pmc-announces-weekly-thursday-water-cut-from-october-15-issues-water-saving-guidelines/"
+  },
+  {
+   "name": "Pune Pulse",
+   "title": "Pune: PMC Issues Dos And Don'ts Ahead Of Weekly Water Cut In Pune From October 15",
+   "url": "https://www.mypunepulse.com/pune-pmc-issues-dos-and-donts-ahead-of-weekly-water-cut-in-pune-from-october-15/"
+  }
+ ],
+ "thread": "pun-water",
+ "tldr": "PMC will shut water supply across Pune every Thursday from October 15 to stretch dam stocks after weak rain.",
+ "topic": "Thursday water cut",
+ "watch": "The first citywide no-supply Thursday is October 15; PMC will post schedule changes on pmc.gov.in."
+}

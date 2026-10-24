@@ -1,0 +1,130 @@
+{
+ "beats": {
+  "care": "India's unbeaten run in home T20 series survives, but only just. Bumrah and Akash Deep are back for the New Zealand Tests next month.",
+  "what": "Rain cut Saturday's decider to nine overs a side. India made 118 for 5 in 7.4 overs before rain returned for good.",
+  "why": "West Indies never got to bat, so the five-match series ended level, with two wins each."
+ },
+ "cards": [
+  {
+   "body": "India won in Lucknow and Indore. West Indies won in Ranchi and at Uppal, where Shai Hope's unbeaten 102 off 50 balls set up a 24-run win.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Shubman Gill captains, KL Rahul is vice-captain. Akash Deep returns after a back stress fracture, Anshul Kamboj is recalled, and Bumrah plays only the Tests to manage his workload.",
+   "k": "why",
+   "title": "who's in the new zealand test squad?"
+  },
+  {
+   "body": "West Indies chose to bowl first, and then never had to bat at all.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, 2-2 is fair",
+    "India were robbed",
+    "West Indies deserved it"
+   ],
+   "q": "Fair result for this series?"
+  },
+  {
+   "by": "23 Nov",
+   "k": "predict",
+   "opts": [
+    "India win",
+    "New Zealand win",
+    "Draw"
+   ],
+   "q": "Will India win the first Test in Wellington?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The deciding match was washed out",
+    "India lost the last game",
+    "West Indies forfeited",
+    "It was a tie on runs"
+   ],
+   "q": "Why did the series end 2-2?",
+   "why": "With two wins each, the abandoned fifth game left the series level."
+  }
+ ],
+ "cat": "sport",
+ "cover": {
+  "bg": [
+   "#0d1b2a",
+   "#4361ee"
+  ],
+  "big": "2-2",
+  "label": "Series shared after Bengaluru washout",
+  "motion": "fall",
+  "scene": [
+   "🌧️",
+   "🏏",
+   "🤝"
+  ]
+ },
+ "date": "2026-10-18",
+ "heat": 4,
+ "hook": "India were *118/5 in 7.4 overs*. Then the rain came back",
+ "learn": {
+  "t": "When a decider is washed out, nobody wins: the series is shared, and both captains lift the trophy together."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Rain cuts to 9 overs"
+   },
+   {
+    "icon": "🏏",
+    "label": "India 118/5 in 7.4 overs"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏆",
+    "label": "Iyer and Hope share trophy"
+   },
+   {
+    "icon": "✈️",
+    "label": "Next: New Zealand tour"
+   }
+  ],
+  "event": {
+   "icon": "🤝",
+   "label": "Decider abandoned, series 2-2"
+  }
+ },
+ "order": 6,
+ "readSecs": 45,
+ "sort": "2026-10-18-93",
+ "sources": [
+  {
+   "name": "Sunday Guardian",
+   "title": "India vs West Indies 5th T20I Highlights: Rain Wins At Chinnaswamy, T20I Series Ends In 2-2 Stalemate",
+   "url": "https://sundayguardianlive.com/sports/india-vs-west-indies-5th-t20i-highlights-rain-wins-at-chinnaswamy-india-west-indies-t20i-series-ends-in-2-2-stalemate-307570/"
+  },
+  {
+   "name": "Outlook",
+   "title": "India Vs West Indies Highlights, 5th T20I: Rain Washes Out Bengaluru Decider As Series Ends 2-2",
+   "url": "https://www.outlookindia.com/sports/cricket/india-vs-west-indies-5th-t20i-live-score-today-cricket-latest-updates"
+  },
+  {
+   "name": "BCCI",
+   "title": "India's ODI and Test squads for New Zealand tour announced",
+   "url": "https://www.bcci.tv/news/article/indias-odi-and-test-squads-for-new-zealand-tour-announced"
+  },
+  {
+   "name": "ThePrint",
+   "title": "Akash Deep returns to Test squad for NZ series, Bumrah to only play red-ball cricket on tour",
+   "url": "https://theprint.in/sport/akash-deep-returns-to-test-squad-for-nz-series-bumrah-to-only-play-red-ball-cricket-on-tour/3074238/"
+  }
+ ],
+ "thread": "india-wi-t20",
+ "tldr": "Rain washed out the Bengaluru decider, so India and West Indies shared the T20 series 2-2; India now head to New Zealand.",
+ "topic": "Series shared 2-2",
+ "watch": "India's New Zealand tour starts with ODIs on 4 Nov. First Test in Wellington from 19 Nov, 3:30 am IST."
+}

@@ -1,0 +1,96 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Avoid video calls with new matches. If someone threatens you, don't pay. Report it at cybercrime.gov.in or call 1930.",
+  "what": "After a brief WhatsApp video call with a dating-app match, a young man was sent a fake obscene video and told to pay.",
+  "why": "AI tools make fake videos easy to create. Scammers use shame and fear to rush people into paying."
+ },
+ "cards": [
+  {
+   "body": "Up from 20 in 2024. Police data shows 57 cases till August 2026.",
+   "caption": "sextortion cases in Karnataka, 2025",
+   "k": "num",
+   "value": "104"
+  },
+  {
+   "body": "He borrowed money and paid several UPI IDs between Sept 27 and 29, but the threats kept coming. He then filed an online complaint. Police have registered an FIR and are tracing the suspects.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "A senior cybercrime investigator says many such cases never get reported, so the real number is likely higher.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Never on day one",
+    "Only after meeting",
+    "Yes, it's normal",
+    "Depends on the vibe"
+   ],
+   "q": "Would you video-call someone you just matched with?"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Pay quickly so it stops",
+    "Don't pay; report it to cyber police",
+    "Delete your accounts and stay quiet",
+    "Offer a smaller amount"
+   ],
+   "q": "What's the safest move if someone threatens to leak a fake video unless you pay?",
+   "why": "In this case threats continued even after he paid; reporting early helps police trace the money."
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "date": "2026-10-12",
+ "heat": 3,
+ "hook": "A short video call turned into a *Rs 1.85 lakh* demand. Here's how.",
+ "learn": {
+  "t": "Karnataka police recorded 104 sextortion cases in 2025, up from just 20 in 2024."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📱",
+    "label": "Dating app match"
+   },
+   {
+    "icon": "📹",
+    "label": "Brief video call"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Rs 1.85 lakh lost"
+   },
+   {
+    "icon": "🚔",
+    "label": "FIR under IT Act, BNS"
+   }
+  ],
+  "event": {
+   "icon": "🎭",
+   "label": "AI-morphed video used to extort"
+  }
+ },
+ "order": 85,
+ "readSecs": 45,
+ "sort": "2026-10-12-14",
+ "sources": [
+  {
+   "name": "Deccan Herald",
+   "title": "Online date threatens Bengaluru man with AI-morphed video, extorts Rs 1.85 lakh",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/online-date-threatens-bengaluru-man-with-ai-morphed-video-extorts-rs-185-lakh-4179093"
+  }
+ ],
+ "thread": "blr-cyber-scams",
+ "tldr": "A 23-year-old in Bellandur lost Rs 1.85 lakh after a dating-app match threatened him with an AI-morphed video.",
+ "topic": "Dating-app sextortion"
+}

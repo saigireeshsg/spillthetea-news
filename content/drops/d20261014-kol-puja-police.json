@@ -1,0 +1,99 @@
+{
+ "areas": [
+  "Citywide",
+  "Salt Lake",
+  "New Town"
+ ],
+ "beats": {
+  "care": "Save 112 and 100 — they run 24x7. Grab the Puja Guide Map 2026 to plan routes. Breakdown vans will be on Maa Flyover.",
+  "what": "Police Commissioner Ajay Nand said leave is cancelled for all police. About 6,000 civic volunteers and home guards are included.",
+  "why": "Lakhs of people crowd pandals at night, so the police want quick help for emergencies, lost children and traffic."
+ },
+ "cards": [
+  {
+   "body": "Includes about 6,000 civic volunteers and home guards.",
+   "caption": "Personnel on Puja duty",
+   "k": "num",
+   "value": "31,000"
+  },
+  {
+   "body": "Ambulances will wait at 14 locations. Breakdown vans will stand on Maa Flyover for the Salt Lake–New Town rush.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "All-nighter",
+    "Early evening",
+    "Only famous ones",
+    "Para pandal only"
+   ],
+   "q": "Your pandal-hopping style?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "To reunite lost kids with families fast",
+    "For free entry",
+    "To track ticket sales",
+    "For school attendance"
+   ],
+   "q": "Why are ID badges being given to children?",
+   "why": "Badges help police quickly match lost children with their families in crowds."
+  }
+ ],
+ "cat": "local",
+ "city": "Kolkata",
+ "date": "2026-10-14",
+ "heat": 3,
+ "hook": "Lost in the Puja crowd? Here's *Kolkata Police's plan*.",
+ "learn": {
+  "t": "Kolkata Police has 1 lakh ID badges for children, so lost kids can be reunited with families quickly."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "👥",
+    "label": "Huge Puja crowds"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚑",
+    "label": "Ambulances at 14 spots"
+   },
+   {
+    "icon": "🧒",
+    "label": "ID badges for kids"
+   },
+   {
+    "icon": "🗺️",
+    "label": "Puja guide map"
+   }
+  ],
+  "event": {
+   "icon": "👮",
+   "label": "31,000 police on duty"
+  }
+ },
+ "order": 77,
+ "readSecs": 40,
+ "sort": "2026-10-14-22",
+ "sources": [
+  {
+   "name": "The Statesman",
+   "title": "Kolkata Police to deploy 31,000 personnel across city for Durga Puja",
+   "url": "https://www.thestatesman.com/cities/kolkata/kolkata-police-to-deploy-31000-personnel-across-city-for-durga-puja-1503650732.html"
+  },
+  {
+   "name": "UNI",
+   "title": "Kolkata Police to deploy 31,000 personnel during Durga Puja",
+   "url": "https://www.uniindia.com/east-india/security-wb-personnel-durga-puja/213025"
+  }
+ ],
+ "thread": "kol-puja",
+ "tldr": "Kolkata Police will put 31,000 personnel on Durga Puja duty and has ID badges ready for one lakh children.",
+ "topic": "Puja safety plan"
+}

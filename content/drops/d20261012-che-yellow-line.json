@@ -1,0 +1,136 @@
+{
+ "areas": [
+  "Poonamallee",
+  "Porur",
+  "Vadapalani",
+  "Iyyappanthangal",
+  "Karayanchavadi"
+ ],
+ "beats": {
+  "care": "Fares are Rs 10–40. Change at Vadapalani for the airport, Egmore or Central. The last train leaves at 9 pm.",
+  "what": "PM Modi and CM Vijay opened the 14.64 km elevated stretch with 11 stations on Oct 11. Regular service began Monday.",
+  "why": "West Chennai gets metro for the first time, linking Porur and Poonamallee to the older network at Vadapalani."
+ },
+ "cards": [
+  {
+   "body": "The minimum fare is Rs 10. Trains come every 10 minutes at weekday peaks, 15 minutes otherwise.",
+   "caption": "max fare, Poonamallee Bypass–Vadapalani",
+   "k": "num",
+   "value": "Rs 40"
+  },
+  {
+   "body": "Day-one riders asked for trains from 6 am to 11 pm for shift workers and more parking at Vadapalani. One said the AC bus costs Rs 50 and can take 1.5 hours at peak.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "The trains are built to run without drivers, but two operators ride on board for now.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, bye bus",
+    "Only if hours extend",
+    "Not on my route",
+    "Already rode it!"
+   ],
+   "q": "Will you switch to the new metro line?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It's where you switch to the older metro network",
+    "It's the only station with parking",
+    "It's where trains go driverless",
+    "It has the cheapest fare"
+   ],
+   "q": "Why is Vadapalani station so important on this line?",
+   "why": "At Vadapalani you can change to Phase I lines for Egmore, Central, Alandur and the airport."
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "cover": {
+  "bg": [
+   "#2a2205",
+   "#ffc400"
+  ],
+  "big": "25,474",
+  "label": "Riders on the new line's first day",
+  "motion": "rise",
+  "scene": [
+   "🚇",
+   "🟡",
+   "🏙️"
+  ]
+ },
+ "date": "2026-10-12",
+ "heat": 4,
+ "hook": "*25,474 people* rode Chennai's new metro line in its first 5 hours",
+ "lead": "local",
+ "learn": {
+  "t": "The new line has a 3.7 km double-decker stretch where two metro corridors meet and interchange."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚌",
+    "label": "Slow bus rides to Porur"
+   },
+   {
+    "icon": "🏗️",
+    "label": "Phase II metro work"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⏱️",
+    "label": "Train every 10–15 min"
+   },
+   {
+    "icon": "🔁",
+    "label": "Change at Vadapalani"
+   }
+  ],
+  "event": {
+   "icon": "🚇",
+   "label": "Poonamallee–Vadapalani line opens"
+  }
+ },
+ "order": 87,
+ "readSecs": 50,
+ "sort": "2026-10-12-12",
+ "sources": [
+  {
+   "name": "DT Next",
+   "title": "Over 25,000 passengers take ride on first day of new yellow line of Chennai Metro",
+   "url": "https://www.dtnext.in/news/chennai/over-25000-passengers-take-ride-on-first-day-of-new-yellow-line-of-chennai-metro"
+  },
+  {
+   "name": "DT Next",
+   "title": "Vadapalani–Poonamallee Metro: 10 key features, station list and train timings",
+   "url": "https://www.dtnext.in/news/chennai/vadapalanipoonamallee-metro-10-key-features-station-list-and-train-timings"
+  },
+  {
+   "name": "DT Next",
+   "title": "Chennai's new Metro line cuts travel time, commuters seek longer hours, better parking",
+   "url": "https://www.dtnext.in/news/chennai/chennais-new-metro-line-cuts-travel-time-commuters-seek-longer-hours-better-parking"
+  },
+  {
+   "name": "DD News",
+   "title": "Chennai Metro: PM Modi inaugurates Poonamallee-Vadapalani stretch, rides along with TN CM Vijay",
+   "url": "https://ddnews.gov.in/en/chennai-metro-pm-modi-inaugurates-poonamallee-vadapalani-stretch-rides-along-with-tn-cm-vijay/"
+  },
+  {
+   "name": "DT Next",
+   "title": "Poonamallee-Vadapalani Metro fares fixed at Rs 10-Rs 40 ahead of proposed October 11 inauguration",
+   "url": "https://www.dtnext.in/news/chennai/poonamalleevadapalani-metro-fare-to-start-at-rs-10-maximum-rs-40"
+  }
+ ],
+ "thread": "che-metro",
+ "tldr": "Chennai Metro's Poonamallee–Vadapalani line opened on Oct 11 and now runs daily from 7 am to 9 pm, with fares of Rs 10–40.",
+ "topic": "Yellow Line metro",
+ "watch": "Trains run with two operators for now; full driverless operation is expected by mid-2027."
+}

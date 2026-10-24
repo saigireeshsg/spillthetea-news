@@ -1,0 +1,17 @@
+{
+ "aqi": 107,
+ "aqiLabel": "Moderate",
+ "city": "Hyderabad",
+ "cond": "Dry and warm",
+ "high": 33,
+ "icon": "☀️",
+ "rain": "No rain yesterday (33.4° / 23.8°) · Bay of Bengal cyclone expected near the Andhra coast by Oct 28",
+ "src": [
+  {
+   "name": "The Hindu Weatherwatch (IMD, CPCB)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "tip": "Water supply may tighten this season: fix leaks, save water",
+ "ts": 1792817400000
+}

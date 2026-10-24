@@ -1,0 +1,97 @@
+{
+ "areas": [
+  "Cuffe Parade",
+  "Churchgate",
+  "Hutatma Chowk",
+  "CSMT",
+  "Worli",
+  "Siddhivinayak",
+  "Dharavi",
+  "BKC",
+  "Airport T2",
+  "Marol Naka"
+ ],
+ "beats": {
+  "care": "Cheap weekend plan: hop from Cuffe Parade to Marol Naka collecting stamps. Stock is limited, first come first served, digital payment only.",
+  "what": "From Oct 16, Mumbai Metro sells a limited-edition passport where riders collect stamps at 10 Aqua Line stations, for Rs 250.",
+  "why": "It's a special anniversary offer for Mumbai's first underground metro line."
+ },
+ "cards": [
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Free ride coupons",
+    "Stamps from 10 stations",
+    "Visa-style travel permits",
+    "Discount points for fares"
+   ],
+   "q": "What do you collect in the Aqua Line passport?",
+   "why": "It's a souvenir booklet that you fill with stamps from ten Line 3 stations."
+  },
+  {
+   "body": "The 33.5 km line from Aarey JVLR to Cuffe Parade runs daily from 5:55 am to 10:30 pm.",
+   "caption": "Aqua Line fare range",
+   "k": "num",
+   "value": "Rs 10–70"
+  },
+  {
+   "body": "Cuffe Parade, Churchgate, Hutatma Chowk, CSMT Metro, Worli, Siddhivinayak, Dharavi, BKC, CSMIA-T2 and Marol Naka.",
+   "k": "tea",
+   "title": "Where are the stamps?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, this weekend",
+    "Only stations near me",
+    "Just buying it as a souvenir",
+    "Nah, skip"
+   ],
+   "q": "Would you do the full stamp trail?"
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "date": "2026-10-17",
+ "heat": 2,
+ "hook": "Can a *metro ride* get you passport stamps in Mumbai?",
+ "learn": {
+  "t": "About 7 crore passengers have ridden the Aqua Line since it began running on October 8, 2025."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎂",
+    "label": "Aqua Line turns one"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚇",
+    "label": "Station-hopping trail"
+   },
+   {
+    "icon": "📸",
+    "label": "Social media stamp posts"
+   }
+  ],
+  "event": {
+   "icon": "📘",
+   "label": "Rs 250 stamp passport launched"
+  }
+ },
+ "order": 55,
+ "readSecs": 35,
+ "sort": "2026-10-17-44",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Mumbai Metro Launches Aqua Line Passport At 10 Stations For Rs 250",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-metro-launches-aqua-line-passport-at-10-stations-for-rs-250-check-details-here"
+  }
+ ],
+ "thread": "mum-metro",
+ "tldr": "Mumbai Metro is selling a Rs 250 collectible Aqua Line 'passport' that you fill with stamps from 10 underground stations.",
+ "topic": "Metro stamp passport"
+}

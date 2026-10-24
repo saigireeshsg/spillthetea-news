@@ -1,0 +1,100 @@
+{
+ "beats": {
+  "care": "Travelling to Vizag, Kakinada or Odisha this week, or have family there? Check alerts and plan around Oct 27–28.",
+  "what": "IMD says the system could become a depression today, a deep depression Sunday, and a cyclonic storm by Monday morning.",
+  "why": "Landfall may be between Gopalpur in Odisha and Kakinada in Andhra Pradesh. Some models show winds up to 145 km/h and a 1–2 metre storm surge."
+ },
+ "cards": [
+  {
+   "body": "Odisha cancelled officials' leave and put NDRF and ODRAF teams on standby. Red alerts are out for Puri, Ganjam and Gajapati on Oct 27, and several north Andhra districts on Oct 27–28.",
+   "k": "tea"
+  },
+  {
+   "body": "After the monsoon, the Bay of Bengal stays warm and winds are favourable, so October to December is its busiest cyclone season.",
+   "k": "why",
+   "title": "why so many cyclones in October?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes",
+    "No",
+    "Travelling there soon"
+   ],
+   "q": "Do you have family on the Odisha or Andhra coast?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Gopalpur and Kakinada",
+    "Chennai and Puducherry",
+    "Mumbai and Goa",
+    "Kolkata and Digha"
+   ],
+   "q": "Between which two places might the storm cross the coast?",
+   "why": "Odisha's minister said models point to landfall between Gopalpur (Odisha) and Kakinada (A.P.)."
+  }
+ ],
+ "cat": "india",
+ "cover": {
+  "bg": [
+   "#0b2a4a",
+   "#4fbcff"
+  ],
+  "big": "145 km/h",
+  "label": "possible winds if the cyclone turns very severe",
+  "motion": "drift",
+  "scene": [
+   "🌀",
+   "🌊",
+   "🌧️"
+  ]
+ },
+ "date": "2026-10-24",
+ "heat": 4,
+ "hook": "A *cyclone* may hit the Odisha–Andhra coast by Monday",
+ "learn": {
+  "t": "A storm surge is sea water pushed onto land by a cyclone's winds. It often causes more damage than the wind itself."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌡️",
+    "label": "Low pressure in the Bay"
+   },
+   {
+    "icon": "🍂",
+    "label": "Post-monsoon cyclone season"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚨",
+    "label": "Red alerts in coastal districts"
+   },
+   {
+    "icon": "🚤",
+    "label": "Fishermen told to return"
+   }
+  ],
+  "event": {
+   "icon": "🌀",
+   "label": "Storm heading for Odisha–A.P."
+  }
+ },
+ "order": 7,
+ "readSecs": 55,
+ "sort": "2026-10-24-92",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Odisha, A.P. brace for storm as low pressure intensifies (print, Hyderabad edition, 24 Oct, p.12)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "thread": "bay-cyclone",
+ "tldr": "A low-pressure area in the Bay of Bengal could become a severe cyclone and cross the south Odisha–north Andhra coast by October 28.",
+ "topic": "Bay of Bengal cyclone",
+ "watch": "IMD will name the storm and fix the landfall point over the weekend. Watch for evacuation orders on Oct 26–27."
+}

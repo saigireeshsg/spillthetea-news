@@ -1,0 +1,89 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Moved to Pune for college or work? Check your name, then register or change your address before Oct 26.",
+  "what": "Booth-level officers will sit at all polling stations on Oct 17, 18, 24 and 25 to take new registrations and corrections.",
+  "why": "District election officer Jitendra Dudi says the aim is that no eligible voter is left out of the roll."
+ },
+ "cards": [
+  {
+   "body": "They will help at polling stations during the four camp days.",
+   "caption": "Booth-level officers on duty",
+   "k": "num",
+   "value": "8,424"
+  },
+  {
+   "ans": 2,
+   "k": "quiz",
+   "opts": [
+    "Form 6",
+    "Form 7",
+    "Form 8",
+    "No form needed"
+   ],
+   "q": "You just moved from Nashik to a Pune flat. Which form updates your voter address?",
+   "why": "Form 8 covers change of residence and corrections; Form 6 is for brand-new voters."
+  },
+  {
+   "body": "You can call the voter helpline at 1950, or visit the help desk at the district election office or your electoral registration officer's office.",
+   "k": "tea",
+   "title": "Can't make it?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, checked",
+    "No idea tbh",
+    "Still registered back home",
+    "Signing up this weekend"
+   ],
+   "q": "Is your name on the voter list?"
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "date": "2026-10-17",
+ "heat": 3,
+ "hook": "Is your name on the voter list, or *missing* without you knowing?",
+ "learn": {
+  "t": "Form 6 registers a new voter, while Form 8 fixes your address, details or replaces your voter ID card."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📋",
+    "label": "Draft voter roll out"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🆕",
+    "label": "New voters sign up"
+   },
+   {
+    "icon": "✏️",
+    "label": "Errors get fixed"
+   }
+  ],
+  "event": {
+   "icon": "🗳️",
+   "label": "Camps at all polling stations"
+  }
+ },
+ "order": 70,
+ "readSecs": 40,
+ "sort": "2026-10-17-29",
+ "sources": [
+  {
+   "name": "Punekar News",
+   "title": "Four-Day Special Drive at All Pune Polling Stations to Update Pune Electoral rolls; Claims Open Till Oct 26",
+   "url": "https://www.punekarnews.in/four-day-special-drive-at-all-pune-polling-stations-to-update-pune-electoral-rolls-claims-open-till-oct-26/"
+  }
+ ],
+ "thread": "pun-civic",
+ "tldr": "Every polling station in Pune district holds voter camps on Oct 17, 18, 24 and 25, and claims close Oct 26.",
+ "topic": "Voter registration camps",
+ "watch": "Claims and objections on the draft electoral roll close on October 26."
+}

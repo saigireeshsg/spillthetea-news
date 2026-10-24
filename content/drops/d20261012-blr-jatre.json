@@ -1,0 +1,93 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Your college club or band could be part of it. Registration is open on bengalurujatre.in.",
+  "what": "GBA says 300+ organisations, including IIM-B and NGMA, and 80 artists like Swarathma have joined Bengaluru Jatre.",
+  "why": "The idea is a city-wide festival where neighbourhoods, colleges, companies and NGOs host their own events."
+ },
+ "cards": [
+  {
+   "body": "Artists on the list include Swarathma, Aditya Prakash Ensemble, Manasi Prasad and Mystik Vibes. Resident associations have also enquired, and GBA expects more confirmations.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Events spread across the city instead of one big ground.",
+   "caption": "days, Dec 4–13",
+   "k": "num",
+   "value": "10"
+  },
+  {
+   "body": "\"There is no single format,\" says minister Krishna Byre Gowda, so groups can shape their own events.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Already planning!",
+    "Maybe",
+    "We'd just attend",
+    "What's a Jatre?"
+   ],
+   "q": "Would your college host a Jatre event?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It's spread across the city with no central venue",
+    "It only shows films",
+    "It's only for IT employees",
+    "It lasts one day"
+   ],
+   "q": "What makes Bengaluru Jatre different from a usual festival?",
+   "why": "Instead of one ground, groups host events in their own neighbourhoods under the Jatre name."
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "date": "2026-10-12",
+ "heat": 2,
+ "hook": "A festival with *no main venue*? Bengaluru is trying one in December",
+ "learn": {
+  "t": "Bengaluru Jatre has no central venue; events happen across the city under one shared name."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏙️",
+    "label": "GBA's city festival plan"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🎶",
+    "label": "Gigs across neighbourhoods"
+   },
+   {
+    "icon": "🎓",
+    "label": "Colleges can host events"
+   }
+  ],
+  "event": {
+   "icon": "🎪",
+   "label": "300+ groups sign up"
+  }
+ },
+ "order": 60,
+ "readSecs": 35,
+ "sort": "2026-10-12-39",
+ "sources": [
+  {
+   "name": "Deccan Herald",
+   "title": "300 organisations, 80 artists sign up for Bengaluru Jatre: GBA",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/300-organisations-80-artists-sign-up-for-bengaluru-jatre-gba-4179097"
+  }
+ ],
+ "thread": "blr-events",
+ "tldr": "Over 300 organisations and 80 artists have signed up for Bengaluru Jatre, a 10-day citywide festival from Dec 4 to 13.",
+ "topic": "Bengaluru Jatre",
+ "watch": "Festival runs December 4–13; colleges, RWAs and groups can register at bengalurujatre.in."
+}

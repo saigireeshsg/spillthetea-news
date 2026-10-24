@@ -1,0 +1,90 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Going out with a younger sibling or grandparent? Save your number on them, and approach the nearest cop if anyone goes missing.",
+  "what": "Ten police vans, each with a woman constable and a volunteer, are patrolling pandals from Panchami to Dashami, into the early hours.",
+  "why": "Children and elderly people are most likely to get separated in dense Puja crowds."
+ },
+ "cards": [
+  {
+   "ans": 2,
+   "k": "quiz",
+   "opts": [
+    "Post on Instagram and wait",
+    "Go home and check there",
+    "Tell the nearest police person right away",
+    "Wait at the metro station"
+   ],
+   "q": "If your little cousin gets lost at a pandal, what's the quickest first step?",
+   "why": "Police say to reach the nearest officer; a report gets shared with every station in the city."
+  },
+  {
+   "body": "Each van carries a sub-inspector or ASI, a constable, a woman constable and a volunteer. Found children are taken to the nearest police station and looked after by women officers.",
+   "k": "tea",
+   "title": "What's in the van"
+  },
+  {
+   "body": "The crews carry balloons, chips and chocolates to calm lost kids.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, always",
+    "Phones are enough",
+    "Never thought of it"
+   ],
+   "q": "Does your group have a 'lost' meeting spot?"
+  }
+ ],
+ "cat": "local",
+ "city": "Kolkata",
+ "date": "2026-10-17",
+ "heat": 2,
+ "hook": "What should you do if someone in your group *gets lost* at a pandal?",
+ "learn": {
+  "t": "A missing-child report at one pandal is passed to the local police station, which alerts every other station in the city."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "👨‍👩‍👧",
+    "label": "Huge pandal crowds"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🧒",
+    "label": "Lost kids reunited"
+   },
+   {
+    "icon": "👵",
+    "label": "Elders helped home"
+   }
+  ],
+  "event": {
+   "icon": "🚓",
+   "label": "10 Bondhu Kolkata vans launched"
+  }
+ },
+ "order": 51,
+ "readSecs": 35,
+ "sort": "2026-10-17-48",
+ "sources": [
+  {
+   "name": "The Statesman",
+   "title": "Lost while pandal-hopping? Kolkata Police launch initiative to reunite families this Durga Puja",
+   "url": "https://www.thestatesman.com/cities/kolkata/lost-while-pandal-hopping-kolkata-police-launch-initiative-to-reunite-families-this-durga-puja-1503651656.html"
+  },
+  {
+   "name": "Asianet Newsable",
+   "title": "Durga Puja 2026: Kolkata Police Introduce New App To Trace Missing Persons During Pandal Hopping",
+   "url": "https://newsable.asianetnews.com/india/durga-puja-2026-kolkata-police-introduce-new-app-to-trace-missing-persons-during-pandal-hopping-articleshow-6exh9p3"
+  }
+ ],
+ "thread": "kol-puja",
+ "tldr": "Kolkata Police have put 10 'Bondhu Kolkata' vans on the streets till Dashami to find kids and elders who get separated from family in Puja crowds.",
+ "topic": "Lost-and-found patrols"
+}

@@ -1,0 +1,97 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Next time you or a parent gets treated, ask for an itemised bill. You can compare what the hospital paid with what you paid.",
+  "what": "A state drugs regulator circular says bills must list purchase cost, MRP and the price charged for medicines, implants and consumables.",
+  "why": "The regulator said patients are billed near MRP \"without any transparency\". It wants patients to see the gap."
+ },
+ "cards": [
+  {
+   "body": "Applies to government, private and trust hospitals, clinics, nursing homes and diagnostic centres.",
+   "caption": "Start date",
+   "k": "num",
+   "value": "Nov 1"
+  },
+  {
+   "body": "Each line must show the generic and brand name, batch number, expiry date, MRP, price charged and taxes. The price charged can't cross MRP.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "The rule covers outpatient visits too, not just hospital stays.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Always",
+    "Sometimes",
+    "Never",
+    "Parents handle it"
+   ],
+   "q": "Do you check medicine prices on bills?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "What the hospital paid to buy each item",
+    "The doctor's salary",
+    "The patient's insurance score",
+    "Only the total amount"
+   ],
+   "q": "What new detail must Karnataka hospital bills show?",
+   "why": "Bills must now list the procurement cost alongside MRP and the price the patient pays."
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "date": "2026-10-14",
+ "heat": 3,
+ "hook": "Ever wondered what a hospital *actually paid* for your medicine?",
+ "learn": {
+  "t": "State drug inspectors flagged pricing concerns on 253 medicines and consumables before this order, South First reports."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💊",
+    "label": "Billing near MRP"
+   },
+   {
+    "icon": "🔍",
+    "label": "253 items flagged"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "👀",
+    "label": "Patients see the markup"
+   },
+   {
+    "icon": "📋",
+    "label": "Notices at counters"
+   }
+  ],
+  "event": {
+   "icon": "🧾",
+   "label": "Bills must show purchase cost"
+  }
+ },
+ "order": 62,
+ "readSecs": 45,
+ "sort": "2026-10-14-37",
+ "sources": [
+  {
+   "name": "South First",
+   "title": "What hospitals pay versus what patients pay: Karnataka orders disclosure of medicine costs on bills",
+   "url": "https://thesouthfirst.com/health/what-hospitals-pay-versus-what-patients-pay-karnataka-orders-disclosure-of-medicine-costs-on-bills/"
+  }
+ ],
+ "thread": "blr-health-costs",
+ "tldr": "From November 1, Karnataka hospitals must show what they paid for medicines and supplies on every patient's bill.",
+ "topic": "Hospital bill transparency",
+ "watch": "New-format itemised bills become mandatory in all Karnataka hospitals and clinics from November 1, 2026."
+}

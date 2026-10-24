@@ -1,0 +1,98 @@
+{
+ "areas": [
+  "Gachibowli",
+  "Secunderabad",
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Renting a room or PG near the IT corridor? Ask whether the building has approval for all its floors, especially new, narrow towers.",
+  "what": "GHMC and Malkajgiri corporation have flagged about 1,000 illegal buildings, and Cyberabad corporation has demolished 500 structures so far.",
+  "why": "Two under-construction buildings collapsed at Anjaiah Nagar in Gachibowli, killing two people, and a multi-storey building tilted in Gopanpally."
+ },
+ "cards": [
+  {
+   "body": "Malkajgiri commissioner T Vinay Krishna Reddy said the drive against illegal construction has been stepped up over the past month. His corporation has razed over 100 buildings still under construction.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Siasat notes that is about as many as GHMC used to flag in a whole year.",
+   "caption": "illegal structures flagged across three corporations",
+   "k": "num",
+   "value": "1,500"
+  },
+  {
+   "body": "Officials are mainly hitting buildings still under construction, before families move in.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, always",
+    "Fine owners instead",
+    "Only if unsafe"
+   ],
+   "q": "Should illegal floors be demolished?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "They can collapse and hurt neighbours",
+    "They block the metro",
+    "They use too much water",
+    "They are too expensive"
+   ],
+   "q": "Why are officials targeting tall buildings on small plots?",
+   "why": "Floors added without approval on tiny plots can be structurally unsafe, as the Gachibowli collapse showed."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-21",
+ "heat": 3,
+ "hook": "7 floors on a *50-yard plot*? Hyderabad is flagging 1,500 such buildings",
+ "learn": {
+  "t": "Officials are targeting five-to-seven-floor buildings squeezed onto tiny 50–75 square yard plots, which can endanger neighbours."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏚️",
+    "label": "Gachibowli collapse kills two"
+   },
+   {
+    "icon": "🏢",
+    "label": "Gopanpally building tilts"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚧",
+    "label": "Demolitions within two weeks"
+   },
+   {
+    "icon": "🏠",
+    "label": "Renters should check approvals"
+   }
+  ],
+  "event": {
+   "icon": "📋",
+   "label": "1,500+ illegal buildings flagged"
+  }
+ },
+ "order": 10,
+ "readSecs": 55,
+ "sort": "2026-10-21-89",
+ "sources": [
+  {
+   "name": "Siasat Daily",
+   "title": "After building collapse, Hyderabad flags 1500 illegal structures",
+   "url": "https://www.siasat.com/after-building-collapse-hyderabad-flags-1500-illegal-structures-3561207/"
+  }
+ ],
+ "thread": "hyd-illegal-buildings",
+ "tldr": "After a deadly building collapse in Gachibowli, Hyderabad's civic bodies have flagged over 1,500 illegal structures.",
+ "topic": "Illegal building crackdown",
+ "watch": "Officials say demolitions follow within two weeks of a notice, and the drive will continue across the city."
+}

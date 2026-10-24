@@ -1,0 +1,93 @@
+{
+ "beats": {
+  "care": "Going home for Diwali? South Central Railway is running about 600 special trains, and some still have berths. Compare dates before booking.",
+  "what": "One-way flights from Hyderabad to Patna or Chandigarh around Diwali now cost about 22,000 rupees, up from about 9,000 normally.",
+  "why": "Lots of people fly home for Diwali. Travel agents say seats are limited, partly because of uncertainty in the Middle East."
+ },
+ "cards": [
+  {
+   "body": "Agents say fares to Kolkata, Guwahati, Lucknow, Bhopal and Indore have climbed too, and may rise further as bookings pile up. The Travel Agents Federation of India's Telangana and AP chapter says seats just aren't keeping up with demand.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "About ₹9,000 on a normal day.",
+   "caption": "One-way Hyderabad to Patna or Chandigarh",
+   "k": "num",
+   "value": "₹22,000"
+  },
+  {
+   "body": "Airlines use dynamic pricing: as seats fill up, the remaining ones get pricier. Festival weeks fill fast, so last-minute bookers pay the most.",
+   "k": "why",
+   "title": "why do fares jump?"
+  },
+  {
+   "body": "A ticket from Hyderabad to Singapore, Malaysia or Bangkok costs about ₹15,000 to ₹18,000 right now, less than flying to Patna.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, obviously",
+    "No, time is money",
+    "Only with a good berth"
+   ],
+   "q": "Would you take a 30-hour train to save ₹15,000?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Demand to fly home is high and seats are limited",
+    "Fuel became free",
+    "Airports raised parking fees",
+    "Trains stopped running"
+   ],
+   "q": "Why are Diwali flight fares so high?",
+   "why": "When lots of people want the same few seats, dynamic pricing pushes fares up fast."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-10",
+ "heat": 3,
+ "hook": "Why does Hyderabad to Patna cost *more than Bangkok* this Diwali?",
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Diwali trips home"
+   },
+   {
+    "icon": "✈️",
+    "label": "Limited seats, agents say"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🌏",
+    "label": "Bangkok cheaper at ₹15–18k"
+   },
+   {
+    "icon": "🚆",
+    "label": "600 special trains running"
+   }
+  ],
+  "event": {
+   "icon": "💸",
+   "label": "Patna fare hits ₹22,000"
+  }
+ },
+ "order": 12,
+ "readSecs": 40,
+ "sort": "2026-10-10-87",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Ahead of Diwali, Hyderabad domestic flights costlier than int'l fares",
+   "url": "https://www.siasat.com/ahead-of-diwali-hyderabad-domestic-flights-costlier-than-intl-fares-3554091/"
+  }
+ ],
+ "tldr": "Diwali demand and limited seats have pushed some one-way fares from Hyderabad to ₹22,000, more than flights to Southeast Asia.",
+ "topic": "Diwali flight fares"
+}

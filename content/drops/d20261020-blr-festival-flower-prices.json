@@ -1,0 +1,103 @@
+{
+ "areas": [
+  "KR Market",
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Doing a vehicle or desk pooja? Buy only what you need. Shoppers hope prices ease once the festival rush ends.",
+  "what": "At KR Market, jasmine sold for roughly ₹1,400–2,000 a kg and sevanthige for ₹250–400, three outlets reported.",
+  "why": "Traders blame lower crop yields and rain damage, while Ayudha Pooja and Dasara demand peaked at the same time."
+ },
+ "cards": [
+  {
+   "body": "Reported rates differ by outlet and time of day, but all three put jasmine well above ₹1,000 a kg.",
+   "caption": "a kg of jasmine at KR Market",
+   "k": "num",
+   "value": "₹1,400–2,000"
+  },
+  {
+   "body": "Sevanthige hit up to ₹400 a kg, Asianet Newsable reported, against a usual high of ₹80. A pair of banana stems for vehicle pooja went up to ₹120.",
+   "k": "tea",
+   "title": "What else got pricey"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "A new GST on flowers",
+    "Weather-hit crops met peak festival demand",
+    "KR Market shut for repairs",
+    "Flowers were banned from other states"
+   ],
+   "q": "Why did flower prices jump this festival?",
+   "why": "Traders blamed poor yields and rain damage, at the very moment everyone wanted flowers."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Bought anyway",
+    "Cut down this year",
+    "Went for marigolds",
+    "Skipped flowers"
+   ],
+   "q": "Your festival flower plan?"
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "date": "2026-10-20",
+ "heat": 2,
+ "hook": "Why did *jasmine cost so much* at KR Market this Dasara?",
+ "learn": {
+  "t": "Traders say festive prices usually rise 5–10%, but some items jumped as much as 50% this year."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Rain damaged flower crops"
+   },
+   {
+    "icon": "🪔",
+    "label": "Festival demand peaks"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🛍️",
+    "label": "Shoppers buy less"
+   },
+   {
+    "icon": "💸",
+    "label": "Pooja costs more"
+   }
+  ],
+  "event": {
+   "icon": "🌼",
+   "label": "Flower prices shoot up"
+  }
+ },
+ "order": 77,
+ "readSecs": 40,
+ "sort": "2026-10-20-22",
+ "sources": [
+  {
+   "name": "Asianet Newsable",
+   "title": "Bengaluru Festival Rush: Flower and Fruit Prices Soar Ahead of Ayudha Pooja",
+   "url": "https://newsable.asianetnews.com/karnataka-news/bengaluru-festival-rush-flower-fruit-prices-soar-ahead-of-ayudha-pooja-articleshow-0qdnxsg"
+  },
+  {
+   "name": "Public TV",
+   "title": "Ayudha Puja, Vijayadashami: buying brisk in Bengaluru despite price hikes",
+   "url": "https://publictv.in/ayudha-puja-dasara-buying-remains-brisk-in-bengaluru-despite-price-hikes/"
+  },
+  {
+   "name": "Pratidhvani",
+   "title": "Price hikes hit Ayudha Puja and Dasara: flower and fruit prices at K R Market",
+   "url": "https://pratidhvani.com/the-heat-of-price-hikes-hits-ayudha-puja-and-dasara-celebrations-what-are-the-prices-of-flowers-and-fruits-at-k-r-market/"
+  }
+ ],
+ "thread": "blr-prices",
+ "tldr": "Jasmine sold for about ₹1,400–2,000 a kg at KR Market for the Dasara festivals, as weather-hit crops pushed prices up.",
+ "topic": "Festival flower prices"
+}

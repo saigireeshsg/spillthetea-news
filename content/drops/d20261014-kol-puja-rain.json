@@ -1,0 +1,113 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Plan early pandal visits with an umbrella. Forecasters don't expect widespread or nonstop rain.",
+  "what": "IMD forecasts light rain at a few places on Chaturthi (Oct 14), then light to moderate rain on Panchami (Oct 15). Gusty winds are possible.",
+  "why": "A low-pressure area over the Bay of Bengal is pushing moisture towards south Bengal."
+ },
+ "cards": [
+  {
+   "body": "Alipore weather office says Shashthi (Oct 16) may bring thunderstorms with 40–50 km/h gusts, but no heavy, continuous rain.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Only light rain at a few spots in South 24 Parganas and East Midnapore by then.",
+   "caption": "When it should dry out",
+   "k": "num",
+   "value": "Oct 18"
+  },
+  {
+   "body": "The late Puja days — Ashtami to Dashami — currently look mostly dry.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Obviously!",
+    "Only if dry",
+    "Ashtami only",
+    "Watching on reels"
+   ],
+   "q": "Rain or not, are you pandal-hopping?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Panchami and Shashthi",
+    "Ashtami and Navami",
+    "Dashami only",
+    "None at all"
+   ],
+   "q": "Which Puja days have the highest rain risk?",
+   "why": "IMD's forecast shows rain peaking Oct 15–16, easing from Oct 18."
+  }
+ ],
+ "cat": "local",
+ "city": "Kolkata",
+ "cover": {
+  "bg": [
+   "#0d1b3a",
+   "#5ab0ff"
+  ],
+  "big": "15–16",
+  "label": "Rain risk peaks on Panchami, Shashthi",
+  "motion": "drift",
+  "scene": [
+   "🌧️",
+   "🪔",
+   "☂️"
+  ]
+ },
+ "date": "2026-10-14",
+ "heat": 4,
+ "hook": "Will rain *spoil pandal-hopping* this Puja?",
+ "lead": "local",
+ "learn": {
+  "t": "A low-pressure area over the southeast Bay of Bengal is behind the Puja-week rain, forecasters say."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌀",
+    "label": "Bay of Bengal low"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "☂️",
+    "label": "Wet Panchami, Shashthi"
+   },
+   {
+    "icon": "🌤️",
+    "label": "Drier Ashtami onwards"
+   }
+  ],
+  "event": {
+   "icon": "🌧️",
+   "label": "Puja-week thundershowers"
+  }
+ },
+ "order": 85,
+ "readSecs": 40,
+ "sort": "2026-10-14-14",
+ "sources": [
+  {
+   "name": "Millennium Post",
+   "title": "Pandal-hoppers, take note! IMD predicts rain from October 14",
+   "url": "https://www.millenniumpost.in/bengal/pandal-hoppers-take-note-imd-predicts-rain-from-october-14-679553"
+  },
+  {
+   "name": "Asianet Newsable",
+   "title": "Kolkata Weather LATEST Update: Rain Alert Issued During Durga Puja; Check Tritiya Forecast",
+   "url": "https://newsable.asianetnews.com/gallery/india/kolkata-weather-latest-update-rain-alert-issued-during-durga-puja-m934fc1"
+  }
+ ],
+ "thread": "kol-weather",
+ "tldr": "IMD expects light to moderate rain and thundershowers in Kolkata around Panchami and Shashthi, with drier days later in Puja.",
+ "topic": "Puja rain forecast",
+ "watch": "Rain risk is highest Oct 15–16; most of south Bengal should dry out from October 18."
+}

@@ -1,0 +1,97 @@
+{
+ "areas": [
+  "Dakshineswar",
+  "Uttarpara",
+  "New Town",
+  "Salt Lake",
+  "Chinar Park"
+ ],
+ "beats": {
+  "care": "Buses leave Bagkhal at 8:30 and 9 am, and Karunamoyee at 5:30 and 6 pm. Fares follow WBTC's chart.",
+  "what": "AC-59 runs Bagkhal–Karunamoyee via Uttarpara, Dakshineswar, the Airport, Chinar Park and New Town, under a WBTC order.",
+  "why": "It gives the Uttarpara–Dakshineswar side a direct AC ride to the New Town and Salt Lake office belt."
+ },
+ "cards": [
+  {
+   "body": "Just two trips each way per day for now.",
+   "caption": "Bagkhal to Karunamoyee",
+   "k": "num",
+   "value": "37 km"
+  },
+  {
+   "body": "WBTC is running it in one-shift mode from its Salt Lake and Belgharia depots. Reports differ on the start date, but it runs until further notice.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, no changes!",
+    "Too few trips",
+    "I'll stick to metro",
+    "Not my route"
+   ],
+   "q": "Would you take AC-59 to work?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Office-goers heading to Salt Lake–New Town",
+    "Night-shift workers",
+    "Weekend tourists",
+    "School students at noon"
+   ],
+   "q": "Who is AC-59's timetable mainly built for?",
+   "why": "Morning trips go towards Salt Lake and evening trips come back, matching office hours."
+  }
+ ],
+ "cat": "local",
+ "city": "Kolkata",
+ "date": "2026-10-12",
+ "heat": 2,
+ "hook": "One AC bus from *Uttarpara to Salt Lake*, via the airport",
+ "learn": {
+  "t": "AC-59 runs towards Salt Lake only in the morning and back only in the evening, timed for office-goers."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏢",
+    "label": "Commute to office hubs"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "✈️",
+    "label": "Stops via the Airport"
+   },
+   {
+    "icon": "🕗",
+    "label": "Morning and evening trips"
+   }
+  ],
+  "event": {
+   "icon": "🚌",
+   "label": "AC-59 route launched"
+  }
+ },
+ "order": 68,
+ "readSecs": 35,
+ "sort": "2026-10-12-31",
+ "sources": [
+  {
+   "name": "Millennium Post",
+   "title": "WBTC to launch new AC bus service",
+   "url": "https://www.millenniumpost.in/bengal/wbtc-to-launch-new-ac-bus-service-679427"
+  },
+  {
+   "name": "India Hood Bangla",
+   "title": "যাত্রী সুবিধার্থে কলকাতায় নতুন এসি বাস রুট চালু করল WBTC, জানুন খুঁটিনাটি",
+   "url": "https://indiahood.in/news/west-bengal/wbtc-ac-bagkhal-karunamoyee-bus-check-out-route-and-timetable-ans-11-10/430190/"
+  }
+ ],
+ "thread": "kol-commute",
+ "tldr": "WBTC has launched AC-59, a 37 km AC bus from Bagkhal near Uttarpara to Karunamoyee in Salt Lake via the airport and New Town.",
+ "topic": "New AC bus route"
+}

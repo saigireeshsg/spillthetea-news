@@ -1,0 +1,166 @@
+{
+ "beats": {
+  "care": "If you're 18+, your name must be on the list to vote. Check it on the Election Commission's voter website.",
+  "what": "Opposition MPs marched to demand the Chief Election Commissioner resign. Rahul and Priyanka Gandhi were detained several times.",
+  "why": "They say the nationwide re-check of voter lists (SIR) is removing real voters. Over 130 million names are off so far."
+ },
+ "cards": [
+  {
+   "body": "On 6 and 7 Oct, MPs from the opposition INDIA bloc marched in Delhi demanding that Chief Election Commissioner Gyanesh Kumar resign. Police detained Rahul Gandhi, Priyanka Gandhi Vadra and others a few times, then let them go.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "The Election Commission is re-checking the voter lists across the country (it's called SIR). The opposition says the process is unfair and that real voters are being removed. They call it 'vote chori' (vote theft).",
+   "k": "why",
+   "title": "what are they actually fighting about?"
+  },
+  {
+   "body": "This opinion piece argues SIR puts the burden on voters to prove they belong on the list. Missing a single visit from an official can get your name dropped, with no second check. And getting back on is harder than getting removed.",
+   "k": "edit",
+   "kind": "Op-ed · 9 Oct",
+   "paper": "The Hindu",
+   "title": "Flawed by design, exclusionary in impact",
+   "verdict": "It points to a 1995 Supreme Court ruling: removing a voter without notice and a hearing violates the right to vote."
+  },
+  {
+   "body": "That's per Al Jazeera's report. Millions of people have appealed to get back on the list.",
+   "caption": "names removed from voter lists so far",
+   "k": "num",
+   "value": "130M+"
+  },
+  {
+   "a": {
+    "body": "The voter-list check is being misused, and the election chief allegedly made decisions even when the other two commissioners objected. He should resign.",
+    "label": "The opposition says"
+   },
+   "b": {
+    "body": "Voter lists need cleaning (people move, pass away, get listed twice). Kumar hasn't publicly responded to the resign demand, and on Monday the Supreme Court refused to stop him from working for now.",
+    "label": "On the other side"
+   },
+   "k": "sides",
+   "note": "Fun fact: some placards at the march literally said 'Gyanesh, it's done, bro.'",
+   "title": "Both sides, simply"
+  },
+  {
+   "body": "If you're 18+, check that your name is still on the voter list on the Election Commission's voter website. It takes 2 minutes, and you'll want to vote in the next election.",
+   "k": "you",
+   "title": ""
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "A new tax",
+    "A re-check of voter lists",
+    "A court case",
+    "A cricket review system"
+   ],
+   "q": "What is 'SIR' in this story?",
+   "why": "SIR = Special Intensive Revision: the Election Commission re-checking who's on the voter list."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, just talk",
+    "No",
+    "Not sure"
+   ],
+   "q": "Should the Election Commission meet the protesting MPs?"
+  },
+  {
+   "by": "31 Dec",
+   "k": "predict",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "q": "Will Gyanesh Kumar still be the election chief on 31 Dec?"
+  }
+ ],
+ "cat": "india",
+ "cover": {
+  "bg": [
+   "#24123a",
+   "#ff8717"
+  ],
+  "big": "130M+",
+  "label": "names removed from voter lists",
+  "motion": "pulse",
+  "scene": [
+   "🗳️",
+   "📋",
+   "🚨"
+  ]
+ },
+ "date": "2026-10-09",
+ "heat": 5,
+ "hook": "Why do opposition MPs keep getting *detained* in Delhi?",
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "EC re-checks voter lists"
+   },
+   {
+    "icon": "❌",
+    "label": "130M+ names removed"
+   },
+   {
+    "icon": "⚠️",
+    "label": "Opposition cries unfair"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🙋",
+    "label": "Demand: CEC must resign"
+   },
+   {
+    "icon": "🤐",
+    "label": "CEC yet to respond"
+   },
+   {
+    "icon": "✅",
+    "label": "Check your name on the list"
+   }
+  ],
+  "event": {
+   "icon": "🚨",
+   "label": "MPs march, get detained"
+  }
+ },
+ "order": 3,
+ "readSecs": 90,
+ "sort": "2026-10-09-96",
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Indian opposition leader Rahul Gandhi detained over election chief protest",
+   "url": "https://www.aljazeera.com/news/2026/10/7/indian-opposition-leader-rahul-gandhi-detained-over-election-chief-protest"
+  },
+  {
+   "name": "The News Minute",
+   "title": "SIR row: Rahul, Priyanka detained during INDIA bloc protest",
+   "url": "https://www.thenewsminute.com/news/sir-row-rahul-priyanka-detained-during-india-bloc-protest-against-cec-gyanesh-kumar"
+  },
+  {
+   "name": "The Week",
+   "title": "Rahul, Priyanka enter Akashvani Bhavan during protest",
+   "url": "https://www.theweek.in/news/india/2026/10/06/rahul-priyanka-gandhi-enter-akashvani-bhavan-during-india-bloc-protest-against-cec.amp.html"
+  },
+  {
+   "name": "Khaleej Times / AFP",
+   "title": "Rahul Gandhi detained at election protest",
+   "url": "https://www.khaleejtimes.com/world/asia/india-opposition-leader-rahul-gandhi-detained-election-protest?amp=1"
+  },
+  {
+   "name": "Legacy IAS (summary of The Hindu op-ed)",
+   "title": "The Hindu news analysis, 9 October 2026",
+   "url": "https://legacyias.com/the-hindu-upsc-news-analysis-for-09-october-2026"
+  }
+ ],
+ "storyline": "sir",
+ "tldr": "Opposition parties want India's top election official to resign over how voter lists are being cleaned up.",
+ "topic": "Voter-list protest"
+}

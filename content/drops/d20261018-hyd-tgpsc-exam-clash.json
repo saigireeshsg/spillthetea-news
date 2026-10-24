@@ -1,0 +1,106 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "If you're a civil engineering grad, you may have to choose between a state and a central job exam unless TGPSC changes the date.",
+  "what": "On Saturday, job aspirants sat in protest outside the TGPSC office in Nampally, with police deployed, asking for the AEE exam to be moved.",
+  "why": "TGPSC's Roads and Buildings AEE (Civil) exam clashes with the SSC Junior Engineer exam, and many civil engineers wrote both."
+ },
+ "cards": [
+  {
+   "body": "Protesters say they have gone to TGPSC for 10 days without a positive reply. BRS leaders Dasoju Sravan Kumar, RS Praveen Kumar and Manne Krishank have asked for new dates.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "TGPSC recruits for Telangana government posts. SSC, the Staff Selection Commission, recruits for central government departments across India.",
+   "k": "why",
+   "title": "tgpsc vs ssc: what's the difference?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "TGPSC, it's smaller",
+    "SSC",
+    "Nobody, pick one",
+    "Both should talk"
+   ],
+   "q": "Who should move their exam date?"
+  },
+  {
+   "by": "6 Nov",
+   "k": "predict",
+   "opts": [
+    "Yes, new date",
+    "No, stays on 6 Nov"
+   ],
+   "q": "Will TGPSC reschedule the AEE exam before 6 Nov?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It clashes with the SSC JE exam",
+    "It was cancelled",
+    "The fee went up",
+    "It moved to Delhi"
+   ],
+   "q": "Why are aspirants upset about TGPSC's AEE exam date?",
+   "why": "Many civil engineers applied for both exams, and a same-day clash means missing one."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-18",
+ "heat": 3,
+ "hook": "Two govt job exams, *one day*. Which would you skip?",
+ "learn": {
+  "t": "Civil engineers can apply for both the state AEE and central SSC JE posts, so one shared date forces a choice."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📅",
+    "label": "Two exams on 6 Nov"
+   },
+   {
+    "icon": "👷",
+    "label": "Same civil engineering grads"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📝",
+    "label": "Demand: reschedule AEE exam"
+   },
+   {
+    "icon": "🏛️",
+    "label": "Opposition backs aspirants"
+   }
+  ],
+  "event": {
+   "icon": "✊",
+   "label": "Protest at TGPSC, Nampally"
+  }
+ },
+ "order": 8,
+ "readSecs": 45,
+ "sort": "2026-10-18-91",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Unemployed youth stage protest at TGPSC, seek rescheduling of AEE exam",
+   "url": "https://telanganatoday.com/unemployed-youth-stage-protest-at-tgpsc-seek-rescheduling-of-aee-exam"
+  },
+  {
+   "name": "Siasat",
+   "title": "Job aspirants protest at TGPSC office over exam schedule clash",
+   "url": "https://www.siasat.com/exams-overlapping-job-aspirants-protest-outside-tgpsc-office-3559989/"
+  }
+ ],
+ "thread": "tg-job-exams",
+ "tldr": "Job aspirants protested at the TGPSC office because its AEE (Civil) exam is on the same day as the SSC Junior Engineer exam.",
+ "topic": "TGPSC exam clash",
+ "watch": "Both exams are reported for 6 November. Watch whether TGPSC reschedules before then."
+}

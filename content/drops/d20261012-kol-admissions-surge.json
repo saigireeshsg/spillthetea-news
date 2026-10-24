@@ -1,0 +1,88 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Applying next year? WBJEEB counselling and the WBCAP portal are where most Bengal college seats get filled.",
+  "what": "WBJEEB counselling filled 27,599 engineering, technology and pharmacy seats this year, up from 15,729 in 2025.",
+  "why": "Minister Jagannath Chattopadhyay shared the official data. Most seats were filled through centralised counselling and the WBCAP portal."
+ },
+ "cards": [
+  {
+   "body": "Up from 2.62 lakh in 2025, through the WBCAP and WBDAP portals.",
+   "caption": "UG college admissions in 2026",
+   "k": "num",
+   "value": "3.92L"
+  },
+  {
+   "body": "2,156 students moved from a centralised seat to a college they preferred through decentralised counselling.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Bengal all the way",
+    "Moving out of state",
+    "Depends on the college",
+    "Already graduated"
+   ],
+   "q": "For college, you'd pick…"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Admissions grew by about three-quarters over last year",
+    "75.4% of applicants got seats",
+    "Fees rose 75.4%",
+    "Only 75 colleges took students"
+   ],
+   "q": "What does a 75.4% rise in admissions mean?",
+   "why": "27,599 is about 1.75 times last year's 15,729, so admissions grew by roughly three-quarters."
+  }
+ ],
+ "cat": "local",
+ "city": "Kolkata",
+ "date": "2026-10-12",
+ "heat": 3,
+ "hook": "Engineering admissions in Bengal jumped *75.4%* in one year",
+ "lead": "local",
+ "learn": {
+  "t": "About 1.3 lakh more students got UG college seats in Bengal this year than in 2025."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎓",
+    "label": "WBJEEB and WBCAP admissions"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🛠️",
+    "label": "27,599 engineering, pharmacy seats"
+   },
+   {
+    "icon": "🏫",
+    "label": "3.92 lakh UG admissions"
+   }
+  ],
+  "event": {
+   "icon": "📈",
+   "label": "Admissions jump sharply"
+  }
+ },
+ "order": 84,
+ "readSecs": 40,
+ "sort": "2026-10-12-15",
+ "sources": [
+  {
+   "name": "Millennium Post",
+   "title": "WBJEEB admissions surge 75.4%, UG college admissions up 49.9%",
+   "url": "https://www.millenniumpost.in/bengal/wbjeeb-admissions-surge-754ug-college-admissions-up-499-679426"
+  }
+ ],
+ "thread": "kol-education",
+ "tldr": "Engineering and pharmacy admissions in Bengal rose 75.4% this year and UG college admissions rose 49.9%, the higher education minister said.",
+ "topic": "College admissions surge"
+}

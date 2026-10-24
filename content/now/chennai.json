@@ -1,0 +1,20 @@
+{
+ "city": "Chennai",
+ "cond": "Wet, showers around",
+ "high": 30,
+ "icon": "🌧️",
+ "rain": "RMC: heavy spells likely till Thu",
+ "src": [
+  {
+   "name": "Deccan Chronicle (RMC)",
+   "url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/bay-of-bengal-weather-systems-orange-alert-for-chennai-other-districts-1997494"
+  },
+  {
+   "name": "DT Next (IMD)",
+   "url": "https://www.dtnext.in/news/tamilnadu/highlights-tamil-nadu-rains-schools-closed-in-5-districts-including-chennai-as-twin-low-pressure-areas-loom"
+  }
+ ],
+ "temp": 25,
+ "tip": "Schools shut; avoid flooded roads",
+ "ts": 1792563700000
+}

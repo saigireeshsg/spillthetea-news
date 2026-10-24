@@ -1,0 +1,93 @@
+{
+ "beats": {
+  "care": "Emergency care continues, they say. If anyone at home has a planned visit at Osmania hospital, check before you go.",
+  "what": "Junior doctors at Osmania General Hospital start a strike today, pausing planned outpatient visits and planned operations.",
+  "why": "Their association says problems with training, hospital infrastructure and working conditions stayed unfixed despite repeated requests."
+ },
+ "cards": [
+  {
+   "body": "Day one: doctors protested at the hospital from 9 am to 2 pm. They want broken X-ray, endoscopy and ventilator machines fixed on a deadline, and say they may step up the protest if there's no response.",
+   "k": "tea",
+   "title": "🆕 Evening update"
+  },
+  {
+   "body": "The Osmania Medical College Junior Doctors Association issued the notice on 10 October. The protest begins at 8:30 am at the hospital's main gate. Interns, students and residents from all departments were asked to join.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Interns and young doctors doing postgraduate training. In big government hospitals they handle a large share of daily patient care, so their strike is felt fast.",
+   "k": "why",
+   "title": "who are junior doctors?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, it's the only way to be heard",
+    "No, patients still suffer",
+    "Only after talks fail"
+   ],
+   "q": "Is a doctors' strike fair if emergency care keeps running?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Emergency services and essential care",
+    "Nothing at all",
+    "Only planned surgeries",
+    "Only the pharmacy"
+   ],
+   "q": "What does the association say stays open during the strike?",
+   "why": "The strike targets planned visits and surgeries, while emergency care is kept running."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-12",
+ "heat": 2,
+ "hook": "Osmania hospital's junior doctors strike today. *What still works?*",
+ "map": {
+  "causes": [
+   {
+    "icon": "🏚️",
+    "label": "Infrastructure, training problems"
+   },
+   {
+    "icon": "📨",
+    "label": "Complaints went unanswered"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⏸️",
+    "label": "Planned OPD and surgeries paused"
+   },
+   {
+    "icon": "🚑",
+    "label": "Emergencies continue"
+   }
+  ],
+  "event": {
+   "icon": "🏥",
+   "label": "Junior doctors strike from 12 Oct"
+  }
+ },
+ "order": 9,
+ "readSecs": 35,
+ "sort": "2026-10-12-90",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Osmania Medical College junior doctors to start strike from Oct 12",
+   "url": "https://www.siasat.com/osmania-medical-college-junior-doctors-to-start-strike-from-oct-12-3555815/"
+  },
+  {
+   "name": "Medical Dialogues",
+   "title": "Osmania Medical College junior doctors protest over infrastructure, working conditions",
+   "url": "https://medicaldialogues.in/news/health/doctors/osmania-medical-college-junior-doctors-protest-over-infrastructure-working-conditions-181056"
+  }
+ ],
+ "tldr": "Junior doctors at Osmania General Hospital paused planned OPD visits and surgeries today; emergency care continued.",
+ "topic": "Osmania doctors' strike"
+}

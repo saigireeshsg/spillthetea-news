@@ -1,0 +1,123 @@
+{
+ "beats": {
+  "care": "Hyderabad is one of the main hubs. How well the grid copes affects power supply in the same city you live in.",
+  "what": "The government now expects AI data centres to need 26.3 gigawatts of extra power by 2031-32, nearly double its March estimate.",
+  "why": "Data centres use far more power than normal buildings, and their demand can jump suddenly, which is hard for the grid to balance."
+ },
+ "cards": [
+  {
+   "body": "The Hindu reports demand is bunching up in Hyderabad, Mumbai, Chennai, Visakhapatnam and Delhi NCR. Slow power plants can't follow sudden jumps and risk penalties for mismatches. Grid-India, which runs the national grid, has set up a committee to study it.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "items": [
+    {
+     "display": "13.56 GW",
+     "label": "March 2026 estimate",
+     "value": 13.56
+    },
+    {
+     "alt": true,
+     "display": "26.3 GW",
+     "label": "New estimate",
+     "value": 26.3
+    }
+   ],
+   "k": "bars",
+   "note": "Minister of State for Power Shripad Naik, in Parliament.",
+   "title": "Govt forecast: data-centre power need by 2031-32"
+  },
+  {
+   "body": "They pack thousands of powerful chips that run all day and night, and need big cooling systems so they don't overheat. Training and running AI models keeps them busy nonstop.",
+   "k": "why",
+   "title": "why do ai data centres eat so much power?"
+  },
+  {
+   "body": "India's AI-only data centre capacity was just 275 MW in 2025. Wood Mackenzie projects about 6,546 MW by 2030, roughly 24 times more.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, don't burden the grid",
+    "No, it'll slow AI growth",
+    "Only the biggest ones"
+   ],
+   "q": "Should AI data centres have to bring their own solar or wind power?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "They need huge power and their demand swings sharply",
+    "They produce too much electricity",
+    "They only work at night",
+    "They block power lines"
+   ],
+   "q": "Why are AI data centres a headache for the power grid?",
+   "why": "Big, fast-changing demand is hard to balance, so grid planners need to prepare early."
+  }
+ ],
+ "cat": "tech",
+ "cover": {
+  "bg": [
+   "#0b1d14",
+   "#00e676"
+  ],
+  "big": "26.3 GW",
+  "label": "Extra power AI data centres need by 2031-32",
+  "motion": "rise",
+  "scene": [
+   "🤖",
+   "⚡",
+   "🏭"
+  ]
+ },
+ "date": "2026-10-12",
+ "heat": 3,
+ "hook": "AI chatbots run on electricity. Can *India's power grid* keep up?",
+ "map": {
+  "causes": [
+   {
+    "icon": "🤖",
+    "label": "AI data centre boom"
+   },
+   {
+    "icon": "📈",
+    "label": "Sharp swings in demand"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏙️",
+    "label": "Hyderabad among top hubs"
+   },
+   {
+    "icon": "🧪",
+    "label": "Grid-India studying the load"
+   }
+  ],
+  "event": {
+   "icon": "⚡",
+   "label": "Demand forecast nearly doubles"
+  }
+ },
+ "order": 6,
+ "readSecs": 55,
+ "sort": "2026-10-12-93",
+ "sources": [
+  {
+   "name": "Business Standard",
+   "title": "AI data centres to add 26.3 GW to India's power demand by FY32: Govt",
+   "url": "https://www.business-standard.com/amp/industry/news/ai-data-centres-add-26-3-gw-india-power-demand-fy32-govt-126072900236_1.html"
+  },
+  {
+   "name": "Legacy IAS (summary of The Hindu)",
+   "title": "AI Data-Centre Boom Puts India's Power Grid Under Pressure, in The Hindu UPSC News Analysis, 11 October 2026",
+   "url": "https://www.legacyias.com/the-hindu-upsc-news-analysis-for-11-october-2026/"
+  }
+ ],
+ "tldr": "India now expects AI data centres to need 26.3 GW of extra power by 2031-32, nearly double its earlier estimate, and the grid is feeling it.",
+ "topic": "AI power demand"
+}

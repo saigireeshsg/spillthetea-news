@@ -1,0 +1,96 @@
+{
+ "areas": [
+  "Red Hills",
+  "Chembarambakkam",
+  "Poondi",
+  "Cholavaram"
+ ],
+ "beats": {
+  "care": "These lakes supply your tap water next summer. Good monsoon rain now means fewer cuts later.",
+  "what": "Storage in the five lakes rose from 3,949 mcft on Oct 16 to 4,186 mcft on Oct 18, out of 11,757 mcft.",
+  "why": "Most rain fell on the city itself. Lakes fill more slowly, as water flows in from catchments."
+ },
+ "cards": [
+  {
+   "body": "That was most of the 237 mcft gained over two days, per CMWSSB data.",
+   "caption": "mcft added on Sunday alone",
+   "k": "num",
+   "value": "197"
+  },
+  {
+   "body": "Red Hills 61.7%, Kannankottai-Thervoykandigai 46.4%, Chembarambakkam 38.1%, Poondi 12.3%, Cholavaram 12%.",
+   "k": "tea",
+   "title": "Lake by lake"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "The lakes leaked",
+    "Lakes fill slowly from catchment inflow",
+    "Rain was fake",
+    "Metrowater drained them"
+   ],
+   "q": "Why are lakes still only about a third full after huge rain?",
+   "why": "City rain causes floods fast, but lakes rise only as water flows in from catchments."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Always",
+    "Sometimes",
+    "Never thought of it",
+    "My hostel decides"
+   ],
+   "q": "Do you save water at home?"
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "date": "2026-10-19",
+ "heat": 3,
+ "hook": "Is Chennai's *water supply safe* after all this rain?",
+ "learn": {
+  "t": "Red Hills (Puzhal) lake is already over 61% full, but Poondi is only about 12% full."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Monsoon rain"
+   },
+   {
+    "icon": "🏞️",
+    "label": "Inflow into lakes"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📈",
+    "label": "Storage slowly rising"
+   },
+   {
+    "icon": "🚰",
+    "label": "Summer supply depends on it"
+   }
+  ],
+  "event": {
+   "icon": "💧",
+   "label": "Lakes at 35.6%"
+  }
+ },
+ "order": 76,
+ "readSecs": 40,
+ "sort": "2026-10-19-23",
+ "sources": [
+  {
+   "name": "The News Minute (citing CMWSSB data)",
+   "title": "Rain-battered Chennai braces for more heavy showers, CM Vijay reviews preparations",
+   "url": "https://www.thenewsminute.com/tamil-nadu/rain-battered-chennai-braces-for-more-heavy-showers-cm-vijay-reviews-preparations"
+  }
+ ],
+ "thread": "che-water",
+ "tldr": "Despite the heavy rain, Chennai's five drinking-water lakes are only about 35.6% full, Metrowater data shows.",
+ "topic": "Reservoir levels",
+ "watch": "Lake levels should keep rising as heavy rain continues till about October 26."
+}

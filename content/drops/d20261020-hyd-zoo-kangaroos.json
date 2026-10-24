@@ -1,0 +1,87 @@
+{
+ "areas": [
+  "Old City",
+  "Citywide"
+ ],
+ "beats": {
+  "care": "A lowkey new weekend plan: Australian and Madagascar animals you'd otherwise only see abroad, right near the Old City.",
+  "what": "Zoo officials say a pair each of kangaroos, wallabies and ring-tailed lemurs will come from Vantara, a wildlife centre in Jamnagar.",
+  "why": "Vantara's team inspected the zoo and agreed in principle to share animals. An earlier kangaroo deal with Japan fell through in 2020."
+ },
+ "cards": [
+  {
+   "body": "Cassowaries, large flightless birds, are also expected, and a second zebra pair is planned. The zoo already has 3 zebras from Vantara. Officials gave no date, saying Vantara is busy with rescue work.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "To beat El Niño heat, the zoo has added sprinklers, foggers and air conditioners in enclosures.",
+   "caption": "Animals at Nehru Zoo now",
+   "k": "num",
+   "value": "2,178"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, day one",
+    "Maybe later",
+    "Zoos aren't for me"
+   ],
+   "q": "Would you visit for the kangaroos?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "To shelter animals from a climate unlike home",
+    "To hide them from visitors",
+    "Because they only eat at night",
+    "To breed fish"
+   ],
+   "q": "Why does the new kangaroo pair need a 'night house'?",
+   "why": "Animals from other climates need protected spaces to rest safely, away from heat and crowds."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-20",
+ "heat": 2,
+ "hook": "Kangaroos in Hyderabad? The zoo's *first-ever pair* is coming.",
+ "learn": {
+  "t": "Hyderabad's zoo tried to get kangaroos from Japan in 2020, but the Covid pandemic stopped the deal."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🤝",
+    "label": "Vantara agrees in principle"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏠",
+    "label": "New enclosure, night house"
+   },
+   {
+    "icon": "🦓",
+    "label": "More zebras planned"
+   }
+  ],
+  "event": {
+   "icon": "🦘",
+   "label": "Kangaroos, wallabies, lemurs coming"
+  }
+ },
+ "order": 10,
+ "readSecs": 40,
+ "sort": "2026-10-20-89",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad Zoo to welcome kangaroos, wallabies and lemurs",
+   "url": "https://telanganatoday.com/hyderabad-zoo-to-welcome-kangaroos-wallabies-and-lemurs"
+  }
+ ],
+ "tldr": "Nehru Zoological Park will get its first-ever kangaroos, plus wallabies and ring-tailed lemurs, from Vantara in Jamnagar, though no arrival date is set.",
+ "topic": "Nehru Zoo newcomers"
+}

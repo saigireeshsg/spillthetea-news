@@ -1,0 +1,116 @@
+{
+ "areas": [
+  "Chingrighata",
+  "Gariahat"
+ ],
+ "beats": {
+  "care": "If you ride to pandals, slow down on painted stretches, especially when wet. Police may stop bikes there in rain.",
+  "what": "Bikes reportedly skidded on the newly painted Chingrighata flyover after rain. Viral videos raised road-safety worries.",
+  "why": "Officials added reflective studs and grip at Chingrighata, scraped paint at Gariahat, and removed it overnight in Asansol."
+ },
+ "cards": [
+  {
+   "body": "Chingrighata got reflective studs and 'go slow' boards. Gariahat flyover's paint was scraped. Asansol's Bhagat Singh More lost its rainbow paint overnight.",
+   "caption": "painted spots fixed",
+   "k": "num",
+   "value": "3"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "To reduce traffic jams near pandals",
+    "Wet painted surfaces can lose grip and make bikes skid",
+    "Because bikes damage the new paint",
+    "To make room for Puja buses"
+   ],
+   "q": "Why would police restrict motorcycles on that flyover when it rains?",
+   "why": "The worry is grip: rain on a painted surface raised skid fears, so curbs are a safety step."
+  },
+  {
+   "body": "Urban development minister Agnimitra Paul said anti-skid paint was used and the cause is being probed. CP Ajay Nand said engineers told him the paint has anti-skid properties.",
+   "k": "tea",
+   "title": "Officials vs the videos"
+  },
+  {
+   "body": "The minister said the paint job was paid for by a paint company's CSR funds, not government money.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Love the look",
+    "Only if 100% skid-proof",
+    "Fix potholes first",
+    "Don't care, I take metro"
+   ],
+   "q": "Painted, colourful roads in your city?"
+  }
+ ],
+ "cat": "local",
+ "city": "Kolkata",
+ "cover": {
+  "bg": [
+   "#1b1530",
+   "#ff4f8b"
+  ],
+  "big": "SKID",
+  "label": "Bikes slipped on a freshly painted flyover",
+  "motion": "glitch",
+  "scene": [
+   "🏍️",
+   "🌧️",
+   "🎨"
+  ]
+ },
+ "date": "2026-10-17",
+ "heat": 4,
+ "hook": "Why are bikers being told to avoid *painted flyovers* in the rain?",
+ "lead": "local",
+ "learn": {
+  "t": "Painted road markings can get slippery when wet, so engineers add grip using anti-skid paint or rougher surfaces."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎨",
+    "label": "Fresh paint on flyover"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Puja-week rain"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🔦",
+    "label": "Cat's-eye studs added"
+   },
+   {
+    "icon": "🧹",
+    "label": "Gariahat paint scraped"
+   },
+   {
+    "icon": "🚫",
+    "label": "Bike curbs in rain"
+   }
+  ],
+  "event": {
+   "icon": "🏍️",
+   "label": "Bikes skid at Chingrighata"
+  }
+ },
+ "order": 83,
+ "readSecs": 50,
+ "sort": "2026-10-17-16",
+ "sources": [
+  {
+   "name": "Millennium Post",
+   "title": "State takes corrective steps after bikes skid on painted roads",
+   "url": "https://www.millenniumpost.in/bengal/state-takes-corrective-steps-after-bikes-skid-on-painted-roads-680004"
+  }
+ ],
+ "thread": "kol-road-safety",
+ "tldr": "After bikes skidded on the freshly painted, rain-wet Chingrighata flyover, the state is adding studs and roughening painted roads, and police say they'll restrict motorcycles there when it rains.",
+ "topic": "Painted road skids"
+}

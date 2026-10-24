@@ -1,0 +1,125 @@
+{
+ "areas": [
+  "Indiranagar",
+  "Jayanagar",
+  "Kanakapura Road",
+  "Citywide"
+ ],
+ "beats": {
+  "care": "These roads would reshape your daily commute for years. Residents want that money spent on metro links and more buses.",
+  "what": "On Sunday, residents linked hands on Indiranagar's 80 Feet and 100 Feet Roads and at Rose Garden junction near Jayanagar.",
+  "why": "B-SMILE has proposed 13 elevated corridors. Residents fear dust, lost trees and parks, and damage to Cauvery water pipelines."
+ },
+ "cards": [
+  {
+   "body": "The plan covers about 126 km, according to Asianet Newsable. Bengaluru Central MP P.C. Mohan has asked for independent traffic and environment studies.",
+   "caption": "Estimated cost of all 13 corridors",
+   "k": "num",
+   "value": "Rs 18,000 cr"
+  },
+  {
+   "body": "In the south, residents oppose a 17-km corridor from Ragigudda to Kanakapura Road near NICE Road. One organiser asked why a road is needed parallel to the existing Green Line metro.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Protesters say they are not anti-development. One organiser said: \"We are telling the government to strengthen public transport.\"",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "More metro lines",
+    "More BMTC buses",
+    "New flyovers",
+    "Better footpaths"
+   ],
+   "q": "What would fix your commute faster?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Spend on public transport instead of flyovers",
+    "Build flyovers faster",
+    "Add toll booths",
+    "Widen every road"
+   ],
+   "q": "What is the residents' main demand?",
+   "why": "Residents want metro upgrades, buses and last-mile links prioritised over more elevated roads."
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "cover": {
+  "bg": [
+   "#10241a",
+   "#2ecc71"
+  ],
+  "big": "13",
+  "label": "Elevated corridors proposed by B-SMILE",
+  "motion": "rise",
+  "scene": [
+   "🌳",
+   "🛣️",
+   "🤝"
+  ]
+ },
+ "date": "2026-10-13",
+ "heat": 4,
+ "hook": "Why are Bengaluru residents saying *no to new flyovers*?",
+ "lead": "local",
+ "learn": {
+  "t": "The Ragigudda–Thalaghattapura corridor's own project report projects Rose Garden junction peak traffic nearly doubling by 2035."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛣️",
+    "label": "13 corridors proposed"
+   },
+   {
+    "icon": "🌳",
+    "label": "Fear of tree loss"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚇",
+    "label": "Demand: better metro, buses"
+   },
+   {
+    "icon": "📝",
+    "label": "Formal objections planned"
+   }
+  ],
+  "event": {
+   "icon": "🤝",
+   "label": "Human chains across city"
+  }
+ },
+ "order": 90,
+ "readSecs": 50,
+ "sort": "2026-10-13-09",
+ "sources": [
+  {
+   "name": "Deccan Herald",
+   "title": "Hundreds join hands against proposed Bengaluru flyovers",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/hundreds-join-hands-against-proposed-bengaluru-flyovers-4179238"
+  },
+  {
+   "name": "The South First",
+   "title": "Bengaluru residents oppose elevated corridor, demand better public transport and Metro last-mile connectivity",
+   "url": "https://thesouthfirst.com/karnataka/bengaluru-residents-oppose-elevated-corridor-demand-better-public-transport-and-metro-last-mile-connectivity/"
+  },
+  {
+   "name": "Asianet Newsable",
+   "title": "\"Dear DK, Flyover Yaake?\": Bengaluru Residents Protest B-SMILE Projects",
+   "url": "https://newsable.asianetnews.com/karnataka-news/dear-dk-flyover-yaake-bengaluru-residents-protest-b-smile-projects-9-tenders-cancelled-articleshow-5pty8r3"
+  }
+ ],
+ "thread": "blr-traffic",
+ "tldr": "Hundreds of residents formed human chains in Indiranagar and near Rose Garden on Sunday against proposed elevated corridors.",
+ "topic": "Flyover protests",
+ "watch": "South Bengaluru residents plan to send a formal objection to B-SMILE within two weeks."
+}

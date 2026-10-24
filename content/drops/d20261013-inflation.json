@@ -1,0 +1,168 @@
+{
+ "beats": {
+  "care": "Your canteen thali, onions and cab rides cost more. And loans for bikes, phones or education could get pricier if RBI hikes again in December.",
+  "what": "Retail inflation hit 5.54% in September, up from 4.83% in August. That is the highest in 23 months.",
+  "why": "Food prices jumped. Onions more than doubled from a year ago, garlic rose about 55%, and restaurant meals got over 9% costlier."
+ },
+ "cards": [
+  {
+   "body": "It's the fourth month in a row above RBI's 4% target, and close to its 6% upper limit. Villages are hit harder: rural inflation is 6.08% against 4.88% in cities. Telangana's 6.64% is fourth-highest among big states.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "items": [
+    {
+     "display": "108%",
+     "label": "Onion",
+     "value": 108.09
+    },
+    {
+     "display": "63%",
+     "label": "Ginger",
+     "value": 62.85
+    },
+    {
+     "display": "55%",
+     "label": "Garlic",
+     "value": 54.62
+    },
+    {
+     "display": "36%",
+     "label": "Lemon",
+     "value": 36.41
+    },
+    {
+     "display": "9.4%",
+     "label": "Restaurants & hotels",
+     "value": 9.36
+    },
+    {
+     "alt": true,
+     "display": "5.54%",
+     "label": "Overall inflation",
+     "value": 5.54
+    }
+   ],
+   "k": "bars",
+   "note": "Year-on-year price rise. Source: government CPI data via Business Standard.",
+   "title": "What got pricier in a year (September)"
+  },
+  {
+   "body": "When prices keep rising, RBI raises interest rates to cool spending. It hiked to 5.50% this month and expects inflation near 6% from October to December. Many economists expect another hike.",
+   "k": "why",
+   "title": "why does rbi care about onions?"
+  },
+  {
+   "body": "Tomatoes and potatoes are actually cheaper than a year ago, even as onions more than doubled.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Food and eating out",
+    "Rent",
+    "Travel and fuel",
+    "Phone and subscriptions"
+   ],
+   "q": "What's pinching your wallet most?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Food prices like onions shot up",
+    "Phones got cheaper",
+    "RBI cut interest rates",
+    "Salaries were cut"
+   ],
+   "q": "Why did inflation jump in September?",
+   "why": "Food is a big part of what Indians buy, so when vegetables like onions spike, overall inflation rises fast."
+  },
+  {
+   "by": "mid-November (October CPI data)",
+   "k": "predict",
+   "opts": [
+    "Yes, above 6%",
+    "No, 6% or below"
+   ],
+   "q": "Will October's inflation (out mid-Nov) be above 6%?"
+  }
+ ],
+ "cat": "money",
+ "cover": {
+  "bg": [
+   "#2a0f0a",
+   "#ff6b35"
+  ],
+  "big": "5.54%",
+  "label": "Retail inflation in Sept, a 23-month high",
+  "motion": "rise",
+  "scene": [
+   "🧅",
+   "🛒",
+   "📈"
+  ]
+ },
+ "date": "2026-10-13",
+ "heat": 5,
+ "hook": "Onion prices *more than doubled* in a year. What else got pricier?",
+ "lead": "india",
+ "learn": {
+  "t": "Food makes up over a third of India's retail inflation basket, so pricier vegetables quickly push up the overall number."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧅",
+    "label": "Onions up 108% yearly"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Uneven monsoon hits vegetables"
+   },
+   {
+    "icon": "⛽",
+    "label": "Costlier fuel lifts transport"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🍽️",
+    "label": "Food inflation at 7.74%"
+   },
+   {
+    "icon": "🏦",
+    "label": "Another RBI hike expected"
+   }
+  ],
+  "event": {
+   "icon": "📈",
+   "label": "Inflation jumps to 5.54%"
+  }
+ },
+ "order": 2,
+ "readSecs": 60,
+ "sort": "2026-10-13-97",
+ "sources": [
+  {
+   "name": "Business Standard",
+   "title": "Food, fuel push retail inflation to 23-month high of 5.54% in September",
+   "url": "https://www.business-standard.com/economy/news/food-fuel-push-retail-inflation-to-23-month-high-of-5-54-in-september-126101200829_1.html"
+  },
+  {
+   "name": "ThePrint",
+   "title": "India's inflation hits near two-year high of 5.54% in September, backing RBI's rate hike",
+   "url": "https://theprint.in/economy/indias-inflation-hits-near-two-year-high-of-5-54-in-september-backing-rbis-rate-hike/3069690/"
+  },
+  {
+   "name": "Business Today",
+   "title": "India's retail inflation rises to 5.54% in September; food inflation hits 7.74%",
+   "url": "https://www.businesstoday.in/latest/economy/story/indias-retail-inflation-rises-to-5-54-in-september-food-inflation-hits-7-74-561057-2026-10-12"
+  }
+ ],
+ "storyline": "rbi-inflation",
+ "tldr": "Retail inflation rose to 5.54% in September, a 23-month high, as onion, garlic and other food prices jumped.",
+ "topic": "Rising food inflation",
+ "watch": "October's inflation data comes out mid-November. RBI's next rate meeting is 2–4 December, where another hike is widely expected."
+}

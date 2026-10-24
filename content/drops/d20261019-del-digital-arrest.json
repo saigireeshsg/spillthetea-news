@@ -1,0 +1,112 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Four of five cases involved people aged 65–80. Tell parents and grandparents: hang up and call 1930.",
+  "what": "Callers posed as TRAI staff and a fake IPS officer. They threatened a money-laundering 'arrest' on video calls.",
+  "why": "Police traced money to a suspected mule account in Hyderabad and found five more people paying into it."
+ },
+ "cards": [
+  {
+   "body": "A caller says your Aadhaar-linked SIM was misused abroad. A 'police officer' joins on video, threatens arrest, and pushes you to pay, pledge gold or break FDs.",
+   "k": "tea",
+   "title": "How the trick works"
+  },
+  {
+   "body": "The first complaint in this case came through 1930, which helped police act fast.",
+   "caption": "national cybercrime helpline",
+   "k": "num",
+   "value": "1930"
+  },
+  {
+   "ans": 2,
+   "k": "quiz",
+   "opts": [
+    "You must stay on the call",
+    "Pay to clear your name",
+    "It's a scam, there's no such arrest",
+    "Only TRAI can release you"
+   ],
+   "q": "Someone on a video call says you're under 'digital arrest'. What's true?",
+   "why": "Delhi Police say digital arrest doesn't exist; real officials never ask for money on video calls."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, already",
+    "Doing it today",
+    "They know",
+    "They'd never fall for it"
+   ],
+   "q": "Have you warned your family about this scam?"
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "cover": {
+  "bg": [
+   "#111827",
+   "#8b5cf6"
+  ],
+  "big": "₹1.53cr",
+  "label": "further losses stopped",
+  "motion": "glitch",
+  "scene": [
+   "📱",
+   "🚫",
+   "🛡️"
+  ]
+ },
+ "date": "2026-10-19",
+ "heat": 4,
+ "hook": "Would your parents *spot a fake police video call*?",
+ "lead": "local",
+ "learn": {
+  "t": "There is no such thing as a 'digital arrest'. Real officers never demand money on video calls."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📞",
+    "label": "Fake TRAI call"
+   },
+   {
+    "icon": "👮",
+    "label": "Fake 'IPS officer' video"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏦",
+    "label": "Mule account traced"
+   },
+   {
+    "icon": "👵",
+    "label": "Elderly victims warned"
+   }
+  ],
+  "event": {
+   "icon": "🛡️",
+   "label": "Police stop ₹1.53 crore loss"
+  }
+ },
+ "order": 88,
+ "readSecs": 45,
+ "sort": "2026-10-19-11",
+ "sources": [
+  {
+   "name": "ThePrint (PTI)",
+   "title": "Delhi Police prevents potential losses of Rs 1.53 crore in five 'digital arrest' scams",
+   "url": "https://theprint.in/india/delhi-police-prevents-potential-losses-of-rs-1-53-crore-in-five-digital-arrest-scams/3075336/"
+  },
+  {
+   "name": "ANI",
+   "title": "Delhi Police prevents Rs 1.53 crore loss in digital arrest scams across 5 states",
+   "url": "https://aninews.in/news/national/general-news/delhi-police-prevents-rs-153-crore-loss-in-digital-arrest-scams-across-5-states20261018163317/"
+  }
+ ],
+ "thread": "del-cyber-scams",
+ "tldr": "Delhi Police say they stopped ₹1.53 crore in further losses in five 'digital arrest' scams across five states.",
+ "topic": "Digital arrest scam"
+}

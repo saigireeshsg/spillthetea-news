@@ -1,0 +1,92 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Buying sweets? Check the label and packing date, and pick shops that look clean.",
+  "what": "Over three days, officials checked 286 units and outlets and collected 383 samples. On Saturday alone, 100 units were checked.",
+  "why": "Demand for sweets spikes in the festive season, and so do hygiene shortcuts."
+ },
+ "cards": [
+  {
+   "body": "Unhygienic kitchens and storage, food handlers without medical certificates, and labelling mistakes.",
+   "k": "tea",
+   "title": "What went wrong"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Exam season",
+    "Festive demand raises hygiene risks",
+    "Monsoon ended",
+    "New sugar tax"
+   ],
+   "q": "Why check sweet units now?",
+   "why": "The drive targets the festive season, when sweet production and sales jump."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Local sweet shop",
+    "Big brand",
+    "Homemade",
+    "Online app"
+   ],
+   "q": "Where do you buy festive sweets?"
+  },
+  {
+   "body": "Collected over the three-day statewide drive, including 113 on Saturday.",
+   "caption": "food samples sent to government labs",
+   "k": "num",
+   "value": "383"
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "date": "2026-10-19",
+ "heat": 2,
+ "hook": "What did inspectors find in *festive sweet kitchens*?",
+ "learn": {
+  "t": "Food handlers need medical certificates; missing ones were among the violations found."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🍬",
+    "label": "Festive sweet rush"
+   },
+   {
+    "icon": "⚠️",
+    "label": "Hygiene risks"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📄",
+    "label": "15 notices issued"
+   },
+   {
+    "icon": "🧪",
+    "label": "383 samples to labs"
+   }
+  ],
+  "event": {
+   "icon": "🔍",
+   "label": "286 units inspected"
+  }
+ },
+ "order": 54,
+ "readSecs": 30,
+ "sort": "2026-10-19-45",
+ "sources": [
+  {
+   "name": "Deccan Herald",
+   "title": "Karnataka food safety officials inspect sweet-manufacturing units, issue notices to 15 for violations",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/karnataka-food-safety-officials-inspect-sweet-manufacturing-units-issue-notices-to-15-for-violations-4186751"
+  }
+ ],
+ "thread": "blr-food-safety",
+ "tldr": "Food safety officials inspected 286 sweet units in Karnataka in three days and sent notices to 15 for violations.",
+ "topic": "Sweet shop checks"
+}

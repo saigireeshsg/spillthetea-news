@@ -1,0 +1,141 @@
+{
+ "beats": {
+  "care": "India has a similar power, President's Rule under Article 356. This is a live example of a central government taking over an opposition-run state.",
+  "what": "Pakistan's president declared an emergency in Khyber Pakhtunkhwa on Sunday. The governor now runs the province, and the army has been deployed.",
+  "why": "The government cites terrorism and law and order. Imran Khan's party PTI, which runs the province, calls it undemocratic and will fight it in court."
+ },
+ "cards": [
+  {
+   "body": "PTI says Chief Minister Sohail Afridi and other leaders were detained. Governor Faisal Karim Kundi, from a party allied with the government, now runs the province with an 11-member advisory council. Schools in Peshawar and nearby cities were shut on Monday.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "a": {
+    "body": "Militant violence has reached an unprecedented level, and the provincial government was indifferent in the fight against terrorism.",
+    "label": "Government says"
+   },
+   "b": {
+    "body": "It's an undemocratic move against an elected government. Security problems are in some districts, so why take over the whole province?",
+    "label": "PTI says"
+   },
+   "k": "sides",
+   "note": "Officials have not made public evidence for their claim that the provincial government has militant links.",
+   "title": "Was the emergency needed?"
+  },
+  {
+   "body": "Already more than all of 2025 (1,066), according to the think tank PICSS.",
+   "caption": "Militant attacks in Pakistan, Jan–Sep 2026",
+   "k": "num",
+   "value": "1,232"
+  },
+  {
+   "body": "Pakistan's provinces have been put under governor's rule at least eight times since 1949. This province also faced it in 1975 and 1994.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, in real emergencies",
+    "Only with court approval",
+    "No, never"
+   ],
+   "q": "Can a central government ever justify taking over a state?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The federal government runs it, not elected leaders",
+    "Imran Khan becomes chief minister",
+    "The province becomes independent",
+    "Elections are held next week"
+   ],
+   "q": "What does emergency rule change in Khyber Pakhtunkhwa?",
+   "why": "Under emergency rule, Islamabad takes control and the elected provincial government is sidelined."
+  },
+  {
+   "by": "21 Oct",
+   "k": "predict",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "outcome": "Yes. Both houses of Parliament endorsed the emergency on 14 Oct, a week before the deadline, as opposition members protested and walked out.",
+   "q": "Will Pakistan's Parliament approve the emergency by 21 Oct?",
+   "resolved": 0
+  }
+ ],
+ "cat": "world",
+ "cover": {
+  "bg": [
+   "#0d1f14",
+   "#2e7d32"
+  ],
+  "big": "Art. 232",
+  "label": "Emergency clause used on Khyber Pakhtunkhwa",
+  "motion": "pulse",
+  "scene": [
+   "🏛️",
+   "📍",
+   "⚠️"
+  ]
+ },
+ "date": "2026-10-13",
+ "heat": 4,
+ "hook": "Why did Pakistan just *take over* a whole province?",
+ "lead": "world",
+ "learn": {
+  "t": "Pakistan's constitution lets the president declare an emergency over 'internal disturbance', so the federal government can run a province directly."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚠️",
+    "label": "Militant attacks keep rising"
+   },
+   {
+    "icon": "🚶",
+    "label": "PTI march for Imran's release"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📍",
+    "label": "Governor now runs province"
+   },
+   {
+    "icon": "📵",
+    "label": "Internet disrupted, schools shut"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "Emergency rule in Khyber Pakhtunkhwa"
+  }
+ },
+ "order": 4,
+ "readSecs": 60,
+ "sort": "2026-10-13-95",
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "What do emergency and governor rule in Pakistan's Khyber Pakhtunkhwa mean?",
+   "url": "https://www.aljazeera.com/news/2026/10/12/what-do-emergency-and-governor-rule-in-pakistans-khyber-pakhtunkhwa-mean"
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Pakistan imposes emergency rule in province governed by Imran Khan's party",
+   "url": "https://www.aljazeera.com/news/2026/10/11/pakistan-imposes-emergency-rule-in-khyber-pakhtunkhwa"
+  },
+  {
+   "name": "Arab News",
+   "title": "Pakistan imposes emergency rule in northern province after protests: presidency",
+   "url": "https://www.arabnews.pk/world/pakistan-imposes-emergency-rule-in-northern-province-after-protests-presidency-3003823"
+  }
+ ],
+ "storyline": "pakistan-pti",
+ "tldr": "Pakistan has put Khyber Pakhtunkhwa, the province run by jailed ex-PM Imran Khan's party, under emergency rule, citing terrorism and law and order.",
+ "topic": "Pakistan's KP emergency",
+ "watch": "Both houses of Pakistan's Parliament must approve the emergency by 21 October. Watch whether it passes."
+}

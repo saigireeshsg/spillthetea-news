@@ -1,0 +1,94 @@
+{
+ "areas": [
+  "Katraj",
+  "Navale Bridge",
+  "Bopdev Ghat"
+ ],
+ "beats": {
+  "care": "Coming from Mumbai by private bus? You may be dropped near Navale Bridge, so plan your last stretch to Katraj.",
+  "what": "From October 17, on trial, heavy vehicles heading to Katraj are stopped at points like Navale Bridge, Shindewadi Bridge and Mantarwadi Chowk.",
+  "why": "Construction has started on the Katraj station of the underground Swargate–Katraj metro line at Katraj Chowk."
+ },
+ "cards": [
+  {
+   "body": "Parking is banned on both sides of the Wonder City–Katraj bypass, Morebaug and the old tunnel routes.",
+   "k": "tea",
+   "title": "Where to park? Not here"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "A festival procession",
+    "To make room for metro station construction",
+    "Road resurfacing",
+    "Toll collection"
+   ],
+   "q": "Why are heavy vehicles kept out of Katraj Chowk?",
+   "why": "Traffic police want to clear space at Katraj Chowk while the underground metro station is built."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Totally",
+    "Yes, if done on time",
+    "Not sure",
+    "No, too much chaos"
+   ],
+   "q": "Worth the traffic pain for a Katraj metro?"
+  },
+  {
+   "body": "Shindewadi Bridge, Navale Bridge, Mantarwadi Chowk and Khadi Machine Chowk, depending on where they come from.",
+   "caption": "places where heavy vehicles are stopped",
+   "k": "num",
+   "value": "4"
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "date": "2026-10-18",
+ "heat": 3,
+ "hook": "Why are trucks and buses being *stopped before Katraj* now?",
+ "learn": {
+  "t": "Katraj station is part of the underground Swargate–Katraj metro extension."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚇",
+    "label": "Katraj metro station work"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚌",
+    "label": "Mumbai buses stop at Navale"
+   },
+   {
+    "icon": "🅿️",
+    "label": "No parking on bypass"
+   },
+   {
+    "icon": "↪️",
+    "label": "Trucks via Saswad Link Road"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "Heavy vehicle ban at Katraj"
+  }
+ },
+ "order": 64,
+ "readSecs": 40,
+ "sort": "2026-10-18-35",
+ "sources": [
+  {
+   "name": "Pune Pulse",
+   "title": "Pune Traffic Diversions, Heavy Vehicle Ban Begin At Katraj For Metro Station Work",
+   "url": "https://www.mypunepulse.com/pune-traffic-diversions-heavy-vehicle-ban-begin-at-katraj-for-metro-station-work/"
+  }
+ ],
+ "thread": "pun-traffic",
+ "tldr": "Pune Traffic Police have banned heavy vehicles near Katraj Chowk from October 17 so work can begin on the underground Katraj metro station.",
+ "topic": "Katraj traffic changes"
+}

@@ -1,0 +1,21 @@
+{
+ "aqiLabel": "Moderate",
+ "city": "Kolkata",
+ "cond": "Cloudy, warm",
+ "high": 32,
+ "icon": "⛅",
+ "rain": "Alipore: dry, no rain warning",
+ "src": [
+  {
+   "name": "Business Today weather",
+   "url": "https://businesstoday.in/weather/kolkata-weather-forecast-today"
+  },
+  {
+   "name": "India TV (PTI)",
+   "url": "https://www.indiatvnews.com/west-bengal/kolkata-kolkata-metro-to-run-special-train-services-on-five-corridors-during-durga-puja-check-date-timing-2026-10-08-1056474"
+  }
+ ],
+ "temp": 24,
+ "tip": "Blue Line Metro from 1 pm",
+ "ts": 1792563700000
+}

@@ -1,0 +1,96 @@
+{
+ "areas": [
+  "Breach Candy",
+  "Girgaon",
+  "Jogeshwari",
+  "Ghatkopar",
+  "Borivali"
+ ],
+ "beats": {
+  "care": "Eat at canteens and bakeries often? Watch for clean counters and covered food, and report problems to the FDA.",
+  "what": "The FDA suspended licences of 25 food businesses and 4 oil and spice units. Sophia College Canteen and Janata Bakery, Jogeshwari, are on the list.",
+  "why": "Inspectors found serious food-safety violations. At a Fortis Hospital kitchen run by Sodexo, they found cockroaches and rusted knives."
+ },
+ "cards": [
+  {
+   "body": "25 food businesses, like hotels, canteens and bakeries, plus 4 edible oil and spice units.",
+   "caption": "licences suspended",
+   "k": "num",
+   "value": "29"
+  },
+  {
+   "body": "A Borivali East sweet shop got a closure notice. It made sweets away from its registered address, with flies and unclean utensils.",
+   "k": "tea",
+   "title": "Sweets under check"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "The shop gets a cash reward",
+    "It can't legally sell food until the FDA restores it",
+    "It must cut prices",
+    "It only loses its online listing"
+   ],
+   "q": "What does a suspended food licence mean?",
+   "why": "A suspension stops the business from legally running until it fixes problems and the licence is restored."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Fully",
+    "Mostly",
+    "Not really",
+    "I pack my own lunch"
+   ],
+   "q": "How much do you trust your canteen's kitchen?"
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "date": "2026-10-18",
+ "heat": 3,
+ "hook": "Was your *college canteen* on the FDA's suspension list?",
+ "learn": {
+  "t": "One Jogeshwari bakery scored just 28 out of 88 in its FDA inspection, about 32%."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔍",
+    "label": "FDA surprise inspections"
+   },
+   {
+    "icon": "🪳",
+    "label": "Pests, dirty kitchens"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🍽️",
+    "label": "Canteens, bakeries hit"
+   },
+   {
+    "icon": "🔒",
+    "label": "Sweet shop told to close"
+   }
+  ],
+  "event": {
+   "icon": "🚫",
+   "label": "29 food licences suspended"
+  }
+ },
+ "order": 66,
+ "readSecs": 40,
+ "sort": "2026-10-18-33",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Maharashtra FDA Suspends 29 Food Licences Including Sophia College Canteen; Cockroaches Found In Fortis Hospital Kitchen",
+   "url": "https://www.freepressjournal.in/education/maharashtra-fda-suspends-29-food-licences-including-sophia-college-canteen-cockroaches-found-in-fortis-hospital-kitchen"
+  }
+ ],
+ "thread": "mum-food-safety",
+ "tldr": "Maharashtra's FDA suspended 29 food licences after inspections, including Sophia College's canteen and a Mumbai bakery.",
+ "topic": "Food licence crackdown"
+}

@@ -1,0 +1,128 @@
+{
+ "beats": {
+  "care": "It tests a right you have: peaceful protest. Police can still detain people in advance if they fear trouble.",
+  "what": "A Special Executive Magistrate in Delhi released CJP founder Abhijeet Dipke on Saturday on conditional bail. Student leader Neha Bora was released earlier that morning.",
+  "why": "Police held them on Friday under preventive sections of the BNSS before a planned march, saying they wanted to stop a breach of peace."
+ },
+ "cards": [
+  {
+   "body": "Most were held around Connaught Place on Friday evening, where the Cockroach Janta Party had called supporters to gather.",
+   "caption": "People detained, police said",
+   "k": "num",
+   "value": "~150"
+  },
+  {
+   "body": "It is a written promise to a magistrate to keep the peace and behave well for a set time. Breaking it can mean arrest or paying money.",
+   "k": "why",
+   "title": "what's a peace bond?"
+  },
+  {
+   "body": "Earlier this week, two CJP spokespersons were sent to jail for five days for climbing barricades at Jantar Mantar, and asked for one-year good-behaviour bonds.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "a": {
+    "body": "The arrests were unlawful and meant to stop a peaceful march before it even began.",
+    "label": "CJP says"
+   },
+   "b": {
+    "body": "Preventive detention was needed to stop a breach of peace and protect traffic and order.",
+    "label": "Delhi Police says"
+   },
+   "k": "sides",
+   "title": "Was holding them in advance fair?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, if trouble is likely",
+    "Only with a court order",
+    "No, never in advance"
+   ],
+   "q": "Should police be allowed to detain protest leaders before a march?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Holding someone to stop a possible offence",
+    "Jailing someone after a conviction",
+    "Fining someone for traffic rules",
+    "Banning a political party"
+   ],
+   "q": "What does 'preventive detention' mean here?",
+   "why": "Police held Dipke and Bora before the march, to prevent a feared breach of peace, not for a crime already proven."
+  }
+ ],
+ "cat": "india",
+ "cover": {
+  "bg": [
+   "#14141c",
+   "#3a6ea5"
+  ],
+  "big": "~150",
+  "label": "People police say were detained before Friday's march",
+  "motion": "pulse",
+  "scene": [
+   "⚖️",
+   "🏛️",
+   "📜"
+  ]
+ },
+ "date": "2026-10-17",
+ "heat": 4,
+ "hook": "Detained before a march, freed a day later. What does a *peace bond* actually ask of you?",
+ "learn": {
+  "t": "BNSS Section 170 lets police arrest someone to prevent a crime, without a warrant or a magistrate's order."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚫",
+    "label": "Police deny march permission"
+   },
+   {
+    "icon": "👮",
+    "label": "Leaders held in preventive detention"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📜",
+    "label": "Asked to sign a peace bond"
+   },
+   {
+    "icon": "❓",
+    "label": "Debate over protest rights"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "Dipke freed on conditional bail"
+  }
+ },
+ "order": 89,
+ "readSecs": 50,
+ "sort": "2026-10-17-10",
+ "sources": [
+  {
+   "name": "The Week",
+   "title": "CJP founder Abhijeet Dipke released on conditional bail; asked to sign peace bond",
+   "url": "https://www.theweek.in/news/india/2026/10/17/abhijeet-dipke-released-on-conditional-bail-peace-bond-by-court.html"
+  },
+  {
+   "name": "Times Now Hindi",
+   "title": "Aaj ki taza khabar, 17 October 2026 (live)",
+   "url": "https://timesnowhindi.com/india/aaj-ki-taza-khabar-17-october-2026-hindi-news-latest-breaking-news-or-mukhya-samachar-neha-bora-abhijeet-dipke-cjp-protest-durga-puja-pm-modi-trump-rahul-gandhi-ind-vs-wi-aaj-ka-mausam-today-weather-liveblog-156353947"
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Founder of India's 'Cockroach' movement detained amid police crackdown",
+   "url": "https://www.aljazeera.com/news/2026/10/16/indian-police-launch-new-delhi-clampdown-for-cockroach-party-rally"
+  }
+ ],
+ "storyline": "sir",
+ "tldr": "Cockroach Janta Party founder Abhijeet Dipke was released on Saturday on conditional bail, after signing a peace bond.",
+ "topic": "CJP leaders released"
+}

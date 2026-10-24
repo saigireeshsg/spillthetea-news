@@ -1,0 +1,122 @@
+{
+ "areas": [
+  "Citywide",
+  "Pusa"
+ ],
+ "beats": {
+  "care": "If you run, cycle or have asthma, plan outdoor time for afternoons and keep a mask handy from Wednesday.",
+  "what": "CPCB put Delhi's 24-hour AQI at 139 on Monday, 'moderate'. Pusa was already 'poor' at 281.",
+  "why": "Winds are slow and nights are cooling, so smoke and dust stay trapped near the ground."
+ },
+ "cards": [
+  {
+   "body": "IMD says it was 1.3°C below normal. Cooler, still nights help pollution stay close to the ground.",
+   "caption": "Monday's low at Safdarjung, coldest night of October so far",
+   "k": "num",
+   "value": "17.1°C"
+  },
+  {
+   "body": "Of 58 CPCB stations on Monday, 2 were 'poor' and 6 'satisfactory'; the rest were 'moderate'. Pusa was highest at 281.",
+   "k": "tea",
+   "title": "Where it's worst"
+  },
+  {
+   "body": "On Monday, farm-fire tracking found 98 fires across six states, but none in Haryana or Delhi.",
+   "k": "twist"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Air gets cleaner",
+    "It moves from 'moderate' to 'poor'",
+    "It becomes 'severe'",
+    "Nothing changes"
+   ],
+   "q": "What does it mean if Delhi's AQI moves from 139 to 220?",
+   "why": "CPCB calls 101–200 'moderate' and 201–300 'poor', so 220 is a step worse."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Mask on",
+    "Stay indoors more",
+    "Air purifier at home",
+    "I just ignore it"
+   ],
+   "q": "How do you deal with bad-air days?"
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "cover": {
+  "bg": [
+   "#1f1a17",
+   "#e08a2c"
+  ],
+  "big": "Oct 21",
+  "label": "Delhi's air forecast to slip to 'poor'",
+  "motion": "drift",
+  "scene": [
+   "🌫️",
+   "🏙️",
+   "🍂"
+  ]
+ },
+ "date": "2026-10-20",
+ "heat": 4,
+ "hook": "Why could Delhi's air *turn 'poor' by Wednesday*?",
+ "lead": "local",
+ "learn": {
+  "t": "Delhi's GRAP Stage 1 anti-pollution rules are meant to kick in when the AQI enters the 'poor' band, 201 to 300."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌬️",
+    "label": "Slow, weak winds"
+   },
+   {
+    "icon": "🥶",
+    "label": "Cooler nights arriving"
+   },
+   {
+    "icon": "🔥",
+    "label": "Farm fires in nearby states"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "😷",
+    "label": "Harder breathing outdoors"
+   },
+   {
+    "icon": "📋",
+    "label": "GRAP rules may start"
+   }
+  ],
+  "event": {
+   "icon": "🌫️",
+   "label": "AQI forecast to turn poor"
+  }
+ },
+ "order": 87,
+ "readSecs": 50,
+ "sort": "2026-10-20-12",
+ "sources": [
+  {
+   "name": "Asianet Newsable",
+   "title": "Delhi Gets Its Coldest October Night Yet, But Is Worse Air Quality Days Away?",
+   "url": "https://newsable.asianetnews.com/india/delhi-records-coldest-night-of-october-as-aqi-set-to-turn-poor-from-october-21-articleshow-6y4hx10"
+  },
+  {
+   "name": "Free Press Journal",
+   "title": "Delhi Shivers As Temperature Drops To 17.1°C On October's Coldest Night, IMD Forecasts Clear Skies",
+   "url": "https://www.freepressjournal.in/india/delhi-shivers-as-temperature-drops-to-171c-on-octobers-coldest-night-imd-forecasts-clear-skies"
+  }
+ ],
+ "thread": "del-air-quality",
+ "tldr": "Delhi's air was 'moderate' on Monday, but the official forecast says it will turn 'poor' from Wednesday, October 21.",
+ "topic": "Air turning poor",
+ "watch": "The air forecast shows 'poor' air on October 21 and 22. Watch if CAQM brings in GRAP Stage 1."
+}

@@ -1,0 +1,122 @@
+{
+ "beats": {
+  "care": "Paying friends stays free. Once it starts, a shop pays ₹20 on your ₹5,000 UPI buy, and nobody's said if it can pass that on.",
+  "what": "NPCI, which runs UPI, has delayed a 0.4% fee on some shop payments above ₹2,000. It was due to start on 15 October.",
+  "why": "NPCI said it kept the festive season in mind. Shops, restaurants and online sellers see a huge rush of UPI payments around Diwali."
+ },
+ "cards": [
+  {
+   "body": "The fee is a Merchant Discount Rate: a cut the shop pays on a payment it receives. It covers select person-to-merchant UPI payments above ₹2,000. It is capped at ₹300 for payments of ₹75,000 or more.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "That's 0.4%. The shop pays it, not you, though nobody has said yet whether shops can pass it on.",
+   "caption": "Fee a shop would pay on a ₹5,000 UPI payment",
+   "k": "num",
+   "value": "₹20"
+  },
+  {
+   "body": "Banks and payment apps spend money running UPI but earn almost nothing on it, because shop payments have been fee-free since 2020. The new fee is meant to share that cost.",
+   "k": "why",
+   "title": "why charge for upi at all?"
+  },
+  {
+   "body": "You're not the one being charged. The fee lands on the shop, and paying your friend back for pizza stays free.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Just pay it",
+    "Switch to cash",
+    "Use a card",
+    "Find another shop"
+   ],
+   "q": "If a shop adds ₹20 for UPI, you'd…"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The shop receiving the money",
+    "The person paying",
+    "The government",
+    "Your bank, from your account"
+   ],
+   "q": "Who pays the new UPI fee?",
+   "why": "It's a merchant fee: the shop pays a 0.4% cut on select payments above ₹2,000. Person-to-person transfers aren't covered."
+  }
+ ],
+ "cat": "money",
+ "cover": {
+  "bg": [
+   "#0b1f1a",
+   "#16a34a"
+  ],
+  "big": "0.4%",
+  "label": "UPI shop fee, now delayed till after Diwali",
+  "motion": "pulse",
+  "scene": [
+   "📱",
+   "🛍️",
+   "🪔"
+  ]
+ },
+ "date": "2026-10-13",
+ "heat": 4,
+ "hook": "A new UPI fee was starting this Thursday. Why did it just get *pushed past Diwali*?",
+ "lead": "india",
+ "learn": {
+  "t": "UPI payments to shops have carried zero merchant fee since the government made that mandatory in 2020."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📄",
+    "label": "NPCI planned a 0.4% shop fee"
+   },
+   {
+    "icon": "🪔",
+    "label": "Festive shopping rush ahead"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🛍️",
+    "label": "Shops pay nothing extra this festive season"
+   },
+   {
+    "icon": "📅",
+    "label": "New start date still to come"
+   }
+  ],
+  "event": {
+   "icon": "⏸️",
+   "label": "Fee delayed till after Diwali"
+  }
+ },
+ "order": 91,
+ "readSecs": 45,
+ "sort": "2026-10-13-08",
+ "sources": [
+  {
+   "name": "ThePrint",
+   "title": "Merchant Discount Rate on UPI transactions deferred to after Diwali",
+   "url": "https://theprint.in/economy/merchant-discount-rate-on-upi-transactions-deferred-to-after-diwali/3070328/"
+  },
+  {
+   "name": "The Week",
+   "title": "NPCI defers 0.4% UPI merchant fee until after Diwali",
+   "url": "https://www.theweek.in/news/biz-tech/2026/10/13/npci-defers-upi-mdr-until-after-diwali.html"
+  },
+  {
+   "name": "The Business Standard",
+   "title": "India postpones proposed UPI merchant fee until after Diwali",
+   "url": "https://tbsnews.net/world/south-asia/india-postpones-proposed-upi-merchant-fee-until-after-diwali-1571651"
+  }
+ ],
+ "tldr": "NPCI has pushed back a 0.4% fee on some UPI shop payments above ₹2,000, due 15 Oct, until after Diwali.",
+ "topic": "UPI fee delayed",
+ "watch": "NPCI says the fee starts right after Diwali; it will announce the exact date separately."
+}

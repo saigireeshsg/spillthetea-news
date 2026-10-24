@@ -1,0 +1,105 @@
+{
+ "areas": [
+  "KR Puram",
+  "Marathahalli",
+  "Bannerghatta Road"
+ ],
+ "beats": {
+  "care": "Work on the ORR near KR Puram or Marathahalli? Don't plan around it yet. Trials come months before passengers.",
+  "what": "Trials are planned from November on the Blue Line's ORR stretch and the Pink Line's underground section. Both may open by May 2027.",
+  "why": "Track and trains are nearly ready, but signals and platform screen doors must be tested together first."
+ },
+ "cards": [
+  {
+   "body": "BEML has delivered two Blue Line trains, enough to start trials.",
+   "caption": "of Blue Line track still to be laid",
+   "k": "num",
+   "value": "2 km"
+  },
+  {
+   "body": "The 7.5 km elevated stretch from Kalena Agrahara to Tavarekere has cleared its safety inspection. It's still waiting for an inauguration date.",
+   "k": "tea",
+   "title": "Pink Line check-in"
+  },
+  {
+   "body": "BMRCL's MD says \"signalling integration will take a lot of time,\" so these dates could slip.",
+   "k": "twist"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Free rides begin",
+    "Trains run without passengers to test systems first",
+    "The line opens next week",
+    "Fares get announced"
+   ],
+   "q": "What does a metro 'trial run' mean for riders?",
+   "why": "Trials test trains, track and signals without passengers; opening comes only after safety approval."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Blue Line on ORR",
+    "Pink Line",
+    "Neither",
+    "Will believe it when I ride"
+   ],
+   "q": "Which line would change your commute most?"
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "date": "2026-10-21",
+ "heat": 3,
+ "hook": "When could the *ORR metro* finally start test runs?",
+ "lead": "local",
+ "learn": {
+  "t": "Opening the 7.5 km elevated Pink Line stretch will grow Bengaluru's metro from 96.1 km to 103.6 km."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛤️",
+    "label": "Track nearly laid"
+   },
+   {
+    "icon": "🚆",
+    "label": "Trial trains delivered"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📅",
+    "label": "Opening eyed by May 2027"
+   },
+   {
+    "icon": "🚦",
+    "label": "Signalling tests take time"
+   }
+  ],
+  "event": {
+   "icon": "🧪",
+   "label": "Trials planned from November"
+  }
+ },
+ "order": 87,
+ "readSecs": 50,
+ "sort": "2026-10-21-12",
+ "sources": [
+  {
+   "name": "Oneindia",
+   "title": "Namma Metro Pink Line Underground And Blue Line ORR Trials Likely In November",
+   "url": "https://oneindia.com/bengaluru/namma-metro-pink-line-underground-and-blue-line-orr-trials-likely-in-november-8239515.html"
+  },
+  {
+   "name": "Asianet Newsable",
+   "title": "Bengaluru Metro Pink Line Inauguration: Shivakumar Writes to PM Modi for 7.5-km Stretch",
+   "url": "https://newsable.asianetnews.com/karnataka-news/bengaluru-metro-pink-line-inauguration-cm-dk-shivakumar-writes-to-pm-modi-for-7-5-km-stretch-articleshow-9ga75si"
+  }
+ ],
+ "thread": "blr-metro",
+ "tldr": "BMRCL is aiming for Blue Line trial runs on the Outer Ring Road from November 15, and both new lines may open by May 2027.",
+ "topic": "Metro trial timeline",
+ "watch": "Blue Line trial runs from Byappanahalli depot via KR Puram to Marathahalli are targeted for November 15."
+}

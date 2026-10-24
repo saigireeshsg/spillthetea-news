@@ -1,0 +1,86 @@
+{
+ "beats": {
+  "care": "Turned 18 or moved recently? The final list comes out on 9 November. If you're not on it, you can't vote.",
+  "what": "In the voter-list re-check (SIR), Hyderabad added 29,226 voters and removed 2,066 by 7 Oct, the most changes in Telangana.",
+  "why": "People sent in 1.93 lakh Form 6 requests to join the list, and 6,335 Form 7 requests to remove names."
+ },
+ "cards": [
+  {
+   "body": "Telangana's Chief Electoral Office released the numbers. Statewide, 12,204 names were removed and 51,821 new voters cleared so far. The final voter list will be published on 9 November.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Within the city, Jubilee Hills got the most requests to remove names: 1,026.",
+   "k": "twist"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Form 6",
+    "Form 7",
+    "Form 16",
+    "An Aadhaar form"
+   ],
+   "q": "Which form adds your name to the voter list?",
+   "why": "Form 6 is for new voters. Form 7 is for objecting to or deleting a name."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, I'm on it",
+    "Not yet",
+    "Not 18 yet"
+   ],
+   "q": "Have you checked your name on the voter list?"
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-09",
+ "heat": 3,
+ "hook": "Hyderabad just added *29,226 voters*. Is your name on the list?",
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "Voter lists being re-checked"
+   },
+   {
+    "icon": "📝",
+    "label": "1.93 lakh join requests"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏙️",
+    "label": "Most changes in Telangana"
+   },
+   {
+    "icon": "🗓️",
+    "label": "Final list on 9 Nov"
+   },
+   {
+    "icon": "✅",
+    "label": "Check your name now"
+   }
+  ],
+  "event": {
+   "icon": "📋",
+   "label": "Hyd: 29,226 added, 2,066 removed"
+  }
+ },
+ "order": 22,
+ "readSecs": 40,
+ "sort": "2026-10-09-77",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad tops Telangana in voter additions, deletions during SIR exercise",
+   "url": "https://telanganatoday.com/hyderabad-tops-telangana-in-voter-additions-deletions-during-sir-exercise"
+  }
+ ],
+ "storyline": "sir",
+ "topic": "Hyd voter list"
+}

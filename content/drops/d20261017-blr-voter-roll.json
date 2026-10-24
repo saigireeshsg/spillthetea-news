@@ -1,0 +1,101 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "If you moved to Bengaluru or just turned 18, check your name now. Forms are on the ECI and GBA websites.",
+  "what": "The Greater Bengaluru Authority is running a special drive to add eligible citizens to the voter list, following Election Commission directions.",
+  "why": "The draft roll had 56.99 lakh voters. About 2 lakh more are expected, taking Bengaluru to roughly 59 lakh."
+ },
+ "cards": [
+  {
+   "body": "That's how many new-voter applications Bengaluru Urban district has received, GBA Chief Commissioner M Maheshwar Rao said.",
+   "caption": "Form 6 applications",
+   "k": "num",
+   "value": "2.19 lakh"
+  },
+  {
+   "ans": 2,
+   "k": "quiz",
+   "opts": [
+    "Form 6",
+    "Form 7",
+    "Form 8",
+    "No form needed"
+   ],
+   "q": "You moved from Jayanagar to Hebbal. Which form fixes your voter address?",
+   "why": "Form 8 covers address changes and corrections. Form 6 is for new voters, and Form 7 is for objections or deletions."
+  },
+  {
+   "body": "Party booth agents can file at most 10 Form 7 deletion requests each. Bulk filings are restricted so genuine voters aren't removed by mistake.",
+   "k": "tea",
+   "title": "Mass deletions blocked"
+  },
+  {
+   "body": "The Election Commission told booth officers to verify voters by visiting homes, not by calling them to hearings.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, I'm on it",
+    "Not yet",
+    "I vote in my hometown",
+    "Not eligible yet"
+   ],
+   "q": "Have you checked your voter listing?"
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "date": "2026-10-17",
+ "heat": 3,
+ "hook": "New in Bengaluru? Your voter-list deadline is *October 22*",
+ "learn": {
+  "t": "Form 6 is for new voters. Form 8 handles address changes, corrections and replacement voter ID cards."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "Voter roll revision (SIR)"
+   },
+   {
+    "icon": "📋",
+    "label": "ECI directions"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📝",
+    "label": "Form 6 for new voters"
+   },
+   {
+    "icon": "⏰",
+    "label": "Objections close Oct 22"
+   },
+   {
+    "icon": "📜",
+    "label": "Final roll Oct 27"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "GBA voter enrolment drive"
+  }
+ },
+ "order": 74,
+ "readSecs": 45,
+ "sort": "2026-10-17-25",
+ "sources": [
+  {
+   "name": "Deccan Herald",
+   "title": "Karnataka SIR | GBA to hold special drive for voter enrolment",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/karnataka-sir-gba-to-hold-special-drive-for-voter-enrolment-4184579"
+  }
+ ],
+ "thread": "blr-civic-polls",
+ "tldr": "The GBA is running a special drive to add new voters, and claims and objections close on October 22.",
+ "topic": "Voter list deadline",
+ "watch": "Claims and objections close October 22. The final voter roll comes out October 27."
+}

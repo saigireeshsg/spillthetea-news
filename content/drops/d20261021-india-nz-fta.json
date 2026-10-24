@@ -1,0 +1,126 @@
+{
+ "beats": {
+  "care": "If you dream of working or studying abroad, New Zealand now has visa routes set aside for Indians, from skilled jobs to a working holiday.",
+  "what": "India's free trade agreement with New Zealand came into force on 20 October. New Zealand dropped tariffs on all Indian exports.",
+  "why": "Both countries want to double two-way trade by 2030. India also gets new routes for its workers and students in New Zealand."
+ },
+ "cards": [
+  {
+   "body": "The 5,000 skilled work visas need a job offer from an accredited employer, last up to three years, and do not lead straight to residency. New Zealand also promised Indian students at least 20 hours of work a week while studying.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "India cut tariffs on about 70% of its product lines. Dairy, sugar and edible oils stay protected. New Zealand apples, kiwifruit and honey get in only in limited amounts, above a minimum price.",
+   "k": "why",
+   "title": "what does india give in return?"
+  },
+  {
+   "body": "It is spread over 15 years, across farming, factories, infrastructure and startups.",
+   "caption": "investment New Zealand promised to help bring to India",
+   "k": "num",
+   "value": "$20 bn"
+  },
+  {
+   "body": "Indian exporters had been paying New Zealand tariffs of up to 10% on goods like clothes and shoes. From day one, every Indian product enters duty-free.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, sounds great",
+    "Maybe for a year",
+    "No, I'd stay in India"
+   ],
+   "q": "Would you consider working in New Zealand?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It adds work and study visa routes",
+    "It makes NZ dairy cheaper",
+    "It removes all Indian tariffs",
+    "It gives free NZ degrees"
+   ],
+   "q": "Why does this deal matter to young Indians, not just exporters?",
+   "why": "Besides trade, the deal sets aside skilled work visas, working holiday spots and longer post-study work for Indians."
+  }
+ ],
+ "cat": "world",
+ "cover": {
+  "bg": [
+   "#04223a",
+   "#22c1a4"
+  ],
+  "big": "5,000",
+  "label": "new skilled work visas for Indians in NZ",
+  "motion": "drift",
+  "scene": [
+   "🇳🇿",
+   "✈️",
+   "🎓"
+  ]
+ },
+ "date": "2026-10-21",
+ "heat": 4,
+ "hook": "New Zealand just opened *work visas* for young Indians. Who gets them?",
+ "lead": "world",
+ "learn": {
+  "t": "New Zealand will offer 1,000 working holiday visas a year to Indians aged 18 to 30, for up to 12 months."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🤝",
+    "label": "Deal signed in April"
+   },
+   {
+    "icon": "🏛️",
+    "label": "NZ Parliament passed it"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📦",
+    "label": "Zero tariff on Indian exports"
+   },
+   {
+    "icon": "🛂",
+    "label": "5,000 skilled work visas"
+   },
+   {
+    "icon": "🧑‍🎓",
+    "label": "Working holiday for 18–30s"
+   }
+  ],
+  "event": {
+   "icon": "📜",
+   "label": "India-NZ trade deal in force"
+  }
+ },
+ "order": 3,
+ "readSecs": 70,
+ "sort": "2026-10-21-96",
+ "sources": [
+  {
+   "name": "Business Today",
+   "title": "100% duty free exports, 5,000 work visas: India New Zealand FTA takes effect today",
+   "url": "https://www.businesstoday.in/india/story/100-duty-free-exports-5000-work-visas-rs35000-crore-investment-india-new-zealand-fta-takes-effect-today-heres-what-changes-562572-2026-10-20"
+  },
+  {
+   "name": "Indian Weekender",
+   "title": "India-New Zealand FTA comes into force: Who benefits and what's new?",
+   "url": "https://www.indianweekender.co.nz/news/india-new-zealand-fta-comes-into-force-who-benefits-and-whats-new"
+  },
+  {
+   "name": "HCAMag",
+   "title": "New Zealand opens doors to more Indian workers under new free trade deal",
+   "url": "https://www.hcamag.com/nz/specialisation/immigration/new-zealand-opens-doors-to-more-indian-workers-under-new-free-trade-deal/594172"
+  }
+ ],
+ "thread": "india-fta",
+ "tldr": "India's free trade deal with New Zealand is now in force, ending tariffs on Indian goods and opening new visas for Indians.",
+ "topic": "India-New Zealand trade deal",
+ "watch": "From 16 November, Indian PhD graduates in New Zealand get four-year post-study work visas. Working holiday visas launch within two years."
+}

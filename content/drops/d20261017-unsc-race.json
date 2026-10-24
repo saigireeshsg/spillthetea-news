@@ -1,0 +1,134 @@
+{
+ "beats": {
+  "care": "The Security Council decides on wars, sanctions and peacekeeping. A seat gives India a louder voice on terrorism, trade routes and tech.",
+  "what": "India and Tajikistan are both running for the single Asia-Pacific seat on the UN Security Council for 2028 and 2029.",
+  "why": "Usually a region agrees on one candidate. This time there's a real contest, which an analysis in The Hindu calls a test for India."
+ },
+ "cards": [
+  {
+   "body": "It's the UN's most powerful body, with 15 members. Five are permanent and hold a veto: the US, China, Russia, the UK and France. Ten are elected for two-year terms, and its decisions bind every UN member.",
+   "k": "why",
+   "title": "what is the security council?"
+  },
+  {
+   "body": "The most recent was 2021–22. Tajikistan has never had a seat.",
+   "caption": "India's past terms on the Council",
+   "k": "num",
+   "value": "8"
+  },
+  {
+   "body": "India hasn't always won these races: it lost contested votes to Pakistan in 1975 and to Japan in 1996.",
+   "k": "twist"
+  },
+  {
+   "a": {
+    "body": "Defeating a first-time candidate could dent India's image as a voice for smaller, developing countries.",
+    "label": "Some analysts argue"
+   },
+   "b": {
+    "body": "India is a top UN peacekeeping contributor and home to about a sixth of humanity, so it has earned the seat.",
+    "label": "India's backers say"
+   },
+   "k": "sides",
+   "title": "Should India step aside?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Contest and win",
+    "Let Tajikistan go first",
+    "Split the term"
+   ],
+   "q": "What should India do about the UN seat?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Another country wants the same seat",
+    "India was suspended from the UN",
+    "The seat is permanent",
+    "The vote was cancelled"
+   ],
+   "q": "Why is India's 2028–29 UN Council bid tricky?",
+   "why": "Tajikistan is running for the one Asia-Pacific seat, so India must win two-thirds of the vote instead of walking in unopposed."
+  }
+ ],
+ "cat": "world",
+ "cover": {
+  "bg": [
+   "#071a33",
+   "#2196f3"
+  ],
+  "big": "2/3",
+  "label": "Share of UN votes needed to win the seat",
+  "motion": "drift",
+  "scene": [
+   "🇺🇳",
+   "🇮🇳",
+   "🗳️"
+  ]
+ },
+ "date": "2026-10-17",
+ "heat": 3,
+ "hook": "India has sat on the UN's top table 8 times. *Who's in the way of a 9th?*",
+ "lead": "world",
+ "learn": {
+  "t": "To win an elected UN Security Council seat, a country needs two-thirds of the votes cast in the 193-member General Assembly."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🇮🇳",
+    "label": "India seeks a 9th term"
+   },
+   {
+    "icon": "🇹🇯",
+    "label": "Tajikistan's first-ever bid"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🤝",
+    "label": "Lobbying across 193 countries"
+   },
+   {
+    "icon": "📅",
+    "label": "UN vote in June 2027"
+   }
+  ],
+  "event": {
+   "icon": "🗳️",
+   "label": "Two rivals, one Asia seat"
+  }
+ },
+ "order": 4,
+ "readSecs": 65,
+ "sort": "2026-10-17-95",
+ "sources": [
+  {
+   "name": "ThePrint",
+   "title": "Tajikistan, vying with India for UNSC non-permanent seat, says membership not about status",
+   "url": "https://theprint.in/world/tajikistan-vying-with-india-for-unsc-non-permanent-seat-says-membership-not-about-status/3055062/"
+  },
+  {
+   "name": "StratNews Global",
+   "title": "UN Seat Battle Shadows Rajnath's Dushanbe Visit",
+   "url": "https://stratnewsglobal.com/central-asia/tajikistan/un-seat-battle-shadows-rajnaths-dushanbe-visit/"
+  },
+  {
+   "name": "StratNews Global",
+   "title": "India, Tajikistan Face Off in UNSC Race",
+   "url": "https://stratnewsglobal.com/united-nations/india-tajikistan-face-off-in-unsc-race/"
+  },
+  {
+   "name": "Legacy IAS (summary of The Hindu)",
+   "title": "Editorials/Opinions Analysis For UPSC 16 October 2026",
+   "url": "https://www.legacyias.com/editorials-opinions-analysis-for-upsc-16-october-2026/"
+  }
+ ],
+ "thread": "india-unsc-bid",
+ "tldr": "India wants a UN Security Council seat for 2028–29, but first-time bidder Tajikistan is running for the same Asia-Pacific seat.",
+ "topic": "UN Security Council race",
+ "watch": "Rajnath Singh visits Tajikistan's capital Dushanbe for an SCO meeting on 19–20 Oct. The UN vote is in June 2027."
+}

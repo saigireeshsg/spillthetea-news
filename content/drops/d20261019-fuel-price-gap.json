@@ -1,0 +1,108 @@
+{
+ "beats": {
+  "care": "If you ride a bike, check which pump you use. Ten litres a month at a private pump now costs about fifty rupees more.",
+  "what": "Nayara Energy and Jio-bp raised petrol by five rupees and diesel by three rupees a litre this month at over 9,000 pumps.",
+  "why": "Crude oil is above 100 dollars a barrel because of the US–Iran conflict. Private firms can pass on costs; state-run ones haven't."
+ },
+ "calc": {
+  "def": 10,
+  "kind": "per",
+  "label": "extra a month at Nayara or Jio-bp pumps",
+  "per": 5,
+  "q": "Litres of petrol you buy a month?"
+ },
+ "cards": [
+  {
+   "body": "Nayara's hike came on 3 October across 7,108 pumps; Jio-bp's on 11 October across 2,304. Commercial LPG also rose ₹62.50 per 19-kg cylinder in October, while home LPG stayed the same.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Indian Oil, BPCL and HPCL have kept pump prices flat. ICRA estimated they lose about ₹8 a litre on petrol and ₹9 on diesel, around ₹530 crore a day together.",
+   "k": "why",
+   "title": "why don't state pumps raise prices?"
+  },
+  {
+   "body": "Nayara raised prices in March too, then cut them in July when crude eased. Private prices can fall as fast as they rise.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, losses can't last",
+    "No, protect buyers",
+    "Cut fuel taxes instead"
+   ],
+   "q": "Should state pumps raise prices too?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Private firms passed on costly crude; state firms absorbed it",
+    "State petrol is lower quality",
+    "Private pumps pay no tax",
+    "Crude got cheaper for state firms only"
+   ],
+   "q": "Why are petrol prices different at private and state pumps?",
+   "why": "Both pay the same high crude price, but state-run firms chose to take losses instead of raising pump prices."
+  }
+ ],
+ "cat": "money",
+ "concept": "inflation",
+ "date": "2026-10-19",
+ "heat": 3,
+ "hook": "Same petrol, *₹5 more* a litre. Which pump are you filling at?",
+ "learn": {
+  "t": "State-run oil companies lost about ₹8 a litre on petrol in September by not raising prices, ICRA estimated."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛢️",
+    "label": "Brent crude above $100"
+   },
+   {
+    "icon": "📉",
+    "label": "Weaker rupee"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏛️",
+    "label": "IOC, BPCL, HPCL unchanged"
+   },
+   {
+    "icon": "💸",
+    "label": "State firms lose ₹530 cr/day"
+   }
+  ],
+  "event": {
+   "icon": "⛽",
+   "label": "Private pumps add ₹5/L"
+  }
+ },
+ "order": 6,
+ "readSecs": 60,
+ "sort": "2026-10-19-93",
+ "sources": [
+  {
+   "name": "Goodreturns",
+   "title": "Petrol, Diesel Prices Hike 2026: Jio-BP Increases Petrol By Rs 5/Litre, Diesel Up Rs 3",
+   "url": "https://www.goodreturns.in/news/petrol-diesel-prices-hike-2026-jio-bp-hikes-petrol-by-rs-5-litre-diesel-up-rs-3-city-wise-fuel-price-1540733.html"
+  },
+  {
+   "name": "Sarkaritel",
+   "title": "Nayara Energy Hikes Petrol ₹5, Diesel ₹3",
+   "url": "https://www.sarkaritel.com/nayara-energy-petrol-diesel-price-hike-october-2026/"
+  },
+  {
+   "name": "Business Today",
+   "title": "Petrol, diesel prices today (October 15): Check latest rates",
+   "url": "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-october-15-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-561678-2026-10-15"
+  }
+ ],
+ "thread": "fuel-prices",
+ "tldr": "Private pumps Nayara and Jio-bp raised petrol by ₹5 a litre, while state-run pumps kept prices flat and absorb big losses.",
+ "topic": "Petrol price gap"
+}

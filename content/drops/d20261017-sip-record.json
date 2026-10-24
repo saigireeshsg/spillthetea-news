@@ -1,0 +1,97 @@
+{
+ "beats": {
+  "care": "Lots of young earners start SIPs with small monthly amounts. Investing regularly is a habit, but returns are never guaranteed.",
+  "what": "Money coming in through SIPs hit a record ₹32,490 crore in September, slightly up from ₹32,297 crore in August, AMFI data showed.",
+  "why": "Total mutual fund assets still fell 5.1% to ₹82.64 lakh crore, as about ₹1.83 lakh crore flowed out of debt funds."
+ },
+ "cards": [
+  {
+   "body": "An SIP is an automatic monthly payment into a fund. The money goes in whether markets are up or down, so the total barely changes even when markets swing. You buy more units when prices are low and fewer when high.",
+   "k": "why",
+   "title": "why do sips keep flowing?"
+  },
+  {
+   "body": "That's up about 31% from August, with small-cap and mid-cap funds drawing the most.",
+   "caption": "Net money into equity funds in September",
+   "k": "num",
+   "value": "₹38,306 cr"
+  },
+  {
+   "body": "Small-cap funds, whose prices swing the most, pulled in more money than any other equity category: about ₹9,039 crore.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "From my first salary",
+    "After an emergency fund",
+    "Once I understand it",
+    "Never, too risky"
+   ],
+   "q": "When would you start a SIP?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Debt funds saw big exits while SIPs kept coming",
+    "SIPs stopped completely",
+    "The government seized funds",
+    "Every fund doubled in value"
+   ],
+   "q": "How could SIP money hit a record while total fund assets fell?",
+   "why": "Steady monthly SIP money kept arriving, but large withdrawals from debt funds pulled the overall total down."
+  }
+ ],
+ "cat": "money",
+ "concept": "sip",
+ "date": "2026-10-17",
+ "heat": 3,
+ "hook": "Mutual fund assets fell 5%. So why did SIPs *hit a record*?",
+ "learn": {
+  "t": "About 63 lakh new SIP accounts were opened in September alone, a sign of how many new investors keep joining."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📅",
+    "label": "Automatic monthly SIP payments"
+   },
+   {
+    "icon": "🆕",
+    "label": "63 lakh new SIP accounts"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📉",
+    "label": "Total fund assets down 5.1%"
+   },
+   {
+    "icon": "💼",
+    "label": "Big exits from debt funds"
+   }
+  ],
+  "event": {
+   "icon": "📈",
+   "label": "SIPs hit ₹32,490 crore"
+  }
+ },
+ "order": 8,
+ "readSecs": 55,
+ "sort": "2026-10-17-91",
+ "sources": [
+  {
+   "name": "The Statesman",
+   "title": "Mutual Fund SIP inflows hit record Rs 32,490 Crore in September: AMFI data",
+   "url": "https://www.thestatesman.com/business/mutual-fund-sip-inflows-hit-record-rs-32490-crore-in-september-amfi-data-1503650203.html"
+  },
+  {
+   "name": "The Hans India",
+   "title": "SIP inflows hit all-time high of Rs 32,490 crore in September: AMFI data",
+   "url": "https://www.thehansindia.com/business/sip-inflows-hit-all-time-high-of-rs-32490-crore-in-september-amfi-data-1131657"
+  }
+ ],
+ "tldr": "Indians put a record ₹32,490 crore into mutual funds through SIPs in September, even as total fund assets fell 5.1%.",
+ "topic": "Record SIP inflows"
+}

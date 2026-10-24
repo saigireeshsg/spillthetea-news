@@ -1,0 +1,104 @@
+{
+ "beats": {
+  "care": "The Amazon stores huge amounts of carbon that shapes global weather, including the rains India depends on. Policies can actually work.",
+  "what": "Official satellite data shows the Brazilian Amazon lost 3,335 square kilometres between August 2025 and July 2026, the lowest since 1988.",
+  "why": "President Lula's government revived an anti-deforestation plan, restored fines spotted by satellite, and tied funding to cutting forest loss."
+ },
+ "cards": [
+  {
+   "body": "Under the previous president Jair Bolsonaro (2019 to 2022), deforestation rose about 60%. His son Flávio Bolsonaro now faces Lula in the runoff, after taking 47% to Lula's 45% in round one. Both promise to end deforestation by 2030 or earlier.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Not yet. Fires, logging and drought now damage about 40% of the forest, often more than clear-cutting does. Fires have tripled since the election's first round.",
+   "k": "why",
+   "title": "is the amazon safe now?"
+  },
+  {
+   "body": "Even at its record low, the forest lost an area over twice the size of Delhi in one year.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, it's global",
+    "No, Brazil's job",
+    "Both should pay"
+   ],
+   "q": "Should rich countries pay to protect forests?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Stricter enforcement and money tied to results",
+    "Heavy rain stopping loggers",
+    "The forest stopped growing",
+    "A global ban on timber"
+   ],
+   "q": "What drove the Amazon's record-low forest loss?",
+   "why": "Satellite-backed fines and funding linked to cutting forest loss changed behaviour on the ground."
+  },
+  {
+   "by": "25 Oct",
+   "k": "predict",
+   "opts": [
+    "Lula",
+    "Flávio Bolsonaro"
+   ],
+   "q": "Who wins Brazil's presidential runoff?"
+  }
+ ],
+ "cat": "planet",
+ "date": "2026-10-20",
+ "heat": 2,
+ "hook": "The Amazon just had its *best year since 1988*. Will it last?",
+ "learn": {
+  "t": "Deforestation and land-use change are Brazil's biggest source of greenhouse gases, more than its cars or factories."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛰️",
+    "label": "Satellite-led fines restored"
+   },
+   {
+    "icon": "🏦",
+    "label": "Loans curbed for illegal clearing"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📉",
+    "label": "Down 71% since 2023"
+   },
+   {
+    "icon": "🗳️",
+    "label": "Runoff vote on 25 Oct"
+   }
+  ],
+  "event": {
+   "icon": "🌳",
+   "label": "Forest loss at record low"
+  }
+ },
+ "order": 9,
+ "readSecs": 50,
+ "sort": "2026-10-20-90",
+ "sources": [
+  {
+   "name": "AP (via News4Jax)",
+   "title": "Brazil says Amazon deforestation fell to the lowest level since 1988",
+   "url": "https://www.news4jax.com/news/world/2026/10/16/brazil-says-amazon-deforestation-fell-to-the-lowest-level-since-1988/"
+  },
+  {
+   "name": "Express & Star (PA)",
+   "title": "Amazon deforestation falls to lowest level since 1988, Brazil says",
+   "url": "https://www.expressandstar.com/world-news/amazon-deforestation-falls-to-lowest-level-since-1988-brazil-says-9293506"
+  }
+ ],
+ "tldr": "Brazil says Amazon forest loss fell to 3,335 sq km in the year to July 2026, the lowest since records began in 1988, days before a tight presidential runoff.",
+ "topic": "Amazon deforestation low",
+ "watch": "Brazil votes in the presidential runoff between Lula and Flávio Bolsonaro on 25 Oct."
+}

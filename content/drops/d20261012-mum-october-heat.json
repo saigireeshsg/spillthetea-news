@@ -1,0 +1,117 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Commuting at midday? Carry water, wear light cotton and avoid long walks in the afternoon sun.",
+  "what": "Santacruz recorded 38°C on Sunday, 4.9°C above normal. Monday's high was forecast around 36°C under clear skies.",
+  "why": "The monsoon withdrew early. Experts point to a dry September, a rainfall deficit and El Niño."
+ },
+ "cards": [
+  {
+   "body": "Sunday's 38°C came within 0.6°C of it, as per IMD data.",
+   "caption": "October record, set Oct 17, 2015",
+   "k": "num",
+   "value": "38.6°C"
+  },
+  {
+   "body": "IMD Mumbai Director Bikram Singh says highs will drop gradually from Tuesday. No heatwave alert has been issued, but hot and humid weather continues.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Even Monday morning's minimum was 29°C, so the nights aren't cooling the city much either.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "AC local all the way",
+    "Nimbu paani on loop",
+    "Staying indoors",
+    "What heat? I'm used to it"
+   ],
+   "q": "How are you beating the heat?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It was 4.9°C hotter than usual for that date",
+    "It was 4.9°C hotter than Saturday",
+    "It broke the all-time record by 4.9°C",
+    "The night was 4.9°C cooler"
+   ],
+   "q": "What does '4.9°C above normal' mean for Sunday's 38°C?",
+   "why": "'Normal' is the long-term average for that date, so Sunday was far hotter than a usual October day."
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "cover": {
+  "bg": [
+   "#2a0f05",
+   "#ff7a1a"
+  ],
+  "big": "38°C",
+  "label": "Santacruz on Sunday, 4.9°C above normal",
+  "motion": "rise",
+  "scene": [
+   "☀️",
+   "🌡️",
+   "🥵"
+  ]
+ },
+ "date": "2026-10-12",
+ "heat": 4,
+ "hook": "Mumbai came within *0.6°C* of its October heat record",
+ "lead": "local",
+ "learn": {
+  "t": "The monsoon left Mumbai on October 3, about a week before its usual exit date."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Monsoon left a week early"
+   },
+   {
+    "icon": "☀️",
+    "label": "Clear, dry skies"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🥵",
+    "label": "Hot, humid days"
+   },
+   {
+    "icon": "📉",
+    "label": "Slow relief from Tuesday"
+   }
+  ],
+  "event": {
+   "icon": "🌡️",
+   "label": "38°C at Santacruz"
+  }
+ },
+ "order": 89,
+ "readSecs": 40,
+ "sort": "2026-10-12-10",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Mumbai Weather Update: City Records 38°C, Second-Highest October Temperature In 13 Years; IMD Predicts Relief From Tuesday",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-weather-update-city-records-38c-second-highest-october-temperature-in-13-years-imd-predicts-relief-from-tuesday"
+  },
+  {
+   "name": "Free Press Journal",
+   "title": "Mumbai Weather Update: City To Swelter Under 36°C Heat Today, AQI In Moderate Range",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-weather-update-city-to-swelter-under-36c-heat-today-aqi-in-moderate-range-mumbai-news"
+  }
+ ],
+ "thread": "mum-weather",
+ "tldr": "Santacruz hit 38°C on Sunday, Mumbai's second-hottest October day in 13 years; IMD expects slow relief from Tuesday.",
+ "topic": "October heat",
+ "watch": "IMD says maximum temperatures should start dropping gradually from Tuesday, October 13."
+}

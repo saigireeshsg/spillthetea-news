@@ -1,0 +1,123 @@
+{
+ "beats": {
+  "care": "It decides whether women get a third of seats before the 2029 election, and how much your state's vote counts.",
+  "what": "Several outlets report the government may call a special Parliament session late this month to pass the women's reservation and delimitation bills.",
+  "why": "In April, the constitutional amendment got 298 votes to 230, more yes than no, but short of the two-thirds it needed."
+ },
+ "cards": [
+  {
+   "a": {
+    "body": "Redrawing seats now lets the women's quota start sooner, instead of waiting for the 2027 census. Amit Shah said southern states would gain seats, from 129 to 195.",
+    "label": "Government says"
+   },
+   "b": {
+    "body": "Bring in the 33% women's quota now, without tying it to delimitation. Southern parties fear seats shifting to populous northern states.",
+    "label": "Opposition says"
+   },
+   "k": "sides",
+   "note": "No session dates have been officially announced.",
+   "title": "Link women's quota to new seat maps?"
+  },
+  {
+   "body": "It means redrawing constituencies and deciding how many MPs each state gets, based on population. The April bills would have raised the cap from 550 to 850 seats.",
+   "k": "why",
+   "title": "what is delimitation?"
+  },
+  {
+   "body": "PRS projected that a population-based reshuffle could cut Tamil Nadu from 39 to 32 seats and Kerala from 20 to 15, while Uttar Pradesh could go from 80 to 89.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "The last Delimitation Commission was set up in 2002 and took until 2008 to finish its orders.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Start it now, separately",
+    "Tie it to new seat maps",
+    "Wait for the 2027 census"
+   ],
+   "q": "Women's quota: what's the right move?"
+  },
+  {
+   "by": "31 Oct",
+   "k": "predict",
+   "opts": [
+    "Yes, session held",
+    "No, not by then"
+   ],
+   "q": "Will Parliament meet in a special session by 31 Oct?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It got a majority but not two-thirds",
+    "Nobody voted for it",
+    "The court struck it down",
+    "The President vetoed it"
+   ],
+   "q": "Why did the April women's quota bill fail?",
+   "why": "Changing the Constitution needs a special two-thirds majority, not just more yes votes than no."
+  }
+ ],
+ "cat": "india",
+ "date": "2026-10-19",
+ "heat": 3,
+ "hook": "850 MPs and *one-third women*? Why Parliament may meet again",
+ "learn": {
+  "t": "How many Lok Sabha seats each state gets is still based on the 1971 census, frozen for over 50 years."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "👩",
+    "label": "2023 women's quota law waits"
+   },
+   {
+    "icon": "❌",
+    "label": "April bill missed two-thirds"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🗳️",
+    "label": "Needs 360 of 540 votes"
+   },
+   {
+    "icon": "🗺️",
+    "label": "South fears losing clout"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "Special session likely, reports say"
+  }
+ },
+ "order": 8,
+ "readSecs": 70,
+ "sort": "2026-10-19-91",
+ "sources": [
+  {
+   "name": "Outlook India",
+   "title": "Special Parliament Session Likely This Month To Pass Women's Quota, Delimitation Bills",
+   "url": "https://www.outlookindia.com/national/special-parliament-session-likely-this-month-to-pass-womens-quota-delimitation-bills"
+  },
+  {
+   "name": "The Hans India",
+   "title": "Special Parliament Session Likely in October-End; Delimitation, Women's Bill on Agenda",
+   "url": "https://www.thehansindia.com/news/cities/new-delhi/special-parliament-session-likely-in-october-end-delimitation-womens-bill-on-agenda-1132943"
+  },
+  {
+   "name": "PRS Legislative Research",
+   "title": "The Delimitation Bill, 2026",
+   "url": "https://prsindia.org/billtrack/the-delimitation-bill-2026"
+  }
+ ],
+ "storyline": "delimitation",
+ "tldr": "The Centre may call a special Parliament session this month to try again to pass the women's quota and seat-redrawing bills that failed in April.",
+ "topic": "Women's quota push",
+ "watch": "Dates aren't announced. Reports say about a week's notice is likely, and a BRICS forum fills Parliament on 26–27 October."
+}

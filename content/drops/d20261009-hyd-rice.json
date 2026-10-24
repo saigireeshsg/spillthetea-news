@@ -1,0 +1,110 @@
+{
+ "beats": {
+  "care": "Rice is in almost every meal. Your family's grocery bill will feel it until the new harvest reaches markets.",
+  "what": "Fine rice in Hyderabad now costs ₹85–90 a kg, and traders say it could hit ₹100 within days.",
+  "why": "Telangana grew paddy on 78 lakh acres this season vs 92 lakh last time, while festival demand and out-of-state buyers rose."
+ },
+ "cards": [
+  {
+   "body": "Over the last 30–45 days, a 25-kg bag of fine rice in Hyderabad went up by ₹300–500. A raw rice bag that cost about ₹1,500 now costs about ₹1,900; steam rice went from about ₹1,600 to ₹2,100.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Steam rice: ~₹1,600 → ~₹2,100.",
+   "caption": "25-kg bag of raw rice (was ~₹1,500)",
+   "k": "num",
+   "value": "₹1,900"
+  },
+  {
+   "body": "It's the same squeeze The Hindu's editorial is about today: food prices rising for reasons interest rates can't fix.",
+   "k": "twist"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Less paddy grown + festival demand",
+    "A new GST on rice",
+    "Rice exports banned",
+    "No reason at all"
+   ],
+   "q": "Why is fine rice getting costlier in Telangana?",
+   "why": "Paddy area fell from about 92 to 78 lakh acres, while Dasara-Diwali demand and out-of-state buyers rose."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, big time",
+    "A little",
+    "Haven't noticed"
+   ],
+   "q": "Has your home noticed rice getting pricier?"
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "cover": {
+  "bg": [
+   "#2a200a",
+   "#e8a20c"
+  ],
+  "big": "₹90",
+  "label": "a kg of fine rice · may hit ₹100",
+  "motion": "rise",
+  "scene": [
+   "🍚",
+   "🌾",
+   "🛒"
+  ]
+ },
+ "date": "2026-10-09",
+ "heat": 4,
+ "hook": "Why is fine rice in Hyderabad *heading to ₹100 a kg*?",
+ "lead": "local",
+ "map": {
+  "causes": [
+   {
+    "icon": "🌾",
+    "label": "Less paddy grown this year"
+   },
+   {
+    "icon": "🪔",
+    "label": "Dasara, Diwali demand"
+   },
+   {
+    "icon": "🚚",
+    "label": "Other states buying our paddy"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📈",
+    "label": "Traders expect ₹100/kg"
+   },
+   {
+    "icon": "🛍️",
+    "label": "25-kg bag up ₹300–500"
+   },
+   {
+    "icon": "🌾",
+    "label": "May ease after harvest"
+   }
+  ],
+  "event": {
+   "icon": "🍚",
+   "label": "Fine rice hits ₹85–90/kg"
+  }
+ },
+ "order": 21,
+ "readSecs": 40,
+ "sort": "2026-10-09-78",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Fine rice prices rise to Rs 90 a kg in Hyderabad, may touch Rs 100",
+   "url": "https://telanganatoday.com/fine-rice-prices-rise-to-rs-90-a-kg-in-hyderabad-may-touch-rs-100"
+  }
+ ],
+ "topic": "Rice at ₹90/kg"
+}

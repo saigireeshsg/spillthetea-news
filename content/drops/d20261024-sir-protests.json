@@ -1,0 +1,100 @@
+{
+ "beats": {
+  "care": "If you just turned 18 or moved cities, check your name is on the voter list. It's your vote.",
+  "what": "About 500 people marched in Delhi to demand SIR be scrapped and CEC Gyanesh Kumar resign. Police detained some of them.",
+  "why": "Scores of scientists from IISc, IIT Delhi and other institutes wrote to the EC saying poor and migrant voters are being wrongly removed. Punjab's Assembly passed a resolution seeking a probe."
+ },
+ "cards": [
+  {
+   "body": "Police said about 20 were detained and released; protesters said about 50. One FIR was filed for breaking prohibitory orders. Farmers' group SKM held protests at district offices across the country.",
+   "k": "tea"
+  },
+  {
+   "body": "The EC has ordered fresh checks in some States, including Delhi.",
+   "caption": "Names removed from voter rolls under SIR",
+   "k": "num",
+   "value": "13 crore"
+  },
+  {
+   "a": {
+    "body": "Eligible voters, especially poor and migrant ones, are deleted with no easy way back. The process lacks transparency.",
+    "label": "Critics say"
+   },
+   "b": {
+    "body": "Congress and allies are using protests to create 'anarchy' in Delhi.",
+    "label": "BJP says"
+   },
+   "k": "sides",
+   "title": "Is SIR fair?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, it's there",
+    "No, will check now",
+    "Not 18 yet"
+   ],
+   "q": "Have you checked your name on the voter list?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Special Intensive Revision of voter rolls",
+    "State Income Report",
+    "Smart ID Registration",
+    "Supreme Inquiry Report"
+   ],
+   "q": "What does SIR stand for in this story?",
+   "why": "SIR is the Election Commission's special intensive revision of electoral rolls."
+  }
+ ],
+ "cat": "india",
+ "date": "2026-10-24",
+ "heat": 4,
+ "hook": "*13 crore* names cut from voter lists. Now students and scientists push back",
+ "learn": {
+  "t": "Scientists signing the letter said the right to vote is a basic pillar of democracy and nobody should lose it through unclear procedures."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "13 crore names removed"
+   },
+   {
+    "icon": "🚫",
+    "label": "Jantar Mantar closed to protests"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "👮",
+    "label": "Protesters detained"
+   },
+   {
+    "icon": "🏛️",
+    "label": "Punjab Assembly seeks probe"
+   }
+  ],
+  "event": {
+   "icon": "📣",
+   "label": "March towards Election Commission"
+  }
+ },
+ "order": 3,
+ "readSecs": 60,
+ "sort": "2026-10-24-96",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Students and activists rally in Delhi seeking CEC exit, SIR rollback (print, Hyderabad edition, 24 Oct, p.1)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "storyline": "sir",
+ "thread": "sir",
+ "tldr": "Students, farmers and scientists protested the voter-list clean-up (SIR) and demanded the Chief Election Commissioner quit. Punjab's Assembly wants a probe.",
+ "topic": "Protests against SIR",
+ "watch": "Another big protest is planned in Delhi on November 1. Watch the results of the EC's fresh verification."
+}

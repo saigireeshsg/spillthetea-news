@@ -1,0 +1,115 @@
+{
+ "beats": {
+  "care": "If RBI's plans are clear, your loan rates and prices move less by surprise. That matters most if you live month to month.",
+  "what": "The Hindu's editorial says the Nobel-winning work of Robert Hall and Michael Woodford matters especially now, and holds lessons for India's policymakers.",
+  "why": "Their research shows that what households and firms expect about the future changes how they spend, price and borrow today."
+ },
+ "cards": [
+  {
+   "body": "The paper argues the winners' big idea, that expectations about the future ripple back into today's decisions, fits a world hit by sudden supply shocks. It says Indian policymakers have already learnt some of these lessons, but households and businesses decide with more confidence when medium-term policy is clear and stable.",
+   "k": "edit",
+   "kind": "Editorial · 17 Oct",
+   "paper": "The Hindu",
+   "title": "Ripples from the future",
+   "verdict": "Steady, predictable policy is itself a tool against inflation."
+  },
+  {
+   "body": "If shops and workers expect prices to keep rising, they raise prices and ask for higher pay early. That can keep inflation going even after the original shock fades. A trusted target helps stop that loop.",
+   "k": "why",
+   "title": "why do expectations push prices?"
+  },
+  {
+   "body": "The editorial also notes that many households live hand to mouth, with no savings to absorb a shock. For them, a sudden jump in fuel or food prices hurts at once, which is why calm, predictable policy matters.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "The economics prize isn't one of Alfred Nobel's original prizes. Sweden's central bank created it in 1968, and it was first given in 1969.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Clear long-term signals",
+    "Fast rate moves",
+    "Both equally"
+   ],
+   "q": "What should RBI focus on now?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Clear, stable policy shapes what people expect",
+    "Banks should stop giving loans",
+    "Printing money ends inflation",
+    "Prices never respond to news"
+   ],
+   "q": "What is the editorial's main lesson for India?",
+   "why": "When people trust where policy is headed, they plan calmly, which helps keep prices steady."
+  }
+ ],
+ "cat": "edit",
+ "concept": "inflation",
+ "date": "2026-10-19",
+ "editorial": {
+  "paper": "The Hindu",
+  "title": "Ripples from the future"
+ },
+ "featured": true,
+ "heat": 3,
+ "hook": "Can a *promise about tomorrow* cool prices today?",
+ "learn": {
+  "t": "RBI's 4% inflation target, set by law in 2016, works partly by anchoring what people expect prices to do next."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔮",
+    "label": "People act on expectations"
+   },
+   {
+    "icon": "🛢️",
+    "label": "Oil shock strains economies"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏦",
+    "label": "Clear, steady RBI signals"
+   },
+   {
+    "icon": "🧾",
+    "label": "Help families plan ahead"
+   }
+  ],
+  "event": {
+   "icon": "📰",
+   "label": "The Hindu on Nobel lessons"
+  }
+ },
+ "order": 1,
+ "readSecs": 70,
+ "sort": "2026-10-19-98",
+ "sources": [
+  {
+   "name": "Editorial Words (summary of The Hindu editorial)",
+   "title": "The Hindu Editorial (Ripples from the future)",
+   "url": "https://www.editorialwords.com/the-hindu-editorial-ripples-from-the-future-oct-17-2026/"
+  },
+  {
+   "name": "Fortune",
+   "title": "The economics Nobel went to the scholar whose work shaped Fed 'forward guidance'",
+   "url": "https://fortune.com/2026/10/12/nobel-economics-2026-robert-hall-michael-woodford/"
+  },
+  {
+   "name": "Business Standard",
+   "title": "Nobel Economics Prize 2026: How Hall and Woodford changed policymaking",
+   "url": "https://www.business-standard.com/economy/news/nobel-economics-prize-2026-how-hall-and-woodford-changed-policymaking-126101200923_1.html"
+  }
+ ],
+ "storyline": "rbi-inflation",
+ "tldr": "The Hindu says this year's economics Nobel holds a lesson for India: what people expect tomorrow shapes prices and spending today.",
+ "topic": "Inflation expectations",
+ "watch": "October retail inflation data comes out in mid-November. Watch whether it stays above RBI's 4% target."
+}

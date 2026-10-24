@@ -1,0 +1,109 @@
+{
+ "beats": {
+  "care": "If you have family working in the Gulf, this affects their safety, flights home and the money they send back.",
+  "what": "An Indian was killed when Yemen's Houthi rebels hit Dammam airport in Saudi Arabia. The Hindu's editorial says India must act early.",
+  "why": "Since fighting restarted in July, at least two Indians have died and 14 have been hurt. Indians are the biggest expat group in Saudi Arabia."
+ },
+ "cards": [
+  {
+   "body": "The Houthis control northern Yemen and its Red Sea coast. After Saudi Arabia bombed Sana'a airport in July, they began hitting Saudi airports and oil sites. Years of Saudi bombing have not beaten them. A yacht with 14 Indians was also hit near Yemen; India says all 14 are safe.",
+   "k": "edit",
+   "kind": "Editorial · 24 Oct",
+   "paper": "The Hindu",
+   "title": "In the crossfire",
+   "verdict": "India should prepare a worst-case plan, evacuate stranded pilgrims first, and work with Arab states and Iran for a ceasefire."
+  },
+  {
+   "body": "An armed group from northern Yemen that took the capital, Sana'a, in 2014. Saudi Arabia began bombing them in 2015, but they grew stronger and built drones, missiles and a navy.",
+   "k": "why",
+   "title": "who are the Houthis?"
+  },
+  {
+   "a": {
+    "body": "Take a stronger, active stand for peace and talk to all sides, including Tehran.",
+    "label": "The Hindu says"
+   },
+   "b": {
+    "body": "India condemns the Houthi attacks and 'stands in solidarity' with Saudi Arabia.",
+    "label": "The government says"
+   },
+   "k": "sides",
+   "note": "IndiGo has cancelled Saudi flights until late October.",
+   "title": "What should India do?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, our people are there",
+    "No, stay neutral",
+    "Only to evacuate Indians"
+   ],
+   "q": "Should India get more involved in Gulf peace talks?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Houthi attacks on Saudi airports and oil sites",
+    "A new visa ban",
+    "A cyclone in the Gulf",
+    "A Saudi election"
+   ],
+   "q": "Why are Indians in Saudi Arabia at risk right now?",
+   "why": "Houthi drones and missiles are hitting Saudi infrastructure where many Indians live and work."
+  }
+ ],
+ "cat": "edit",
+ "date": "2026-10-24",
+ "editorial": {
+  "paper": "The Hindu",
+  "title": "In the crossfire"
+ },
+ "featured": true,
+ "heat": 4,
+ "hook": "An Indian was killed in a Saudi airport attack. Is India *ready* for the worst?",
+ "learn": {
+  "t": "Indians are the largest expat community in Saudi Arabia, so any war there quickly becomes an Indian safety issue."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "✈️",
+    "label": "Saudi bombed Sana'a airport"
+   },
+   {
+    "icon": "💥",
+    "label": "2022 ceasefire collapsed"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🇮🇳",
+    "label": "2 Indians killed, 14 hurt"
+   },
+   {
+    "icon": "🛫",
+    "label": "Pilgrims stranded, flights cut"
+   }
+  ],
+  "event": {
+   "icon": "⚠️",
+   "label": "Houthi strikes hit Saudi cities"
+  }
+ },
+ "order": 1,
+ "readSecs": 70,
+ "sort": "2026-10-24-98",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "In the crossfire (print, Hyderabad edition, 24 Oct, p.8)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "storyline": "west-asia",
+ "thread": "west-asia",
+ "tldr": "The Hindu says the Saudi–Houthi war now puts Indians in Saudi Arabia at risk, and India needs a plan before things get worse.",
+ "topic": "Indians in the Saudi–Houthi war",
+ "watch": "Watch whether India announces evacuation flights for stranded pilgrims, and whether the US strikes Iran, which could widen the war."
+}

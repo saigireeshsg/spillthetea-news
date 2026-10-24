@@ -1,0 +1,114 @@
+{
+ "beats": {
+  "care": "Expect more apps and helplines that talk in your language, and changes to entry-level support jobs.",
+  "what": "AI voice company ElevenLabs says it will invest hundreds of millions of dollars in India.",
+  "why": "India is its second-biggest market, and voice AI that speaks Indian languages is a giant opportunity."
+ },
+ "cards": [
+  {
+   "body": "ElevenLabs makes AI that talks like a human. It told Reuters it will invest hundreds of millions of dollars in India: hiring people here, building new models, and getting better at Indian languages.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "India is now its second-biggest market after the US. PhysicsWallah, Havells and Razorpay already use it.",
+   "caption": "Indian languages its AI already speaks",
+   "k": "num",
+   "value": "14"
+  },
+  {
+   "body": "India has 22 official languages, and tons of people would rather speak than type. If AI can talk to everyone in their own language, that's a giant market.",
+   "k": "why",
+   "title": "why India?"
+  },
+  {
+   "body": "That super-patient support person on the phone might soon be AI. ElevenLabs' boss says this moves simple support jobs toward more complex ones. Good if you learn new skills; scary if you were counting on a basic call-centre job.",
+   "k": "you",
+   "title": ""
+  },
+  {
+   "a": {
+    "body": "Apps and government services in Telugu, Tamil or Bhojpuri help people who don't read English.",
+    "label": "The 'this is great' side"
+   },
+   "b": {
+    "body": "Entry-level support jobs are how many people start working. AI taking those hurts first-jobbers the most.",
+    "label": "The 'wait a sec' side"
+   },
+   "k": "sides",
+   "title": "Cool or worrying?"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "1st",
+    "2nd",
+    "5th",
+    "Not even top 10"
+   ],
+   "q": "Where does India rank among ElevenLabs' markets?",
+   "why": "India is its second-biggest market, right after the US."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, if it fixes my problem",
+    "Only if it tells me it's AI",
+    "No, give me a human"
+   ],
+   "q": "Would you be okay talking to an AI on a support call?"
+  }
+ ],
+ "cat": "tech",
+ "date": "2026-10-09",
+ "heat": 2,
+ "hook": "Could the next customer care call you get be *an AI* speaking Telugu?",
+ "map": {
+  "causes": [
+   {
+    "icon": "🗣️",
+    "label": "22 official languages"
+   },
+   {
+    "icon": "📈",
+    "label": "India = 2nd-biggest market"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🤖",
+    "label": "More AI voice agents"
+   },
+   {
+    "icon": "🌐",
+    "label": "Apps in your language"
+   },
+   {
+    "icon": "💼",
+    "label": "Support jobs may change"
+   }
+  ],
+  "event": {
+   "icon": "💵",
+   "label": "ElevenLabs to invest big in India"
+  }
+ },
+ "order": 10,
+ "readSecs": 55,
+ "sort": "2026-10-09-89",
+ "sources": [
+  {
+   "name": "DealStreetAsia / Reuters",
+   "title": "ElevenLabs to invest 'hundreds of millions of dollars' in India",
+   "url": "https://www.dealstreetasia.com/stories/ai-firm-elevenlabs-invest-in-india-497381/"
+  },
+  {
+   "name": "NewsBytes",
+   "title": "ElevenLabs to invest part of nearly $1 billion in India",
+   "url": "https://www.newsbytesapp.com/news/business/elevenlabs-to-invest-part-of-nearly-1-billion-in-india/tldr"
+  }
+ ],
+ "tldr": "AI voice company ElevenLabs says it will put hundreds of millions of dollars into India.",
+ "topic": "AI voices"
+}

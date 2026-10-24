@@ -1,0 +1,55 @@
+{
+ "emoji": "🏛️",
+ "india": "Khyber Pakhtunkhwa borders Afghanistan. Instability in a nuclear-armed neighbour matters for security across the region, including India.",
+ "lede": "Imran Khan, a former cricket captain, became Pakistan's prime minister in 2018. He was voted out in 2022 and has been in jail since 2023. His party, PTI, says he is being targeted for political reasons; the government says he faces genuine criminal cases. The clash has spilled onto the streets again and again.",
+ "mins": 1,
+ "players": [
+  {
+   "name": "Imran Khan",
+   "role": "Former PM and PTI founder. In jail since 2023."
+  },
+  {
+   "name": "PTI",
+   "role": "Khan's party. Ran the Khyber Pakhtunkhwa province until the emergency."
+  },
+  {
+   "name": "Federal government",
+   "role": "Runs Pakistan from Islamabad. Says it is fighting rising terrorism."
+  },
+  {
+   "name": "President Asif Ali Zardari",
+   "role": "Signed the emergency order for Khyber Pakhtunkhwa."
+  },
+  {
+   "name": "Sohail Afridi",
+   "role": "PTI chief minister of Khyber Pakhtunkhwa. PTI says he was detained."
+  }
+ ],
+ "timeline": [
+  {
+   "what": "Imran Khan becomes prime minister.",
+   "when": "Aug 2018"
+  },
+  {
+   "what": "He loses a no-confidence vote in Parliament and is removed from office.",
+   "when": "Apr 2022"
+  },
+  {
+   "what": "Khan is jailed after a corruption conviction. More cases follow.",
+   "when": "Aug 2023"
+  },
+  {
+   "what": "In national elections, PTI-backed independents win the most seats, but rival parties form the government.",
+   "when": "Feb 2024"
+  },
+  {
+   "what": "PTI's Sohail Afridi becomes chief minister of Khyber Pakhtunkhwa.",
+   "when": "Oct 2025"
+  },
+  {
+   "what": "Talks fail on 4 Oct and PTI starts a long march for Khan's release. On 11 Oct the president puts Khyber Pakhtunkhwa under emergency rule, and Parliament approves it on 14 Oct amid opposition walkouts.",
+   "when": "Now"
+  }
+ ],
+ "title": "Pakistan's Imran Khan fight"
+}

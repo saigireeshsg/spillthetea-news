@@ -1,0 +1,110 @@
+{
+ "beats": {
+  "care": "If you turn 18 by 1 January 2027 in these states, fill Form 6 to get on the list. Telangana isn't in this round.",
+  "what": "The Election Commission announced a Special Summary Revision of voter lists in 17 states and union territories, including UP, Bihar, Tamil Nadu and Bengal.",
+  "why": "The aim is to enrol eligible voters, especially first-timers, and fix errors. It comes amid protests over names deleted during SIR."
+ },
+ "cards": [
+  {
+   "body": "SIR rebuilds the list almost from scratch, with house-to-house checks. SSR is a lighter update of the existing list: adding new voters, fixing details and removing duplicate or dead voters, without door-to-door visits.",
+   "k": "why",
+   "title": "ssr vs sir: what's the difference?"
+  },
+  {
+   "body": "In a shift, the EC will give parties draft and final lists as searchable PDFs instead of image files, a long-standing opposition demand. It had earlier refused, citing fears of misuse.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "a": {
+    "body": "SIR removed too many names without proper checks, and the extra Form 6 declaration is unfair. They want the CEC removed.",
+    "label": "Opposition parties say"
+   },
+   "b": {
+    "body": "Revisions keep lists accurate, and every registration officer must make sure no eligible citizen is left out.",
+    "label": "The Election Commission says"
+   },
+   "k": "sides",
+   "title": "Are the voter lists fair?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, already",
+    "Applying now",
+    "Not 18 yet",
+    "Not planning to"
+   ],
+   "q": "Are you registered to vote?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Add new voters and fix errors",
+    "Cancel upcoming elections",
+    "Replace voter IDs with Aadhaar",
+    "Remove all older voters"
+   ],
+   "q": "What's the main goal of the EC's Special Summary Revision?",
+   "why": "SSR updates existing lists, mainly to enrol young first-time voters and correct mistakes."
+  }
+ ],
+ "cat": "india",
+ "date": "2026-10-17",
+ "heat": 3,
+ "hook": "Turning 18 soon? A *voter list update* just opened in 17 states",
+ "learn": {
+  "t": "You can apply early: people turning 18 on 1 April, 1 July or 1 October 2027 can already send in voter applications."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "Row over SIR deletions"
+   },
+   {
+    "icon": "🧑‍🎓",
+    "label": "Many young voters unregistered"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📝",
+    "label": "Form 6 for new voters"
+   },
+   {
+    "icon": "📄",
+    "label": "Parties get searchable lists"
+   }
+  ],
+  "event": {
+   "icon": "📋",
+   "label": "EC announces revision in 17 states"
+  }
+ },
+ "order": 6,
+ "readSecs": 60,
+ "sort": "2026-10-17-93",
+ "sources": [
+  {
+   "name": "The Week",
+   "title": "What is Special Summary Revision? EC kicks off process in 17 states",
+   "url": "https://www.theweek.in/news/india/2026/10/16/what-is-the-special-summary-revision-ssr-ec-kicks-off-process-in-17-states.html"
+  },
+  {
+   "name": "India TV",
+   "title": "EC announces Special Summary Revision in 17 states, UTs to boost enrolment of eligible electors amid SIR row",
+   "url": "https://www.indiatvnews.com/news/india/ec-announces-special-summary-revision-in-17-states-and-uts-to-boost-enrolment-of-eligible-electors-2026-10-15-1057093"
+  },
+  {
+   "name": "Deccan Herald",
+   "title": "Election Commission to conduct Special Summary Revision of electoral rolls in 17 states and Union territories",
+   "url": "https://www.deccanherald.com/india/election-commission-to-conduct-special-summary-revision-of-electoral-rolls-in-17-states-and-union-territories-4184069"
+  }
+ ],
+ "storyline": "sir",
+ "tldr": "The Election Commission will update voter lists in 17 states and UTs, with a focus on adding young first-time voters.",
+ "topic": "Voter list update",
+ "watch": "Draft voter lists come out on 12 Nov. Claims and objections run till 11 Dec. Final lists on 4 Jan 2027."
+}

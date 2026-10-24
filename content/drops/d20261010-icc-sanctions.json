@@ -1,0 +1,108 @@
+{
+ "beats": {
+  "care": "It tests whether global courts can hold powerful leaders to account. It also shows how big powers push back when they disagree.",
+  "what": "The US froze the International Criminal Court's property in America and banned anyone from giving it money, goods or services.",
+  "why": "The US objects to the court's arrest warrant for Israel's prime minister and its Afghanistan probe, which could involve American troops."
+ },
+ "cards": [
+  {
+   "body": "Secretary of State Marco Rubio announced the sanctions on 9 Oct. Companies that serve the court could be penalised, with short exemptions for things like tech and pensions. Earlier US sanctions hit ICC officials; this time they target the court itself.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "A court in The Hague that tries people, not countries, for genocide, war crimes and crimes against humanity. It was set up by a treaty called the Rome Statute. The US, Israel and India never joined; most of Europe, Latin America and much of Africa did.",
+   "k": "why",
+   "title": "what is the icc?"
+  },
+  {
+   "a": {
+    "body": "The court has no right to go after Americans or Israelis, since neither country joined it. Rubio warned the US will cut off the court unless it ends its 'threats'.",
+    "label": "US says"
+   },
+   "b": {
+    "body": "The sanctions must be condemned and its work will go on. It urged member countries to step up their support.",
+    "label": "ICC says"
+   },
+   "k": "sides",
+   "title": "Who's right?"
+  },
+  {
+   "body": "Hours earlier, the Nobel Peace Prize went to Navi Pillay, a former ICC judge of Indian Tamil descent who led a UN inquiry accusing Israel of genocide in Gaza.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure yet"
+   ],
+   "q": "Should India join the International Criminal Court?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Its cases target Israel's PM and could reach US troops",
+    "It raised membership fees",
+    "It moved its headquarters",
+    "It awarded the Nobel Prize"
+   ],
+   "q": "Why is the US sanctioning the ICC?",
+   "why": "The US says the court shouldn't pursue citizens of countries that never joined it, like the US and Israel."
+  }
+ ],
+ "cat": "world",
+ "date": "2026-10-10",
+ "heat": 3,
+ "hook": "The US just sanctioned a *whole court*. Why the ICC, and why now?",
+ "map": {
+  "causes": [
+   {
+    "icon": "⚖️",
+    "label": "ICC warrant for Netanyahu"
+   },
+   {
+    "icon": "🪖",
+    "label": "Probe could reach US troops"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💳",
+    "label": "No US money or services"
+   },
+   {
+    "icon": "🏛️",
+    "label": "ICC: our work continues"
+   }
+  ],
+  "event": {
+   "icon": "⛔",
+   "label": "US sanctions the ICC itself"
+  }
+ },
+ "order": 7,
+ "readSecs": 60,
+ "sort": "2026-10-10-92",
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "US sanctions International Criminal Court in major escalation",
+   "url": "https://www.aljazeera.com/news/2026/10/9/us-sanctions-international-criminal-court-itself-in-latest-escalation"
+  },
+  {
+   "name": "NBC News",
+   "title": "U.S. hits International Criminal Court with sweeping sanctions, hours after former judge wins Nobel Peace Prize",
+   "url": "https://www.nbcnews.com/world/north-america/us-hits-international-criminal-court-sanctions-nobel-peace-prize-rcna602542"
+  },
+  {
+   "name": "Times of Israel",
+   "title": "Liveblog, Oct. 9, 2026",
+   "url": "https://www.timesofisrael.com/liveblog-oct-9-2026/"
+  }
+ ],
+ "tldr": "The US put sanctions on the International Criminal Court itself, hours after a former ICC judge won the Nobel Peace Prize.",
+ "topic": "ICC sanctions"
+}

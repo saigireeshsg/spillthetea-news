@@ -1,0 +1,110 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Expect tighter water supply in Hyderabad. Fix leaks and don't waste water at home or in your PG.",
+  "what": "At a review meeting, the CM said Telangana's drinking water shortage could continue until July next year.",
+  "why": "El Niño weakened the monsoon. He said reservoirs hold less than 200 tmcft and temperatures will rise."
+ },
+ "cards": [
+  {
+   "body": "He asked people to adapt like they did during the pandemic. A special scheme will give daily work to workers for four months after Sankranti, until May. The BJP asked for an all-party meeting.",
+   "k": "tea"
+  },
+  {
+   "body": "The CM said El Niño is hitting other places too, like Maharashtra.",
+   "caption": "How long the crisis may last",
+   "k": "num",
+   "value": "Till July"
+  },
+  {
+   "body": "The CM said opponents blame his government for 'bringing drought', but El Niño is a global weather pattern.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes",
+    "Not yet",
+    "I depend on tankers"
+   ],
+   "q": "Has water supply dropped in your area?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "El Niño weakened the monsoon",
+    "A dam broke",
+    "New water tax",
+    "Too much rain"
+   ],
+   "q": "Why might Telangana face water shortage till July?",
+   "why": "El Niño led to poor rains, so reservoirs are low."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "cover": {
+  "bg": [
+   "#2b1a05",
+   "#e8730c"
+  ],
+  "big": "<200 tmcft",
+  "label": "water left in Telangana's reservoirs, says the CM",
+  "motion": "fall",
+  "scene": [
+   "💧",
+   "☀️",
+   "🚰"
+  ]
+ },
+ "date": "2026-10-24",
+ "heat": 4,
+ "hook": "Telangana's water crisis may last till *July*, CM warns",
+ "lead": "local",
+ "learn": {
+  "t": "El Niño is a warming of the Pacific Ocean that often weakens India's monsoon."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌵",
+    "label": "El Niño weak monsoon"
+   },
+   {
+    "icon": "💧",
+    "label": "Reservoirs under 200 tmcft"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⚡",
+    "label": "Save water and power"
+   },
+   {
+    "icon": "👷",
+    "label": "Job scheme after Sankranti"
+   }
+  ],
+  "event": {
+   "icon": "🚰",
+   "label": "Water crisis till July"
+  }
+ },
+ "order": 13,
+ "readSecs": 55,
+ "sort": "2026-10-24-86",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "El Nino-induced crisis may persist till July: CM (print, Hyderabad edition, 24 Oct, p.6)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "thread": "el-nino",
+ "tldr": "CM Revanth Reddy said El Niño could keep Telangana short of drinking water until July and asked people to save water and power.",
+ "topic": "El Niño water crisis",
+ "watch": "Watch for water supply schedules from the Hyderabad water board and the job scheme's launch after Sankranti."
+}

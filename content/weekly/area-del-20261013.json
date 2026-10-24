@@ -1,0 +1,37 @@
+{
+ "city": "Delhi",
+ "date": "2026-10-13",
+ "items": [
+  {
+   "area": "Connaught Place",
+   "icon": "🚧",
+   "src": "Delhi Traffic Police",
+   "text": "Protest diversions at Mandi House, CP Outer Circle, Lodhi Rd; metro gates near Rajiv Chowk may shut"
+  },
+  {
+   "area": "Connaught Place",
+   "icon": "📢",
+   "src": "Delhi Police via ANI",
+   "text": "Jantar Mantar dropped as protest site; Ramlila, Burari and CBD grounds named instead"
+  },
+  {
+   "area": "Citywide",
+   "icon": "⚖️",
+   "src": "PTI",
+   "text": "Supreme Court hearing on protest and metro curbs moved to Thu, Oct 15"
+  },
+  {
+   "area": "Citywide",
+   "icon": "🏚️",
+   "src": "Delhi Govt via The Statesman",
+   "text": "MCD sealed 282 and razed 47 unsafe buildings in a month. PG hunting? Check cracks, extra floors"
+  },
+  {
+   "area": "Citywide",
+   "icon": "🌤️",
+   "src": "IMD",
+   "text": "After wettest October day since 2022, IMD sees a dry, warmer week. Light layer for mornings"
+  }
+ ],
+ "kind": "area"
+}

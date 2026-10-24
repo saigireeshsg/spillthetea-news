@@ -1,0 +1,37 @@
+{
+ "city": "Chennai",
+ "date": "2026-10-13",
+ "items": [
+  {
+   "area": "Vadapalani",
+   "icon": "🚇",
+   "src": "CMRL via DT Next",
+   "text": "New Poonamallee–Vadapalani metro runs 7 am–9 pm, fares ₹10–40. Change at Vadapalani"
+  },
+  {
+   "area": "Porur",
+   "icon": "🔌",
+   "src": "Tangedco via DT Next",
+   "text": "Planned power cuts 9 am–2 pm Oct 13–14 in Porur, Tambaram, Avadi, Mogappair. Charge up"
+  },
+  {
+   "area": "Citywide",
+   "icon": "🌧️",
+   "src": "IMD",
+   "text": "IMD: northeast monsoon may arrive in 2–3 days. Keep umbrella handy, avoid flooded subways"
+  },
+  {
+   "area": "Tambaram",
+   "icon": "🛗",
+   "src": "Southern Railway via DT Next",
+   "text": "Tambaram station to get 9 more lifts and 10 escalators by December"
+  },
+  {
+   "area": "Citywide",
+   "icon": "🗳️",
+   "src": "DT Next",
+   "text": "Turned 18 or moved? File Form 6 (new) or Form 8 (shift) and check your name on the roll"
+  }
+ ],
+ "kind": "area"
+}

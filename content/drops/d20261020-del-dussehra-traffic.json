@@ -1,0 +1,99 @@
+{
+ "areas": [
+  "East Delhi",
+  "Central Delhi",
+  "West Delhi"
+ ],
+ "beats": {
+  "care": "Heading home from office in East Delhi? Leave early, take the Metro or pick another route.",
+  "what": "Diversions hit NH-24, Vikas Marg and Road Nos. 56, 57 and 57A from 5 pm to 8 pm on Tuesday.",
+  "why": "Police expect heavy crowds and vehicles at Ravan-burning and Ramlila events across the city."
+ },
+ "cards": [
+  {
+   "body": "NH-24, Vikas Marg, Road No. 56, Road No. 57 and Road No. 57A. Police say diversions apply 'as required'.",
+   "k": "tea",
+   "title": "Roads to skip, 5–8 pm"
+  },
+  {
+   "body": "DCP West Hareshwar V Swami also counted 16 Durga Puja sites. Junctions near Delhi Gate and Hanuman Mandir have full police deployment.",
+   "caption": "Ramlila events in West District alone",
+   "k": "num",
+   "value": "43"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Roads are shut all day",
+    "Police may redirect traffic when crowds build",
+    "Only buses can use the road",
+    "Metro is closed"
+   ],
+   "q": "What does 'diversions as required' mean for you?",
+   "why": "Police will turn traffic away only when crowds or jams make it necessary."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Big Ramlila ground",
+    "Local park",
+    "On TV or phone",
+    "Skipping it this year"
+   ],
+   "q": "Where are you watching Ravan Dahan?"
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "date": "2026-10-20",
+ "heat": 3,
+ "hook": "Which *East Delhi roads* get diverted this evening?",
+ "learn": {
+  "t": "Delhi Traffic Police take traffic complaints on WhatsApp at 8750871493, besides the 1095 helpline."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏹",
+    "label": "Dussehra celebrations"
+   },
+   {
+    "icon": "👥",
+    "label": "Big evening crowds"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Slow NH-24, Vikas Marg"
+   },
+   {
+    "icon": "🅿️",
+    "label": "No roadside parking"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "Diversions, 5 pm to 8 pm"
+  }
+ },
+ "order": 75,
+ "readSecs": 40,
+ "sort": "2026-10-20-24",
+ "sources": [
+  {
+   "name": "The Daily Jagran",
+   "title": "Delhi Traffic Advisory: Diversions On NH-24, Vikas Marg On October 20 For Dussehra Celebrations",
+   "url": "https://www.thedailyjagran.com/india/news/delhi-traffic-advisory-diversions-on-nh-24-vikas-marg-on-october-20-for-dussehra-celebrations-check-timings-10333302"
+  },
+  {
+   "name": "The News Mill (ANI)",
+   "title": "Delhi Traffic Police issues Dussehra advisory with traffic diversions in East Delhi",
+   "url": "https://thenewsmill.com/2026/10/delhi-traffic-police-issues-dussehra-advisory-with-traffic-diversions-in-east-delhi/"
+  }
+ ],
+ "thread": "del-commute",
+ "tldr": "Delhi Traffic Police will divert traffic on NH-24, Vikas Marg and nearby East Delhi roads from 5 pm to 8 pm today for Dussehra.",
+ "topic": "Dussehra traffic"
+}

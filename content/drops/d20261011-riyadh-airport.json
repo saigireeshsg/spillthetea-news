@@ -1,0 +1,140 @@
+{
+ "beats": {
+  "care": "Lakhs of Indians live and work in Saudi Arabia. Flights from Kerala, Delhi and Mumbai have been cancelled, and fuel prices could stay high.",
+  "what": "On Saturday, a missile hit King Khalid airport in Riyadh. Saudi officials say 12 people died and 309 were injured.",
+  "why": "It was the third attack on the airport in a week. Yemen's Houthi rebels claimed the earlier ones as fighting with Saudi Arabia escalates."
+ },
+ "cards": [
+  {
+   "body": "Saudi aviation authorities say the dead include four Saudis, two Bangladeshis and one person each from the US, Egypt, Jordan, Syria, Palestine and Sudan. No Indian was reported among them. Dammam's airport was also attacked hours later.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "An armed group that controls much of Yemen and is backed by Iran. Saudi Arabia leads a coalition fighting them. With the US–Iran war raging, the Houthis have widened attacks to Saudi cities.",
+   "k": "why",
+   "title": "who are the houthis?"
+  },
+  {
+   "body": "India's embassy in Riyadh has asked Indians to stay alert, stay indoors when needed and not share videos of attacks.",
+   "caption": "24x7 helpline for Indians in Saudi Arabia",
+   "k": "num",
+   "value": "800-247-1234"
+  },
+  {
+   "a": {
+    "body": "The Saudi-led coalition says it hit over 130 Houthi targets. President Trump says the US may join strikes.",
+    "label": "Saudi Arabia and the US say"
+   },
+   "b": {
+    "body": "More strikes could widen the war, endanger civilians in Yemen and Saudi Arabia, and push oil prices even higher.",
+    "label": "Critics of escalation warn"
+   },
+   "k": "sides",
+   "title": "How should the world respond?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Getting Indians home safely",
+    "Pushing for a ceasefire",
+    "Securing oil supplies"
+   ],
+   "q": "What should India focus on first?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Lakhs of Indians live and work in Saudi Arabia",
+    "India runs Riyadh airport",
+    "India is fighting in Yemen",
+    "Saudi Arabia is India's only friend"
+   ],
+   "q": "Why does this attack matter so much to India?",
+   "why": "Saudi Arabia is home to a huge Indian workforce, so attacks there hit Indian families, flights and fuel prices."
+  }
+ ],
+ "cat": "world",
+ "cover": {
+  "bg": [
+   "#141a22",
+   "#5a7a99"
+  ],
+  "big": "309",
+  "label": "People injured at Riyadh airport; 12 killed",
+  "motion": "drift",
+  "scene": [
+   "📍",
+   "✈️",
+   "🕊️"
+  ]
+ },
+ "date": "2026-10-11",
+ "heat": 4,
+ "hook": "Saudi airports keep getting hit. *What it means for Indians* there",
+ "lead": "world",
+ "map": {
+  "causes": [
+   {
+    "icon": "⚠️",
+    "label": "Yemen war spilling over"
+   },
+   {
+    "icon": "🌍",
+    "label": "Wider US–Iran war"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "✈️",
+    "label": "291+ Riyadh flights cancelled"
+   },
+   {
+    "icon": "🏛️",
+    "label": "India: citizens stay alert"
+   },
+   {
+    "icon": "🛢️",
+    "label": "Oil already above $100"
+   }
+  ],
+  "event": {
+   "icon": "📍",
+   "label": "Missile hits Riyadh airport: 12 killed"
+  }
+ },
+ "order": 3,
+ "readSecs": 70,
+ "sort": "2026-10-11-96",
+ "sources": [
+  {
+   "name": "Arab News",
+   "title": "Riyadh airport attack killed 12 people and wounded over 300, says Saudi civil aviation agency",
+   "url": "https://www.arabnews.com/saudi-arabia/riyadh-airport-attack-killed-12-people-and-wounded-over-300-more-says-saudi-civil-aviation-agency-3005640"
+  },
+  {
+   "name": "CBS News",
+   "title": "Riyadh airport attack deaths and injuries",
+   "url": "https://www.cbsnews.com/news/riyadh-saudi-airport-attack-deaths-injuries/"
+  },
+  {
+   "name": "Al-Monitor",
+   "title": "Houthi attack on Saudi airport kills 12, over 300 wounded",
+   "url": "https://www.al-monitor.com/originals/2026/10/houthi-attack-saudi-airport-kills-12-over-300-wounded-authorities-say"
+  },
+  {
+   "name": "Outlook",
+   "title": "After Riyadh airport attack, India tells nationals in Saudi Arabia to stay alert",
+   "url": "https://www.outlookindia.com/international/after-riyadh-airport-attack-india-tells-nationals-in-saudi-arabia-to-stay-alert"
+  },
+  {
+   "name": "Onmanorama",
+   "title": "Air India, AI Express cancel Riyadh flights till Oct 10",
+   "url": "https://www.onmanorama.com/news/india/2026/10/08/air-india-ai-express-cancel-riyadh-flights-till-oct-10-after-airport-attacks.html"
+  }
+ ],
+ "storyline": "west-asia",
+ "tldr": "A missile attack on Riyadh's main airport killed 12 people and injured 309, the deadliest in a week of strikes on Saudi airports.",
+ "topic": "Riyadh airport attack"
+}

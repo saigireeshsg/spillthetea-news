@@ -1,0 +1,105 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "If a friend pitches a 'business' where you pay to join and earn by recruiting others, walk away. Report fraud on 1930.",
+  "what": "Hyderabad's Central Crime Station arrested Dig Vijay Singh, a QNET promoter, at Delhi airport as he tried to leave for Dubai.",
+  "why": "Police say QNET and Vihaan Direct Selling lured people with big commissions and foreign trips into a multi-level marketing scheme."
+ },
+ "cards": [
+  {
+   "body": "In the Hyderabad case, 43 victims have been examined so far, with about ₹5 crore involved. Police say cases across India may add up to nearly ₹10,000 crore. A Delhi court sent him to Hyderabad on transit remand.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Warning signs: a joining fee, pressure to recruit, income promises, flashy trips and talk of 'freedom'. Real jobs pay you; they don't charge you to start.",
+   "k": "why",
+   "title": "how do i spot an mlm trap?"
+  },
+  {
+   "body": "Police say the network was allegedly run from Dubai, and they are now checking foreign nationals' roles and cross-border money trails.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, by a friend",
+    "Yes, online",
+    "Never"
+   ],
+   "q": "Ever been pitched an MLM 'business'?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "You earn mainly by recruiting others",
+    "It sells real products",
+    "It has an office",
+    "It pays a fixed salary"
+   ],
+   "q": "What's the biggest red flag in a scheme like this?",
+   "why": "When income depends on bringing in new members, the money runs out once recruiting slows."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "concept": "scams",
+ "date": "2026-10-19",
+ "heat": 3,
+ "hook": "Big returns, foreign trips, *recruit friends*: how this alleged scam worked",
+ "learn": {
+  "t": "Schemes where you earn mainly by recruiting others are banned in India under the 1978 money circulation schemes law."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📱",
+    "label": "Pitches on Zoom, social media"
+   },
+   {
+    "icon": "✈️",
+    "label": "Promised returns, foreign trips"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🧊",
+    "label": "₹4 crore account frozen"
+   },
+   {
+    "icon": "🔍",
+    "label": "₹5 crore, 43 victims"
+   }
+  ],
+  "event": {
+   "icon": "👮",
+   "label": "QNET promoter held at airport"
+  }
+ },
+ "order": 11,
+ "readSecs": 55,
+ "sort": "2026-10-19-88",
+ "sources": [
+  {
+   "name": "Deccan Chronicle",
+   "title": "QNET Promoter Held At Delhi Airport In ₹10,000-cr Fraud Probe",
+   "url": "https://www.deccanchronicle.com/amp/southern-states/telangana/qnet-promoter-held-at-delhi-airport-in-10000cr-fraud-probe-1996822"
+  },
+  {
+   "name": "NewsMeter",
+   "title": "QNET promoter Dig Vijay Singh held at Delhi Airport in ₹10,000-Cr fraud probe",
+   "url": "https://newsmeter.in/hyderabad/qnet-promoter-dig-vijay-singh-held-at-delhi-airport-in-10000-cr-fraud-probe-777644"
+  },
+  {
+   "name": "Siasat",
+   "title": "QNET promoter arrested at Delhi airport in Rs 10000 cr scam",
+   "url": "https://www.siasat.com/qnet-promoter-arrested-at-delhi-airport-in-rs-10000-cr-scam-3560311/"
+  }
+ ],
+ "thread": "hyd-cyber-scams",
+ "tldr": "Hyderabad police arrested a QNET promoter at Delhi airport in a multi-level marketing fraud they say may total ₹10,000 crore nationwide.",
+ "topic": "MLM investment fraud"
+}

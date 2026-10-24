@@ -1,0 +1,93 @@
+{
+ "areas": [
+  "Market Yard",
+  "Bibwewadi",
+  "Satara Road",
+  "Swargate"
+ ],
+ "beats": {
+  "care": "Ride or drive via Bibwewadi or Satara Road? Add a few minutes and follow the U-turn near Aranyeshwar bus stop.",
+  "what": "From Monday, right turns toward Swargate are banned at Chandralok Chowk, Pushpamangal Chowk and Utsav Hotel Chowk. Drivers must use set U-turns.",
+  "why": "Underground metro work between Swargate and Katraj has squeezed these roads. Police want traffic to keep moving."
+ },
+ "cards": [
+  {
+   "body": "From Upper Bibwewadi, turn left and U-turn near Aranyeshwar bus stop. At Pushpamangal Chowk, go straight and U-turn near Adinath Society.",
+   "k": "tea",
+   "title": "Your new U-turns"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "A festival procession",
+    "To ease jams during underground metro work",
+    "Road resurfacing for Diwali",
+    "A new flyover opened"
+   ],
+   "q": "Why did police change turns around Market Yard?",
+   "why": "DCP (Traffic) Sandeep Bhajibhakre said the changes are for the Swargate–Katraj underground metro work."
+  },
+  {
+   "body": "This is the second round of curbs for this metro line. Heavy vehicles were already barred near Katraj Chowk from October 17.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Smooth so far",
+    "A bit slower",
+    "Total jam",
+    "I avoid that side"
+   ],
+   "q": "How's your Satara Road commute?"
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "date": "2026-10-20",
+ "heat": 2,
+ "hook": "Why can't you *turn right toward Swargate* near Market Yard now?",
+ "learn": {
+  "t": "The new changes are a trial, so police can tweak them. They stay 'until further orders', with no end date."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚇",
+    "label": "Swargate–Katraj metro work"
+   },
+   {
+    "icon": "🚗",
+    "label": "Heavy junction traffic"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "↩️",
+    "label": "Longer U-turn loops"
+   },
+   {
+    "icon": "⏱️",
+    "label": "Extra minutes on commute"
+   }
+  ],
+  "event": {
+   "icon": "🚫",
+   "label": "Right turns banned, U-turns added"
+  }
+ },
+ "order": 59,
+ "readSecs": 40,
+ "sort": "2026-10-20-40",
+ "sources": [
+  {
+   "name": "Punekar News",
+   "title": "Traffic Changes in Market Yard, Bibvewadi, Satara Road for Swargate-Katraj Pune Metro Work",
+   "url": "https://www.punekarnews.in/traffic-changes-in-market-yard-bibvewadi-satara-road-for-swargate-katraj-pune-metro-work/"
+  }
+ ],
+ "thread": "pun-traffic",
+ "tldr": "Pune Traffic Police have banned several right turns around Market Yard and Bibwewadi for the Swargate–Katraj underground metro work.",
+ "topic": "Metro work diversions"
+}

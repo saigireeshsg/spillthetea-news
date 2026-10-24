@@ -1,0 +1,109 @@
+{
+ "beats": {
+  "care": "Cheap Wi-Fi cameras are in many Indian homes and PGs. Change the default password, update the app, and don't point cameras at sensitive spots.",
+  "what": "A Wall Street Journal investigation found spies and hackers taking over internet cameras, from traffic cams to home webcams, to watch troops and targets.",
+  "why": "In 2024, Russian hackers reportedly used home webcams in Kyiv to aim missile strikes. Dutch intelligence says Russia hacks European cameras to track arms."
+ },
+ "cards": [
+  {
+   "body": "Hackers backing Ukraine took over a camera in Sevastopol in 2022 and tracked a Russian helicopter to an unknown air base, which was then struck. In Israel, a farmer found his camera was being used to watch troops near the Lebanon border.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Its security service says Russia could have used them to spot targets and correct strikes.",
+   "caption": "Risky cameras Ukraine has blocked or moved since 2022",
+   "k": "num",
+   "value": "40,000"
+  },
+  {
+   "body": "An Iran-linked hacker group taunted Israelis to 'find the nearest traffic camera and talk'.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, safety first",
+    "Only outside the door",
+    "No, too risky"
+   ],
+   "q": "Would you keep a camera inside your home?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Hacked feeds let spies watch troops and targets",
+    "They jam enemy radios",
+    "They charge drones",
+    "They block missiles"
+   ],
+   "q": "Why are ordinary cameras useful in a war?",
+   "why": "Millions of poorly protected cameras become free spy eyes once someone breaks in."
+  }
+ ],
+ "cat": "tech",
+ "cover": {
+  "bg": [
+   "#0b0f1a",
+   "#00e5ff"
+  ],
+  "big": "1.2B",
+  "label": "Internet-connected cameras worldwide",
+  "motion": "glitch",
+  "scene": [
+   "📹",
+   "🕵️",
+   "🔓"
+  ]
+ },
+ "date": "2026-10-13",
+ "heat": 3,
+ "hook": "Could your *home CCTV* end up spying for someone else?",
+ "learn": {
+  "t": "There are about 1.2 billion internet-connected cameras worldwide, in doorbells, traffic lights and baby monitors, and many have little protection."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔓",
+    "label": "Weak passwords, little protection"
+   },
+   {
+    "icon": "🤖",
+    "label": "AI scans hours of footage"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🎯",
+    "label": "Used to guide strikes"
+   },
+   {
+    "icon": "🛡️",
+    "label": "Ukraine blocked 40,000 cameras"
+   }
+  ],
+  "event": {
+   "icon": "📹",
+   "label": "Cameras hacked for war spying"
+  }
+ },
+ "order": 8,
+ "readSecs": 50,
+ "sort": "2026-10-13-91",
+ "sources": [
+  {
+   "name": "ThePrint (reporting WSJ)",
+   "title": "Could your home CCTV be a war surveillance tool? WSJ report reveals hackers' new ploy",
+   "url": "https://theprint.in/defence/could-your-home-cctv-be-a-war-surveillance-tool-wsj-report-reveals-hackers-new-ploy/3068397/"
+  },
+  {
+   "name": "Euromaidan Press",
+   "title": "Russia is hacking cameras across Europe to track arms bound for Ukraine — WSJ",
+   "url": "https://euromaidanpress.com/2026/10/12/russia-is-hacking-cameras-across-europe-to-track-arms-bound-for-ukraine-at-home-ukraine-has-secured-about-40000-that-could-guide-strikes-wsj/"
+  }
+ ],
+ "tldr": "A Wall Street Journal investigation found hacked internet cameras, including home webcams, being used to spy in wars from Ukraine to Israel.",
+ "topic": "Hacked home cameras"
+}

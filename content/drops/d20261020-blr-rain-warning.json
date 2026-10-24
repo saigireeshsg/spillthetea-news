@@ -1,0 +1,128 @@
+{
+ "areas": [
+  "Citywide",
+  "Bannerghatta Road",
+  "Hulimavu"
+ ],
+ "beats": {
+  "care": "Leave early, avoid flood-prone underpasses, and skip standing under trees when it thunders. Check routes before evening rides.",
+  "what": "IMD warns of thunderstorms with lightning today, and heavy rain from October 21 to 23 across south interior Karnataka, including Bengaluru.",
+  "why": "The northeast monsoon is bringing rain to south India. Bengaluru Urban is on yellow alert, Bengaluru Rural on orange, reports say."
+ },
+ "cards": [
+  {
+   "body": "The road below the upcoming Hulimavu metro station flooded again on Saturday. Residents say the drain is still blocked.",
+   "caption": "water on Bannerghatta Road at Hulimavu",
+   "k": "num",
+   "value": "Knee-deep"
+  },
+  {
+   "body": "Residents say GBA chief commissioner M Maheshwar Rao ordered the drain fixed back in May. Arakere Lake sits right next to the road, yet water still collects there.",
+   "k": "tea",
+   "title": "A fix that never came"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Stay home all week",
+    "Stay aware, weather may turn bad",
+    "Expect a cyclone",
+    "Nothing, it means clear skies"
+   ],
+   "q": "What does IMD's yellow alert ask you to do?",
+   "why": "Yellow is IMD's 'be aware' level; orange means be prepared and red means take action."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Metro all the way",
+    "Cab and pray",
+    "WFH if possible",
+    "Raincoat on the bike"
+   ],
+   "q": "How do you handle rainy commutes?"
+  },
+  {
+   "body": "Bengaluru Rural, next door, is on a higher orange alert for heavy to very heavy rain, even though the city itself is on yellow.",
+   "k": "twist"
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "cover": {
+  "bg": [
+   "#0d1b2a",
+   "#3a86ff"
+  ],
+  "big": "3 days",
+  "label": "of heavy-rain warning, Oct 21–23",
+  "motion": "fall",
+  "scene": [
+   "⛈️",
+   "🌧️",
+   "🚗"
+  ]
+ },
+ "date": "2026-10-20",
+ "heat": 4,
+ "hook": "Why should you *keep an umbrella handy* this week?",
+ "lead": "local",
+ "learn": {
+  "t": "IMD puts Bengaluru in 'South Interior Karnataka', one of the state's three weather subdivisions with coastal and north interior."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌀",
+    "label": "Northeast monsoon active"
+   },
+   {
+    "icon": "☁️",
+    "label": "Moist easterly winds"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🌊",
+    "label": "Waterlogged low roads"
+   },
+   {
+    "icon": "🚗",
+    "label": "Slow evening traffic"
+   },
+   {
+    "icon": "⚡",
+    "label": "Lightning risk outdoors"
+   }
+  ],
+  "event": {
+   "icon": "⛈️",
+   "label": "IMD heavy-rain warning"
+  }
+ },
+ "order": 89,
+ "readSecs": 50,
+ "sort": "2026-10-20-10",
+ "sources": [
+  {
+   "name": "India Meteorological Department",
+   "title": "Sub-division wise warnings: South Interior Karnataka (issued Oct 19)",
+   "url": "https://mausam.imd.gov.in/imd_latest/contents/subdivisionwise-warning_mc.php?id=13"
+  },
+  {
+   "name": "Daily Jagran English",
+   "title": "Bengaluru Rain Alert: Heavy Downpour Likely Till October 24; Check IMD Forecast For Other Karnataka Districts",
+   "url": "https://www.thedailyjagran.com/india/news/bengaluru-rain-alert-heavy-downpour-likely-till-october-24-check-imd-forecast-for-other-karnataka-districts-10333246"
+  },
+  {
+   "name": "Deccan Herald",
+   "title": "Hulimavu metro: Bannerghatta Road floods again, exposing civic apathy",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-hulimavu-metro-stretch-floods-again-no-fix-in-sight-4187609"
+  }
+ ],
+ "thread": "blr-weather",
+ "tldr": "IMD warns of thunderstorms today and possible heavy rain from October 21 to 23 in the region that includes Bengaluru.",
+ "topic": "Rain warning",
+ "watch": "IMD's heavy-rain warning for south interior Karnataka covers October 21, 22 and 23."
+}

@@ -1,0 +1,159 @@
+{
+ "beats": {
+  "care": "Fighting near the Gulf keeps oil above $100. That shows up in petrol prices here, and worries families with relatives in the Gulf.",
+  "what": "Three years after Hamas attacked Israel, Israeli strikes on Gaza continue despite a ceasefire, and the US still blockades Iran.",
+  "why": "Israel wants Hamas gone. Iran backs Hamas and its allies. The US and Israel fear Iran's nuclear programme."
+ },
+ "cards": [
+  {
+   "body": "This week marked 3 years since Hamas attacked Israel on 7 October 2023. A Gaza ceasefire began on 10 October 2025, but Israeli airstrikes continue and Israel says it controls over 60% of Gaza. The US is still blockading Iran's ports.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "All of them, living and dead, had been returned by January 2026 under the ceasefire deal.",
+   "caption": "people taken hostage on 7 Oct 2023",
+   "k": "num",
+   "value": "251"
+  },
+  {
+   "body": "Iran backs groups that fight Israel: Hamas in Gaza, Hezbollah in Lebanon, the Houthis in Yemen. The US and Israel call Iran's nuclear programme a threat. In February 2026 they struck Iran, and the fight spread across the region.",
+   "k": "why",
+   "title": "why is Iran even involved?"
+  },
+  {
+   "body": "Costlier oil hits fuel, travel and delivery prices, and weakens the rupee. Millions of Indians live and work in Gulf countries, so every escalation is a family worry for a lot of people here.",
+   "k": "you",
+   "title": ""
+  },
+  {
+   "body": "On 8 Oct, Trump said the US won't attack Iran before the 3 November US midterm elections, while talks go on. But he also said the US blockade of Iran's ports stays in full force.",
+   "k": "twist"
+  },
+  {
+   "a": {
+    "body": "There will be no Hamas rule in Gaza. Hamas must fully disarm before Israel fully pulls out.",
+    "label": "Israel's government says"
+   },
+   "b": {
+    "body": "Disarming is tied to political conditions, including a Palestinian state. Strikes during a ceasefire break the deal.",
+    "label": "Hamas & the Palestinian side say"
+   },
+   "k": "sides",
+   "note": "Hundreds of thousands of people in Gaza still live in tents or temporary shelters.",
+   "title": "How the two sides see Gaza"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "It's where India plays cricket",
+    "A big share of the world's oil passes through it",
+    "It's on India's border",
+    "It doesn't"
+   ],
+   "q": "Why does fighting near the Strait of Hormuz matter to India?",
+   "why": "Tankers carrying oil from the Gulf pass through Hormuz. Trouble there means costlier oil for India."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Nope, this helped",
+    "Kinda",
+    "Yes, I follow it"
+   ],
+   "q": "Before today, did you know how all this started?"
+  },
+  {
+   "by": "31 Dec",
+   "k": "predict",
+   "opts": [
+    "Yes",
+    "No"
+   ],
+   "q": "Will the US and Iran sign a deal before 31 Dec?"
+  }
+ ],
+ "cat": "world",
+ "cover": {
+  "bg": [
+   "#2a1608",
+   "#b4410f"
+  ],
+  "big": "$106",
+  "label": "a barrel of oil · fighting near the Gulf",
+  "motion": "drift",
+  "scene": [
+   "🛢️",
+   "🚢",
+   "🌍"
+  ]
+ },
+ "date": "2026-10-09",
+ "heat": 5,
+ "hook": "Gaza, Iran, Houthis… *why is West Asia always on fire?*",
+ "lead": "world",
+ "map": {
+  "causes": [
+   {
+    "icon": "⚔️",
+    "label": "Israel–Hamas war since 2023"
+   },
+   {
+    "icon": "☢️",
+    "label": "US & Israel vs Iran"
+   },
+   {
+    "icon": "🚢",
+    "label": "Ship attacks near Hormuz"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🛢️",
+    "label": "Oil above $100"
+   },
+   {
+    "icon": "⛽",
+    "label": "Costlier fuel in India"
+   },
+   {
+    "icon": "👨‍👩‍👧",
+    "label": "Worry for Gulf families"
+   }
+  ],
+  "event": {
+   "icon": "💥",
+   "label": "Gaza strikes go on, Iran standoff stays"
+  }
+ },
+ "order": 2,
+ "readSecs": 110,
+ "sort": "2026-10-09-97",
+ "sources": [
+  {
+   "name": "Business Standard",
+   "title": "October 7 attack to Gaza ceasefire: three years of Israel-Hamas conflict",
+   "url": "https://www.business-standard.com/amp/world-news/october-7-attack-to-gaza-ceasefire-three-years-of-israel-hamas-conflict-126100700466_1.html"
+  },
+  {
+   "name": "The Sunday Guardian",
+   "title": "Trump says US will not attack Iran before November 3 midterms",
+   "url": "https://sundayguardianlive.com/world/us-israel-iran-war-latest-live-news-wont-attack-iran-before-donald-trump-says-us-will-not-attack-iran-before-november-3-midterm-elections-as-washington-and-tehran-hold-productive-discussions-301638/"
+  },
+  {
+   "name": "Al-Monitor",
+   "title": "Iran leader Khamenei killed in massive US and Israeli attack",
+   "url": "https://www.al-monitor.com/originals/2026/02/iran-leader-khamenei-killed-massive-us-and-israeli-attack"
+  },
+  {
+   "name": "Britannica",
+   "title": "2026 Iran war",
+   "url": "https://www.britannica.com/event/2026-Iran-war"
+  }
+ ],
+ "storyline": "west-asia",
+ "tldr": "A year into the Gaza ceasefire, Israeli strikes continue, and the US–Iran standoff is keeping oil above $100.",
+ "topic": "West Asia",
+ "visual": true
+}

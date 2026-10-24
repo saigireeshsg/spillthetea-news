@@ -1,0 +1,129 @@
+{
+ "areas": [
+  "Bannerghatta Road",
+  "Hulimavu",
+  "JP Nagar",
+  "BTM Layout"
+ ],
+ "beats": {
+  "care": "Live or work near Bannerghatta Road? A metro commute is close, but wait for the official opening date.",
+  "what": "The metro safety commissioner inspected the 7.5 km line on Oct 6–8. BMRCL has replied to its observations; approval is expected this week.",
+  "why": "No line can carry passengers without the safety commissioner's authorisation. CM Shivakumar has also asked the PM for an opening date."
+ },
+ "cards": [
+  {
+   "body": "Kalena Agrahara, Hulimavu, IIMB, JP Nagar 4th Phase, Jayadeva Hospital and Tavarekere.",
+   "caption": "Stations on the stretch",
+   "k": "num",
+   "value": "6"
+  },
+  {
+   "body": "BMRCL plans six trains on this stretch: one every 6 minutes at peak hours and every 10 minutes otherwise.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Even after the safety nod, there is no fixed opening date yet. It depends on when the PM can inaugurate it.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, daily",
+    "Sometimes",
+    "Not my route",
+    "Still waiting to believe it"
+   ],
+   "q": "Will the Pink Line change your commute?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Final safety authorisation from the CMRS",
+    "New trains to be built",
+    "Tunnel digging to finish",
+    "A fare hike"
+   ],
+   "q": "What is the Pink Line still waiting for before opening?",
+   "why": "Inspection is done; the safety commissioner's authorisation, expected this week, is the last technical step."
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "cover": {
+  "bg": [
+   "#2a0a1f",
+   "#ff4fa3"
+  ],
+  "big": "7.5 km",
+  "label": "Pink Line metro nears opening",
+  "motion": "rise",
+  "scene": [
+   "🚇",
+   "🩷",
+   "🏙️"
+  ]
+ },
+ "date": "2026-10-14",
+ "heat": 4,
+ "hook": "Bannerghatta Road metro is *almost here*. What's still pending?",
+ "lead": "local",
+ "learn": {
+  "t": "Jayadeva Hospital will become Bengaluru's third metro interchange once this Pink Line stretch opens."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔍",
+    "label": "Safety inspection done"
+   },
+   {
+    "icon": "📝",
+    "label": "BMRCL answers observations"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⏱️",
+    "label": "Trains every 6 min"
+   },
+   {
+    "icon": "🔄",
+    "label": "New Jayadeva interchange"
+   },
+   {
+    "icon": "📏",
+    "label": "Network crosses 100 km"
+   }
+  ],
+  "event": {
+   "icon": "🚇",
+   "label": "Pink Line safety nod near"
+  }
+ },
+ "order": 90,
+ "readSecs": 45,
+ "sort": "2026-10-14-09",
+ "sources": [
+  {
+   "name": "Oneindia",
+   "title": "Bengaluru Pink Line Metro: Safety Certificate Expected This Week, Launch Nears",
+   "url": "https://www.oneindia.com/bengaluru/bengaluru-pink-line-metro-safety-certificate-expected-this-week-launch-nears-8234083.html"
+  },
+  {
+   "name": "Deccan Herald",
+   "title": "CM Shivakumar seeks date from PM to open elevated Pink Line; CMRS flags observations",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/cm-shivakumar-seeks-date-from-pm-to-open-elevated-pink-line-cmrs-flags-observations-4180347"
+  },
+  {
+   "name": "Swarajya",
+   "title": "Bengaluru Metro's 7.5 Km Elevated Pink Line Nears Launch As CMRS Completes Safety Inspection Of The Corridor",
+   "url": "https://swarajyamag.com/infrastructure/bengaluru-metros-75-km-elevated-pink-line-nears-launch-as-cmrs-completes-safety-inspection-of-the-corridor"
+  }
+ ],
+ "thread": "blr-metro",
+ "tldr": "The elevated Pink Line from Kalena Agrahara to Tavarekere could get its final safety approval this week, reports say.",
+ "topic": "Pink Line approval",
+ "watch": "The CMRS safety authorisation, expected this week; the opening date then depends on the PM's schedule."
+}

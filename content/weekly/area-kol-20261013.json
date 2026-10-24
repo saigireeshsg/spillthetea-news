@@ -1,0 +1,31 @@
+{
+ "city": "Kolkata",
+ "date": "2026-10-13",
+ "items": [
+  {
+   "area": "Citywide",
+   "icon": "🚇",
+   "src": "Metro Railway via PTI",
+   "text": "Puja metro: Blue & Green Lines run till 4 am Saptami–Navami; 6 am–11 pm on Oct 15–16"
+  },
+  {
+   "area": "Citywide",
+   "icon": "🚧",
+   "src": "Kolkata Police",
+   "text": "Puja curbs Oct 13–19: goods vehicles restricted, no parking on notified roads. Leave early"
+  },
+  {
+   "area": "Salt Lake",
+   "icon": "🚌",
+   "src": "WBTC via Millennium Post",
+   "text": "New AC-59 bus: Uttarpara to Salt Lake via airport, New Town; 8:30 & 9 am out, 5:30 & 6 pm back"
+  },
+  {
+   "area": "Salt Lake",
+   "icon": "⚽",
+   "src": "Millennium Post",
+   "text": "Real Madrid vs Barcelona legends match tentatively Nov 25 at Yuva Bharati. Skip resale offers"
+  }
+ ],
+ "kind": "area"
+}

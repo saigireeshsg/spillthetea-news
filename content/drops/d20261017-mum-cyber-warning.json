@@ -1,0 +1,92 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Into cybersecurity? Only test systems you own or have written permission for, like official bug bounty programmes. Curiosity is not a legal defence.",
+  "what": "Maharashtra Cyber says it stopped an attempted intrusion into its systems on Aug 15 and traced it via IP addresses to a 22-year-old student.",
+  "why": "The agency says hacking and unauthorised access are serious offences, and it wants to deter curious tech students."
+ },
+ "cards": [
+  {
+   "ans": 2,
+   "k": "quiz",
+   "opts": [
+    "Reading a government website",
+    "Reporting a scam to police",
+    "Probing a government server without permission",
+    "Studying ethical hacking in college"
+   ],
+   "q": "According to Maharashtra Cyber, which of these can land you in legal trouble?",
+   "why": "The agency warned that unauthorised probing, testing or exploitation attempts on government systems can have legal consequences."
+  },
+  {
+   "body": "He was called in and issued a notice. Reports do not mention an arrest or charges so far.",
+   "caption": "Age of the student questioned",
+   "k": "num",
+   "value": "22"
+  },
+  {
+   "body": "The agency's Security Operations Centre flagged odd activity. Investigators then followed the digital footprints and IP addresses back to the student.",
+   "k": "tea",
+   "title": "How did they find him?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, from first year",
+    "Only for CS students",
+    "Online courses are enough",
+    "Not needed"
+   ],
+   "q": "Should colleges teach cyber law with coding?"
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "date": "2026-10-17",
+ "heat": 3,
+ "hook": "Is *just testing* a government website for bugs actually legal?",
+ "learn": {
+  "t": "Maharashtra Cyber says even unauthorised probing or testing of government websites and servers can bring legal consequences."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💻",
+    "label": "Unauthorised access attempt"
+   },
+   {
+    "icon": "🛡️",
+    "label": "Security centre flags it"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⚠️",
+    "label": "Warning to students"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Possible legal action"
+   }
+  ],
+  "event": {
+   "icon": "🔎",
+   "label": "Student traced, given notice"
+  }
+ },
+ "order": 73,
+ "readSecs": 40,
+ "sort": "2026-10-17-26",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Maharashtra Cyber Foils Attempted Cyberattack On Its Digital Infrastructure, Questions 22-Year-Old Student",
+   "url": "https://www.freepressjournal.in/tech/maharashtra-cyber-foils-attempted-cyberattack-on-its-digital-infrastructure-questions-22-year-old-student"
+  }
+ ],
+ "thread": "mum-cyber-safety",
+ "tldr": "Maharashtra Cyber traced an attempted attack on its own systems to a 22-year-old college student and warned students that even 'testing' government sites can be illegal.",
+ "topic": "Hacking warning"
+}

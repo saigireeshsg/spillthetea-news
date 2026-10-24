@@ -1,0 +1,107 @@
+{
+ "beats": {
+  "care": "Her first series as captain starts 16 Oct against Zimbabwe in Raipur. Harmanpreet keeps playing.",
+  "what": "Smriti Mandhana is the new full-time captain of India's women's cricket team.",
+  "why": "Harmanpreet Kaur stepped down after leading India to last year's ODI World Cup title."
+ },
+ "cards": [
+  {
+   "body": "On 6 Oct, Harmanpreet Kaur stepped down as captain of the India women's cricket team. The BCCI named Smriti Mandhana as the new full-time captain.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "In 2024 and 2026. She's also captained India 22 times before as a stand-in.",
+   "caption": "WPL trophies Smriti won as RCB captain",
+   "k": "num",
+   "value": "2"
+  },
+  {
+   "body": "Harmanpreet led India to its first-ever ODI World Cup title last year. So Smriti is taking over a champion team, and everyone's watching.",
+   "k": "why",
+   "title": "why is this a big deal?"
+  },
+  {
+   "body": "Harmanpreet isn't leaving the team. She'll keep playing, which means the old captain will be in the dressing room with the new one.",
+   "k": "twist"
+  },
+  {
+   "body": "Smriti's first series as full-time captain is at home against Zimbabwe, starting 16 Oct in Raipur.",
+   "k": "you",
+   "title": "when can I watch?"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Mumbai Indians",
+    "RCB",
+    "Delhi Capitals",
+    "Gujarat Giants"
+   ],
+   "q": "Which WPL team did Smriti captain to two titles?",
+   "why": "She led Royal Challengers Bengaluru to WPL titles in 2024 and 2026."
+  },
+  {
+   "by": "end of series",
+   "k": "predict",
+   "opts": [
+    "Yes, clean sweep",
+    "No, Zimbabwe win one"
+   ],
+   "q": "Will India win every T20 against Zimbabwe?"
+  }
+ ],
+ "cat": "sport",
+ "date": "2026-10-09",
+ "heat": 3,
+ "hook": "India's women's team has a new captain. *Who* and why now?",
+ "map": {
+  "causes": [
+   {
+    "icon": "🔄",
+    "label": "Harmanpreet steps down"
+   },
+   {
+    "icon": "🏆",
+    "label": "Smriti: 2 WPL titles"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏏",
+    "label": "First series: vs Zimbabwe, 16 Oct"
+   },
+   {
+    "icon": "🤝",
+    "label": "Harmanpreet stays as player"
+   }
+  ],
+  "event": {
+   "icon": "🧢",
+   "label": "Smriti Mandhana named captain"
+  }
+ },
+ "order": 9,
+ "readSecs": 50,
+ "sort": "2026-10-09-90",
+ "sources": [
+  {
+   "name": "ICC",
+   "title": "India name new captain after Harmanpreet Kaur steps down",
+   "url": "https://www.icc-cricket.com/news/india-name-new-captain-after-harmanpreet-kaur-steps-down"
+  },
+  {
+   "name": "Qatar Tribune / ANI",
+   "title": "Mandhana succeeds Kaur as India women's cricket captain",
+   "url": "https://www.qatar-tribune.com/article/257929/sports/mandhana-succeeds-kaur-as-india-womens-cricket-captain"
+  },
+  {
+   "name": "The Logical Indian",
+   "title": "Indian women's cricket enters a new leadership era",
+   "url": "https://thelogicalindian.com/?p=129492"
+  }
+ ],
+ "tldr": "Harmanpreet Kaur stepped down as captain and Smriti Mandhana is taking over.",
+ "topic": "Captain Smriti"
+}

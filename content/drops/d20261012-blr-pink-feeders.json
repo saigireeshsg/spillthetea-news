@@ -1,0 +1,102 @@
+{
+ "areas": [
+  "JP Nagar",
+  "Jayanagar",
+  "BTM Layout",
+  "Hulimavu",
+  "Bilekahalli",
+  "Uttarahalli"
+ ],
+ "beats": {
+  "care": "Live near JP Nagar, BTM, Hulimavu or Uttarahalli? You may get a bus straight to the metro, with live arrival times.",
+  "what": "BMTC plans 5 feeder routes with 30 buses making 415 trips a day to the soon-to-open Pink Line metro stations.",
+  "why": "Metro only helps if you can reach the station. Feeder buses cover the last few km from homes to stations."
+ },
+ "cards": [
+  {
+   "body": "30 buses across 5 routes, about every 10 minutes, as per BMTC's plan.",
+   "caption": "daily trips planned",
+   "k": "num",
+   "value": "415"
+  },
+  {
+   "body": "MF-18J: Jayadeva Hospital–Uttarahalli. MF-18JT: Jayadeva–Tavarekere. MF-18JP: JP Nagar 4th Phase–IIMB ring. MF-22HS: Hulimavu–Singasandra via Begur Lake. MF-18T: Tavarekere ring via Jayanagar and Banashankari.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Fares and a start date aren't out yet. BMTC says routes are subject to final operational arrangements.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, daily",
+    "Only if it's cheap",
+    "I'd still take an auto",
+    "Not on my route"
+   ],
+   "q": "Would a feeder bus get you onto the metro?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Getting from home to the metro station",
+    "Making metro tickets cheaper",
+    "Replacing the metro at night",
+    "Cutting airport traffic"
+   ],
+   "q": "What problem do feeder buses mainly solve?",
+   "why": "Feeders cover the last-mile gap between neighbourhoods and stations, so more people can use the metro."
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "date": "2026-10-12",
+ "heat": 3,
+ "hook": "Pink Line feeder buses every *10 minutes*. Is your area listed?",
+ "lead": "local",
+ "learn": {
+  "t": "BMTC already runs 71 metro feeder services covering 54 stations across the city."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚇",
+    "label": "Pink Line opening soon"
+   },
+   {
+    "icon": "🚶",
+    "label": "Last-mile gap"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⏱️",
+    "label": "Bus every 10 minutes"
+   },
+   {
+    "icon": "📲",
+    "label": "Live bus times at stations"
+   }
+  ],
+  "event": {
+   "icon": "🚌",
+   "label": "5 feeder routes planned"
+  }
+ },
+ "order": 90,
+ "readSecs": 45,
+ "sort": "2026-10-12-09",
+ "sources": [
+  {
+   "name": "Deccan Herald",
+   "title": "BMTC to launch 5 dedicated feeder buses for Pink Line metro stations",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bmtc-to-launch-5-dedicated-feeder-buses-for-pink-line-metro-stations-4179157"
+  }
+ ],
+ "thread": "blr-metro",
+ "tldr": "BMTC will run 5 new feeder bus routes linking south Bengaluru neighbourhoods to the upcoming Pink Line metro stations.",
+ "topic": "Pink Line feeders"
+}

@@ -1,0 +1,112 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "If you live in a PG, hostel or flat, plan to store water and expect tighter use rules if the second day comes.",
+  "what": "PMC is considering raising Pune's water cut from 10% to 20%. That could mean supply is shut two days a week, not one.",
+  "why": "Dams feeding Pune are about 80% full, versus 100% this time last year. The district collector has recommended a 20% cut."
+ },
+ "cards": [
+  {
+   "body": "Last year at the same time, the dams were full at 100%.",
+   "caption": "Pune's dam stock now",
+   "k": "num",
+   "value": "80%"
+  },
+  {
+   "body": "The Thursday shutdown started this week. PMC says it will plan for eight days before deciding whether to add a second day. Areas that already get less water may get different rules from high-supply areas.",
+   "k": "tea",
+   "title": "Not final yet"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Pipes are being replaced citywide",
+    "Dams hold less water than last year",
+    "Water tax is going up",
+    "Tankers are on strike"
+   ],
+   "q": "Why might Pune move from a 10% cut to a 20% cut?",
+   "why": "Dams are at about 80% versus 100% last year, and El Niño may bring weak rain."
+  },
+  {
+   "body": "The commissioner says 30–40% of the city's water leaks away, so fixing leaks is also part of PMC's plan.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, we store water",
+    "It'll be rough",
+    "Fix the leaks first!",
+    "Moving back home lol"
+   ],
+   "q": "Two dry days a week. Can you cope?"
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "cover": {
+  "bg": [
+   "#0b2a3d",
+   "#1e90ff"
+  ],
+  "big": "20%",
+  "label": "Proposed cut, up from 10% now",
+  "motion": "fall",
+  "scene": [
+   "🚰",
+   "📅",
+   "💧"
+  ]
+ },
+ "date": "2026-10-17",
+ "heat": 4,
+ "hook": "Could Pune go *two dry days a week* instead of just Thursday?",
+ "lead": "local",
+ "learn": {
+  "t": "PMC's commissioner says about 30–40% of Pune's water is lost to leaks before it reaches homes."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌦️",
+    "label": "El Niño drought fears"
+   },
+   {
+    "icon": "🏞️",
+    "label": "Dams at about 80%"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📅",
+    "label": "Maybe two no-supply days"
+   },
+   {
+    "icon": "🪣",
+    "label": "More storing at home"
+   }
+  ],
+  "event": {
+   "icon": "🚰",
+   "label": "PMC weighs 20% water cut"
+  }
+ },
+ "order": 84,
+ "readSecs": 50,
+ "sort": "2026-10-17-15",
+ "sources": [
+  {
+   "name": "Punekar News",
+   "title": "Pune May Face Two Days of Water Cuts Per Week; PMC Commissioner Naval Kishore Ram Says Decision in Eight Days",
+   "url": "https://www.punekarnews.in/pune-may-face-two-days-of-water-cuts-per-week-pmc-commissioner-naval-kishore-ram-says-decision-in-eight-days/"
+  }
+ ],
+ "thread": "pun-water",
+ "tldr": "PMC is weighing a 20% water cut, which could mean no tap supply two days a week instead of one.",
+ "topic": "Bigger water cut",
+ "watch": "PMC Commissioner Naval Kishore Ram said on Oct 16 a decision will come within eight days."
+}

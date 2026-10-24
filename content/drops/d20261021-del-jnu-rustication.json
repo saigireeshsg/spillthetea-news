@@ -1,0 +1,116 @@
+{
+ "areas": [
+  "JNU campus",
+  "Munirka"
+ ],
+ "beats": {
+  "care": "At JNU? The union says geysers should work in all hostels within two weeks, and school libraries open till 9 pm.",
+  "what": "After talks with a dean-led committee, JNU revoked five students' rustication and agreed to drop FIRs and proctorial inquiries.",
+  "why": "Students protested the rustications, UGC rules and poor hostels. JNU issued a notice, and meeting minutes record the deal."
+ },
+ "cards": [
+  {
+   "body": "It followed a University General Body Meeting on October 1.",
+   "caption": "length of the hunger strike",
+   "k": "num",
+   "value": "17 days"
+  },
+  {
+   "body": "Committees to review the proctor's manual and consider bringing back the JNU entrance exam, structural audits of some hostels, and a possible 25% scholarship hike, still under consideration.",
+   "k": "tea",
+   "title": "What the union says was agreed"
+  },
+  {
+   "body": "The union says it isn't done: the protest continues until every promise is actually carried out.",
+   "k": "twist"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "It sets new exam dates",
+    "It checks if the promises are really carried out",
+    "It elects a new union",
+    "It decides hostel fees"
+   ],
+   "q": "Why does the review after 14 working days matter?",
+   "why": "The union says the deal only counts if it's implemented, and the review is where that gets checked."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, clearly",
+    "Only as a last resort",
+    "Too risky for health",
+    "Talks work better"
+   ],
+   "q": "Do hunger strikes work for students?"
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "date": "2026-10-21",
+ "heat": 3,
+ "hook": "What did a *17-day hunger strike* win JNU students?",
+ "learn": {
+  "t": "The five students got their rustication revoked, but they still have to pay their fines."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚖️",
+    "label": "Five students rusticated"
+   },
+   {
+    "icon": "🏠",
+    "label": "Hostel complaints"
+   },
+   {
+    "icon": "📜",
+    "label": "UGC rules protest"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "✅",
+    "label": "Rustication revoked"
+   },
+   {
+    "icon": "🚓",
+    "label": "FIRs to be withdrawn"
+   },
+   {
+    "icon": "📝",
+    "label": "Panel on entrance exam"
+   }
+  ],
+  "event": {
+   "icon": "🍽️",
+   "label": "17-day hunger strike ends"
+  }
+ },
+ "order": 72,
+ "readSecs": 45,
+ "sort": "2026-10-21-27",
+ "sources": [
+  {
+   "name": "The Tribune",
+   "title": "JNU revokes rustication of five students after 17-day hunger strike",
+   "url": "https://www.tribuneindia.com/news/delhi/jnu-revokes-rustication-of-five-students-after-17-day-hunger-strike"
+  },
+  {
+   "name": "Deccan Herald (PTI)",
+   "title": "JNUSU ends 17-day hunger strike after JNU agrees to revoke rustication, withdraw FIRs",
+   "url": "https://www.deccanherald.com/india/jnusu-ends-17-day-hunger-strike-after-jnu-agrees-to-revoke-rustication-withdraw-firs-4189106"
+  },
+  {
+   "name": "Millennium Post",
+   "title": "JNU agrees to revoke rustication of union leaders",
+   "url": "https://www.millenniumpost.in/delhi/jnu-agrees-to-revoke-rustication-of-union-leaders-680477"
+  }
+ ],
+ "thread": "del-campus",
+ "tldr": "JNU revoked the rustication of five students and agreed to drop FIRs, ending the student union's 17-day hunger strike.",
+ "topic": "JNU strike ends",
+ "watch": "A review meeting comes after 14 working days to check whether JNU keeps its promises."
+}

@@ -1,0 +1,91 @@
+{
+ "beats": {
+  "care": "Fake job offers and trading tips target people your age. If it promises easy money, stop and check.",
+  "what": "In September, Hyderabad's cybercrime police arrested 35 people in nine states and returned 88.48 lakh rupees to victims.",
+  "why": "Social media, investment, trading and fake digital arrest scams are rising fast, and most target people online."
+ },
+ "cards": [
+  {
+   "body": "Figures from Additional CP M. Srinivasulu: arrests included 9 for social media fraud, 7 for investment fraud, 6 for digital arrest and 5 for trading fraud. Police also took down 1,457 profiles and 2,603 ads promoting betting, gaming and fake investments.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Scammers pose as police or officials on a video call, claim you're under arrest, and demand money to clear your name. Real police never arrest anyone over a video call.",
+   "k": "why",
+   "title": "what is a digital arrest scam?"
+  },
+  {
+   "body": "Report quickly; the faster you report, the better the chance of freezing the money. You can also file at cybercrime.gov.in.",
+   "caption": "National cybercrime helpline",
+   "k": "num",
+   "value": "1930"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, more than one",
+    "Just one",
+    "Not that I noticed"
+   ],
+   "q": "Have you got a scam message this month?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Promising easy money or creating panic",
+    "Asking you to visit a police station",
+    "Sending a letter by post",
+    "Offering free cricket tickets in person"
+   ],
+   "q": "What's the common trick in most of these scams?",
+   "why": "Scammers rush you with greed or fear so you pay before you think."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-11",
+ "heat": 2,
+ "hook": "Hyderabad police got scam victims *₹88 lakh back*. Here's how scams work",
+ "map": {
+  "causes": [
+   {
+    "icon": "📲",
+    "label": "Fake jobs, trading, investment"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💰",
+    "label": "₹88.48 lakh refunded"
+   },
+   {
+    "icon": "🧹",
+    "label": "2,603 scam ads taken down"
+   }
+  ],
+  "event": {
+   "icon": "🚓",
+   "label": "35 arrested across 9 states"
+  }
+ },
+ "order": 11,
+ "readSecs": 45,
+ "sort": "2026-10-11-88",
+ "sources": [
+  {
+   "name": "Deccan Chronicle",
+   "title": "Hyderabad cybercrime police nab 35 across 9 states, refund Rs 88.48 lakh to victims",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-cybercrime-police-nab-35-across-9-states-refund-rs8848-lakh-to-victims-1994622"
+  },
+  {
+   "name": "National Cyber Crime Reporting Portal",
+   "title": "Report cyber crime",
+   "url": "https://cybercrime.gov.in/"
+  }
+ ],
+ "thread": "hyd-cyber-scams",
+ "tldr": "Hyderabad cybercrime police arrested 35 scam suspects across nine states and returned ₹88.48 lakh to victims.",
+ "topic": "Cyber scam refunds"
+}

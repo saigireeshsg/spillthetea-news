@@ -1,0 +1,32 @@
+{
+ "chain": [
+  {
+   "icon": "🌊",
+   "open": "d20261011-el-nino-record",
+   "text": "UN weather body: this El Niño may be among the strongest since 1950"
+  },
+  {
+   "icon": "🌾",
+   "open": "d20261013-ed-drought",
+   "text": "Weak rains: drought in 217 of 240 Karnataka taluks, 388 AP mandals"
+  },
+  {
+   "icon": "🧅",
+   "open": "d20261013-inflation",
+   "text": "Retail inflation hit 5.54% in Sept, a 23-month high; onions doubled"
+  },
+  {
+   "icon": "🏦",
+   "open": "d20261009-ed-rbi",
+   "text": "RBI already raised its key rate to 5.50% to cool prices"
+  },
+  {
+   "icon": "💸",
+   "text": "Pricier canteen meals now; floating-rate loan EMIs can rise too"
+  }
+ ],
+ "date": "2026-10-13",
+ "kind": "dots",
+ "title": "El Niño → your thali and EMI",
+ "why": "A warm Pacific means weaker rain, smaller harvests and costlier food. RBI fights that with higher rates, which also make loans dearer."
+}

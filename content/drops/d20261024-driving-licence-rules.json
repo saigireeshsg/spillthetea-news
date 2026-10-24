@@ -1,0 +1,91 @@
+{
+ "beats": {
+  "care": "Planning to get your licence soon? The test may get harder. Start prepping properly.",
+  "what": "Draft changes to the Central Motor Vehicles Rules would raise the learner's test pass mark from 60% to 75%.",
+  "why": "Applicants would also watch a 30-minute safe-driving tutorial and get 15 days instead of 7 to finish the process."
+ },
+ "cards": [
+  {
+   "body": "A new Form 2A would combine renewals, duplicates and updates. Changing your name or address would be free. Blood group and emergency contact would be collected.",
+   "k": "tea"
+  },
+  {
+   "body": "Up from 60% today.",
+   "caption": "Proposed learner's test pass mark",
+   "k": "num",
+   "value": "75%"
+  },
+  {
+   "body": "People with epilepsy who had a seizure in the last three years, or are on anti-epileptic medicine, would not be eligible.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, roads need it",
+    "No, it's hard enough",
+    "Fix driving schools first"
+   ],
+   "q": "Is a tougher learner's test a good idea?"
+  },
+  {
+   "ans": 2,
+   "k": "quiz",
+   "opts": [
+    "50%",
+    "60%",
+    "75%",
+    "90%"
+   ],
+   "q": "What would the new learner's test pass mark be?",
+   "why": "The draft raises it from 60% to 75%."
+  }
+ ],
+ "cat": "india",
+ "date": "2026-10-24",
+ "heat": 4,
+ "hook": "Learner's licence test pass mark may jump from 60% to *75%*",
+ "learn": {
+  "t": "Draft rules are open for public feedback for 30 days before the government decides."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚗",
+    "label": "Road safety concerns"
+   },
+   {
+    "icon": "🖥️",
+    "label": "Push to go online"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📈",
+    "label": "Tougher learner's test"
+   },
+   {
+    "icon": "🆓",
+    "label": "Free address/name updates"
+   }
+  ],
+  "event": {
+   "icon": "📝",
+   "label": "Draft licence rule changes"
+  }
+ },
+ "order": 6,
+ "readSecs": 50,
+ "sort": "2026-10-24-93",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Driving licence rule amendments seek to raise bar for learner's test (print, Hyderabad edition, 24 Oct, p.12)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "thread": "driving-licence",
+ "tldr": "The Centre's draft rules would make the learner's test tougher, move many licence services online, and make some changes free.",
+ "topic": "New driving licence rules",
+ "watch": "Feedback is open for 30 days. Watch for the final rules and when they take effect."
+}

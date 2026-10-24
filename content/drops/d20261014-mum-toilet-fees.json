@@ -1,0 +1,92 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "If you rely on public toilets during commutes, small costs may add up. It is only a proposal for now.",
+  "what": "BMC's draft Pay-and-Use Policy 2026 raises fees: women's urinals Rs 2 to Rs 5, bathing Rs 5 to Rs 10, men's urinals Rs 1.",
+  "why": "BMC wants a revenue model to pay for upkeep, including ads on up to 40% of toilet space."
+ },
+ "cards": [
+  {
+   "body": "Up from Rs 2. Men, who pay nothing now, may pay Rs 1.",
+   "caption": "Proposed women's urinal fee",
+   "k": "num",
+   "value": "₹5"
+  },
+  {
+   "body": "The plan also adds QR codes and an app for complaints, and lets sites host EV charging, ATMs and tea stalls.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Women already pay at urinals while men don't. The proposal makes both pay, but women still pay more.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, if clean",
+    "Should be free",
+    "Same fee for all",
+    "Never use them"
+   ],
+   "q": "Fair to charge for public urinals?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It's a proposal awaiting a BMC meeting",
+    "It started today",
+    "The court cancelled it",
+    "It applies only to malls"
+   ],
+   "q": "What is the status of BMC's toilet fee hike?",
+   "why": "The draft goes to a Group Leaders' meeting at BMC HQ; no start date is set."
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "date": "2026-10-14",
+ "heat": 2,
+ "hook": "Will using a public toilet in Mumbai *cost more* soon?",
+ "learn": {
+  "t": "Mumbai has over 3,000 BMC public toilets across 26 wards, plus 846 roadside ones run by private agencies."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💰",
+    "label": "Need for upkeep money"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🪙",
+    "label": "Higher per-use fees"
+   },
+   {
+    "icon": "📱",
+    "label": "QR complaint system"
+   }
+  ],
+  "event": {
+   "icon": "🚻",
+   "label": "BMC proposes toilet fee hike"
+  }
+ },
+ "order": 53,
+ "readSecs": 35,
+ "sort": "2026-10-14-46",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "BMC Proposes Hike In Public Toilet Charges Under Pay-And-Use Policy 2026; Women's Urinal Fee May Rise To ₹5, Men To Pay ₹1",
+   "url": "https://www.freepressjournal.in/mumbai/bmc-proposes-hike-in-public-toilet-charges-under-pay-and-use-policy-2026-womens-urinal-fee-may-rise-to-5-men-to-pay-1"
+  }
+ ],
+ "thread": "mum-civic",
+ "tldr": "BMC has proposed raising public toilet charges, including Rs 5 for women's urinals and a new Rs 1 fee for men.",
+ "topic": "Public toilet fees"
+}

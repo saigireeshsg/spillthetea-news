@@ -1,0 +1,119 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Many Indians study MBBS abroad. If you plan to, know that internship pay back home can be unequal. Government hospital waits may also grow.",
+  "what": "About 650 foreign medical graduate interns in Telangana's government hospitals stopped routine work, and extended the boycott to emergency duty until 13 October.",
+  "why": "They say they get nothing or ₹5,000 a month, while Indian-trained interns get ₹29,792 for the same work. They also want arrears since January."
+ },
+ "cards": [
+  {
+   "body": "Their demands: the full ₹29,792 a month in line with National Medical Commission guidelines, all unpaid dues since January 2026, and no punishment for protesting. FMG interns in Rajasthan are also protesting, while Gujarat pays its FMG interns the same as regular interns.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "FMG interns say they get nothing or a token ₹5,000 for the same hospital duties.",
+   "caption": "Monthly stipend for Indian-trained MBBS interns in Telangana",
+   "k": "num",
+   "value": "₹29,792"
+  },
+  {
+   "body": "The Supreme Court has already said foreign and Indian medical graduates are entitled to equal internship stipends, and criticised states that deny them.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, same work same pay",
+    "Yes, after a probation",
+    "No, they chose to go abroad"
+   ],
+   "q": "Should FMG interns get equal stipend?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Unequal pay for the same internship work",
+    "Longer exam hours",
+    "Hostel food",
+    "Medical colleges closing"
+   ],
+   "q": "What are the FMG interns protesting about?",
+   "why": "They do the same hospital duties as Indian-trained interns but say they're paid far less, or nothing."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "cover": {
+  "bg": [
+   "#0c1f2a",
+   "#26c6da"
+  ],
+  "big": "650",
+  "label": "FMG interns protesting across Telangana",
+  "motion": "pulse",
+  "scene": [
+   "🩺",
+   "🏥",
+   "✊"
+  ]
+ },
+ "date": "2026-10-13",
+ "heat": 3,
+ "hook": "Why are 650 young doctors in Telangana *boycotting duty*?",
+ "learn": {
+  "t": "Doctors who study abroad must pass the FMGE licensing exam, which only about 12 to 20 percent clear, before interning in India."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌍",
+    "label": "Studied medicine abroad"
+   },
+   {
+    "icon": "💸",
+    "label": "Unpaid or ₹5,000, they say"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏥",
+    "label": "Emergency duty boycott"
+   },
+   {
+    "icon": "📍",
+    "label": "Koti protest planned 14 Oct"
+   }
+  ],
+  "event": {
+   "icon": "✊",
+   "label": "650 interns boycott duties"
+  }
+ },
+ "order": 10,
+ "readSecs": 50,
+ "sort": "2026-10-13-89",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Foreign Medical Graduates interns' stipend parity protest enters fourth day in Telangana",
+   "url": "https://telanganatoday.com/foreign-medical-graduates-interns-stipend-parity-protest-enters-fourth-day-in-telangana"
+  },
+  {
+   "name": "Medical Dialogues",
+   "title": "Telangana FMG interns protest demanding stipend parity",
+   "url": "https://medicaldialogues.in/state-news/telangana/telangana-fmg-interns-protest-demanding-stipend-parity-180833"
+  },
+  {
+   "name": "Bar & Bench",
+   "title": "Indian and foreign medical graduates entitled to equal stipend: Supreme Court",
+   "url": "https://www.barandbench.com/news/indian-and-foreign-medical-graduates-entitled-to-equal-stipend-supreme-court"
+  }
+ ],
+ "tldr": "About 650 doctors who studied abroad and now intern in Telangana's government hospitals are protesting for the same ₹29,792 stipend as Indian graduates.",
+ "topic": "FMG stipend protest",
+ "watch": "Interns plan a protest near the Director of Medical Education's office in Koti on 14 October if demands aren't met."
+}

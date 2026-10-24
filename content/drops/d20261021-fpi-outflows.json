@@ -1,0 +1,124 @@
+{
+ "beats": {
+  "care": "A weaker rupee makes phones, laptops, fuel and studying abroad pricier. If you invest through SIPs, expect ups and downs; returns are never guaranteed.",
+  "what": "Foreign portfolio investors sold about ₹52,100 crore of Indian shares in October till the 18th, taking 2026's outflow to ₹3.12 lakh crore.",
+  "why": "Analysts say expensive oil, a strong dollar and higher returns on US government bonds are pulling global money away from India."
+ },
+ "cards": [
+  {
+   "items": [
+    {
+     "display": "₹1.66 lakh cr",
+     "label": "All of 2025",
+     "value": 1.66
+    },
+    {
+     "alt": true,
+     "display": "₹3.12 lakh cr",
+     "label": "2026 so far",
+     "value": 3.12
+    }
+   ],
+   "k": "bars",
+   "note": "Data from depository CDSL, as of 18 October.",
+   "title": "Money foreign funds took out of Indian shares"
+  },
+  {
+   "body": "When safe US government bonds pay more, big global funds can earn good returns without the risk of emerging markets. So some move money out of countries like India.",
+   "k": "why",
+   "title": "why do us bonds matter to indian shares?"
+  },
+  {
+   "body": "It isn't all selling. Foreign funds turned small buyers on 16 October and are buying restaurant, healthcare and digital platform stocks while dumping banks and oil companies.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Foreign funds actually bought Indian shares in July and August. The flip to heavy selling came only in September.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, it hits the rupee",
+    "No, Indians are buying",
+    "I don't follow markets"
+   ],
+   "q": "Does foreign selling worry you?"
+  },
+  {
+   "by": "31 Oct (monthly depository data)",
+   "k": "predict",
+   "opts": [
+    "Yes, net sellers",
+    "No, net buyers"
+   ],
+   "q": "Will FPIs be net sellers for October overall?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It can weaken the rupee",
+    "It lowers your bank's interest",
+    "It raises your salary",
+    "It cuts petrol taxes"
+   ],
+   "q": "How can foreign funds selling Indian shares affect you?",
+   "why": "Leaving funds convert rupees into dollars, and that extra demand for dollars can push the rupee down."
+  }
+ ],
+ "cat": "money",
+ "concept": "rupee",
+ "date": "2026-10-21",
+ "heat": 3,
+ "hook": "Foreign funds pulled *₹3.12 lakh crore* out of India this year. Why leave?",
+ "learn": {
+  "t": "FPIs are foreign funds buying Indian shares. When they sell and leave, they swap rupees for dollars, which can weaken the rupee."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛢️",
+    "label": "Costly crude oil"
+   },
+   {
+    "icon": "💵",
+    "label": "Higher US bond returns"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💱",
+    "label": "Pressure on the rupee"
+   },
+   {
+    "icon": "📉",
+    "label": "Selling in bank, oil shares"
+   }
+  ],
+  "event": {
+   "icon": "📤",
+   "label": "₹52,100 crore sold this October"
+  }
+ },
+ "order": 5,
+ "readSecs": 65,
+ "sort": "2026-10-21-94",
+ "sources": [
+  {
+   "name": "Free Press Journal (PTI)",
+   "title": "FPIs withdraw ₹52,100 crore from Indian equities in October; 2026 outflows surge to ₹3.12 lakh crore",
+   "url": "https://www.freepressjournal.in/business/fpis-withdraw-52100-crore-from-indian-equities-in-october-2026-outflows-surge-to-312-lakh-crore-amid-global-pressures"
+  },
+  {
+   "name": "Swarajya",
+   "title": "Foreign investors withdraw Rs 52,100 crore from Indian equities in October so far",
+   "url": "https://swarajyamag.com/economy/foreign-investors-withdraw-rs-52100-crore-from-indian-equities-in-october-so-far-taking-2026-outflows-to-rs-312-lakh-crore"
+  }
+ ],
+ "thread": "fpi-flows",
+ "tldr": "Foreign investors have pulled ₹3.12 lakh crore out of Indian shares in 2026, nearly double last year's outflow.",
+ "topic": "Foreign investor selling",
+ "watch": "Watch whether FPIs end October as net sellers. Analysts say crude oil prices and US bond yields will decide the mood."
+}

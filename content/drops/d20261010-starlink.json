@@ -1,0 +1,117 @@
+{
+ "beats": {
+  "care": "Satellite internet could bring fast data to villages and hills with no towers. More players could also mean cheaper plans for you.",
+  "what": "Elon Musk posted on X calling Mukesh Ambani India's real boss, because his Starlink internet service still can't launch here.",
+  "why": "Starlink has a licence but still needs a security clearance. The government says Jio's and OneWeb's satellite services are at the same stage."
+ },
+ "cards": [
+  {
+   "body": "Musk first said unnamed 'oligarchs' were blocking Starlink. The telecom ministry called claims of unfair treatment 'baseless and misconceived', saying security checks are mandatory for every satellite licensee. Hours later, Musk posted 'Dear Prime Minister Ambani'. Akash Ambani said he hadn't seen the remarks.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "a": {
+    "body": "Starlink has spent five years following Indian rules and is licensed in over 165 countries. He claims a telecom monopoly wants to keep it out.",
+    "label": "Elon Musk says"
+   },
+   "b": {
+    "body": "All three licensed satellite firms, including Jio's, are at the same stage. The security check is pending with the Home Ministry and isn't about one company.",
+    "label": "Government says"
+   },
+   "k": "sides",
+   "title": "Is Starlink being blocked?"
+  },
+  {
+   "body": "Instead of cables and towers, a small dish talks to satellites overhead. That makes it handy for remote villages, ships and disaster zones, though it usually costs more than mobile data. After security clearance, firms still need spectrum assigned before they can sell plans.",
+   "k": "why",
+   "title": "how is satellite internet different?"
+  },
+  {
+   "body": "Starlink says it has already built 20 gateway sites in India, with hundreds of antennas, while it waits for the green light.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, more competition",
+    "No, security checks first",
+    "Don't care, just want cheap data"
+   ],
+   "q": "Should India fast-track Starlink to boost competition?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "A security clearance all satellite firms need",
+    "It has no licence at all",
+    "India has banned satellite internet",
+    "Starlink refused to follow Indian law"
+   ],
+   "q": "What is stopping Starlink from launching in India right now?",
+   "why": "Starlink is licensed, but like Jio's and OneWeb's satellite services it must clear a security check before getting spectrum and starting."
+  }
+ ],
+ "cat": "tech",
+ "cover": {
+  "bg": [
+   "#05070f",
+   "#7b5cff"
+  ],
+  "big": "165+",
+  "label": "Countries Musk says have licensed Starlink",
+  "motion": "glitch",
+  "scene": [
+   "🛰️",
+   "📡",
+   "🇮🇳"
+  ]
+ },
+ "date": "2026-10-10",
+ "heat": 4,
+ "hook": "Elon Musk just called Mukesh Ambani *'Prime Minister'*. What's the fight?",
+ "map": {
+  "causes": [
+   {
+    "icon": "🛰️",
+    "label": "Starlink awaits security clearance"
+   },
+   {
+    "icon": "🗣️",
+    "label": "Musk blames 'oligarchs'"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏛️",
+    "label": "Govt: same rules for all"
+   },
+   {
+    "icon": "📶",
+    "label": "Jio, OneWeb also waiting"
+   }
+  ],
+  "event": {
+   "icon": "⚡",
+   "label": "Musk posts 'Dear PM Ambani'"
+  }
+ },
+ "order": 4,
+ "readSecs": 60,
+ "sort": "2026-10-10-95",
+ "sources": [
+  {
+   "name": "National Herald",
+   "title": "Musk asks if Ambani is 'real boss of India' as govt rebuts Starlink claims",
+   "url": "https://www.nationalheraldindia.com/business/elon-musk-ambani-starlink-india-security-clearance-row"
+  },
+  {
+   "name": "Telangana Today (IANS)",
+   "title": "'Dear PM Ambani': Elon Musk takes fresh dig at Mukesh Ambani over Starlink row",
+   "url": "https://telanganatoday.com/dear-pm-ambani-elon-musk-takes-fresh-dig-at-mukesh-ambani-over-starlink-row"
+  }
+ ],
+ "tldr": "Elon Musk says business rivals are keeping Starlink's satellite internet out of India; the government says every company faces the same security checks.",
+ "topic": "Starlink India row"
+}

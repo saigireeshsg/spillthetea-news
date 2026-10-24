@@ -1,0 +1,134 @@
+{
+ "beats": {
+  "care": "Fuel and delivery costs can creep up, and anything you pay for in dollars just got pricier.",
+  "what": "The Sensex fell over 1,000 points on Thursday as oil jumped to about $106 a barrel.",
+  "why": "India imports most of its oil. Costly oil means a weaker rupee and higher prices, so investors sold."
+ },
+ "cards": [
+  {
+   "body": "On Thursday (8 Oct), the Sensex dropped more than 1,000 points and the Nifty fell 1.64%. Almost everything was red: big companies, small ones, every sector.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "It jumped over 5% because of shipping trouble in the Middle East.",
+   "caption": "price of one barrel of crude oil",
+   "k": "num",
+   "value": "$106"
+  },
+  {
+   "body": "India buys most of its oil from other countries. When oil gets costly, India spends more dollars, the rupee gets weaker, and things that need transport (basically everything) get pricier. Investors get nervous and sell.",
+   "k": "why",
+   "title": "why does oil matter so much?"
+  },
+  {
+   "body": "Petrol, cab rides and delivery fees can creep up if oil stays high. The rupee also fell to ₹95.84 per dollar, so anything priced in dollars (Spotify-type subscriptions, games, foreign college fees) gets costlier.",
+   "k": "you",
+   "title": ""
+  },
+  {
+   "a": {
+    "body": "Markets fall on scary news and come back later. India's economy is still growing fast.",
+    "label": "'Buy the dip' people say"
+   },
+   "b": {
+    "body": "Oil above $100, a weak rupee and higher interest rates hurt company profits. No need to rush in.",
+    "label": "'Wait and watch' people say"
+   },
+   "k": "sides",
+   "note": "This isn't investment advice. These are just the two camps you'll see online.",
+   "title": "Is this a chance to buy or a warning?"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "India sells most of its oil",
+    "India buys most of its oil from abroad",
+    "Oil companies own the Sensex",
+    "It doesn't"
+   ],
+   "q": "Why does costly oil hit India extra hard?",
+   "why": "India imports most of its oil, so a price jump means spending way more money abroad."
+  },
+  {
+   "by": "31 Oct",
+   "k": "predict",
+   "opts": [
+    "Still above $100",
+    "Back below $100"
+   ],
+   "q": "Where will oil be on 31 Oct?"
+  }
+ ],
+ "cat": "money",
+ "cover": {
+  "bg": [
+   "#2a0a10",
+   "#ea0027"
+  ],
+  "big": "−1,000+",
+  "label": "Sensex points lost on Thursday",
+  "motion": "fall",
+  "scene": [
+   "📉",
+   "🛢️",
+   "💱"
+  ]
+ },
+ "date": "2026-10-09",
+ "heat": 4,
+ "hook": "The stock market crashed yesterday. What does *oil* have to do with it?",
+ "map": {
+  "causes": [
+   {
+    "icon": "🛢️",
+    "label": "Oil hits $106"
+   },
+   {
+    "icon": "💱",
+    "label": "Rupee slides to ₹95.84"
+   },
+   {
+    "icon": "🏃",
+    "label": "Foreign investors selling"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⛽",
+    "label": "Fuel may cost more"
+   },
+   {
+    "icon": "💳",
+    "label": "Dollar stuff costlier"
+   },
+   {
+    "icon": "😬",
+    "label": "Investors nervous"
+   }
+  ],
+  "event": {
+   "icon": "📉",
+   "label": "Sensex falls 1,000+ points"
+  }
+ },
+ "order": 5,
+ "readSecs": 70,
+ "sort": "2026-10-09-94",
+ "sources": [
+  {
+   "name": "NewsBytes",
+   "title": "Sensex tumbles over 1,200 points as crude hits $106",
+   "url": "https://www.newsbytesapp.com/news/business/sensex-tumbles-over-1200-points-as-crude-hits-106/tldr"
+  },
+  {
+   "name": "The Sunday Guardian",
+   "title": "News headlines, 9 October 2026",
+   "url": "https://sundayguardianlive.com/trending/school-assembly-news-headlines-today-09-october-top-national-business-news-sports-news-education-news-science-tech-news-weather-news-world-news-with-weather-updates-thought-of-the-day-301673/"
+  }
+ ],
+ "storyline": "west-asia",
+ "tldr": "Oil prices jumped to around $106 a barrel and Indian stocks fell hard on Thursday.",
+ "topic": "Sensex crash"
+}

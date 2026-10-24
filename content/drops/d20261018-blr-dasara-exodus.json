@@ -1,0 +1,102 @@
+{
+ "areas": [
+  "Goraguntepalya",
+  "Yeshwanthpur",
+  "Mysuru Road",
+  "Tumakuru Road",
+  "Hosur Road"
+ ],
+ "beats": {
+  "care": "Travelling home this weekend? Leave early or very late, and check live traffic before you start.",
+  "what": "Massive jams hit Mysuru Road, Tumakuru Road, airport road and Hosur Road. Goraguntepalya and Yeshwanthpur flyover were among the worst spots.",
+  "why": "Dasara, Ayudha Puja and the weekend fell together, so thousands left the city at once. Light rain made it worse."
+ },
+ "cards": [
+  {
+   "body": "Deccan Herald and Public TV both reported commuters stuck for about six hours.",
+   "caption": "longest reported wait in traffic",
+   "k": "num",
+   "value": "6 hrs"
+  },
+  {
+   "body": "Stuck travellers called local traffic police stations for help. Some said traffic management fell short despite a rush everyone saw coming.",
+   "k": "tea",
+   "title": "Commuters vent"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "A metro shutdown",
+    "Many holidays falling together, so everyone left at once",
+    "A cricket match",
+    "Road closures for a rally"
+   ],
+   "q": "What mainly caused Friday's jams?",
+   "why": "Dasara, Ayudha Puja and the weekend lined up, so huge numbers left Bengaluru on the same night."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Bus, booked early",
+    "Train",
+    "Driving myself",
+    "Staying in Bengaluru"
+   ],
+   "q": "How are you getting home for Dasara?"
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "date": "2026-10-18",
+ "heat": 3,
+ "hook": "Why did getting *out of Bengaluru* take six hours on Friday?",
+ "lead": "local",
+ "learn": {
+  "t": "Some private buses heading out of Bengaluru that night only left the city around 3 to 4 am on Saturday."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Dasara + weekend holidays"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Light overnight rain"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚌",
+    "label": "Buses left at 3–4 am"
+   },
+   {
+    "icon": "📞",
+    "label": "Calls to traffic police"
+   }
+  ],
+  "event": {
+   "icon": "🚗",
+   "label": "Six-hour exit jams"
+  }
+ },
+ "order": 86,
+ "readSecs": 40,
+ "sort": "2026-10-18-13",
+ "sources": [
+  {
+   "name": "Deccan Herald",
+   "title": "Dasara rush leaves Bengaluru motorists stranded in traffic for six hours",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/dasara-rush-leaves-bengaluru-motorists-stranded-in-traffic-for-six-hours-4186531"
+  },
+  {
+   "name": "Public TV",
+   "title": "Record traffic jam in Bengaluru: passengers stuck on the road for 6 hours",
+   "url": "https://publictv.in/record-breaking-traffic-jam-in-bengaluru/"
+  }
+ ],
+ "thread": "blr-traffic",
+ "tldr": "People leaving Bengaluru for the Dasara holidays were stuck in traffic for up to six hours on Friday night.",
+ "topic": "Dasara exit jam"
+}

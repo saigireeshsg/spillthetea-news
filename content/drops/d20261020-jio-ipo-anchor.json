@@ -1,0 +1,112 @@
+{
+ "beats": {
+  "care": "Expect hype in your group chats. Strong big-fund demand does not guarantee a profitable listing, and IPO money can be lost.",
+  "what": "Global and Indian funds bid around ₹2.5 lakh crore for Jio's ₹8,110 crore anchor portion, reports say, before the public offer opens tomorrow.",
+  "why": "Jio is raising ₹30,213 crore at ₹1,065 to ₹1,119 a share, which values it near $108 billion at the top price."
+ },
+ "cards": [
+  {
+   "body": "Reported anchor bidders include BlackRock, Fidelity, Singapore's GIC, Norway's sovereign fund, LIC and several Indian mutual funds. Up to ₹27,500 crore of the money raised is meant to repay Reliance Jio Infocomm's loans.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Anchors are large institutions that commit early. Their demand signals confidence and helps set the mood, but they buy at the same price band and can also be wrong.",
+   "k": "why",
+   "title": "why do ipos have anchor investors?"
+  },
+  {
+   "body": "Jio says it carries about 60% of all mobile data traffic in India, with a projected 53 crore subscribers as of June 2026.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, FOMO is real",
+    "No, I read first",
+    "I don't invest"
+   ],
+   "q": "Does hype make you want to invest?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Big funds are keen, but listing gains aren't certain",
+    "The share price will double",
+    "Retail investors get free shares",
+    "The IPO is cancelled"
+   ],
+   "q": "What does huge anchor demand tell you?",
+   "why": "Anchor demand shows interest from big funds, but no one can promise how the share will trade after listing."
+  }
+ ],
+ "cat": "money",
+ "concept": "risk",
+ "cover": {
+  "bg": [
+   "#08213f",
+   "#0a84ff"
+  ],
+  "big": "30x",
+  "label": "anchor demand vs shares on offer",
+  "motion": "rise",
+  "scene": [
+   "📶",
+   "💼",
+   "📊"
+  ]
+ },
+ "date": "2026-10-20",
+ "heat": 4,
+ "hook": "Big funds wanted *30x more* Jio shares than were on offer. Why?",
+ "learn": {
+  "t": "An anchor book is an IPO slice sold to big funds before the public. Jio's drew bids over 30 times its size."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📶",
+    "label": "India's biggest telecom IPO"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🗓️",
+    "label": "Public bidding 21–23 Oct"
+   },
+   {
+    "icon": "💸",
+    "label": "Most money to repay debt"
+   }
+  ],
+  "event": {
+   "icon": "💼",
+   "label": "Anchor bids ~₹2.5 lakh crore"
+  }
+ },
+ "order": 5,
+ "readSecs": 55,
+ "sort": "2026-10-20-94",
+ "sources": [
+  {
+   "name": "India TV",
+   "title": "Jio Platforms IPO gains momentum as anchor book sees oversubscription, institutional bids hit Rs 2.5 lakh crore",
+   "url": "https://www.indiatvnews.com/business/news/jio-platforms-ipo-gains-momentum-as-anchor-book-sees-oversubscription-institutional-bids-hit-rs-2-5-lakh-crore-2026-10-19-1057361"
+  },
+  {
+   "name": "IIFL (India Infoline)",
+   "title": "JIO IPO makes history as Anchor Book Draws Over ₹2.5 Lakh Crore in Bids; Demand Exceeds 30 Times",
+   "url": "https://www.indiainfoline.com/news/ipo/jio-ipo-makes-history-as-anchor-book-draws-over-2-5-lakh-crore-in-bids-demand-exceeds-30-times"
+  },
+  {
+   "name": "Business Standard",
+   "title": "Jio Platforms IPO to open for subscription on October 21-23: Filing",
+   "url": "https://www.business-standard.com/markets/ipo/jio-platforms-ipo-to-open-for-subscription-on-october-21-23-filing-126101401189_1.html"
+  }
+ ],
+ "thread": "jio-ipo",
+ "tldr": "Big investors bid about ₹2.5 lakh crore for Jio Platforms' ₹8,110 crore anchor slice, over 30 times the shares on offer, a day before the IPO opens to the public.",
+ "topic": "Jio IPO anchor book",
+ "watch": "Public bidding runs 21–23 Oct. Spill's prediction on whether the public part gets fully subscribed closes on 23 Oct."
+}

@@ -1,0 +1,105 @@
+{
+ "areas": [
+  "Citywide",
+  "Kilambakkam",
+  "Koyambedu"
+ ],
+ "beats": {
+  "care": "Coming back by bus to Kilambakkam? Expect crowds and a 10–15 minute wait for Metro trains late at night.",
+  "what": "CMRL runs a Sunday timetable on Tuesday. Blue and Green Lines run 5 am–11 pm; the Yellow Line runs 7 am–9 pm.",
+  "why": "Monday and Tuesday are Ayudha Pooja and Vijayadashami holidays, so fewer people ride."
+ },
+ "cards": [
+  {
+   "body": "Blue and Green Lines: every 10 minutes 5 am–noon, 7 minutes noon–8 pm, 10 minutes 8–10 pm, 15 minutes 10–11 pm. Yellow Line: every 15 minutes.",
+   "k": "tea",
+   "title": "Today's Metro gaps"
+  },
+  {
+   "body": "The Transport Department says 9,571 buses ran, including 2,998 specials.",
+   "caption": "people left Chennai by bus, Oct 15–17",
+   "k": "num",
+   "value": "4.15 lakh"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "No Metro at all",
+    "Metro, but trains every 15 minutes",
+    "Metro every 3 minutes",
+    "Only the Yellow Line"
+   ],
+   "q": "You land at Koyambedu at 10:30 pm today. What should you expect?",
+   "why": "The holiday timetable runs till 11 pm, with 15-minute gaps after 10 pm."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Govt bus",
+    "Train",
+    "Private bus or cab",
+    "Never left"
+   ],
+   "q": "How are you getting back to Chennai?"
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "date": "2026-10-20",
+ "heat": 3,
+ "hook": "How often will *Metro trains run today* on Vijayadashami?",
+ "learn": {
+  "t": "On holiday timetables, Chennai Metro's Blue and Green Lines run every 7 minutes only between noon and 8 pm."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎉",
+    "label": "Vijayadashami holiday"
+   },
+   {
+    "icon": "🧳",
+    "label": "People returning home"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⏱️",
+    "label": "Longer waits off-peak"
+   },
+   {
+    "icon": "🚌",
+    "label": "Extra buses into Chennai"
+   }
+  ],
+  "event": {
+   "icon": "🚇",
+   "label": "Metro on Sunday timetable"
+  }
+ },
+ "order": 74,
+ "readSecs": 45,
+ "sort": "2026-10-20-25",
+ "sources": [
+  {
+   "name": "DT Next",
+   "title": "Metro Rail to follow Sunday timetable on 19th and 20th October",
+   "url": "https://www.dtnext.in/news/chennai/metro-rail-to-follow-sunday-timetable-on-19th-and-20th-october"
+  },
+  {
+   "name": "LiveChennai",
+   "title": "Chennai Special Bus Services Shifted to Kilambakkam KCBT Platforms After Ayudha Pooja Rush",
+   "url": "https://www.livechennai.com/detailnews.asp?catid=&newsid=83916"
+  },
+  {
+   "name": "DT Next",
+   "title": "Almost 15,000 buses to ply from Chennai for 4 days from October 15",
+   "url": "https://www.dtnext.in/news/tamilnadu/almost-15000-buses-to-ply-from-chennai-for-4-days-from-october-15"
+  }
+ ],
+ "thread": "che-festival-travel",
+ "tldr": "Chennai Metro runs on a Sunday timetable today for Vijayadashami, as thousands of buses bring people back to the city on Oct 20–21.",
+ "topic": "Holiday travel back",
+ "watch": "9,191 buses are planned toward Chennai on October 20 and 21, the Transport Minister said."
+}

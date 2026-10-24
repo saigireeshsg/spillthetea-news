@@ -1,0 +1,43 @@
+{
+ "city": "Bengaluru",
+ "date": "2026-10-18",
+ "items": [
+  {
+   "area": "Church Street",
+   "icon": "🕳️",
+   "src": "Deccan Herald",
+   "text": "Church Street sinkhole still cordoned; heavy vehicles banned until the BWSSB pipe below is fixed."
+  },
+  {
+   "area": "JP Nagar",
+   "icon": "🚇",
+   "src": "BMRCL / BMTC (Deccan Herald)",
+   "text": "Pink Line safety nod expected soon; BMTC plans 5 feeder bus routes. Wait for the official opening date."
+  },
+  {
+   "area": "Mysuru Road",
+   "icon": "🚗",
+   "src": "Deccan Herald",
+   "text": "Dasara exodus jammed Mysuru, Tumakuru and Hosur roads for hours. Leave early or late, check live traffic."
+  },
+  {
+   "area": "Citywide",
+   "icon": "🧾",
+   "src": "Karnataka drugs regulator (South First)",
+   "text": "Hospital bills must now show purchase cost, MRP and price charged. Ask for an itemised bill."
+  },
+  {
+   "area": "Citywide",
+   "icon": "🗳️",
+   "src": "GBA (Deccan Herald)",
+   "text": "GBA voter drive is on. New to the city or just 18? Check your name on the ECI or GBA website."
+  },
+  {
+   "area": "Citywide",
+   "icon": "🚌",
+   "src": "KSRTC (Deccan Herald)",
+   "text": "KSRTC Mysuru sightseeing buses leave Bengaluru at 6 am daily till Oct 28. Book at ksrtc.in."
+  }
+ ],
+ "kind": "area"
+}

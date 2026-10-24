@@ -1,0 +1,91 @@
+{
+ "beats": {
+  "care": "A good example of earning from nature without destroying it. NITI Aayog has highlighted it.",
+  "what": "286 Kolam, Gond and Lambada families in Narnoor mandal earned ₹3,500 to ₹8,000 each from lac in the first harvest.",
+  "why": "Lac is a resin made by insects on trees. Harvesting it doesn't need trees to be cut, and the district plans to expand to 20 villages."
+ },
+ "cards": [
+  {
+   "body": "In Khairdatwa village, 12 tribal women run a Mahua laddu unit set up with government support. The laddus may go to Ashram schools and Anganwadis.",
+   "k": "tea"
+  },
+  {
+   "body": "Pendur Laxman of Sungapur, over several cycles.",
+   "caption": "What one farmer earned in a year from lac",
+   "k": "num",
+   "value": "₹45,000"
+  },
+  {
+   "body": "Lac is used in bangles, varnish, food glaze and even medicine coatings.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes",
+    "If easy to find online",
+    "Not sure"
+   ],
+   "q": "Would you buy forest products made by tribal groups?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "An insect on trees",
+    "A fungus",
+    "Tree bark",
+    "River clay"
+   ],
+   "q": "What makes lac?",
+   "why": "Lac is a resin secreted by lac insects living on host trees like Palash."
+  }
+ ],
+ "cat": "planet",
+ "date": "2026-10-24",
+ "heat": 2,
+ "hook": "Tribal families in Adilabad earn from trees *without cutting them*",
+ "learn": {
+  "t": "Jharkhand is India's biggest lac producer, which is why trainers came from there."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌳",
+    "label": "Forests around villages"
+   },
+   {
+    "icon": "🎓",
+    "label": "Trainers from Jharkhand"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💰",
+    "label": "₹3,500–8,000 per family"
+   },
+   {
+    "icon": "🍬",
+    "label": "Women's Mahua laddu unit"
+   }
+  ],
+  "event": {
+   "icon": "🐞",
+   "label": "Lac on 3,760 Palash trees"
+  }
+ },
+ "order": 18,
+ "readSecs": 50,
+ "sort": "2026-10-24-81",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Tribals find new sources of income from forests (print, Hyderabad edition, 24 Oct, p.4)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "thread": "tg-tribal-livelihoods",
+ "tldr": "Families in Adilabad are earning extra from lac grown on Palash trees, and women are making laddus from Mahua flowers.",
+ "topic": "Forest income for tribals",
+ "watch": "Expansion to 370 families is planned. Watch whether they find steady buyers."
+}

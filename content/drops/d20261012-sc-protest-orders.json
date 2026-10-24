@@ -1,0 +1,143 @@
+{
+ "beats": {
+  "care": "Peaceful protest is a right under the Constitution. This case will shape how far police can go to stop one, in any city.",
+  "what": "In a rare Sunday hearing, the Supreme Court said peaceful protesters can be detained only as the law allows, and ordered normal metro and internet.",
+  "why": "On Saturday, police detained thousands heading to a protest demanding the Election Commission chief quit over the voter-list re-check."
+ },
+ "cards": [
+  {
+   "body": "On Monday, a day after the court's orders, Delhi shut six metro stations again as Congress and other opposition parties marched towards the Supreme Court. Chief Justice Surya Kant declined to meet them and suggested filing a petition instead.",
+   "k": "tea",
+   "title": "🆕 Evening update"
+  },
+  {
+   "body": "Justices Joymalya Bagchi and V Mohana heard pleas over the mass detentions. They issued notice to the Centre on a contempt plea about metro and train curbs, and asked the state to explain how and why people were detained. All cases will be heard together on Tuesday.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Section 163 of the new criminal procedure law (BNSS) lets officials ban gatherings in an area to prevent trouble. Petitioners said it was stretched too far. The court said peaceful assemblies must be allowed as per law, especially outside those zones.",
+   "k": "why",
+   "title": "what is section 163?"
+  },
+  {
+   "a": {
+    "body": "Solicitor General Tushar Mehta said the metro was running, internet was back and most people were held only a few hours. The BJP and Election Commission deny any voter-list manipulation.",
+    "label": "Government says"
+   },
+   "b": {
+    "body": "Lawyers including Kapil Sibal and Menaka Guruswamy called the mass detentions illegal, said Section 163 was misused, and said an earlier court order on metro closures was ignored.",
+    "label": "Petitioners say"
+   },
+   "k": "sides",
+   "note": "The court has not yet ruled on whether the detentions were legal.",
+   "title": "Was the crackdown lawful?"
+  },
+  {
+   "body": "The movement's three leaders were freed on Sunday on a condition of no breach of peace for one year. They said they will keep protesting.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Police, they know the risks",
+    "Courts, case by case",
+    "Nobody, peaceful protest needs no permission"
+   ],
+   "q": "Who should decide whether a peaceful protest can go ahead?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It is allowed only by the procedure set by law",
+    "Police can detain anyone near a protest",
+    "All protests are now banned in Delhi",
+    "Only opposition leaders can be detained"
+   ],
+   "q": "What did the Supreme Court say about detaining peaceful protesters?",
+   "why": "The court reminded the state that a peaceful gathering is a right, and detention must follow the law."
+  }
+ ],
+ "cat": "india",
+ "cover": {
+  "bg": [
+   "#141a2e",
+   "#4a7bd0"
+  ],
+  "big": "45",
+  "label": "Delhi metro stations with curbs on 10 Oct",
+  "motion": "pulse",
+  "scene": [
+   "⚖️",
+   "🏛️",
+   "🚇"
+  ]
+ },
+ "date": "2026-10-12",
+ "heat": 4,
+ "hook": "Why did the Supreme Court sit on a *Sunday*? Delhi's protests",
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "Voter-list re-check protest"
+   },
+   {
+    "icon": "🚧",
+    "label": "Thousands detained on Saturday"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📜",
+    "label": "No illegal detentions"
+   },
+   {
+    "icon": "🚇",
+    "label": "Metro, trains, internet restored"
+   },
+   {
+    "icon": "📅",
+    "label": "Next hearing: 13 Oct"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "Supreme Court's special Sunday hearing"
+  }
+ },
+ "order": 2,
+ "readSecs": 70,
+ "sort": "2026-10-12-97",
+ "sources": [
+  {
+   "name": "Bar & Bench",
+   "title": "CJP protest crackdown, detentions: Live updates from Supreme Court's Sunday hearing",
+   "url": "https://www.barandbench.com/news/cjp-protest-crackdown-detentions-live-updates-from-supreme-courts-sunday-hearing"
+  },
+  {
+   "name": "ThePrint (PTI)",
+   "title": "Protests in Delhi: SC passes slew of directions, directs no illegal detention",
+   "url": "https://theprint.in/india/protests-in-delhi-sc-passes-slew-of-directions-directs-no-illegal-detention/3068335/"
+  },
+  {
+   "name": "PBS NewsHour (AP)",
+   "title": "Leaders from India's 'Cockroach' movement released from detention, pledge to hold more protests",
+   "url": "https://www.pbs.org/newshour/world/leaders-from-indias-cockroach-movement-released-from-detention-pledge-to-hold-more-protests"
+  },
+  {
+   "name": "ThePrint / Reuters",
+   "title": "Delhi shuts metro stations, restricts traffic as opposition marches against election chief",
+   "url": "https://theprint.in/world/delhi-shuts-metro-stations-restricts-traffic-as-opposition-marches-against-election-chief/3069125/"
+  },
+  {
+   "name": "Business Today",
+   "title": "Delhi metro closes 6 major stations ahead of Opposition's Supreme Court march today",
+   "url": "https://www.businesstoday.in/india/story/delhi-metro-stations-closed-opposition-supreme-court-march-october-2026-560891-2026-10-12"
+  }
+ ],
+ "storyline": "sir",
+ "tldr": "In a rare Sunday hearing, the Supreme Court told Delhi not to detain peaceful protesters illegally and to restore metro, trains and internet.",
+ "topic": "Right to protest"
+}

@@ -1,0 +1,43 @@
+{
+ "city": "Delhi",
+ "date": "2026-10-18",
+ "items": [
+  {
+   "area": "North Campus",
+   "icon": "🏚️",
+   "src": "MCD (ThePrint/PTI)",
+   "text": "MCD wants safety certificates from 2,400+ PGs within 15 days. Ask your owner if yours is checked."
+  },
+  {
+   "area": "JLN Stadium",
+   "icon": "🏃",
+   "src": "DMRC / organisers (ThePrint/PTI)",
+   "text": "Half marathon Sun: Red, Yellow, Blue, Violet lines from 3:30 am. Plan central trips after noon."
+  },
+  {
+   "area": "Connaught Place",
+   "icon": "📢",
+   "src": "Delhi Police (ANI)",
+   "text": "Jantar Mantar is no longer an approved protest site; Ramlila, Burari and CBD Grounds replace it."
+  },
+  {
+   "area": "Mukherjee Nagar",
+   "icon": "🛡️",
+   "src": "Delhi CM's office (The Statesman)",
+   "text": "DU students flagged dark stretches at Siri Fort Rd and Mukherjee Nagar. In an emergency, dial 112."
+  },
+  {
+   "area": "Rohini",
+   "icon": "🔌",
+   "src": "Delhi Transport Dept (The Statesman)",
+   "text": "E-bus charging opened at Anand Vihar ISBT, Rohini Sec-37, Nangloi, Keshopur depots; 150 e-buses due."
+  },
+  {
+   "area": "Citywide",
+   "icon": "🌫️",
+   "src": "Delhi Environment Minister (ANI)",
+   "text": "211 clean-air days so far, best since 2016. Winter smog usually hits in November; plan for it."
+  }
+ ],
+ "kind": "area"
+}

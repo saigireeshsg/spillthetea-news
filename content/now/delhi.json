@@ -1,0 +1,22 @@
+{
+ "aqi": 227,
+ "aqiLabel": "Poor",
+ "city": "Delhi",
+ "cond": "Hazy, cool morning",
+ "high": 31,
+ "icon": "🌫️",
+ "rain": "Dry; air may turn 'very poor' Thu",
+ "src": [
+  {
+   "name": "Business Today (CPCB)",
+   "url": "https://www.businesstoday.in/india/story/delhi-aqi-today-national-capital-records-first-poor-air-quality-of-2026-as-smog-blankets-its-skies-562675-2026-10-21"
+  },
+  {
+   "name": "Business Standard (AQEWS/IMD)",
+   "url": "https://www.business-standard.com/india-news/delhi-s-air-quality-slips-to-poor-category-forecast-to-worsen-further-126102100170_1.html"
+  }
+ ],
+ "temp": 21,
+ "tip": "Skip long outdoor runs",
+ "ts": 1792563700000
+}

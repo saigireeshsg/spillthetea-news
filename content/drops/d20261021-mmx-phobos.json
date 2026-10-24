@@ -1,0 +1,105 @@
+{
+ "beats": {
+  "care": "Missions like this show where space science jobs are heading. ISRO and India's space startups are chasing the same kind of sample-return skills.",
+  "what": "Japan's space agency JAXA launched the Martian Moons eXploration mission on an H3 rocket from Tanegashima on 20 October, Japan time.",
+  "why": "Scientists don't know if Mars's two small moons are captured asteroids or debris from a giant crash into Mars."
+ },
+ "cards": [
+  {
+   "body": "A small four-wheeled rover called IDEFIX, built by France and Germany, will scout Phobos's surface for up to 100 hours. NASA supplied a sampler and a science instrument, and gets at least 15% of the sample.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "If Phobos is a chunk knocked off Mars, its rock holds clues about early Mars. If it is a captured asteroid, it tells us how material moved around the young solar system.",
+   "k": "why",
+   "title": "why does a tiny moon matter?"
+  },
+  {
+   "body": "Russia tried this first in 2011 with Phobos-Grunt. It never left Earth's orbit and fell into the Pacific in 2012.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, go big",
+    "After Gaganyaan",
+    "Not a priority"
+   ],
+   "q": "Should ISRO try a sample-return mission?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Where Mars's moons came from",
+    "If humans can live on Phobos",
+    "How to mine Mars for gold",
+    "Why Mars is red"
+   ],
+   "q": "What is MMX trying to find out?",
+   "why": "Bringing back Phobos soil can show whether the moon is a captured asteroid or debris from a crash into Mars."
+  }
+ ],
+ "cat": "tech",
+ "cover": {
+  "bg": [
+   "#120a1f",
+   "#ff7a3d"
+  ],
+  "big": "10 g",
+  "label": "of Phobos soil Japan plans to bring home",
+  "motion": "rise",
+  "scene": [
+   "🚀",
+   "🌑",
+   "🔴"
+  ]
+ },
+ "date": "2026-10-21",
+ "heat": 3,
+ "hook": "Japan wants to scoop *10 grams* of a Mars moon. Why bother?",
+ "learn": {
+  "t": "If MMX succeeds, it will return the first sample ever collected from a moon other than Earth's own."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "❓",
+    "label": "Phobos's origin is unknown"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🤖",
+    "label": "Rover lands on Phobos"
+   },
+   {
+    "icon": "🧪",
+    "label": "Sample back by 2031"
+   }
+  ],
+  "event": {
+   "icon": "🚀",
+   "label": "Japan launches MMX to Phobos"
+  }
+ },
+ "order": 6,
+ "readSecs": 60,
+ "sort": "2026-10-21-93",
+ "sources": [
+  {
+   "name": "Space.com",
+   "title": "Japan launches historic MMX sample-return mission to Mars' moon Phobos",
+   "url": "https://www.space.com/space-exploration/launches-spacecraft/japan-launches-historic-mmx-sample-return-mission-to-mars-moon-phobos"
+  },
+  {
+   "name": "SpacePolicyOnline",
+   "title": "JAXA's MMX enroute to Mars to return samples of Phobos",
+   "url": "https://spacepolicyonline.com/news/jaxas-mmx-enroute-to-mars-to-return-samples-of-phobos/"
+  }
+ ],
+ "tldr": "Japan launched MMX, a spacecraft that will land on Mars's moon Phobos and bring a sample back to Earth by 2031.",
+ "topic": "Japan's Phobos mission",
+ "watch": "MMX reaches Mars in August 2027 and aims to land on Phobos from December 2028. Samples land in Australia in 2031."
+}

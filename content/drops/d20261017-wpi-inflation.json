@@ -1,0 +1,166 @@
+{
+ "beats": {
+  "care": "When factories pay more, phones, clothes, snacks and travel can cost more later. It also pressures RBI to keep loan rates high.",
+  "what": "Wholesale prices in September were 11.39% higher than a year earlier, up from 9.92% in August, government data showed on 14 October.",
+  "why": "Fuel and power costs rose nearly 26%, and crude oil and natural gas over 57%. Food, metals and chemicals also got costlier."
+ },
+ "cards": [
+  {
+   "items": [
+    {
+     "display": "57.3%",
+     "label": "Crude oil & gas",
+     "value": 57.32
+    },
+    {
+     "display": "25.9%",
+     "label": "Fuel & power",
+     "value": 25.85
+    },
+    {
+     "display": "17.0%",
+     "label": "Basic metals",
+     "value": 16.96
+    },
+    {
+     "display": "13.9%",
+     "label": "Textiles",
+     "value": 13.85
+    },
+    {
+     "alt": true,
+     "display": "11.4%",
+     "label": "All items (WPI)",
+     "value": 11.39
+    },
+    {
+     "display": "8.7%",
+     "label": "Food",
+     "value": 8.66
+    }
+   ],
+   "k": "bars",
+   "note": "Wholesale Price Index, September 2026 vs September 2025.",
+   "title": "How much prices rose in a year (Sept)"
+  },
+  {
+   "body": "CPI, or retail inflation, tracks what you pay at shops. It was 5.54% in September. WPI tracks what businesses pay for raw materials and goods. RBI targets CPI, but a high WPI is an early warning of what may reach shops.",
+   "k": "why",
+   "title": "wpi vs cpi: what's the difference?"
+  },
+  {
+   "body": "That covers the whole first half of this financial year, so September isn't a one-month blip.",
+   "caption": "Average wholesale inflation, April–Sept 2026",
+   "k": "num",
+   "value": "9.85%"
+  },
+  {
+   "body": "Electricity is the odd one out: its wholesale price actually fell 0.43% from a year ago, while every other kind of fuel got costlier.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Fuel and travel",
+    "Food and eating out",
+    "Gadgets and clothes",
+    "Rent and bills"
+   ],
+   "q": "What's hurting your wallet most lately?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Businesses' higher costs often reach shop prices",
+    "It only affects foreign companies",
+    "It lowers loan EMIs",
+    "It raises salaries automatically"
+   ],
+   "q": "Why does high wholesale inflation matter to ordinary buyers?",
+   "why": "WPI tracks what businesses pay; when that rises, firms often pass the extra cost on to customers."
+  },
+  {
+   "by": "mid-November (October WPI data)",
+   "k": "predict",
+   "opts": [
+    "Yes, higher",
+    "No, 11.39% or lower"
+   ],
+   "q": "Will October's wholesale inflation beat 11.39%?"
+  }
+ ],
+ "cat": "money",
+ "concept": "inflation",
+ "cover": {
+  "bg": [
+   "#2a0a0a",
+   "#ff5722"
+  ],
+  "big": "11.39%",
+  "label": "Wholesale inflation in Sept, up from 9.92%",
+  "motion": "rise",
+  "scene": [
+   "🏭",
+   "⛽",
+   "🛒"
+  ]
+ },
+ "date": "2026-10-17",
+ "heat": 4,
+ "hook": "Wholesale prices just jumped *11.39%*. What does that mean for you?",
+ "lead": "india",
+ "learn": {
+  "t": "Wholesale inflation tracks prices businesses pay each other, before goods reach shops, so it often hints where shop prices are heading."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⛽",
+    "label": "Fuel and power up 25.85%"
+   },
+   {
+    "icon": "🛢️",
+    "label": "Crude oil, gas up 57%"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🧵",
+    "label": "Metals, chemicals, textiles pricier"
+   },
+   {
+    "icon": "🛒",
+    "label": "Shop prices could follow"
+   }
+  ],
+  "event": {
+   "icon": "🏭",
+   "label": "Wholesale inflation hits 11.39%"
+  }
+ },
+ "order": 2,
+ "readSecs": 65,
+ "sort": "2026-10-17-97",
+ "sources": [
+  {
+   "name": "The Tribune (ANI)",
+   "title": "WPI inflation climbs to 11.39% in September from 9.92% in August",
+   "url": "https://www.tribuneindia.com/news/business/wpi-inflation-climbs-to-11-39-in-september-from-9-92-in-august"
+  },
+  {
+   "name": "Business Today",
+   "title": "Wholesale inflation rises to 11.39% in September from August's 9.9% on higher fuel, food prices",
+   "url": "https://www.businesstoday.in/latest/economy/story/wholesale-inflation-rises-to-11-39-in-september-from-augusts-9-9-on-higher-fuel-food-prices-561503-2026-10-14"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "India's wholesale inflation rises to 11.39 per cent in September",
+   "url": "https://telanganatoday.com/indias-wholesale-inflation-rises-to-11-39-per-cent-in-september"
+  }
+ ],
+ "storyline": "rbi-inflation",
+ "tldr": "Prices that businesses pay each other rose 11.39% in a year by September, led by a near-26% jump in fuel and power.",
+ "topic": "Wholesale inflation",
+ "watch": "October's wholesale price data comes out in mid-November. Watch whether fuel keeps pushing it higher."
+}

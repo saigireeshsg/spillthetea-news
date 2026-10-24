@@ -1,0 +1,119 @@
+{
+ "beats": {
+  "care": "Many young Indians reach school, college or work by boats, buses or roads that skip safety checks. Safe transport is a basic right.",
+  "what": "On 13 October, a boat carrying children to a feast capsized on the Ganga in Bihar's Vaishali district. At least 13 children died.",
+  "why": "The Hindu's editorial says such crossings are known to be unsafe, and that officials act only after accidents happen."
+ },
+ "cards": [
+  {
+   "body": "The paper says river boats in Bihar and Uttar Pradesh often run without registration, lights or life jackets, sometimes steered by untrained or underage boatmen. Rules exist on paper, but inspections and training lag far behind. Children face extra risk, as seen when villages lack roads, bridges or school transport.",
+   "k": "edit",
+   "kind": "Editorial · 19 Oct",
+   "paper": "The Hindu",
+   "title": "Treacherous waters",
+   "verdict": "These deaths were avoidable. The state knows the dangers; it must act before the next accident, not after."
+  },
+  {
+   "body": "The boat left around 8:30 pm, after sunset, when such rides are not allowed. Officials said 15 to 20 people were aboard, mostly children. Seven children were rescued and treated in Patna. The state announced ₹4 lakh for each family that lost a child.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Raghopur is a river island with no all-weather road. A bridge section linking it to Patna was ready in June 2025, but monsoon floods covered its approach road, so boats stayed the only option.",
+   "k": "why",
+   "title": "why don't people just use the bridge?"
+  },
+  {
+   "body": "Model rules under this colonial-era law, plus the Inland Vessels Act of 2021, are meant to keep river crossings safe, but the editorial says enforcement is weak.",
+   "caption": "Year of the Bengal Ferries Act",
+   "k": "num",
+   "value": "1885"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Strict boat inspections",
+    "Build roads and bridges",
+    "Free safe ferries by govt"
+   ],
+   "q": "What would make river crossings safest?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Safety rules must be enforced before accidents",
+    "Boats should be banned completely",
+    "Children should not attend feasts",
+    "Bridges are too costly to build"
+   ],
+   "q": "What is the editorial's main argument?",
+   "why": "The Hindu says the dangers were already known, so the failure was in acting early, not in knowing."
+  }
+ ],
+ "cat": "edit",
+ "date": "2026-10-20",
+ "editorial": {
+  "paper": "The Hindu",
+  "title": "Treacherous waters"
+ },
+ "featured": true,
+ "heat": 3,
+ "hook": "13 children lost on the Ganga. *Why do unsafe boats keep sailing?*",
+ "learn": {
+  "t": "Bihar's river ferries are still governed partly by rules under the Bengal Ferries Act of 1885, a colonial-era law."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛶",
+    "label": "Unregistered, overloaded boats"
+   },
+   {
+    "icon": "🛣️",
+    "label": "No all-weather road"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📰",
+    "label": "Editorial: enforce rules early"
+   },
+   {
+    "icon": "🚌",
+    "label": "Call for safer transport"
+   }
+  ],
+  "event": {
+   "icon": "📍",
+   "label": "Raghopur boat capsizes, 13 die"
+  }
+ },
+ "order": 1,
+ "readSecs": 70,
+ "sort": "2026-10-20-98",
+ "sources": [
+  {
+   "name": "AFEIAS (clipping of The Hindu editorial)",
+   "title": "19-10-2026 Important News Clippings: Treacherous waters",
+   "url": "https://afeias.com/knowledge-centre/newspaper-clips/19-10-2026-important-news-clippings/"
+  },
+  {
+   "name": "Editorial Words (summary of The Hindu)",
+   "title": "The Hindu Editorial (Treacherous waters) – Oct 19, 2026",
+   "url": "https://www.editorialwords.com/the-hindu-editorial-treacherous-waters-oct-19-2026/"
+  },
+  {
+   "name": "ThePrint (PTI)",
+   "title": "At least 13 children, all aged under 15, drown as boat capsizes in Ganga in Bihar's Vaishali",
+   "url": "https://theprint.in/india/at-least-13-children-all-aged-under-15-drown-as-boat-capsizes-in-ganga-in-bihars-vaishali/3070983/"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Bihar tragedy: 13 children die as boat capsizes in Ganga river in Vaishali",
+   "url": "https://telanganatoday.com/bihar-tragedy-13-children-die-as-boat-capsizes-in-ganga-river-in-vaishali"
+  }
+ ],
+ "tldr": "The Hindu argues that the Bihar boat accident that killed 13 children was preventable, and that states must enforce safety rules before tragedies, not after.",
+ "topic": "River boat safety"
+}

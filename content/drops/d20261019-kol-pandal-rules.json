@@ -1,0 +1,127 @@
+{
+ "areas": [
+  "Citywide",
+  "Bowbazar",
+  "College Street"
+ ],
+ "beats": {
+  "care": "Expect closed or slower entries. Note the exits when you enter, and leave if a crowd feels too tight.",
+  "what": "Police Commissioner Ajay Nand told all police stations to enforce new rules. All VIP passes are cancelled.",
+  "why": "At least 19 people died in the Chorbagan crush on Saptami. Police want safer crowd flow."
+ },
+ "cards": [
+  {
+   "body": "No VIP passes. No food stalls at gates. Entry and exits kept clear. Lights checked. Police control the PA system. Each pandal gets volunteers and at least one constable.",
+   "k": "tea",
+   "title": "The new rules"
+  },
+  {
+   "body": "Gatherings of five or more are banned in parts of Bowbazar until Oct 20, which has shut many College Street-area pandals. Seven people have been arrested.",
+   "k": "tea",
+   "title": "Bowbazar curbs"
+  },
+  {
+   "body": "Police's early findings blame sudden rain, narrow gates and a false recorded 'collapse' announcement.",
+   "k": "twist"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "To boost restaurant sales",
+    "To keep entry and exit paths clear",
+    "Because of rain",
+    "To save electricity"
+   ],
+   "q": "Why ban food stalls at pandal gates?",
+   "why": "Police want gates and exits kept clear so crowds can move safely."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, carefully",
+    "Only quieter ones",
+    "Skipping this year",
+    "Already done"
+   ],
+   "q": "Will you still go pandal-hopping?"
+  }
+ ],
+ "cat": "local",
+ "city": "Kolkata",
+ "cover": {
+  "bg": [
+   "#1a1a2e",
+   "#e94560"
+  ],
+  "big": "0 VIP",
+  "label": "VIP pandal passes cancelled",
+  "motion": "pulse",
+  "scene": [
+   "🚧",
+   "👮",
+   "🚪"
+  ]
+ },
+ "date": "2026-10-19",
+ "heat": 5,
+ "hook": "What changes at pandals *after the Chorbagan crush*?",
+ "lead": "local",
+ "learn": {
+  "t": "Food stalls are now banned at pandal entry and exit points, to keep the way out clear."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚠️",
+    "label": "Chorbagan crowd crush"
+   },
+   {
+    "icon": "👥",
+    "label": "Huge Puja crowds"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚫",
+    "label": "No VIP lines"
+   },
+   {
+    "icon": "🚪",
+    "label": "Clear exits, no stalls"
+   },
+   {
+    "icon": "📻",
+    "label": "Police radios at pandals"
+   }
+  ],
+  "event": {
+   "icon": "📋",
+   "label": "New police rules for pandals"
+  }
+ },
+ "order": 89,
+ "readSecs": 50,
+ "sort": "2026-10-19-10",
+ "sources": [
+  {
+   "name": "The Hans India (IANS)",
+   "title": "Kolkata Police releases guidelines for puja organisers, cancels all VIP passes after stampede",
+   "url": "https://www.thehansindia.com/kolkata/kolkata-police-releases-guidelines-for-puja-organisers-cancels-all-vip-passes-after-stampede-1133597"
+  },
+  {
+   "name": "National Herald",
+   "title": "Kolkata stampede updates: Seven held, curbs imposed, injured moved to Apollo",
+   "url": "https://www.nationalheraldindia.com/national/kolkata-stampede-seven-arrested-curbs-imposed-injured-moved-to-apollo"
+  },
+  {
+   "name": "Business Standard",
+   "title": "Rain, narrow exits, false alert: What led to Kolkata Puja pandal stampede?",
+   "url": "https://www.business-standard.com/amp/india-news/kolkata-chorbagan-durga-puja-stampede-death-causes-police-probe-crowd-mismanagement-rain-126101800153_1.html"
+  }
+ ],
+ "thread": "kol-puja-safety",
+ "tldr": "After the Chorbagan crowd crush, Kolkata Police cancelled all VIP pandal passes and set new safety rules for the rest of Puja.",
+ "topic": "New pandal rules",
+ "watch": "Section 163 curbs in parts of Bowbazar end October 20; a judge-led SIT is probing the crush."
+}

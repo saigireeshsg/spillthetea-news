@@ -1,0 +1,90 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "See a caged palapitta? Report it on the toll-free line 18004255364 or dial 112. Watching one fly free is the real tradition.",
+  "what": "Police Commissioner VC Sajjanar urged people not to capture, cage or sell palapittas, after reports of birds with clipped wings.",
+  "why": "Seeing a palapitta at Dasara is an old tradition, and some people trap the birds to show them off for money."
+ },
+ "cards": [
+  {
+   "body": "Sajjanar pointed out that the bird eats insects and pests that damage crops, so it quietly helps farmers.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "The bird looks dull when perched, but flashes bright blue when it opens its wings in flight.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, in the wild",
+    "Only a caged one",
+    "Never"
+   ],
+   "q": "Have you seen a palapitta at Dasara?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It's a protected wild bird",
+    "It is a rare pet breed",
+    "It carries diseases",
+    "Dasara is over"
+   ],
+   "q": "Why is catching a palapitta a problem?",
+   "why": "As a protected wild species under the Wildlife Act, it is illegal to capture, cage or trade it."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-21",
+ "heat": 2,
+ "hook": "Caged *palapittas* at Dasara? Police say it can land you in trouble",
+ "learn": {
+  "t": "The palapitta, or Indian roller, is Telangana's state bird and is protected under the Wildlife (Protection) Act, 1972."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪶",
+    "label": "Birds caged for Dasara display"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "Wildlife Act action possible"
+   },
+   {
+    "icon": "📞",
+    "label": "Helpline to report cruelty"
+   }
+  ],
+  "event": {
+   "icon": "👮",
+   "label": "City police chief issues appeal"
+  }
+ },
+ "order": 11,
+ "readSecs": 45,
+ "sort": "2026-10-21-88",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad CP Sajjanar urges public to protect Palapittas during Dasara",
+   "url": "https://telanganatoday.com/hyderabad-cp-sajjanar-urges-public-to-protect-palapittas-during-dasara"
+  },
+  {
+   "name": "Deccan Chronicle",
+   "title": "Strict action warned against harming state bird Palapitta",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/strict-action-warned-against-harming-state-bird-palapitta-1997383"
+  }
+ ],
+ "thread": "hyd-festivals",
+ "tldr": "Hyderabad's police chief asked people not to catch, cage or sell the palapitta, Telangana's state bird, in the name of Dasara.",
+ "topic": "Palapitta protection"
+}

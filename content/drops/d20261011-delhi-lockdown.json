@@ -1,0 +1,145 @@
+{
+ "beats": {
+  "care": "It raises a big question for you: how far can the government limit protests, internet and travel to keep order?",
+  "what": "On Saturday, police sealed central Delhi and detained thousands heading to a protest at Jantar Mantar. Metro stations, trains and mobile internet were shut.",
+  "why": "The youth-led Cockroach Janta Party wants the Chief Election Commissioner to resign over how voter lists are being re-checked. Police refused permission."
+ },
+ "cards": [
+  {
+   "body": "Police said organisers applied on 7 Oct, too late for a 10 Oct protest. Reported detention counts rose through the day, from about 1,000 to over 7,000, per PTI quoting officials. The party's founder Abhijeet Dipke was detained from his plane at Delhi airport.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Services at New Delhi and Hazrat Nizamuddin were hit, alongside sealed borders and shut markets in Connaught Place.",
+   "caption": "Trains cancelled at two Delhi stations",
+   "k": "num",
+   "value": "250+"
+  },
+  {
+   "body": "A satirical, youth-led movement that grew online. Its line: we are students, we are unemployed, we are cockroaches. It says the voter-list re-check, called SIR, removed real voters. The Election Commission says it is only cleaning up old entries.",
+   "k": "why",
+   "title": "what is the cockroach janta party?"
+  },
+  {
+   "a": {
+    "body": "Permission was sought too late and earlier protests turned violent. BJP's Sambit Patra called the protesters anarchic elements and the protest a flop show.",
+    "label": "BJP and police say"
+   },
+   "b": {
+    "body": "Congress chief Kharge said India has become a muzzled democracy. Amnesty and the UN human rights office urged release of those detained.",
+    "label": "Opposition and rights groups say"
+   },
+   "k": "sides",
+   "note": "India's mission in Geneva called the UN's comment unwarranted interference.",
+   "title": "Was the crackdown justified?"
+  },
+  {
+   "body": "Senior opposition leaders, including Arvind Kejriwal and Mamata Banerjee, were among those detained, along with YouTuber Dhruv Rathee.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, if there's a real risk of violence",
+    "No, it hurts everyone and silences people",
+    "Only with a court's approval"
+   ],
+   "q": "Should police be able to cut internet to control a protest?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The election chief's resignation over the voter-list re-check",
+    "Cheaper metro fares",
+    "A new state for Delhi",
+    "Lower GST rates"
+   ],
+   "q": "What were the protesters demanding?",
+   "why": "The protest was about the SIR voter-list re-check, and the demand was that Chief Election Commissioner Gyanesh Kumar step down."
+  }
+ ],
+ "cat": "india",
+ "cover": {
+  "bg": [
+   "#14141c",
+   "#e0473a"
+  ],
+  "big": "45",
+  "label": "Delhi Metro stations shut for about a day",
+  "motion": "pulse",
+  "scene": [
+   "🏛️",
+   "🚇",
+   "📵"
+  ]
+ },
+ "date": "2026-10-11",
+ "heat": 5,
+ "hook": "Why did Delhi shut *45 metro stations* for one protest?",
+ "lead": "india",
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "Anger over voter-list re-check"
+   },
+   {
+    "icon": "🚫",
+    "label": "Police denied protest permission"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚇",
+    "label": "45 metro stations shut"
+   },
+   {
+    "icon": "📵",
+    "label": "Mobile internet cut nearby"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Supreme Court hearing Sunday"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "Delhi locked down, thousands detained"
+  }
+ },
+ "order": 2,
+ "readSecs": 80,
+ "sort": "2026-10-11-97",
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "India's 'Cockroach' leaders detained; New Delhi in lockdown",
+   "url": "https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"
+  },
+  {
+   "name": "ANI",
+   "title": "Delhi turns fortress as CJP-led protest triggers mass detentions",
+   "url": "https://aninews.in/news/national/politics/delhi-turns-fortress-as-cjp-led-protest-triggers-mass-detentions-opposition-alleges-dictatorship-bjp-says-anarchy-not-anyones-right20261010231001"
+  },
+  {
+   "name": "Outlook",
+   "title": "CJP protest live updates, October 10",
+   "url": "https://www.outlookindia.com/national/cjp-protest-live-updates-abhijeet-dipke-delhi-india-bloc-cec-row-latest-updates-october-10"
+  },
+  {
+   "name": "ThePrint",
+   "title": "UN raises concerns over detentions during Delhi protests, India says unwarranted interference",
+   "url": "https://theprint.in/world/un-raises-concerns-over-detentions-during-delhi-protests-india-says-unwarranted-interference/3068060/"
+  },
+  {
+   "name": "Business Today",
+   "title": "Supreme Court to hold special Sunday hearing on contempt plea",
+   "url": "https://www.businesstoday.in/india/story/cjp-protest-supreme-court-to-hold-special-sunday-hearing-on-contempt-plea-against-home-secy-dmrc-560836-2026-10-10"
+  }
+ ],
+ "storyline": "sir",
+ "tldr": "Delhi was locked down on Saturday as police detained thousands of people heading to a youth-led protest demanding the election chief's resignation.",
+ "topic": "Delhi protest lockdown"
+}

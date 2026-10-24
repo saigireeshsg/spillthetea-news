@@ -1,0 +1,92 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "See a snapped wire or water near a transformer? Keep away and call 94987 94987.",
+  "what": "TANGEDCO listed do's and don'ts for rain: stay away from poles, transformers, fallen wires and pillar boxes.",
+  "why": "Rain and floodwater raise the risk of electric shocks near damaged lines."
+ },
+ "cards": [
+  {
+   "body": "Don't use appliances with wet hands. Don't dry clothes on stay wires. Fit an RCCB at home to cut power if current leaks.",
+   "k": "tea",
+   "title": "Quick rules"
+  },
+  {
+   "body": "Avoid open ground, trees and poles. Keep away from open windows and iron grills.",
+   "k": "tea",
+   "title": "In lightning"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Move it with a stick",
+    "Keep people away and call the helpline",
+    "Step over it quickly",
+    "Pour water on it"
+   ],
+   "q": "You see a fallen wire on your street. What should you do?",
+   "why": "The Board says don't touch it, keep others away and wait for officials."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Saving it now",
+    "Already have it",
+    "Didn't know it",
+    "Not needed"
+   ],
+   "q": "Have you saved the Minnagam number?"
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "date": "2026-10-19",
+ "heat": 3,
+ "hook": "Why should you *never touch a branch* on a power line?",
+ "learn": {
+  "t": "Wet green branches can carry electricity, so never pull a branch off a power line yourself."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Heavy rain, wind"
+   },
+   {
+    "icon": "🌳",
+    "label": "Falling branches"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📞",
+    "label": "Minnagam helpline 94987 94987"
+   },
+   {
+    "icon": "🚫",
+    "label": "Stay away from transformers"
+   }
+  ],
+  "event": {
+   "icon": "⚡",
+   "label": "Electricity Board safety advisory"
+  }
+ },
+ "order": 66,
+ "readSecs": 35,
+ "sort": "2026-10-19-33",
+ "sources": [
+  {
+   "name": "ETV Bharat Tamil Nadu",
+   "title": "மழைக்கால மின் விபத்துகளை தவிர்ப்பதற்கான வழிமுறைகளை வெளியிட்ட மின்சார வாரியம்",
+   "url": "https://www.etvbharat.com/ta/state/tangedco-advisory-safety-measures-to-prevent-electrical-accidents-during-monsoon-tns26101803159"
+  }
+ ],
+ "thread": "che-power",
+ "tldr": "The Tamil Nadu Electricity Board has shared rain safety rules and a 24-hour helpline, 94987 94987.",
+ "topic": "Rain power safety",
+ "watch": "The advice applies through the current heavy-rain spell, expected till about October 26."
+}

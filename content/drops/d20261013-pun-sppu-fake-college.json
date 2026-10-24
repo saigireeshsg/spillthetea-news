@@ -1,0 +1,86 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Before paying fees anywhere, check the college's affiliation on the university website.",
+  "what": "SPPU's affiliation cell issued a notice telling students to avoid the Synergy School of Commerce for 2026-27.",
+  "why": "A student complained she couldn't get her transfer certificate. An SPPU committee then found the college missing from its address."
+ },
+ "cards": [
+  {
+   "body": "Officials couldn't reach the college by phone, so SPPU sent an inquiry committee. It has filed complaints with Maharashtra's DTE and AICTE.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "SPPU called admitting students without affiliation and moving without approval \"unauthorised practices.\"",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, always",
+    "My parents did",
+    "Never thought of it",
+    "Will check now"
+   ],
+   "q": "Did you check affiliation before joining college?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Verify its affiliation with the university",
+    "Trust the brochure",
+    "Pay fees early to lock a seat",
+    "Check its Instagram"
+   ],
+   "q": "What is the safest step before joining a private college?",
+   "why": "SPPU urged students to confirm affiliation status first to avoid academic trouble."
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "date": "2026-10-13",
+ "heat": 3,
+ "hook": "How did a student's *missing TC* expose a Pune college?",
+ "learn": {
+  "t": "SPPU's inquiry found the college was not running at its registered address and had moved without approval."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📄",
+    "label": "Student denied her TC"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚫",
+    "label": "Don't apply for 2026-27"
+   },
+   {
+    "icon": "📨",
+    "label": "Complaints to DTE, AICTE"
+   }
+  ],
+  "event": {
+   "icon": "⚠️",
+   "label": "SPPU flags Synergy School"
+  }
+ },
+ "order": 73,
+ "readSecs": 40,
+ "sort": "2026-10-13-26",
+ "sources": [
+  {
+   "name": "Pune Pulse",
+   "title": "Pune: SPPU Flags Synergy School Of Commerce Over Lack Of Affiliation, Urges Students To Avoid Admissions",
+   "url": "https://www.mypunepulse.com/pune-sppu-flags-synergy-school-of-commerce-over-lack-of-affiliation-urges-students-to-avoid-admissions/"
+  }
+ ],
+ "thread": "pun-campus-safety",
+ "tldr": "SPPU has told students not to take admission at Synergy School of Commerce, saying it is not affiliated with the university.",
+ "topic": "Unaffiliated college warning"
+}

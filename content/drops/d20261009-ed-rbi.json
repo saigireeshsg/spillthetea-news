@@ -1,0 +1,184 @@
+{
+ "beats": {
+  "care": "Family loan EMIs can rise, and food and fuel may stay costly unless the government acts too.",
+  "what": "RBI raised its key interest rate to 5.50%. The Hindu's editorial says that alone won't bring prices down.",
+  "why": "Prices are up because oil crossed $100 and a weak monsoon hurt crops. Interest rates can't fix either."
+ },
+ "cards": [
+  {
+   "body": "On 7 Oct, the RBI raised the repo rate (the interest it charges banks) from 5.25% to 5.50%, the first hike since February 2023. Today, The Hindu's main editorial asks whether that's enough.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "The editorial supports the hike. But it says today's price rise comes mostly from costly oil and a weak monsoon pushing up food prices. Interest rates can't make oil cheaper or make crops grow. At best, they stop people from expecting prices to keep rising.",
+   "k": "edit",
+   "kind": "Editorial · 9 Oct",
+   "paper": "The Hindu",
+   "title": "An adequate response?",
+   "verdict": "Bottom line: RBI has done its bit. Now the government must use its own tools, like food stocks and fuel taxes."
+  },
+  {
+   "items": [
+    {
+     "display": "4.9%",
+     "label": "Jul–Sep 2026",
+     "value": 4.9
+    },
+    {
+     "display": "6.0%",
+     "label": "Oct–Dec 2026",
+     "value": 6
+    },
+    {
+     "display": "5.7%",
+     "label": "Jan–Mar 2027",
+     "value": 5.7
+    }
+   ],
+   "k": "bars",
+   "note": "Forecast for retail inflation (how fast prices rise in a year).",
+   "ref": {
+    "label": "6% = top of RBI's comfort zone (2–6%)",
+    "value": 6
+   },
+   "title": "RBI's own forecast: prices rising faster"
+  },
+  {
+   "body": "RBI can only make borrowing costlier, which slowly cools spending. That takes months to work, and it can't add oil or crops to the market. The government can: release stored wheat and rice, cut import duties, or lower fuel taxes.",
+   "k": "why",
+   "title": "why can't RBI just fix it?"
+  },
+  {
+   "body": "Home, car and education loans with a floating rate can get pricier. Fuel and food may cost more for a while. The editorial's point: if the government doesn't act on supply, rate hikes alone won't bring prices down fast.",
+   "k": "you",
+   "title": ""
+  },
+  {
+   "a": {
+    "body": "Yes. It shows RBI is serious and keeps price expectations in check, but it isn't enough on its own.",
+    "label": "The Hindu's editorial says"
+   },
+   "b": {
+    "body": "Rate hikes take months to work, make loans costlier for families and businesses, and don't touch the real problem: oil and food.",
+    "label": "Critics of hikes argue"
+   },
+   "k": "sides",
+   "title": "Was the hike the right move?"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "People spending too much",
+    "Costly oil and a weak monsoon",
+    "Too many loans",
+    "Cricket season"
+   ],
+   "q": "According to The Hindu, what's mainly pushing prices up right now?",
+   "why": "The editorial calls it supply-side inflation: oil and food, which interest rates can only nudge."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "RBI: raise rates more",
+    "Government: cut fuel taxes, release food stocks",
+    "Both",
+    "Honestly no idea"
+   ],
+   "q": "Who should do more to bring prices down?"
+  },
+  {
+   "by": "4 Dec",
+   "k": "predict",
+   "opts": [
+    "Another hike",
+    "No change",
+    "Surprise cut"
+   ],
+   "q": "RBI meets again on 2–4 Dec. What happens?"
+  }
+ ],
+ "cat": "edit",
+ "cover": {
+  "bg": [
+   "#13213f",
+   "#ff4500"
+  ],
+  "big": "5.50%",
+  "label": "RBI's repo rate · first hike since 2023",
+  "motion": "rise",
+  "scene": [
+   "🏦",
+   "📈",
+   "💸"
+  ]
+ },
+ "date": "2026-10-09",
+ "editorial": {
+  "paper": "The Hindu",
+  "title": "An adequate response?"
+ },
+ "featured": true,
+ "heat": 4,
+ "hook": "RBI raised rates. The Hindu asks: *will that even work?*",
+ "lead": "india",
+ "map": {
+  "causes": [
+   {
+    "icon": "🛢️",
+    "label": "Oil above $100"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Weak monsoon"
+   },
+   {
+    "icon": "🍅",
+    "label": "Food prices rising"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Loan EMIs can rise"
+   },
+   {
+    "icon": "🐢",
+    "label": "Prices cool, slowly"
+   },
+   {
+    "icon": "🏛️",
+    "label": "The Hindu: govt must act too"
+   }
+  ],
+  "event": {
+   "icon": "🏦",
+   "label": "RBI hikes rates to 5.50%"
+  }
+ },
+ "order": 1,
+ "readSecs": 110,
+ "sort": "2026-10-09-98",
+ "sources": [
+  {
+   "name": "Legacy IAS (summary of The Hindu editorial)",
+   "title": "Editorials/Opinions Analysis, 9 October 2026",
+   "url": "https://www.legacyias.com/editorials-opinions-analysis-for-upsc-09-october-2026/"
+  },
+  {
+   "name": "NewsBytes",
+   "title": "RBI raises FY27 inflation forecast to 5.2%",
+   "url": "https://www.newsbytesapp.com/news/business/rbi-raises-fy27-inflation-forecast-to-5-2/story"
+  },
+  {
+   "name": "ZiroMarket",
+   "title": "What the hike means for home loan EMIs",
+   "url": "https://www.ziromarket.com/blog/rbi-repo-rate-hike-october-2026-home-loan-emi"
+  }
+ ],
+ "storyline": "rbi-inflation",
+ "tldr": "The Hindu's editorial backs RBI's rate hike, but says it can't fix this kind of price rise alone. The government has to step in too.",
+ "topic": "RBI rate hike",
+ "visual": true
+}

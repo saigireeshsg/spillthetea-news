@@ -1,0 +1,97 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Less dumped debris means less dust on the roads you walk and ride on, especially near building sites.",
+  "what": "BMC now fines vehicles carrying construction or excavation waste Rs 25,000 if they lack an active tracking device.",
+  "why": "Illegally dumped debris adds to dust and pollution. Tracking shows where each load actually ends up."
+ },
+ "cards": [
+  {
+   "body": "Between Aug 24 and Oct 10 on its debris tracking portal, a senior BMC official said.",
+   "caption": "registrations on BMC's portal",
+   "k": "num",
+   "value": "234"
+  },
+  {
+   "body": "Developers and transporters must register on BMC's Mumbai Debris Control & Tracking System portal, launched Aug 24. About 128 developers covering 250–300 sites have signed up.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, if enforced",
+    "Fine is too low",
+    "Need more checks",
+    "No chance"
+   ],
+   "q": "Will a fine stop illegal dumping?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It shows where each truck actually unloads",
+    "It makes trucks drive slower",
+    "It reduces fuel use",
+    "It bans trucks from the city"
+   ],
+   "q": "How does GPS tracking help cut illegal debris dumping?",
+   "why": "With live tracking, BMC can see if a load goes to an approved site or gets dumped elsewhere."
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "date": "2026-10-12",
+ "heat": 2,
+ "hook": "Why is BMC tracking *debris trucks* by GPS now?",
+ "learn": {
+  "t": "Mumbai produces nearly 8,000 tonnes of construction and demolition waste every single day."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Illegal debris dumping"
+   },
+   {
+    "icon": "🌫️",
+    "label": "Dust in the air"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Rs 25,000 fine per offence"
+   },
+   {
+    "icon": "🗺️",
+    "label": "Every trip tracked"
+   }
+  ],
+  "event": {
+   "icon": "📡",
+   "label": "GPS must for debris trucks"
+  }
+ },
+ "order": 70,
+ "readSecs": 35,
+ "sort": "2026-10-12-29",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Mumbai: BMC To Impose ₹25,000 Fine On Vehicles Transporting Construction Waste Without Active Tracking Devices",
+   "url": "https://www.freepressjournal.in/amp/mumbai/mumbai-bmc-to-impose-25000-fine-on-vehicles-transporting-construction-waste-without-active-tracking-devices"
+  },
+  {
+   "name": "Social News XYZ",
+   "title": "BMC to crack down on illegal debris disposal, impose Rs 25,000 fine for tracking violations",
+   "url": "https://www.socialnews.xyz/2026/10/11/bmc-to-crack-down-on-illegal-debris-disposal-impose-rs-25000-fine-for-tracking-violations/"
+  }
+ ],
+ "thread": "mum-air-quality",
+ "tldr": "From October 12, BMC fines debris trucks Rs 25,000 per offence if they run without an active GPS tracking device.",
+ "topic": "Debris truck tracking"
+}

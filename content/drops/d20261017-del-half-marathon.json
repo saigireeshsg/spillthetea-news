@@ -1,0 +1,124 @@
+{
+ "areas": [
+  "Jawaharlal Nehru Stadium",
+  "Kartavya Path",
+  "Central Delhi"
+ ],
+ "beats": {
+  "care": "Running or cheering? Take the Red, Yellow, Blue or Violet Line from 3:30 am. Other lines start at normal Sunday times.",
+  "what": "The Vedanta Delhi Half Marathon is on Sunday. Runners will skip Rail Bhawan, Sansad Marg and Patel Chowk, and loop near Kartavya Path instead.",
+  "why": "Organisers say heavy police barricading at those spots after recent protests forced the change. DMRC is starting four lines early so runners arrive on time."
+ },
+ "cards": [
+  {
+   "body": "Organisers Procam International expect more than 40,000 people across all the races on Sunday.",
+   "caption": "runners expected",
+   "k": "num",
+   "value": "40,000+"
+  },
+  {
+   "body": "From 3:30 am to 4:15 am, trains come every 15 minutes. From 4:15 am to 6 am, they come every 20 minutes. After 6 am, the normal Sunday timetable runs.",
+   "k": "tea",
+   "title": "Early-train timetable"
+  },
+  {
+   "body": "The Open 10K usually starts at Sansad Marg. This year it starts at Jawaharlal Nehru Stadium at 7:35 am instead.",
+   "k": "twist"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Nothing, every line starts at 3:30 am",
+    "Check your line's first train, because only four lines start early",
+    "Take the Airport Line, which runs all night",
+    "Skip it, because the Metro is closed on race day"
+   ],
+   "q": "You live on the Magenta Line and want to reach the race at 5 am. What should you do?",
+   "why": "Only the Red, Yellow, Blue and Violet lines start at 3:30 am. All other lines keep their normal Sunday timings."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Already registered!",
+    "Only to cheer",
+    "10K is my limit",
+    "Sleep wins"
+   ],
+   "q": "Would you wake up at 3 am to run 21 km?"
+  }
+ ],
+ "cat": "local",
+ "city": "Delhi",
+ "cover": {
+  "bg": [
+   "#0b1d3a",
+   "#ff6b2c"
+  ],
+  "big": "3:30 AM",
+  "label": "Metro starts early for Sunday's half marathon",
+  "motion": "rise",
+  "scene": [
+   "🏃",
+   "🚇",
+   "🌅"
+  ]
+ },
+ "date": "2026-10-17",
+ "heat": 4,
+ "hook": "Why will Delhi Metro run *before sunrise* this Sunday?",
+ "lead": "local",
+ "learn": {
+  "t": "On Sunday, the Red, Yellow, Blue and Violet Metro lines start at 3:30 am. Those four lines reach Gurugram, Noida, Ghaziabad and Faridabad."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏃",
+    "label": "40,000+ runners expected"
+   },
+   {
+    "icon": "🚧",
+    "label": "Barricades near Sansad Marg"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚇",
+    "label": "Metro from 3:30 am"
+   },
+   {
+    "icon": "🏟️",
+    "label": "10K starts at JLN"
+   }
+  ],
+  "event": {
+   "icon": "🏁",
+   "label": "Half marathon route tweaked"
+  }
+ },
+ "order": 86,
+ "readSecs": 45,
+ "sort": "2026-10-17-13",
+ "sources": [
+  {
+   "name": "ThePrint (PTI)",
+   "title": "VDHM organisers to skip protests hot-spots in revised route",
+   "url": "https://theprint.in/sport/vdhm-organisers-to-skip-protests-hot-spots-in-revised-route/3073821/"
+  },
+  {
+   "name": "Business Today",
+   "title": "Delhi Metro to start at 3:30 am on October 18, but only these 4 lines will run early",
+   "url": "https://www.businesstoday.in/latest/photo/delhi-metro-to-start-at-330-am-on-october-18-but-only-these-4-lines-will-run-early-562143-2026-10-16"
+  },
+  {
+   "name": "Free Press Journal (PTI)",
+   "title": "Delhi Half Marathon 2026 Route Changed Amid Protests, Open 10K To Start From JLN Stadium On October 18",
+   "url": "https://www.freepressjournal.in/sports/delhi-half-marathon-2026-route-changed-amid-protests-open-10k-to-start-from-jln-stadium-on-october-18"
+  }
+ ],
+ "thread": "del-events",
+ "tldr": "Delhi Half Marathon runs on Sunday, October 18, with a tweaked route, and four Metro lines start at 3:30 am for runners.",
+ "topic": "Half marathon Sunday",
+ "watch": "Race day is Sunday, October 18. The half marathon starts around 5:30 am and the Open 10K at 7:35 am."
+}

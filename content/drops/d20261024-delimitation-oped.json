@@ -1,0 +1,102 @@
+{
+ "beats": {
+  "care": "How many MPs your State gets decides how loud its voice is in Delhi, from funds to jobs to language.",
+  "what": "In The Hindu, Varghese K. George writes that the government still hasn't shown its exact delimitation plan to Parliament.",
+  "why": "The govt promised a Lok Sabha of up to 850 seats with each State's share unchanged. Without a constitutional amendment, seats get redistributed by population."
+ },
+ "cards": [
+  {
+   "body": "The Congress wants 543 seats with today's split, but that also needs an amendment. If no amendment passes, seats move to big heartland States and Keralam and Tamil Nadu lose seats.",
+   "k": "edit",
+   "kind": "Op-ed · 24 Oct",
+   "paper": "The Hindu",
+   "title": "BJP has no bad option, Congress has no good option",
+   "verdict": "The writer says the BJP gains either way, while the Congress must choose between two bad outcomes."
+  },
+  {
+   "a": {
+    "body": "Keeps every State's share and fits the women's quota without cutting current MPs.",
+    "label": "For 850 seats"
+   },
+   "b": {
+    "body": "Even with equal shares, the gap in absolute numbers between big and small States grows.",
+    "label": "Against"
+   },
+   "k": "sides",
+   "title": "Bigger Lok Sabha?"
+  },
+  {
+   "body": "Women's reservation is already settled: one-third of seats go to women at the next delimitation, whatever the total.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "850 seats, same State shares",
+    "Keep 543, redistribute by population",
+    "Keep 543 and today's split"
+   ],
+   "q": "What's fairer?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Seats are reshuffled by the next Census, hurting southern States",
+    "Lok Sabha becomes 850 seats",
+    "Women's quota is cancelled",
+    "Elections are postponed"
+   ],
+   "q": "What happens if no constitutional amendment passes, per the op-ed?",
+   "why": "The Constitution requires reallocation by the latest Census, which shifts seats to populous States."
+  }
+ ],
+ "cat": "india",
+ "date": "2026-10-24",
+ "heat": 3,
+ "hook": "850 Lok Sabha seats or 543? Why the *South* is nervous",
+ "learn": {
+  "t": "Lok Sabha seat counts per State were frozen in 1976 so States that controlled population growth wouldn't be punished."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📊",
+    "label": "Seats tied to population"
+   },
+   {
+    "icon": "✉️",
+    "label": "Opposition wants all-party meet"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⬆️",
+    "label": "Option: 850 seats, same shares"
+   },
+   {
+    "icon": "⬇️",
+    "label": "Or: South loses seats"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "Delimitation plan still secret"
+  }
+ },
+ "order": 4,
+ "readSecs": 70,
+ "sort": "2026-10-24-95",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "BJP has no bad option, Congress has no good option (op-ed) (print, Hyderabad edition, 24 Oct, p.8)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "storyline": "delimitation",
+ "thread": "delimitation",
+ "tldr": "An op-ed says the delimitation fight is really about Lok Sabha size and State shares, and that the BJP has better options than the Congress.",
+ "topic": "Delimitation debate",
+ "watch": "Watch whether the government shares a draft amendment or calls an all-party meeting before Parliament's next session."
+}

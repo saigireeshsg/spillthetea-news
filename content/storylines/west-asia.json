@@ -1,0 +1,63 @@
+{
+ "emoji": "🌍",
+ "india": "India buys most of its oil from abroad, and a lot of it comes through the Gulf. Millions of Indians live and work in Gulf countries. When West Asia burns, India feels it at the petrol pump and at home.",
+ "lede": "Israelis and Palestinians have fought over the same land since Israel was created in 1948. Gaza is a small Palestinian territory that was run by Hamas, an armed group. Iran, Israel's biggest rival in the region, backs Hamas and other groups. Here's how the latest chapter unfolded.",
+ "mins": 2,
+ "players": [
+  {
+   "name": "Israel",
+   "role": "PM Benjamin Netanyahu. Wants Hamas gone from Gaza."
+  },
+  {
+   "name": "Hamas",
+   "role": "Armed Palestinian group that ran Gaza. Led the 7 Oct 2023 attack."
+  },
+  {
+   "name": "Iran",
+   "role": "Backs Hamas, Hezbollah and the Houthis. Israel's main rival."
+  },
+  {
+   "name": "USA",
+   "role": "Israel's closest ally. Brokered the Gaza ceasefire."
+  },
+  {
+   "name": "Hezbollah",
+   "role": "Armed group in Lebanon, backed by Iran."
+  },
+  {
+   "name": "Houthis",
+   "role": "Armed group in Yemen. Attacks ships and Israel."
+  }
+ ],
+ "timeline": [
+  {
+   "what": "Hamas attacks southern Israel: about 1,200 killed, 251 taken hostage. Israel declares war on Hamas and invades Gaza.",
+   "when": "Oct 2023"
+  },
+  {
+   "what": "Hezbollah fires rockets from Lebanon; the Houthis attack ships in the Red Sea. Israel kills top Hamas and Hezbollah leaders.",
+   "when": "2023–24"
+  },
+  {
+   "what": "A ceasefire frees some hostages, then collapses in March.",
+   "when": "Jan–Mar 2025"
+  },
+  {
+   "what": "A US-backed Gaza ceasefire starts on 10 Oct. The remaining living hostages come home.",
+   "when": "Oct 2025"
+  },
+  {
+   "what": "The US and Israel strike Iran over its nuclear programme. Supreme Leader Khamenei is killed. Iran hits back at Israel, US bases and Gulf states; shipping through Hormuz freezes.",
+   "when": "Feb 2026"
+  },
+  {
+   "what": "A US–Iran ceasefire comes in June, then breaks down in July. The US blockades Iran's ports.",
+   "when": "Jun–Jul 2026"
+  },
+  {
+   "what": "US–Iran talks are stalled and attacks on ships near Hormuz have surged. Tankers with Indian crews were hit on 9, 11 and 16 Oct, and a UN plan to let fertiliser ships through is stuck.",
+   "when": "Now"
+  }
+ ],
+ "title": "West Asia from zero"
+}

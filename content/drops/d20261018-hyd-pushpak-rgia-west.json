@@ -1,0 +1,94 @@
+{
+ "areas": [
+  "Gachibowli",
+  "Kondapur",
+  "Shamshabad"
+ ],
+ "beats": {
+  "care": "If you live or work near Gachibowli or the Financial District, this could make airport trips much cheaper once fares are announced.",
+  "what": "TGSRTC is planning a luxury AC Pushpak service from Patancheru to the airport, via Lingampally, Nallagandla, Gopanpally, Financial District, Kokapet and Narsingi.",
+  "why": "Private cabs from Patancheru and nearby areas reportedly charge 1,300 to 1,800 rupees to the airport, and many IT staff fly early or late."
+ },
+ "cards": [
+  {
+   "body": "TGSRTC will need extra buses, possibly dedicated luxury ones, to run it. Boarding points and frequency are still being worked out.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Pushpak is TGSRTC's AC bus brand for airport routes, with luggage space, running from different parts of the city to Shamshabad.",
+   "k": "why",
+   "title": "what's a pushpak bus?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Cab",
+    "Pushpak bus",
+    "Someone drops me",
+    "Haven't flown yet"
+   ],
+   "q": "How do you usually get to RGIA?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Cabs from the west side are expensive",
+    "The airport is moving",
+    "Metro reached the airport",
+    "Flights were cut"
+   ],
+   "q": "Why is TGSRTC planning this new airport route?",
+   "why": "A bus gives western Hyderabad residents a cheaper option than ₹1,300+ cab rides."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-18",
+ "heat": 3,
+ "hook": "Paying *₹1,300+ for an airport cab* from the west side? A bus may be coming",
+ "learn": {
+  "t": "TGSRTC already runs 55 Pushpak AC buses on airport routes; this one would use the ORR from Narsingi to Shamshabad."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚕",
+    "label": "Cabs cost ₹1,300 to ₹1,800"
+   },
+   {
+    "icon": "💼",
+    "label": "IT staff in western Hyderabad"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "✈️",
+    "label": "Patancheru to RGIA via ORR"
+   },
+   {
+    "icon": "🌙",
+    "label": "Helps early and late flyers"
+   }
+  ],
+  "event": {
+   "icon": "🚌",
+   "label": "New Pushpak route planned"
+  }
+ },
+ "order": 11,
+ "readSecs": 45,
+ "sort": "2026-10-18-88",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "TGSRTC mulls new Pushpak route to RGIA",
+   "url": "https://telanganatoday.com/tgsrtc-mulls-new-pushpak-route-to-rgia"
+  }
+ ],
+ "thread": "hyd-commute",
+ "tldr": "TGSRTC plans a new Pushpak AC bus from Patancheru to RGIA via Lingampally and the Financial District, for western Hyderabad.",
+ "topic": "Pushpak airport bus",
+ "watch": "TGSRTC says the route could start in the coming months. Fares and timings are not announced yet."
+}

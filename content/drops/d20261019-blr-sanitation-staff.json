@@ -1,0 +1,93 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Complained about garbage on Sahaaya with no fix? More inspectors and ward grants aim to change that.",
+  "what": "The interim report wants 369 junior health inspectors (now 115) and 523 sanitation supervisors (now 198).",
+  "why": "Many inspectors are outsourced and have limited power over garbage contractors."
+ },
+ "cards": [
+  {
+   "body": "Up from 198 now, under the panel's interim report.",
+   "caption": "proposed sanitation-worker supervisors",
+   "k": "num",
+   "value": "523"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Fewer bins",
+    "More inspectors and supervisors with real authority",
+    "Higher property tax",
+    "Banning plastic bags"
+   ],
+   "q": "What's the panel's main fix for dirty streets?",
+   "why": "It wants far more inspectors and supervisors, as outsourced staff have limited power over contractors."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Spotless",
+    "Okay",
+    "Garbage piles",
+    "Depends on the day"
+   ],
+   "q": "How clean is your street?"
+  },
+  {
+   "body": "This is the first staffing review since BBMP was split into the Greater Bengaluru Authority's corporations a year ago.",
+   "k": "tea",
+   "title": "First review"
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "date": "2026-10-19",
+ "heat": 2,
+ "hook": "Why are Bengaluru's *garbage complaints so hard* to fix?",
+ "learn": {
+  "t": "Ward grants of up to ₹5 lakh would fund fixes for complaints raised on the Sahaaya platform."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "👷",
+    "label": "Too few inspectors"
+   },
+   {
+    "icon": "📄",
+    "label": "Outsourced, limited powers"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🧹",
+    "label": "More supervisors"
+   },
+   {
+    "icon": "🚜",
+    "label": "Mechanical sweepers"
+   }
+  ],
+  "event": {
+   "icon": "📋",
+   "label": "Panel's staffing report"
+  }
+ },
+ "order": 62,
+ "readSecs": 35,
+ "sort": "2026-10-19-37",
+ "sources": [
+  {
+   "name": "Deccan Herald",
+   "title": "Ex-CS panel seeks more health inspectors, supervisors to keep Bengaluru clean",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/ex-cs-panel-seeks-more-health-inspectors-supervisors-to-keep-bengaluru-clean-4187610"
+  }
+ ],
+ "thread": "blr-civic",
+ "tldr": "A panel led by ex-chief secretary T M Vijay Bhaskar wants Bengaluru's junior health inspectors raised from 115 to 369.",
+ "topic": "Clean-city staffing",
+ "watch": "A final report on zonal and corporation-level staff is expected later; no date given."
+}

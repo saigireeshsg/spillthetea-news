@@ -1,0 +1,99 @@
+{
+ "beats": {
+  "care": "If an ad or influencer promises guaranteed or risk-free market returns, that breaks the rules. Treat it as a red flag.",
+  "what": "SEBI has notified a common advertising code for brokers, mutual funds, investment advisers and others, published in the official gazette on 9 October.",
+  "why": "Celebrity ads are now allowed for a firm's brand, but each needs approval first and can't make claims about a specific product."
+ },
+ "cards": [
+  {
+   "body": "Influencers count as celebrities once their followers on one platform cross the limit set by ad watchdog ASCI. Founders promoting their own company don't count. The code doesn't cover crypto or prediction-market ads.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Market investments can rise or fall, so nobody can honestly guarantee a return. Lines like 'double your money' pull beginners into risks they don't understand. Online bond platforms are the one exception.",
+   "k": "why",
+   "title": "why ban return promises?"
+  },
+  {
+   "body": "Firms also can't charge clients or fund investors for the celebrity's fee.",
+   "caption": "Time regulators get to approve a celebrity ad",
+   "k": "num",
+   "value": "4 days"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, a bit",
+    "No, not at all",
+    "Only if they explain it",
+    "I check reviews instead"
+   ],
+   "q": "Do celebrity ads make you trust a finance app?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Promising guaranteed or risk-free returns",
+    "Showing the company's name",
+    "Any celebrity in any ad",
+    "Posting ads online"
+   ],
+   "q": "What does SEBI's new ad code ban?",
+   "why": "Market returns are never certain, so the code bans guarantees and hype about specific products."
+  }
+ ],
+ "cat": "money",
+ "concept": "risk",
+ "date": "2026-10-17",
+ "heat": 3,
+ "hook": "Celebs can now sell you a trading app. *Here's what they can't say*",
+ "learn": {
+  "t": "Under SEBI's new code, realistic AI avatars and big finfluencers count as celebrities, so their market ads need approval first."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📱",
+    "label": "Finance ads and finfluencers everywhere"
+   },
+   {
+    "icon": "⚠️",
+    "label": "Misleading return claims"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⭐",
+    "label": "Celeb ads allowed, with approval"
+   },
+   {
+    "icon": "🚫",
+    "label": "No guaranteed-return claims"
+   }
+  ],
+  "event": {
+   "icon": "📜",
+   "label": "SEBI notifies common ad code"
+  }
+ },
+ "order": 9,
+ "readSecs": 55,
+ "sort": "2026-10-17-90",
+ "sources": [
+  {
+   "name": "MediaNama",
+   "title": "SEBI ad code keeps AI influencer approval: What changed?",
+   "url": "https://www.medianama.com/2026/10/223-sebis-final-ad-code-influencer-ai-avatar/"
+  },
+  {
+   "name": "CAalley",
+   "title": "Sebi notifies common ad code, allows celebrity endorsements for brands",
+   "url": "https://caalley.com/news-updates/indian-news/sebi-notifies-common-ad-code-allows-celebrity-endorsements-for-brands"
+  }
+ ],
+ "tldr": "SEBI's new ad code lets celebrities endorse brokers and fund houses, but bans promised returns and hype about specific products.",
+ "topic": "SEBI ad rules",
+ "watch": "The rules take effect 180 days after their 9 October notification, so around April 2027."
+}

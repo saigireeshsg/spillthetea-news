@@ -1,0 +1,16 @@
+{
+ "city": "Pune",
+ "cond": "Clear, warm",
+ "high": 33,
+ "icon": "☀️",
+ "rain": "Mostly dry in the city",
+ "src": [
+  {
+   "name": "Business Today weather",
+   "url": "https://businesstoday.in/weather/pune-weather-forecast-today"
+  }
+ ],
+ "temp": 23,
+ "tip": "Store water; no supply Thursday",
+ "ts": 1792563700000
+}

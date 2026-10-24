@@ -1,0 +1,105 @@
+{
+ "beats": {
+  "care": "Grids everywhere, including India's, run on a fine balance. As more homes add solar, keeping that balance gets trickier.",
+  "what": "Sri Lanka's power went out across the island around noon on Saturday and came back in stages over more than three hours.",
+  "why": "The grid operator called it a total system failure. The energy minister pointed to a breakdown at the Upper Kotmale hydropower station."
+ },
+ "cards": [
+  {
+   "body": "A grid must match supply and demand every second. If a big plant suddenly drops out, frequency falls, and other plants trip to protect themselves, like dominoes.",
+   "k": "why",
+   "title": "how can one fault black out a country?"
+  },
+  {
+   "body": "It's Sri Lanka's second islandwide blackout in under two years. In February 2025, a minister blamed a monkey at a substation.",
+   "k": "twist"
+  },
+  {
+   "body": "Mobile networks and water supply were hit too, since pumps and towers need power. The government said a hydro station failure found on Friday may have played a part.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Under an hour",
+    "A few hours",
+    "A whole day",
+    "Days, honestly"
+   ],
+   "q": "Longest you've survived without power?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Other plants trip in a chain to protect themselves",
+    "Grids have only one plant",
+    "Solar panels explode",
+    "Cables melt instantly"
+   ],
+   "q": "Why can a single plant failure black out a whole grid?",
+   "why": "Losing a big plant throws supply off balance, and protective shutdowns spread like dominoes."
+  }
+ ],
+ "cat": "world",
+ "date": "2026-10-18",
+ "heat": 3,
+ "hook": "A whole country went dark at noon. *What breaks a national grid?*",
+ "learn": {
+  "t": "When a grid fails, rooftop solar owners are told to disconnect, because sudden extra power can destabilise it while it restarts."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💧",
+    "label": "Upper Kotmale hydro fault suspected"
+   },
+   {
+    "icon": "⚡",
+    "label": "Grid becomes unstable"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📵",
+    "label": "Internet and water disrupted"
+   },
+   {
+    "icon": "☀️",
+    "label": "Solar owners told to disconnect"
+   }
+  ],
+  "event": {
+   "icon": "🌑",
+   "label": "Islandwide blackout, 3+ hours"
+  }
+ },
+ "order": 10,
+ "readSecs": 45,
+ "sort": "2026-10-18-89",
+ "sources": [
+  {
+   "name": "ThePrint (PTI)",
+   "title": "Sri Lanka hit by islandwide power outage",
+   "url": "https://theprint.in/world/sri-lanka-hit-by-islandwide-power-outage/3074608/"
+  },
+  {
+   "name": "Newswire.lk",
+   "title": "Islandwide power failure: official update",
+   "url": "https://www.newswire.lk/2026/10/17/islandwide-power-failure-official-update/"
+  },
+  {
+   "name": "Newswire.lk",
+   "title": "Islandwide power outage: update from Energy Minister",
+   "url": "https://www.newswire.lk/2026/10/17/islandwide-power-outage-update-from-energy-minister/"
+  },
+  {
+   "name": "Yahoo News",
+   "title": "Sri Lanka scrambles to restore power after monkey causes islandwide outage",
+   "url": "https://www.yahoo.com/news/sri-lanka-scrambles-restore-power-094238131.html"
+  }
+ ],
+ "tldr": "All of Sri Lanka lost power for over three hours on Saturday after a 'total system failure' on its grid.",
+ "topic": "Sri Lanka blackout"
+}

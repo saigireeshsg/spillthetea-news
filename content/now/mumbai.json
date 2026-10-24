@@ -1,0 +1,20 @@
+{
+ "city": "Mumbai",
+ "cond": "Clear and hot",
+ "high": 37,
+ "icon": "☀️",
+ "rain": "Mostly dry; isolated thundershower possible",
+ "src": [
+  {
+   "name": "LatestLY forecast",
+   "url": "https://www.latestly.com/india/news/mumbai-weather-forecast-update-for-today-wednesday-21-october-2026-expect-clear-skies-and-a-peak-temperature-of-high-of-37c-7651274.html"
+  },
+  {
+   "name": "Free Press Journal (IMD)",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-weather-update-mercury-set-to-touch-35c-after-weekend-relief-aqi-in-unhealthy-zone-mumbai-news"
+  }
+ ],
+ "temp": 29,
+ "tip": "Hydrate, skip noon walks",
+ "ts": 1792563700000
+}

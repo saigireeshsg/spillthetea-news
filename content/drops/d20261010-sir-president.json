@@ -1,0 +1,111 @@
+{
+ "beats": {
+  "care": "Whatever side you're on, check that your name is on the voter list. If it's missing, you can apply to be added.",
+  "what": "Opposition leaders met President Droupadi Murmu on 9 October and handed her a list of demands about elections.",
+  "why": "They want the election chief removed, the voter-list re-check halted and paper ballots back. The BJP calls their vote theft claims baseless."
+ },
+ "cards": [
+  {
+   "body": "An INDIA bloc team including Mallikarjun Kharge, Rahul Gandhi and Mamata Banerjee met the President. Rahul Gandhi said she asked them to back their claims with evidence, and they agreed. Their memo says 13.30 crore voters were wrongly deleted. They plan to approach the Supreme Court next.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "a": {
+    "body": "SIR is deleting real voters. They want the CEC removed, SIR halted, deleted names restored, paper ballots back, and some recent state polls cancelled.",
+    "label": "INDIA bloc says"
+   },
+   "b": {
+    "body": "The 'vote chori' claims are baseless street theatrics. Ministers say the opposition is venting over election losses and attacking institutions.",
+    "label": "BJP says"
+   },
+   "k": "sides",
+   "note": "The Election Commission's stated aim for SIR is removing dead, shifted and duplicate entries from voter lists.",
+   "title": "Is the voter-list re-check fair?"
+  },
+  {
+   "body": "Not on her own. The President acts on the government's advice, and the Constitution protects the Chief Election Commissioner: removal needs the same process as a Supreme Court judge, which goes through Parliament.",
+   "k": "why",
+   "title": "can the president sack the election chief?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes",
+    "No, EVMs work fine",
+    "Keep EVMs, add more paper checks"
+   ],
+   "q": "Should India go back to paper ballots?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Remove the election chief and halt the voter-list re-check",
+    "Call early general elections",
+    "Lower the voting age",
+    "Ban a political party"
+   ],
+   "q": "What did the opposition mainly ask the President for?",
+   "why": "Their memo centres on the CEC and SIR, which they say is deleting real voters."
+  }
+ ],
+ "cat": "india",
+ "date": "2026-10-10",
+ "heat": 3,
+ "hook": "The opposition took its *voter-list fight* to the President. Now what?",
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "SIR voter-list re-check"
+   },
+   {
+    "icon": "📋",
+    "label": "Opposition: 13.3 crore deleted"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📂",
+    "label": "Asked to submit evidence"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Next stop: Supreme Court"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "INDIA bloc meets President"
+  }
+ },
+ "order": 6,
+ "readSecs": 60,
+ "sort": "2026-10-10-93",
+ "sources": [
+  {
+   "name": "ThePrint (PTI)",
+   "title": "INDIA bloc seeks President's intervention to oust CEC, repeal Assembly polls held in last 2 years",
+   "url": "https://theprint.in/india/india-bloc-seeks-presidents-intervention-to-oust-cec-repeal-assembly-polls-held-in-last-2-years/3067172"
+  },
+  {
+   "name": "ANI",
+   "title": "\"She asked for evidence regarding Vote Chori; we shall submit\": Kharge after INDIA bloc meeting with President Murmu",
+   "url": "https://aninews.in/news/national/politics/she-asked-for-evidence-regarding-vote-chori-we-shall-submit-kharge-after-india-bloc-meeting-with-president-murmu16020261010013139/"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Rahul Gandhi says President asked INDIA Bloc to submit evidence on 'vote chori' claims",
+   "url": "https://telanganatoday.com/rahul-gandhi-says-president-asked-india-bloc-to-submit-evidence-on-vote-chori-claims"
+  },
+  {
+   "name": "Daily Jagran",
+   "title": "'Rahul Gandhi is kaamchor': BJP hits back at INDIA bloc protest, calls vote chori charge baseless",
+   "url": "https://www.thedailyjagran.com/lite/india/news/rahul-gandhi-is-kaamchor-bjp-hits-back-at-india-bloc-protest-calls-vote-chori-charge-baseless-10331803"
+  }
+ ],
+ "storyline": "sir",
+ "tldr": "Opposition leaders asked President Murmu to remove the election chief and halt the voter-list re-check; they say she asked them for evidence.",
+ "topic": "Vote chori row"
+}

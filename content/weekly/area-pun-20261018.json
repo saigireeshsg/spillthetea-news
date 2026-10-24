@@ -1,0 +1,43 @@
+{
+ "city": "Pune",
+ "date": "2026-10-18",
+ "items": [
+  {
+   "area": "Citywide",
+   "icon": "💧",
+   "src": "PMC (Pune Pulse, Punekar News)",
+   "text": "No PMC water supply every Thursday; a second weekly cut day is being considered. Store water Wed night."
+  },
+  {
+   "area": "Katraj",
+   "icon": "🚇",
+   "src": "Pune Traffic Police (Pune Pulse)",
+   "text": "Katraj metro station work: heavy vehicles stopped at Navale Bridge, Shindewadi on trial."
+  },
+  {
+   "area": "Citywide",
+   "icon": "🗳️",
+   "src": "Pune District Election Office (Punekar News)",
+   "text": "Voter camps at all polling stations Oct 24–25. Register or change address before Oct 26."
+  },
+  {
+   "area": "Citywide",
+   "icon": "🎓",
+   "src": "SPPU (Pune Pulse)",
+   "text": "SPPU warns Synergy School of Commerce isn't affiliated. Check affiliation before paying fees."
+  },
+  {
+   "area": "Vishrantwadi",
+   "icon": "🛵",
+   "src": "Pune Police / RTO (Pune Pulse)",
+   "text": "Police booked Rapido over unpermitted petrol bike taxis. Keep PMPML or metro as a backup."
+  },
+  {
+   "area": "Hadapsar",
+   "icon": "🚌",
+   "src": "MSRTC (Punekar News)",
+   "text": "Diwali: MSRTC plans 600+ special buses from Pimpri-Chinchwad, Swargate on Nov 4–7. Book early."
+  }
+ ],
+ "kind": "area"
+}

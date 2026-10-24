@@ -1,0 +1,154 @@
+{
+ "beats": {
+  "care": "If you are graduating soon, plan for a longer job hunt. Internships, skills and savings for a few months of searching matter more now.",
+  "what": "Government survey data shows 19% of city 15 to 29 year olds who wanted work had none in September, up from 18.7% in August.",
+  "why": "Youth joblessness in cities has crept up every month since May, when it was 17.5%, even as overall unemployment stayed at 5%."
+ },
+ "cards": [
+  {
+   "items": [
+    {
+     "display": "5.0%",
+     "label": "All ages, all India",
+     "value": 5
+    },
+    {
+     "display": "16.4%",
+     "label": "Young men, cities",
+     "value": 16.4
+    },
+    {
+     "alt": true,
+     "display": "19.0%",
+     "label": "All youth, cities",
+     "value": 19
+    },
+    {
+     "display": "26.6%",
+     "label": "Young women, cities",
+     "value": 26.6
+    }
+   ],
+   "k": "bars",
+   "note": "Youth means age 15 to 29. Source: MoSPI's monthly labour survey.",
+   "title": "Unemployment rate, September 2026"
+  },
+  {
+   "body": "Older workers usually already have jobs. Young people are entering the job market for the first time, often holding out for a job that matches their degree, so many are still searching.",
+   "k": "why",
+   "title": "why is it so much higher for young people?"
+  },
+  {
+   "body": "There is some good news in the same survey. The share of city women who are working or looking for work rose to 25.9%, its highest since October 2025. More women are joining the hunt.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "In villages, youth unemployment actually dipped slightly, to 13.2%. The squeeze is sharpest in cities, where most graduates go looking.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Not enough openings",
+    "Need experience first",
+    "Pay is too low",
+    "Degree doesn't match"
+   ],
+   "q": "What's hardest about finding a first job?"
+  },
+  {
+   "by": "mid-November (October PLFS data)",
+   "k": "predict",
+   "opts": [
+    "Yes, above 19%",
+    "No, 19% or lower"
+   ],
+   "q": "Will October's urban youth unemployment be above 19%?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "About 1 in 5 young city job seekers had no job",
+    "19% of all Indians are jobless",
+    "19% of students dropped out",
+    "Salaries fell by 19%"
+   ],
+   "q": "What does a 19% urban youth unemployment rate mean?",
+   "why": "The rate counts only people looking for work, so it means nearly one in five young city job seekers could not find one."
+  }
+ ],
+ "cat": "money",
+ "cover": {
+  "bg": [
+   "#1a1033",
+   "#ff5c7a"
+  ],
+  "big": "19%",
+  "label": "young city job seekers without work, Sept",
+  "motion": "rise",
+  "scene": [
+   "🎓",
+   "💼",
+   "🏙️"
+  ]
+ },
+ "date": "2026-10-21",
+ "heat": 4,
+ "hook": "Nearly *1 in 5* young job seekers in cities can't find work. Why?",
+ "lead": "india",
+ "learn": {
+  "t": "The unemployment rate only counts people actively looking for work. Among young urban women seeking jobs, 26.6% had none in September."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏢",
+    "label": "Slow hiring for freshers"
+   },
+   {
+    "icon": "📈",
+    "label": "More young people seeking jobs"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "👩‍🎓",
+    "label": "Young women: 26.6% jobless"
+   },
+   {
+    "icon": "⏳",
+    "label": "Longer wait for first job"
+   }
+  ],
+  "event": {
+   "icon": "📊",
+   "label": "Urban youth unemployment hits 19%"
+  }
+ },
+ "order": 2,
+ "readSecs": 70,
+ "sort": "2026-10-21-97",
+ "sources": [
+  {
+   "name": "The Tribune",
+   "title": "Urban youth unemployment rises to 19% in September, reaches 26.6% among young women",
+   "url": "https://www.tribuneindia.com/news/female-labour-force/urban-youth-unemployment-rises-to-19-in-september-reaches-26-6-among-young-women"
+  },
+  {
+   "name": "MoSPI",
+   "title": "Monthly press note, PLFS September 2026",
+   "url": "https://www.mospi.gov.in/uploads/latestReleases/latest_release_1792060004197_6c3ba64d-1853-4b3d-98fb-d750d5ec8a5d_Monthly_Press_note_PLFS_Sep_2026.pdf"
+  },
+  {
+   "name": "Nation Path India",
+   "title": "India unemployment rate at 5% in September 2026: PLFS data",
+   "url": "https://www.nationpathindia.com/economy/india-unemployment-rate-september-2026-plfs-female-employment"
+  }
+ ],
+ "thread": "india-jobs-data",
+ "tldr": "Government data shows 19% of young people in Indian cities who want a job could not find one in September.",
+ "topic": "Youth unemployment rate",
+ "watch": "October's job data from MoSPI is due around mid-November. Watch whether urban youth unemployment climbs past 19%."
+}

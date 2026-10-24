@@ -1,0 +1,94 @@
+{
+ "areas": [
+  "Porur",
+  "Tambaram",
+  "Pallavaram",
+  "Avadi",
+  "Perumbakkam",
+  "Mogappair"
+ ],
+ "beats": {
+  "care": "Working or studying from home? Charge laptops and power banks the night before, and plan a library or café backup.",
+  "what": "Tangedco listed planned shutdowns for Oct 13 and 14 across western, southern and north-western suburbs, from 9 am to 2 pm.",
+  "why": "Planned maintenance needs lines switched off so crews can work on them safely."
+ },
+ "cards": [
+  {
+   "body": "Tue: CIT Nagar, Porur (Mettha Nagar, Nandambakkam), Tiruverkadu, Perumbakkam, Tambaram (Chitlapakkam, Madambakkam, Perungalathur), Pallavaram (Vaishnav College Rd), Avadi. Wed: JJ Nagar (Mogappair Eri Scheme), Avadi (Kalaignar Nagar, Thirumullaivoyal).",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Each shutdown day, unless the work ends early.",
+   "caption": "9 am to 2 pm",
+   "k": "num",
+   "value": "5 hrs"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Café WFH",
+    "Power bank gang",
+    "Nap till 2 pm",
+    "Inverter at home"
+   ],
+   "q": "What's your power cut plan?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "They're planned maintenance, so people can plan around them",
+    "Power is being rationed",
+    "New meters are being tested",
+    "The monsoon has started"
+   ],
+   "q": "Why are these power cuts announced in advance?",
+   "why": "Planned shutdowns are scheduled for maintenance, so utilities publish the areas and timings early."
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "date": "2026-10-12",
+ "heat": 2,
+ "hook": "Is your area on Chennai's *power cut list* this week?",
+ "learn": {
+  "t": "Power can come back before 2 pm if the maintenance work finishes early."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔧",
+    "label": "Grid maintenance work"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💻",
+    "label": "WFH and classes hit"
+   },
+   {
+    "icon": "📱",
+    "label": "Charge devices early"
+   }
+  ],
+  "event": {
+   "icon": "🔌",
+   "label": "9 am–2 pm shutdowns"
+  }
+ },
+ "order": 66,
+ "readSecs": 35,
+ "sort": "2026-10-12-33",
+ "sources": [
+  {
+   "name": "DT Next",
+   "title": "Chennai power shutdown live updates: Check when electricity supply will be cut in your area",
+   "url": "https://www.dtnext.in/news/chennai/live-power-shutdown-chennai-electricity-updates-check-your-area-timings-details"
+  }
+ ],
+ "thread": "che-power",
+ "tldr": "Parts of Porur, Tambaram, Pallavaram, Avadi and Mogappair will lose power from 9 am to 2 pm on Oct 13 and 14 for maintenance.",
+ "topic": "Power shutdowns",
+ "watch": "Tuesday Oct 13 and Wednesday Oct 14, 9 am to 2 pm, in the listed areas."
+}

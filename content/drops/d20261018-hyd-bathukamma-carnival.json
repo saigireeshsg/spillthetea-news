@@ -1,0 +1,133 @@
+{
+ "areas": [
+  "Necklace Road",
+  "Khairatabad",
+  "Secunderabad",
+  "Kukatpally",
+  "HITEC City",
+  "Madhapur"
+ ],
+ "beats": {
+  "care": "Going? Use the parking spots and avoid driving onto Tank Bund. In Kukatpally, IDL Lake roads have curbs from 5 pm to 11 pm.",
+  "what": "HMDA holds a Bathukamma Carnival at Tank Bund from 6 pm today, with Oggu Katha and Perini dance shows, plus food and handloom stalls.",
+  "why": "It is Saddula Bathukamma, the festival's final day, when huge crowds gather at lakes across the city."
+ },
+ "cards": [
+  {
+   "body": "Traffic to Tank Bund from Telugu Thalli junction and Karbala Maidan is restricted. Iqbal Minar traffic goes via Telugu Thalli flyover, Indira Park and RTC X Roads. Parking is at Snow World, NTR Stadium, NTR Ghat, NTR Garden, HMDA Ground and Lumbini Park.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Traffic police say take Lucky Restaurant signal, KPHB 4th Phase and KPHB Road No. 1, or go via Rainbow Vista, Moosapet and Vasundhara Hospital to skip IDL Lake.",
+   "k": "why",
+   "title": "coming from hitec city to kukatpally?"
+  },
+  {
+   "body": "Against a normal of 627.5 mm, so a little rain tonight is welcome, but carry an umbrella.",
+   "caption": "Hyderabad's monsoon rain this year",
+   "k": "num",
+   "value": "458.5 mm"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Tank Bund carnival",
+    "My colony's lake",
+    "Watching reels at home",
+    "Out of town"
+   ],
+   "q": "Your Saddula Bathukamma plan?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Bathukamma's final day draws big crowds",
+    "A cricket match at Uppal",
+    "Metro construction",
+    "A VIP visit"
+   ],
+   "q": "Why are roads around Tank Bund diverted today?",
+   "why": "Saddula Bathukamma brings huge crowds to lakes, so police reroute traffic for safety."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "cover": {
+  "bg": [
+   "#3a0b3f",
+   "#ff8fab"
+  ],
+  "big": "6 PM",
+  "label": "Carnival starts at Tank Bund tonight",
+  "motion": "drift",
+  "scene": [
+   "🌼",
+   "🎶",
+   "🛕"
+  ]
+ },
+ "date": "2026-10-18",
+ "heat": 4,
+ "hook": "Heading to Tank Bund tonight? Here's the *Bathukamma route hack*",
+ "lead": "local",
+ "learn": {
+  "t": "Saddula Bathukamma is the grand final day of Telangana's nine-day flower festival, when the flower stacks are set afloat on water."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌼",
+    "label": "Saddula Bathukamma today"
+   },
+   {
+    "icon": "🏛️",
+    "label": "HMDA plans carnival"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚧",
+    "label": "Road diversions till 11 pm"
+   },
+   {
+    "icon": "🅿️",
+    "label": "Parking at NTR Stadium"
+   }
+  ],
+  "event": {
+   "icon": "🎉",
+   "label": "Carnival at Tank Bund, 6 pm"
+  }
+ },
+ "order": 4,
+ "readSecs": 50,
+ "sort": "2026-10-18-95",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "HMDA to organise Bathukamma Carnival at Tank Bund on Oct 18",
+   "url": "https://telanganatoday.com/hmda-to-organise-bathukamma-carnival-at-tank-bund-on-oct-18"
+  },
+  {
+   "name": "Siasat",
+   "title": "Traffic expected at Necklace Road, IDL Lake for Bathukamma",
+   "url": "https://www.siasat.com/traffic-expected-at-necklace-road-idl-lake-for-bathukamma-3560158/"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Traffic advisory issued for Bathukamma festivities in Kukatpally",
+   "url": "https://telanganatoday.com/traffic-advisory-issued-for-bathukamma-festivities-in-kukatpally"
+  },
+  {
+   "name": "Siasat",
+   "title": "Hyderabad may receive NE monsoon rains as IMD issues yellow alert",
+   "url": "https://www.siasat.com/hyderabad-may-receive-ne-monsoon-rains-as-imd-issues-yellow-alert-3559046/"
+  }
+ ],
+ "thread": "hyd-festivals",
+ "tldr": "HMDA hosts a Bathukamma Carnival at Tank Bund from 6 pm today, with road diversions around Tank Bund and IDL Lake, Kukatpally.",
+ "topic": "Bathukamma Carnival",
+ "watch": "Expect jams near Tank Bund and Necklace Road from 2 pm to 11 pm. IMD's light-rain yellow alert runs till 19 Oct."
+}

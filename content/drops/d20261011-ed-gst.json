@@ -1,0 +1,145 @@
+{
+ "beats": {
+  "care": "Small shops and online sellers, maybe your family's business, get money back faster and face less harassment.",
+  "what": "The GST Council made filing, refunds and credits easier for businesses. The Hindu's editorial calls it a job well done.",
+  "why": "GST was sold as a good and simple tax. Over the years it became full of paperwork, disputes and fear of officers."
+ },
+ "cards": [
+  {
+   "body": "On 8 Oct, the GST Council met without changing any tax rates. Instead it fixed how the tax is run: faster refunds, wider credit for business costs, auto-approved registrations, and no more arrest power for GST officers.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "The editorial says the meeting shows two shifts. The system now trusts taxpayers more, and worries less about squeezing out every rupee of revenue. It welcomes going after only proven cheats instead of treating every business as guilty.",
+   "k": "edit",
+   "kind": "Editorial · 10 Oct",
+   "paper": "The Hindu",
+   "title": "Delivery completed",
+   "verdict": "Bottom line: GST is finally moving back towards the simple tax it was promised to be."
+  },
+  {
+   "body": "It was 7 working days before. Faster refunds mean businesses aren't stuck waiting for their own money.",
+   "caption": "Time to approve 90% of low-risk refunds",
+   "k": "num",
+   "value": "3 days"
+  },
+  {
+   "body": "When a shop pays GST on the stuff it buys, it can subtract that from the GST it owes on sales. If that credit gets blocked, the business's cash gets stuck. The Council has now unblocked more of it, like credit on staff health insurance.",
+   "k": "why",
+   "title": "what is input tax credit?"
+  },
+  {
+   "body": "The Council also decided to discuss tax rates only once a year, at one fixed meeting, so businesses aren't surprised by sudden changes.",
+   "k": "twist"
+  },
+  {
+   "a": {
+    "body": "Yes. Honest businesses were being harassed. Target only proven cheats and compliance will actually rise.",
+    "label": "The Hindu's editorial says"
+   },
+   "b": {
+    "body": "Fake invoices and tax fraud are real problems. Softer enforcement could make cheating easier and cost the government revenue.",
+    "label": "Critics of looser rules worry"
+   },
+   "k": "sides",
+   "title": "Is trusting taxpayers smart?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, chase only proven cheats",
+    "No, strict checks keep people honest",
+    "Depends on the business size"
+   ],
+   "q": "Should tax officers trust businesses by default?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Trusting taxpayers more, not treating them as suspects",
+    "Raising GST rates on everything",
+    "Scrapping GST completely",
+    "Making only big companies pay"
+   ],
+   "q": "What big shift does The Hindu see in the GST reforms?",
+   "why": "The editorial's point is that the system now trusts honest businesses and goes after only proven non-compliance."
+  }
+ ],
+ "cat": "edit",
+ "cover": {
+  "bg": [
+   "#1a1433",
+   "#8f5bff"
+  ],
+  "big": "₹5 cr",
+  "label": "New bar for GST criminal cases (was ₹1 cr)",
+  "motion": "rise",
+  "scene": [
+   "🧾",
+   "🤝",
+   "🏪"
+  ]
+ },
+ "date": "2026-10-11",
+ "editorial": {
+  "paper": "The Hindu",
+  "title": "Delivery completed"
+ },
+ "featured": true,
+ "heat": 3,
+ "hook": "GST was meant to be simple. Did it just get *a little easier*?",
+ "map": {
+  "causes": [
+   {
+    "icon": "📚",
+    "label": "Complex GST paperwork"
+   },
+   {
+    "icon": "⏳",
+    "label": "Slow refunds, blocked credit"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⚡",
+    "label": "Refunds in 3 working days"
+   },
+   {
+    "icon": "🚫",
+    "label": "No arrest power for officers"
+   },
+   {
+    "icon": "🤝",
+    "label": "Hindu: trust over suspicion"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "GST Council eases tax rules"
+  }
+ },
+ "order": 1,
+ "readSecs": 75,
+ "sort": "2026-10-11-98",
+ "sources": [
+  {
+   "name": "Editorialwords (summary of The Hindu editorial)",
+   "title": "The Hindu Editorial: Delivery completed, Oct 10, 2026",
+   "url": "https://www.editorialwords.com/the-hindu-editorial-delivery-completed-oct-10-2026/"
+  },
+  {
+   "name": "Deccan Herald",
+   "title": "GST reforms: tax officers' arrest power scrapped, faster refund approved",
+   "url": "https://www.deccanherald.com/business/gst-reforms-tax-officers-arrest-power-scrapped-faster-refund-approved-4175523"
+  },
+  {
+   "name": "Upstox",
+   "title": "GST Council removes officers' arrest power, raises prosecution threshold to ₹5 crore",
+   "url": "https://upstox.com/news/business-news/latest-updates/gst-council-removes-officers-arrest-power-raises-prosecution-threshold-to-5-crore/article-201539/"
+  }
+ ],
+ "tldr": "The Hindu's editorial says the GST Council's latest reforms show the tax system finally trusting honest businesses instead of treating everyone as a suspect.",
+ "topic": "GST trust reforms"
+}

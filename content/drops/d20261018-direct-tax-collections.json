@@ -1,0 +1,113 @@
+{
+ "beats": {
+  "care": "Refunds rose 24%, so if you filed a return and are owed money, it's worth checking your refund status on the income tax portal.",
+  "what": "The Income Tax Department said net direct tax collections reached ₹13.38 lakh crore by 14 October, up from ₹11.82 lakh crore a year ago.",
+  "why": "Company tax grew about 21%, while the part made up mostly of personal income tax grew only about 6%."
+ },
+ "cards": [
+  {
+   "body": "Tax you pay straight to the government on what you earn, like income tax and company tax. GST is indirect, because shops collect it from you and pass it on.",
+   "k": "why",
+   "title": "what's 'direct' tax?"
+  },
+  {
+   "items": [
+    {
+     "display": "6.92",
+     "label": "Personal & other",
+     "value": 6.92
+    },
+    {
+     "display": "5.99",
+     "label": "Company tax",
+     "value": 5.99
+    },
+    {
+     "alt": true,
+     "display": "0.47",
+     "label": "Share trading tax",
+     "value": 0.47
+    }
+   ],
+   "k": "bars",
+   "title": "Net collections, 1 Apr–14 Oct (₹ lakh crore)"
+  },
+  {
+   "body": "Refunds to individuals and others jumped to ₹1.11 lakh crore from ₹66,550 crore, which is why personal tax growth looks slow.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, lower the rate",
+    "No, it's fair now",
+    "Tax the rich more"
+   ],
+   "q": "Should young earners pay less income tax?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Income tax",
+    "GST on a pizza",
+    "Petrol excise",
+    "Customs duty"
+   ],
+   "q": "Which of these is a direct tax?",
+   "why": "Income tax is paid by you straight to the government on what you earn."
+  }
+ ],
+ "cat": "money",
+ "concept": "tax",
+ "date": "2026-10-18",
+ "heat": 2,
+ "hook": "The govt collected *₹13.38 lakh crore* in direct tax. Who's paying more?",
+ "learn": {
+  "t": "Tax on share trading (STT) jumped about 52% to ₹46,840 crore, a sign of how much more Indians are trading stocks."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏢",
+    "label": "Company tax up about 21%"
+   },
+   {
+    "icon": "📈",
+    "label": "Share trading tax up 52%"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Refunds up 24%"
+   },
+   {
+    "icon": "🏛️",
+    "label": "More money for govt spending"
+   }
+  ],
+  "event": {
+   "icon": "🧾",
+   "label": "Net direct tax up 13.21%"
+  }
+ },
+ "order": 9,
+ "readSecs": 50,
+ "sort": "2026-10-18-90",
+ "sources": [
+  {
+   "name": "The Tribune (ANI)",
+   "title": "Net direct tax collections rise 13.21% to Rs 13.38 lakh crore so far in FY27",
+   "url": "https://www.tribuneindia.com/news/business/net-direct-tax-collections-rise-13-21-to-rs-13-38-lakh-crore-so-far-in-fy27"
+  },
+  {
+   "name": "CAclubindia",
+   "title": "Net Direct Tax Collections Rise 13.21% to Rs 13.38 Lakh Crore Till 14th Oct 2026",
+   "url": "https://www.caclubindia.com/news/net-direct-tax-collections-rise-13-21-to-rs-13-38-lakh-crore-till-14th-oct-2026-26875.asp"
+  }
+ ],
+ "tldr": "India's net direct tax collections rose 13.21% to ₹13.38 lakh crore between 1 April and 14 October.",
+ "topic": "Direct tax collections",
+ "watch": "The next advance tax instalment, for people and firms paying tax in advance, is due on 15 December."
+}

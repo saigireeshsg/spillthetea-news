@@ -1,0 +1,83 @@
+{
+ "beats": {
+  "care": "Enjoy the photos, but know it's a sick lake. Clearing it should bring back native birds, cleaner water and more room for rainwater.",
+  "what": "Beeramguda Cheruvu near Ameenpur has gone viral as a purple photo spot. The colour comes from water hyacinth flowers.",
+  "why": "Water hyacinth is an invasive weed. Its thick mat blocks sunlight and uses up the oxygen that fish and other water life need."
+ },
+ "cards": [
+  {
+   "body": "Social media called it 'the prettiest lake in Hyderabad'. Lowkey it's a warning sign: the purple carpet is an infestation, not a bloom. Civic bodies and HYDRAA are removing the weed to restore the lake's flow and full capacity.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "It's a plant from somewhere else that spreads fast in its new home with nothing to keep it in check. Water hyacinth loves lakes full of sewage and runoff, so a purple lake usually means a polluted one.",
+   "k": "why",
+   "title": "what makes a plant 'invasive'?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, tell people the truth",
+    "No, let people enjoy it",
+    "Just clean it up fast"
+   ],
+   "q": "Should viral 'pretty' pollution spots get info boards?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The weed blocks sunlight and drains oxygen",
+    "Purple water is poisonous to touch",
+    "It means the lake is too clean",
+    "The flowers attract snakes"
+   ],
+   "q": "Why is the purple lake bad news?",
+   "why": "A thick mat of water hyacinth starves the water of light and oxygen, which harms fish and the whole lake."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-10",
+ "heat": 2,
+ "hook": "Hyderabad's viral *purple lake* looks pretty. So why is it a problem?",
+ "map": {
+  "causes": [
+   {
+    "icon": "🌿",
+    "label": "Water hyacinth takes over"
+   },
+   {
+    "icon": "🌊",
+    "label": "Weed traps urban runoff"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🐟",
+    "label": "Less oxygen for water life"
+   },
+   {
+    "icon": "🚜",
+    "label": "HYDRAA clearing the weed"
+   }
+  ],
+  "event": {
+   "icon": "💜",
+   "label": "Lake turns purple, goes viral"
+  }
+ },
+ "order": 11,
+ "readSecs": 40,
+ "sort": "2026-10-10-88",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad's viral purple lake: Aesthetic or ecological warning?",
+   "url": "https://www.siasat.com/hyderabads-viral-purple-lake-aesthetic-or-ecological-warning-3554779/"
+  }
+ ],
+ "tldr": "Beeramguda Cheruvu near Ameenpur looks purple because of invasive water hyacinth, which harms the lake; civic bodies including HYDRAA are clearing it.",
+ "topic": "Purple lake weed"
+}

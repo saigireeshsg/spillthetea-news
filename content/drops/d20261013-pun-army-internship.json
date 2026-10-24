@@ -1,0 +1,89 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "A strong CV line for students. Eligibility differs by listing, so read each one carefully.",
+  "what": "Southern Command's internship, part of the Indian Army Internship Programme 2026-27, is in-person in Pune.",
+  "why": "Domains include AI, cybersecurity, data analytics, digital media, 3D printing and unmanned systems."
+ },
+ "cards": [
+  {
+   "body": "Up to Rs 30,000 a month, Punekar News reported.",
+   "caption": "Maximum stipend for 75 days",
+   "k": "num",
+   "value": "Rs 75,000"
+  },
+  {
+   "body": "It's a physical internship in Pune, not remote. Seats, deadlines and eligibility are listed separately for each vacancy on the portal.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "AI and ML",
+    "Cybersecurity",
+    "Drones",
+    "Digital media"
+   ],
+   "q": "Which domain would you pick?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "AICTE's National Internship Portal",
+    "At any Army camp gate",
+    "By email to the Army chief",
+    "Through a placement agent"
+   ],
+   "q": "Where do you apply for this internship?",
+   "why": "Applicants register on internship.aicte-india.org and apply to the Army listings there."
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "date": "2026-10-13",
+ "heat": 2,
+ "hook": "An *Army internship* in AI and drones, with pay? Yes, in Pune",
+ "learn": {
+  "t": "Interns get up to Rs 30,000 a month, capped at Rs 75,000, plus 15 academic credits."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪖",
+    "label": "Army needs tech skills"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💰",
+    "label": "Up to Rs 75,000"
+   },
+   {
+    "icon": "🎓",
+    "label": "15 academic credits"
+   }
+  ],
+  "event": {
+   "icon": "💻",
+   "label": "Paid internship in Pune"
+  }
+ },
+ "order": 57,
+ "readSecs": 35,
+ "sort": "2026-10-13-42",
+ "sources": [
+  {
+   "name": "Punekar News",
+   "title": "Indian Army Internship 2026: Southern Command Pune Offers Rs 75,000 Stipend, 15 Academic Credits",
+   "url": "https://www.punekarnews.in/indian-army-internship-2026-southern-command-pune-offers-rs-75000-stipend-15-academic-credits/"
+  }
+ ],
+ "thread": "pun-jobs",
+ "tldr": "The Army's Southern Command in Pune is offering paid internships in AI, cybersecurity and drones from November 16.",
+ "topic": "Army internship",
+ "watch": "The 75-day internship runs from November 16, 2026 to January 31, 2027; apply on AICTE's National Internship Portal."
+}

@@ -1,0 +1,107 @@
+{
+ "beats": {
+  "care": "In India you can't use a power bank to charge devices during a flight. Keep it in your hand bag, not the overhead bin.",
+  "what": "A power bank caught fire in an overhead bin on an IndiGo Delhi to Chennai flight on Sunday. It diverted and landed safely in Hyderabad.",
+  "why": "IndiGo said smoke came from a passenger's device and crew quickly brought it under control."
+ },
+ "cards": [
+  {
+   "body": "A passenger's video shows people pressing bags against flames in an overhead bin. Crew used an extinguisher. IndiGo said pilots diverted under safety rules, everyone was safe, and an alternate aircraft took passengers on to Chennai.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "They hold lithium batteries packed with energy. If damaged, cheap or overheated, they can short-circuit and burn fast. That's why they're banned from checked-in bags too.",
+   "k": "why",
+   "title": "why do power banks catch fire?"
+  },
+  {
+   "body": "Aviation regulator DGCA's rules from January already say power banks must not go in overhead bins, partly because smoke from inside a bag is spotted late.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, safety first",
+    "No, just enforce the rules",
+    "Only cheap unbranded ones"
+   ],
+   "q": "Should airlines check every power bank at the gate?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Their lithium batteries can catch fire",
+    "They jam the plane's radio",
+    "They make bags too heavy",
+    "They drain the plane's power"
+   ],
+   "q": "Why are power banks a worry on planes?",
+   "why": "A battery fire in a closed cabin is dangerous, so rules limit how power banks are carried and used."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "cover": {
+  "bg": [
+   "#2a1206",
+   "#ff6d00"
+  ],
+  "big": "6E6115",
+  "label": "IndiGo flight diverted to Hyderabad on Sunday",
+  "motion": "pulse",
+  "scene": [
+   "🔋",
+   "✈️",
+   "🧯"
+  ]
+ },
+ "date": "2026-10-12",
+ "heat": 3,
+ "hook": "A power bank caught fire *mid-flight*. Where's yours right now?",
+ "map": {
+  "causes": [
+   {
+    "icon": "🔋",
+    "label": "Power bank in overhead bin"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "✅",
+    "label": "All passengers, crew safe"
+   },
+   {
+    "icon": "🛫",
+    "label": "New plane to Chennai"
+   }
+  ],
+  "event": {
+   "icon": "✈️",
+   "label": "Flight diverted to Hyderabad"
+  }
+ },
+ "order": 8,
+ "readSecs": 45,
+ "sort": "2026-10-12-91",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Power bank sparks fire on IndiGo flight, diverted to Hyderabad",
+   "url": "https://www.siasat.com/power-bank-sparks-fire-on-indigo-flight-diverted-to-hyderabad-3555948/"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "IndiGo flight diverted to Hyderabad after smoke detected onboard",
+   "url": "https://telanganatoday.com/indigo-flight-diverted-to-hyderabad-after-smoke-detected-on-board"
+  },
+  {
+   "name": "Deccan Herald",
+   "title": "No charging power banks on flights: DGCA issues stricter safety norms",
+   "url": "https://www.deccanherald.com/amp/story/india%2Fno-charging-power-banks-on-flights-dgca-issues-stricter-safety-norms-3851979"
+  }
+ ],
+ "tldr": "A power bank fire on an IndiGo Delhi–Chennai flight forced a diversion to Hyderabad; everyone was safe.",
+ "topic": "Power banks on flights"
+}

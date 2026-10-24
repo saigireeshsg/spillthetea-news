@@ -1,0 +1,118 @@
+{
+ "beats": {
+  "care": "Tonight's match at 7 pm decides the trophy. India haven't lost a home T20 series since 2019, so that run is on the line.",
+  "what": "West Indies beat India by 24 runs at Uppal on Wednesday after scoring 247 for 3. That levelled the five-match series at two wins each.",
+  "why": "Captain Shai Hope hit an unbeaten 102 off 50 balls, and Keemo Paul took five wickets, three of them in one over."
+ },
+ "cards": [
+  {
+   "body": "India chased hard, with Sanju Samson top-scoring on 56, but finished 24 runs short.",
+   "caption": "West Indies' total at Uppal",
+   "k": "num",
+   "value": "247/3"
+  },
+  {
+   "body": "Showers are forecast in Bengaluru tonight. If rain cuts overs, the target gets reset using a formula, so wickets in hand matter as much as runs.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "In a five-match series, the team with more wins takes the trophy. At 2-2, the last game is winner takes all.",
+   "k": "why",
+   "title": "what's a series decider?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "India, comfortably",
+    "India, in a close one",
+    "West Indies",
+    "Rain spoils it"
+   ],
+   "q": "Who wins the Bengaluru decider?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The series was 2-2, so it decided the winner",
+    "India had already won the series",
+    "It was a Test match",
+    "West Indies were already out"
+   ],
+   "q": "Why did the fifth T20 in Bengaluru matter so much?",
+   "why": "With two wins each, whoever won the fifth match would take the series."
+  }
+ ],
+ "cat": "sport",
+ "cover": {
+  "bg": [
+   "#0d1b2a",
+   "#7b1fa2"
+  ],
+  "big": "2-2",
+  "label": "Series score before tonight's decider",
+  "motion": "pulse",
+  "scene": [
+   "🏏",
+   "🌧️",
+   "🏆"
+  ]
+ },
+ "date": "2026-10-17",
+ "heat": 5,
+ "hook": "Shai Hope's *50-ball 102* levelled it. Can India win the decider tonight?",
+ "learn": {
+  "t": "If West Indies win, it'll be India's first home T20 series loss since Australia beat them 2-0 in February 2019."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💯",
+    "label": "Hope's unbeaten 102 at Uppal"
+   },
+   {
+    "icon": "🎯",
+    "label": "Keemo Paul takes five wickets"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏟️",
+    "label": "Decider in Bengaluru tonight"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Rain could cut overs"
+   }
+  ],
+  "event": {
+   "icon": "🏏",
+   "label": "Series level at 2-2"
+  }
+ },
+ "order": 5,
+ "readSecs": 45,
+ "sort": "2026-10-17-94",
+ "sources": [
+  {
+   "name": "The Statesman",
+   "title": "India vs West Indies 5th T20I preview: India aim to protect home record as rain threatens Bengaluru clash",
+   "url": "https://www.thestatesman.com/sports/india-vs-west-indies-5th-t20i-preview-india-aim-to-protect-home-record-as-rain-threatens-bengaluru-clash-1503651844.html"
+  },
+  {
+   "name": "Asianet Newsable",
+   "title": "West Indies beat India by 24 runs in 4th T20 to level series",
+   "url": "https://newsable.asianetnews.com/sports/west-indies-beat-india-by-24-runs-in-4th-t20-to-level-series-articleshow-h61oxee"
+  },
+  {
+   "name": "ESPNcricinfo",
+   "title": "IND vs WI 5th T20I Match Preview",
+   "url": "https://www.cricinfo.com/series/west-indies-in-india-2026-27-1529215/india-vs-west-indies-5th-t20i-1529234/match-preview"
+  }
+ ],
+ "thread": "india-wi-t20",
+ "tldr": "After West Indies won at Uppal, the T20 series is level at 2-2, and tonight's match in Bengaluru decides it.",
+ "topic": "T20 series decider",
+ "watch": "Toss at 6:30 pm, first ball 7 pm IST at Chinnaswamy, Bengaluru. Showers are forecast, so overs could be cut."
+}

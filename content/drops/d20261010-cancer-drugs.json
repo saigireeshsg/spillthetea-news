@@ -1,0 +1,117 @@
+{
+ "beats": {
+  "care": "If someone in your family needs cancer treatment, the same medicine could cost far less. Families pay about three quarters of cancer costs themselves.",
+  "what": "The government capped what distributors and chemists can keep on many cancer medicines. Their share can be at most 30 percent of the MRP.",
+  "why": "Officials found the markup between the company's price and the MRP averaged about 170 percent, and sometimes reached 700 percent."
+ },
+ "cards": [
+  {
+   "body": "Many cancer medicines aren't price-controlled, so distributors and shops could add huge markups. The new rule caps their cut at 30% of the MRP, for branded and generic, Indian and imported drugs. An expert panel picks the final list; its report is due 14 Oct.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "That's the government's estimate; real savings depend on which drugs make the final list.",
+   "caption": "Estimated yearly savings for patients",
+   "k": "num",
+   "value": "₹2,500 cr"
+  },
+  {
+   "body": "It's the gap between what the drug company charges and the MRP you pay. Distributors, wholesalers and chemists share it. The company's own selling price doesn't change under this rule; only the middle chain's share gets squeezed. Makers must also keep production at current levels so supply doesn't dry up.",
+   "k": "why",
+   "title": "what's a trade margin?"
+  },
+  {
+   "body": "This has worked before. In 2019, a similar 30% cap on 42 cancer drugs cut prices of some brands by up to 91%.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, all of them",
+    "Only life-saving ones",
+    "No, let the market decide"
+   ],
+   "q": "Should India cap markups on all essential medicines, not just cancer drugs?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The share middlemen keep on top of the price",
+    "The drug company's factory price",
+    "How many cancer drugs can be sold",
+    "Imports of foreign cancer drugs"
+   ],
+   "q": "What does the new rule actually limit?",
+   "why": "The cap squeezes the markup added by distributors and shops, so prices can fall without the company cutting its own price."
+  }
+ ],
+ "cat": "india",
+ "cover": {
+  "bg": [
+   "#1a0b2e",
+   "#e0457b"
+  ],
+  "big": "70%",
+  "label": "Max price cut expected on some cancer drugs",
+  "motion": "fall",
+  "scene": [
+   "💊",
+   "📉",
+   "🏥"
+  ]
+ },
+ "date": "2026-10-10",
+ "heat": 4,
+ "hook": "Why could some cancer medicines get *up to 70% cheaper*?",
+ "lead": "india",
+ "map": {
+  "causes": [
+   {
+    "icon": "💸",
+    "label": "Markups average 170%"
+   },
+   {
+    "icon": "🧾",
+    "label": "Families pay most bills"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📉",
+    "label": "Prices may fall 20–70%"
+   },
+   {
+    "icon": "💰",
+    "label": "₹2,500 crore saved yearly"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "30% cap on trade margins"
+  }
+ },
+ "order": 1,
+ "readSecs": 60,
+ "sort": "2026-10-10-98",
+ "sources": [
+  {
+   "name": "Business Today",
+   "title": "Cancer drug prices may fall up to 70% as govt caps trade margins",
+   "url": "https://www.businesstoday.in/industry/pharma/story/cancer-drug-prices-may-fall-up-to-70-as-govt-caps-trade-margins-560700-2026-10-09"
+  },
+  {
+   "name": "The Tribune",
+   "title": "Centre to cap trade margins at 30% for non-scheduled anti-cancer drugs",
+   "url": "https://www.tribuneindia.com/news/india/centre-to-cap-trade-margins-at-30-for-non-scheduled-anti-cancer-drugs/"
+  },
+  {
+   "name": "Ananta IAS",
+   "title": "Current Affairs, 9 October 2026",
+   "url": "https://anantamias.com/current-affairs/9-october-2026/"
+  }
+ ],
+ "tldr": "The government will cap the share middlemen keep on many cancer medicines at 30% of the MRP, which could cut prices sharply.",
+ "topic": "Cancer drug prices"
+}

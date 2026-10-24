@@ -1,0 +1,119 @@
+{
+ "areas": [
+  "Pimpri-Chinchwad",
+  "Swargate",
+  "Shivajinagar"
+ ],
+ "beats": {
+  "care": "If you're from Vidarbha, Marathwada, Konkan or Kolhapur side, book a seat early on the MSRTC app or website.",
+  "what": "MSRTC's Pune division plans 400+ buses from Pimpri-Chinchwad and 200 from Swargate, plus specials from Shivajinagar, on Nov 4–7.",
+  "why": "Thousands of students and workers go home for Diwali, and train seats are nearly sold out."
+ },
+ "cards": [
+  {
+   "body": "40 to Vidarbha, 35 to Marathwada and 10 to western Maharashtra, NativePlanet reports.",
+   "caption": "Regular buses already full",
+   "k": "num",
+   "value": "85+"
+  },
+  {
+   "body": "Swargate's 200 extra buses go to Satara, Sangli, Kolhapur, Solapur and Konkan. Pimpri-Chinchwad depot is near the metro.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Khadki Cantonment was dropped as a boarding point because it was inconvenient for passengers.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, by bus",
+    "Yes, by train",
+    "Staying in Pune",
+    "Still deciding"
+   ],
+   "q": "Going home for Diwali?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Train seats are nearly full for the Diwali rush",
+    "Metro is shutting",
+    "Fuel got cheaper",
+    "Schools reopen"
+   ],
+   "q": "Why is MSRTC adding so many buses?",
+   "why": "Diwali travel demand is huge and train reservations are almost full."
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "cover": {
+  "bg": [
+   "#2b1300",
+   "#ff9f1c"
+  ],
+  "big": "600+",
+  "label": "Diwali special buses from Pune",
+  "motion": "drift",
+  "scene": [
+   "🚌",
+   "🪔",
+   "🏡"
+  ]
+ },
+ "date": "2026-10-14",
+ "heat": 4,
+ "hook": "Train tickets gone? *600 extra buses* leave Pune for Diwali.",
+ "lead": "local",
+ "learn": {
+  "t": "Over 400 of the special buses will leave from Pimpri-Chinchwad depot, mostly to Vidarbha, Marathwada and Khandesh."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Diwali home-going rush"
+   },
+   {
+    "icon": "🚆",
+    "label": "Trains nearly full"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📍",
+    "label": "Pimpri, Swargate departures"
+   },
+   {
+    "icon": "🎟️",
+    "label": "Book early online"
+   }
+  ],
+  "event": {
+   "icon": "🚌",
+   "label": "600+ MSRTC specials"
+  }
+ },
+ "order": 86,
+ "readSecs": 45,
+ "sort": "2026-10-14-13",
+ "sources": [
+  {
+   "name": "Punekar News",
+   "title": "MSRTC to Run Over 600 Special Buses From Pune For Diwali Rush",
+   "url": "https://www.punekarnews.in/msrtc-to-run-over-600-special-buses-from-pune-for-diwali-rush/"
+  },
+  {
+   "name": "NativePlanet",
+   "title": "Pune Special Buses: MSRTC has Planned to Operate More than 600 Buses from Nov 4 to 7",
+   "url": "https://www.nativeplanet.com/news/pune-special-buses-the-maharashtra-state-road-transport-corporation-has-planned-to-operate-more-th-024827.html"
+  }
+ ],
+ "thread": "pun-festival-travel",
+ "tldr": "MSRTC will run over 600 special buses from Pune from November 4 to 7 for people heading home for Diwali.",
+ "topic": "Diwali bus rush",
+ "watch": "Special buses run November 4–7; online booking on the MSRTC website and app."
+}

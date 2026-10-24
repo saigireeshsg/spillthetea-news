@@ -1,0 +1,111 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Bursting crackers on your street or footpath can break a court order. Use a permitted private space, prefer green crackers and respect time limits.",
+  "what": "On Oct 15, the Bombay High Court said its Sept 22 ban on bursting crackers on public roads now applies all year, for all festivals.",
+  "why": "The court is tracking noise and air pollution during festivals. It said the real problem is people not following the law."
+ },
+ "cards": [
+  {
+   "ans": 2,
+   "k": "quiz",
+   "opts": [
+    "Making firecrackers",
+    "Selling firecrackers",
+    "Bursting crackers on public roads and footpaths",
+    "All Diwali celebrations"
+   ],
+   "q": "What exactly did the High Court stop?",
+   "why": "The bench said it has not banned manufacture, sale or festivals in general, only bursting in public places."
+  },
+  {
+   "body": "The state, BMC and MPCB must set up an awareness plan within a week, with school sessions, announcements and boards in buses, stops and trains.",
+   "caption": "Deadline for an awareness drive",
+   "k": "num",
+   "value": "1 week"
+  },
+  {
+   "body": "Civic bodies, MPCB and police must set up ways to report violations, like special phone numbers or email IDs. A lawyer also suggested using the traffic police's complaint app.",
+   "k": "tea",
+   "title": "How will people complain?"
+  },
+  {
+   "body": "This started as a Ganesh festival order in September. The court has now stretched it to every festival, all year round.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, rules are rules",
+    "Only if it's very late",
+    "No, it's festival time",
+    "Depends on the noise"
+   ],
+   "q": "Would you report a neighbour bursting crackers on the road?"
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "cover": {
+  "bg": [
+   "#1a1030",
+   "#ff7a1a"
+  ],
+  "big": "365",
+  "label": "Days a year: no crackers on public roads",
+  "motion": "pulse",
+  "scene": [
+   "🎆",
+   "🚫",
+   "🛣️"
+  ]
+ },
+ "date": "2026-10-17",
+ "heat": 4,
+ "hook": "Can you still burst crackers *outside your building* this Diwali?",
+ "lead": "local",
+ "learn": {
+  "t": "The court did not ban making or selling crackers; it only stopped bursting them in public places like streets."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔊",
+    "label": "Festival noise pollution"
+   },
+   {
+    "icon": "🌫️",
+    "label": "Smoky festival air"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📢",
+    "label": "Ads in buses, trains"
+   },
+   {
+    "icon": "📞",
+    "label": "Helplines to report"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "HC extends road cracker ban"
+  }
+ },
+ "order": 87,
+ "readSecs": 50,
+ "sort": "2026-10-17-12",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Bombay HC Extends Year-Round Ban On Bursting Firecrackers On Public Roads, Streets And Footpaths",
+   "url": "https://www.freepressjournal.in/mumbai/bombay-hc-extends-year-round-ban-on-bursting-firecrackers-on-public-roads-streets-and-footpaths"
+  }
+ ],
+ "thread": "mum-air-quality",
+ "tldr": "The Bombay High Court says no one can burst firecrackers on Mumbai's roads, lanes or footpaths, on any festival, all year.",
+ "topic": "Firecracker road ban"
+}

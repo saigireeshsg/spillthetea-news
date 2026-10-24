@@ -1,0 +1,100 @@
+{
+ "areas": [
+  "Andheri West",
+  "Dahisar East",
+  "Mandale",
+  "Chembur"
+ ],
+ "beats": {
+  "care": "Heading home after garba tonight or tomorrow? Catch the metro by 12:30 am instead of a costly late cab.",
+  "what": "MMRDA's metro operator added 53 late trips: 10 on Line 2A, 15 on 2B, 14 each on Lines 7 and 9.",
+  "why": "Navratri events run late, and the metro wants to clear late-night crowds safely."
+ },
+ "cards": [
+  {
+   "body": "Spread across Lines 2A, 2B, 7 and 9, at about 15-minute gaps.",
+   "caption": "extra late-night trips",
+   "k": "num",
+   "value": "53"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Monsoon rain",
+    "Navratri crowds travel late",
+    "Track repairs",
+    "Exam season"
+   ],
+   "q": "Why extend metro hours this week?",
+   "why": "The extension is for Navratri, when many people travel home late."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Metro",
+    "Local train",
+    "Auto/cab",
+    "Friend's bike"
+   ],
+   "q": "How do you get home after garba?"
+  },
+  {
+   "body": "The extension started on October 16 and ends on October 20.",
+   "k": "twist"
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "date": "2026-10-19",
+ "heat": 3,
+ "hook": "Can you take the *metro home after garba*?",
+ "learn": {
+  "t": "Usually the last metro on these lines leaves around 11 pm; for Navratri it's 12:30 am."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💃",
+    "label": "Navratri garba nights"
+   },
+   {
+    "icon": "🌙",
+    "label": "Late crowds"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "➕",
+    "label": "53 extra trips"
+   },
+   {
+    "icon": "⏱️",
+    "label": "Trains every 15 min"
+   }
+  ],
+  "event": {
+   "icon": "🚇",
+   "label": "Metro till 12:30 am"
+  }
+ },
+ "order": 72,
+ "readSecs": 30,
+ "sort": "2026-10-19-27",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Mumbai Metro Extends Navratri Services Till 12.30 AM From October 16–20 On Lines 2A, 2B, 7 & 9",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-metro-extends-navratri-services-till-1230-am-from-october-1620-on-lines-2a-2b-7-9"
+  },
+  {
+   "name": "Nativeplanet",
+   "title": "Mumbai Metro to extend its operations until 12:30 a.m. until 20 October",
+   "url": "https://www.nativeplanet.com/news/mumbai-metro-maha-metro-to-extend-its-operations-until-12-30-a-m-until-20-october-to-handle-navra-024877.html"
+  }
+ ],
+ "thread": "mum-metro",
+ "tldr": "Metro Lines 2A, 2B, 7 and 9 run until 12:30 am through October 20 for Navratri, with 53 extra trips.",
+ "topic": "Late-night metro",
+ "watch": "October 20 is the last night of extended metro hours."
+}

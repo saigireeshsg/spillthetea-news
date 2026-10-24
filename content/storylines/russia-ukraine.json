@@ -1,0 +1,51 @@
+{
+ "emoji": "🌾",
+ "india": "Russia is now India's biggest source of crude oil. The Black Sea route carries grain and sunflower oil, and five Indian sailors have died in attacks on ships there this year.",
+ "lede": "Ukraine was part of the Soviet Union until 1991, then became independent. Russia sees Ukraine as part of its sphere and opposes its move towards the West. In 2014 Russia took Crimea, and in 2022 it launched a full invasion. Now both sides also attack each other's power plants, refineries and Black Sea shipping.",
+ "mins": 2,
+ "players": [
+  {
+   "name": "Russia",
+   "role": "President Vladimir Putin. Invaded Ukraine in 2022."
+  },
+  {
+   "name": "Ukraine",
+   "role": "President Volodymyr Zelenskyy. Fighting to defend its land."
+  },
+  {
+   "name": "USA",
+   "role": "President Trump. Pushing for a deal; eased curbs on Russian diesel."
+  },
+  {
+   "name": "Europe",
+   "role": "Backs Ukraine with money and weapons."
+  },
+  {
+   "name": "India",
+   "role": "Buys Russian oil. Proposed a 3-part truce on energy and shipping."
+  }
+ ],
+ "timeline": [
+  {
+   "what": "Russia takes Crimea from Ukraine. Fighting starts in eastern Ukraine.",
+   "when": "2014"
+  },
+  {
+   "what": "Russia launches a full-scale invasion of Ukraine. Fighting has gone on ever since.",
+   "when": "Feb 2022"
+  },
+  {
+   "what": "India sends Kyiv and Moscow a 3-part plan: no attacks on energy sites, free Black Sea trade, safe ships.",
+   "when": "Sep 2026"
+  },
+  {
+   "what": "The US lets Russian diesel back into world markets to ease a global fuel shortage. Zelenskyy calls it a gift to Putin.",
+   "when": "9 Oct 2026"
+  },
+  {
+   "what": "Trump announces an energy ceasefire. Zelenskyy says Ukraine wasn't told and Russian strikes continued.",
+   "when": "11 Oct 2026"
+  }
+ ],
+ "title": "Russia–Ukraine war, simply"
+}

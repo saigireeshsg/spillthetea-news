@@ -1,0 +1,114 @@
+{
+ "beats": {
+  "care": "If someone pays you to use your bank account or SIM, refuse. Account owners land in trouble too. A 19-year-old was arrested here.",
+  "what": "Hyderabad cybercrime police arrested two men who got about 70 students, delivery workers and others to hand over bank accounts and SIM cards.",
+  "why": "The accounts were sent to Haryana and used in over 450 frauds across India, police said."
+ },
+ "cards": [
+  {
+   "body": "DCP S. Chaitanya Kumar said a 39-year-old ex-cab driver and an accomplice collected passbooks, debit cards, net-banking logins and SIMs for a commission, and couriered them to Haryana. A 19-year-old opened three accounts for him. A third man is absconding.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "A bank account in an ordinary person's name that scammers use to receive and move stolen money. It hides the real crooks, so police reach the account owner first.",
+   "k": "why",
+   "title": "what's a mule account?"
+  },
+  {
+   "body": "The case started with a Facebook scam promising ₹45 lakh for an old one-rupee note. The victim lost about ₹7.9 lakh instead.",
+   "k": "twist"
+  },
+  {
+   "body": "Police say about 70 accounts were used in these cases across India.",
+   "caption": "Fraud cases linked to these accounts",
+   "k": "num",
+   "value": "450+"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Warn them it's a crime",
+    "Report it",
+    "Not my business"
+   ],
+   "q": "A friend says they 'rent out' their bank account for cash. What do you do?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "To move stolen money without it tracing back to them",
+    "To pay higher interest",
+    "To get free SIM cards",
+    "To help banks catch fraud"
+   ],
+   "q": "Why do scammers want other people's bank accounts?",
+   "why": "Mule accounts hide the real scammers, which is why the account owner ends up facing police."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "cover": {
+  "bg": [
+   "#1a0f24",
+   "#e040fb"
+  ],
+  "big": "70",
+  "label": "Bank accounts handed over to scammers",
+  "motion": "glitch",
+  "scene": [
+   "🏦",
+   "📱",
+   "🚨"
+  ]
+ },
+ "date": "2026-10-12",
+ "heat": 4,
+ "hook": "Students sold their bank accounts. *Here's where they ended up*",
+ "lead": "local",
+ "map": {
+  "causes": [
+   {
+    "icon": "💸",
+    "label": "Commission for your account"
+   },
+   {
+    "icon": "📱",
+    "label": "Accounts and SIMs collected"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📂",
+    "label": "450+ fraud cases linked"
+   },
+   {
+    "icon": "💰",
+    "label": "₹60–70 crore moved"
+   }
+  ],
+  "event": {
+   "icon": "🚨",
+   "label": "Two arrested in Ramanthapur"
+  }
+ },
+ "order": 4,
+ "readSecs": 55,
+ "sort": "2026-10-12-95",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad: 2 held for supplying 70 mule accounts to cybercriminals",
+   "url": "https://www.siasat.com/hyderabad-2-held-for-supplying-70-mule-accounts-to-cybercriminals-3556058/"
+  },
+  {
+   "name": "Deccan Chronicle",
+   "title": "Cybercrime Teams Arrest Two Over ₹70-Crore Fraud Network",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/cybercrime-teams-arrest-two-over-70-crore-fraud-network-1995005"
+  }
+ ],
+ "thread": "hyd-cyber-scams",
+ "tldr": "Hyderabad police arrested two men who collected about 70 bank accounts from students and delivery workers for scammers.",
+ "topic": "Mule account scams"
+}

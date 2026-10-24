@@ -1,0 +1,43 @@
+{
+ "city": "Hyderabad",
+ "date": "2026-10-13",
+ "items": [
+  {
+   "area": "Uppal",
+   "icon": "🏏",
+   "src": "Deccan Chronicle",
+   "text": "India vs WI T20 Wed 7 pm: take metro to Uppal/Stadium, reach by 5:30; heavy vehicles diverted"
+  },
+  {
+   "area": "Citywide",
+   "icon": "💧",
+   "src": "Telangana Today",
+   "text": "Singur dam low: water board cuts IIT-H, BHEL, ODF, BDL supply 20–50%. Fix leaks, store water"
+  },
+  {
+   "area": "Citywide",
+   "icon": "📵",
+   "src": "Hyderabad Police (CP Sajjanar)",
+   "text": "Fake 'debited, reply NO' WhatsApps: don't reply. Block, check bank app; lost money? Call 1930"
+  },
+  {
+   "area": "Citywide",
+   "icon": "🏚️",
+   "src": "HYDRAA via Telangana Today",
+   "text": "HYDRAA: hostels in unsafe buildings must shift by 31 Dec. Never pay anyone claiming to be HYDRAA"
+  },
+  {
+   "area": "Jubilee Hills",
+   "icon": "🛣️",
+   "src": "Telangana Today",
+   "text": "KBR Park underpasses dropped for a 4.3 km elevated corridor; one-way loop stays for now"
+  },
+  {
+   "area": "Secunderabad",
+   "icon": "🚆",
+   "src": "Siasat",
+   "text": "Diwali flights to Patna near ₹22,000; SCR runs ~600 special trains. Check berths before booking"
+  }
+ ],
+ "kind": "area"
+}

@@ -1,0 +1,119 @@
+{
+ "beats": {
+  "care": "If family or friends live in Saudi Arabia, India's embassy asks them to stay indoors. Its free helpline is 800 247 1234.",
+  "what": "Houthi rebels from Yemen fired a missile at Riyadh's main airport on 8 October. Saudi officials say three people were killed, including a pilot.",
+  "why": "The Houthis call it revenge for Saudi strikes on Yemen's airports. Their war flared again after the US and Israel attacked Iran."
+ },
+ "cards": [
+  {
+   "body": "Saudi aviation officials say the 8 Oct strike on King Khalid Airport killed a Saudia pilot and two other Saudi citizens, and wounded dozens. Earlier attacks hit Abha, Jazan and Najran airports. The Houthis warned airlines to avoid Saudi airspace. Riyadh airport has since reopened.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Run by the embassy's Pravasi Bharatiya Sahayata Kendra; updates are also posted on X at @IndianEmbRiyadh.",
+   "caption": "Free 24x7 helpline for Indians in Saudi Arabia",
+   "k": "num",
+   "value": "8002471234"
+  },
+  {
+   "body": "An armed group that controls much of northern Yemen, including the capital Sanaa. Iran backs them. A Saudi-led coalition has fought them since 2015. That war was mostly frozen for years, then reignited after the US and Israel's war on Iran.",
+   "k": "why",
+   "title": "who are the houthis?"
+  },
+  {
+   "body": "India's foreign ministry condemned the attacks on Abha and Riyadh airports, calling the targeting of civilian sites 'completely unacceptable'. Air India cancelled Riyadh flights until 10 Oct, and Akasa and Saudia flights from Kochi to Riyadh were cancelled.",
+   "k": "why",
+   "title": "where does india stand?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Have evacuation plans ready",
+    "Push harder for a ceasefire",
+    "Keep flights running safely"
+   ],
+   "q": "What should India focus on for its citizens in the Gulf right now?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "They call it revenge for Saudi strikes on Yemen's airports",
+    "Saudi Arabia raised oil prices",
+    "To protest a new Saudi visa rule",
+    "Saudi Arabia left OPEC"
+   ],
+   "q": "Why are the Houthis attacking Saudi airports?",
+   "why": "The Houthis frame it as tit-for-tat after Saudi-led strikes on Yemen's airports, in a war that flared again after the Iran conflict."
+  }
+ ],
+ "cat": "world",
+ "cover": {
+  "bg": [
+   "#1a1410",
+   "#c8762b"
+  ],
+  "big": "Riyadh",
+  "label": "Its airport was hit by a missile on 8 Oct",
+  "motion": "drift",
+  "scene": [
+   "✈️",
+   "⚠️",
+   "📍"
+  ]
+ },
+ "date": "2026-10-10",
+ "heat": 4,
+ "hook": "Why are missiles hitting *Saudi airports*, and what about Indians there?",
+ "lead": "world",
+ "map": {
+  "causes": [
+   {
+    "icon": "🏛️",
+    "label": "Saudi strikes on Yemen airports"
+   },
+   {
+    "icon": "🌍",
+    "label": "Iran war reignites Yemen"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🛫",
+    "label": "Air India cancels Riyadh flights"
+   },
+   {
+    "icon": "🏠",
+    "label": "Indians told: stay indoors"
+   }
+  ],
+  "event": {
+   "icon": "📍",
+   "label": "Houthi missiles hit Saudi airports"
+  }
+ },
+ "order": 3,
+ "readSecs": 70,
+ "sort": "2026-10-10-96",
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Houthi attack on Riyadh airport killed three Saudi nationals",
+   "url": "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three"
+  },
+  {
+   "name": "The Week",
+   "title": "Indian embassy in Saudi asks citizens to stay indoors amid airport attacks; 2 flights from Kochi cancelled",
+   "url": "https://www.theweek.in/news/middle-east/2026/10/08/indian-embassy-advisory-saudi-arabia.html"
+  },
+  {
+   "name": "The Tribune",
+   "title": "Indian Embassy in Riyadh advises nationals to 'stay indoors' after Houthi attacks on Saudi airports",
+   "url": "https://www.tribuneindia.com/news/world/indian-embassy-in-riyadh-advises-nationals-to-stay-indoors-after-houthi-attacks-on-saudi-airports"
+  }
+ ],
+ "storyline": "west-asia",
+ "tldr": "Yemen's Houthi rebels have fired missiles at Saudi airports, killing civilians, and India has asked its citizens in Saudi Arabia to stay indoors.",
+ "topic": "Saudi airport attacks"
+}

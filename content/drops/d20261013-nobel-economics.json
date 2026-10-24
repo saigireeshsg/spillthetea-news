@@ -1,0 +1,109 @@
+{
+ "beats": {
+  "care": "When RBI hikes rates or hints at future moves, it's using ideas like these. They shape your loan EMIs and how fast prices rise.",
+  "what": "Robert Hall of Stanford and Michael Woodford of Columbia won the 2026 economics Nobel, announced in Stockholm on Monday.",
+  "why": "Their models explain how households and businesses react to expected income, prices and interest rates. Central banks use them to fight inflation and slumps."
+ },
+ "cards": [
+  {
+   "body": "In 1982, Hall and Fredric Mishkin found about 80% of households plan spending around expected future income; the rest live hand to mouth, spending what they earn now. Woodford's 2003 'New Keynesian' model is one many central banks rely on.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "It's when a central bank says publicly what it plans to do next. If people believe it, they adjust prices and spending early, so the policy works faster.",
+   "k": "why",
+   "title": "what is forward guidance?"
+  },
+  {
+   "body": "The new US Federal Reserve chair, Kevin Warsh, says forward guidance has gone too far and wants the Fed to talk less about its thinking.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, fewer surprises",
+    "No, keep markets guessing",
+    "Hints only, no promises"
+   ],
+   "q": "Should RBI tell us its next move in advance?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Expectations about the future shape what people do today",
+    "Gold should back every currency",
+    "Taxes should be zero",
+    "Stock markets always rise"
+   ],
+   "q": "What big idea links the two winners?",
+   "why": "Both showed that people and firms act on what they expect next, which is why central banks speak so carefully."
+  }
+ ],
+ "cat": "world",
+ "cover": {
+  "bg": [
+   "#1b1606",
+   "#d4af37"
+  ],
+  "big": "$1.2M",
+  "label": "Prize money (12 million Swedish kronor)",
+  "motion": "drift",
+  "scene": [
+   "🏅",
+   "🏦",
+   "📊"
+  ]
+ },
+ "date": "2026-10-13",
+ "heat": 3,
+ "hook": "Why does RBI *explain* its moves? This year's economics Nobel is why",
+ "learn": {
+  "t": "Woodford showed that what people expect about future interest rates shapes prices today, which is why central banks explain their plans."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛒",
+    "label": "Spending follows expected income"
+   },
+   {
+    "icon": "🏷️",
+    "label": "Prices follow expected rates"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🏦",
+    "label": "Central banks use their models"
+   },
+   {
+    "icon": "📢",
+    "label": "Forward guidance becomes normal"
+   }
+  ],
+  "event": {
+   "icon": "🏅",
+   "label": "Hall and Woodford win Nobel"
+  }
+ },
+ "order": 7,
+ "readSecs": 55,
+ "sort": "2026-10-13-92",
+ "sources": [
+  {
+   "name": "Fortune",
+   "title": "The economics Nobel went to the scholar whose work shaped Fed 'forward guidance'",
+   "url": "https://fortune.com/2026/10/12/nobel-economics-2026-robert-hall-michael-woodford/"
+  },
+  {
+   "name": "Business Standard",
+   "title": "Nobel Economics Prize 2026: How Hall and Woodford changed policymaking",
+   "url": "https://www.business-standard.com/economy/news/nobel-economics-prize-2026-how-hall-and-woodford-changed-policymaking-126101200923_1.html"
+  }
+ ],
+ "tldr": "Robert Hall and Michael Woodford won the economics Nobel for models that central banks use to steady prices and jobs.",
+ "topic": "Economics Nobel 2026",
+ "watch": "The winners receive the prize in Stockholm on 10 December."
+}

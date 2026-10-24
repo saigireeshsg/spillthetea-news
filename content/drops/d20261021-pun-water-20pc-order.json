@@ -1,0 +1,122 @@
+{
+ "areas": [
+  "Citywide",
+  "Pimpri-Chinchwad"
+ ],
+ "beats": {
+  "care": "In a PG, hostel or society? Expect tighter supply in coming months. Store some water and report leaks.",
+  "what": "The water resources department told 38 users, including PMC, PCMC, industries, colleges and housing societies, to cut water use by 20%.",
+  "why": "Dams hold less than last year and drought is declared in 10 Pune talukas. Drinking water must last till next monsoon."
+ },
+ "cards": [
+  {
+   "body": "That's nearly 12% less than the same time last year, the water department said.",
+   "caption": "water in the Khadakwasla dam chain",
+   "k": "num",
+   "value": "25 TMC"
+  },
+  {
+   "body": "PMC and PCMC, industrial areas, 11 gram panchayats, educational institutions, factories and housing complexes. Anyone who doesn't comply will be reported to the collector.",
+   "k": "tea",
+   "title": "Who's on the list"
+  },
+  {
+   "body": "Illegal pumps can be seized, and power connections cut, where water theft is found.",
+   "k": "twist"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Industries",
+    "Drinking water",
+    "Gardens and pools",
+    "Construction"
+   ],
+   "q": "If water runs short, what gets first priority?",
+   "why": "Officials say drinking water comes first, then irrigation and other needs."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Shorter showers",
+    "Bucket, not shower",
+    "Storing in drums",
+    "Not yet, honestly"
+   ],
+   "q": "How are you saving water?"
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "cover": {
+  "bg": [
+   "#0d1f2d",
+   "#2fa4e7"
+  ],
+  "big": "20%",
+  "label": "Cut ordered for PMC, PCMC and 36 others",
+  "motion": "fall",
+  "scene": [
+   "💧",
+   "🚰",
+   "🏜️"
+  ]
+ },
+ "date": "2026-10-21",
+ "heat": 4,
+ "hook": "Why are Pune's *civic bodies told to use less water*?",
+ "lead": "local",
+ "learn": {
+  "t": "The Khadakwasla dam chain holds about 25 TMC, nearly 12% less than this time last year."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏜️",
+    "label": "Drought in many talukas"
+   },
+   {
+    "icon": "💧",
+    "label": "Lower dam stock"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚰",
+    "label": "Tighter city supply ahead"
+   },
+   {
+    "icon": "🔌",
+    "label": "Power cut for water theft"
+   },
+   {
+    "icon": "♻️",
+    "label": "Treated sewage for gardens"
+   }
+  ],
+  "event": {
+   "icon": "📉",
+   "label": "20% cut for 38 users"
+  }
+ },
+ "order": 86,
+ "readSecs": 50,
+ "sort": "2026-10-21-13",
+ "sources": [
+  {
+   "name": "Punekar News",
+   "title": "Drought Fears: 38 Establishments in Pune District Told to Cut Water Use by 20%",
+   "url": "https://www.punekarnews.in/drought-fears-38-establishments-in-pune-district-told-to-cut-water-use-by-20/"
+  },
+  {
+   "name": "ThePrint (PTI)",
+   "title": "Drought in Maharashtra: Pune district administration to cut Khadakwasla water use by 20 pc",
+   "url": "https://theprint.in/india/drought-in-maharashtra-pune-district-administration-to-cut-khadakwasla-water-use-by-20-pc/3073180/"
+  }
+ ],
+ "thread": "pun-water",
+ "tldr": "The state water department has told 38 users of Khadakwasla water, including PMC and PCMC, to cut their use by 20% amid drought fears.",
+ "topic": "20% water cut order",
+ "watch": "Watch for PMC's call on whether Pune gets a second no-water day each week."
+}

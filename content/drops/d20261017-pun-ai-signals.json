@@ -1,0 +1,93 @@
+{
+ "areas": [
+  "Moshi",
+  "Pimpri-Chinchwad"
+ ],
+ "beats": {
+  "care": "If you ride the Pune–Nashik highway to Chakan or Bhosari daily, your wait at these two junctions could change soon.",
+  "what": "PCMC will fit an adaptive, AI-based signal system at Moshi Gaothan and Bharatmata junctions, then trial it for seven days.",
+  "why": "The city has listed 26 jam hotspots, and these signals change timing based on actual traffic instead of a fixed clock."
+ },
+ "cards": [
+  {
+   "body": "They include Nashik Phata, Bhujbal Chowk, Dange Chowk and Dapodi Metro station.",
+   "caption": "Jam hotspots listed by PCMC",
+   "k": "num",
+   "value": "26"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "It only works at night",
+    "It changes green time based on live traffic",
+    "It fines drivers automatically",
+    "It is solar powered"
+   ],
+   "q": "What makes an 'adaptive' traffic signal different?",
+   "why": "Adaptive systems adjust signal timing to the traffic actually waiting, not a fixed timer."
+  },
+  {
+   "body": "PCMC has 154 signal-controlled junctions, but only two are getting the AI trial first.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Nashik Phata",
+    "Bhujbal Chowk",
+    "Dange Chowk",
+    "Moshi, obviously"
+   ],
+   "q": "Worst PCMC jam spot?"
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "date": "2026-10-17",
+ "heat": 2,
+ "hook": "Can *a smart signal* finally fix the Moshi jam on your commute?",
+ "learn": {
+  "t": "Pimpri-Chinchwad has over 30 lakh registered vehicles, roughly one for every resident."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚗",
+    "label": "Over 30 lakh vehicles"
+   },
+   {
+    "icon": "🚦",
+    "label": "Fixed-time signals"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⏱️",
+    "label": "Signal timing adjusts live"
+   },
+   {
+    "icon": "🛣️",
+    "label": "More junctions if it works"
+   }
+  ],
+  "event": {
+   "icon": "🤖",
+   "label": "AI signals tested at Moshi"
+  }
+ },
+ "order": 52,
+ "readSecs": 35,
+ "sort": "2026-10-17-47",
+ "sources": [
+  {
+   "name": "Punekar News",
+   "title": "Pune: PCMC to Test AI-Powered Traffic Signals at Two Moshi Junctions",
+   "url": "https://www.punekarnews.in/pune-pcmc-to-test-ai-powered-traffic-signals-at-two-moshi-junctions/"
+  }
+ ],
+ "thread": "pun-traffic",
+ "tldr": "PCMC will try AI-powered traffic signals at two Moshi junctions on the Pune–Nashik highway.",
+ "topic": "AI traffic signals",
+ "watch": "PCMC says the system will be installed within 15 days, followed by a seven-day trial."
+}

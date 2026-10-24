@@ -1,0 +1,138 @@
+{
+ "beats": {
+  "care": "She has Indian Tamil roots, and this is a near-certain GK question in your next exam.",
+  "what": "The 2026 Nobel Peace Prize went to Navi Pillay, a South African judge and former UN human rights chief.",
+  "why": "She spent decades making sure war crimes get punished through international courts."
+ },
+ "cards": [
+  {
+   "body": "On Friday in Oslo, the Norwegian Nobel Committee gave the 2026 Peace Prize to Navi Pillay. She's a South African lawyer and judge who spent decades making sure war crimes actually get punished. The committee said she pushed peace through international law.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "That's 208 people and 79 organisations. Only one name won.",
+   "caption": "candidates nominated this year",
+   "k": "num",
+   "value": "287"
+  },
+  {
+   "body": "Big crimes in wars, like genocide (trying to wipe out a whole group of people), often go unpunished. Pillay worked as a judge at international courts that put people on trial for them. The idea: if leaders know they can be punished, they think twice.",
+   "k": "why",
+   "title": "why does a judge get a peace prize?"
+  },
+  {
+   "body": "Lowkey a desi W: Pillay is of Indian Tamil origin. Her family's roots go back to India, even though she was born and built her career in South Africa. Also, this is a guaranteed GK question in your next competitive exam.",
+   "k": "you",
+   "title": ""
+  },
+  {
+   "body": "The committee couldn't reach her before announcing it. The chair said live on stage that if she saw a Norwegian number calling, she should \"please pick up.\"",
+   "k": "twist"
+  },
+  {
+   "a": {
+    "body": "The committee says international law is now an \"absolute necessity\" for peace. Trials make it harder for leaders to commit war crimes and walk away.",
+    "label": "Supporters say"
+   },
+   "b": {
+    "body": "Critics often point out that big powers can ignore these courts, and trials come years after the damage is done.",
+    "label": "Sceptics say"
+   },
+   "k": "sides",
+   "note": "US President Trump has repeatedly said he deserves this prize.",
+   "title": "Do international courts actually stop wars?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "The tribunal for Rwanda",
+    "The Supreme Court of India",
+    "FIFA's disciplinary panel",
+    "The UK High Court"
+   ],
+   "q": "Which of these did Pillay serve on as a judge?",
+   "why": "She was a judge at the international tribunal for Rwanda, and later at the International Criminal Court."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "End wars, obviously",
+    "Punish war crimes, that's how you stop the next one",
+    "Both matter equally"
+   ],
+   "q": "Should the Peace Prize go to people who end wars, or people who punish war crimes?"
+  }
+ ],
+ "cat": "world",
+ "cover": {
+  "bg": [
+   "#0d2a20",
+   "#2e9e48"
+  ],
+  "big": "2026",
+  "label": "Nobel Peace Prize · Navi Pillay",
+  "motion": "drift",
+  "scene": [
+   "🕊️",
+   "⚖️",
+   "🏅"
+  ]
+ },
+ "date": "2026-10-09",
+ "heat": 4,
+ "hook": "Who just won the Nobel Peace Prize? (Spoiler: *not Trump*)",
+ "map": {
+  "causes": [
+   {
+    "icon": "⚖️",
+    "label": "Judge at war-crimes courts"
+   },
+   {
+    "icon": "🇺🇳",
+    "label": "Ex-UN human rights chief"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📜",
+    "label": "Spotlight on global law"
+   },
+   {
+    "icon": "🇮🇳",
+    "label": "Indian-origin roots"
+   },
+   {
+    "icon": "🙅",
+    "label": "Not Trump, who wanted it"
+   }
+  ],
+  "event": {
+   "icon": "🕊️",
+   "label": "Navi Pillay wins Peace Prize"
+  }
+ },
+ "order": 8,
+ "readSecs": 70,
+ "sort": "2026-10-09-91",
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "2026 Nobel Peace Prize awarded to Navi Pillay",
+   "url": "https://www.aljazeera.com/news/2026/10/9/2026-nobel-peace-prize-awarded-to-navi-pillay"
+  },
+  {
+   "name": "CBS News",
+   "title": "Nobel Peace Prize 2026 awarded to Navanethem \"Navi\" Pillay",
+   "url": "https://www.cbsnews.com/news/nobel-peace-prize-2026-navanethem-navi-pillay-south-africa/"
+  },
+  {
+   "name": "Wikipedia",
+   "title": "Navi Pillay",
+   "url": "https://en.wikipedia.org/wiki/Navi_Pillay"
+  }
+ ],
+ "tldr": "The 2026 Nobel Peace Prize went to Navi Pillay, an 85-year-old South African judge and former UN human rights chief.",
+ "topic": "Peace Nobel"
+}

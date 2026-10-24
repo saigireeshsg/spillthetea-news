@@ -1,0 +1,147 @@
+{
+ "beats": {
+  "care": "A weaker rupee makes imported things cost more, from petrol and phones to studying abroad. RBI is trying to slow that slide.",
+  "what": "From today, RBI will sell dollars directly to Indian Oil, HPCL and BPCL, covering all their daily dollar needs.",
+  "why": "The rupee closed at 96.71 to the dollar on Friday. Oil companies buying huge amounts of dollars in the market pushes it lower."
+ },
+ "cards": [
+  {
+   "body": "The rupee opened at 95.75 on Monday, up 98 paise from Friday, and stayed near 95.80. One analyst calls it a near-term positive, but crude above $100 and foreign investors pulling money out still weigh on it.",
+   "k": "tea",
+   "title": "🆕 Evening update"
+  },
+  {
+   "body": "Oil companies pay for crude in dollars, roughly $300 million a day per The Hindu. Normally they buy those dollars from the market, which drags the rupee down. Now RBI will sell to them through chosen banks, starting 12 October, until further notice.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "RBI cut the amount firms can hedge without showing a real need from $100 million to $5 million, to curb betting against the rupee.",
+   "caption": "New limit for hedging without proof",
+   "k": "num",
+   "value": "$5M"
+  },
+  {
+   "body": "India imports most of its oil and lots of electronics. When one dollar costs more rupees, all of those cost more too. That feeds inflation, which is why RBI raised interest rates last week.",
+   "k": "why",
+   "title": "why does a weak rupee hurt you?"
+  },
+  {
+   "body": "This isn't new. RBI opened a similar special dollar window for oil companies in August 2013, during an earlier rupee crash.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, a falling rupee hurts everyone",
+    "No, let the market decide",
+    "Only for essentials like oil"
+   ],
+   "q": "Should RBI spend India's dollar savings to defend the rupee?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "So their big dollar buying doesn't push the rupee down further",
+    "To make petrol free",
+    "Because oil companies ran out of rupees",
+    "To stop India importing oil"
+   ],
+   "q": "Why is RBI selling dollars directly to oil companies?",
+   "why": "Taking the oil firms' huge dollar demand out of the market eases pressure on the rupee."
+  },
+  {
+   "by": "30 Oct",
+   "k": "predict",
+   "opts": [
+    "Yes, above ₹97",
+    "No, ₹97 or less"
+   ],
+   "q": "On 30 Oct, will one dollar cost more than ₹97?"
+  }
+ ],
+ "cat": "money",
+ "cover": {
+  "bg": [
+   "#0d1b2a",
+   "#ff8c00"
+  ],
+  "big": "₹96.71",
+  "label": "Rupees for one US dollar (Friday close)",
+  "motion": "fall",
+  "scene": [
+   "💱",
+   "🛢️",
+   "🏦"
+  ]
+ },
+ "date": "2026-10-12",
+ "heat": 4,
+ "hook": "Why is RBI handing dollars *straight to oil companies*?",
+ "lead": "india",
+ "map": {
+  "causes": [
+   {
+    "icon": "🛢️",
+    "label": "Costly oil imports"
+   },
+   {
+    "icon": "📉",
+    "label": "Rupee at 96.71 per dollar"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⛽",
+    "label": "IOC, HPCL, BPCL fully covered"
+   },
+   {
+    "icon": "💱",
+    "label": "Aim: less pressure on rupee"
+   }
+  ],
+  "event": {
+   "icon": "🏦",
+   "label": "RBI sells dollars to oil firms"
+  }
+ },
+ "order": 1,
+ "readSecs": 60,
+ "sort": "2026-10-12-98",
+ "sources": [
+  {
+   "name": "Business Today",
+   "title": "RBI opens special dollar window for three state run oil companies from October 12",
+   "url": "https://www.businesstoday.in/latest/corporate/story/rbi-opens-special-dollar-window-for-three-state-run-oil-companies-from-october-12-560786-2026-10-10"
+  },
+  {
+   "name": "The Tribune",
+   "title": "RBI launches dedicated dollar facility for oil marketing companies to mitigate rupee decline",
+   "url": "https://www.tribuneindia.com/news/business/rbi-launches-dedicated-dollar-facility-for-oil-marketing-companies-to-mitigate-rupee-decline/amp/?utm=relatedarticles"
+  },
+  {
+   "name": "Legacy IAS (summary of The Hindu)",
+   "title": "The Hindu UPSC News Analysis For 11 October 2026",
+   "url": "https://www.legacyias.com/the-hindu-upsc-news-analysis-for-11-october-2026/"
+  },
+  {
+   "name": "Business Standard",
+   "title": "RBI opens special window for forex purchase by oil companies (2013)",
+   "url": "https://www.business-standard.com/article/pti-stories/rbi-opens-special-window-for-forex-purchase-by-oil-companies-113082801060_1.html"
+  },
+  {
+   "name": "The Tribune / ANI",
+   "title": "RBI's dollar window for oil firms lifts rupee nearly 1%, experts see near-term support",
+   "url": "https://www.tribuneindia.com/news/business/rbis-dollar-window-for-oil-firms-lifts-rupee-nearly-1-experts-see-near-term-support"
+  },
+  {
+   "name": "India TV",
+   "title": "Sensex, Nifty open in green as rupee surges 98 paise",
+   "url": "https://www.indiatvnews.com/business/markets/12-october-2026-stock-market-updates-sensex-nifty-open-in-green-as-rupee-surges-98-paise-gift-nifty-today-usd-inr-2026-10-12-1056717"
+  }
+ ],
+ "storyline": "rbi-inflation",
+ "tldr": "On day one of RBI's dollar window for oil firms, the rupee jumped nearly 1% to about 95.8 per dollar.",
+ "topic": "RBI dollar window"
+}

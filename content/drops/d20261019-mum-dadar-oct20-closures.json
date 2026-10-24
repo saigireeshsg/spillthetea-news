@@ -1,0 +1,95 @@
+{
+ "areas": [
+  "Dadar",
+  "Mahim",
+  "Shivaji Park",
+  "Prabhadevi"
+ ],
+ "beats": {
+  "care": "Commuting via Dadar on Tuesday? Use S K Bole Road, Gokhale Road or L J Road, or take the train.",
+  "what": "Swatantryaveer Savarkar Road closes from Siddhivinayak to Kapad Bazar. Parts of Keluskar Road and Lt Dilip Gupte Road also close.",
+  "why": "Police expect huge crowds at a Dussehra rally at Shivaji Park on October 20."
+ },
+ "cards": [
+  {
+   "body": "Police suggest S K Bole Road, Agar Bazar, Portuguese Church and Gokhale Road; or L J Road to Steelman Junction; or M B Raut Marg.",
+   "k": "tea",
+   "title": "Detours"
+  },
+  {
+   "body": "Eight stretches are no-parking, including N C Kelkar Marg, L J Road and Pandurang Naik Marg.",
+   "k": "tea",
+   "title": "No parking"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Drive down Savarkar Road",
+    "Use the suggested detours or a train",
+    "Park on N C Kelkar Marg",
+    "Wait at Shivaji Park"
+   ],
+   "q": "Best move if you must cross Dadar on Tuesday evening?",
+   "why": "Savarkar Road is closed and parking is banned, so detours or trains are the smart choice."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Local train",
+    "Metro",
+    "Avoiding Dadar",
+    "Working from home"
+   ],
+   "q": "How will you travel on Tuesday?"
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "date": "2026-10-19",
+ "heat": 3,
+ "hook": "Which *Dadar roads shut on Tuesday*?",
+ "learn": {
+  "t": "Savarkar Road will be shut between Siddhivinayak temple junction and Kapad Bazar junction in Mahim."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎪",
+    "label": "Big Dussehra rally"
+   },
+   {
+    "icon": "👥",
+    "label": "Large crowds expected"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "↪️",
+    "label": "Diversions via Gokhale Road"
+   },
+   {
+    "icon": "🅿️",
+    "label": "8 no-parking stretches"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "Dadar roads closed Oct 20"
+  }
+ },
+ "order": 70,
+ "readSecs": 35,
+ "sort": "2026-10-19-29",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Dussehra Melava 2026: Mumbai Traffic Police Announces Road Closures, Diversions & Parking Restrictions In Dadar On October 20",
+   "url": "https://www.freepressjournal.in/mumbai/dussehra-melava-2026-mumbai-traffic-police-announces-road-closures-diversions-parking-restrictions-in-dadar-on-october-20-check-details-mumba-news"
+  }
+ ],
+ "thread": "mum-traffic",
+ "tldr": "Mumbai Traffic Police will close and divert roads around Shivaji Park in Dadar from 8 am to 11:55 pm on October 20.",
+ "topic": "Dadar road closures",
+ "watch": "Closures run 8 am to 11:55 pm on Tuesday, October 20; police may add more diversions."
+}

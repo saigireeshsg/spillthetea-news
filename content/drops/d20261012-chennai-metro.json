@@ -1,0 +1,128 @@
+{
+ "beats": {
+  "care": "Modi said India's metro network grew from 250 kilometres in 2014 to 1,100 now. Your city might be next in line.",
+  "what": "PM Modi and Tamil Nadu Chief Minister Vijay opened a 15 kilometre Chennai Metro stretch from Poonamallee to Vadapalani and rode it together.",
+  "why": "It is the first working corridor of Chennai Metro's second phase, built for about 4,900 crore rupees, with 11 elevated stations."
+ },
+ "cards": [
+  {
+   "body": "Regular trains run from 7 am to 9 pm starting today. Modi also launched projects worth over ₹13,000 crore in Tamil Nadu, including a brain-mapping mission at IIT Madras.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "A 3.7 km part of the line is a double-decker structure, and the signalling is ready for trains with no driver.",
+   "k": "twist"
+  },
+  {
+   "items": [
+    {
+     "display": "250 km",
+     "label": "2014",
+     "value": 250
+    },
+    {
+     "alt": true,
+     "display": "1,100 km",
+     "label": "Now",
+     "value": 1100
+    }
+   ],
+   "k": "bars",
+   "note": "Figures as stated by PM Modi; now across 25 cities.",
+   "title": "India's metro network"
+  },
+  {
+   "body": "Approval for Chennai Metro Phase 3, a rethink on metros for Coimbatore and Madurai, school education funds, and high-speed rail from Chennai to Coimbatore and Kanyakumari.",
+   "k": "why",
+   "title": "what did vijay ask for?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, I'd ditch the bike or auto",
+    "Only if it's close to home",
+    "No, metros are too crowded"
+   ],
+   "q": "Would a metro change how you get around your city?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "India's metro network has grown fast since 2014",
+    "Chennai's metro is 1,100 km long",
+    "Metro fares went up four times",
+    "Only one city has a metro"
+   ],
+   "q": "What does the 250 km to 1,100 km figure tell you?",
+   "why": "Metros have spread to 25 cities as governments push public transport over clogged roads."
+  }
+ ],
+ "cat": "india",
+ "cover": {
+  "bg": [
+   "#1b1030",
+   "#7c4dff"
+  ],
+  "big": "1,100 km",
+  "label": "India's metro network now, per PM Modi",
+  "motion": "rise",
+  "scene": [
+   "🚇",
+   "🏙️",
+   "🤝"
+  ]
+ },
+ "date": "2026-10-12",
+ "heat": 3,
+ "hook": "Chennai just got a metro with a *double-decker* section. What else is new?",
+ "map": {
+  "causes": [
+   {
+    "icon": "🚦",
+    "label": "Crowded city roads"
+   },
+   {
+    "icon": "🏗️",
+    "label": "Phase 2 under construction"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🕖",
+    "label": "Trains 7am–9pm daily"
+   },
+   {
+    "icon": "📝",
+    "label": "Vijay asks for Phase 3"
+   }
+  ],
+  "event": {
+   "icon": "🚇",
+   "label": "Poonamallee–Vadapalani line opens"
+  }
+ },
+ "order": 7,
+ "readSecs": 50,
+ "sort": "2026-10-12-92",
+ "sources": [
+  {
+   "name": "The Federal",
+   "title": "Modi inaugurates Poonamallee-Vadapalani stretch of Chennai Metro, rides with CM Vijay",
+   "url": "https://thefederal.com/category/states/south/tamil-nadu/chennai-metro-pm-modi-poonamallee-vadapalani-stretch-259217"
+  },
+  {
+   "name": "Business Standard",
+   "title": "PM Modi unveils ₹13K cr projects, pledges support for Tamil Nadu growth",
+   "url": "https://www.business-standard.com/india-news/pm-modi-unveils-13k-cr-projects-pledges-support-for-tamil-nadu-growth-126101100488_1.html"
+  },
+  {
+   "name": "Swarajya",
+   "title": "Chennai Metro Phase II to get its first operational corridor as PM Modi set for 11 October launch",
+   "url": "https://swarajyamag.com/news-brief/chennai-metro-phase-ii-to-get-its-first-operational-corridor-as-pm-modi-set-for-11-october-launch"
+  }
+ ],
+ "tldr": "PM Modi and Tamil Nadu CM Vijay opened the first stretch of Chennai Metro's second phase and rode it together.",
+ "topic": "Chennai Metro Phase 2"
+}

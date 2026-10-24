@@ -1,0 +1,102 @@
+{
+ "areas": [
+  "Perambur",
+  "Madhavaram",
+  "Vyasarpadi",
+  "Manali",
+  "Teynampet"
+ ],
+ "beats": {
+  "care": "Expect evening and late-night showers. Avoid known waterlogging spots like Vyasarpadi and Besant Road when commuting.",
+  "what": "Chennai averaged 3.42 cm of rain in 24 hours to 6 am Saturday. Perambur got the most, 8.79 cm, then Madhavaram at 8.70 cm.",
+  "why": "The northeast monsoon is active. RMC Chennai's VR Durai said widespread heavy rain is likely across Tamil Nadu till October 26."
+ },
+ "cards": [
+  {
+   "body": "GCC logged heavy rain at 7 spots, moderate rain at 41 and light rain at 14.",
+   "caption": "Perambur's rain, the city's highest",
+   "k": "num",
+   "value": "8.79 cm"
+  },
+  {
+   "body": "GCC Commissioner G S Sameeran checked Aranganathan Subway, sumps and storm drains in Saidapet. Teams cleared silt from catch pits on Besant Road in Teynampet.",
+   "k": "tea",
+   "title": "Civic body on the move"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "One rainy day, then dry",
+    "More rainy spells over the coming week",
+    "Cyclone landfall on October 26",
+    "No rain in Chennai"
+   ],
+   "q": "RMC says heavy rain is likely 'until October 26'. What should a commuter expect?",
+   "why": "The forecast means repeated heavy spells across the state for about a week, then easing."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Metro all the way",
+    "Cab, whatever it costs",
+    "Two-wheeler with raincoat",
+    "Work from home"
+   ],
+   "q": "How do you commute on rainy days?"
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "date": "2026-10-18",
+ "heat": 3,
+ "hook": "How long will Chennai's *monsoon downpours* keep coming?",
+ "learn": {
+  "t": "Northeast monsoon showers usually fall in the evening or near midnight, while low-pressure systems can bring daytime rain."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Northeast monsoon active"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚧",
+    "label": "Waterlogging in north Chennai"
+   },
+   {
+    "icon": "🛠️",
+    "label": "Drains being cleared"
+   },
+   {
+    "icon": "📅",
+    "label": "Heavy rain till Oct 26"
+   }
+  ],
+  "event": {
+   "icon": "🌊",
+   "label": "3.42 cm overnight average"
+  }
+ },
+ "order": 70,
+ "readSecs": 40,
+ "sort": "2026-10-18-29",
+ "sources": [
+  {
+   "name": "DT Next",
+   "title": "Chennai records 3.42 cm average rainfall as heavy showers cause waterlogging",
+   "url": "https://www.dtnext.in/news/chennai/chennai-records-342-cm-average-rainfall-as-heavy-showers-cause-waterlogging"
+  },
+  {
+   "name": "DT Next",
+   "title": "Expect heavy rain in Chennai, 20 more districts over weekend: RMC",
+   "url": "https://www.dtnext.in/news/chennai/expect-heavy-rain-in-chennai-20-more-districts-over-weekend-rmc"
+  }
+ ],
+ "thread": "che-monsoon",
+ "tldr": "Friday night's rain averaged 3.42 cm across Chennai, and the weather office expects widespread heavy rain in Tamil Nadu until October 26.",
+ "topic": "Rainy week ahead",
+ "watch": "RMC Chennai expects widespread heavy rain across Tamil Nadu until October 26, after which it should ease."
+}

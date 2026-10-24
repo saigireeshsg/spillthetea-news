@@ -1,0 +1,157 @@
+{
+ "beats": {
+  "care": "Healthy wildlife keeps diseases in check. The Hindu wants every state to have a recovery plan.",
+  "what": "Asiatic lions grew from 674 to 891, and Madhya Pradesh's vultures from 8,397 to 12,981.",
+  "why": "A toxic cattle drug was banned, and breeding and habitat protection helped species recover."
+ },
+ "cards": [
+  {
+   "body": "Rare good news: Asiatic lions grew from 674 in 2020 to 891 in 2025. Vultures in Madhya Pradesh rose from 8,397 in 2019 to 12,981 in 2025.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "items": [
+    {
+     "display": "674",
+     "label": "2020",
+     "value": 674
+    },
+    {
+     "alt": true,
+     "display": "891",
+     "label": "2025",
+     "value": 891
+    }
+   ],
+   "k": "bars",
+   "title": "Asiatic lions (Gujarat)"
+  },
+  {
+   "items": [
+    {
+     "display": "8,397",
+     "label": "2019",
+     "value": 8397
+    },
+    {
+     "alt": true,
+     "display": "12,981",
+     "label": "2025",
+     "value": 12981
+    }
+   ],
+   "k": "bars",
+   "title": "Vultures in Madhya Pradesh"
+  },
+  {
+   "body": "The piece argues extinction isn't always final. When scientists, governments and local communities work together, species recover.",
+   "k": "edit",
+   "kind": "Op-ed",
+   "paper": "The Hindu",
+   "title": "From the brink to a comeback, hope for India's wildlife",
+   "verdict": "Its ask: turn these one-off wins into a national plan, with clear targets for every state."
+  },
+  {
+   "body": "Vultures ate dead cattle that had been given diclofenac, a painkiller that destroyed their kidneys. Banning it for animals, plus breeding programmes and protecting their homes, helped them recover.",
+   "k": "why",
+   "title": "why did vultures almost disappear?"
+  },
+  {
+   "body": "Vultures clean up dead animals, which stops diseases spreading to people. And India holds about 8% of the world's plants and animals on just 4% of its land, so what happens here matters for the whole planet.",
+   "k": "you",
+   "title": ""
+  },
+  {
+   "body": "Only about 2% of India's known animal species have even been checked for extinction risk. Of the 7,516 checked, 1,012 are threatened.",
+   "k": "twist"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Mobile towers",
+    "A painkiller given to cattle",
+    "Climate change",
+    "Kites"
+   ],
+   "q": "What nearly wiped out India's vultures?",
+   "why": "Diclofenac, used on cattle, poisoned vultures that fed on the carcasses."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Tigers",
+    "Snow leopards",
+    "Dugongs",
+    "Gharials"
+   ],
+   "q": "Which comeback story should we cover next?"
+  }
+ ],
+ "cat": "planet",
+ "date": "2026-10-09",
+ "editorial": {
+  "paper": "The Hindu",
+  "title": "From the brink to a comeback, hope for India's wildlife"
+ },
+ "heat": 2,
+ "hook": "Some of India's animals are *making a comeback*. Here's the proof",
+ "map": {
+  "causes": [
+   {
+    "icon": "💊",
+    "label": "Toxic cattle drug banned"
+   },
+   {
+    "icon": "🧪",
+    "label": "Breeding programmes"
+   },
+   {
+    "icon": "🌳",
+    "label": "Homes protected"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🦁",
+    "label": "Lions: 674 → 891"
+   },
+   {
+    "icon": "🦅",
+    "label": "Vultures: 8,397 → 12,981"
+   },
+   {
+    "icon": "📋",
+    "label": "Ask: a national plan"
+   }
+  ],
+  "event": {
+   "icon": "🦁",
+   "label": "Lions & vultures bounce back"
+  }
+ },
+ "order": 7,
+ "readSecs": 75,
+ "sort": "2026-10-09-92",
+ "sources": [
+  {
+   "name": "Vajiram & Ravi (summary of The Hindu op-ed)",
+   "title": "Daily Editorial Analysis, 8 October 2026",
+   "url": "https://vajiramandravi.com/current-affairs/daily-editorial-analysis-8-october-2026/"
+  },
+  {
+   "name": "Gulf News",
+   "title": "India's Asiatic lions surge to 891 in latest census",
+   "url": "https://gulfnews.com/world/asia/india/india-s-lion-population-rises-by-a-third-2-1.500135254"
+  },
+  {
+   "name": "Drishti IAS",
+   "title": "Vulture census",
+   "url": "https://www.drishtiias.com/state-pcs-current-affairs/vulture-census"
+  }
+ ],
+ "tldr": "A Hindu op-ed shows lions and vultures bouncing back, and says India needs a plan to make that normal, not lucky.",
+ "topic": "Lions comeback",
+ "visual": true
+}

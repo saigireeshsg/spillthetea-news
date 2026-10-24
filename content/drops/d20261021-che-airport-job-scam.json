@@ -1,0 +1,94 @@
+{
+ "areas": [
+  "Meenambakkam",
+  "Citywide"
+ ],
+ "beats": {
+  "care": "If anyone asks you for money to 'get' you a job, walk away and report it. Real hiring doesn't work that way.",
+  "what": "Chennai airport police arrested a 52-year-old former Airports Authority of India official, accused of taking ₹1–2 lakh each from 12 job seekers.",
+  "why": "She allegedly promised well-paid airport jobs. Months passed with no appointments, and she allegedly went into hiding."
+ },
+ "cards": [
+  {
+   "body": "Victims complained to the South Chennai Joint Commissioner of Police, and a special team traced her.",
+   "caption": "allegedly taken from 12 people",
+   "k": "num",
+   "value": "₹23 lakh"
+  },
+  {
+   "body": "Investigators reportedly found she had taken money on similar promises while still in service, and AAI had earlier held a departmental inquiry against her.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "The job was at an airport",
+    "Being asked to pay money to get a job",
+    "The forms were printed",
+    "The office was in Chennai"
+   ],
+   "q": "What's the biggest red flag in this case?",
+   "why": "Paying someone to secure a job for you is the classic sign of a job scam."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, I refused",
+    "Almost fell for it",
+    "Never",
+    "A friend did"
+   ],
+   "q": "Ever been offered a job for a fee?"
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "date": "2026-10-21",
+ "heat": 3,
+ "hook": "Would you pay *₹2 lakh for an airport job*? 12 people did.",
+ "lead": "local",
+ "learn": {
+  "t": "Each person allegedly paid ₹1–2 lakh and got only a 'job application form' in return."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "✈️",
+    "label": "Promise of airport jobs"
+   },
+   {
+    "icon": "🪪",
+    "label": "Ex-official's insider image"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "₹23 lakh lost"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Remanded to prison"
+   }
+  ],
+  "event": {
+   "icon": "🚔",
+   "label": "Retired official arrested"
+  }
+ },
+ "order": 83,
+ "readSecs": 45,
+ "sort": "2026-10-21-16",
+ "sources": [
+  {
+   "name": "DT Next",
+   "title": "Former Chennai airport official held for cheating 12 people of Rs 23 lakh",
+   "url": "https://www.dtnext.in/news/chennai/former-chennai-airport-official-held-for-cheating-12-people-of-rs-23-lakh"
+  }
+ ],
+ "thread": "che-job-scams",
+ "tldr": "Chennai police arrested a retired airport official accused of taking ₹23 lakh from 12 young people for airport jobs that never came.",
+ "topic": "Airport job scam"
+}

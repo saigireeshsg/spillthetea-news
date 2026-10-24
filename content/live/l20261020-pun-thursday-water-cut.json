@@ -1,0 +1,24 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "body": "PMC shuts supply citywide every Thursday under 10% cut; a second weekly day is under review. Store water Wed. PCMC areas separate. Help: 1800-1030-222.",
+ "city": "Pune",
+ "kind": "water",
+ "scope": "local",
+ "sev": 2,
+ "src": [
+  {
+   "name": "The Better India (PMC announcement)",
+   "url": "https://thebetterindia.com/governance/pune-water-cut-every-thursday-october-15-pmc-12674811"
+  },
+  {
+   "name": "Punekar News",
+   "url": "https://www.punekarnews.in/pune-may-face-two-days-of-water-cuts-per-week-pmc-commissioner-naval-kishore-ram-says-decision-in-eight-days/"
+  }
+ ],
+ "title": "No PMC water supply on Thursdays; next cut Oct 22",
+ "ts": 1792469466351,
+ "until": 1792693740000,
+ "verified": "2"
+}

@@ -1,0 +1,95 @@
+{
+ "beats": {
+  "care": "If you're a medical student, one wrong key can shift your rank and your PG seat. This case could set transparency rules for future exams.",
+  "what": "The Democratic Medical Association has asked the Supreme Court to quash an NBEMS notice that keeps actual questions and options hidden from NEET-PG 2026 candidates.",
+  "why": "Candidates see only a question ID, the correct option's number and their own response. Without the text, they can't spot a wrong answer key."
+ },
+ "cards": [
+  {
+   "body": "The exam was held on 30 August and results came out on 24 September. The plea wants downloadable records for each candidate, a window to object to questions, an expert panel to decide objections, and corrected ranks where errors are found.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "It's the official list of correct answers. Many exams publish a provisional key first and let students challenge mistakes before results are final.",
+   "k": "why",
+   "title": "what's an answer key?"
+  },
+  {
+   "body": "The plea was filed under Article 32, which lets citizens go straight to the Supreme Court when a fundamental right is at stake.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, always",
+    "Only for a fee",
+    "No, it risks leaks"
+   ],
+   "q": "Should exams show you your own paper afterwards?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "To see actual questions and options to check the key",
+    "To cancel NEET-PG",
+    "To add more PG seats",
+    "To make the exam offline"
+   ],
+   "q": "What are the petitioners asking for?",
+   "why": "Without the real questions, candidates can't tell whether the answer key marked them wrongly."
+  }
+ ],
+ "cat": "campus",
+ "date": "2026-10-13",
+ "heat": 3,
+ "hook": "NEET-PG takers can't see their *own questions*. Is that fair?",
+ "learn": {
+  "t": "NEET-PG candidates only see question IDs and answer numbers, so they can't check whether a question or its key was wrong."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔢",
+    "label": "Only IDs shown, not questions"
+   },
+   {
+    "icon": "📅",
+    "label": "NBEMS notice of 1 October"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📄",
+    "label": "Seeks full question-wise records"
+   },
+   {
+    "icon": "🩺",
+    "label": "Ranks decide PG seats"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "Doctors' body moves Supreme Court"
+  }
+ },
+ "order": 9,
+ "readSecs": 50,
+ "sort": "2026-10-13-90",
+ "sources": [
+  {
+   "name": "Medical Dialogues",
+   "title": "NBE NEET PG 2026 answer key disclosure challenged in SC",
+   "url": "https://medicaldialogues.in/news/education/medical-admissions/nbe-neet-pg-2026-answer-key-disclosure-challenged-in-sc-plea-seeks-release-of-actual-questions-options-180494"
+  },
+  {
+   "name": "LiveLaw",
+   "title": "NEET-PG 2026: Plea In Supreme Court Seeks Disclosure Of Actual Questions, Options And Correct Answers",
+   "url": "https://www.livelaw.in/amp/top-stories/neet-pg-2026-plea-in-supreme-court-seeks-disclosure-of-actual-questions-options-and-correct-answers-to-candidates-552776"
+  }
+ ],
+ "tldr": "Doctors who took NEET-PG 2026 have asked the Supreme Court to make NBEMS show candidates the actual questions and options, not just ID numbers.",
+ "topic": "NEET-PG answer key",
+ "watch": "Watch for when the Supreme Court takes up the plea, and whether it says anything about counselling going ahead."
+}

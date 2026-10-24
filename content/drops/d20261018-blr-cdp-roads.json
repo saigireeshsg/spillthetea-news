@@ -1,0 +1,96 @@
+{
+ "areas": [
+  "Panathur",
+  "Balagere",
+  "Sarjapur Road",
+  "Kogilu",
+  "Mahadevapura"
+ ],
+ "beats": {
+  "care": "Renting near Panathur, Sarjapur Road or Kogilu? Promised link roads may be years away, so check real commute times first.",
+  "what": "Bengaluru's 2007 master plan listed about 1,000 km of CDP roads. Deccan Herald reports most remain on paper.",
+  "why": "Land acquisition is slow, and owners can't be forced to accept development rights (TDR) instead of cash."
+ },
+ "cards": [
+  {
+   "body": "They sit within 4 km of a planned 5.5-km road that has been stuck for years.",
+   "caption": "flats approved near Balagere–Panathur",
+   "k": "num",
+   "value": "30,000"
+  },
+  {
+   "body": "Bengaluru East City Corporation's Lokhande Snehal Sudhakar said TDR is voluntary, and some owners prefer cash. A planner said TDR isn't attractive enough in pricey areas like Varthur.",
+   "k": "tea",
+   "title": "The TDR problem"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "A traffic fine",
+    "Building rights given to owners in exchange for land for roads",
+    "A metro pass",
+    "A property tax rebate"
+   ],
+   "q": "What is TDR in this story?",
+   "why": "TDR compensates owners with development rights instead of cash, but it's voluntary, so roads stall when owners refuse."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Finish planned roads",
+    "More metro lines",
+    "Better buses",
+    "More WFH days"
+   ],
+   "q": "What would fix your commute most?"
+  }
+ ],
+ "cat": "local",
+ "city": "Bengaluru",
+ "date": "2026-10-18",
+ "heat": 3,
+ "hook": "Why do so many of Bengaluru's *planned roads* still not exist?",
+ "learn": {
+  "t": "A mobility expert says Bengaluru gives only 7–9% of its area to transport, against about 20% in a well-planned city."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📜",
+    "label": "Land acquisition stuck"
+   },
+   {
+    "icon": "🏢",
+    "label": "Flats approved faster"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Jams in east Bengaluru"
+   },
+   {
+    "icon": "⏱️",
+    "label": "Long detours for residents"
+   }
+  ],
+  "event": {
+   "icon": "🛣️",
+   "label": "85% of plan roads unbuilt"
+  }
+ },
+ "order": 62,
+ "readSecs": 45,
+ "sort": "2026-10-18-37",
+ "sources": [
+  {
+   "name": "Deccan Herald",
+   "title": "Two decades on, 85% of Bengaluru's CDP roads remain on paper",
+   "url": "https://www.deccanherald.com/india/karnataka/bengaluru/two-decades-on-85-of-bengalurus-cdp-roads-remain-on-paper-4186761"
+  }
+ ],
+ "thread": "blr-roads",
+ "tldr": "Two decades after Bengaluru planned about 1,000 km of new and wider roads, an expert says around 85% are still unbuilt.",
+ "topic": "Missing city roads"
+}

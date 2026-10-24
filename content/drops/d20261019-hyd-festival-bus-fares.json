@@ -1,0 +1,116 @@
+{
+ "areas": [
+  "Secunderabad",
+  "Uppal",
+  "Kukatpally",
+  "Dilsukhnagar",
+  "LB Nagar"
+ ],
+ "beats": {
+  "care": "If you're travelling, compare regular and special buses before booking. A ₹200 regular fare can be ₹300 on a special.",
+  "what": "Harish Rao demanded TGSRTC roll back higher fares on festival special buses, citing a JBS to Karimnagar ticket rising from 230 to 400 rupees.",
+  "why": "Thousands are heading home for Bathukamma and Dasara. Reports say special buses charge up to 50 percent more than regular ones."
+ },
+ "cards": [
+  {
+   "a": {
+    "body": "The government cut regular buses and charged high fares on 'specials' without adding buses. He says fares have risen five times in three years.",
+    "label": "Harish Rao (BRS) says"
+   },
+   "b": {
+    "body": "Fares follow rules and a 2003 government order. It added 7,000 buses for the festive rush, and 97% of extra services since 10 October ran.",
+    "label": "TGSRTC says"
+   },
+   "k": "sides",
+   "title": "Are festival bus fares fair?"
+  },
+  {
+   "body": "Munsif Daily reported Uppal to Thorrur super-luxury going from about ₹300 to ₹430, and Mahabubnagar to MGBS from ₹220 to over ₹290. Crowds were heavy at MGBS, JBS, Uppal, KPHB, Dilsukhnagar and LB Nagar.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Under the state's Mahalakshmi scheme, women travel free on many TGSRTC buses. Harish Rao questioned charging men more while women ride free; TGSRTC says the scheme runs smoothly.",
+   "k": "why",
+   "title": "why do women ride free?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Fair, demand is huge",
+    "Unfair, cap them",
+    "OK if more buses run"
+   ],
+   "q": "Higher festival fares are…"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Special services may charge extra under rules",
+    "Diesel is free at festivals",
+    "Regular buses are banned",
+    "Tickets include food"
+   ],
+   "q": "Why do festival special buses cost more?",
+   "why": "TGSRTC says special services are priced under a 2003 order that allows higher fares during the rush."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-19",
+ "heat": 3,
+ "hook": "Going home for Dasara? Why your bus ticket may cost *up to 50% more*",
+ "learn": {
+  "t": "TGSRTC says festival special-bus fares are set under a 2003 government order, which lets special services charge more than regular ones."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎉",
+    "label": "Bathukamma, Dasara home rush"
+   },
+   {
+    "icon": "🚌",
+    "label": "Special buses, higher fares"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🎫",
+    "label": "Some ₹200 tickets now ₹300+"
+   },
+   {
+    "icon": "🧍",
+    "label": "Crowds at MGBS, JBS, Uppal"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "Harish Rao vs TGSRTC on fares"
+  }
+ },
+ "order": 12,
+ "readSecs": 55,
+ "sort": "2026-10-19-87",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Harish Rao seeks rollback of bus fare hikes during festivals",
+   "url": "https://www.siasat.com/harish-rao-seeks-rollback-of-bus-fare-hikes-during-festivals-3560365/"
+  },
+  {
+   "name": "The Hans India",
+   "title": "TGSRTC denies fare hike, bus cuts during Dasara",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/tgsrtc-denies-fare-hike-bus-cuts-during-dasara-1133742"
+  },
+  {
+   "name": "Munsif Daily",
+   "title": "Telangana RTC Hikes Special Bus Fares by 50% Ahead of Dasara",
+   "url": "https://munsifdaily.com/telangana-rtc-hikes-special-bus-fares-by-50-ahead-of-dasara/"
+  }
+ ],
+ "thread": "hyd-commute",
+ "tldr": "BRS leader Harish Rao says TGSRTC hiked fares on festival special buses and cut regular ones; TGSRTC says fares follow the rules and it added 7,000 buses.",
+ "topic": "Festival bus fares"
+}

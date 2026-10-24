@@ -1,0 +1,118 @@
+{
+ "beats": {
+  "care": "Border tension shapes defence spending, China app and trade rules, and the price of Chinese-made gadgets you buy.",
+  "what": "The Ministry of External Affairs said Chinese troops sometimes leave agreed patrol routes, which 'disturbs' the border.",
+  "why": "The outgoing chief of the Indo-Tibetan Border Police said face-offs have been happening in Arunachal Pradesh since July. It's the first official admission since the 2024 peace deal."
+ },
+ "cards": [
+  {
+   "body": "Spokesperson Randhir Jaiswal said both sides use diplomatic and military channels to avoid 'miscalculation'. The video of the ITBP chief's speech was later deleted from ITBP's YouTube channel.",
+   "k": "tea"
+  },
+  {
+   "body": "More than two years after Modi and Xi announced a détente.",
+   "caption": "Face-offs in Arunachal Pradesh, per the ITBP chief",
+   "k": "num",
+   "value": "Since July 2026"
+  },
+  {
+   "a": {
+    "body": "Tension happens 'from time to time'. Both sides are talking about better border management.",
+    "label": "Government says"
+   },
+   "b": {
+    "body": "Face-offs are 'deeply alarming'. It asks if the pre-2020 status quo is really back and slams rising Chinese imports.",
+    "label": "Congress says"
+   },
+   "k": "sides",
+   "title": "Is the border calm?"
+  },
+  {
+   "body": "Officially confirming the clashes took a newspaper report and a police chief's speech that was then quietly taken down.",
+   "k": "twist"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes",
+    "No, trade and borders are separate",
+    "Only in some sectors"
+   ],
+   "q": "Should India cut imports from China until the border is calm?"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Border Security Force",
+    "Indo-Tibetan Border Police",
+    "Assam Rifles",
+    "CISF"
+   ],
+   "q": "Which force guards the India–China border?",
+   "why": "The ITBP, under the Home Ministry, guards the Line of Actual Control with China."
+  }
+ ],
+ "cat": "india",
+ "cover": {
+  "bg": [
+   "#1a1a1b",
+   "#ff8717"
+  ],
+  "big": "$112 bn",
+  "label": "India's record trade deficit with China, 2025–26 (Congress figure)",
+  "motion": "pulse",
+  "scene": [
+   "🏔️",
+   "🇮🇳",
+   "🇨🇳"
+  ]
+ },
+ "date": "2026-10-24",
+ "heat": 5,
+ "hook": "India finally admits China is still *disturbing* the border",
+ "lead": "india",
+ "learn": {
+  "t": "The Line of Actual Control (LAC) is the unmarked line separating Indian and Chinese-held land, about 3,488 km long."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎤",
+    "label": "ITBP chief flags face-offs"
+   },
+   {
+    "icon": "📰",
+    "label": "Report on Arunachal clashes"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🗣️",
+    "label": "Congress demands answers"
+   },
+   {
+    "icon": "🤝",
+    "label": "Talks on border management"
+   }
+  ],
+  "event": {
+   "icon": "🏔️",
+   "label": "MEA: LAC 'gets disturbed'"
+  }
+ },
+ "order": 2,
+ "readSecs": 65,
+ "sort": "2026-10-24-97",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "LAC 'disturbed' by PLA's behaviour, admits MEA (print, Hyderabad edition, 24 Oct, p.1)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "thread": "india-china-border",
+ "tldr": "The foreign ministry said Chinese patrols keep 'disturbing' the border, after a top border police officer spoke of face-offs in Arunachal.",
+ "topic": "India–China border",
+ "watch": "The Opposition wants a statement in Parliament. Watch for the next round of India–China border talks."
+}

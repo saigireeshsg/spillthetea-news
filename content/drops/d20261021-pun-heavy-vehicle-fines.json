@@ -1,0 +1,94 @@
+{
+ "areas": [
+  "Pimpri-Chinchwad",
+  "Bhosari",
+  "Chakan"
+ ],
+ "beats": {
+  "care": "Ride a two-wheeler in PCMC at rush hour? Stay alert near big junctions, since many trucks ignore the timings.",
+  "what": "From January to September, police booked 90,606 heavy vehicles and collected over ₹11.9 crore in fines.",
+  "why": "Goods traffic from Bhosari, Chakan and Talegaon crowds the roads. The time curbs aim to keep peak traffic moving."
+ },
+ "cards": [
+  {
+   "body": "DCP (traffic) Vikrant Deshmukh said strict action is being taken against violators.",
+   "caption": "fines collected in nine months",
+   "k": "num",
+   "value": "₹11.9 cr"
+  },
+  {
+   "body": "Goods move from industrial areas like Bhosari, Talegaon, Chakan and Ranjangaon toward Mumbai, Pune and beyond, often through Pimpri Chinchwad.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Ban trucks for good",
+    "Keep heavy vehicles off key routes at rush hours",
+    "Raise toll money",
+    "Stop two-wheelers"
+   ],
+   "q": "What are the timing curbs meant to do?",
+   "why": "The curbs cover morning and evening peaks so commuter traffic flows better."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Ban them fully",
+    "Timings are fine",
+    "Enforce harder",
+    "Build truck bypasses"
+   ],
+   "q": "Trucks at rush hour: your take?"
+  }
+ ],
+ "cat": "local",
+ "city": "Pune",
+ "date": "2026-10-21",
+ "heat": 2,
+ "hook": "How many trucks *broke PCMC's rush-hour ban* this year?",
+ "learn": {
+  "t": "Heavy vehicles are barred on set Pimpri Chinchwad routes from 8 am to noon and from 4 pm to 9 pm."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏭",
+    "label": "Industrial belt freight"
+   },
+   {
+    "icon": "🚛",
+    "label": "Drivers ignoring timings"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "💰",
+    "label": "₹11.9 crore in fines"
+   },
+   {
+    "icon": "🚦",
+    "label": "Jams at big junctions"
+   }
+  ],
+  "event": {
+   "icon": "🚔",
+   "label": "90,606 vehicles booked"
+  }
+ },
+ "order": 55,
+ "readSecs": 35,
+ "sort": "2026-10-21-44",
+ "sources": [
+  {
+   "name": "Punekar News",
+   "title": "Pune: Heavy Vehicles Flout PCMC Entry Curbs; Over 90,000 Booked in 9 Months, Rs 11.9 Crore in Fines Collected",
+   "url": "https://www.punekarnews.in/pune-heavy-vehicles-flout-pcmc-entry-curbs-over-90000-booked-in-9-months-rs-11-9-crore-in-fines-collected/"
+  }
+ ],
+ "thread": "pun-traffic",
+ "tldr": "Pimpri Chinchwad traffic police booked 90,606 heavy vehicles for breaking rush-hour entry curbs from January to September.",
+ "topic": "Heavy vehicle fines"
+}

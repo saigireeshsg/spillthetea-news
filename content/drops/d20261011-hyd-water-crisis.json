@@ -1,0 +1,141 @@
+{
+ "beats": {
+  "care": "If you rent, expect pricier tankers and possible supply cuts. Fixing taps and saving water now actually helps.",
+  "what": "Chief Minister Revanth Reddy told officials to save every drop, warning that the next eight months will be critical for water and power.",
+  "why": "About 215 mandals face drought-like conditions. In seven percent of Hyderabad district, groundwater is now more than 20 metres down."
+ },
+ "cards": [
+  {
+   "body": "Ground Water Department data shows the deepest level in the district at 34.99 m near Ameerpet. The state has asked the Centre for a ₹20,000 crore package. A water-saving campaign is planned after Dasara, and power-heavy work may be postponed.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "items": [
+    {
+     "display": "28%",
+     "label": "0–5 m",
+     "value": 28
+    },
+    {
+     "display": "34%",
+     "label": "5–10 m",
+     "value": 34
+    },
+    {
+     "display": "21%",
+     "label": "10–15 m",
+     "value": 21
+    },
+    {
+     "display": "10%",
+     "label": "15–20 m",
+     "value": 10
+    },
+    {
+     "alt": true,
+     "display": "7%",
+     "label": "Over 20 m",
+     "value": 7
+    }
+   ],
+   "k": "bars",
+   "note": "Share of Hyderabad district at each depth, Ground Water Department data via Telangana Today.",
+   "title": "How deep is Hyderabad's groundwater?"
+  },
+  {
+   "body": "When water sits deeper, homes and apartments drill deeper borewells, which costs more and drains the ground faster. Experts quoted by Telangana Today expect an acute shortage in the coming months.",
+   "k": "why",
+   "title": "why does deeper water matter?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Fine big wasters",
+    "Rainwater harvesting in every building",
+    "Fix leaking city pipes first"
+   ],
+   "q": "What would actually save water in Hyderabad?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Weak rains left groundwater low before summer",
+    "Too much rain flooded the lakes",
+    "Water got cheaper",
+    "The metro uses all the water"
+   ],
+   "q": "Why are officials worried about the coming months?",
+   "why": "Weak rains mean less water soaked into the ground, so supplies could run short when demand peaks in summer."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "cover": {
+  "bg": [
+   "#06202a",
+   "#1fa3c9"
+  ],
+  "big": "34.99 m",
+  "label": "Deepest Hyd groundwater level, near Ameerpet",
+  "motion": "fall",
+  "scene": [
+   "💧",
+   "🚰",
+   "⚡"
+  ]
+ },
+ "date": "2026-10-11",
+ "heat": 3,
+ "hook": "Hyderabad's groundwater is *35 metres down* in places. Summer's coming",
+ "lead": "local",
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Weak rains, El Niño"
+   },
+   {
+    "icon": "🕳️",
+    "label": "Groundwater below 20 m"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🚰",
+    "label": "Drinking water put first"
+   },
+   {
+    "icon": "📞",
+    "label": "War room, helpline proposed"
+   },
+   {
+    "icon": "💸",
+    "label": "Tanker costs may rise"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "CM warns of water, power crisis"
+  }
+ },
+ "order": 4,
+ "readSecs": 55,
+ "sort": "2026-10-11-95",
+ "sources": [
+  {
+   "name": "Deccan Chronicle",
+   "title": "CM Revanth sounds alarm over looming power, water crisis in TG under El Niño",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/cm-revanth-sounds-alarm-over-looming-power-water-crisis-in-tg-under-el-nio-1994789"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad groundwater crisis warning as water levels fall below 20 metres in 7 pc of district",
+   "url": "https://telanganatoday.com/hyderabad-groundwater-crisis-warning-as-water-levels-fall-below-20-metres-in-7-pc-of-district"
+  }
+ ],
+ "thread": "hyd-water",
+ "tldr": "CM Revanth Reddy has warned of a looming water and power crisis, as groundwater in parts of Hyderabad has dropped below 20 metres.",
+ "topic": "Telangana water crunch"
+}

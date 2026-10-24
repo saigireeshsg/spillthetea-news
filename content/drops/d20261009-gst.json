@@ -1,0 +1,123 @@
+{
+ "beats": {
+  "care": "Start a side hustle or sell online? A GST slip-up is now far less likely to become a police case.",
+  "what": "The GST Council took away GST officers' power to arrest people, and raised the bar for criminal cases to ₹5 crore.",
+  "why": "Businesses complained of harassment. The idea: trust taxpayers and save tough action for big frauds."
+ },
+ "cards": [
+  {
+   "body": "On 8 Oct, the GST Council (the Finance Minister plus state ministers who run GST) met for the 57th time. It decided to remove GST officers' power to arrest people, and raised the limit for criminal prosecution from ₹1 crore to ₹5 crore of tax.",
+   "k": "tea",
+   "title": ""
+  },
+  {
+   "body": "Up from ₹1 crore. Smaller cases get handled with penalties instead.",
+   "caption": "new minimum tax amount for a criminal case",
+   "k": "num",
+   "value": "₹5 cr"
+  },
+  {
+   "body": "GST is the tax added to almost everything you buy, from Maggi to phones. Businesses collect it and pay it to the government. If a business cheats, officers investigate. Until now, they could even arrest people in serious cases.",
+   "k": "why",
+   "title": "wait, what's GST again?"
+  },
+  {
+   "body": "If you run a small business, freelance or sell online, a GST mistake is now less likely to turn into a police matter. Cheating on tax is still punishable, just with a higher bar before it becomes a criminal case.",
+   "k": "you",
+   "title": "if you ever start a side hustle"
+  },
+  {
+   "body": "Not every state was happy: five states opposed taking away the arrest powers, raising concerns about how GST rules will be enforced.",
+   "k": "twist"
+  },
+  {
+   "a": {
+    "body": "Honest businesses feared harassment. Trust them, and save tough action for big frauds.",
+    "label": "Supporters say"
+   },
+   "b": {
+    "body": "Without arrest powers, it may be harder to stop large tax cheating.",
+    "label": "States that opposed it worry"
+   },
+   "k": "sides",
+   "title": "Good reform or risky?"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Only the RBI",
+    "The GST Council: the Centre plus the states",
+    "The Supreme Court",
+    "Each shop owner"
+   ],
+   "q": "Who makes GST decisions?",
+   "why": "The GST Council, chaired by the Union Finance Minister, includes state finance ministers."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, less harassment",
+    "No, cheats will relax",
+    "Need more info"
+   ],
+   "q": "Removing GST arrest powers: good move?"
+  }
+ ],
+ "cat": "money",
+ "date": "2026-10-09",
+ "heat": 3,
+ "hook": "GST officers *can't arrest you* anymore. Wait, they could before?",
+ "map": {
+  "causes": [
+   {
+    "icon": "😟",
+    "label": "Businesses feared harassment"
+   },
+   {
+    "icon": "🤝",
+    "label": "Push to trust taxpayers"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "₹",
+    "label": "Criminal bar now ₹5 crore"
+   },
+   {
+    "icon": "🧾",
+    "label": "Smaller cases: penalties"
+   },
+   {
+    "icon": "⚠️",
+    "label": "5 states objected"
+   }
+  ],
+  "event": {
+   "icon": "🚫",
+   "label": "GST officers lose arrest power"
+  }
+ },
+ "order": 6,
+ "readSecs": 70,
+ "sort": "2026-10-09-93",
+ "sources": [
+  {
+   "name": "The Tribune",
+   "title": "GST Council scraps officers' arrest power",
+   "url": "https://www.tribuneindia.com/news/india/gst-council-scraps-officers-arrest-power/"
+  },
+  {
+   "name": "CAClubIndia",
+   "title": "57th GST Council Meeting: arrest powers to go, prosecution limit raised to Rs 5 crore",
+   "url": "https://www.caclubindia.com/news/57th-gst-council-meeting-gst-arrest-powers-to-go-prosecution-limit-raised-to-rs-5-crore-26844.asp"
+  },
+  {
+   "name": "The Sunday Guardian",
+   "title": "News headlines, 9 October 2026",
+   "url": "https://sundayguardianlive.com/trending/school-assembly-news-headlines-today-09-october-top-national-business-news-sports-news-education-news-science-tech-news-weather-news-world-news-with-weather-updates-thought-of-the-day-301673/"
+  }
+ ],
+ "tldr": "The GST Council decided to take away GST officers' power to arrest, and raised the bar for criminal cases.",
+ "topic": "GST arrests end"
+}

@@ -1,0 +1,128 @@
+{
+ "beats": {
+  "care": "If your name or a family member's vanished from the list, this drive is your chance. Check the draft list on 12 November.",
+  "what": "The Hindu's editorial says the Election Commission's new voter-list update is needed, but it does not fix the damage done by SIR.",
+  "why": "The update restarts yearly enrolment after a pause, and drops paperwork that SIR had demanded, which the paper reads as an admission."
+ },
+ "cards": [
+  {
+   "body": "The paper argues the EC is now undoing parts of SIR without saying so: the old Form 6 is back without the ancestry declaration, and checks that mapped voters to older lists are gone. That, it says, shows those rules were never needed. It wants re-enrolments counted separately from new voters, house visits so people aren't burdened twice, and old 2002–03 rules for future revisions.",
+   "k": "edit",
+   "kind": "Editorial · 17 Oct",
+   "paper": "The Hindu",
+   "title": "A necessary corrective",
+   "verdict": "Bottom line: the summary revision helps, but wrongly deleted voters must be put back, and the EC must answer for SIR."
+  },
+  {
+   "body": "The Hindu says the ratio fell between the 2024 Lok Sabha rolls and the SIR rolls, and young married women struck off must get a chance to re-enrol.",
+   "caption": "Women per 1,000 men on Bihar's voter list",
+   "k": "num",
+   "value": "907 → 892"
+  },
+  {
+   "body": "A summary revision mainly adds new voters and fixes errors. It doesn't automatically bring back people removed during SIR, and the paper says the EC hasn't said what happens to lakhs of pending appeals.",
+   "k": "why",
+   "title": "why does it say 'necessary but not sufficient'?"
+  },
+  {
+   "a": {
+    "body": "SIR was badly flawed, the new drive is an implicit admission, and CEC Gyanesh Kumar should resign.",
+    "label": "The Hindu says"
+   },
+   "b": {
+    "body": "Revisions keep lists accurate, and every registration officer must ensure no eligible citizen is left out.",
+    "label": "The Election Commission says"
+   },
+   "k": "sides",
+   "title": "Is the EC fixing its own mistake?"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "The EC, by house visits",
+    "The voter, with documents",
+    "Both share it"
+   ],
+   "q": "Who should prove a voter belongs on the list?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "It helps, but wrongly deleted voters must be restored",
+    "It should be cancelled",
+    "SIR was perfect",
+    "Only parties should register voters"
+   ],
+   "q": "What is The Hindu's main point about the EC's new voter update?",
+   "why": "The paper backs the update but says it doesn't undo SIR's wrongful deletions on its own."
+  }
+ ],
+ "cat": "edit",
+ "date": "2026-10-18",
+ "editorial": {
+  "paper": "The Hindu",
+  "title": "A necessary corrective"
+ },
+ "featured": true,
+ "heat": 3,
+ "hook": "Is the EC's new voter drive a *quiet admission* that SIR went wrong?",
+ "learn": {
+  "t": "Of 38 lakh West Bengal deletion appeals, only about 3% are decided, but 93% of those got restored, The Hindu says."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "SIR deleted many names"
+   },
+   {
+    "icon": "📝",
+    "label": "EC drops extra paperwork"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🔁",
+    "label": "Re-enrol wrongly deleted voters"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Asks CEC to resign"
+   }
+  ],
+  "event": {
+   "icon": "📰",
+   "label": "The Hindu: fix is not enough"
+  }
+ },
+ "order": 1,
+ "readSecs": 70,
+ "sort": "2026-10-18-98",
+ "sources": [
+  {
+   "name": "AFEIAS (summary of The Hindu)",
+   "title": "17-10-2026 (Important News Clippings)",
+   "url": "https://afeias.com/knowledge-centre/newspaper-clips/17-10-2026-important-news-clippings/"
+  },
+  {
+   "name": "Editorial Words (summary of The Hindu)",
+   "title": "The Hindu Editorial (A necessary corrective)",
+   "url": "https://www.editorialwords.com/the-hindu-editorial-a-necessary-corrective-oct-17-2026/"
+  },
+  {
+   "name": "The Week",
+   "title": "What is Special Summary Revision? EC kicks off process in 17 states",
+   "url": "https://www.theweek.in/news/india/2026/10/16/what-is-the-special-summary-revision-ssr-ec-kicks-off-process-in-17-states.html"
+  },
+  {
+   "name": "Deccan Herald",
+   "title": "Election Commission to conduct Special Summary Revision of electoral rolls in 17 states and Union territories",
+   "url": "https://www.deccanherald.com/india/election-commission-to-conduct-special-summary-revision-of-electoral-rolls-in-17-states-and-union-territories-4184069"
+  }
+ ],
+ "storyline": "sir",
+ "tldr": "The Hindu says the EC's new voter-list update quietly admits SIR went wrong, and wrongly deleted voters must be put back.",
+ "topic": "Voter roll fixes",
+ "watch": "Draft voter lists come out on 12 Nov. Claims and objections run till 11 Dec. Final lists on 4 Jan 2027."
+}

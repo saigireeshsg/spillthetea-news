@@ -1,0 +1,127 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Still carry rain gear, avoid subways when it pours, and never touch fallen electric wires.",
+  "what": "IMD's red alert for Chennai was downgraded to yellow. A yellow alert stays on through Wednesday, October 21.",
+  "why": "A weather system over the Bay is weakening, so another very heavy spell is less likely right away."
+ },
+ "cards": [
+  {
+   "body": "Commissioner GS Sameeran said about 600 pump sets and JCBs are also ready to clear water.",
+   "caption": "GCC workers deployed for the rain",
+   "k": "num",
+   "value": "15,000"
+  },
+  {
+   "body": "Disaster helplines 1077 and 1070 work for rain emergencies. Officials say avoid flooded roads, subways and overflowing canals.",
+   "k": "tea",
+   "title": "Who to call"
+  },
+  {
+   "body": "Even with red downgraded to yellow, the weather office says low-lying areas can still flood in short, heavy bursts.",
+   "k": "twist"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "No more rain this week",
+    "Heavy rain is still possible, just less extreme",
+    "Schools reopen for sure",
+    "Cyclone is coming"
+   ],
+   "q": "Red alert changed to yellow. What does that mean for you?",
+   "why": "Yellow still warns of heavy rain, 6–11 cm, but below the red-alert level."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "All dry now",
+    "Some water still there",
+    "Power cuts on and off",
+    "Didn't get much rain"
+   ],
+   "q": "How's your area after the weekend rain?"
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "cover": {
+  "bg": [
+   "#0d2233",
+   "#2bb3c0"
+  ],
+  "big": "2,372",
+  "label": "relief camps kept ready across Chennai",
+  "motion": "pulse",
+  "scene": [
+   "🌦️",
+   "🟡",
+   "⛑️"
+  ]
+ },
+ "date": "2026-10-20",
+ "heat": 4,
+ "hook": "Is the worst of *Chennai's rain* over for now?",
+ "lead": "local",
+ "learn": {
+  "t": "A yellow alert means IMD expects 6 to 11 cm of rain in a day; red means over 20 cm."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌀",
+    "label": "Bay circulation weakening"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Monsoon still active"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⛈️",
+    "label": "Heavy spells still possible"
+   },
+   {
+    "icon": "⛑️",
+    "label": "Relief camps on standby"
+   }
+  ],
+  "event": {
+   "icon": "🟡",
+   "label": "Red alert cut to yellow"
+  }
+ },
+ "order": 86,
+ "readSecs": 50,
+ "sort": "2026-10-20-13",
+ "sources": [
+  {
+   "name": "DT Next",
+   "title": "Heavy to very heavy rain likely in Chennai, three other TN districts today",
+   "url": "https://www.dtnext.in/news/chennai/heavy-to-very-heavy-rain-likely-in-chennai-three-other-tn-districts-today"
+  },
+  {
+   "name": "News Today",
+   "title": "Chennai remains under rain alert; showers likely till Oct 24",
+   "url": "https://newstodaynet.com/2026/10/19/chennai-remains-under-rain-alert-showers-likely-till-oct-24/"
+  },
+  {
+   "name": "News Today",
+   "title": "2,372 relief camps kept ready in Chennai",
+   "url": "https://newstodaynet.com/2026/10/19/2372-relief-camps-kept-ready-in-chennai/"
+  },
+  {
+   "name": "ANI",
+   "title": "Chennai Corporation deploys 15,000 personnel, 600 pumps for Northeast monsoon preparedness",
+   "url": "https://aninews.in/news/national/general-news/chennai-corporation-deploys-15000-personnel-600-pumps-for-northeast-monsoon-preparedness20261019201434/"
+  }
+ ],
+ "thread": "che-monsoon",
+ "tldr": "Chennai's red alert was cut to yellow, but more heavy spells are possible till Wednesday and 2,372 relief camps are ready.",
+ "topic": "Rain alert eases",
+ "watch": "Chennai's yellow rain alert runs through Wednesday, October 21, per the Regional Meteorological Centre."
+}

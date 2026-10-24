@@ -1,0 +1,104 @@
+{
+ "areas": [
+  "Citywide",
+  "Borivali",
+  "Dahisar"
+ ],
+ "beats": {
+  "care": "Depend on public toilets while commuting? BMC says it will track them digitally through its ToiletSeva app.",
+  "what": "QCI, hired by BMC, checked 837 of 896 pay-and-use toilets: 8 got A, 566 B, 90 C and 173 D.",
+  "why": "BMC wants the grades to push repairs and a standard design and upkeep plan for public toilets."
+ },
+ "cards": [
+  {
+   "body": "That's under 1% of the 837 toilets checked so far.",
+   "caption": "toilets that got Grade A",
+   "k": "num",
+   "value": "8"
+  },
+  {
+   "body": "BMC's draft pay-and-use policy proposes Rs 5 for women's urinals, up from Rs 2, a new Rs 1 fee for men's urinals, and Rs 10 for bathing. It isn't final.",
+   "k": "tea",
+   "title": "Fees may rise too"
+  },
+  {
+   "body": "Activist Vinod Gholap called the result \"a wake-up call for the BMC.\"",
+   "k": "twist"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "The best toilets",
+    "The lowest-scoring toilets, needing big fixes",
+    "Toilets that are free",
+    "Toilets set to shut"
+   ],
+   "q": "What does a Grade D mean in this survey?",
+   "why": "D was the lowest grade, for toilets that scored worst across the five checks."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "A, surprisingly ok",
+    "B, could be worse",
+    "C, only if desperate",
+    "D, never again"
+   ],
+   "q": "Rate Mumbai's public toilets"
+  }
+ ],
+ "cat": "local",
+ "city": "Mumbai",
+ "date": "2026-10-21",
+ "heat": 3,
+ "hook": "How many of Mumbai's public toilets *got a top grade*?",
+ "lead": "local",
+ "learn": {
+  "t": "Each toilet was scored out of 100 on five areas, including access for children and people with disabilities."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧻",
+    "label": "Poor cleanliness"
+   },
+   {
+    "icon": "🔧",
+    "label": "Broken plumbing, wiring"
+   },
+   {
+    "icon": "♿",
+    "label": "Weak accessibility"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "📢",
+    "label": "Notices to operators"
+   },
+   {
+    "icon": "🛠️",
+    "label": "Upgrades planned"
+   }
+  ],
+  "event": {
+   "icon": "📋",
+   "label": "QCI grades 837 toilets"
+  }
+ },
+ "order": 84,
+ "readSecs": 45,
+ "sort": "2026-10-21-15",
+ "sources": [
+  {
+   "name": "Free Press Journal",
+   "title": "Mumbai: BMC Assessment Finds 173 Of 837 Pay-And-Use Toilets Graded D, Only 8 Secure Top Grade A",
+   "url": "https://www.freepressjournal.in/mumbai/mumbai-bmc-assessment-finds-173-of-837-pay-and-use-toilets-graded-d-only-8-secure-top-grade-a"
+  }
+ ],
+ "thread": "mum-civic",
+ "tldr": "A Quality Council of India check graded only 8 of 837 BMC pay-and-use toilets 'A', while 173 got the lowest 'D' grade.",
+ "topic": "Toilet report card",
+ "watch": "Toilet operators in North Mumbai served BMC notices have three months to renovate."
+}

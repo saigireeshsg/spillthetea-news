@@ -1,0 +1,122 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Expect slow roads and flooded underpasses. Plan buffer time, keep your phone charged, and avoid low-lying streets after heavy spells.",
+  "what": "IMD says the northeast monsoon has set in over Tamil Nadu and Puducherry. On Tuesday it only said the monsoon could arrive soon.",
+  "why": "The southwest monsoon has fully withdrawn and winds have turned easterly. IMD forecast heavy rain for Chennai, Tiruvallur, Chengalpattu and Kancheepuram on Saturday."
+ },
+ "cards": [
+  {
+   "body": "GCC listed 219 places that flood easily. Stormwater drains are done at 93 of them, and work is still going on at 19.",
+   "caption": "waterlogging-prone spots",
+   "k": "num",
+   "value": "219"
+  },
+  {
+   "body": "Perungudi zone has more than 40 flood-prone spots. Sholinganallur, Anna Nagar and Tondiarpet each have over 20. If you live or work there, check the news before you head out.",
+   "k": "tea",
+   "title": "Where it floods most"
+  },
+  {
+   "ans": 1,
+   "k": "quiz",
+   "opts": [
+    "Chennai will flood today for sure",
+    "Seasonal easterly winds have begun bringing regular rain",
+    "The southwest monsoon has just started",
+    "All schools are closed"
+   ],
+   "q": "What does the monsoon 'setting in' mean here?",
+   "why": "IMD declares onset when the southwest monsoon has withdrawn and easterly winds start steady rain over the region."
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Metro all the way",
+    "Work or study from home",
+    "Brave the bike",
+    "Leave early, hope for the best"
+   ],
+   "q": "Your rainy-day commute plan?"
+  },
+  {
+   "body": "The Greater Chennai Corporation has 1,189 vehicles and other equipment ready for rescue and relief work, along with 500 tractor-mounted pumps.",
+   "k": "twist"
+  }
+ ],
+ "cat": "local",
+ "city": "Chennai",
+ "cover": {
+  "bg": [
+   "#0f2236",
+   "#2f80ed"
+  ],
+  "big": "219",
+  "label": "Waterlogging-prone spots GCC is watching",
+  "motion": "drift",
+  "scene": [
+   "🌧️",
+   "🌊",
+   "🚧"
+  ]
+ },
+ "date": "2026-10-17",
+ "heat": 4,
+ "hook": "The monsoon is officially here. *What changed since Tuesday?*",
+ "lead": "local",
+ "learn": {
+  "t": "Chennai gets most of its yearly rain from the northeast monsoon between October and December, not from the June–September monsoon."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌬️",
+    "label": "Winds turn easterly"
+   },
+   {
+    "icon": "🌀",
+    "label": "Circulation off TN coast"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⚠️",
+    "label": "Heavy rain alert Saturday"
+   },
+   {
+    "icon": "🚰",
+    "label": "1,000+ GCC pumps ready"
+   }
+  ],
+  "event": {
+   "icon": "🌧️",
+   "label": "Northeast monsoon sets in"
+  }
+ },
+ "order": 85,
+ "readSecs": 50,
+ "sort": "2026-10-17-14",
+ "sources": [
+  {
+   "name": "News Today",
+   "title": "Northeast Monsoon sets in over south peninsula",
+   "url": "https://newstodaynet.com/2026/10/16/northeast-monsoon-sets-in-over-south-peninsula/"
+  },
+  {
+   "name": "News Today",
+   "title": "GCC readies over 1,000 pumps ahead of northeast monsoon",
+   "url": "https://newstodaynet.com/2026/10/16/gcc-readies-over-1000-pumps-ahead-of-northeast-monsoon/"
+  },
+  {
+   "name": "LiveChennai",
+   "title": "Tamil Nadu Northeast Monsoon 2026 Begins: Orange Alert for 6 Districts, Chennai Rain Forecast",
+   "url": "https://www.livechennai.com/detailnews.asp?newsid=83859"
+  }
+ ],
+ "thread": "che-monsoon",
+ "tldr": "The northeast monsoon has now officially set in over Tamil Nadu, and IMD put Chennai on its heavy-rain list for Saturday.",
+ "topic": "Monsoon onset",
+ "watch": "Whether the heavy rain forecast for Saturday, Oct 17, floods Chennai's known waterlogging spots like Perungudi and Sholinganallur."
+}
