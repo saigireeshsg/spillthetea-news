@@ -1,5 +1,5 @@
 // Spill service worker: makes the app installable and keeps the last stories readable offline.
-const VERSION = "spill-v3";
+const VERSION = "spill-v4";
 const SHELL = ["/", "/config.js", "/spill-db.js", "/install.js", "/cricket.js", "/wire.js", "/favicon.svg", "/icon-192.png", "/icon-512.png", "/manifest.webmanifest"];
 
 self.addEventListener("install", (e) => {
@@ -39,4 +39,27 @@ self.addEventListener("fetch", (e) => {
   } else {
     e.respondWith(networkFirst(req)); // network-first so app updates reach installed users
   }
+});
+
+// Push notifications (live cricket alerts and future breaking news).
+self.addEventListener("push", (e) => {
+  let d = {};
+  try { d = e.data ? e.data.json() : {}; } catch (_) { d = { title: "Spill", body: e.data ? e.data.text() : "" }; }
+  e.waitUntil(self.registration.showNotification(d.title || "Spill", {
+    body: d.body || "",
+    icon: "/icon-192.png",
+    badge: "/icon-192.png",
+    tag: d.tag || "spill",
+    renotify: !!d.renotify,
+    data: { url: d.url || "/" },
+  }));
+});
+self.addEventListener("notificationclick", (e) => {
+  e.notification.close();
+  const url = new URL((e.notification.data && e.notification.data.url) || "/", self.location.origin).href;
+  e.waitUntil((async () => {
+    const all = await clients.matchAll({ type: "window", includeUncontrolled: true });
+    for (const c of all) { if (new URL(c.url).origin === self.location.origin) { await c.focus(); c.navigate(url).catch(() => {}); return; } }
+    await clients.openWindow(url);
+  })());
 });
