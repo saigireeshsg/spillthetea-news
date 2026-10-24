@@ -1,0 +1,238 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:RS;src:url(reddit-sans-latin-400-normal.woff2) format("woff2");font-weight:400}
+@font-face{font-family:RS;src:url(reddit-sans-latin-700-normal.woff2) format("woff2");font-weight:700}
+@font-face{font-family:RS;src:url(reddit-sans-latin-800-normal.woff2) format("woff2");font-weight:800}
+@font-face{font-family:RS;src:url(reddit-sans-latin-900-normal.woff2) format("woff2");font-weight:900}
+:root{--bg:#0a0a0b;--card:#1a1a1b;--card2:#272729;--line:#343536;--fg:#eef1f3;--mut:#9aa5ad;--or:#ff4500;--or2:#ff7a45;--bl:#4fbcff;--gr:#46d160;--rd:#ff4b4b}
+*{box-sizing:border-box}
+html,body{margin:0;width:540px;height:960px;overflow:hidden;background:var(--bg);color:var(--fg);font-family:RS,"Noto Color Emoji",sans-serif;-webkit-font-smoothing:antialiased}
+.sc{position:absolute;inset:0;opacity:0}
+@keyframes vis{0%{opacity:0}100%{opacity:1}}
+@keyframes hide{to{opacity:0}}
+@keyframes up{from{transform:translateY(40px);opacity:0}to{transform:none;opacity:1}}
+@keyframes upbig{from{transform:translateY(120%);}to{transform:none}}
+@keyframes pop{0%{transform:scale(.4);opacity:0}70%{transform:scale(1.08);opacity:1}100%{transform:scale(1);opacity:1}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes slideL{from{transform:translateX(-60px);opacity:0}to{transform:none;opacity:1}}
+@keyframes slideR{from{transform:translateX(80px);opacity:0}to{transform:none;opacity:1}}
+@keyframes drop{from{transform:translateY(-140%)}to{transform:none}}
+@keyframes grow{from{width:0}}
+@keyframes scrollwall{from{transform:translateY(0)}to{transform:translateY(-1100px)}}
+@keyframes shake{0%,100%{transform:none}20%{transform:translate(-6px,3px) rotate(-1deg)}40%{transform:translate(5px,-4px) rotate(1deg)}60%{transform:translate(-4px,2px)}80%{transform:translate(3px,-2px)}}
+@keyframes zoomfill{from{transform:translate(-50%,-50%) scale(0)}to{transform:translate(-50%,-50%) scale(1)}}
+@keyframes phonein{from{transform:translateY(520px) rotate(-4deg)}to{transform:translateY(0) rotate(0)}}
+@keyframes tap{0%{transform:scale(1)}40%{transform:scale(.92)}100%{transform:scale(1)}}
+@keyframes ripple{from{transform:translate(-50%,-50%) scale(0);opacity:.6}to{transform:translate(-50%,-50%) scale(5);opacity:0}}
+@keyframes pulse{50%{opacity:.25}}
+@keyframes wipe{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes countup{from{--n:0}}
+.k{font-weight:900;letter-spacing:-.035em;line-height:.95}
+.lab{position:absolute;left:36px;right:36px;top:64px;font-weight:900;font-size:44px;letter-spacing:-.03em;line-height:1}
+.lab em{font-style:normal;color:var(--or)}
+.cap{position:absolute;left:36px;right:36px;bottom:70px;font-size:20px;font-weight:700;color:var(--mut);line-height:1.35}
+.cap b{color:var(--fg)}
+/* phone */
+.phone{position:absolute;left:50%;margin-left:-185px;top:200px;width:370px;height:660px;border-radius:46px;background:#000;padding:10px;box-shadow:0 0 0 2px #2b2b2e,0 0 0 8px #151517,0 40px 80px #000,0 0 120px #ff450033}
+.screen{width:100%;height:100%;border-radius:37px;background:#030303;overflow:hidden;position:relative;padding:44px 14px 14px}
+.notch{position:absolute;top:10px;left:50%;transform:translateX(-50%);width:100px;height:26px;border-radius:16px;background:#000;z-index:5}
+.sbar{display:flex;align-items:center;gap:8px;margin-bottom:12px}
+.sbar i{width:30px;height:30px;border-radius:50%;background:var(--or);display:grid;place-items:center;font-style:normal;font-size:15px}
+.sbar b{font-size:20px;font-weight:900;letter-spacing:-.02em}
+.card{background:var(--card);border-radius:18px;padding:14px;display:grid;gap:10px}
+.tag{display:flex;gap:6px;align-items:center;font-size:12px;font-weight:700;color:var(--mut)}
+.tag .lo{background:#e8730c;color:#fff;border-radius:999px;padding:2px 8px;font-size:11px}
+.hook{font-size:21px;font-weight:800;line-height:1.2;letter-spacing:-.01em}
+.hook em{font-style:normal;color:var(--or)}
+.map{background:#141415;border-radius:14px;padding:10px;display:grid;gap:7px}
+.map small{font-size:9.5px;font-weight:800;letter-spacing:.08em;color:var(--mut)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.chip{background:var(--card2);border-radius:10px;padding:8px;font-size:12px;font-weight:700;line-height:1.25}
+.chip .e{display:block;font-size:16px;margin-bottom:2px}
+.ev{background:var(--or);border-radius:10px;padding:10px;font-size:14px;font-weight:800;display:flex;gap:8px;align-items:center}
+.eff{background:#0f2433;color:#7cc8ff}
+.arr{text-align:center;color:var(--mut);font-size:12px;line-height:.6}
+/* numbers */
+.vz{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;position:absolute;left:36px;right:36px}
+.vh{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:16px;color:var(--mut);font-weight:700}
+.chg{background:#0f2b17;color:var(--gr);border-radius:999px;padding:4px 10px;font-weight:900;font-size:15px}
+.br{display:grid;grid-template-columns:150px 1fr 60px;gap:10px;align-items:center;margin-top:10px;font-size:14px;color:var(--mut)}
+.bt{height:22px;background:var(--line);border-radius:999px;overflow:hidden}.bt i{display:block;height:100%;border-radius:999px;background:#7c8a96}
+.br.now .bt i{background:var(--or)}.br b{font-size:22px;font-weight:900;color:var(--fg);text-align:right}
+.mt{height:26px;background:var(--line);border-radius:999px;overflow:hidden;margin-top:6px}.mt i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,#ffd166,var(--or))}
+.big{font-size:34px;font-weight:900;letter-spacing:-.02em}
+/* live */
+.live{position:absolute;left:36px;right:36px;display:grid;gap:10px}
+.li{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px;display:grid;gap:4px}
+.li small{font-size:12px;color:var(--mut);font-weight:700;display:flex;gap:6px;align-items:center}
+.li b{font-size:17px;line-height:1.3}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--rd);display:inline-block;animation:pulse 1.2s infinite}
+.al{background:#e5383b;color:#fff;border-radius:999px;padding:1px 7px;font-size:10.5px}
+.cric{position:absolute;left:36px;right:36px;background:linear-gradient(135deg,#0b2a1c,#123b5c);border:1px solid #1f5f86;border-radius:20px;padding:16px}
+.cric .t{font-size:12.5px;font-weight:800;letter-spacing:.06em;color:#9fd3ff;display:flex;justify-content:space-between}
+.cric .r{display:flex;gap:12px;font-size:20px;margin-top:8px}.cric .r b{width:50px}
+.cric .h{margin-top:10px;font-size:20px;font-weight:900;color:#ffd166}
+.balls{display:flex;gap:6px;margin-top:10px}.balls span{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:14px;background:#2a3540}
+.b6{background:#7b3fe4!important}.b4{background:#0f9d58!important}
+.push{position:absolute;left:20px;right:20px;top:18px;background:#1c1c1fef;border:1px solid #ffffff22;border-radius:22px;padding:12px 14px;display:flex;gap:12px;box-shadow:0 20px 50px #000a}
+.push i{width:40px;height:40px;border-radius:10px;background:var(--or);display:grid;place-items:center;font-style:normal;font-size:20px;flex:none}
+.push small{font-size:12px;color:var(--mut);font-weight:700}.push b{display:block;font-size:16px}.push span{font-size:14px;color:#cfd6db}
+/* poll */
+.poll{position:absolute;left:30px;right:30px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:24px}
+.poll .q{font-size:28px;font-weight:800;line-height:1.25;margin:6px 0 14px}
+.poll .hd{font-size:12.5px;font-weight:800;letter-spacing:.06em;color:var(--mut)}
+.sb{display:flex;height:34px;border-radius:999px;overflow:hidden;gap:3px}.sb i{display:block;height:100%}
+.lg{display:grid;gap:12px;margin-top:18px;font-size:20px}.lg span{display:flex;align-items:center;gap:8px}.lg i{width:12px;height:12px;border-radius:4px;display:inline-block}.lg b{margin-left:auto;font-size:26px}
+/* act */
+.act{position:absolute;left:30px;right:30px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:24px;display:grid;gap:16px}
+.act .ak{display:flex;gap:6px;font-size:12px;font-weight:800}.act .ak span{border-radius:999px;padding:4px 10px;background:var(--card2);color:var(--mut)}.act .ak .kd{background:#3a1a0f;color:var(--or)}.act .ak .op{background:#0f2b17;color:var(--gr)}
+.act h3{margin:0;font-size:30px;line-height:1.2}
+.act .st{display:flex;gap:10px;align-items:baseline;background:var(--card2);border-radius:12px;padding:10px 12px}.act .st b{font-size:38px;font-weight:900}.act .st span{color:var(--mut);font-size:14px}
+.btn{position:relative;overflow:hidden;justify-self:start;border:2px solid var(--or);color:var(--or);border-radius:999px;padding:14px 22px;font-weight:900;font-size:22px}
+.btn .on{position:absolute;inset:0;background:var(--or);color:#fff;display:flex;align-items:center;justify-content:center;opacity:0}
+.rip{position:absolute;left:50%;top:50%;width:60px;height:60px;border-radius:50%;background:#fff;opacity:0}
+/* end */
+.end{display:grid;place-items:center;text-align:center}
+.qr{width:150px;height:150px;background:#fff;border-radius:18px;padding:10px}
+.qr svg{width:100%;height:100%;display:block}
+.pill{display:inline-block;background:var(--or);color:#fff;border-radius:999px;padding:12px 24px;font-size:26px;font-weight:900;letter-spacing:-.01em}
+</style></head>
+<body>
+
+<!-- S1 0–3.2: the problem -->
+<div class="sc" style="animation:vis .01s 0s both,hide .3s 3.0s forwards">
+  <div style="position:absolute;inset:-40px 20px auto 20px;color:#3a3f44;font-size:17px;line-height:1.35;font-weight:700;animation:scrollwall 3.2s 0s linear both">
+    <div id="wall"></div>
+  </div>
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,#0a0a0bcc 0%,#0a0a0b44 40%,#0a0a0b44 60%,#0a0a0bee 100%)"></div>
+  <div class="k" style="position:absolute;left:36px;right:36px;top:330px;font-size:84px">
+    <div style="animation:up .35s .2s both">The news</div>
+    <div style="animation:up .35s .55s both">is <span style="color:var(--rd);display:inline-block;animation:pop .4s .9s both,shake .5s 1.4s both">a lot.</span></div>
+  </div>
+  <div style="position:absolute;left:36px;bottom:150px;font-size:24px;font-weight:700;color:var(--mut);animation:fade .4s 1.8s both">Too long. Too boring. Too much.</div>
+</div>
+
+<!-- S2 3.2–6: brand -->
+<div class="sc" style="animation:vis .01s 3.0s both,hide .3s 5.85s forwards">
+  <div style="position:absolute;left:50%;top:50%;width:1300px;height:1300px;border-radius:50%;background:var(--or);animation:zoomfill .55s 3.0s cubic-bezier(.7,0,.2,1) both"></div>
+  <div class="end" style="position:absolute;inset:0">
+    <div style="display:grid;gap:18px;justify-items:center">
+      <div style="width:120px;height:120px;border-radius:50%;background:#fff;display:grid;place-items:center;font-size:62px;animation:pop .5s 3.45s both">☕</div>
+      <div class="k" style="font-size:118px;color:#fff;animation:up .4s 3.7s both">spill</div>
+      <div style="font-size:30px;font-weight:800;color:#fff;animation:up .4s 4.1s both">the news, minus the boring.</div>
+      <div style="margin-top:6px;font-size:20px;font-weight:700;color:#ffe2d6;animation:fade .4s 4.6s both">Made for Hyderabad. Made for you.</div>
+    </div>
+  </div>
+</div>
+
+<!-- S3 6–11.5: explainer card -->
+<div class="sc" style="animation:vis .2s 5.85s both,hide .3s 11.4s forwards">
+  <div class="lab" style="animation:up .4s 6.0s both">Every story in<br><em>60 seconds.</em></div>
+  <div class="phone" style="animation:phonein .7s 6.1s cubic-bezier(.2,.9,.2,1) both">
+    <div class="screen"><div class="notch"></div>
+      <div class="sbar"><i>☕</i><b>spill</b></div>
+      <div class="card">
+        <div class="tag">📍 r/Hyderabad · today <span class="lo">Local</span></div>
+        <div class="hook" style="animation:wipe .6s 6.7s both">Telangana's water crisis may last till <em>July</em>, CM warns</div>
+        <div class="map">
+          <small style="animation:fade .3s 7.3s both">WHY IT'S IN THE NEWS</small>
+          <div class="row2"><div class="chip" style="animation:pop .35s 7.5s both"><span class="e">🌵</span>El Niño weak monsoon</div><div class="chip" style="animation:pop .35s 7.75s both"><span class="e">💧</span>Reservoirs under 200 tmcft</div></div>
+          <div class="arr" style="animation:fade .2s 8.0s both">↓</div>
+          <small style="animation:fade .3s 8.1s both">WHAT HAPPENED</small>
+          <div class="ev" style="animation:slideL .4s 8.25s both">🚰 Water crisis till July</div>
+          <div class="arr" style="animation:fade .2s 8.6s both">↓</div>
+          <small style="animation:fade .3s 8.7s both">WHAT IT MEANS FOR YOU</small>
+          <div class="row2"><div class="chip eff" style="animation:pop .35s 8.9s both"><span class="e">⚡</span>Save water and power</div><div class="chip eff" style="animation:pop .35s 9.15s both"><span class="e">👷</span>Job scheme after Sankranti</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cap" style="bottom:36px;animation:fade .4s 9.6s both"><b>Why it happened → what happened → what it means for you.</b></div>
+</div>
+
+<!-- S4 11.5–15.5: numbers -->
+<div class="sc" style="animation:vis .2s 11.4s both,hide .3s 15.4s forwards">
+  <div class="lab" style="animation:up .4s 11.5s both">Numbers you<br><em>see,</em> not read.</div>
+  <div class="vz" style="top:250px;animation:up .45s 11.8s both">
+    <div class="vh"><span>🏅 India's Para Games medals</span><span class="chg" style="animation:pop .35s 13.0s both">▲ 6%</span></div>
+    <div class="br"><span>Old record<br>(Hangzhou 2023)</span><div class="bt"><i style="width:94.7%;animation:grow .7s 12.2s cubic-bezier(.2,.8,.2,1) both"></i></div><b>108</b></div>
+    <div class="br now"><span>Nagoya 2026</span><div class="bt"><i style="width:100%;animation:grow .7s 12.5s cubic-bezier(.2,.8,.2,1) both"></i></div><b>114</b></div>
+  </div>
+  <div class="vz" style="top:520px;animation:up .45s 13.3s both">
+    <div class="vh"><span>🏛️ Qutb Shahi museum project</span></div>
+    <div class="big">₹70.61 cr <span style="font-size:20px;color:var(--mut);font-weight:700">of ₹96.9 cr spent</span></div>
+    <div class="mt"><i style="width:72.9%;animation:grow .9s 13.7s cubic-bezier(.2,.8,.2,1) both"></i></div>
+    <div style="margin-top:10px;font-size:15px;color:var(--rd);font-weight:800;animation:fade .3s 14.5s both">…and stuck in 90 court cases</div>
+  </div>
+  <div class="cap" style="animation:fade .4s 14.2s both">Charts on every story. <b>Real numbers, from real reports.</b></div>
+</div>
+
+<!-- S5 15.5–20: live + cricket + push -->
+<div class="sc" style="animation:vis .2s 15.4s both,hide .3s 19.9s forwards">
+  <div class="lab" style="animation:up .4s 15.5s both,hide .25s 18.25s forwards">Live. Like,<br><em>actually</em> live.</div>
+  <div class="live" style="top:240px">
+    <div class="li" style="animation:slideR .4s 15.8s both"><small><span class="dot"></span>LIVE · HYDERABAD · 6 min ago</small><b>Water Board asks homes to cut water and power use by 20%</b></div>
+    <div class="li" style="animation:slideR .4s 16.1s both"><small><span class="dot"></span>LIVE · TELANGANA · 1 h ago</small><b>Harish Rao asks CM to postpone AEE exam clashing with SSC JE</b></div>
+    <div class="li" style="animation:slideR .4s 16.4s both"><small><span class="al">ALERT</span> INDIA · 2 h ago</small><b>Cyclone may cross the Odisha–Andhra coast by Oct 28</b></div>
+  </div>
+  <div class="cric" style="top:630px;animation:up .45s 17.0s both">
+    <div class="t"><span>🏏 LIVE · 2ND T20I · CHRISTCHURCH</span><span style="color:var(--rd)">● LIVE</span></div>
+    <div class="r"><b>NZ</b><span style="color:#a9b8c4">180/5</span></div>
+    <div class="r" style="margin-top:2px"><b>IND</b><span>178/6 (19.4 ov)</span></div>
+    <div class="h">India need 3 off 2 balls</div>
+    <div class="balls"><span>1</span><span class="b4">4</span><span>2</span><span class="b6">6</span><span>1</span></div>
+  </div>
+  <div class="push" style="animation:drop .45s 18.4s cubic-bezier(.2,.9,.2,1) both">
+    <i>☕</i><div><small>SPILL · now</small><b>🏆 NZ v IND · India won by 4 wkts</b><span>IND 181/6 · Tap for the full scorecard</span></div>
+  </div>
+</div>
+
+<!-- S6 20–23.5: poll split -->
+<div class="sc" style="animation:vis .2s 19.9s both,hide .3s 23.4s forwards">
+  <div class="lab" style="animation:up .4s 20.0s both">See where<br><em>Hyderabad</em> stands.</div>
+  <div class="poll" style="top:270px;animation:up .45s 20.3s both">
+    <div class="hd">🗳️ HOW READERS ARE LEANING</div>
+    <div class="q">Has water supply dropped in your area?</div>
+    <div class="sb"><i style="width:41%;background:var(--or);animation:grow .6s 20.8s both"></i><i style="width:23%;background:var(--bl);animation:grow .6s 21.0s both"></i><i style="width:36%;background:#ffd166;animation:grow .6s 21.2s both"></i></div>
+    <div class="lg">
+      <span style="animation:fade .3s 21.4s both"><i style="background:var(--or)"></i>Yes<b>41%</b></span>
+      <span style="animation:fade .3s 21.6s both"><i style="background:var(--bl)"></i>Not yet<b>23%</b></span>
+      <span style="animation:fade .3s 21.8s both"><i style="background:#ffd166"></i>I depend on tankers<b>36%</b></span>
+    </div>
+  </div>
+  <div class="cap" style="animation:fade .4s 22.2s both">A poll on every story. <b>Vote, then see how your city thinks.</b></div>
+</div>
+
+<!-- S7 23.5–26.5: speak up -->
+<div class="sc" style="animation:vis .2s 23.4s both,hide .3s 26.4s forwards">
+  <div class="lab" style="animation:up .4s 23.5s both">Don't just read.<br><em>Speak up.</em></div>
+  <div class="act" style="top:260px;animation:up .45s 23.8s both">
+    <div class="ak"><span class="kd">✍️ Petition</span><span>🚦 Traffic</span><span class="op">Open</span></div>
+    <h3>Let's Un-Choke Hyderabad: pause flyovers, fix public transport</h3>
+    <div class="st"><b>270+</b><span>sign-ups in the first two days</span></div>
+    <div class="btn" style="animation:tap .35s 25.0s both">✋ I support this<div class="rip" style="animation:ripple .6s 25.05s both"></div><div class="on" style="animation:fade .15s 25.2s both">✓ I support this</div></div>
+  </div>
+  <div class="cap" style="animation:fade .4s 25.3s both">Petitions, public consultations and citizen drives. <b>All in one place.</b></div>
+</div>
+
+<!-- S8 26.5–30: end card -->
+<div class="sc end" style="animation:vis .25s 26.4s both;background:radial-gradient(700px 600px at 50% 40%,#3a1405 0%,#0a0a0b 70%)">
+  <div style="display:grid;gap:14px;justify-items:center">
+    <div class="k" style="font-size:62px;animation:up .35s 26.6s both">Hyderabad's news.</div>
+    <div class="k" style="font-size:62px;color:var(--or);animation:up .35s 26.9s both">60 seconds.</div>
+    <div class="k" style="font-size:62px;animation:up .35s 27.2s both">Zero boring.</div>
+    <div style="height:10px"></div>
+    <div class="pill" style="animation:pop .45s 27.7s both">spillthetea.news</div>
+    <div class="qr" style="animation:pop .45s 28.1s both" id="qr"></div>
+    <div style="font-size:18px;font-weight:700;color:var(--mut);animation:fade .4s 28.5s both">Free · No sign-up · Add to your home screen</div>
+  </div>
+</div>
+
+<script>
+const lines=["Cabinet approves revised guidelines for urban local body polls","RBI keeps repo rate unchanged amid inflation concerns","HC issues notice to State on pending land acquisition","Panel to study amendment proposals for municipal acts","Officials review progress of irrigation projects in districts","Opposition walks out over delay in fee reimbursement","Ministry releases draft notification on vehicle rules","Collector holds review meeting on seasonal diseases","Corporation passes resolution on property tax revision","Department invites tenders for road maintenance works","Committee submits interim report on water allocation","Assembly session likely to be extended by two days","State seeks additional funds under central scheme","Experts call for comprehensive review of transport policy","Board meets to discuss tariff revision proposal","Notification issued for recruitment to various posts","Court adjourns hearing in long-pending dispute","Union Minister reviews implementation of flagship scheme"];
+let h="";for(let i=0;i<5;i++)lines.forEach(l=>h+=`<p style="margin:0 0 14px">${l}</p>`);document.getElementById("wall").innerHTML=h;
+fetch("qr.svg").then(r=>r.text()).then(t=>document.getElementById("qr").innerHTML=t);
+window.seek=t=>{document.getAnimations().forEach(a=>{a.pause();a.currentTime=t*1000});};
+</script>
+</body></html>
