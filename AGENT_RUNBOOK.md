@@ -180,3 +180,7 @@ Home shows "🔴 Developing now": rich Need-to-know items, plus live_wire headli
    - **Depth:** answers why it's happening, what happens next, and who decides. Has explainer cards, 1+ `viz` with real numbers, and a poll.
    - **Relatability:** a concrete stake for a 15–30 year old in Hyderabad (money, time, commute, job, exam, safety, plans). Say it in the hook.
 4. Keep politics to what changes daily life; no politics infographics (§15).
+
+
+## 18. Weather is automatic
+Live temperature, forecast and AQI come from Open-Meteo in the reader's browser (their location if they share it, otherwise Hyderabad), refreshed every 15 min, and shaped by time of day (morning: today; evening: tonight + tomorrow; night/late: tomorrow). Don't write temperatures or AQI by hand. In `content/now/hyderabad.json` keep only `rain` for official advisories (IMD alerts, cyclone, heatwave warnings), e.g. "IMD orange alert: heavy rain Mon–Tue". Clear it once the advisory ends.

@@ -1905,13 +1905,13 @@ function liveItemHTML(x,compact){const k=KIND[x.kind]||KIND.alert;const old=!act
   const areas=(x.areas||[]).filter(a=>a!=="Citywide").slice(0,2);
   return `<div class="li sev${x.sev||1} ${old?"old":""}"><span class="lk" aria-hidden="true">${k[0]}</span><div style="min-width:0"><div class="lm"><span class="k">${esc(k[1])}</span>${x.tag?`<span class="ltag">${esc(x.tag)}</span>`:""}<span>· ${ago(x.ts)}</span>${(x.sev||1)>=3?'<span class="urg">ACT NOW</span>':""}${nearYou(x)?`<span class="near">📍 near you</span>`:areas.map(a=>`<span>· ${esc(a)}</span>`).join("")}${x.updated?`<span>· updated ${ago(x.updated)}</span>`:""}</div><p class="lt">${esc(x.title)}</p>${!compact&&x.body?`<p class="lb">${esc(x.body)}</p>`:""}${!compact&&(x.means||[]).length?`<ul class="lmeans">${x.means.slice(0,3).map(m=>`<li>${esc(m)}</li>`).join("")}</ul>`:""}${!compact&&Array.isArray(x.viz)&&x.viz.length?`<div class="vgrid lviz">${x.viz.slice(0,3).map(vizOne).join("")}</div>`:""}${!compact&&x.poll&&(x.poll.opts||[]).length>1?livePollHTML(x):""}${!compact&&x.care?`<p class="lcare"><b>👉 For you:</b> ${esc(x.care)}</p>`:""}${!compact&&(x.links||[]).length?`<div class="llinks">${x.links.slice(0,3).map(l=>`<a class="llink" href="${esc(l.url)}" target="_blank" rel="noopener" data-llink="${esc(x.id)}">${esc(l.label)} ↗</a>`).join("")}</div>`:""}${!compact?`<div class="ls"><span>${verLabel(x)}</span>${(x.src||[]).slice(0,2).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join("")}${x.open&&drops.some(d=>d.id===x.open)?`<button data-open="${esc(x.open)}">Full story →</button>`:""}${old?"<span>· over</span>":`<button data-act="lshare" data-key="${esc(x.id)}">↗ Share</button>`}</div>`:""}</div></div>`}
 function aqiCls(n){return n<=100?"":n<=200?"m":"p"}
-function nowHTML(){const n=me.city&&nowDocs[me.city.toLowerCase()];if(!n)return"";
+function nowHTML(){const n=me.city&&nowDocs[me.city.toLowerCase()];if(window.spillWx&&window.spillWx()&&window.wxCardHTML){const adv=n&&n.rain&&Date.now()-(n.ts||0)<20*3600e3?String(n.rain).split(" · ").filter(x=>/imd|alert|warning|cyclone|heavy/i.test(x)).join(" · "):"";return window.wxCardHTML(adv)}if(!n)return"";
   return `<div class="wx"><span class="wi" aria-hidden="true">${esc(n.icon||"🌤️")}</span><div class="tx"><b>${n.temp!=null?esc(n.temp)+"° · ":""}${esc(n.cond||"")}${n.high!=null?` · high ${esc(n.high)}°`:""}</b><span class="s">${esc(n.rain||"")}${n.tip?" · "+esc(n.tip):""}</span></div>${n.aqi?`<span class="aqi ${aqiCls(+n.aqi)}">AQI ${esc(n.aqi)} · ${esc(n.aqiLabel||"")}</span>`:""}</div>`}
 function latestTs(arr){return Math.max(0,...arr.map(x=>Math.max(x.ts||0,x.updated||0)))}
 function tickerHTML(){
   const n=me.city&&nowDocs[me.city.toLowerCase()];
   const top=window.wireTop?window.wireTop():null;
-  const wx=n?`<button class="tk-wx" data-act="live" data-key="local" aria-label="Weather">${esc(n.icon||"🌤️")} <b>${esc(n.temp!=null?n.temp:n.high)}°</b>${n.aqi?` · AQI ${esc(n.aqi)}`:""}</button>`:"";
+  const wx=window.wxTickerHTML&&window.wxTickerHTML()?window.wxTickerHTML():n?`<button class="tk-wx" data-act="live" data-key="local" aria-label="Weather">${esc(n.icon||"🌤️")} <b>${esc(n.temp!=null?n.temp:n.high)}°</b>${n.aqi?` · AQI ${esc(n.aqi)}`:""}</button>`:"";
   const lv=false&&top?`<button class="tk-lv" data-act="live" data-key="${top.item.region==="india"?"national":"local"}" aria-label="Live updates"><span class="ldot" aria-hidden="true"></span><span class="t">${esc(top.item.title)}</span>${top.count>1?`<i>+${top.count-1}</i>`:""}</button>`:"";
   if(!wx&&!lv)return"";
   return `<section class="ticker">${wx}${lv}</section>`}
@@ -1938,7 +1938,7 @@ function developingHTML(){
 function liveView(){
   const scope=liveTab;const arr=liveList(scope,true).sort((a,b)=>(b.ts||0)-(a.ts||0));
   const nowA=arr.filter(x=>activeLive(x)&&Date.now()-Math.max(x.ts||0,x.updated||0)<12*3600e3),earlier=arr.filter(x=>!nowA.includes(x));
-  let h=`<section class="livebox"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE</b><span class="upd">updated every 10 min, round the clock</span></div><div class="ltabs"><button data-act="ltab" data-key="local" aria-pressed="${scope==="local"}">📍 ${esc(me.city||"Your city")}</button><button data-act="ltab" data-key="national" aria-pressed="${scope==="national"}">🇮🇳 India</button></div>${scope==="local"?nowHTML():""}${scope==="local"&&areasFor(me.city).length?`<button class="areabtn" data-act="area">📍 ${me.area?"Your area: "+esc(me.area)+" · change":"Set your area for \"near you\" alerts"}</button>`:""}${window.newsBellHTML?window.newsBellHTML():""}</section>`;
+  let h=`<section class="livebox"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE</b><span class="upd">${(()=>{const dp=window.spillDaypart?window.spillDaypart():null;return dp?esc(dp.icon+" "+dp.title+" · "+dp.line):"updated every 10 min, round the clock"})()}</span></div><div class="ltabs"><button data-act="ltab" data-key="local" aria-pressed="${scope==="local"}">📍 ${esc(me.city||"Your city")}</button><button data-act="ltab" data-key="national" aria-pressed="${scope==="national"}">🇮🇳 India</button></div>${scope==="local"?nowHTML():""}${scope==="local"&&areasFor(me.city).length?`<button class="areabtn" data-act="area">📍 ${me.area?"Your area: "+esc(me.area)+" · change":"Set your area for \"near you\" alerts"}</button>`:""}${window.newsBellHTML?window.newsBellHTML():""}</section>`;
   h+=(window.civicHTML?window.civicHTML(scope):"");
   if(nowA.length)h+=`<section class="livebox ntk"><span class="lgrp">🔥 Need to know</span>${nowA.map(x=>liveItemHTML(x)).join("")}</section>`;
   if(scope==="local")h+=(window.eventsTeaser?window.eventsTeaser():"");
@@ -2188,6 +2188,7 @@ window.spillRerender=function(){if(open||document.querySelector(".sheet"))return
 <script src="/wire.js" defer></script>
 <script src="/analytics.js" defer></script>
 <script src="/desktop.js" defer></script>
+<script src="/weather.js" defer></script>
 <script src="/civic.js" defer></script>
 <script src="/install.js" defer></script>
 </body>
