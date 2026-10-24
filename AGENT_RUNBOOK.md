@@ -211,3 +211,12 @@ Rules for the `hook` (≤ 90 chars, starts with one fitting emoji):
 - Example: "HYDRAA busts water racket in Sunnam Cheruvu" → "💧 HYDRAA finds borewells inside bedrooms near Sunnam Cheruvu lake, removes 15".
 **Short live alerts:** add `steps` (2–4: what happened → why → what's next) and `viz` tiles when there are numbers. Anything deeper becomes a flair card (above).
 **Names everywhere:** live titles, drops and notifs name the place and the person. Don't write "a city", "a minister" or "a top university".
+
+
+## 21. 💼 Opportunities first (owner priority)
+The most valuable news for Spill readers changes their next move: **jobs and hiring drives, govt notifications (TGPSC, SSC, RRB, banks), internships, fellowships, scholarships, free courses and certifications, hackathons, startup programmes and grants, T-Hub, TiE and ISB events, campus drives, job melas, exam and fee deadlines.**
+- Every morning and evening run: before any other pick, check `select source, title, url, published_at from scout_items where published_at > now() - interval '36 hours' and title ~* '(recruit|vacanc|notification|hiring|job|internship|fellowship|scholarship|hackathon|grant|incubat|accelerat|t-hub|free (course|training|access)|applications? (open|invited)|last date|deadline|campus drive|job mela)' order by published_at desc limit 30;`
+- Pick at least 1–2 opportunity stories a run when real ones exist (`cat` local, campus, money or tech, tagged "💼 Opportunity").
+- An opportunity story must be **actionable**: who can apply (eligibility), the deadline, the cost (free or ₹), how many seats or posts, and the **official apply link** in `links`/`sources`. If you can't find how to apply, it's not ready. Skip it or write it as "coming soon" with what to watch.
+- Never present an old programme as new: check the date. Recycled PR (for example, old "free access" offers) needs a current official page.
+- Startup events: name the venue, date, time and price, plus the registration link. T-Hub, TiE and ISB come first.
