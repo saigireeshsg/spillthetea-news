@@ -65,9 +65,11 @@
     return (m.teams || []).map((t) => `<div class="row ${t.batting ? "on" : m.state === "in" ? "off" : ""}"><b>${E(t.abbr || t.name)}</b><span>${E(t.score || (m.state === "pre" ? "yet to bat" : "—"))}</span></div>`).join("");
   }
 
+  // Home shows only upcoming and live matches; finished ones drop off (result stays reachable via alerts).
+  const homeMatch = () => M.find((m) => m.state !== "post" && !m.finished);
   window.cricHTML = function () {
-    if (!M.length) return "";
-    const m = M[0];
+    const m = homeMatch();
+    if (!m) return "";
     return `<div id="crick" class="crickw"><button class="crick" data-crick="${E(m.id)}" aria-label="Live cricket: ${E(m.title)}">
       <div class="top">🏏 ${label(m)} · ${E(shortDesc(m) || m.short)}${m.state === "in" ? `<span class="lv"><i></i>LIVE</span>` : ""}</div>
       ${teamRows(m)}
@@ -111,8 +113,8 @@
   function render() {
     const card = document.getElementById("crick");
     if (card) {
-      if (M.length) card.outerHTML = window.cricHTML(); else card.remove();
-    } else if (M.length && window.spillRerender) {
+      if (homeMatch()) card.outerHTML = window.cricHTML(); else card.remove();
+    } else if (homeMatch() && window.spillRerender) {
       window.spillRerender();
     }
     const sh = document.getElementById("cricsheet");
