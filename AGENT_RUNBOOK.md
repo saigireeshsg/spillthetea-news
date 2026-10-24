@@ -169,3 +169,14 @@ The Events tab is hidden while it has no upcoming events. Keep 6–15 upcoming H
 {"title":"…","kind":"startup|tech|career|meetup|comedy|music|sports|food|art|fest|outdoor","start":"2026-10-31T11:00:00+05:30","end":"2026-10-31T14:00:00+05:30","venue":"T-Hub","area":"Raidurg","price":"Free | ₹499 onwards","why":"one line on why it's worth going, Spill voice","url":"<official registration/ticket page>","cta":"Register | Book","source":"Luma","pick":true}
 ```
 - Verify the date, venue and price on the official page. If the date isn't confirmed, skip it. Delete files for past events.
+
+
+## 17. Live → feed: grow developing stories into full stories (every morning and evening run)
+Home shows "🔴 Developing now": rich Need-to-know items, plus live_wire headlines with 3+ outlets. Once a story has depth, it becomes a regular feed story:
+1. Candidates: active live items with `sev >= 2` or 2+ updates, and `select title, outlets, url from live_wire where outlets >= 3 and published_at > now() - interval '12 hours' order by score desc limit 5;`
+2. For the top 1–2 not already in content/drops, write a full drop (counts toward the Pick table) and set the live item's `"open": "<drop id>"` so Live links to it and Home stops showing it as Developing.
+3. Every feed story must pass all three:
+   - **Novelty:** new today, or a real new development (not a rerun of yesterday). Lead with what changed.
+   - **Depth:** answers why it's happening, what happens next, and who decides. Has explainer cards, 1+ `viz` with real numbers, and a poll.
+   - **Relatability:** a concrete stake for a 15–30 year old in Hyderabad (money, time, commute, job, exam, safety, plans). Say it in the hook.
+4. Keep politics to what changes daily life; no politics infographics (§15).

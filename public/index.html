@@ -93,6 +93,7 @@
 .lpoll>b{font-size:15px;line-height:1.35}
 .lpo{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;font:inherit;font-size:14px;font-weight:700;color:var(--fg);text-align:left;cursor:pointer;background:var(--card);border:1px solid var(--line-2);border-radius:10px;padding:9px 12px}
 .lpo:disabled{cursor:default}.lpo.mine{border-color:var(--orange)}.lpo i{position:absolute;inset:0 auto 0 0;opacity:.28;border-radius:9px 0 0 9px}.lpo span,.lpo em{position:relative}.lpo em{font-style:normal;font-weight:900}
+.dev{margin-bottom:6px}.devw{display:flex;gap:10px;align-items:flex-start;padding:10px 2px;border-top:1px solid var(--line);color:inherit;text-decoration:none}.devw:first-child{border-top:0}.devw .ldot{margin-top:6px;flex:none}.devw b{display:block;font-size:15px;line-height:1.35}.devw small{color:var(--muted);font-size:12.5px}
 .lmeans{margin:6px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px;line-height:1.45}
 .lviz{margin-top:8px}.lviz .vz{min-width:0}
 .ltag{background:var(--blue-soft,#16253a);color:var(--blue,#7cb7ff);border-radius:999px;padding:1px 8px;font-weight:800}
@@ -1254,6 +1255,7 @@ function scoreOf(d){let s=(d.heat||0)*2;const k=gkey(d);
   if(!k.startsWith("_"))s+=Math.min(affOf("t:"+k),15)*.6;
   if(d.featured)s+=me.goal==="exam"?4:1;
   if(d.lead)s+=1.5;
+  if(!me.seen[d.id])s+=4;
   if(me.done[d.id])s-=100;
   return s}
 function reasonOf(d){
@@ -1360,6 +1362,7 @@ function feed(){
     if(fol.length)h+=`<div class="sect"><span>🔔 Stories you follow</span></div>`+fol.map(cardHTML).join("");
     if(!me.city)h+=`<button class="setloc" data-act="pickcity">📍 Pick your city to get local news and live alerts →</button>`;
     else if(areasFor(me.city).length&&!me.area)h+=`<button class="setloc" data-act="area">📍 Add your area (${esc(areasFor(me.city).slice(0,2).join(", "))}…) so news near you comes first →</button>`;
+    h+=developingHTML();
     h+=`<div class="sect"><span>${stale?"☕ Yesterday's tea · today's lands at 7am":"✨ For you"}</span><button data-act="whyorder">why this order?</button></div>`+cap("rest",rest,5);
     h+=extrasHTML();
   } else h+=list.map(cardHTML).join("");
@@ -1922,6 +1925,16 @@ function liveStripHTML(){
   else if(areasFor(me.city).length)h+=`<section class="livebox"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE · ${esc(me.city.toUpperCase())}</b><span class="upd">${brk?"🚨 1 alert, see above":"all quiet · checked through the day"}</span><button data-act="live" data-key="local">Open →</button></div>${me.area?"":`<button class="areabtn" data-act="area">📍 Set your area to get "near you" alerts</button>`}<button class="tipbtn" data-act="tip">📣 Seen something${me.area?" in "+esc(me.area):""}? Tell the live desk</button></section>`;
   if(nat.length)h+=`<section class="livebox" aria-label="Live in India"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE · INDIA</b><span class="upd">updated ${ago(latestTs(nat))}</span><button data-act="live" data-key="national">All ${nat.length} →</button></div>${nat.slice(0,2).map(x=>liveItemHTML(x,true)).join("")}</section>`;
   return h}
+// Home: live stories as they develop: the richest Need-to-know items, plus headlines several outlets are now reporting.
+function developingHTML(){
+  const fresh=x=>activeLive(x)&&Date.now()-Math.max(x.ts||0,x.updated||0)<12*3600e3;
+  const pool=liveList("local",true).concat(liveList("national",true));
+  const seen=new Set();const items=pool.filter(x=>{if(seen.has(x.id))return false;seen.add(x.id);return fresh(x)&&(x.body||x.viz||x.poll)&&!(x.open&&drops.some(d=>d.id===x.open))})
+    .sort((a,b)=>((b.sev||1)-(a.sev||1))||(Math.max(b.ts||0,b.updated||0)-Math.max(a.ts||0,a.updated||0))).slice(0,3);
+  const W=(window.wireList?window.wireList():[]).filter(w=>(w.outlets||1)>=3&&Date.now()-Date.parse(w.published_at)<8*3600e3)
+    .sort((a,b)=>((b.region!=="india")-(a.region!=="india"))||(b.outlets-a.outlets)).slice(0,items.length>=2?1:2);
+  if(!items.length&&!W.length)return"";
+  return `<div class="sect"><span>🔴 Developing now</span><button data-act="live" data-key="local">All live →</button></div><section class="livebox ntk dev">${items.map(x=>liveItemHTML(x)).join("")}${W.map(w=>`<a class="devw" href="${esc(w.url)}" target="_blank" rel="noopener"><span class="ldot" aria-hidden="true"></span><span><b>${esc(w.title)}</b><small>${w.outlets} outlets reporting · ${esc(w.publisher||"")} · ${ago(Date.parse(w.published_at))}</small></span></a>`).join("")}</section>`}
 function liveView(){
   const scope=liveTab;const arr=liveList(scope,true).sort((a,b)=>(b.ts||0)-(a.ts||0));
   const nowA=arr.filter(x=>activeLive(x)&&Date.now()-Math.max(x.ts||0,x.updated||0)<12*3600e3),earlier=arr.filter(x=>!nowA.includes(x));
