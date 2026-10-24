@@ -2,6 +2,15 @@
 
 Spill publishes directly: what you push to `main` goes live on spillthetea.news within about a minute. Accuracy matters more than volume. If you are unsure of a fact, leave it out.
 
+## Budget (read first — stay inside the owner's daily/weekly usage limits)
+- Lean runs. No subagents, no screenshots, no headless browsers, no re-reading big files. Read only the 2–3 example drops you need, not the whole folder (`ls content/drops | grep <date>` for duplicates).
+- Scout table first; web searches max **3** per run (morning), **2** (midday/evening).
+- WebFetch: **1 article per story** (2 only if facts conflict). Skip any page that fails once — don't retry.
+- Story caps: morning **8–10**, midday **0–2 live alerts + weather** (no stories unless major breaking), evening **2–3**.
+- Write each drop compactly: `cards` = tea + 1 extra + poll + quiz. Write all files in one script/Bash call where possible.
+- If you hit a usage or rate limit: commit and push what's verified, report, stop. Never loop or retry heavy steps.
+- Quiet day? Publish fewer. Zero is fine for midday.
+
 ## 0. Setup
 1. Attach the repo with push access (`add_repo` owner `saigireeshsg`, repo `spillthetea-news`, access `push`), clone it to `/home/claude/spillthetea-news`, and work there.
 2. Commit as `Claude <noreply@anthropic.com>`: run `git config user.name Claude && git config user.email noreply@anthropic.com`.
@@ -27,9 +36,9 @@ Group headlines about the same event. Prefer events reported by 2+ outlets. Skip
 
 | Run | What to publish |
 | --- | --- |
-| Morning (by 7 am IST) | 14–18 stories dated today: 1 featured editorial (from The Hindu editorial feed), 5–7 Hyderabad/Telangana (`cat: "local"`, `city: "Hyderabad"`), 1–2 each for Bengaluru, Chennai, Delhi, Mumbai, Pune, Kolkata (`cat: "local"` with that `city`), 3–4 India, 1–2 money, 1–2 world, 1 sport or tech or planet. Plus a morning notification and fresh weather for each city. |
+| Morning (by 7 am IST) | 8–10 stories dated today: 1 featured editorial (from The Hindu editorial feed), 3–4 Hyderabad/Telangana (`cat: "local"`, `city: "Hyderabad"`), 1–2 other-city locals (only the strongest; rotate cities across days — Bengaluru, Chennai, Delhi, Mumbai, Pune, Kolkata), 2 India, 1 money or world. Plus a morning notification and fresh weather for each city (from scout items/one search, not 7 fetches). |
 | Midday (around 12:30 pm) | Live alerts only: traffic, rain, power or water cuts, civic alerts, big breaking news, as `content/live/*.json`. Refresh `content/now/<city>.json` weather. Add a story only for real breaking news. |
-| Evening (by 6 pm) | 4–6 new stories that broke during the day, updates to ongoing threads (reuse the same `thread`), an evening notification (`slot: "evening"`), and expire stale live alerts by setting `until`. |
+| Evening (by 6 pm) | 2–3 new stories that broke during the day, updates to ongoing threads (reuse the same `thread`), an evening notification (`slot: "evening"`), and expire stale live alerts by setting `until`. |
 
 Before writing, list today's existing files in `content/drops/` so you never publish the same story twice. If a story moved forward, write a new drop on the same `thread` that says what changed.
 
