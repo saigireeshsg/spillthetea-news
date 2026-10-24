@@ -149,31 +149,22 @@
   const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
   const canPush = "serviceWorker" in navigator && "PushManager" in window && "Notification" in window && !!C.vapidPublicKey;
   function bellHTML() {
-    if (lsGet(PKEY) === "1" && canPush && Notification.permission === "granted") return `<button class="cbell on" data-cbell="off">🔔 Wicket & result alerts on · tap to turn off</button>`;
+    if (window.spillPush ? window.spillPush.has("cricket") : (lsGet(PKEY) === "1" && canPush && Notification.permission === "granted")) return `<button class="cbell on" data-cbell="off">🔔 Wicket & result alerts on · tap to turn off</button>`;
     if (!canPush && isIOS && !standalone) return `<button class="cbell" data-cbell="ios">🔔 Want wicket alerts? Add Spill to your Home Screen first (Share → Add to Home Screen)</button>`;
     if (!canPush) return "";
     if (Notification.permission === "denied") return `<button class="cbell" data-cbell="denied">🔕 Alerts are blocked in your browser settings</button>`;
     return `<button class="cbell" data-cbell="on">🔔 Alert me for wickets, 50s and the result</button>`;
   }
   const b64 = (s) => { const p = "=".repeat((4 - (s.length % 4)) % 4); const raw = atob((s + p).replace(/-/g, "+").replace(/_/g, "/")); return Uint8Array.from(raw, (c) => c.charCodeAt(0)); };
+  // Subscriptions are shared with breaking-news alerts (push.js), so cricket on/off never touches the other topic.
   async function alertsOn() {
-    const perm = await Notification.requestPermission();
-    if (perm !== "granted") { render(); return; }
-    const reg = await navigator.serviceWorker.ready;
-    let sub = await reg.pushManager.getSubscription();
-    if (!sub) sub = await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64(C.vapidPublicKey) });
-    const { error } = await sb.rpc("push_subscribe", { sub: sub.toJSON(), topics: ["cricket"] });
-    if (!error) { lsSet(PKEY, "1"); toastC("🔔 Done. We'll ping you for wickets, 50s, 100s and the result."); }
-    else toastC("Couldn't turn on alerts. Try again?");
+    const ok = window.spillPush ? await window.spillPush.add("cricket") : false;
+    toastC(ok ? "🔔 Done. We'll ping you for wickets, 50s, 100s and the result." : "Couldn't turn on alerts. Try again?");
     render();
   }
   async function alertsOff() {
-    try {
-      const reg = await navigator.serviceWorker.ready;
-      const sub = await reg.pushManager.getSubscription();
-      if (sub) { await sb.rpc("push_unsubscribe", { endpoint: sub.endpoint }); await sub.unsubscribe(); }
-    } catch (_) {}
-    lsSet(PKEY, null); toastC("Alerts off"); render();
+    if (window.spillPush) await window.spillPush.remove("cricket");
+    toastC("Alerts off"); render();
   }
   function toastC(msg) {
     if (typeof window.toast === "function") return window.toast(msg);

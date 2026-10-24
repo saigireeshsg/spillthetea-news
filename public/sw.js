@@ -1,6 +1,6 @@
 // Spill service worker: makes the app installable and keeps the last stories readable offline.
-const VERSION = "spill-v13";
-const SHELL = ["/", "/config.js", "/spill-db.js", "/install.js", "/cricket.js", "/wire.js", "/desktop.js", "/civic.js", "/qr.svg", "/favicon.svg", "/icon-192.png", "/icon-512.png", "/manifest.webmanifest"];
+const VERSION = "spill-v14";
+const SHELL = ["/", "/config.js", "/spill-db.js", "/install.js", "/push.js", "/cricket.js", "/wire.js", "/desktop.js", "/civic.js", "/qr.svg", "/favicon.svg", "/icon-192.png", "/icon-512.png", "/manifest.webmanifest"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -32,6 +32,7 @@ self.addEventListener("fetch", (e) => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
   if (url.origin !== location.origin) return; // Supabase, fonts and CDNs go straight to the network
+  if (url.pathname.startsWith("/admin")) return;
   if (req.mode === "navigate") {
     e.respondWith(networkFirst(req, "/"));
   } else if (url.pathname.startsWith("/data/")) {
