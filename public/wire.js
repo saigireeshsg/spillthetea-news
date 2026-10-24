@@ -42,18 +42,25 @@
   }
 
   window.wireCount = (scope) => pickFor(scope).length;
+  // Home ticker: just the single most important headline + how many more.
+  window.wireTop = () => (W.length ? { item: W[0], count: W.length } : null);
+  const more = {};
 
   window.wireHTML = function (scope, n) {
-    const list = pickFor(scope).slice(0, n || 6);
+    const all = pickFor(scope);
+    const cap = more[scope] ? all.length : Math.min(n || 6, 10);
+    const list = all.slice(0, cap);
     if (!list.length) return "";
     const head = scope === "home"
       ? `<div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE WIRE · HYDERABAD & INDIA</b><span class="upd">ranked ${fetchedAt ? ago(new Date(fetchedAt).toISOString()) : ""}</span></div>`
       : `<span class="lgrp">Latest headlines · ranked by what matters to you</span>`;
     const foot = scope === "home"
       ? `<div class="wfoot"><span>Tap a headline to read it at the source</span><button data-act="live" data-key="local">More →</button></div>`
-      : `<div class="wfoot"><span>Updated every 10 min · headlines link to the original outlet</span></div>`;
+      : `<div class="wfoot"><span>Updated every 10 min · tap to read at the source</span>${all.length > cap ? `<button data-wmore="${scope}">Show ${all.length - cap} more ↓</button>` : ""}</div>`;
     return `<section class="livebox wire" aria-label="Live wire">${head}${list.map(item).join("")}${foot}</section>`;
   };
+
+  document.addEventListener("click", (e) => { const b = e.target.closest("[data-wmore]"); if (b) { e.preventDefault(); e.stopPropagation(); more[b.dataset.wmore] = true; window.spillRerender && window.spillRerender(); } }, true);
 
   async function load() {
     try {

@@ -1,5 +1,5 @@
 // Spill service worker: makes the app installable and keeps the last stories readable offline.
-const VERSION = "spill-v4";
+const VERSION = "spill-v5";
 const SHELL = ["/", "/config.js", "/spill-db.js", "/install.js", "/cricket.js", "/wire.js", "/favicon.svg", "/icon-192.png", "/icon-512.png", "/manifest.webmanifest"];
 
 self.addEventListener("install", (e) => {

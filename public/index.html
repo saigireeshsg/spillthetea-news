@@ -23,7 +23,14 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px);background:#030303}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
+<style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px);background:#030303}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}.ticker{display:flex;gap:8px;align-items:stretch;margin:0 0 12px}
+.ticker button{font:inherit;color:var(--fg);background:var(--card,#1a1a1b);border:1px solid var(--line,#343536);border-radius:14px;padding:9px 12px;cursor:pointer;display:flex;align-items:center;gap:7px;min-width:0}
+.ticker .tk-wx{flex:none;font-size:13.5px}
+.ticker .tk-lv{flex:1;font-size:13.5px;font-weight:700;text-align:left}
+.ticker .tk-lv .t{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ticker .tk-lv i{font-style:normal;font-size:11.5px;font-weight:800;color:#9fd3ff;background:#1f3b57;border-radius:999px;padding:1px 7px;flex:none}
+.post .pt{margin-bottom:6px}
+</style>
 <script src="/config.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
 <script src="/spill-db.js"></script>
@@ -1216,8 +1223,8 @@ function voteHTML(kind,key,score,mineV){return `<span class="vote ${mineV===1?"u
 function cprevHTML(d){const t=takesFor(d.id).map(x=>Object.assign(x,{score:S.take[x.key]||0})).sort((a,b)=>b.score-a.score||b.ts-a.ts)[0];
   if(t)return `<p class="cprev"><b>💬 u/${esc(t.handle)}:</b><span>${esc(t.text)}</span></p>`;
   return ""}
-function cardHTML(d){const sc=S.post[d.id]||0;const n=commentCount(d);const care=d.beats?.care;
-  return `<article class="post click ${me.done[d.id]?"done":""}" data-open="${d.id}" tabindex="0">${d.featured?`<div class="featbar">📰 EDITORIAL OF THE DAY <small>· ${esc(d.editorial?.paper||"")}, decoded</small></div>`:""}${head(d)}${!me.done[d.id]&&reasonOf(d)?`<p class="rsn">${esc(reasonOf(d))}</p>`:""}<h2 class="pt">${rich(d.hook)}</h2>${(()=>{const sb=siblings(d).length,lv=liveFor(d);return (lv?`<p class="cardlive"><span class="ldot" aria-hidden="true"></span><b>LIVE · ${ago(lv.updated||lv.ts)}</b><span class="t">${esc(lv.title)}</span></p>`:"")+(sb?`<p class="thr">🧵 Ongoing story · ${sb} earlier ${sb===1?"update":"updates"} inside</p>`:"")})()}${d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}${learnOf(d)?`<p class="rem"><b>💡</b><span>${esc(learnOf(d))}</span></p>`:""}<div class="acts">${voteHTML("post",d.id,sc,me.post[d.id])}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button></div></article>`}
+function cardHTML(d,ix){const sc=S.post[d.id]||0;const n=commentCount(d);const care=d.beats?.care;const hero=ix===0;
+  return `<article class="post click ${me.done[d.id]?"done":""}" data-open="${d.id}" tabindex="0">${d.featured?`<div class="featbar">📰 EDITORIAL OF THE DAY <small>· ${esc(d.editorial?.paper||"")}, decoded</small></div>`:""}${head(d)}<h2 class="pt">${rich(d.hook)}</h2>${(()=>{const sb=siblings(d).length,lv=liveFor(d);return (lv?`<p class="cardlive"><span class="ldot" aria-hidden="true"></span><b>LIVE · ${ago(lv.updated||lv.ts)}</b><span class="t">${esc(lv.title)}</span></p>`:"")+(sb?`<p class="thr">🧵 Ongoing story · ${sb} earlier ${sb===1?"update":"updates"} inside</p>`:"")})()}${hero?(d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)):""}<div class="acts">${voteHTML("post",d.id,sc,me.post[d.id])}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button></div></article>`}
 
 // ---------- greeting + breaking banner + extras ----------
 let firstName="",extrasOpen=false;
@@ -1250,8 +1257,7 @@ function feed(){
     h+=breakingHTML();
     h+=(window.cricHTML?window.cricHTML():"");
     h+=greetHTML(done,total,pc,fresh);
-    h+=liveStripHTML();
-    h+=(window.wireHTML?window.wireHTML("home",5):"");
+    h+=tickerHTML();
   }
   if(!list.length){$("#view").innerHTML=h+`<div class="end"><span class="big">🫖</span><b>No tea yet</b><span>Fresh stories land here every morning.</span></div>`+(filter==="all"?extrasHTML():"");return}
   const stale=isStale();
@@ -1261,7 +1267,7 @@ function feed(){
     if(fol.length)h+=`<div class="sect"><span>🔔 Stories you follow</span></div>`+fol.map(cardHTML).join("");
     if(!me.city)h+=`<button class="setloc" data-act="pickcity">📍 Pick your city to get local news and live alerts →</button>`;
     else if(areasFor(me.city).length&&!me.area)h+=`<button class="setloc" data-act="area">📍 Add your area (${esc(areasFor(me.city).slice(0,2).join(", "))}…) so news near you comes first →</button>`;
-    h+=`<div class="sect"><span>${stale?"☕ Yesterday's tea · today's lands at 7am":"✨ For you"}</span><button data-act="whyorder">why this order?</button></div>`+cap("rest",rest,6);
+    h+=`<div class="sect"><span>${stale?"☕ Yesterday's tea · today's lands at 7am":"✨ For you"}</span><button data-act="whyorder">why this order?</button></div>`+cap("rest",rest,5);
     h+=extrasHTML();
   } else h+=list.map(cardHTML).join("");
   h+=`<div class="end"><span class="big">${done>=total?"🏆":"🫖"}</span><b>${done>=total?"Done for today. You know what's going on.":"That's today's tea"}</b><span>${done}/${total} caught up · fresh stories tomorrow at 7am</span>${done>=total&&total?bonusHTML()+tomorrowHTML():""}${done>=total&&total?`<button class="recapbtn" data-act="recap" style="margin-top:8px"><span>🌙 See what you learned today</span><small>→</small></button>`:""}</div>`;
@@ -1771,6 +1777,13 @@ function aqiCls(n){return n<=100?"":n<=200?"m":"p"}
 function nowHTML(){const n=me.city&&nowDocs[me.city.toLowerCase()];if(!n)return"";
   return `<div class="wx"><span class="wi" aria-hidden="true">${esc(n.icon||"🌤️")}</span><div class="tx"><b>${n.temp!=null?esc(n.temp)+"° · ":""}${esc(n.cond||"")}${n.high!=null?` · high ${esc(n.high)}°`:""}</b><span class="s">${esc(n.rain||"")}${n.tip?" · "+esc(n.tip):""}</span></div>${n.aqi?`<span class="aqi ${aqiCls(+n.aqi)}">AQI ${esc(n.aqi)} · ${esc(n.aqiLabel||"")}</span>`:""}</div>`}
 function latestTs(arr){return Math.max(0,...arr.map(x=>Math.max(x.ts||0,x.updated||0)))}
+function tickerHTML(){
+  const n=me.city&&nowDocs[me.city.toLowerCase()];
+  const top=window.wireTop?window.wireTop():null;
+  const wx=n?`<button class="tk-wx" data-act="live" data-key="local" aria-label="Weather">${esc(n.icon||"🌤️")} <b>${esc(n.temp!=null?n.temp:n.high)}°</b>${n.aqi?` · AQI ${esc(n.aqi)}`:""}</button>`:"";
+  const lv=top?`<button class="tk-lv" data-act="live" data-key="${top.item.region==="india"?"national":"local"}" aria-label="Live updates"><span class="ldot" aria-hidden="true"></span><span class="t">${esc(top.item.title)}</span>${top.count>1?`<i>+${top.count-1}</i>`:""}</button>`:"";
+  if(!wx&&!lv)return"";
+  return `<section class="ticker">${wx}${lv}</section>`}
 function liveStripHTML(){
   const n=me.city&&nowDocs[me.city.toLowerCase()];const att=attachedLive();
   const brk=(breakingList()[0]||{}).id;

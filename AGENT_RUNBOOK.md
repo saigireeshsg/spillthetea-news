@@ -6,7 +6,7 @@ Spill publishes directly: what you push to `main` goes live on spillthetea.news 
 - Lean runs. No subagents, no screenshots, no headless browsers, no re-reading big files. Read only the 2–3 example drops you need, not the whole folder (`ls content/drops | grep <date>` for duplicates).
 - Scout table first; web searches max **3** per run (morning), **2** (midday/evening).
 - WebFetch: **1 article per story** (2 only if facts conflict). Skip any page that fails once — don't retry.
-- Story caps: morning **8–10**, midday **0–2 live alerts + weather** (no stories unless major breaking), evening **2–3**.
+- Story caps: morning **6–7**, midday **0–2 live alerts + weather** (no stories unless major breaking), evening **2**. Readers said the app felt text-heavy and overwhelming: fewer, sharper stories beat more.
 - Write each drop compactly: `cards` = tea + 1 extra + poll + quiz. Write all files in one script/Bash call where possible.
 - If you hit a usage or rate limit: commit and push what's verified, report, stop. Never loop or retry heavy steps.
 - Quiet day? Publish fewer. Zero is fine for midday.
@@ -30,15 +30,17 @@ order by region, published_at desc nulls last;
 If the newest `fetched_at` is older than 2 hours, check `select name,last_status from scout_sources where active` and trigger a run with `select net.http_post(...)` exactly as in the cron job (`select command from cron.job`).
 
 ## 2. Pick
+**Local papers:** `scout_items` also carries Telangana papers — English (Telangana Today sections, Deccan Chronicle, Hans India, New Indian Express, The News Minute) and **Telugu** (Namasthe Telangana, Sakshi, Google News Telugu for Telangana/Hyderabad). Read the Telugu headlines for local stories the English press missed; verify from the article (and a second outlet where possible) and write the drop in English. Telugu headlines never appear in the app's Live wire.
+
 Group headlines about the same event. Prefer events reported by 2+ outlets. Skip crime gossip, celebrity news, ads and press-release puffery.
 
 **Value test (every story must pass at least one):** a reader aged 15–30 in that city or in India can (a) *act* on it (deadline, exam, job, fee, scheme, traffic, water/power, safety, money), (b) *talk* about it (big national/world moment their friends will discuss), or (c) *understand* something that shapes their future (policy, economy, climate, tech, rights). If you can't write a concrete `beats.care` line, drop the story. Regional first: Hyderabad/Telangana, then national, then world. (Other cities paused until the owner expands beyond Hyderabad.)
 
 | Run | What to publish |
 | --- | --- |
-| Morning (by 7 am IST) | 8–10 stories dated today. **Hyderabad-only launch:** 1 featured editorial (from The Hindu editorial feed), 4–5 Hyderabad/Telangana (`cat: "local"`, `city: "Hyderabad"`), 2 India, 1 money or world. No other-city locals for now. Plus a morning notification and fresh Hyderabad weather (`content/now/hyderabad.json` only). |
+| Morning (by 7 am IST) | 6–7 stories dated today. **Hyderabad-only launch:** 1 featured editorial (from The Hindu editorial feed), 3 Hyderabad/Telangana (`cat: "local"`, `city: "Hyderabad"`), 2 India, 1 money or world. No other-city locals for now. Plus a morning notification and fresh Hyderabad weather (`content/now/hyderabad.json` only). |
 | Midday (around 12:30 pm) | Live alerts only: traffic, rain, power or water cuts, civic alerts, big breaking news, as `content/live/*.json`. Refresh `content/now/hyderabad.json` weather (Hyderabad only for now). Add a story only for real breaking news. |
-| Evening (by 6 pm) | 2–3 new stories that broke during the day, updates to ongoing threads (reuse the same `thread`), an evening notification (`slot: "evening"`), and expire stale live alerts by setting `until`. |
+| Evening (by 6 pm) | 2 new stories that broke during the day, updates to ongoing threads (reuse the same `thread`), an evening notification (`slot: "evening"`), and expire stale live alerts by setting `until`. |
 
 Before writing, list today's existing files in `content/drops/` so you never publish the same story twice. If a story moved forward, write a new drop on the same `thread` that says what changed.
 
@@ -69,3 +71,6 @@ India matches (men and women) are tracked automatically: Supabase cron `spill-cr
 ## 8. Ranking rule (applies everywhere)
 Order news by four factors, in this order of weight: **recency** (newer first), **relatability** (does it change a 15–30-year-old Hyderabadi's day: water, power, traffic, exams, jobs, prices, weather), **weightage** (how many reputable outlets carry it), **importance** (courts, government decisions, disasters, big national moments). Set each drop's `sort` to reflect this. The Live tab's wire (`public.live_wire`) is ranked automatically every 10 minutes by `refresh_live_wire()` using the same four factors; use its top items as the shortlist when picking stories.
 Cricket alerts: readers opt in on the match card (Web Push). The `cricket` function stays awake during live India matches, re-reads ball-by-ball every 2.5 s, writes to `cricket_live` (readers get it instantly via Realtime) and pushes start, wickets, 50/100s, five-fors, innings break and result once each (`push_log`). VAPID keys live in `public.app_secrets` (server-only). Never push anything that isn't from the live data feed.
+
+## 9. Keep it light (reader feedback, 24 Oct)
+Readers found Spill text-heavy and overwhelming. Every drop: `hook` ≤ 10 words; `tldr` one sentence ≤ 20 words; each `beats` line ≤ 18 words; `cards` = `tea` + `poll` + `quiz` (add one `num` card only when a single number tells the story). Feed cards show only the headline, so the hook must carry the story. Prefer one strong story over two similar ones.
