@@ -1415,13 +1415,10 @@ function calcHTML(k){const C=CALCS[k];const v=calcVals[k]=calcVals[k]||Object.fr
   return `<div class="calc"><h3>${C.t}</h3><div class="cgrid">${C.f.map(([key,lab])=>`<label>${esc(lab)}<input class="cin" type="number" inputmode="decimal" data-calc="${k}" data-f="${key}" value="${esc(v[key])}"></label>`).join("")}</div><div class="cout" id="cout-${k}"><b>${r.big}</b>${esc(r.line)}<small>Illustration only. Returns aren't guaranteed and this isn't advice.</small></div><button class="shbtn" data-act="cshare2" data-key="${k}">📤 Share this</button></div>`}
 let mTab="learn",mOpen={};
 function moneyView(){
-  const done=LESSONS.filter(l=>me.ml&&me.ml[l.id]).length;
-  let h=`<section class="mhead"><h2>💰 Money</h2><p>Learn how money works in 1–2 minute lessons, try the calculators, and read today's money news.</p><span class="disc">📘 Learning, not advice. Spill never recommends specific funds, stocks or apps.</span></section>
-  <div class="mtabs">${[["learn",`📘 Money 101 · ${done}/${LESSONS.length}`],["calc","🧮 Calculators"],["news","📰 Money news"]].map(([k,n])=>`<button data-act="mtab" data-key="${k}" aria-pressed="${mTab===k}">${n}</button>`).join("")}</div>`;
-  if(mTab==="learn"){h+=`<div class="track" aria-label="${done} of ${LESSONS.length} lessons done"><i style="width:${Math.round(done/LESSONS.length*100)}%"></i></div>`+LESSONS.map(lessonHTML).join("")}
-  else if(mTab==="calc")h+=Object.keys(CALCS).map(calcHTML).join("");
-  else{const news=drops.filter(d=>d.cat==="money"&&dAge(d)<=3).sort((a,b)=>String(b.sort||"").localeCompare(String(a.sort||"")));
-    h+=news.length?news.map(cardHTML).join(""):`<div class="end"><span class="big">📰</span><b>Money news lands every morning</b><span>Prices, jobs, RBI, rupee: what it means for your wallet.</span></div>`}
+  // Money tab = money news only (Money 101 lessons and calculators retired).
+  const news=drops.filter(d=>d.cat==="money"&&dAge(d)<=7).sort((a,b)=>String(b.sort||"").localeCompare(String(a.sort||"")));
+  let h=`<section class="mhead"><h2>💰 Money</h2><p>Prices, jobs, RBI, the rupee: what today's money news means for your wallet.</p></section>`;
+  h+=news.length?news.map(cardHTML).join(""):`<div class="end"><span class="big">📰</span><b>Money news lands every morning</b><span>Prices, jobs, RBI, rupee: what it means for your wallet.</span></div>`;
   return h}
 function lessonHTML(l){const o=!!mOpen[l.id],dn=me.ml&&me.ml[l.id]!=null;const a=me.mq&&me.mq[l.id];const qd=a!=null;
   return `<article class="lesson" id="les-${l.id}"><button class="lesson-h" data-act="lopen" data-key="${l.id}" aria-expanded="${o}"><span class="e">${l.e}</span><div><b>${esc(l.t)}</b><small>${l.m} min${dn?"":" · new"}</small></div><span class="st">${dn?"✓":o?"▾":"›"}</span></button>${o?`<div class="lesson-b"><ul>${l.pts.map(p=>`<li>${esc(p)}</li>`).join("")}</ul><div class="lex"><b>Example:</b> ${esc(l.ex)}</div><div class="myth"><div class="m">❌ <b>Myth:</b> ${esc(l.myth)}</div><div class="f">✅ <b>Fact:</b> ${esc(l.fact)}</div></div>
