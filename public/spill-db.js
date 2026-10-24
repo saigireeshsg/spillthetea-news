@@ -9,6 +9,7 @@
   const sb = C.supabaseUrl && C.supabaseAnonKey && window.supabase
     ? window.supabase.createClient(C.supabaseUrl, C.supabaseAnonKey, { auth: { persistSession: true, autoRefreshToken: true } })
     : null;
+  window.spillSB = sb;
   if (!sb) console.warn("Spill: Supabase not configured, votes and comments are off.");
 
   const snap = (rows) => ({

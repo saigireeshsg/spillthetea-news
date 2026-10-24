@@ -1248,6 +1248,7 @@ function feed(){
   if(filter==="moneyhub"){$("#view").innerHTML=moneyView();return}
   if(filter==="all"){
     h+=breakingHTML();
+    h+=(window.cricHTML?window.cricHTML():"");
     h+=greetHTML(done,total,pc,fresh);
     h+=liveStripHTML();
   }
@@ -2015,6 +2016,7 @@ async function syncLoad(){if(!db||!uid)return;try{const snap=await db.collection
 })();
 </script>
 
+<script src="/cricket.js" defer></script>
 <script src="/install.js" defer></script>
 </body>
 </html>

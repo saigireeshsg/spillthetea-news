@@ -1,6 +1,6 @@
 // Spill service worker: makes the app installable and keeps the last stories readable offline.
-const VERSION = "spill-v1";
-const SHELL = ["/", "/config.js", "/spill-db.js", "/install.js", "/favicon.svg", "/icon-192.png", "/icon-512.png", "/manifest.webmanifest"];
+const VERSION = "spill-v2";
+const SHELL = ["/", "/config.js", "/spill-db.js", "/install.js", "/cricket.js", "/favicon.svg", "/icon-192.png", "/icon-512.png", "/manifest.webmanifest"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -37,6 +37,6 @@ self.addEventListener("fetch", (e) => {
   } else if (url.pathname.startsWith("/data/")) {
     e.respondWith(networkFirst(new Request(url.pathname)));
   } else {
-    e.respondWith(caches.match(req).then((hit) => hit || networkFirst(req)));
+    e.respondWith(networkFirst(req)); // network-first so app updates reach installed users
   }
 });
