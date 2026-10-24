@@ -900,7 +900,7 @@ html{scroll-behavior:smooth}
 .extras[open] summary{border-bottom:1px solid var(--line)}
 .extras .xin{padding:12px;display:grid;gap:10px;grid-template-columns:minmax(0,1fr);min-width:0}
 .extras .xin > .dots,.extras .xin > .digest{background:var(--card-2)}
-.tipbtn{display:none!important}
+.tipbtn,.areabtn,.setloc[data-act="area"]{display:none!important}
 .vote.up button,.vote.down button{cursor:default}
 </style>
 
@@ -1991,7 +1991,10 @@ async function syncLoad(){if(!db||!uid)return;try{const snap=await db.collection
   syncReady=true;syncSoon()}
 // ---------- boot ----------
 (async function(){
-  agg();feed();if(!me.onb2)me.pendingFirst=1;let booted=false;
+  // Hyderabad-only launch: no setup popups, straight to the feed.
+  if(!me.city){me.city="Hyderabad";me.area=me.area||""}
+  if(!me.onb2||me.firstRun||me.pendingFirst){me.onb2=1;me.onboarded=1;me.firstRun=0;me.pendingFirst=0;me.goal=me.goal||"loop";try{localStorage.setItem(LS,JSON.stringify(me))}catch(e){}}
+  agg();pills();feed();let booted=false;
   setTimeout(()=>{me.lastVisit=day(new Date());if(wasAway&&!me.welcomed)me.welcomed="";try{localStorage.setItem(LS,JSON.stringify(me))}catch(e){}},0);
   if(!window.claude?.use)return;
   db=await window.claude.use("db");const user=await window.claude.use("user");
