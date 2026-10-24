@@ -78,6 +78,12 @@
 .tq.res.ok{border-color:#2e9e48;background:var(--good-soft)}.tq.res.no{border-color:#7a5a1f;background:#2a2112}
 .tq.res b{font-size:14px}.tq .tqw{display:block;font-size:13.5px;line-height:1.4;color:var(--fg);margin-top:4px;opacity:.9}
 .tq .tqgo{display:inline-block;margin-top:8px;font-size:13px;font-weight:800;color:#fff;background:var(--orange);border-radius:999px;padding:6px 12px}
+.cardviz{margin:10px 0 2px}.cardviz .vz{margin:0}
+.psplit{margin:10px 0 2px;background:var(--card-2);border:1px solid var(--line-2);border-radius:14px;padding:10px 12px}
+.psplit .psh{display:flex;justify-content:space-between;align-items:baseline;font-size:11.5px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.psplit .psh small{font-weight:700;letter-spacing:0;text-transform:none}
+.psplit .psq{display:block;font-size:14px;margin:4px 0 8px;line-height:1.35}
+.psplit .psn{display:block;margin-top:8px;font-size:12.5px;font-weight:800;color:var(--orange)}
 </style>
 <script src="/config.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
@@ -1276,9 +1282,23 @@ function cprevHTML(d){const t=takesFor(d.id).map(x=>Object.assign(x,{score:S.tak
   if(t)return `<p class="cprev"><b>💬 u/${esc(t.handle)}:</b><span>${esc(t.text)}</span></p>`;
   return ""}
 function cardHTML(d,ix){const sc=S.post[d.id]||0;const n=commentCount(d);const care=d.beats?.care;const hero=ix===0;
-  return `<article class="post click ${me.done[d.id]?"done":""}" data-open="${d.id}" tabindex="0">${d.featured?`<div class="featbar">📰 EDITORIAL OF THE DAY <small>· ${esc(d.editorial?.paper||"")}, decoded</small></div>`:""}${head(d)}${!me.done[d.id]&&reasonOf(d)?`<p class="rsn">${esc(reasonOf(d))}</p>`:""}<h2 class="pt">${rich(d.hook)}</h2>${statChip(d)}${(()=>{const sb=siblings(d).length,lv=liveFor(d);return (lv?`<p class="cardlive"><span class="ldot" aria-hidden="true"></span><b>LIVE · ${ago(lv.updated||lv.ts)}</b><span class="t">${esc(lv.title)}</span></p>`:"")+(sb?`<p class="thr">🧵 Ongoing story · ${sb} earlier ${sb===1?"update":"updates"} inside</p>`:"")})()}${d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}${(ix==null||ix<3||me.quiz[d.id]!=null)?teaserHTML(d):""}<div class="acts">${voteHTML("post",d.id,sc,me.post[d.id])}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${me.done[d.id]?"Read again":"Read"} · ${readLen(d)} →</span></div></article>`}
+  return `<article class="post click ${me.done[d.id]?"done":""}" data-open="${d.id}" tabindex="0">${d.featured?`<div class="featbar">📰 EDITORIAL OF THE DAY <small>· ${esc(d.editorial?.paper||"")}, decoded</small></div>`:""}${head(d)}${!me.done[d.id]&&reasonOf(d)?`<p class="rsn">${esc(reasonOf(d))}</p>`:""}<h2 class="pt">${rich(d.hook)}</h2>${statChip(d)}${(()=>{const sb=siblings(d).length,lv=liveFor(d);return (lv?`<p class="cardlive"><span class="ldot" aria-hidden="true"></span><b>LIVE · ${ago(lv.updated||lv.ts)}</b><span class="t">${esc(lv.title)}</span></p>`:"")+(sb?`<p class="thr">🧵 Ongoing story · ${sb} earlier ${sb===1?"update":"updates"} inside</p>`:"")})()}${d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}${hookHTML(d)}<div class="acts">${voteHTML("post",d.id,sc,me.post[d.id])}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${me.done[d.id]?"Read again":"Read"} · ${readLen(d)} →</span></div></article>`}
 const readLen=d=>{const s=+d.readSecs||60;return s<60?s+"s":Math.round(s/60)+" min"};
 // Curiosity hook on the card: the story's quiz question with tappable answers (tap = open story + answer).
+// One visual hook per card, chosen by what fits the story:
+// 1) "Can you guess?" only when the desk flags it (d.teaser); 2) how readers are leaning (poll split, once there are enough votes);
+// 3) the story's main infographic (compare / split / meter / timeline / icons / trend / donut). Single big numbers stay in the stat badge.
+function hookHTML(d){
+  if(me.done[d.id])return "";
+  if(d.teaser&&(d.cards||[]).some(c=>c.k==="quiz"))return teaserHTML(d);
+  const pl=(d.cards||[]).find(c=>c.k==="poll");
+  if(pl&&!isHeavy(d)){const n=tot("poll",d.id);if(!fewVotes(n))return pollSplitHTML(d,pl,n)}
+  const v=vizItems(d).find(x=>x.t&&x.t!=="big");
+  if(v)return `<div class="cardviz" aria-hidden="true">${vizOne(v)}</div>`;
+  return ""}
+function pollSplitHTML(d,pl,n){const cols=["#ff4500","#4fbcff","#ffd166","#46d160","#b388ff"];const ps=pl.opts.map((o,j)=>({o,p:pct("poll",d.id,j),c:cols[j%cols.length]}));
+  const lead=ps.slice().sort((a,b)=>b.p-a.p)[0];
+  return `<div class="psplit"><div class="psh"><span>🗳️ How readers are leaning</span><small>${n} votes</small></div><b class="psq">${rich(pl.q)}</b><div class="vsb">${ps.map(x=>`<i style="width:${Math.max(x.p,2)}%;background:${x.c}"></i>`).join("")}</div><div class="vleg">${ps.map(x=>`<span><i style="background:${x.c}"></i>${esc(x.o)} <b>${x.p}%</b></span>`).join("")}</div>${me.poll[d.id]==null?`<span class="psn">Where do you stand? Tap to vote →</span>`:""}</div>`}
 function teaserHTML(d){const q=(d.cards||[]).find(c=>c.k==="quiz");
   if(!q||me.done[d.id])return "";
   if(me.quiz[d.id]==null)return `<div class="tq"><span class="tqk">🧠 Can you guess?</span><b>${rich(q.q)}</b><div class="tqo">${q.opts.slice(0,4).map((o,j)=>`<button data-tq="${d.id}" data-i="${j}">${esc(o)}</button>`).join("")}</div></div>`;
@@ -1604,7 +1624,7 @@ function vizOne(x){
   return ""}
 function vizHTML(d){const it=vizItems(d);if(!it.length)return"";
   return `<section class="vizbox" aria-label="By the numbers"><h3 class="vzh">📊 By the numbers</h3><div class="vgrid">${it.map(vizOne).join("")}</div></section>`}
-function statChip(d){const it=vizItems(d)[0];if(!it)return"";let v="",l="";
+function statChip(d){const it=vizItems(d).find(x=>x.t==="big");if(!it)return"";let v="",l="";
   if(it.t==="big"){v=it.v;l=it.l}else if(it.t==="compare"){v=(it.a?.d||it.a?.v)+" → "+(it.b?.d||it.b?.v);l=it.l}else if(it.t==="meter"){v=it.d||"";l=it.l}else if(it.t==="stack"){v=it.total||"";l=it.l}else if(it.t==="icons"){v=it.d||(it.n+" in "+it.of);l=it.l}else return"";
   return v?`<p class="statchip"><b>📊 ${esc(plain(String(v)))}</b><span>${esc(plain(String(l||"")))}</span></p>`:""}
 function postView(id,jump,keep){
