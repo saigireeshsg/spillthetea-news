@@ -1264,7 +1264,7 @@ function feed(){
     h+=`<div class="sect"><span>${stale?"☕ Yesterday's tea · today's lands at 7am":"✨ For you"}</span><button data-act="whyorder">why this order?</button></div>`+cap("rest",rest,6);
     h+=extrasHTML();
   } else h+=list.map(cardHTML).join("");
-  h+=`<div class="end"><span class="big">${done>=total?"🏆":"🫖"}</span><b>${done>=total?"Done for today. You know what's going on.":"That's today's tea"}</b><span>${done}/${total} caught up · fresh stories tomorrow at 7am</span>${done>=total&&total?bonusHTML()+tomorrowHTML():""}${done>=total&&total?`<button class="recapbtn" data-act="recap" style="margin-top:8px"><span>🌙 See what you learned today</span><small>→</small></button>`:""}<button class="invite" data-act="invite"><b>👯 Bring your group chat</b><span>Spill is better when your friends vote too.</span></button></div>`;
+  h+=`<div class="end"><span class="big">${done>=total?"🏆":"🫖"}</span><b>${done>=total?"Done for today. You know what's going on.":"That's today's tea"}</b><span>${done}/${total} caught up · fresh stories tomorrow at 7am</span>${done>=total&&total?bonusHTML()+tomorrowHTML():""}${done>=total&&total?`<button class="recapbtn" data-act="recap" style="margin-top:8px"><span>🌙 See what you learned today</span><small>→</small></button>`:""}</div>`;
   $("#view").innerHTML=h;
 }
 
