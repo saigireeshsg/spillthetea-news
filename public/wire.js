@@ -82,10 +82,20 @@
 @keyframes hlrun{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){#hotline .hl-run{animation:none}}
 html.embed #hotline{display:none}
+#hotline.inflow{max-width:676px;margin:10px auto 0;border:1px solid var(--line,#343536);border-radius:12px;width:calc(100% - 24px)}
+html.desk #hotline.inflow{max-width:676px}
 `;
   document.head.appendChild(hcss);
   const mins = (t) => { const m = Math.max(0, Math.round((Date.now() - Date.parse(t)) / 60000)); return m < 1 ? "now" : m < 60 ? m + "m" : Math.round(m / 60) + "h"; };
   let hlSig = "";
+  // Pinned under the menu on the Live page; everywhere else it sits at the top of the page and scrolls away.
+  const onLive = () => { const p = document.querySelector('#subs [aria-pressed="true"]'); const back = document.getElementById("back"); return !!p && p.dataset.f === "live" && (!back || back.hidden); };
+  function place(el) {
+    const bar = document.querySelector("header.bar"), view = document.getElementById("view");
+    if (onLive()) { if (el.parentNode !== bar) { bar.appendChild(el); } el.classList.remove("inflow"); }
+    else if (view && el.nextSibling !== view) { view.parentNode.insertBefore(el, view); el.classList.add("inflow"); }
+    else if (view) el.classList.add("inflow");
+  }
   function hotline() {
     const bar = document.querySelector("header.bar"); if (!bar) return;
     let el = document.getElementById("hotline");
@@ -94,7 +104,12 @@ html.embed #hotline{display:none}
       el.innerHTML = `<span class="hl-tag"><i></i>LIVE</span><div class="hl-vp"><div class="hl-run"></div></div>`;
       el.addEventListener("click", () => { try { window.spillTrack && window.spillTrack("hotline_click"); } catch (_) {} const b = document.querySelector('[data-f="live"]'); if (b) b.click(); window.scrollTo(0, 0); });
       bar.appendChild(el);
+      const subs = document.getElementById("subs"), back = document.getElementById("back");
+      const mo = new MutationObserver(() => place(el));
+      if (subs) mo.observe(subs, { childList: true, subtree: true, attributes: true, attributeFilter: ["aria-pressed"] });
+      if (back) mo.observe(back, { attributes: true, attributeFilter: ["hidden"] });
     }
+    place(el);
     const items = W.slice().sort(byNew).slice(0, 10);
     const cr = window.cricTop ? window.cricTop() : null;
     const parts = (cr ? [`<span class="hl-it cr">${E(cr)}</span>`] : []).concat(items.map((x) => `<span class="hl-it">${E(x.title)} <small>${mins(x.published_at)}</small></span>`));
