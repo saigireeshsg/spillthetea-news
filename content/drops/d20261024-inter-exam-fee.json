@@ -1,0 +1,129 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Inter student? Pay through your college between Oct 26 and Nov 9.",
+  "what": "Telangana's Inter board set the exam fee schedule for March 2027 exams.",
+  "why": "Paying on time keeps you off the late-fee slabs, which climb to ₹2,000."
+ },
+ "cards": [
+  {
+   "body": "First-year general students pay ₹540; vocational ₹890. Second-year arts pays ₹540; science and vocational pay ₹890. Miss Nov 9 and late fees kick in: ₹100, then ₹500, ₹1,000 and ₹2,000 till Dec 14.",
+   "k": "tea"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Day one",
+    "Somewhere in between",
+    "Last date, always"
+   ],
+   "q": "When do you usually pay exam fees?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "₹2,000",
+    "₹500",
+    "₹100",
+    "₹5,000"
+   ],
+   "q": "What's the highest late fee for Inter exam fees?",
+   "why": "The last window, Dec 9–14, carries a ₹2,000 late fee."
+  }
+ ],
+ "cat": "campus",
+ "city": "Hyderabad",
+ "date": "2026-10-24",
+ "heat": 3,
+ "hook": "Inter exam fee window opens *Monday*: pay by Nov 9",
+ "learn": {
+  "t": "TGBIE is the Telangana Board of Intermediate Education, which runs Class 11–12 exams."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏫",
+    "label": "March 2027 Inter exams"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "⏰",
+    "label": "No-fine deadline Nov 9"
+   },
+   {
+    "icon": "💸",
+    "label": "Late fee up to ₹2,000"
+   }
+  ],
+  "event": {
+   "icon": "💳",
+   "label": "Fee window opens Oct 26"
+  }
+ },
+ "order": 20,
+ "readSecs": 35,
+ "sort": "2026-10-24-59",
+ "sources": [
+  {
+   "name": "Careers360",
+   "title": "Telangana Board Exams 2027: TS IPE fee schedule out for first, second-year students",
+   "url": "https://news.careers360.com/telangana-board-exams-2027-ts-ipe-fee-schedule-out-for-first-second-year-students"
+  },
+  {
+   "name": "Self Studys",
+   "title": "Telangana Inter exams 2027 fee payment starts October 26",
+   "url": "https://www.selfstudys.com/update/telangana-inter-exams-2027-fee-payment-starts-october-26-check-dates-and-fee-details"
+  }
+ ],
+ "thread": "inter-exams-2027",
+ "tldr": "TGBIE's March 2027 Inter exam fee payment runs Oct 26 to Nov 9 without a late fee.",
+ "topic": "Inter exam fee 2027",
+ "viz": [
+  {
+   "l": "Fee deadlines",
+   "now": 0,
+   "steps": [
+    {
+     "e": "Regular fee, no fine",
+     "t": "Oct 26–Nov 9"
+    },
+    {
+     "e": "₹100 late fee",
+     "t": "Nov 11–20"
+    },
+    {
+     "e": "₹500 late fee",
+     "t": "Nov 22–29"
+    },
+    {
+     "e": "₹1,000 late fee",
+     "t": "Dec 1–7"
+    },
+    {
+     "e": "₹2,000 late fee",
+     "t": "Dec 9–14"
+    }
+   ],
+   "t": "timeline"
+  },
+  {
+   "a": {
+    "d": "₹540",
+    "l": "General / Arts",
+    "v": 540
+   },
+   "b": {
+    "d": "₹890",
+    "l": "Science / Vocational",
+    "v": 890
+   },
+   "l": "Exam fee",
+   "t": "compare"
+  }
+ ],
+ "watch": "Watch for the Inter 2027 timetable on tgbie.cgg.gov.in."
+}

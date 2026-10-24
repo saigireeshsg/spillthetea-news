@@ -1,0 +1,102 @@
+{
+ "areas": [
+  "Citywide"
+ ],
+ "beats": {
+  "care": "Writing both? Check both hall tickets and watch for a TGPSC notice on dates.",
+  "what": "TGPSC's AEE (Civil) exam is on Nov 6–7. SSC's JE test runs Nov 2–6.",
+  "why": "Rao says many SSC JE centres are in other states, so returning in time is hard."
+ },
+ "cards": [
+  {
+   "body": "BRS MLA Harish Rao wrote to CM Revanth Reddy asking TGPSC to move the AEE exam. Roads Minister Komatireddy Venkat Reddy had asked TGPSC to review dates on Oct 14. Aspirants protested at TGPSC on Oct 17. No new dates yet.",
+   "k": "tea"
+  },
+  {
+   "k": "poll",
+   "opts": [
+    "Yes, move it",
+    "No, keep dates",
+    "Clashes need a fixed rule"
+   ],
+   "q": "Should TGPSC move the AEE exam?"
+  },
+  {
+   "ans": 0,
+   "k": "quiz",
+   "opts": [
+    "Assistant Executive Engineer",
+    "Assistant Exam Evaluator",
+    "Advanced Engineering Entrance",
+    "Area Electrical Engineer"
+   ],
+   "q": "What does AEE stand for?",
+   "why": "AEE posts are for engineers in state departments like Roads and Buildings."
+  }
+ ],
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-24",
+ "heat": 3,
+ "hook": "Two engineering exams clash in *Nov 6* week",
+ "learn": {
+  "t": "TGPSC hires for Telangana government posts. SSC hires for central government posts."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📅",
+    "label": "SSC JE: Nov 2–6"
+   },
+   {
+    "icon": "📝",
+    "label": "TGPSC AEE: Nov 6–7"
+   }
+  ],
+  "effects": [
+   {
+    "icon": "🎒",
+    "label": "Aspirants may miss one"
+   },
+   {
+    "icon": "✉️",
+    "label": "Calls to postpone AEE"
+   }
+  ],
+  "event": {
+   "icon": "⚠️",
+   "label": "Exam dates clash"
+  }
+ },
+ "order": 19,
+ "readSecs": 40,
+ "sort": "2026-10-24-60",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Postpone AEE exam clashing with SSC JE test: Harish Rao to CM",
+   "url": "https://www.siasat.com/postpone-aee-exam-clashing-with-ssc-je-test-harish-rao-to-cm-3563567/"
+  }
+ ],
+ "thread": "aee-exam-clash",
+ "tldr": "TGPSC's AEE exam overlaps with the SSC JE test, and aspirants want new AEE dates.",
+ "topic": "AEE vs SSC JE exam clash",
+ "viz": [
+  {
+   "l": "The clash week",
+   "now": 0,
+   "steps": [
+    {
+     "e": "SSC JE test (some centres in other states)",
+     "t": "Nov 2–6"
+    },
+    {
+     "e": "TGPSC AEE exam in Telangana towns",
+     "t": "Nov 6–7"
+    }
+   ],
+   "t": "timeline"
+  }
+ ],
+ "watch": "Watch for a TGPSC notice on new AEE dates before Nov 6."
+}
