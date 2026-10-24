@@ -120,6 +120,8 @@ Rules: verify from the article (organiser, demands/what's proposed, deadline, nu
 - Mark the scout items you covered (section 5) so the next run moves on.
 
 **Push notifications** (readers opt in on the Live page; owner can also send from spillthetea.news/admin):
-- Morning run: after publishing, push the morning notif → `select public.send_push('<notif title>', '<notif body>', '/#s/<drop id>', 'news');`
-- Evening run: push the evening notif the same way.
-- A third push only for a verified `sev: 3` emergency (e.g. citywide water/power shutdown, IMD red alert for Hyderabad, exam cancelled). **Max 3 a day, never unverified, never clickbait.** Title ≤ 60 chars with one emoji; body = what, where, when, what to do.
+- **3 automatic pushes a day, total.** `send_push()` enforces it (counts `push_log` `auto:%` for the IST day) and returns null when the cap is hit; manual /admin sends don't count.
+- **Civic alerts are automatic:** `detect_civic_alerts()` (every 10 min) turns fresh power / water / weather / holiday / metro / major-traffic headlines (English + Telugu) into `civic_alerts`; `dispatch_civic_alerts()` pushes them. Priority power > water > weather > holiday > metro > traffic. Minor traffic diversions go to Live only. Quiet hours 22:00–06:30 IST, 30 min spacing, stale after 18 h.
+- Before any run push: `select title, created_at from push_log where created_at > now() - interval '12 hours';`. Skip if the same topic already went out, or if 2 auto pushes have already gone out (keep 1 slot for civic emergencies).
+- Morning run: after publishing → `select public.send_push('<title>', '<body>', '/#s/<drop id>', 'news');`. Evening run: the same, only if a slot is left.
+- Push copy follows Hooked (trigger → action): title ≤ 60 chars, one emoji, specific what + where + when ("⚡ Power cut 10am–2pm in Kukatpally, Miyapur"). Body = what to do + why tap ("Charge up now. Full area list inside"). Never unverified, never clickbait.
