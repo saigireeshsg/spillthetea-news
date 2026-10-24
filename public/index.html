@@ -88,6 +88,9 @@
 .llinks{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .llink{font-size:13px;font-weight:800;color:#fff;background:var(--orange);border-radius:999px;padding:6px 12px;text-decoration:none}
 .ntk{border-color:#5a2a0e!important}
+.lmeans{margin:6px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px;line-height:1.45}
+.lviz{margin-top:8px}.lviz .vz{min-width:0}
+.ltag{background:var(--blue-soft,#16253a);color:var(--blue,#7cb7ff);border-radius:999px;padding:1px 8px;font-weight:800}
 </style>
 <script src="/config.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
@@ -1277,7 +1280,7 @@ function attachedLive(){const s=new Set();visible().forEach(d=>liveAllFor(d).for
 // ---------- feed ----------
 function subs(){
   const used=[...new Set(visible().map(d=>d.cat))].filter(c=>SUBS[c]);
-  $("#subs").innerHTML=[["live","🔴 Live"],["all","🏠 Home"],["moneyhub","💰 Money"],...((window.SPILL_CONFIG||{}).speakup?[["acts","📣 Speak up"+(window.actsOpen&&window.actsOpen()?" · "+window.actsOpen():"")]]:[]),...used.filter(c=>c!=="money").map(c=>[c,c==="local"&&me.city?"r/"+me.city:SUBS[c].n])].map(([k,n])=>`<button class="sub-chip ${k==="live"?"livechip":""}" data-f="${k}" aria-pressed="${filter===k}">${esc(n)}</button>`).join("");
+  $("#subs").innerHTML=[["live","🔴 Live"],["all","🏠 Home"],["moneyhub","💰 Money"],...(window.eventsAny&&window.eventsAny()?[["events","🎟️ Events"+(window.eventsSoon()?" · "+window.eventsSoon():"")]]:[]),...((window.SPILL_CONFIG||{}).speakup?[["acts","📣 Speak up"+(window.actsOpen&&window.actsOpen()?" · "+window.actsOpen():"")]]:[]),...used.filter(c=>c!=="money").map(c=>[c,c==="local"&&me.city?"r/"+me.city:SUBS[c].n])].map(([k,n])=>`<button class="sub-chip ${k==="live"?"livechip":""}" data-f="${k}" aria-pressed="${filter===k}">${esc(n)}</button>`).join("");
   $("#subs").hidden=!!open;
 }
 function head(d){const s=SUBS[d.cat]||SUBS.india,f=FLAIR[d.cat]||FLAIR.india;const sr=d.cat==="local"?"r/"+(d.city||"local"):s.n;return `<div class="ph"><span class="av" style="background:${s.c}">${s.i}</span><span class="sr">${esc(sr)}</span><span>· ${dayAgo(d.date)}</span><span class="flair" style="background:${f[1]}">${f[0]}</span>${me.done[d.id]?'<span class="donechip">✓ caught up</span>':!me.seen[d.id]?'<span class="dot-unread" title="Unread"></span>':""}${(d.heat||0)>=5?'<span>🔥 trending</span>':""}${me.goal==="exam"&&GS[d.cat]?`<span class="gs">${GS[d.cat]}</span>`:""}${isHeavy(d)?'<span class="heavy">⚠️ heavy story</span>':""}${outlets(d)>=2?`<span class="ver">· ✅ ${outlets(d)} sources</span>`:""}</div>`}
@@ -1337,6 +1340,7 @@ function feed(){
   if(filter==="live"){$("#view").innerHTML=breakingHTML()+(window.cricHTML?window.cricHTML():"")+liveView();return}
   if(filter==="moneyhub"){$("#view").innerHTML=moneyView();return}
   if(filter==="acts"){$("#view").innerHTML=window.actsView?window.actsView():"";return}
+  if(filter==="events"){$("#view").innerHTML=window.eventsView?window.eventsView():"";return}
   if(filter==="all"){
     h+=breakingHTML();
     h+=(window.cricHTML?window.cricHTML():"");
@@ -1889,7 +1893,7 @@ function rankLive(arr){return arr.slice().sort((a,b)=>(liveFol(b)-liveFol(a))||(
 function verLabel(x){return x.verified==="official"?"✅ Official":x.verified==="2"?"✅ 2 sources":"📰 1 outlet, not yet confirmed"}
 function liveItemHTML(x,compact){const k=KIND[x.kind]||KIND.alert;const old=!activeLive(x);
   const areas=(x.areas||[]).filter(a=>a!=="Citywide").slice(0,2);
-  return `<div class="li sev${x.sev||1} ${old?"old":""}"><span class="lk" aria-hidden="true">${k[0]}</span><div style="min-width:0"><div class="lm"><span class="k">${esc(k[1])}</span><span>· ${ago(x.ts)}</span>${(x.sev||1)>=3?'<span class="urg">ACT NOW</span>':""}${nearYou(x)?`<span class="near">📍 near you</span>`:areas.map(a=>`<span>· ${esc(a)}</span>`).join("")}${x.updated?`<span>· updated ${ago(x.updated)}</span>`:""}</div><p class="lt">${esc(x.title)}</p>${!compact&&x.body?`<p class="lb">${esc(x.body)}</p>`:""}${!compact&&x.care?`<p class="lcare"><b>👉 For you:</b> ${esc(x.care)}</p>`:""}${!compact&&(x.links||[]).length?`<div class="llinks">${x.links.slice(0,3).map(l=>`<a class="llink" href="${esc(l.url)}" target="_blank" rel="noopener" data-llink="${esc(x.id)}">${esc(l.label)} ↗</a>`).join("")}</div>`:""}${!compact?`<div class="ls"><span>${verLabel(x)}</span>${(x.src||[]).slice(0,2).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join("")}${x.open&&drops.some(d=>d.id===x.open)?`<button data-open="${esc(x.open)}">Full story →</button>`:""}${old?"<span>· over</span>":`<button data-act="lshare" data-key="${esc(x.id)}">↗ Share</button>`}</div>`:""}</div></div>`}
+  return `<div class="li sev${x.sev||1} ${old?"old":""}"><span class="lk" aria-hidden="true">${k[0]}</span><div style="min-width:0"><div class="lm"><span class="k">${esc(k[1])}</span>${x.tag?`<span class="ltag">${esc(x.tag)}</span>`:""}<span>· ${ago(x.ts)}</span>${(x.sev||1)>=3?'<span class="urg">ACT NOW</span>':""}${nearYou(x)?`<span class="near">📍 near you</span>`:areas.map(a=>`<span>· ${esc(a)}</span>`).join("")}${x.updated?`<span>· updated ${ago(x.updated)}</span>`:""}</div><p class="lt">${esc(x.title)}</p>${!compact&&x.body?`<p class="lb">${esc(x.body)}</p>`:""}${!compact&&(x.means||[]).length?`<ul class="lmeans">${x.means.slice(0,3).map(m=>`<li>${esc(m)}</li>`).join("")}</ul>`:""}${!compact&&Array.isArray(x.viz)&&x.viz.length?`<div class="vgrid lviz">${x.viz.slice(0,3).map(vizOne).join("")}</div>`:""}${!compact&&x.care?`<p class="lcare"><b>👉 For you:</b> ${esc(x.care)}</p>`:""}${!compact&&(x.links||[]).length?`<div class="llinks">${x.links.slice(0,3).map(l=>`<a class="llink" href="${esc(l.url)}" target="_blank" rel="noopener" data-llink="${esc(x.id)}">${esc(l.label)} ↗</a>`).join("")}</div>`:""}${!compact?`<div class="ls"><span>${verLabel(x)}</span>${(x.src||[]).slice(0,2).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join("")}${x.open&&drops.some(d=>d.id===x.open)?`<button data-open="${esc(x.open)}">Full story →</button>`:""}${old?"<span>· over</span>":`<button data-act="lshare" data-key="${esc(x.id)}">↗ Share</button>`}</div>`:""}</div></div>`}
 function aqiCls(n){return n<=100?"":n<=200?"m":"p"}
 function nowHTML(){const n=me.city&&nowDocs[me.city.toLowerCase()];if(!n)return"";
   return `<div class="wx"><span class="wi" aria-hidden="true">${esc(n.icon||"🌤️")}</span><div class="tx"><b>${n.temp!=null?esc(n.temp)+"° · ":""}${esc(n.cond||"")}${n.high!=null?` · high ${esc(n.high)}°`:""}</b><span class="s">${esc(n.rain||"")}${n.tip?" · "+esc(n.tip):""}</span></div>${n.aqi?`<span class="aqi ${aqiCls(+n.aqi)}">AQI ${esc(n.aqi)} · ${esc(n.aqiLabel||"")}</span>`:""}</div>`}
@@ -1917,6 +1921,7 @@ function liveView(){
   let h=`<section class="livebox"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE</b><span class="upd">updated every 10 min, round the clock</span></div><div class="ltabs"><button data-act="ltab" data-key="local" aria-pressed="${scope==="local"}">📍 ${esc(me.city||"Your city")}</button><button data-act="ltab" data-key="national" aria-pressed="${scope==="national"}">🇮🇳 India</button></div>${scope==="local"?nowHTML():""}${scope==="local"&&areasFor(me.city).length?`<button class="areabtn" data-act="area">📍 ${me.area?"Your area: "+esc(me.area)+" · change":"Set your area for \"near you\" alerts"}</button>`:""}${window.newsBellHTML?window.newsBellHTML():""}</section>`;
   h+=(window.civicHTML?window.civicHTML(scope):"");
   if(nowA.length)h+=`<section class="livebox ntk"><span class="lgrp">🔥 Need to know</span>${nowA.map(x=>liveItemHTML(x)).join("")}</section>`;
+  if(scope==="local")h+=(window.eventsTeaser?window.eventsTeaser():"");
   h+=(window.wireHTML?window.wireHTML(scope,25):"");
   if(!arr.length&&!(window.wireCount&&window.wireCount(scope)))h+=`<div class="end"><span class="big">📡</span><b>All quiet right now</b><span>${scope==="local"&&!me.city?"Pick your city to see local live updates.":"New updates land here as they happen."}</span></div>`;
   if(earlier.length)h+=`<section class="livebox"><span class="lgrp">Earlier</span>${earlier.map(x=>liveItemHTML(x)).join("")}</section>`;
@@ -2153,7 +2158,7 @@ document.addEventListener("click",e=>{const b=e.target.closest("[data-tq]");if(!
   const card=b.closest("article.post");const t=card&&card.querySelector(".tq");if(t)t.outerHTML=teaserHTML(d)},true);
 window.spillAct={count:id=>Object.entries(votes).filter(([u,v])=>u!==uid&&v&&v.act&&v.act[id]).length+((me.act||{})[id]?1:0),mine:id=>!!(me.act||{})[id],
   toggle:id=>{me.act=me.act||{};if(me.act[id])delete me.act[id];else me.act[id]=Date.now();pushVotes();return !!me.act[id]},open:id=>{filter="acts";feed();window.scrollTo(0,0);if(id)setTimeout(()=>{const el=document.getElementById("act-"+id);if(el)el.scrollIntoView({block:"start",behavior:"smooth"})},60)}};
-window.spillRerender=function(){if(open||document.querySelector(".sheet"))return;if(filter==="all"||filter==="live"||filter==="acts"){const y=window.scrollY;feed();window.scrollTo(0,y)}else subs()};
+window.spillRerender=function(){if(open||document.querySelector(".sheet"))return;if(filter==="all"||filter==="live"||filter==="acts"||filter==="events"){const y=window.scrollY;feed();window.scrollTo(0,y)}else subs()};
 })();
 </script>
 
@@ -2163,6 +2168,7 @@ window.spillRerender=function(){if(open||document.querySelector(".sheet"))return
 <script src="/analytics.js" defer></script>
 <script src="/desktop.js" defer></script>
 <script src="/civic.js" defer></script>
+<script src="/events.js" defer></script>
 <script src="/install.js" defer></script>
 </body>
 </html>

@@ -147,3 +147,24 @@ update civic_alerts set enriched_at = now(), details = jsonb_build_object(
 ```
 3. Not a public alert (political, an office-only cut, an old story)? → `update civic_alerts set details = '{"push":"no"}', note = 'not for readers' where id = <id>;`
 4. Never guess areas or times. If the article has none, leave `where`/`timing` out and say so in `summary`.
+
+
+## 15. Need to know = insight, not headlines (applies to every live alert you write)
+Readers should get the main news inside Spill. Each "Need to know" item has:
+- `title`: specific (what + who + when). `tag`: the reader's stake, e.g. "💼 Jobs", "📚 Exams", "💸 Money", "🏠 Rent", "🚇 Commute", "📱 Tech", "🏏 Cricket", "🎬 Movies", "🛡️ Safety".
+- `body`: 2–3 lines of context in Spill's voice: what happened, why it happened, what changes now.
+- `means`: 1–3 bullets on what it means for a 15–30 reader (an action, a deadline, money saved or lost).
+- `viz`: 1–2 tiles (same format as stories, §10) whenever the article has a real number: `big`, `compare`, `meter`, `icons`, `trend`. Never invent numbers.
+- `care`, `links` (official only), `src`, `verified` as before.
+Pick topics by reader pain points and desires: jobs, hiring and layoffs, exams and results, fees, prices, rent, fuel, UPI and banking, commute, weather and civic issues, tech and startups, cricket, movies and OTT, safety.
+**Politics:** cover it only when it changes daily life (a new rule, a fee, a holiday, a ban). Never make an infographic about party politics, polls, seat counts or leaders.
+
+## 16. 🎟️ Events (Mondays and Thursdays, in the evening run)
+The Events tab is hidden while it has no upcoming events. Keep 6–15 upcoming Hyderabad events at all times.
+- Leads: `select title, url, published_at from scout_items where region = 'events' and published_at > now() - interval '5 days' order by published_at desc limit 30;` plus up to 3 web searches (Luma, Meetup, T-Hub, BookMyShow/District, AllEvents, college fests).
+- What to pick, for 15–30s: startup and tech meetups, hackathons, career and job fairs, college fests, stand-up, gigs, sports screenings, food and flea markets, workshops, outdoor plans. Weekend events first. No political rallies.
+- Each event is `content/events/e<YYYYMMDD>-<slug>.json`:
+```json
+{"title":"…","kind":"startup|tech|career|meetup|comedy|music|sports|food|art|fest|outdoor","start":"2026-10-31T11:00:00+05:30","end":"2026-10-31T14:00:00+05:30","venue":"T-Hub","area":"Raidurg","price":"Free | ₹499 onwards","why":"one line on why it's worth going, Spill voice","url":"<official registration/ticket page>","cta":"Register | Book","source":"Luma","pick":true}
+```
+- Verify the date, venue and price on the official page. If the date isn't confirmed, skip it. Delete files for past events.
