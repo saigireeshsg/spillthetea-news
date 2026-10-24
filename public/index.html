@@ -8,8 +8,12 @@
 <meta name="theme-color" content="#030303">
 <meta name="color-scheme" content="dark">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/icon-512.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Spill">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Spill">
 <meta property="og:title" content="Spill · the news, minus the boring">
@@ -896,6 +900,8 @@ html{scroll-behavior:smooth}
 .extras[open] summary{border-bottom:1px solid var(--line)}
 .extras .xin{padding:12px;display:grid;gap:10px;grid-template-columns:minmax(0,1fr);min-width:0}
 .extras .xin > .dots,.extras .xin > .digest{background:var(--card-2)}
+.tipbtn{display:none!important}
+.vote.up button,.vote.down button{cursor:default}
 </style>
 
 <header class="bar">
@@ -1125,7 +1131,7 @@ function storiesView(ri,ii){
       <div class="sv-body">${coverHTML(d)}<h2>${rich(d.hook)}</h2>${d.map?`<div class="mapbox">${mapHTML(d.map)}</div>`:""}${d.beats?.care?`<div class="careline"><b>🫵 Why you should care:</b> ${esc(d.beats.care)}</div>`:""}</div>
       <div class="sv-tap l" data-sv="prev"></div><div class="sv-tap r" data-sv="next"></div>
       
-      <div class="sv-acts"><button class="primary" data-sv="read">Read full story ↑</button><button class="ghost" data-sv="talk">💬 ${commentCount(d)}</button></div></div>`;
+      <div class="sv-acts"><button class="primary" data-sv="read">Read full story ↑</button></div></div>`;
     arm(DUR);
   };
   el.addEventListener("click",e=>{const b=e.target.closest("[data-sv]");if(!b)return;const a=b.dataset.sv;
@@ -1211,7 +1217,7 @@ function cprevHTML(d){const t=takesFor(d.id).map(x=>Object.assign(x,{score:S.tak
   if(t)return `<p class="cprev"><b>💬 u/${esc(t.handle)}:</b><span>${esc(t.text)}</span></p>`;
   return ""}
 function cardHTML(d){const sc=S.post[d.id]||0;const n=commentCount(d);const care=d.beats?.care;
-  return `<article class="post click ${me.done[d.id]?"done":""}" data-open="${d.id}" tabindex="0">${d.featured?`<div class="featbar">📰 EDITORIAL OF THE DAY <small>· ${esc(d.editorial?.paper||"")}, decoded</small></div>`:""}${head(d)}${!me.done[d.id]&&reasonOf(d)?`<p class="rsn">${esc(reasonOf(d))}</p>`:""}<h2 class="pt">${rich(d.hook)}</h2>${(()=>{const sb=siblings(d).length,lv=liveFor(d);return (lv?`<p class="cardlive"><span class="ldot" aria-hidden="true"></span><b>LIVE · ${ago(lv.updated||lv.ts)}</b><span class="t">${esc(lv.title)}</span></p>`:"")+(sb?`<p class="thr">🧵 Ongoing story · ${sb} earlier ${sb===1?"update":"updates"} inside</p>`:"")})()}${d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}${learnOf(d)?`<p class="rem"><b>💡</b><span>${esc(learnOf(d))}</span></p>`:""}${cprevHTML(d)}<div class="acts">${voteHTML("post",d.id,sc,me.post[d.id])}<button class="act" data-open="${d.id}" data-jump="1">💬 ${n}</button><button class="act" data-act="share" data-key="${d.id}">↗ Share</button></div></article>`}
+  return `<article class="post click ${me.done[d.id]?"done":""}" data-open="${d.id}" tabindex="0">${d.featured?`<div class="featbar">📰 EDITORIAL OF THE DAY <small>· ${esc(d.editorial?.paper||"")}, decoded</small></div>`:""}${head(d)}${!me.done[d.id]&&reasonOf(d)?`<p class="rsn">${esc(reasonOf(d))}</p>`:""}<h2 class="pt">${rich(d.hook)}</h2>${(()=>{const sb=siblings(d).length,lv=liveFor(d);return (lv?`<p class="cardlive"><span class="ldot" aria-hidden="true"></span><b>LIVE · ${ago(lv.updated||lv.ts)}</b><span class="t">${esc(lv.title)}</span></p>`:"")+(sb?`<p class="thr">🧵 Ongoing story · ${sb} earlier ${sb===1?"update":"updates"} inside</p>`:"")})()}${d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}${learnOf(d)?`<p class="rem"><b>💡</b><span>${esc(learnOf(d))}</span></p>`:""}<div class="acts">${voteHTML("post",d.id,sc,me.post[d.id])}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button></div></article>`}
 
 // ---------- greeting + breaking banner + extras ----------
 let firstName="",extrasOpen=false;
@@ -1256,7 +1262,7 @@ function feed(){
     h+=`<div class="sect"><span>${stale?"☕ Yesterday's tea · today's lands at 7am":"✨ For you"}</span><button data-act="whyorder">why this order?</button></div>`+cap("rest",rest,6);
     h+=extrasHTML();
   } else h+=list.map(cardHTML).join("");
-  h+=`<div class="end"><span class="big">${done>=total?"🏆":"🫖"}</span><b>${done>=total?"Done for today. You know what's going on.":"That's today's tea"}</b><span>${done}/${total} caught up · fresh stories tomorrow at 7am</span>${done>=total&&total?bonusHTML()+tomorrowHTML():""}${done>=total&&total?`<button class="recapbtn" data-act="recap" style="margin-top:8px"><span>🌙 See what you learned today</span><small>→</small></button>`:""}<button class="invite" data-act="invite"><b>👯 Bring your group chat</b><span>Spill is better when your friends argue in the comments too.</span></button></div>`;
+  h+=`<div class="end"><span class="big">${done>=total?"🏆":"🫖"}</span><b>${done>=total?"Done for today. You know what's going on.":"That's today's tea"}</b><span>${done}/${total} caught up · fresh stories tomorrow at 7am</span>${done>=total&&total?bonusHTML()+tomorrowHTML():""}${done>=total&&total?`<button class="recapbtn" data-act="recap" style="margin-top:8px"><span>🌙 See what you learned today</span><small>→</small></button>`:""}<button class="invite" data-act="invite"><b>👯 Bring your group chat</b><span>Spill is better when your friends vote too.</span></button></div>`;
   $("#view").innerHTML=h;
 }
 
@@ -1538,7 +1544,7 @@ function postView(id,jump,keep){
   let pollH="";
   if(poll){const a=me.poll[id];const voted=a!=null;const n=tot("poll",id);const showPc=voted&&!fewVotes(n);
     pollH=`<div class="box"><span class="k">📊 What do you think?${fewVotes(n)?"":` · ${n} votes`}</span><h3>${rich(poll.q)}</h3>${poll.opts.map((o,j)=>{const pc=pct("poll",id,j);return `<button class="opt ${a===j?"mine":""}" data-act="poll" data-key="${id}" data-i="${j}" ${voted?"disabled":""}><i class="fill" style="width:${showPc?pc:0}%"></i><span>${esc(o)}${a===j?" · you":""}</span>${showPc?`<span class="pc">${pc}%</span>`:""}</button>`}).join("")}
-    ${voted&&!me.why1?.[id]?`<div class="why1"><b>Why "${esc(poll.opts[a])}"? One line (optional)</b><div class="row"><input id="why1" maxlength="200" placeholder="Because…" aria-label="Why you picked this"><button data-act="why1" data-key="${id}">Post</button></div></div>`:`<span class="note">${voted?(fewVotes(n)?"🙌 You're one of the first to vote. The full result shows at 6pm.":"Your take is in the comments 👇"):"Vote to see what others picked"}</span>`}${tribeHTML(d,poll)}${voted?`<div class="shrow"><button class="shbtn" data-act="pshare" data-key="${id}">📣 Ask your group chat</button><button class="shbtn" data-act="pcard" data-key="${id}">🖼️ Poll card</button></div>`:""}</div>`}
+    ${false?`<div class="why1"><b>Why "${esc(poll.opts[a])}"? One line (optional)</b><div class="row"><input id="why1" maxlength="200" placeholder="Because…" aria-label="Why you picked this"><button data-act="why1" data-key="${id}">Post</button></div></div>`:`<span class="note">${voted?(fewVotes(n)?"🙌 You're one of the first to vote. The full result shows at 6pm.":"Thanks for voting 🙌"):"Vote to see what others picked"}</span>`}${tribeHTML(d,poll)}${voted?`<div class="shrow"><button class="shbtn" data-act="pshare" data-key="${id}">📣 Ask your group chat</button><button class="shbtn" data-act="pcard" data-key="${id}">🖼️ Poll card</button></div>`:""}</div>`}
   // go deeper: one compact accordion, one section open at a time
   const full=cs.filter(c=>["tea","edit","num","bars","why","you"].includes(c.k)).map(c=>{
     if(c.k==="tea")return b.what?"":`<div class="sec"><h3>📰 The full story</h3><p>${rich(c.body)}</p></div>`;
@@ -1580,18 +1586,15 @@ function postView(id,jump,keep){
   </div></div><div class="acts" id="pacts"></div></article>
   ${relH}
   ${deeperH}
-  <section class="cm" id="cm"><div class="cm-h"><b id="cmn">Comments</b><div class="sort"><button data-sort="top" aria-pressed="${sortBy==="top"}">Helpful</button><button data-sort="new" aria-pressed="${sortBy==="new"}">New</button></div></div>
-  <div class="compose"><textarea id="take" maxlength="500" placeholder="💬 Add your take, or ask a question. No dumb questions here." aria-label="Your comment"></textarea><div class="row"><span>as <b id="hn">u/${esc(me.handle)}</b></span><button class="link" data-act="handle">change</button><button class="post-btn" id="send" data-act="send" data-key="${id}" disabled>Post</button></div></div>
-  <div class="prompts">${prompts.map(p=>`<button data-prompt="${esc(p)}">${esc(p)}</button>`).join("")}</div>
-  <div id="clist"></div></section>`;
+  `;
   postActs();comments();nextBar(d);
-  if(jump)setTimeout(()=>$("#cm").scrollIntoView({behavior:"smooth"}),50);else if(!keep)window.scrollTo(0,0);
+  if(jump)setTimeout(()=>$("#cm")?.scrollIntoView({behavior:"smooth"}),50);else if(!keep)window.scrollTo(0,0);
 }
-function postActs(){if(!open)return;const d=drops.find(x=>x.id===open);if(!d)return;const n=commentCount(d);$("#pacts").innerHTML=`${voteHTML("post",d.id,S.post[d.id]||0,me.post[d.id])}<button class="act" data-jump-cm="1">💬 ${n}</button><button class="act" data-act="share" data-key="${d.id}">↗ Share</button>`}
+function postActs(){if(!open)return;const d=drops.find(x=>x.id===open);if(!d)return;const n=commentCount(d);$("#pacts").innerHTML=`${voteHTML("post",d.id,S.post[d.id]||0,me.post[d.id])}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button>`}
 let replyTo=null,cmMore=false;
 function sideOf(au,d){const pl=(d.cards||[]).find(c=>c.k==="poll");if(!pl)return"";const v=au===uid?me:votes[au];const i=v&&v.poll?v.poll[d.id]:null;return typeof i==="number"&&pl.opts[i]?pl.opts[i]:""}
 function comments(){
-  if(!open)return;const d=drops.find(x=>x.id===open);if(!d)return;
+  if(!open||!$("#clist"))return;const d=drops.find(x=>x.id===open);if(!d)return;
   const sides=sidesOf(d),poll=(d.cards||[]).find(c=>c.k==="poll");
   const all=takesFor(d.id).map(t=>Object.assign(t,{score:S.take[t.key]||0}));
   const keys=new Set(all.map(t=>t.key));
@@ -1887,7 +1890,7 @@ document.addEventListener("click",async e=>{
   if(e.target.closest(".sheet,.cu,.sv"))return;
   const pr=e.target.closest("[data-prompt]");if(pr){const ta=$("#take");ta.value=pr.dataset.prompt+" ";ta.focus();$("#send").disabled=false;return}
   const so=e.target.closest("[data-sort]");if(so){sortBy=so.dataset.sort;document.querySelectorAll("[data-sort]").forEach(b=>b.setAttribute("aria-pressed",b===so));comments();return}
-  if(e.target.closest("[data-jump-cm]")){$("#cm").scrollIntoView({behavior:"smooth"});return}
+  
   const rg=e.target.closest("[data-ring]");if(rg){storiesView(+rg.dataset.ring,0);return}
   if(e.target.closest("[data-top]")){window.scrollTo({top:0,behavior:"smooth"});return}
   if(e.target.closest("[data-home]")){filter="all";feed();window.scrollTo(0,0);return}
@@ -1932,6 +1935,7 @@ document.addEventListener("click",async e=>{
   if(act==="knowit"){me.known[key]=1;save();toast("Got it. Next time you'll only see what's new");postView(open,false,true);return}
   if(act==="ask"){const d=drops.find(x=>x.id===key);const q=(b.dataset.q||$("#askq")?.value||"").trim().slice(0,240);if(!q){$("#askq")?.focus();return}ask(d,q,b);return}
   if(act==="more"){showAll[key]=1;feed();return}
+  if(act==="post"&&me.post[key]){toast("You've already voted on this one");return}
   if(act==="post"||act==="take"){const v=+b.dataset.v;const cur=me[act][key]||0;if(act==="post"&&cur!==v)bump(drops.find(x=>x.id===key),v===1?1:-3);me[act][key]=cur===v?0:v;if(!me[act][key])delete me[act][key];if(v===1&&cur!==1)once(act+":"+key,1,"for voting",b);pushVotes();refresh();return}
   if(act==="fold"){const was=!!folds[key];if(key.startsWith("deep:")){const pid=key.split(":").pop();Object.keys(folds).forEach(k=>{if(k.startsWith("deep:")&&k.endsWith(":"+pid))delete folds[k]})}folds[key]=!was;if(folds[key]&&key.startsWith("deep:")){setTimeout(()=>document.querySelector(`.fold-h[data-key="${key}"]`)?.closest(".fold")?.scrollIntoView({behavior:"smooth",block:"start"}),60)}if(key.startsWith("st:")&&folds[key]){const sl=key.slice(3);if(!me.story[sl]){me.story[sl]=1;save();once("story:"+sl,2,"backstory unlocked",b)}}postView(open,false,true);return}
   if(act==="spoil"){me.spoil[key]=1;save();once("spoil:"+key,1,"curiosity paid off",b);postView(key,false,true);return}
@@ -2008,5 +2012,6 @@ async function syncLoad(){if(!db||!uid)return;try{const snap=await db.collection
 })();
 </script>
 
+<script src="/install.js" defer></script>
 </body>
 </html>
