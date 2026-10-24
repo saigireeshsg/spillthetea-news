@@ -1,0 +1,4 @@
+-- Applied 24 Oct 2026: Scout agent. Tables scout_sources, scout_items, scout_runs (RLS on, no public policies),
+-- edge function `scout` (supabase/functions/scout/index.ts), and a pg_cron job:
+--   select cron.schedule('spill-scout-every-30-min', '*/30 0-18 * * *', <net.http_post to /functions/v1/scout>);
+-- Feeds live in public.scout_sources; add a row to add a source, set active=false to pause one.
