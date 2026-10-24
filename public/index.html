@@ -1251,6 +1251,7 @@ function feed(){
     h+=(window.cricHTML?window.cricHTML():"");
     h+=greetHTML(done,total,pc,fresh);
     h+=liveStripHTML();
+    h+=(window.wireHTML?window.wireHTML("home",5):"");
   }
   if(!list.length){$("#view").innerHTML=h+`<div class="end"><span class="big">🫖</span><b>No tea yet</b><span>Fresh stories land here every morning.</span></div>`+(filter==="all"?extrasHTML():"");return}
   const stale=isStale();
@@ -1783,8 +1784,9 @@ function liveStripHTML(){
 function liveView(){
   const scope=liveTab;const arr=liveList(scope,true).sort((a,b)=>(b.ts||0)-(a.ts||0));
   const nowA=arr.filter(x=>activeLive(x)&&Date.now()-(x.ts||0)<3*3600e3),earlier=arr.filter(x=>!nowA.includes(x));
-  let h=`<section class="livebox"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE</b><span class="upd">checked every 30 min, 6 am to midnight</span></div><div class="ltabs"><button data-act="ltab" data-key="local" aria-pressed="${scope==="local"}">📍 ${esc(me.city||"Your city")}</button><button data-act="ltab" data-key="national" aria-pressed="${scope==="national"}">🇮🇳 India</button></div>${scope==="local"?nowHTML():""}${scope==="local"&&areasFor(me.city).length?`<button class="areabtn" data-act="area">📍 ${me.area?"Your area: "+esc(me.area)+" · change":"Set your area for \"near you\" alerts"}</button>`:""}</section>`;
-  if(!arr.length)h+=`<div class="end"><span class="big">📡</span><b>All quiet right now</b><span>${scope==="local"&&!me.city?"Pick your city to see local live updates.":"New updates land here as they happen."}</span></div>`;
+  let h=`<section class="livebox"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE</b><span class="upd">updated every 10 min, round the clock</span></div><div class="ltabs"><button data-act="ltab" data-key="local" aria-pressed="${scope==="local"}">📍 ${esc(me.city||"Your city")}</button><button data-act="ltab" data-key="national" aria-pressed="${scope==="national"}">🇮🇳 India</button></div>${scope==="local"?nowHTML():""}${scope==="local"&&areasFor(me.city).length?`<button class="areabtn" data-act="area">📍 ${me.area?"Your area: "+esc(me.area)+" · change":"Set your area for \"near you\" alerts"}</button>`:""}</section>`;
+  h+=(window.wireHTML?window.wireHTML(scope,25):"");
+  if(!arr.length&&!(window.wireCount&&window.wireCount(scope)))h+=`<div class="end"><span class="big">📡</span><b>All quiet right now</b><span>${scope==="local"&&!me.city?"Pick your city to see local live updates.":"New updates land here as they happen."}</span></div>`;
   if(nowA.length)h+=`<section class="livebox"><span class="lgrp">Right now · last 3 hours</span>${nowA.map(x=>liveItemHTML(x)).join("")}</section>`;
   if(earlier.length)h+=`<section class="livebox"><span class="lgrp">Earlier</span>${earlier.map(x=>liveItemHTML(x)).join("")}</section>`;
   if(scope==="local"&&areasFor(me.city).length)h+=`<button class="tipbtn" data-act="tip">📣 Seen something${me.area?" in "+esc(me.area):""}? Tell the live desk. Every tip is checked before posting.</button>`;
@@ -2013,10 +2015,12 @@ async function syncLoad(){if(!db||!uid)return;try{const snap=await db.collection
   db.collection("notifs").orderBy("ts","desc").limit(20).onSnapshot(s=>{notifs=s.docs.map(x=>Object.assign({id:x.id},x.data()));bellDot();setTimeout(maybePush,1200)},()=>{});
   db.collection("takes").limit(1000).onSnapshot(s=>{takes={};s.docs.forEach(x=>takes[x.id]=x.data()||{});if(uid&&takes[uid]){mine=JSON.parse(JSON.stringify(takes[uid]));mine.items=mine.items||{};if(mine.handle)me.handle=mine.handle}refresh();setTimeout(maybeSocialPing,1800)},()=>{});
 })();
+window.spillRerender=function(){if(open||document.querySelector(".sheet"))return;if(filter==="all"||filter==="live"){const y=window.scrollY;feed();window.scrollTo(0,y)}};
 })();
 </script>
 
 <script src="/cricket.js" defer></script>
+<script src="/wire.js" defer></script>
 <script src="/install.js" defer></script>
 </body>
 </html>

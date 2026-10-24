@@ -103,16 +103,12 @@
     load();
   }
 
-  function onHome() {
-    try { return typeof filter !== "undefined" && filter === "all" && !open; } catch (_) { return false; }
-  }
-
   function render() {
     const card = document.getElementById("crick");
     if (card) {
       if (M.length) card.outerHTML = window.cricHTML(); else card.remove();
-    } else if (M.length && onHome() && typeof feed === "function" && !document.querySelector(".sheet")) {
-      const y = window.scrollY; feed(); window.scrollTo(0, y);
+    } else if (M.length && window.spillRerender) {
+      window.spillRerender();
     }
     const sh = document.getElementById("cricsheet");
     if (sh) { const inner = sh.querySelector(".sheet-in"); const st = inner.scrollTop; inner.innerHTML = sheetInner(M.find((m) => m.id === sh.dataset.id)); inner.scrollTop = st; }

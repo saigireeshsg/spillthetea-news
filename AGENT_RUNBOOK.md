@@ -17,7 +17,7 @@ Spill publishes directly: what you push to `main` goes live on spillthetea.news 
 3. Supabase project id: `tvhfqkvyfkqxxiqxavjp` (use the Supabase connector's `execute_sql`).
 
 ## 1. Scout (already running)
-A Supabase cron job runs the `scout` edge function every 30 minutes (5:30 am–midnight IST) and stores headlines in `public.scout_items` (`url, title, summary, source, region, published_at, status`).
+A Supabase cron job runs the `scout` edge function every 10 minutes, round the clock and stores headlines in `public.scout_items` (`url, title, summary, source, region, published_at, status`).
 Regions: `hyderabad, telangana, india, world, money, tech, sport, edit, bengaluru, chennai, delhi, mumbai, kolkata, pune`.
 
 Read fresh candidates:
@@ -65,3 +65,6 @@ Send the user a 2–4 line summary: how many stories and alerts went live, the t
 
 ## 7. Live cricket (automatic — no work needed)
 India matches (men and women) are tracked automatically: Supabase cron `spill-cricket-30s` runs the `cricket` edge function every 30 s, reading ESPN's open scoreboard feed into `public.cricket_live`; the app shows a live card on Home with ball-by-ball lines we generate from the data (never copy ESPN's commentary prose). Runs don't touch it. If an India match finished today, the evening run may write one short drop on the result (`cat: "sport"`), verified from the match report.
+
+## 8. Ranking rule (applies everywhere)
+Order news by four factors, in this order of weight: **recency** (newer first), **relatability** (does it change a 15–30-year-old Hyderabadi's day: water, power, traffic, exams, jobs, prices, weather), **weightage** (how many reputable outlets carry it), **importance** (courts, government decisions, disasters, big national moments). Set each drop's `sort` to reflect this. The Live tab's wire (`public.live_wire`) is ranked automatically every 10 minutes by `refresh_live_wire()` using the same four factors; use its top items as the shortlist when picking stories.
