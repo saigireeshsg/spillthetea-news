@@ -98,3 +98,6 @@ Each drop gets a `viz` array of 2–4 visuals built **only from numbers you veri
 - `{"t":"trend","l":"AQI this week","pts":[["Mon",142],["Tue",120]],"unit":""}` — 3+ dated values.
 - `{"t":"donut","v":62,"d":"62%","l":"of the budget goes to …"}` — one share.
 Put the most surprising, relatable number first. Heavy stories (deaths, disasters): plain `big` tiles only, no `tone` colours. If a story truly has no numbers, use a `timeline`.
+
+## 11. The quiz is the card's hook
+The `quiz` card now shows on feed cards as "🧠 Can you guess?" to pull readers into the story. Write it as a genuinely intriguing question a 20-year-old in Hyderabad would want answered (not trivia), with 4 options of ≤ 5 words, one clearly right per the article, and a `why` of one sentence that makes them want the rest of the story.
