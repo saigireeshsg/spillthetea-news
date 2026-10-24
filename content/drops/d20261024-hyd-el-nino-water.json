@@ -4,29 +4,30 @@
   "Citywide"
  ],
  "beats": {
-  "care": "Expect tighter water supply in Hyderabad. Fix leaks and don't waste water at home or in your PG.",
-  "what": "At a review meeting, the CM said Telangana's drinking water shortage could continue until July next year.",
-  "why": "El Niño weakened the monsoon. He said reservoirs hold less than 200 tmcft and temperatures will rise."
+  "what": "Singur got just over 3 TMC of inflow this year, against a record 237 TMC last year. It now holds 3.246 TMC of its 29.91 TMC capacity. Osman Sagar fell from 3.5 to 2.2 TMC.",
+  "why": "El Niño weakened the monsoon: Telangana's rainfall is 17% below normal and the Manjeera catchment got almost no rain. Karnataka is in drought too, and is still being told to release Cauvery water to Tamil Nadu.",
+  "care": "Western IT corridor (Singur) and Old City (Osman Sagar) are most exposed. Fix leaks now, store water for supply gaps, and watch for your area's schedule from the water board."
  },
  "cards": [
   {
-   "body": "He asked people to adapt like they did during the pandemic. A special scheme will give daily work to workers for four months after Sankranti, until May. The BJP asked for an all-party meeting.",
-   "k": "tea"
+   "k": "tea",
+   "body": "Officials fear Singur could run dry within 60 days, by mid-December, and say drinking water needs can't be met from December. The water board is drawing up area-wise plans with an alternative source for each locality. A crop holiday has been declared in the Singur ayacut."
   },
   {
-   "body": "The CM said El Niño is hitting other places too, like Maharashtra.",
-   "caption": "How long the crisis may last",
+   "k": "why",
+   "title": "Hyderabad vs Bengaluru: who's worse off?",
+   "body": "Both cities are hit by the same weak monsoon. Hyderabad's local sources (Singur, Osman Sagar) are critically low, so the city leans on Krishna and Godavari water. Bengaluru depends on the Cauvery dams (KRS, Kabini, Harangi, Hemavathi): 49 TMC usable on Oct 2, and Karnataka has asked to release less water to Tamil Nadu. We found no current supply cut announced in Bengaluru."
+  },
+  {
    "k": "num",
-   "value": "Till July"
-  },
-  {
-   "body": "The CM said opponents blame his government for 'bringing drought', but El Niño is a global weather pattern.",
-   "k": "twist"
+   "value": "Till July",
+   "caption": "How long Telangana's water crisis may last",
+   "body": "CM Revanth Reddy said reservoirs hold under 200 TMC and announced a 4-month work scheme after Sankranti."
   },
   {
    "k": "poll",
    "opts": [
-    "Yes",
+    "Yes, already",
     "Not yet",
     "I depend on tankers"
    ],
@@ -36,13 +37,13 @@
    "ans": 0,
    "k": "quiz",
    "opts": [
-    "El Niño weakened the monsoon",
-    "A dam broke",
-    "New water tax",
-    "Too much rain"
+    "About 11%",
+    "About 40%",
+    "About 75%",
+    "Full"
    ],
-   "q": "Why might Telangana face water shortage till July?",
-   "why": "El Niño led to poor rains, so reservoirs are low."
+   "q": "How full is Singur, a key Hyderabad water source, right now?",
+   "why": "3.246 TMC of 29.91 TMC capacity (Telangana Today, Oct 21)."
   }
  ],
  "cat": "local",
@@ -52,8 +53,8 @@
    "#2b1a05",
    "#e8730c"
   ],
-  "big": "<200 tmcft",
-  "label": "water left in Telangana's reservoirs, says the CM",
+  "big": "11%",
+  "label": "Singur dam full · Hyderabad drinking water",
   "motion": "fall",
   "scene": [
    "💧",
@@ -62,8 +63,8 @@
   ]
  },
  "date": "2026-10-24",
- "heat": 4,
- "hook": "Telangana's water crisis may last till *July*, CM warns",
+ "heat": 5,
+ "hook": "Hyderabad's Singur dam is just *11% full*. How does Bengaluru compare?",
  "lead": "local",
  "learn": {
   "t": "El Niño is a warming of the Pacific Ocean that often weakens India's monsoon."
@@ -72,40 +73,112 @@
   "causes": [
    {
     "icon": "🌵",
-    "label": "El Niño weak monsoon"
+    "label": "El Niño: 17% less rain"
    },
    {
     "icon": "💧",
-    "label": "Reservoirs under 200 tmcft"
-   }
-  ],
-  "effects": [
-   {
-    "icon": "⚡",
-    "label": "Save water and power"
-   },
-   {
-    "icon": "👷",
-    "label": "Job scheme after Sankranti"
+    "label": "Singur 11% full"
    }
   ],
   "event": {
    "icon": "🚰",
-   "label": "Water crisis till July"
-  }
+   "label": "Shortage from December"
+  },
+  "effects": [
+   {
+    "icon": "🏙️",
+    "label": "IT corridor & Old City most exposed"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Bengaluru: Cauvery dams stressed too"
+   }
+  ]
  },
  "order": 13,
  "readSecs": 55,
- "sort": "2026-10-24-86",
+ "sort": "2026-10-24-94",
  "sources": [
   {
    "name": "The Hindu",
    "title": "El Nino-induced crisis may persist till July: CM (print, Hyderabad edition, 24 Oct, p.6)",
    "url": "https://www.thehindu.com/todays-paper/"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Singur received 3 tmcft this year, a year after 237 tmcft (21 Oct)",
+   "url": "https://telanganatoday.com/singur-received-3tmcft-of-water-this-year-a-year-after-it-received-237-tmcft-of-water"
+  },
+  {
+   "name": "The Siasat Daily",
+   "title": "Hyderabad's water crisis may hit in December, not summer (6 Oct)",
+   "url": "https://www.siasat.com/hyderabads-water-crisis-may-hit-in-december-not-summer-3553096/"
+  },
+  {
+   "name": "IANS via NewKerala",
+   "title": "Karnataka urges CWMA to reduce Cauvery water release (2 Oct)",
+   "url": "https://www.newkerala.com/news/a/ktaka-govt-urges-cwma-reduce-cauvery-water-release-916.htm"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Cauvery panel directs Karnataka to release 3,000 cusecs to Tamil Nadu for 15 days (24 Oct)",
+   "url": "https://www.thehindu.com/news/national/karnataka/cauvery-panel-directs-karnataka-to-release-water-at-the-rate-of-3000-cusecs-to-tamil-nadu-for-next-15-days/article71619307.ece"
   }
  ],
  "thread": "el-nino",
- "tldr": "CM Revanth Reddy said El Niño could keep Telangana short of drinking water until July and asked people to save water and power.",
+ "tldr": "Singur, a key Hyderabad drinking-water source, holds 3.2 of 29.9 TMC after its 4th-lowest inflow in 29 years, and officials say they can't meet drinking needs from December. Karnataka's four Cauvery dams, which feed Bengaluru, have 49 TMC usable, with about 47 taluks in drought. The CM says Telangana's crisis may last till July.",
  "topic": "El Niño water crisis",
- "watch": "Watch for water supply schedules from the Hyderabad water board and the job scheme's launch after Sankranti."
+ "watch": "Water board's area-wise supply plan (expected before December); Singur levels; whether Karnataka's Cauvery release to Tamil Nadu is cut further.",
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Singur dam, Hyderabad",
+   "v": 3.246,
+   "max": 29.91,
+   "d": "3.2 of 29.9 TMC (11%)",
+   "note": "Telangana Today, Oct 21"
+  },
+  {
+   "t": "compare",
+   "l": "Singur inflow, rainy season",
+   "a": {
+    "v": 237,
+    "d": "237 TMC",
+    "l": "Last year"
+   },
+   "b": {
+    "v": 3,
+    "d": "~3 TMC",
+    "l": "This year"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "compare",
+   "l": "Osman Sagar storage",
+   "a": {
+    "v": 3.5,
+    "d": "3.5 TMC",
+    "l": "Earlier"
+   },
+   "b": {
+    "v": 2.2,
+    "d": "2.2 TMC",
+    "l": "Oct 6"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "big",
+   "v": "49 TMC",
+   "l": "usable in Karnataka's 4 Cauvery dams that feed Bengaluru (Oct 2)"
+  },
+  {
+   "t": "big",
+   "v": "17%",
+   "l": "below-normal rain in Telangana this season",
+   "tone": "bad"
+  }
+ ],
+ "updated": 1792865390376
 }
