@@ -155,6 +155,7 @@ Readers should get the main news inside Spill. Each "Need to know" item has:
 - `body`: 2–3 lines of context in Spill's voice: what happened, why it happened, what changes now.
 - `means`: 1–3 bullets on what it means for a 15–30 reader (an action, a deadline, money saved or lost).
 - `viz`: 1–2 tiles (same format as stories, §10) whenever the article has a real number: `big`, `compare`, `meter`, `icons`, `trend`. Never invent numbers.
+- `poll`: a quick vote on every Need to know item with a real choice or opinion angle: `{"q":"Will you take the metro instead?","opts":["Yes","Already do","No, bike/cab"]}`. Use 2–4 short options. Make it about the reader's own life (would you, will you, how affected are you). No polls on deaths, crimes or tragedies, and none on parties or leaders.
 - `care`, `links` (official only), `src`, `verified` as before.
 Pick topics by reader pain points and desires: jobs, hiring and layoffs, exams and results, fees, prices, rent, fuel, UPI and banking, commute, weather and civic issues, tech and startups, cricket, movies and OTT, safety.
 **Politics:** cover it only when it changes daily life (a new rule, a fee, a holiday, a ban). Never make an infographic about party politics, polls, seat counts or leaders.
