@@ -1,0 +1,29 @@
+{
+ "added": "2026-10-24",
+ "askTitle": "What's in the draft",
+ "asks": [
+  "Learner's test pass mark: 60% → 75%",
+  "30-minute safe-driving tutorial for every applicant",
+  "15 days instead of 7 to finish the process",
+  "Name or address changes on the licence become free"
+ ],
+ "checkin": "I'll send feedback",
+ "cta": {
+  "label": "Find the draft on the MoRTH site",
+  "url": "https://morth.nic.in/"
+ },
+ "deadline": "Feedback open for 30 days (reported Oct 24)",
+ "issue": "safety",
+ "kind": "consultation",
+ "sources": [
+  {
+   "name": "The Hindu (print, 24 Oct, p.12)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ],
+ "status": "open",
+ "story": "d20261024-driving-licence-rules",
+ "title": "Have your say on the new driving licence rules",
+ "what": "The Centre's draft would raise the learner's test pass mark from 60% to 75%, add a 30-minute safe-driving tutorial and move many licence services online. The public can send feedback before the rules are final.",
+ "who": "Ministry of Road Transport and Highways (draft amendments to the Central Motor Vehicles Rules)"
+}

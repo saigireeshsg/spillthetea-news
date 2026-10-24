@@ -1,0 +1,32 @@
+{
+ "added": "2026-10-24",
+ "askTitle": "What you can do at home",
+ "asks": [
+  "Measure how much water your building uses",
+  "Check pipes, tanks and valves; fix leaks fast; stop sumps overflowing",
+  "Reuse treated wastewater for gardens and flushing",
+  "Clean rooftop filters and recharge pits; keep rainwater harvesting working",
+  "Don't wash driveways or cars with drinking water",
+  "Shorter showers, full loads only, no running taps"
+ ],
+ "checkin": "I'm saving water",
+ "issue": "water",
+ "kind": "drive",
+ "next": "The CM has warned the water crisis may last till July; Hyderabad faces supply cuts this season.",
+ "pin": 1,
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "url": "https://telanganatoday.com/hyderabad-rwas-draw-up-seven-point-plan-to-tackle-water-shortage"
+  },
+  {
+   "name": "Siasat",
+   "url": "https://www.siasat.com/hmwssb-urges-hyderabad-residents-to-use-water-more-judiciously-3545819/"
+  }
+ ],
+ "status": "open",
+ "story": "d20261024-hyd-el-nino-water",
+ "title": "Every Drop Counts: Hyderabad colonies' plan to beat the water crunch",
+ "what": "With reservoirs low and the Water Board asking everyone to cut use, RWAs have drawn up a water conservation plan any home or colony can follow.",
+ "who": "Resident welfare associations across Hyderabad and Cyberabad (UFERWAS; E Ramana, president)"
+}

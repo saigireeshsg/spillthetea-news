@@ -1043,7 +1043,7 @@ const inFilter=d=>filter==="all"||d.cat===filter;
 
 // ---------- writes ----------
 let vq=Promise.resolve(),tq=Promise.resolve();
-function pushVotes(){save();agg();if(!db||!uid)return;const t5=me.s5&&me.s5[day(new Date())];const body={poll:me.poll,pred:me.pred,quiz:me.quiz,post:me.post,take:me.take,lr:me.lr||{},city:me.city||"",s5:t5&&t5.fin?{[day(new Date())]:t5.score}:{},at:Date.now()};vq=vq.then(()=>db.doc("votes/"+uid).set(body)).catch(()=>{})}
+function pushVotes(){save();agg();if(!db||!uid)return;const t5=me.s5&&me.s5[day(new Date())];const body={act:me.act||{},poll:me.poll,pred:me.pred,quiz:me.quiz,post:me.post,take:me.take,lr:me.lr||{},city:me.city||"",s5:t5&&t5.fin?{[day(new Date())]:t5.score}:{},at:Date.now()};vq=vq.then(()=>db.doc("votes/"+uid).set(body)).catch(()=>{})}
 let mine={handle:me.handle,items:{}};
 function pushTakes(){if(!db||!uid)return Promise.reject();const body=JSON.parse(JSON.stringify(mine));return tq=tq.then(()=>db.doc("takes/"+uid).set(body))}
 
@@ -1273,7 +1273,7 @@ function attachedLive(){const s=new Set();visible().forEach(d=>liveAllFor(d).for
 // ---------- feed ----------
 function subs(){
   const used=[...new Set(visible().map(d=>d.cat))].filter(c=>SUBS[c]);
-  $("#subs").innerHTML=[["all","🏠 Home"],["live","🔴 Live"],["moneyhub","💰 Money"],...used.filter(c=>c!=="money").map(c=>[c,c==="local"&&me.city?"r/"+me.city:SUBS[c].n])].map(([k,n])=>`<button class="sub-chip ${k==="live"?"livechip":""}" data-f="${k}" aria-pressed="${filter===k}">${esc(n)}</button>`).join("");
+  $("#subs").innerHTML=[["all","🏠 Home"],["live","🔴 Live"],["moneyhub","💰 Money"],["acts","📣 Speak up"+(window.actsOpen&&window.actsOpen()?" · "+window.actsOpen():"")],...used.filter(c=>c!=="money").map(c=>[c,c==="local"&&me.city?"r/"+me.city:SUBS[c].n])].map(([k,n])=>`<button class="sub-chip ${k==="live"?"livechip":""}" data-f="${k}" aria-pressed="${filter===k}">${esc(n)}</button>`).join("");
   $("#subs").hidden=!!open;
 }
 function head(d){const s=SUBS[d.cat]||SUBS.india,f=FLAIR[d.cat]||FLAIR.india;const sr=d.cat==="local"?"r/"+(d.city||"local"):s.n;return `<div class="ph"><span class="av" style="background:${s.c}">${s.i}</span><span class="sr">${esc(sr)}</span><span>· ${dayAgo(d.date)}</span><span class="flair" style="background:${f[1]}">${f[0]}</span>${me.done[d.id]?'<span class="donechip">✓ caught up</span>':!me.seen[d.id]?'<span class="dot-unread" title="Unread"></span>':""}${(d.heat||0)>=5?'<span>🔥 trending</span>':""}${me.goal==="exam"&&GS[d.cat]?`<span class="gs">${GS[d.cat]}</span>`:""}${isHeavy(d)?'<span class="heavy">⚠️ heavy story</span>':""}${outlets(d)>=2?`<span class="ver">· ✅ ${outlets(d)} sources</span>`:""}</div>`}
@@ -1332,6 +1332,7 @@ function feed(){
   let h="";
   if(filter==="live"){$("#view").innerHTML=breakingHTML()+liveView();return}
   if(filter==="moneyhub"){$("#view").innerHTML=moneyView();return}
+  if(filter==="acts"){$("#view").innerHTML=window.actsView?window.actsView():"";return}
   if(filter==="all"){
     h+=breakingHTML();
     h+=(window.cricHTML?window.cricHTML():"");
@@ -1696,6 +1697,7 @@ function postView(id,jump,keep){
       ${d.map?`<div class="mapbox">${mapHTML(d.map)}</div>`:""}
       ${vizHTML(d)}
       <div class="beats">${beats.map(([ic,l,t],i)=>`<div class="beat ${i===2?"care2":""}"><span class="bi" aria-hidden="true">${ic}</span><div><small>${l}</small><p>${rich(t)}</p></div></div>`).join("")}</div>
+      ${window.actBoxHTML?window.actBoxHTML(d):""}
       ${remH}
       ${watchH}
       ${pollH}
@@ -2144,7 +2146,9 @@ document.addEventListener("click",e=>{const b=e.target.closest("[data-tq]");if(!
   me.quiz[id]=i;bump(d,3);pushVotes();
   try{window.spillTrack&&window.spillTrack("teaser_answer",{story_id:id,correct:i===q.ans})}catch(_){}
   const card=b.closest("article.post");const t=card&&card.querySelector(".tq");if(t)t.outerHTML=teaserHTML(d)},true);
-window.spillRerender=function(){if(open||document.querySelector(".sheet"))return;if(filter==="all"||filter==="live"){const y=window.scrollY;feed();window.scrollTo(0,y)}};
+window.spillAct={count:id=>Object.entries(votes).filter(([u,v])=>u!==uid&&v&&v.act&&v.act[id]).length+((me.act||{})[id]?1:0),mine:id=>!!(me.act||{})[id],
+  toggle:id=>{me.act=me.act||{};if(me.act[id])delete me.act[id];else me.act[id]=Date.now();pushVotes();return !!me.act[id]},open:id=>{filter="acts";feed();window.scrollTo(0,0);if(id)setTimeout(()=>{const el=document.getElementById("act-"+id);if(el)el.scrollIntoView({block:"start",behavior:"smooth"})},60)}};
+window.spillRerender=function(){if(open||document.querySelector(".sheet"))return;if(filter==="all"||filter==="live"||filter==="acts"){const y=window.scrollY;feed();window.scrollTo(0,y)}else subs()};
 })();
 </script>
 
@@ -2152,6 +2156,7 @@ window.spillRerender=function(){if(open||document.querySelector(".sheet"))return
 <script src="/wire.js" defer></script>
 <script src="/analytics.js" defer></script>
 <script src="/desktop.js" defer></script>
+<script src="/civic.js" defer></script>
 <script src="/install.js" defer></script>
 </body>
 </html>

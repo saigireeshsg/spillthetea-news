@@ -101,3 +101,14 @@ Put the most surprising, relatable number first. Heavy stories (deaths, disaster
 
 ## 11. One visual hook per feed card
 Each feed card shows ONE hook under the explainer map, picked automatically: (1) "🧠 Can you guess?" **only** if you set `"teaser": true` — use it on at most 1–2 stories a day, when the quiz question is genuinely intriguing and the story has no strong numbers; (2) otherwise **how readers are leaning** — the poll's live vote split (appears once 5+ people vote), so write polls that genuinely divide opinion; (3) otherwise the first non-`big` item in `viz` (compare, stack, meter, timeline, icons, trend, donut). Single `big` numbers show as the stat badge under the headline. So: put the most visual chart first among non-`big` viz items.
+
+## 12. 📣 Speak up (civic actions) — check every morning and evening run
+`content/acts/<slug>.json` holds public-interest actions in Hyderabad/Telangana that readers can join: **petitions, public consultations / draft rules open for feedback, citizen drives (lake clean-ups, water saving, tree walks), public hearings and ward meetings** on traffic, water, lakes & trees, safety and civic amenities. Find candidates:
+```sql
+select id, source, title, url from public.scout_items
+where coalesce(published_at,fetched_at) > now() - interval '3 days' and title !~ '[\u0C00-\u0C7F]'
+  and title ~* '(petition|campaign|signature|public hearing|objection|suggestions|consultation|feedback|volunteer|clean-?up|plantation|citizens|residents (demand|oppose|seek)|lake|tree felling|decongest|unchoke|ward sabha|public meeting|draft (rules|policy|notification)|pledge|drive)'
+  and (region in ('hyderabad','telangana','india') or title ~* '(hyderabad|telangana)')
+order by coalesce(published_at,fetched_at) desc limit 30;
+```
+Rules: verify from the article (organiser, demands/what's proposed, deadline, numbers); **non-partisan only** — never list party rallies, dharnas or protests led by political parties, and never endorse; link a petition/consultation page in `cta` only if the article names it (otherwise point to the official site or leave `cta` out). Fields: `title, kind (petition|consultation|drive|campaign|event), issue (traffic|water|green|safety|civic), status (open|closed), added (YYYY-MM-DD), who, what, asks[] (+ optional askTitle), stat {v,l}, deadline, next, checkin (button text, e.g. "I support this"), cta {label,url}, story (related drop id), sources[], pin (0-2)`. Add at most 1 new action per run; set `"act": "<slug>"` on the related drop; mark actions `closed` once the deadline passes or the issue is resolved, and update `stat`/`next` when there's news. Model files: `unchoke-hyderabad.json`, `every-drop-counts.json`, `dl-draft-rules-feedback.json`.
