@@ -1,39 +1,43 @@
 {
  "beats": {
-  "care": "Travelling to Vizag, Kakinada or Odisha this week, or have family there? Check alerts and plan around Oct 27–28.",
-  "what": "IMD says the system could become a depression today, a deep depression Sunday, and a cyclonic storm by Monday morning.",
-  "why": "Landfall may be between Gopalpur in Odisha and Kakinada in Andhra Pradesh. Some models show winds up to 145 km/h and a 1–2 metre storm surge."
+  "what": "The low-pressure system is expected to strengthen into a cyclonic storm by Oct 26 and cross the Andhra coast between Machilipatnam and Visakhapatnam by the afternoon of Oct 28.",
+  "why": "Post-monsoon, the Bay of Bengal is warm and winds are favourable, so storms grow fast. East Telangana sits right in the rain path; Hyderabad is further west.",
+  "care": "Going to Khammam, Kothagudem, Bhadrachalam or Vizag on Oct 27–28? Push the trip if you can. In Hyderabad: no alert yet, dry till Oct 27."
  },
  "cards": [
   {
-   "body": "Odisha cancelled officials' leave and put NDRF and ODRAF teams on standby. Red alerts are out for Puri, Ganjam and Gajapati on Oct 27, and several north Andhra districts on Oct 27–28.",
-   "k": "tea"
+   "k": "tea",
+   "body": "IMD has issued a red alert (heavy to very heavy rain) for Khammam, Bhadradri Kothagudem and Mulugu on Oct 28. Odisha has red alerts for Puri, Ganjam and Gajapati on Oct 27, with NDRF and ODRAF teams on standby."
   },
   {
-   "body": "After the monsoon, the Bay of Bengal stays warm and winds are favourable, so October to December is its busiest cyclone season.",
    "k": "why",
-   "title": "why so many cyclones in October?"
+   "title": "why the name 'Arnab' isn't official yet",
+   "body": "A storm gets the next name on the list only once it becomes a cyclonic storm. A September system that reached Andhra was a deep depression, so the name Arnab is still unused."
+  },
+  {
+   "k": "twist",
+   "body": "Hyderabad is likely to stay dry until Oct 27. The heaviest rain falls on the east side of Telangana, closest to the coast."
   },
   {
    "k": "poll",
    "opts": [
-    "Yes",
-    "No",
-    "Travelling there soon"
+    "Yes, postponing travel",
+    "Checking on family there",
+    "No, I'm in Hyderabad"
    ],
-   "q": "Do you have family on the Odisha or Andhra coast?"
+   "q": "Cyclone week. Are you changing any plans?"
   },
   {
    "ans": 0,
    "k": "quiz",
    "opts": [
-    "Gopalpur and Kakinada",
-    "Chennai and Puducherry",
-    "Mumbai and Goa",
-    "Kolkata and Digha"
+    "Khammam, Bhadradri Kothagudem, Mulugu",
+    "Hyderabad, Rangareddy, Medchal",
+    "Adilabad, Nirmal, Nizamabad",
+    "Nalgonda, Suryapet, Jangaon"
    ],
-   "q": "Between which two places might the storm cross the coast?",
-   "why": "Odisha's minister said models point to landfall between Gopalpur (Odisha) and Kakinada (A.P.)."
+   "q": "Which Telangana districts are on red alert for Oct 28?",
+   "why": "IMD's red alert covers the three eastern districts closest to the storm's path."
   }
  ],
  "cat": "india",
@@ -42,8 +46,8 @@
    "#0b2a4a",
    "#4fbcff"
   ],
-  "big": "145 km/h",
-  "label": "possible winds if the cyclone turns very severe",
+  "big": "Oct 28",
+  "label": "cyclone landfall, red alert in east Telangana",
   "motion": "drift",
   "scene": [
    "🌀",
@@ -52,86 +56,107 @@
   ]
  },
  "date": "2026-10-24",
- "heat": 4,
- "hook": "A *cyclone* may hit the Odisha–Andhra coast by Monday",
+ "heat": 5,
+ "hook": "Cyclone heads for the Andhra coast by *Oct 28*. Red alert in 3 Telangana districts",
  "learn": {
-  "t": "A storm surge is sea water pushed onto land by a cyclone's winds. It often causes more damage than the wind itself."
+  "t": "Cyclone names come from a list made by 13 countries around the Indian Ocean and are used in order. A storm is named only when its winds reach cyclonic strength (63 km/h or more)."
  },
  "map": {
   "causes": [
    {
     "icon": "🌡️",
-    "label": "Low pressure in the Bay"
+    "label": "Warm Bay of Bengal"
    },
    {
     "icon": "🍂",
     "label": "Post-monsoon cyclone season"
    }
   ],
+  "event": {
+   "icon": "🌀",
+   "label": "Cyclone to cross Andhra coast Oct 28"
+  },
   "effects": [
    {
     "icon": "🚨",
-    "label": "Red alerts in coastal districts"
+    "label": "Red alert: Khammam, Kothagudem, Mulugu"
    },
    {
-    "icon": "🚤",
-    "label": "Fishermen told to return"
+    "icon": "🌤️",
+    "label": "Hyderabad dry till Oct 27"
    }
-  ],
-  "event": {
-   "icon": "🌀",
-   "label": "Storm heading for Odisha–A.P."
-  }
+  ]
  },
  "order": 7,
  "readSecs": 55,
- "sort": "2026-10-24-92",
+ "sort": "2026-10-24-95",
  "sources": [
   {
    "name": "The Hindu",
    "title": "Odisha, A.P. brace for storm as low pressure intensifies (print, Hyderabad edition, 24 Oct, p.12)",
    "url": "https://www.thehindu.com/todays-paper/"
+  },
+  {
+   "name": "Deccan Chronicle",
+   "title": "Cyclone Threat: Red Alert for Three Telangana Districts (24 Oct)",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/"
+  },
+  {
+   "name": "The Hans India",
+   "title": "Arnab cyclone alert: IMD issues red alert as AP, Telangana face threat (24 Oct)",
+   "url": "https://www.thehansindia.com/telangana"
+  },
+  {
+   "name": "The Indian Express",
+   "title": "India's east coast may soon see Arnab, the year's first cyclone (23 Oct)",
+   "url": "https://indianexpress.com/article/india/imd-cyclone-andhra-pradesh-odisha-coast-10933258/"
+  },
+  {
+   "name": "Outlook Traveller",
+   "title": "September system stayed a deep depression (24 Sep)",
+   "url": "https://www.outlooktraveller.com/News/cyclone-arnab-travel-advisory-what-travellers-need-to-know-as-deep-depression-moves-inland"
   }
  ],
  "thread": "bay-cyclone",
- "tldr": "A low-pressure area in the Bay of Bengal could become a severe cyclone and cross the south Odisha–north Andhra coast by October 28.",
+ "tldr": "The Bay of Bengal system, set to be named Arnab if it becomes a cyclone, may cross the Andhra coast between Machilipatnam and Visakhapatnam by Oct 28. IMD has put Khammam, Bhadradri Kothagudem and Mulugu on red alert for that day.",
  "topic": "Bay of Bengal cyclone",
  "viz": [
   {
-   "l": "How the storm may build (IMD)",
+   "t": "timeline",
+   "l": "How the storm is expected to build",
    "now": 0,
    "steps": [
     {
-     "e": "Depression",
-     "t": "Sat 24"
+     "t": "Sat 24",
+     "e": "Low pressure in the Bay"
     },
     {
-     "e": "Deep depression",
-     "t": "Sun 25"
+     "t": "By Oct 26",
+     "e": "Cyclonic storm (named Arnab)"
     },
     {
-     "e": "Cyclonic storm",
-     "t": "Mon 26"
+     "t": "Oct 27",
+     "e": "Red alerts in Odisha's Puri, Ganjam, Gajapati"
     },
     {
-     "e": "May cross the coast between Gopalpur and Kakinada",
-     "t": "By Oct 28"
+     "t": "Oct 28 afternoon",
+     "e": "Crosses Andhra coast, Machilipatnam–Visakhapatnam; red alert in 3 Telangana districts"
     }
-   ],
-   "t": "timeline"
+   ]
   },
   {
+   "t": "big",
+   "v": "3",
+   "l": "Telangana districts on red alert for Oct 28",
+   "tone": "bad"
+  },
+  {
+   "t": "big",
+   "v": "145 km/h",
    "l": "top winds in some models",
-   "t": "big",
-   "tone": "bad",
-   "v": "145 km/h"
-  },
-  {
-   "l": "possible storm surge",
-   "t": "big",
-   "tone": "bad",
-   "v": "1–2 m"
+   "tone": "bad"
   }
  ],
- "watch": "IMD will name the storm and fix the landfall point over the weekend. Watch for evacuation orders on Oct 26–27."
+ "watch": "IMD will name the storm once it becomes a cyclone (expected by Oct 26). Watch for a Hyderabad alert, and for school holidays in Khammam and Kothagudem.",
+ "updated": 1792864134848
 }
