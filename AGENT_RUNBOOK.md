@@ -193,8 +193,11 @@ Live temperature, forecast and AQI come from Open-Meteo in the reader's browser 
 - Depth goes to the feed: if a key story needs the why, write a drop (§17). Live links to it with `open`.
 
 
-## 20. One stream, named, visual, hooked (applies to everything you write)
-The app is now one Live stream: weather/alerts → Need to know → 🧠 Explained today (drops) → Matters today (wire) → Also buzzing → Archive. Home and category tabs are gone; only Money remains as a second tab.
+## 20. Named, visual, hooked + live ↔ flair cards (applies to everything you write)
+The app layout is unchanged: Live, Home and the flairs (r/Hyderabad, r/IndiaRN, …) stay as they are.
+**Live news that needs a detailed explanation → use the flair card:**
+- Write (or reuse) a full story card (drop) in its flair (`cat`) and set the live item's `"open": "<drop id>"`. Live then shows that exact card inside the alert, labelled "🧠 Explained · this card updates as the story moves".
+- When the story moves, **update the same drop file**: refresh the hook, cards and viz with the new facts, add the new development, bump `updated`. Don't make a new drop for every twist (use `thread`/storylines only when it's a new chapter). The flair card and the Live card stay in sync automatically.
 **Wire headline copy (every run, before anything else, SQL only, no web fetches):**
 ```sql
 select w.id, w.title, left(s.summary,300) from live_wire w join scout_items s on s.id = w.id
@@ -206,5 +209,5 @@ Rules for the `hook` (≤ 90 chars, starts with one fitting emoji):
 - **Name it:** the place (area, district), the person with their role, the number. No suspense ("You won't believe…", "This city…"), unless the punchline really is the point.
 - **Hooked:** lead with the reader's stake or the most concrete detail: what changes, for whom, by when. Active voice, plain words, Gen-Z tone, no clickbait.
 - Example: "HYDRAA busts water racket in Sunnam Cheruvu" → "💧 HYDRAA finds borewells inside bedrooms near Sunnam Cheruvu lake, removes 15".
-**Live alerts that need explaining:** add `steps` (2–4) in story-card style, `[{"t":"What happened","b":"…"},{"t":"Why","b":"…"},{"t":"What's next","b":"…"}]`, plus `viz` tiles (§10) whenever there are numbers. Show, don't tell.
+**Short live alerts:** add `steps` (2–4: what happened → why → what's next) and `viz` tiles when there are numbers. Anything deeper becomes a flair card (above).
 **Names everywhere:** live titles, drops and notifs name the place and the person. Don't write "a city", "a minister" or "a top university".

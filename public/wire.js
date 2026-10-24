@@ -39,7 +39,7 @@
   // The wire keeps the day's most important stories (ranked server-side); the Live page shows them newest first.
   const byNew = (a, b) => Date.parse(b.published_at || 0) - Date.parse(a.published_at || 0);
   function pickFor(scope) {
-    if (scope === "local") return W.slice().sort(byNew); // one stream: Hyderabad, Telangana and India, newest first
+    if (scope === "local") return W.filter((x) => x.region === "hyderabad" || x.region === "telangana").sort(byNew);
     if (scope === "national") return W.filter((x) => x.region === "india").sort(byNew);
     return W; // home: everything, already ranked
   }
@@ -116,11 +116,12 @@
     const buzz = all.filter((x) => x.tier && x.tier !== "key" && ageH(x) < 3).slice(0, 3);
     const arch = all.filter((x) => !top.includes(x) && !buzz.includes(x) && !(key.includes(x) && !more[scope] && key.indexOf(x) >= cap));
     if (!top.length && !buzz.length) return "";
-    let h = `<section class="livebox wire" aria-label="Live wire"><span class="lgrp">📰 Matters today · Hyderabad & India · newest first</span>${top.map(item).join("")}`;
+    let h = `<section class="livebox wire" aria-label="Live wire"><span class="lgrp">Matters today · newest first</span>${top.map(item).join("")}`;
     if (key.length > cap) h += `<div class="wfoot"><span></span><button data-wmore="${scope}">${key.length - cap} more that matter ↓</button></div>`;
     if (buzz.length) h += `<span class="lgrp" style="margin-top:10px;display:block">👀 Also buzzing · fades in 3 h</span>${buzz.map(item).join("")}`;
     h += `<div class="wfoot"><span>Updated every 10 min</span>${arch.length ? `<button data-warch="${scope}">📦 Archive · ${arch.length}</button>` : ""}</div>`;
     if (archOpen[scope] && arch.length) h += `<div class="warch">${arch.map(item).join("")}</div>`;
+    h += `<button class="wdeep" data-wdeep="1">🧠 Want the why behind today's news? Read the explainers on Home →</button>`;
     return h + `</section>`;
   };
   const archOpen = {};
