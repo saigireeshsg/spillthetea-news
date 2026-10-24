@@ -159,7 +159,7 @@ Readers should get the main news inside Spill. Each "Need to know" item has:
 Pick topics by reader pain points and desires: jobs, hiring and layoffs, exams and results, fees, prices, rent, fuel, UPI and banking, commute, weather and civic issues, tech and startups, cricket, movies and OTT, safety.
 **Politics:** cover it only when it changes daily life (a new rule, a fee, a holiday, a ban). Never make an infographic about party politics, polls, seat counts or leaders.
 
-## 16. 🎟️ Events (Mondays and Thursdays, in the evening run)
+## 16. 🎟️ Events — PAUSED (removed from the app; skip this section)
 The Events tab is hidden while it has no upcoming events. Keep 6–15 upcoming Hyderabad events at all times.
 - Leads: `select title, url, published_at from scout_items where region = 'events' and published_at > now() - interval '5 days' order by published_at desc limit 30;` plus up to 3 web searches (Luma, Meetup, T-Hub, BookMyShow/District, AllEvents, college fests).
 - What to pick, for 15–30s: startup and tech meetups, hackathons, career and job fairs, college fests, stand-up, gigs, sports screenings, food and flea markets, workshops, outdoor plans. Weekend events first. No political rallies.
