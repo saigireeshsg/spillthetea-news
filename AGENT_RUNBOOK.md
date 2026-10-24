@@ -125,3 +125,25 @@ Rules: verify from the article (organiser, demands/what's proposed, deadline, nu
 - Before any run push: `select title, created_at from push_log where created_at > now() - interval '12 hours';`. Skip if the same topic already went out, or if 2 auto pushes have already gone out (keep 1 slot for civic emergencies).
 - Morning run: after publishing → `select public.send_push('<title>', '<body>', '/#s/<drop id>', 'news');`. Evening run: the same, only if a slot is left.
 - Push copy follows Hooked (trigger → action): title ≤ 60 chars, one emoji, specific what + where + when ("⚡ Power cut 10am–2pm in Kukatpally, Miyapur"). Body = what to do + why tap ("Charge up now. Full area list inside"). Never unverified, never clickbait.
+
+
+## 14. Civic alert details (do this FIRST in every run — cheap, high value)
+Readers must get everything inside Spill: no reason to leave. An alert is pushed **only after you fill `details`**.
+1. `select id, kind, headline, publisher, url, published_at from civic_alerts where details is null and push_status = 'pending' order by published_at desc;`
+2. For each: open the article (1 fetch). Fill in only what the article or official notice says:
+```sql
+update civic_alerts set enriched_at = now(), details = jsonb_build_object(
+ 'summary','2 lines in Spill voice: what is happening and why',
+ 'level','e.g. Scheduled power cut · TGSPDCL / IMD orange alert',
+ 'when','Sun, Oct 26', 'timing','10 am – 2 pm',
+ 'where_label','Affected areas', 'where', jsonb_build_array('Kukatpally','Miyapur'),
+ 'not_affected','optional: who is safe, e.g. Hyderabad: no alert',
+ 'do', jsonb_build_array('Charge phones tonight','Store water'),
+ 'official', jsonb_build_object('label','TGSPDCL notice','url','<official url, only if the article names it>'),
+ 'push_title','⚡ Power cut 10am–2pm: Kukatpally, Miyapur',  -- ≤ 60 chars, specific
+ 'push_body','Sunday. Charge up tonight. Full area list inside',  -- ≤ 110 chars
+ 'valid_until','<ISO time the alert stops mattering>'
+) where id = <id>;
+```
+3. Not a public alert (political, an office-only cut, an old story)? → `update civic_alerts set details = '{"push":"no"}', note = 'not for readers' where id = <id>;`
+4. Never guess areas or times. If the article has none, leave `where`/`timing` out and say so in `summary`.

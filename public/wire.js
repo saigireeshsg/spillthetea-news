@@ -48,12 +48,54 @@
   let CA = [];
   const KIND_ICON = { power: "⚡", water: "🚰", weather: "🌧️", traffic: "🚦", holiday: "🏫", metro: "🚇" };
   const KIND_NAME = { power: "Power cut", water: "Water supply", weather: "Weather alert", traffic: "Traffic", holiday: "Holiday", metro: "Metro" };
+  const caLive = (a) => { const d = a.details || {}; const end = d.valid_until ? Date.parse(d.valid_until) : Date.parse(a.published_at || a.created_at) + 18 * 3600e3; return end > Date.now(); };
   window.civicHTML = function (scope) {
     if (scope && scope !== "local") return "";
     const list = CA.slice(0, 6);
     if (!list.length) return "";
-    return `<section class="livebox calerts" aria-label="Alerts"><span class="lgrp">🚨 Alerts · power, water, weather</span>${list.map((a) => `<a class="ca" href="${E(a.url)}" target="_blank" rel="noopener" data-ca="${E(a.id)}"><span class="ci">${KIND_ICON[a.kind] || "🚨"}</span><span class="ct"><small>${E(KIND_NAME[a.kind] || "Alert")} · ${ago(a.published_at || a.created_at)}${a.lang === "te" ? " · Telugu report" : ""}</small><b>${E(a.headline)}</b><span>${E(a.publisher || "")} · read the details ↗</span></span></a>`).join("")}</section>`;
+    return `<section class="livebox calerts" aria-label="Alerts"><span class="lgrp">🚨 Alerts · power, water, weather</span>${list.map((a) => { const d = a.details || {};
+      const meta = d.where ? `${E(d.when || "")}${d.when ? " · " : ""}${E(d.where.slice(0, 3).join(", "))}${d.where.length > 3 ? ` +${d.where.length - 3}` : ""}` : "Checking areas & timings…";
+      return `<button class="ca" data-ca="${E(a.id)}"><span class="ci">${KIND_ICON[a.kind] || "🚨"}</span><span class="ct"><small>${E(d.level || KIND_NAME[a.kind] || "Alert")} · ${ago(a.published_at || a.created_at)}</small><b>${E(d.push_title ? d.push_title.replace(/^\S+\s/, "") : a.headline)}</b><span>${meta} · <u>full details</u></span></span></button>`; }).join("")}</section>`;
   };
+  // In-app alert sheet: everything a reader needs (where, when, what to do, official link), no need to leave Spill.
+  const caCss = document.createElement("style");
+  caCss.textContent = `.calerts .ca{font:inherit;color:inherit;text-align:left;width:100%;cursor:pointer;background:none;border:0}
+.casheet{position:fixed;inset:0;z-index:80;background:rgba(0,0,0,.6);display:flex;align-items:flex-end;justify-content:center}
+.casheet .cab{background:var(--card,#17171a);border:1px solid var(--line,#2e2e33);border-radius:20px 20px 0 0;width:100%;max-width:560px;max-height:88vh;overflow:auto;padding:18px 16px calc(20px + env(safe-area-inset-bottom,0px));display:grid;gap:12px}
+.casheet .cak{font-size:12px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:#ff8a65}
+.casheet h3{margin:0;font-size:21px;line-height:1.25}.casheet p{margin:0;font-size:15px;line-height:1.5}
+.casheet .cag{display:grid;gap:6px;background:var(--card-2,#202024);border-radius:14px;padding:12px}
+.casheet .cag small{font-size:12px;font-weight:800;color:var(--muted,#9aa5ad);text-transform:uppercase;letter-spacing:.04em}
+.casheet .chips{display:flex;flex-wrap:wrap;gap:6px}.casheet .chips span{background:#3a1d10;color:#ffd7c4;border-radius:999px;padding:5px 11px;font-size:14px;font-weight:700}
+.casheet ul{margin:0;padding-left:18px;display:grid;gap:6px;font-size:14.5px;line-height:1.45}
+.casheet .ok{background:#0f2a18;color:#9be7b0;border-radius:12px;padding:10px 12px;font-size:14px;font-weight:600}
+.casheet .off{display:block;text-align:center;font-weight:800;border-radius:999px;padding:12px;background:var(--orange,#ff4500);color:#fff;text-decoration:none}
+.casheet .src{font-size:12.5px;color:var(--muted,#9aa5ad)}.casheet .src a{color:inherit}
+.casheet .x{justify-self:end;font:inherit;font-weight:800;border:0;background:var(--card-2,#202024);color:inherit;border-radius:999px;padding:6px 12px;cursor:pointer}`;
+  document.head.appendChild(caCss);
+  function caOpen(id) {
+    const a = CA.find((x) => String(x.id) === String(id)); if (!a) return false;
+    const d = a.details || {};
+    const el = document.createElement("div"); el.className = "casheet";
+    el.innerHTML = `<div class="cab" role="dialog" aria-label="Alert details"><button class="x" data-cax>Close ✕</button>
+      <span class="cak">${KIND_ICON[a.kind] || "🚨"} ${E(d.level || KIND_NAME[a.kind] || "Alert")}${d.when ? " · " + E(d.when) : ""}</span>
+      <h3>${E(d.push_title ? d.push_title.replace(/^\S+\s/, "") : a.headline)}</h3>
+      ${d.summary ? `<p>${E(d.summary)}</p>` : `<p>${E(a.headline)}</p><p class="src">We're checking the exact areas and timings. This updates here as soon as they're confirmed.</p>`}
+      ${d.where ? `<div class="cag"><small>📍 ${E(d.where_label || "Where")}</small><div class="chips">${d.where.map((w) => `<span>${E(w)}</span>`).join("")}</div></div>` : ""}
+      ${d.timing ? `<div class="cag"><small>⏰ When</small><p>${E(d.timing)}</p></div>` : ""}
+      ${d.not_affected ? `<div class="ok">✅ ${E(d.not_affected)}</div>` : ""}
+      ${(d.do || []).length ? `<div class="cag"><small>👉 What to do</small><ul>${d.do.map((x) => `<li>${E(x)}</li>`).join("")}</ul></div>` : ""}
+      ${d.official ? `<a class="off" href="${E(d.official.url)}" target="_blank" rel="noopener">${E(d.official.label)} ↗</a>` : ""}
+      <div class="src">Source: <a href="${E(a.url)}" target="_blank" rel="noopener">${E(a.publisher || "report")}</a> · ${ago(a.published_at || a.created_at)}</div></div>`;
+    el.addEventListener("click", (e) => { if (e.target === el || e.target.closest("[data-cax]")) { el.remove(); if (/^#alert\//.test(location.hash)) history.replaceState(null, "", location.pathname + location.search); } });
+    document.body.appendChild(el);
+    try { window.spillTrack && window.spillTrack("alert_open", { id: a.id, kind: a.kind, enriched: !!a.details }); } catch (_) {}
+    return true;
+  }
+  window.civicOpen = caOpen;
+  document.addEventListener("click", (e) => { const b = e.target.closest("[data-ca]"); if (!b) return; e.preventDefault(); e.stopPropagation(); caOpen(b.dataset.ca); }, true);
+  let caDeep = (location.hash.match(/^#alert\/(\d+)/) || [])[1];
+  window.addEventListener("hashchange", () => { const m = location.hash.match(/^#alert\/(\d+)/); if (m) caOpen(m[1]); });
   // Home ticker: just the single most important headline + how many more.
   window.wireList = () => W;
   window.wireTop = () => (W.length ? { item: W[0], count: W.length } : null);
@@ -129,7 +171,7 @@ html.desk #hotline.inflow{max-width:676px}
     place(el);
     const items = W.slice().sort(byNew).slice(0, 10);
     const cr = window.cricTop ? window.cricTop() : null;
-    const al = CA.slice(0, 3).map((a) => `<span class="hl-it cr">${KIND_ICON[a.kind] || "🚨"} ${E(a.headline)}</span>`);
+    const al = CA.slice(0, 3).map((a) => `<span class="hl-it cr" data-ca="${E(a.id)}" style="cursor:pointer">${KIND_ICON[a.kind] || "🚨"} ${E(a.details && a.details.push_title ? a.details.push_title.replace(/^\S+\s/, "") : a.headline)}</span>`);
     const parts = al.concat(cr ? [`<span class="hl-it cr">${E(cr)}</span>`] : []).concat(items.map((x) => `<span class="hl-it">${E(x.title)} <small>${mins(x.published_at)}</small></span>`));
     if (!parts.length) { el.hidden = true; return; }
     el.hidden = false;
@@ -145,9 +187,9 @@ html.desk #hotline.inflow{max-width:676px}
 
   async function load() {
     try {
-      const since = new Date(Date.now() - 18 * 3600e3).toISOString();
-      sb.from("civic_alerts").select("id,kind,headline,publisher,url,lang,published_at,created_at").gte("created_at", since).order("published_at", { ascending: false }).limit(8)
-        .then(({ data: ca }) => { if (ca) { const changed = ca.map((x) => x.id).join() !== CA.map((x) => x.id).join(); CA = ca; if (changed) { hotline(); window.spillRerender && window.spillRerender(); } } });
+      const since = new Date(Date.now() - 5 * 86400e3).toISOString();
+      sb.from("civic_alerts").select("id,kind,headline,publisher,url,lang,published_at,created_at,details,enriched_at,note").gte("created_at", since).order("published_at", { ascending: false }).limit(12)
+        .then(({ data: ca }) => { if (ca) { ca = ca.filter((x) => caLive(x) && x.note !== "not for readers"); const changed = ca.map((x) => x.id + ":" + (x.enriched_at || "")).join() !== CA.map((x) => x.id + ":" + (x.enriched_at || "")).join(); CA = ca; if (changed) { hotline(); window.spillRerender && window.spillRerender(); } if (caDeep && caOpen(caDeep)) caDeep = null; } });
       const { data, error } = await sb.from("live_wire").select("id,title,publisher,url,region,published_at,score,outlets,why").order("score", { ascending: false }).limit(60);
       if (!error && data) {
         W = data;
