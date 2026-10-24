@@ -94,6 +94,7 @@
 .lpo{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;font:inherit;font-size:14px;font-weight:700;color:var(--fg);text-align:left;cursor:pointer;background:var(--card);border:1px solid var(--line-2);border-radius:10px;padding:9px 12px}
 .lpo:disabled{cursor:default}.lpo.mine{border-color:var(--orange)}.lpo i{position:absolute;inset:0 auto 0 0;opacity:.28;border-radius:9px 0 0 9px}.lpo span,.lpo em{position:relative}.lpo em{font-style:normal;font-weight:900}
 .dev{margin-bottom:6px}.devw{display:flex;gap:10px;align-items:flex-start;padding:10px 2px;border-top:1px solid var(--line);color:inherit;text-decoration:none}.devw:first-child{border-top:0}.devw .ldot{margin-top:6px;flex:none}.devw b{display:block;font-size:15px;line-height:1.35}.devw small{color:var(--muted);font-size:12.5px}
+.larch summary{cursor:pointer;font-size:13px;font-weight:800;color:var(--muted);list-style:none}.larch summary::-webkit-details-marker{display:none}.larch[open] summary{margin-bottom:6px}
 .lmeans{margin:6px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px;line-height:1.45}
 .lviz{margin-top:8px}.lviz .vz{min-width:0}
 .ltag{background:var(--blue-soft,#16253a);color:var(--blue,#7cb7ff);border-radius:999px;padding:1px 8px;font-weight:800}
@@ -1944,7 +1945,7 @@ function liveView(){
   if(scope==="local")h+=(window.eventsTeaser?window.eventsTeaser():"");
   h+=(window.wireHTML?window.wireHTML(scope,25):"");
   if(!arr.length&&!(window.wireCount&&window.wireCount(scope)))h+=`<div class="end"><span class="big">📡</span><b>All quiet right now</b><span>${scope==="local"&&!me.city?"Pick your city to see local live updates.":"New updates land here as they happen."}</span></div>`;
-  if(earlier.length)h+=`<section class="livebox"><span class="lgrp">Earlier</span>${earlier.map(x=>liveItemHTML(x)).join("")}</section>`;
+  if(earlier.length)h+=`<details class="livebox larch"><summary>📦 Earlier alerts · ${earlier.length}</summary>${earlier.map(x=>liveItemHTML(x,true)).join("")}</details>`;
   if(scope==="local"&&areasFor(me.city).length)h+=`<button class="tipbtn" data-act="tip">📣 Seen something${me.area?" in "+esc(me.area):""}? Tell the live desk. Every tip is checked before posting.</button>`;
   h+=`<p class="note" style="text-align:center;margin:4px 0 0">Headlines come from established news outlets and link to the original report. No forwards, no rumours.</p>`;
   me.lSeen=Math.max(me.lSeen||0,latestTs(live));save();

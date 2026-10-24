@@ -184,3 +184,10 @@ Home shows "🔴 Developing now": rich Need-to-know items, plus live_wire headli
 
 ## 18. Weather is automatic
 Live temperature, forecast and AQI come from Open-Meteo in the reader's browser (their location if they share it, otherwise Hyderabad), refreshed every 15 min, and shaped by time of day (morning: today; evening: tonight + tomorrow; night/late: tomorrow). Don't write temperatures or AQI by hand. In `content/now/hyderabad.json` keep only `rain` for official advisories (IMD alerts, cyclone, heatwave warnings), e.g. "IMD orange alert: heavy rain Mon–Tue". Clear it once the advisory ends.
+
+
+## 19. Keep Live lean
+- Live wire headlines are tagged by `wire_tier()`: **key** (reader impact: civic, exams, jobs, prices, transport, tech, alerts) stays up to 12 h; **spicy** (party spats, crime, protests, statues) and **other** show for 3 h under "Also buzzing" (max 3), then move to a collapsed Archive.
+- "Need to know" is only for key stories. Never write a live alert for a political spat or a crime story unless it changes daily life (curfew, bandh, road closure, safety advisory).
+- Set `until` on every live alert, and keep at most 5 active at a time. Older ones fold into "📦 Earlier alerts".
+- Depth goes to the feed: if a key story needs the why, write a drop (§17). Live links to it with `open`.

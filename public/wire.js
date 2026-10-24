@@ -21,6 +21,7 @@
 .wire .tg{font-weight:800;border-radius:999px;padding:1px 7px;font-size:11px}
 .wire .tg.new{background:#ff4500;color:#fff}.wire .tg.al{background:#e5383b;color:#fff}.wire .tg.cv{background:#1f3b57;color:#9fd3ff}
 .wire .wfoot{display:flex;justify-content:space-between;align-items:center;margin-top:6px;font-size:12px;color:var(--muted,#a3acb0)}
+.wire .warch{opacity:.75;border-top:1px dashed var(--line,#343536);margin-top:6px}.wire .wdeep{display:block;width:100%;margin-top:10px;font:inherit;font-size:13.5px;font-weight:800;text-align:left;cursor:pointer;border:1px solid var(--line-2,#3a3a3c);background:var(--card-2,#202024);color:var(--fg);border-radius:12px;padding:10px 12px}
 .wire .wfoot button{border:0;background:none;color:#4fbcff;font-weight:800;font-size:13px;padding:4px 0}
 `;
   document.head.appendChild(css);
@@ -98,22 +99,34 @@
   window.addEventListener("hashchange", () => { const m = location.hash.match(/^#alert\/(\d+)/); if (m) caOpen(m[1]); });
   // Home ticker: just the single most important headline + how many more.
   window.wireList = () => W;
-  window.wireTop = () => (W.length ? { item: W[0], count: W.length } : null);
+  window.wireTop = () => { const k = W.filter((x) => x.tier !== "spicy"); return k.length ? { item: k[0], count: k.length } : null; };
   const more = {};
 
+  // Live page: only what matters. Reader-impact stories ("key") stay 12 h; spicy/other headlines get 3 h, max 3, then move to a collapsed archive.
+  const ageH = (x) => (Date.now() - Date.parse(x.published_at || 0)) / 3600e3;
   window.wireHTML = function (scope, n) {
     const all = pickFor(scope);
-    const cap = more[scope] ? all.length : Math.min(n || 6, 15);
-    const list = all.slice(0, cap);
-    if (!list.length) return "";
-    const head = scope === "home"
-      ? `<div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE WIRE · HYDERABAD & INDIA</b><span class="upd">ranked ${fetchedAt ? ago(new Date(fetchedAt).toISOString()) : ""}</span></div>`
-      : `<span class="lgrp">Latest first · the day's stories that matter most</span>`;
-    const foot = scope === "home"
-      ? `<div class="wfoot"><span>Tap a headline to read it at the source</span><button data-act="live" data-key="local">More →</button></div>`
-      : `<div class="wfoot"><span>Updated every 10 min · tap to read at the source</span>${all.length > cap ? `<button data-wmore="${scope}">Show ${all.length - cap} more ↓</button>` : ""}</div>`;
-    return `<section class="livebox wire" aria-label="Live wire">${head}${list.map(item).join("")}${foot}</section>`;
+    if (scope === "home") {
+      const list = all.filter((x) => x.tier !== "spicy").slice(0, n || 6); if (!list.length) return "";
+      return `<section class="livebox wire" aria-label="Live wire"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE WIRE · HYDERABAD & INDIA</b><span class="upd">ranked ${fetchedAt ? ago(new Date(fetchedAt).toISOString()) : ""}</span></div>${list.map(item).join("")}<div class="wfoot"><span>Tap a headline to read it at the source</span><button data-act="live" data-key="local">More →</button></div></section>`;
+    }
+    const key = all.filter((x) => (x.tier || "key") === "key" && ageH(x) < 12);
+    const cap = more[scope] ? key.length : Math.min(n || 6, 10);
+    const top = key.slice(0, cap);
+    const buzz = all.filter((x) => x.tier && x.tier !== "key" && ageH(x) < 3).slice(0, 3);
+    const arch = all.filter((x) => !top.includes(x) && !buzz.includes(x) && !(key.includes(x) && !more[scope] && key.indexOf(x) >= cap));
+    if (!top.length && !buzz.length) return "";
+    let h = `<section class="livebox wire" aria-label="Live wire"><span class="lgrp">Matters today · newest first</span>${top.map(item).join("")}`;
+    if (key.length > cap) h += `<div class="wfoot"><span></span><button data-wmore="${scope}">${key.length - cap} more that matter ↓</button></div>`;
+    if (buzz.length) h += `<span class="lgrp" style="margin-top:10px;display:block">👀 Also buzzing · fades in 3 h</span>${buzz.map(item).join("")}`;
+    h += `<div class="wfoot"><span>Updated every 10 min</span>${arch.length ? `<button data-warch="${scope}">📦 Archive · ${arch.length}</button>` : ""}</div>`;
+    if (archOpen[scope] && arch.length) h += `<div class="warch">${arch.map(item).join("")}</div>`;
+    h += `<button class="wdeep" data-wdeep="1">🧠 Want the why behind today's news? Read the explainers on Home →</button>`;
+    return h + `</section>`;
   };
+  const archOpen = {};
+  document.addEventListener("click", (e) => { const b = e.target.closest("[data-wdeep]"); if (!b) return; e.preventDefault(); e.stopPropagation(); try { window.spillTrack && window.spillTrack("live_go_deep"); } catch (_) {} const c = document.querySelector('[data-f="all"]'); if (c) { c.click(); window.scrollTo(0, 0); } }, true);
+  document.addEventListener("click", (e) => { const b = e.target.closest("[data-warch]"); if (!b) return; e.preventDefault(); e.stopPropagation(); archOpen[b.dataset.warch] = !archOpen[b.dataset.warch]; window.spillRerender && window.spillRerender(); }, true);
 
   document.addEventListener("click", (e) => { const b = e.target.closest("[data-wmore]"); if (b) { e.preventDefault(); e.stopPropagation(); more[b.dataset.wmore] = true; window.spillRerender && window.spillRerender(); } }, true);
 
@@ -169,7 +182,7 @@ html.desk #hotline.inflow{max-width:676px}
       if (back) mo.observe(back, { attributes: true, attributeFilter: ["hidden"] });
     }
     place(el);
-    const items = W.slice().sort(byNew).slice(0, 10);
+    const items = W.filter((x) => x.tier !== "spicy").sort(byNew).slice(0, 10);
     const cr = window.cricTop ? window.cricTop() : null;
     const al = CA.slice(0, 3).map((a) => `<span class="hl-it cr" data-ca="${E(a.id)}" style="cursor:pointer">${KIND_ICON[a.kind] || "🚨"} ${E(a.details && a.details.push_title ? a.details.push_title.replace(/^\S+\s/, "") : a.headline)}</span>`);
     const parts = al.concat(cr ? [`<span class="hl-it cr">${E(cr)}</span>`] : []).concat(items.map((x) => `<span class="hl-it">${E(x.title)} <small>${mins(x.published_at)}</small></span>`));
@@ -190,7 +203,7 @@ html.desk #hotline.inflow{max-width:676px}
       const since = new Date(Date.now() - 5 * 86400e3).toISOString();
       sb.from("civic_alerts").select("id,kind,headline,publisher,url,lang,published_at,created_at,details,enriched_at,note").gte("created_at", since).order("published_at", { ascending: false }).limit(12)
         .then(({ data: ca }) => { if (ca) { ca = ca.filter((x) => caLive(x) && x.note !== "not for readers"); const changed = ca.map((x) => x.id + ":" + (x.enriched_at || "")).join() !== CA.map((x) => x.id + ":" + (x.enriched_at || "")).join(); CA = ca; if (changed) { hotline(); window.spillRerender && window.spillRerender(); } if (caDeep && caOpen(caDeep)) caDeep = null; } });
-      const { data, error } = await sb.from("live_wire").select("id,title,publisher,url,region,published_at,score,outlets,why").order("score", { ascending: false }).limit(60);
+      const { data, error } = await sb.from("live_wire").select("id,title,publisher,url,region,published_at,score,outlets,why,tier").order("score", { ascending: false }).limit(60);
       if (!error && data) {
         W = data;
         fetchedAt = Date.now();
