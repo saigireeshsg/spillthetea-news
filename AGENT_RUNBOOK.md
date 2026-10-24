@@ -86,3 +86,15 @@ Cricket alerts: readers opt in on the match card (Web Push). The `cricket` funct
 Readers found Spill text-heavy and overwhelming. Every drop: `hook` ≤ 10 words; `tldr` one sentence ≤ 20 words; each `beats` line ≤ 18 words; `cards` = `tea` + `poll` + `quiz` (add one `num` card only when a single number tells the story). Feed cards show the headline plus the cause → event → effects explainer map, so keep `map` labels to 2–4 words each. Prefer one strong story over two similar ones.
 
 No calculators: never add a `calc` field to drops (Money tab is news only).
+
+## 10. Infographics on every story (`viz`)
+Each drop gets a `viz` array of 2–4 visuals built **only from numbers you verified in the source articles** (no estimates, no made-up baselines). It renders as a "📊 By the numbers" strip under the map, and the first item becomes the stat badge on the feed card. Pick the type that fits the fact:
+- `{"t":"big","v":"₹7.76 lakh","l":"worth of food seized","tone":"bad|good"}` — one striking number.
+- `{"t":"compare","l":"Pass mark","a":{"v":60,"d":"60%","l":"Now"},"b":{"v":75,"d":"75%","l":"Proposed"},"goodIfUp":true}` — before/after, us/them, old record/new.
+- `{"t":"meter","l":"Money spent","v":70.61,"max":96.9,"d":"₹70.61 cr of ₹96.9 cr","note":"…"}` — progress against a total or target.
+- `{"t":"stack","l":"Medal mix","total":"114 medals","parts":[{"l":"Gold","v":30},{"l":"Silver","v":35}]}` — parts of a whole.
+- `{"t":"timeline","l":"What happens when","now":0,"steps":[{"t":"Sat 24","e":"…"},{"t":"By Oct 28","e":"…"}]}` — dated sequence; `now` = index of today.
+- `{"t":"icons","n":1,"of":4,"icon":"🏠","d":"1 in 4","l":"homes depend on tankers"}` — "X in Y" facts.
+- `{"t":"trend","l":"AQI this week","pts":[["Mon",142],["Tue",120]],"unit":""}` — 3+ dated values.
+- `{"t":"donut","v":62,"d":"62%","l":"of the budget goes to …"}` — one share.
+Put the most surprising, relatable number first. Heavy stories (deaths, disasters): plain `big` tiles only, no `tone` colours. If a story truly has no numbers, use a `timeline`.

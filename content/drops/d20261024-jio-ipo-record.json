@@ -87,5 +87,36 @@
  "thread": "jio-ipo",
  "tldr": "Jio Platforms' ₹30,213 crore IPO closed with over 1 crore applications and bids worth more than ₹7 lakh crore.",
  "topic": "Jio IPO record",
+ "viz": [
+  {
+   "a": {
+    "d": "97 lakh",
+    "l": "Waaree Energies",
+    "v": 97
+   },
+   "b": {
+    "d": "1 crore+",
+    "l": "Jio Platforms",
+    "v": 100
+   },
+   "l": "Most applications for an Indian IPO",
+   "t": "compare"
+  },
+  {
+   "l": "to get fully subscribed",
+   "t": "big",
+   "v": "100 min"
+  },
+  {
+   "l": "bids vs shares on offer",
+   "t": "big",
+   "v": "20.5×"
+  },
+  {
+   "l": "size of the IPO",
+   "t": "big",
+   "v": "₹30,213 cr"
+  }
+ ],
  "watch": "Watch the share allotment and the listing day price."
 }

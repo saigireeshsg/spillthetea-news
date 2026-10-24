@@ -30,6 +30,40 @@
 .ticker .tk-lv .t{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .ticker .tk-lv i{font-style:normal;font-size:11.5px;font-weight:800;color:#9fd3ff;background:#1f3b57;border-radius:999px;padding:1px 7px;flex:none}
 .post .pt{margin-bottom:6px}
+.vizbox{margin:14px 0;background:var(--card-2);border:1px solid var(--line);border-radius:16px;padding:12px}
+.vzh{margin:0 0 10px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.vgrid{display:flex;flex-wrap:wrap;gap:8px}
+.vz{flex:1 1 calc(50% - 4px);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;min-width:0;box-sizing:border-box}
+.vz.wide{flex-basis:100%}
+.vz .vl{display:block;font-size:12.5px;color:var(--muted);line-height:1.35}
+.vz small{display:block;font-size:12px;color:var(--muted);margin-top:6px;line-height:1.35}
+.vz .vh{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:8px}
+.vz .vh b{font-size:17px}
+.vbig b{display:block;font-size:26px;font-weight:900;line-height:1.1;color:var(--fg);letter-spacing:-.01em}
+.vbig.bad b{color:#ff6b6b}.vbig.good b{color:var(--good)}
+.vcmp .vrow{display:grid;grid-template-columns:96px 1fr auto;align-items:center;gap:8px;margin-top:6px;font-size:13px}
+.vcmp .vk{color:var(--muted);font-size:12px;line-height:1.2}
+.vbar{height:12px;background:var(--line);border-radius:999px;overflow:hidden}.vbar i{display:block;height:100%;background:#7c8a96;border-radius:999px}
+.vrow.now .vbar i{background:var(--orange)}.vrow.now b{color:var(--fg)}
+.vch{font-size:11.5px;font-weight:800;border-radius:999px;padding:2px 8px;white-space:nowrap}.vch.good{background:var(--good-soft);color:var(--good)}.vch.bad{background:var(--bad-soft);color:#ff6b6b}
+.vtrack{height:14px;background:var(--line);border-radius:999px;overflow:hidden}.vtrack i{display:block;height:100%;background:linear-gradient(90deg,#ffd166,var(--orange));border-radius:999px}
+.vsb{display:flex;height:16px;border-radius:999px;overflow:hidden;gap:2px}.vsb i{display:block;height:100%}
+.vleg{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:8px;font-size:12.5px;color:var(--muted)}.vleg span{display:flex;align-items:center;gap:5px}.vleg i{width:9px;height:9px;border-radius:3px;display:inline-block}.vleg b{color:var(--fg)}
+.vtl ol{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.vtl li{display:grid;grid-template-columns:78px 1fr;gap:10px;padding:6px 0 6px;position:relative;font-size:13.5px;line-height:1.35}
+.vtl li .vt{font-weight:800;color:var(--muted);font-size:12.5px;padding-left:16px;position:relative}
+.vtl li .vt:before{content:"";position:absolute;left:2px;top:4px;width:9px;height:9px;border-radius:50%;background:var(--line-2)}
+.vtl li:not(:last-child) .vt:after{content:"";position:absolute;left:6px;top:15px;width:2px;height:calc(100% + 4px);background:var(--line)}
+.vtl li.cur .vt{color:var(--orange)}.vtl li.cur .vt:before{background:var(--orange);box-shadow:0 0 0 4px #ff450033}
+.vtl li.past .vt:before{background:var(--muted)}
+.vic{display:flex;flex-wrap:wrap;gap:3px;font-size:22px;line-height:1}.vic span{filter:grayscale(1);opacity:.28}.vic span.on{filter:none;opacity:1}
+.vicons .vh{justify-content:flex-start}.vicons .vh b{font-size:20px;white-space:nowrap}
+.vtrend svg{width:100%;height:70px;color:var(--orange);fill:var(--orange);display:block}
+.vax{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:2px}
+.vdonut{display:flex;align-items:center;gap:10px}.vdonut svg{width:56px;height:56px;flex:none}.vdonut b{display:block;font-size:20px;font-weight:900}
+.statchip{display:flex;gap:8px;align-items:baseline;margin:0 0 10px;font-size:13px;color:var(--muted);line-height:1.35}
+.statchip b{color:var(--fg);background:var(--orange-soft);border:1px solid #ff450055;border-radius:8px;padding:2px 8px;white-space:nowrap;font-size:13px}
+.statchip span{min-width:0;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical}
 </style>
 <script src="/config.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
@@ -1228,7 +1262,7 @@ function cprevHTML(d){const t=takesFor(d.id).map(x=>Object.assign(x,{score:S.tak
   if(t)return `<p class="cprev"><b>💬 u/${esc(t.handle)}:</b><span>${esc(t.text)}</span></p>`;
   return ""}
 function cardHTML(d,ix){const sc=S.post[d.id]||0;const n=commentCount(d);const care=d.beats?.care;const hero=ix===0;
-  return `<article class="post click ${me.done[d.id]?"done":""}" data-open="${d.id}" tabindex="0">${d.featured?`<div class="featbar">📰 EDITORIAL OF THE DAY <small>· ${esc(d.editorial?.paper||"")}, decoded</small></div>`:""}${head(d)}${!me.done[d.id]&&reasonOf(d)?`<p class="rsn">${esc(reasonOf(d))}</p>`:""}<h2 class="pt">${rich(d.hook)}</h2>${(()=>{const sb=siblings(d).length,lv=liveFor(d);return (lv?`<p class="cardlive"><span class="ldot" aria-hidden="true"></span><b>LIVE · ${ago(lv.updated||lv.ts)}</b><span class="t">${esc(lv.title)}</span></p>`:"")+(sb?`<p class="thr">🧵 Ongoing story · ${sb} earlier ${sb===1?"update":"updates"} inside</p>`:"")})()}${d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}${learnOf(d)?`<p class="rem"><b>💡</b><span>${esc(learnOf(d))}</span></p>`:""}<div class="acts">${voteHTML("post",d.id,sc,me.post[d.id])}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button></div></article>`}
+  return `<article class="post click ${me.done[d.id]?"done":""}" data-open="${d.id}" tabindex="0">${d.featured?`<div class="featbar">📰 EDITORIAL OF THE DAY <small>· ${esc(d.editorial?.paper||"")}, decoded</small></div>`:""}${head(d)}${!me.done[d.id]&&reasonOf(d)?`<p class="rsn">${esc(reasonOf(d))}</p>`:""}<h2 class="pt">${rich(d.hook)}</h2>${statChip(d)}${(()=>{const sb=siblings(d).length,lv=liveFor(d);return (lv?`<p class="cardlive"><span class="ldot" aria-hidden="true"></span><b>LIVE · ${ago(lv.updated||lv.ts)}</b><span class="t">${esc(lv.title)}</span></p>`:"")+(sb?`<p class="thr">🧵 Ongoing story · ${sb} earlier ${sb===1?"update":"updates"} inside</p>`:"")})()}${d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}${learnOf(d)?`<p class="rem"><b>💡</b><span>${esc(learnOf(d))}</span></p>`:""}<div class="acts">${voteHTML("post",d.id,sc,me.post[d.id])}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button></div></article>`}
 
 // ---------- greeting + breaking banner + extras ----------
 let firstName="",extrasOpen=false;
@@ -1516,6 +1550,42 @@ function speak(d){try{const ss=window.speechSynthesis;if(!ss)return toast("Liste
   const u=new SpeechSynthesisUtterance(txt);const v=ss.getVoices().find(v=>/en-IN/i.test(v.lang))||ss.getVoices().find(v=>/^en/i.test(v.lang));if(v)u.voice=v;u.rate=1.02;
   u.onend=()=>{if(speaking===d.id){speaking=null;if(open===d.id)postView(d.id,false,true)}};speaking=d.id;ss.speak(u);postView(d.id,false,true)}catch(e){toast("Couldn't play audio here")}}
 const fewVotes=n=>n<5;
+// ---------- "By the numbers": infographic strip ----------
+// d.viz = [{t:"big"|"compare"|"meter"|"stack"|"timeline"|"icons"|"trend"|"donut", ...}]; falls back to num/bars cards.
+function vizItems(d){
+  if(Array.isArray(d.viz)&&d.viz.length)return d.viz;
+  const out=[];(d.cards||[]).forEach(c=>{if(c.k==="num"&&c.value)out.push({t:"big",v:c.value,l:c.caption,sub:c.body});if(c.k==="bars"&&(c.items||[]).length)out.push({t:"bars",card:c})});
+  return out}
+const vNum=x=>{const n=parseFloat(String(x).replace(/[^0-9.\-]/g,""));return isNaN(n)?0:n};
+function vizOne(x){
+  const L=x.l?`<span class="vl">${rich(x.l)}</span>`:"";
+  const tone=x.tone==="bad"?"bad":x.tone==="good"?"good":"";
+  if(x.t==="big")return `<div class="vz vbig ${tone}"><b>${esc(x.v)}</b>${L}${x.sub?`<small>${rich(x.sub)}</small>`:""}</div>`;
+  if(x.t==="compare"){const a=x.a||{},b=x.b||{};const av=vNum(a.v),bv=vNum(b.v),mx=Math.max(av,bv)||1;
+    const ch=av?Math.round((bv-av)/av*100):null;const up=bv>=av;
+    const chip=ch!=null&&isFinite(ch)?`<span class="vch ${(x.goodIfUp===false?!up:up)?"good":"bad"}">${up?"▲":"▼"} ${Math.abs(ch)}%</span>`:"";
+    return `<div class="vz vcmp wide"><div class="vh">${L}${chip}</div>${[a,b].map((p,i)=>`<div class="vrow ${i?"now":""}"><span class="vk">${esc(p.l||"")}</span><div class="vbar"><i style="width:${Math.max(4,vNum(p.v)/mx*100)}%"></i></div><b>${esc(p.d||p.v)}</b></div>`).join("")}</div>`}
+  if(x.t==="meter"){const v=vNum(x.v),m=vNum(x.max)||100,p=Math.max(0,Math.min(100,v/m*100));
+    return `<div class="vz vmeter wide"><div class="vh">${L}<b>${esc(x.d||Math.round(p)+"%")}</b></div><div class="vtrack"><i style="width:${p}%"></i></div>${x.note?`<small>${rich(x.note)}</small>`:""}</div>`}
+  if(x.t==="stack"){const parts=x.parts||[];const tot=parts.reduce((s,p)=>s+vNum(p.v),0)||1;const cols=["#ffd166","#c0c7cf","#d08c4b","#4fbcff","#46d160","#ff4500"];
+    return `<div class="vz vstack wide"><div class="vh">${L}<b>${esc(x.total||tot)}</b></div><div class="vsb">${parts.map((p,i)=>`<i style="width:${vNum(p.v)/tot*100}%;background:${p.c||cols[i%cols.length]}"></i>`).join("")}</div><div class="vleg">${parts.map((p,i)=>`<span><i style="background:${p.c||cols[i%cols.length]}"></i>${esc(p.l)} <b>${esc(p.v)}</b></span>`).join("")}</div></div>`}
+  if(x.t==="timeline"){const st=x.steps||[];const now=typeof x.now==="number"?x.now:-1;
+    return `<div class="vz vtl wide"><div class="vh">${L}</div><ol>${st.map((p,i)=>`<li class="${i<now?"past":i===now?"cur":""}"><span class="vt">${esc(p.t)}</span><span class="ve">${rich(p.e)}</span></li>`).join("")}</ol></div>`}
+  if(x.t==="icons"){const n=Math.max(0,Math.min(+x.n||0,20)),of=Math.max(1,Math.min(+x.of||10,20));
+    return `<div class="vz vicons wide"><div class="vh"><b>${esc(x.d||n+" in "+of)}</b>${L}</div><div class="vic">${Array.from({length:of},(_,i)=>`<span class="${i<n?"on":""}">${esc(x.icon||"🧍")}</span>`).join("")}</div></div>`}
+  if(x.t==="trend"){const pts=(x.pts||[]).map(p=>[p[0],vNum(p[1])]);if(pts.length<2)return"";const vs=pts.map(p=>p[1]);const lo=Math.min(...vs),hi=Math.max(...vs),rg=(hi-lo)||1;
+    const W=300,H=70,P=8;const xy=pts.map((p,i)=>[P+i*(W-2*P)/(pts.length-1),H-P-(p[1]-lo)/rg*(H-2*P)]);
+    const last=pts[pts.length-1];
+    return `<div class="vz vtrend wide"><div class="vh">${L}<b>${esc(x.d||(last[1]+(x.unit||"")))}</b></div><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true"><polyline points="${xy.map(p=>p.join(",")).join(" ")}" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>${xy.map((p,i)=>`<circle cx="${p[0]}" cy="${p[1]}" r="${i===xy.length-1?4:2.5}"/>`).join("")}</svg><div class="vax">${pts.map(p=>`<span>${esc(p[0])}</span>`).join("")}</div></div>`}
+  if(x.t==="donut"){const p=Math.max(0,Math.min(100,vNum(x.v)));const r=26,c=2*Math.PI*r;
+    return `<div class="vz vdonut"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="${r}" fill="none" stroke="var(--line)" stroke-width="9"/><circle cx="32" cy="32" r="${r}" fill="none" stroke="var(--orange)" stroke-width="9" stroke-dasharray="${c*p/100} ${c}" transform="rotate(-90 32 32)" stroke-linecap="round"/></svg><div><b>${esc(x.d||p+"%")}</b>${L}</div></div>`}
+  if(x.t==="bars")return `<div class="vz wide vbars"><div class="vh">${x.card.title?`<span class="vl">${rich(x.card.title)}</span>`:""}</div>${barsHTML(x.card)}${x.card.note?`<small>${rich(x.card.note)}</small>`:""}</div>`;
+  return ""}
+function vizHTML(d){const it=vizItems(d);if(!it.length)return"";
+  return `<section class="vizbox" aria-label="By the numbers"><h3 class="vzh">📊 By the numbers</h3><div class="vgrid">${it.map(vizOne).join("")}</div></section>`}
+function statChip(d){const it=vizItems(d)[0];if(!it)return"";let v="",l="";
+  if(it.t==="big"){v=it.v;l=it.l}else if(it.t==="compare"){v=(it.a?.d||it.a?.v)+" → "+(it.b?.d||it.b?.v);l=it.l}else if(it.t==="meter"){v=it.d||"";l=it.l}else if(it.t==="stack"){v=it.total||"";l=it.l}else if(it.t==="icons"){v=it.d||(it.n+" in "+it.of);l=it.l}else return"";
+  return v?`<p class="statchip"><b>📊 ${esc(plain(String(v)))}</b><span>${esc(plain(String(l||"")))}</span></p>`:""}
 function postView(id,jump,keep){
   if(!keep){const v=$("#view");v.classList.remove("view-in");void v.offsetWidth;v.classList.add("view-in");if(speaking&&speaking!==id){try{speechSynthesis.cancel()}catch(e){}speaking=null}}
   const d=drops.find(x=>x.id===id);if(!d)return feed();
@@ -1555,7 +1625,7 @@ function postView(id,jump,keep){
     pollH=`<div class="box"><span class="k">📊 What do you think?${fewVotes(n)?"":` · ${n} votes`}</span><h3>${rich(poll.q)}</h3>${poll.opts.map((o,j)=>{const pc=pct("poll",id,j);return `<button class="opt ${a===j?"mine":""}" data-act="poll" data-key="${id}" data-i="${j}" ${voted?"disabled":""}><i class="fill" style="width:${showPc?pc:0}%"></i><span>${esc(o)}${a===j?" · you":""}</span>${showPc?`<span class="pc">${pc}%</span>`:""}</button>`}).join("")}
     ${false?`<div class="why1"><b>Why "${esc(poll.opts[a])}"? One line (optional)</b><div class="row"><input id="why1" maxlength="200" placeholder="Because…" aria-label="Why you picked this"><button data-act="why1" data-key="${id}">Post</button></div></div>`:`<span class="note">${voted?(fewVotes(n)?"🙌 You're one of the first to vote. The full result shows at 6pm.":"Thanks for voting 🙌"):"Vote to see what others picked"}</span>`}${tribeHTML(d,poll)}${voted?`<div class="shrow"><button class="shbtn" data-act="pshare" data-key="${id}">📣 Ask your group chat</button><button class="shbtn" data-act="pcard" data-key="${id}">🖼️ Poll card</button></div>`:""}</div>`}
   // go deeper: one compact accordion, one section open at a time
-  const full=cs.filter(c=>["tea","edit","num","bars","why","you"].includes(c.k)).map(c=>{
+  const full=cs.filter(c=>["tea","edit","why","you"].includes(c.k)||(Array.isArray(d.viz)&&d.viz.length&&["num","bars"].includes(c.k))).map(c=>{
     if(c.k==="tea")return b.what?"":`<div class="sec"><h3>📰 The full story</h3><p>${rich(c.body)}</p></div>`;
     if(c.k==="edit")return `<div class="ed"><div class="mast"><i>${esc(c.paper||"Editorial")}</i>${esc(c.kind||"Editorial")}</div><h3>“${esc(c.title)}”</h3><p>${rich(c.body)}</p>${c.verdict?`<p class="verdict">${rich(c.verdict)}</p>`:""}</div>`;
     if(c.k==="num")return `<div class="stat"><b>${esc(c.value)}</b><div><span>${esc(c.caption)}</span><p>${rich(c.body)}</p></div></div>`;
@@ -1583,10 +1653,9 @@ function postView(id,jump,keep){
       ${knownH}
       ${bsH}
       ${d.map?`<div class="mapbox">${mapHTML(d.map)}</div>`:""}
+      ${vizHTML(d)}
       <div class="beats">${beats.map(([ic,l,t],i)=>`<div class="beat ${i===2?"care2":""}"><span class="bi" aria-hidden="true">${ic}</span><div><small>${l}</small><p>${rich(t)}</p></div></div>`).join("")}</div>
       ${remH}
-      ${storyCalcHTML(d)}
-      ${d.concept&&LESSONS.some(l=>l.id===d.concept)?`<button class="lrnbtn" data-act="golesson" data-key="${esc(d.concept)}">📘 Learn the idea: ${esc(LESSONS.find(l=>l.id===d.concept).t)}</button>`:""}
       ${watchH}
       ${pollH}
       ${predH}

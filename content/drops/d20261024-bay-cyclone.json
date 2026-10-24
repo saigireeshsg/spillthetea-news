@@ -96,5 +96,42 @@
  "thread": "bay-cyclone",
  "tldr": "A low-pressure area in the Bay of Bengal could become a severe cyclone and cross the south Odisha–north Andhra coast by October 28.",
  "topic": "Bay of Bengal cyclone",
+ "viz": [
+  {
+   "l": "How the storm may build (IMD)",
+   "now": 0,
+   "steps": [
+    {
+     "e": "Depression",
+     "t": "Sat 24"
+    },
+    {
+     "e": "Deep depression",
+     "t": "Sun 25"
+    },
+    {
+     "e": "Cyclonic storm",
+     "t": "Mon 26"
+    },
+    {
+     "e": "May cross the coast between Gopalpur and Kakinada",
+     "t": "By Oct 28"
+    }
+   ],
+   "t": "timeline"
+  },
+  {
+   "l": "top winds in some models",
+   "t": "big",
+   "tone": "bad",
+   "v": "145 km/h"
+  },
+  {
+   "l": "possible storm surge",
+   "t": "big",
+   "tone": "bad",
+   "v": "1–2 m"
+  }
+ ],
  "watch": "IMD will name the storm and fix the landfall point over the weekend. Watch for evacuation orders on Oct 26–27."
 }

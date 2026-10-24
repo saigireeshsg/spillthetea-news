@@ -91,5 +91,32 @@
  "thread": "hyd-heritage",
  "tldr": "A half-built interpretation centre at the 400-year-old Qutb Shahi Tombs is decaying while 90 court cases and stuck funds hold it up.",
  "topic": "Qutb Shahi Tombs project",
+ "viz": [
+  {
+   "d": "₹70.61 cr of ₹96.9 cr",
+   "l": "Project money released and spent",
+   "max": 96.9,
+   "note": "Sanctioned in 2017-18.",
+   "t": "meter",
+   "v": 70.61
+  },
+  {
+   "l": "court cases over land title",
+   "t": "big",
+   "tone": "bad",
+   "v": "90"
+  },
+  {
+   "l": "stuck under Swadesh Darshan",
+   "t": "big",
+   "tone": "bad",
+   "v": "₹26.29 cr"
+  },
+  {
+   "l": "age of the tombs",
+   "t": "big",
+   "v": "400 yrs"
+  }
+ ],
  "watch": "Watch whether the state releases funds for the management trust and the courts settle the title dispute."
 }

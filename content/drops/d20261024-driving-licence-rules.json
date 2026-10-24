@@ -87,5 +87,47 @@
  "thread": "driving-licence",
  "tldr": "The Centre's draft rules would make the learner's test tougher, move many licence services online, and make some changes free.",
  "topic": "New driving licence rules",
+ "viz": [
+  {
+   "a": {
+    "d": "60%",
+    "l": "Now",
+    "v": 60
+   },
+   "b": {
+    "d": "75%",
+    "l": "Proposed",
+    "v": 75
+   },
+   "goodIfUp": true,
+   "l": "Learner's test pass mark",
+   "t": "compare"
+  },
+  {
+   "a": {
+    "d": "7 days",
+    "l": "Now",
+    "v": 7
+   },
+   "b": {
+    "d": "15 days",
+    "l": "Proposed",
+    "v": 15
+   },
+   "l": "Days to finish the learner's process",
+   "t": "compare"
+  },
+  {
+   "l": "safe-driving tutorial every applicant would watch",
+   "t": "big",
+   "v": "30 min"
+  },
+  {
+   "l": "to change your name or address on the licence",
+   "t": "big",
+   "tone": "good",
+   "v": "₹0"
+  }
+ ],
  "watch": "Feedback is open for 30 days. Watch for the final rules and when they take effect."
 }

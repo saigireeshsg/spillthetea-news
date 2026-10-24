@@ -133,5 +133,54 @@
  "thread": "rbi-inflation",
  "tldr": "Houthi attacks pushed crude to a near six-month high, and the RBI says food prices are rising across rice, wheat, pulses and oils.",
  "topic": "Oil and food prices",
+ "viz": [
+  {
+   "a": {
+    "d": "$95",
+    "l": "RBI's assumption",
+    "v": 95
+   },
+   "b": {
+    "d": "~$120",
+    "l": "October average",
+    "v": 120
+   },
+   "goodIfUp": false,
+   "l": "India's crude basket vs what the RBI planned for ($ a barrel)",
+   "t": "compare"
+  },
+  {
+   "l": "wholesale inflation in September — first double digit in the new series",
+   "t": "big",
+   "tone": "bad",
+   "v": "11.4%"
+  },
+  {
+   "l": "per kg on CNG (Adani Total Gas)",
+   "t": "big",
+   "tone": "bad",
+   "v": "+₹4.45"
+  },
+  {
+   "card": {
+    "items": [
+     {
+      "display": "4.9%",
+      "label": "Urban",
+      "value": 4.9
+     },
+     {
+      "alt": true,
+      "display": "6.1%",
+      "label": "Rural",
+      "value": 6.1
+     }
+    ],
+    "note": "RBI Bulletin, October.",
+    "title": "Retail inflation, September"
+   },
+   "t": "bars"
+  }
+ ],
  "watch": "Watch the RBI's December policy and whether oil companies raise petrol and diesel prices."
 }

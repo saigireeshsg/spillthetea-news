@@ -101,5 +101,54 @@
  "thread": "asian-para-games-2026",
  "tldr": "India ended the Asian Para Games in Nagoya with 114 medals, including 30 gold, beating its old record of 108.",
  "topic": "Asian Para Games record",
+ "viz": [
+  {
+   "a": {
+    "d": "108",
+    "l": "Old record (Hangzhou 2023)",
+    "v": 108
+   },
+   "b": {
+    "d": "114",
+    "l": "Nagoya 2026",
+    "v": 114
+   },
+   "l": "India's medal haul",
+   "t": "compare"
+  },
+  {
+   "l": "Medal mix",
+   "parts": [
+    {
+     "c": "#ffd166",
+     "l": "Gold",
+     "v": 30
+    },
+    {
+     "c": "#c0c7cf",
+     "l": "Silver",
+     "v": 35
+    },
+    {
+     "c": "#d08c4b",
+     "l": "Bronze",
+     "v": 49
+    }
+   ],
+   "t": "stack",
+   "total": "114 medals"
+  },
+  {
+   "l": "athletes sent — about half the Hangzhou squad",
+   "t": "big",
+   "v": "168"
+  },
+  {
+   "l": "golds won on the final day",
+   "t": "big",
+   "tone": "good",
+   "v": "9"
+  }
+ ],
  "watch": "Watch for India's Paralympic plans for LA 2028."
 }

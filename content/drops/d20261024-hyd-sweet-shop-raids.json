@@ -94,5 +94,29 @@
  "thread": "food-safety",
  "tldr": "Food safety teams raided 21 sweet shops, found pests and expired food, and suspended licences of three shops.",
  "topic": "Sweet shop raids",
+ "viz": [
+  {
+   "l": "sweet units inspected by TG SAFE",
+   "t": "big",
+   "v": "21"
+  },
+  {
+   "l": "worth of food seized",
+   "t": "big",
+   "tone": "bad",
+   "v": "₹7.76 lakh"
+  },
+  {
+   "l": "seized from one shop alone",
+   "t": "big",
+   "tone": "bad",
+   "v": "705 kg"
+  },
+  {
+   "l": "shops lost their FSSAI licence",
+   "t": "big",
+   "v": "3"
+  }
+ ],
  "watch": "Results of the 21 food samples are due. Six shops got improvement notices and will be re-inspected."
 }
