@@ -48,7 +48,7 @@ Before writing, list today's existing files in `content/drops/` so you never pub
 RSS summaries are not enough. Open the article (WebFetch) for every story and take facts only from what you read. Use 2 sources when possible. Put real article URLs in `sources` (`name`, `title`, `url`). Never invent numbers, names, dates or quotes. Rewrite everything in your own words; no copied sentences.
 
 ## 4. Write
-Copy the shape of recent files exactly; good examples: `content/drops/d20261024-hyd-el-nino-water.json` (local with cover and calc), `d20261024-ed-in-the-crossfire.json` (featured editorial), `d20261024-lac-disturbed.json` (India).
+Copy the shape of recent files exactly; good examples: `content/drops/d20261024-hyd-el-nino-water.json` (local with cover; ignore its `calc` field), `d20261024-ed-in-the-crossfire.json` (featured editorial), `d20261024-lac-disturbed.json` (India).
 
 Each drop needs: `date` (IST, `YYYY-MM-DD`), `cat` (`local|india|world|money|tech|sport|planet|edit|campus`), `hook` (≤12 words, key number wrapped in `*asterisks*`), `tldr`, `topic`, `map` {`causes` [1–2], `event`, `effects` [2]} with `icon`+`label`, `beats` {`what`, `why`, `care`}, `cards` (`tea`, plus 1–2 of `num`/`why`/`twist`/`sides`/`bars`, then `poll`, then `quiz`), `learn.t`, `watch`, `thread`, `heat` (1–5), `order`, `sort` (`"YYYY-MM-DD-NN"`, higher = more important; morning uses 98 down, evening 60 down), `readSecs`, `sources`. Local stories also need `city` and `areas`. Use `cover` on 3–5 big stories, `lead: "local"|"india"|"world"` on the top story of each kind, `featured: true` + `editorial` on the editorial. Existing storylines you may attach with `storyline`: `delimitation, sir, west-asia, rbi-inflation, russia-ukraine, pakistan-pti, us-work-visas`.
 
@@ -74,3 +74,5 @@ Cricket alerts: readers opt in on the match card (Web Push). The `cricket` funct
 
 ## 9. Keep it light (reader feedback, 24 Oct)
 Readers found Spill text-heavy and overwhelming. Every drop: `hook` ≤ 10 words; `tldr` one sentence ≤ 20 words; each `beats` line ≤ 18 words; `cards` = `tea` + `poll` + `quiz` (add one `num` card only when a single number tells the story). Feed cards show the headline plus the cause → event → effects explainer map, so keep `map` labels to 2–4 words each. Prefer one strong story over two similar ones.
+
+No calculators: never add a `calc` field to drops (Money tab is news only).
