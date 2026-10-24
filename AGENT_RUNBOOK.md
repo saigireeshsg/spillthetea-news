@@ -32,12 +32,12 @@ If the newest `fetched_at` is older than 2 hours, check `select name,last_status
 ## 2. Pick
 Group headlines about the same event. Prefer events reported by 2+ outlets. Skip crime gossip, celebrity news, ads and press-release puffery.
 
-**Value test (every story must pass at least one):** a reader aged 15–30 in that city or in India can (a) *act* on it (deadline, exam, job, fee, scheme, traffic, water/power, safety, money), (b) *talk* about it (big national/world moment their friends will discuss), or (c) *understand* something that shapes their future (policy, economy, climate, tech, rights). If you can't write a concrete `beats.care` line, drop the story. Regional first: Hyderabad/Telangana, then the other six cities, then national, then world.
+**Value test (every story must pass at least one):** a reader aged 15–30 in that city or in India can (a) *act* on it (deadline, exam, job, fee, scheme, traffic, water/power, safety, money), (b) *talk* about it (big national/world moment their friends will discuss), or (c) *understand* something that shapes their future (policy, economy, climate, tech, rights). If you can't write a concrete `beats.care` line, drop the story. Regional first: Hyderabad/Telangana, then national, then world. (Other cities paused until the owner expands beyond Hyderabad.)
 
 | Run | What to publish |
 | --- | --- |
-| Morning (by 7 am IST) | 8–10 stories dated today: 1 featured editorial (from The Hindu editorial feed), 3–4 Hyderabad/Telangana (`cat: "local"`, `city: "Hyderabad"`), 1–2 other-city locals (only the strongest; rotate cities across days — Bengaluru, Chennai, Delhi, Mumbai, Pune, Kolkata), 2 India, 1 money or world. Plus a morning notification and fresh weather for each city (from scout items/one search, not 7 fetches). |
-| Midday (around 12:30 pm) | Live alerts only: traffic, rain, power or water cuts, civic alerts, big breaking news, as `content/live/*.json`. Refresh `content/now/<city>.json` weather. Add a story only for real breaking news. |
+| Morning (by 7 am IST) | 8–10 stories dated today. **Hyderabad-only launch:** 1 featured editorial (from The Hindu editorial feed), 4–5 Hyderabad/Telangana (`cat: "local"`, `city: "Hyderabad"`), 2 India, 1 money or world. No other-city locals for now. Plus a morning notification and fresh Hyderabad weather (`content/now/hyderabad.json` only). |
+| Midday (around 12:30 pm) | Live alerts only: traffic, rain, power or water cuts, civic alerts, big breaking news, as `content/live/*.json`. Refresh `content/now/hyderabad.json` weather (Hyderabad only for now). Add a story only for real breaking news. |
 | Evening (by 6 pm) | 2–3 new stories that broke during the day, updates to ongoing threads (reuse the same `thread`), an evening notification (`slot: "evening"`), and expire stale live alerts by setting `until`. |
 
 Before writing, list today's existing files in `content/drops/` so you never publish the same story twice. If a story moved forward, write a new drop on the same `thread` that says what changed.
