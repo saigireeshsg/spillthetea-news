@@ -67,6 +67,7 @@
 
   // Home shows only upcoming and live matches; finished ones drop off (result stays reachable via alerts).
   const homeMatch = () => M.find((m) => m.state !== "post" && !m.finished);
+  window.cricTop = () => { const m = M.find((x) => x.state === "in" && !x.finished); return m ? `🏏 ${m.short || m.title}: ${m.headline || ""}` : null; };
   window.cricHTML = function () {
     const m = homeMatch();
     if (!m) return "";
@@ -111,6 +112,7 @@
   }
 
   function render() {
+    if (window.hotlineRefresh) window.hotlineRefresh();
     const card = document.getElementById("crick");
     if (card) {
       if (homeMatch()) card.outerHTML = window.cricHTML(); else card.remove();

@@ -1015,7 +1015,7 @@ function cups(n,why,el){me.cups+=n;save()}
 const once=(k,n,why,el)=>{if(me.paid[k])return false;me.paid[k]=1;cups(n,why,el);return true};
 
 // ---------- shared data ----------
-let drops=[],stories={},votes={},takes={},db=null,uid=null,filter="all",open=null,sortBy="top";
+let drops=[],stories={},votes={},takes={},db=null,uid=null,filter="live",open=null,sortBy="top";
 const folds={};
 const S={poll:{},pred:{},quiz:{},post:{},take:{}};
 function agg(){
@@ -1273,7 +1273,7 @@ function attachedLive(){const s=new Set();visible().forEach(d=>liveAllFor(d).for
 // ---------- feed ----------
 function subs(){
   const used=[...new Set(visible().map(d=>d.cat))].filter(c=>SUBS[c]);
-  $("#subs").innerHTML=[["all","🏠 Home"],["live","🔴 Live"],["moneyhub","💰 Money"],["acts","📣 Speak up"+(window.actsOpen&&window.actsOpen()?" · "+window.actsOpen():"")],...used.filter(c=>c!=="money").map(c=>[c,c==="local"&&me.city?"r/"+me.city:SUBS[c].n])].map(([k,n])=>`<button class="sub-chip ${k==="live"?"livechip":""}" data-f="${k}" aria-pressed="${filter===k}">${esc(n)}</button>`).join("");
+  $("#subs").innerHTML=[["live","🔴 Live"],["all","🏠 Home"],["moneyhub","💰 Money"],["acts","📣 Speak up"+(window.actsOpen&&window.actsOpen()?" · "+window.actsOpen():"")],...used.filter(c=>c!=="money").map(c=>[c,c==="local"&&me.city?"r/"+me.city:SUBS[c].n])].map(([k,n])=>`<button class="sub-chip ${k==="live"?"livechip":""}" data-f="${k}" aria-pressed="${filter===k}">${esc(n)}</button>`).join("");
   $("#subs").hidden=!!open;
 }
 function head(d){const s=SUBS[d.cat]||SUBS.india,f=FLAIR[d.cat]||FLAIR.india;const sr=d.cat==="local"?"r/"+(d.city||"local"):s.n;return `<div class="ph"><span class="av" style="background:${s.c}">${s.i}</span><span class="sr">${esc(sr)}</span><span>· ${dayAgo(d.date)}</span><span class="flair" style="background:${f[1]}">${f[0]}</span>${me.done[d.id]?'<span class="donechip">✓ caught up</span>':!me.seen[d.id]?'<span class="dot-unread" title="Unread"></span>':""}${(d.heat||0)>=5?'<span>🔥 trending</span>':""}${me.goal==="exam"&&GS[d.cat]?`<span class="gs">${GS[d.cat]}</span>`:""}${isHeavy(d)?'<span class="heavy">⚠️ heavy story</span>':""}${outlets(d)>=2?`<span class="ver">· ✅ ${outlets(d)} sources</span>`:""}</div>`}
@@ -1330,7 +1330,7 @@ function feed(){
   const done=vis.filter(d=>me.done[d.id]).length,total=vis.length,pc=total?Math.round(done/total*100):0;
   const fresh=vis.filter(d=>!me.seen[d.id]).length;
   let h="";
-  if(filter==="live"){$("#view").innerHTML=breakingHTML()+liveView();return}
+  if(filter==="live"){$("#view").innerHTML=breakingHTML()+(window.cricHTML?window.cricHTML():"")+liveView();return}
   if(filter==="moneyhub"){$("#view").innerHTML=moneyView();return}
   if(filter==="acts"){$("#view").innerHTML=window.actsView?window.actsView():"";return}
   if(filter==="all"){
@@ -1894,7 +1894,7 @@ function tickerHTML(){
   const n=me.city&&nowDocs[me.city.toLowerCase()];
   const top=window.wireTop?window.wireTop():null;
   const wx=n?`<button class="tk-wx" data-act="live" data-key="local" aria-label="Weather">${esc(n.icon||"🌤️")} <b>${esc(n.temp!=null?n.temp:n.high)}°</b>${n.aqi?` · AQI ${esc(n.aqi)}`:""}</button>`:"";
-  const lv=top?`<button class="tk-lv" data-act="live" data-key="${top.item.region==="india"?"national":"local"}" aria-label="Live updates"><span class="ldot" aria-hidden="true"></span><span class="t">${esc(top.item.title)}</span>${top.count>1?`<i>+${top.count-1}</i>`:""}</button>`:"";
+  const lv=false&&top?`<button class="tk-lv" data-act="live" data-key="${top.item.region==="india"?"national":"local"}" aria-label="Live updates"><span class="ldot" aria-hidden="true"></span><span class="t">${esc(top.item.title)}</span>${top.count>1?`<i>+${top.count-1}</i>`:""}</button>`:"";
   if(!wx&&!lv)return"";
   return `<section class="ticker">${wx}${lv}</section>`}
 function liveStripHTML(){
@@ -1916,7 +1916,7 @@ function liveView(){
   if(nowA.length)h+=`<section class="livebox"><span class="lgrp">Right now · last 3 hours</span>${nowA.map(x=>liveItemHTML(x)).join("")}</section>`;
   if(earlier.length)h+=`<section class="livebox"><span class="lgrp">Earlier</span>${earlier.map(x=>liveItemHTML(x)).join("")}</section>`;
   if(scope==="local"&&areasFor(me.city).length)h+=`<button class="tipbtn" data-act="tip">📣 Seen something${me.area?" in "+esc(me.area):""}? Tell the live desk. Every tip is checked before posting.</button>`;
-  h+=`<p class="note" style="text-align:center;margin:4px 0 0">Only official sources or two reputable outlets. Single-outlet reports are labelled. No forwards, no rumours.</p>`;
+  h+=`<p class="note" style="text-align:center;margin:4px 0 0">Headlines come from established news outlets and link to the original report. No forwards, no rumours.</p>`;
   me.lSeen=Math.max(me.lSeen||0,latestTs(live));save();
   return h}
 
@@ -2008,7 +2008,7 @@ $("#brain").addEventListener("click",()=>recap());
 
 // ---------- events ----------
 $("#subs").addEventListener("click",e=>{const b=e.target.closest(".sub-chip");if(!b)return;filter=b.dataset.f;feed();window.scrollTo(0,0)});
-$("#home").addEventListener("click",()=>{filter="all";feed();window.scrollTo(0,0)});
+$("#home").addEventListener("click",()=>{filter="live";feed();window.scrollTo(0,0)});
 $("#back").addEventListener("click",()=>feed());
 document.addEventListener("input",e=>{if(e.target.id==="take")$("#send").disabled=!e.target.value.trim();
   const t=e.target;if(t.dataset&&t.dataset.calc){const k=t.dataset.calc;calcVals[k]=calcVals[k]||{};calcVals[k][t.dataset.f]=t.value;document.querySelectorAll("#cout-"+k).forEach(o=>{const r=calcResult(k,calcVals[k]);o.innerHTML=`<b>${r.big}</b>${esc(r.line)}<small>Illustration only. Returns aren't guaranteed and this isn't advice.</small>`});document.querySelectorAll(`.cin[data-calc="${k}"][data-f="${t.dataset.f}"]`).forEach(x=>{if(x!==t)x.value=t.value})}
