@@ -5,6 +5,7 @@
     window.addEventListener("load", () => navigator.serviceWorker.register("/sw.js").catch(() => {}));
   }
 
+  if (window.self !== window.top) return; // inside the desktop landing's phone mockup
   const KEY = "spill.install.dismissed";
   const standalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
   const dismissed = () => { try { return !!localStorage.getItem(KEY); } catch (e) { return false; } };

@@ -43,6 +43,7 @@
 
   window.wireCount = (scope) => pickFor(scope).length;
   // Home ticker: just the single most important headline + how many more.
+  window.wireList = () => W;
   window.wireTop = () => (W.length ? { item: W[0], count: W.length } : null);
   const more = {};
 
