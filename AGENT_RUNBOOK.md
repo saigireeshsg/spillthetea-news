@@ -102,7 +102,7 @@ Put the most surprising, relatable number first. Heavy stories (deaths, disaster
 ## 11. One visual hook per feed card
 Each feed card shows ONE hook under the explainer map, picked automatically: (1) "🧠 Can you guess?" **only** if you set `"teaser": true` — use it on at most 1–2 stories a day, when the quiz question is genuinely intriguing and the story has no strong numbers; (2) otherwise **how readers are leaning** — the poll's live vote split (appears once 5+ people vote), so write polls that genuinely divide opinion; (3) otherwise the first non-`big` item in `viz` (compare, stack, meter, timeline, icons, trend, donut). Single `big` numbers show as the stat badge under the headline. So: put the most visual chart first among non-`big` viz items.
 
-## 12. 📣 Speak up (civic actions) — check every morning and evening run
+## 12. 📣 Speak up (civic actions) — PAUSED (hidden in the app; skip this section until the owner turns it back on)
 `content/acts/<slug>.json` holds public-interest actions in Hyderabad/Telangana that readers can join: **petitions, public consultations / draft rules open for feedback, citizen drives (lake clean-ups, water saving, tree walks), public hearings and ward meetings** on traffic, water, lakes & trees, safety and civic amenities. Find candidates:
 ```sql
 select id, source, title, url from public.scout_items

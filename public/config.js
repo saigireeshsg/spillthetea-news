@@ -1,6 +1,7 @@
 // Public Supabase settings (safe to expose; access is limited by row-level security).
 // Fill these in from Supabase → Project Settings → API.
 window.SPILL_CONFIG = {
+  speakup: false, // 📣 Speak up (civic actions) tab + "Take part" boxes; set true to show again
   // PostHog: Project settings → Project API key (starts with phc_). Host: us.i.posthog.com or eu.i.posthog.com
   posthogKey: "phc_sa3vuQTENx8XM4iLXqcyYcLFTWaXHS2VPaAVJdm5owcw",
   posthogHost: "https://us.i.posthog.com",

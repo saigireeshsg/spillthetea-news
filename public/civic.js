@@ -81,6 +81,7 @@
 
   // Story page: if a story has a related action, invite readers to take part.
   window.actBoxHTML = function (d) {
+    if (!(window.SPILL_CONFIG || {}).speakup) return "";
     const a = d && d.act && A.find((x) => x.id === d.act);
     if (!a || !isOpen(a)) return "";
     const k = KIND[a.kind] || KIND.campaign;
