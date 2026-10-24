@@ -64,6 +64,20 @@
 .statchip{display:flex;gap:8px;align-items:baseline;margin:0 0 10px;font-size:13px;color:var(--muted);line-height:1.35}
 .statchip b{color:var(--fg);background:var(--orange-soft);border:1px solid #ff450055;border-radius:8px;padding:2px 8px;white-space:nowrap;font-size:13px}
 .statchip span{min-width:0;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical}
+.tq{margin:10px 0 2px;background:var(--blue-soft);border:1px solid #1f5f86;border-radius:14px;padding:10px 12px}
+.tq .tqk{display:block;font-size:11.5px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:#9fd3ff;margin-bottom:4px}
+.tq b{display:block;font-size:14.5px;line-height:1.35;color:var(--fg)}
+.tq .tqo{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.tq .tqo button{font:inherit;font-size:13px;font-weight:700;color:var(--fg);background:var(--card);border:1px solid var(--line-2);border-radius:999px;padding:6px 11px;cursor:pointer;text-align:left}
+.tq .tqo button:active{background:var(--orange);border-color:var(--orange);color:#fff}
+.tq .tqn{display:block;font-size:11.5px;color:var(--muted);margin-top:7px}
+.acts{align-items:center}
+.readcta{margin-left:auto;font-size:13px;font-weight:800;color:#fff;background:var(--orange);border-radius:999px;padding:7px 12px;white-space:nowrap}
+.post.done .readcta{background:var(--card-2);color:var(--muted)}
+.tq.res{background:var(--card-2);border-color:var(--line-2)}
+.tq.res.ok{border-color:#2e9e48;background:var(--good-soft)}.tq.res.no{border-color:#7a5a1f;background:#2a2112}
+.tq.res b{font-size:14px}.tq .tqw{display:block;font-size:13.5px;line-height:1.4;color:var(--fg);margin-top:4px;opacity:.9}
+.tq .tqgo{display:inline-block;margin-top:8px;font-size:13px;font-weight:800;color:#fff;background:var(--orange);border-radius:999px;padding:6px 12px}
 </style>
 <script src="/config.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
@@ -1262,7 +1276,14 @@ function cprevHTML(d){const t=takesFor(d.id).map(x=>Object.assign(x,{score:S.tak
   if(t)return `<p class="cprev"><b>💬 u/${esc(t.handle)}:</b><span>${esc(t.text)}</span></p>`;
   return ""}
 function cardHTML(d,ix){const sc=S.post[d.id]||0;const n=commentCount(d);const care=d.beats?.care;const hero=ix===0;
-  return `<article class="post click ${me.done[d.id]?"done":""}" data-open="${d.id}" tabindex="0">${d.featured?`<div class="featbar">📰 EDITORIAL OF THE DAY <small>· ${esc(d.editorial?.paper||"")}, decoded</small></div>`:""}${head(d)}${!me.done[d.id]&&reasonOf(d)?`<p class="rsn">${esc(reasonOf(d))}</p>`:""}<h2 class="pt">${rich(d.hook)}</h2>${statChip(d)}${(()=>{const sb=siblings(d).length,lv=liveFor(d);return (lv?`<p class="cardlive"><span class="ldot" aria-hidden="true"></span><b>LIVE · ${ago(lv.updated||lv.ts)}</b><span class="t">${esc(lv.title)}</span></p>`:"")+(sb?`<p class="thr">🧵 Ongoing story · ${sb} earlier ${sb===1?"update":"updates"} inside</p>`:"")})()}${d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}${learnOf(d)?`<p class="rem"><b>💡</b><span>${esc(learnOf(d))}</span></p>`:""}<div class="acts">${voteHTML("post",d.id,sc,me.post[d.id])}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button></div></article>`}
+  return `<article class="post click ${me.done[d.id]?"done":""}" data-open="${d.id}" tabindex="0">${d.featured?`<div class="featbar">📰 EDITORIAL OF THE DAY <small>· ${esc(d.editorial?.paper||"")}, decoded</small></div>`:""}${head(d)}${!me.done[d.id]&&reasonOf(d)?`<p class="rsn">${esc(reasonOf(d))}</p>`:""}<h2 class="pt">${rich(d.hook)}</h2>${statChip(d)}${(()=>{const sb=siblings(d).length,lv=liveFor(d);return (lv?`<p class="cardlive"><span class="ldot" aria-hidden="true"></span><b>LIVE · ${ago(lv.updated||lv.ts)}</b><span class="t">${esc(lv.title)}</span></p>`:"")+(sb?`<p class="thr">🧵 Ongoing story · ${sb} earlier ${sb===1?"update":"updates"} inside</p>`:"")})()}${d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}${(ix==null||ix<3||me.quiz[d.id]!=null)?teaserHTML(d):""}<div class="acts">${voteHTML("post",d.id,sc,me.post[d.id])}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${me.done[d.id]?"Read again":"Read"} · ${readLen(d)} →</span></div></article>`}
+const readLen=d=>{const s=+d.readSecs||60;return s<60?s+"s":Math.round(s/60)+" min"};
+// Curiosity hook on the card: the story's quiz question with tappable answers (tap = open story + answer).
+function teaserHTML(d){const q=(d.cards||[]).find(c=>c.k==="quiz");
+  if(!q||me.done[d.id])return "";
+  if(me.quiz[d.id]==null)return `<div class="tq"><span class="tqk">🧠 Can you guess?</span><b>${rich(q.q)}</b><div class="tqo">${q.opts.slice(0,4).map((o,j)=>`<button data-tq="${d.id}" data-i="${j}">${esc(o)}</button>`).join("")}</div></div>`;
+  const ok=me.quiz[d.id]===q.ans;
+  return `<div class="tq res ${ok?"ok":"no"}"><b>${ok?"✅ You got it!":"🤔 Not quite."} ${esc(q.opts[q.ans])}</b>${q.why?`<span class="tqw">${rich(q.why)}</span>`:""}<span class="tqgo">Read the full story · ${readLen(d)} →</span></div>`}
 
 // ---------- greeting + breaking banner + extras ----------
 let firstName="",extrasOpen=false;
@@ -2098,6 +2119,11 @@ async function syncLoad(){if(!db||!uid)return;try{const snap=await db.collection
   db.collection("notifs").orderBy("ts","desc").limit(20).onSnapshot(s=>{notifs=s.docs.map(x=>Object.assign({id:x.id},x.data()));bellDot();setTimeout(maybePush,1200)},()=>{});
   db.collection("takes").limit(1000).onSnapshot(s=>{takes={};s.docs.forEach(x=>takes[x.id]=x.data()||{});if(uid&&takes[uid]){mine=JSON.parse(JSON.stringify(takes[uid]));mine.items=mine.items||{};if(mine.handle)me.handle=mine.handle}refresh();setTimeout(maybeSocialPing,1800)},()=>{});
 })();
+document.addEventListener("click",e=>{const b=e.target.closest("[data-tq]");if(!b)return;e.preventDefault();e.stopPropagation();
+  const id=b.dataset.tq,i=+b.dataset.i;const d=drops.find(x=>x.id===id);const q=d&&(d.cards||[]).find(c=>c.k==="quiz");if(!q||me.quiz[id]!=null)return;
+  me.quiz[id]=i;bump(d,3);pushVotes();
+  try{window.spillTrack&&window.spillTrack("teaser_answer",{story_id:id,correct:i===q.ans})}catch(_){}
+  const card=b.closest("article.post");const t=card&&card.querySelector(".tq");if(t)t.outerHTML=teaserHTML(d)},true);
 window.spillRerender=function(){if(open||document.querySelector(".sheet"))return;if(filter==="all"||filter==="live"){const y=window.scrollY;feed();window.scrollTo(0,y)}};
 })();
 </script>

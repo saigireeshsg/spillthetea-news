@@ -52,6 +52,47 @@
     if (bell) ph("cricket_alerts_" + bell.dataset.cbell);
   }, true);
 
+
+  // ---------- Reading funnel: card seen → card tapped → story read ----------
+  // card_impression: a feed card was ≥60% visible for 1 s (once per card per page load).
+  const seen = new Set();
+  const timers = new Map();
+  const io = "IntersectionObserver" in window ? new IntersectionObserver((ents) => {
+    ents.forEach((en) => {
+      const el = en.target, id = el.dataset.open;
+      if (!id || seen.has(id)) return;
+      if (en.isIntersecting && en.intersectionRatio >= 0.6) {
+        if (!timers.has(id)) timers.set(id, setTimeout(() => {
+          seen.add(id); timers.delete(id);
+          const cards = Array.from(document.querySelectorAll("#view article.post.click[data-open]"));
+          ph("card_impression", { story_id: id, position: cards.indexOf(el) + 1, has_teaser: !!el.querySelector(".tq"), has_stat: !!el.querySelector(".statchip") });
+        }, 1000));
+      } else if (timers.has(id)) { clearTimeout(timers.get(id)); timers.delete(id); }
+    });
+  }, { threshold: [0, 0.6] }) : null;
+  const watch = () => { if (!io) return; document.querySelectorAll("#view article.post.click[data-open]").forEach((el) => { if (!el.__phw) { el.__phw = 1; io.observe(el); } }); };
+  const viewEl = document.getElementById("view");
+  if (viewEl) new MutationObserver(watch).observe(viewEl, { childList: true, subtree: true });
+  watch();
+
+  // story_read: reader scrolled through 75% of an open story (once per story).
+  const readDone = new Set();
+  let storyStart = 0, storyId = "";
+  function currentStory() {
+    const a = document.querySelector("#view > article.post:not(.click)");
+    if (!a) return null;
+    const k = a.querySelector("[data-act='share'][data-key], [data-act='poll'][data-key], [data-act='quiz'][data-key]");
+    return k ? { el: a, id: k.dataset.key } : null;
+  }
+  window.addEventListener("scroll", () => {
+    const s = currentStory(); if (!s) return;
+    if (s.id !== storyId) { storyId = s.id; storyStart = Date.now(); }
+    if (readDone.has(s.id)) return;
+    const r = s.el.getBoundingClientRect();
+    const depth = (window.innerHeight - r.top) / Math.max(r.height, 1);
+    if (depth >= 0.75) { readDone.add(s.id); ph("story_read", { story_id: s.id, secs: Math.round((Date.now() - storyStart) / 1000) }); }
+  }, { passive: true });
+
   // Install funnel.
   window.addEventListener("beforeinstallprompt", () => ph("pwa_install_prompt"));
   window.addEventListener("appinstalled", () => ph("pwa_installed"));
