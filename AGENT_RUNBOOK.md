@@ -273,3 +273,9 @@ A dedicated tab (second chip, plus a teaser on Live) listing **walk-in interview
 - **Never list:** telecalling, BPO or voice process, field sales, door-to-door, unpaid training, "pay to apply", vague "business intern" posts, or agencies with no named client details.
 - Prefer 0–4 years, internships at strong companies, and roles that build skills. Add `about` (what the company does, ≤12 words).
 - **Sources:** JobsPipe `search_jobs` **once per day max** (finite free credits: ~25 credits per search): `city_or:["Hyderabad"]`, `job_country_code_or:["IN"]`, `source_or:["lever","ashby","greenhouse","ycombinator","workable","smartrecruiters"]`, `posted_at_max_age_days:14`, skilled `job_title_or`, and `job_title_not` senior/lead/manager/telecaller. Plus the Indeed connector (free) for internships, and scout_items for Telangana startup and T-Hub hiring news.
+
+## 25. Calm UI: what the feed card shows (25 Oct)
+Readers said Spill felt heavy. Feed cards now show only: flair/meta, the **hook**, the **first `big` viz** (as a stat chip) and Read. Maps, polls and other viz appear inside the story.
+- So the **first `big` item in `viz` must be the most relatable, local number** (e.g. "38%" full for Telangana dams, not a Karnataka figure).
+- Hooks carry the whole card. Keep them ≤ 70 chars, concrete, named.
+- Live shows 5 headlines by default; spicy/buzz items live only in the archive.
