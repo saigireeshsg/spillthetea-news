@@ -1,0 +1,131 @@
+{
+ "cat": "local",
+ "city": "Hyderabad",
+ "areas": [
+  "Hyderabad"
+ ],
+ "date": "2026-10-25",
+ "sort": "2026-10-25-78",
+ "order": 7,
+ "heat": 3,
+ "readSecs": 40,
+ "topic": "Tanker water wastage fine",
+ "thread": "hyd-water",
+ "hook": "Leaky water tankers in Hyderabad face *₹5,000* fines from Nov 1",
+ "tldr": "HMWSSB will fine tankers ₹5,000 for spilling drinking water, and launch treated-water tankers in November.",
+ "beats": {
+  "what": "HMWSSB MD K Ashok Reddy ordered ₹5,000 fines on tankers that spill drinking water, from November 1.",
+  "why": "Overfilled tankers, leaks and loose lids waste water on roads and make them slippery for riders.",
+  "care": "Spot a tanker spilling water in your lane? From Nov 1 it can be fined. A second offence cancels its registration."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Tankers with leaks or missing lids can't fill up until fixed. Separately, 'Green Water' tankers will sell treated sewage water for construction, parks and road cleaning, booked via an app."
+  },
+  {
+   "k": "twist",
+   "body": "Water stress isn't just a city story: Siasat reports Basar IIIT (about 9,000 students) is moving classes online from Oct 26 as the Godavari dries up."
+  },
+  {
+   "k": "poll",
+   "q": "Seen a water tanker spilling water on your road?",
+   "opts": [
+    "All the time",
+    "Sometimes",
+    "Never noticed"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What happens to a tanker caught wasting water a second time?",
+   "opts": [
+    "₹10,000 fine",
+    "Registration cancelled",
+    "A warning",
+    "Nothing"
+   ],
+   "ans": 1,
+   "why": "First offence: ₹5,000. Second: the tanker's registration is cancelled."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹5,000",
+   "l": "fine per tanker for wasting drinking water",
+   "tone": "good"
+  },
+  {
+   "t": "timeline",
+   "l": "What happens when",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Oct 24",
+     "e": "MD K Ashok Reddy issues the orders"
+    },
+    {
+     "t": "Nov 1",
+     "e": "Fines start; Green Water set-up due"
+    },
+    {
+     "t": "November",
+     "e": "Green Water tankers launch"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "9,000",
+   "l": "Basar IIIT students going online over water shortage"
+  }
+ ],
+ "map": {
+  "causes": [
+   {
+    "icon": "🚚",
+    "label": "Overfilled tankers"
+   },
+   {
+    "icon": "💧",
+    "label": "Leaks, loose lids"
+   }
+  ],
+  "event": {
+   "icon": "💸",
+   "label": "₹5,000 spill fine"
+  },
+  "effects": [
+   {
+    "icon": "🚫",
+    "label": "2nd offence: registration cancelled"
+   },
+   {
+    "icon": "♻️",
+    "label": "Treated-water tankers"
+   }
+  ]
+ },
+ "learn": {
+  "t": "Treated sewage water from STPs (sewage treatment plants) is safe for building and gardening, not drinking. Using it saves potable water."
+ },
+ "watch": "Whether HMWSSB shares a complaint number for spills, and the Green Water launch date and price.",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad water board to fine tankers Rs 5,000 for water wastage",
+   "url": "https://www.siasat.com/hyderabad-water-board-to-fine-tankers-rs-5000-for-water-wastage-3563887/"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "HMWSSB to launch Green Water tanker service for non-potable uses",
+   "url": "https://telanganatoday.com/hmwssb-to-launch-green-water-tanker-service-for-non-potable-uses"
+  },
+  {
+   "name": "Times of India",
+   "title": "Water board to fine tankers Rs 5,000 for water wastage",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/water-board-to-fine-tankers-rs-5000-for-water-wastage/articleshow/135175078.cms"
+  }
+ ]
+}

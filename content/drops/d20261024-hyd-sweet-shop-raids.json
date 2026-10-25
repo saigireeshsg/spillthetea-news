@@ -17,7 +17,7 @@
   },
   {
    "k": "tea",
-   "body": "Update (Oct 25): TG SAFE issued improvement notices to 20 sweet shops and manufacturing units, and a show-cause notice to one more, after statewide inspections found hygiene violations."
+   "body": "Update (Oct 25): the drive went statewide across 26 districts. 20 sweet units got improvement notices, one got a show-cause notice facing penalties, and 38 samples were lifted for suspected adulteration."
   },
   {
    "body": "For selling habit-forming drugs without prescriptions, in a separate drive.",
@@ -96,14 +96,34 @@
   },
   {
    "name": "Telangana Today",
-   "title": "TG SAFE issues improvement notices to 20 sweet establishments (25 Oct)",
-   "url": "https://telanganatoday.com/"
+   "title": "TG SAFE issues improvement notices to 20 sweet manufacturing and retail establishments",
+   "url": "https://telanganatoday.com/tg-safe-issues-improvement-notices-to-20-sweet-manufacturing-and-retail-establishments"
   }
  ],
  "thread": "food-safety",
- "tldr": "Food safety teams raided 21 sweet shops, found pests and expired food, and suspended licences of three shops.",
+ "tldr": "After Hyderabad raids, TG SAFE took its sweet-shop crackdown to 26 districts: 20 notices, 38 samples.",
  "topic": "Sweet shop raids",
  "viz": [
+  {
+   "t": "big",
+   "v": "26",
+   "l": "districts in TG SAFE's statewide sweets drive"
+  },
+  {
+   "t": "compare",
+   "l": "Samples sent for testing",
+   "a": {
+    "v": 21,
+    "d": "21",
+    "l": "Hyderabad raids (Oct 24)"
+   },
+   "b": {
+    "v": 38,
+    "d": "38",
+    "l": "Statewide drive (Oct 25)"
+   },
+   "goodIfUp": true
+  },
   {
    "l": "sweet units inspected by TG SAFE",
    "t": "big",
@@ -114,19 +134,8 @@
    "t": "big",
    "tone": "bad",
    "v": "₹7.76 lakh"
-  },
-  {
-   "l": "seized from one shop alone",
-   "t": "big",
-   "tone": "bad",
-   "v": "705 kg"
-  },
-  {
-   "l": "shops lost their FSSAI licence",
-   "t": "big",
-   "v": "3"
   }
  ],
- "watch": "Results of the 21 food samples are due. Six shops got improvement notices and will be re-inspected.",
- "updated": 1792912570231
+ "watch": "Reinspections of the 20 units, penalties for the show-cause unit, and lab results of 38 + 21 samples.",
+ "updated": 1792912961602
 }
