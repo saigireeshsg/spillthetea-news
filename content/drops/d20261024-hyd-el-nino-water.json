@@ -11,6 +11,11 @@
  "cards": [
   {
    "k": "tea",
+   "title": "🚨 New: emergency declared (Oct 25)",
+   "body": "Hyderabad's water board has declared an emergency over the acute shortage, Siasat reports. Citing state irrigation department data (via ThePrint): over half of Telangana's 600-plus mandals are hit by drought, and only about 500 of the state's 6,000+ lakes still hold water. Watch for your area's supply schedule next."
+  },
+  {
+   "k": "tea",
    "body": "Officials fear Singur could run dry within 60 days, by mid-December, and say drinking water needs can't be met from December. The water board is drawing up area-wise plans with an alternative source for each locality. A crop holiday has been declared in the Singur ayacut."
   },
   {
@@ -82,7 +87,7 @@
  },
  "date": "2026-10-25",
  "heat": 5,
- "hook": "*~50 days*: Singur, which feeds Gachibowli & HITEC City, may run dry by mid-December",
+ "hook": "🚨 Water board declares *emergency*: Singur, which feeds HITEC City, may run dry in ~50 days",
  "lead": "local",
  "learn": {
   "t": "El Niño is a warming of the Pacific Ocean that often weakens India's monsoon."
@@ -117,6 +122,11 @@
  "readSecs": 55,
  "sort": "2026-10-25-98",
  "sources": [
+  {
+   "name": "The Siasat Daily",
+   "title": "Hyderabad water board declares emergency over acute shortage (25 Oct)",
+   "url": "https://www.siasat.com/hyderabad-water-board-declares-emergency-over-acute-shortage-3564047/"
+  },
   {
    "name": "The Hindu",
    "title": "El Nino: Bhatti for judicious use of water and electricity; HYDRAA operation at Sunnam Cheruvu (print, Hyderabad edition, 25 Oct, pp.2–4)",
@@ -159,10 +169,18 @@
   }
  ],
  "thread": "el-nino",
- "tldr": "Officials fear Singur reservoir, which supplies the western IT corridor (Gachibowli, HITEC City, Madhapur, Kondapur), could be exhausted by mid-December, about 50 days from now. It's 11% full. The city already gets ~585 MGD against ~735 MGD needed, and the Water Board is reportedly announcing shortages from Dec 15.",
+ "tldr": "Update (Oct 25): Hyderabad's water board has declared an emergency over the acute shortage (Siasat). Officials fear Singur reservoir, which supplies the western IT corridor (Gachibowli, HITEC City, Madhapur, Kondapur), could be exhausted by mid-December, about 50 days from now. It's 11% full. The city already gets ~585 MGD against ~735 MGD needed, and the Water Board is reportedly announcing shortages from Dec 15.",
  "topic": "El Niño water crisis",
  "watch": "Water board's area-wise supply plan (expected before December); Singur levels; whether Karnataka's Cauvery release to Tamil Nadu is cut further.",
  "viz": [
+  {
+   "t": "icons",
+   "n": 1,
+   "of": 12,
+   "icon": "💧",
+   "d": "~500 of 6,000+",
+   "l": "Telangana lakes still holding water (irrigation dept data)"
+  },
   {
    "t": "big",
    "v": "~50 days",
@@ -227,7 +245,7 @@
    "goodIfUp": true
   }
  ],
- "updated": 1792909446700,
+ "updated": 1792923628683,
  "storyline": "hyd-water-crisis",
- "hook_b": "Hyderabad's IT corridor may lose its main water source in *~50 days*"
+ "hook_b": "Water emergency declared. Is your Hyderabad area on the Singur line?"
 }
