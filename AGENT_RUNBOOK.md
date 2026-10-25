@@ -279,3 +279,12 @@ Feed cards keep the explainer map (why it's in the news → what happened → co
 
 ## 26. Retention check (every night run reports it)
 `select * from retention_daily limit 7;` (active, new, returning devices, app opens per device, IST days) and `select * from retention_cohorts limit 7;` (D1 and D7 return %). Tracking started 25 Oct, so earlier visitors count as "new" on their first tracked visit.
+
+
+## 27. Running stories: show the whole story as it develops (owner, 25 Oct)
+Ongoing matters get a **storyline** (`content/storylines/<id>.json`: title, emoji, lede, `india` = why it matters to the reader, players, timeline). Every drop on that matter sets `"storyline": "<id>"`. The feed then shows **one card per storyline (the newest update)**, with earlier updates and the timeline inside, so readers see the whole story running.
+- **Every run:** for each new development, (1) append a dated line to that storyline's `timeline` (what changed, with a number or name), and (2) write the update drop with the same `storyline`, or update the latest card in place.
+- **Create a storyline** once a matter has 2+ developments in a week. Retire one (stop linking) when it's been quiet for 10 days.
+- **Current storylines:** hyd-water-crisis, bay-cyclone-2026, west-asia, rbi-inflation, delimitation, sir, us-work-visas, russia-ukraine, pakistan-pti.
+- **Focus areas (persona: 18–30, Hyderabad, ambitious, phone-first):** money (prices, salaries, markets, IPOs, trade deals, taxes), tech (AI, startups, data privacy, gadgets, jobs), Hyderabad civic (water, power, roads, metro, lakes, HYDRAA, GHMC), India improvements (infra, schemes that work, records), defence (theatre commands, ISRO, Navy and Air Force updates), plus big world moves that hit India.
+- **The aha test:** every story must give the reader one of these: **"oh, that affects me"** (money, commute, job, exam), **"aha, now I get it"** (the why, simply), or **"wow"** (a record, a striking number, India or Hyderabad doing something big). If it gives none, skip it.

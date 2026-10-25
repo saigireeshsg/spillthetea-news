@@ -1,0 +1,63 @@
+{
+ "title": "Hyderabad's water crunch, explained",
+ "emoji": "💧",
+ "mins": 2,
+ "lede": "El Niño gave Telangana a weak monsoon. Reservoirs and groundwater are low, power use is surging, and officials warn the drinking-water squeeze could start in December and last until July. Here's how it built up.",
+ "india": "Your taps, tanker bills and power cuts. The western IT corridor (Singur) and the Old City (Osman Sagar) are most exposed.",
+ "players": [
+  {
+   "name": "CM Revanth Reddy",
+   "role": "Warned the crisis may last till July; set up a Cabinet sub-committee."
+  },
+  {
+   "name": "HMWSSB (Water Board)",
+   "role": "Runs supply; cutting bulk users, fining tanker wastage, planning area-wise backups."
+  },
+  {
+   "name": "HYDRAA",
+   "role": "Clearing lake encroachments and illegal water theft (Sunnam Cheruvu)."
+  },
+  {
+   "name": "El Niño",
+   "role": "Record-hot Pacific that weakened the monsoon: 17% less rain in Telangana."
+  },
+  {
+   "name": "Singur & Osman Sagar",
+   "role": "Key local sources: Singur ~11% full, Osman Sagar down to 2.2 TMC."
+  }
+ ],
+ "timeline": [
+  {
+   "when": "Oct 10",
+   "what": "Weak rains push hundreds of mandals in Telangana and Andhra into drought."
+  },
+  {
+   "when": "Oct 11",
+   "what": "CM warns of a water and power crisis; groundwater in parts of Hyderabad below 20 m."
+  },
+  {
+   "when": "Oct 13",
+   "what": "With Singur ~12% full, the Water Board cuts supply to IIT-H, BHEL and others by 20–50%."
+  },
+  {
+   "when": "Oct 20",
+   "what": "15 of 16 Hyderabad areas found critical or over-exploited for groundwater."
+  },
+  {
+   "when": "Oct 21",
+   "what": "Singur got ~3 TMC inflow this year vs a record 237 TMC last year; officials can't meet drinking needs from December."
+  },
+  {
+   "when": "Oct 23",
+   "what": "Water Board fines tankers ₹5,000 for wastage and cuts water and power use in its own offices."
+  },
+  {
+   "when": "Oct 24",
+   "what": "CM: crisis may last till July. State reservoirs hold 178.6 of 470 TMC; power use up 37% in a year. HYDRAA rips out hidden pipelines at Sunnam Cheruvu."
+  },
+  {
+   "when": "Oct 25",
+   "what": "Pacific hits a record 30.06°C as El Niño strengthens. IMD rain alert for east Telangana on Oct 28 brings some hope."
+  }
+ ]
+}

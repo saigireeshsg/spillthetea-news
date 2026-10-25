@@ -1,0 +1,39 @@
+{
+ "title": "Cyclone heading for the Andhra coast",
+ "emoji": "🌀",
+ "mins": 1,
+ "lede": "A low-pressure system in the Bay of Bengal is set to cross the Andhra coast. If it strengthens into a cyclone, it gets the name Arnab. Here's the track so far.",
+ "india": "East Telangana gets heavy rain on Oct 28; Hyderabad gets moderate rain. Travel to Khammam, Kothagudem, Vizag or coastal Andhra could be hit.",
+ "players": [
+  {
+   "name": "IMD",
+   "role": "Tracks the storm, issues district alerts."
+  },
+  {
+   "name": "Andhra Pradesh",
+   "role": "Evacuating low-lying areas from Bapatla to Vizianagaram."
+  },
+  {
+   "name": "Telangana",
+   "role": "Red alert for Mulugu, Kothagudem, Khammam on Oct 28."
+  },
+  {
+   "name": "Odisha",
+   "role": "Disaster teams on standby."
+  }
+ ],
+ "timeline": [
+  {
+   "when": "Oct 23",
+   "what": "Forecasters say the east coast may soon see the year's first cyclone."
+  },
+  {
+   "when": "Oct 24",
+   "what": "Low pressure forms; IMD red alert for 3 Telangana districts on Oct 28."
+  },
+  {
+   "when": "Oct 25",
+   "what": "Crossing point shifts south to Machilipatnam–Visakhapatnam, evening of Oct 27. 16 Telangana districts on alert; Andhra starts evacuations."
+  }
+ ]
+}
