@@ -5,12 +5,12 @@
   let OP = [], kind = "all";
   const E = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const track = (ev, p) => { try { window.spillTrack && window.spillTrack(ev, p || {}); } catch (_) {} };
-  const TYPE = { walkin: "🚶 Walk-in", job: "💼 Job", intern: "🎓 Internship", govt: "🏛️ Govt job", exam: "📝 Exam / deadline", scholarship: "🎖️ Scholarship", course: "📚 Free course", program: "🚀 Startup programme" };
+  const TYPE = { walkin: "🚶 Walk-in", job: "🚀 Startup / product job", intern: "🎓 Internship", govt: "🏛️ Govt job", exam: "📝 Exam / deadline", scholarship: "🎖️ Scholarship", course: "📚 Free course", program: "🚀 Startup programme" };
   const TZ = { timeZone: "Asia/Kolkata" };
   const fmt = (t) => new Date(t).toLocaleDateString("en-IN", { ...TZ, day: "numeric", month: "short" });
   const daysLeft = (t) => Math.ceil((Date.parse(t) - Date.now()) / 86400e3);
   const live = (o) => !o.until || Date.parse(o.until) > Date.now();
-  const list = () => OP.filter(live).sort((a, b) => ((b.pick ? 1 : 0) - (a.pick ? 1 : 0)) || (Date.parse(a.deadline || a.until || "2100") - Date.parse(b.deadline || b.until || "2100")) || String(b.posted || "").localeCompare(String(a.posted || "")));
+  const list = () => OP.filter(live).sort((a, b) => ((b.pay40 ? 1 : 0) - (a.pay40 ? 1 : 0)) || ((b.pick ? 1 : 0) - (a.pick ? 1 : 0)) || (Date.parse(a.deadline || a.until || "2100") - Date.parse(b.deadline || b.until || "2100")) || String(b.posted || "").localeCompare(String(a.posted || "")));
   window.oppsAny = () => list().length > 0;
   window.oppsCount = () => list().length;
 
@@ -42,12 +42,12 @@
     const dl = o.deadline ? daysLeft(o.deadline) : null;
     const dlTxt = dl == null ? "" : dl <= 0 ? "Closes today" : dl === 1 ? "1 day left" : dl <= 14 ? `${dl} days left` : `By ${fmt(o.deadline)}`;
     const g = [
-      o.org ? `<b>${E(o.org)}</b>` : "",
+      o.org ? `<b>${E(o.org)}</b>${o.about ? ` · ${E(o.about)}` : ""}` : "",
       o.where ? `📍 ${E(o.where)}` : "",
       o.when ? `🗓️ ${E(o.when)}` : "",
       o.who ? `✅ ${E(o.who)}` : "",
     ].filter(Boolean).join("<br>");
-    return `<article class="opc" id="op-${E(o.id)}"><div class="ot"><span>${E(TYPE[o.type] || "💼 Opportunity")}</span>${o.pay ? `<span class="pay">${E(o.pay)}</span>` : ""}${dlTxt ? `<span class="dl">⏳ ${dlTxt}</span>` : ""}${o.pick ? `<span class="pk">⭐ Spill pick</span>` : ""}</div>
+    return `<article class="opc" id="op-${E(o.id)}"><div class="ot"><span>${E(TYPE[o.type] || "💼 Opportunity")}</span>${o.pay40 ? `<span class="pay">💰 ${E(o.pay)}</span>` : o.pay ? `<span>${E(o.pay)}</span>` : ""}${dlTxt ? `<span class="dl">⏳ ${dlTxt}</span>` : ""}${o.pick ? `<span class="pk">⭐ Spill pick</span>` : ""}</div>
       <h3>${E(o.title)}</h3><div class="og">${g}</div>
       ${o.note ? `<div class="on">⚠️ ${E(o.note)}</div>` : ""}
       <div class="orow">${o.apply ? `<a class="ogo" href="${E(o.apply.url)}" target="_blank" rel="noopener" data-opgo="${E(o.id)}">${E(o.apply.label || "Apply")} ↗</a>` : ""}${o.call ? `<a class="oalt" href="tel:${E(o.call.replace(/[^0-9+]/g, ""))}" data-opcall="${E(o.id)}">📞 ${E(o.call)}</a>` : ""}${o.open ? `<button class="oalt" data-open="${E(o.open)}">Read the explainer →</button>` : ""}</div>
@@ -58,7 +58,7 @@
     const all = list();
     const used = [...new Set(all.map((o) => o.type))].filter((k) => TYPE[k]);
     const shown = all.filter((o) => kind === "all" || o.type === kind);
-    let h = `<section class="oph"><h2>💼 Spill Opportunities</h2><p>Walk-in interviews, jobs, internships and deadlines for Hyderabad, checked by Spill, with the apply link right there.</p><div class="opsafe">🛡️ Never pay money to get a job or an interview. Real employers don't charge.</div></section>`;
+    let h = `<section class="oph"><h2>💼 Spill Opportunities</h2><p>Skilled roles at Hyderabad startups and product companies, plus internships and deadlines that matter. Apply straight from the company's own page.</p><div class="opsafe">🛡️ Never pay money to get a job or an interview. Real employers don't charge.</div></section>`;
     if (used.length > 1) h += `<div class="opf">${[["all", "All"]].concat(used.map((k) => [k, TYPE[k]])).map(([k, n]) => `<button data-opf="${k}" aria-pressed="${kind === k}">${E(n)}</button>`).join("")}</div>`;
     if (!shown.length) return h + `<div class="opempty">📭 Nothing open here right now. New walk-ins and openings land every few hours.</div>`;
     return h + shown.map(card).join("");
