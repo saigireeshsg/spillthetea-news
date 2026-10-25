@@ -227,3 +227,9 @@ The most valuable news for Spill readers changes their next move: **jobs and hir
 ## 22. Live briefs (tap to expand)
 Every Live headline expands in place to a 2–3 line `brief`, so readers get the gist without leaving. Briefs come from the feed summary automatically; when a key wire story has none, write one in the same SQL step as the hooks:
 `select w.id, w.title, left(s.summary,400) from live_wire w join scout_items s on s.id = w.id where w.tier = 'key' and w.brief is null order by w.published_at desc limit 10;` → `update scout_items set brief = '<2–3 lines: what happened, who, where, the key number, what it means; facts only from title/summary>' where id = <id>;` then `select refresh_live_wire();`. If the summary has nothing beyond the title, leave it null.
+
+**Brief rules (owner, 25 Oct): crisp and direct.**
+- **Answer the headline's question in the first words.** "4 students in top 50" → name them with ranks. "A surprise for the weekend" → say what it is. "Results out" → where, and what's next.
+- At most 2 short lines (~180 chars). No feed fluff ("Live updates:", "Check details"). Numbers, names, dates.
+- If the feed doesn't have the answer (for example, only 1 of 4 names), give what's known and say what's missing. Never guess.
+- **CTA:** when there's an action (apply, register, check result, book, official notice), set `cta`: `update scout_items set cta = '{"label":"Apply now","url":"<official site>"}' where id = <id>;`. Labels: "Apply now", "Register", "Check result", "Book tickets", "Official notice". Official sites only (gov/organiser), never aggregator spam.
