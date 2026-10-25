@@ -1,0 +1,162 @@
+{
+ "cat": "sport",
+ "city": "Hyderabad",
+ "date": "2026-10-25",
+ "sort": "2026-10-25-90",
+ "order": 1,
+ "heat": 5,
+ "readSecs": 45,
+ "topic": "Tilak Varma vs New Zealand",
+ "thread": "ind-nz-t20i-2026",
+ "hook": "India were *70/5* chasing 181. Then Hyderabad's Tilak Varma happened",
+ "tldr": "Tilak Varma's unbeaten 51 off 26 and Nitish Kumar Reddy's 26 off 13 took India from 70/5 to a four-wicket win in Christchurch, with a ball to spare, for a 2-0 lead in the five-match T20I series.",
+ "beats": {
+  "what": "Chasing New Zealand's 180/5, India scored 68 runs in the last 4.5 overs to win the second T20I by four wickets with one ball left.",
+  "why": "At 135/6, India needed 46 off the last 18 balls. Tilak took 18 off the 19th over (three fours and a six); Nitish hit the winning runs.",
+  "care": "A Hyderabad boy finishing a chase in New Zealand. India can seal the series in the next game."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "India captain Shreyas Iyer: \"Nitish and Tilak showed great character.\" The first match, also at Hagley Oval two days earlier, was won by four wickets too, with two balls to spare."
+  },
+  {
+   "k": "num",
+   "value": "51*",
+   "caption": "Tilak Varma off 26 balls",
+   "body": "He reached 50 off 25 balls (6 fours, 1 six), then finished not out."
+  },
+  {
+   "k": "twist",
+   "body": "India were 70 for 5 in the 11th over. The last 23 balls brought a 50-run stand between Tilak and Nitish."
+  },
+  {
+   "k": "poll",
+   "q": "Best finisher in India's T20 side right now?",
+   "opts": [
+    "Tilak Varma",
+    "Nitish Kumar Reddy",
+    "Someone else"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "How many runs did India score in the last 4.5 overs?",
+   "opts": [
+    "68",
+    "46",
+    "32",
+    "81"
+   ],
+   "ans": 0,
+   "why": "68 runs from the last 4.5 overs, after being 70/5 in the 11th over (The Hindu, AFP)."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "India's chase",
+   "a": {
+    "v": 70,
+    "d": "70/5",
+    "l": "11th over"
+   },
+   "b": {
+    "v": 181,
+    "d": "181/6",
+    "l": "Won, 1 ball left"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "big",
+   "v": "68",
+   "l": "runs in the last 4.5 overs",
+   "tone": "good"
+  },
+  {
+   "t": "trend",
+   "l": "India's score at the end of overs 16–19",
+   "pts": [
+    [
+     "16",
+     126
+    ],
+    [
+     "17",
+     135
+    ],
+    [
+     "18",
+     152
+    ],
+    [
+     "19",
+     170
+    ]
+   ],
+   "unit": ""
+  },
+  {
+   "t": "big",
+   "v": "2-0",
+   "l": "India lead the 5-match series"
+  }
+ ],
+ "map": {
+  "causes": [
+   {
+    "icon": "📉",
+    "label": "India 70/5 in 11th over"
+   },
+   {
+    "icon": "🎯",
+    "label": "Target 181"
+   }
+  ],
+  "event": {
+   "icon": "🏏",
+   "label": "Tilak 51* off 26"
+  },
+  "effects": [
+   {
+    "icon": "🏆",
+    "label": "Won by 4 wkts, 1 ball left"
+   },
+   {
+    "icon": "🇮🇳",
+    "label": "2-0 series lead"
+   }
+  ]
+ },
+ "cover": {
+  "bg": [
+   "#0a1f3d",
+   "#ff7a00"
+  ],
+  "big": "51*",
+  "label": "Tilak Varma off 26 balls",
+  "motion": "rise",
+  "scene": [
+   "🏏",
+   "🔥",
+   "🏆"
+  ]
+ },
+ "learn": {
+  "t": "A 'finisher' bats in the last overs of a chase, when the required rate is highest. Strike rate matters more than average there."
+ },
+ "watch": "Third T20I: India can seal the series. Tilak and Nitish's spots look locked.",
+ "sources": [
+  {
+   "name": "The Hindu (AFP)",
+   "title": "Tilak's blitz powers India to a thrilling victory (print, Hyderabad edition, 25 Oct, sport)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  },
+  {
+   "name": "ESPNcricinfo",
+   "title": "New Zealand v India, 2nd T20I, Christchurch (ball by ball)",
+   "url": "https://www.espncricinfo.com/ci/engine/match/1539433.html"
+  }
+ ]
+}

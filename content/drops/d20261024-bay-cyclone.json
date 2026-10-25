@@ -1,22 +1,22 @@
 {
  "beats": {
-  "what": "The low-pressure system is expected to strengthen into a cyclonic storm by Oct 26 and cross the Andhra coast between Machilipatnam and Visakhapatnam by the afternoon of Oct 28.",
-  "why": "Post-monsoon, the Bay of Bengal is warm and winds are favourable, so storms grow fast. East Telangana sits right in the rain path; Hyderabad is further west.",
-  "care": "Going to Khammam, Kothagudem, Bhadrachalam or Vizag on Oct 27–28? Push the trip if you can. In Hyderabad: no alert yet, dry till Oct 27."
+  "what": "The crossing point has shifted south, from north Andhra–south Odisha to between Machilipatnam and Visakhapatnam, on the evening of Oct 27. Telangana feels it on Oct 28, mainly in the east and northeast.",
+  "why": "It's still developing; IMD says its track and strength will be clearer once it becomes a depression. For drought-hit Telangana, the rain is also a ray of hope.",
+  "care": "In Warangal, Hanumakonda, Khammam or Kothagudem? Plan around Oct 28. Hyderabad: carry an umbrella on Oct 28."
  },
  "cards": [
   {
    "k": "tea",
-   "body": "IMD has issued a red alert (heavy to very heavy rain) for Khammam, Bhadradri Kothagudem and Mulugu on Oct 28. Odisha has red alerts for Puri, Ganjam and Gajapati on Oct 27, with NDRF and ODRAF teams on standby."
+   "body": "Red alert (heavy to very heavy, isolated extremely heavy): Mulugu, Bhadradri Kothagudem, Khammam. Orange: Jayashankar Bhupalpally, Mahabubabad, Warangal, Hanumakonda, Suryapet. Yellow: Mancherial, Rajanna Sircilla, Karimnagar, Peddapalli, Jangaon, Nalgonda, Siddipet, Yadadri Bhuvanagiri. Thunderstorms and gusty winds likely."
   },
   {
    "k": "why",
    "title": "why the name 'Arnab' isn't official yet",
-   "body": "A storm gets the next name on the list only once it becomes a cyclonic storm. A September system that reached Andhra was a deep depression, so the name Arnab is still unused."
+   "body": "A storm gets the next name on the list (Arnab) only if it becomes a cyclonic storm. IMD is still calling this a developing system; its strength will be clearer once it becomes a depression."
   },
   {
    "k": "twist",
-   "body": "Hyderabad is likely to stay dry until Oct 27. The heaviest rain falls on the east side of Telangana, closest to the coast."
+   "body": "The landfall forecast moved south since Friday. That's why east Telangana, not Odisha, now gets the heaviest rain."
   },
   {
    "k": "poll",
@@ -31,13 +31,13 @@
    "ans": 0,
    "k": "quiz",
    "opts": [
-    "Khammam, Bhadradri Kothagudem, Mulugu",
-    "Hyderabad, Rangareddy, Medchal",
-    "Adilabad, Nirmal, Nizamabad",
-    "Nalgonda, Suryapet, Jangaon"
+    "16",
+    "3",
+    "8",
+    "33"
    ],
-   "q": "Which Telangana districts are on red alert for Oct 28?",
-   "why": "IMD's red alert covers the three eastern districts closest to the storm's path."
+   "q": "How many Telangana districts are on some IMD alert for Oct 28?",
+   "why": "3 red, 5 orange and 8 yellow (IMD via The Hindu, Oct 25)."
   }
  ],
  "cat": "india",
@@ -55,9 +55,9 @@
    "🌧️"
   ]
  },
- "date": "2026-10-24",
+ "date": "2026-10-25",
  "heat": 5,
- "hook": "Cyclone heads for the Andhra coast by *Oct 28*. Red alert in 3 Telangana districts",
+ "hook": "Heavy rain for *16 Telangana districts* on Oct 28. Hyderabad gets moderate rain",
  "learn": {
   "t": "Cyclone names come from a list made by 13 countries around the Indian Ocean and are used in order. A storm is named only when its winds reach cyclonic strength (63 km/h or more)."
  },
@@ -79,18 +79,23 @@
   "effects": [
    {
     "icon": "🚨",
-    "label": "Red alert: Khammam, Kothagudem, Mulugu"
+    "label": "Red: Mulugu, Kothagudem, Khammam"
    },
    {
-    "icon": "🌤️",
-    "label": "Hyderabad dry till Oct 27"
+    "icon": "🌧️",
+    "label": "Hyderabad: moderate rain Oct 28"
    }
   ]
  },
  "order": 7,
  "readSecs": 55,
- "sort": "2026-10-24-95",
+ "sort": "2026-10-25-95",
  "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Low pressure over Bay of Bengal likely to bring heavy rain to Telangana (print, Hyderabad edition, 25 Oct, p.1)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  },
   {
    "name": "The Hindu",
    "title": "Odisha, A.P. brace for storm as low pressure intensifies (print, Hyderabad edition, 24 Oct, p.12)",
@@ -118,45 +123,58 @@
   }
  ],
  "thread": "bay-cyclone",
- "tldr": "The Bay of Bengal system, set to be named Arnab if it becomes a cyclone, may cross the Andhra coast between Machilipatnam and Visakhapatnam by Oct 28. IMD has put Khammam, Bhadradri Kothagudem and Mulugu on red alert for that day.",
+ "tldr": "IMD says the Bay of Bengal system will cross the Andhra coast between Machilipatnam and Visakhapatnam on the evening of Oct 27. Red alert on Oct 28 for Mulugu, Bhadradri Kothagudem and Khammam; orange for 5 districts; yellow for 8. Hyderabad: moderate rain. Rain may continue into Oct 29.",
  "topic": "Bay of Bengal cyclone",
  "viz": [
   {
+   "t": "stack",
+   "l": "Telangana districts on alert for Oct 28 (IMD)",
+   "total": "16 districts",
+   "parts": [
+    {
+     "l": "Red",
+     "v": 3
+    },
+    {
+     "l": "Orange",
+     "v": 5
+    },
+    {
+     "l": "Yellow",
+     "v": 8
+    }
+   ]
+  },
+  {
    "t": "timeline",
-   "l": "How the storm is expected to build",
+   "l": "What happens when",
    "now": 0,
    "steps": [
     {
-     "t": "Sat 24",
-     "e": "Low pressure in the Bay"
+     "t": "Sun 25",
+     "e": "System building over the Bay"
     },
     {
-     "t": "By Oct 26",
-     "e": "Cyclonic storm (named Arnab)"
+     "t": "Oct 27 evening",
+     "e": "Crosses Andhra coast, Machilipatnam–Visakhapatnam"
     },
     {
-     "t": "Oct 27",
-     "e": "Red alerts in Odisha's Puri, Ganjam, Gajapati"
+     "t": "Oct 28",
+     "e": "Heavy rain in east Telangana; moderate in Hyderabad"
     },
     {
-     "t": "Oct 28 afternoon",
-     "e": "Crosses Andhra coast, Machilipatnam–Visakhapatnam; red alert in 3 Telangana districts"
+     "t": "Oct 29",
+     "e": "Isolated heavy rain may continue"
     }
    ]
   },
   {
    "t": "big",
    "v": "3",
-   "l": "Telangana districts on red alert for Oct 28",
-   "tone": "bad"
-  },
-  {
-   "t": "big",
-   "v": "145 km/h",
-   "l": "top winds in some models",
+   "l": "districts on red alert: Mulugu, Kothagudem, Khammam",
    "tone": "bad"
   }
  ],
- "watch": "IMD will name the storm once it becomes a cyclone (expected by Oct 26). Watch for a Hyderabad alert, and for school holidays in Khammam and Kothagudem.",
- "updated": 1792864134848
+ "watch": "IMD's next update once it becomes a depression. Watch for school holidays in east Telangana on Oct 28, and Hyderabad traffic advisories.",
+ "updated": 1792909446700
 }

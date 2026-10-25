@@ -1,30 +1,32 @@
 {
- "title": "Red alert Oct 28: Khammam, Bhadradri Kothagudem, Mulugu as cyclone nears Andhra coast",
+ "title": "Oct 28 rain alert: red for Mulugu, Kothagudem, Khammam; Hyderabad moderate rain",
  "kind": "weather",
  "tag": "🌧️ Weather",
  "scope": "local",
  "city": "Hyderabad",
  "sev": 2,
  "areas": [
-  "Khammam",
+  "Mulugu",
   "Bhadradri Kothagudem",
-  "Mulugu"
+  "Khammam",
+  "Warangal",
+  "Hanumakonda"
  ],
  "ts": 1792864134848,
  "until": 1793209734848,
- "body": "The storm, set to be named Arnab, may cross the coast between Machilipatnam and Visakhapatnam on Oct 28. East Telangana gets the heavy rain; Hyderabad stays dry till Oct 27.",
+ "body": "The system crosses the Andhra coast on the evening of Oct 27. Telangana feels it on Oct 28: 3 red, 5 orange and 8 yellow districts. Rain may linger into Oct 29.",
  "steps": [
   {
    "t": "What happened",
-   "b": "IMD put 3 east Telangana districts on red alert for Oct 28."
+   "b": "IMD shifted the crossing point south, to Machilipatnam–Visakhapatnam, on Oct 27 evening."
   },
   {
-   "t": "Why",
-   "b": "A Bay of Bengal storm is strengthening and heading for the Andhra coast."
+   "t": "Why it matters",
+   "b": "East and northeast Telangana get heavy to very heavy rain on Oct 28."
   },
   {
    "t": "What's next",
-   "b": "Expected to become a cyclone by Oct 26. We'll update if Hyderabad gets an alert."
+   "b": "Track and strength get clearer once it becomes a depression."
   }
  ],
  "care": "Travel to Khammam or Bhadrachalam on Oct 27–28? Push it if you can.",
@@ -33,12 +35,34 @@
  "verified": "2",
  "src": [
   {
-   "name": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/telangana/"
+   "name": "The Hindu",
+   "url": "https://www.thehindu.com/todays-paper/"
   },
   {
-   "name": "The Indian Express",
-   "url": "https://indianexpress.com/article/india/imd-cyclone-andhra-pradesh-odisha-coast-10933258/"
+   "name": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/"
+  }
+ ],
+ "updated": 1792909446700,
+ "viz": [
+  {
+   "t": "stack",
+   "l": "Districts on alert, Oct 28",
+   "total": "16",
+   "parts": [
+    {
+     "l": "Red",
+     "v": 3
+    },
+    {
+     "l": "Orange",
+     "v": 5
+    },
+    {
+     "l": "Yellow",
+     "v": 8
+    }
+   ]
   }
  ]
 }

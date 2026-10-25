@@ -1,0 +1,136 @@
+{
+ "cat": "local",
+ "city": "Hyderabad",
+ "areas": [
+  "Uppal"
+ ],
+ "date": "2026-10-25",
+ "sort": "2026-10-25-80",
+ "order": 2,
+ "heat": 3,
+ "readSecs": 40,
+ "topic": "Uppal bus terminal",
+ "thread": "hyd-commute",
+ "hook": "Uppal gets a new bus terminal for *1 lakh* passengers a day, in 100 days",
+ "tldr": "Transport Minister Ponnam Prabhakar laid the foundation for a ₹3.22 crore bus terminal at Uppal Zonal Workshop, promised in 100 days. TGSRTC is also converting 250 old diesel buses to electric.",
+ "beats": {
+  "what": "A new bus terminal at the Uppal Zonal Workshop, built for ₹3.22 crore, is meant to serve nearly one lakh passengers a day and be ready in 100 days.",
+  "why": "It's part of TGSRTC's clean-mobility push: 3,000 electric buses are already in the fleet, 2,200 more are coming under PM e-Drive, and 250 old diesel buses are being retrofitted as EVs.",
+  "care": "Commute via Uppal or east Hyderabad? Expect a proper terminal by early February, and more e-buses on your routes."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "The minister also said a committee with the newly elected recognised union will start the process of merging TGSRTC employees with the government, the workers' main demand."
+  },
+  {
+   "k": "num",
+   "value": "250",
+   "caption": "old diesel buses being converted to electric (phase 1)",
+   "body": "Retrofitting is cheaper than buying new buses and cuts emissions."
+  },
+  {
+   "k": "poll",
+   "q": "Would a better Uppal terminal get you to take the bus more?",
+   "opts": [
+    "Yes",
+    "I already do",
+    "No, I prefer metro or bike"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "How many electric buses are already in the TGSRTC fleet?",
+   "opts": [
+    "3,000",
+    "300",
+    "2,200",
+    "10,000"
+   ],
+   "ans": 0,
+   "why": "3,000 are already in; 2,200 more are coming under PM e-Drive."
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "TGSRTC's electric buses",
+   "total": "5,450 incl. pipeline",
+   "parts": [
+    {
+     "l": "Already running",
+     "v": 3000
+    },
+    {
+     "l": "Coming (PM e-Drive)",
+     "v": 2200
+    },
+    {
+     "l": "Diesel to EV retrofits",
+     "v": 250
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "1 lakh",
+   "l": "passengers a day the Uppal terminal is built for"
+  },
+  {
+   "t": "big",
+   "v": "₹3.22 cr",
+   "l": "cost of the new terminal"
+  }
+ ],
+ "map": {
+  "causes": [
+   {
+    "icon": "🚌",
+    "label": "Crowded Uppal stops"
+   },
+   {
+    "icon": "🌱",
+    "label": "Clean mobility push"
+   }
+  ],
+  "event": {
+   "icon": "🏗️",
+   "label": "Uppal terminal in 100 days"
+  },
+  "effects": [
+   {
+    "icon": "⚡",
+    "label": "250 diesel buses go electric"
+   },
+   {
+    "icon": "👥",
+    "label": "1 lakh passengers/day"
+   }
+  ]
+ },
+ "cover": {
+  "bg": [
+   "#0f2a1c",
+   "#46d160"
+  ],
+  "big": "100 days",
+  "label": "to a new Uppal bus terminal",
+  "motion": "rise",
+  "scene": [
+   "🚌",
+   "⚡",
+   "🏗️"
+  ]
+ },
+ "learn": {
+  "t": "Retrofitting swaps a bus's diesel engine for an electric motor and batteries, keeping the body and chassis."
+ },
+ "watch": "Whether the terminal opens on time (around early February), and which routes get the retrofitted e-buses first.",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "New bus terminal at Uppal to be ready in 100 days: Ponnam (print, Hyderabad edition, 25 Oct, p.3)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ]
+}

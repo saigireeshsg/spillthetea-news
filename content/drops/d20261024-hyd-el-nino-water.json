@@ -14,6 +14,14 @@
    "body": "Officials fear Singur could run dry within 60 days, by mid-December, and say drinking water needs can't be met from December. The water board is drawing up area-wise plans with an alternative source for each locality. A crop holiday has been declared in the Singur ayacut."
   },
   {
+   "k": "tea",
+   "body": "Deputy CM Bhatti Vikramarka (Oct 24): peak power demand is now 20,018 MW (6,648 MW in 2014). Falling reservoirs cut hydropower, which normally gives ~3,500 MW at night peak. A Cabinet sub-committee is handling the crisis. Farmers with low groundwater are asked not to run motors."
+  },
+  {
+   "k": "twist",
+   "body": "HYDRAA found buildings in Borabanda and Navbharat Nagar pumping water straight out of Madhapur's Sunnam Cheruvu through dozens of hidden pipelines, with borewells drilled in bedrooms and kitchens."
+  },
+  {
    "k": "why",
    "title": "Hyderabad vs Bengaluru: who's worse off?",
    "body": "Both cities are hit by the same weak monsoon. Hyderabad's local sources (Singur, Osman Sagar) are critically low, so the city leans on Krishna and Godavari water. Bengaluru depends on the Cauvery dams (KRS, Kabini, Harangi, Hemavathi): 49 TMC usable on Oct 2, and Karnataka has asked to release less water to Tamil Nadu. We found no current supply cut announced in Bengaluru."
@@ -62,9 +70,9 @@
    "🚰"
   ]
  },
- "date": "2026-10-24",
+ "date": "2026-10-25",
  "heat": 5,
- "hook": "Hyderabad's Singur dam is just *11% full*. How does Bengaluru compare?",
+ "hook": "Telangana's dams are *38% full*. Hyderabad's Singur just 11%",
  "lead": "local",
  "learn": {
   "t": "El Niño is a warming of the Pacific Ocean that often weakens India's monsoon."
@@ -97,8 +105,13 @@
  },
  "order": 13,
  "readSecs": 55,
- "sort": "2026-10-24-94",
+ "sort": "2026-10-25-92",
  "sources": [
+  {
+   "name": "The Hindu",
+   "title": "El Nino: Bhatti for judicious use of water and electricity; HYDRAA operation at Sunnam Cheruvu (print, Hyderabad edition, 25 Oct, pp.2–4)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  },
   {
    "name": "The Hindu",
    "title": "El Nino-induced crisis may persist till July: CM (print, Hyderabad edition, 24 Oct, p.6)",
@@ -126,17 +139,47 @@
   }
  ],
  "thread": "el-nino",
- "tldr": "Singur, a key Hyderabad drinking-water source, holds 3.2 of 29.9 TMC after its 4th-lowest inflow in 29 years, and officials say they can't meet drinking needs from December. Karnataka's four Cauvery dams, which feed Bengaluru, have 49 TMC usable, with about 47 taluks in drought. The CM says Telangana's crisis may last till July.",
+ "tldr": "Telangana's major reservoirs hold 178.6 of 470.22 TMC, about 40% of its 44,034 tanks are under a quarter full, and power use is up 37% in a year. Singur, a key Hyderabad source, is 11% full. Bengaluru's Cauvery dams are stressed too.",
  "topic": "El Niño water crisis",
  "watch": "Water board's area-wise supply plan (expected before December); Singur levels; whether Karnataka's Cauvery release to Tamil Nadu is cut further.",
  "viz": [
   {
    "t": "meter",
+   "l": "Telangana's major reservoirs",
+   "v": 178.6,
+   "max": 470.22,
+   "d": "178.6 of 470.2 TMC (38%)",
+   "note": "Deputy CM, Oct 24"
+  },
+  {
+   "t": "meter",
    "l": "Singur dam, Hyderabad",
    "v": 3.246,
    "max": 29.91,
-   "d": "3.2 of 29.9 TMC (11%)",
-   "note": "Telangana Today, Oct 21"
+   "d": "3.2 of 29.9 TMC (11%)"
+  },
+  {
+   "t": "compare",
+   "l": "Telangana's daily power use (October)",
+   "a": {
+    "v": 245.35,
+    "d": "245 MU",
+    "l": "Last year"
+   },
+   "b": {
+    "v": 335.05,
+    "d": "335 MU",
+    "l": "This year"
+   },
+   "goodIfUp": false
+  },
+  {
+   "t": "icons",
+   "n": 1,
+   "of": 2,
+   "icon": "🚜",
+   "d": "1 in 2",
+   "l": "farm pump sets facing groundwater shortage (1.5 of 3 million)"
   },
   {
    "t": "compare",
@@ -154,31 +197,10 @@
    "goodIfUp": true
   },
   {
-   "t": "compare",
-   "l": "Osman Sagar storage",
-   "a": {
-    "v": 3.5,
-    "d": "3.5 TMC",
-    "l": "Earlier"
-   },
-   "b": {
-    "v": 2.2,
-    "d": "2.2 TMC",
-    "l": "Oct 6"
-   },
-   "goodIfUp": true
-  },
-  {
    "t": "big",
    "v": "49 TMC",
    "l": "usable in Karnataka's 4 Cauvery dams that feed Bengaluru (Oct 2)"
-  },
-  {
-   "t": "big",
-   "v": "17%",
-   "l": "below-normal rain in Telangana this season",
-   "tone": "bad"
   }
  ],
- "updated": 1792865390376
+ "updated": 1792909446700
 }
