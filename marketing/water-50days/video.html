@@ -1,0 +1,58 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0}html,body{width:540px;height:960px;background:radial-gradient(120% 70% at 50% 18%,#2a1206 0%,#0a0a0b 60%);overflow:hidden;font-family:"Inter Display",Inter,sans-serif;color:#fff}
+.stage{position:absolute;inset:0;overflow:hidden}
+.top{position:absolute;top:34px;left:0;right:0;display:flex;align-items:center;justify-content:center;gap:10px;z-index:5}
+.top svg{width:40px;height:40px}.top b{font-size:30px;font-weight:900;letter-spacing:-.04em}
+.src{position:absolute;bottom:22px;left:0;right:0;text-align:center;font-size:12.5px;color:#8a929a;z-index:5}
+.sc{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 36px;opacity:0}
+.kick{font-size:22px;font-weight:800;letter-spacing:.14em;color:#ff7a45;text-transform:uppercase}
+.huge{font-size:150px;font-weight:900;letter-spacing:-.06em;line-height:.9}
+.huge small{display:block;font-size:56px;letter-spacing:-.03em;margin-top:6px}
+.h2{font-size:44px;font-weight:900;letter-spacing:-.035em;line-height:1.05}
+.h2 em{font-style:normal;color:#ff4500}.b{color:#4fbcff}
+.p{font-size:22px;color:#c9d0d6;margin-top:16px;line-height:1.35;font-weight:600}
+.tank{width:190px;height:270px;border:5px solid #4fbcff;border-radius:22px 22px 34px 34px;position:relative;overflow:hidden;margin:26px 0 8px;background:#0e1a24}
+.tank .w{position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(#4fbcff,#1f6fb0)}
+.tank .lvl{position:absolute;left:0;right:0;top:12px;font-size:46px;font-weight:900;color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.6)}
+.bars{width:100%;display:grid;gap:22px;margin-top:30px;text-align:left}
+.bar label{font-size:22px;font-weight:800;color:#c9d0d6;display:flex;justify-content:space-between}
+.bar label b{color:#fff;font-size:28px}
+.track{height:34px;border-radius:999px;background:#1b1d22;margin-top:8px;overflow:hidden}
+.fill{height:100%;border-radius:999px;width:0}
+.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:26px}
+.chip{font-size:24px;font-weight:800;padding:10px 18px;border-radius:999px;background:#3a1406;color:#ffb38f;border:2px solid #ff4500;opacity:0}
+.cta{margin-top:28px;font-size:30px;font-weight:900;background:#ff4500;border-radius:999px;padding:18px 30px}
+.url{margin-top:18px;font-size:26px;font-weight:800;color:#ffd7c4}
+.drop{position:absolute;width:14px;height:20px;background:#4fbcff;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;opacity:.0}
+</style></head><body><div class="stage">
+<div class="top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#ff4500"/><g transform="rotate(-30 34 36)"><path d="M17 26h26l-3.2 17.5A6 6 0 0 1 33.9 48h-7.8a6 6 0 0 1-5.9-4.5z" fill="#fff"/><path d="M42.6 30.5h2.6a4.6 4.6 0 0 1 0 9.2h-3.6" stroke="#fff" stroke-width="3.6" fill="none" stroke-linecap="round"/><rect x="15" y="22.5" width="30" height="4.2" rx="2.1" fill="#fff"/></g><path d="M13 30.5c2.9 3.7 4 5.7 4 7.6a4 4 0 0 1-8 0c0-1.9 1.1-3.9 4-7.6z" fill="#fff"/><circle cx="11.5" cy="47" r="2.7" fill="#fff"/><circle cx="19.5" cy="53" r="1.9" fill="#fff"/></svg><b>spill</b></div>
+<!-- S1 0-2.8 -->
+<div class="sc" id="s1"><div class="kick">Hyderabad, listen</div><div class="huge" id="n">~50<small>days</small></div><div class="p">That's how long officials fear Singur's water may last.</div></div>
+<!-- S2 2.8-6 -->
+<div class="sc" id="s2"><div class="h2">Singur feeds the<br><em>IT corridor</em>.</div><div class="tank"><div class="w" id="w"></div><div class="lvl" id="lvl">11%</div></div><div class="p">It's only 11% full. Could run dry by mid-December.</div></div>
+<!-- S3 6-9.2 -->
+<div class="sc" id="s3"><div class="h2">The city is already<br><em>20% short</em>.</div><div class="bars"><div class="bar"><label>Needs every day <b>735 MGD</b></label><div class="track"><div class="fill" id="f1" style="background:#8a929a"></div></div></div><div class="bar"><label>Gets <b class="b">585 MGD</b></label><div class="track"><div class="fill" id="f2" style="background:#4fbcff"></div></div></div></div></div>
+<!-- S4 9.2-12.2 -->
+<div class="sc" id="s4"><div class="h2">First in line?</div><div class="chips"><span class="chip">Gachibowli</span><span class="chip">HITEC City</span><span class="chip">Madhapur</span><span class="chip">Kondapur</span></div><div class="p" style="margin-top:24px">+ 15 of 16 Hyderabad areas are over-pumping groundwater.</div></div>
+<!-- S5 12.2-16 -->
+<div class="sc" id="s5"><div class="h2">Is your area<br>on the list?</div><div class="cta">Check it on Spill →</div><div class="url">spillthetea.news</div><div class="p" style="font-size:19px">Get the alert before your water is cut.</div></div>
+<div class="src">Officials via The Siasat Daily · Telangana Today · The Hindu · Oct 2026</div>
+</div>
+<script>
+const D=16000;
+const fade=(el,a,b,dy=30)=>el.animate([{opacity:0,transform:`translateY(${dy}px)`,offset:0},{opacity:1,transform:'none',offset:Math.min(.999,(a+350)/D)*0+0}],{duration:1});
+function scene(id,a,b){const el=document.getElementById(id);const k=[{opacity:0,transform:'translateY(40px) scale(.98)',offset:0},{opacity:0,transform:'translateY(40px) scale(.98)',offset:a/D},{opacity:1,transform:'none',offset:(a+380)/D},{opacity:1,transform:'none',offset:(b-260)/D},{opacity:0,transform:'translateY(-30px)',offset:b/D},{opacity:0,offset:1}];el.animate(k,{duration:D,fill:'both'});}
+scene('s1',0,2800);scene('s2',2800,6000);scene('s3',6000,9200);scene('s4',9200,12200);scene('s5',12200,16000);
+// number pulse
+document.getElementById('n').animate([{transform:'scale(1.25)',color:'#ff4500',offset:0},{transform:'scale(1.25)',color:'#ff4500',offset:150/D},{transform:'scale(1)',color:'#fff',offset:900/D},{transform:'scale(1)',color:'#fff',offset:1}],{duration:D,fill:'both'});
+// tank drains 100%->11%
+document.getElementById('w').animate([{height:'100%',offset:0},{height:'100%',offset:3100/D,easing:'ease-in-out'},{height:'11%',offset:4900/D},{height:'11%',offset:1}],{duration:D,fill:'both'});
+// bars
+document.getElementById('f1').animate([{width:'0%',offset:0},{width:'0%',offset:6400/D},{width:'100%',offset:7300/D},{width:'100%',offset:1}],{duration:D,fill:'both'});
+document.getElementById('f2').animate([{width:'0%',offset:0},{width:'0%',offset:6900/D},{width:'79.6%',offset:7900/D},{width:'79.6%',offset:1}],{duration:D,fill:'both'});
+// chips pop
+[...document.querySelectorAll('.chip')].forEach((c,i)=>c.animate([{opacity:0,transform:'scale(.6)',offset:0},{opacity:0,transform:'scale(.6)',offset:(9500+i*280)/D},{opacity:1,transform:'scale(1.08)',offset:(9750+i*280)/D},{opacity:1,transform:'scale(1)',offset:(9900+i*280)/D},{opacity:1,offset:1}],{duration:D,fill:'both'}));
+// CTA pulse
+document.querySelector('.cta').animate([{transform:'scale(1)',offset:0},{transform:'scale(1)',offset:13000/D},{transform:'scale(1.07)',offset:13400/D},{transform:'scale(1)',offset:13800/D},{transform:'scale(1.07)',offset:14400/D},{transform:'scale(1)',offset:14800/D},{transform:'scale(1)',offset:1}],{duration:D,fill:'both'});
+window.seek=t=>{document.getAnimations().forEach(a=>{a.pause();a.currentTime=Math.min(D-1,t*1000)})};window.seek(0);
+</script></body></html>
