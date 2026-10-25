@@ -12,6 +12,14 @@ Spill publishes directly: what you push to `main` goes live on spillthetea.news 
 - If you hit a usage or rate limit: commit and push what's verified, report, stop. Never loop or retry heavy steps.
 - Quiet day? Publish fewer. Zero is fine for midday.
 
+## ⭐ Novelty first (owner, 25 Oct — the primary objective of every run)
+Readers come back to see **what's new since they last looked**. Live is the page they revisit most; Home, Money, r/Hyderabad and r/IndiaRN must feel just as fresh.
+- **Only publish what's new:** a development from the last few hours, or a real new number, decision or deadline. No reruns, no "same story, new angle". If it isn't new, skip it, or update the existing card in place and lead with what changed.
+- **Spread freshness:** each run, try to give at least one of Home, Money, Hyderabad, India something new (Home = the top story of the run). Don't pile every story into one flair.
+- **Show what changed:** on in-place updates, the hook and the first card say the new fact, and `updated` is bumped so it resurfaces.
+- **Value per read, not volume:** fewer, newer, more useful stories beat many. Lean usage: query the shortlist once, open one article per story, don't re-read files you've already seen.
+- Owner will review results after a couple of days (around 27–28 Oct); log anything notable in EXPERIMENTS.md.
+
 ## 0. Setup
 1. Attach the repo with push access (`add_repo` owner `saigireeshsg`, repo `spillthetea-news`, access `push`), clone it to `/home/claude/spillthetea-news`, and work there.
 2. Commit as `Claude <noreply@anthropic.com>`: run `git config user.name Claude && git config user.email noreply@anthropic.com`.
