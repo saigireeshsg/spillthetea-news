@@ -40,7 +40,7 @@
     ].join("");
     const o = !!openW[x.id];
     const exp = o ? `<span class="wx2">${x.cta && x.cta.url ? `<a class="wcta" href="${E(x.cta.url)}" target="_blank" rel="noopener">${E(x.cta.label || "Open")} ↗</a>` : ""}<a class="wsrc" href="${E(x.url)}" target="_blank" rel="noopener">Full report: ${E(x.publisher || "source")} ↗</a></span>` : "";
-    return `<div class="wl ${o ? "on" : ""}" data-wid="${E(x.id)}" role="button" tabindex="0" aria-expanded="${o}"><span class="wt">${E(x.hook || x.title)}<i class="wchev">${o ? "▴" : "▾"}</i></span>${x.brief ? `<span class="wg">${E(x.brief)}</span>` : ""}<span class="wm">${tags}${x.cta && x.cta.url && !o ? `<span class="tg ctag">🔗 ${E(x.cta.label || "Link")}</span>` : ""}<span>${REG[x.region] || ""}</span><span>· ${E(x.publisher || "")}</span><span>· ${ago(x.published_at)}</span></span>${exp}</div>`;
+    return `<div class="wl ${o ? "on" : ""}" data-wid="${E(x.id)}" role="button" tabindex="0" aria-expanded="${o}"><span class="wt">${E(x.hook || x.title)}<i class="wchev">${o ? "▴" : "▾"}</i></span>${x.brief && x.brief.indexOf("·") > -1 && x.brief.length <= 140 ? `<span class="wg">${E(x.brief)}</span>` : ""}<span class="wm">${tags}${x.cta && x.cta.url && !o ? `<span class="tg ctag">🔗 ${E(x.cta.label || "Link")}</span>` : ""}<span>${REG[x.region] || ""}</span><span>· ${E(x.publisher || "")}</span><span>· ${ago(x.published_at)}</span></span>${exp}</div>`;
   }
   document.addEventListener("click", (e) => {
     if (e.target.closest(".wcta")) { try { window.spillTrack && window.spillTrack("wire_cta", {}); } catch (_) {} return; }

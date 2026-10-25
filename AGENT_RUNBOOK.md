@@ -238,3 +238,5 @@ Every Live headline expands in place to a 2–3 line `brief`, so readers get the
 - Hook ≤ 60 chars: emoji + the fact. "🔥 LPG: no strike. Cylinders keep coming." "🚀 ISRO job result out. Skill test Nov 1."
 - Brief = 2–4 fragments split by " · ": who/what · where · number · date · what to do. No full sentences, no "said", no filler. "Main unions: no strike · LDAI dharna, Delhi, Oct 26 · want higher commission"
 - The brief shows under the headline without a tap, so it must carry the value on its own. Tap reveals the CTA and source.
+- **Never copy the feed summary into `brief`.** Live shows a brief only if it uses " · " fragments and is ≤ 140 chars; anything else is hidden. No brief is better than a long one.
+- Suicide and self-harm stories never go on Live (filtered automatically). Don't write hooks for them.
