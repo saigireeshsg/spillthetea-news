@@ -11,6 +11,11 @@
  "cards": [
   {
    "k": "tea",
+   "title": "🆕 Godavari water to the rescue (Oct 25)",
+   "body": "The Telangana government will divert Godavari water to areas that depend on the shrinking Singur and Manjira reservoirs, The Hindu reports. Singur had just 22 days of normal supply left as of Oct 18 (Deccan Chronicle). How much water and from when is not yet public. Watch for the Water Board's area schedule."
+  },
+  {
+   "k": "tea",
    "title": "🚨 New: emergency declared (Oct 25)",
    "body": "Hyderabad's water board has declared an emergency over the acute shortage, Siasat reports. Citing state irrigation department data (via ThePrint): over half of Telangana's 600-plus mandals are hit by drought, and only about 500 of the state's 6,000+ lakes still hold water. Watch for your area's supply schedule next."
   },
@@ -87,7 +92,7 @@
  },
  "date": "2026-10-25",
  "heat": 5,
- "hook": "🚨 Water board declares *emergency*: Singur, which feeds HITEC City, may run dry in ~50 days",
+ "hook": "💧 Govt to divert *Godavari* water to Singur, Manjira-fed areas as emergency bites",
  "lead": "local",
  "learn": {
   "t": "El Niño is a warming of the Pacific Ocean that often weakens India's monsoon."
@@ -113,8 +118,8 @@
     "label": "IT corridor & Old City most exposed"
    },
    {
-    "icon": "⚖️",
-    "label": "Bengaluru: Cauvery dams stressed too"
+    "icon": "🌊",
+    "label": "Godavari water diverted to Singur, Manjira areas"
    }
   ]
  },
@@ -122,6 +127,16 @@
  "readSecs": 55,
  "sort": "2026-10-25-98",
  "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana government to divert Godavari water to areas dependent on depleting Singur, Manjira reservoirs (25 Oct)",
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-government-diverts-godavari-water-to-areas-dependent-on-depleting-singur-manjira-reservoirs/article71624243.ece"
+  },
+  {
+   "name": "Deccan Chronicle",
+   "title": "Some Mission Bhagiratha sources may run out of water within months (18 Oct)",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/some-mission-bhagiratha-sources-may-run-out-of-water-within-months-1997031"
+  },
   {
    "name": "The Siasat Daily",
    "title": "Hyderabad water board declares emergency over acute shortage (25 Oct)",
@@ -169,9 +184,9 @@
   }
  ],
  "thread": "el-nino",
- "tldr": "Update (Oct 25): Hyderabad's water board has declared an emergency over the acute shortage (Siasat). Officials fear Singur reservoir, which supplies the western IT corridor (Gachibowli, HITEC City, Madhapur, Kondapur), could be exhausted by mid-December, about 50 days from now. It's 11% full. The city already gets ~585 MGD against ~735 MGD needed, and the Water Board is reportedly announcing shortages from Dec 15.",
+ "tldr": "Update (Oct 25, evening): the state will divert Godavari water to areas fed by the depleting Singur and Manjira reservoirs (The Hindu). Earlier today, Hyderabad's water board declared an emergency (Siasat). Singur, which supplies the western IT corridor (Gachibowli, HITEC City, Madhapur, Kondapur), is 11% full. The city gets ~585 MGD against ~735 MGD needed.",
  "topic": "El Niño water crisis",
- "watch": "Water board's area-wise supply plan (expected before December); Singur levels; whether Karnataka's Cauvery release to Tamil Nadu is cut further.",
+ "watch": "How much Godavari water, via which pipeline, and from what date; Water Board's area-wise supply plan; Singur levels; IMD rain alert for Oct 28.",
  "viz": [
   {
    "t": "icons",
@@ -245,7 +260,7 @@
    "goodIfUp": true
   }
  ],
- "updated": 1792923628683,
+ "updated": 1792946724518,
  "storyline": "hyd-water-crisis",
- "hook_b": "Water emergency declared. Is your Hyderabad area on the Singur line?"
+ "hook_b": "Godavari water planned for Singur-fed areas. Is your Hyderabad area one?"
 }
