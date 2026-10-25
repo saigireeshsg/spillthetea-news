@@ -1,6 +1,6 @@
 {
  "beats": {
-  "what": "The system has become a depression and should be a severe cyclonic storm by Oct 27. Latest reports put the Andhra crossing on Oct 28. Telangana feels it on Oct 28, mainly in the east and northeast.",
+  "what": "Now forecast as a very severe cyclone. Landfall likely between Machilipatnam and Visakhapatnam on Oct 28, winds up to 140 kmph. Telangana feels it on Oct 28, mainly in the east and northeast.",
   "why": "Andhra is evacuating low-lying areas from Bapatla to Vizianagaram; Tamil Nadu and Puducherry have hoisted cyclone warning signals at 9 ports; Odisha has activated disaster teams. For drought-hit Telangana, the rain is also a ray of hope.",
   "care": "In Warangal, Hanumakonda, Khammam or Kothagudem? Plan around Oct 28. Hyderabad: carry an umbrella on Oct 28."
  },
@@ -11,8 +11,8 @@
   },
   {
    "k": "why",
-   "title": "what changed today (Oct 25)",
-   "body": "1) The low became a depression. 2) It's expected to become a severe cyclonic storm by Oct 27, which is when the name Arnab becomes official. 3) Andhra crossing now reported for Oct 28, with evacuations from Bapatla to Vizianagaram. 4) Cyclone signals hoisted at 9 Tamil Nadu and Puducherry ports, including Chennai."
+   "title": "what changed (Oct 25, latest)",
+   "body": "1) Andhra now braces for a VERY severe cyclone, a step above 'severe'. 2) APSDMA MD Prakhar Jain: landfall likely between Machilipatnam and Visakhapatnam on Oct 28, winds up to 140 kmph. 3) People in coastal districts to be evacuated; Chittoor and Annamayya districts also on alert. 4) Earlier today: depression formed, cyclone signals at 9 Tamil Nadu and Puducherry ports."
   },
   {
    "k": "twist",
@@ -46,8 +46,8 @@
    "#0b2a4a",
    "#4fbcff"
   ],
-  "big": "Oct 28",
-  "label": "cyclone landfall, red alert in east Telangana",
+  "big": "140 kmph",
+  "label": "very severe cyclone, Andhra landfall Oct 28",
   "motion": "drift",
   "scene": [
    "🌀",
@@ -57,7 +57,7 @@
  },
  "date": "2026-10-25",
  "heat": 5,
- "hook": "Depression formed. Cyclone by Oct 27, *16 Telangana districts* on alert Oct 28",
+ "hook": "Upgraded to *very severe*: 140 kmph winds at Andhra landfall Oct 28, 16 Telangana districts on alert",
  "learn": {
   "t": "Cyclone names come from a list made by 13 countries around the Indian Ocean and are used in order. A storm is named only when its winds reach cyclonic strength (63 km/h or more)."
  },
@@ -74,7 +74,7 @@
   ],
   "event": {
    "icon": "🌀",
-   "label": "Severe cyclone, Andhra crossing Oct 28"
+   "label": "Very severe cyclone, Machilipatnam–Vizag Oct 28"
   },
   "effects": [
    {
@@ -91,6 +91,16 @@
  "readSecs": 55,
  "sort": "2026-10-25-95",
  "sources": [
+  {
+   "name": "The Hindu",
+   "title": "A.P. braces for very severe cyclone, to evacuate people in coastal districts (25 Oct)",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/ap-braces-for-very-severe-cyclone-to-evacuate-people-in-coastal-districts/article71623247.ece"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Cyclone threat prompts alert in Chittoor, Annamayya districts (25 Oct)",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-threat-prompts-alert-in-chittoor-annamayya-districts/article71623271.ece"
+  },
   {
    "name": "Deccan Chronicle",
    "title": "Cyclone to Bring Widespread Rains to Telangana Through Early November (25 Oct)",
@@ -148,7 +158,7 @@
   }
  ],
  "thread": "bay-cyclone",
- "tldr": "The Bay of Bengal low is now a depression and is expected to become a severe cyclonic storm by Oct 27. The Hindu now reports it will cross the Andhra coast on Oct 28 (earlier forecast: Oct 27 evening); Andhra will evacuate low-lying areas from Bapatla to Vizianagaram. Telangana on Oct 28: red alert for Mulugu, Bhadradri Kothagudem and Khammam; orange for 5 districts; yellow for 8. Hyderabad: moderate rain.",
+ "tldr": "Update: Andhra is now bracing for a very severe cyclone. APSDMA MD Prakhar Jain says landfall is likely between Machilipatnam and Visakhapatnam on Oct 28, with winds up to 140 kmph; coastal districts will be evacuated, and Chittoor and Annamayya districts are also on alert. Telangana on Oct 28: red alert for Mulugu, Bhadradri Kothagudem and Khammam; orange for 5 districts; yellow for 8. Hyderabad: no IMD alert, light rain.",
  "topic": "Bay of Bengal cyclone",
  "viz": [
   {
@@ -185,7 +195,7 @@
     },
     {
      "t": "Oct 28",
-     "e": "Crosses Andhra coast; heavy rain in east Telangana"
+     "e": "Crosses Andhra coast between Machilipatnam and Visakhapatnam; heavy rain in east Telangana"
     },
     {
      "t": "Oct 29",
@@ -195,13 +205,13 @@
   },
   {
    "t": "big",
-   "v": "3",
-   "l": "districts on red alert: Mulugu, Kothagudem, Khammam",
+   "v": "140 kmph",
+   "l": "expected winds at Andhra landfall, Oct 28 (APSDMA)",
    "tone": "bad"
   }
  ],
  "watch": "IMD's exact crossing point and time; school holidays in east Telangana on Oct 28; whether rain lingers in Hyderabad into early November.",
- "updated": 1792929688243,
- "hook_b": "In Khammam, Mulugu or Kothagudem? *Red alert* for Oct 28 as the cyclone nears",
+ "updated": 1792939499518,
+ "hook_b": "In Khammam, Mulugu or Kothagudem? The cyclone is now *very severe*, 140 kmph winds Oct 28",
  "storyline": "bay-cyclone-2026"
 }
