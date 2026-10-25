@@ -7,7 +7,11 @@
   let W = [];
   let sig = "";
   let fetchedAt = 0;
-  const E = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  // Feeds sometimes ship HTML entities (&#8216; &amp; &quot;): decode them first, then escape once for display.
+  const NAMED = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ", lsquo: "\u2018", rsquo: "\u2019", ldquo: "\u201c", rdquo: "\u201d", ndash: "\u2013", mdash: "\u2014", hellip: "\u2026", rupee: "\u20b9" };
+  const D = (s) => { let t = String(s ?? ""); for (let i = 0; i < 2 && /&(#\d+|#x[0-9a-f]+|[a-z]+);/i.test(t); i++) t = t.replace(/&(#\d+|#x[0-9a-f]+|[a-z]+);/gi, (m, c) => { if (c[0] === "#") { const n = c[1] === "x" || c[1] === "X" ? parseInt(c.slice(2), 16) : parseInt(c.slice(1), 10); try { return n ? String.fromCodePoint(n) : m; } catch (_) { return m; } } const v = NAMED[c.toLowerCase()]; return v === undefined ? m : v; }); return t; };
+  window.spillDecode = D;
+  const E = (s) => D(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const ago = (t) => { const m = Math.max(0, Math.round((Date.now() - Date.parse(t)) / 60000)); return m < 1 ? "just now" : m < 60 ? m + " min ago" : Math.round(m / 60) + " h ago"; };
   const REG = { hyderabad: "📍 Hyderabad", telangana: "🗺️ Telangana", india: "🇮🇳 India" };
 
@@ -66,14 +70,51 @@
   const KIND_ICON = { power: "⚡", water: "🚰", weather: "🌧️", traffic: "🚦", holiday: "🏫", metro: "🚇" };
   const KIND_NAME = { power: "Power cut", water: "Water supply", weather: "Weather alert", traffic: "Traffic", holiday: "Holiday", metro: "Metro" };
   const caLive = (a) => { const d = a.details || {}; const end = d.valid_until ? Date.parse(d.valid_until) : Date.parse(a.published_at || a.created_at) + 18 * 3600e3; return end > Date.now(); };
+  // Seen alerts fold away: what a reader saw on an earlier visit (or opened) moves into a collapsed "Seen" accordion,
+  // so only new alerts stay open on top. An alert that gets new details (enriched_at changes) counts as new again.
+  const SEEN_K = "spill_ca_seen";
+  const caKey = (a) => a.id + ":" + (a.enriched_at || "");
+  let seenStore = {};
+  try { seenStore = JSON.parse(localStorage.getItem(SEEN_K) || "{}") || {}; } catch (_) { seenStore = {}; }
+  const seenAtLoad = new Set(Object.keys(seenStore)); // what was seen before this visit: stays folded
+  const seenNow = new Set(); // opened during this visit: folds right away
+  let caSeenOpen = false;
+  function markSeen(list) {
+    let ch = false; const now = Date.now();
+    list.forEach((a) => { const k = caKey(a); if (!seenStore[k]) { seenStore[k] = now; ch = true; } });
+    if (!ch) return;
+    for (const k in seenStore) if (now - seenStore[k] > 7 * 86400e3) delete seenStore[k]; // prune
+    try { localStorage.setItem(SEEN_K, JSON.stringify(seenStore)); } catch (_) {}
+  }
+  const isSeen = (a) => seenAtLoad.has(caKey(a)) || seenNow.has(caKey(a));
+  // Count an alert as seen once it has been on screen for ~1.5 s.
+  let caIO = null; const caTimers = {};
+  function watchSeen() {
+    if (!("IntersectionObserver" in window)) return;
+    if (!caIO) caIO = new IntersectionObserver((ents) => ents.forEach((en) => {
+      const id = en.target.dataset.ca; const a = CA.find((x) => String(x.id) === String(id)); if (!a) return;
+      if (en.isIntersecting) { if (!caTimers[id]) caTimers[id] = setTimeout(() => { markSeen([a]); caIO.unobserve(en.target); }, 1500); }
+      else { clearTimeout(caTimers[id]); delete caTimers[id]; }
+    }), { threshold: 0.6 });
+    document.querySelectorAll(".calerts .ca.fresh[data-ca]").forEach((el) => caIO.observe(el));
+  }
+  function caRow(a, cls) {
+    const d = a.details || {};
+    const meta = d.where ? `${E(d.when || "")}${d.when ? " · " : ""}${E(d.where.slice(0, 3).join(", "))}${d.where.length > 3 ? ` +${d.where.length - 3}` : ""}` : d.summary ? E(d.when || "Tap for what to do") : "Checking areas & timings…";
+    return `<button class="ca ${cls}" data-ca="${E(a.id)}"><span class="ci">${KIND_ICON[a.kind] || "🚨"}</span><span class="ct"><small>${cls === "fresh" ? `<em class="canew">NEW</em> ` : ""}${E(d.level || KIND_NAME[a.kind] || "Alert")} · ${ago(a.published_at || a.created_at)}</small><b>${E(d.push_title ? d.push_title.replace(/^\S+\s/, "") : a.headline)}</b><span>${meta} · <u>full details</u></span></span></button>`;
+  }
   window.civicHTML = function (scope) {
     if (scope && scope !== "local") return "";
     const list = CA.slice(0, 6);
     if (!list.length) return "";
-    return `<section class="livebox calerts" aria-label="Alerts"><span class="lgrp">🚨 Alerts · power, water, weather</span>${list.map((a) => { const d = a.details || {};
-      const meta = d.where ? `${E(d.when || "")}${d.when ? " · " : ""}${E(d.where.slice(0, 3).join(", "))}${d.where.length > 3 ? ` +${d.where.length - 3}` : ""}` : "Checking areas & timings…";
-      return `<button class="ca" data-ca="${E(a.id)}"><span class="ci">${KIND_ICON[a.kind] || "🚨"}</span><span class="ct"><small>${E(d.level || KIND_NAME[a.kind] || "Alert")} · ${ago(a.published_at || a.created_at)}</small><b>${E(d.push_title ? d.push_title.replace(/^\S+\s/, "") : a.headline)}</b><span>${meta} · <u>full details</u></span></span></button>`; }).join("")}</section>`;
+    const fresh = list.filter((a) => !isSeen(a)), old = list.filter(isSeen);
+    setTimeout(watchSeen, 0);
+    let h = `<section class="livebox calerts" aria-label="Alerts"><span class="lgrp">🚨 Alerts · power, water, weather${fresh.length ? ` · <em class="canew">${fresh.length} new</em>` : ""}</span>`;
+    h += fresh.length ? fresh.map((a) => caRow(a, "fresh")).join("") : `<p class="canone">✅ No new alerts since your last visit</p>`;
+    if (old.length) h += `<details class="caseen"${caSeenOpen ? " open" : ""}><summary>👀 Seen · ${old.length} earlier alert${old.length > 1 ? "s" : ""}</summary>${old.map((a) => caRow(a, "seen")).join("")}</details>`;
+    return h + `</section>`;
   };
+  document.addEventListener("toggle", (e) => { if (e.target.classList && e.target.classList.contains("caseen")) caSeenOpen = e.target.open; }, true);
   // In-app alert sheet: everything a reader needs (where, when, what to do, official link), no need to leave Spill.
   const caCss = document.createElement("style");
   caCss.textContent = `.calerts .ca{font:inherit;color:inherit;text-align:left;width:100%;cursor:pointer;background:none;border:0}
@@ -104,7 +145,8 @@
       ${(d.do || []).length ? `<div class="cag"><small>👉 What to do</small><ul>${d.do.map((x) => `<li>${E(x)}</li>`).join("")}</ul></div>` : ""}
       ${d.official ? `<a class="off" href="${E(d.official.url)}" target="_blank" rel="noopener">${E(d.official.label)} ↗</a>` : ""}
       <div class="src">Source: <a href="${E(a.url)}" target="_blank" rel="noopener">${E(a.publisher || "report")}</a> · ${ago(a.published_at || a.created_at)}</div></div>`;
-    el.addEventListener("click", (e) => { if (e.target === el || e.target.closest("[data-cax]")) { el.remove(); if (/^#alert\//.test(location.hash)) history.replaceState(null, "", location.pathname + location.search); } });
+    markSeen([a]);
+    el.addEventListener("click", (e) => { if (e.target === el || e.target.closest("[data-cax]")) { el.remove(); if (!seenNow.has(caKey(a))) { seenNow.add(caKey(a)); window.spillRerender && window.spillRerender(); hlSig = ""; hotline(); } if (/^#alert\//.test(location.hash)) history.replaceState(null, "", location.pathname + location.search); } });
     document.body.appendChild(el);
     try { window.spillTrack && window.spillTrack("alert_open", { id: a.id, kind: a.kind, enriched: !!a.details }); } catch (_) {}
     return true;
@@ -163,6 +205,15 @@
 @media (prefers-reduced-motion:reduce){#hotline .hl-run{animation:none}}
 html.embed #hotline{display:none}
 .calerts{border-color:#7a1f1f!important}
+.calerts .canew{font-style:normal;background:#e5383b;color:#fff;border-radius:999px;padding:0 6px;font-size:10.5px;font-weight:900;letter-spacing:.04em}
+.calerts .canone{margin:6px 0 2px;font-size:13px;color:var(--muted,#a3acb0)}
+.calerts .caseen{margin-top:6px;border-top:1px dashed var(--line,#343536);padding-top:6px}
+.calerts .caseen summary{cursor:pointer;font-size:13px;font-weight:800;color:var(--muted,#a3acb0);padding:4px 0;list-style:none}
+.calerts .caseen summary::-webkit-details-marker{display:none}
+.calerts .caseen summary::after{content:" ▾"}.calerts .caseen[open] summary::after{content:" ▴"}
+.calerts .ca.seen{opacity:.72}.calerts .ca.seen .ci{background:var(--card-2,#202024)}
+#hotline .hl-on{flex:none;padding:0 10px;font-size:11.5px;font-weight:800;color:#9be7b0;white-space:nowrap;border-left:1px solid var(--line,#343536);height:100%;display:flex;align-items:center}
+#hotline .hl-on[hidden]{display:none}
 .ca{display:grid;grid-template-columns:34px minmax(0,1fr);gap:10px;align-items:start;text-decoration:none;color:inherit;padding:9px 0;border-top:1px solid var(--line,#343536)}
 .ca:first-of-type{border-top:0}
 .ca .ci{width:34px;height:34px;border-radius:10px;background:#3a0f17;display:grid;place-items:center;font-size:17px}
@@ -188,7 +239,7 @@ html.desk #hotline.inflow{max-width:676px}
     let el = document.getElementById("hotline");
     if (!el) {
       el = document.createElement("div"); el.id = "hotline"; el.setAttribute("role", "link"); el.setAttribute("aria-label", "Live updates: open the Live page");
-      el.innerHTML = `<span class="hl-tag"><i></i>LIVE</span><div class="hl-vp"><div class="hl-run"></div></div>`;
+      el.innerHTML = `<span class="hl-tag"><i></i>LIVE</span><div class="hl-vp"><div class="hl-run"></div></div><span class="hl-on" hidden></span>`;
       el.addEventListener("click", () => { try { window.spillTrack && window.spillTrack("hotline_click"); } catch (_) {} const b = document.querySelector('[data-f="live"]'); if (b) b.click(); window.scrollTo(0, 0); });
       bar.appendChild(el);
       const subs = document.getElementById("subs"), back = document.getElementById("back");
@@ -197,9 +248,10 @@ html.desk #hotline.inflow{max-width:676px}
       if (back) mo.observe(back, { attributes: true, attributeFilter: ["hidden"] });
     }
     place(el);
+    showOnline();
     const items = W.filter((x) => x.tier !== "spicy").sort(byNew).slice(0, 10);
     const cr = window.cricTop ? window.cricTop() : null;
-    const al = CA.slice(0, 3).map((a) => `<span class="hl-it cr" data-ca="${E(a.id)}" style="cursor:pointer">${KIND_ICON[a.kind] || "🚨"} ${E(a.details && a.details.push_title ? a.details.push_title.replace(/^\S+\s/, "") : a.headline)}</span>`);
+    const al = CA.filter((a) => !isSeen(a)).slice(0, 3).map((a) => `<span class="hl-it cr" data-ca="${E(a.id)}" style="cursor:pointer">${KIND_ICON[a.kind] || "🚨"} ${E(a.details && a.details.push_title ? a.details.push_title.replace(/^\S+\s/, "") : a.headline)}</span>`);
     const parts = al.concat(cr ? [`<span class="hl-it cr">${E(cr)}</span>`] : []).concat(items.map((x) => `<span class="hl-it">${E(x.hook || x.title)} <small>${mins(x.published_at)}</small></span>`));
     if (!parts.length) { el.hidden = true; return; }
     el.hidden = false;
@@ -211,6 +263,24 @@ html.desk #hotline.inflow{max-width:676px}
     run.style.setProperty("--hl-dur", Math.max(30, parts.length * 7) + "s");
   }
   window.hotlineRefresh = hotline;
+
+  // ---------- Who's here now: Supabase Realtime presence (no DB writes). One key per device, so extra tabs don't double count. ----------
+  let online = 0;
+  function showOnline() {
+    document.querySelectorAll("#hotline .hl-on").forEach((x) => { x.hidden = online < 1; x.textContent = `🟢 ${online} online`; });
+    document.querySelectorAll("[data-online]").forEach((x) => { x.hidden = online < 1; x.textContent = `🟢 ${online} on Spill right now`; });
+  }
+  window.spillOnline = () => online;
+  window.spillOnlineHTML = () => `<span class="onl" data-online${online < 1 ? " hidden" : ""}>🟢 ${online} on Spill right now</span>`;
+  try {
+    let dev = ""; try { dev = localStorage.getItem("spill_dev") || ""; if (!dev) { dev = Math.random().toString(36).slice(2) + Date.now().toString(36); localStorage.setItem("spill_dev", dev); } } catch (_) { dev = Math.random().toString(36).slice(2); }
+    const ch = sb.channel("spill-online", { config: { presence: { key: dev } } });
+    const recount = () => { online = Object.keys(ch.presenceState() || {}).length; showOnline(); };
+    ch.on("presence", { event: "sync" }, recount).on("presence", { event: "join" }, recount).on("presence", { event: "leave" }, recount)
+      .subscribe((st) => { if (st === "SUBSCRIBED") ch.track({ at: Date.now(), embed: document.documentElement.classList.contains("embed") }); });
+    document.addEventListener("visibilitychange", () => { try { if (document.hidden) ch.untrack(); else ch.track({ at: Date.now() }); } catch (_) {} });
+    setInterval(showOnline, 15000);
+  } catch (_) { /* presence is a nice-to-have */ }
   setInterval(() => { hlSig = ""; hotline(); }, 60000); // keep the "Xm" ages fresh
 
   async function load() {
