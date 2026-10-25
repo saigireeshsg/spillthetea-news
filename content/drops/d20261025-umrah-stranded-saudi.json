@@ -1,0 +1,150 @@
+{
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-25",
+ "sort": "2026-10-25-87",
+ "order": 7,
+ "heat": 4,
+ "readSecs": 45,
+ "topic": "Umrah pilgrims stranded",
+ "thread": "gulf-flights",
+ "hook": "*3,000 Indians* stuck in Saudi as airports get hit. 40 fly back to Hyderabad tomorrow",
+ "tldr": "Houthi drone and missile strikes on Saudi infrastructure, including airports, have disrupted flights. About 3,000 Indians are stranded, including 400–500 Umrah pilgrims from Andhra Pradesh; 40 fly back to Hyderabad on Oct 26.",
+ "beats": {
+  "what": "Riyadh's airport is closed and Jeddah, Madinah and Dammam face disruptions. Air India, Air India Express and IndiGo suspended Saudi flights until Oct 24; Akasa until Oct 27.",
+  "why": "Yemen-based Houthi rebels have struck civilian infrastructure in Saudi Arabia, including airports, amid the wider Iran–US tensions.",
+  "care": "Family on Umrah or working in Saudi? Save the Indian control-room numbers below. Check flights on Saudia, Flynas and Flyadeal, which are still running some routes."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Jeddah control room: +966-12-2614093 / +966-556122301, toll-free 800-244-0003 (in Saudi), WhatsApp +966-536209704. Riyadh: +966-11-4884697, toll-free 800-2471234, WhatsApp +966-536216082. A new desk is open at the Indian Haj Pilgrims Office in Makkah: +966 553646966."
+  },
+  {
+   "k": "why",
+   "title": "how do people get home?",
+   "body": "Saudia flies to India from Jeddah, Madinah and Dammam; Flynas from Dammam to Delhi, Mumbai and Lucknow; Flyadeal from Dammam to Mumbai. Connections via the UAE, Bahrain, Kuwait or Qatar may work, depending on visa rules."
+  },
+  {
+   "k": "poll",
+   "q": "Does anyone in your family travel to the Gulf often?",
+   "opts": [
+    "Yes, for work",
+    "Yes, for Umrah/Haj",
+    "No"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which Saudi airport is fully closed?",
+   "opts": [
+    "Riyadh",
+    "Jeddah",
+    "Madinah",
+    "Dammam"
+   ],
+   "ans": 0,
+   "why": "Riyadh's King Khalid airport is closed; the others are operating with disruptions."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "3,000",
+   "l": "Indians stranded in Saudi Arabia",
+   "tone": "bad"
+  },
+  {
+   "t": "icons",
+   "n": 1,
+   "of": 6,
+   "icon": "🧳",
+   "d": "~1 in 6",
+   "l": "of them are Umrah pilgrims from Andhra (400–500)"
+  },
+  {
+   "t": "timeline",
+   "l": "Indian airlines' Saudi suspension",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Mid-Oct",
+     "e": "Strikes hit Saudi airports"
+    },
+    {
+     "t": "Until Oct 24",
+     "e": "Air India, AI Express, IndiGo paused"
+    },
+    {
+     "t": "Oct 26",
+     "e": "40 pilgrims land in Hyderabad"
+    },
+    {
+     "t": "Until Oct 27",
+     "e": "Akasa paused"
+    }
+   ]
+  }
+ ],
+ "map": {
+  "causes": [
+   {
+    "icon": "🚀",
+    "label": "Houthi strikes on Saudi airports"
+   },
+   {
+    "icon": "✈️",
+    "label": "Indian airlines suspend flights"
+   }
+  ],
+  "event": {
+   "icon": "🧳",
+   "label": "3,000 Indians stranded"
+  },
+  "effects": [
+   {
+    "icon": "🛬",
+    "label": "40 return to Hyderabad Oct 26"
+   },
+   {
+    "icon": "☎️",
+    "label": "Indian control rooms open"
+   }
+  ]
+ },
+ "cover": {
+  "bg": [
+   "#0b2340",
+   "#4fbcff"
+  ],
+  "big": "3,000",
+  "label": "Indians stranded in Saudi",
+  "motion": "drift",
+  "scene": [
+   "✈️",
+   "🕋",
+   "🧳"
+  ]
+ },
+ "learn": {
+  "t": "Indian missions abroad run control rooms during crises; registering with them helps them track and evacuate citizens."
+ },
+ "watch": "Whether Indian airlines resume Saudi flights after Oct 24–27, and more return flights to Hyderabad.",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Flight disruptions leave Andhra Umrah pilgrims stranded; 40 to fly back to Hyderabad on Oct 26",
+   "url": "https://www.thehindu.com/todays-paper/"
+  },
+  {
+   "name": "The Siasat Daily",
+   "title": "Indian Umrah pilgrims urged to check alternative Saudi flights (19 Oct)",
+   "url": "https://www.siasat.com/indian-umrah-pilgrims-urged-to-check-alternative-saudi-flights-3560651/"
+  },
+  {
+   "name": "Open",
+   "title": "India opens additional Makkah control room (15 Oct)",
+   "url": "https://openthemagazine.com/india/india-opens-additional-makkah-control-room-as-saudi-flight-disruptions-hit-umrah-pilgrims"
+  }
+ ]
+}

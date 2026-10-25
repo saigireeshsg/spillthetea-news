@@ -16,6 +16,10 @@
    "k": "tea"
   },
   {
+   "k": "tea",
+   "body": "Update (Oct 25): TG SAFE issued improvement notices to 20 sweet shops and manufacturing units, and a show-cause notice to one more, after statewide inspections found hygiene violations."
+  },
+  {
    "body": "For selling habit-forming drugs without prescriptions, in a separate drive.",
    "caption": "Medical shops whose licences were suspended",
    "k": "num",
@@ -89,6 +93,11 @@
    "name": "The Hindu",
    "title": "TG SAFE seizes 1,035 kg food products (print, Hyderabad edition, 24 Oct, p.5)",
    "url": "https://www.thehindu.com/todays-paper/"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "TG SAFE issues improvement notices to 20 sweet establishments (25 Oct)",
+   "url": "https://telanganatoday.com/"
   }
  ],
  "thread": "food-safety",
@@ -118,5 +127,6 @@
    "v": "3"
   }
  ],
- "watch": "Results of the 21 food samples are due. Six shops got improvement notices and will be re-inspected."
+ "watch": "Results of the 21 food samples are due. Six shops got improvement notices and will be re-inspected.",
+ "updated": 1792912570231
 }

@@ -1,0 +1,135 @@
+{
+ "cat": "campus",
+ "date": "2026-10-25",
+ "sort": "2026-10-25-83",
+ "order": 8,
+ "heat": 3,
+ "readSecs": 45,
+ "topic": "NMC scraps college standards rules",
+ "thread": "medical-education",
+ "hook": "NMC scrapped the rules that fined medical colleges *up to ₹1 crore* for fake records",
+ "tldr": "The National Medical Commission withdrew the Maintenance of Standards of Medical Education Regulations, 2023 from Oct 17, with no single replacement. Activists say penalties for false faculty and patient records are gone; NMC says the move is 'misinterpreted'.",
+ "beats": {
+  "what": "MSMER-2023 was withdrawn by a notification dated Oct 14, published in the Gazette on Oct 17. No single new regulation replaces it.",
+  "why": "Those rules allowed fines up to ₹1 crore for colleges and up to ₹5 lakh personally for faculty and administrators who submitted false records, plus procedures to verify colleges' annual disclosures.",
+  "care": "Choosing a medical college? Ghost faculty and inflated patient loads mean weaker clinical training. Check a college's real faculty and hospital before you pay."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Consumer activist Bejon Kumar Misra wrote to the Centre warning that fake faculty declarations and inflated patient records could go undetected and put patients at risk. Ophthalmologist Babu K.V. says deleting Clause 8(2)(c) removes accountability for doctors who submit false records."
+  },
+  {
+   "k": "twist",
+   "body": "A senior NMC official told The Hindu the decision was 'misinterpreted': its legal team recommended streamlining regulatory powers."
+  },
+  {
+   "k": "poll",
+   "q": "Should colleges that fake faculty records face big fines?",
+   "opts": [
+    "Yes, keep fines",
+    "Yes, and shut them down",
+    "Inspections are enough"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What was the maximum fine on a college under MSMER-2023?",
+   "opts": [
+    "₹1 crore",
+    "₹5 lakh",
+    "₹10 lakh",
+    "₹50 crore"
+   ],
+   "ans": 0,
+   "why": "Up to ₹1 crore for colleges; up to ₹5 lakh personally for faculty or administrators filing false records."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Max fine under the scrapped rules",
+   "a": {
+    "v": 100,
+    "d": "₹1 crore",
+    "l": "College"
+   },
+   "b": {
+    "v": 5,
+    "d": "₹5 lakh",
+    "l": "Individual"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "timeline",
+   "l": "How it happened",
+   "now": 2,
+   "steps": [
+    {
+     "t": "Oct 14",
+     "e": "Withdrawal notified"
+    },
+    {
+     "t": "Oct 17",
+     "e": "Published in Gazette, takes effect"
+    },
+    {
+     "t": "Now",
+     "e": "Activists seek clarity on enforcement"
+    }
+   ]
+  }
+ ],
+ "map": {
+  "causes": [
+   {
+    "icon": "⚖️",
+    "label": "NMC legal review"
+   },
+   {
+    "icon": "📜",
+    "label": "MSMER-2023 withdrawn"
+   }
+  ],
+  "event": {
+   "icon": "🏥",
+   "label": "Medical college rules scrapped"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "₹1 cr fines gone?"
+   },
+   {
+    "icon": "🔍",
+    "label": "Who checks fake faculty?"
+   }
+  ]
+ },
+ "cover": {
+  "bg": [
+   "#0c2a2a",
+   "#2ec4b6"
+  ],
+  "big": "₹1 cr",
+  "label": "fines on medical colleges, now scrapped",
+  "motion": "fall",
+  "scene": [
+   "🏥",
+   "📜",
+   "⚖️"
+  ]
+ },
+ "learn": {
+  "t": "'Ghost faculty' means teachers listed on paper to pass inspections who don't actually teach at the college."
+ },
+ "watch": "Whether NMC or the Health Ministry spell out what replaces the penalties and verification rules.",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Activists flag accountability gap as NMC scraps 2023 rules (print, 25 Oct, p.9)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ]
+}

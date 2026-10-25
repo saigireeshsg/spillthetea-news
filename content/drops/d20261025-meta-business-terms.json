@@ -1,0 +1,112 @@
+{
+ "cat": "tech",
+ "date": "2026-10-25",
+ "sort": "2026-10-25-81",
+ "order": 9,
+ "heat": 3,
+ "readSecs": 40,
+ "topic": "Meta's new business terms",
+ "thread": "big-tech-data",
+ "hook": "Run an Instagram or Facebook business page? From *Oct 30*, Meta can crawl your website",
+ "tldr": "Meta's updated terms for business accounts let it use bots and crawlers to access, index, cache and analyse their web pages. Accepting happens just by continuing to use its self-serve ad tools, and accounts can't opt out before Oct 30.",
+ "beats": {
+  "what": "The terms apply to any 'business or commercial purpose', including running a Page. Using Ads Manager or Business Suite counts as acceptance.",
+  "why": "Meta removed the word 'train' but still says it will use the consent to 'develop, improve, research' its products, a wording publishers fear covers AI.",
+  "care": "Creators and small brands with a website: check Meta's new terms and your site's robots.txt settings."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "About 3.6 billion people use a Meta app daily and over 200 million businesses use its apps monthly. Its ad revenue hit $59.36 billion in the June quarter, most of it from self-serve advertisers who accept terms with a click."
+  },
+  {
+   "k": "why",
+   "title": "what's robots.txt?",
+   "body": "A text file on a website that tells crawlers what they may access. Publishers say Meta's new terms don't commit to respecting the latest preferences set there."
+  },
+  {
+   "k": "poll",
+   "q": "Should using an ad tool count as agreeing to new data terms?",
+   "opts": [
+    "No, ask clearly",
+    "Fine, it's in the terms",
+    "Didn't know this happens"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "How do businesses 'accept' Meta's new terms?",
+   "opts": [
+    "By continuing to use its self-serve tools",
+    "By signing a form",
+    "By email",
+    "They can't"
+   ],
+   "ans": 0,
+   "why": "Continued use of Ads Manager or Business Suite counts as acceptance."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "200 mn+",
+   "l": "businesses use Meta apps every month"
+  },
+  {
+   "t": "big",
+   "v": "$59.36 bn",
+   "l": "Meta ad revenue, June quarter"
+  }
+ ],
+ "map": {
+  "causes": [
+   {
+    "icon": "📄",
+    "label": "New business terms"
+   },
+   {
+    "icon": "🤖",
+    "label": "Crawlers & bots allowed"
+   }
+  ],
+  "event": {
+   "icon": "🕸️",
+   "label": "Meta can crawl business sites"
+  },
+  "effects": [
+   {
+    "icon": "🔒",
+    "label": "No opt-out before Oct 30"
+   },
+   {
+    "icon": "✍️",
+    "label": "Publishers worried"
+   }
+  ]
+ },
+ "cover": {
+  "bg": [
+   "#0b1a3a",
+   "#4f7cff"
+  ],
+  "big": "Oct 30",
+  "label": "Meta's new terms for business accounts",
+  "motion": "drift",
+  "scene": [
+   "🕸️",
+   "🤖",
+   "📄"
+  ]
+ },
+ "learn": {
+  "t": "A web crawler is a bot that visits pages automatically to copy and index them. Search engines and AI companies both use them."
+ },
+ "watch": "Whether Meta clarifies AI training use, and how Indian publishers respond.",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Meta's rewrite of the rules for the open web (Science, 25 Oct)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ]
+}

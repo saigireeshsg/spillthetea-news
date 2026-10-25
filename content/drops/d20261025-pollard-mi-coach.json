@@ -1,0 +1,108 @@
+{
+ "cat": "sport",
+ "date": "2026-10-25",
+ "sort": "2026-10-25-79",
+ "order": 10,
+ "heat": 3,
+ "readSecs": 35,
+ "topic": "Pollard MI head coach",
+ "thread": "ipl-2027",
+ "hook": "Kieron Pollard is Mumbai Indians' new *head coach*. MI haven't won since 2020",
+ "tldr": "Mumbai Indians promoted batting coach Kieron Pollard to head coach, replacing Mahela Jayawardene after a disappointing IPL 2026. MI have gone six editions without a title.",
+ "beats": {
+  "what": "Pollard, part of all five MI titles, takes over from Jayawardene, whose two-season second stint ended after IPL 2026.",
+  "why": "MI chose continuity over a full overhaul. Pollard is close to Rohit Sharma and Hardik Pandya, who have led MI at different times.",
+  "care": "Expect MI retention and release news soon, amid talk of some big names being let go."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "MI co-owner Nita Ambani: \"Polly knows what it means to wear the MI jersey and what it takes to play for the Paltan.\" Rohit Sharma may get a bigger say in team decisions."
+  },
+  {
+   "k": "poll",
+   "q": "Can Pollard end MI's title drought?",
+   "opts": [
+    "Yes, next season",
+    "Needs a big squad change",
+    "No"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "When did Mumbai Indians last win the IPL?",
+   "opts": [
+    "2020",
+    "2023",
+    "2017",
+    "2024"
+   ],
+   "ans": 0,
+   "why": "Their fifth title came in 2020; they've gone six editions without one since."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "5",
+   "l": "IPL titles MI won, all with Pollard in the side"
+  },
+  {
+   "t": "big",
+   "v": "6",
+   "l": "seasons without a title since 2020",
+   "tone": "bad"
+  }
+ ],
+ "map": {
+  "causes": [
+   {
+    "icon": "📉",
+    "label": "Poor IPL 2026"
+   },
+   {
+    "icon": "🔁",
+    "label": "Jayawardene's stint ends"
+   }
+  ],
+  "event": {
+   "icon": "🏏",
+   "label": "Pollard named head coach"
+  },
+  "effects": [
+   {
+    "icon": "🤝",
+    "label": "Rohit's bigger say"
+   },
+   {
+    "icon": "📋",
+    "label": "Retentions next"
+   }
+  ]
+ },
+ "cover": {
+  "bg": [
+   "#0a2a5c",
+   "#4fbcff"
+  ],
+  "big": "Pollard",
+  "label": "Mumbai Indians head coach",
+  "motion": "rise",
+  "scene": [
+   "🏏",
+   "💙",
+   "🏆"
+  ]
+ },
+ "learn": {
+  "t": "Before each IPL auction, teams submit a list of players they retain; everyone else goes into the auction pool."
+ },
+ "watch": "MI's retention list and who joins Pollard's support staff.",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Pollard elevated to Mumbai Indians head coach (Sport, 25 Oct)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ]
+}
