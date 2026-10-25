@@ -92,6 +92,16 @@
  "sort": "2026-10-25-95",
  "sources": [
   {
+   "name": "Deccan Chronicle",
+   "title": "Cyclone to Bring Widespread Rains to Telangana Through Early November (25 Oct)",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/"
+  },
+  {
+   "name": "The Indian Express",
+   "title": "Cyclone Arnab alert: IMD forecasts landfall in Andhra Pradesh on Oct 28 (25 Oct)",
+   "url": "https://indianexpress.com/article/india/cyclone-arnab-bay-of-bengal-andhra-pradesh-landfall-october-28-imd-10936070/"
+  },
+  {
    "name": "The Hindu",
    "title": "Cyclone to cross Andhra coast on October 28; people in low-lying areas from Bapatla to Vizianagaram to be evacuated (25 Oct)",
    "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-to-cross-andhra-coast-on-october-28-people-in-low-lying-areas-from-bapatla-to-vizianagaram-to-be-evacuated/article71620236.ece"
@@ -190,8 +200,8 @@
    "tone": "bad"
   }
  ],
- "watch": "IMD's exact crossing point and time. Watch for school holidays in east Telangana on Oct 28, and Hyderabad traffic advisories.",
- "updated": 1792914649509,
+ "watch": "Deccan Chronicle now reports widespread rain in Telangana could continue into early November. Also watch IMD's exact crossing point and time, school holidays in east Telangana on Oct 28, and Hyderabad traffic advisories.",
+ "updated": 1792917902602,
  "hook_b": "In Khammam, Mulugu or Kothagudem? *Red alert* for Oct 28 as the cyclone nears",
  "storyline": "bay-cyclone-2026"
 }
