@@ -1,0 +1,138 @@
+{
+ "cat": "local",
+ "city": "Hyderabad",
+ "date": "2026-10-25",
+ "sort": "2026-10-25-93",
+ "order": 2,
+ "heat": 4,
+ "readSecs": 40,
+ "topic": "Hyderabad traffic",
+ "storyline": "hyd-traffic",
+ "hook": "Hyderabadis lose *123 hours* a year in traffic. Evening 10 km takes 39 min",
+ "hook_b": "Your evening commute: *15 km/h*. Hyderabad lost 123 hours to traffic last year",
+ "tldr": "TomTom's 2025 index: Hyderabad commuters spent 123 hours stuck in traffic, evening rush crawls at 15.2 km/h, and 10 km takes 39 min 28 s. About 80 lakh vehicles are on the roads, double a decade ago.",
+ "beats": {
+  "what": "Hyderabad drivers lost 123 hours in 2025, 1 hour 16 minutes more than in 2024. Average congestion was 55.5%.",
+  "why": "Vehicles have roughly doubled in a decade to about 80 lakh. Evening peaks are worse than mornings: 85.7% congestion vs 66.4%.",
+  "care": "Leaving before the evening rush or taking the Metro on a 10 km trip can save you 5 minutes a day. That's about 20 hours a year."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Worst day of 2025: Aug 30. Congestion hit 113% at 6 pm and you could cover just 3.3 km in 15 minutes. Indian metros typically average 25–30 km/h; Hyderabad's rush hour averages about 15–16 km/h and can drop to 10."
+  },
+  {
+   "k": "poll",
+   "q": "How long is your daily commute (one way)?",
+   "opts": [
+    "Under 20 min",
+    "20–45 min",
+    "45 min+",
+    "WFH, I'm free"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "How long does 10 km take in Hyderabad's evening rush?",
+   "opts": [
+    "39 min",
+    "20 min",
+    "25 min",
+    "1 hour"
+   ],
+   "ans": 0,
+   "why": "39 min 28 s at 15.2 km/h (TomTom 2025)."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "123 hrs",
+   "l": "lost in traffic per commuter in 2025",
+   "tone": "bad"
+  },
+  {
+   "t": "compare",
+   "l": "Time to drive 10 km",
+   "a": {
+    "v": 34.9,
+    "d": "34 min 53 s",
+    "l": "Morning rush"
+   },
+   "b": {
+    "v": 39.5,
+    "d": "39 min 28 s",
+    "l": "Evening rush"
+   },
+   "goodIfUp": false
+  },
+  {
+   "t": "meter",
+   "l": "Evening rush congestion",
+   "v": 85.7,
+   "max": 100,
+   "d": "85.7%"
+  },
+  {
+   "t": "big",
+   "v": "80 lakh",
+   "l": "vehicles on Hyderabad roads, ~2x a decade ago"
+  }
+ ],
+ "map": {
+  "causes": [
+   {
+    "icon": "🚗",
+    "label": "80 lakh vehicles"
+   },
+   {
+    "icon": "🏙️",
+    "label": "IT corridor rush"
+   }
+  ],
+  "event": {
+   "icon": "🚦",
+   "label": "123 hours lost a year"
+  },
+  "effects": [
+   {
+    "icon": "🐢",
+    "label": "15 km/h evening speed"
+   },
+   {
+    "icon": "⏱️",
+    "label": "39 min per 10 km"
+   }
+  ]
+ },
+ "cover": {
+  "bg": [
+   "#2a1405",
+   "#ff8a00"
+  ],
+  "big": "123 hrs",
+  "label": "lost to Hyderabad traffic a year",
+  "motion": "drift",
+  "scene": [
+   "🚦",
+   "🚗",
+   "⏱️"
+  ]
+ },
+ "learn": {
+  "t": "Congestion % is how much longer a trip takes than in free-flowing traffic. 85% means a 20-minute drive takes about 37."
+ },
+ "watch": "TomTom's 2026 index in January; Metro Phase-2 progress.",
+ "sources": [
+  {
+   "name": "The Siasat Daily",
+   "title": "Hyderabadis spend 123 hrs on roads, thanks to traffic congestion (Aug 9, 2026; TomTom Traffic Index 2025)",
+   "url": "https://www.siasat.com/hyderabadis-spend-123-hrs-on-roads-thanks-to-traffic-congestion-3521302/"
+  },
+  {
+   "name": "TomTom Traffic Index",
+   "title": "Hyderabad",
+   "url": "https://www.tomtom.com/traffic-index/hyderabad-traffic/"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "title": "Hyderabad's traffic, in numbers",
+ "emoji": "🚦",
+ "mins": 1,
+ "lede": "Hyderabad's roads carry about 80 lakh vehicles, double a decade ago. Here's how bad the crawl is and what's changing.",
+ "india": "Your commute time, fuel bill and how far from work you can afford to live.",
+ "players": [
+  {
+   "name": "Hyderabad Traffic Police",
+   "role": "Diversions, signals, enforcement."
+  },
+  {
+   "name": "GHMC & HMDA",
+   "role": "Roads, flyovers, junction fixes."
+  },
+  {
+   "name": "Hyderabad Metro",
+   "role": "Phase-2 expansion in planning."
+  }
+ ],
+ "timeline": [
+  {
+   "when": "2025",
+   "what": "Commuters lose 123 hours; evening rush averages 15.2 km/h (TomTom)."
+  },
+  {
+   "when": "Aug 30, 2025",
+   "what": "Worst day: congestion hits 113% at 6 pm."
+  },
+  {
+   "when": "Oct 2026",
+   "what": "Two consortiums bid for Metro Phase-2 consultancy; Uppal bus terminal announced for 1 lakh passengers a day."
+  }
+ ]
+}

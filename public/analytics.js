@@ -39,7 +39,8 @@
   const ph = (ev, props) => { try { posthog.capture(ev, props || {}); } catch (_) {} mirrorEv(ev, props); };
   // Visits: one app_open per session (load, or coming back after 30 min away) → retention_daily / retention_cohorts
   let lastOpen = 0;
-  const appOpen = (how) => { if (Date.now() - lastOpen < 30 * 60e3) return; lastOpen = Date.now(); ph("app_open", { how, standalone }); flush(); };
+  const qs = new URLSearchParams(location.search), camp = qs.get("src") === "push" ? "push:" + (qs.get("c") || "x") : null;
+  const appOpen = (how) => { if (Date.now() - lastOpen < 30 * 60e3) return; lastOpen = Date.now(); ph("app_open", { how, standalone, id: how === "load" && camp ? camp : undefined }); flush(); };
   appOpen("load");
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") appOpen("return"); });
   window.spillTrack = ph;

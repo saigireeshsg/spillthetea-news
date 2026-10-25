@@ -1,0 +1,35 @@
+{
+ "title": "Hyderabad's rent squeeze",
+ "emoji": "🏠",
+ "mins": 1,
+ "lede": "West Hyderabad's IT boom has pushed rents up fast. Here's how much, and why.",
+ "india": "Rent is the biggest monthly cost for most young professionals in the city.",
+ "players": [
+  {
+   "name": "IT & GCC employers",
+   "role": "Record office leasing drives demand."
+  },
+  {
+   "name": "Landlords",
+   "role": "Set rents and deposits; hikes often 5–10% a year."
+  },
+  {
+   "name": "Tenants",
+   "role": "Moving to Tellapur, Kokapet and beyond for value."
+  }
+ ],
+ "timeline": [
+  {
+   "when": "End-2021",
+   "what": "Gachibowli 2BHK ~₹22,000; HITEC City ~₹23,000 (Anarock)."
+  },
+  {
+   "when": "Mid-2025",
+   "what": "Gachibowli ₹36,600 (+66%), HITEC City ₹36,350 (+58%)."
+  },
+  {
+   "when": "May 2026",
+   "what": "Office rents up 11.6% YoY; Madhapur at ₹105.5 per sq ft (Cushman & Wakefield)."
+  }
+ ]
+}

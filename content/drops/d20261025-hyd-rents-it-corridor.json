@@ -1,0 +1,150 @@
+{
+ "cat": "money",
+ "city": "Hyderabad",
+ "date": "2026-10-25",
+ "sort": "2026-10-25-91",
+ "order": 3,
+ "heat": 4,
+ "readSecs": 40,
+ "topic": "Hyderabad rents",
+ "storyline": "hyd-rents",
+ "hook": "2BHK rent in Gachibowli went from *₹22,000 to ₹36,600*",
+ "tldr": "Anarock data: a standard 2BHK in Gachibowli rose 66% (₹22,000 → ₹36,600) and in HITEC City 58% (₹23,000 → ₹36,350) between end-2021 and mid-2025. Office rents rose another 11.6% in a year by May 2026, a sign IT-corridor demand is still hot.",
+ "beats": {
+  "what": "From end-2021 to Q2 2025, standard 2BHK rents (1,000 sq ft) rose 66% in Gachibowli and 58% in HITEC City.",
+  "why": "Record office leasing pulls IT workers into the western corridor; office rents there rose 11.6% year-on-year (Cushman & Wakefield, May 2026).",
+  "care": "Before you sign: compare a few km out (Tellapur, Kokapet), negotiate the deposit, and get the rent-hike clause in writing."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Buying isn't cheaper: flats in Madhapur sell for ₹11,000–16,000 per sq ft, and rental yield there is only 2–3%. That's why many choose to rent near work and invest elsewhere."
+  },
+  {
+   "k": "why",
+   "title": "how old is this data?",
+   "body": "The 2BHK figures are from Anarock's mid-2025 report, the latest public micro-market rent data we found. Office rents and prices are from May 2026."
+  },
+  {
+   "k": "poll",
+   "q": "How much of your salary goes to rent?",
+   "opts": [
+    "Under 20%",
+    "20–35%",
+    "35%+",
+    "I live with family"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "By how much did Gachibowli 2BHK rent rise (end-2021 to mid-2025)?",
+   "opts": [
+    "66%",
+    "20%",
+    "100%",
+    "35%"
+   ],
+   "ans": 0,
+   "why": "₹22,000 → ₹36,600 (Anarock)."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Gachibowli 2BHK rent / month",
+   "a": {
+    "v": 22000,
+    "d": "₹22,000",
+    "l": "End-2021"
+   },
+   "b": {
+    "v": 36600,
+    "d": "₹36,600",
+    "l": "Mid-2025"
+   },
+   "goodIfUp": false
+  },
+  {
+   "t": "compare",
+   "l": "HITEC City 2BHK rent / month",
+   "a": {
+    "v": 23000,
+    "d": "₹23,000",
+    "l": "End-2021"
+   },
+   "b": {
+    "v": 36350,
+    "d": "₹36,350",
+    "l": "Mid-2025"
+   },
+   "goodIfUp": false
+  },
+  {
+   "t": "big",
+   "v": "+66%",
+   "l": "Gachibowli 2BHK rent rise since 2021",
+   "tone": "bad"
+  },
+  {
+   "t": "big",
+   "v": "2–3%",
+   "l": "rental yield in Madhapur (renting vs buying)"
+  }
+ ],
+ "map": {
+  "causes": [
+   {
+    "icon": "🏢",
+    "label": "Record office leasing"
+   },
+   {
+    "icon": "👩‍💻",
+    "label": "IT jobs in west Hyderabad"
+   }
+  ],
+  "event": {
+   "icon": "🏠",
+   "label": "2BHK rents up 58–66%"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Bigger share of salary"
+   },
+   {
+    "icon": "📍",
+    "label": "People move further out"
+   }
+  ]
+ },
+ "cover": {
+  "bg": [
+   "#1a0f2e",
+   "#a970ff"
+  ],
+  "big": "+66%",
+  "label": "Gachibowli 2BHK rent since 2021",
+  "motion": "rise",
+  "scene": [
+   "🏠",
+   "💸",
+   "🏢"
+  ]
+ },
+ "learn": {
+  "t": "Rental yield = yearly rent ÷ property price. At 2–3%, a ₹1 crore flat earns ₹2–3 lakh a year in rent."
+ },
+ "watch": "Anarock's next rental report; whether the water crisis and new Metro lines shift demand to other areas.",
+ "sources": [
+  {
+   "name": "Sakshi Post (Anarock)",
+   "title": "Hyderabad rents soar over 50% in Gachibowli, HITEC City (Aug 2025)",
+   "url": "https://www.sakshipost.com/news/realty/hyderabad-rents-soar-over-50-gachibowli-hitech-city-anarock-report-440940"
+  },
+  {
+   "name": "PropNewz (Cushman & Wakefield)",
+   "title": "Hyderabad office Q1 2026: rents up 11.6% YoY; sale prices by area",
+   "url": "https://www.propnewz.com/blog/hyderabad-office-q1-2026-record-3-15-msf-madhapur-91-percent-residential-readthrough-2026-05-22"
+  }
+ ]
+}

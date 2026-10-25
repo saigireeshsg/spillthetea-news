@@ -15,6 +15,11 @@
   },
   {
    "k": "tea",
+   "title": "Which areas are in the red zone?",
+   "body": "Over-exploited groundwater: Amberpet, Ameerpet, Asifnagar, Charminar, Golconda, Himayatnagar, Khairatabad, Saidabad. Critical: Bahadurpura, Bandlaguda, Maredpally, Musheerabad, Nampally, Secunderabad, Shaikpet. Supply-wise, the western IT corridor (Gachibowli, HITEC City, Madhapur, Kondapur) leans on Singur, and the Old City on Osman Sagar."
+  },
+  {
+   "k": "tea",
    "body": "Deputy CM Bhatti Vikramarka (Oct 24): peak power demand is now 20,018 MW (6,648 MW in 2014). Falling reservoirs cut hydropower, which normally gives ~3,500 MW at night peak. A Cabinet sub-committee is handling the crisis. Farmers with low groundwater are asked not to run motors."
   },
   {
@@ -72,7 +77,7 @@
  },
  "date": "2026-10-25",
  "heat": 5,
- "hook": "Telangana's dams are *38% full*. Hyderabad's Singur just 11%",
+ "hook": "Hyderabad's water left: Singur *11%* full, state dams 38%, supply 20% short",
  "lead": "local",
  "learn": {
   "t": "El Niño is a warming of the Pacific Ocean that often weakens India's monsoon."
@@ -105,7 +110,7 @@
  },
  "order": 13,
  "readSecs": 55,
- "sort": "2026-10-25-92",
+ "sort": "2026-10-25-97",
  "sources": [
   {
    "name": "The Hindu",
@@ -136,56 +141,59 @@
    "name": "The Hindu",
    "title": "Cauvery panel directs Karnataka to release 3,000 cusecs to Tamil Nadu for 15 days (24 Oct)",
    "url": "https://www.thehindu.com/news/national/karnataka/cauvery-panel-directs-karnataka-to-release-water-at-the-rate-of-3000-cusecs-to-tamil-nadu-for-next-15-days/article71619307.ece"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad needs ~735 MGD, gets ~585 MGD (Oct 13)",
+   "url": "https://telanganatoday.com/"
   }
  ],
  "thread": "el-nino",
- "tldr": "Telangana's major reservoirs hold 178.6 of 470.22 TMC, about 40% of its 44,034 tanks are under a quarter full, and power use is up 37% in a year. Singur, a key Hyderabad source, is 11% full. Bengaluru's Cauvery dams are stressed too.",
+ "tldr": "Hyderabad needs ~735 MGD but gets ~585 MGD. Singur holds 3.2 of 29.9 TMC, Telangana's big dams 178.6 of 470 TMC, and 15 of 16 Hyderabad district areas over-draw groundwater. Officials warn of a drinking-water squeeze from December, possibly till July.",
  "topic": "El Niño water crisis",
  "watch": "Water board's area-wise supply plan (expected before December); Singur levels; whether Karnataka's Cauvery release to Tamil Nadu is cut further.",
  "viz": [
   {
    "t": "big",
-   "v": "38%",
-   "l": "full: Telangana's major reservoirs (178.6 of 470 TMC)",
+   "v": "11%",
+   "l": "Singur full: 3.2 of 29.9 TMC",
    "tone": "bad"
+  },
+  {
+   "t": "compare",
+   "l": "Hyderabad's daily water (MGD)",
+   "a": {
+    "v": 735,
+    "d": "735",
+    "l": "Needed"
+   },
+   "b": {
+    "v": 585,
+    "d": "585",
+    "l": "Supplied"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "icons",
+   "n": 15,
+   "of": 16,
+   "icon": "💧",
+   "d": "15 of 16",
+   "l": "Hyderabad district areas over-drawing groundwater"
   },
   {
    "t": "meter",
    "l": "Telangana's major reservoirs",
    "v": 178.6,
    "max": 470.22,
-   "d": "178.6 of 470.2 TMC (38%)",
-   "note": "Deputy CM, Oct 24"
+   "d": "178.6 of 470 TMC (38%)"
   },
   {
-   "t": "meter",
-   "l": "Singur dam, Hyderabad",
-   "v": 3.246,
-   "max": 29.91,
-   "d": "3.2 of 29.9 TMC (11%)"
-  },
-  {
-   "t": "compare",
-   "l": "Telangana's daily power use (October)",
-   "a": {
-    "v": 245.35,
-    "d": "245 MU",
-    "l": "Last year"
-   },
-   "b": {
-    "v": 335.05,
-    "d": "335 MU",
-    "l": "This year"
-   },
-   "goodIfUp": false
-  },
-  {
-   "t": "icons",
-   "n": 1,
-   "of": 2,
-   "icon": "🚜",
-   "d": "1 in 2",
-   "l": "farm pump sets facing groundwater shortage (1.5 of 3 million)"
+   "t": "big",
+   "v": "34.99 m",
+   "l": "deepest groundwater level, near Ameerpet",
+   "tone": "bad"
   },
   {
    "t": "compare",
@@ -201,11 +209,6 @@
     "l": "This year"
    },
    "goodIfUp": true
-  },
-  {
-   "t": "big",
-   "v": "49 TMC",
-   "l": "usable in Karnataka's 4 Cauvery dams that feed Bengaluru (Oct 2)"
   }
  ],
  "updated": 1792909446700,
