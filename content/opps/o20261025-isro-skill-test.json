@@ -1,0 +1,15 @@
+{
+ "type": "govt",
+ "title": "ISRO recruitment result out, skill test Nov 1",
+ "org": "ISRO",
+ "when": "Skill test: Nov 1",
+ "who": "Candidates who appeared in ISRO's 2026 recruitment exam",
+ "deadline": "2026-11-01T09:00:00+05:30",
+ "until": "2026-11-02",
+ "apply": {
+  "label": "Check result",
+  "url": "https://www.isro.gov.in"
+ },
+ "posted": "2026-10-25",
+ "source": "NDTV Education"
+}

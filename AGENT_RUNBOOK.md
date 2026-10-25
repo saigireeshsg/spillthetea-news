@@ -255,3 +255,14 @@ Join `story_id` with `content/drops/*.json` (`cat`, `topic`, `hook`) in Python t
 - **One experiment per run (at least):** give 1–2 new drops a `hook_b` (an alternative headline in a different style: question vs statement, number-first vs name-first, stake-first vs curiosity). The app shows A or B per device and logs CTR in `variant_stats`. Other experiments to rotate: viz type first (meter vs compare vs big), poll wording, card length, posting time.
 - **Log what you learn:** append one line to `EXPERIMENTS.md` (date · experiment · result or "running"). Once a variant wins with ≥30 impressions per side, write that style into the runbook's hook rules.
 - Data is small at launch (few readers): treat it as a hint, not proof.
+
+
+## 24. 💼 Spill Opportunities tab (morning + evening runs)
+A dedicated tab (second chip, plus a teaser on Live) listing **walk-in interviews, jobs, internships, govt jobs, exam/fee deadlines, scholarships, free courses, startup programmes** for Hyderabad readers. Keep **10–25 live listings**. Expired ones hide automatically via `until`.
+- **Sources:** the Indeed connector (`mcp__Indeed__search_jobs`, free): queries "walk-in interview freshers", "walk-in drive", "internship" (job_type internship), "fresher", location "Hyderabad, Telangana", country "IN". Then `get_job_details` for the 3–5 freshest. Also scout_items (job melas, TGPSC/SSC/RRB notifications, scholarships, T-Hub programmes). Don't use JobsPipe (finite free credits).
+- Only postings from the **last 21 days**. Prefer freshers/students roles, walk-ins and named companies.
+- File: `content/opps/o<YYYYMMDD>-<slug>.json`:
+```json
+{"type":"walkin|job|intern|govt|exam|scholarship|course|program","title":"…","org":"…","where":"area","when":"timing / window","who":"eligibility in short fragments","pay":"₹…/month (only if stated)","deadline":"ISO (optional)","until":"ISO when it stops being useful","apply":{"label":"Apply on Indeed|Apply now|Register|Check result","url":"<the posting's own link>"},"call":"phone (only if the posting lists it)","note":"⚠️ fine print: unpaid training, no PF, fees, vague pay","open":"<drop id if there's an explainer>","posted":"YYYY-MM-DD","source":"Indeed|…","pick":true}
+```
+- **Reader safety:** skip any listing that asks for money, has no company name, or promises unusually high pay for vague work. Always surface fine print in `note`.

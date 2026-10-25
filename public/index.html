@@ -1290,7 +1290,7 @@ function attachedLive(){const s=new Set();visible().forEach(d=>liveAllFor(d).for
 // ---------- feed ----------
 function subs(){
   const used=[...new Set(visible().map(d=>d.cat))].filter(c=>SUBS[c]);
-  $("#subs").innerHTML=[["live","🔴 Live"],["all","🏠 Home"],["moneyhub","💰 Money"],...(window.eventsAny&&window.eventsAny()?[["events","🎟️ Events"+(window.eventsSoon()?" · "+window.eventsSoon():"")]]:[]),...((window.SPILL_CONFIG||{}).speakup?[["acts","📣 Speak up"+(window.actsOpen&&window.actsOpen()?" · "+window.actsOpen():"")]]:[]),...used.filter(c=>c!=="money").map(c=>[c,c==="local"&&me.city?"r/"+me.city:SUBS[c].n])].map(([k,n])=>`<button class="sub-chip ${k==="live"?"livechip":""}" data-f="${k}" aria-pressed="${filter===k}">${esc(n)}</button>`).join("");
+  $("#subs").innerHTML=[["live","🔴 Live"],...(window.oppsAny&&window.oppsAny()?[["opps","💼 Opportunities · "+window.oppsCount()]]:[]),["all","🏠 Home"],["moneyhub","💰 Money"],...(window.eventsAny&&window.eventsAny()?[["events","🎟️ Events"+(window.eventsSoon()?" · "+window.eventsSoon():"")]]:[]),...((window.SPILL_CONFIG||{}).speakup?[["acts","📣 Speak up"+(window.actsOpen&&window.actsOpen()?" · "+window.actsOpen():"")]]:[]),...used.filter(c=>c!=="money").map(c=>[c,c==="local"&&me.city?"r/"+me.city:SUBS[c].n])].map(([k,n])=>`<button class="sub-chip ${k==="live"?"livechip":""}" data-f="${k}" aria-pressed="${filter===k}">${esc(n)}</button>`).join("");
   $("#subs").hidden=!!open;
 }
 function head(d){const s=SUBS[d.cat]||SUBS.india,f=FLAIR[d.cat]||FLAIR.india;const sr=d.cat==="local"?"r/"+(d.city||"local"):s.n;return `<div class="ph"><span class="av" style="background:${s.c}">${s.i}</span><span class="sr">${esc(sr)}</span><span>· ${dayAgo(d.date)}</span><span class="flair" style="background:${f[1]}">${f[0]}</span>${me.done[d.id]?'<span class="donechip">✓ caught up</span>':!me.seen[d.id]?'<span class="dot-unread" title="Unread"></span>':""}${(d.heat||0)>=5?'<span>🔥 trending</span>':""}${me.goal==="exam"&&GS[d.cat]?`<span class="gs">${GS[d.cat]}</span>`:""}${isHeavy(d)?'<span class="heavy">⚠️ heavy story</span>':""}${outlets(d)>=2?`<span class="ver">· ✅ ${outlets(d)} sources</span>`:""}</div>`}
@@ -1351,6 +1351,7 @@ function feed(){
   if(filter==="moneyhub"){$("#view").innerHTML=moneyView();return}
   if(filter==="acts"){$("#view").innerHTML=window.actsView?window.actsView():"";return}
   if(filter==="events"){$("#view").innerHTML=window.eventsView?window.eventsView():"";return}
+  if(filter==="opps"){$("#view").innerHTML=window.oppsView?window.oppsView():"";return}
   if(filter==="all"){
     h+=breakingHTML();
     h+=(window.cricHTML?window.cricHTML():"");
@@ -1946,6 +1947,7 @@ function liveView(){
   const nowA=arr.filter(x=>activeLive(x)&&Date.now()-Math.max(x.ts||0,x.updated||0)<12*3600e3),earlier=arr.filter(x=>!nowA.includes(x));
   let h=`<section class="livebox"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE</b><span class="upd">${(()=>{const dp=window.spillDaypart?window.spillDaypart():null;return dp?esc(dp.icon+" "+dp.title+" · "+dp.line):"updated every 10 min, round the clock"})()}</span></div><div class="ltabs"><button data-act="ltab" data-key="local" aria-pressed="${scope==="local"}">📍 ${esc(me.city||"Your city")}</button><button data-act="ltab" data-key="national" aria-pressed="${scope==="national"}">🇮🇳 India</button></div>${scope==="local"?nowHTML():""}${scope==="local"&&areasFor(me.city).length?`<button class="areabtn" data-act="area">📍 ${me.area?"Your area: "+esc(me.area)+" · change":"Set your area for \"near you\" alerts"}</button>`:""}${window.newsBellHTML?window.newsBellHTML():""}</section>`;
   h+=(window.civicHTML?window.civicHTML(scope):"");
+  if(scope==="local")h+=(window.oppsTeaser?window.oppsTeaser():"");
   // "Need to know" paused on Live (owner, 25 Oct): big items become crisp feed articles instead.
   if(scope==="local")h+=(window.eventsTeaser?window.eventsTeaser():"");
   h+=(window.wireHTML?window.wireHTML(scope,8):"");
@@ -2185,7 +2187,7 @@ document.addEventListener("click",e=>{const b=e.target.closest("[data-tq]");if(!
   const card=b.closest("article.post");const t=card&&card.querySelector(".tq");if(t)t.outerHTML=teaserHTML(d)},true);
 window.spillAct={count:id=>Object.entries(votes).filter(([u,v])=>u!==uid&&v&&v.act&&v.act[id]).length+((me.act||{})[id]?1:0),mine:id=>!!(me.act||{})[id],
   toggle:id=>{me.act=me.act||{};if(me.act[id])delete me.act[id];else me.act[id]=Date.now();pushVotes();return !!me.act[id]},open:id=>{filter="acts";feed();window.scrollTo(0,0);if(id)setTimeout(()=>{const el=document.getElementById("act-"+id);if(el)el.scrollIntoView({block:"start",behavior:"smooth"})},60)}};
-window.spillRerender=function(){if(open||document.querySelector(".sheet"))return;if(filter==="all"||filter==="live"||filter==="acts"||filter==="events"){const y=window.scrollY;feed();window.scrollTo(0,y)}else subs()};
+window.spillRerender=function(){if(open||document.querySelector(".sheet"))return;if(filter==="all"||filter==="live"||filter==="acts"||filter==="events"||filter==="opps"){const y=window.scrollY;feed();window.scrollTo(0,y)}else subs()};
 })();
 </script>
 
@@ -2196,6 +2198,7 @@ window.spillRerender=function(){if(open||document.querySelector(".sheet"))return
 <script src="/desktop.js" defer></script>
 <script src="/weather.js" defer></script>
 <script src="/civic.js" defer></script>
+<script src="/opps.js" defer></script>
 <script src="/install.js" defer></script>
 </body>
 </html>
