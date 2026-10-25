@@ -6,7 +6,8 @@ Spill publishes directly: what you push to `main` goes live on spillthetea.news 
 - Lean runs. No subagents, no screenshots, no headless browsers, no re-reading big files. Read only the 2–3 example drops you need, not the whole folder (`ls content/drops | grep <date>` for duplicates).
 - Start from the ranked shortlist (section 1). Web searches only to fill a gap or verify: max **3** per run.
 - WebFetch: **1 article per story** (2 only if facts conflict). Skip any page that fails once — don't retry.
-- Story caps: morning **10**, midday **3**, evening **7** (owner target 20/day). Keep each one crisp (tea + 1 extra + poll + quiz, 2–3 viz) so 20 a day doesn't feel heavy; flairs spread them out.
+- **Weekly limit is tight (owner, 25 Oct): these caps override any higher number in a run's prompt.** Story caps: morning **5**, midday **2**, evening **4**, hourly/half-hourly desks **0–1** (hooks-only is the default). Keep each one crisp (tea + 1 extra + poll + quiz, 2–3 viz).
+- Opportunities (§24): Indeed searches in the **morning run only** (max 2). Other runs skip the Opportunities tab.
 - Write each drop compactly: `cards` = tea + 1 extra + poll + quiz. Write all files in one script/Bash call where possible.
 - If you hit a usage or rate limit: commit and push what's verified, report, stop. Never loop or retry heavy steps.
 - Quiet day? Publish fewer. Zero is fine for midday.
