@@ -4,7 +4,7 @@
 (function () {
   "use strict";
   const STATIC = new Set(["drops", "storylines", "notifs", "live", "now", "weekly", "upsc"]);
-  const POLL_MS = 5 * 60 * 1000;
+  const POLL_MS = 2 * 60 * 1000; // auto-load: new stories appear within ~2 min, no manual refresh
   const C = window.SPILL_CONFIG || {};
   const sb = C.supabaseUrl && C.supabaseAnonKey && window.supabase
     ? window.supabase.createClient(C.supabaseUrl, C.supabaseAnonKey, { auth: { persistSession: true, autoRefreshToken: true } })
@@ -79,8 +79,10 @@
         run();
         let stop = () => {};
         if (STATIC.has(col)) {
-          const iv = setInterval(run, POLL_MS);
-          stop = () => clearInterval(iv);
+          const iv = setInterval(() => { if (!document.hidden) run(); }, POLL_MS);
+          const onVis = () => { if (!document.hidden) run(); }; // coming back to the app = instant refresh
+          document.addEventListener("visibilitychange", onVis);
+          stop = () => { clearInterval(iv); document.removeEventListener("visibilitychange", onVis); };
         } else if (sb) {
           const ch = sb
             .channel(`docs:${col}:${Math.random().toString(36).slice(2)}`)

@@ -1,0 +1,143 @@
+{
+ "cat": "local",
+ "city": "Hyderabad",
+ "areas": [
+  "Madhapur"
+ ],
+ "date": "2026-10-25",
+ "sort": "2026-10-25-96",
+ "order": 0,
+ "heat": 5,
+ "readSecs": 30,
+ "topic": "K-Harmony Festa",
+ "thread": "hyd-weekend",
+ "hook": "Free K-pop fest in Hyderabad *today*: NTX live at Shilpakala Vedika",
+ "hook_b": "The 'Tauba Tauba' K-pop band is in Hyderabad today. Entry is *free*",
+ "tldr": "K-Harmony Festa, Korea Culture Day 2026, is on today at Shilpakala Vedika, Madhapur. Gates open at 1 pm, entry is free, and K-pop group NTX headlines alongside Korean food, K-beauty and Telangana folk acts.",
+ "beats": {
+  "what": "The Korean Cultural Centre India and the Telangana government host K-Harmony Festa today, Oct 25, at Shilpakala Vedika. Open to visitors from 1 pm; the opening ceremony is at 5:30 pm.",
+  "why": "It's Korea Culture Day 2026, themed 'One Light, Two Cities' (Seoul and Hyderabad), set up through an MoU with the state government.",
+  "care": "Free entry, so go early: popular K-pop events fill up fast. Check the Korean Cultural Centre India's social pages for exact show times."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Line-up: NTX (known for their viral 'Tauba Tauba' cover), Daekyung Taekwondo, Atti Classic vocal crossover, Deeper instrumental, Ayuni classical, Eolssigu traditional performance, plus Telangana's Perini dance and Dappulu."
+  },
+  {
+   "k": "why",
+   "title": "what else is there?",
+   "body": "Korean food and coffee, K-beauty stalls, shopping, a flash mob, random dance play, Samulnori drumming, Taekwondo, and Telangana handicraft stalls."
+  },
+  {
+   "k": "poll",
+   "q": "Going to K-Harmony Festa today?",
+   "opts": [
+    "Yes, see you there",
+    "Want to, can't make it",
+    "Not my vibe"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Where is K-Harmony Festa today?",
+   "opts": [
+    "Shilpakala Vedika",
+    "Hitex",
+    "Gachibowli Stadium",
+    "Ravindra Bharathi"
+   ],
+   "ans": 0,
+   "why": "Shilpakala Vedika, Madhapur; open from 1 pm, entry free."
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Today at Shilpakala Vedika",
+   "now": 0,
+   "steps": [
+    {
+     "t": "1 pm",
+     "e": "Gates open: food, K-beauty, stalls"
+    },
+    {
+     "t": "5:30 pm",
+     "e": "Opening ceremony"
+    },
+    {
+     "t": "Evening",
+     "e": "Performances incl. NTX"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "₹0",
+   "l": "entry: free",
+   "tone": "good"
+  }
+ ],
+ "map": {
+  "causes": [
+   {
+    "icon": "🇰🇷",
+    "label": "Korea Culture Day 2026"
+   },
+   {
+    "icon": "🤝",
+    "label": "Telangana govt MoU"
+   }
+  ],
+  "event": {
+   "icon": "🎤",
+   "label": "K-Harmony Festa today"
+  },
+  "effects": [
+   {
+    "icon": "🎶",
+    "label": "NTX live, free"
+   },
+   {
+    "icon": "🍜",
+    "label": "K-food & K-beauty"
+   }
+  ]
+ },
+ "cover": {
+  "bg": [
+   "#1a0b2e",
+   "#ff4fa3"
+  ],
+  "big": "FREE",
+  "label": "K-pop fest at Shilpakala Vedika today",
+  "motion": "rise",
+  "scene": [
+   "🎤",
+   "🇰🇷",
+   "💜"
+  ]
+ },
+ "learn": {
+  "t": "Samulnori is a Korean percussion style played on four traditional instruments."
+ },
+ "watch": "Exact performance times on the Korean Cultural Centre India's social pages.",
+ "links": [
+  {
+   "label": "Korean Cultural Centre India",
+   "url": "https://india.korean-culture.org/en"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Deccan Chronicle",
+   "title": "K-Pop, Korean beauty products and Telangana folk arts to feature at Hyderabad fest (21 Oct)",
+   "url": "https://www.deccanchronicle.com/amp/southern-states/telangana/k-pop-korean-beauty-products-and-telangana-folk-arts-to-feature-at-hyderabad-fest-1997573"
+  },
+  {
+   "name": "The Siasat Daily",
+   "title": "K-pop, Korean food and more: Korea is coming to Hyderabad (10 Oct)",
+   "url": "https://www.siasat.com/k-pop-korean-food-and-more-korea-is-coming-to-hyderabad-3555094/"
+  }
+ ]
+}
