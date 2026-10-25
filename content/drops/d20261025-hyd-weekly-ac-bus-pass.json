@@ -1,0 +1,104 @@
+{
+ "cat": "local",
+ "city": "Hyderabad",
+ "areas": [
+  "Hyderabad CURE limits"
+ ],
+ "date": "2026-10-25",
+ "sort": "2026-10-25-55",
+ "order": 3,
+ "heat": 3,
+ "readSecs": 35,
+ "topic": "TGSRTC weekly AC bus pass",
+ "thread": "hyd-commute",
+ "hook": "TGSRTC's new weekly pass: unlimited AC bus rides for *₹600*",
+ "hook_b": "Ride Hyderabad's AC buses all week for *₹86 a day*?",
+ "tldr": "From today (Oct 25), TGSRTC sells a ₹600 weekly pass for all its AC buses in Hyderabad's core urban region, valid 7 days. Pushpak airport buses are not included.",
+ "beats": {
+  "what": "TGSRTC launched a weekly pass for ₹600. It works on all its AC buses within the Core Urban Region (CURE) for seven days from purchase.",
+  "why": "TGSRTC says it wants more people on public transport. Daily commuters, tourists and short business visitors no longer need a ticket for every trip.",
+  "care": "Ride AC buses most days? ₹600 works out to about ₹86 a day. Add up your normal week of tickets before you buy. Airport trips on Pushpak don't count."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "TGSRTC MD Y Nagi Reddy announced it. You buy it at any city bus pass counter. It fills the gap between the existing daily and monthly passes."
+  },
+  {
+   "k": "num",
+   "value": "7 days",
+   "caption": "validity, counted from the day you buy",
+   "body": "Not a calendar week. Buy on Wednesday, it runs to next Tuesday."
+  },
+  {
+   "k": "poll",
+   "q": "Would you buy a ₹600 weekly AC bus pass?",
+   "opts": [
+    "Yes, I ride daily",
+    "Only for a busy week",
+    "No, metro or bike for me"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which AC bus is NOT covered by the weekly pass?",
+   "opts": [
+    "Pushpak (airport)",
+    "City AC buses",
+    "All are covered",
+    "Only e-buses"
+   ],
+   "ans": 0,
+   "why": "Pushpak airport buses are excluded; other TGSRTC AC buses in CURE limits are covered."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹600",
+   "l": "weekly pass, all TGSRTC AC buses (except Pushpak)"
+  },
+  {
+   "t": "big",
+   "v": "≈₹86",
+   "l": "per day if you use it all 7 days"
+  }
+ ],
+ "map": {
+  "causes": [
+   {
+    "icon": "🎫",
+    "label": "Ticket for every trip"
+   },
+   {
+    "icon": "🚌",
+    "label": "Push for public transport"
+   }
+  ],
+  "event": {
+   "icon": "❄️",
+   "label": "₹600 weekly AC pass"
+  },
+  "effects": [
+   {
+    "icon": "🧳",
+    "label": "Easier for visitors"
+   },
+   {
+    "icon": "💸",
+    "label": "About ₹86 a day"
+   }
+  ]
+ },
+ "learn": {
+  "t": "CURE (Core Urban Region) is the inner Hyderabad zone inside the Outer Ring Road used for city planning and bus pass limits."
+ },
+ "watch": "Whether TGSRTC adds a weekly option for ordinary and Metro Express buses too, and how the Metro-bus common pass price review lands.",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "TGSRTC introduces weekly bus pass for Rs 600",
+   "url": "https://www.siasat.com/tgsrtc-introduces-weekly-bus-pass-for-rs-600-3564117/"
+  }
+ ]
+}
