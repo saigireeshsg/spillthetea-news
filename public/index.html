@@ -23,7 +23,7 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px);background:#030303}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}.ticker{display:flex;gap:8px;align-items:stretch;margin:0 0 12px}
+<style>#brain[hidden],#bell[hidden]{display:none!important}:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px);background:#030303}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}.ticker{display:flex;gap:8px;align-items:stretch;margin:0 0 12px}
 .ticker button{font:inherit;color:var(--fg);background:var(--card,#1a1a1b);border:1px solid var(--line,#343536);border-radius:14px;padding:9px 12px;cursor:pointer;display:flex;align-items:center;gap:7px;min-width:0}
 .ticker .tk-wx{flex:none;font-size:13.5px}
 .ticker .tk-lv{flex:1;font-size:13.5px;font-weight:700;text-align:left}
@@ -989,8 +989,8 @@ html{scroll-behavior:smooth}
     <div class="karma">
       <button class="pill" id="city" title="Your city">📍 City</button>
       <span class="pill" id="streak" title="Days in a row">🔥 1</span>
-      <button class="pill" id="brain" title="Your learning streak and recap">🧠 0</button>
-      <button class="bell" id="bell" aria-label="Notifications">🔔</button>
+      <button class="pill" id="brain" title="Your learning streak and recap" hidden>🧠 0</button>
+      <button class="bell" id="bell" aria-label="Notifications" hidden>🔔</button>
       <span class="pill tea" id="cups" title="Tea cups you've earned">☕ 0</span>
     </div>
   </div>
@@ -1943,11 +1943,11 @@ function liveView(){
   const nowA=arr.filter(x=>activeLive(x)&&Date.now()-Math.max(x.ts||0,x.updated||0)<12*3600e3),earlier=arr.filter(x=>!nowA.includes(x));
   let h=`<section class="livebox"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE</b><span class="upd">${(()=>{const dp=window.spillDaypart?window.spillDaypart():null;return dp?esc(dp.icon+" "+dp.title+" · "+dp.line):"updated every 10 min, round the clock"})()}</span></div><div class="ltabs"><button data-act="ltab" data-key="local" aria-pressed="${scope==="local"}">📍 ${esc(me.city||"Your city")}</button><button data-act="ltab" data-key="national" aria-pressed="${scope==="national"}">🇮🇳 India</button></div>${scope==="local"?nowHTML():""}${scope==="local"&&areasFor(me.city).length?`<button class="areabtn" data-act="area">📍 ${me.area?"Your area: "+esc(me.area)+" · change":"Set your area for \"near you\" alerts"}</button>`:""}${window.newsBellHTML?window.newsBellHTML():""}</section>`;
   h+=(window.civicHTML?window.civicHTML(scope):"");
-  if(nowA.length)h+=`<section class="livebox ntk"><span class="lgrp">🔥 Need to know</span>${nowA.map(x=>liveItemHTML(x)).join("")}</section>`;
+  // "Need to know" paused on Live (owner, 25 Oct): big items become crisp feed articles instead.
   if(scope==="local")h+=(window.eventsTeaser?window.eventsTeaser():"");
-  h+=(window.wireHTML?window.wireHTML(scope,25):"");
+  h+=(window.wireHTML?window.wireHTML(scope,8):"");
   if(!arr.length&&!(window.wireCount&&window.wireCount(scope)))h+=`<div class="end"><span class="big">📡</span><b>All quiet right now</b><span>${scope==="local"&&!me.city?"Pick your city to see local live updates.":"New updates land here as they happen."}</span></div>`;
-  if(earlier.length)h+=`<details class="livebox larch"><summary>📦 Earlier alerts · ${earlier.length}</summary>${earlier.map(x=>liveItemHTML(x,true)).join("")}</details>`;
+  if(false&&earlier.length)h+=`<details class="livebox larch"><summary>📦 Earlier alerts · ${earlier.length}</summary>${earlier.map(x=>liveItemHTML(x,true)).join("")}</details>`;
   if(scope==="local"&&areasFor(me.city).length)h+=`<button class="tipbtn" data-act="tip">📣 Seen something${me.area?" in "+esc(me.area):""}? Tell the live desk. Every tip is checked before posting.</button>`;
   h+=`<p class="note" style="text-align:center;margin:4px 0 0">Headlines come from established news outlets and link to the original report. No forwards, no rumours.</p>`;
   me.lSeen=Math.max(me.lSeen||0,latestTs(live));save();
@@ -2017,7 +2017,7 @@ let notifs=[];
 const nSeen=()=>me.nSeen||0;
 function bellDot(){const b=$("#bell");if(!b)return;b.querySelector("i")?.remove();if(notifs.some(n=>(n.ts||0)>nSeen())){const i=document.createElement("i");b.appendChild(i)}}
 function fmtT(ts){const d=new Date(ts);return d.toLocaleTimeString("en-IN",{hour:"numeric",minute:"2-digit"})}
-function pushBanner(n){
+function pushBanner(n){return; // paused: in-app notification banners off for now
   document.querySelectorAll(".push").forEach(x=>x.remove());
   const el=document.createElement("div");el.className="push";el.setAttribute("role","status");
   el.innerHTML=`<span class="pi">${n.live?"🔴":"☕"}</span><div class="pt2"><small><span>SPILL</span><span>${fmtT(n.ts)}</span></small><b>${esc(n.title)}</b><p>${esc(n.body||"")}</p></div>`;

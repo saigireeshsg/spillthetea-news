@@ -1,0 +1,118 @@
+{
+ "cat": "planet",
+ "date": "2026-10-25",
+ "sort": "2026-10-25-82",
+ "order": 6,
+ "heat": 3,
+ "readSecs": 40,
+ "topic": "Record El Niño",
+ "thread": "el-nino",
+ "hook": "The Pacific just hit *30.06°C*, a record. That's the El Niño drying up Telangana",
+ "tldr": "Sea temperatures in the Niño 3.4 zone crossed 30°C on Oct 5 for the first time on record, with the anomaly reaching 3.48°C on Oct 18. Scientists say El Niño has grown stronger over the last 40 years.",
+ "beats": {
+  "what": "On Oct 5, the Niño 3.4 region of the Pacific recorded 30.06°C, the first time on record. The temperature anomaly hit 3.48°C on Oct 18 and eased to 3.34°C this week.",
+  "why": "El Niño warms the Pacific and weakens India's monsoon. A Galápagos coral study led by Julia Cole (University of Michigan) found its strength has amplified over the last 40 years.",
+  "care": "This is why Telangana's rain is 17% short and Hyderabad's Singur dam is 11% full. Expect a tough summer for water and power."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Scientists say the link between global warming and El Niño is still being researched, but the current event is 'well outside the norm' in the instrument record."
+  },
+  {
+   "k": "poll",
+   "q": "Are you changing anything at home because of the water crisis?",
+   "opts": [
+    "Saving water already",
+    "Will start now",
+    "Not yet"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What sea temperature did the Niño 3.4 region hit on Oct 5?",
+   "opts": [
+    "30.06°C",
+    "25°C",
+    "35°C",
+    "28°C"
+   ],
+   "ans": 0,
+   "why": "The first time it crossed 30°C on record."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "30.06°C",
+   "l": "Niño 3.4 sea temperature, Oct 5: a record",
+   "tone": "bad"
+  },
+  {
+   "t": "compare",
+   "l": "Temperature anomaly",
+   "a": {
+    "v": 3.48,
+    "d": "+3.48°C",
+    "l": "Oct 18 peak"
+   },
+   "b": {
+    "v": 3.34,
+    "d": "+3.34°C",
+    "l": "This week"
+   },
+   "goodIfUp": false
+  }
+ ],
+ "map": {
+  "causes": [
+   {
+    "icon": "🌊",
+    "label": "Record-hot Pacific"
+   },
+   {
+    "icon": "🔥",
+    "label": "Stronger El Niño"
+   }
+  ],
+  "event": {
+   "icon": "🌵",
+   "label": "Weak monsoon in India"
+  },
+  "effects": [
+   {
+    "icon": "💧",
+    "label": "Telangana water crisis"
+   },
+   {
+    "icon": "⚡",
+    "label": "Power demand up"
+   }
+  ]
+ },
+ "cover": {
+  "bg": [
+   "#2b0f05",
+   "#ff5a1f"
+  ],
+  "big": "30.06°C",
+  "label": "record Pacific heat",
+  "motion": "rise",
+  "scene": [
+   "🌊",
+   "🔥",
+   "🌵"
+  ]
+ },
+ "learn": {
+  "t": "El Niño is when the central and eastern Pacific warm up. It shifts rain patterns worldwide and usually weakens India's monsoon."
+ },
+ "watch": "How long this El Niño lasts into 2027. See our Hyderabad water story for the local impact.",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Record Pacific warming sets stage for ferocious El Niño, Science (print, Hyderabad edition, 25 Oct)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ]
+}

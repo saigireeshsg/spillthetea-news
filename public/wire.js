@@ -111,9 +111,9 @@
       return `<section class="livebox wire" aria-label="Live wire"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE WIRE · HYDERABAD & INDIA</b><span class="upd">ranked ${fetchedAt ? ago(new Date(fetchedAt).toISOString()) : ""}</span></div>${list.map(item).join("")}<div class="wfoot"><span>Tap a headline to read it at the source</span><button data-act="live" data-key="local">More →</button></div></section>`;
     }
     const key = all.filter((x) => (x.tier || "key") === "key" && ageH(x) < 12);
-    const cap = more[scope] ? key.length : Math.min(n || 6, 10);
+    const cap = more[scope] ? Math.min(key.length, 15) : Math.min(n || 6, 8);
     const top = key.slice(0, cap);
-    const buzz = all.filter((x) => x.tier && x.tier !== "key" && ageH(x) < 3).slice(0, 3);
+    const buzz = all.filter((x) => x.tier && x.tier !== "key" && ageH(x) < 3).slice(0, 2);
     const arch = all.filter((x) => !top.includes(x) && !buzz.includes(x) && !(key.includes(x) && !more[scope] && key.indexOf(x) >= cap));
     if (!top.length && !buzz.length) return "";
     let h = `<section class="livebox wire" aria-label="Live wire"><span class="lgrp">Matters today · newest first</span>${top.map(item).join("")}`;

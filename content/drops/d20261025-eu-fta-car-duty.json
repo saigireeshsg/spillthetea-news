@@ -1,0 +1,135 @@
+{
+ "cat": "money",
+ "date": "2026-10-25",
+ "sort": "2026-10-25-85",
+ "order": 3,
+ "heat": 3,
+ "readSecs": 40,
+ "topic": "India–EU FTA car duty",
+ "thread": "india-eu-fta",
+ "hook": "Import duty on European cars could fall from *110% to 10%*. Ferrari's India orders have already doubled",
+ "tldr": "Under the India–EU trade deal, duty on imported European luxury cars drops from about 110% to 30–35% in year one, then to 10% in phases, with yearly quotas. Ferrari says Indian orders have more than doubled ahead of it.",
+ "beats": {
+  "what": "Ferrari told reporters that orders from India have more than doubled as buyers line up for cheaper imports once the India–EU FTA kicks in.",
+  "why": "India agreed to slash duties on fully imported European cars. PM Modi is expected in Brussels on Dec 16 to sign; it comes into force in early 2027 after the European Parliament clears it.",
+  "care": "Not buying a Ferrari? Imported European cars, and the market prices around them, could get cheaper from 2027. Quotas mean not every car gets the low rate."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Ferrari keeps an 18-month wait between order and delivery, so Indian buyers are booking now to get cars after the deal starts. Its 'Universo Ferrari' exhibition is open in New Delhi until Nov 1."
+  },
+  {
+   "k": "poll",
+   "q": "Would cheaper European cars change your next car plan?",
+   "opts": [
+    "Yes, I'd wait for 2027",
+    "No, I'll buy Indian",
+    "Not buying a car soon"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Where does import duty on European luxury cars land eventually under the deal?",
+   "opts": [
+    "10%",
+    "30%",
+    "50%",
+    "0%"
+   ],
+   "ans": 0,
+   "why": "From ~110% to 30–35% in year one, then down to 10% in phases, within annual quotas."
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the duty falls",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Now",
+     "e": "~110% duty"
+    },
+    {
+     "t": "Dec 16",
+     "e": "Deal expected to be signed in Brussels"
+    },
+    {
+     "t": "Early 2027, year 1",
+     "e": "30–35%"
+    },
+    {
+     "t": "Later, in phases",
+     "e": "10%"
+    }
+   ]
+  },
+  {
+   "t": "compare",
+   "l": "Import duty on European luxury cars",
+   "a": {
+    "v": 110,
+    "d": "~110%",
+    "l": "Now"
+   },
+   "b": {
+    "v": 10,
+    "d": "10%",
+    "l": "Final"
+   },
+   "goodIfUp": false
+  }
+ ],
+ "map": {
+  "causes": [
+   {
+    "icon": "🤝",
+    "label": "India–EU trade deal"
+   },
+   {
+    "icon": "✂️",
+    "label": "Car duty 110% → 10%"
+   }
+  ],
+  "event": {
+   "icon": "🏎️",
+   "label": "Ferrari orders double"
+  },
+  "effects": [
+   {
+    "icon": "📅",
+    "label": "In force early 2027"
+   },
+   {
+    "icon": "🎟️",
+    "label": "Annual quotas apply"
+   }
+  ]
+ },
+ "cover": {
+  "bg": [
+   "#3a0b0b",
+   "#ff2a2a"
+  ],
+  "big": "110% → 10%",
+  "label": "duty on European cars",
+  "motion": "fall",
+  "scene": [
+   "🏎️",
+   "🇪🇺",
+   "🇮🇳"
+  ]
+ },
+ "learn": {
+  "t": "A CBU (completely built unit) is a car imported fully assembled. It pays far higher duty than kits assembled in India."
+ },
+ "watch": "The Dec 16 signing in Brussels, and the size of the yearly quotas.",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Ferrari's India orders shift to overdrive on EU FTA bet, Business (print, Hyderabad edition, 25 Oct)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ]
+}

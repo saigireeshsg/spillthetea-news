@@ -1,0 +1,108 @@
+{
+ "cat": "tech",
+ "date": "2026-10-25",
+ "sort": "2026-10-25-88",
+ "order": 4,
+ "heat": 4,
+ "readSecs": 40,
+ "topic": "Vehicle data leak",
+ "thread": "data-privacy",
+ "hook": "Your vehicle number could reveal your *name, address and phone* for ₹5. Govt orders an audit",
+ "tldr": "The road transport ministry asked CERT-In to forensically audit the VAHAN, SARATHI, e-Challan and PUCC portals after reports that vehicle owners' details were being sold online, some for as little as ₹5.",
+ "beats": {
+  "what": "MoRTH ordered a CERT-In security audit of four portals that hold vehicle and licence data.",
+  "why": "Security firm Cyderes found apps and Telegram channels selling owners' personal data. Give a registration number and you get the owner's name, father's name, address, mobile number and licence details.",
+  "care": "Your RC and licence data sit on these portals. Be wary of calls or messages that quote your vehicle details, and never share OTPs."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "VAHAN holds vehicle registrations, SARATHI driving licences, e-Challan traffic fines and PUCC pollution certificates. Between them, that's most of India's drivers."
+  },
+  {
+   "k": "poll",
+   "q": "Have you got a spam or scam call that knew your vehicle details?",
+   "opts": [
+    "Yes",
+    "Not sure",
+    "No"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which portal handles driving licences?",
+   "opts": [
+    "SARATHI",
+    "VAHAN",
+    "PUCC",
+    "e-Challan"
+   ],
+   "ans": 0,
+   "why": "VAHAN is registrations, SARATHI licences, e-Challan fines, PUCC pollution certificates."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹5",
+   "l": "price some sellers charged for a vehicle owner's details",
+   "tone": "bad"
+  },
+  {
+   "t": "big",
+   "v": "4",
+   "l": "government portals ordered for a security audit"
+  }
+ ],
+ "map": {
+  "causes": [
+   {
+    "icon": "🕵️",
+    "label": "Data sold on apps, Telegram"
+   },
+   {
+    "icon": "🚗",
+    "label": "Enter a number plate"
+   }
+  ],
+  "event": {
+   "icon": "🔐",
+   "label": "CERT-In audit ordered"
+  },
+  "effects": [
+   {
+    "icon": "📞",
+    "label": "Scam-call risk"
+   },
+   {
+    "icon": "🛠️",
+    "label": "Portals under review"
+   }
+  ]
+ },
+ "cover": {
+  "bg": [
+   "#0b1a2e",
+   "#4fbcff"
+  ],
+  "big": "₹5",
+  "label": "for your vehicle's owner details",
+  "motion": "drift",
+  "scene": [
+   "🚗",
+   "🔓",
+   "📱"
+  ]
+ },
+ "learn": {
+  "t": "CERT-In (the Indian Computer Emergency Response Team) is the national agency that responds to cyber incidents and audits government systems."
+ },
+ "watch": "The audit's findings, and whether the portals limit what a number-plate search shows.",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Govt. orders security audit of key transport portals after reports of data being sold online, p.9 (print, Hyderabad edition, 25 Oct)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "cat": "world",
+ "date": "2026-10-25",
+ "sort": "2026-10-25-84",
+ "order": 5,
+ "heat": 4,
+ "readSecs": 40,
+ "topic": "Iran–US tensions",
+ "thread": "iran-us",
+ "hook": "Iran says US warships *won't enter the Persian Gulf* and threatens war if attacked again",
+ "tldr": "Iran's Revolutionary Guards warned of an 'apocalyptic war' that would 'decide the fate' of Gulf nations if the US and Israel strike again, amid reports Washington is considering new air strikes.",
+ "beats": {
+  "what": "IRGC spokesperson Brig. Gen. Hossein Mohebbi warned that any US–Israeli attack would have consequences beyond Iran. Armed forces chief Maj. Gen. Ali Abdollahi said US naval forces can no longer approach the Gulf.",
+  "why": "Reports say the US is weighing a fresh round of strikes. In earlier phases of the war, Iran hit US bases and energy facilities in Gulf kingdoms.",
+  "care": "The Gulf is where most of India's oil comes from and where lakhs of Indians work. Any escalation can push up petrol prices and worry families with someone there."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "The US aircraft carrier USS Abraham Lincoln arrived at San Diego on Oct 8. Iran's statement says the Gulf monarchies would be part of any war."
+  },
+  {
+   "k": "poll",
+   "q": "Do you have family or friends working in the Gulf?",
+   "opts": [
+    "Yes",
+    "No",
+    "Planning to move there"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What did Iran target in earlier phases of the war?",
+   "opts": [
+    "US bases and Gulf energy facilities",
+    "Indian ships",
+    "European ports",
+    "Russian bases"
+   ],
+   "ans": 0,
+   "why": "Iran retaliated by striking US bases and energy facilities in Gulf kingdoms (The Hindu)."
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How it got here",
+   "now": 2,
+   "steps": [
+    {
+     "t": "Phases 1–2",
+     "e": "Iran hits US bases, Gulf energy sites"
+    },
+    {
+     "t": "Oct 2026",
+     "e": "Reports of new US strike plans"
+    },
+    {
+     "t": "Oct 24",
+     "e": "Iran: 'apocalyptic war' warning"
+    }
+   ]
+  }
+ ],
+ "map": {
+  "causes": [
+   {
+    "icon": "✈️",
+    "label": "US weighs new strikes"
+   },
+   {
+    "icon": "⚓",
+    "label": "Gulf naval standoff"
+   }
+  ],
+  "event": {
+   "icon": "⚠️",
+   "label": "Iran threatens wider war"
+  },
+  "effects": [
+   {
+    "icon": "⛽",
+    "label": "Oil price risk"
+   },
+   {
+    "icon": "🧳",
+    "label": "Indians in the Gulf"
+   }
+  ]
+ },
+ "cover": {
+  "bg": [
+   "#2a1405",
+   "#ff8a00"
+  ],
+  "big": "Persian Gulf",
+  "label": "Iran warns US warships off",
+  "motion": "drift",
+  "scene": [
+   "⚓",
+   "🛢️",
+   "⚠️"
+  ]
+ },
+ "learn": {
+  "t": "About a fifth of the world's oil passes through the Strait of Hormuz, the narrow mouth of the Persian Gulf."
+ },
+ "watch": "Whether the US resumes strikes, and crude prices this week (link: our oil story).",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Iran vows 'apocalyptic war' if U.S. strikes again, p.1 (Stanly Johny) (print, Hyderabad edition, 25 Oct)",
+   "url": "https://www.thehindu.com/todays-paper/"
+  }
+ ]
+}
