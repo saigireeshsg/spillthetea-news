@@ -20,7 +20,23 @@
   });
   posthog.register({ app: "spill-web", installed_pwa: standalone, city: "Hyderabad" });
 
-  const ph = (ev, props) => { try { posthog.capture(ev, props || {}); } catch (_) {} };
+  // ---------- Mirror key events to Spill's own DB (agents read story_stats / variant_stats to learn what readers want) ----------
+  const SB = window.spillSB, Q = [];
+  const MIRROR = { card_impression: 1, story_open: 1, story_read: 1, wire_expand: 1, wire_cta: 1, wire_source: 1, live_vote: 1, poll_vote: 1, quiz_answer: 1, story_share: 1, tab_open: 1, alert_open: 1 };
+  let anon = ""; try { anon = localStorage.getItem("spill.anon") || ""; if (!anon) { anon = Math.random().toString(36).slice(2, 12); localStorage.setItem("spill.anon", anon); } } catch (_) {}
+  const flush = () => { if (!SB || !Q.length) return; const batch = Q.splice(0, 50); SB.rpc("track_events", { evs: batch }).then(() => {}, () => {}); };
+  setInterval(flush, 8000);
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") flush(); });
+  const mirrorEv = (ev, p) => {
+    if (!MIRROR[ev]) return;
+    p = p || {};
+    const id = p.story_id || p.id || p.key || p.tab || null;
+    let v = p.variant || null;
+    if (!v && id) { const el = document.querySelector(`[data-open="${CSS.escape(String(id))}"][data-v]`); if (el) v = el.dataset.v; }
+    Q.push({ ev, id: id ? String(id) : null, v, a: anon });
+    if (Q.length >= 20) flush();
+  };
+  const ph = (ev, props) => { try { posthog.capture(ev, props || {}); } catch (_) {} mirrorEv(ev, props); };
   window.spillTrack = ph;
 
   // Page views: initial load + story deep links (#s/<id>) + #cricket.
@@ -66,7 +82,7 @@
         if (!timers.has(id)) timers.set(id, setTimeout(() => {
           seen.add(id); timers.delete(id);
           const cards = Array.from(document.querySelectorAll("#view article.post.click[data-open]"));
-          ph("card_impression", { story_id: id, position: cards.indexOf(el) + 1, has_teaser: !!el.querySelector(".tq"), has_stat: !!el.querySelector(".statchip") });
+          ph("card_impression", { story_id: id, variant: el.dataset.v || null, position: cards.indexOf(el) + 1, has_teaser: !!el.querySelector(".tq"), has_stat: !!el.querySelector(".statchip") });
         }, 1000));
       } else if (timers.has(id)) { clearTimeout(timers.get(id)); timers.delete(id); }
     });

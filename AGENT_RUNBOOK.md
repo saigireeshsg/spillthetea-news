@@ -240,3 +240,21 @@ Every Live headline expands in place to a 2–3 line `brief`, so readers get the
 - The brief shows under the headline without a tap, so it must carry the value on its own. Tap reveals the CTA and source.
 - **Never copy the feed summary into `brief`.** Live shows a brief only if it uses " · " fragments and is ≤ 140 chars; anything else is hidden. No brief is better than a long one.
 - Suicide and self-harm stories never go on Live (filtered automatically). Don't write hooks for them.
+
+
+## 23. Learn from readers + experiments (every run reads this first)
+Reader behaviour is logged in Supabase `read_events` (impressions, opens, reads, votes, shares, Live expands and CTA taps). Before picking stories, run:
+```sql
+-- what kinds of stories readers open and finish (last 7 days)
+select d.cat, sum(s.impressions) imp, sum(s.opens) opens, sum(s.reads) reads,
+       round(100.0*sum(s.opens)/nullif(sum(s.impressions),0),1) ctr
+from story_stats s join (select id, data->>'cat' cat from jsonb_to_recordset('[]'::jsonb) as x(id text, data jsonb)) d on false group by 1;  -- (cat lives in content/drops; join in Python instead)
+select story_id, impressions, opens, reads, ctr_pct from story_stats order by opens desc limit 15;
+select * from variant_stats order by impressions desc limit 20;
+select ev, count(*) from read_events where created_at > now() - interval '24 hours' group by 1;
+```
+Join `story_id` with `content/drops/*.json` (`cat`, `topic`, `hook`) in Python to see which flairs, topics and hook styles win. Then:
+- **Lean in:** pick more of the categories and topics with the highest CTR and read-through; drop what nobody opens.
+- **One experiment per run (at least):** give 1–2 new drops a `hook_b` (an alternative headline in a different style: question vs statement, number-first vs name-first, stake-first vs curiosity). The app shows A or B per device and logs CTR in `variant_stats`. Other experiments to rotate: viz type first (meter vs compare vs big), poll wording, card length, posting time.
+- **Log what you learn:** append one line to `EXPERIMENTS.md` (date · experiment · result or "running"). Once a variant wins with ≥30 impressions per side, write that style into the runbook's hook rules.
+- Data is small at launch (few readers): treat it as a hint, not proof.
