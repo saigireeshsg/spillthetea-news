@@ -54,6 +54,40 @@
     if (P.blocked()) return `<button class="nbell" data-nbell="blocked">🔕 Alerts are blocked in your browser settings</button>`;
     return `<button class="nbell" data-nbell="on">🔔 Alert me for power cuts, water & big news <small>max 3 a day</small></button>`;
   };
+  // ---------- Contextual opt-in: after the 2nd story read, or any water/power/cyclone story ----------
+  const OPT = "spill.optin.last", READS = "spill.reads.n";
+  function canAsk() {
+    const P = window.spillPush;
+    if (!P.supported() || P.has("news") || Notification.permission !== "default") return false;
+    const last = +(lsGet(OPT) || 0); return Date.now() - last > 3 * 86400e3;
+  }
+  function optinSheet(reason) {
+    if (document.querySelector(".optin")) return;
+    lsSet(OPT, String(Date.now()));
+    const civic = /water|power|cyclone|rain|civic|flood/i.test(reason || "");
+    const el = document.createElement("div"); el.className = "optin"; el.setAttribute("role", "dialog");
+    el.innerHTML = `<div class="oi-in"><b>${civic ? "💧 Get the alert before your area's water is cut" : "🔔 Know first when Hyderabad news hits you"}</b><span>Power cuts, water cuts, rain and cyclone alerts for Hyderabad. Max 3 a day. No spam.</span><div class="oi-row"><button class="oi-yes">🔔 Yes, alert me</button><button class="oi-no">Not now</button></div></div>`;
+    document.body.appendChild(el);
+    requestAnimationFrame(() => el.classList.add("on"));
+    track("optin_shown", { reason: reason || "", variant: civic ? "civic" : "general" });
+    const close = () => { el.classList.remove("on"); setTimeout(() => el.remove(), 250); };
+    el.querySelector(".oi-no").onclick = () => { track("optin_no", {}); close(); };
+    el.querySelector(".oi-yes").onclick = async () => { track("optin_yes", {}); close(); const ok = await window.spillPush.add("news").catch(() => false); toastP(ok ? "🔔 Done. You'll hear first. Max 3 a day." : "Alerts are off in your browser settings."); window.spillRerender && window.spillRerender(); };
+  }
+  window.addEventListener("spill:read", (e) => {
+    const id = (e.detail && e.detail.id) || "";
+    const n = (+(lsGet(READS) || 0)) + 1; lsSet(READS, String(n));
+    if (!canAsk()) return;
+    if (/water|power|cyclone|rain|civic|flood/i.test(id) || n >= 2) setTimeout(() => optinSheet(id), 900);
+  });
+  const css2 = document.createElement("style");
+  css2.textContent = `.optin{position:fixed;left:0;right:0;bottom:0;z-index:90;display:flex;justify-content:center;padding:0 12px calc(12px + env(safe-area-inset-bottom,0px));transform:translateY(110%);transition:transform .25s ease}
+.optin.on{transform:none}.optin .oi-in{width:100%;max-width:520px;background:#1d1d20;border:1px solid #3a3a42;border-radius:18px;padding:14px 16px;display:grid;gap:6px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.optin b{font-size:16px;line-height:1.3}.optin span{font-size:13.5px;color:var(--muted,#a3acb0)}
+.optin .oi-row{display:flex;gap:8px;margin-top:6px}.optin button{font:inherit;font-weight:800;border:0;border-radius:999px;padding:10px 14px;cursor:pointer}
+.optin .oi-yes{background:var(--orange,#ff4500);color:#fff;flex:1}.optin .oi-no{background:#2a2a30;color:var(--fg,#eee)}`;
+  document.head.appendChild(css2);
+
   function toastP(msg) {
     if (typeof window.toast === "function") return window.toast(msg);
     const t = document.createElement("div"); t.textContent = msg;
