@@ -16,6 +16,7 @@
 .wire{margin:0 0 12px}
 .wire .wl{display:block;text-decoration:none;color:inherit;padding:10px 2px;border-top:1px solid var(--line,#343536)}
 .wire .wl:first-of-type{border-top:0}
+.wire .wl{cursor:pointer}.wire .wchev{font-style:normal;color:var(--muted,#a3acb0);margin-left:6px;font-size:12px}.wire .wx2{display:grid;gap:6px;margin-top:8px}.wire .wb{font-size:14px;line-height:1.5;color:var(--fg,#d7dadc);background:var(--card-2,#202024);border-radius:10px;padding:8px 10px}.wire .wsrc{font-size:12.5px;font-weight:800;color:#4fbcff;text-decoration:none}
 .wire .wt{display:block;font-size:14.5px;font-weight:700;line-height:1.35;color:var(--fg,#d7dadc)}
 .wire .wm{display:flex;flex-wrap:wrap;gap:4px 8px;margin-top:4px;font-size:12px;color:var(--muted,#a3acb0)}
 .wire .tg{font-weight:800;border-radius:999px;padding:1px 7px;font-size:11px}
@@ -26,6 +27,8 @@
 `;
   document.head.appendChild(css);
 
+  // Each headline expands in place: a 2–3 line brief so the skim itself gives the value; source link inside.
+  const openW = {};
   function item(x) {
     const why = x.why || [];
     const tags = [
@@ -33,8 +36,18 @@
       why.includes("alert") ? `<span class="tg al">ALERT</span>` : "",
       x.outlets >= 2 ? `<span class="tg cv">${E(x.outlets)} outlets</span>` : "",
     ].join("");
-    return `<a class="wl" href="${E(x.url)}" target="_blank" rel="noopener"><span class="wt">${E(x.hook || x.title)}</span><span class="wm">${tags}<span>${REG[x.region] || ""}</span><span>· ${E(x.publisher || "")}</span><span>· ${ago(x.published_at)}</span></span></a>`;
+    const o = !!openW[x.id];
+    const exp = o ? `<span class="wx2">${x.brief ? `<span class="wb">${E(x.brief)}</span>` : ""}<a class="wsrc" href="${E(x.url)}" target="_blank" rel="noopener">Read the full report at ${E(x.publisher || "source")} ↗</a></span>` : "";
+    return `<div class="wl ${o ? "on" : ""}" data-wid="${E(x.id)}" role="button" tabindex="0" aria-expanded="${o}"><span class="wt">${E(x.hook || x.title)}<i class="wchev">${o ? "▴" : "▾"}</i></span><span class="wm">${tags}<span>${REG[x.region] || ""}</span><span>· ${E(x.publisher || "")}</span><span>· ${ago(x.published_at)}</span></span>${exp}</div>`;
   }
+  document.addEventListener("click", (e) => {
+    if (e.target.closest(".wsrc")) { try { window.spillTrack && window.spillTrack("wire_source", {}); } catch (_) {} return; }
+    const r = e.target.closest("[data-wid]"); if (!r) return;
+    e.preventDefault(); e.stopPropagation();
+    const id = r.dataset.wid; openW[id] = !openW[id];
+    try { window.spillTrack && window.spillTrack(openW[id] ? "wire_expand" : "wire_collapse", { id }); } catch (_) {}
+    const x = W.find((w) => String(w.id) === String(id)); if (x) r.outerHTML = item(x);
+  }, true);
 
   // The wire keeps the day's most important stories (ranked server-side); the Live page shows them newest first.
   const byNew = (a, b) => Date.parse(b.published_at || 0) - Date.parse(a.published_at || 0);
@@ -119,7 +132,7 @@
     let h = `<section class="livebox wire" aria-label="Live wire"><span class="lgrp">Matters today · newest first</span>${top.map(item).join("")}`;
     if (key.length > cap) h += `<div class="wfoot"><span></span><button data-wmore="${scope}">${key.length - cap} more that matter ↓</button></div>`;
     if (buzz.length) h += `<span class="lgrp" style="margin-top:10px;display:block">👀 Also buzzing · fades in 3 h</span>${buzz.map(item).join("")}`;
-    h += `<div class="wfoot"><span>Updated every 10 min</span>${arch.length ? `<button data-warch="${scope}">📦 Archive · ${arch.length}</button>` : ""}</div>`;
+    h += `<div class="wfoot"><span>Tap a headline for the gist</span>${arch.length ? `<button data-warch="${scope}">📦 Archive · ${arch.length}</button>` : ""}</div>`;
     if (archOpen[scope] && arch.length) h += `<div class="warch">${arch.map(item).join("")}</div>`;
     h += `<button class="wdeep" data-wdeep="1">🧠 Want the why behind today's news? Read the explainers on Home →</button>`;
     return h + `</section>`;
@@ -203,7 +216,7 @@ html.desk #hotline.inflow{max-width:676px}
       const since = new Date(Date.now() - 5 * 86400e3).toISOString();
       sb.from("civic_alerts").select("id,kind,headline,publisher,url,lang,published_at,created_at,details,enriched_at,note").gte("created_at", since).order("published_at", { ascending: false }).limit(12)
         .then(({ data: ca }) => { if (ca) { ca = ca.filter((x) => caLive(x) && x.note !== "not for readers"); const changed = ca.map((x) => x.id + ":" + (x.enriched_at || "")).join() !== CA.map((x) => x.id + ":" + (x.enriched_at || "")).join(); CA = ca; if (changed) { hotline(); window.spillRerender && window.spillRerender(); } if (caDeep && caOpen(caDeep)) caDeep = null; } });
-      const { data, error } = await sb.from("live_wire").select("id,title,hook,publisher,url,region,published_at,score,outlets,why,tier").order("score", { ascending: false }).limit(60);
+      const { data, error } = await sb.from("live_wire").select("id,title,hook,brief,publisher,url,region,published_at,score,outlets,why,tier").order("score", { ascending: false }).limit(60);
       if (!error && data) {
         W = data;
         fetchedAt = Date.now();
