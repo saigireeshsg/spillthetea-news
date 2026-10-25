@@ -1,7 +1,7 @@
 {
  "beats": {
-  "what": "The crossing point has shifted south, from north Andhra–south Odisha to between Machilipatnam and Visakhapatnam, on the evening of Oct 27. Telangana feels it on Oct 28, mainly in the east and northeast.",
-  "why": "It's still developing; IMD says its track and strength will be clearer once it becomes a depression. For drought-hit Telangana, the rain is also a ray of hope.",
+  "what": "The system has become a depression and should be a severe cyclonic storm by Oct 27. Latest reports put the Andhra crossing on Oct 28. Telangana feels it on Oct 28, mainly in the east and northeast.",
+  "why": "Andhra is evacuating low-lying areas from Bapatla to Vizianagaram; Tamil Nadu and Puducherry have hoisted cyclone warning signals at 9 ports; Odisha has activated disaster teams. For drought-hit Telangana, the rain is also a ray of hope.",
   "care": "In Warangal, Hanumakonda, Khammam or Kothagudem? Plan around Oct 28. Hyderabad: carry an umbrella on Oct 28."
  },
  "cards": [
@@ -11,12 +11,12 @@
   },
   {
    "k": "why",
-   "title": "why the name 'Arnab' isn't official yet",
-   "body": "A storm gets the next name on the list (Arnab) only if it becomes a cyclonic storm. IMD is still calling this a developing system; its strength will be clearer once it becomes a depression."
+   "title": "what changed today (Oct 25)",
+   "body": "1) The low became a depression. 2) It's expected to become a severe cyclonic storm by Oct 27, which is when the name Arnab becomes official. 3) Andhra crossing now reported for Oct 28, with evacuations from Bapatla to Vizianagaram. 4) Cyclone signals hoisted at 9 Tamil Nadu and Puducherry ports, including Chennai."
   },
   {
    "k": "twist",
-   "body": "The landfall forecast moved south since Friday. That's why east Telangana, not Odisha, now gets the heaviest rain."
+   "body": "The crossing date has moved from Oct 27 evening to Oct 28 in the latest reports. Telangana's red-alert day (Oct 28) stays the same."
   },
   {
    "k": "poll",
@@ -57,7 +57,7 @@
  },
  "date": "2026-10-25",
  "heat": 5,
- "hook": "Heavy rain for *16 Telangana districts* on Oct 28. Hyderabad gets moderate rain",
+ "hook": "Depression formed. Cyclone by Oct 27, *16 Telangana districts* on alert Oct 28",
  "learn": {
   "t": "Cyclone names come from a list made by 13 countries around the Indian Ocean and are used in order. A storm is named only when its winds reach cyclonic strength (63 km/h or more)."
  },
@@ -74,7 +74,7 @@
   ],
   "event": {
    "icon": "🌀",
-   "label": "Cyclone to cross Andhra coast Oct 28"
+   "label": "Severe cyclone, Andhra crossing Oct 28"
   },
   "effects": [
    {
@@ -91,6 +91,21 @@
  "readSecs": 55,
  "sort": "2026-10-25-95",
  "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Cyclone to cross Andhra coast on October 28; people in low-lying areas from Bapatla to Vizianagaram to be evacuated (25 Oct)",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-to-cross-andhra-coast-on-october-28-people-in-low-lying-areas-from-bapatla-to-vizianagaram-to-be-evacuated/article71620236.ece"
+  },
+  {
+   "name": "Siasat",
+   "title": "Cyclone Arnab: IMD Hyderabad forecasts 'extremely heavy rain' (25 Oct)",
+   "url": "https://www.siasat.com/cyclone-arnab-imd-hyderabad-forecasts-extremely-heavy-rain-3564028/"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Depression over Bay of Bengal intensifies, cyclone warning issued at 9 Tamil Nadu, Puducherry ports (25 Oct)",
+   "url": "https://www.thehindu.com/news/national/"
+  },
   {
    "name": "The Hindu",
    "title": "Low pressure over Bay of Bengal likely to bring heavy rain to Telangana (print, Hyderabad edition, 25 Oct, p.1)",
@@ -123,7 +138,7 @@
   }
  ],
  "thread": "bay-cyclone",
- "tldr": "IMD says the Bay of Bengal system will cross the Andhra coast between Machilipatnam and Visakhapatnam on the evening of Oct 27. Red alert on Oct 28 for Mulugu, Bhadradri Kothagudem and Khammam; orange for 5 districts; yellow for 8. Hyderabad: moderate rain. Rain may continue into Oct 29.",
+ "tldr": "The Bay of Bengal low is now a depression and is expected to become a severe cyclonic storm by Oct 27. The Hindu now reports it will cross the Andhra coast on Oct 28 (earlier forecast: Oct 27 evening); Andhra will evacuate low-lying areas from Bapatla to Vizianagaram. Telangana on Oct 28: red alert for Mulugu, Bhadradri Kothagudem and Khammam; orange for 5 districts; yellow for 8. Hyderabad: moderate rain.",
  "topic": "Bay of Bengal cyclone",
  "viz": [
   {
@@ -152,15 +167,15 @@
    "steps": [
     {
      "t": "Sun 25",
-     "e": "System building over the Bay"
+     "e": "Depression over the Bay; Andhra light showers"
     },
     {
-     "t": "Oct 27 evening",
-     "e": "Crosses Andhra coast, Machilipatnam–Visakhapatnam"
+     "t": "Oct 27",
+     "e": "Severe cyclonic storm; heavy rain starts in Andhra"
     },
     {
      "t": "Oct 28",
-     "e": "Heavy rain in east Telangana; moderate in Hyderabad"
+     "e": "Crosses Andhra coast; heavy rain in east Telangana"
     },
     {
      "t": "Oct 29",
@@ -175,6 +190,7 @@
    "tone": "bad"
   }
  ],
- "watch": "IMD's next update once it becomes a depression. Watch for school holidays in east Telangana on Oct 28, and Hyderabad traffic advisories.",
- "updated": 1792909446700
+ "watch": "IMD's exact crossing point and time. Watch for school holidays in east Telangana on Oct 28, and Hyderabad traffic advisories.",
+ "updated": 1792914649509,
+ "hook_b": "In Khammam, Mulugu or Kothagudem? *Red alert* for Oct 28 as the cyclone nears"
 }
