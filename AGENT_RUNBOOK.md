@@ -245,10 +245,7 @@ Every Live headline expands in place to a 2–3 line `brief`, so readers get the
 ## 23. Learn from readers + experiments (every run reads this first)
 Reader behaviour is logged in Supabase `read_events` (impressions, opens, reads, votes, shares, Live expands and CTA taps). Before picking stories, run:
 ```sql
--- what kinds of stories readers open and finish (last 7 days)
-select d.cat, sum(s.impressions) imp, sum(s.opens) opens, sum(s.reads) reads,
-       round(100.0*sum(s.opens)/nullif(sum(s.impressions),0),1) ctr
-from story_stats s join (select id, data->>'cat' cat from jsonb_to_recordset('[]'::jsonb) as x(id text, data jsonb)) d on false group by 1;  -- (cat lives in content/drops; join in Python instead)
+-- top stories by opens (last 7 days)
 select story_id, impressions, opens, reads, ctr_pct from story_stats order by opens desc limit 15;
 select * from variant_stats order by impressions desc limit 20;
 select ev, count(*) from read_events where created_at > now() - interval '24 hours' group by 1;
