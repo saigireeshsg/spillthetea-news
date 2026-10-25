@@ -274,8 +274,8 @@ A dedicated tab (second chip, plus a teaser on Live) listing **walk-in interview
 - Prefer 0–4 years, internships at strong companies, and roles that build skills. Add `about` (what the company does, ≤12 words).
 - **Sources:** JobsPipe `search_jobs` **once per day max** (finite free credits: ~25 credits per search): `city_or:["Hyderabad"]`, `job_country_code_or:["IN"]`, `source_or:["lever","ashby","greenhouse","ycombinator","workable","smartrecruiters"]`, `posted_at_max_age_days:14`, skilled `job_title_or`, and `job_title_not` senior/lead/manager/telecaller. Plus the Indeed connector (free) for internships, and scout_items for Telangana startup and T-Hub hiring news.
 
-## 25. Calm UI: what the feed card shows (25 Oct)
-Readers said Spill felt heavy. Feed cards now show only: flair/meta, the **hook**, the **first `big` viz** (as a stat chip) and Read. Maps, polls and other viz appear inside the story.
-- So the **first `big` item in `viz` must be the most relatable, local number** (e.g. "38%" full for Telangana dams, not a Karnataka figure).
-- Hooks carry the whole card. Keep them ≤ 70 chars, concrete, named.
-- Live shows 5 headlines by default; spicy/buzz items live only in the archive.
+## 25. Card structure (owner, 25 Oct): keep the full explainer cards
+Feed cards keep the explainer map (why it's in the news → what happened → consequences), stat chip and one hook visual. Don't slim them without the owner's OK.
+
+## 26. Retention check (every night run reports it)
+`select * from retention_daily limit 7;` (active, new, returning devices, app opens per device, IST days) and `select * from retention_cohorts limit 7;` (D1 and D7 return %). Tracking started 25 Oct, so earlier visitors count as "new" on their first tracked visit.

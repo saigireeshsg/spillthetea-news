@@ -22,7 +22,7 @@
 
   // ---------- Mirror key events to Spill's own DB (agents read story_stats / variant_stats to learn what readers want) ----------
   const SB = window.spillSB, Q = [];
-  const MIRROR = { card_impression: 1, story_open: 1, story_read: 1, wire_expand: 1, wire_cta: 1, wire_source: 1, live_vote: 1, poll_vote: 1, quiz_answer: 1, story_share: 1, tab_open: 1, alert_open: 1 };
+  const MIRROR = { app_open: 1, opp_apply_click: 1, opp_call_click: 1, card_impression: 1, story_open: 1, story_read: 1, wire_expand: 1, wire_cta: 1, wire_source: 1, live_vote: 1, poll_vote: 1, quiz_answer: 1, story_share: 1, tab_open: 1, alert_open: 1 };
   let anon = ""; try { anon = localStorage.getItem("spill.anon") || ""; if (!anon) { anon = Math.random().toString(36).slice(2, 12); localStorage.setItem("spill.anon", anon); } } catch (_) {}
   const flush = () => { if (!SB || !Q.length) return; const batch = Q.splice(0, 50); SB.rpc("track_events", { evs: batch }).then(() => {}, () => {}); };
   setInterval(flush, 8000);
@@ -37,6 +37,11 @@
     if (Q.length >= 20) flush();
   };
   const ph = (ev, props) => { try { posthog.capture(ev, props || {}); } catch (_) {} mirrorEv(ev, props); };
+  // Visits: one app_open per session (load, or coming back after 30 min away) → retention_daily / retention_cohorts
+  let lastOpen = 0;
+  const appOpen = (how) => { if (Date.now() - lastOpen < 30 * 60e3) return; lastOpen = Date.now(); ph("app_open", { how, standalone }); flush(); };
+  appOpen("load");
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") appOpen("return"); });
   window.spillTrack = ph;
 
   // Page views: initial load + story deep links (#s/<id>) + #cricket.
