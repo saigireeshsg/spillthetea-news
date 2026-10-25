@@ -4,9 +4,9 @@ Spill publishes directly: what you push to `main` goes live on spillthetea.news 
 
 ## Budget (read first — stay inside the owner's daily/weekly usage limits)
 - Lean runs. No subagents, no screenshots, no headless browsers, no re-reading big files. Read only the 2–3 example drops you need, not the whole folder (`ls content/drops | grep <date>` for duplicates).
-- Start from the ranked shortlist (section 1). Web searches only to fill a gap or verify: max **2** per run.
+- Start from the ranked shortlist (section 1). Web searches only to fill a gap or verify: max **3** per run.
 - WebFetch: **1 article per story** (2 only if facts conflict). Skip any page that fails once — don't retry.
-- Story caps: morning **6–7**, midday **0–2 live alerts + weather** (no stories unless major breaking), evening **2**. Readers said the app felt text-heavy and overwhelming: fewer, sharper stories beat more.
+- Story caps: morning **10**, midday **3**, evening **7** (owner target 20/day). Keep each one crisp (tea + 1 extra + poll + quiz, 2–3 viz) so 20 a day doesn't feel heavy; flairs spread them out.
 - Write each drop compactly: `cards` = tea + 1 extra + poll + quiz. Write all files in one script/Bash call where possible.
 - If you hit a usage or rate limit: commit and push what's verified, report, stop. Never loop or retry heavy steps.
 - Quiet day? Publish fewer. Zero is fine for midday.
@@ -47,11 +47,13 @@ Work down list A from the top. A story earns its place if it is **new** (not alr
 
 **Value test (every story must pass at least one):** a reader aged 15–30 in that city or in India can (a) *act* on it (deadline, exam, job, fee, scheme, traffic, water/power, safety, money), (b) *talk* about it (big national/world moment their friends will discuss), or (c) *understand* something that shapes their future (policy, economy, climate, tech, rights). If you can't write a concrete `beats.care` line, drop the story. Regional first: Hyderabad/Telangana, then national, then world. (Other cities paused until the owner expands beyond Hyderabad.)
 
-| Run | What to publish |
+| Run | What to publish (owner target: **at least 20 important stories a day**, spread across flairs) |
 | --- | --- |
-| Morning (by 7 am IST) | 6–7 stories dated today. **Hyderabad-only launch:** 1 featured editorial (from The Hindu editorial feed), 3 Hyderabad/Telangana (`cat: "local"`, `city: "Hyderabad"`), 2 India, 1 money or world. No other-city locals for now. Plus a morning notification and fresh Hyderabad weather (`content/now/hyderabad.json` only). |
-| Midday (around 12:30 pm) | Live alerts only: traffic, rain, power or water cuts, civic alerts, big breaking news, as `content/live/*.json`. Refresh `content/now/hyderabad.json` weather (Hyderabad only for now). Add a story only for real breaking news. |
-| Evening (by 6 pm) | 2 new stories that broke during the day, updates to ongoing threads (reuse the same `thread`), an evening notification (`slot: "evening"`), and expire stale live alerts by setting `until`. |
+| Morning (by 7 am IST) | **10 stories**: 1 featured editorial (The Hindu editorial), 5 Hyderabad/Telangana (`cat: "local"`, incl. 1–2 opportunities per §21), 2 India, 1 money, 1 world/tech/sport/planet. Morning notif + weather advisory only (§18). |
+| Midday (around 12:30 pm) | **3 stories**: what developed since morning (local first), plus updates to ongoing cards in place (§20). Civic alert details (§14). |
+| Evening (by 6 pm) | **7 stories**: 3 Hyderabad/Telangana, 2 India, 2 from money/world/tech/sport/campus/planet. Update ongoing cards, evening notif if a slot is left, expire stale live items. |
+
+**Papers to mine (in this order), via scout_items (`source` names):** The Hindu (Hyderabad, Telangana, editorial, business), Telangana Today, Deccan Chronicle, The Hans India, Times of India Hyderabad, The New Indian Express, Siasat; Telugu: Eenadu, Sakshi, Namasthe Telangana, V6 (list B). Prefer the original paper's URL over Google News. **Depth = each story answers what happened, why, what changes for a 15–30 reader, and what's next,** with 1+ real-number `viz`. Don't pad: if fewer than 20 pass the value test, publish fewer.
 
 
 ## 3. Verify (never skip)
@@ -220,3 +222,8 @@ The most valuable news for Spill readers changes their next move: **jobs and hir
 - An opportunity story must be **actionable**: who can apply (eligibility), the deadline, the cost (free or ₹), how many seats or posts, and the **official apply link** in `links`/`sources`. If you can't find how to apply, it's not ready. Skip it or write it as "coming soon" with what to watch.
 - Never present an old programme as new: check the date. Recycled PR (for example, old "free access" offers) needs a current official page.
 - Startup events: name the venue, date, time and price, plus the registration link. T-Hub, TiE and ISB come first.
+
+
+## 22. Live briefs (tap to expand)
+Every Live headline expands in place to a 2–3 line `brief`, so readers get the gist without leaving. Briefs come from the feed summary automatically; when a key wire story has none, write one in the same SQL step as the hooks:
+`select w.id, w.title, left(s.summary,400) from live_wire w join scout_items s on s.id = w.id where w.tier = 'key' and w.brief is null order by w.published_at desc limit 10;` → `update scout_items set brief = '<2–3 lines: what happened, who, where, the key number, what it means; facts only from title/summary>' where id = <id>;` then `select refresh_live_wire();`. If the summary has nothing beyond the title, leave it null.
