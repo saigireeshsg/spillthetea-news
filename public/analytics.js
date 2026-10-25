@@ -39,7 +39,7 @@
   const ph = (ev, props) => { try { posthog.capture(ev, props || {}); } catch (_) {} mirrorEv(ev, props); if (ev === "story_read") { try { window.dispatchEvent(new CustomEvent("spill:read", { detail: { id: (props || {}).story_id } })); } catch (_) {} } };
   // Visits: one app_open per session (load, or coming back after 30 min away) → retention_daily / retention_cohorts
   let lastOpen = 0;
-  const qs = new URLSearchParams(location.search), camp = qs.get("src") === "push" ? "push:" + (qs.get("c") || "x") : null;
+  const qs = new URLSearchParams(location.search), camp = qs.get("src") ? qs.get("src").slice(0, 12) + ":" + (qs.get("c") || "x").slice(0, 24) : null;
   const appOpen = (how) => { if (Date.now() - lastOpen < 30 * 60e3) return; lastOpen = Date.now(); ph("app_open", { how, standalone, id: how === "load" && camp ? camp : undefined }); flush(); };
   appOpen("load");
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") appOpen("return"); });
