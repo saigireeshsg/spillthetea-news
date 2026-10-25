@@ -144,6 +144,12 @@
  "watch": "Water board's area-wise supply plan (expected before December); Singur levels; whether Karnataka's Cauvery release to Tamil Nadu is cut further.",
  "viz": [
   {
+   "t": "big",
+   "v": "38%",
+   "l": "full: Telangana's major reservoirs (178.6 of 470 TMC)",
+   "tone": "bad"
+  },
+  {
    "t": "meter",
    "l": "Telangana's major reservoirs",
    "v": 178.6,

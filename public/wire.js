@@ -36,11 +36,11 @@
     const tags = [
       why.includes("new") ? `<span class="tg new">NEW</span>` : "",
       why.includes("alert") ? `<span class="tg al">ALERT</span>` : "",
-      x.outlets >= 2 ? `<span class="tg cv">${E(x.outlets)} outlets</span>` : "",
+      
     ].join("");
     const o = !!openW[x.id];
     const exp = o ? `<span class="wx2">${x.cta && x.cta.url ? `<a class="wcta" href="${E(x.cta.url)}" target="_blank" rel="noopener">${E(x.cta.label || "Open")} ↗</a>` : ""}<a class="wsrc" href="${E(x.url)}" target="_blank" rel="noopener">Full report: ${E(x.publisher || "source")} ↗</a></span>` : "";
-    return `<div class="wl ${o ? "on" : ""}" data-wid="${E(x.id)}" role="button" tabindex="0" aria-expanded="${o}"><span class="wt">${E(x.hook || x.title)}<i class="wchev">${o ? "▴" : "▾"}</i></span>${x.brief && x.brief.indexOf("·") > -1 && x.brief.length <= 140 ? `<span class="wg">${E(x.brief)}</span>` : ""}<span class="wm">${tags}${x.cta && x.cta.url && !o ? `<span class="tg ctag">🔗 ${E(x.cta.label || "Link")}</span>` : ""}<span>${REG[x.region] || ""}</span><span>· ${E(x.publisher || "")}</span><span>· ${ago(x.published_at)}</span></span>${exp}</div>`;
+    return `<div class="wl ${o ? "on" : ""}" data-wid="${E(x.id)}" role="button" tabindex="0" aria-expanded="${o}"><span class="wt">${E(x.hook || x.title)}<i class="wchev">${o ? "▴" : "▾"}</i></span>${x.brief && x.brief.indexOf("·") > -1 && x.brief.length <= 140 ? `<span class="wg">${E(x.brief)}</span>` : ""}<span class="wm">${tags}${x.cta && x.cta.url && !o ? `<span class="tg ctag">🔗 ${E(x.cta.label || "Link")}</span>` : ""}<span>${ago(x.published_at)}</span></span>${exp}</div>`;
   }
   document.addEventListener("click", (e) => {
     if (e.target.closest(".wcta")) { try { window.spillTrack && window.spillTrack("wire_cta", {}); } catch (_) {} return; }
@@ -127,12 +127,12 @@
       return `<section class="livebox wire" aria-label="Live wire"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE WIRE · HYDERABAD & INDIA</b><span class="upd">ranked ${fetchedAt ? ago(new Date(fetchedAt).toISOString()) : ""}</span></div>${list.map(item).join("")}<div class="wfoot"><span>Tap a headline to read it at the source</span><button data-act="live" data-key="local">More →</button></div></section>`;
     }
     const key = all.filter((x) => (x.tier || "key") === "key" && ageH(x) < 12);
-    const cap = more[scope] ? Math.min(key.length, 15) : Math.min(n || 6, 8);
+    const cap = more[scope] ? Math.min(key.length, 12) : Math.min(n || 5, 5);
     const top = key.slice(0, cap);
-    const buzz = all.filter((x) => x.tier && x.tier !== "key" && ageH(x) < 3).slice(0, 2);
+    const buzz = []; // calmer Live: buzz/spicy items live only in the archive
     const arch = all.filter((x) => !top.includes(x) && !buzz.includes(x) && !(key.includes(x) && !more[scope] && key.indexOf(x) >= cap));
     if (!top.length && !buzz.length) return "";
-    let h = `<section class="livebox wire" aria-label="Live wire"><span class="lgrp">Matters today · newest first</span>${top.map(item).join("")}`;
+    let h = `<section class="livebox wire" aria-label="Live wire"><span class="lgrp">Matters today</span>${top.map(item).join("")}`;
     if (key.length > cap) h += `<div class="wfoot"><span></span><button data-wmore="${scope}">${key.length - cap} more that matter ↓</button></div>`;
     if (buzz.length) h += `<span class="lgrp" style="margin-top:10px;display:block">👀 Also buzzing · fades in 3 h</span>${buzz.map(item).join("")}`;
     h += `<div class="wfoot"><span>Tap for links</span>${arch.length ? `<button data-warch="${scope}">📦 Archive · ${arch.length}</button>` : ""}</div>`;
