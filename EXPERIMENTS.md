@@ -10,3 +10,4 @@ One line per experiment: date · what · result.
 - 2026-10-25 · Contextual push opt-in sheet (after 2nd story read or any water/power/cyclone story; civic vs general copy) vs Live bell only · running; see optin_funnel
 - 2026-10-25 · A/B on weekly AC bus pass: A = price-first ('…unlimited AC bus rides for ₹600') vs B = per-day question ('…all week for ₹86 a day?') · running
 - 2026-10-25 · A/B on water emergency update: A = alert-first ('🚨 Water board declares emergency: Singur… ~50 days') vs B = area question ('Is your Hyderabad area on the Singur line?') · running
+- 2026-10-25 · A/B on Miyapur parks: A = number-first ('HYDRAA wins back 2.64 acres…') vs B = reader question ('Is your colony park still a park?') · running

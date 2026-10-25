@@ -1,0 +1,122 @@
+{
+ "cat": "local",
+ "city": "Hyderabad",
+ "areas": [
+  "Sunnam Cheruvu",
+  "Guttala Begumpet",
+  "Serilingampally"
+ ],
+ "date": "2026-10-25",
+ "sort": "2026-10-25-60",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 40,
+ "topic": "HYDRAA illegal borewells",
+ "thread": "hyd-water",
+ "storyline": "hyd-water-crisis",
+ "hook": "HYDRAA razes *11* illegal borewells near Sunnam Cheruvu",
+ "tldr": "HYDRAA found 30+ illegal borewells selling groundwater near Sunnam Cheruvu and demolished 11 in phase one.",
+ "beats": {
+  "what": "HYDRAA teams demolished 11 of 30+ illegal water extraction points at Sunnam Cheruvu and Guttala Begumpet.",
+  "why": "Tanker operators allegedly pumped groundwater nonstop for sale, breaking WALTA rules, as water levels fell.",
+  "care": "Live near Madhapur or Serilingampally? Less illegal pumping can help your borewell recover."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚰",
+    "label": "Tanker water business"
+   },
+   {
+    "icon": "📉",
+    "label": "Falling groundwater"
+   }
+  ],
+  "event": {
+   "icon": "🚜",
+   "label": "11 borewells demolished"
+  },
+  "effects": [
+   {
+    "icon": "😮‍💨",
+    "label": "Residents relieved"
+   },
+   {
+    "icon": "👀",
+    "label": "Area under watch"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "WALTA is Telangana's water, land and trees law. It controls who can drill and pump groundwater. Residents said they faced intimidation when they complained. HYDRAA says the rest of the 30+ points will be demolished in phases over the coming days."
+  },
+  {
+   "k": "poll",
+   "q": "Is your area's borewell running dry this year?",
+   "opts": [
+    "Yes, already",
+    "Getting weaker",
+    "No issues",
+    "No borewell"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which law do the illegal borewells allegedly break?",
+   "opts": [
+    "WALTA",
+    "RERA",
+    "Motor Vehicles Act",
+    "GST Act"
+   ],
+   "ans": 0,
+   "why": "WALTA governs groundwater use in Telangana (The Hans India, Oct 25)."
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Illegal borewells demolished",
+   "v": 11,
+   "max": 30,
+   "d": "11 of 30+",
+   "note": "phase one; more in coming days"
+  },
+  {
+   "t": "timeline",
+   "l": "What happens when",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Before",
+     "e": "Hans India reports tanker racket"
+    },
+    {
+     "t": "Oct 25",
+     "e": "11 points demolished"
+    },
+    {
+     "t": "Next days",
+     "e": "Rest sealed in phases"
+    },
+    {
+     "t": "After",
+     "e": "Area kept under watch"
+    }
+   ]
+  }
+ ],
+ "learn": {
+  "t": "HYDRAA is Hyderabad's disaster response and asset protection agency. It guards lakes, parks and public land."
+ },
+ "watch": "Whether all 30+ points get sealed, and if tanker prices nearby change.",
+ "sources": [
+  {
+   "name": "The Hans India",
+   "title": "Crackdown on water mafia brings relief to residents (25 Oct)",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/crackdown-on-water-mafia-brings-relief-to-residents-1135532"
+  }
+ ]
+}

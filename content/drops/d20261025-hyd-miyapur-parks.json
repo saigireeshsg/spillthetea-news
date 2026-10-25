@@ -1,0 +1,106 @@
+{
+ "cat": "local",
+ "city": "Hyderabad",
+ "areas": [
+  "Miyapur",
+  "Prashanth Nagar",
+  "Alwal",
+  "Machha Bollaram"
+ ],
+ "date": "2026-10-25",
+ "sort": "2026-10-25-58",
+ "order": 2,
+ "heat": 3,
+ "readSecs": 40,
+ "topic": "HYDRAA saves colony parks",
+ "thread": "hydraa-parks",
+ "hook": "HYDRAA wins back *2.64 acres* of parks in Miyapur, Alwal",
+ "hook_b": "Is your colony park still a park? Miyapur's 4 weren't",
+ "tldr": "After residents complained, HYDRAA fenced 2.64 acres of colony parks in Miyapur and Alwal back from encroachers.",
+ "beats": {
+  "what": "HYDRAA removed sheds and fenced 2.20 acres in Miyapur and a 1,800 sq yd park site in Alwal.",
+  "why": "4 of 10 parks in two HMDA layouts were encroached with sheds, rooms and parking.",
+  "care": "Your colony's layout park is public land. Prajavani complaints with documents can get it back."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Rooms built on parks"
+   },
+   {
+    "icon": "📝",
+    "label": "Residents complain"
+   }
+  ],
+  "event": {
+   "icon": "🌳",
+   "label": "2.64 acres fenced"
+  },
+  "effects": [
+   {
+    "icon": "🪧",
+    "label": "Park signboards up"
+   },
+   {
+    "icon": "🛝",
+    "label": "Open space returns"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Miyapur: two HMDA-approved layouts (45 and 30 acres) in Prashanth Nagar had 10 parks. Four were taken over. Alwal: Sri Ganesh Enclave residents showed papers from 1969 and 1981 plus Bhuvan satellite images. Some people had allegedly registered the park site in their names."
+  },
+  {
+   "k": "poll",
+   "q": "Does your colony have a usable park?",
+   "opts": [
+    "Yes, and we use it",
+    "Exists but neglected",
+    "Encroached",
+    "No park at all"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Through which programme did Miyapur residents complain?",
+   "opts": [
+    "Prajavani",
+    "Mee Seva",
+    "Dial 100",
+    "T-Hub"
+   ],
+   "ans": 0,
+   "why": "HYDRAA's Prajavani grievance programme (NewsMeter, Oct 25)."
+  }
+ ],
+ "viz": [
+  {
+   "t": "icons",
+   "n": 4,
+   "of": 10,
+   "icon": "🌳",
+   "d": "4 in 10",
+   "l": "layout parks in Miyapur were encroached"
+  },
+  {
+   "t": "big",
+   "v": "2.64 acres",
+   "l": "of parkland protected",
+   "tone": "good"
+  }
+ ],
+ "learn": {
+  "t": "HMDA approves layouts only if they leave land for parks and roads. That land can't legally be sold or built on."
+ },
+ "watch": "Whether HYDRAA acts on the people who registered park land in their names.",
+ "sources": [
+  {
+   "name": "NewsMeter",
+   "title": "Four parks in HMDA-approved Miyapur layouts found encroached, HYDRAA steps in (25 Oct)",
+   "url": "https://newsmeter.in/hydraa/four-parks-in-hmda-approved-miyapur-layouts-found-encroached-hydraa-steps-in-778048"
+  }
+ ]
+}

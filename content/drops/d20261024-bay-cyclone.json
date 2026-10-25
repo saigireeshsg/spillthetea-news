@@ -16,7 +16,7 @@
   },
   {
    "k": "twist",
-   "body": "The crossing date has moved from Oct 27 evening to Oct 28 in the latest reports. Telangana's red-alert day (Oct 28) stays the same."
+   "body": "Hyderabad city has no IMD alert: light rain or thundershowers on Wed, Oct 28 (Siasat, Oct 25 evening). Private forecaster T Balaji expects light to moderate rain in Hyderabad from Oct 29 to Nov 4, and a crossing between Perupalem and Konaseema. That's his forecast, not IMD's."
   },
   {
    "k": "poll",
@@ -83,7 +83,7 @@
    },
    {
     "icon": "🌧️",
-    "label": "Hyderabad: moderate rain Oct 28"
+    "label": "Hyderabad: no alert, light rain"
    }
   ]
  },
@@ -200,8 +200,8 @@
    "tone": "bad"
   }
  ],
- "watch": "Deccan Chronicle now reports widespread rain in Telangana could continue into early November. Also watch IMD's exact crossing point and time, school holidays in east Telangana on Oct 28, and Hyderabad traffic advisories.",
- "updated": 1792917902602,
+ "watch": "IMD's exact crossing point and time; school holidays in east Telangana on Oct 28; whether rain lingers in Hyderabad into early November.",
+ "updated": 1792929688243,
  "hook_b": "In Khammam, Mulugu or Kothagudem? *Red alert* for Oct 28 as the cyclone nears",
  "storyline": "bay-cyclone-2026"
 }

@@ -1,0 +1,116 @@
+{
+ "cat": "india",
+ "date": "2026-10-25",
+ "sort": "2026-10-25-56",
+ "order": 3,
+ "heat": 3,
+ "readSecs": 40,
+ "topic": "Flights move to Navi Mumbai airport",
+ "thread": "navi-mumbai-airport",
+ "hook": "IndiGo moves *12* daily Gulf flights to Navi Mumbai",
+ "tldr": "IndiGo and Air India Group will shift many Mumbai flights, mostly West Asia, to Navi Mumbai from December.",
+ "beats": {
+  "what": "IndiGo shifts 12 daily international departures to NMIA; Air India Express starts 4 domestic flights there in December.",
+  "why": "Mumbai's main airport is rebuilding Terminal 1 by 2030 and needs space for new routes.",
+  "care": "Flying to the Gulf via Mumbai in 2027? Check whether your ticket says Navi Mumbai."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Mumbai T1 rebuild"
+   },
+   {
+    "icon": "🛫",
+    "label": "No spare capacity"
+   }
+  ],
+  "event": {
+   "icon": "✈️",
+   "label": "Flights shift to NMIA"
+  },
+  "effects": [
+   {
+    "icon": "🕌",
+    "label": "Gulf flights move"
+   },
+   {
+    "icon": "🌏",
+    "label": "New routes in 2027"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "IndiGo's routes moving include Bahrain, Riyadh, Dammam, Jeddah, Madinah, Kuwait, Muscat, Dhaka and Jakarta. It adds a daily Kathmandu flight from NMIA in 2027. Air India Express moves Oman flights from January 2027, then Jeddah, Riyadh, Doha, Sharjah and more by summer 2027."
+  },
+  {
+   "k": "poll",
+   "q": "Two airports in one city: good or messy?",
+   "opts": [
+    "Good, less crowding",
+    "Messy for connections",
+    "Don't fly via Mumbai"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Why are flights moving out of Mumbai's main airport?",
+   "opts": [
+    "Terminal 1 rebuild",
+    "Runway closure",
+    "Fuel shortage",
+    "Noise rules"
+   ],
+   "ans": 0,
+   "why": "CSMIA plans to redevelop Terminal 1 by 2030 (NewsBytes, Oct 25)."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "12",
+   "l": "daily IndiGo international flights moving to NMIA"
+  },
+  {
+   "t": "timeline",
+   "l": "The shift",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Dec 2026",
+     "e": "AI Express: 4 daily domestic flights"
+    },
+    {
+     "t": "Jan 2027",
+     "e": "AI Express Oman flights move"
+    },
+    {
+     "t": "Feb–Jul 2027",
+     "e": "IndiGo Kathmandu flight launches"
+    },
+    {
+     "t": "By 2030",
+     "e": "Mumbai T1 rebuilt"
+    }
+   ]
+  }
+ ],
+ "learn": {
+  "t": "NMIA is Navi Mumbai International Airport, Mumbai's second airport. CSMIA is the main one in Santacruz."
+ },
+ "watch": "Exact shift dates per route, and road and metro links between the two airports.",
+ "sources": [
+  {
+   "name": "NewsBytes",
+   "title": "IndiGo, Air India Group shift flight operations to Navi Mumbai (25 Oct)",
+   "url": "https://www.newsbytesapp.com/news/business/indigo-air-india-to-shift-flights-to-navi-mumbai-airport/story"
+  },
+  {
+   "name": "Bloomberg",
+   "title": "IndiGo, Air India to Shift Some Flights to New Mumbai Airport (25 Oct)",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-25/indigo-air-india-to-shift-some-flights-to-new-mumbai-airport"
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "title": "Oct 28 rain alert: red for Mulugu, Kothagudem, Khammam; Hyderabad moderate rain",
+ "title": "Cyclone Arnab: red alert Oct 28 for Mulugu, Kothagudem, Khammam; Hyderabad no alert",
  "kind": "weather",
  "tag": "🌧️ Weather",
  "scope": "local",
@@ -14,11 +14,11 @@
  ],
  "ts": 1792864134848,
  "until": 1793209734848,
- "body": "The system crosses the Andhra coast on the evening of Oct 27. Telangana feels it on Oct 28: 3 red, 5 orange and 8 yellow districts. Rain may linger into Oct 29.",
+ "body": "The system should become a severe cyclonic storm by Oct 27 and cross Andhra on Oct 28. Telangana: 3 red, 5 orange and 8 yellow districts. Hyderabad city: light rain or thundershowers, no alert.",
  "steps": [
   {
    "t": "What happened",
-   "b": "IMD shifted the crossing point south, to Machilipatnam–Visakhapatnam, on Oct 27 evening."
+   "b": "Depression formed; severe cyclone expected by Oct 27, Andhra crossing Oct 28."
   },
   {
    "t": "Why it matters",
@@ -26,7 +26,7 @@
   },
   {
    "t": "What's next",
-   "b": "Track and strength get clearer once it becomes a depression."
+   "b": "Private forecaster T Balaji sees light-moderate Hyderabad rain Oct 29–Nov 4."
   }
  ],
  "care": "Travel to Khammam or Bhadrachalam on Oct 27–28? Push it if you can.",
@@ -41,9 +41,13 @@
   {
    "name": "Deccan Chronicle",
    "url": "https://www.deccanchronicle.com/southern-states/telangana/"
+  },
+  {
+   "name": "Siasat",
+   "url": "https://www.siasat.com/cyclone-arnab-imd-hyderabad-forecasts-extremely-heavy-rain-3564028/"
   }
  ],
- "updated": 1792909446700,
+ "updated": 1792929688243,
  "viz": [
   {
    "t": "stack",
