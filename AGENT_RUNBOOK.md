@@ -233,3 +233,8 @@ Every Live headline expands in place to a 2–3 line `brief`, so readers get the
 - At most 2 short lines (~180 chars). No feed fluff ("Live updates:", "Check details"). Numbers, names, dates.
 - If the feed doesn't have the answer (for example, only 1 of 4 names), give what's known and say what's missing. Never guess.
 - **CTA:** when there's an action (apply, register, check result, book, official notice), set `cta`: `update scout_items set cta = '{"label":"Apply now","url":"<official site>"}' where id = <id>;`. Labels: "Apply now", "Register", "Check result", "Book tickets", "Official notice". Official sites only (gov/organiser), never aggregator spam.
+
+**Caveman digest style (owner, 25 Oct) for ALL Live hooks and briefs:**
+- Hook ≤ 60 chars: emoji + the fact. "🔥 LPG: no strike. Cylinders keep coming." "🚀 ISRO job result out. Skill test Nov 1."
+- Brief = 2–4 fragments split by " · ": who/what · where · number · date · what to do. No full sentences, no "said", no filler. "Main unions: no strike · LDAI dharna, Delhi, Oct 26 · want higher commission"
+- The brief shows under the headline without a tap, so it must carry the value on its own. Tap reveals the CTA and source.

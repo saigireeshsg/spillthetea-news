@@ -16,7 +16,8 @@
 .wire{margin:0 0 12px}
 .wire .wl{display:block;text-decoration:none;color:inherit;padding:10px 2px;border-top:1px solid var(--line,#343536)}
 .wire .wl:first-of-type{border-top:0}
-.wire .wl{cursor:pointer}.wire .wchev{font-style:normal;color:var(--muted,#a3acb0);margin-left:6px;font-size:12px}.wire .wx2{display:grid;gap:6px;margin-top:8px}.wire .wb{font-size:14px;line-height:1.5;color:var(--fg,#d7dadc);background:var(--card-2,#202024);border-radius:10px;padding:8px 10px}.wire .wcta{justify-self:start;font-weight:800;font-size:14px;border-radius:999px;padding:8px 14px;background:var(--orange,#ff4500);color:#fff;text-decoration:none}.wire .tg.ctag{background:#2b2108;color:#ffd166}
+.wire .wl{cursor:pointer}.wire .wchev{font-style:normal;color:var(--muted,#a3acb0);margin-left:6px;font-size:12px}.wire .wx2{display:grid;gap:6px;margin-top:8px}.wire .wb{font-size:14px;line-height:1.5;color:var(--fg,#d7dadc);background:var(--card-2,#202024);border-radius:10px;padding:8px 10px}.wire .wg{display:block;margin-top:4px;font-size:13.5px;line-height:1.4;color:var(--muted,#a3acb0);font-weight:600}
+.wire .wcta{justify-self:start;font-weight:800;font-size:14px;border-radius:999px;padding:8px 14px;background:var(--orange,#ff4500);color:#fff;text-decoration:none}.wire .tg.ctag{background:#2b2108;color:#ffd166}
 .wire .wsrc{font-size:12.5px;font-weight:800;color:#4fbcff;text-decoration:none}
 .wire .wt{display:block;font-size:14.5px;font-weight:700;line-height:1.35;color:var(--fg,#d7dadc)}
 .wire .wm{display:flex;flex-wrap:wrap;gap:4px 8px;margin-top:4px;font-size:12px;color:var(--muted,#a3acb0)}
@@ -38,8 +39,8 @@
       x.outlets >= 2 ? `<span class="tg cv">${E(x.outlets)} outlets</span>` : "",
     ].join("");
     const o = !!openW[x.id];
-    const exp = o ? `<span class="wx2">${x.brief ? `<span class="wb">${E(x.brief)}</span>` : ""}${x.cta && x.cta.url ? `<a class="wcta" href="${E(x.cta.url)}" target="_blank" rel="noopener">${E(x.cta.label || "Open")} ↗</a>` : ""}<a class="wsrc" href="${E(x.url)}" target="_blank" rel="noopener">Full report: ${E(x.publisher || "source")} ↗</a></span>` : "";
-    return `<div class="wl ${o ? "on" : ""}" data-wid="${E(x.id)}" role="button" tabindex="0" aria-expanded="${o}"><span class="wt">${E(x.hook || x.title)}<i class="wchev">${o ? "▴" : "▾"}</i></span><span class="wm">${tags}${x.cta && x.cta.url && !o ? `<span class="tg ctag">🔗 ${E(x.cta.label || "Link")}</span>` : ""}<span>${REG[x.region] || ""}</span><span>· ${E(x.publisher || "")}</span><span>· ${ago(x.published_at)}</span></span>${exp}</div>`;
+    const exp = o ? `<span class="wx2">${x.cta && x.cta.url ? `<a class="wcta" href="${E(x.cta.url)}" target="_blank" rel="noopener">${E(x.cta.label || "Open")} ↗</a>` : ""}<a class="wsrc" href="${E(x.url)}" target="_blank" rel="noopener">Full report: ${E(x.publisher || "source")} ↗</a></span>` : "";
+    return `<div class="wl ${o ? "on" : ""}" data-wid="${E(x.id)}" role="button" tabindex="0" aria-expanded="${o}"><span class="wt">${E(x.hook || x.title)}<i class="wchev">${o ? "▴" : "▾"}</i></span>${x.brief ? `<span class="wg">${E(x.brief)}</span>` : ""}<span class="wm">${tags}${x.cta && x.cta.url && !o ? `<span class="tg ctag">🔗 ${E(x.cta.label || "Link")}</span>` : ""}<span>${REG[x.region] || ""}</span><span>· ${E(x.publisher || "")}</span><span>· ${ago(x.published_at)}</span></span>${exp}</div>`;
   }
   document.addEventListener("click", (e) => {
     if (e.target.closest(".wcta")) { try { window.spillTrack && window.spillTrack("wire_cta", {}); } catch (_) {} return; }
@@ -134,9 +135,8 @@
     let h = `<section class="livebox wire" aria-label="Live wire"><span class="lgrp">Matters today · newest first</span>${top.map(item).join("")}`;
     if (key.length > cap) h += `<div class="wfoot"><span></span><button data-wmore="${scope}">${key.length - cap} more that matter ↓</button></div>`;
     if (buzz.length) h += `<span class="lgrp" style="margin-top:10px;display:block">👀 Also buzzing · fades in 3 h</span>${buzz.map(item).join("")}`;
-    h += `<div class="wfoot"><span>Tap a headline for the gist</span>${arch.length ? `<button data-warch="${scope}">📦 Archive · ${arch.length}</button>` : ""}</div>`;
+    h += `<div class="wfoot"><span>Tap for links</span>${arch.length ? `<button data-warch="${scope}">📦 Archive · ${arch.length}</button>` : ""}</div>`;
     if (archOpen[scope] && arch.length) h += `<div class="warch">${arch.map(item).join("")}</div>`;
-    h += `<button class="wdeep" data-wdeep="1">🧠 Want the why behind today's news? Read the explainers on Home →</button>`;
     return h + `</section>`;
   };
   const archOpen = {};
