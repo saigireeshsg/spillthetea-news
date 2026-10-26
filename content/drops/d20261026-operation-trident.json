@@ -54,5 +54,31 @@
   }
  ],
  "city": "Hyderabad",
- "date": "2026-10-26"
+ "date": "2026-10-26",
+ "map": {
+  "causes": [
+   {
+    "icon": "🧭",
+    "label": "Myanmar-border network"
+   },
+   {
+    "icon": "💵",
+    "label": "Hawala laundering"
+   }
+  ],
+  "event": {
+   "icon": "🚨",
+   "label": "38 raids, 3 states"
+  },
+  "effects": [
+   {
+    "icon": "🏦",
+    "label": "1,424 accounts frozen"
+   },
+   {
+    "icon": "🎯",
+    "label": "Target: Dec 31, 2029"
+   }
+  ]
+ }
 }

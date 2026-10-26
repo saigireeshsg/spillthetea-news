@@ -57,5 +57,31 @@
   }
  ],
  "city": "Hyderabad",
- "date": "2026-10-26"
+ "date": "2026-10-26",
+ "map": {
+  "causes": [
+   {
+    "icon": "💻",
+    "label": "Online-only till now"
+   },
+   {
+    "icon": "📜",
+    "label": "Railway Board order"
+   }
+  ],
+  "event": {
+   "icon": "🎫",
+   "label": "Counter tickets: ₹10L cover"
+  },
+  "effects": [
+   {
+    "icon": "🪙",
+    "label": "45 paise per PNR"
+   },
+   {
+    "icon": "🗓️",
+    "label": "Starts Oct 27"
+   }
+  ]
+ }
 }

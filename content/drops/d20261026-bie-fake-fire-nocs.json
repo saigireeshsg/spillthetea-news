@@ -59,5 +59,31 @@
   }
  ],
  "city": "Hyderabad",
- "date": "2026-10-26"
+ "date": "2026-10-26",
+ "map": {
+  "causes": [
+   {
+    "icon": "🏫",
+    "label": "108 fewer colleges permitted"
+   },
+   {
+    "icon": "❓",
+    "label": "Favouritism claims"
+   }
+  ],
+  "event": {
+   "icon": "🔥",
+   "label": "65 colleges: fake fire NOCs"
+  },
+  "effects": [
+   {
+    "icon": "🛡️",
+    "label": "BIE: safety comes first"
+   },
+   {
+    "icon": "✅",
+    "label": "Check permitted list first"
+   }
+  ]
+ }
 }

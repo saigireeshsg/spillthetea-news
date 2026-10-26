@@ -59,5 +59,31 @@
   }
  ],
  "city": "Hyderabad",
- "date": "2026-10-26"
+ "date": "2026-10-26",
+ "map": {
+  "causes": [
+   {
+    "icon": "📉",
+    "label": "India 19/2 early"
+   },
+   {
+    "icon": "🤝",
+    "label": "153-run stand"
+   }
+  ],
+  "event": {
+   "icon": "💯",
+   "label": "Deepti 106* at No. 6"
+  },
+  "effects": [
+   {
+    "icon": "🏆",
+    "label": "India win series 2-0"
+   },
+   {
+    "icon": "⏳",
+    "label": "3,450 days between tons"
+   }
+  ]
+ }
 }

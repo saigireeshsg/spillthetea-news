@@ -49,5 +49,31 @@
   }
  ],
  "city": "Hyderabad",
- "date": "2026-10-26"
+ "date": "2026-10-26",
+ "map": {
+  "causes": [
+   {
+    "icon": "🛢️",
+    "label": "Oil + war risk"
+   },
+   {
+    "icon": "📊",
+    "label": "Weak earnings"
+   }
+  ],
+  "event": {
+   "icon": "💸",
+   "label": "FPIs pull ₹48,056 cr, Oct"
+  },
+  "effects": [
+   {
+    "icon": "📉",
+    "label": "Nifty dragged down"
+   },
+   {
+    "icon": "💱",
+    "label": "Rupee weakens"
+   }
+  ]
+ }
 }

@@ -59,5 +59,31 @@
   }
  ],
  "city": "Hyderabad",
- "date": "2026-10-26"
+ "date": "2026-10-26",
+ "map": {
+  "causes": [
+   {
+    "icon": "🚔",
+    "label": "2 special drives"
+   },
+   {
+    "icon": "📅",
+    "label": "Weekend checks stepped up"
+   }
+  ],
+  "event": {
+   "icon": "🍺",
+   "label": "844 caught, 707 on 2-wheelers"
+  },
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "178 cases disposed"
+   },
+   {
+    "icon": "🚕",
+    "label": "Book a cab"
+   }
+  ]
+ }
 }

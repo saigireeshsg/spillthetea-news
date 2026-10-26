@@ -285,6 +285,7 @@ A dedicated tab (second chip, plus a teaser on Live) listing **walk-in interview
 
 ## 25. Card structure (owner, 25 Oct): keep the full explainer cards
 Feed cards keep the explainer map (why it's in the news → what happened → consequences), stat chip and one hook visual. Don't slim them without the owner's OK.
+**Every drop needs a `map` (owner, 26 Oct): crisp chips, not sentences.** 1–2 `causes`, 1 `event`, 1–2 `effects`, each `{icon, label}` with label ≤ 28 chars (fact + number, no verbs like "said"). With a map, the story page shows the map + only "What it means for you" — the long what/why beats are hidden, so the map must carry them. Drops without a map fall back to the long beats text.
 
 ## 26. Retention check (every night run reports it)
 `select * from retention_daily limit 7;` (active, new, returning devices, app opens per device, IST days) and `select * from retention_cohorts limit 7;` (D1 and D7 return %). Tracking started 25 Oct, so earlier visitors count as "new" on their first tracked visit.

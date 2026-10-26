@@ -59,5 +59,31 @@
   }
  ],
  "city": "Hyderabad",
- "date": "2026-10-26"
+ "date": "2026-10-26",
+ "map": {
+  "causes": [
+   {
+    "icon": "🏥",
+    "label": "Only 469 hospitals enrolled"
+   },
+   {
+    "icon": "📋",
+    "label": "CS: enrol all eligible"
+   }
+  ],
+  "event": {
+   "icon": "🚑",
+   "label": "₹1.5 lakh free crash care"
+  },
+  "effects": [
+   {
+    "icon": "💊",
+    "label": "Eases Aarogyasri load"
+   },
+   {
+    "icon": "🗣️",
+    "label": "Ask hospital for PM Rahat"
+   }
+  ]
+ }
 }

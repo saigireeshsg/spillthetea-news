@@ -93,5 +93,31 @@
   }
  ],
  "city": "Hyderabad",
- "date": "2026-10-26"
+ "date": "2026-10-26",
+ "map": {
+  "causes": [
+   {
+    "icon": "🌵",
+    "label": "El Niño dries water"
+   },
+   {
+    "icon": "🚫",
+    "label": "No rabi paddy advised"
+   }
+  ],
+  "event": {
+   "icon": "🍚",
+   "label": "Rice ₹45 → ₹90/kg"
+  },
+  "effects": [
+   {
+    "icon": "📝",
+    "label": "Harvests pre-booked"
+   },
+   {
+    "icon": "💰",
+    "label": "Rice bill may double"
+   }
+  ]
+ }
 }

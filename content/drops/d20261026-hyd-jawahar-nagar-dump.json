@@ -61,5 +61,31 @@
   }
  ],
  "city": "Hyderabad",
- "date": "2026-10-26"
+ "date": "2026-10-26",
+ "map": {
+  "causes": [
+   {
+    "icon": "🗑️",
+    "label": "8,000 t/day, one site"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Court orders ignored"
+   }
+  ],
+  "event": {
+   "icon": "✊",
+   "label": "Residents march Oct 27"
+  },
+  "effects": [
+   {
+    "icon": "🏭",
+    "label": "Demand: shift the dump"
+   },
+   {
+    "icon": "🚛",
+    "label": "Collection may slow"
+   }
+  ]
+ }
 }

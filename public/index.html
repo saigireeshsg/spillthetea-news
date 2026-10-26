@@ -1663,7 +1663,10 @@ function postView(id,jump,keep){
   if(!me.readDays[today()]){me.readDays[today()]=1;save()}
   const cs=d.cards||[],b=d.beats||{},heavy=isHeavy(d);
   const tea=cs.find(c=>c.k==="tea"),twist=cs.find(c=>c.k==="twist"),poll=cs.find(c=>c.k==="poll"),quiz=cs.find(c=>c.k==="quiz"),pr=cs.find(c=>c.k==="predict");
-  const beats=[["📰",siblings(d).some(x=>me.seen[x.id])?"What's new since you last read":"What happened",b.what||plain(tea?.body)],["❓","Why it's in the news",b.why],["➡️","What it means for you",b.care]].filter(x=>x[2]);
+  // map present → it already shows why / what happened / consequences as short chips; keep only the "for you" line (plus what's new for returning readers)
+  const retS=siblings(d).some(x=>me.seen[x.id]);
+  const beats=(d.map?[retS&&["📰","What's new since you last read",b.what],["➡️","What it means for you",b.care]]
+    :[["📰",retS?"What's new since you last read":"What happened",b.what||plain(tea?.body)],["❓","Why it's in the news",b.why],["➡️","What it means for you",b.care]]).filter(x=>x&&x[2]);
   const isDone=!!me.done[id];
   // backstory: one tappable line (first time) or a one-line "previously" (returning)
   const st=d.storyline&&stories[d.storyline];let bsH="";
@@ -1722,7 +1725,7 @@ function postView(id,jump,keep){
       ${bsH}
       ${d.map?`<div class="mapbox">${mapHTML(d.map)}</div>`:""}
       ${vizHTML(d)}
-      <div class="beats">${beats.map(([ic,l,t],i)=>`<div class="beat ${i===2?"care2":""}"><span class="bi" aria-hidden="true">${ic}</span><div><small>${l}</small><p>${rich(t)}</p></div></div>`).join("")}</div>
+      <div class="beats">${beats.map(([ic,l,t])=>`<div class="beat ${ic==="➡️"?"care2":""}"><span class="bi" aria-hidden="true">${ic}</span><div><small>${l}</small><p>${rich(t)}</p></div></div>`).join("")}</div>
       ${window.actBoxHTML?window.actBoxHTML(d):""}
       ${remH}
       ${watchH}

@@ -49,5 +49,31 @@
   }
  ],
  "city": "Hyderabad",
- "date": "2026-10-26"
+ "date": "2026-10-26",
+ "map": {
+  "causes": [
+   {
+    "icon": "🗂️",
+    "label": "SIR: 1.07 cr names cut"
+   },
+   {
+    "icon": "📵",
+    "label": "Voters not reached"
+   }
+  ],
+  "event": {
+   "icon": "📄",
+   "label": "61,059 auto Form 7s, no reason"
+  },
+  "effects": [
+   {
+    "icon": "✊",
+    "label": "Hyderabad dharna vs CEC"
+   },
+   {
+    "icon": "✅",
+    "label": "Check voters.eci.gov.in"
+   }
+  ]
+ }
 }

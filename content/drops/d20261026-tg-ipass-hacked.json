@@ -55,5 +55,31 @@
   }
  ],
  "city": "Hyderabad",
- "date": "2026-10-26"
+ "date": "2026-10-26",
+ "map": {
+  "causes": [
+   {
+    "icon": "💻",
+    "label": "Cyber criminals"
+   },
+   {
+    "icon": "❓",
+    "label": "How: not known yet"
+   }
+  ],
+  "event": {
+   "icon": "🔓",
+   "label": "TG-iPASS portal hacked"
+  },
+  "effects": [
+   {
+    "icon": "⏱️",
+    "label": "Back in 2 days: govt"
+   },
+   {
+    "icon": "🏭",
+    "label": "Approvals delayed"
+   }
+  ]
+ }
 }

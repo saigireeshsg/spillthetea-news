@@ -57,5 +57,31 @@
   }
  ],
  "city": "Hyderabad",
- "date": "2026-10-26"
+ "date": "2026-10-26",
+ "map": {
+  "causes": [
+   {
+    "icon": "⚔️",
+    "label": "US, Israel threats on Iran"
+   },
+   {
+    "icon": "🇾🇪",
+    "label": "Saudi strikes on Yemen"
+   }
+  ],
+  "event": {
+   "icon": "🚀",
+   "label": "Houthi missiles hit Riyadh"
+  },
+  "effects": [
+   {
+    "icon": "🕋",
+    "label": "Umrah pilgrims stranded"
+   },
+   {
+    "icon": "⛽",
+    "label": "Oil, petrol up"
+   }
+  ]
+ }
 }
