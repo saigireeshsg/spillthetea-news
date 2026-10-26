@@ -1,0 +1,111 @@
+{
+ "date": "2026-10-26",
+ "cat": "local",
+ "city": "Hyderabad",
+ "areas": [
+  "Banjara Hills"
+ ],
+ "sort": "2026-10-26-57",
+ "order": 21,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Banjara Hills steel flyover",
+ "hook": "Muffakham Jah College FoB may go for a *₹1,090 cr* flyover",
+ "tldr": "GHMC may dismantle the foot-over bridge near Muffakham Jah College, Banjara Hills, for a ₹1,090-crore steel flyover.",
+ "beats": {
+  "what": "The FoB near Muffakham Jah College is likely to be removed for a proposed steel flyover.",
+  "why": "GHMC sources say removal may follow once pillars and beams come up.",
+  "care": "Cross there on foot? Students fear a risky crossing unless a safe option comes first."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "₹1,090 cr steel flyover"
+   }
+  ],
+  "event": {
+   "icon": "🌉",
+   "label": "FoB may be dismantled"
+  },
+  "effects": [
+   {
+    "icon": "🚶",
+    "label": "Students flag safety"
+   },
+   {
+    "icon": "⏳",
+    "label": "After pillars, beams"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "A foot-over bridge near Muffakham Jah College in Banjara Hills is likely to be dismantled to make way for a proposed ₹1,090-crore steel flyover. Students and commuters have raised safety concerns about crossing without it. GHMC sources told Telangana Today the removal may come only after pillars and beams are built. No date is fixed."
+  },
+  {
+   "k": "poll",
+   "q": "Flyover first or pedestrians first?",
+   "opts": [
+    "Keep the FoB till a new one is up",
+    "Flyover is worth it",
+    "Build a subway instead"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What is the proposed steel flyover in Banjara Hills expected to cost?",
+   "opts": [
+    "₹1,090 crore",
+    "₹109 crore",
+    "₹10,900 crore",
+    "₹490 crore"
+   ],
+   "ans": 0,
+   "why": "Telangana Today reports the proposed steel flyover at ₹1,090 crore."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹1,090 cr",
+   "l": "proposed steel flyover, Banjara Hills"
+  },
+  {
+   "t": "timeline",
+   "l": "What happens when",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Now",
+     "e": "FoB in use; flyover proposed"
+    },
+    {
+     "t": "Next",
+     "e": "Pillars and beams built"
+    },
+    {
+     "t": "Then",
+     "e": "FoB may be dismantled (GHMC sources)"
+    }
+   ]
+  }
+ ],
+ "learn": {
+  "t": "A steel flyover is assembled from prefabricated steel parts, so it can go up faster than concrete with less road digging."
+ },
+ "watch": "Whether GHMC plans a temporary safe crossing for students before removing the FoB.",
+ "moment": {
+  "e": "🚶",
+  "t": "I cross there every day",
+  "k": "crossing"
+ },
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Muffakham Jah College FoB may make way for steel flyover",
+   "url": "https://telanganatoday.com/muffakham-jah-college-fob-may-make-way-for-steel-flyover"
+  }
+ ]
+}

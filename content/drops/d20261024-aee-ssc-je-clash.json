@@ -3,14 +3,20 @@
   "Citywide"
  ],
  "beats": {
-  "care": "Writing both? Check both hall tickets and watch for a TGPSC notice on dates.",
+  "care": "Clash on Nov 6? Send your SSC hall ticket, TGPSC application and OTR ID by 5 pm, Oct 30.",
   "what": "TGPSC's AEE (Civil) exam is on Nov 6–7. SSC's JE test runs Nov 2–6.",
   "why": "Rao says many SSC JE centres are in other states, so returning in time is hard."
  },
  "cards": [
   {
+   "k": "tea",
+   "title": "🆕 TGPSC's fix (Oct 26)",
+   "body": "TGPSC will consider a separate date, possibly Nov 7, for AEE Civil candidates whose SSC JE Civil exam falls on Nov 6. To qualify, submit your SSC hall ticket, your TGPSC application and your OTR ID by 5 pm on Oct 30 (Telangana Today). Only clash-hit candidates are covered; everyone else keeps the original date."
+  },
+  {
    "body": "Oct 26: BRS MLA Harish Rao again asked CM Revanth Reddy to step in and move the Roads & Buildings AEE exam (Nov 6). He says over 50,000 civil engineering aspirants are affected, and that SSC has already fixed its schedule. Earlier: Roads Minister Komatireddy Venkat Reddy asked TGPSC to review dates on Oct 14; aspirants protested at TGPSC on Oct 17. Telangana Today reports no govt response so far. No new dates yet.",
-   "k": "tea"
+   "k": "tea",
+   "title": "Before the fix (Oct 14–26)"
   },
   {
    "k": "poll",
@@ -25,21 +31,21 @@
    "ans": 0,
    "k": "quiz",
    "opts": [
-    "Assistant Executive Engineer",
-    "Assistant Exam Evaluator",
-    "Advanced Engineering Entrance",
-    "Area Electrical Engineer"
+    "Oct 30, 5 pm",
+    "Nov 6",
+    "Nov 7",
+    "Oct 27, noon"
    ],
-   "q": "What does AEE stand for?",
-   "why": "AEE posts are for engineers in state departments like Roads and Buildings."
+   "q": "By when must clash-hit AEE candidates send their documents?",
+   "why": "TGPSC wants the SSC hall ticket, TGPSC application and OTR ID by 5 pm on Oct 30."
   }
  ],
  "cat": "local",
  "city": "Hyderabad",
  "date": "2026-10-24",
  "heat": 3,
- "hook": "*50,000* engineers caught in TGPSC AEE vs SSC JE clash",
- "hook_b": "Writing both AEE and SSC JE? *Nov 6* is a problem",
+ "hook": "TGPSC blinks: AEE clash fix, *Nov 7* slot. Apply by *Oct 30*",
+ "hook_b": "Writing both AEE and SSC JE? Send 3 documents by *Oct 30, 5 pm*",
  "learn": {
   "t": "TGPSC hires for Telangana government posts. SSC hires for central government posts."
  },
@@ -56,12 +62,12 @@
   ],
   "effects": [
    {
-    "icon": "🎒",
-    "label": "50,000+ may miss one"
+    "icon": "📅",
+    "label": "Possible Nov 7 slot"
    },
    {
-    "icon": "✉️",
-    "label": "Calls to postpone AEE"
+    "icon": "📎",
+    "label": "Proof by Oct 30, 5 pm"
    }
   ],
   "event": {
@@ -71,8 +77,13 @@
  },
  "order": 19,
  "readSecs": 40,
- "sort": "2026-10-26-60",
+ "sort": "2026-10-26-58",
  "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "TGPSC to reschedule AEE Civil exam for candidates facing SSC clash",
+   "url": "https://telanganatoday.com/tgpsc-to-reschedule-aee-civil-exam-for-candidates-facing-ssc-clash"
+  },
   {
    "name": "Siasat",
    "title": "Postpone AEE exam clashing with SSC JE test: Harish Rao to CM",
@@ -85,24 +96,32 @@
   }
  ],
  "thread": "aee-exam-clash",
- "tldr": "TGPSC's AEE exam on Nov 6 overlaps with the SSC JE test. Harish Rao says 50,000+ civil engineering aspirants are hit; no reply from govt yet.",
+ "tldr": "TGPSC plans a separate Nov 7 AEE Civil slot for candidates whose SSC JE Civil exam is on Nov 6. Submit proof by 5 pm, Oct 30.",
  "topic": "AEE vs SSC JE exam clash",
- "updated": 1793004331258,
+ "updated": 1793016326509,
  "viz": [
   {
-   "l": "The clash week",
+   "t": "timeline",
+   "l": "What happens when",
    "now": 0,
    "steps": [
     {
-     "e": "SSC JE test (some centres in other states)",
-     "t": "Nov 2–6"
+     "t": "Oct 26",
+     "e": "TGPSC offers a possible Nov 7 slot"
     },
     {
-     "e": "TGPSC AEE exam in Telangana towns",
-     "t": "Nov 6–7"
+     "t": "Oct 30, 5 pm",
+     "e": "Deadline: SSC hall ticket + TGPSC form + OTR ID"
+    },
+    {
+     "t": "Nov 6",
+     "e": "SSC JE Civil (the clash day)"
+    },
+    {
+     "t": "Nov 7",
+     "e": "Possible AEE Civil date for clash-hit candidates"
     }
-   ],
-   "t": "timeline"
+   ]
   },
   {
    "l": "civil engineering aspirants affected, says Harish Rao",
@@ -111,5 +130,5 @@
    "v": "50,000+"
   }
  ],
- "watch": "Watch for a TGPSC notice on new AEE dates before Nov 6."
+ "watch": "Watch for TGPSC's final confirmation of the Nov 7 date and the submission mode."
 }

@@ -1,0 +1,121 @@
+{
+ "date": "2026-10-26",
+ "cat": "local",
+ "city": "Hyderabad",
+ "areas": [
+  "Gachibowli",
+  "HITEC City",
+  "Madhapur"
+ ],
+ "sort": "2026-10-26-59",
+ "order": 20,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "IIIT Junction road closure",
+ "hook": "Gachibowli commute: IIIT Junction stretch shut *3 more months*",
+ "hook_b": "Driving past DLF Gate 1? Closure now runs till *late January*",
+ "tldr": "From Oct 27, the DLF Gate No. 1 to Gachibowli Traffic PS stretch stays shut 3 more months for flyover work.",
+ "beats": {
+  "what": "Cyberabad Traffic Police extended the closure by three months from Oct 27.",
+  "why": "A multi-level flyover is being built at IIIT Junction.",
+  "care": "Commute via Gachibowli or the IT corridor? Keep using the diversions and add buffer time."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Multi-level flyover work"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "Closure +3 months, Oct 27"
+  },
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Diversions stay till Jan"
+   },
+   {
+    "icon": "⏳",
+    "label": "Works may run a year"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Cyberabad Traffic Police have extended the closure of the road between DLF Gate No. 1 and Gachibowli Traffic Police Station by three more months, from Oct 27. The stretch is shut for construction of a multi-level flyover at IIIT Junction. Police say the flyover and related works could continue for at least a year (The Hindu, Hyderabad Mail)."
+  },
+  {
+   "k": "poll",
+   "q": "How do you get past IIIT Junction now?",
+   "opts": [
+    "Diversion, by car/bike",
+    "Metro + walk",
+    "Cab, I just suffer",
+    "I avoid the area"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "By how long was the IIIT Junction road closure extended?",
+   "opts": [
+    "3 months",
+    "3 weeks",
+    "1 year",
+    "6 months"
+   ],
+   "ans": 0,
+   "why": "Cyberabad Traffic Police extended it by three months from Oct 27; the flyover itself may take a year or more."
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What happens when",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Oct 27",
+     "e": "Extended closure begins"
+    },
+    {
+     "t": "Jan 27",
+     "e": "3-month extension ends"
+    },
+    {
+     "t": "2027",
+     "e": "Flyover works: at least a year, say police"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "3 months",
+   "l": "more of the DLF Gate 1 – Gachibowli PS closure"
+  }
+ ],
+ "learn": {
+  "t": "A multi-level flyover stacks roads at different heights, so traffic in different directions does not meet at a signal."
+ },
+ "watch": "Whether Cyberabad Traffic Police publish new diversion routes or extend again in January.",
+ "thread": "hyd-traffic",
+ "moment": {
+  "e": "😮‍💨",
+  "t": "My commute just got longer",
+  "k": "commute"
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "IIIT Hyderabad Junction road closure extended for another three months from October 27",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/iiit-hyderabad-junction-road-closure-extended-for-another-three-months-from-october-27/article71626175.ece"
+  },
+  {
+   "name": "Hyderabad Mail",
+   "title": "IIIT Junction road closure extended by three months from October 27",
+   "url": "https://hyderabadmail.com/iiit-junction-road-closure-extended-cyberabad-traffic-advisory/"
+  }
+ ]
+}

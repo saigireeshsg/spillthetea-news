@@ -27,3 +27,4 @@ One line per experiment: date · what · result.
 - 2026-10-26 (hourly) · d20261024-aee-ssc-je-clash: A number-first statement ("50,000 engineers caught…") vs B second-person stake + date ("Writing both…? Nov 6 is a problem") · running
 
 - 2026-10-26 (hourly) · d20261025-tg-graduate-voter-list (in-place update): A number-first local statement ("Hyderabad city: only 23,000 forms") vs B second-person eligibility + countdown ("Graduated by Oct 2023? 11 days to enrol") · running
+- 2026-10-26 · evening · hook_b on IIIT Junction closure (stake-first vs question/date-first) and AEE update (fix-first vs documents-deadline) · running
