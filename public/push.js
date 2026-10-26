@@ -140,9 +140,9 @@
       else optinSheet("alertme", true);
       return; }
     const rx = e.target.closest("[data-react]");
-    if (rx) { e.preventDefault(); e.stopPropagation(); const id = rx.dataset.key, k = rx.dataset.react; let m = {}; try { m = JSON.parse(lsGet("spill.react") || "{}"); } catch (_) {}
-      if (m[id] === k) delete m[id]; else { m[id] = k; track("story_react", { id, variant: k }); }
-      lsSet("spill.react", JSON.stringify(m)); rx.parentElement.querySelectorAll(".rx").forEach((b) => b.classList.toggle("on", m[id] === b.dataset.react)); return; }
+    if (rx) { e.preventDefault(); e.stopPropagation(); const id = rx.dataset.key; let m = {}; try { m = JSON.parse(lsGet("spill.react") || "{}"); } catch (_) {}
+      if (m[id]) delete m[id]; else { m[id] = rx.dataset.react; track("story_react", { id, variant: rx.dataset.react }); }
+      lsSet("spill.react", JSON.stringify(m)); rx.classList.toggle("on", !!m[id]); return; }
     const fo = e.target.closest('[data-act="follow"]');
     if (fo && !/Following/.test(fo.textContent)) { track("story_follow", { id: fo.dataset.key }); setTimeout(() => optinSheet("follow", true), 700); }
   }, true);

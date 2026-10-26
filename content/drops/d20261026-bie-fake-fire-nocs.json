@@ -85,5 +85,10 @@
     "label": "Check permitted list first"
    }
   ]
+ },
+ "moment": {
+  "e": "😨",
+  "t": "Scary for students",
+  "k": "scary"
  }
 }

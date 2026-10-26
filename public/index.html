@@ -193,7 +193,7 @@ a{color:var(--blue)}
 .care span{color:var(--blue);font-weight:800;flex:none}
 .thumb{margin:10px 14px 0;border-radius:12px;padding:10px;background:var(--card-2)}
 .acts{display:flex;align-items:center;gap:6px;padding:10px;flex-wrap:wrap}
-.sact.on{color:var(--good,#46d160)}.reacts{display:inline-flex;gap:2px;background:var(--card-2);border-radius:999px;padding:2px}.reacts .rx{border:0;background:none;font-size:17px;width:34px;height:30px;border-radius:999px;cursor:pointer;opacity:.75;transition:transform .15s}.reacts .rx:hover{opacity:1}.reacts .rx.on{opacity:1;background:var(--line);transform:scale(1.15)}
+.sact.on{color:var(--good,#46d160)}.mom.on{color:var(--orange,#ff4500);background:var(--orange-soft,#3a1406)}.reacts{display:inline-flex;gap:2px;background:var(--card-2);border-radius:999px;padding:2px}.reacts .rx{border:0;background:none;font-size:17px;width:34px;height:30px;border-radius:999px;cursor:pointer;opacity:.75;transition:transform .15s}.reacts .rx:hover{opacity:1}.reacts .rx.on{opacity:1;background:var(--line);transform:scale(1.15)}
 .vote{display:inline-flex;align-items:center;background:var(--card-2);border-radius:999px}
 .vote button{border:0;background:none;width:34px;height:32px;border-radius:999px;font-size:15px;color:var(--muted);display:grid;place-items:center}
 .vote button:hover{background:var(--line)}
@@ -1303,8 +1303,10 @@ const REACTS=[["wow","😮"],["lol","😂"],["mad","😡"],["hmm","🤔"]];
 function storyActHTML(d){const fk=gkey(d);
   if(CIVIC_RE.test((d.storyline||"")+" "+d.id)){const on=window.spillPush&&window.spillPush.has("news");return `<button class="act sact${on?" on":""}" data-alertme="${esc(d.id)}">${on?"✓ Alerts on":"🔔 Alert me"}</button>`}
   if(!fk.startsWith("_")){const fol=isFollow(d);return `<button class="act sact${fol?" on":""}" data-act="follow" data-key="${esc(fk)}">${fol?"✓ Following":"🔔 Follow"}</button>`}
-  let mine="";try{mine=(JSON.parse(localStorage.getItem("spill.react")||"{}"))[d.id]||""}catch(e){}
-  return `<span class="reacts">${REACTS.map(([k,e])=>`<button class="rx${mine===k?" on":""}" data-react="${k}" data-key="${esc(d.id)}" aria-label="${k}">${e}</button>`).join("")}</span>`}
+  const m=momentOf(d);let on=false;try{on=!!(JSON.parse(localStorage.getItem("spill.react")||"{}"))[d.id]}catch(e){}
+  return `<button class="act sact mom${on?" on":""}" data-react="${esc(m.k||"m")}" data-key="${esc(d.id)}">${esc(m.e)} ${esc(m.t)}</button>`}
+const MOMENT_DEF={money:["💸","Hits my wallet"],local:["📍","Matters in my area"],india:["🤯","Didn't know this"],world:["😟","Worrying"],sport:["🔥","What a knock"],tech:["🤖","Need to know this"],campus:["🎓","Relevant to me"],planet:["🌍","Scary"],edit:["💡","Made me think"]};
+function momentOf(d){if(d.moment&&d.moment.t)return d.moment;const x=MOMENT_DEF[d.cat]||["💡","Good to know"];return {e:x[0],t:x[1],k:"def"}}
 function voteHTML(kind,key,score,mineV){return `<span class="vote ${mineV===1?"up":mineV===-1?"down":""}"><button class="u" data-act="${kind}" data-key="${esc(key)}" data-v="1" aria-label="Upvote">▲</button><b>${score?score:"Vote"}</b><button class="d" data-act="${kind}" data-key="${esc(key)}" data-v="-1" aria-label="Downvote">▼</button></span>`}
 function cprevHTML(d){const t=takesFor(d.id).map(x=>Object.assign(x,{score:S.take[x.key]||0})).sort((a,b)=>b.score-a.score||b.ts-a.ts)[0];
   if(t)return `<p class="cprev"><b>💬 u/${esc(t.handle)}:</b><span>${esc(t.text)}</span></p>`;

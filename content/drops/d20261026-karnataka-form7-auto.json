@@ -75,5 +75,10 @@
     "label": "Check voters.eci.gov.in"
    }
   ]
+ },
+ "moment": {
+  "e": "🗳️",
+  "t": "Checking my name now",
+  "k": "check"
  }
 }

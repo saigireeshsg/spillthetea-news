@@ -75,5 +75,10 @@
     "label": "Rupee weakens"
    }
   ]
+ },
+ "moment": {
+  "e": "📉",
+  "t": "My SIP is in red too",
+  "k": "sip"
  }
 }

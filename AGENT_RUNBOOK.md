@@ -318,7 +318,8 @@ Full strategy: `docs/SPILL_BLUEPRINT.md` (humans only; don't read it in runs). T
 
 
 ## §29 Card interactions & opt-in (Oct 26)
-- No up/down votes on story cards. Each card shows one context action + Share: civic → 🔔 Alert me; storyline/thread → 🔔 Follow; else reactions 😮😂😡🤔.
+- No up/down votes on story cards. Each card shows one context action + Share: civic → 🔔 Alert me; storyline/thread → 🔔 Follow; else ONE story-specific reaction (`moment`).
 - To get "Alert me" on a civic story, give it a civic storyline (hyd-water-crisis, bay-cyclone-2026) or an id containing water/power/cyclone/rain/flood/drought.
 - To get "Follow", attach the drop to a storyline or thread. Don't attach unrelated drops to a storyline just to get Follow — the feed shows one card per storyline and would hide the main card.
 - Opt-in conversion per moment is in read_events (ev optin_shown/optin_yes, id = trigger). Report it in the night run.
+- Every drop that has no civic storyline/thread MUST carry a `moment`: {"e":"<emoji>","t":"<≤28 chars, first person, what a reader would feel or do>","k":"<short key>"}. Examples: rice price → 😩 "My rice bill went up too"; Gulf strike → 😟 "Have family in the Gulf"; voter deletions → 🗳️ "Checking my name now". Never generic ("Like", "Interesting"). Without it the card falls back to a per-category default.

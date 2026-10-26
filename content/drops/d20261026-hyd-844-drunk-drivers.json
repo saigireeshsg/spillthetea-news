@@ -85,5 +85,10 @@
     "label": "Book a cab"
    }
   ]
+ },
+ "moment": {
+  "e": "🙏",
+  "t": "Glad they're checking",
+  "k": "safe"
  }
 }
