@@ -193,6 +193,7 @@ a{color:var(--blue)}
 .care span{color:var(--blue);font-weight:800;flex:none}
 .thumb{margin:10px 14px 0;border-radius:12px;padding:10px;background:var(--card-2)}
 .acts{display:flex;align-items:center;gap:6px;padding:10px;flex-wrap:wrap}
+.sact.on{color:var(--good,#46d160)}.reacts{display:inline-flex;gap:2px;background:var(--card-2);border-radius:999px;padding:2px}.reacts .rx{border:0;background:none;font-size:17px;width:34px;height:30px;border-radius:999px;cursor:pointer;opacity:.75;transition:transform .15s}.reacts .rx:hover{opacity:1}.reacts .rx.on{opacity:1;background:var(--line);transform:scale(1.15)}
 .vote{display:inline-flex;align-items:center;background:var(--card-2);border-radius:999px}
 .vote button{border:0;background:none;width:34px;height:32px;border-radius:999px;font-size:15px;color:var(--muted);display:grid;place-items:center}
 .vote button:hover{background:var(--line)}
@@ -1297,12 +1298,19 @@ function subs(){
   $("#subs").hidden=!!open;
 }
 function head(d){const s=SUBS[d.cat]||SUBS.india,f=FLAIR[d.cat]||FLAIR.india;const sr=d.cat==="local"?"r/"+(d.city||"local"):s.n;return `<div class="ph"><span class="av" style="background:${s.c}">${s.i}</span><span class="sr">${esc(sr)}</span><span>· ${dayAgo(d.date)}</span><span class="flair" style="background:${f[1]}">${f[0]}</span>${me.done[d.id]?'<span class="donechip">✓ caught up</span>':!me.seen[d.id]?'<span class="dot-unread" title="Unread"></span>':""}${(d.heat||0)>=5?'<span>🔥 trending</span>':""}${me.goal==="exam"&&GS[d.cat]?`<span class="gs">${GS[d.cat]}</span>`:""}${isHeavy(d)?'<span class="heavy">⚠️ heavy story</span>':""}${outlets(d)>=2?`<span class="ver">· ✅ ${outlets(d)} sources</span>`:""}</div>`}
+const CIVIC_RE=/water|power|cyclone|rain|flood|civic|outage|drought/i;
+const REACTS=[["wow","😮"],["lol","😂"],["mad","😡"],["hmm","🤔"]];
+function storyActHTML(d){const fk=gkey(d);
+  if(CIVIC_RE.test((d.storyline||"")+" "+d.id)){const on=window.spillPush&&window.spillPush.has("news");return `<button class="act sact${on?" on":""}" data-alertme="${esc(d.id)}">${on?"✓ Alerts on":"🔔 Alert me"}</button>`}
+  if(!fk.startsWith("_")){const fol=isFollow(d);return `<button class="act sact${fol?" on":""}" data-act="follow" data-key="${esc(fk)}">${fol?"✓ Following":"🔔 Follow"}</button>`}
+  let mine="";try{mine=(JSON.parse(localStorage.getItem("spill.react")||"{}"))[d.id]||""}catch(e){}
+  return `<span class="reacts">${REACTS.map(([k,e])=>`<button class="rx${mine===k?" on":""}" data-react="${k}" data-key="${esc(d.id)}" aria-label="${k}">${e}</button>`).join("")}</span>`}
 function voteHTML(kind,key,score,mineV){return `<span class="vote ${mineV===1?"up":mineV===-1?"down":""}"><button class="u" data-act="${kind}" data-key="${esc(key)}" data-v="1" aria-label="Upvote">▲</button><b>${score?score:"Vote"}</b><button class="d" data-act="${kind}" data-key="${esc(key)}" data-v="-1" aria-label="Downvote">▼</button></span>`}
 function cprevHTML(d){const t=takesFor(d.id).map(x=>Object.assign(x,{score:S.take[x.key]||0})).sort((a,b)=>b.score-a.score||b.ts-a.ts)[0];
   if(t)return `<p class="cprev"><b>💬 u/${esc(t.handle)}:</b><span>${esc(t.text)}</span></p>`;
   return ""}
 function cardHTML(d,ix){const sc=S.post[d.id]||0;const n=commentCount(d);const care=d.beats?.care;const hero=ix===0;
-  return `<article class="post click ${me.done[d.id]?"done":""}" data-open="${d.id}"${d.hook_b?` data-v="${abVar()}"`:""} tabindex="0">${d.featured?`<div class="featbar">📰 EDITORIAL OF THE DAY <small>· ${esc(d.editorial?.paper||"")}, decoded</small></div>`:""}${head(d)}${!me.done[d.id]&&reasonOf(d)?`<p class="rsn">${esc(reasonOf(d))}</p>`:""}<h2 class="pt">${rich(abHook(d))}</h2>${statChip(d)}${(()=>{const sb=siblings(d).length,lv=liveFor(d);return (lv?`<p class="cardlive"><span class="ldot" aria-hidden="true"></span><b>LIVE · ${ago(lv.updated||lv.ts)}</b><span class="t">${esc(lv.title)}</span></p>`:"")+(sb?`<p class="thr">🧵 Ongoing story · ${sb} earlier ${sb===1?"update":"updates"} inside</p>`:"")})()}${d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}${hookHTML(d)}<div class="acts">${voteHTML("post",d.id,sc,me.post[d.id])}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${me.done[d.id]?"Read again":"Read"} · ${readLen(d)} →</span></div></article>`}
+  return `<article class="post click ${me.done[d.id]?"done":""}" data-open="${d.id}"${d.hook_b?` data-v="${abVar()}"`:""} tabindex="0">${d.featured?`<div class="featbar">📰 EDITORIAL OF THE DAY <small>· ${esc(d.editorial?.paper||"")}, decoded</small></div>`:""}${head(d)}${!me.done[d.id]&&reasonOf(d)?`<p class="rsn">${esc(reasonOf(d))}</p>`:""}<h2 class="pt">${rich(abHook(d))}</h2>${statChip(d)}${(()=>{const sb=siblings(d).length,lv=liveFor(d);return (lv?`<p class="cardlive"><span class="ldot" aria-hidden="true"></span><b>LIVE · ${ago(lv.updated||lv.ts)}</b><span class="t">${esc(lv.title)}</span></p>`:"")+(sb?`<p class="thr">🧵 Ongoing story · ${sb} earlier ${sb===1?"update":"updates"} inside</p>`:"")})()}${d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}${hookHTML(d)}<div class="acts">${storyActHTML(d)}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${me.done[d.id]?"Read again":"Read"} · ${readLen(d)} →</span></div></article>`}
 const readLen=d=>{const s=+d.readSecs||60;return s<60?s+"s":Math.round(s/60)+" min"};
 // Curiosity hook on the card: the story's quiz question with tappable answers (tap = open story + answer).
 // One visual hook per card, chosen by what fits the story:
@@ -1740,7 +1748,7 @@ function postView(id,jump,keep){
   postActs();comments();nextBar(d);
   if(jump)setTimeout(()=>$("#cm")?.scrollIntoView({behavior:"smooth"}),50);else if(!keep)window.scrollTo(0,0);
 }
-function postActs(){if(!open)return;const d=drops.find(x=>x.id===open);if(!d)return;const n=commentCount(d);$("#pacts").innerHTML=`${voteHTML("post",d.id,S.post[d.id]||0,me.post[d.id])}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button>`}
+function postActs(){if(!open)return;const d=drops.find(x=>x.id===open);if(!d)return;const n=commentCount(d);$("#pacts").innerHTML=`${storyActHTML(d)}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button>`}
 let replyTo=null,cmMore=false;
 function sideOf(au,d){const pl=(d.cards||[]).find(c=>c.k==="poll");if(!pl)return"";const v=au===uid?me:votes[au];const i=v&&v.poll?v.poll[d.id]:null;return typeof i==="number"&&pl.opts[i]?pl.opts[i]:""}
 function comments(){

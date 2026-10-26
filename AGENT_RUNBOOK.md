@@ -315,3 +315,10 @@ Full strategy: `docs/SPILL_BLUEPRINT.md` (humans only; don't read it in runs). T
 - **Don't let importance vanish:** keep at least one high-impact, low-virality public-interest story (civic, accountability, rights) in each morning or evening run when one exists, even if it won't get many opens.
 - **Metrics that matter** (for the night report and the 27–28 Oct review): voluntary D1/D7 return, story-follow returns, `reads` per open, polls answered; not raw impressions or push opens alone.
 
+
+
+## §29 Card interactions & opt-in (Oct 26)
+- No up/down votes on story cards. Each card shows one context action + Share: civic → 🔔 Alert me; storyline/thread → 🔔 Follow; else reactions 😮😂😡🤔.
+- To get "Alert me" on a civic story, give it a civic storyline (hyd-water-crisis, bay-cyclone-2026) or an id containing water/power/cyclone/rain/flood/drought.
+- To get "Follow", attach the drop to a storyline or thread. Don't attach unrelated drops to a storyline just to get Follow — the feed shows one card per storyline and would hide the main card.
+- Opt-in conversion per moment is in read_events (ev optin_shown/optin_yes, id = trigger). Report it in the night run.
