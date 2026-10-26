@@ -103,6 +103,13 @@
     const meta = d.where ? `${E(d.when || "")}${d.when ? " · " : ""}${E(d.where.slice(0, 3).join(", "))}${d.where.length > 3 ? ` +${d.where.length - 3}` : ""}` : d.summary ? E(d.when || "Tap for what to do") : "Checking areas & timings…";
     return `<button class="ca ${cls}" data-ca="${E(a.id)}"><span class="ci">${KIND_ICON[a.kind] || "🚨"}</span><span class="ct"><small>${cls === "fresh" ? `<em class="canew">NEW</em> ` : ""}${E(d.level || KIND_NAME[a.kind] || "Alert")} · ${ago(a.published_at || a.created_at)}</small><b>${E(d.push_title ? d.push_title.replace(/^\S+\s/, "") : a.headline)}</b><span>${meta} · <u>full details</u></span></span></button>`;
   }
+  // Promotional / press-release items never reach readers (real-estate launches, "premium villas", brand desks, sponsored).
+  const PROMO_T1 = /\b(launch(es|ed)?|unveils?|introduces|inaugurates|opens|announces)\b.*\b(villas?|apartments?|flats?|\d\s?bhk|bhk|triplex|duplex|plots?|gated community|township|residences|luxury|premium|showroom|store|outlet|offer|discount|sale|collection|menu)\b/i;
+  const PROMO_T2 = /(\d\s?bhk|triplex|luxury (homes|villas|apartments|living)|premium (homes|villas|apartments|living)|sponsored|brand ?desk|brand ?connect|partner content|press release|advertorial|\bpromo(tion|tional)?\b|best .* to buy|top \d+ .* to buy|grand opening|now open|book (now|your))/i;
+  const PROMO_P = /(pr ?newswire|business ?wire|globe ?newswire|newsvoir|prfree|einpresswire|brand ?(desk|connect|stories|post))/i;
+  const PROMO_U = /(\/brand-?(desk|connect|post|stories|hub|studio|spotlight)|\/sponsored|\/press-?release|\/partner-?content|\/business-?wire|\/brandspotlight|\/impact-feature|\/pr-?wire|\/advertorial|\/promoted)/i;
+  const isPromo = (x) => PROMO_T1.test(x.title || "") || PROMO_T2.test((x.title || "") + " " + (x.hook || "")) || PROMO_P.test(x.publisher || "") || PROMO_U.test(x.url || "");
+  window.spillIsPromo = isPromo;
   window.spillAlerts = () => CA.slice();
   document.addEventListener("click", (e) => {
     const f = e.target.closest("[data-cafwd]"); if (!f) return;
@@ -307,7 +314,7 @@ html.desk #hotline.inflow{max-width:676px}
         .then(({ data: ca }) => { if (ca) { ca = ca.filter((x) => caLive(x) && x.note !== "not for readers"); const changed = ca.map((x) => x.id + ":" + (x.enriched_at || "")).join() !== CA.map((x) => x.id + ":" + (x.enriched_at || "")).join(); CA = ca; if (changed) { hotline(); window.spillRerender && window.spillRerender(); } if (caDeep && caOpen(caDeep)) caDeep = null; } });
       const { data, error } = await sb.from("live_wire").select("id,title,hook,brief,cta,publisher,url,region,published_at,score,outlets,why,tier").order("score", { ascending: false }).limit(60);
       if (!error && data) {
-        W = data;
+        W = data.filter((x) => !isPromo(x));
         fetchedAt = Date.now();
         const s = data.map((x) => x.id).join(",");
         if (s !== sig && window.spillRerender) window.spillRerender();

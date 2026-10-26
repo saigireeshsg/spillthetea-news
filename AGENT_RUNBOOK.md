@@ -341,3 +341,7 @@ Three finishable tap-throughs a day, built automatically by public/ritual.js fro
 What writers must do: today's drops carry `date` = today; Hyderabad "big one" with high `heat`; a money drop every morning; quiz cards on most drops (night ritual uses up to 3); opps carry `deadline` where known; cover tomorrow's cuts/events in the evening run.
 Pushes: Supabase cron `spill-ritual-morning` (02:43 UTC) and `spill-ritual-night` (15:43 UTC) call public.ritual_push(slot) → send_push (counts toward the 3 automatic pushes/day). Runs must NOT send their own morning/evening pushes.
 Events: ritual_start, ritual_done (variant = streak), ritual_quit (variant = step), ritual_open, ritual_quiz, ritual_plan_tick, ritual_share; push campaign opens: push:ritual-am / push:ritual-pm.
+
+## §32 No promotional content (owner, Oct 26)
+- Never publish, hook or feature press releases or brand promotions: real-estate "launches premium villas/4BHK", store/showroom openings, product launches written as news, "brand desk / brand connect / partner content / sponsored" pieces, PR-wire stories. Many outlets (The Tribune, ANI, Mid-day, etc.) run paid PR under their own name; judge by the content, not the publisher.
+- The app hides them from Live automatically (public/wire.js isPromo). If one slips through, skip it in hooks and never turn it into a drop. Real news about the housing market (prices, rents, RERA action, new rules) is fine.
