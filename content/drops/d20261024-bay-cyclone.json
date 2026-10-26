@@ -1,10 +1,15 @@
 {
  "beats": {
-  "what": "IMD: severe cyclonic system heads for the Andhra coast, landfall Oct 28 morning to early afternoon.",
+  "what": "IMD: very severe Cyclone Arnab to cross near Yanam–Kakinada on Oct 28; 89,000 being evacuated in Kakinada.",
   "why": "It could become a very severe cyclonic storm near the coast. Winds 115–125 kmph, gusts to 140.",
   "care": "Trips to Khammam, Bhadrachalam, Warangal on Oct 28–29? Push them. Hyderabad: no city alert yet."
  },
  "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 Night update (Oct 26): landfall near Yanam–Kakinada",
+   "body": "Arnab is now a very severe cyclone, set to cross near Yanam–Kakinada (The Hindu). Andhra has a red alert in 7 districts: Kakinada, East Godavari, Konaseema, Eluru, West Godavari, Alluri Sitharama Raju, Anakapalli. Kakinada is evacuating 89,000 people; schools and colleges in the Godavari region get a two-day holiday; 67 Konaseema villages are moving to relief camps. The Centre reviewed preparedness and ordered zero loss of life (Times of India). Railways set up a 24x7 war room (Indian Express)."
+  },
   {
    "k": "tea",
    "title": "🆕 Evening update (Oct 26)",
@@ -67,7 +72,7 @@
  },
  "date": "2026-10-26",
  "heat": 5,
- "hook": "🌀 *Arnab* lands Oct 28: TG orange alert, 8 trains cancelled",
+ "hook": "🌀 Arnab turns very severe: Kakinada evacuates 89,000, landfall near Yanam",
  "learn": {
   "t": "Cyclone names come from a list made by 13 countries around the Indian Ocean and are used in order. A storm is named only when its winds reach cyclonic strength (63 km/h or more)."
  },
@@ -84,7 +89,7 @@
   ],
   "event": {
    "icon": "🌀",
-   "label": "Landfall Bapatla–Vizag, Oct 28"
+   "label": "Landfall near Yanam–Kakinada, Oct 28"
   },
   "effects": [
    {
@@ -99,8 +104,23 @@
  },
  "order": 1,
  "readSecs": 55,
- "sort": "2026-10-26-60",
+ "sort": "2026-10-26-80",
  "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Very severe cyclone 'Arnab' to make landfall near Yanam-Kakinada; red alert issued for seven districts (26 Oct)",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/very-severe-cyclone-arnab-to-make-landfall-near-yanam-kakinada-red-alert-issued-for-seven-districts/article71626990.ece"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Kakinada coast braces for cyclone Arnab; 89,000 people being evacuated (26 Oct)",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/kakinada-coast-braces-for-cyclone-arnab-89000-people-being-evacuated/article71627293.ece"
+  },
+  {
+   "name": "Times of India",
+   "title": "Centre reviews cyclone Arnab preparedness, directs zero loss of life (26 Oct)",
+   "url": "https://timesofindia.indiatimes.com/india/centre-reviews-cyclone-arnab-preparedness-directs-zero-loss-of-life/articleshow/135213084.cms"
+  },
   {
    "name": "The Hindu",
    "title": "Cyclone Arnab: Orange alert in four Telangana districts, yellow alert in four others on October 28",
@@ -203,13 +223,18 @@
   }
  ],
  "thread": "bay-cyclone",
- "tldr": "Landfall in Andhra on Oct 28. Telangana: orange alert in 4 districts, yellow in 4 on Oct 28; red alert in 4 on Oct 29. 8 trains cancelled.",
+ "tldr": "Very severe Cyclone Arnab to cross near Yanam–Kakinada on Oct 28. AP red alert in 7 districts, 89,000 evacuated in Kakinada. Telangana: red alert in 4 districts Oct 29; Hyderabad no alert yet.",
  "topic": "Bay of Bengal cyclone",
  "viz": [
   {
    "t": "big",
    "v": "5.7 lakh",
    "l": "people in Andhra marked for possible evacuation"
+  },
+  {
+   "t": "big",
+   "v": "89,000",
+   "l": "people being evacuated on the Kakinada coast (The Hindu)"
   },
   {
    "t": "stack",
@@ -266,8 +291,8 @@
   }
  ],
  "watch": "IMD's next bulletins on the exact crossing point; school holidays in east Telangana on Oct 28–29; whether Hyderabad gets an alert.",
- "updated": 1793016326509,
- "hook_b": "In Mahabubabad or Nalgonda? IMD's new bulletin just pulled you into the cyclone alert",
+ "updated": 1793026032860,
+ "hook_b": "Got family in Kakinada or Konaseema? 89,000 are moving out before Arnab hits",
  "storyline": "bay-cyclone-2026",
  "lead": "local"
 }
