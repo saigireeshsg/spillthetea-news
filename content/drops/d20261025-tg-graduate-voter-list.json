@@ -10,14 +10,14 @@
   "Nalgonda"
  ],
  "date": "2026-10-25",
- "sort": "2026-10-25-80",
+ "sort": "2026-10-26-62",
  "order": 6,
  "heat": 3,
  "readSecs": 45,
  "topic": "Graduate voter list",
  "thread": "tg-graduate-voters",
- "hook": "Graduate voter list: *4.96 lakh* applications still pending",
- "tldr": "Of 5.24 lakh graduate-voter applications in two Telangana seats, 1,581 were rejected. Deadline to apply: Nov 6.",
+ "hook": "Hyderabad city: only *23,000* graduate-voter forms so far",
+ "tldr": "New today: only about 23,000 applications have come from Hyderabad city limits, against 1.1 lakh graduates on the roll last time. Deadline: Nov 6.",
  "beats": {
   "what": "Telangana's election office has approved 26,085 and rejected 1,581 graduate-voter applications so far.",
   "why": "Rejections were for degrees finished after Oct 31, 2023, and for suspected fake certificates.",
@@ -27,6 +27,12 @@
   {
    "k": "tea",
    "body": "Two seats are open for enrolment: Mahabubnagar–Rangareddy–Hyderabad and Warangal–Khammam–Nalgonda. Applications came in big, but most are still being checked."
+  },
+  {
+   "k": "num",
+   "value": "23,000",
+   "caption": "applications from Hyderabad city so far (BRS's Talasani Srinivas Yadav, Oct 26)",
+   "body": "Last graduate election, 1.1 lakh graduates in city limits were registered. He blamed the EC and state govt and alleged missing BLOs in places; those are his claims, not official findings."
   },
   {
    "k": "num",
@@ -59,6 +65,20 @@
  ],
  "viz": [
   {
+   "t": "compare",
+   "l": "Hyderabad city graduate voters",
+   "a": {
+    "v": 23000,
+    "d": "23,000",
+    "l": "Applied so far"
+   },
+   "b": {
+    "v": 110000,
+    "d": "1.1 lakh",
+    "l": "Registered last time"
+   }
+  },
+  {
    "t": "stack",
    "l": "5,23,758 applications so far",
    "total": "5.24 lakh",
@@ -90,11 +110,6 @@
     "d": "2.94 lakh",
     "l": "Warangal–Khammam–Nalgonda"
    }
-  },
-  {
-   "t": "big",
-   "v": "Nov 6",
-   "l": "last date to apply"
   }
  ],
  "map": {
@@ -126,12 +141,19 @@
  "learn": {
   "t": "Graduates' constituencies elect members of the Legislative Council (MLCs). Only people who graduated at least 3 years before the qualifying date can vote."
  },
- "watch": "Verification of the 4.96 lakh pending forms, and the draft roll once the Nov 6 window closes.",
+ "watch": "Whether Hyderabad applications climb before Nov 6, and the draft roll after the window closes.",
  "sources": [
   {
    "name": "Siasat",
    "title": "Telangana graduates' voter list: 1,581 applications rejected",
    "url": "https://www.siasat.com/telangana-graduates-voter-list-1581-applications-rejected-3563911/"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Talasani Srinivas Yadav flags low graduate voter registration in Hyderabad",
+   "url": "https://telanganatoday.com/talasani-srinivas-yadav-flags-low-graduate-voter-registration-in-hyderabad"
   }
- ]
+ ],
+ "hook_b": "Graduated by Oct 2023? Hyderabad has *11 days* to enrol as a voter",
+ "updated": 1793007990177
 }
