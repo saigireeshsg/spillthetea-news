@@ -7,6 +7,11 @@
  "cards": [
   {
    "k": "tea",
+   "title": "🆕 Named: Cyclone Arnab (Oct 26)",
+   "body": "The storm is now Cyclone Arnab. Andhra's power utility APEPDCL has opened 41 control rooms and kept 4,056 workers ready; Kakinada, East Godavari and Konaseema residents can report outages on 1912. Odisha has banned fishing and tourist entry in 6 districts. Andhra's municipal polls are at risk; the State Election Commissioner expects normalcy within two days of landfall (The Hindu)."
+  },
+  {
+   "k": "tea",
    "body": "New IMD Hyderabad bulletin (via The Hans India, 26 Oct, 12:49 am). Oct 29 red alert (heavy to very heavy, isolated extremely heavy rain): Mulugu, Bhadradri Kothagudem, Khammam, Mahabubabad. Orange: Jayashankar Bhupalpally, Warangal, Suryapet, Nalgonda, Nagarkurnool. Gusty winds 50–60 kmph in 11 districts; 30–40 kmph in the rest, Hyderabad included."
   },
   {
@@ -57,7 +62,7 @@
  },
  "date": "2026-10-26",
  "heat": 5,
- "hook": "Red alert moves to *Oct 29*: Mulugu, Khammam, Kothagudem, Mahabubabad",
+ "hook": "🌀 It's *Cyclone Arnab* now: AP readies 4,056 power crews, TG red alert Oct 29",
  "learn": {
   "t": "Cyclone names come from a list made by 13 countries around the Indian Ocean and are used in order. A storm is named only when its winds reach cyclonic strength (63 km/h or more)."
  },
@@ -91,6 +96,16 @@
  "readSecs": 55,
  "sort": "2026-10-26-98",
  "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Cyclone Arnab threatens Andhra's municipal polls (26 Oct)",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-threatens-andhras-municipal-polls-sec-hopes-to-hold-them-on-schedule/article71625736.ece"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Cyclone Arnab: APEPDCL opens 41 control rooms, keeps 4,056 workers ready (26 Oct)",
+   "url": "https://www.thehindu.com/news/cities/Visakhapatnam/cyclone-arnab-apepdcl-opens-41-control-rooms-keeps-4056-workers-ready-to-restore-power/article71625634.ece"
+  },
   {
    "name": "The Hans India",
    "title": "Cyclone alert: Hyderabad IMD sounds red alert for heavy rain in TG (26 Oct)",
@@ -168,7 +183,7 @@
   }
  ],
  "thread": "bay-cyclone",
- "tldr": "IMD's Oct 26 bulletin: landfall between Bapatla and Visakhapatnam on Oct 28, gusts up to 140 kmph; red alert for 4 Telangana districts on Oct 29.",
+ "tldr": "Now Cyclone Arnab. IMD: landfall between Bapatla and Visakhapatnam on Oct 28, gusts up to 140 kmph; red alert for 4 Telangana districts on Oct 29. AP keeps 4,056 power workers on standby (helpline 1912); Odisha bans fishing and tourist entry in 6 districts.",
  "topic": "Bay of Bengal cyclone",
  "viz": [
   {
@@ -226,7 +241,7 @@
   }
  ],
  "watch": "IMD's next bulletins on the exact crossing point; school holidays in east Telangana on Oct 28–29; whether Hyderabad gets an alert.",
- "updated": 1792976624411,
+ "updated": 1793000770824,
  "hook_b": "In Mahabubabad or Nalgonda? IMD's new bulletin just pulled you into the cyclone alert",
  "storyline": "bay-cyclone-2026",
  "lead": "local"

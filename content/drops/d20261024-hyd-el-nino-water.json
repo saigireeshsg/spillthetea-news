@@ -11,6 +11,11 @@
  "cards": [
   {
    "k": "tea",
+   "title": "🆕 Cut 20%, says Water Board (Oct 26)",
+   "body": "Combined storage in Osman Sagar, Himayat Sagar, Singur, Manjeera and Akkampally is just 8.9 TMC, Times of India reports. Singur storage is down 81% and Manjeera over 84% from a year ago. HMWSSB is asking every household to cut water use by 20%. Easy wins: fix dripping taps, bucket over shower, reuse RO reject water for mopping."
+  },
+  {
+   "k": "tea",
    "title": "🆕 Godavari water to the rescue (Oct 25)",
    "body": "The Telangana government will divert Godavari water to areas that depend on the shrinking Singur and Manjira reservoirs, The Hindu reports. Singur had just 22 days of normal supply left as of Oct 18 (Deccan Chronicle). How much water and from when is not yet public. Watch for the Water Board's area schedule."
   },
@@ -90,9 +95,9 @@
    "🚰"
   ]
  },
- "date": "2026-10-25",
+ "date": "2026-10-26",
  "heat": 5,
- "hook": "💧 Govt to divert *Godavari* water to Singur, Manjira-fed areas as emergency bites",
+ "hook": "💧 Hyderabad's 5 lakes hold just *8.9 TMC*; Water Board asks you to cut use by 20%",
  "lead": "local",
  "learn": {
   "t": "El Niño is a warming of the Pacific Ocean that often weakens India's monsoon."
@@ -125,8 +130,13 @@
  },
  "order": 13,
  "readSecs": 55,
- "sort": "2026-10-25-98",
+ "sort": "2026-10-26-97",
  "sources": [
+  {
+   "name": "Times of India",
+   "title": "Hyderabad's water worries mount as reservoir levels plummet (26 Oct)",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabads-water-worries-mount-as-reservoir-levels-plummet/articleshow/135204681.cms"
+  },
   {
    "name": "The Hindu",
    "title": "Telangana government to divert Godavari water to areas dependent on depleting Singur, Manjira reservoirs (25 Oct)",
@@ -184,10 +194,31 @@
   }
  ],
  "thread": "el-nino",
- "tldr": "Update (Oct 25, evening): the state will divert Godavari water to areas fed by the depleting Singur and Manjira reservoirs (The Hindu). Earlier today, Hyderabad's water board declared an emergency (Siasat). Singur, which supplies the western IT corridor (Gachibowli, HITEC City, Madhapur, Kondapur), is 11% full. The city gets ~585 MGD against ~735 MGD needed.",
+ "tldr": "Update (Oct 26): Hyderabad's five reservoirs (Osman Sagar, Himayat Sagar, Singur, Manjeera, Akkampally) hold just 8.9 TMC combined, and the Water Board wants households to cut use by 20% (TOI). Singur is down 81% and Manjeera 84%+ from a year ago. The state is diverting Godavari water to Singur/Manjira-fed areas; all-party drought meet on Oct 28.",
  "topic": "El Niño water crisis",
  "watch": "How much Godavari water, via which pipeline, and from what date; Water Board's area-wise supply plan; Singur levels; IMD rain alert for Oct 28.",
  "viz": [
+  {
+   "t": "big",
+   "v": "8.9 TMC",
+   "l": "in all 5 Hyderabad reservoirs combined (Oct 26)",
+   "tone": "bad"
+  },
+  {
+   "t": "compare",
+   "l": "Storage fall vs a year ago",
+   "a": {
+    "v": 81,
+    "d": "−81%",
+    "l": "Singur"
+   },
+   "b": {
+    "v": 84,
+    "d": "−84%+",
+    "l": "Manjeera"
+   },
+   "goodIfUp": false
+  },
   {
    "t": "icons",
    "n": 1,
@@ -260,7 +291,7 @@
    "goodIfUp": true
   }
  ],
- "updated": 1792946724518,
+ "updated": 1793000770824,
  "storyline": "hyd-water-crisis",
- "hook_b": "Godavari water planned for Singur-fed areas. Is your Hyderabad area one?"
+ "hook_b": "Singur down 81%, Manjeera 84% in a year. Can you cut 20% of your water use?"
 }
