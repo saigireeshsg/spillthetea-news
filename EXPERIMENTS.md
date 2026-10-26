@@ -13,3 +13,4 @@ One line per experiment: date · what · result.
 - 2026-10-25 · A/B on Miyapur parks: A = number-first ('HYDRAA wins back 2.64 acres…') vs B = reader question ('Is your colony park still a park?') · running
 - 2026-10-25 · Cyclone A/B continued after 'very severe' upgrade: A = upgrade+number-first ('Upgraded to very severe: 140 kmph…') vs B = place-question ('In Khammam, Mulugu or Kothagudem?…') · running (hooks refreshed, styles kept)
 - 2026-10-25 · Water A/B continued after Godavari diversion update: A = news-first ('Govt to divert Godavari water…') vs B = area question ('…Is your Hyderabad area one?') · running (hooks refreshed, styles kept)
+- 2026-10-26 · morning · hook_b on bay-cyclone (district-question vs date-first) · running. Run limited: Supabase writes and WebFetch of non-search URLs needed approval (unattended), Indeed connector down.

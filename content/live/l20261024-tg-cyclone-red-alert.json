@@ -1,5 +1,5 @@
 {
- "title": "Cyclone Arnab: red alert Oct 28 for Mulugu, Kothagudem, Khammam; Hyderabad no alert",
+ "title": "Cyclone: red alert Oct 29 for Mulugu, Khammam, Kothagudem, Mahabubabad",
  "kind": "weather",
  "tag": "🌧️ Weather",
  "scope": "local",
@@ -9,62 +9,56 @@
   "Mulugu",
   "Bhadradri Kothagudem",
   "Khammam",
+  "Mahabubabad",
   "Warangal",
-  "Hanumakonda"
+  "Nalgonda",
+  "Suryapet"
  ],
  "ts": 1792864134848,
- "until": 1793209734848,
- "body": "The system should become a severe cyclonic storm by Oct 27 and cross Andhra on Oct 28. Telangana: 3 red, 5 orange and 8 yellow districts. Hyderabad city: light rain or thundershowers, no alert.",
+ "until": 1793320200000,
+ "body": "IMD: landfall between Bapatla and Visakhapatnam on Oct 28, gusts up to 140 kmph. Telangana: 4 red and 5 orange districts on Oct 29. Hyderabad: gusty winds 30–40 kmph, no rain alert.",
  "steps": [
   {
    "t": "What happened",
-   "b": "Depression formed; severe cyclone expected by Oct 27, Andhra crossing Oct 28."
+   "b": "Severe cyclonic system 820 km ESE of Visakhapatnam, heading for Andhra."
   },
   {
    "t": "Why it matters",
-   "b": "East and northeast Telangana get heavy to very heavy rain on Oct 28."
+   "b": "East Telangana gets heavy to extremely heavy rain on Oct 29."
   },
   {
    "t": "What's next",
-   "b": "Private forecaster T Balaji sees light-moderate Hyderabad rain Oct 29–Nov 4."
+   "b": "Landfall Oct 28 morning to early afternoon; watch IMD bulletins."
   }
  ],
- "care": "Travel to Khammam or Bhadrachalam on Oct 27–28? Push it if you can.",
+ "care": "Travel to Khammam, Bhadrachalam or Warangal on Oct 28–29? Push it if you can.",
  "open": "d20261024-bay-cyclone",
  "thread": "bay-cyclone",
  "verified": "2",
  "src": [
   {
-   "name": "The Hindu",
-   "url": "https://www.thehindu.com/todays-paper/"
+   "name": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/imd-sounds-red-alert-for-heavy-rain-in-tg-1135732"
   },
   {
-   "name": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/telangana/"
-  },
-  {
-   "name": "Siasat",
-   "url": "https://www.siasat.com/cyclone-arnab-imd-hyderabad-forecasts-extremely-heavy-rain-3564028/"
+   "name": "NewsMeter",
+   "url": "https://newsmeter.in/regional/telangana/cold-nights-heavy-rains-on-the-way-in-telangana-as-cyclone-arnab-approaches-andhra-coast-778033"
   }
  ],
- "updated": 1792929688243,
+ "updated": 1792976624411,
  "viz": [
   {
    "t": "stack",
-   "l": "Districts on alert, Oct 28",
-   "total": "16",
+   "l": "Districts on alert, Oct 29",
+   "total": "9",
    "parts": [
     {
      "l": "Red",
-     "v": 3
+     "v": 4
     },
     {
      "l": "Orange",
      "v": 5
-    },
-    {
-     "l": "Yellow",
-     "v": 8
     }
    ]
   }
