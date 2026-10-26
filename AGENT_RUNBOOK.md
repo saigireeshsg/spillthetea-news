@@ -345,9 +345,3 @@ Events: ritual_start, ritual_done (variant = streak), ritual_quit (variant = ste
 ## §32 No promotional content (owner, Oct 26)
 - Never publish, hook or feature press releases or brand promotions: real-estate "launches premium villas/4BHK", store/showroom openings, product launches written as news, "brand desk / brand connect / partner content / sponsored" pieces, PR-wire stories. Many outlets (The Tribune, ANI, Mid-day, etc.) run paid PR under their own name; judge by the content, not the publisher.
 - The app hides them from Live automatically (public/wire.js isPromo). If one slips through, skip it in hooks and never turn it into a drop. Real news about the housing market (prices, rents, RERA action, new rules) is fine.
-
-## §33 Photo cards (Oct 26)
-Every drop should carry `img_q`: a short, concrete Wikimedia Commons search for a real photo of the subject (place, person, object), e.g. "Singur dam", "Rahul Gandhi", "TSRTC bus Hyderabad", "Supreme Court of India", "rice paddy field India harvest". The feed then shows the photo with WHY → WHAT → SO WHAT over it and a credit line (photographer · licence · source).
-- Check it before publishing: in SQL `select net.http_get('https://tvhfqkvyfkqxxiqxavjp.supabase.co/functions/v1/img?q=' || '<url-encoded query>');` then read `select content from net._http_response where id = <id>;` (allow ~1 min). Keep `img_q` only if the returned `title` clearly matches the story. Wrong-city, brand/hotel, or unrelated photos → try a better query or leave `img_q` out (the card falls back to the diagram).
-- Never use photos of victims or the dead. People photos only for public figures named in the story.
-- Licences are filtered to CC BY / BY-SA / CC0 / public domain by the function; credits render automatically.
