@@ -193,7 +193,8 @@ a{color:var(--blue)}
 .care span{color:var(--blue);font-weight:800;flex:none}
 .thumb{margin:10px 14px 0;border-radius:12px;padding:10px;background:var(--card-2)}
 .acts{display:flex;align-items:center;gap:6px;padding:10px;flex-wrap:wrap}
-.sact.on{color:var(--good,#46d160)}.mom.on{color:var(--orange,#ff4500);background:var(--orange-soft,#3a1406)}.reacts{display:inline-flex;gap:2px;background:var(--card-2);border-radius:999px;padding:2px}.reacts .rx{border:0;background:none;font-size:17px;width:34px;height:30px;border-radius:999px;cursor:pointer;opacity:.75;transition:transform .15s}.reacts .rx:hover{opacity:1}.reacts .rx.on{opacity:1;background:var(--line);transform:scale(1.15)}
+.sact.on{color:var(--good,#46d160)}.mom.on{color:var(--orange,#ff4500);background:var(--orange-soft,#3a1406)}.livedone{display:grid;gap:4px;justify-items:center;text-align:center;padding:14px 10px;border:1px dashed var(--line-2,#3a3a42);border-radius:16px;margin:4px 0 10px}.livedone b{font-size:15px}.livedone span{font-size:13px;color:var(--muted)}.ldo{font:inherit;font-weight:800;font-size:14px;border:0;border-radius:999px;padding:9px 15px;background:var(--orange,#ff4500);color:#fff;cursor:pointer;margin-top:6px}
+.reacts{display:inline-flex;gap:2px;background:var(--card-2);border-radius:999px;padding:2px}.reacts .rx{border:0;background:none;font-size:17px;width:34px;height:30px;border-radius:999px;cursor:pointer;opacity:.75;transition:transform .15s}.reacts .rx:hover{opacity:1}.reacts .rx.on{opacity:1;background:var(--line);transform:scale(1.15)}
 .vote{display:inline-flex;align-items:center;background:var(--card-2);border-radius:999px}
 .vote button{border:0;background:none;width:34px;height:32px;border-radius:999px;font-size:15px;color:var(--muted);display:grid;place-items:center}
 .vote button:hover{background:var(--line)}
@@ -1383,7 +1384,7 @@ function feed(){
     h+=`<div class="sect"><span>${stale?"☕ Yesterday's tea · today's lands at 7am":"✨ For you"}</span><button data-act="whyorder">why this order?</button></div>`+cap("rest",rest,5);
     h+=extrasHTML();
   } else h+=list.map(cardHTML).join("");
-  h+=`<div class="end"><span class="big">${done>=total?"🏆":"🫖"}</span><b>${done>=total?"Done for today. You know what's going on.":"That's today's tea"}</b><span>${done}/${total} caught up · fresh stories tomorrow at 7am</span>${done>=total&&total?bonusHTML()+tomorrowHTML():""}${done>=total&&total?`<button class="recapbtn" data-act="recap" style="margin-top:8px"><span>🌙 See what you learned today</span><small>→</small></button>`:""}</div>`;
+  h+=`<div class="end"><span class="big">${done>=total?"🏆":"🫖"}</span><b>${done>=total?"Done for today. You know what's going on.":"That's today's tea"}</b><span>${done}/${total} caught up · fresh stories tomorrow at 7am</span>${done>=total&&total?bonusHTML()+tomorrowHTML():""}${window.spillPush&&window.spillPush.has("news")?"":`<button class="ldo" data-alertme="done" style="margin-top:10px">🔔 Get tomorrow morning's Hyderabad brief</button>`}${done>=total&&total?`<button class="recapbtn" data-act="recap" style="margin-top:8px"><span>🌙 See what you learned today</span><small>→</small></button>`:""}</div>`;
   $("#view").innerHTML=h;
 }
 
@@ -1961,7 +1962,7 @@ function developingHTML(){
 function liveView(){
   const scope=liveTab;const arr=liveList(scope,true).sort((a,b)=>(b.ts||0)-(a.ts||0));
   const nowA=arr.filter(x=>activeLive(x)&&Date.now()-Math.max(x.ts||0,x.updated||0)<12*3600e3),earlier=arr.filter(x=>!nowA.includes(x));
-  let h=`<section class="livebox"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE</b>${window.spillOnlineHTML?window.spillOnlineHTML():""}<span class="upd">${(()=>{const dp=window.spillDaypart?window.spillDaypart():null;return dp?esc(dp.icon+" "+dp.title+" · "+dp.line):"updated every 10 min, round the clock"})()}</span></div><div class="ltabs"><button data-act="ltab" data-key="local" aria-pressed="${scope==="local"}">📍 ${esc(me.city||"Your city")}</button><button data-act="ltab" data-key="national" aria-pressed="${scope==="national"}">🇮🇳 India</button></div>${scope==="local"?nowHTML():""}${scope==="local"&&areasFor(me.city).length?`<button class="areabtn" data-act="area">📍 ${me.area?"Your area: "+esc(me.area)+" · change":"Set your area for \"near you\" alerts"}</button>`:""}${window.newsBellHTML?window.newsBellHTML():""}</section>`;
+  let h=`<section class="livebox"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE</b>${window.spillOnlineHTML?window.spillOnlineHTML():""}<span class="upd">${(()=>{const dp=window.spillDaypart?window.spillDaypart():null;return dp?esc(dp.icon+" "+dp.title+" · "+dp.line):"updated every 10 min, round the clock"})()}</span></div><div class="ltabs"><button data-act="ltab" data-key="local" aria-pressed="${scope==="local"}">📍 ${esc(me.city||"Your city")}</button><button data-act="ltab" data-key="national" aria-pressed="${scope==="national"}">🇮🇳 India</button></div>${scope==="local"?(me.area&&window.areaTodayHTML&&window.areaTodayHTML(me.area)?window.areaTodayHTML(me.area):(window.areaPickHTML&&!me.area?window.areaPickHTML():"")+nowHTML()):""}${scope==="local"&&areasFor(me.city).length?`<button class="areabtn" data-act="area">📍 ${me.area?"Your area: "+esc(me.area)+" · change":"Set your area for \"near you\" alerts"}</button>`:""}${window.newsBellHTML?window.newsBellHTML():""}</section>`;
   h+=(window.civicHTML?window.civicHTML(scope):"");
   if(scope==="local")h+=(window.oppsTeaser?window.oppsTeaser():"");
   // "Need to know" paused on Live (owner, 25 Oct): big items become crisp feed articles instead.
@@ -1970,6 +1971,7 @@ function liveView(){
   if(!arr.length&&!(window.wireCount&&window.wireCount(scope)))h+=`<div class="end"><span class="big">📡</span><b>All quiet right now</b><span>${scope==="local"&&!me.city?"Pick your city to see local live updates.":"New updates land here as they happen."}</span></div>`;
   if(false&&earlier.length)h+=`<details class="livebox larch"><summary>📦 Earlier alerts · ${earlier.length}</summary>${earlier.map(x=>liveItemHTML(x,true)).join("")}</details>`;
   if(scope==="local"&&areasFor(me.city).length)h+=`<button class="tipbtn" data-act="tip">📣 Seen something${me.area?" in "+esc(me.area):""}? Tell the live desk. Every tip is checked before posting.</button>`;
+  if(scope==="local")h+=`<div class="livedone"><b>✅ You're up to date on Hyderabad</b><span>New alerts land here the moment they're confirmed.</span>${window.spillPush&&window.spillPush.has("news")?"":`<button class="ldo" data-alertme="livedone">🔔 Ping me when something hits ${esc(me.area||"my area")}</button>`}</div>`;
   h+=`<p class="note" style="text-align:center;margin:4px 0 0">Headlines come from established news outlets and link to the original report. No forwards, no rumours.</p>`;
   me.lSeen=Math.max(me.lSeen||0,latestTs(live));save();
   return h}
@@ -1995,7 +1997,7 @@ function areaPicker(){
   document.querySelectorAll(".sheet").forEach(x=>x.remove());let pick=me.area||"";
   const el=document.createElement("div");el.className="sheet";el.setAttribute("role","dialog");el.setAttribute("aria-label","Pick your area");
   const draw=()=>{el.innerHTML=`<div class="sheet-in"><h2>Your area 📍</h2><p>Live updates near you show first, with a "near you" tag.</p><div class="cities">${areasFor(me.city).map(a=>`<button data-ar="${esc(a)}" aria-pressed="${pick===a}">${esc(a)}</button>`).join("")}</div><button class="go-btn" data-go="1" ${pick?"":"disabled"}>Save</button></div>`};
-  draw();el.addEventListener("click",e=>{const a=e.target.closest("[data-ar]");if(a){pick=a.dataset.ar;draw();return}if(e.target.closest("[data-go]")){me.area=pick;save();el.remove();toast("📍 "+pick+" saved");open?postView(open,false,true):feed();return}if(e.target===el)el.remove()});
+  draw();el.addEventListener("click",e=>{const a=e.target.closest("[data-ar]");if(a){pick=a.dataset.ar;draw();return}if(e.target.closest("[data-go]")){el.remove();toast("📍 "+pick+" saved");if(open){me.area=pick;save();window.spillAreaLoc&&window.spillAreaLoc(pick);postView(open,false,true)}else window.spillSetArea(pick);return}if(e.target===el)el.remove()});
   document.body.appendChild(el)}
 function maybeLivePush(){if(me.firstRun||!me.onb2||document.querySelector(".cu,.sheet,.push"))return;
   const x=live.filter(x=>(x.sev||1)>=3&&(isLocalLive(x)||x.scope==="national")&&activeLive(x)&&(x.ts||0)>(me.lPush||0)&&Date.now()-(x.ts||0)<3*3600e3).sort((a,b)=>b.ts-a.ts)[0];
@@ -2173,6 +2175,8 @@ function syncSoon(){if(!syncReady||!db||!uid)return;clearTimeout(syncT);syncT=se
 async function syncLoad(){if(!db||!uid)return;try{const snap=await db.collection("data/users/"+uid).doc("state").get();const r=snap&&snap.exists&&(typeof snap.data==="function"?snap.data():snap.data);
   if(r){SYNCK.forEach(k=>{const v=r[k];if(v==null)return;if(Array.isArray(v)){if(!(me[k]||[]).length)me[k]=v}else if(typeof v==="object"){me[k]=Object.assign({},v,me[k]||{})}else if(me[k]==null||me[k]===""||me[k]===0)me[k]=v});try{localStorage.setItem(LS,JSON.stringify(me))}catch(e){}pills()}}catch(e){}
   syncReady=true;syncSoon()}
+window.spillSetArea=a=>{me.area=a;save();try{window.spillAreaLoc&&window.spillAreaLoc(a)}catch(e){}try{syncSoon()}catch(e){}feed();try{window.spillTrack&&window.spillTrack("area_set",{id:a})}catch(e){}setTimeout(()=>{const el=document.querySelector(".atd");if(el)el.scrollIntoView({block:"nearest",behavior:"smooth"})},50)};
+window.spillArea=()=>me.area||"";
 // ---------- boot ----------
 (async function(){
   // Hyderabad-only launch: no setup popups, straight to the feed.
@@ -2213,6 +2217,7 @@ window.spillRerender=function(){if(open||document.querySelector(".sheet"))return
 <script src="/analytics.js" defer></script>
 <script src="/desktop.js" defer></script>
 <script src="/weather.js" defer></script>
+<script src="/area.js" defer></script>
 <script src="/civic.js" defer></script>
 <script src="/opps.js" defer></script>
 <script src="/install.js" defer></script>

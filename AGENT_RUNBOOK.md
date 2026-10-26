@@ -323,3 +323,11 @@ Full strategy: `docs/SPILL_BLUEPRINT.md` (humans only; don't read it in runs). T
 - To get "Follow", attach the drop to a storyline or thread. Don't attach unrelated drops to a storyline just to get Follow — the feed shows one card per storyline and would hide the main card.
 - Opt-in conversion per moment is in read_events (ev optin_shown/optin_yes, id = trigger). Report it in the night run.
 - Every drop that has no civic storyline/thread MUST carry a `moment`: {"e":"<emoji>","t":"<≤28 chars, first person, what a reader would feel or do>","k":"<short key>"}. Examples: rice price → 😩 "My rice bill went up too"; Gulf strike → 😟 "Have family in the Gulf"; voter deletions → 🗳️ "Checking my name now". Never generic ("Like", "Interesting"). Without it the card falls back to a per-category default.
+
+## §30 Area onboarding, done-states, forwarding, SEO pages (Oct 26)
+- Live opens with "📍 Where in Hyderabad are you?" (18 areas) until the reader picks one; then "📍 Today in <area>": water status for that area (public/area.js), alerts that name it, weather for that spot, 🔔 Alert me for <area>, ↗ Send to my society group.
+- Area water notes live in BOTH public/area.js and tools/build-areas.py. When facts change (Singur level, days left, new red zones, a named area cut), update both, citing the storyline sources. Never mark an area safe; "no area-specific warning yet" is the most we say.
+- Civic alert `details.where` should list area names exactly as in the area list (Madhapur, HITEC City, Gachibowli, Kondapur, Old City…) so "Today in <area>" and /area/<slug> pick them up.
+- Alert sheets have "📲 Forward to your society / family group" (WhatsApp, ?src=wa&c=alert-<id>).
+- SEO: tools/build-data.py runs tools/build-areas.py → public/area/<slug>.html (+ /area/ index, sitemap.xml, robots.txt). Every build refreshes the water timeline on those pages.
+- Events to watch: area_pick, area_set, area_share, alert_forward, alert_me (id done/livedone/area-*), app_open with story_id seo:* and wa:*.

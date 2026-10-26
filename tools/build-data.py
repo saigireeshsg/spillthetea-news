@@ -29,3 +29,7 @@ for col in COLLECTIONS:
     with open(out, "w", encoding="utf-8") as f:
         json.dump(rows, f, ensure_ascii=False, separators=(",", ":"))
     print(f"{col}: {len(rows)} -> public/data/{col}.json")
+
+# SEO area pages + sitemap (water/power cut today in <area>)
+import subprocess as _sp, sys as _sys
+_sp.run([_sys.executable, os.path.join(ROOT, "tools", "build-areas.py")], check=False)

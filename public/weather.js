@@ -147,6 +147,7 @@
     }, () => { b.textContent = "📍 Location is off. Allow it in browser settings for exact weather"; track("wx_locate_denied"); }, { enableHighAccuracy: false, timeout: 10000, maximumAge: 30 * 60e3 });
   }, true);
 
+  window.spillSetLoc = (l) => { loc = l; lsSet("spill.loc", loc); WX = null; refresh(); };
   refresh();
   setInterval(refresh, 15 * 60e3);
 })();

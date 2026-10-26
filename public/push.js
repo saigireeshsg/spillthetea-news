@@ -135,7 +135,7 @@
     const am = e.target.closest("[data-alertme]");
     if (am) { e.preventDefault(); e.stopPropagation(); track("alert_me", { id: am.dataset.alertme });
       if (window.spillPush.has("news")) { toastP("✓ Alerts are on. Max 3 a day."); return; }
-      if (window.spillPush.supported() && Notification.permission === "default" && !window.spillPush.iosNeedsInstall()) { const ok = await window.spillPush.add("news").catch(() => false); if (ok) track("alerts_on", { id: "alertme", variant: "alertme" }); toastP(ok ? "🔔 Done. Water, power & storm alerts. Max 3 a day." : "Alerts are off in your browser settings."); window.spillRerender && window.spillRerender(); }
+      if (window.spillPush.supported() && Notification.permission === "default" && !window.spillPush.iosNeedsInstall()) { const ok = await window.spillPush.add("news").catch(() => false); if (ok) track("alerts_on", { id: am.dataset.alertme.split("-")[0], variant: "alertme" }); toastP(ok ? "🔔 Done. Water, power & storm alerts. Max 3 a day." : "Alerts are off in your browser settings."); window.spillRerender && window.spillRerender(); }
       else if (window.spillPush.blocked()) toastP("Allow notifications for spillthetea.news in your browser settings.");
       else optinSheet("alertme", true);
       return; }

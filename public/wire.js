@@ -103,6 +103,21 @@
     const meta = d.where ? `${E(d.when || "")}${d.when ? " · " : ""}${E(d.where.slice(0, 3).join(", "))}${d.where.length > 3 ? ` +${d.where.length - 3}` : ""}` : d.summary ? E(d.when || "Tap for what to do") : "Checking areas & timings…";
     return `<button class="ca ${cls}" data-ca="${E(a.id)}"><span class="ci">${KIND_ICON[a.kind] || "🚨"}</span><span class="ct"><small>${cls === "fresh" ? `<em class="canew">NEW</em> ` : ""}${E(d.level || KIND_NAME[a.kind] || "Alert")} · ${ago(a.published_at || a.created_at)}</small><b>${E(d.push_title ? d.push_title.replace(/^\S+\s/, "") : a.headline)}</b><span>${meta} · <u>full details</u></span></span></button>`;
   }
+  window.spillAlerts = () => CA.slice();
+  document.addEventListener("click", (e) => {
+    const f = e.target.closest("[data-cafwd]"); if (!f) return;
+    e.preventDefault(); e.stopPropagation();
+    const a = CA.find((x) => String(x.id) === f.dataset.cafwd); if (!a) return;
+    const d = a.details || {};
+    const url = `https://spillthetea.news/?src=wa&c=alert-${a.id}#alert/${a.id}`;
+    const lines = [`🚨 ${d.push_title || a.headline}`];
+    if (d.when) lines.push(`🕒 ${d.when}`);
+    if (d.where && d.where.length) lines.push(`📍 ${d.where.slice(0, 6).join(", ")}`);
+    if (d.do && d.do.length) lines.push(`👉 ${d.do[0]}`);
+    lines.push("", `Full details & area-wise alerts on Spill: ${url}`);
+    try { window.spillTrack && window.spillTrack("alert_forward", { id: a.id }); } catch (_) {}
+    window.open(`https://wa.me/?text=${encodeURIComponent(lines.join("\n"))}`, "_blank", "noopener");
+  }, true);
   window.civicHTML = function (scope) {
     if (scope && scope !== "local") return "";
     const list = CA.slice(0, 6);
@@ -122,6 +137,7 @@
 .casheet .cab{background:var(--card,#17171a);border:1px solid var(--line,#2e2e33);border-radius:20px 20px 0 0;width:100%;max-width:560px;max-height:88vh;overflow:auto;padding:18px 16px calc(20px + env(safe-area-inset-bottom,0px));display:grid;gap:12px}
 .casheet .cak{font-size:12px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:#ff8a65}
 .casheet h3{margin:0;font-size:21px;line-height:1.25}.casheet p{margin:0;font-size:15px;line-height:1.5}
+.casheet .cafwd{font:inherit;font-weight:800;font-size:14.5px;border:0;border-radius:12px;padding:12px;background:#128c4a;color:#fff;cursor:pointer}
 .casheet .cag{display:grid;gap:6px;background:var(--card-2,#202024);border-radius:14px;padding:12px}
 .casheet .cag small{font-size:12px;font-weight:800;color:var(--muted,#9aa5ad);text-transform:uppercase;letter-spacing:.04em}
 .casheet .chips{display:flex;flex-wrap:wrap;gap:6px}.casheet .chips span{background:#3a1d10;color:#ffd7c4;border-radius:999px;padding:5px 11px;font-size:14px;font-weight:700}
@@ -144,6 +160,7 @@
       ${d.not_affected ? `<div class="ok">✅ ${E(d.not_affected)}</div>` : ""}
       ${(d.do || []).length ? `<div class="cag"><small>👉 What to do</small><ul>${d.do.map((x) => `<li>${E(x)}</li>`).join("")}</ul></div>` : ""}
       ${d.official ? `<a class="off" href="${E(d.official.url)}" target="_blank" rel="noopener">${E(d.official.label)} ↗</a>` : ""}
+      <button class="cafwd" data-cafwd="${E(a.id)}">📲 Forward to your society / family group</button>
       <div class="src">Source: <a href="${E(a.url)}" target="_blank" rel="noopener">${E(a.publisher || "report")}</a> · ${ago(a.published_at || a.created_at)}</div></div>`;
     markSeen([a]);
     el.addEventListener("click", (e) => { if (e.target === el || e.target.closest("[data-cax]")) { el.remove(); if (!seenNow.has(caKey(a))) { seenNow.add(caKey(a)); window.spillRerender && window.spillRerender(); hlSig = ""; hotline(); } if (/^#alert\//.test(location.hash)) history.replaceState(null, "", location.pathname + location.search); } });
