@@ -1,0 +1,115 @@
+{
+ "cat": "local",
+ "sort": "2026-10-26-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "date": "2026-10-26",
+ "city": "Hyderabad",
+ "areas": [
+  "Jagtial"
+ ],
+ "topic": "Telangana man killed in Ukraine coming home",
+ "hook": "Jagtial man killed in Ukraine strike reaches Hyderabad *Oct 31*",
+ "tldr": "Avilala Sudarshan Goud's remains will come home via Poland and Amsterdam, two months after he died.",
+ "beats": {
+  "what": "Telangana is bringing home Avilala Sudarshan Goud of Hasanabad, Jagtial, killed in a Russian missile strike on Sept 1.",
+  "why": "A probe into the strike and a criminal case held up the return for nearly two months.",
+  "care": "Family stuck abroad? Telangana's CM Pravasi Prajavani in Hyderabad helped this family. You can approach it too."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚀",
+    "label": "Russian strike, Sept 1"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Probe delayed return"
+   }
+  ],
+  "event": {
+   "icon": "🕊️",
+   "label": "Remains coming home"
+  },
+  "effects": [
+   {
+    "icon": "✈️",
+    "label": "Hyderabad, Oct 31"
+   },
+   {
+    "icon": "🏡",
+    "label": "Last rites in Hasanabad"
+   }
+  ]
+ },
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The journey home",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Sept 1",
+     "e": "Killed in a Russian missile strike in Ukraine"
+    },
+    {
+     "t": "Oct 24",
+     "e": "Telangana writes to India's envoy in Ukraine"
+    },
+    {
+     "t": "Oct 29",
+     "e": "Remains leave by road for Poland"
+    },
+    {
+     "t": "Oct 31",
+     "e": "Warsaw → Amsterdam → Hyderabad, early hours"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "3 countries",
+   "l": "Ukraine by road to Poland, then via Amsterdam"
+  }
+ ],
+ "cards": [
+  {
+   "k": "tea",
+   "t": "Avilala Sudarshan Goud, from Hasanabad village in Jagtial, died in a Russian missile strike in Ukraine on September 1. His wife Bhargavi went to the CM Pravasi Prajavani in Hyderabad for help. On Oct 24, GAD Principal Secretary Ahmad Nadeem wrote to India's Ambassador to Ukraine, Anjani Kumar. Jagtial MLA Dr. Makunuri Sanjay Kumar and Minister Adluri Lakshman Kumar also pushed the case. Ukraine's airspace is closed, so the remains go by road to Poland on Oct 29, then fly Warsaw → Amsterdam → Hyderabad, arriving early Oct 31."
+  },
+  {
+   "k": "why",
+   "t": "Why two months? An investigation into the strike and a criminal case registered over it had to finish first, per Mandha Bheem Reddy, vice-chairman of Telangana's NRI Advisory Committee."
+  },
+  {
+   "k": "quiz",
+   "q": "Why are the remains going by road to Poland first?",
+   "opts": [
+    "Ukraine's airspace is restricted",
+    "It's cheaper",
+    "Family asked for it",
+    "Poland has the embassy"
+   ],
+   "ans": 0,
+   "why": "Flights over Ukraine are restricted, so the route is road to Poland, then Warsaw → Amsterdam → Hyderabad."
+  }
+ ],
+ "learn": {
+  "t": "CM Pravasi Prajavani is Telangana's grievance desk for families of people working abroad."
+ },
+ "watch": "Remains reach Hyderabad early Oct 31; last rites in Hasanabad, Jagtial.",
+ "thread": "tg-ukraine-repatriation",
+ "moment": {
+  "e": "🙏",
+  "t": "Have family working abroad",
+  "k": "abroad"
+ },
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana government facilitates return of man killed in Ukraine strike",
+   "url": "https://telanganatoday.com/telangana-government-facilitates-return-of-man-killed-in-ukraine-strike"
+  }
+ ]
+}

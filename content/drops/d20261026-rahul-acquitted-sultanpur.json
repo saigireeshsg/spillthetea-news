@@ -1,0 +1,116 @@
+{
+ "cat": "india",
+ "sort": "2026-10-26-68",
+ "order": 2,
+ "heat": 3,
+ "readSecs": 25,
+ "date": "2026-10-26",
+ "topic": "Rahul Gandhi acquitted in Amit Shah defamation case",
+ "hook": "Rahul Gandhi acquitted in *2018* Amit Shah defamation case",
+ "tldr": "A Sultanpur MP-MLA court cleared Rahul Gandhi over a 2018 Bengaluru rally remark about Amit Shah.",
+ "beats": {
+  "what": "An MP-MLA court in Sultanpur, UP, acquitted Rahul Gandhi on Oct 26. He was in court.",
+  "why": "BJP's Vijay Mishra had complained in Aug 2018 over Gandhi's remark on then-BJP chief Amit Shah.",
+  "care": "Shows how long cases against politicians can drag: this one took over 8 years."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎤",
+    "label": "2018 Bengaluru rally remark"
+   },
+   {
+    "icon": "📝",
+    "label": "Complaint, Aug 4 2018"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "Acquitted in Sultanpur"
+  },
+  "effects": [
+   {
+    "icon": "✅",
+    "label": "Case closed at this court"
+   },
+   {
+    "icon": "⏳",
+    "label": "Took 8+ years"
+   }
+  ]
+ },
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the case ran",
+   "now": 3,
+   "steps": [
+    {
+     "t": "2018",
+     "e": "Remark at a Bengaluru rally before Karnataka polls"
+    },
+    {
+     "t": "4 Aug 2018",
+     "e": "Vijay Mishra files complaint in Sultanpur"
+    },
+    {
+     "t": "2023",
+     "e": "Gandhi appears in court, gets bail"
+    },
+    {
+     "t": "26 Oct 2026",
+     "e": "Acquitted (verdict moved from Oct 13)"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "8+ years",
+   "l": "from complaint to verdict"
+  }
+ ],
+ "cards": [
+  {
+   "k": "tea",
+   "t": "In 2018, before the Karnataka Assembly polls, Rahul Gandhi made a remark about then-BJP president Amit Shah at a Bengaluru rally. Vijay Mishra, a Sultanpur BJP leader and ex-chairman of the District Cooperative Bank, filed a defamation complaint on Aug 4, 2018. Gandhi got bail in 2023. The verdict, first set for Oct 13, came on Oct 26: acquitted. The court's reasoning wasn't reported yet."
+  },
+  {
+   "k": "poll",
+   "q": "Should defamation cases against politicians have a time limit?",
+   "opts": [
+    "Yes, 1–2 years max",
+    "Courts decide, no limit",
+    "Scrap criminal defamation"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Where was Rahul Gandhi's case heard?",
+   "opts": [
+    "Sultanpur, UP",
+    "Bengaluru",
+    "Delhi",
+    "Lucknow"
+   ],
+   "ans": 0,
+   "why": "An MP-MLA court in Sultanpur. These special courts hear cases against MPs and MLAs."
+  }
+ ],
+ "learn": {
+  "t": "MP-MLA courts are special courts set up to speed up criminal cases against lawmakers."
+ },
+ "watch": "Whether the complainant appeals; the court's written reasons.",
+ "thread": "rahul-defamation-cases",
+ "moment": {
+  "e": "⏳",
+  "t": "8 years for one case?!",
+  "k": "slowcourt"
+ },
+ "sources": [
+  {
+   "name": "Telangana Today (PTI)",
+   "title": "Rahul Gandhi acquitted in defamation case over Amit Shah remarks",
+   "url": "https://telanganatoday.com/rahul-gandhi-acquitted-in-defamation-case-over-amit-shah-remarks"
+  }
+ ]
+}
