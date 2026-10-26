@@ -23,6 +23,7 @@
     "Shamshabad": [17.253, 78.430, CITY],
   };
   window.spillAreaList = () => Object.keys(A);
+  window.spillAreaInfo = (name) => (A[name] || [])[2] || null;
   window.spillAreaLoc = (name) => { const c = A[name]; if (!c || !window.spillSetLoc) return; let L = null; try { L = JSON.parse(localStorage.getItem("spill.loc") || "null"); } catch (_) {} if (!L || !L.precise) window.spillSetLoc({ lat: c[0], lon: c[1], name, precise: false }); };
   const LV = { high: ["🔴", "#ff6b4a"], watch: ["🟡", "#ffd166"] };
   const css = document.createElement("style");

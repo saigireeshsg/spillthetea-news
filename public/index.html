@@ -1369,6 +1369,7 @@ function feed(){
   if(filter==="all"){
     h+=breakingHTML();
     h+=(window.cricHTML?window.cricHTML():"");
+    h+=(window.ritualCardHTML?window.ritualCardHTML():"");
     h+=greetHTML(done,total,pc,fresh);
     h+=tickerHTML();
   }
@@ -1962,7 +1963,7 @@ function developingHTML(){
 function liveView(){
   const scope=liveTab;const arr=liveList(scope,true).sort((a,b)=>(b.ts||0)-(a.ts||0));
   const nowA=arr.filter(x=>activeLive(x)&&Date.now()-Math.max(x.ts||0,x.updated||0)<12*3600e3),earlier=arr.filter(x=>!nowA.includes(x));
-  let h=`<section class="livebox"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE</b>${window.spillOnlineHTML?window.spillOnlineHTML():""}<span class="upd">${(()=>{const dp=window.spillDaypart?window.spillDaypart():null;return dp?esc(dp.icon+" "+dp.title+" · "+dp.line):"updated every 10 min, round the clock"})()}</span></div><div class="ltabs"><button data-act="ltab" data-key="local" aria-pressed="${scope==="local"}">📍 ${esc(me.city||"Your city")}</button><button data-act="ltab" data-key="national" aria-pressed="${scope==="national"}">🇮🇳 India</button></div>${scope==="local"?(me.area&&window.areaTodayHTML&&window.areaTodayHTML(me.area)?window.areaTodayHTML(me.area):(window.areaPickHTML&&!me.area?window.areaPickHTML():"")+nowHTML()):""}${scope==="local"&&areasFor(me.city).length?`<button class="areabtn" data-act="area">📍 ${me.area?"Your area: "+esc(me.area)+" · change":"Set your area for \"near you\" alerts"}</button>`:""}${window.newsBellHTML?window.newsBellHTML():""}</section>`;
+  let h=`<section class="livebox"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE</b>${window.spillOnlineHTML?window.spillOnlineHTML():""}<span class="upd">${(()=>{const dp=window.spillDaypart?window.spillDaypart():null;return dp?esc(dp.icon+" "+dp.title+" · "+dp.line):"updated every 10 min, round the clock"})()}</span></div><div class="ltabs"><button data-act="ltab" data-key="local" aria-pressed="${scope==="local"}">📍 ${esc(me.city||"Your city")}</button><button data-act="ltab" data-key="national" aria-pressed="${scope==="national"}">🇮🇳 India</button></div>${scope==="local"&&window.ritualCardHTML?window.ritualCardHTML():""}${scope==="local"?(me.area&&window.areaTodayHTML&&window.areaTodayHTML(me.area)?window.areaTodayHTML(me.area):(window.areaPickHTML&&!me.area?window.areaPickHTML():"")+nowHTML()):""}${scope==="local"&&areasFor(me.city).length?`<button class="areabtn" data-act="area">📍 ${me.area?"Your area: "+esc(me.area)+" · change":"Set your area for \"near you\" alerts"}</button>`:""}${window.newsBellHTML?window.newsBellHTML():""}</section>`;
   h+=(window.civicHTML?window.civicHTML(scope):"");
   if(scope==="local")h+=(window.oppsTeaser?window.oppsTeaser():"");
   // "Need to know" paused on Live (owner, 25 Oct): big items become crisp feed articles instead.
@@ -2218,6 +2219,7 @@ window.spillRerender=function(){if(open||document.querySelector(".sheet"))return
 <script src="/desktop.js" defer></script>
 <script src="/weather.js" defer></script>
 <script src="/area.js" defer></script>
+<script src="/ritual.js" defer></script>
 <script src="/civic.js" defer></script>
 <script src="/opps.js" defer></script>
 <script src="/install.js" defer></script>

@@ -331,3 +331,13 @@ Full strategy: `docs/SPILL_BLUEPRINT.md` (humans only; don't read it in runs). T
 - Alert sheets have "📲 Forward to your society / family group" (WhatsApp, ?src=wa&c=alert-<id>).
 - SEO: tools/build-data.py runs tools/build-areas.py → public/area/<slug>.html (+ /area/ index, sitemap.xml, robots.txt). Every build refreshes the water timeline on those pages.
 - Events to watch: area_pick, area_set, area_share, alert_forward, alert_me (id done/livedone/area-*), app_open with story_id seo:* and wa:*.
+
+## §31 Rituals (Oct 26)
+Three finishable tap-throughs a day, built automatically by public/ritual.js from published drops, opps, alerts, weather and the reader's area:
+- ☀️ MORNING (5:00–11:59, push 8:13 am): weather + tips → last night's plan → Today in <area> → water countdown (days to mid-Dec) → the big one (top local/india drop today) → money → deadlines this week.
+- 🍱 AFTERNOON (12:00–17:59, in-app only): what Hyderabad is talking about → tech & startups → opportunity of the day (pay40 first) → beyond Hyderabad → the running story explained.
+- 🌙 NIGHT (18:00–4:59, push 9:13 pm): today in 5 → "did you catch today?" quiz (one question per card, from today's drops' quiz cards) → tomorrow's weather → deadlines tomorrow → plan tomorrow (checklist that reappears in the morning) → one question to sit with (top drop's poll).
+- Hooks: streak, 3 dots for today's rituals, quiz score, plan carry-over, "next ritual at…".
+What writers must do: today's drops carry `date` = today; Hyderabad "big one" with high `heat`; a money drop every morning; quiz cards on most drops (night ritual uses up to 3); opps carry `deadline` where known; cover tomorrow's cuts/events in the evening run.
+Pushes: Supabase cron `spill-ritual-morning` (02:43 UTC) and `spill-ritual-night` (15:43 UTC) call public.ritual_push(slot) → send_push (counts toward the 3 automatic pushes/day). Runs must NOT send their own morning/evening pushes.
+Events: ritual_start, ritual_done (variant = streak), ritual_quit (variant = step), ritual_open, ritual_quiz, ritual_plan_tick, ritual_share; push campaign opens: push:ritual-am / push:ritual-pm.
