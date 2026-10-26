@@ -1,0 +1,63 @@
+{
+ "cat": "sport",
+ "sort": "2026-10-26-86",
+ "order": 3,
+ "heat": 4,
+ "readSecs": 35,
+ "topic": "India women vs Zimbabwe",
+ "hook": "Deepti hit *106 not out* batting at No. 6, a first for an Indian woman. India win *2-0*",
+ "tldr": "Harmanpreet Kaur and Deepti Sharma both scored centuries in the second ODI against Zimbabwe at Vadodara. Their 153-run stand from 19/2 set up a 121-run win and an unbeatable 2-0 lead. Deepti's unbeaten 106 is the first ODI hundred by an Indian woman at No. 6 or lower.",
+ "beats": {
+  "what": "India recovered from 19/2 to 300+; spinners led by Vaishnavi ran through Zimbabwe.",
+  "why": "153 runs is India's best fifth-wicket-or-lower stand in women's ODIs (previous: 122 by Sneh Rana and Pooja Vastrakar in 2022).",
+  "care": "Deepti waited 3,450 days between her two ODI tons, the second-longest gap in the format."
+ },
+ "cards": [
+  {
+   "k": "num",
+   "value": "3,450 days",
+   "caption": "between Deepti's ODI hundreds",
+   "body": "Her first was 188 vs Ireland in 2017."
+  },
+  {
+   "k": "quiz",
+   "q": "Who scored the faster century, Harmanpreet or Deepti?",
+   "opts": [
+    "Deepti",
+    "Harmanpreet"
+   ],
+   "ans": 0,
+   "why": "Harmanpreet anchored; Deepti played the destroyer."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "153",
+   "l": "runs, India's record 5th-wicket stand in women's ODIs"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#05122a",
+   "#1565c0"
+  ],
+  "big": "106*",
+  "label": "Deepti at No. 6",
+  "motion": "drift",
+  "scene": [
+   "🏏",
+   "💯",
+   "🇮🇳"
+  ]
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Harmanpreet, Deepti on fire as India seals emphatic series win (print, Hyderabad edition, 26 Oct, p.15)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-26"
+}

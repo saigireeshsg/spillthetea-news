@@ -1,0 +1,61 @@
+{
+ "cat": "world",
+ "sort": "2026-10-26-88",
+ "order": 2,
+ "heat": 4,
+ "readSecs": 40,
+ "topic": "Houthi strikes on Saudi Arabia",
+ "storyline": "west-asia",
+ "hook": "Riyadh airport reopened after *2 weeks*. Hours later, Houthi missiles hit it",
+ "tldr": "Yemen's Houthis fired dozens of ballistic missiles at southern Saudi Arabia on Sunday, targeting Riyadh's King Khalid airport hours after it partially reopened, plus an airbase and naval base. They warned all airlines that the airport is a military target. Most flights were cancelled.",
+ "beats": {
+  "what": "The Houthis claim three operations with dozens of missiles; they say Saudi Arabia struck Yemen dozens of times in 24 hours.",
+  "why": "The Iran-backed group is escalating as US and Israeli threats against Iran grow. Iran says its policies won't change, war or no war.",
+  "care": "Lakhs of Indians work in Saudi Arabia, and Umrah pilgrims are already stranded. Gulf trouble also pushes up oil, and that shows up in your petrol price."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Flightradar24 showed only a handful of departures; the vast majority of Sunday's flights were cancelled."
+  },
+  {
+   "k": "poll",
+   "q": "Do you have family or friends working in the Gulf?",
+   "opts": [
+    "Yes",
+    "No",
+    "Did earlier"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "2 weeks",
+   "l": "airport was shut before reopening on Sunday"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2a0a05",
+   "#d84315"
+  ],
+  "big": "Riyadh",
+  "label": "airport targeted again",
+  "motion": "drift",
+  "scene": [
+   "✈️",
+   "🚀",
+   "🇸🇦"
+  ]
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Houthis target Riyadh, say Yemen infra struck (print, Hyderabad edition, 26 Oct, p.1, p.10)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-26"
+}

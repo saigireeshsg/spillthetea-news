@@ -1,0 +1,63 @@
+{
+ "cat": "local",
+ "sort": "2026-10-26-79",
+ "order": 10,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "PM Rahat scheme",
+ "hook": "Road accident? *₹1.5 lakh* free treatment, but only *469* Telangana hospitals have signed up",
+ "tldr": "Under the PM Rahat scheme, road accident victims can get treatment worth up to ₹1.5 lakh. Over 1,000 hospitals are on Aarogyasri, but only 469 have enrolled in PM Rahat. Chief Secretary Sanjay Jaju has told collectors to enrol all eligible hospitals.",
+ "beats": {
+  "what": "The Chief Secretary wants every eligible network hospital enrolled.",
+  "why": "The scheme could bring at least ₹100 crore a year for treatment, easing the load on Aarogyasri.",
+  "care": "If you or someone you see is in a crash, ask the hospital about PM Rahat. Treatment shouldn't wait for money."
+ },
+ "cards": [
+  {
+   "k": "num",
+   "value": "469",
+   "caption": "hospitals enrolled",
+   "body": "vs 1,000+ on Aarogyasri."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Hospitals enrolled",
+   "a": {
+    "v": 469,
+    "d": "469",
+    "l": "PM Rahat"
+   },
+   "b": {
+    "v": 1000,
+    "d": "1,000+",
+    "l": "Aarogyasri"
+   },
+   "goodIfUp": true
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2a0505",
+   "#e53935"
+  ],
+  "big": "₹1.5 lakh",
+  "label": "free accident treatment",
+  "motion": "drift",
+  "scene": [
+   "🚑",
+   "🏥",
+   "🛣️"
+  ]
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Widen hospital coverage under PM Rahat: CS Jaju (print, Hyderabad edition, 26 Oct, p.4)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-26"
+}

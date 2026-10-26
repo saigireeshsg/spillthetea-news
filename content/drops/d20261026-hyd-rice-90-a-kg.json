@@ -1,0 +1,97 @@
+{
+ "cat": "local",
+ "sort": "2026-10-26-95",
+ "order": 1,
+ "heat": 5,
+ "readSecs": 45,
+ "topic": "Rice prices",
+ "hook": "Rice that cost *₹45/kg* now sells for *₹90*. People are pre-booking harvests",
+ "hook_b": "Fine rice has doubled to *₹90/kg* in Telangana. Some fear *₹100*",
+ "tldr": "Fine (sanna) rice that sold for about ₹45 a kg now costs over ₹90 in Telangana villages and Hyderabad. Families are paying farmers in advance to lock prices; farmers get ₹3,000–3,500 a quintal in open markets vs ₹2,450 MSP + ₹500 bonus.",
+ "beats": {
+  "what": "Open-market paddy prices jumped to ₹3,000–3,500 a quintal. Buyers are pre-booking harvests; one Vikarabad buyer paid ₹5,000 a quintal in advance.",
+  "why": "El Niño dried up water, the government is asking farmers not to sow rabi paddy, and people expect a shortage. CID also arrested 14 millers for diverting fine paddy and passing off coarse rice to FCI.",
+  "care": "Your monthly rice bill may double. Buying a bag now locks today's price, but you lose money if prices fall when the harvest peaks in December."
+ },
+ "cards": [
+  {
+   "k": "num",
+   "value": "₹90",
+   "caption": "per kg of fine rice now",
+   "body": "Was about ₹45. Buyers in Hyderabad, Khammam and Vikarabad fear it could reach ₹100."
+  },
+  {
+   "k": "twist",
+   "body": "Farmers who struggled to sell at procurement centres last season now have buyers coming to them. Selling at the PPC means 10 days of drying from 35% to 17% moisture, so many sell wet paddy straight to the open market."
+  },
+  {
+   "k": "poll",
+   "q": "Has your rice or grocery bill gone up this month?",
+   "opts": [
+    "Yes, a lot",
+    "A little",
+    "Haven't noticed",
+    "Parents handle it"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Fine rice, per kg",
+   "a": {
+    "v": 45,
+    "d": "₹45",
+    "l": "Before"
+   },
+   "b": {
+    "v": 90,
+    "d": "₹90+",
+    "l": "Now"
+   },
+   "goodIfUp": false
+  },
+  {
+   "t": "compare",
+   "l": "Paddy price per quintal",
+   "a": {
+    "v": 2950,
+    "d": "₹2,950",
+    "l": "MSP + bonus"
+   },
+   "b": {
+    "v": 3500,
+    "d": "up to ₹3,500",
+    "l": "Open market"
+   },
+   "goodIfUp": true
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2a1a05",
+   "#e0a100"
+  ],
+  "big": "₹90/kg",
+  "label": "rice, up from ₹45",
+  "motion": "drift",
+  "scene": [
+   "🍚",
+   "📈",
+   "🌾"
+  ]
+ },
+ "learn": {
+  "t": "MSP (minimum support price) is the floor the government pays for crops. When open-market prices beat MSP, less grain reaches the government's ration stock."
+ },
+ "watch": "All-party drought meet at the Secretariat, Oct 28, 2:30 pm; harvest arrivals through December.",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Rice prices go up, many pre-book to lock rates; 14 millers arrested for diversion of fine rice (print, Hyderabad edition, 26 Oct, p.6, p.1)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-26"
+}

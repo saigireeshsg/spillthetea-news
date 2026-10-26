@@ -1,0 +1,59 @@
+{
+ "cat": "tech",
+ "sort": "2026-10-26-84",
+ "order": 5,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "TG-iPASS cyber attack",
+ "hook": "Hackers took over Telangana's *TG-iPASS* industry portal. Back in *2 days*, govt says",
+ "tldr": "Telangana's TG-iPASS portal, which handles industrial approvals, was taken over in a cyber attack. The Industries Department says it has regained control, data on the server is safe, and the site will reopen within two days with stronger firewalls.",
+ "beats": {
+  "what": "Director of Industries Nikhil Chakravarthy said the portal was recovered from cyber criminals and is being hardened before reopening.",
+  "why": "No details yet on how attackers got in.",
+  "care": "Startups and businesses waiting on approvals face a delay. It's also a reminder: PM Modi said the same day that cyberattacks on the economy can weaken a country."
+ },
+ "cards": [
+  {
+   "k": "quiz",
+   "q": "What is TG-iPASS used for?",
+   "opts": [
+    "Industrial approvals",
+    "Bus passes",
+    "Exam results",
+    "Land records"
+   ],
+   "ans": 0,
+   "why": "It's Telangana's single-window system for clearances to set up industries."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "2 days",
+   "l": "until TG-iPASS reopens, per the govt"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#0a0f1f",
+   "#3949ab"
+  ],
+  "big": "Hacked",
+  "label": "TG-iPASS portal",
+  "motion": "drift",
+  "scene": [
+   "💻",
+   "🔓",
+   "🛡️"
+  ]
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "TG-iPASS portal to be restored in two days (print, Hyderabad edition, 26 Oct, p.6)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-26"
+}

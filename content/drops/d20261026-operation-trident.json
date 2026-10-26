@@ -1,0 +1,58 @@
+{
+ "cat": "india",
+ "sort": "2026-10-26-83",
+ "order": 7,
+ "heat": 3,
+ "readSecs": 40,
+ "topic": "Operation Trident drug raids",
+ "hook": "*38* raids, *1,424* bank accounts frozen: India hits a Myanmar-border drug network",
+ "tldr": "Operation Trident: the NCB, police and ED raided 38 locations in Assam, Mizoram and Manipur on Oct 23. 18 arrested, ₹100 crore in hawala traced, 1,424 bank accounts frozen, ₹17.82 crore in assets attached, 500 detonators seized.",
+ "beats": {
+  "what": "Raids hit Aizawl, Champhai and Zokhawthar (Mizoram), Churachandpur (Manipur) and the Cachar corridor (Assam).",
+  "why": "The network moved drugs across India, Myanmar and Bangladesh via the 'Death Triangle Corridor', with money laundered through hawala.",
+  "care": "Amit Shah's target: eradicate every drug network by Dec 31, 2029. Meanwhile Congress is demanding the Manipur CM resign over renewed violence (about 300 killed since May 2023)."
+ },
+ "cards": [
+  {
+   "k": "num",
+   "value": "₹100 cr",
+   "caption": "hawala money traced",
+   "body": "Plus ₹12 lakh cash and 500 detonators seized."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "1,424",
+   "l": "bank accounts frozen"
+  },
+  {
+   "t": "big",
+   "v": "18",
+   "l": "arrested across 3 States"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1a0a05",
+   "#6d4c41"
+  ],
+  "big": "38 raids",
+  "label": "one narco network",
+  "motion": "drift",
+  "scene": [
+   "🚨",
+   "💊",
+   "💰"
+  ]
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "18 held, ₹100 crore traced in Northeast drug raids (print, Hyderabad edition, 26 Oct, p.1, p.10)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-26"
+}

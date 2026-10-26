@@ -1,0 +1,63 @@
+{
+ "cat": "campus",
+ "sort": "2026-10-26-78",
+ "order": 11,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Junior college permissions",
+ "hook": "*65* Telangana junior colleges allegedly submitted *fake fire-safety certificates*",
+ "tldr": "Telangana's Intermediate Board says 3,241 junior colleges got admission permission this year (3,349 last year). 65 allegedly submitted fake Fire Safety NOCs, 27 applied for zero admissions, and corporate colleges were fined over ₹4 crore between July and October.",
+ "beats": {
+  "what": "The BIE rejected allegations of corporate favouritism and said student safety comes first.",
+  "why": "108 fewer colleges were permitted than last year.",
+  "care": "Younger sibling choosing a college? Check it's on BIE's permitted list before paying fees."
+ },
+ "cards": [
+  {
+   "k": "num",
+   "value": "₹4 cr+",
+   "caption": "fines on corporate colleges",
+   "body": "Imposed July–October 2026."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Junior colleges permitted",
+   "a": {
+    "v": 3349,
+    "d": "3,349",
+    "l": "2025–26"
+   },
+   "b": {
+    "v": 3241,
+    "d": "3,241",
+    "l": "2026–27"
+   },
+   "goodIfUp": true
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2a1505",
+   "#ef6c00"
+  ],
+  "big": "65",
+  "label": "fake fire NOCs",
+  "motion": "drift",
+  "scene": [
+   "🏫",
+   "🔥",
+   "📄"
+  ]
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "3,241 junior colleges granted admission permissions: BIE (print, Hyderabad edition, 26 Oct, p.2)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-26"
+}

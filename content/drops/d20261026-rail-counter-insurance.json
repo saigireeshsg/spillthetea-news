@@ -1,0 +1,61 @@
+{
+ "cat": "india",
+ "sort": "2026-10-26-85",
+ "order": 4,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Railway travel insurance",
+ "hook": "From *Oct 27*, counter train tickets get *₹10 lakh* insurance for *45 paise*",
+ "tldr": "From October 27, passengers booking reserved tickets at railway counters can opt for travel insurance for 45 paise per passenger. It covers death, disability, injury hospitalisation and transport of remains, paying ₹10,000 to ₹10 lakh. Until now this was online-only.",
+ "beats": {
+  "what": "The Railway Board told all zones to offer the optional travel insurance scheme at PRS counters. Staff must tell you about it.",
+  "why": "It was already on IRCTC online bookings; counter passengers were left out.",
+  "care": "Booking for parents at the counter? Ask for it. 45 paise covers everyone on that PNR. Indian citizens only."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Tick it when booking. You get policy details by SMS and email, with a link to add a nominee. Fill the nominee in, or claims get messy."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Price vs max cover",
+   "a": {
+    "v": 1,
+    "d": "45 paise",
+    "l": "Premium"
+   },
+   "b": {
+    "v": 10,
+    "d": "₹10 lakh",
+    "l": "Max cover"
+   },
+   "goodIfUp": true
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#05162a",
+   "#1e88e5"
+  ],
+  "big": "45 paise",
+  "label": "for ₹10 lakh train cover",
+  "motion": "drift",
+  "scene": [
+   "🚆",
+   "🎫",
+   "🛡️"
+  ]
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Optional rail travel insurance for counter bookings from Oct. 27 (print, Hyderabad edition, 26 Oct, p.5)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-26"
+}

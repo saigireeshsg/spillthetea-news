@@ -1,0 +1,53 @@
+{
+ "cat": "money",
+ "sort": "2026-10-26-82",
+ "order": 8,
+ "heat": 3,
+ "readSecs": 35,
+ "topic": "Foreign investors selling",
+ "storyline": "rbi-inflation",
+ "hook": "Foreign investors pulled *₹48,056 crore* out of Indian stocks in October",
+ "tldr": "Foreign portfolio investors have sold ₹48,056 crore of Indian equities so far in October, citing high crude prices, West Asia tension, inflation and weak earnings. Selling eased last week, with two days of net buying.",
+ "beats": {
+  "what": "FPIs are on track for another heavy month of outflows, after big withdrawals last month too.",
+  "why": "Oil and war risk make emerging markets look riskier; weak company earnings don't help.",
+  "care": "FPI selling drags the Nifty and weakens the rupee. If you run SIPs, falling markets buy you more units; don't panic-stop them."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "FPIs are foreign funds that buy Indian shares. When they sell, they swap rupees for dollars, which weakens the rupee."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹48,056 cr",
+   "l": "pulled from Indian stocks in October so far",
+   "tone": "bad"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#05200f",
+   "#2e7d32"
+  ],
+  "big": "₹48,056 cr",
+  "label": "foreign money out in Oct",
+  "motion": "drift",
+  "scene": [
+   "📉",
+   "💵",
+   "🌍"
+  ]
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Foreign investors withdraw ₹48,056 crore from equities (print, Hyderabad edition, 26 Oct, p.12)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-26"
+}

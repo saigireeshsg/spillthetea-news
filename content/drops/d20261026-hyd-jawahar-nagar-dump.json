@@ -1,0 +1,65 @@
+{
+ "cat": "local",
+ "sort": "2026-10-26-90",
+ "order": 3,
+ "heat": 4,
+ "readSecs": 40,
+ "topic": "Jawahar Nagar dump yard",
+ "hook": "All of Hyderabad's garbage, *8,000 tonnes a day*, goes to one site. Residents march *Oct 27*",
+ "tldr": "Jawahar Nagar is the only dump yard for the whole city: about 8,000 tonnes of garbage a day on a 339-acre site. Malkajgiri MP Eatala Rajender wants fresh dumping stopped and old waste recycled; residents march on Oct 27 and environmentalist K. Purushotham Reddy joins on Oct 28.",
+ "beats": {
+  "what": "A roundtable at Begumpet demanded the dump be shifted and replaced with zero-pollution processing. An agitation starts Tuesday, Oct 27.",
+  "why": "Residents say they live with serious health risks, and court orders haven't been implemented.",
+  "care": "Every bag of garbage you throw out ends up here. If the protests block dumping, collection in your area can slow down."
+ },
+ "cards": [
+  {
+   "k": "num",
+   "value": "339 acres",
+   "caption": "one dump for the whole city",
+   "body": "About 8,000 tonnes arrive daily (2024 estimate)."
+  },
+  {
+   "k": "poll",
+   "q": "Does your society segregate wet and dry waste?",
+   "opts": [
+    "Yes, strictly",
+    "Sort of",
+    "No",
+    "No idea"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "8,000 t",
+   "l": "of garbage dumped at Jawahar Nagar every day",
+   "tone": "bad"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1d2105",
+   "#7a8f1a"
+  ],
+  "big": "8,000 t",
+  "label": "garbage a day, one dump",
+  "motion": "drift",
+  "scene": [
+   "🗑️",
+   "🚛",
+   "😷"
+  ]
+ },
+ "watch": "Residents' march Oct 27; whether GHMC commits to new processing plants.",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "'Stop fresh dumping, recycle the piled-up waste at Jawahar Nagar' (print, Hyderabad edition, 26 Oct, p.4)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-26"
+}

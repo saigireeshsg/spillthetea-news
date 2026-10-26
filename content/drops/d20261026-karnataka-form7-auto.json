@@ -1,0 +1,53 @@
+{
+ "cat": "india",
+ "sort": "2026-10-26-81",
+ "order": 9,
+ "heat": 3,
+ "readSecs": 40,
+ "topic": "SIR voter deletions",
+ "storyline": "sir",
+ "hook": "*61,059* Karnataka voter-deletion forms filed by officials themselves, and *none* give a reason",
+ "tldr": "At least 61,059 Form 7 applications to delete names from Karnataka's rolls were filed by election officials, auto-generated with their digital signatures, and none state a reason, which the rules require. The same machinery objects to voters and decides on them.",
+ "beats": {
+  "what": "EROs say the system auto-generated forms when voters couldn't be reached during hearings and marked them 'ineligible'.",
+  "why": "SIR already deleted over 1.07 crore names from Karnataka's draft roll. In Hyderabad, protesters at Dharna Chowk on Sunday demanded CEC Gyanesh Kumar's removal.",
+  "care": "Check your name on the voter roll at voters.eci.gov.in before the final list. If you've moved, update your address."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Under the 1960 Registration of Electors Rules, an objection without a stated reason is liable to be rejected."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "61,059",
+   "l": "deletion forms with no reason given",
+   "tone": "bad"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1a052a",
+   "#7b1fa2"
+  ],
+  "big": "61,059",
+  "label": "deletions, zero reasons",
+  "motion": "drift",
+  "scene": [
+   "🗳️",
+   "❓",
+   "📋"
+  ]
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "61,000 Form 7 applications filed by poll officials in Karnataka, none cite reason; Demand for CEC Gyanesh Kumar's scalp gets louder (print, Hyderabad edition, 26 Oct, p.11, p.4)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-26"
+}

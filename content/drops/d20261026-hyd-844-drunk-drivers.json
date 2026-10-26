@@ -1,0 +1,63 @@
+{
+ "cat": "local",
+ "sort": "2026-10-26-80",
+ "order": 6,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Drunk driving",
+ "hook": "*844* drunk drivers caught in Hyderabad in a week. *707* were on two-wheelers",
+ "tldr": "Hyderabad traffic police caught 481 drunk drivers on Oct 23–24; Malkajgiri police caught 363 from Oct 18–24. 707 of the 844 were on two-wheelers. Cause a death while drunk and you can be charged with culpable homicide under BNS Section 105.",
+ "beats": {
+  "what": "Two special drives over the past week netted 844 drunk drivers across Hyderabad and Malkajgiri.",
+  "why": "Weekend enforcement is being stepped up. Courts disposed of 178 cases in Malkajgiri in the same week: 162 fined, 16 fined plus community service.",
+  "care": "Weekend checks are everywhere now. Book a cab; a fatal crash while drunk can now be treated like culpable homicide."
+ },
+ "cards": [
+  {
+   "k": "num",
+   "value": "707",
+   "caption": "of 844 were on two-wheelers",
+   "body": "Hyderabad: 397 two-wheelers of 481. Malkajgiri: 310 of 363, all men."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Drunk drivers caught",
+   "a": {
+    "v": 481,
+    "d": "481",
+    "l": "Hyderabad (2 days)"
+   },
+   "b": {
+    "v": 363,
+    "d": "363",
+    "l": "Malkajgiri (7 days)"
+   },
+   "goodIfUp": false
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#200a14",
+   "#c2185b"
+  ],
+  "big": "844",
+  "label": "drunk drivers in a week",
+  "motion": "drift",
+  "scene": [
+   "🍺",
+   "🛵",
+   "🚔"
+  ]
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "844 motorists caught driving drunk (print, Hyderabad edition, 26 Oct, p.5)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-26"
+}
