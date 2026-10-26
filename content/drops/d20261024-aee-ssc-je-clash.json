@@ -9,7 +9,7 @@
  },
  "cards": [
   {
-   "body": "BRS MLA Harish Rao wrote to CM Revanth Reddy asking TGPSC to move the AEE exam. Roads Minister Komatireddy Venkat Reddy had asked TGPSC to review dates on Oct 14. Aspirants protested at TGPSC on Oct 17. No new dates yet.",
+   "body": "Oct 26: BRS MLA Harish Rao again asked CM Revanth Reddy to step in and move the Roads & Buildings AEE exam (Nov 6). He says over 50,000 civil engineering aspirants are affected, and that SSC has already fixed its schedule. Earlier: Roads Minister Komatireddy Venkat Reddy asked TGPSC to review dates on Oct 14; aspirants protested at TGPSC on Oct 17. Telangana Today reports no govt response so far. No new dates yet.",
    "k": "tea"
   },
   {
@@ -38,7 +38,9 @@
  "city": "Hyderabad",
  "date": "2026-10-24",
  "heat": 3,
- "hook": "Two engineering exams clash in *Nov 6* week",
+ "hook": "*50,000* engineers caught in TGPSC AEE vs SSC JE clash",
+ "hook_b": "Writing both AEE and SSC JE? *Nov 6* is a problem",
+ "img_q": "examination hall India students",
  "learn": {
   "t": "TGPSC hires for Telangana government posts. SSC hires for central government posts."
  },
@@ -56,7 +58,7 @@
   "effects": [
    {
     "icon": "🎒",
-    "label": "Aspirants may miss one"
+    "label": "50,000+ may miss one"
    },
    {
     "icon": "✉️",
@@ -70,17 +72,23 @@
  },
  "order": 19,
  "readSecs": 40,
- "sort": "2026-10-24-60",
+ "sort": "2026-10-26-60",
  "sources": [
   {
    "name": "Siasat",
    "title": "Postpone AEE exam clashing with SSC JE test: Harish Rao to CM",
    "url": "https://www.siasat.com/postpone-aee-exam-clashing-with-ssc-je-test-harish-rao-to-cm-3563567/"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Harish Rao seeks postponement of TGPSC AEE exam over clash with SSC JE test",
+   "url": "https://telanganatoday.com/harish-rao-seeks-postponement-of-tgpsc-aee-exam-over-clash-with-ssc-je-test"
   }
  ],
  "thread": "aee-exam-clash",
- "tldr": "TGPSC's AEE exam overlaps with the SSC JE test, and aspirants want new AEE dates.",
+ "tldr": "TGPSC's AEE exam on Nov 6 overlaps with the SSC JE test. Harish Rao says 50,000+ civil engineering aspirants are hit; no reply from govt yet.",
  "topic": "AEE vs SSC JE exam clash",
+ "updated": 1793004331258,
  "viz": [
   {
    "l": "The clash week",
@@ -96,8 +104,13 @@
     }
    ],
    "t": "timeline"
+  },
+  {
+   "l": "civil engineering aspirants affected, says Harish Rao",
+   "t": "big",
+   "tone": "bad",
+   "v": "50,000+"
   }
  ],
- "watch": "Watch for a TGPSC notice on new AEE dates before Nov 6.",
- "img_q": "examination hall India students"
+ "watch": "Watch for a TGPSC notice on new AEE dates before Nov 6."
 }

@@ -24,3 +24,4 @@ One line per experiment: date · what · result.
 - Sheet shows "Max 3 a day" + an example notification. iPhone (not installed) gets Add-to-Home-Screen steps (optin_ios).
 - Measure: read_events optin_shown/optin_yes/optin_no/alerts_on with id = trigger → conversion per moment. Baseline: 4 subs / 388 devices (1%). Target 20%.
 - 2026-10-26 (hourly) · d20261024-hyd-el-nino-water: new A/B pair on update — A stake-first statement with number ("5 lakes hold 8.9 TMC; cut use 20%") vs B number-first + question ("Singur down 81%… can you cut 20%?") · running
+- 2026-10-26 (hourly) · d20261024-aee-ssc-je-clash: A number-first statement ("50,000 engineers caught…") vs B second-person stake + date ("Writing both…? Nov 6 is a problem") · running
