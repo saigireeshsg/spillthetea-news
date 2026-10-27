@@ -38,3 +38,4 @@ One line per experiment: date · what · result.
 
 - 2026-10-27 (evening) · d20261027-hyd-cantonment-skyways: A number-first statement ('5.4 km, pillars almost done') vs B commuter-pain question ('Stuck at Paradise Circle daily?') · running
 - 2026-10-27 (half-hourly, 20:43 IST) · d20261024-bay-cyclone: both hooks refreshed to 95 trains cancelled, styles unchanged (A stake-first statement vs B destination-first question) · running
+- 2026-10-27 (half-hourly, 22:13 IST) · d20261026-hyd-rice-90-a-kg: updated in place (trader warning); B hook switched to hoarding question ('Rice at ₹90/kg: are traders hoarding it?') vs A number-first statement · running

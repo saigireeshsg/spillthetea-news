@@ -1,13 +1,13 @@
 {
  "cat": "local",
- "sort": "2026-10-26-95",
+ "sort": "2026-10-27-90",
  "order": 1,
  "heat": 5,
  "readSecs": 45,
  "topic": "Rice prices",
  "hook": "Rice that cost *₹45/kg* now sells for *₹90*. People are pre-booking harvests",
- "hook_b": "Fine rice has doubled to *₹90/kg* in Telangana. Some fear *₹100*",
- "tldr": "Fine (sanna) rice that sold for about ₹45 a kg now costs over ₹90 in Telangana villages and Hyderabad. Families are paying farmers in advance to lock prices; farmers get ₹3,000–3,500 a quintal in open markets vs ₹2,450 MSP + ₹500 bonus.",
+ "hook_b": "Rice at *₹90/kg*: are traders hoarding it?",
+ "tldr": "Update Oct 27: traders in Telangana have been warned against creating an artificial rice shortage. Fine (sanna) rice that sold for about ₹45 a kg now costs over ₹90 in Telangana villages and Hyderabad. Families are paying farmers in advance to lock prices; farmers get ₹3,000–3,500 a quintal in open markets vs ₹2,450 MSP + ₹500 bonus.",
  "beats": {
   "what": "Open-market paddy prices jumped to ₹3,000–3,500 a quintal. Buyers are pre-booking harvests; one Vikarabad buyer paid ₹5,000 a quintal in advance.",
   "why": "El Niño dried up water, the government is asking farmers not to sow rabi paddy, and people expect a shortage. CID also arrested 14 millers for diverting fine paddy and passing off coarse rice to FCI.",
@@ -19,6 +19,12 @@
    "value": "₹90",
    "caption": "per kg of fine rice now",
    "body": "Was about ₹45. Buyers in Hyderabad, Khammam and Vikarabad fear it could reach ₹100."
+  },
+  {
+   "k": "num",
+   "value": "₹52.67",
+   "caption": "avg retail rice in Telangana, May–July",
+   "body": "Nearly ₹10/kg above the national average, per Union Consumer Affairs data reported in July. Experts then blamed hoarding as well as El Niño."
   },
   {
    "k": "twist",
@@ -84,12 +90,22 @@
  "learn": {
   "t": "MSP (minimum support price) is the floor the government pays for crops. When open-market prices beat MSP, less grain reaches the government's ration stock."
  },
- "watch": "All-party drought meet at the Secretariat, Oct 28, 2:30 pm; harvest arrivals through December.",
+ "watch": "Any action on hoarding traders after the Oct 27 warning; all-party drought meet at the Secretariat, Oct 28, 2:30 pm; harvest arrivals through December.",
  "sources": [
   {
    "name": "The Hindu",
    "title": "Rice prices go up, many pre-book to lock rates; 14 millers arrested for diversion of fine rice (print, Hyderabad edition, 26 Oct, p.6, p.1)",
    "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  },
+  {
+   "name": "The Hindu",
+   "title": "As rice prices spike, traders warned against creating artificial shortage (27 Oct)",
+   "url": "https://www.thehindu.com/news/national/telangana/as-rice-prices-spike-traders-warned-against-creating-artificial-shortage/article71632698.ece"
+  },
+  {
+   "name": "Siasat",
+   "title": "Rice prices surge in Telangana amid El Niño, hoarding worries (July)",
+   "url": "https://www.siasat.com/rice-prices-surge-in-telangana-amid-el-nino-hoarding-worries-3515046/amp/"
   }
  ],
  "city": "Hyderabad",
@@ -124,5 +140,6 @@
   "e": "😩",
   "t": "My rice bill went up too",
   "k": "bill"
- }
+ },
+ "updated": 1793118040459
 }
