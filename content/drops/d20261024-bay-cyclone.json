@@ -2,9 +2,14 @@
  "beats": {
   "what": "IMD: very severe Cyclone Arnab to cross near Yanam–Kakinada on Oct 28; 89,000 being evacuated in Kakinada.",
   "why": "It could become a very severe cyclonic storm near the coast. Winds 115–125 kmph, gusts to 140.",
-  "care": "Trips to Khammam, Bhadrachalam, Warangal on Oct 28–29? Push them. Hyderabad: no city alert yet."
+  "care": "Train or road trip towards the Andhra coast, Khammam or Warangal on Oct 28–29? Check status or push it. Hyderabad: no city alert yet."
  },
  "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 Afternoon update (Oct 27): SCR cancels 12 trains",
+   "body": "South Central Railway has cancelled 12 trains because of Cyclone Arnab (Deccan Chronicle). That's on top of the 8 cancellations and 2 diversions Railways announced on Oct 26 (Indian Express). Travelling from Hyderabad/Secunderabad towards the Andhra coast or Odisha on Oct 27–29? Check your train's status on NTES or the SCR site before leaving home. Telangana's IMD alerts are unchanged."
+  },
   {
    "k": "tea",
    "title": "🆕 Midday update (Oct 27): Arnab speeds up, Odisha moves 48,000",
@@ -82,7 +87,7 @@
  },
  "date": "2026-10-27",
  "heat": 5,
- "hook": "🌀 Arnab speeds to *22 kmph*; Odisha evacuates 48,000",
+ "hook": "🚆 Arnab: SCR cancels *12 trains*; check yours",
  "learn": {
   "t": "Cyclone names come from a list made by 13 countries around the Indian Ocean and are used in order. A storm is named only when its winds reach cyclonic strength (63 km/h or more)."
  },
@@ -114,8 +119,13 @@
  },
  "order": 1,
  "readSecs": 55,
- "sort": "2026-10-27-94",
+ "sort": "2026-10-27-96",
  "sources": [
+  {
+   "name": "Deccan Chronicle",
+   "title": "SCR Cancels 12 Trains in View of Cyclone Arnab (27 Oct)",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/"
+  },
   {
    "name": "The Hindu",
    "title": "Cyclone Arnab: Odisha announces evacuation of 48,000 in eight districts (27 Oct)",
@@ -253,7 +263,7 @@
   }
  ],
  "thread": "bay-cyclone",
- "tldr": "Very severe Cyclone Arnab crosses near Yanam–Kakinada on Oct 28 and is now moving at 22 kmph. Andhra is moving 89,000+ people, Odisha 48,000. East Telangana: heavy rain Wed–Thu. Hyderabad: no alert.",
+ "tldr": "Very severe Cyclone Arnab crosses near Yanam–Kakinada on Oct 28. SCR has cancelled 12 trains. Andhra is moving 89,000+ people, Odisha 48,000. East Telangana: heavy rain Wed–Thu. Hyderabad: no alert.",
  "topic": "Bay of Bengal cyclone",
  "viz": [
   {
@@ -351,8 +361,8 @@
   }
  ],
  "watch": "IMD's next bulletins on the exact crossing point; school holidays in east Telangana on Oct 28–29; whether Hyderabad gets an alert.",
- "updated": 1793085226145,
- "hook_b": "Got family in Kakinada or Konaseema? 89,000 are moving out before Arnab hits",
+ "updated": 1793089167080,
+ "hook_b": "Train to Vizag or Odisha this week? SCR just cancelled 12",
  "storyline": "bay-cyclone-2026",
  "lead": "local"
 }
