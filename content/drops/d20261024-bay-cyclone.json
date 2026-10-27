@@ -2,9 +2,14 @@
  "beats": {
   "what": "IMD: very severe Cyclone Arnab to cross near Yanam–Kakinada on Oct 28; 89,000 being evacuated in Kakinada.",
   "why": "It could become a very severe cyclonic storm near the coast. Winds 115–125 kmph, gusts to 140.",
-  "care": "Train or road trip towards the Andhra coast, Khammam or Warangal on Oct 28–29? Check status or push it. Hyderabad: no city alert yet."
+  "care": "Train or road trip towards the Andhra coast, Odisha, Khammam or Warangal on Oct 28–29? 95 trains are cancelled: check status or push it. Hyderabad: no city alert yet."
  },
  "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 Late evening update (Oct 27): 95 trains cancelled, Kakinada moves 15,000+",
+   "body": "Railways have now cancelled 95 trains because of Cyclone Arnab, with 18 others affected (Indian Express, full list). That's up from the 64 services The Hindu reported earlier. In Kakinada district, Deputy CM Pawan Kalyan has ordered more than 15,000 people shifted from 92 vulnerable habitations, with essential supplies at relief centres (The Hindu). Leaving Hyderabad/Secunderabad towards the Andhra coast or Odisha on Oct 28–29? Check NTES before you leave home."
+  },
   {
    "k": "tea",
    "title": "🆕 Night update (Oct 27): 64 train services cancelled",
@@ -97,7 +102,7 @@
  },
  "date": "2026-10-27",
  "heat": 5,
- "hook": "🚆 Arnab: *64 train services* cancelled Oct 27–28; check yours",
+ "hook": "🚆 Arnab: *95 trains* cancelled, 18 more hit; check yours",
  "learn": {
   "t": "Cyclone names come from a list made by 13 countries around the Indian Ocean and are used in order. A storm is named only when its winds reach cyclonic strength (63 km/h or more)."
  },
@@ -131,6 +136,16 @@
  "readSecs": 55,
  "sort": "2026-10-27-96",
  "sources": [
+  {
+   "name": "Indian Express",
+   "title": "Cyclone Arnab Update: Railways cancels 95 trains, 18 others affected - full list (27 Oct)",
+   "url": "https://indianexpress.com/article/india/cyclone-arnab-train-cancellation-list-railways-10939305/"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Pawan Kalyan directs evacuation of people from cyclone-prone areas in Kakinada district (27 Oct)",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/pawan-kalyan-directs-evacuation-of-people-from-cyclone-prone-areas-in-kakinada-district/article71632243.ece"
+  },
   {
    "name": "The Hindu",
    "title": "Cyclone ‘Arnab’: 64 train services cancelled on October 27 and 28 (27 Oct)",
@@ -288,9 +303,24 @@
   }
  ],
  "thread": "bay-cyclone",
- "tldr": "Very severe Cyclone Arnab crosses near Yanam–Kakinada on Oct 28. NDRF has 31 teams out; 600 km of rail track is under watch and 64 train services are cancelled on Oct 27–28. Andhra is moving 89,000+ people, Odisha 48,000. East Telangana: heavy rain Wed–Thu. Hyderabad: no alert.",
+ "tldr": "Very severe Cyclone Arnab crosses near Yanam–Kakinada on Oct 28. Railways have cancelled 95 trains and hit 18 more; NDRF has 31 teams out. Andhra is moving 89,000+ people (15,000+ more from 92 Kakinada habitations), Odisha 48,000. East Telangana: heavy rain Wed–Thu. Hyderabad: no alert.",
  "topic": "Bay of Bengal cyclone",
  "viz": [
+  {
+   "t": "compare",
+   "l": "Trains cancelled for Arnab, Oct 27",
+   "a": {
+    "v": 64,
+    "d": "64",
+    "l": "Earlier (The Hindu)"
+   },
+   "b": {
+    "v": 95,
+    "d": "95",
+    "l": "Now (Indian Express)"
+   },
+   "goodIfUp": false
+  },
   {
    "t": "compare",
    "l": "People being evacuated (The Hindu)",
@@ -386,8 +416,8 @@
   }
  ],
  "watch": "IMD's next bulletins on the exact crossing point; school holidays in east Telangana on Oct 28–29; whether Hyderabad gets an alert.",
- "updated": 1793094371665,
- "hook_b": "Train to Vizag or Odisha this week? 64 services just got cancelled",
+ "updated": 1793114600916,
+ "hook_b": "Train to Vizag or Odisha this week? 95 just got cancelled",
  "storyline": "bay-cyclone-2026",
  "lead": "local"
 }
