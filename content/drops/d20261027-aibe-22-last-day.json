@@ -1,0 +1,69 @@
+{
+ "cat": "campus",
+ "sort": "2026-10-27-80",
+ "order": 5,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "AIBE 22 bar exam",
+ "hook": "Law grads: AIBE 22 registration closes *today*",
+ "hook_b": "Want to practise law? You have till *tonight*",
+ "tldr": "Registration for AIBE 22, the Bar Council of India's exam for law graduates, closes today, October 27. Fees can be paid till October 28 and forms corrected till October 30. The exam is on November 29.",
+ "beats": {
+  "what": "The Bar Council of India's AIBE 22 registration window shuts today on allindiabarexamination.com.",
+  "why": "Clearing AIBE gets you the Certificate of Practice (CoP), which you need to practise as an advocate.",
+  "care": "Final-year or fresh LLB? Register today, pay by Oct 28. Miss it and you wait for the next round."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Dates to save: register Oct 27, pay fee Oct 28, fix mistakes till Oct 30, admit card Nov 14, exam Nov 29. Fee is ₹3,560 for General/OBC and ₹2,560 for SC/ST, bank charges included."
+  },
+  {
+   "k": "num",
+   "value": "65.92%",
+   "caption": "qualified in AIBE 21",
+   "body": "1,15,805 candidates cleared the last round and became eligible for the Certificate of Practice."
+  },
+  {
+   "k": "poll",
+   "q": "Writing AIBE 22?",
+   "opts": ["Registered already", "Doing it today", "Next round", "Not a law student"]
+  },
+  {
+   "k": "quiz",
+   "q": "When is the AIBE 22 exam?",
+   "opts": ["November 29", "November 14", "October 30", "December 13"],
+   "ans": 0,
+   "why": "Nov 29. The admit card comes out Nov 14."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "AIBE 22 fee (incl. bank charges)",
+   "a": {"v": 3560, "d": "₹3,560", "l": "General/OBC"},
+   "b": {"v": 2560, "d": "₹2,560", "l": "SC/ST"},
+   "goodIfUp": false
+  }
+ ],
+ "map": {
+  "causes": [
+   {"icon": "⚖️", "label": "BCI bar exam"},
+   {"icon": "📜", "label": "Needed for CoP"}
+  ],
+  "event": {"icon": "⏰", "label": "Registration ends today"},
+  "effects": [
+   {"icon": "💳", "label": "Fee by Oct 28"},
+   {"icon": "📝", "label": "Exam Nov 29"}
+  ]
+ },
+ "learn": {"t": "Certificate of Practice (CoP): the Bar Council's licence that lets an enrolled advocate practise in Indian courts. AIBE is the exam you clear to get it."},
+ "watch": "Correction window till Oct 30; admit card on Nov 14.",
+ "thread": "aibe-22",
+ "sources": [
+  {"name": "Careers360", "title": "AIBE 22 exam 2026 registration last date", "url": "https://law.careers360.com/articles/aibe-22-exam-2026-registration-last-date"},
+  {"name": "NDTV", "title": "AIBE 22 Registration 2026: Last Date To Apply Today", "url": "https://www.ndtv.com/education/aibe-22-registration-2026-last-date-to-apply-today-check-fees-eligibility-details-12241453"}
+ ],
+ "date": "2026-10-27",
+ "moment": {"e": "📤", "t": "Sending to my law friends", "k": "tell"}
+}
