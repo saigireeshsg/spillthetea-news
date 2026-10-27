@@ -7,6 +7,11 @@
  "cards": [
   {
    "k": "tea",
+   "title": "🆕 Night update (Oct 27): 64 train services cancelled",
+   "body": "The Hindu reports 64 train services cancelled across Oct 27 and 28 because of Cyclone Arnab. Long-distance expresses linking Telangana with coastal Andhra and Odisha are among them. Railways advise passengers to check status before travel. Full list not verified here yet: check your train on NTES before leaving home."
+  },
+  {
+   "k": "tea",
    "title": "🆕 Evening update (Oct 27): NDRF 31 teams, 600 km track watched",
    "body": "NDRF has deployed 31 teams across states and a UT likely to be hit as very severe Cyclone Arnab nears the Andhra coast near Yanam; shelters are open and fishermen told to stay ashore (NDRF DIG, via Telangana Today). Railway Minister Ashwini Vaishnaw says 600 km of rail track is under close watch ahead of landfall (Indian Express). Still travelling east by train on Oct 28–29? Check NTES before you leave."
   },
@@ -92,7 +97,7 @@
  },
  "date": "2026-10-27",
  "heat": 5,
- "hook": "🚆 Arnab: SCR cancels *12 trains*; check yours",
+ "hook": "🚆 Arnab: *64 train services* cancelled Oct 27–28; check yours",
  "learn": {
   "t": "Cyclone names come from a list made by 13 countries around the Indian Ocean and are used in order. A storm is named only when its winds reach cyclonic strength (63 km/h or more)."
  },
@@ -126,6 +131,11 @@
  "readSecs": 55,
  "sort": "2026-10-27-96",
  "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Cyclone ‘Arnab’: 64 train services cancelled on October 27 and 28 (27 Oct)",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-train-services-cancelled-on-october-27-and-28/article71630352.ece"
+  },
   {
    "name": "Telangana Today",
    "title": "31 NDRF teams deployed for Cyclone Arnab (27 Oct)",
@@ -278,7 +288,7 @@
   }
  ],
  "thread": "bay-cyclone",
- "tldr": "Very severe Cyclone Arnab crosses near Yanam–Kakinada on Oct 28. NDRF has 31 teams out; 600 km of rail track is under watch and SCR has cancelled 12 trains. Andhra is moving 89,000+ people, Odisha 48,000. East Telangana: heavy rain Wed–Thu. Hyderabad: no alert.",
+ "tldr": "Very severe Cyclone Arnab crosses near Yanam–Kakinada on Oct 28. NDRF has 31 teams out; 600 km of rail track is under watch and 64 train services are cancelled on Oct 27–28. Andhra is moving 89,000+ people, Odisha 48,000. East Telangana: heavy rain Wed–Thu. Hyderabad: no alert.",
  "topic": "Bay of Bengal cyclone",
  "viz": [
   {
@@ -376,8 +386,8 @@
   }
  ],
  "watch": "IMD's next bulletins on the exact crossing point; school holidays in east Telangana on Oct 28–29; whether Hyderabad gets an alert.",
- "updated": 1793090705195,
- "hook_b": "Train to Vizag or Odisha this week? SCR just cancelled 12",
+ "updated": 1793094371665,
+ "hook_b": "Train to Vizag or Odisha this week? 64 services just got cancelled",
  "storyline": "bay-cyclone-2026",
  "lead": "local"
 }

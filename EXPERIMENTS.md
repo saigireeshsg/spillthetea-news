@@ -34,3 +34,4 @@ One line per experiment: date · what · result.
 - 2026-10-27 (half-hourly, 12:45 pm IST) · d20261027-aibe-22-last-day: A audience+deadline statement ('Law grads: closes today') vs B second-person aspiration question ('Want to practise law?') · running
 - 2026-10-27 · cyclone card hook_b: question + destination-first ('Train to Vizag or Odisha this week?') vs stake-first statement · running
 - 2026-10-27 (hourly, evening IST) · d20261024-bay-cyclone: hook_b test kept as is (evening update added, hook A/B unchanged so the comparison stays clean) · running
+- 2026-10-27 (hourly, night IST) · d20261024-bay-cyclone: both hooks refreshed to the new 64-services number, styles unchanged (A stake-first statement vs B destination-first question) · running
