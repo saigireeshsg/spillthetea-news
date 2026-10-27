@@ -1,0 +1,74 @@
+{
+ "cat": "world",
+ "sort": "2026-10-27-82",
+ "order": 7,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Brazil election",
+ "hook": "Lula, 80, wins a *4th term* with a record *64 million* votes",
+ "tldr": "Luiz Inácio Lula da Silva beat Flávio Bolsonaro in Brazil's runoff, with 64 million votes, the most ever in a Brazilian presidential election. He had trailed in round one (45.16% vs 47.03%). 'Brazil is nobody's backyard,' he said, pointing at alleged US meddling.",
+ "beats": {
+  "what": "Lula won by more than 4 million votes after a comeback driven by young voters' rallies.",
+  "why": "Young Brazilians feared cuts to public education, health and transport under Bolsonaro.",
+  "care": "Brazil is India's BRICS partner; Lula promises a national AI system and more public universities."
+ },
+ "cards": [
+  {
+   "k": "quiz",
+   "q": "How many votes did Lula get?",
+   "opts": [
+    "64 million",
+    "40 million",
+    "90 million",
+    "25 million"
+   ],
+   "ans": 0,
+   "why": "64 million, a Brazilian record."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Round 1 vote share",
+   "a": {
+    "v": 45.16,
+    "d": "45.16%",
+    "l": "Lula"
+   },
+   "b": {
+    "v": 47.03,
+    "d": "47.03%",
+    "l": "Bolsonaro"
+   },
+   "goodIfUp": true
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#05200a",
+   "#2e7d32"
+  ],
+  "big": "64 mn",
+  "label": "votes, a record",
+  "motion": "drift",
+  "scene": [
+   "🇧🇷",
+   "🗳️",
+   "✊"
+  ]
+ },
+ "moment": {
+  "e": "✊",
+  "t": "Youth vote won it",
+  "k": "youth"
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Lula beats far-right, wins fourth presidential term (print, Hyderabad edition, 27 Oct, p.1, p.8)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-27"
+}

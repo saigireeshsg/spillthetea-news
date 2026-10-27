@@ -1,0 +1,80 @@
+{
+ "cat": "tech",
+ "sort": "2026-10-27-84",
+ "order": 6,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Anthropic IPO",
+ "hook": "Anthropic, maker of Claude, files for a US IPO. H1 revenue *$16.3 billion*",
+ "tldr": "Anthropic filed to list on Nasdaq under the ticker 'ANT' on Oct 26. It reported $16.3 billion revenue for the six months to June 30, 2026, up from $1.16 billion a year earlier. Share count and price aren't set yet.",
+ "beats": {
+  "what": "A public registration statement went to the US SEC on Oct 26, after a confidential draft on June 1.",
+  "why": "The filing shows fast revenue growth and the high cost of building and running advanced AI models.",
+  "care": "One of the biggest AI listings yet. Indian investors can't buy at IPO directly; it's a signal of how much money is flowing into AI."
+ },
+ "cards": [
+  {
+   "k": "num",
+   "value": "~14x",
+   "caption": "H1 revenue growth",
+   "body": "$1.16 billion → $16.3 billion, six months to June 30."
+  },
+  {
+   "k": "quiz",
+   "q": "Which ticker has Anthropic applied for?",
+   "opts": [
+    "ANT",
+    "ANTH",
+    "CLDE",
+    "AIX"
+   ],
+   "ans": 0,
+   "why": "'ANT' on the Nasdaq Global Select Market."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Revenue, Jan–Jun",
+   "a": {
+    "v": 1.16,
+    "d": "$1.16 bn",
+    "l": "2025"
+   },
+   "b": {
+    "v": 16.3,
+    "d": "$16.3 bn",
+    "l": "2026"
+   },
+   "goodIfUp": true
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1a120a",
+   "#d97757"
+  ],
+  "big": "$16.3 bn",
+  "label": "six-month revenue",
+  "motion": "drift",
+  "scene": [
+   "🤖",
+   "📈",
+   "🏦"
+  ]
+ },
+ "moment": {
+  "e": "🤯",
+  "t": "14x in a year?!",
+  "k": "wow"
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Anthropic files for IPO as H1 revenue jumps 14-fold to $16.3 billion (print, Hyderabad edition, 27 Oct, p.11)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-27"
+}

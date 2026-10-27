@@ -1,0 +1,68 @@
+{
+ "cat": "money",
+ "sort": "2026-10-27-80",
+ "order": 8,
+ "heat": 3,
+ "readSecs": 35,
+ "topic": "E100 ethanol fuel",
+ "hook": "Cars that run on *100% ethanol* are now legal to certify in India",
+ "tldr": "The road transport ministry amended the Central Motor Vehicles Rules to recognise E100 (nearly pure ethanol) alongside E85, giving carmakers a path to certify flex-fuel vehicles. E20 has been the default petrol since April 2025.",
+ "beats": {
+  "what": "Rules 115 and 115E now include E100. Flex-fuel vehicles can run on petrol, any ethanol blend, or pure ethanol.",
+  "why": "India is cutting oil imports with ethanol. Blends above E20 (E22–E30) were specified in May 2026.",
+  "care": "Nothing changes at your pump yet. Check your vehicle's fuel sticker and manual before using any higher blend."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "\"This is an enabling step, not a market outcome,\" says Amit Bhatt of the International Council on Clean Transportation. Carmakers still have to build and certify these vehicles."
+  },
+  {
+   "k": "quiz",
+   "q": "What's the default petrol blend in India since April 2025?",
+   "opts": [
+    "E20",
+    "E10",
+    "E100",
+    "E85"
+   ],
+   "ans": 0,
+   "why": "E20, petrol with 20% ethanol."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "E100",
+   "l": "now recognised for flex-fuel vehicles"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#05200f",
+   "#43a047"
+  ],
+  "big": "E100",
+  "label": "pure-ethanol cars, now allowed",
+  "motion": "drift",
+  "scene": [
+   "⛽",
+   "🌽",
+   "🚗"
+  ]
+ },
+ "moment": {
+  "e": "⛽",
+  "t": "Will my bike handle this?",
+  "k": "bike"
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Govt. amends rules to enable use of E100 in compliant vehicles (print, Hyderabad edition, 27 Oct, p.11)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-27"
+}

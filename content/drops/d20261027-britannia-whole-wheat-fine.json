@@ -1,0 +1,78 @@
+{
+ "cat": "money",
+ "sort": "2026-10-27-88",
+ "order": 4,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Britannia '100% whole wheat' ad",
+ "hook": "Britannia's '100% whole wheat' bread had *62%* wheat. Fined *₹1 lakh*",
+ "tldr": "The Central Consumer Protection Authority fined Britannia ₹1 lakh for advertising '100% whole wheat bread' when the pack declared 62% wheat content, and ordered the ad pulled across print, TV and social media. Britannia must file a compliance report in 15 days.",
+ "beats": {
+  "what": "CCPA's Oct 22 order calls the claim a misleading ad and orders it taken down immediately.",
+  "why": "CCPA acted on its own after spotting the 62% figure on the packaging. Britannia accepted the claim was inaccurate.",
+  "care": "Read the ingredients panel, not the front of the pack. '100%' on the front means nothing if the label says otherwise."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "You can complain about misleading ads yourself: National Consumer Helpline 1915, or the NCH app."
+  },
+  {
+   "k": "quiz",
+   "q": "How much wheat did the '100% whole wheat' bread declare?",
+   "opts": [
+    "62%",
+    "100%",
+    "85%",
+    "40%"
+   ],
+   "ans": 0,
+   "why": "The pack declared 62% wheat content."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Whole wheat",
+   "a": {
+    "v": 100,
+    "d": "100%",
+    "l": "Ad claimed"
+   },
+   "b": {
+    "v": 62,
+    "d": "62%",
+    "l": "Pack declared"
+   },
+   "goodIfUp": true
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2a1a05",
+   "#d39b2a"
+  ],
+  "big": "62%",
+  "label": "wheat in '100% wheat' bread",
+  "motion": "drift",
+  "scene": [
+   "🍞",
+   "⚖️",
+   "🔍"
+  ]
+ },
+ "moment": {
+  "e": "🔍",
+  "t": "Checking my bread label now",
+  "k": "label"
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "CCPA fines Britannia over '100%' whole wheat bread claim (print, Hyderabad edition, 27 Oct, p.11)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-27"
+}

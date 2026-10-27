@@ -1,0 +1,93 @@
+{
+ "cat": "local",
+ "sort": "2026-10-27-94",
+ "order": 2,
+ "heat": 4,
+ "readSecs": 40,
+ "topic": "Graduate MLC voter enrolment",
+ "hook": "Only *4.98%* of graduate-voter applications approved. Deadline *Nov 6*",
+ "hook_b": "*4.96 lakh* graduate-voter forms still pending. Is yours one?",
+ "tldr": "For the two Graduate MLC seats in Telangana, just 26,085 of about 5.2 lakh voter applications (4.98%) are approved; 4,96,112 (94.72%) await verification and 1,581 were rejected. Enrolment closes Nov 6. In Mahabubnagar–Rangareddy–Hyderabad, only 4,695 of 2,29,937 are approved.",
+ "beats": {
+  "what": "26,085 approved, 4,96,112 pending, 1,581 rejected across Mahabubnagar–Rangareddy–Hyderabad and Warangal–Khammam–Nalgonda.",
+  "why": "Graduate rolls are made fresh each time; an earlier enrolment doesn't carry over, and many graduates don't know that.",
+  "care": "Graduated 3+ years ago and live in these districts? Enrol (Form 18) before Nov 6, then check your status. Pending isn't approved."
+ },
+ "cards": [
+  {
+   "k": "num",
+   "value": "4,695",
+   "caption": "approved of 2,29,937 in Mahabubnagar–Rangareddy–Hyderabad",
+   "body": "Hyderabad district has seen very low response, The Hindu reports."
+  },
+  {
+   "k": "twist",
+   "body": "At the current pace, the roll may reach only about 7.7 lakh by the deadline, roughly 74% of the 10.36 lakh electors in 2021."
+  },
+  {
+   "k": "quiz",
+   "q": "When does graduate-voter enrolment close?",
+   "opts": [
+    "Nov 6",
+    "Oct 30",
+    "Dec 1",
+    "Nov 15"
+   ],
+   "ans": 0,
+   "why": "Nov 6 for both Graduate constituencies."
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Applications approved",
+   "v": 4.98,
+   "max": 100,
+   "d": "4.98%"
+  },
+  {
+   "t": "compare",
+   "l": "Graduate voters",
+   "a": {
+    "v": 10.36,
+    "d": "10.36 lakh",
+    "l": "2021 roll"
+   },
+   "b": {
+    "v": 5.24,
+    "d": "~5.2 lakh",
+    "l": "Applied so far"
+   },
+   "goodIfUp": true
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#1e88e5"
+  ],
+  "big": "4.98%",
+  "label": "graduate-voter forms approved",
+  "motion": "drift",
+  "scene": [
+   "🎓",
+   "🗳️",
+   "⏳"
+  ]
+ },
+ "moment": {
+  "e": "🗳️",
+  "t": "Checking my status",
+  "k": "check"
+ },
+ "watch": "Enrolment deadline Nov 6.",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Graduate MLC polls: nearly five lakh voter applications pending (print, Hyderabad edition, 27 Oct, p.4)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-27"
+}

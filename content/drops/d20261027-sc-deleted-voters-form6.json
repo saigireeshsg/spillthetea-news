@@ -1,0 +1,65 @@
+{
+ "cat": "india",
+ "sort": "2026-10-27-77",
+ "order": 12,
+ "heat": 3,
+ "readSecs": 35,
+ "topic": "SIR deleted voters",
+ "storyline": "sir",
+ "hook": "Deleted in SIR? Re-applying won't get you *prosecuted*, Supreme Court says",
+ "tldr": "The Supreme Court orally assured that voters deleted in Maharashtra's SIR won't be prosecuted just for re-applying with Form 6; it hears the plea on Nov 5. Separately, the Election Commission told the court the CEC can only be removed like a Supreme Court judge.",
+ "beats": {
+  "what": "Petitioners say thousands in Mumbai and Pune were marked absent because their buildings are under redevelopment (3,500 projects in Mumbai, 1,500 in Pune).",
+  "why": "Fear of prosecution was stopping deleted voters from re-registering.",
+  "care": "Name missing? Fill Form 6 on voters.eci.gov.in. The court says re-applying alone isn't an offence."
+ },
+ "cards": [
+  {
+   "k": "quiz",
+   "q": "Which form do you use to re-register as a voter?",
+   "opts": [
+    "Form 6",
+    "Form 7",
+    "Form 8",
+    "Form 18"
+   ],
+   "ans": 0,
+   "why": "Form 6 is for new or re-registration. Form 7 is for deletion."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Nov 5",
+   "l": "SC hears the Maharashtra SIR plea"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1a052a",
+   "#7b1fa2"
+  ],
+  "big": "Form 6",
+  "label": "safe to re-apply",
+  "motion": "drift",
+  "scene": [
+   "🗳️",
+   "⚖️",
+   "📝"
+  ]
+ },
+ "moment": {
+  "e": "📝",
+  "t": "Checking my name",
+  "k": "check"
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Deleted voters will not be prosecuted for filing Form 6: SC; CEC can be removed only like an SC judge, ECI says (print, Hyderabad edition, 27 Oct, p.9)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-27"
+}

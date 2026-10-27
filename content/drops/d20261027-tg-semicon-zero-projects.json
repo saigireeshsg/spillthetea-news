@@ -1,0 +1,64 @@
+{
+ "cat": "money",
+ "sort": "2026-10-27-78",
+ "order": 10,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Semiconductor projects",
+ "hook": "Telangana got *0* of ~8 chip projects last time. Now it's chasing Semicon 2.0",
+ "tldr": "Telangana got none of the seven to eight semiconductor projects sanctioned under the Centre's previous policy, an official told The Hindu. It is now pitching for projects under Semicon 2.0, approved on July 15 with ₹1.27 lakh crore.",
+ "beats": {
+  "what": "The state is 'aggressively marketing' itself to the Centre for chip-making projects.",
+  "why": "Semicon 2.0 aims to move India from assembly to full self-reliance in chips.",
+  "care": "A chip fab would bring thousands of skilled jobs. Gujarat and Assam won the last round."
+ },
+ "cards": [
+  {
+   "k": "quiz",
+   "q": "How big is Semicon 2.0?",
+   "opts": [
+    "₹1.27 lakh crore",
+    "₹12,700 crore",
+    "₹27 lakh crore",
+    "₹500 crore"
+   ],
+   "ans": 0,
+   "why": "Approved July 15 with a ₹1.27 lakh crore outlay."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹1.27L cr",
+   "l": "Semicon 2.0 outlay"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#0a1a1f",
+   "#00897b"
+  ],
+  "big": "0 of 8",
+  "label": "chip projects last round",
+  "motion": "drift",
+  "scene": [
+   "🔬",
+   "💾",
+   "🏭"
+  ]
+ },
+ "moment": {
+  "e": "🤞",
+  "t": "Hyd needs a fab",
+  "k": "fab"
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "TG hopes to attract major semicon projects (print, Hyderabad edition, 27 Oct, p.2)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-27"
+}

@@ -1,0 +1,66 @@
+{
+ "cat": "india",
+ "sort": "2026-10-27-83",
+ "order": 5,
+ "heat": 4,
+ "readSecs": 35,
+ "topic": "Defence approvals",
+ "hook": "*₹2.12 lakh crore* defence buy approved. *82%* goes to Indian makers",
+ "tldr": "The Defence Acquisition Council approved deals worth ₹2.12 lakh crore for the Army, Navy and Air Force: kamikaze and surveillance drones, counter-drone systems, very short-range air defence, decoys against anti-ship missiles, helicopters and weather radars. About 82% is earmarked for domestic industry.",
+ "beats": {
+  "what": "Approvals (AoN) cover drones, C-UAS, VSHORADS, self-propelled guns, heavy vehicles, naval decoys and IAF helicopters and radars.",
+  "why": "Drone and missile threats are the new battlefield; the forces want more indigenous kit.",
+  "care": "Big orders for Indian defence firms, many with plants and suppliers around Hyderabad's defence cluster."
+ },
+ "cards": [
+  {
+   "k": "quiz",
+   "q": "What share of the ₹2.12 lakh crore goes to Indian industry?",
+   "opts": [
+    "82%",
+    "50%",
+    "25%",
+    "100%"
+   ],
+   "ans": 0,
+   "why": "About 82% of the procurement value is earmarked for domestic industry."
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Share for Indian industry",
+   "v": 82,
+   "max": 100,
+   "d": "82%"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#0f1a10",
+   "#558b2f"
+  ],
+  "big": "₹2.12L cr",
+  "label": "defence approvals",
+  "motion": "drift",
+  "scene": [
+   "🛡️",
+   "🚁",
+   "🇮🇳"
+  ]
+ },
+ "moment": {
+  "e": "🇮🇳",
+  "t": "Make in India, finally",
+  "k": "mii"
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Centre approves defence deals worth ₹2.12 lakh cr. (print, Hyderabad edition, 27 Oct, p.8)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-27"
+}

@@ -1,0 +1,64 @@
+{
+ "cat": "local",
+ "sort": "2026-10-27-76",
+ "order": 11,
+ "heat": 3,
+ "readSecs": 25,
+ "topic": "Water misuse fine",
+ "hook": "Water Board fines *Paradise* restaurant ₹20,000 for misusing drinking water",
+ "tldr": "HMWS&SB fined Paradise restaurant, Secunderabad, ₹20,000 for misusing drinking water after an inspection by Division-16, Khairatabad Zone. The Board says it will keep acting against violators as the city faces a supply crunch.",
+ "beats": {
+  "what": "₹20,000 fine on Paradise's water connection after an inspection.",
+  "why": "Hyderabad is short on water this season; the Board is cracking down on waste, from tankers to restaurants.",
+  "care": "Washing cars or floors with drinking water can get you fined too. Report waste to the Water Board (155313)."
+ },
+ "cards": [
+  {
+   "k": "quiz",
+   "q": "How much was Paradise fined?",
+   "opts": [
+    "₹20,000",
+    "₹5,000",
+    "₹2 lakh",
+    "₹500"
+   ],
+   "ans": 0,
+   "why": "₹20,000 for misusing drinking water."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹20,000",
+   "l": "fine for misusing drinking water"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#05162a",
+   "#1e88e5"
+  ],
+  "big": "₹20,000",
+  "label": "water-misuse fine",
+  "motion": "drift",
+  "scene": [
+   "🍗",
+   "🚰",
+   "🧾"
+  ]
+ },
+ "moment": {
+  "e": "😳",
+  "t": "Even Paradise?!",
+  "k": "wow"
+ },
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Paradise restaurant fined ₹20,000 for water misuse (print, Hyderabad edition, 27 Oct, p.2)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/"
+  }
+ ],
+ "city": "Hyderabad",
+ "date": "2026-10-27"
+}
