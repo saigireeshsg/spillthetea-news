@@ -29,3 +29,4 @@ One line per experiment: date · what · result.
 - 2026-10-26 (hourly) · d20261025-tg-graduate-voter-list (in-place update): A number-first local statement ("Hyderabad city: only 23,000 forms") vs B second-person eligibility + countdown ("Graduated by Oct 2023? 11 days to enrol") · running
 - 2026-10-26 · evening · hook_b on IIIT Junction closure (stake-first vs question/date-first) and AEE update (fix-first vs documents-deadline) · running
 - 2026-10-26 (hourly, 8:15 pm IST) · d20261024-bay-cyclone (in-place update): A number-first statement ("Kakinada evacuates 89,000") vs B second-person family stake ("Got family in Kakinada or Konaseema?") · running
+- 2026-10-27 · morning · hook_b on water emergency rules: A rule-first number ('taps every 3 days, ₹1,000 fine') vs B second-person question ('Does your sump overflow?') · running

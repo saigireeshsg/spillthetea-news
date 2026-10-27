@@ -1,0 +1,125 @@
+{
+ "date": "2026-10-27",
+ "cat": "tech",
+ "heat": 3,
+ "order": 5,
+ "sort": "2026-10-27-86",
+ "readSecs": 35,
+ "topic": "Tesla in India",
+ "hook": "🚗 Tesla India's first sales year: *₹247 crore*, 346 cars",
+ "tldr": "Tesla's India unit made ₹247.31 crore in FY26, its first year selling cars, and a ₹5.16 crore profit.",
+ "beats": {
+  "what": "Tesla India Motors and Energy's revenue jumped nearly 12-fold, per a regulatory filing.",
+  "why": "FY26 was the first year car sales counted; 346 cars were registered Sep 2025–Mar 2026.",
+  "care": "Sales are speeding up: 650 already this April–Sept. Expect more Teslas on Hyderabad roads."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏬",
+    "label": "Mumbai showroom, 2025"
+   },
+   {
+    "icon": "🚘",
+    "label": "346 cars registered"
+   }
+  ],
+  "event": {
+   "icon": "💰",
+   "label": "₹247 cr revenue, FY26"
+  },
+  "effects": [
+   {
+    "icon": "📈",
+    "label": "650 cars Apr–Sep"
+   },
+   {
+    "icon": "🏗️",
+    "label": "₹62.5 cr capex"
+   }
+  ]
+ },
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Tesla India revenue",
+   "a": {
+    "v": 20.83,
+    "d": "₹20.83 cr",
+    "l": "FY25"
+   },
+   "b": {
+    "v": 247.31,
+    "d": "₹247.31 cr",
+    "l": "FY26"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "compare",
+   "l": "Cars registered",
+   "a": {
+    "v": 346,
+    "d": "346",
+    "l": "Sep 2025–Mar 2026"
+   },
+   "b": {
+    "v": 650,
+    "d": "650",
+    "l": "Apr–Sep 2026"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "donut",
+   "v": 87,
+   "d": "87%",
+   "l": "of revenue from selling cars (₹214.69 cr)"
+  }
+ ],
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Of ₹247.31 crore, ₹214.69 crore came from cars and ₹32.40 crore from services. Profit rose to ₹5.16 crore from ₹55.49 lakh. Tesla put about ₹86 crore into the Indian unit and spent ₹62.54 crore on assets. Monthly sales rose from about 49 cars at launch to about 108."
+  },
+  {
+   "k": "poll",
+   "q": "Would you buy a Tesla in India?",
+   "opts": [
+    "Yes, someday",
+    "Too pricey",
+    "Prefer Indian EVs",
+    "Not into EVs"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "How many Teslas were registered in India from Sep 2025 to Mar 2026?",
+   "opts": [
+    "46",
+    "346",
+    "3,460",
+    "34,600"
+   ],
+   "ans": 1,
+   "why": "346 vehicles, per the filing reported by IANS; 650 more in Apr–Sep 2026."
+  }
+ ],
+ "learn": {
+  "t": "Revenue is money from sales; profit is what's left after costs. Tesla India's ₹247 crore revenue left ₹5.16 crore profit."
+ },
+ "watch": "Whether Tesla opens showrooms beyond Mumbai, including Hyderabad.",
+ "moment": {
+  "e": "🚗",
+  "t": "Spotted one on my road",
+  "k": "spotted"
+ },
+ "sources": [
+  {
+   "name": "The Hans India (IANS)",
+   "title": "Tesla India posts Rs 247 crore revenue in first fiscal of vehicle sales (26 Oct)",
+   "url": "https://www.thehansindia.com/tech/tesla-india-posts-rs-247-crore-revenue-in-first-fiscal-of-vehicle-sales-1135896"
+  }
+ ],
+ "updated": 1793063572360
+}

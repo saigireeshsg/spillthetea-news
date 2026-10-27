@@ -1,0 +1,173 @@
+{
+ "date": "2026-10-27",
+ "cat": "local",
+ "city": "Hyderabad",
+ "areas": [
+  "Secunderabad",
+  "Old City",
+  "Gachibowli",
+  "HITEC City",
+  "Madhapur"
+ ],
+ "lead": "local",
+ "heat": 5,
+ "order": 1,
+ "sort": "2026-10-27-98",
+ "readSecs": 50,
+ "storyline": "hyd-water-crisis",
+ "thread": "hyd-water-crisis",
+ "topic": "Hyderabad water emergency",
+ "hook": "💧 Water emergency rules: taps every *3 days*, ₹1,000 overflow fine",
+ "hook_b": "Does your sump overflow? In Hyderabad that's now a *₹1,000* fine",
+ "tldr": "HMWSSB's water emergency moves most of the city from alternate-day supply to once every three days, with fines for wastage.",
+ "beats": {
+  "what": "Water Board MD Ashok Reddy declared a water emergency and a restricted supply schedule.",
+  "why": "Osman Sagar, Himayat Sagar and Singur are low; some may run dry mid to late December.",
+  "care": "Store water on supply day, fix overflowing tanks now, and book tankers early."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏜️",
+    "label": "Singur: 3.4 of 29.9 TMC"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Only 3 of 16 mandals got rain"
+   }
+  ],
+  "event": {
+   "icon": "🚨",
+   "label": "Water emergency declared"
+  },
+  "effects": [
+   {
+    "icon": "🚰",
+    "label": "Supply every 3 days"
+   },
+   {
+    "icon": "💸",
+    "label": "₹1,000 fine for overflow"
+   }
+  ]
+ },
+ "viz": [
+  {
+   "t": "compare",
+   "l": "How often your tap runs (most of the city)",
+   "a": {
+    "v": 2,
+    "d": "Every 2 days",
+    "l": "Before"
+   },
+   "b": {
+    "v": 3,
+    "d": "Every 3 days",
+    "l": "Now"
+   },
+   "goodIfUp": false
+  },
+  {
+   "t": "meter",
+   "l": "Singur reservoir",
+   "v": 3.4,
+   "max": 29.9,
+   "d": "3.4 of 29.9 TMC",
+   "note": "Siasat, citing irrigation dept data"
+  },
+  {
+   "t": "timeline",
+   "l": "What happens when",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Oct 25",
+     "e": "Water emergency declared"
+    },
+    {
+     "t": "Oct 28",
+     "e": "All-party drought meet, 2:30 pm"
+    },
+    {
+     "t": "Nov 1",
+     "e": "'Green water' tankers (treated water) start"
+    },
+    {
+     "t": "Mid–late Dec",
+     "e": "Some reservoirs may run out"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#062033",
+   "#1e88e5"
+  ],
+  "big": "Every 3 days",
+  "label": "new water supply schedule",
+  "motion": "drift",
+  "scene": [
+   "💧",
+   "🚰",
+   "🏜️"
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What the emergency changes",
+   "body": "Most of Hyderabad moves from alternate-day water to once every three days. Secunderabad Cantonment and the outskirts get water only once every three or four days. The board is adding tankers and starting tanker registration. New borewell permits for construction and other non-drinking uses will be limited."
+  },
+  {
+   "k": "tea",
+   "title": "💸 The fines",
+   "body": "First-time wasters pay ₹1,000. Homes and resident welfare associations that let tanks or pumps overflow pay more. Repeat offenders risk steeper fines or losing their water and sewer connection under the HMWSSB Act, 1989."
+  },
+  {
+   "k": "why",
+   "title": "Why now?",
+   "body": "Osman Sagar holds 2.2 of 3.5 TMC, Himayat Sagar 2.1 of 2.5 TMC, Singur just 3.4 of 29.9 TMC. Only 3 of the city's 16 mandals got enough rain. The city books 6,000–8,000 tankers a day. Critics like M Srinivas of the Urban Development Forum say the steps came too late."
+  },
+  {
+   "k": "poll",
+   "q": "How will you handle water every 3 days?",
+   "opts": [
+    "Bigger storage/sump",
+    "Cut use 20%+",
+    "Tankers",
+    "Already struggling"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Under the water emergency, how often will most of Hyderabad get piped water?",
+   "opts": [
+    "Daily",
+    "Alternate days",
+    "Once every 3 days",
+    "Once a week"
+   ],
+   "ans": 2,
+   "why": "HMWSSB moved most of the city from alternate-day to once-every-three-days supply (Siasat, Oct 25)."
+  }
+ ],
+ "learn": {
+  "t": "1 TMC = 1 thousand million cubic feet, about 28,317 million litres of water."
+ },
+ "watch": "Area-wise supply schedules from HMWSSB; the Oct 28 all-party drought meeting; green water tankers from Nov 1.",
+ "links": [
+  {
+   "label": "HMWSSB official site",
+   "url": "https://www.hyderabadwater.gov.in/"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad water board declares emergency over acute shortage (25 Oct)",
+   "url": "https://www.siasat.com/hyderabad-water-board-declares-emergency-over-acute-shortage-3564047/"
+  }
+ ],
+ "updated": 1793063572360
+}

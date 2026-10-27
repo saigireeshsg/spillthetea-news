@@ -1,0 +1,141 @@
+{
+ "date": "2026-10-27",
+ "cat": "money",
+ "lead": "india",
+ "heat": 4,
+ "order": 3,
+ "sort": "2026-10-27-92",
+ "readSecs": 40,
+ "thread": "jio-ipo",
+ "topic": "Jio Platforms IPO listing",
+ "hook": "📈 Jio Platforms lists *Wed, Oct 28*: did you get shares?",
+ "tldr": "India's biggest IPO, ₹30,188 crore, was bid 22.19 times; shares list on BSE and NSE on Oct 28.",
+ "beats": {
+  "what": "Allotment for Jio Platforms' ₹30,188 crore IPO was due Oct 26; listing is Oct 28.",
+  "why": "Big funds (QIBs) bid 70.55 times their quota; retail bid only 2.72 times.",
+  "care": "Applied? Check allotment on KFintech now. No shares means your blocked money gets released."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏦",
+    "label": "QIBs bid 70.55x"
+   },
+   {
+    "icon": "📝",
+    "label": "1.39 crore applications"
+   }
+  ],
+  "event": {
+   "icon": "📈",
+   "label": "Lists BSE/NSE, Oct 28"
+  },
+  "effects": [
+   {
+    "icon": "🎟️",
+    "label": "Retail: 2.72x, not all get shares"
+   },
+   {
+    "icon": "🏢",
+    "label": "~₹10.3 lakh cr value"
+   }
+  ]
+ },
+ "viz": [
+  {
+   "t": "compare",
+   "l": "How many times each quota was bid",
+   "a": {
+    "v": 70.55,
+    "d": "70.55x",
+    "l": "Big funds (QIB)"
+   },
+   "b": {
+    "v": 2.72,
+    "d": "2.72x",
+    "l": "Retail"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "big",
+   "v": "₹7.4 lakh cr",
+   "l": "total bids for a ₹30,188 cr issue"
+  },
+  {
+   "t": "timeline",
+   "l": "IPO dates",
+   "now": 2,
+   "steps": [
+    {
+     "t": "Oct 21–23",
+     "e": "Bidding"
+    },
+    {
+     "t": "Oct 26",
+     "e": "Allotment due"
+    },
+    {
+     "t": "Oct 28",
+     "e": "Listing on BSE, NSE"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 Listing day is Wednesday",
+   "body": "The ₹30,188 crore issue was priced at ₹1,065–₹1,119 a share. It drew about ₹7.4 lakh crore of bids from roughly 1.39 crore applications. Anchor investors put in ₹8,109.85 crore before it opened. At the top price, Jio Platforms is valued at about ₹10.3 lakh crore."
+  },
+  {
+   "k": "poll",
+   "q": "Did you apply for the Jio IPO?",
+   "opts": [
+    "Yes, got shares",
+    "Yes, no luck",
+    "Didn't apply",
+    "Will buy on listing"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which group bid the most times its quota in the Jio IPO?",
+   "opts": [
+    "Retail investors",
+    "Big institutions (QIBs)",
+    "Employees",
+    "Shareholders"
+   ],
+   "ans": 1,
+   "why": "QIBs bid 70.55 times; retail 2.72, employees 2.93, shareholders 7.60 (Hans India)."
+  }
+ ],
+ "learn": {
+  "t": "Oversubscribed = more bids than shares. When the retail quota is oversubscribed, shares go by lottery, one minimum lot per lucky applicant."
+ },
+ "watch": "Listing price vs the ₹1,119 upper band on Oct 28.",
+ "links": [
+  {
+   "label": "Check allotment (KFintech)",
+   "url": "https://ipostatus.kfintech.com/"
+  },
+  {
+   "label": "Check on BSE",
+   "url": "https://www.bseindia.com/investors/appli_check"
+  }
+ ],
+ "moment": {
+  "e": "🤞",
+  "t": "Checking my allotment now",
+  "k": "allot"
+ },
+ "sources": [
+  {
+   "name": "The Hans India",
+   "title": "Jio Platforms IPO allotment likely today: check status, subscription details and listing date (26 Oct)",
+   "url": "https://www.thehansindia.com/business/jio-platforms-ipo-allotment-likely-today-check-status-online-subscription-details-and-listing-date-1136029"
+  }
+ ],
+ "updated": 1793063572360
+}

@@ -1,0 +1,53 @@
+{
+ "title": "Arnab: heavy rain Wed–Thu in Khammam, Mulugu, Kothagudem, Mahabubabad",
+ "kind": "weather",
+ "tag": "🛡️ Safety",
+ "scope": "local",
+ "city": "Hyderabad",
+ "sev": 2,
+ "ts": 1793063572360,
+ "until": 1793334600000,
+ "body": "IMD Hyderabad has an orange alert for heavy to very heavy rain in four eastern districts on Wed and Thu as Cyclone Arnab crosses the Andhra coast. Winds of 50–60 kmph are likely across eight districts.",
+ "means": [
+  "Push road trips to Khammam or Bhadrachalam on Oct 28–29",
+  "Hyderabad: no alert, light to moderate rain till Nov 1"
+ ],
+ "steps": [
+  {
+   "t": "What happened",
+   "b": "Orange alert, 4 districts, Wed–Thu."
+  },
+  {
+   "t": "Why",
+   "b": "Arnab lands near Kakinada Oct 28."
+  },
+  {
+   "t": "What's next",
+   "b": "Rain statewide till Nov 1."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "50–60 kmph",
+   "l": "gusts in 8 east Telangana districts"
+  }
+ ],
+ "poll": {
+  "q": "Travelling east this week?",
+  "opts": [
+   "Yes, postponing",
+   "Yes, going anyway",
+   "No"
+  ]
+ },
+ "care": "Travelling east on Oct 28–29? Postpone if you can.",
+ "open": "d20261024-bay-cyclone",
+ "verified": "1",
+ "src": [
+  {
+   "name": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/telangana-heavy-rainfall-alert-for-4-districts-1136120"
+  }
+ ]
+}
