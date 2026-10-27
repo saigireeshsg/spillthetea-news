@@ -1,0 +1,143 @@
+{
+ "cat": "local",
+ "date": "2026-10-27",
+ "sort": "2026-10-27-80",
+ "order": 12,
+ "heat": 4,
+ "readSecs": 40,
+ "city": "Hyderabad",
+ "areas": [
+  "Rajendranagar",
+  "Upparpally",
+  "Attapur",
+  "Erraboda",
+  "Keshavswamy Nagar",
+  "Langar Houz"
+ ],
+ "topic": "Rajendranagar boom and tremor",
+ "hook": "💥 Boom + *10-second* shake in Rajendranagar: NGRI says rain, not quake",
+ "hook_b": "Felt the ground shake in Attapur at 10:25 am? Here's what it was",
+ "tldr": "At about 10:25 am on Tuesday, a loud boom and 5–10 seconds of shaking sent residents of Rajendranagar, Attapur, Upparpally and Langar Houz into the streets. NGRI scientists blame 'hydro seismicity': rainwater building pressure in granite cracks. No deaths or major damage.",
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Rainwater seeps into granite cracks"
+   },
+   {
+    "icon": "🪨",
+    "label": "Pressure builds, then releases"
+   }
+  ],
+  "event": {
+   "icon": "💥",
+   "label": "Boom + shaking, 10:25 am, Oct 27"
+  },
+  "effects": [
+   {
+    "icon": "🏃",
+    "label": "Residents run outdoors"
+   },
+   {
+    "icon": "✅",
+    "label": "No deaths, no major damage"
+   }
+  ]
+ },
+ "beats": {
+  "what": "A loud explosion-like sound, then 5–10 seconds of ground shaking across Hyderabad's south-western fringe.",
+  "why": "NGRI says it's hydro seismicity: water in granite fractures builds pressure and causes tiny underground ruptures. It's not a tectonic earthquake.",
+  "care": "Hyderabad sits on a stable granite shield, so a destructive quake is unlikely. If it happens again, step outside calmly and don't spread 'blast' rumours."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "What happened",
+   "body": "Tuesday, about 10:25 am. Rajendranagar, Upparpally, Attapur, Erraboda, Keshavswamy Nagar and Langar Houz heard a boom. The ground shook for 5–10 seconds. Windows rattled, utensils moved, people ran out. Officials urged calm; early checks found no deaths and no major structural damage (Siasat)."
+  },
+  {
+   "k": "why",
+   "title": "Why the ground 'booms'",
+   "body": "Hyderabad's rock is old granite full of cracks. After heavy rain, water seeps in and pressure builds. When it releases, small ruptures underground make a loud bang and a short shake. Scientists call it hydro seismicity. It's local and shallow, unlike a real earthquake from moving plates."
+  },
+  {
+   "k": "twist",
+   "body": "It's happened before: Sulemannagar and Chintalmet in October 2020 and again in February 2026. A 1.8-magnitude micro-quake was recorded near Budvel in January 2015."
+  },
+  {
+   "k": "poll",
+   "q": "Did you feel it?",
+   "opts": [
+    "Yes, scary",
+    "Heard the boom only",
+    "Felt nothing",
+    "Not in that area"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What did NGRI say caused Tuesday's boom?",
+   "opts": [
+    "A quarry blast",
+    "Hydro seismicity",
+    "A tectonic earthquake",
+    "A gas leak"
+   ],
+   "ans": 1,
+   "why": "Rainwater building pressure in granite fractures, per NGRI scientists (Siasat)."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "5–10 sec",
+   "l": "of ground shaking reported by residents"
+  },
+  {
+   "t": "big",
+   "v": "6",
+   "l": "neighbourhoods felt it: Rajendranagar to Langar Houz"
+  },
+  {
+   "t": "timeline",
+   "l": "Booms in Hyderabad's south-west (Siasat)",
+   "now": 3,
+   "steps": [
+    {
+     "t": "Jan 2015",
+     "e": "1.8-magnitude micro-quake near Budvel"
+    },
+    {
+     "t": "Oct 2020",
+     "e": "Tremors in Sulemannagar, Chintalmet"
+    },
+    {
+     "t": "Feb 2026",
+     "e": "Tremors again, same area"
+    },
+    {
+     "t": "Oct 27, 2026",
+     "e": "Rajendranagar, Attapur, Langar Houz"
+    }
+   ]
+  }
+ ],
+ "moment": {
+  "e": "😨",
+  "t": "Was that a blast?!",
+  "k": "wow"
+ },
+ "learn": {
+  "t": "Hydro seismicity: small, shallow tremors triggered when water seeps into rock fractures and changes the pressure inside them. It's why some quiet areas feel jolts after heavy rain."
+ },
+ "watch": "Whether NGRI records a magnitude for Tuesday's event, and any repeat jolts as Cyclone Arnab's rain arrives this week.",
+ "thread": "hyd-hydro-seismic",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Explosion sound, earthquake-like tremors in Hyderabad trigger panic (27 Oct)",
+   "url": "https://www.siasat.com/explosion-sound-earthquake-like-tremors-in-hyderabad-trigger-panic-3565124/"
+  }
+ ],
+ "updated": 1793085226145
+}

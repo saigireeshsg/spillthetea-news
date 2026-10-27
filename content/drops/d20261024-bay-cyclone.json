@@ -7,6 +7,11 @@
  "cards": [
   {
    "k": "tea",
+   "title": "🆕 Midday update (Oct 27): Arnab speeds up, Odisha moves 48,000",
+   "body": "Arnab was moving at 22 kmph over the past 6 hours, up from 13 kmph in Monday's bulletin. Odisha is evacuating 48,000 people in eight districts; Special Relief Commissioner Rajesh Pravakar Patil said it will hit Malkangiri district after crossing the Andhra–Yanam coast. Andhra's Bapatla district has opened a 24-hour control room with emergency helplines. Jharkhand has a yellow alert in eight districts for 24 hours from 8:30 am on Oct 28 (IMD). Telangana's alerts are unchanged since the morning update."
+  },
+  {
+   "k": "tea",
    "title": "🆕 Morning update (Oct 27): Telangana winds + rain till Nov 1",
    "body": "IMD Hyderabad: heavy to very heavy rain likely Wed and Thu in Mulugu, Bhadradri Kothagudem, Khammam and Mahabubabad (Hans India). Gusty winds of 50–60 kmph likely in Bhupalapally, Mulugu, Kothagudem, Khammam, Suryapet, Mahabubabad, Warangal and Hanamkonda; 30–40 kmph elsewhere, Oct 27–30. Light to moderate rain statewide till Nov 1. Monday's IMD bulletin put Arnab 660 km ESE of Kakinada, moving west at 13 kmph."
   },
@@ -77,7 +82,7 @@
  },
  "date": "2026-10-27",
  "heat": 5,
- "hook": "🌀 Arnab hits Andhra Wed; east Telangana winds up to *60 kmph*",
+ "hook": "🌀 Arnab speeds to *22 kmph*; Odisha evacuates 48,000",
  "learn": {
   "t": "Cyclone names come from a list made by 13 countries around the Indian Ocean and are used in order. A storm is named only when its winds reach cyclonic strength (63 km/h or more)."
  },
@@ -111,6 +116,21 @@
  "readSecs": 55,
  "sort": "2026-10-27-94",
  "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Cyclone Arnab: Odisha announces evacuation of 48,000 in eight districts (27 Oct)",
+   "url": "https://www.thehindu.com/news/national/odisha/"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Cyclone Arnab: Bapatla district issues emergency helpline numbers (27 Oct)",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Cyclone Arnab to trigger heavy rains in parts of Jharkhand (27 Oct)",
+   "url": "https://www.thehindu.com/news/national/other-states/"
+  },
   {
    "name": "The Hans India",
    "title": "Telangana: Heavy rainfall alert for 4 districts (27 Oct)",
@@ -233,9 +253,39 @@
   }
  ],
  "thread": "bay-cyclone",
- "tldr": "Very severe Cyclone Arnab crosses near Yanam–Kakinada on Oct 28. East Telangana: heavy rain Wed–Thu, winds up to 60 kmph. Hyderabad: no alert.",
+ "tldr": "Very severe Cyclone Arnab crosses near Yanam–Kakinada on Oct 28 and is now moving at 22 kmph. Andhra is moving 89,000+ people, Odisha 48,000. East Telangana: heavy rain Wed–Thu. Hyderabad: no alert.",
  "topic": "Bay of Bengal cyclone",
  "viz": [
+  {
+   "t": "compare",
+   "l": "People being evacuated (The Hindu)",
+   "a": {
+    "v": 89000,
+    "d": "89,000+",
+    "l": "Andhra (Kakinada)"
+   },
+   "b": {
+    "v": 48000,
+    "d": "48,000",
+    "l": "Odisha (8 districts)"
+   },
+   "goodIfUp": false
+  },
+  {
+   "t": "compare",
+   "l": "Arnab's speed (IMD bulletins)",
+   "a": {
+    "v": 13,
+    "d": "13 kmph",
+    "l": "Mon"
+   },
+   "b": {
+    "v": 22,
+    "d": "22 kmph",
+    "l": "Tue midday"
+   },
+   "goodIfUp": false
+  },
   {
    "t": "big",
    "v": "5.7 lakh",
@@ -301,7 +351,7 @@
   }
  ],
  "watch": "IMD's next bulletins on the exact crossing point; school holidays in east Telangana on Oct 28–29; whether Hyderabad gets an alert.",
- "updated": 1793063572360,
+ "updated": 1793085226145,
  "hook_b": "Got family in Kakinada or Konaseema? 89,000 are moving out before Arnab hits",
  "storyline": "bay-cyclone-2026",
  "lead": "local"
