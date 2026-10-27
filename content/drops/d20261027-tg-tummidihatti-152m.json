@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-27",
+ "cat": "local",
+ "city": "Hyderabad",
+ "areas": ["Adilabad", "Kumuram Bheem Asifabad"],
+ "heat": 3,
+ "order": 4,
+ "sort": "2026-10-27-80",
+ "readSecs": 40,
+ "thread": "tg-tummidihatti-barrage",
+ "topic": "Tummidihatti barrage height",
+ "hook": "💧 Maharashtra to rethink Tummidihatti barrage: *152 m* on the table",
+ "hook_b": "Why are Telangana and Maharashtra fighting over *4 metres* of a dam wall?",
+ "tldr": "Maharashtra CM Devendra Fadnavis has agreed to reconsider raising the Tummidihatti barrage on the Pranahita from 148 m to 152 m, and proposed a joint panel to study it.",
+ "beats": {
+  "what": "Fadnavis agreed to relook at the barrage height Telangana wants and proposed a joint Telangana–Maharashtra panel.",
+  "why": "Telangana says 148 m is too low to get its Godavari share to north Telangana by gravity, without costly lift pumps.",
+  "care": "It's not a yes yet. The joint panel's report on water, submerged land and farmers decides it. Watch that panel."
+ },
+ "map": {
+  "causes": [
+   {"icon": "📏", "label": "148 m too low, says Telangana"},
+   {"icon": "⚡", "label": "Lift pumps cost power + money"}
+  ],
+  "event": {"icon": "🤝", "label": "Fadnavis agrees to reconsider 152 m"},
+  "effects": [
+   {"icon": "🧪", "label": "Joint panel to study water + submergence"},
+   {"icon": "🌾", "label": "Farm impact on both sides checked"}
+  ]
+ },
+ "viz": [
+  {"t": "compare", "l": "Barrage height (full reservoir level)", "a": {"v": 148, "d": "148 m", "l": "Maharashtra agreed earlier"}, "b": {"v": 152, "d": "152 m", "l": "Now being reconsidered"}, "goodIfUp": true},
+  {"t": "timeline", "l": "How it got here", "now": 3, "steps": [
+   {"t": "May 27", "e": "Revanth Reddy writes to Fadnavis for talks"},
+   {"t": "Aug 5", "e": "CM asks Union Jal Shakti minister C.R. Patil to step in"},
+   {"t": "Oct 27", "e": "Fadnavis agrees to reconsider 152 m"},
+   {"t": "Next", "e": "Joint panel studies water, submergence, farmers"}
+  ]}
+ ],
+ "cards": [
+  {"k": "tea", "title": "🆕 What moved", "body": "Tummidihatti is a barrage on the Pranahita river, a Godavari tributary, in Kouthala mandal of old Adilabad district. Maharashtra had agreed to 148 m. Telangana wants it higher. Fadnavis has now agreed to reconsider 152 m. He proposed a joint panel to check how much water there is, how much land goes under water, and what it means for farmers."},
+  {"k": "why", "title": "Why the fight over a few metres?", "body": "The barrage is part of the Pranahita-Chevella irrigation project. A higher wall stores more water. Telangana says that lets water flow by gravity to north Telangana, so it leans less on electric lift pumps. Maharashtra worries about its land going under water. Telangana says submergence there stays small."},
+  {"k": "poll", "q": "Should Telangana build big barrages or fix canals and save water first?", "opts": ["Build higher barrage", "Fix canals first", "Both", "Not sure"]},
+  {"k": "quiz", "q": "Tummidihatti barrage is on which river?", "opts": ["Krishna", "Pranahita", "Musi", "Manjira"], "ans": 1, "why": "It's on the Pranahita, a tributary of the Godavari, in old Adilabad district."}
+ ],
+ "learn": {"t": "Full Reservoir Level (FRL) = the highest water level a dam or barrage is designed to hold. Higher FRL = more storage, but more land under water upstream."},
+ "watch": "Who sits on the joint panel and when it reports. Telangana's earlier ask was 150 m; whether 152 m sticks is not confirmed.",
+ "sources": [
+  {"name": "Times of India", "title": "How Telangana plans to tap more Pranahita river water: Fadnavis agrees to reconsider Tummidihatti barrage height (27 Oct)", "url": "https://timesofindia.indiatimes.com/city/hyderabad/how-telangana-plans-to-tap-more-pranahita-river-water-maharashtra-cm-devendra-fadnavis-agrees-to-reconsider-tummidihatti-barrage-height-from-148m-to-152m-proposes-joint-panel-to-assess-water-availability-submergence-and-impact-on-farmers/articleshow/135222923.cms"},
+  {"name": "GKToday", "title": "Telangana seeks higher Tummidihatti barrage (background)", "url": "https://www.gktoday.in/telangana-seeks-higher-tummidihatti-barrage/"}
+ ],
+ "updated": 1793072100000
+}
