@@ -1,0 +1,107 @@
+{
+ "cat": "local",
+ "city": "Hyderabad",
+ "areas": [
+  "Secunderabad",
+  "Begumpet",
+  "Paradise",
+  "Bowenpally"
+ ],
+ "date": "2026-10-27",
+ "sort": "2026-10-27-58",
+ "order": 2,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Secunderabad elevated corridors",
+ "hook": "Paradise–Dairy Farm skyway: *5.4 km*, pillars almost done",
+ "hook_b": "Stuck at Paradise Circle daily? Your 5.4 km flyover is rising",
+ "tldr": "HMDA's two elevated corridors through Secunderabad Cantonment are speeding up; most NH-44 pillars stand complete.",
+ "map": {
+  "causes": [
+   {
+    "icon": "🚗",
+    "label": "NH-44, SH-1 jams"
+   },
+   {
+    "icon": "🪖",
+    "label": "Defence land cleared"
+   }
+  ],
+  "event": {
+   "icon": "🛣️",
+   "label": "Twin corridors speed up"
+  },
+  "effects": [
+   {
+    "icon": "🏗️",
+    "label": "Girders next on NH-44"
+   },
+   {
+    "icon": "✈️",
+    "label": "Begumpet tunnel awaits AAI"
+   }
+  ]
+ },
+ "beats": {
+  "what": "HMDA says works on both Cantonment elevated corridors are gathering pace.",
+  "why": "Defence clearances came through, so demolition and digging began on undisputed stretches.",
+  "care": "Expect construction around Paradise, Begumpet and Rajiv Rahadari for a while; the payoff is a faster north exit."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Corridor 1 runs on Rajiv Rahadari (SH-1), Gymkhana Grounds to Shamirpet ORR. HMDA has begun demolitions and digging where there's no dispute; walls at Gymkhana Grounds and defence sites are done after the Defence Ministry's clearance. Corridor 2 is a 5.4 km skyway on NH-44, Paradise Circle to Dairy Farm Road. Most of its first 20 pillars, Paradise/Balamrai to the Jagjivan Ram statue behind Begumpet Airport, are complete. Girders are being cast. A tunnel under the Begumpet runway still needs an Airports Authority of India nod."
+  },
+  {
+   "k": "poll",
+   "q": "Do you cross Paradise or Rajiv Rahadari often?",
+   "opts": [
+    "Daily",
+    "Weekly",
+    "Rarely",
+    "Never"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Where does the 5.4 km NH-44 skyway end?",
+   "opts": [
+    "Dairy Farm Road",
+    "Shamirpet ORR",
+    "Gymkhana Grounds",
+    "Kompally"
+   ],
+   "ans": 0,
+   "why": "It runs Paradise Circle to Dairy Farm Road."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "5.4 km",
+   "l": "NH-44 skyway, Paradise to Dairy Farm Road"
+  },
+  {
+   "t": "big",
+   "v": "20",
+   "l": "pillars on the first stretch, most complete"
+  }
+ ],
+ "moment": {
+  "e": "🙏",
+  "t": "Paradise traffic, finally",
+  "k": "relief"
+ },
+ "learn": {
+  "t": "Elevated corridor: a long flyover that carries through-traffic above a busy road, so local traffic below moves freer."
+ },
+ "watch": "AAI clearance for the Begumpet runway tunnel; no cost or completion date given.",
+ "thread": "hyd-cantonment-corridors",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Twin elevated corridor works gather pace in Secunderabad Cantonment",
+   "url": "https://telanganatoday.com/twin-elevated-corridor-works-gather-pace-in-secunderabad-cantonment"
+  }
+ ]
+}

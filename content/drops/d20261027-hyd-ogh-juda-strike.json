@@ -1,0 +1,107 @@
+{
+ "cat": "local",
+ "city": "Hyderabad",
+ "areas": [
+  "Afzalgunj",
+  "Old City"
+ ],
+ "date": "2026-10-27",
+ "sort": "2026-10-27-60",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "OGH junior doctors strike",
+ "hook": "Osmania Hospital junior doctors strike again, *2 weeks* after truce",
+ "tldr": "OGH junior doctors resumed their strike on Oct 27 over pending Arogyasri funds and late stipends.",
+ "map": {
+  "causes": [
+   {
+    "icon": "💸",
+    "label": "Arogyasri funds pending"
+   },
+   {
+    "icon": "🧾",
+    "label": "Stipends paid late"
+   }
+  ],
+  "event": {
+   "icon": "🩺",
+   "label": "OGH JUDA strike resumes"
+  },
+  "effects": [
+   {
+    "icon": "❤️",
+    "label": "Cath Lab, CTVS down"
+   },
+   {
+    "icon": "🧪",
+    "label": "Tests and scans delayed"
+   }
+  ]
+ },
+ "beats": {
+  "what": "Junior doctors at Osmania General Hospital resumed their strike on Tuesday, Oct 27.",
+  "why": "They say pending Arogyasri money has left wards short of medicines, consumables and working equipment.",
+  "care": "Heading to OGH for heart, kidney or scan work? Call ahead and keep a backup hospital in mind."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "The Junior Doctors Association (JUDA) at OGH, Afzalgunj, is back on strike. Their first strike began Oct 12 and ended Oct 13 after health officials gave assurances. They say nothing moved. Their letter went to Health Minister C Damodar Rajanarasimha. Demands: release Arogyasri funds, fix facilities, pay PG and super-speciality stipends on time, and revise stipends regularly. They say the Cath Lab, CTVS (heart and chest surgery) and CRRT (dialysis for very sick patients) are not working. No government response has been reported yet."
+  },
+  {
+   "k": "poll",
+   "q": "Have you or family used a govt hospital this year?",
+   "opts": [
+    "Yes, OGH or Gandhi",
+    "Yes, another one",
+    "No, private only"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What are OGH junior doctors mainly protesting?",
+   "opts": [
+    "Pending Arogyasri funds and late stipends",
+    "A new hospital building",
+    "Night-shift rules",
+    "Exam dates"
+   ],
+   "ans": 0,
+   "why": "Pending Arogyasri funds hit supplies; stipends are paid late."
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "OGH strike so far",
+   "now": 2,
+   "steps": [
+    {
+     "t": "Oct 12",
+     "e": "JUDA strike begins"
+    },
+    {
+     "t": "Oct 13",
+     "e": "Called off after assurances"
+    },
+    {
+     "t": "Oct 27",
+     "e": "Strike resumes"
+    }
+   ]
+  }
+ ],
+ "learn": {
+  "t": "Arogyasri: Telangana's state health scheme that pays hospitals for treating eligible families for free. When its money is late, government hospitals run short of supplies."
+ },
+ "watch": "Whether the Health Minister meets JUDA or releases funds; no talks reported yet.",
+ "thread": "hyd-ogh-juda",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Osmania General Hospital JUDA resumes strike in Hyderabad",
+   "url": "https://www.siasat.com/osmania-general-hospital-juda-resumes-strike-in-hyderabad-3565310/"
+  }
+ ]
+}

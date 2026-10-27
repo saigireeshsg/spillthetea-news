@@ -1,0 +1,99 @@
+{
+ "cat": "india",
+ "date": "2026-10-27",
+ "sort": "2026-10-27-57",
+ "order": 3,
+ "heat": 4,
+ "readSecs": 30,
+ "lead": "india",
+ "topic": "Medicine MRP gap",
+ "hook": "SC asks why medicine MRPs sit so far above cost",
+ "tldr": "Supreme Court grilled the Centre on the gap between medicine MRPs and retailer prices; order reserved.",
+ "map": {
+  "causes": [
+   {
+    "icon": "💊",
+    "label": "MRP far above retail cost"
+   },
+   {
+    "icon": "🏛️",
+    "label": "NPPA called 'defunct'"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "SC reserves order"
+  },
+  "effects": [
+   {
+    "icon": "🧾",
+    "label": "Margin caps beyond cancer?"
+   },
+   {
+    "icon": "💸",
+    "label": "Cheaper pharmacy bills"
+   }
+  ]
+ },
+ "beats": {
+  "what": "A Supreme Court bench questioned why medicines sell at MRPs far above what retailers pay.",
+  "why": "Judges said the system seems to help makers and called price regulator NPPA 'totally defunct'.",
+  "care": "A margin cap on more medicines could cut your pharmacy bill. Ask for generics meanwhile."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Justices Vikram Nath and Sandeep Mehta heard two petitions on medicine pricing on Oct 27. They asked why the system works for manufacturers and said the government is letting the gap run. The Centre said its policy is not to control the whole ecosystem; ASG Aishwarya Bhati said India's medicine prices are among the world's lowest. The Centre has capped trade margins on cancer drugs at 30% of MRP, which it says saves patients about ₹2,500 crore a year. On Oct 12 the court called that 'hardly anything to be happy about' and asked why other medicines can't be capped. Order reserved."
+  },
+  {
+   "k": "poll",
+   "q": "Should trade margins be capped on all medicines?",
+   "opts": [
+    "Yes, all",
+    "Only essentials",
+    "No, let market decide"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What margin cap did the Centre set on cancer drugs?",
+   "opts": [
+    "30% of MRP",
+    "16% of MRP",
+    "50% of MRP",
+    "10% of MRP"
+   ],
+   "ans": 0,
+   "why": "30% of MRP, saving about ₹2,500 crore a year, per the Centre."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "30%",
+   "l": "of MRP: trade-margin cap on cancer drugs"
+  },
+  {
+   "t": "big",
+   "v": "₹2,500 cr",
+   "l": "yearly patient savings the Centre expects"
+  }
+ ],
+ "moment": {
+  "e": "💊",
+  "t": "My pharmacy bill is brutal",
+  "k": "bill"
+ },
+ "learn": {
+  "t": "Trade margin: the gap between what a pharmacy pays for a medicine and the MRP you pay. NPPA is the body meant to keep drug prices in check."
+ },
+ "watch": "The bench's reserved order: it may push the Centre to cap margins on more medicines.",
+ "thread": "medicine-prices",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Why is system helping pharma makers, asks Supreme Court",
+   "url": "https://telanganatoday.com/why-is-system-helping-pharma-makers-asks-supreme-court"
+  }
+ ]
+}
