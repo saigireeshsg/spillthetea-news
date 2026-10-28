@@ -1037,7 +1037,7 @@ function cups(n,why,el){me.cups+=n;save()}
 const once=(k,n,why,el)=>{if(me.paid[k])return false;me.paid[k]=1;cups(n,why,el);return true};
 
 // ---------- shared data ----------
-let drops=[],stories={},votes={},takes={},db=null,uid=null,filter="live",open=null,sortBy="top";
+let drops=[],stories={},votes={},takes={},db=null,uid=null,filter=(Date.now()<Date.parse("2026-11-01T00:00:00+05:30")?"cyclone":"live"),open=null,sortBy="top";
 const folds={};
 const S={poll:{},pred:{},quiz:{},post:{},take:{}};
 function agg(){
@@ -1296,7 +1296,7 @@ function attachedLive(){const s=new Set();visible().forEach(d=>liveAllFor(d).for
 // ---------- feed ----------
 function subs(){
   const used=[...new Set(visible().map(d=>d.cat))].filter(c=>SUBS[c]);
-  $("#subs").innerHTML=[["live","🔴 Live"],["all","🏠 Home"],["moneyhub","💰 Money"],...(window.eventsAny&&window.eventsAny()?[["events","🎟️ Events"+(window.eventsSoon()?" · "+window.eventsSoon():"")]]:[]),...((window.SPILL_CONFIG||{}).speakup?[["acts","📣 Speak up"+(window.actsOpen&&window.actsOpen()?" · "+window.actsOpen():"")]]:[]),...used.filter(c=>c!=="money").map(c=>[c,c==="local"&&me.city?"r/"+me.city:SUBS[c].n]),...(window.oppsAny&&window.oppsAny()?[["opps","💼 Opportunities · "+window.oppsCount()]]:[])].map(([k,n])=>`<button class="sub-chip ${k==="live"?"livechip":""}" data-f="${k}" aria-pressed="${filter===k}">${esc(n)}</button>`).join("");
+  $("#subs").innerHTML=[...(Date.now()<Date.parse("2026-11-01T00:00:00+05:30")?[["cyclone","🌀 Cyclone live"]]:[]),["live","🔴 Live"],["all","🏠 Home"],["moneyhub","💰 Money"],...(window.eventsAny&&window.eventsAny()?[["events","🎟️ Events"+(window.eventsSoon()?" · "+window.eventsSoon():"")]]:[]),...((window.SPILL_CONFIG||{}).speakup?[["acts","📣 Speak up"+(window.actsOpen&&window.actsOpen()?" · "+window.actsOpen():"")]]:[]),...used.filter(c=>c!=="money").map(c=>[c,c==="local"&&me.city?"r/"+me.city:SUBS[c].n]),...(window.oppsAny&&window.oppsAny()?[["opps","💼 Opportunities · "+window.oppsCount()]]:[])].map(([k,n])=>`<button class="sub-chip ${k==="live"||k==="cyclone"?"livechip":""}" data-f="${k}" aria-pressed="${filter===k}">${esc(n)}</button>`).join("");
   $("#subs").hidden=!!open;
 }
 function head(d){const s=SUBS[d.cat]||SUBS.india,f=FLAIR[d.cat]||FLAIR.india;const sr=d.cat==="local"?"r/"+(d.city||"local"):s.n;return `<div class="ph"><span class="av" style="background:${s.c}">${s.i}</span><span class="sr">${esc(sr)}</span><span>· ${dayAgo(d.date)}</span><span class="flair" style="background:${f[1]}">${f[0]}</span>${me.done[d.id]?'<span class="donechip">✓ caught up</span>':!me.seen[d.id]?'<span class="dot-unread" title="Unread"></span>':""}${(d.heat||0)>=5?'<span>🔥 trending</span>':""}${me.goal==="exam"&&GS[d.cat]?`<span class="gs">${GS[d.cat]}</span>`:""}${isHeavy(d)?'<span class="heavy">⚠️ heavy story</span>':""}${outlets(d)>=2?`<span class="ver">· ✅ ${outlets(d)} sources</span>`:""}</div>`}
@@ -1362,6 +1362,7 @@ function feed(){
   const done=vis.filter(d=>me.done[d.id]).length,total=vis.length,pc=total?Math.round(done/total*100):0;
   const fresh=vis.filter(d=>!me.seen[d.id]).length;
   let h="";
+  if(filter==="cyclone"){if(!$("#view").querySelector("#cyframe"))$("#view").innerHTML=`<iframe id="cyframe" title="Cyclone Arnab live desk" src="/cyclone/?src=home&c=first-tab&embed=1" allow="geolocation; fullscreen" style="width:100%;height:calc(100dvh - 150px);min-height:520px;border:0;border-radius:14px;background:#0a0a0b"></iframe>`;return}
   if(filter==="live"){$("#view").innerHTML=breakingHTML()+(window.cricHTML?window.cricHTML():"")+liveView();return}
   if(filter==="moneyhub"){$("#view").innerHTML=moneyView();return}
   if(filter==="acts"){$("#view").innerHTML=window.actsView?window.actsView():"";return}
@@ -2067,7 +2068,7 @@ $("#brain").addEventListener("click",()=>recap());
 
 // ---------- events ----------
 $("#subs").addEventListener("click",e=>{const b=e.target.closest(".sub-chip");if(!b)return;filter=b.dataset.f;feed();window.scrollTo(0,0)});
-$("#home").addEventListener("click",()=>{filter="live";feed();window.scrollTo(0,0)});
+$("#home").addEventListener("click",()=>{filter=(Date.now()<Date.parse("2026-11-01T00:00:00+05:30")?"cyclone":"live");feed();window.scrollTo(0,0)});
 $("#back").addEventListener("click",()=>feed());
 document.addEventListener("input",e=>{if(e.target.id==="take")$("#send").disabled=!e.target.value.trim();
   const t=e.target;if(t.dataset&&t.dataset.calc){const k=t.dataset.calc;calcVals[k]=calcVals[k]||{};calcVals[k][t.dataset.f]=t.value;document.querySelectorAll("#cout-"+k).forEach(o=>{const r=calcResult(k,calcVals[k]);o.innerHTML=`<b>${r.big}</b>${esc(r.line)}<small>Illustration only. Returns aren't guaranteed and this isn't advice.</small>`});document.querySelectorAll(`.cin[data-calc="${k}"][data-f="${t.dataset.f}"]`).forEach(x=>{if(x!==t)x.value=t.value})}
