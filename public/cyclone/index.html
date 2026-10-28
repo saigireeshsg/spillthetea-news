@@ -74,6 +74,13 @@ ul.sf{margin:0;padding-left:18px}ul.sf li{margin:3px 0;font-size:14.5px}
 .tl .u.more{display:none}.tl.all .u.more{display:block}.tlm{font:inherit;font-weight:800;font-size:13px;background:none;border:0;color:var(--blu,#4fbcff);cursor:pointer;padding:4px 0}
 .nf{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;font-size:14px;line-height:1.45;color:#d6dadd}.nf .locb{margin-top:8px;font-size:14.5px;padding:10px}
 .nf.out{background:#2b1408;border-color:#6b2e10}
+.wc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px;margin-bottom:8px}.wc.me{border-color:#4fbcff}.wc.sel{border-color:#ff4500}
+.wh{display:flex;align-items:center;gap:8px}.wh b{font-size:15px}.wh .ar{display:inline-block;font-size:16px;color:#4fbcff}
+.wh .wl{margin-left:auto;font-size:11.5px;font-weight:900;border-radius:999px;padding:3px 8px}
+.wl.k0{background:#13301f;color:#7ee2a8}.wl.k1{background:#2b2108;color:#ffd166}.wl.k2{background:#3a1d06;color:#ffb020}.wl.k3{background:#3a0e0e;color:#ff6b6b}
+.wn{font-size:13.5px;color:#d6dadd;margin:3px 0 6px}.wn b{font-size:18px;color:#fff}
+.wt{display:grid;gap:4px}.wt div{text-align:center;background:#0f0f12;border-radius:8px;padding:5px 2px;font-size:12px;color:var(--mut)}.wt div b{display:block;color:#fff;font-size:14px}.wt div i{font-style:normal;display:block;font-size:11px}
+.wc[hidden]{display:none}.wt div.now{outline:1px solid #ff4500}
 section{scroll-margin-top:110px}
 .tq[hidden],#relief[hidden]{display:none}
 </style></head>
@@ -81,13 +88,19 @@ section{scroll-margin-top:110px}
 <header><div class="hb"><img src="/favicon.svg" alt=""><b>spill</b><span style="font-size:12px;font-weight:800;color:var(--red);margin-left:6px"><span class="dot"></span> LIVE</span><a class="sos" href="tel:112">📞 112</a></div></header>
 <main>
 <div class="status"><div class="row"><span class="cy">🌀</span><div><h1>Cyclone Arnab · <span id="lvl"></span></h1><div class="mv" id="mv"></div></div></div><p id="headline"></p><div class="upd">Verified desk updated <b id="dupd"></b> · news checked <b id="fupd">…</b> · refreshes every 10 s</div></div>
-<nav class="qn"><button data-go="area">📍 My area</button><button data-go="updates">📰 Updates</button><button data-go="travel">🚆 Travel</button><button data-go="contacts">☎️ Helplines</button><button data-go="near">🏥 Help near me</button><button data-go="mapsec">🗺️ Map</button></nav>
+<nav class="qn"><button data-go="area">📍 My area</button><button data-go="windnow">💨 Wind</button><button data-go="updates">📰 Updates</button><button data-go="travel">🚆 Travel</button><button data-go="contacts">☎️ Helplines</button><button data-go="near">🏥 Help near me</button><button data-go="mapsec">🗺️ Map</button></nav>
 
 <section id="area"><h2>📍 Your area</h2>
  <button class="locb" data-loc="1">📍 Use my live location</button>
  <p class="upd" style="margin:8px 0 6px">or pick your district</p>
  <div class="pick" id="pick"></div>
  <div id="dcard"></div>
+</section>
+
+<section id="windnow"><h2>💨 Wind on the coast now</h2>
+ <div class="mtabs"><button data-wr="2" class="on">Last 30 min</button><button data-wr="4">Last 1 hour</button></div>
+ <div id="wlist"><p class="upd">Loading wind…</p></div>
+ <p class="upd" id="wnote"></p>
 </section>
 
 <section id="updates"><h2>📰 What's happening now</h2>
@@ -212,7 +225,7 @@ function cardHTML(p){
    <a class="btn-map" href="#near" data-go="near" data-t="shelter">🏠 Shelters & food near ${E(p.n)}</a><a class="btn-map" href="#near" data-go="near" data-t="hospital">🏥 Hospitals near ${E(p.n)}</a>
    <a class="btn-map" href="#trains" data-go="trains">🚆 Trains & buses</a><a class="btn-map" href="#" data-sharecard="${E(p.n)}">📲 Send to family</a></div></div>`}
 function choose(n,fromMap){sel=n;try{localStorage.setItem("arnab.district",n)}catch(e){}const p=PL.find(x=>x.n===n);if(!p)return;
-  $("dcard").innerHTML=cardHTML(p);[...$("pick").children].forEach(b=>b.classList.toggle("on",b.dataset.n===n));drawMap();if(fromMap)$("dcard").scrollIntoView({block:"nearest",behavior:"smooth"});else map.setView([p.lat,p.lon],8);loadNear();track("cyclone_district",n)}
+  $("dcard").innerHTML=cardHTML(p);[...$("pick").children].forEach(b=>b.classList.toggle("on",b.dataset.n===n));drawMap();renderWind();if(fromMap)$("dcard").scrollIntoView({block:"nearest",behavior:"smooth"});else map.setView([p.lat,p.lon],8);loadNear();track("cyclone_district",n)}
 
 
 // OpenStreetMap lookup straight from the phone (Overpass mirrors, CORS-enabled); falls back to the saved district list.
@@ -265,6 +278,29 @@ function renderInfo(){
   if(D.roads)$("rd").innerHTML=`<div class="kv">${D.roads.map(r=>`<div><b>${E(r[1])} <small>· ${E(r[0])}</small><span class="chip ${E(r[3])}">${r[3]==="closed"?"CLOSED":r[3]==="slow"?"BLOCKED/SLOW":"INFO"}</span></b><small>${E(r[2])}</small></div>`).join("")}</div>`;
   const P=D.power;if(P)$("pw").innerHTML=`<div class="kv"><div><b>⚠️ Outages reported</b>${P.out.map(E).join(" · ")}</div><div><b>🛠️ Restoration</b><small>${E(P.crew)}</small></div><div><b>📞 Report outages / fallen lines</b><a href="tel:1912" style="font-weight:900">1912</a> <small>${E(P.helpline.replace(/^1912\s*/,""))}</small></div></div><p class="upd">${E(P.note)}</p>`;
 }
+
+// ---------- live wind (Open-Meteo 15-minute model data, IST) ----------
+const WPTS=["Srikakulam","Vizianagaram","Visakhapatnam","Anakapalli","Kakinada","Yanam","Konaseema","East Godavari","West Godavari","Krishna","Ganjam","Gajapati"];
+const WNAME={Konaseema:"Konaseema (Amalapuram)","East Godavari":"East Godavari (Rajahmundry)","West Godavari":"West Godavari (Bhimavaram)",Krishna:"Krishna (Machilipatnam)",Ganjam:"Ganjam (Berhampur)"};
+let WR=2,WD=null,WAt=null,WALL=false;
+const wlev=g=>g>=89?["k3","Storm-force"]:g>=62?["k2","Gale"]:g>=40?["k1","Strong"]:["k0","Moderate"];
+const cmp=d=>["N","NE","E","SE","S","SW","W","NW"][Math.round(d/45)%8];
+const hm=t=>{const [h,m]=t.slice(11,16).split(":").map(Number);return `${h%12||12}:${String(m).padStart(2,"0")} ${h<12?"am":"pm"}`};
+async function loadWind(){if(!PL.length)return;const pts=WPTS.map(n=>PL.find(p=>p.n===n)).filter(Boolean);const all=pts.map(p=>({n:WNAME[p.n]||p.n,key:p.n,lat:p.lat,lon:p.lon}));
+  if(useMe&&me)all.unshift({n:"📍 Where you are",key:"__me",lat:me.lat,lon:me.lon});
+  const u=`https://api.open-meteo.com/v1/forecast?latitude=${all.map(x=>x.lat.toFixed(3)).join(",")}&longitude=${all.map(x=>x.lon.toFixed(3)).join(",")}&current=wind_speed_10m,wind_gusts_10m,wind_direction_10m&minutely_15=wind_speed_10m,wind_gusts_10m,wind_direction_10m&past_minutely_15=6&forecast_minutely_15=1&timezone=Asia%2FKolkata&wind_speed_unit=kmh`;
+  try{const r=await fetch(u);if(!r.ok)throw 0;let j=await r.json();if(!Array.isArray(j))j=[j];
+    WD=all.map((x,i)=>{const d=j[i];if(!d)return null;const c=d.current,m=d.minutely_15;const rows=m.time.map((t,k)=>({t,s:m.wind_speed_10m[k],g:m.wind_gusts_10m[k],d:m.wind_direction_10m[k]})).filter(r=>r.t<c.time&&r.s!=null);
+      rows.push({t:c.time,s:c.wind_speed_10m,g:c.wind_gusts_10m,d:c.wind_direction_10m,now:1});return Object.assign(x,{rows})}).filter(Boolean);
+    WAt=new Date();renderWind();track("cyclone_wind_load")}catch(e){$("wlist").innerHTML='<p class="upd">Wind data is busy. Retrying in a minute.</p>';setTimeout(loadWind,60000)}}
+function renderWind(){if(!WD)return;const list=WD.slice().sort((a,b)=>(a.key==="__me"?-1:b.key==="__me"?1:0)||(a.key===sel?-1:b.key===sel?1:0)||b.rows.at(-1).g-a.rows.at(-1).g);
+  $("wlist").innerHTML=list.map((x,ix)=>{const rows=x.rows.slice(-(WR+1)),n=rows.at(-1),lv=wlev(n.g),first=rows[0];const tr=n.s-first.s;
+    return `<div class="wc${x.key==="__me"?" me":x.key===sel?" sel":""}"${ix>3&&!WALL?" hidden":""}><div class="wh"><b>${E(x.n)}</b><span class="ar" style="transform:rotate(${(n.d+180)%360}deg)" title="wind from ${cmp(n.d)}">↑</span><span class="wl ${lv[0]}">${lv[1]}</span></div>
+     <div class="wn"><b>${Math.round(n.s)}</b> km/h · gusts <b>${Math.round(n.g)}</b> km/h · from ${cmp(n.d)} · ${Math.abs(tr)<2?"steady":tr>0?"⬆️ rising":"⬇️ easing"}</div>
+     <div class="wt" style="grid-template-columns:repeat(${rows.length},1fr)">${rows.map(r=>`<div class="${r.now?"now":""}">${r.now?"Now":hm(r.t)}<b>${Math.round(r.s)}</b><i>gust ${Math.round(r.g)}</i></div>`).join("")}</div></div>`}).join("")+(list.length>4&&!WALL?`<button class="tlm" data-wall="1">Show all ${list.length} coastal places ↓</button>`:"");
+  const t=WD[0].rows.at(-1).t;$("wnote").innerHTML=`All times IST. Latest reading for <b>${hm(t)}</b>; refreshed ${WAt.toLocaleTimeString("en-IN",{timeZone:"Asia/Kolkata",hour:"numeric",minute:"2-digit"})}. Speeds are 10 m wind in km/h from the <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> weather model, every 15 minutes, not weather-station readings. Gale = gusts 62+ km/h, storm-force = 89+.`}
+document.addEventListener("click",e=>{if(e.target.closest("[data-wall]")){WALL=true;renderWind();return}const w=e.target.closest("[data-wr]");if(!w)return;WR=+w.dataset.wr;document.querySelectorAll("[data-wr]").forEach(b=>b.classList.toggle("on",b===w));renderWind();track("cyclone_wind_range",String(WR))});
+setInterval(loadWind,300000);
 function checkTrain(){const n=($("tno").value||"").replace(/\D/g,"");if(n.length<4){$("tres").innerHTML="";return}
   const hit=(D.trains.list||[]).filter(t=>t[0]===n||t[0]===n.padStart(5,"0"));track("cyclone_train",n);
   $("tres").innerHTML=hit.length?hit.map(t=>`<div class="res bad">❌ <b>${E(t[0])} ${E(t[1])}</b><br>${E(t[3])} · ${E(t[2])}</div>`).join(""):`<div class="res ok">✅ <b>${E(n)}</b> is not on the reported cancellation list. Railways are still updating, so confirm on <a href="tel:139">📞 139</a> before you leave.</div>`}
@@ -311,7 +347,7 @@ function locate(){if(!navigator.geolocation){$("dcard").innerHTML='<p class="upd
   document.querySelectorAll(".locb").forEach(x=>x.textContent="📍 Finding you…");let firstFix=true;if(watch!=null)navigator.geolocation.clearWatch(watch);
   watch=navigator.geolocation.watchPosition(pos=>{me={lat:pos.coords.latitude,lon:pos.coords.longitude};useMe=true;fixAt=new Date().toISOString();
     document.querySelectorAll(".locb").forEach(x=>{x.classList.add("on");x.textContent="✓ Live location on · distances update as you move"});
-    if(firstFix){firstFix=false;track("cyclone_locate");let best=null;PL.forEach(p=>{const d=km(me.lat,me.lon,p.lat,p.lon);if(!best||d<best.d)best={d,p}});
+    if(firstFix){firstFix=false;track("cyclone_locate");setTimeout(loadWind,0);let best=null;PL.forEach(p=>{const d=km(me.lat,me.lon,p.lat,p.lon);if(!best||d<best.d)best={d,p}});
       const hit=nearestHit(me);
       if(hit&&hit.d<=ZONE_KM){choose(best.p.n)}
       else{sel=null;[...$("pick").children].forEach(b=>b.classList.remove("on"));$("dcard").innerHTML=`<div class="dc"><div class="top"><b>Your location</b><span class="badge safe">OUTSIDE THE CYCLONE-HIT AREA</span></div><div class="ln"><i>🌀</i><span>Storm centre is ~${km(me.lat,me.lon,D.position.lat,D.position.lon)} km away${hit?`; nearest hit district is ${E(hit.p.n)} (~${hit.d} km)`:""}. Rain may still reach you. Follow the updates below.</span></div></div>`;drawMap();loadNear()}
@@ -321,6 +357,6 @@ function locate(){if(!navigator.geolocation){$("dcard").innerHTML='<p class="upd
    err=>{stopWatch();const m=err&&err.code===1?"Location is blocked for this site. Allow it in your browser settings, or pick your district.":"Couldn't get your location. Pick your district, or try again outdoors.";$("dcard").innerHTML=`<p class="upd">${m}</p>`;const nf=$("nearfor");if(nf&&!sel)nf.innerHTML=m},
    {enableHighAccuracy:true,timeout:15000,maximumAge:60000})}
 $("share").addEventListener("click",e=>{e.preventDefault();const u="https://spillthetea.news/cyclone/?src=wa&c=arnab-desk";const t=`🌀 Cyclone Arnab: check your district, the storm's position, control room numbers and safe places. Live, verified 👉 ${u}`;track("cyclone_share","desk");if(navigator.share)navigator.share({text:t}).catch(()=>{});else window.open("https://wa.me/?text="+encodeURIComponent(t),"_blank","noopener")});
-track("cyclone_open");loadDesk().then(()=>{showWindy();loadWire()});setInterval(loadWire,10000);setInterval(loadDesk,30000);setInterval(()=>{if(D)$("dupd").textContent=ago(D.updated)},5000);
+track("cyclone_open");loadDesk().then(()=>{showWindy();loadWire();loadWind()});setInterval(loadWire,10000);setInterval(loadDesk,30000);setInterval(()=>{if(D)$("dupd").textContent=ago(D.updated)},5000);
 })();
 </script></body></html>
