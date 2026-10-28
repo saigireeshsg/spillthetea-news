@@ -38,6 +38,8 @@ h2{font-size:16px;margin:22px 0 8px;display:flex;align-items:center;gap:8px}
 .lbl{background:none!important;border:0!important;box-shadow:none!important;font:800 11px system-ui;color:#fff;text-shadow:0 0 3px #000,0 0 3px #000;padding:0!important}.lbl:before{display:none}
 .need{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}.need button{font:inherit;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:22px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 4px;color:var(--fg);cursor:pointer}.need button span{font-size:11.5px;font-weight:800;text-align:center;line-height:1.2}
 .nt{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-bottom:6px}.nt button{flex:none;font:inherit;font-size:13px;font-weight:800;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:7px 11px;cursor:pointer}.nt button.on{background:var(--fg);color:#111}
+.pc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:11px 12px;margin-bottom:8px;display:grid;gap:5px}.pct{display:flex;gap:8px;align-items:flex-start}.pct b{flex:1;font-size:15px;line-height:1.3}.pc .km{font-weight:900;color:#ffb38f;white-space:nowrap;font-size:13px}
+.pca{font-size:13px;color:#cfd5d8}.pca small{color:var(--mut)}.pcb{display:flex;gap:6px;flex-wrap:wrap;margin-top:3px}.pcb a{text-decoration:none;font-weight:800;font-size:13px;border-radius:999px;padding:7px 11px}.pcb a.c{background:#13301f;color:#7ee2a8}.pcb a.g{background:#10243d;color:#9fd2ff}.pcb .np{font-size:12px;color:var(--mut);align-self:center}
 .pl{display:flex;gap:10px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:9px 11px;margin-bottom:6px}.pl .pn{flex:1;min-width:0}.pl b{display:block;font-size:14.5px}.pl small{color:var(--mut);font-size:12px}.pl .km{font-weight:900;color:#ffb38f;white-space:nowrap;font-size:13px}
 .pl a{text-decoration:none;font-weight:800;background:#13301f;color:#7ee2a8;padding:6px 10px;border-radius:999px;white-space:nowrap;font-size:13px}
 .info{background:#0d1a24;border:1px solid #1f3a52;border-radius:12px;padding:10px 12px;font-size:14px;margin-top:8px;color:#d6dadd}
@@ -98,6 +100,7 @@ ul.sf{margin:0;padding-left:18px}ul.sf li{margin:3px 0;font-size:14.5px}
 
 <section id="near"><h2>🧭 Near you</h2>
  <div class="nt"><button data-t="shelter" class="on">🏠 Shelters</button><button data-t="hospital">🏥 Hospitals</button><button data-t="pharmacy">💊 Pharmacy</button><button data-t="food">🍲 Food</button><button data-t="fuel">⛽ Fuel</button><button data-t="police">🚓 Police/Fire</button></div>
+ <div class="tq" style="margin:6px 0"><input id="nearq" placeholder="Filter by name or area, e.g. Government, Amalapuram" aria-label="Filter places"></div><p class="upd"><span id="nearcount"></span></p>
  <p class="upd" id="nearfor">Pick your district above or tap 📍 Use my location.</p>
  <div id="nearlist"></div>
  <div class="info" id="relief"></div>
@@ -218,10 +221,19 @@ function nearPoint(){if(me)return{lat:me.lat,lon:me.lon,label:"you"};const p=PL.
 async function loadNear(){const pt=nearPoint();if(!pt){$("nearfor").textContent="Pick your district above or tap 📍 Use my location.";$("nearlist").innerHTML="";return}
   const lbl={shelter:"shelters & public buildings",hospital:"hospitals & clinics",pharmacy:"pharmacies",food:"food & grocery",fuel:"fuel stations",police:"police & fire stations"}[NT];
   $("nearfor").innerHTML=`Showing <b>${lbl}</b> within 15 km of <b>${E(pt.label)}</b> · from OpenStreetMap`;$("nearlist").innerHTML='<p class="upd">Searching the map…</p>';
-  try{let it=STATICP(pt);const live=await osmNear(pt,NT).catch(()=>null);if(live&&live.length)it=live;NP=it;const j={};
-    $("nearlist").innerHTML=it.length?it.slice(0,12).map((x,i)=>`<div class="pl"><div class="pn"><b>${E(x.name)}</b><small>${E(x.addr||x.kind||"")}${x.emergency?" · 🚑 emergency":""}</small></div><span class="km">${x.km} km</span>${x.phone?`<a href="${tel(x.phone.split(/[;,]/)[0])}">📞 Call</a>`:`<a href="#" data-showpl="${i}">🗺️ Map</a>`}</div>`).join(""):`<p class="upd">${j.error?E(j.error):"Nothing mapped nearby yet. Call your district control room or 1070."}</p>`;
-    if(NL)map.removeLayer(NL);NL=L.layerGroup(it.slice(0,12).map(x=>L.circleMarker([x.lat,x.lon],{radius:6,color:"#fff",weight:2,fillColor:NT==="hospital"?"#4fbcff":"#46d160",fillOpacity:.95}).bindTooltip(x.name))).addTo(map);
+  try{const st=STATICP(pt);const live=await osmNear(pt,NT).catch(()=>null);let it=st;if(live&&live.length){const names=new Set(live.map(x=>x.name.toLowerCase()));it=live.concat(st.filter(x=>!names.has(x.name.toLowerCase()))).sort((a,b)=>a.km-b.km)}
+    NP=it;renderNear();
     track("cyclone_near",NT)}catch(e){$("nearlist").innerHTML='<p class="upd">Couldn\'t load right now. Try again in a minute.</p>'}}
+
+function nearTown(x){let b=null;PL.forEach(p=>{const d=km(x.lat,x.lon,p.lat,p.lon);if(!b||d<b.d)b={d,p}});return b?`${b.d<=3?"In":"Near"} ${b.p.n}${b.d>3?` (${b.d} km)`:""}`:""}
+function renderNear(){const it=NP||[];const f=($("nearq")&&$("nearq").value||"").toLowerCase().trim();
+  const show=it.filter(x=>!f||(x.name+" "+(x.addr||"")).toLowerCase().includes(f)).slice(0,20);
+  $("nearcount").textContent=it.length?`${show.length} of ${it.length} places`:"";
+  $("nearlist").innerHTML=show.length?show.map(x=>{const ph=(x.phone||"").split(/[;,]/)[0].trim();const dir=`https://www.google.com/maps/dir/?api=1&destination=${x.lat},${x.lon}`;
+    return `<div class="pc"><div class="pct"><b>${E(x.name)}</b><span class="km">${x.km} km</span></div>
+    <div class="pca">📍 ${E(x.addr||nearTown(x))} <small>· ${x.lat.toFixed(4)}, ${x.lon.toFixed(4)}</small></div>
+    ${x.kind?`<div class="pca">🏷️ ${E(String(x.kind).replace(/_/g," "))}${x.emergency?" · 🚑 has emergency":""}</div>`:""}
+    <div class="pcb">${ph?`<a class="c" href="${tel(ph)}">📞 ${E(ph)}</a>`:`<span class="np">No phone listed</span>`}<a class="g" href="${dir}" target="_blank" rel="noopener" data-dir="1">🧭 Directions in Google Maps</a></div></div>`}).join(""):`<p class="upd">${it.length?"No match for that search.":"Nothing mapped nearby yet. Call your district control room or 1070."}</p>`}
 function renderInfo(){
   const R=D.relief;if(R)$("relief").innerHTML=`<b>🍲 Food & water:</b> ${E(R.food)}<br><br><b>🏠 Official relief centres:</b> ${E(R.summary)}${R.named&&R.named.length?"<br>"+R.named.map(n=>`• ${E(n[0])}: ${E(n[1])}`).join("<br>"):""}`;
   const T=D.trains;if(T){$("tlist").innerHTML=T.list.map(t=>`<div class="tr"><b>${E(t[0])}</b><span>${E(t[1])}<br><small style="color:var(--mut)">${E(t[2])}</small></span><span class="x ${/Partial/.test(t[3])?"p":""}">${E(t[3].replace(/ \(.*\)/,""))}</span></div>`).join("");
@@ -241,6 +253,8 @@ document.addEventListener("click",e=>{
   if(e.target.closest("#tgo"))checkTrain();
 });
 document.addEventListener("keydown",e=>{if(e.target&&e.target.id==="tno"&&e.key==="Enter")checkTrain()});
+document.addEventListener("input",e=>{if(e.target&&e.target.id==="nearq")renderNear()});
+document.addEventListener("click",e=>{if(e.target.closest("[data-dir]"))track("cyclone_directions",NT)});
 function render(){
   PL=places();$("lvl").textContent=D.level;$("mv").textContent=(D.moving.state==="stationary"?"⏸️ ":"➡️ ")+D.moving.text;$("headline").textContent=D.headline;$("dupd").textContent=ago(D.updated);
   $("nums").innerHTML=D.numbers.map(n=>`<div><b>${E(n.v)}</b><span>${E(n.l)}</span></div>`).join("");
