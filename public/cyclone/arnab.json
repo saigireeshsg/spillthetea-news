@@ -1,0 +1,55 @@
+{
+ "name": "Cyclone Arnab",
+ "updated": "2026-10-28T12:40:00+05:30",
+ "status": "Landfall complete near Yanam (AP). Weakening over land.",
+ "level": "Severe cyclonic storm → weakening",
+ "headline": "Arnab has crossed the Andhra coast near Yanam. It's weakening over land but heavy rain and flash floods are still likely in coastal AP, south Odisha and east Telangana today and tomorrow.",
+ "position": {"lat": 16.45, "lon": 81.90, "label": "Landfall area: ~40 km SW of Yanam, ~60 km SW of Kakinada (IMD, Oct 28 morning)"},
+ "track": [
+  {"lat": 16.40, "lon": 82.00, "t": "Oct 28, ~8:30 am", "note": "Over the coast, 30 km E of Narsapur · 115–125 km/h"},
+  {"lat": 16.45, "lon": 81.90, "t": "Oct 28, late morning", "note": "Landfall complete · entirely over land"}
+ ],
+ "forecast": [
+  {"t": "Oct 28, 11:30 am", "what": "Cyclonic storm · 80–90 km/h, gusts 100"},
+  {"t": "Oct 28, 5:30 pm", "what": "Deep depression · 50–60 km/h, gusts 70"},
+  {"t": "Oct 29, early", "what": "Depression, moving inland (NW, then NNW)"}
+ ],
+ "numbers": [
+  {"v": "~89,000", "l": "evacuated in Andhra Pradesh"},
+  {"v": "30,000+", "l": "evacuated in Odisha"},
+  {"v": "2,000+", "l": "shelters ready in AP · 2,037 in Odisha"},
+  {"v": "0", "l": "deaths reported (Oct 28 morning)"}
+ ],
+ "areas": [
+  {"state": "Andhra Pradesh", "level": "red", "what": "Landfall zone · storm surge · flash floods", "places": [
+    ["Kakinada", 16.989, 82.247], ["Yanam", 16.733, 82.213], ["Konaseema (Amalapuram)", 16.578, 82.006], ["East Godavari (Rajamahendravaram)", 17.000, 81.804], ["West Godavari (Bhimavaram)", 16.544, 81.521], ["Visakhapatnam", 17.687, 83.218], ["Anakapalli", 17.691, 83.004], ["Alluri Sitharama Raju (Paderu)", 18.083, 82.667], ["Krishna (Machilipatnam)", 16.187, 81.138], ["Eluru", 16.711, 81.095], ["Vizianagaram", 18.106, 83.395], ["Srikakulam", 18.297, 83.897]]},
+  {"state": "Odisha", "level": "red", "what": "Red alert: very heavy rain, gusts to 90 km/h", "places": [
+    ["Malkangiri", 18.348, 81.888], ["Koraput", 18.811, 82.711], ["Nabarangpur", 19.233, 82.550], ["Rayagada", 19.171, 83.416], ["Gajapati (Paralakhemundi)", 18.783, 84.083], ["Ganjam (Berhampur)", 19.315, 84.792], ["Kalahandi (Bhawanipatna)", 19.907, 83.167]]},
+  {"state": "Telangana", "level": "orange", "what": "Orange alert: heavy to very heavy rain", "places": [
+    ["Khammam", 17.247, 80.151], ["Bhadradri Kothagudem", 17.556, 80.619], ["Mulugu", 18.191, 79.943], ["Mahabubabad", 17.598, 80.002]]}
+ ],
+ "contacts": [
+  {"group": "Anywhere in India", "items": [["Emergency (police, fire, ambulance)", "112"], ["Ambulance", "108"]]},
+  {"group": "Andhra Pradesh · state", "items": [["Disaster control room", "1070"], ["Disaster helpline (toll-free)", "1800 425 0101"], ["Mana Mitra WhatsApp (send 'Hi')", "9552300009", "wa"], ["Power complaints (APEPDCL)", "1912"]]},
+  {"group": "AP districts · control rooms", "items": [["Kakinada", "0884-2356801"], ["Kakinada (mobile)", "9849903879"], ["Konaseema", "8856293104"], ["East Godavari", "8832944455"], ["West Godavari", "08816-299181"], ["Eluru (toll-free)", "18002331077"], ["Visakhapatnam", "0891-2590102"], ["GVMC Visakhapatnam (toll-free)", "1800-425-0009"], ["Anakapalli", "08924-222888"], ["Alluri Sitharama Raju", "8935293448"], ["Vizianagaram", "8922236947"], ["Srikakulam", "08942-240557"], ["Krishna", "08672-252399"], ["NTR (Vijayawada)", "9154970454"], ["Guntur", "0863-2234014"], ["Bapatla", "08643-220226"], ["Prakasam (toll-free)", "18004250277"], ["Polavaram (toll-free)", "18004254225"]]},
+  {"group": "Odisha & Telangana", "items": [["Emergency", "112"]]}
+ ],
+ "safety": [
+  "Stay indoors until officials say it's safe. The calm 'eye' passing is not the end.",
+  "Keep away from the sea, rivers, canals and low-lying roads: flash floods are still likely.",
+  "Don't touch fallen power lines or wet poles. Report them on 1912 (AP).",
+  "Charge phones, keep a torch, drinking water, medicines and documents in a plastic bag.",
+  "Never drive or walk through flood water. 15 cm of moving water can knock you down.",
+  "Only trust official updates. Forward nothing you can't verify."
+ ],
+ "transport": "Trains: 53–91 cancelled across the east and south coast lines (reports vary). Flights: 21+ cancelled at Vijayawada and Visakhapatnam. Check with IRCTC / your airline before travelling.",
+ "sources": [
+  ["Deccan Chronicle: AP state & district control room numbers (Oct 27)", "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-arnab-state-district-emergency-control-room-numbers-issued-1999240"],
+  ["The Hans India: Arnab completes landfall (Oct 28)", "https://www.thehansindia.com/andhra-pradesh/the-worst-is-over-arnab-completes-landfall-no-loss-of-life-or-major-damage-reported-1136701"],
+  ["Daily Pioneer: IMD position & forecast (Oct 28)", "https://dailypioneer.com/india/cyclone-arnab-live-landfall-wind-eases-yanam-andhra-coast-october-28"],
+  ["ThePrint/PTI: Odisha evacuates 30,000+ (Oct 28)", "https://theprint.in/india/odisha-evacuates-over-30000-people-as-cyclone-arnab-triggers-alert-in-southern-districts/3083667/"],
+  ["The Morning Voice: 89,000 evacuated in AP (Oct 28)", "https://tmv.in/article/andhra-pradesh-on-high-alert-as-cyclone-arnab-nears-the-coast-nearly-89000-evacuated"],
+  ["ETV Bharat live: IMD Odisha warnings (Oct 28)", "https://www.etvbharat.com/en/bharat/live-blog--cyclone-arnab-live-updates-landfall-in-andhra-pradesh-rain-odisha-jharkhand-chhattisgarh-enn26102800499"],
+  ["The Hindu: Telangana orange alert districts (Oct 27)", "https://www.thehindu.com/news/cities/Hyderabad/"]
+ ]
+}

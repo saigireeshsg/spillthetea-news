@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Cyclone Arnab Live Desk · Spill</title>
+<meta name="description" content="Cyclone Arnab live: map, affected districts in Andhra Pradesh, Odisha and Telangana, emergency helplines, shelters and updates every few seconds.">
+<meta property="og:title" content="🌀 Cyclone Arnab Live Desk"><meta property="og:description" content="Live map, affected areas, helplines and shelters. Updated every few seconds."><meta property="og:image" content="https://spillthetea.news/og.png">
+<link rel="icon" href="/favicon.svg"><meta name="theme-color" content="#0a0a0b">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root{--bg:#0a0a0b;--card:#151518;--card2:#1d1d21;--line:#2a2a30;--fg:#f2f2f2;--mut:#a3acb0;--o:#ff4500;--red:#ff5a4a;--amb:#ffb020;--grn:#46d160;--blu:#4fbcff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--blu)}main{max-width:760px;margin:0 auto;padding:0 14px 40px}
+header{position:sticky;top:0;z-index:1000;background:rgba(10,10,11,.92);backdrop-filter:blur(8px);display:flex;align-items:center;gap:8px;padding:10px 14px;border-bottom:1px solid var(--line)}
+header img{width:28px;height:28px}header b{font-size:19px;font-weight:900;letter-spacing:-.03em}header .lv{margin-left:auto;display:flex;align-items:center;gap:6px;font-size:12.5px;font-weight:800;color:var(--red)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--red);animation:p 1.4s infinite}@keyframes p{50%{opacity:.25}}
+h1{font-size:25px;line-height:1.2;margin:14px 0 4px}.st{display:inline-block;font-size:12.5px;font-weight:800;padding:4px 10px;border-radius:999px;background:#3a1406;color:#ffb38f}
+.lead{color:#d6dadd;margin:8px 0 12px}.upd{font-size:12.5px;color:var(--mut)}
+.sos{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}
+.sos a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;text-decoration:none;color:#fff;font-weight:900;font-size:19px;border-radius:14px;padding:12px 6px;background:#b3261e}
+.sos a small{font-size:11.5px;font-weight:700;opacity:.9;text-align:center}.sos a.g{background:#1f6f43}.sos a.b{background:#1f4f8a}
+#map{height:360px;border-radius:16px;border:1px solid var(--line);margin:6px 0}
+.leg{display:flex;flex-wrap:wrap;gap:10px;font-size:12.5px;color:var(--mut);margin-bottom:6px}.leg i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+section{margin-top:18px}section>h2{font-size:17px;margin:0 0 8px;display:flex;align-items:center;gap:8px}
+.nums{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.nums div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px}.nums b{display:block;font-size:22px}.nums span{font-size:12.5px;color:var(--mut)}
+.fc{display:grid;gap:6px}.fc div{background:var(--card);border-radius:12px;padding:8px 12px;font-size:14px}.fc b{color:#ffb38f}
+.area{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px;margin-bottom:8px}.area h3{margin:0;font-size:15px;display:flex;gap:8px;align-items:center}
+.area .tg{font-size:11px;font-weight:900;padding:2px 8px;border-radius:999px}.tg.red{background:#3a0f0c;color:var(--red)}.tg.orange{background:#3a2608;color:var(--amb)}
+.area p{margin:4px 0 0;font-size:13.5px;color:var(--mut)}
+.feed{display:grid;gap:8px}.it{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;text-decoration:none;color:var(--fg)}
+.it.new{border-color:var(--o);box-shadow:0 0 0 1px var(--o) inset;animation:fl 2s}@keyframes fl{0%{background:#3a1406}}
+.it b{display:block;font-size:14.5px;line-height:1.35}.it small{color:var(--mut);font-size:12px}.it .nw{color:var(--o);font-weight:900;margin-right:4px}
+.cg{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:8px;overflow:hidden}.cg summary{padding:10px 12px;font-weight:800;cursor:pointer}
+.cg .r{display:flex;align-items:center;gap:10px;padding:8px 12px;border-top:1px solid var(--line);font-size:14px}.cg .r span{flex:1;color:#d6dadd}
+.cg .r a{text-decoration:none;font-weight:800;background:#13301f;color:#7ee2a8;padding:6px 11px;border-radius:999px;white-space:nowrap}
+.find{display:grid;grid-template-columns:1fr 1fr;gap:8px}.find a{display:block;text-align:center;text-decoration:none;font-weight:800;background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:12px 8px;color:var(--fg)}
+ul.sf{margin:0;padding-left:18px}ul.sf li{margin:4px 0}
+.src{font-size:12.5px;color:var(--mut)}.src li{margin:3px 0}
+.share{display:block;text-align:center;font-weight:900;background:var(--o);color:#fff;text-decoration:none;border-radius:999px;padding:13px;margin:18px 0 6px}
+.leaflet-container{background:#0d1418}.lbl{font:700 11px system-ui;color:#fff;text-shadow:0 1px 3px #000;white-space:nowrap}
+</style></head>
+<body>
+<header><img src="/favicon.svg" alt=""><b>spill</b><span class="lv"><span class="dot"></span>LIVE DESK</span></header>
+<main>
+<h1>🌀 Cyclone Arnab: live help desk</h1>
+<span class="st" id="lvl">Loading…</span>
+<p class="lead" id="headline"></p>
+<div class="upd">Desk updated <b id="dupd">…</b> · news checked <b id="fupd">…</b> · auto-refresh every 10 s</div>
+
+<div class="sos">
+ <a href="tel:112">112<small>Emergency</small></a>
+ <a class="b" href="tel:1070">1070<small>AP disaster control</small></a>
+ <a class="g" href="https://wa.me/919552300009?text=Hi" target="_blank" rel="noopener">WhatsApp<small>AP Mana Mitra</small></a>
+</div>
+
+<section><h2>🗺️ Live map</h2>
+ <div class="leg"><span><i style="background:#ff4500"></i>Cyclone position</span><span><i style="background:#ff5a4a"></i>Red alert</span><span><i style="background:#ffb020"></i>Orange alert</span><span><i style="background:#4fbcff"></i>You</span></div>
+ <div id="map" role="img" aria-label="Map of Cyclone Arnab and affected districts"></div>
+ <div class="find" style="margin-top:8px">
+  <a href="https://www.google.com/maps/search/cyclone+shelter+near+me" target="_blank" rel="noopener">🏠 Cyclone shelters near me</a>
+  <a href="https://www.google.com/maps/search/relief+camp+near+me" target="_blank" rel="noopener">⛺ Relief camps near me</a>
+  <a href="https://www.google.com/maps/search/hospital+near+me" target="_blank" rel="noopener">🏥 Hospitals near me</a>
+  <button id="locbtn" style="font:inherit;font-weight:800;background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:12px 8px;color:var(--fg);cursor:pointer">📍 Am I in an alert area?</button>
+ </div>
+ <p class="upd" id="locres" style="margin-top:6px"></p>
+</section>
+
+<section><h2>📊 Right now</h2><div class="nums" id="nums"></div></section>
+<section><h2>🧭 What happens next (IMD)</h2><div class="fc" id="fc"></div></section>
+
+<section><h2><span class="dot"></span> Live updates</h2><div class="feed" id="feed"><p class="upd">Loading the latest reports…</p></div></section>
+
+<section><h2>📍 Areas on alert</h2><div id="areas"></div></section>
+<section><h2>☎️ Emergency contacts <small class="upd">tap to call</small></h2><div id="contacts"></div></section>
+<section><h2>🛟 Stay safe</h2><ul class="sf" id="safety"></ul><p class="upd" id="transport" style="margin-top:8px"></p></section>
+
+<a class="share" id="share" href="#">📲 Share this desk on WhatsApp</a>
+<section><h2>📚 Sources</h2><ol class="src" id="sources"></ol>
+<p class="upd">Facts are checked against official statements and established outlets by Spill's agents. Live updates are headlines from news outlets, newest first; open the source for details. In an emergency, always call 112.</p></section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="/config.js"></script>
+<script>
+(function(){
+"use strict";
+const E=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const $=id=>document.getElementById(id);
+const ago=t=>{if(!t)return"";const s=Math.max(0,(Date.now()-Date.parse(t))/1000);return s<60?Math.round(s)+"s ago":s<3600?Math.round(s/60)+" min ago":s<86400?Math.round(s/3600)+" h ago":Math.round(s/86400)+" d ago"};
+const C=window.SPILL_CONFIG||{};
+const track=(ev,p)=>{try{fetch(C.supabaseUrl+"/rest/v1/rpc/track_events",{method:"POST",headers:{apikey:C.supabaseAnonKey,Authorization:"Bearer "+C.supabaseAnonKey,"Content-Type":"application/json"},body:JSON.stringify({evs:[{ev,id:p||null,v:null,a:(()=>{try{return localStorage.getItem("spill.anon")||"desk"}catch(e){return "desk"}})()}]})}).catch(()=>{})}catch(e){}};
+let D=null,map=null,layers=null,seen=new Set(),first=true,me=null;
+try{seen=new Set(JSON.parse(sessionStorage.getItem("arnab.seen")||"[]"))}catch(e){}
+function initMap(){
+  map=L.map("map",{zoomControl:true,attributionControl:true}).setView([17.6,82.2],6);
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{maxZoom:12,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>'}).addTo(map);
+  layers=L.layerGroup().addTo(map);
+}
+function drawMap(){
+  if(!map)initMap();layers.clearLayers();
+  const col={red:"#ff5a4a",orange:"#ffb020"};
+  D.areas.forEach(a=>a.places.forEach(([n,la,lo])=>{L.circleMarker([la,lo],{radius:7,color:col[a.level]||"#ffb020",weight:2,fillOpacity:.45}).bindPopup(`<b>${E(n)}</b><br>${E(a.state)}: ${E(a.what)}`).addTo(layers)}));
+  if(D.track&&D.track.length>1)L.polyline(D.track.map(p=>[p.lat,p.lon]),{color:"#ff4500",weight:3,dashArray:"6 6"}).addTo(layers);
+  const p=D.position;
+  [140,90,45].forEach((r,i)=>L.circle([p.lat,p.lon],{radius:r*1000,color:"#ff4500",weight:1,fillColor:"#ff4500",fillOpacity:.06+i*.05}).addTo(layers));
+  L.marker([p.lat,p.lon],{icon:L.divIcon({className:"",html:'<div style="font-size:30px;line-height:30px;animation:spin 3s linear infinite">🌀</div><style>@keyframes spin{to{transform:rotate(-360deg)}}</style>',iconSize:[30,30],iconAnchor:[15,15]})}).bindPopup(`<b>${E(D.name)}</b><br>${E(p.label)}`).addTo(layers);
+  if(me)L.circleMarker([me.lat,me.lon],{radius:8,color:"#4fbcff",weight:3,fillOpacity:.8}).bindPopup("You").addTo(layers);
+}
+function render(){
+  $("lvl").textContent=D.level;$("headline").textContent=D.headline;$("dupd").textContent=ago(D.updated);
+  $("nums").innerHTML=D.numbers.map(n=>`<div><b>${E(n.v)}</b><span>${E(n.l)}</span></div>`).join("");
+  $("fc").innerHTML=D.forecast.map(f=>`<div><b>${E(f.t)}</b> · ${E(f.what)}</div>`).join("");
+  $("areas").innerHTML=D.areas.map(a=>`<div class="area"><h3>${E(a.state)} <span class="tg ${E(a.level)}">${a.level==="red"?"RED":"ORANGE"}</span></h3><p><b style="color:#d6dadd">${E(a.what)}</b><br>${a.places.map(p=>E(p[0])).join(" · ")}</p></div>`).join("");
+  $("contacts").innerHTML=D.contacts.map((g,i)=>`<details class="cg" ${i<2?"open":""}><summary>${E(g.group)}</summary>${g.items.map(([l,n,k])=>`<div class="r"><span>${E(l)}</span><a href="${k==="wa"?"https://wa.me/91"+n.replace(/\D/g,"").slice(-10)+"?text=Hi":"tel:"+n.replace(/[^\d+]/g,"")}" ${k==="wa"?'target="_blank" rel="noopener"':""}>${k==="wa"?"💬":"📞"} ${E(n)}</a></div>`).join("")}</details>`).join("");
+  $("safety").innerHTML=D.safety.map(s=>`<li>${E(s)}</li>`).join("");$("transport").textContent="🚆 "+D.transport;
+  $("sources").innerHTML=D.sources.map(([t,u])=>`<li><a href="${E(u)}" target="_blank" rel="noopener">${E(t)}</a></li>`).join("");
+  drawMap();
+}
+async function loadDesk(){try{const r=await fetch("/cyclone/arnab.json?t="+Math.floor(Date.now()/30000));const j=await r.json();const ch=!D||j.updated!==D.updated;D=j;if(ch)render();else $("dupd").textContent=ago(D.updated)}catch(e){}}
+async function loadFeed(){
+  try{const r=await fetch(C.supabaseUrl+"/functions/v1/cyclone-feed?q=Cyclone%20Arnab");const j=await r.json();$("fupd").textContent=ago(j.checked);
+    const items=(j.items||[]).slice(0,25);if(!items.length){if(first)$("feed").innerHTML='<p class="upd">No new reports in the last few minutes.</p>';return}
+    $("feed").innerHTML=items.map(x=>{const k=x.url;const isNew=!first&&!seen.has(k);return `<a class="it ${isNew?"new":""}" href="${E(x.url)}" target="_blank" rel="noopener" data-k="${E(k)}"><b>${isNew?'<span class="nw">NEW</span>':""}${E(x.title)}</b><small>${E(x.source||"")}${x.at?" · "+ago(x.at):""}</small></a>`}).join("");
+    items.forEach(x=>seen.add(x.url));first=false;try{sessionStorage.setItem("arnab.seen",JSON.stringify([...seen].slice(-300)))}catch(e){}
+  }catch(e){$("fupd").textContent="retrying…"}
+}
+function dist(a,b,c,d){const R=6371,t=x=>x*Math.PI/180,dl=t(c-a),dn=t(d-b);const h=Math.sin(dl/2)**2+Math.cos(t(a))*Math.cos(t(c))*Math.sin(dn/2)**2;return 2*R*Math.asin(Math.sqrt(h))}
+$("locbtn").addEventListener("click",()=>{if(!navigator.geolocation){$("locres").textContent="Location isn't available on this device.";return}$("locres").textContent="Finding you…";
+  navigator.geolocation.getCurrentPosition(pos=>{me={lat:+pos.coords.latitude.toFixed(3),lon:+pos.coords.longitude.toFixed(3)};let best=null;
+    D.areas.forEach(a=>a.places.forEach(([n,la,lo])=>{const d=dist(me.lat,me.lon,la,lo);if(!best||d<best.d)best={d,n,a}}));
+    const dc=Math.round(dist(me.lat,me.lon,D.position.lat,D.position.lon));
+    $("locres").innerHTML=best&&best.d<60?`⚠️ You're about <b>${Math.round(best.d)} km</b> from <b>${E(best.n)}</b> (${E(best.a.state)}, ${best.a.level} alert). The storm centre is ~${dc} km away. Follow local officials and keep 112 handy.`:`✅ You're not near a listed alert district (storm centre ~${dc} km away). Rain may still reach you. Check the forecast below.`;
+    drawMap();map.setView([me.lat,me.lon],7);track("cyclone_locate")},()=>{$("locres").textContent="Location is off. Allow it in your browser settings."},{timeout:10000,maximumAge:600000})});
+$("share").addEventListener("click",e=>{e.preventDefault();const u="https://spillthetea.news/cyclone/?src=wa&c=arnab-desk";const t=`🌀 Cyclone Arnab live desk: map, affected districts, helplines (112 · 1070 · 1800 425 0101) and shelters near you. Updates every few seconds 👉 ${u}`;track("cyclone_share");if(navigator.share)navigator.share({text:t}).catch(()=>{});else window.open("https://wa.me/?text="+encodeURIComponent(t),"_blank","noopener")});
+document.addEventListener("click",e=>{const a=e.target.closest("a[href^='tel:']");if(a)track("cyclone_call",a.getAttribute("href"))});
+track("cyclone_open");
+loadDesk().then(loadFeed);
+setInterval(loadFeed,10000);setInterval(loadDesk,30000);
+setInterval(()=>{if(D)$("dupd").textContent=ago(D.updated)},5000);
+})();
+</script>
+</body></html>
