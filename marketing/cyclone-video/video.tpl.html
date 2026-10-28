@@ -1,0 +1,107 @@
+<!doctype html><html><head><meta charset="utf-8"><style>*{margin:0}html,body{width:1080px;height:1350px;background:#0a0a0b;overflow:hidden}canvas{display:block}</style></head><body><canvas id="c" width="1080" height="1350"></canvas>
+<script>
+const GJ=/*GJ*/null, DATA=/*DATA*/null;
+const W=1080,H=1350,c=document.getElementById("c"),x=c.getContext("2d");
+const F='"Inter Display",Inter,system-ui,sans-serif';
+const clamp=(v,a=0,b=1)=>Math.min(b,Math.max(a,v)),ease=t=>1-Math.pow(1-clamp(t),3),io=t=>{t=clamp(t);return t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2};
+const seg=(t,a,b)=>clamp((t-a)/(b-a));                       // 0..1 progress between a and b
+const fade=(t,a,b,c2,d)=>ease(seg(t,a,b))*(1-ease(seg(t,c2,d))); // fade in a..b, out c2..d
+// seeded random
+let sd=7;const rnd=()=>(sd=(sd*16807)%2147483647)/2147483647;
+// ---- swirl: cloud particles in a disc, banded into spiral arms
+const P=[];for(let i=0;i<4200;i++){const u=rnd(),r=.05+Math.pow(u,.75)*.95;P.push({a0:rnd()*Math.PI*2,r,s:.5+rnd()*1.5,al:.05+rnd()*.16,j:(rnd()-.5)*.35})}
+const spr=document.createElement("canvas");spr.width=spr.height=64;{const g=spr.getContext("2d"),gr=g.createRadialGradient(32,32,0,32,32,32);gr.addColorStop(0,"rgba(255,255,255,1)");gr.addColorStop(.45,"rgba(255,255,255,.3)");gr.addColorStop(1,"rgba(255,255,255,0)");g.fillStyle=gr;g.fillRect(0,0,64,64)}
+function swirl(cx,cy,R,t,alpha,tint){x.save();x.globalCompositeOperation="lighter";
+  const gl=x.createRadialGradient(cx,cy,0,cx,cy,R*1.2);gl.addColorStop(0,`rgba(${tint},${.28*alpha})`);gl.addColorStop(.6,`rgba(${tint},${.08*alpha})`);gl.addColorStop(1,"rgba(0,0,0,0)");x.fillStyle=gl;x.fillRect(cx-R*1.4,cy-R*1.4,R*2.8,R*2.8);
+  const sp=t*.7;
+  for(const p of P){const rot=sp*(1.7-p.r*1.2),ang=p.a0+rot+Math.log(p.r*6+1)*1.6;
+    const band=.5+.5*Math.cos(4*(ang-p.a0*0)-5.2*Math.log(p.r+.12)+0);   // 4 spiral arms
+    const spiralAng=p.a0+rot;const arm=.5+.5*Math.cos(3*(spiralAng+3.4*Math.log(p.r+.08)));
+    const px=cx+Math.cos(spiralAng+p.j*(1-p.r))*p.r*R,py=cy+Math.sin(spiralAng+p.j*(1-p.r))*p.r*R*.94,sz=(7+p.s*R*.06)*(.55+p.r*.8);
+    x.globalAlpha=p.al*alpha*(.22+arm*1.1)*(p.r<.12?.4:1);x.drawImage(spr,px-sz/2,py-sz/2,sz,sz)}
+  x.globalAlpha=alpha;const eye=x.createRadialGradient(cx,cy,0,cx,cy,R*.13);eye.addColorStop(0,"rgba(10,12,16,.95)");eye.addColorStop(.7,"rgba(10,12,16,.6)");eye.addColorStop(1,"rgba(10,12,16,0)");x.globalCompositeOperation="source-over";x.fillStyle=eye;x.beginPath();x.arc(cx,cy,R*.13,0,7);x.fill();x.restore();x.globalAlpha=1}
+// ---- helpers
+function txt(s,px,py,size,w,col,al="left",a=1,ls=0){x.save();x.globalAlpha=a;x.font=`${w} ${size}px ${F}`;x.fillStyle=col;x.textAlign=al;x.textBaseline="alphabetic";if(ls)x.letterSpacing=ls+"px";x.fillText(s,px,py);x.restore()}
+function rr(px,py,w,h,r){x.beginPath();x.roundRect(px,py,w,h,r)}
+function logo(px,py,s){x.save();x.translate(px,py);x.scale(s/64,s/64);x.fillStyle="#ff4500";rr(0,0,64,64,16);x.fill();x.save();x.translate(34,36);x.rotate(-30*Math.PI/180);x.translate(-34,-36);x.fillStyle="#fff";x.beginPath();x.moveTo(17,26);x.lineTo(43,26);x.lineTo(39.8,43.5);x.arcTo(39,48,33.9,48,6);x.lineTo(26.1,48);x.arcTo(21,48,20.2,43.5,6);x.closePath();x.fill();rr(15,22.5,30,4.2,2.1);x.fill();x.strokeStyle="#fff";x.lineWidth=3.6;x.lineCap="round";x.beginPath();x.moveTo(42.6,30.5);x.lineTo(45.2,30.5);x.arc(45.2,35.1,4.6,-Math.PI/2,Math.PI/2);x.lineTo(41.6,39.7);x.stroke();x.restore();x.fillStyle="#fff";x.beginPath();x.moveTo(13,30.5);x.bezierCurveTo(16,34,17,36,17,38);x.arc(13,38,4,0,Math.PI);x.bezierCurveTo(9,36,10,34,13,30.5);x.fill();x.beginPath();x.arc(11.5,47,2.7,0,7);x.fill();x.restore()}
+function bg(t){const g=x.createRadialGradient(W/2,H*.35,0,W/2,H*.35,H*.9);g.addColorStop(0,"#16222e");g.addColorStop(.55,"#0c1016");g.addColorStop(1,"#0a0a0b");x.fillStyle=g;x.fillRect(0,0,W,H)}
+function brand(a=1){logo(60,56,64);txt("spill",138,106,50,900,"#fff","left",a);}
+function foot(s,a=1){txt(s,W/2,H-46,22,600,"#8a929a","center",a)}
+// ---- map projection
+const LON0=79.6,LON1=85.8,LAT0=15.7,LAT1=20.4;const MB={x:50,y:330,w:980,h:760};
+const k=Math.cos(18*Math.PI/180);const sc=Math.min(MB.w/((LON1-LON0)*k),MB.h/(LAT1-LAT0));
+const ox=MB.x+(MB.w-(LON1-LON0)*k*sc)/2,oy=MB.y+(MB.h-(LAT1-LAT0)*sc)/2;
+const PX=(lon,lat)=>[ox+(lon-LON0)*k*sc,oy+(LAT1-lat)*sc];
+const lvl={};DATA.districts.forEach(s=>s.places.forEach(p=>lvl[p.n.toLowerCase().replace("nabarangpur","nabarangapur")]=p));
+function drawMap(t,a){ // t seconds since scene start
+  x.save();x.globalAlpha=a;x.beginPath();x.rect(MB.x-10,MB.y-10,MB.w+20,MB.h+20);x.clip();
+  const centroids=[];
+  GJ.features.forEach((f,fi)=>{const nm=f.properties.n.toLowerCase(),p=lvl[nm];const lv=p?p.lvl:"none";const geoms=f.geometry.type==="Polygon"?[f.geometry.coordinates]:f.geometry.coordinates;
+    const reveal=ease(seg(t,.2+(p?(lv==="red"?0:.9):0)+(fi%7)*.03,1.2+(p?(lv==="red"?0:.9):0)));
+    x.beginPath();let sx=0,sy=0,n=0;geoms.forEach(poly=>poly.forEach(ring=>{ring.forEach((pt,i)=>{const [X,Y]=PX(pt[0],pt[1]);i?x.lineTo(X,Y):x.moveTo(X,Y);sx+=X;sy+=Y;n++});x.closePath()}));
+    x.fillStyle=lv==="red"?`rgba(255,77,61,${.85*reveal})`:lv==="orange"?`rgba(255,176,32,${.8*reveal})`:"rgba(255,255,255,.04)";x.fill();
+    x.strokeStyle=lv==="none"?"rgba(255,255,255,.14)":`rgba(255,255,255,${.5})`;x.lineWidth=lv==="none"?1:1.6;x.stroke();
+    if(lv==="red")centroids.push([f.properties.n,sx/n,sy/n,reveal])});
+  x.restore();
+  // labels for red districts
+  const skip={"Konaseema":[70,86],"East Godavari":[-40,-38],"West Godavari":[-90,46],"Yanam":[100,8],"Kakinada":[58,-14],"Visakhapatnam":[48,-10],"Anakapalli":[-24,-24],"Gajapati":[34,-18],"Ganjam":[44,18],"Malkangiri":[0,0],"Koraput":[0,0],"Nabarangpur":[-14,0],"Rayagada":[0,6]};
+  centroids.forEach(([n,cx,cy,r])=>{const o=skip[n]||[0,0];txt(n,cx+o[0],cy+o[1],20,800,"#fff","center",a*r)});
+  // storm + heading
+  const P0=DATA.position,[sx,sy]=PX(P0.lon,P0.lat);const sa=ease(seg(t,2.6,3.4))*a;
+  if(sa>0){const h=DATA.heading.deg*Math.PI/180,L=130*ease(seg(t,3.4,4.4));x.save();x.globalAlpha=sa;x.strokeStyle="#fff";x.lineWidth=6;x.setLineDash([16,12]);x.lineDashOffset=-t*26;x.lineCap="round";x.beginPath();x.moveTo(sx,sy);x.lineTo(sx+Math.sin(h)*L,sy-Math.cos(h)*L);x.stroke();x.setLineDash([]);
+    const ex=sx+Math.sin(h)*L,ey=sy-Math.cos(h)*L;x.fillStyle="#fff";x.beginPath();x.moveTo(ex+Math.sin(h)*20,ey-Math.cos(h)*20);x.lineTo(ex-Math.sin(h)*8+Math.cos(h)*14,ey+Math.cos(h)*8+Math.sin(h)*14);x.lineTo(ex-Math.sin(h)*8-Math.cos(h)*14,ey+Math.cos(h)*8-Math.sin(h)*14);x.fill();x.restore();
+    swirl(sx,sy,36,t+3,sa,"255,255,255");x.save();x.globalAlpha=sa;x.fillStyle="#fff";x.strokeStyle="#ff4500";x.lineWidth=5;x.beginPath();x.arc(sx,sy,9,0,7);x.fill();x.stroke();x.restore()}
+}
+const nR=DATA.districts.reduce((n,s)=>n+s.places.filter(p=>p.lvl==="red").length,0),nO=DATA.districts.reduce((n,s)=>n+s.places.filter(p=>p.lvl==="orange").length,0);
+// ---- timeline
+const T_END=27;
+function render(t){
+  bg(t);
+  // A: hook 0-5
+  const A=fade(t,.1,.7,4.4,5);
+  if(A>0){swirl(540,640,430,t,A,"140,190,255");brand(A);
+    txt("CYCLONE ARNAB",W/2,980,96,900,"#fff","center",ease(seg(t,.5,1.4)),-2);
+    txt("made landfall near Yanam, Andhra Pradesh",W/2,1050,40,700,"#ffb38f","center",ease(seg(t,1.2,2.0)));
+    txt("It's weaker now. The danger isn't over.",W/2,1130,42,800,"#fff","center",ease(seg(t,2.6,3.4)));
+    txt("28 Oct 2026",W/2,1200,30,600,"#8a929a","center",ease(seg(t,3.2,3.9)))}
+  // B: map 5-12
+  const B=fade(t,5,5.5,11.4,12);
+  if(B>0){const u=t-5;brand(B);
+    txt("WHO IS ON ALERT",W/2,200,28,800,"#ff7a45","center",B,5);
+    txt(`${nR+nO} districts`,W/2,292,82,900,"#fff","center",B,-2);
+    drawMap(u,B);
+    // legend + counts
+    const cr=Math.round(nR*ease(seg(u,.4,2.2))),co=Math.round(nO*ease(seg(u,1.2,3)));
+    x.save();x.globalAlpha=B;x.fillStyle="#ff4d3d";x.beginPath();x.arc(150,1150,13,0,7);x.fill();x.fillStyle="#ffb020";x.beginPath();x.arc(560,1150,13,0,7);x.fill();x.restore();
+    txt(`${cr} on red alert`,176,1160,34,800,"#fff","left",B);txt(`${co} on orange`,586,1160,34,800,"#fff","left",B);
+    txt(DATA.heading.label.replace(" (IMD)","")+": flash floods next in south Odisha and coastal AP",W/2,1230,26,600,"#a3acb0","center",ease(seg(u,3.8,4.6))*B)}
+  // C: numbers 12-18
+  const C=fade(t,12,12.5,17.4,18);
+  if(C>0){const u=t-12;brand(C);txt("WHAT'S HAPPENING ON THE GROUND",W/2,260,28,800,"#ff7a45","center",C,4);
+    const items=[["~89,000","evacuated in Andhra Pradesh"],["30,000+","evacuated in Odisha"],["2,000+","shelters open in AP (2,037 in Odisha)"],["50+","trains cancelled or affected"]];
+    items.forEach((it,i)=>{const a=ease(seg(u,.3+i*.55,.9+i*.55))*C,y=360+i*215,off=(1-ease(seg(u,.3+i*.55,.9+i*.55)))*60;
+      x.save();x.globalAlpha=a;x.fillStyle="#17171a";rr(70,y+off,940,175,28);x.fill();x.strokeStyle="#2a2a30";x.lineWidth=2;x.stroke();x.restore();
+      txt(it[0],110,y+off+105,86,900,i===3?"#ffb020":"#fff","left",a,-2);txt(it[1],110,y+off+150,30,700,"#a3acb0","left",a)});
+    foot("Sources: IMD · NDMA SACHET · APSDMA · OSDMA · PTI",C)}
+  // D: features 18-24
+  const D=fade(t,18,18.5,23.4,24);
+  if(D>0){const u=t-18;brand(D);txt("ONE PAGE. EVERY ANSWER.",W/2,260,28,800,"#ff7a45","center",D,4);
+    txt("Stop checking 20 tabs.",W/2,350,66,900,"#fff","center",D,-2);
+    const rows=[["Your district","Alert level + control room number, tap to call"],["Your train","Type the number. Cancelled or not."],["Nearest help","Shelters and hospitals, with distance and directions"],["Coastal wind","Live, last 30 min or 1 hour (IST)"],["Helplines","112, 108, 139, 1070. One tap."]];
+    rows.forEach((r,i)=>{const a=ease(seg(u,.4+i*.5,.9+i*.5))*D,y=430+i*150,off=(1-ease(seg(u,.4+i*.5,.9+i*.5)))*-70;
+      x.save();x.globalAlpha=a;x.fillStyle="#ff4500";rr(70+off,y,14,110,7);x.fill();x.restore();
+      txt(r[0],112+off,y+48,42,900,"#fff","left",a);txt(r[1],112+off,y+92,28,600,"#a3acb0","left",a)});}
+  // E: CTA 24-27
+  const E=ease(seg(t,23.8,24.5));
+  if(E>0){swirl(540,430,300,t*.8,E*.5,"255,120,60");logo(540-60,170,120);
+    x.save();x.globalAlpha=E;txt("Check your district now",W/2,760,72,900,"#fff","center",E,-2);
+    x.fillStyle="#ff4500";rr(110,830,860,130,65);x.fill();x.restore();
+    txt("spillthetea.news/cyclone",W/2,915,56,900,"#fff","center",E);
+    txt("Free · No login · Updated every hour",W/2,1040,34,700,"#d8dde0","center",ease(seg(t,24.6,25.2)));
+    txt("Share it with family on the coast.",W/2,1100,34,700,"#ffb38f","center",ease(seg(t,25.2,25.8)));
+    foot("Verified by Spill from IMD, NDMA, state authorities and news outlets · In an emergency call 112",E)}
+  // progress bar
+  x.fillStyle="rgba(255,255,255,.12)";x.fillRect(0,H-8,W,8);x.fillStyle="#ff4500";x.fillRect(0,H-8,W*clamp(t/T_END),8);
+}
+window.render=render;window.T_END=T_END;
+</script></body></html>
