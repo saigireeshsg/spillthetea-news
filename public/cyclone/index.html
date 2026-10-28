@@ -97,7 +97,7 @@ section{scroll-margin-top:110px}
 <iframe id="wind" title="Live cyclone map" src="about:blank" allow="fullscreen"></iframe>
 <div id="map" role="img" aria-label="Map of Cyclone Arnab and districts on alert" class="offscreen"></div>
 <div class="upd" id="satinfo" hidden>🛰️ Live satellite clouds: loading…</div>
-<div class="leg"><span>🌀 Storm</span><span><i style="background:#ff4d3d"></i>Red alert</span><span><i style="background:#ffb020"></i>Orange alert</span><span><i style="background:#46d160"></i>No alert</span><span><i style="background:#4fbcff"></i>You</span></div>
+<div class="leg"><span>🌀 Storm</span><span><i style="background:#ff4d3d"></i>Red alert</span><span><i style="background:#ffb020"></i>Orange alert</span><span><i style="background:#46d160"></i>No cyclone alert</span><span style="color:var(--mut)">Tap a district for details</span><span><i style="background:#4fbcff"></i>You</span></div>
 
 </section>
 
@@ -151,6 +151,7 @@ section{scroll-margin-top:110px}
 <h2>🛟 Stay safe</h2><ul class="sf" id="safety"></ul>
 <a class="share" id="share" href="#">📲 Send this to family on WhatsApp</a>
 <h2>📚 Sources</h2><ol class="src" id="sources"></ol>
+<p class="upd">Map district boundaries are indicative: compiled from public sources (<a href="https://github.com/udit-001/india-maps-data" target="_blank" rel="noopener">india-maps-data</a>) and <a href="https://www.geoboundaries.org/" target="_blank" rel="noopener">geoBoundaries</a> (Yanam, CC BY 4.0).</p>
 <p class="upd">Every fact here is checked against official statements and at least one established outlet by Spill's agents; headlines in the news list link to their source. In an emergency, call 112.</p>
 </main>
 <script src="/vendor/leaflet/leaflet.js"></script>
@@ -169,6 +170,9 @@ let D=null,map=null,L1=null,me=null,sel=null,PL=[],mk={};
 try{sel=localStorage.getItem("arnab.district")}catch(e){}
 function places(){const out=[];D.districts.forEach(s=>s.places.forEach(p=>out.push(Object.assign({state:s.state,swhat:s.what},p))));return out}
 const COL={red:"#ff4d3d",orange:"#ffb020",safe:"#46d160"};
+// Real district shapes (AP 26-district map, Odisha, Telangana, Yanam), coloured by the desk's alert level.
+let GJ=null;const GJA={Nabarangpur:"Nabarangapur"};
+fetch("/cyclone/districts.geojson").then(r=>r.ok?r.json():null).then(j=>{if(j){GJ=j;if(map&&D)drawMap()}}).catch(()=>{});
 // Real satellite: NASA GIBS, Himawari-9 AHI band 13 "clean infrared" (geostationary, every 10 min). Cold, high cloud = bright.
 const GIBS=t=>`https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Himawari_AHI_Band13_Clean_Infrared/default/${t}/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png`;
 const iso=d=>d.toISOString().slice(0,16)+":00Z";
@@ -203,7 +207,13 @@ function drawMap(){
     L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png",{maxZoom:12,pane:"labels"}).addTo(map);
     L1=L.layerGroup().addTo(map);loadSat()}
   L1.clearLayers();mk={};
-  PL.forEach(p=>{const c=COL[p.lvl]||"#ffb020";const z=L.circle([p.lat,p.lon],{radius:p.lvl==="safe"?12000:30000,color:c,weight:p.n===sel?4:1.5,fillColor:c,fillOpacity:p.n===sel?.35:.15}).addTo(L1);
+  if(GJ){const by={};PL.forEach(p=>by[(GJA[p.n]||p.n).toLowerCase()]=p);
+    L.geoJSON(GJ,{style:f=>{const p=by[f.properties.n.toLowerCase()],lv=p?p.lvl:"none",c=COL[lv]||"#46d160",on=p&&p.n===sel;
+        return{color:on||lv!=="none"?"#ffffff":c,weight:on?3:lv==="none"?.6:1,opacity:on?1:lv==="none"?.5:.5,fillColor:c,fillOpacity:lv==="red"?.42:lv==="orange"?.34:lv==="safe"?.25:.08}},
+      onEachFeature:(f,ly)=>{const p=by[f.properties.n.toLowerCase()];const lv=p?p.lvl:"none";
+        const perm=!!p&&(p.lvl==="red"||p.n===sel);ly.bindTooltip(perm?E(f.properties.n):`${E(f.properties.n)}${lv==="red"?" · 🔴 red alert":lv==="orange"?" · 🟠 orange alert":" · 🟢 no cyclone alert"}`,{permanent:perm,direction:"center",className:"lbl"});
+        if(p){ly.on("click",()=>choose(p.n,true));mk[p.n]=ly}}}).addTo(L1)}
+  else PL.forEach(p=>{const c=COL[p.lvl]||"#ffb020";const z=L.circle([p.lat,p.lon],{radius:p.lvl==="safe"?12000:30000,color:c,weight:p.n===sel?4:1.5,fillColor:c,fillOpacity:p.n===sel?.35:.15}).addTo(L1);
     z.bindTooltip(p.n,{permanent:p.lvl==="red"||p.n===sel||p.n==="Hyderabad",direction:"center",className:"lbl"});z.on("click",()=>choose(p.n,true));mk[p.n]=z});
   if(D.track.length>1)L.polyline(D.track.map(t=>[t.lat,t.lon]),{color:"#ff4500",weight:3}).addTo(L1);
   const P=D.position;[150,80].forEach((r,i)=>L.circle([P.lat,P.lon],{radius:r*1000,color:"#ff4500",weight:1,dashArray:"4 4",fill:false}).addTo(L1));
