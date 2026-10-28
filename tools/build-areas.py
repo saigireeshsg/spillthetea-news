@@ -80,6 +80,9 @@ fetch(C.supabaseUrl+"/rest/v1/civic_alerts?select=id,kind,headline,publisher,url
     idx = "".join(f'<li><a href="/area/{slug(a)}">{E_(a)}</a> · {E_(v[1])}</li>' for a, v in AREAS.items())
     open(os.path.join(PUB, "area", "index.html"), "w").write(f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hyderabad water cut &amp; power cut today, area-wise | Spill</title><meta name="description" content="Area-wise water status, power cuts and water cuts today across Hyderabad: Madhapur, Gachibowli, Kukatpally, Ameerpet, Old City and more."><link rel="canonical" href="{SITE}/area/"><style>body{{margin:0;background:#0a0a0b;color:#f2f2f2;font:16px/1.6 system-ui,sans-serif}}main{{max-width:640px;margin:0 auto;padding:16px}}a{{color:#4fbcff}}</style></head><body><main><h1>Hyderabad water &amp; power cuts today, area-wise</h1><p>Updated {upd}. Pick your area:</p><ul>{idx}</ul><p><a href="/?src=seo&c=area-index">Open Spill for live alerts →</a></p></main></body></html>""")
     urls = [SITE + "/", SITE + "/area/"] + urls
+    cy = os.path.join(PUB, "cyclone")
+    if os.path.isdir(cy):  # Cyclone desk + district pages (tools/build-cyclone.py)
+        urls = urls[:1] + [SITE + "/cyclone/"] + [SITE + "/cyclone/" + f[:-5] for f in sorted(os.listdir(cy)) if f.endswith(".html") and f != "index.html"] + urls[1:]
     open(os.path.join(PUB, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"<url><loc>{u}</loc><lastmod>{today.strftime('%Y-%m-%d')}</lastmod><changefreq>hourly</changefreq></url>\n" for u in urls) + "</urlset>\n")
     open(os.path.join(PUB, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nDisallow: /admin.html\nSitemap: {SITE}/sitemap.xml\n")
     print(f"areas: {len(AREAS)} -> public/area/")
