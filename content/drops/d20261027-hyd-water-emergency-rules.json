@@ -7,7 +7,10 @@
   "Old City",
   "Gachibowli",
   "HITEC City",
-  "Madhapur"
+  "Madhapur",
+  "Boduppal",
+  "LB Nagar",
+  "Manikonda"
  ],
  "lead": "local",
  "heat": 5,
@@ -52,6 +55,21 @@
   ]
  },
  "viz": [
+  {
+   "t": "compare",
+   "l": "Tanker bookings in October",
+   "a": {
+    "v": 18806,
+    "d": "18,806",
+    "l": "Last year"
+   },
+   "b": {
+    "v": 62565,
+    "d": "62,565",
+    "l": "This year"
+   },
+   "goodIfUp": false
+  },
   {
    "t": "compare",
    "l": "How often your tap runs (most of the city)",
@@ -125,6 +143,11 @@
    "body": "First-time wasters pay ₹1,000. Homes and resident welfare associations that let tanks or pumps overflow pay more. Repeat offenders risk steeper fines or losing their water and sewer connection under the HMWSSB Act, 1989."
   },
   {
+   "k": "num",
+   "title": "🆕 Tankers up 233% in October",
+   "body": "HMWSSB logged 62,565 tanker bookings in October, against 18,806 last year. Off-season it normally gets 800–1,500 a day. Demand is about 735 million gallons a day; supply is about 585. Boduppal, LB Nagar and Manikonda lean hardest on tankers."
+  },
+  {
    "k": "why",
    "title": "Why now?",
    "body": "Osman Sagar holds 2.2 of 3.5 TMC, Himayat Sagar 2.1 of 2.5 TMC, Singur just 3.4 of 29.9 TMC. Only 3 of the city's 16 mandals got enough rain. The city books 6,000–8,000 tankers a day. Critics like M Srinivas of the Urban Development Forum say the steps came too late."
@@ -167,7 +190,12 @@
    "name": "Siasat",
    "title": "Hyderabad water board declares emergency over acute shortage (25 Oct)",
    "url": "https://www.siasat.com/hyderabad-water-board-declares-emergency-over-acute-shortage-3564047/"
+  },
+  {
+   "name": "Sakshi Post",
+   "title": "Hyderabad Water Crisis: Why Are Tanker Bookings Rising to 8,000 a Day? (26 Oct)",
+   "url": "https://www.sakshipost.com/news/hyderabad/hyderabad-water-crisis-why-are-tanker-bookings-rising-8000-day-482814"
   }
  ],
- "updated": 1793063572360
+ "updated": 1793149430967
 }
