@@ -1,6 +1,6 @@
 {
  "name": "Cyclone Arnab",
- "updated": "2026-10-28T12:55:00+05:30",
+ "updated": "2026-10-28T13:05:00+05:30",
  "level": "Weakening over land",
  "moving": {
   "state": "moving",
@@ -399,6 +399,10 @@
     [
      "Ambulance",
      "108"
+    ],
+    [
+     "Railway enquiry",
+     "139"
     ]
    ]
   },
@@ -516,5 +520,241 @@
    "The Morning Voice: 89,000 evacuated (Oct 28)",
    "https://tmv.in/article/andhra-pradesh-on-high-alert-as-cyclone-arnab-nears-the-coast-nearly-89000-evacuated"
   ]
- ]
+ ],
+ "trains": {
+  "note": "Railways say 90+ services are cancelled or affected. These are the ones named by SCR and news reports; the full list grows as railways update.",
+  "helpline": "139",
+  "list": [
+   [
+    "12703",
+    "Howrah → Secunderabad (Falaknuma Exp)",
+    "Oct 29",
+    "Cancelled"
+   ],
+   [
+    "12704",
+    "Secunderabad → Howrah (Falaknuma Exp)",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "12728",
+    "Hyderabad → Visakhapatnam (Godavari Exp)",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "12727",
+    "Visakhapatnam → Hyderabad (Godavari Exp)",
+    "—",
+    "Cancelled (date not given)"
+   ],
+   [
+    "12740",
+    "Secunderabad → Visakhapatnam (Garib Rath)",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "12739",
+    "Visakhapatnam → Secunderabad (Garib Rath)",
+    "—",
+    "Cancelled (date not given)"
+   ],
+   [
+    "12738",
+    "Lingampalli → Kakinada Port (Gowthami Exp)",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "12737",
+    "Kakinada Port → Lingampalli (Gowthami Exp)",
+    "—",
+    "Cancelled (date not given)"
+   ],
+   [
+    "12776",
+    "Lingampalli → Kakinada Town",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "17256",
+    "Lingampalli → Narasapur",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "17016",
+    "Secunderabad → Bhubaneswar New (Visakha Exp)",
+    "Oct 27–28",
+    "Cancelled"
+   ],
+   [
+    "17015",
+    "Bhubaneswar New → Secunderabad (Visakha Exp)",
+    "—",
+    "Cancelled (date not given)"
+   ],
+   [
+    "12862",
+    "Mahbubnagar → Visakhapatnam",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "20810",
+    "H.S. Nanded → Sambalpur",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "07037",
+    "Charlapalli → Srikakulam Road (special)",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "07038",
+    "Srikakulam Road → Charlapalli (special)",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "12788",
+    "Nagarsol → Narasapur",
+    "Oct 27",
+    "Partially cancelled"
+   ]
+  ],
+  "local": [
+   "Vijayawada ⇄ Rajahmundry",
+   "Vijayawada ⇄ Narasapur & Machilipatnam branch",
+   "Machilipatnam ⇄ Gudivada",
+   "Kakinada Port ⇄ Visakhapatnam",
+   "Bhimavaram ⇄ Nidadavolu",
+   "Guntur ⇄ Repalle"
+  ]
+ },
+ "flights": {
+  "airports": [
+   [
+    "Visakhapatnam",
+    "Suspended from Oct 27 afternoon"
+   ],
+   [
+    "Vijayawada",
+    "Suspended after 7 pm Oct 27"
+   ],
+   [
+    "Rajahmundry",
+    "Suspended after 7 pm Oct 27"
+   ],
+   [
+    "Bhogapuram (Vizianagaram)",
+    "IndiGo: all Oct 28 flights cancelled"
+   ],
+   [
+    "Chennai",
+    "12 flights to/from AP cancelled Oct 28"
+   ]
+  ],
+  "airlines": [
+   [
+    "Air India",
+    "6 cancelled: Delhi ⇄ Visakhapatnam, Delhi ⇄ Vijayawada (Oct 27–28)"
+   ],
+   [
+    "Air India Express",
+    "13 cancelled: mainly Vizag ⇄ Hyderabad, Bengaluru, Vijayawada"
+   ],
+   [
+    "Akasa Air",
+    "Delhi ⇄ Bhogapuram cancelled Oct 28"
+   ],
+   [
+    "IndiGo",
+    "Operations suspended at Vizag, Vijayawada, Rajahmundry; check app"
+   ]
+  ],
+  "note": "The aviation ministry told airlines to inform passengers and offer refunds/rebooking. Check your PNR on your airline's app."
+ },
+ "buses": {
+  "note": "APSRTC",
+  "list": [
+   [
+    "Visakhapatnam region",
+    "160 services cancelled; Vizag → Vijayawada, Hyderabad, Amalapuram, Bhimavaram, Kakinada, Itchapuram suspended",
+    "Resumes Oct 29 if weather allows"
+   ],
+   [
+    "Chintapalli, Bhadrachalam (from Vizag)",
+    "Fully cancelled",
+    "Oct 28"
+   ],
+   [
+    "Godavari districts",
+    "Most services suspended; ghat/coastal routes to Bhadrachalam, Chinturu, U. Kothapalli stopped",
+    "Resumes once the storm weakens (Kakinada depot)"
+   ]
+  ]
+ },
+ "roads": [
+  [
+   "Kakinada",
+   "Uppada coastal road",
+   "Washed away",
+   "closed"
+  ],
+  [
+   "Visakhapatnam",
+   "Beach Road, Seethammadhara",
+   "Fallen trees (clearing under way)",
+   "slow"
+  ],
+  [
+   "Alluri Sitharama Raju",
+   "Several roads",
+   "Inundated; trees down",
+   "slow"
+  ],
+  [
+   "All AP districts",
+   "Highways & main roads",
+   "CM ordered all tree blocks cleared within 2 hours",
+   "info"
+  ],
+  [
+   "Vizag & Godavari",
+   "Flooded roads",
+   "RTC drivers told to check water depth before crossing. Don't drive through water.",
+   "info"
+  ]
+ ],
+ "power": {
+  "out": [
+   "Kakinada",
+   "Amalapuram",
+   "Yanam",
+   "Rural Kakinada & Konaseema"
+  ],
+  "crew": "4,339 APEPDCL staff in 438 teams; 244 generators, 239 cranes, 8,662 spare poles",
+  "helpline": "1912 (24 hours)",
+  "note": "Supply is switched off where winds are dangerous and restored after inspection. Stay away from snapped lines."
+ },
+ "relief": {
+  "summary": "AP: 2,000+ shelters identified, 609 schools turned into relief centres. GVMC (Vizag): 56 relief centres with food, drinking water and sanitation. Odisha: 2,037 cyclone shelters ready with food and drinking water.",
+  "food": "Food and drinking water are provided free at all official relief centres (CM's order in AP; OSDMA in Odisha). If you're at a centre without food, call your district control room or 1070.",
+  "named": [
+   [
+    "Kakinada",
+    "Gadimoga rehabilitation centre, Thallarevu mandal"
+   ],
+   [
+    "Visakhapatnam",
+    "56 GVMC relief centres (locations not published)"
+   ]
+  ]
+ }
 }

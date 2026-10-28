@@ -34,6 +34,16 @@ h2{font-size:16px;margin:22px 0 8px;display:flex;align-items:center;gap:8px}
 #map{height:420px;border-radius:16px;border:1px solid var(--line)}
 .leg{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--mut);margin:6px 0 0}.leg i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
 .lbl{background:none!important;border:0!important;box-shadow:none!important;font:800 11px system-ui;color:#fff;text-shadow:0 0 3px #000,0 0 3px #000;padding:0!important}.lbl:before{display:none}
+.need{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}.need button{font:inherit;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:22px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 4px;color:var(--fg);cursor:pointer}.need button span{font-size:11.5px;font-weight:800;text-align:center;line-height:1.2}
+.nt{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-bottom:6px}.nt button{flex:none;font:inherit;font-size:13px;font-weight:800;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:7px 11px;cursor:pointer}.nt button.on{background:var(--fg);color:#111}
+.pl{display:flex;gap:10px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:9px 11px;margin-bottom:6px}.pl .pn{flex:1;min-width:0}.pl b{display:block;font-size:14.5px}.pl small{color:var(--mut);font-size:12px}.pl .km{font-weight:900;color:#ffb38f;white-space:nowrap;font-size:13px}
+.pl a{text-decoration:none;font-weight:800;background:#13301f;color:#7ee2a8;padding:6px 10px;border-radius:999px;white-space:nowrap;font-size:13px}
+.info{background:#0d1a24;border:1px solid #1f3a52;border-radius:12px;padding:10px 12px;font-size:14px;margin-top:8px;color:#d6dadd}
+.tq{display:flex;gap:6px;margin-bottom:8px}.tq input{flex:1;font:inherit;font-size:16px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;color:var(--fg)}.tq button{font:inherit;font-weight:900;border:0;border-radius:12px;padding:0 18px;background:var(--o);color:#fff;cursor:pointer}
+.tr{display:grid;grid-template-columns:62px 1fr auto;gap:8px;align-items:center;padding:8px 12px;border-top:1px solid var(--line);font-size:13.5px}.tr b{font-variant-numeric:tabular-nums}.tr .x{font-size:11.5px;font-weight:900;padding:2px 8px;border-radius:999px;background:#3a0f0c;color:var(--red);white-space:nowrap}.tr .x.p{background:#3a2608;color:var(--amb)}
+.res{border-radius:12px;padding:12px;font-size:14.5px;margin-bottom:8px}.res.bad{background:#3a0f0c;border:1px solid #7a2a1e}.res.ok{background:#0d2318;border:1px solid #1f5a3a}
+.kv{display:grid;gap:6px}.kv div{background:var(--card);border-radius:12px;padding:9px 12px;font-size:14px}.kv b{display:block}.kv small{color:var(--mut)}
+.chip{font-size:11px;font-weight:900;padding:2px 8px;border-radius:999px;margin-left:6px}.chip.closed{background:#3a0f0c;color:var(--red)}.chip.slow{background:#3a2608;color:var(--amb)}.chip.info{background:#10243d;color:var(--blu)}
 .brief{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:6px 12px}
 .brief div{display:grid;grid-template-columns:24px 1fr;gap:8px;padding:8px 0;border-bottom:1px solid var(--line);font-size:14.5px;line-height:1.4}.brief div:last-child{border:0}
 .brief small{color:var(--mut);font-size:11.5px;white-space:nowrap}
@@ -59,6 +69,17 @@ ul.sf{margin:0;padding-left:18px}ul.sf li{margin:3px 0;font-size:14.5px}
 <div class="status"><div class="row"><span class="cy">🌀</span><div><h1>Cyclone Arnab · <span id="lvl"></span></h1><div class="mv" id="mv"></div></div></div><p id="headline"></p><div class="upd">Verified desk updated <b id="dupd"></b> · news checked <b id="fupd">…</b> · refreshes every 10 s</div></div>
 <div class="nums" id="nums"></div>
 
+<h2>🧰 What do you need?</h2>
+<div class="need">
+ <button data-go="near" data-t="shelter">🏠<span>Shelter & food</span></button>
+ <button data-go="near" data-t="hospital">🏥<span>Hospital</span></button>
+ <button data-go="trains">🚆<span>Is my train on?</span></button>
+ <button data-go="flights">✈️<span>Flights</span></button>
+ <button data-go="buses">🚌<span>Buses</span></button>
+ <button data-go="roads">🚧<span>Roads</span></button>
+ <button data-go="power">⚡<span>Power</span></button>
+ <button data-go="contacts">☎️<span>Helplines</span></button>
+</div>
 <h2>📍 Check your district</h2>
 <div class="pick" id="pick"></div>
 <div id="dcard"></div>
@@ -70,13 +91,30 @@ ul.sf{margin:0;padding-left:18px}ul.sf li{margin:3px 0;font-size:14.5px}
 <div class="upd" id="satinfo">🛰️ Live satellite clouds: loading…</div>
 <div class="leg"><span>🌀 Storm</span><span><i style="background:#ff4d3d"></i>Red alert</span><span><i style="background:#ffb020"></i>Orange alert</span><span><i style="background:#46d160"></i>No alert</span><span><i style="background:#4fbcff"></i>You</span></div>
 
+<section id="near"><h2>🧭 Near you</h2>
+ <div class="nt"><button data-t="shelter" class="on">🏠 Shelters</button><button data-t="hospital">🏥 Hospitals</button><button data-t="pharmacy">💊 Pharmacy</button><button data-t="food">🍲 Food</button><button data-t="fuel">⛽ Fuel</button><button data-t="police">🚓 Police/Fire</button></div>
+ <p class="upd" id="nearfor">Pick your district above or tap 📍 Use my location.</p>
+ <div id="nearlist"></div>
+ <div class="info" id="relief"></div>
+</section>
+<section id="trains"><h2>🚆 Is my train on?</h2>
+ <div class="tq"><input id="tno" inputmode="numeric" maxlength="5" placeholder="Train number, e.g. 12728" aria-label="Train number"><button id="tgo">Check</button></div>
+ <div id="tres"></div>
+ <details class="cg" open><summary>Cancelled & affected trains</summary><div id="tlist"></div></details>
+ <details class="cg"><summary>Local / MEMU routes suspended</summary><div id="tlocal"></div></details>
+ <p class="upd" id="tnote"></p>
+</section>
+<section id="flights"><h2>✈️ Flights</h2><div id="fl"></div></section>
+<section id="buses"><h2>🚌 Buses (APSRTC)</h2><div id="bus"></div></section>
+<section id="roads"><h2>🚧 Roads & bridges</h2><div id="rd"></div></section>
+<section id="power"><h2>⚡ Power</h2><div id="pw"></div></section>
 <h2>📰 What's happening</h2><div class="brief" id="brief"></div>
 <h2><span class="dot"></span> Live updates</h2><div class="tl" id="tl"></div>
 <details class="wire" id="wirebox"><summary>📡 Latest headlines from news outlets <span id="wn" style="color:var(--o)"></span></summary><div id="wire"></div></details>
 
 <h2>💬 How people are feeling</h2><div class="mood" id="mood"></div>
 <h2>❓ Quick answers</h2><div class="faq" id="faq"></div>
-<h2>☎️ Helplines <small style="color:var(--mut);font-weight:600">tap to call</small></h2><div id="contacts"></div>
+<h2 id="contacts-h">☎️ Helplines <small style="color:var(--mut);font-weight:600">tap to call</small></h2><div id="contacts"></div>
 <h2>🛟 Stay safe</h2><ul class="sf" id="safety"></ul>
 <a class="share" id="share" href="#">📲 Send this to family on WhatsApp</a>
 <h2>📚 Sources</h2><ol class="src" id="sources"></ol>
@@ -149,10 +187,41 @@ function cardHTML(p){
    ${ln("🏫",E(p.school||""))}
    ${p.safe?ln("🏠","<b>Safe places:</b> "+p.safe.map(E).join("; ")):""}
    <div class="btns">${p.cr?`<a class="btn-call" href="${tel(p.cr)}">📞 ${E(p.n)} control room<br><small>${E(p.cr)}</small></a>`:`<a class="btn-call" href="tel:112">📞 Emergency<br><small>112</small></a>`}${p.crn?`<a class="btn-call" href="${tel(p.crn)}">📞 Control room (mobile)<br><small>${E(p.crn)}</small></a>`:p.state==="Andhra Pradesh"?`<a class="btn-call" href="tel:1070">📞 AP disaster control<br><small>1070</small></a>`:`<a class="btn-call" href="tel:108">🚑 Ambulance<br><small>108</small></a>`}
-   <a class="btn-map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/${safeQ}">🏠 Cyclone shelters in ${E(p.n)}</a><a class="btn-map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/${relQ}">⛺ Relief camps</a>
-   <a class="btn-map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/${hosQ}">🏥 Hospitals</a><a class="btn-map" href="#" data-sharecard="${E(p.n)}">📲 Send to family</a></div></div>`}
+   <a class="btn-map" href="#near" data-go="near" data-t="shelter">🏠 Shelters & food near ${E(p.n)}</a><a class="btn-map" href="#near" data-go="near" data-t="hospital">🏥 Hospitals near ${E(p.n)}</a>
+   <a class="btn-map" href="#trains" data-go="trains">🚆 Trains & buses</a><a class="btn-map" href="#" data-sharecard="${E(p.n)}">📲 Send to family</a></div></div>`}
 function choose(n,fromMap){sel=n;try{localStorage.setItem("arnab.district",n)}catch(e){}const p=PL.find(x=>x.n===n);if(!p)return;
-  $("dcard").innerHTML=cardHTML(p);[...$("pick").children].forEach(b=>b.classList.toggle("on",b.dataset.n===n));drawMap();if(fromMap)$("dcard").scrollIntoView({block:"nearest",behavior:"smooth"});else map.setView([p.lat,p.lon],8);track("cyclone_district",n)}
+  $("dcard").innerHTML=cardHTML(p);[...$("pick").children].forEach(b=>b.classList.toggle("on",b.dataset.n===n));drawMap();if(fromMap)$("dcard").scrollIntoView({block:"nearest",behavior:"smooth"});else map.setView([p.lat,p.lon],8);loadNear();track("cyclone_district",n)}
+
+// ---------- in-app essentials ----------
+let NT="shelter",NP=null,NL=null;
+function nearPoint(){if(me)return{lat:me.lat,lon:me.lon,label:"you"};const p=PL.find(x=>x.n===sel);return p?{lat:p.lat,lon:p.lon,label:p.n}:null}
+async function loadNear(){const pt=nearPoint();if(!pt){$("nearfor").textContent="Pick your district above or tap 📍 Use my location.";$("nearlist").innerHTML="";return}
+  const lbl={shelter:"shelters & public buildings",hospital:"hospitals & clinics",pharmacy:"pharmacies",food:"food & grocery",fuel:"fuel stations",police:"police & fire stations"}[NT];
+  $("nearfor").innerHTML=`Showing <b>${lbl}</b> within 15 km of <b>${E(pt.label)}</b> · from OpenStreetMap`;$("nearlist").innerHTML='<p class="upd">Searching…</p>';
+  try{const j=await (await fetch(`${C.supabaseUrl}/functions/v1/nearby?lat=${pt.lat.toFixed(3)}&lon=${pt.lon.toFixed(3)}&type=${NT}`)).json();
+    const it=j.items||[];NP=it;
+    $("nearlist").innerHTML=it.length?it.slice(0,12).map((x,i)=>`<div class="pl"><div class="pn"><b>${E(x.name)}</b><small>${E(x.addr||x.kind||"")}${x.emergency?" · 🚑 emergency":""}</small></div><span class="km">${x.km} km</span>${x.phone?`<a href="${tel(x.phone.split(/[;,]/)[0])}">📞 Call</a>`:`<a href="#" data-showpl="${i}">🗺️ Map</a>`}</div>`).join(""):`<p class="upd">${j.error?E(j.error):"Nothing mapped nearby yet. Call your district control room or 1070."}</p>`;
+    if(NL)map.removeLayer(NL);NL=L.layerGroup(it.slice(0,12).map(x=>L.circleMarker([x.lat,x.lon],{radius:6,color:"#fff",weight:2,fillColor:NT==="hospital"?"#4fbcff":"#46d160",fillOpacity:.95}).bindTooltip(x.name))).addTo(map);
+    track("cyclone_near",NT)}catch(e){$("nearlist").innerHTML='<p class="upd">Couldn\'t load right now. Try again in a minute.</p>'}}
+function renderInfo(){
+  const R=D.relief;if(R)$("relief").innerHTML=`<b>🍲 Food & water:</b> ${E(R.food)}<br><br><b>🏠 Official relief centres:</b> ${E(R.summary)}${R.named&&R.named.length?"<br>"+R.named.map(n=>`• ${E(n[0])}: ${E(n[1])}`).join("<br>"):""}`;
+  const T=D.trains;if(T){$("tlist").innerHTML=T.list.map(t=>`<div class="tr"><b>${E(t[0])}</b><span>${E(t[1])}<br><small style="color:var(--mut)">${E(t[2])}</small></span><span class="x ${/Partial/.test(t[3])?"p":""}">${E(t[3].replace(/ \(.*\)/,""))}</span></div>`).join("");
+    $("tlocal").innerHTML=T.local.map(r=>`<div class="tr"><b>🚈</b><span>${E(r)}</span><span class="x">Suspended</span></div>`).join("");$("tnote").innerHTML=`${E(T.note)} Railway enquiry: <a href="tel:${E(T.helpline)}">📞 ${E(T.helpline)}</a>`}
+  const F=D.flights;if(F)$("fl").innerHTML=`<div class="kv">${F.airports.map(a=>`<div><b>🛫 ${E(a[0])}</b><small>${E(a[1])}</small></div>`).join("")}${F.airlines.map(a=>`<div><b>${E(a[0])}</b><small>${E(a[1])}</small></div>`).join("")}</div><p class="upd">${E(F.note)}</p>`;
+  const B=D.buses;if(B)$("bus").innerHTML=`<div class="kv">${B.list.map(b=>`<div><b>🚌 ${E(b[0])}</b>${E(b[1])}<small><br>${E(b[2])}</small></div>`).join("")}</div>`;
+  if(D.roads)$("rd").innerHTML=`<div class="kv">${D.roads.map(r=>`<div><b>${E(r[1])} <small>· ${E(r[0])}</small><span class="chip ${E(r[3])}">${r[3]==="closed"?"CLOSED":r[3]==="slow"?"BLOCKED/SLOW":"INFO"}</span></b><small>${E(r[2])}</small></div>`).join("")}</div>`;
+  const P=D.power;if(P)$("pw").innerHTML=`<div class="kv"><div><b>⚠️ Outages reported</b>${P.out.map(E).join(" · ")}</div><div><b>🛠️ Restoration</b><small>${E(P.crew)}</small></div><div><b>📞 Report outages / fallen lines</b><a href="tel:1912" style="font-weight:900">1912</a> <small>${E(P.helpline.replace(/^1912\s*/,""))}</small></div></div><p class="upd">${E(P.note)}</p>`;
+}
+function checkTrain(){const n=($("tno").value||"").replace(/\D/g,"");if(n.length<4){$("tres").innerHTML="";return}
+  const hit=(D.trains.list||[]).filter(t=>t[0]===n||t[0]===n.padStart(5,"0"));track("cyclone_train",n);
+  $("tres").innerHTML=hit.length?hit.map(t=>`<div class="res bad">❌ <b>${E(t[0])} ${E(t[1])}</b><br>${E(t[3])} · ${E(t[2])}</div>`).join(""):`<div class="res ok">✅ <b>${E(n)}</b> is not on the reported cancellation list. Railways are still updating, so confirm on <a href="tel:139">📞 139</a> before you leave.</div>`}
+document.addEventListener("click",e=>{
+  const g=e.target.closest("[data-go]");if(g){const id=g.dataset.go;if(id==="near"){NT=g.dataset.t;document.querySelectorAll(".nt button").forEach(b=>b.classList.toggle("on",b.dataset.t===NT));loadNear()}const el=document.getElementById(id==="contacts"?"contacts-h":id);if(el)el.scrollIntoView({behavior:"smooth",block:"start"});track("cyclone_need",id+(g.dataset.t?":"+g.dataset.t:""));return}
+  const n=e.target.closest(".nt button");if(n){NT=n.dataset.t;document.querySelectorAll(".nt button").forEach(b=>b.classList.toggle("on",b===n));loadNear();return}
+  const sp=e.target.closest("[data-showpl]");if(sp){e.preventDefault();const x=NP[+sp.dataset.showpl];if(x){$("map").scrollIntoView({behavior:"smooth"});map.setView([x.lat,x.lon],13);L.popup().setLatLng([x.lat,x.lon]).setContent(E(x.name)).openOn(map)}return}
+  if(e.target.closest("#tgo"))checkTrain();
+});
+document.addEventListener("keydown",e=>{if(e.target&&e.target.id==="tno"&&e.key==="Enter")checkTrain()});
 function render(){
   PL=places();$("lvl").textContent=D.level;$("mv").textContent=(D.moving.state==="stationary"?"⏸️ ":"➡️ ")+D.moving.text;$("headline").textContent=D.headline;$("dupd").textContent=ago(D.updated);
   $("nums").innerHTML=D.numbers.map(n=>`<div><b>${E(n.v)}</b><span>${E(n.l)}</span></div>`).join("");
@@ -164,7 +233,7 @@ function render(){
   $("contacts").innerHTML=D.contacts.map((g,i)=>`<details class="cg" ${i<2?"open":""}><summary>${E(g.group)}</summary>${g.items.map(([l,n,k])=>`<div class="r"><span>${E(l)}</span><a href="${k==="wa"?"https://wa.me/91"+String(n).replace(/\D/g,"").slice(-10)+"?text=Hi":tel(n)}" ${k==="wa"?'target="_blank" rel="noopener"':""}>${k==="wa"?"💬":"📞"} ${E(n)}</a></div>`).join("")}</details>`).join("");
   $("safety").innerHTML=D.safety.map(s=>`<li>${E(s)}</li>`).join("");
   $("sources").innerHTML=D.sources.map(([t,u])=>`<li><a href="${E(u)}" target="_blank" rel="noopener">${E(t)}</a></li>`).join("");
-  drawMap();if(sel&&PL.some(p=>p.n===sel))choose(sel);
+  renderInfo();drawMap();if(sel&&PL.some(p=>p.n===sel))choose(sel);
 }
 async function loadDesk(){try{const j=await (await fetch("/cyclone/arnab.json?t="+Math.floor(Date.now()/30000))).json();const ch=!D||j.updated!==D.updated;D=j;if(ch)render();else $("dupd").textContent=ago(D.updated)}catch(e){}}
 let seen=new Set(),first=true;
@@ -179,7 +248,7 @@ document.addEventListener("click",e=>{
   const a=e.target.closest("a[href^='tel:']");if(a)track("cyclone_call",a.getAttribute("href"));
 });
 function locate(){if(!navigator.geolocation)return;navigator.geolocation.getCurrentPosition(pos=>{me={lat:pos.coords.latitude,lon:pos.coords.longitude};let best=null;PL.forEach(p=>{const d=km(me.lat,me.lon,p.lat,p.lon);if(!best||d<best.d)best={d,p}});
-  track("cyclone_locate");if(best&&best.d<80)choose(best.p.n);else{$("dcard").innerHTML=`<div class="dc"><div class="top"><b>Your location</b><span class="badge safe">NOT IN A LISTED ALERT DISTRICT</span></div><div class="ln"><i>🌀</i><span>Storm centre is ~${km(me.lat,me.lon,D.position.lat,D.position.lon)} km away. Rain may still reach you. Follow local news.</span></div></div>`;drawMap();map.setView([me.lat,me.lon],7)}},()=>{$("dcard").innerHTML='<p class="upd">Location is off. Pick your district above.</p>'},{timeout:10000,maximumAge:600000})}
+  track("cyclone_locate");setTimeout(loadNear,0);if(best&&best.d<80)choose(best.p.n);else{$("dcard").innerHTML=`<div class="dc"><div class="top"><b>Your location</b><span class="badge safe">NOT IN A LISTED ALERT DISTRICT</span></div><div class="ln"><i>🌀</i><span>Storm centre is ~${km(me.lat,me.lon,D.position.lat,D.position.lon)} km away. Rain may still reach you. Follow local news.</span></div></div>`;drawMap();map.setView([me.lat,me.lon],7)}},()=>{$("dcard").innerHTML='<p class="upd">Location is off. Pick your district above.</p>'},{timeout:10000,maximumAge:600000})}
 $("share").addEventListener("click",e=>{e.preventDefault();const u="https://spillthetea.news/cyclone/?src=wa&c=arnab-desk";const t=`🌀 Cyclone Arnab: check your district, the storm's position, control room numbers and safe places. Live, verified 👉 ${u}`;track("cyclone_share","desk");if(navigator.share)navigator.share({text:t}).catch(()=>{});else window.open("https://wa.me/?text="+encodeURIComponent(t),"_blank","noopener")});
 track("cyclone_open");loadDesk().then(loadWire);setInterval(loadWire,10000);setInterval(loadDesk,30000);setInterval(()=>{if(D)$("dupd").textContent=ago(D.updated)},5000);
 })();
