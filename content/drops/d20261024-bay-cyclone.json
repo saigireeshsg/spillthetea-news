@@ -1,423 +1,433 @@
 {
- "beats": {
-  "what": "IMD: very severe Cyclone Arnab to cross near Yanam–Kakinada on Oct 28; 89,000 being evacuated in Kakinada.",
-  "why": "It could become a very severe cyclonic storm near the coast. Winds 115–125 kmph, gusts to 140.",
-  "care": "Train or road trip towards the Andhra coast, Odisha, Khammam or Warangal on Oct 28–29? 95 trains are cancelled: check status or push it. Hyderabad: no city alert yet."
- },
- "cards": [
-  {
-   "k": "tea",
-   "title": "🆕 Late evening update (Oct 27): 95 trains cancelled, Kakinada moves 15,000+",
-   "body": "Railways have now cancelled 95 trains because of Cyclone Arnab, with 18 others affected (Indian Express, full list). That's up from the 64 services The Hindu reported earlier. In Kakinada district, Deputy CM Pawan Kalyan has ordered more than 15,000 people shifted from 92 vulnerable habitations, with essential supplies at relief centres (The Hindu). Leaving Hyderabad/Secunderabad towards the Andhra coast or Odisha on Oct 28–29? Check NTES before you leave home."
+  "beats": {
+    "what": "Very severe Cyclone Arnab is making landfall on the Andhra coast near Yanam–Kakinada (Oct 28); it is nearly stationary, landfall process to last 2–3 hours.",
+    "why": "It could become a very severe cyclonic storm near the coast. Winds 115–125 kmph, gusts to 140.",
+    "care": "Train or road trip towards the Andhra coast, Odisha, Khammam or Warangal on Oct 28–29? 95 trains are cancelled: check status or push it. Hyderabad: no city alert yet."
   },
-  {
-   "k": "tea",
-   "title": "🆕 Night update (Oct 27): 64 train services cancelled",
-   "body": "The Hindu reports 64 train services cancelled across Oct 27 and 28 because of Cyclone Arnab. Long-distance expresses linking Telangana with coastal Andhra and Odisha are among them. Railways advise passengers to check status before travel. Full list not verified here yet: check your train on NTES before leaving home."
-  },
-  {
-   "k": "tea",
-   "title": "🆕 Evening update (Oct 27): NDRF 31 teams, 600 km track watched",
-   "body": "NDRF has deployed 31 teams across states and a UT likely to be hit as very severe Cyclone Arnab nears the Andhra coast near Yanam; shelters are open and fishermen told to stay ashore (NDRF DIG, via Telangana Today). Railway Minister Ashwini Vaishnaw says 600 km of rail track is under close watch ahead of landfall (Indian Express). Still travelling east by train on Oct 28–29? Check NTES before you leave."
-  },
-  {
-   "k": "tea",
-   "title": "🆕 Afternoon update (Oct 27): SCR cancels 12 trains",
-   "body": "South Central Railway has cancelled 12 trains because of Cyclone Arnab (Deccan Chronicle). That's on top of the 8 cancellations and 2 diversions Railways announced on Oct 26 (Indian Express). Travelling from Hyderabad/Secunderabad towards the Andhra coast or Odisha on Oct 27–29? Check your train's status on NTES or the SCR site before leaving home. Telangana's IMD alerts are unchanged."
-  },
-  {
-   "k": "tea",
-   "title": "🆕 Midday update (Oct 27): Arnab speeds up, Odisha moves 48,000",
-   "body": "Arnab was moving at 22 kmph over the past 6 hours, up from 13 kmph in Monday's bulletin. Odisha is evacuating 48,000 people in eight districts; Special Relief Commissioner Rajesh Pravakar Patil said it will hit Malkangiri district after crossing the Andhra–Yanam coast. Andhra's Bapatla district has opened a 24-hour control room with emergency helplines. Jharkhand has a yellow alert in eight districts for 24 hours from 8:30 am on Oct 28 (IMD). Telangana's alerts are unchanged since the morning update."
-  },
-  {
-   "k": "tea",
-   "title": "🆕 Morning update (Oct 27): Telangana winds + rain till Nov 1",
-   "body": "IMD Hyderabad: heavy to very heavy rain likely Wed and Thu in Mulugu, Bhadradri Kothagudem, Khammam and Mahabubabad (Hans India). Gusty winds of 50–60 kmph likely in Bhupalapally, Mulugu, Kothagudem, Khammam, Suryapet, Mahabubabad, Warangal and Hanamkonda; 30–40 kmph elsewhere, Oct 27–30. Light to moderate rain statewide till Nov 1. Monday's IMD bulletin put Arnab 660 km ESE of Kakinada, moving west at 13 kmph."
-  },
-  {
-   "k": "tea",
-   "title": "🆕 Night update (Oct 26): landfall near Yanam–Kakinada",
-   "body": "Arnab is now a very severe cyclone, set to cross near Yanam–Kakinada (The Hindu). Andhra has a red alert in 7 districts: Kakinada, East Godavari, Konaseema, Eluru, West Godavari, Alluri Sitharama Raju, Anakapalli. Kakinada is evacuating 89,000 people; schools and colleges in the Godavari region get a two-day holiday; 67 Konaseema villages are moving to relief camps. The Centre reviewed preparedness and ordered zero loss of life (Times of India). Railways set up a 24x7 war room (Indian Express)."
-  },
-  {
-   "k": "tea",
-   "title": "🆕 Evening update (Oct 26)",
-   "body": "Telangana's alerts start a day earlier: The Hindu reports orange alerts in four districts and yellow in four more on Oct 28, before the Oct 29 red alerts for Mulugu, Kothagudem, Khammam and Mahabubabad. Andhra has identified about 5.7 lakh people in vulnerable areas for evacuation (Hindustan Times). Railways cancelled 8 trains and rerouted 2 (Indian Express). Hyderabad: no rain alert yet."
-  },
-  {
-   "k": "tea",
-   "title": "🆕 Named: Cyclone Arnab (Oct 26)",
-   "body": "The storm is now Cyclone Arnab. Andhra's power utility APEPDCL has opened 41 control rooms and kept 4,056 workers ready; Kakinada, East Godavari and Konaseema residents can report outages on 1912. Odisha has banned fishing and tourist entry in 6 districts. Andhra's municipal polls are at risk; the State Election Commissioner expects normalcy within two days of landfall (The Hindu)."
-  },
-  {
-   "k": "tea",
-   "body": "New IMD Hyderabad bulletin (via The Hans India, 26 Oct, 12:49 am). Oct 29 red alert (heavy to very heavy, isolated extremely heavy rain): Mulugu, Bhadradri Kothagudem, Khammam, Mahabubabad. Orange: Jayashankar Bhupalpally, Warangal, Suryapet, Nalgonda, Nagarkurnool. Gusty winds 50–60 kmph in 11 districts; 30–40 kmph in the rest, Hyderabad included."
-  },
-  {
-   "k": "why",
-   "title": "what changed (Oct 26, latest)",
-   "body": "1) Red alert now named for Oct 29, and Mahabubabad joins the red list. 2) Nalgonda and Nagarkurnool move to orange. 3) Landfall window: between Bapatla and Visakhapatnam, Oct 28 morning to early afternoon. 4) Bulletin position: 820 km ESE of Visakhapatnam, 1,010 km ESE of Machilipatnam. 5) Earlier (Oct 25): red for Mulugu, Kothagudem, Khammam on Oct 28."
-  },
-  {
-   "k": "twist",
-   "body": "Hyderabad city still has no IMD rain alert; expect gusty winds of 30–40 kmph and cooler days. An independent forecaster (via NewsMeter) sees minimums near 16°C in parts of Hyderabad. That's a private forecast, not IMD's."
-  },
-  {
-   "k": "poll",
-   "opts": [
-    "Yes, postponing travel",
-    "Checking on family there",
-    "No, I'm in Hyderabad"
-   ],
-   "q": "Cyclone week. Are you changing any plans?"
-  },
-  {
-   "ans": 1,
-   "k": "quiz",
-   "opts": [
-    "2",
-    "4",
-    "6",
-    "9"
-   ],
-   "q": "How many Telangana districts are on IMD red alert for Oct 29?",
-   "why": "Mulugu, Bhadradri Kothagudem, Khammam and Mahabubabad (IMD via The Hans India, Oct 26)."
-  }
- ],
- "cat": "india",
- "cover": {
-  "bg": [
-   "#0b2a4a",
-   "#4fbcff"
-  ],
-  "big": "140 kmph",
-  "label": "gusts at Andhra landfall Oct 28; Telangana red alert Oct 29",
-  "motion": "drift",
-  "scene": [
-   "🌀",
-   "🌊",
-   "🌧️"
-  ]
- },
- "date": "2026-10-27",
- "heat": 5,
- "hook": "🚆 Arnab: *95 trains* cancelled, 18 more hit; check yours",
- "learn": {
-  "t": "Cyclone names come from a list made by 13 countries around the Indian Ocean and are used in order. A storm is named only when its winds reach cyclonic strength (63 km/h or more)."
- },
- "map": {
-  "causes": [
-   {
-    "icon": "🌡️",
-    "label": "Warm Bay of Bengal"
-   },
-   {
-    "icon": "🍂",
-    "label": "Post-monsoon cyclone season"
-   }
-  ],
-  "event": {
-   "icon": "🌀",
-   "label": "Landfall near Yanam–Kakinada, Oct 28"
-  },
-  "effects": [
-   {
-    "icon": "🚨",
-    "label": "Oct 29 red: 4 districts"
-   },
-   {
-    "icon": "🌬️",
-    "label": "Hyderabad: winds, no alert"
-   }
-  ]
- },
- "order": 1,
- "readSecs": 55,
- "sort": "2026-10-27-96",
- "sources": [
-  {
-   "name": "Indian Express",
-   "title": "Cyclone Arnab Update: Railways cancels 95 trains, 18 others affected - full list (27 Oct)",
-   "url": "https://indianexpress.com/article/india/cyclone-arnab-train-cancellation-list-railways-10939305/"
-  },
-  {
-   "name": "The Hindu",
-   "title": "Pawan Kalyan directs evacuation of people from cyclone-prone areas in Kakinada district (27 Oct)",
-   "url": "https://www.thehindu.com/news/national/andhra-pradesh/pawan-kalyan-directs-evacuation-of-people-from-cyclone-prone-areas-in-kakinada-district/article71632243.ece"
-  },
-  {
-   "name": "The Hindu",
-   "title": "Cyclone ‘Arnab’: 64 train services cancelled on October 27 and 28 (27 Oct)",
-   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-train-services-cancelled-on-october-27-and-28/article71630352.ece"
-  },
-  {
-   "name": "Telangana Today",
-   "title": "31 NDRF teams deployed for Cyclone Arnab (27 Oct)",
-   "url": "https://telanganatoday.com/31-teams-deployed-across-states-ut-likely-to-be-affected-by-cyclone-arnab-ndrf-dig"
-  },
-  {
-   "name": "Indian Express",
-   "title": "600 km of rail track under close watch: Vaishnaw (27 Oct)",
-   "url": "https://indianexpress.com/article/india/cyclone-arnab-update-600-km-of-rail-track-is-under-close-watch-says-ashwini-vaishnaw-ahead-of-landfall-10938729/"
-  },
-  {
-   "name": "Deccan Chronicle",
-   "title": "SCR Cancels 12 Trains in View of Cyclone Arnab (27 Oct)",
-   "url": "https://www.deccanchronicle.com/southern-states/telangana/"
-  },
-  {
-   "name": "The Hindu",
-   "title": "Cyclone Arnab: Odisha announces evacuation of 48,000 in eight districts (27 Oct)",
-   "url": "https://www.thehindu.com/news/national/odisha/"
-  },
-  {
-   "name": "The Hindu",
-   "title": "Cyclone Arnab: Bapatla district issues emergency helpline numbers (27 Oct)",
-   "url": "https://www.thehindu.com/news/national/andhra-pradesh/"
-  },
-  {
-   "name": "The Hindu",
-   "title": "Cyclone Arnab to trigger heavy rains in parts of Jharkhand (27 Oct)",
-   "url": "https://www.thehindu.com/news/national/other-states/"
-  },
-  {
-   "name": "The Hans India",
-   "title": "Telangana: Heavy rainfall alert for 4 districts (27 Oct)",
-   "url": "https://www.thehansindia.com/news/cities/hyderabad/telangana-heavy-rainfall-alert-for-4-districts-1136120"
-  },
-  {
-   "name": "The Hindu",
-   "title": "Very severe cyclone 'Arnab' to make landfall near Yanam-Kakinada; red alert issued for seven districts (26 Oct)",
-   "url": "https://www.thehindu.com/news/national/andhra-pradesh/very-severe-cyclone-arnab-to-make-landfall-near-yanam-kakinada-red-alert-issued-for-seven-districts/article71626990.ece"
-  },
-  {
-   "name": "The Hindu",
-   "title": "Kakinada coast braces for cyclone Arnab; 89,000 people being evacuated (26 Oct)",
-   "url": "https://www.thehindu.com/news/national/andhra-pradesh/kakinada-coast-braces-for-cyclone-arnab-89000-people-being-evacuated/article71627293.ece"
-  },
-  {
-   "name": "Times of India",
-   "title": "Centre reviews cyclone Arnab preparedness, directs zero loss of life (26 Oct)",
-   "url": "https://timesofindia.indiatimes.com/india/centre-reviews-cyclone-arnab-preparedness-directs-zero-loss-of-life/articleshow/135213084.cms"
-  },
-  {
-   "name": "The Hindu",
-   "title": "Cyclone Arnab: Orange alert in four Telangana districts, yellow alert in four others on October 28",
-   "url": "https://www.thehindu.com/news/national/telangana/cyclone-arnab-orange-alert-in-four-telangana-districts-yellow-alert-in-four-others-on-october-28/article71626114.ece"
-  },
-  {
-   "name": "Hindustan Times",
-   "title": "Cyclone Arnab to make landfall on October 28 in Andhra Pradesh, evacuation of 5.7 lakh people to start soon",
-   "url": "https://www.hindustantimes.com/india-news/cyclone-arnab-landfall-on-october-28-in-andhra-pradesh-cyclonic-storm-tracker-bay-of-bengal-imd-updates-101793007202400.html"
-  },
-  {
-   "name": "Indian Express",
-   "title": "Cyclone Arnab update: 8 trains cancelled, route changed for 2 others",
-   "url": "https://indianexpress.com/article/india/cyclone-arnab-trains-cancelled-route-changes-full-list-10937391/"
-  },
-  {
-   "name": "The Hindu",
-   "title": "Cyclone Arnab threatens Andhra's municipal polls (26 Oct)",
-   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-threatens-andhras-municipal-polls-sec-hopes-to-hold-them-on-schedule/article71625736.ece"
-  },
-  {
-   "name": "The Hindu",
-   "title": "Cyclone Arnab: APEPDCL opens 41 control rooms, keeps 4,056 workers ready (26 Oct)",
-   "url": "https://www.thehindu.com/news/cities/Visakhapatnam/cyclone-arnab-apepdcl-opens-41-control-rooms-keeps-4056-workers-ready-to-restore-power/article71625634.ece"
-  },
-  {
-   "name": "The Hans India",
-   "title": "Cyclone alert: Hyderabad IMD sounds red alert for heavy rain in TG (26 Oct)",
-   "url": "https://www.thehansindia.com/news/cities/hyderabad/imd-sounds-red-alert-for-heavy-rain-in-tg-1135732"
-  },
-  {
-   "name": "NewsMeter",
-   "title": "Cold nights, heavy rains on the way in Telangana as Cyclone Arnab approaches Andhra coast (25 Oct)",
-   "url": "https://newsmeter.in/regional/telangana/cold-nights-heavy-rains-on-the-way-in-telangana-as-cyclone-arnab-approaches-andhra-coast-778033"
-  },
-  {
-   "name": "The Hindu",
-   "title": "A.P. braces for very severe cyclone, to evacuate people in coastal districts (25 Oct)",
-   "url": "https://www.thehindu.com/news/national/andhra-pradesh/ap-braces-for-very-severe-cyclone-to-evacuate-people-in-coastal-districts/article71623247.ece"
-  },
-  {
-   "name": "The Hindu",
-   "title": "Cyclone threat prompts alert in Chittoor, Annamayya districts (25 Oct)",
-   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-threat-prompts-alert-in-chittoor-annamayya-districts/article71623271.ece"
-  },
-  {
-   "name": "Deccan Chronicle",
-   "title": "Cyclone to Bring Widespread Rains to Telangana Through Early November (25 Oct)",
-   "url": "https://www.deccanchronicle.com/southern-states/telangana/"
-  },
-  {
-   "name": "The Indian Express",
-   "title": "Cyclone Arnab alert: IMD forecasts landfall in Andhra Pradesh on Oct 28 (25 Oct)",
-   "url": "https://indianexpress.com/article/india/cyclone-arnab-bay-of-bengal-andhra-pradesh-landfall-october-28-imd-10936070/"
-  },
-  {
-   "name": "The Hindu",
-   "title": "Cyclone to cross Andhra coast on October 28; people in low-lying areas from Bapatla to Vizianagaram to be evacuated (25 Oct)",
-   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-to-cross-andhra-coast-on-october-28-people-in-low-lying-areas-from-bapatla-to-vizianagaram-to-be-evacuated/article71620236.ece"
-  },
-  {
-   "name": "Siasat",
-   "title": "Cyclone Arnab: IMD Hyderabad forecasts 'extremely heavy rain' (25 Oct)",
-   "url": "https://www.siasat.com/cyclone-arnab-imd-hyderabad-forecasts-extremely-heavy-rain-3564028/"
-  },
-  {
-   "name": "The Hindu",
-   "title": "Depression over Bay of Bengal intensifies, cyclone warning issued at 9 Tamil Nadu, Puducherry ports (25 Oct)",
-   "url": "https://www.thehindu.com/news/national/"
-  },
-  {
-   "name": "The Hindu",
-   "title": "Low pressure over Bay of Bengal likely to bring heavy rain to Telangana (print, Hyderabad edition, 25 Oct, p.1)",
-   "url": "https://www.thehindu.com/todays-paper/"
-  },
-  {
-   "name": "The Hindu",
-   "title": "Odisha, A.P. brace for storm as low pressure intensifies (print, Hyderabad edition, 24 Oct, p.12)",
-   "url": "https://www.thehindu.com/todays-paper/"
-  },
-  {
-   "name": "Deccan Chronicle",
-   "title": "Cyclone Threat: Red Alert for Three Telangana Districts (24 Oct)",
-   "url": "https://www.deccanchronicle.com/southern-states/telangana/"
-  },
-  {
-   "name": "The Hans India",
-   "title": "Arnab cyclone alert: IMD issues red alert as AP, Telangana face threat (24 Oct)",
-   "url": "https://www.thehansindia.com/telangana"
-  },
-  {
-   "name": "The Indian Express",
-   "title": "India's east coast may soon see Arnab, the year's first cyclone (23 Oct)",
-   "url": "https://indianexpress.com/article/india/imd-cyclone-andhra-pradesh-odisha-coast-10933258/"
-  },
-  {
-   "name": "Outlook Traveller",
-   "title": "September system stayed a deep depression (24 Sep)",
-   "url": "https://www.outlooktraveller.com/News/cyclone-arnab-travel-advisory-what-travellers-need-to-know-as-deep-depression-moves-inland"
-  }
- ],
- "thread": "bay-cyclone",
- "tldr": "Very severe Cyclone Arnab crosses near Yanam–Kakinada on Oct 28. Railways have cancelled 95 trains and hit 18 more; NDRF has 31 teams out. Andhra is moving 89,000+ people (15,000+ more from 92 Kakinada habitations), Odisha 48,000. East Telangana: heavy rain Wed–Thu. Hyderabad: no alert.",
- "topic": "Bay of Bengal cyclone",
- "viz": [
-  {
-   "t": "compare",
-   "l": "Trains cancelled for Arnab, Oct 27",
-   "a": {
-    "v": 64,
-    "d": "64",
-    "l": "Earlier (The Hindu)"
-   },
-   "b": {
-    "v": 95,
-    "d": "95",
-    "l": "Now (Indian Express)"
-   },
-   "goodIfUp": false
-  },
-  {
-   "t": "compare",
-   "l": "People being evacuated (The Hindu)",
-   "a": {
-    "v": 89000,
-    "d": "89,000+",
-    "l": "Andhra (Kakinada)"
-   },
-   "b": {
-    "v": 48000,
-    "d": "48,000",
-    "l": "Odisha (8 districts)"
-   },
-   "goodIfUp": false
-  },
-  {
-   "t": "compare",
-   "l": "Arnab's speed (IMD bulletins)",
-   "a": {
-    "v": 13,
-    "d": "13 kmph",
-    "l": "Mon"
-   },
-   "b": {
-    "v": 22,
-    "d": "22 kmph",
-    "l": "Tue midday"
-   },
-   "goodIfUp": false
-  },
-  {
-   "t": "big",
-   "v": "5.7 lakh",
-   "l": "people in Andhra marked for possible evacuation"
-  },
-  {
-   "t": "big",
-   "v": "89,000",
-   "l": "people being evacuated on the Kakinada coast (The Hindu)"
-  },
-  {
-   "t": "stack",
-   "l": "Telangana districts on rain alert, Oct 29 (IMD)",
-   "total": "9 districts",
-   "parts": [
+  "cards": [
     {
-     "l": "Red",
-     "v": 4
+      "k": "tea",
+      "title": "🆕 Morning update (Oct 28): Arnab is crossing the Andhra coast now",
+      "body": "Landfall is underway: Cyclone Arnab is 'practically stationary' and the landfall process is expected to continue for 2–3 hours (Hindustan Times). Heavy rain is lashing Visakhapatnam and there's power damage in Konaseema (Hyderabad Mail). Train or bus towards the Andhra coast, Odisha, Khammam or Warangal today or Oct 29? Check NTES or your operator before you leave home."
     },
     {
-     "l": "Orange",
-     "v": 5
+      "k": "tea",
+      "title": "🆕 Late evening update (Oct 27): 95 trains cancelled, Kakinada moves 15,000+",
+      "body": "Railways have now cancelled 95 trains because of Cyclone Arnab, with 18 others affected (Indian Express, full list). That's up from the 64 services The Hindu reported earlier. In Kakinada district, Deputy CM Pawan Kalyan has ordered more than 15,000 people shifted from 92 vulnerable habitations, with essential supplies at relief centres (The Hindu). Leaving Hyderabad/Secunderabad towards the Andhra coast or Odisha on Oct 28–29? Check NTES before you leave home."
+    },
+    {
+      "k": "tea",
+      "title": "🆕 Night update (Oct 27): 64 train services cancelled",
+      "body": "The Hindu reports 64 train services cancelled across Oct 27 and 28 because of Cyclone Arnab. Long-distance expresses linking Telangana with coastal Andhra and Odisha are among them. Railways advise passengers to check status before travel. Full list not verified here yet: check your train on NTES before leaving home."
+    },
+    {
+      "k": "tea",
+      "title": "🆕 Evening update (Oct 27): NDRF 31 teams, 600 km track watched",
+      "body": "NDRF has deployed 31 teams across states and a UT likely to be hit as very severe Cyclone Arnab nears the Andhra coast near Yanam; shelters are open and fishermen told to stay ashore (NDRF DIG, via Telangana Today). Railway Minister Ashwini Vaishnaw says 600 km of rail track is under close watch ahead of landfall (Indian Express). Still travelling east by train on Oct 28–29? Check NTES before you leave."
+    },
+    {
+      "k": "tea",
+      "title": "🆕 Afternoon update (Oct 27): SCR cancels 12 trains",
+      "body": "South Central Railway has cancelled 12 trains because of Cyclone Arnab (Deccan Chronicle). That's on top of the 8 cancellations and 2 diversions Railways announced on Oct 26 (Indian Express). Travelling from Hyderabad/Secunderabad towards the Andhra coast or Odisha on Oct 27–29? Check your train's status on NTES or the SCR site before leaving home. Telangana's IMD alerts are unchanged."
+    },
+    {
+      "k": "tea",
+      "title": "🆕 Midday update (Oct 27): Arnab speeds up, Odisha moves 48,000",
+      "body": "Arnab was moving at 22 kmph over the past 6 hours, up from 13 kmph in Monday's bulletin. Odisha is evacuating 48,000 people in eight districts; Special Relief Commissioner Rajesh Pravakar Patil said it will hit Malkangiri district after crossing the Andhra–Yanam coast. Andhra's Bapatla district has opened a 24-hour control room with emergency helplines. Jharkhand has a yellow alert in eight districts for 24 hours from 8:30 am on Oct 28 (IMD). Telangana's alerts are unchanged since the morning update."
+    },
+    {
+      "k": "tea",
+      "title": "🆕 Morning update (Oct 27): Telangana winds + rain till Nov 1",
+      "body": "IMD Hyderabad: heavy to very heavy rain likely Wed and Thu in Mulugu, Bhadradri Kothagudem, Khammam and Mahabubabad (Hans India). Gusty winds of 50–60 kmph likely in Bhupalapally, Mulugu, Kothagudem, Khammam, Suryapet, Mahabubabad, Warangal and Hanamkonda; 30–40 kmph elsewhere, Oct 27–30. Light to moderate rain statewide till Nov 1. Monday's IMD bulletin put Arnab 660 km ESE of Kakinada, moving west at 13 kmph."
+    },
+    {
+      "k": "tea",
+      "title": "🆕 Night update (Oct 26): landfall near Yanam–Kakinada",
+      "body": "Arnab is now a very severe cyclone, set to cross near Yanam–Kakinada (The Hindu). Andhra has a red alert in 7 districts: Kakinada, East Godavari, Konaseema, Eluru, West Godavari, Alluri Sitharama Raju, Anakapalli. Kakinada is evacuating 89,000 people; schools and colleges in the Godavari region get a two-day holiday; 67 Konaseema villages are moving to relief camps. The Centre reviewed preparedness and ordered zero loss of life (Times of India). Railways set up a 24x7 war room (Indian Express)."
+    },
+    {
+      "k": "tea",
+      "title": "🆕 Evening update (Oct 26)",
+      "body": "Telangana's alerts start a day earlier: The Hindu reports orange alerts in four districts and yellow in four more on Oct 28, before the Oct 29 red alerts for Mulugu, Kothagudem, Khammam and Mahabubabad. Andhra has identified about 5.7 lakh people in vulnerable areas for evacuation (Hindustan Times). Railways cancelled 8 trains and rerouted 2 (Indian Express). Hyderabad: no rain alert yet."
+    },
+    {
+      "k": "tea",
+      "title": "🆕 Named: Cyclone Arnab (Oct 26)",
+      "body": "The storm is now Cyclone Arnab. Andhra's power utility APEPDCL has opened 41 control rooms and kept 4,056 workers ready; Kakinada, East Godavari and Konaseema residents can report outages on 1912. Odisha has banned fishing and tourist entry in 6 districts. Andhra's municipal polls are at risk; the State Election Commissioner expects normalcy within two days of landfall (The Hindu)."
+    },
+    {
+      "k": "tea",
+      "body": "New IMD Hyderabad bulletin (via The Hans India, 26 Oct, 12:49 am). Oct 29 red alert (heavy to very heavy, isolated extremely heavy rain): Mulugu, Bhadradri Kothagudem, Khammam, Mahabubabad. Orange: Jayashankar Bhupalpally, Warangal, Suryapet, Nalgonda, Nagarkurnool. Gusty winds 50–60 kmph in 11 districts; 30–40 kmph in the rest, Hyderabad included."
+    },
+    {
+      "k": "why",
+      "title": "what changed (Oct 26, latest)",
+      "body": "1) Red alert now named for Oct 29, and Mahabubabad joins the red list. 2) Nalgonda and Nagarkurnool move to orange. 3) Landfall window: between Bapatla and Visakhapatnam, Oct 28 morning to early afternoon. 4) Bulletin position: 820 km ESE of Visakhapatnam, 1,010 km ESE of Machilipatnam. 5) Earlier (Oct 25): red for Mulugu, Kothagudem, Khammam on Oct 28."
+    },
+    {
+      "k": "twist",
+      "body": "Hyderabad city still has no IMD rain alert; expect gusty winds of 30–40 kmph and cooler days. An independent forecaster (via NewsMeter) sees minimums near 16°C in parts of Hyderabad. That's a private forecast, not IMD's."
+    },
+    {
+      "k": "poll",
+      "opts": [
+        "Yes, postponing travel",
+        "Checking on family there",
+        "No, I'm in Hyderabad"
+      ],
+      "q": "Cyclone week. Are you changing any plans?"
+    },
+    {
+      "ans": 1,
+      "k": "quiz",
+      "opts": [
+        "2",
+        "4",
+        "6",
+        "9"
+      ],
+      "q": "How many Telangana districts are on IMD red alert for Oct 29?",
+      "why": "Mulugu, Bhadradri Kothagudem, Khammam and Mahabubabad (IMD via The Hans India, Oct 26)."
     }
-   ]
+  ],
+  "cat": "india",
+  "cover": {
+    "bg": [
+      "#0b2a4a",
+      "#4fbcff"
+    ],
+    "big": "140 kmph",
+    "label": "gusts at Andhra landfall Oct 28; Telangana red alert Oct 29",
+    "motion": "drift",
+    "scene": [
+      "🌀",
+      "🌊",
+      "🌧️"
+    ]
   },
-  {
-   "t": "timeline",
-   "l": "What happens when (IMD)",
-   "now": 0,
-   "steps": [
+  "date": "2026-10-27",
+  "heat": 5,
+  "hook": "🌀 Arnab hits Andhra coast now; Vizag rain, Konaseema power out",
+  "learn": {
+    "t": "Cyclone names come from a list made by 13 countries around the Indian Ocean and are used in order. A storm is named only when its winds reach cyclonic strength (63 km/h or more)."
+  },
+  "map": {
+    "causes": [
+      {
+        "icon": "🌡️",
+        "label": "Warm Bay of Bengal"
+      },
+      {
+        "icon": "🍂",
+        "label": "Post-monsoon cyclone season"
+      }
+    ],
+    "event": {
+      "icon": "🌀",
+      "label": "Landfall near Yanam–Kakinada, Oct 28"
+    },
+    "effects": [
+      {
+        "icon": "🚨",
+        "label": "Oct 29 red: 4 districts"
+      },
+      {
+        "icon": "🌬️",
+        "label": "Hyderabad: winds, no alert"
+      }
+    ]
+  },
+  "order": 1,
+  "readSecs": 55,
+  "sort": "2026-10-27-96",
+  "sources": [
     {
-     "t": "Oct 26",
-     "e": "Becomes a cyclonic storm (early hours)"
+      "name": "Hindustan Times",
+      "title": "Cyclone Arnab 'practically stationary,' landfall process to continue for 2-3 hours",
+      "url": "https://www.hindustantimes.com/india-news/cyclone-arnab-practically-stationary-landfall-process-to-continue-for-2-3-hours-101793150788486.html"
     },
     {
-     "t": "Oct 27",
-     "e": "Severe cyclonic storm by morning"
+      "name": "Indian Express",
+      "title": "Cyclone Arnab Update: Railways cancels 95 trains, 18 others affected - full list (27 Oct)",
+      "url": "https://indianexpress.com/article/india/cyclone-arnab-train-cancellation-list-railways-10939305/"
     },
     {
-     "t": "Oct 28",
-     "e": "Landfall Bapatla–Visakhapatnam, morning to early afternoon"
+      "name": "The Hindu",
+      "title": "Pawan Kalyan directs evacuation of people from cyclone-prone areas in Kakinada district (27 Oct)",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/pawan-kalyan-directs-evacuation-of-people-from-cyclone-prone-areas-in-kakinada-district/article71632243.ece"
     },
     {
-     "t": "Oct 29",
-     "e": "Red alert: Mulugu, Kothagudem, Khammam, Mahabubabad"
+      "name": "The Hindu",
+      "title": "Cyclone ‘Arnab’: 64 train services cancelled on October 27 and 28 (27 Oct)",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-train-services-cancelled-on-october-27-and-28/article71630352.ece"
+    },
+    {
+      "name": "Telangana Today",
+      "title": "31 NDRF teams deployed for Cyclone Arnab (27 Oct)",
+      "url": "https://telanganatoday.com/31-teams-deployed-across-states-ut-likely-to-be-affected-by-cyclone-arnab-ndrf-dig"
+    },
+    {
+      "name": "Indian Express",
+      "title": "600 km of rail track under close watch: Vaishnaw (27 Oct)",
+      "url": "https://indianexpress.com/article/india/cyclone-arnab-update-600-km-of-rail-track-is-under-close-watch-says-ashwini-vaishnaw-ahead-of-landfall-10938729/"
+    },
+    {
+      "name": "Deccan Chronicle",
+      "title": "SCR Cancels 12 Trains in View of Cyclone Arnab (27 Oct)",
+      "url": "https://www.deccanchronicle.com/southern-states/telangana/"
+    },
+    {
+      "name": "The Hindu",
+      "title": "Cyclone Arnab: Odisha announces evacuation of 48,000 in eight districts (27 Oct)",
+      "url": "https://www.thehindu.com/news/national/odisha/"
+    },
+    {
+      "name": "The Hindu",
+      "title": "Cyclone Arnab: Bapatla district issues emergency helpline numbers (27 Oct)",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/"
+    },
+    {
+      "name": "The Hindu",
+      "title": "Cyclone Arnab to trigger heavy rains in parts of Jharkhand (27 Oct)",
+      "url": "https://www.thehindu.com/news/national/other-states/"
+    },
+    {
+      "name": "The Hans India",
+      "title": "Telangana: Heavy rainfall alert for 4 districts (27 Oct)",
+      "url": "https://www.thehansindia.com/news/cities/hyderabad/telangana-heavy-rainfall-alert-for-4-districts-1136120"
+    },
+    {
+      "name": "The Hindu",
+      "title": "Very severe cyclone 'Arnab' to make landfall near Yanam-Kakinada; red alert issued for seven districts (26 Oct)",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/very-severe-cyclone-arnab-to-make-landfall-near-yanam-kakinada-red-alert-issued-for-seven-districts/article71626990.ece"
+    },
+    {
+      "name": "The Hindu",
+      "title": "Kakinada coast braces for cyclone Arnab; 89,000 people being evacuated (26 Oct)",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/kakinada-coast-braces-for-cyclone-arnab-89000-people-being-evacuated/article71627293.ece"
+    },
+    {
+      "name": "Times of India",
+      "title": "Centre reviews cyclone Arnab preparedness, directs zero loss of life (26 Oct)",
+      "url": "https://timesofindia.indiatimes.com/india/centre-reviews-cyclone-arnab-preparedness-directs-zero-loss-of-life/articleshow/135213084.cms"
+    },
+    {
+      "name": "The Hindu",
+      "title": "Cyclone Arnab: Orange alert in four Telangana districts, yellow alert in four others on October 28",
+      "url": "https://www.thehindu.com/news/national/telangana/cyclone-arnab-orange-alert-in-four-telangana-districts-yellow-alert-in-four-others-on-october-28/article71626114.ece"
+    },
+    {
+      "name": "Hindustan Times",
+      "title": "Cyclone Arnab to make landfall on October 28 in Andhra Pradesh, evacuation of 5.7 lakh people to start soon",
+      "url": "https://www.hindustantimes.com/india-news/cyclone-arnab-landfall-on-october-28-in-andhra-pradesh-cyclonic-storm-tracker-bay-of-bengal-imd-updates-101793007202400.html"
+    },
+    {
+      "name": "Indian Express",
+      "title": "Cyclone Arnab update: 8 trains cancelled, route changed for 2 others",
+      "url": "https://indianexpress.com/article/india/cyclone-arnab-trains-cancelled-route-changes-full-list-10937391/"
+    },
+    {
+      "name": "The Hindu",
+      "title": "Cyclone Arnab threatens Andhra's municipal polls (26 Oct)",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-arnab-threatens-andhras-municipal-polls-sec-hopes-to-hold-them-on-schedule/article71625736.ece"
+    },
+    {
+      "name": "The Hindu",
+      "title": "Cyclone Arnab: APEPDCL opens 41 control rooms, keeps 4,056 workers ready (26 Oct)",
+      "url": "https://www.thehindu.com/news/cities/Visakhapatnam/cyclone-arnab-apepdcl-opens-41-control-rooms-keeps-4056-workers-ready-to-restore-power/article71625634.ece"
+    },
+    {
+      "name": "The Hans India",
+      "title": "Cyclone alert: Hyderabad IMD sounds red alert for heavy rain in TG (26 Oct)",
+      "url": "https://www.thehansindia.com/news/cities/hyderabad/imd-sounds-red-alert-for-heavy-rain-in-tg-1135732"
+    },
+    {
+      "name": "NewsMeter",
+      "title": "Cold nights, heavy rains on the way in Telangana as Cyclone Arnab approaches Andhra coast (25 Oct)",
+      "url": "https://newsmeter.in/regional/telangana/cold-nights-heavy-rains-on-the-way-in-telangana-as-cyclone-arnab-approaches-andhra-coast-778033"
+    },
+    {
+      "name": "The Hindu",
+      "title": "A.P. braces for very severe cyclone, to evacuate people in coastal districts (25 Oct)",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/ap-braces-for-very-severe-cyclone-to-evacuate-people-in-coastal-districts/article71623247.ece"
+    },
+    {
+      "name": "The Hindu",
+      "title": "Cyclone threat prompts alert in Chittoor, Annamayya districts (25 Oct)",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-threat-prompts-alert-in-chittoor-annamayya-districts/article71623271.ece"
+    },
+    {
+      "name": "Deccan Chronicle",
+      "title": "Cyclone to Bring Widespread Rains to Telangana Through Early November (25 Oct)",
+      "url": "https://www.deccanchronicle.com/southern-states/telangana/"
+    },
+    {
+      "name": "The Indian Express",
+      "title": "Cyclone Arnab alert: IMD forecasts landfall in Andhra Pradesh on Oct 28 (25 Oct)",
+      "url": "https://indianexpress.com/article/india/cyclone-arnab-bay-of-bengal-andhra-pradesh-landfall-october-28-imd-10936070/"
+    },
+    {
+      "name": "The Hindu",
+      "title": "Cyclone to cross Andhra coast on October 28; people in low-lying areas from Bapatla to Vizianagaram to be evacuated (25 Oct)",
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-to-cross-andhra-coast-on-october-28-people-in-low-lying-areas-from-bapatla-to-vizianagaram-to-be-evacuated/article71620236.ece"
+    },
+    {
+      "name": "Siasat",
+      "title": "Cyclone Arnab: IMD Hyderabad forecasts 'extremely heavy rain' (25 Oct)",
+      "url": "https://www.siasat.com/cyclone-arnab-imd-hyderabad-forecasts-extremely-heavy-rain-3564028/"
+    },
+    {
+      "name": "The Hindu",
+      "title": "Depression over Bay of Bengal intensifies, cyclone warning issued at 9 Tamil Nadu, Puducherry ports (25 Oct)",
+      "url": "https://www.thehindu.com/news/national/"
+    },
+    {
+      "name": "The Hindu",
+      "title": "Low pressure over Bay of Bengal likely to bring heavy rain to Telangana (print, Hyderabad edition, 25 Oct, p.1)",
+      "url": "https://www.thehindu.com/todays-paper/"
+    },
+    {
+      "name": "The Hindu",
+      "title": "Odisha, A.P. brace for storm as low pressure intensifies (print, Hyderabad edition, 24 Oct, p.12)",
+      "url": "https://www.thehindu.com/todays-paper/"
+    },
+    {
+      "name": "Deccan Chronicle",
+      "title": "Cyclone Threat: Red Alert for Three Telangana Districts (24 Oct)",
+      "url": "https://www.deccanchronicle.com/southern-states/telangana/"
+    },
+    {
+      "name": "The Hans India",
+      "title": "Arnab cyclone alert: IMD issues red alert as AP, Telangana face threat (24 Oct)",
+      "url": "https://www.thehansindia.com/telangana"
+    },
+    {
+      "name": "The Indian Express",
+      "title": "India's east coast may soon see Arnab, the year's first cyclone (23 Oct)",
+      "url": "https://indianexpress.com/article/india/imd-cyclone-andhra-pradesh-odisha-coast-10933258/"
+    },
+    {
+      "name": "Outlook Traveller",
+      "title": "September system stayed a deep depression (24 Sep)",
+      "url": "https://www.outlooktraveller.com/News/cyclone-arnab-travel-advisory-what-travellers-need-to-know-as-deep-depression-moves-inland"
     }
-   ]
-  },
-  {
-   "t": "compare",
-   "l": "Wind at landfall (IMD)",
-   "a": {
-    "v": 125,
-    "d": "115–125 kmph",
-    "l": "Sustained"
-   },
-   "b": {
-    "v": 140,
-    "d": "140 kmph",
-    "l": "Gusts"
-   },
-   "goodIfUp": false
-  }
- ],
- "watch": "IMD's next bulletins on the exact crossing point; school holidays in east Telangana on Oct 28–29; whether Hyderabad gets an alert.",
- "updated": 1793114600916,
- "hook_b": "Train to Vizag or Odisha this week? 95 just got cancelled",
- "storyline": "bay-cyclone-2026",
- "lead": "local"
+  ],
+  "thread": "bay-cyclone",
+  "tldr": "Very severe Cyclone Arnab crosses near Yanam–Kakinada on Oct 28. Railways have cancelled 95 trains and hit 18 more; NDRF has 31 teams out. Andhra is moving 89,000+ people (15,000+ more from 92 Kakinada habitations), Odisha 48,000. East Telangana: heavy rain Wed–Thu. Hyderabad: no alert.",
+  "topic": "Bay of Bengal cyclone",
+  "viz": [
+    {
+      "t": "compare",
+      "l": "Trains cancelled for Arnab, Oct 27",
+      "a": {
+        "v": 64,
+        "d": "64",
+        "l": "Earlier (The Hindu)"
+      },
+      "b": {
+        "v": 95,
+        "d": "95",
+        "l": "Now (Indian Express)"
+      },
+      "goodIfUp": false
+    },
+    {
+      "t": "compare",
+      "l": "People being evacuated (The Hindu)",
+      "a": {
+        "v": 89000,
+        "d": "89,000+",
+        "l": "Andhra (Kakinada)"
+      },
+      "b": {
+        "v": 48000,
+        "d": "48,000",
+        "l": "Odisha (8 districts)"
+      },
+      "goodIfUp": false
+    },
+    {
+      "t": "compare",
+      "l": "Arnab's speed (IMD bulletins)",
+      "a": {
+        "v": 13,
+        "d": "13 kmph",
+        "l": "Mon"
+      },
+      "b": {
+        "v": 22,
+        "d": "22 kmph",
+        "l": "Tue midday"
+      },
+      "goodIfUp": false
+    },
+    {
+      "t": "big",
+      "v": "5.7 lakh",
+      "l": "people in Andhra marked for possible evacuation"
+    },
+    {
+      "t": "big",
+      "v": "89,000",
+      "l": "people being evacuated on the Kakinada coast (The Hindu)"
+    },
+    {
+      "t": "stack",
+      "l": "Telangana districts on rain alert, Oct 29 (IMD)",
+      "total": "9 districts",
+      "parts": [
+        {
+          "l": "Red",
+          "v": 4
+        },
+        {
+          "l": "Orange",
+          "v": 5
+        }
+      ]
+    },
+    {
+      "t": "timeline",
+      "l": "What happens when (IMD)",
+      "now": 0,
+      "steps": [
+        {
+          "t": "Oct 26",
+          "e": "Becomes a cyclonic storm (early hours)"
+        },
+        {
+          "t": "Oct 27",
+          "e": "Severe cyclonic storm by morning"
+        },
+        {
+          "t": "Oct 28",
+          "e": "Landfall Bapatla–Visakhapatnam, morning to early afternoon"
+        },
+        {
+          "t": "Oct 29",
+          "e": "Red alert: Mulugu, Kothagudem, Khammam, Mahabubabad"
+        }
+      ]
+    },
+    {
+      "t": "compare",
+      "l": "Wind at landfall (IMD)",
+      "a": {
+        "v": 125,
+        "d": "115–125 kmph",
+        "l": "Sustained"
+      },
+      "b": {
+        "v": 140,
+        "d": "140 kmph",
+        "l": "Gusts"
+      },
+      "goodIfUp": false
+    }
+  ],
+  "watch": "IMD's next bulletins on the exact crossing point; school holidays in east Telangana on Oct 28–29; whether Hyderabad gets an alert.",
+  "updated": 1793155485413,
+  "hook_b": "Heading to Vizag or Konaseema today? Arnab is making landfall now",
+  "storyline": "bay-cyclone-2026",
+  "lead": "local"
 }
