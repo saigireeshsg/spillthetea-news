@@ -1,6 +1,6 @@
 {
  "name": "Cyclone Arnab",
- "updated": "2026-10-28T13:05:00+05:30",
+ "updated": "2026-10-28T13:25:00+05:30",
  "level": "Weakening over land",
  "moving": {
   "state": "moving",
@@ -52,8 +52,8 @@
    "n": 3
   },
   {
-   "e": "✅",
-   "t": "No deaths reported. Worst wind is over for the coast.",
+   "e": "⚡",
+   "t": "2 deaths reported in AP, both from snapped live wires (one in Yellamanchili, Anakapalli). Never touch fallen wires or wade near them.",
    "n": 2
   },
   {
@@ -79,6 +79,18 @@
  ],
  "updates": [
   {
+   "t": "11:10 am",
+   "e": "💡",
+   "x": "Vizag: power back in parts of the city after a long cut; APEPDCL and GVMC crews working through north Andhra.",
+   "src": "The Hans India"
+  },
+  {
+   "t": "12:28 pm",
+   "e": "⚡",
+   "x": "Two people died in AP after touching snapped live wires: a 53-year-old man (Tuesday night, farm channel) and a woman outside her home in Yellamanchili, Anakapalli (Wednesday morning).",
+   "src": "The Week"
+  },
+  {
    "t": "10:09 am",
    "e": "🟠",
    "x": "Odisha: system moving towards Chhattisgarh. Flash-flood alert for Malkangiri, Koraput, Rayagada, Ganjam, Gajapati. 313 rescue teams deployed.",
@@ -87,7 +99,7 @@
   {
    "t": "Late morning",
    "e": "✅",
-   "x": "IMD: landfall complete, storm entirely over land. No loss of life reported in AP.",
+   "x": "IMD: landfall complete, storm entirely over land. CM's office said early Wednesday no deaths; later reports confirm 2 electrocutions.",
    "src": "The Hans India"
   },
   {
@@ -122,6 +134,11 @@
   }
  ],
  "mood": [
+  {
+   "e": "🙏",
+   "t": "Kakinada at dawn: \"Thank God, there was not as much damage this time.\" A 65-year-old at a shelter: \"Our homes get flooded, and we have to stay in the water.\"",
+   "src": "AFP / Geo News"
+  },
   {
    "e": "😮‍💨",
    "t": "Relief on the coast: 'the worst is over', with no deaths reported.",
@@ -477,6 +494,22 @@
  ],
  "sources": [
   [
+   "The Week: two electrocution deaths in AP (Oct 28)",
+   "https://www.theweek.in/news/india/2026/10/28/cyclone-arnab-hits-andhra-pradesh-deaths.html"
+  ],
+  [
+   "The Hans India: Vizag power resumes (Oct 28)",
+   "https://www.thehansindia.com/news/cities/visakhapatnam/power-resumes-after-a-prolonged-disruption-1136702"
+  ],
+  [
+   "Wego: full train cancellation list (Oct 27)",
+   "https://blog.wego.com/arnab-cyclone-train-cancellations/"
+  ],
+  [
+   "AFP/Geo News: residents in Kakinada (Oct 28)",
+   "https://www.geo.tv/latest/688627-cyclone-arnab-lashes-india-coast-no-deaths-reported"
+  ],
+  [
    "Deccan Chronicle: AP control room numbers (Oct 27)",
    "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-arnab-state-district-emergency-control-room-numbers-issued-1999240"
   ],
@@ -518,7 +551,7 @@
   ]
  ],
  "trains": {
-  "note": "Railways say 90+ services are cancelled or affected. These are the ones named by SCR and news reports; the full list grows as railways update.",
+  "note": "Railways say 90+ services are cancelled or affected. Below: every train named by SCR/ECoR and news reports so far. Cancelled tickets are refunded automatically on IRCTC. Call 139 for live status.",
   "helpline": "139",
   "list": [
    [
@@ -542,8 +575,8 @@
    [
     "12727",
     "Visakhapatnam → Hyderabad (Godavari Exp)",
-    "—",
-    "Cancelled (date not given)"
+    "Oct 28",
+    "Cancelled"
    ],
    [
     "12740",
@@ -554,8 +587,8 @@
    [
     "12739",
     "Visakhapatnam → Secunderabad (Garib Rath)",
-    "—",
-    "Cancelled (date not given)"
+    "Oct 28",
+    "Cancelled"
    ],
    [
     "12738",
@@ -566,8 +599,8 @@
    [
     "12737",
     "Kakinada Port → Lingampalli (Gowthami Exp)",
-    "—",
-    "Cancelled (date not given)"
+    "Oct 28",
+    "Cancelled"
    ],
    [
     "12776",
@@ -621,10 +654,236 @@
     "12788",
     "Nagarsol → Narasapur",
     "Oct 27",
-    "Partially cancelled"
+    "Cut short: runs only to Charlapalli"
+   ],
+   [
+    "20707",
+    "Secunderabad → Visakhapatnam (Vande Bharat)",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "20708",
+    "Visakhapatnam → Secunderabad (Vande Bharat)",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "20833",
+    "Visakhapatnam → Secunderabad (Vande Bharat)",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "20834",
+    "Secunderabad → Visakhapatnam (Vande Bharat)",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "12861",
+    "Visakhapatnam → Mahbubnagar",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "12775",
+    "Kakinada Town → Lingampalli",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "12787",
+    "Narasapur → Nagarsol",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "22882",
+    "Bhubaneswar → Pune",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "17206",
+    "Kakinada Port → Sainagar Shirdi",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "18522",
+    "Guntakal → Visakhapatnam (Tirumala Exp)",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "18521",
+    "Visakhapatnam → Guntakal (Tirumala Exp)",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "17643",
+    "Chengalpattu → Kakinada (Circar Exp)",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "17249",
+    "Tirupati → Kakinada Port",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "17250",
+    "Kakinada Port → Tirupati",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "17243",
+    "Guntur → Rayagada",
+    "Oct 27",
+    "Cancelled"
+   ],
+   [
+    "17244",
+    "Rayagada → Guntur",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "17219",
+    "Machilipatnam → Visakhapatnam",
+    "Oct 27, 28",
+    "Cancelled"
+   ],
+   [
+    "17220",
+    "Visakhapatnam → Machilipatnam",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "12718",
+    "Vijayawada → Visakhapatnam (Ratnachal Exp)",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "12717",
+    "Visakhapatnam → Vijayawada (Ratnachal Exp)",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "22875",
+    "Visakhapatnam ⇄ Guntur (UDAY Exp)",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "22876",
+    "Guntur ⇄ Visakhapatnam (UDAY Exp)",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "17282",
+    "Narasapur ⇄ Guntur",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "17281",
+    "Guntur ⇄ Narasapur",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "17263",
+    "Bhimavaram Town → Narasapur",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "07267",
+    "Visakhapatnam ⇄ Parvatipuram (special)",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "07268",
+    "Parvatipuram ⇄ Visakhapatnam (special)",
+    "Oct 28",
+    "Cancelled"
+   ],
+   [
+    "18515",
+    "Visakhapatnam ⇄ Kirandul (Night Exp)",
+    "Oct 29 – Nov 4",
+    "Cancelled"
+   ],
+   [
+    "18516",
+    "Kirandul ⇄ Visakhapatnam (Night Exp)",
+    "Oct 29 – Nov 4",
+    "Cancelled"
+   ],
+   [
+    "58538",
+    "Visakhapatnam ⇄ Koraput passenger",
+    "Oct 27–30",
+    "Cancelled"
+   ],
+   [
+    "58537",
+    "Koraput ⇄ Visakhapatnam passenger",
+    "Oct 28–31",
+    "Cancelled"
+   ],
+   [
+    "58501",
+    "Visakhapatnam ⇄ Kirandul passenger",
+    "Oct 27–30",
+    "Cancelled"
+   ],
+   [
+    "58502",
+    "Kirandul ⇄ Visakhapatnam passenger",
+    "Oct 27–30",
+    "Cancelled"
+   ],
+   [
+    "18512",
+    "Visakhapatnam ⇄ Koraput Intercity",
+    "Oct 30",
+    "Cancelled"
+   ],
+   [
+    "18511",
+    "Koraput ⇄ Visakhapatnam Intercity",
+    "Oct 31",
+    "Cancelled"
+   ],
+   [
+    "18447",
+    "Bhubaneswar → Jagdalpur (Hirakhand Exp)",
+    "Oct 27–30",
+    "Ends at Rayagada"
+   ],
+   [
+    "18448",
+    "Jagdalpur → Bhubaneswar (Hirakhand Exp)",
+    "Oct 28–31",
+    "Starts from Rayagada"
    ]
   ],
   "local": [
+   "MEMU 67283/67284, 67277/67278 Bhimavaram Town ⇄ Nidadavolu: cancelled Oct 27",
+   "MEMU 67282 Bhimavaram Town → Vijayawada, 67201 Rajahmundry → Vijayawada: cancelled Oct 27",
+   "MEMU 67279/67280 Narasapur ⇄ Nidadavolu, 67243 Nidadavolu → Narasapur, 67276 Narasapur → Vijayawada: cancelled Oct 28",
+   "MEMU 67241/67242 Rajahmundry ⇄ Bhimavaram Town, 67285/67286 Rajahmundry ⇄ Visakhapatnam: cancelled Oct 28",
    "Vijayawada ⇄ Rajahmundry",
    "Vijayawada ⇄ Narasapur & Machilipatnam branch",
    "Machilipatnam ⇄ Gudivada",
@@ -737,7 +996,7 @@
   ],
   "crew": "4,339 APEPDCL staff in 438 teams; 244 generators, 239 cranes, 8,662 spare poles",
   "helpline": "1912 (24 hours)",
-  "note": "Supply is switched off where winds are dangerous and restored after inspection. Stay away from snapped lines."
+  "note": "Power is back in parts of Visakhapatnam (Wednesday morning). Elsewhere supply is switched off where lines are down and restored after inspection. Two people have died from snapped live wires: stay away from them and call 1912."
  },
  "relief": {
   "summary": "AP: 2,000+ shelters identified, 609 schools turned into relief centres. GVMC (Vizag): 56 relief centres with food, drinking water and sanitation. Odisha: 2,037 cyclone shelters ready with food and drinking water.",
