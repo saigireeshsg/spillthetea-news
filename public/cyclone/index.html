@@ -5,7 +5,7 @@
 <meta name="description" content="Cyclone Arnab live: where the storm is, your district's alert, control room number, safe places, verified updates.">
 <meta property="og:title" content="🌀 Cyclone Arnab: check your district"><meta property="og:description" content="Where the storm is, your district's alert, control room, safe places. Verified, updated live."><meta property="og:image" content="https://spillthetea.news/og.png">
 <link rel="icon" href="/favicon.svg"><meta name="theme-color" content="#0a0a0b">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
 <style>
 :root{--bg:#0a0a0b;--card:#151518;--card2:#1d1d21;--line:#2a2a30;--fg:#f2f2f2;--mut:#a3acb0;--o:#ff4500;--red:#ff4d3d;--amb:#ffb020;--grn:#46d160;--blu:#4fbcff}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
@@ -28,6 +28,8 @@ h2{font-size:16px;margin:22px 0 8px;display:flex;align-items:center;gap:8px}
 .dc .ln{display:grid;grid-template-columns:24px 1fr;gap:8px;font-size:14.5px;line-height:1.4}.dc .ln span{color:#d6dadd}
 .btns{display:grid;grid-template-columns:1fr 1fr;gap:8px}.btns a{display:block;text-align:center;text-decoration:none;font-weight:800;border-radius:12px;padding:11px 8px;font-size:14px}
 .btn-call{background:#13301f;color:#7ee2a8}.btn-map{background:var(--card2);color:var(--fg);border:1px solid var(--line)}
+.mtabs{display:flex;gap:6px;margin-bottom:6px}.mtabs button{flex:1;font:inherit;font-size:13.5px;font-weight:800;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:8px;cursor:pointer}.mtabs button.on{background:var(--fg);color:#111}
+#wind{width:100%;height:420px;border:1px solid var(--line);border-radius:16px}
 #map{height:420px;border-radius:16px;border:1px solid var(--line)}
 .leg{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--mut);margin:6px 0 0}.leg i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
 .lbl{background:none!important;border:0!important;box-shadow:none!important;font:800 11px system-ui;color:#fff;text-shadow:0 0 3px #000,0 0 3px #000;padding:0!important}.lbl:before{display:none}
@@ -61,7 +63,10 @@ ul.sf{margin:0;padding-left:18px}ul.sf li{margin:3px 0;font-size:14.5px}
 <div id="dcard"></div>
 
 <h2>🗺️ Where the storm is</h2>
+<div class="mtabs"><button data-mt="alert" class="on">🗺️ Alerts + live clouds</button><button data-mt="wind">💨 Live wind</button></div>
 <div id="map" role="img" aria-label="Map of Cyclone Arnab and districts on alert"></div>
+<iframe id="wind" title="Live wind map" loading="lazy" hidden src="about:blank"></iframe>
+<div class="upd" id="satinfo">🛰️ Live satellite clouds: loading…</div>
 <div class="leg"><span>🌀 Storm</span><span><i style="background:#ff4d3d"></i>Red alert</span><span><i style="background:#ffb020"></i>Orange alert</span><span><i style="background:#46d160"></i>No alert</span><span><i style="background:#4fbcff"></i>You</span></div>
 
 <h2>📰 What's happening</h2><div class="brief" id="brief"></div>
@@ -76,7 +81,7 @@ ul.sf{margin:0;padding-left:18px}ul.sf li{margin:3px 0;font-size:14.5px}
 <h2>📚 Sources</h2><ol class="src" id="sources"></ol>
 <p class="upd">Every fact here is checked against official statements and at least one established outlet by Spill's agents; headlines in the news list link to their source. In an emergency, call 112.</p>
 </main>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="/vendor/leaflet/leaflet.js"></script>
 <script src="/config.js"></script>
 <script>
 (function(){"use strict";
@@ -92,9 +97,21 @@ let D=null,map=null,L1=null,me=null,sel=null,PL=[],mk={};
 try{sel=localStorage.getItem("arnab.district")}catch(e){}
 function places(){const out=[];D.districts.forEach(s=>s.places.forEach(p=>out.push(Object.assign({state:s.state,swhat:s.what},p))));return out}
 const COL={red:"#ff4d3d",orange:"#ffb020",safe:"#46d160"};
+let SAT=null;
+async function loadSat(){try{const j=await (await fetch("https://api.rainviewer.com/public/weather-maps.json")).json();const host=j.host;
+  const ir=(j.satellite&&j.satellite.infrared||[]).slice(-1)[0],rd=(j.radar&&j.radar.past||[]).slice(-1)[0];
+  if(SAT)SAT.forEach(l=>map.removeLayer(l));SAT=[];
+  if(ir)SAT.push(L.tileLayer(host+ir.path+"/256/{z}/{x}/{y}/0/0_0.png",{opacity:.55,maxNativeZoom:6,maxZoom:12,attribution:'Satellite & radar © <a href="https://www.rainviewer.com/">RainViewer</a>'}).addTo(map));
+  if(rd)SAT.push(L.tileLayer(host+rd.path+"/256/{z}/{x}/{y}/2/1_1.png",{opacity:.6,maxNativeZoom:7,maxZoom:12}).addTo(map));
+  L1.bringToFront&&L1.eachLayer(l=>l.bringToFront&&l.bringToFront());
+  const t=(ir||rd)?new Date(((ir||rd).time)*1000):null;$("satinfo").innerHTML=t?`🛰️ Real satellite clouds (white/grey) + rain radar (colours), image from <b>${t.toLocaleTimeString("en-IN",{timeZone:"Asia/Kolkata",hour:"numeric",minute:"2-digit"})}</b> IST · refreshes every 10 min`:"🛰️ Satellite layer unavailable right now.";
+ }catch(e){$("satinfo").textContent="🛰️ Satellite layer unavailable right now."}}
+setInterval(()=>{if(map)loadSat()},600000);
+document.addEventListener("click",e=>{const b=e.target.closest("[data-mt]");if(!b)return;document.querySelectorAll("[data-mt]").forEach(x=>x.classList.toggle("on",x===b));const w=b.dataset.mt==="wind";
+  $("map").hidden=w;$("wind").hidden=!w;if(w&&$("wind").src==="about:blank")$("wind").src="https://embed.windy.com/embed2.html?lat=17.5&lon=82.0&detailLat=16.45&detailLon=81.9&zoom=6&level=surface&overlay=wind&product=ecmwf&menu=&message=true&marker=true&calendar=now&pressure=true&type=map&location=coordinates&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1";if(!w&&map)setTimeout(()=>map.invalidateSize(),50);track("cyclone_maptab",b.dataset.mt)});
 function drawMap(){
   if(!map){map=L.map("map",{zoomControl:true,scrollWheelZoom:false}).setView([17.8,82.0],6);
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",{maxZoom:12,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>'}).addTo(map);L1=L.layerGroup().addTo(map)}
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",{maxZoom:12,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>'}).addTo(map);L1=L.layerGroup().addTo(map);loadSat()}
   L1.clearLayers();mk={};
   PL.forEach(p=>{const c=COL[p.lvl]||"#ffb020";const z=L.circle([p.lat,p.lon],{radius:p.lvl==="safe"?12000:30000,color:c,weight:p.n===sel?4:1.5,fillColor:c,fillOpacity:p.n===sel?.45:.25}).addTo(L1);
     z.bindTooltip(p.n,{permanent:true,direction:"center",className:"lbl"});z.on("click",()=>choose(p.n,true));mk[p.n]=z});
