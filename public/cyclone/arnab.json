@@ -1,11 +1,11 @@
 {
  "name": "Cyclone Arnab",
- "updated": "2026-10-28T13:25:00+05:30",
+ "updated": "2026-10-28T14:20:00+05:30",
  "level": "Weakening over land",
  "moving": {
   "state": "moving",
   "text": "Moving inland, north-west, towards south Odisha and Chhattisgarh",
-  "eta": "Deep depression by this evening, depression by early Thursday"
+  "eta": "Deep depression by this evening; expected to cross Malkangiri (Odisha) tonight; depression by early Thursday"
  },
  "headline": "Arnab crossed the coast near Yanam overnight. It's weaker now and moving inland, but heavy rain and flash floods are still likely today and tomorrow in coastal Andhra, south Odisha and east Telangana.",
  "position": {
@@ -52,8 +52,13 @@
    "n": 3
   },
   {
+   "e": "🔌",
+   "t": "Konaseema: ~6,000 power poles down. Expect long outages in Konaseema and rural Kakinada.",
+   "n": 2
+  },
+  {
    "e": "⚡",
-   "t": "2 deaths reported in AP, both from snapped live wires (one in Yellamanchili, Anakapalli). Never touch fallen wires or wade near them.",
+   "t": "3 deaths reported in AP (PTI). At least 2 were from snapped live wires (one in Yellamanchili, Anakapalli). Never touch fallen wires or wade near them.",
    "n": 2
   },
   {
@@ -75,9 +80,44 @@
    "e": "🚆",
    "t": "53–91 trains and 21+ flights cancelled. Check before you travel.",
    "n": 2
+  },
+  {
+   "e": "🌧️",
+   "t": "Telangana: heavy to very heavy rain today in Khammam, Bhadradri Kothagudem, Nalgonda, Suryapet.",
+   "n": 1
   }
  ],
  "updates": [
+  {
+   "t": "2:05 pm",
+   "e": "🟠",
+   "x": "Telangana (IMD/TGiCCC alert): heavy to very heavy rain likely in Bhadradri Kothagudem, Khammam, Nalgonda, Suryapet; heavy rain in Jayashankar Bhupalpally, Mulugu, Mahabubabad, Warangal, Hanumakonda. Gusts 50–70 km/h.",
+   "src": "NDMA SACHET"
+  },
+  {
+   "t": "1:30 pm",
+   "e": "🌊",
+   "x": "AP SDMA: rough sea, waves 0.9–2.3 m along the coast from 5:30 pm today to 5:30 pm Thursday. Fishermen and tourists stay off beaches.",
+   "src": "NDMA SACHET (APSDMA)"
+  },
+  {
+   "t": "1:10 pm",
+   "e": "🏠",
+   "x": "AP: 3 deaths reported, 31 houses damaged, about 57,000 people in relief camps. 38 evacuated from Yanam overnight. NDRF: north AP and south Odisha worst hit; no serious impact in Odisha so far.",
+   "src": "Business Standard / PTI"
+  },
+  {
+   "t": "11:51 am",
+   "e": "🌧️",
+   "x": "Odisha: landfall took ~6.5 hours, ending around 8:30 am. Storm expected to cross Malkangiri tonight as a deep depression. Heaviest rain: Mahendragiri (Gajapati) 249.9 mm, Pottangi (Koraput) 188 mm.",
+   "src": "Kalinga TV / IMD Bhubaneswar"
+  },
+  {
+   "t": "9:20 am",
+   "e": "⚡",
+   "x": "Konaseema collector: about 6,000 electric poles uprooted in the district. Power will be restored once winds ease.",
+   "src": "The South First"
+  },
   {
    "t": "11:10 am",
    "e": "💡",
@@ -138,11 +178,6 @@
    "e": "🙏",
    "t": "Kakinada at dawn: \"Thank God, there was not as much damage this time.\" A 65-year-old at a shelter: \"Our homes get flooded, and we have to stay in the water.\"",
    "src": "AFP / Geo News"
-  },
-  {
-   "e": "😮‍💨",
-   "t": "Relief on the coast: 'the worst is over', with no deaths reported.",
-   "src": "The Hans India"
   },
   {
    "e": "🙏",
@@ -357,13 +392,29 @@
      "n": "Mulugu",
      "lat": 18.191,
      "lon": 79.943,
-     "lvl": "orange"
+     "lvl": "orange",
+     "note": "IMD: heavy rain, thunderstorms, gusts possible (Oct 28)."
     },
     {
      "n": "Mahabubabad",
      "lat": 17.598,
      "lon": 80.002,
-     "lvl": "orange"
+     "lvl": "orange",
+     "note": "IMD: heavy rain, thunderstorms, gusts possible (Oct 28)."
+    },
+    {
+     "n": "Suryapet",
+     "lat": 17.1405,
+     "lon": 79.623,
+     "lvl": "orange",
+     "note": "IMD: heavy to very heavy rain, gusts up to 70 km/h (Oct 28)."
+    },
+    {
+     "n": "Nalgonda",
+     "lat": 17.0575,
+     "lon": 79.2671,
+     "lvl": "orange",
+     "note": "IMD: heavy to very heavy rain, gusts up to 70 km/h (Oct 28)."
     },
     {
      "n": "Hyderabad",
@@ -376,6 +427,10 @@
   }
  ],
  "faq": [
+  {
+   "q": "Is Cyclone Arnab coming to Khammam, Nalgonda or Suryapet?",
+   "a": "The storm itself is moving into south Odisha, not Telangana. But IMD has warned of heavy to very heavy rain and gusts up to 70 km/h today in Khammam, Bhadradri Kothagudem, Nalgonda and Suryapet. Avoid streams and low causeways."
+  },
   {
    "q": "Is the cyclone coming to Hyderabad?",
    "a": "No. Hyderabad has no cyclone alert. Expect clouds, light to moderate rain and gusty winds. The heavy-rain alert is for Khammam, Kothagudem, Mulugu and Mahabubabad."
@@ -548,6 +603,26 @@
   [
    "The Morning Voice: 89,000 evacuated (Oct 28)",
    "https://tmv.in/article/andhra-pradesh-on-high-alert-as-cyclone-arnab-nears-the-coast-nearly-89000-evacuated"
+  ],
+  [
+   "NDMA SACHET CAP alerts",
+   "https://sachet.ndma.gov.in/"
+  ],
+  [
+   "Business Standard: Arnab crosses Andhra coast",
+   "https://www.business-standard.com/india-news/cyclone-arnab-crosses-andhra-coast-damages-roads-electric-poles-126102800603_1.html"
+  ],
+  [
+   "The South First: CM orders road clearance, power restoration",
+   "https://thesouthfirst.com/andhrapradesh/cyclone-arnab-cm-naidu-sets-two-hour-deadline-for-road-clearance-orders-power-restoration-and-crop-loss-assessment/"
+  ],
+  [
+   "Kalinga TV: landfall complete",
+   "https://kalingatv.com/odisha/cyclone-arnab-completes-landfall-off-andhra-coast-likely-to-weaken-into-deep-depression-and-cross-odishas-malkangiri-tonight/"
+  ],
+  [
+   "Yo Vizag: trains cancelled/rescheduled",
+   "https://www.yovizag.com/cyclone-arnab-30-trains-cancelled-3-rescheduled-in-vizag/"
   ]
  ],
  "trains": {
@@ -877,6 +952,12 @@
     "Jagdalpur → Bhubaneswar (Hirakhand Exp)",
     "Oct 28–31",
     "Starts from Rayagada"
+   ],
+   [
+    "18505",
+    "Tirupati → Visakhapatnam",
+    "Oct 27",
+    "Rescheduled: left 6 hours late"
    ]
   ],
   "local": [
@@ -996,10 +1077,10 @@
   ],
   "crew": "4,339 APEPDCL staff in 438 teams; 244 generators, 239 cranes, 8,662 spare poles",
   "helpline": "1912 (24 hours)",
-  "note": "Power is back in parts of Visakhapatnam (Wednesday morning). Elsewhere supply is switched off where lines are down and restored after inspection. Two people have died from snapped live wires: stay away from them and call 1912."
+  "note": "Power is back in parts of Visakhapatnam (Wednesday morning). Elsewhere supply is switched off where lines are down and restored after inspection. Two people have died from snapped live wires: stay away from them and call 1912. Konaseema has about 6,000 poles down, so restoration there will take longer."
  },
  "relief": {
-  "summary": "AP: 2,000+ shelters identified, 609 schools turned into relief centres. GVMC (Vizag): 56 relief centres with food, drinking water and sanitation. Odisha: 2,037 cyclone shelters ready with food and drinking water.",
+  "summary": "AP: about 57,000 people in relief camps (PTI, Wed afternoon); 609 schools turned into relief centres. AP: 2,000+ shelters identified. GVMC (Vizag): 56 relief centres with food, drinking water and sanitation. Odisha: 2,037 cyclone shelters ready with food and drinking water.",
   "food": "Food and drinking water are provided free at all official relief centres (CM's order in AP; OSDMA in Odisha). If you're at a centre without food, call your district control room or 1070.",
   "named": [
    [
