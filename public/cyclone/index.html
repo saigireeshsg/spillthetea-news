@@ -2,139 +2,154 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Cyclone Arnab Live Desk · Spill</title>
-<meta name="description" content="Cyclone Arnab live: map, affected districts in Andhra Pradesh, Odisha and Telangana, emergency helplines, shelters and updates every few seconds.">
-<meta property="og:title" content="🌀 Cyclone Arnab Live Desk"><meta property="og:description" content="Live map, affected areas, helplines and shelters. Updated every few seconds."><meta property="og:image" content="https://spillthetea.news/og.png">
+<meta name="description" content="Cyclone Arnab live: where the storm is, your district's alert, control room number, safe places, verified updates.">
+<meta property="og:title" content="🌀 Cyclone Arnab: check your district"><meta property="og:description" content="Where the storm is, your district's alert, control room, safe places. Verified, updated live."><meta property="og:image" content="https://spillthetea.news/og.png">
 <link rel="icon" href="/favicon.svg"><meta name="theme-color" content="#0a0a0b">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <style>
-:root{--bg:#0a0a0b;--card:#151518;--card2:#1d1d21;--line:#2a2a30;--fg:#f2f2f2;--mut:#a3acb0;--o:#ff4500;--red:#ff5a4a;--amb:#ffb020;--grn:#46d160;--blu:#4fbcff}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-a{color:var(--blu)}main{max-width:760px;margin:0 auto;padding:0 14px 40px}
-header{position:sticky;top:0;z-index:1000;background:rgba(10,10,11,.92);backdrop-filter:blur(8px);display:flex;align-items:center;gap:8px;padding:10px 14px;border-bottom:1px solid var(--line)}
-header img{width:28px;height:28px}header b{font-size:19px;font-weight:900;letter-spacing:-.03em}header .lv{margin-left:auto;display:flex;align-items:center;gap:6px;font-size:12.5px;font-weight:800;color:var(--red)}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--red);animation:p 1.4s infinite}@keyframes p{50%{opacity:.25}}
-h1{font-size:25px;line-height:1.2;margin:14px 0 4px}.st{display:inline-block;font-size:12.5px;font-weight:800;padding:4px 10px;border-radius:999px;background:#3a1406;color:#ffb38f}
-.lead{color:#d6dadd;margin:8px 0 12px}.upd{font-size:12.5px;color:var(--mut)}
-.sos{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}
-.sos a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;text-decoration:none;color:#fff;font-weight:900;font-size:19px;border-radius:14px;padding:12px 6px;background:#b3261e}
-.sos a small{font-size:11.5px;font-weight:700;opacity:.9;text-align:center}.sos a.g{background:#1f6f43}.sos a.b{background:#1f4f8a}
-#map{height:360px;border-radius:16px;border:1px solid var(--line);margin:6px 0}
-.leg{display:flex;flex-wrap:wrap;gap:10px;font-size:12.5px;color:var(--mut);margin-bottom:6px}.leg i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
-section{margin-top:18px}section>h2{font-size:17px;margin:0 0 8px;display:flex;align-items:center;gap:8px}
-.nums{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.nums div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px}.nums b{display:block;font-size:22px}.nums span{font-size:12.5px;color:var(--mut)}
-.fc{display:grid;gap:6px}.fc div{background:var(--card);border-radius:12px;padding:8px 12px;font-size:14px}.fc b{color:#ffb38f}
-.area{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px;margin-bottom:8px}.area h3{margin:0;font-size:15px;display:flex;gap:8px;align-items:center}
-.area .tg{font-size:11px;font-weight:900;padding:2px 8px;border-radius:999px}.tg.red{background:#3a0f0c;color:var(--red)}.tg.orange{background:#3a2608;color:var(--amb)}
-.area p{margin:4px 0 0;font-size:13.5px;color:var(--mut)}
-.feed{display:grid;gap:8px}.it{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;text-decoration:none;color:var(--fg)}
-.it.new{border-color:var(--o);box-shadow:0 0 0 1px var(--o) inset;animation:fl 2s}@keyframes fl{0%{background:#3a1406}}
-.it b{display:block;font-size:14.5px;line-height:1.35}.it small{color:var(--mut);font-size:12px}.it .nw{color:var(--o);font-weight:900;margin-right:4px}
+:root{--bg:#0a0a0b;--card:#151518;--card2:#1d1d21;--line:#2a2a30;--fg:#f2f2f2;--mut:#a3acb0;--o:#ff4500;--red:#ff4d3d;--amb:#ffb020;--grn:#46d160;--blu:#4fbcff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--blu)}main{max-width:720px;margin:0 auto;padding:0 14px 40px}
+header{position:sticky;top:0;z-index:1000;background:rgba(10,10,11,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.hb{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:8px;padding:9px 14px}.hb img{width:26px;height:26px}.hb b{font-size:18px;font-weight:900;letter-spacing:-.03em}
+.hb a.sos{margin-left:auto;background:#b3261e;color:#fff;text-decoration:none;font-weight:900;border-radius:999px;padding:6px 14px;font-size:14px}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--red);animation:p 1.4s infinite}@keyframes p{50%{opacity:.25}}
+.status{margin:14px 0 6px;background:linear-gradient(135deg,#2a0f0b,#141012 70%);border:1px solid #5a1f16;border-radius:16px;padding:12px 14px}
+.status .row{display:flex;align-items:center;gap:10px}.status .cy{font-size:34px;animation:spin 3s linear infinite}@keyframes spin{to{transform:rotate(-360deg)}}
+.status h1{margin:0;font-size:20px;line-height:1.2}.status .mv{font-size:13.5px;font-weight:800;color:#ffb38f;margin-top:2px}
+.status p{margin:8px 0 0;font-size:14.5px;color:#d6dadd}.upd{font-size:12px;color:var(--mut);margin-top:6px}
+h2{font-size:16px;margin:22px 0 8px;display:flex;align-items:center;gap:8px}
+.pick{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}.pick::-webkit-scrollbar{display:none}
+.pick button{flex:none;font:inherit;font-size:13.5px;font-weight:700;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:7px 12px;cursor:pointer}
+.pick button.on{background:var(--fg);color:#111}.pick button i{font-style:normal}
+.dc{margin-top:10px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;display:grid;gap:10px}
+.dc .top{display:flex;align-items:center;gap:10px}.dc .top b{font-size:19px}.badge{font-size:11.5px;font-weight:900;padding:3px 9px;border-radius:999px}
+.badge.red{background:#3a0f0c;color:var(--red)}.badge.orange{background:#3a2608;color:var(--amb)}.badge.safe{background:#0d2318;color:var(--grn)}
+.dc .ln{display:grid;grid-template-columns:24px 1fr;gap:8px;font-size:14.5px;line-height:1.4}.dc .ln span{color:#d6dadd}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:8px}.btns a{display:block;text-align:center;text-decoration:none;font-weight:800;border-radius:12px;padding:11px 8px;font-size:14px}
+.btn-call{background:#13301f;color:#7ee2a8}.btn-map{background:var(--card2);color:var(--fg);border:1px solid var(--line)}
+#map{height:420px;border-radius:16px;border:1px solid var(--line)}
+.leg{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--mut);margin:6px 0 0}.leg i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+.lbl{background:none!important;border:0!important;box-shadow:none!important;font:800 11px system-ui;color:#fff;text-shadow:0 0 3px #000,0 0 3px #000;padding:0!important}.lbl:before{display:none}
+.brief{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:6px 12px}
+.brief div{display:grid;grid-template-columns:24px 1fr;gap:8px;padding:8px 0;border-bottom:1px solid var(--line);font-size:14.5px;line-height:1.4}.brief div:last-child{border:0}
+.brief small{color:var(--mut);font-size:11.5px;white-space:nowrap}
+.tl{position:relative;padding-left:16px}.tl:before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--line)}
+.tl .u{position:relative;margin-bottom:10px}.tl .u:before{content:"";position:absolute;left:-15px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--o)}
+.tl .u small{color:var(--mut);font-size:12px;font-weight:700}.tl .u p{margin:1px 0 0;font-size:14.5px;line-height:1.4}.tl .u em{font-style:normal;color:var(--mut);font-size:12px}
+details.wire{margin-top:8px;background:var(--card);border:1px solid var(--line);border-radius:14px}details.wire summary{padding:10px 12px;font-weight:800;cursor:pointer}
+.wi{display:block;padding:9px 12px;border-top:1px solid var(--line);text-decoration:none;color:var(--fg);font-size:14px}.wi small{display:block;color:var(--mut);font-size:12px}.wi.new{background:#2a1405}.wi .nw{color:var(--o);font-weight:900;margin-right:4px}
+.mood{display:grid;gap:8px}.mood div{background:var(--card);border-radius:12px;padding:10px 12px;font-size:14.5px;display:grid;grid-template-columns:26px 1fr;gap:8px}.mood small{display:block;color:var(--mut);font-size:12px}
+.nums{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}.nums div{background:var(--card);border-radius:12px;padding:8px;text-align:center}.nums b{display:block;font-size:18px}.nums span{font-size:11px;color:var(--mut);line-height:1.2;display:block}
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:6px}.faq summary{padding:10px 12px;font-weight:700;cursor:pointer;font-size:14.5px}.faq p{margin:0;padding:0 12px 12px;color:#d6dadd;font-size:14.5px}
 .cg{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:8px;overflow:hidden}.cg summary{padding:10px 12px;font-weight:800;cursor:pointer}
 .cg .r{display:flex;align-items:center;gap:10px;padding:8px 12px;border-top:1px solid var(--line);font-size:14px}.cg .r span{flex:1;color:#d6dadd}
 .cg .r a{text-decoration:none;font-weight:800;background:#13301f;color:#7ee2a8;padding:6px 11px;border-radius:999px;white-space:nowrap}
-.find{display:grid;grid-template-columns:1fr 1fr;gap:8px}.find a{display:block;text-align:center;text-decoration:none;font-weight:800;background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:12px 8px;color:var(--fg)}
-ul.sf{margin:0;padding-left:18px}ul.sf li{margin:4px 0}
-.src{font-size:12.5px;color:var(--mut)}.src li{margin:3px 0}
-.share{display:block;text-align:center;font-weight:900;background:var(--o);color:#fff;text-decoration:none;border-radius:999px;padding:13px;margin:18px 0 6px}
-.leaflet-container{background:#0d1418}.lbl{font:700 11px system-ui;color:#fff;text-shadow:0 1px 3px #000;white-space:nowrap}
+ul.sf{margin:0;padding-left:18px}ul.sf li{margin:3px 0;font-size:14.5px}
+.src{font-size:12px;color:var(--mut);padding-left:18px}.src li{margin:3px 0}
+.share{display:block;text-align:center;font-weight:900;background:var(--o);color:#fff;text-decoration:none;border-radius:999px;padding:13px;margin:20px 0 6px}
+@media(max-width:420px){.nums{grid-template-columns:repeat(2,1fr)}}
 </style></head>
 <body>
-<header><img src="/favicon.svg" alt=""><b>spill</b><span class="lv"><span class="dot"></span>LIVE DESK</span></header>
+<header><div class="hb"><img src="/favicon.svg" alt=""><b>spill</b><span style="font-size:12px;font-weight:800;color:var(--red);margin-left:6px"><span class="dot"></span> LIVE</span><a class="sos" href="tel:112">📞 112</a></div></header>
 <main>
-<h1>🌀 Cyclone Arnab: live help desk</h1>
-<span class="st" id="lvl">Loading…</span>
-<p class="lead" id="headline"></p>
-<div class="upd">Desk updated <b id="dupd">…</b> · news checked <b id="fupd">…</b> · auto-refresh every 10 s</div>
+<div class="status"><div class="row"><span class="cy">🌀</span><div><h1>Cyclone Arnab · <span id="lvl"></span></h1><div class="mv" id="mv"></div></div></div><p id="headline"></p><div class="upd">Verified desk updated <b id="dupd"></b> · news checked <b id="fupd">…</b> · refreshes every 10 s</div></div>
+<div class="nums" id="nums"></div>
 
-<div class="sos">
- <a href="tel:112">112<small>Emergency</small></a>
- <a class="b" href="tel:1070">1070<small>AP disaster control</small></a>
- <a class="g" href="https://wa.me/919552300009?text=Hi" target="_blank" rel="noopener">WhatsApp<small>AP Mana Mitra</small></a>
-</div>
+<h2>📍 Check your district</h2>
+<div class="pick" id="pick"></div>
+<div id="dcard"></div>
 
-<section><h2>🗺️ Live map</h2>
- <div class="leg"><span><i style="background:#ff4500"></i>Cyclone position</span><span><i style="background:#ff5a4a"></i>Red alert</span><span><i style="background:#ffb020"></i>Orange alert</span><span><i style="background:#4fbcff"></i>You</span></div>
- <div id="map" role="img" aria-label="Map of Cyclone Arnab and affected districts"></div>
- <div class="find" style="margin-top:8px">
-  <a href="https://www.google.com/maps/search/cyclone+shelter+near+me" target="_blank" rel="noopener">🏠 Cyclone shelters near me</a>
-  <a href="https://www.google.com/maps/search/relief+camp+near+me" target="_blank" rel="noopener">⛺ Relief camps near me</a>
-  <a href="https://www.google.com/maps/search/hospital+near+me" target="_blank" rel="noopener">🏥 Hospitals near me</a>
-  <button id="locbtn" style="font:inherit;font-weight:800;background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:12px 8px;color:var(--fg);cursor:pointer">📍 Am I in an alert area?</button>
- </div>
- <p class="upd" id="locres" style="margin-top:6px"></p>
-</section>
+<h2>🗺️ Where the storm is</h2>
+<div id="map" role="img" aria-label="Map of Cyclone Arnab and districts on alert"></div>
+<div class="leg"><span>🌀 Storm</span><span><i style="background:#ff4d3d"></i>Red alert</span><span><i style="background:#ffb020"></i>Orange alert</span><span><i style="background:#46d160"></i>No alert</span><span><i style="background:#4fbcff"></i>You</span></div>
 
-<section><h2>📊 Right now</h2><div class="nums" id="nums"></div></section>
-<section><h2>🧭 What happens next (IMD)</h2><div class="fc" id="fc"></div></section>
+<h2>📰 What's happening</h2><div class="brief" id="brief"></div>
+<h2><span class="dot"></span> Live updates</h2><div class="tl" id="tl"></div>
+<details class="wire" id="wirebox"><summary>📡 Latest headlines from news outlets <span id="wn" style="color:var(--o)"></span></summary><div id="wire"></div></details>
 
-<section><h2><span class="dot"></span> Live updates</h2><div class="feed" id="feed"><p class="upd">Loading the latest reports…</p></div></section>
-
-<section><h2>📍 Areas on alert</h2><div id="areas"></div></section>
-<section><h2>☎️ Emergency contacts <small class="upd">tap to call</small></h2><div id="contacts"></div></section>
-<section><h2>🛟 Stay safe</h2><ul class="sf" id="safety"></ul><p class="upd" id="transport" style="margin-top:8px"></p></section>
-
-<a class="share" id="share" href="#">📲 Share this desk on WhatsApp</a>
-<section><h2>📚 Sources</h2><ol class="src" id="sources"></ol>
-<p class="upd">Facts are checked against official statements and established outlets by Spill's agents. Live updates are headlines from news outlets, newest first; open the source for details. In an emergency, always call 112.</p></section>
+<h2>💬 How people are feeling</h2><div class="mood" id="mood"></div>
+<h2>❓ Quick answers</h2><div class="faq" id="faq"></div>
+<h2>☎️ Helplines <small style="color:var(--mut);font-weight:600">tap to call</small></h2><div id="contacts"></div>
+<h2>🛟 Stay safe</h2><ul class="sf" id="safety"></ul>
+<a class="share" id="share" href="#">📲 Send this to family on WhatsApp</a>
+<h2>📚 Sources</h2><ol class="src" id="sources"></ol>
+<p class="upd">Every fact here is checked against official statements and at least one established outlet by Spill's agents; headlines in the news list link to their source. In an emergency, call 112.</p>
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script src="/config.js"></script>
 <script>
-(function(){
-"use strict";
+(function(){"use strict";
 const E=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const $=id=>document.getElementById(id);
+const $=id=>document.getElementById(id);const C=window.SPILL_CONFIG||{};
 const ago=t=>{if(!t)return"";const s=Math.max(0,(Date.now()-Date.parse(t))/1000);return s<60?Math.round(s)+"s ago":s<3600?Math.round(s/60)+" min ago":s<86400?Math.round(s/3600)+" h ago":Math.round(s/86400)+" d ago"};
-const C=window.SPILL_CONFIG||{};
-const track=(ev,p)=>{try{fetch(C.supabaseUrl+"/rest/v1/rpc/track_events",{method:"POST",headers:{apikey:C.supabaseAnonKey,Authorization:"Bearer "+C.supabaseAnonKey,"Content-Type":"application/json"},body:JSON.stringify({evs:[{ev,id:p||null,v:null,a:(()=>{try{return localStorage.getItem("spill.anon")||"desk"}catch(e){return "desk"}})()}]})}).catch(()=>{})}catch(e){}};
-let D=null,map=null,layers=null,seen=new Set(),first=true,me=null;
-try{seen=new Set(JSON.parse(sessionStorage.getItem("arnab.seen")||"[]"))}catch(e){}
-function initMap(){
-  map=L.map("map",{zoomControl:true,attributionControl:true}).setView([17.6,82.2],6);
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{maxZoom:12,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>'}).addTo(map);
-  layers=L.layerGroup().addTo(map);
-}
+const anon=(()=>{try{return localStorage.getItem("spill.anon")||"desk"}catch(e){return"desk"}})();
+const track=(ev,id)=>{try{fetch(C.supabaseUrl+"/rest/v1/rpc/track_events",{method:"POST",headers:{apikey:C.supabaseAnonKey,Authorization:"Bearer "+C.supabaseAnonKey,"Content-Type":"application/json"},body:JSON.stringify({evs:[{ev,id:id||null,v:null,a:anon}]})}).catch(()=>{})}catch(e){}};
+const tel=n=>"tel:"+String(n).replace(/[^\d+]/g,"");
+const km=(a,b,c,d)=>{const R=6371,t=x=>x*Math.PI/180,dl=t(c-a),dn=t(d-b);const h=Math.sin(dl/2)**2+Math.cos(t(a))*Math.cos(t(c))*Math.sin(dn/2)**2;return Math.round(2*R*Math.asin(Math.sqrt(h)))};
+const dir=(a,b,c,d)=>{const y=Math.sin((d-b)*Math.PI/180)*Math.cos(c*Math.PI/180),x=Math.cos(a*Math.PI/180)*Math.sin(c*Math.PI/180)-Math.sin(a*Math.PI/180)*Math.cos(c*Math.PI/180)*Math.cos((d-b)*Math.PI/180);const g=(Math.atan2(y,x)*180/Math.PI+360)%360;return["north","north-east","east","south-east","south","south-west","west","north-west"][Math.round(g/45)%8]};
+let D=null,map=null,L1=null,me=null,sel=null,PL=[],mk={};
+try{sel=localStorage.getItem("arnab.district")}catch(e){}
+function places(){const out=[];D.districts.forEach(s=>s.places.forEach(p=>out.push(Object.assign({state:s.state,swhat:s.what},p))));return out}
+const COL={red:"#ff4d3d",orange:"#ffb020",safe:"#46d160"};
 function drawMap(){
-  if(!map)initMap();layers.clearLayers();
-  const col={red:"#ff5a4a",orange:"#ffb020"};
-  D.areas.forEach(a=>a.places.forEach(([n,la,lo])=>{L.circleMarker([la,lo],{radius:7,color:col[a.level]||"#ffb020",weight:2,fillOpacity:.45}).bindPopup(`<b>${E(n)}</b><br>${E(a.state)}: ${E(a.what)}`).addTo(layers)}));
-  if(D.track&&D.track.length>1)L.polyline(D.track.map(p=>[p.lat,p.lon]),{color:"#ff4500",weight:3,dashArray:"6 6"}).addTo(layers);
-  const p=D.position;
-  [140,90,45].forEach((r,i)=>L.circle([p.lat,p.lon],{radius:r*1000,color:"#ff4500",weight:1,fillColor:"#ff4500",fillOpacity:.06+i*.05}).addTo(layers));
-  L.marker([p.lat,p.lon],{icon:L.divIcon({className:"",html:'<div style="font-size:30px;line-height:30px;animation:spin 3s linear infinite">🌀</div><style>@keyframes spin{to{transform:rotate(-360deg)}}</style>',iconSize:[30,30],iconAnchor:[15,15]})}).bindPopup(`<b>${E(D.name)}</b><br>${E(p.label)}`).addTo(layers);
-  if(me)L.circleMarker([me.lat,me.lon],{radius:8,color:"#4fbcff",weight:3,fillOpacity:.8}).bindPopup("You").addTo(layers);
+  if(!map){map=L.map("map",{zoomControl:true,scrollWheelZoom:false}).setView([17.8,82.0],6);
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",{maxZoom:12,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>'}).addTo(map);L1=L.layerGroup().addTo(map)}
+  L1.clearLayers();mk={};
+  PL.forEach(p=>{const c=COL[p.lvl]||"#ffb020";const z=L.circle([p.lat,p.lon],{radius:p.lvl==="safe"?12000:30000,color:c,weight:p.n===sel?4:1.5,fillColor:c,fillOpacity:p.n===sel?.45:.25}).addTo(L1);
+    z.bindTooltip(p.n,{permanent:true,direction:"center",className:"lbl"});z.on("click",()=>choose(p.n,true));mk[p.n]=z});
+  if(D.track.length>1)L.polyline(D.track.map(t=>[t.lat,t.lon]),{color:"#ff4500",weight:3}).addTo(L1);
+  const P=D.position;[150,80].forEach((r,i)=>L.circle([P.lat,P.lon],{radius:r*1000,color:"#ff4500",weight:1,dashArray:"4 4",fill:false}).addTo(L1));
+  if(D.heading){const a=D.heading.deg*Math.PI/180,len=1.4,end=[P.lat+len*Math.cos(a),P.lon+len*Math.sin(a)/Math.cos(P.lat*Math.PI/180)];
+    L.polyline([[P.lat,P.lon],end],{color:"#ff4500",weight:4,dashArray:"10 8"}).addTo(L1);
+    L.marker(end,{icon:L.divIcon({className:"",html:`<div style="transform:rotate(${D.heading.deg}deg);font-size:22px;color:#ff4500;line-height:22px">▲</div>`,iconSize:[22,22],iconAnchor:[11,11]})}).bindTooltip(D.heading.label+" (indicative direction)",{direction:"top"}).addTo(L1)}
+  L.marker([P.lat,P.lon],{icon:L.divIcon({className:"",html:'<div style="font-size:34px;line-height:34px;animation:spin 3s linear infinite">🌀</div>',iconSize:[34,34],iconAnchor:[17,17]}),zIndexOffset:1000}).bindPopup(`<b>Cyclone Arnab</b><br>${E(P.label)}`).addTo(L1);
+  if(me)L.circleMarker([me.lat,me.lon],{radius:8,color:"#4fbcff",weight:3,fillOpacity:.9}).bindTooltip("You").addTo(L1);
 }
+function cardHTML(p){
+  const P=D.position,dk=km(P.lat,P.lon,p.lat,p.lon),dd=dir(p.lat,p.lon,P.lat,P.lon);
+  const lv=p.lvl==="red"?"RED ALERT":p.lvl==="orange"?"ORANGE ALERT":"NO CYCLONE ALERT";
+  const ln=(i,t)=>t?`<div class="ln"><i>${i}</i><span>${t}</span></div>`:"";
+  const safeQ=encodeURIComponent("cyclone shelter "+p.n),relQ=encodeURIComponent("relief camp "+p.n),hosQ=encodeURIComponent("hospital "+p.n);
+  return `<div class="dc"><div class="top"><b>${E(p.n)}</b><span class="badge ${E(p.lvl)}">${lv}</span><small style="margin-left:auto;color:var(--mut)">${E(p.state)}</small></div>
+   ${ln("🌀",`Storm centre is <b>~${dk} km ${dd}</b> of here and ${E(D.moving.text.charAt(0).toLowerCase()+D.moving.text.slice(1))}.`)}
+   ${ln("⚠️",E(p.lvl==="safe"?p.note:p.swhat))}
+   ${p.lvl!=="safe"?ln("📰",E(p.note||"")):""}
+   ${ln("🏫",E(p.school||""))}
+   ${p.safe?ln("🏠","<b>Safe places:</b> "+p.safe.map(E).join("; ")):""}
+   <div class="btns">${p.cr?`<a class="btn-call" href="${tel(p.cr)}">📞 ${E(p.n)} control room<br><small>${E(p.cr)}</small></a>`:`<a class="btn-call" href="tel:112">📞 Emergency<br><small>112</small></a>`}${p.crn?`<a class="btn-call" href="${tel(p.crn)}">📞 Control room (mobile)<br><small>${E(p.crn)}</small></a>`:p.state==="Andhra Pradesh"?`<a class="btn-call" href="tel:1070">📞 AP disaster control<br><small>1070</small></a>`:`<a class="btn-call" href="tel:108">🚑 Ambulance<br><small>108</small></a>`}
+   <a class="btn-map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/${safeQ}">🏠 Cyclone shelters in ${E(p.n)}</a><a class="btn-map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/${relQ}">⛺ Relief camps</a>
+   <a class="btn-map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/${hosQ}">🏥 Hospitals</a><a class="btn-map" href="#" data-sharecard="${E(p.n)}">📲 Send to family</a></div></div>`}
+function choose(n,fromMap){sel=n;try{localStorage.setItem("arnab.district",n)}catch(e){}const p=PL.find(x=>x.n===n);if(!p)return;
+  $("dcard").innerHTML=cardHTML(p);[...$("pick").children].forEach(b=>b.classList.toggle("on",b.dataset.n===n));drawMap();if(fromMap)$("dcard").scrollIntoView({block:"nearest",behavior:"smooth"});else map.setView([p.lat,p.lon],8);track("cyclone_district",n)}
 function render(){
-  $("lvl").textContent=D.level;$("headline").textContent=D.headline;$("dupd").textContent=ago(D.updated);
+  PL=places();$("lvl").textContent=D.level;$("mv").textContent=(D.moving.state==="stationary"?"⏸️ ":"➡️ ")+D.moving.text;$("headline").textContent=D.headline;$("dupd").textContent=ago(D.updated);
   $("nums").innerHTML=D.numbers.map(n=>`<div><b>${E(n.v)}</b><span>${E(n.l)}</span></div>`).join("");
-  $("fc").innerHTML=D.forecast.map(f=>`<div><b>${E(f.t)}</b> · ${E(f.what)}</div>`).join("");
-  $("areas").innerHTML=D.areas.map(a=>`<div class="area"><h3>${E(a.state)} <span class="tg ${E(a.level)}">${a.level==="red"?"RED":"ORANGE"}</span></h3><p><b style="color:#d6dadd">${E(a.what)}</b><br>${a.places.map(p=>E(p[0])).join(" · ")}</p></div>`).join("");
-  $("contacts").innerHTML=D.contacts.map((g,i)=>`<details class="cg" ${i<2?"open":""}><summary>${E(g.group)}</summary>${g.items.map(([l,n,k])=>`<div class="r"><span>${E(l)}</span><a href="${k==="wa"?"https://wa.me/91"+n.replace(/\D/g,"").slice(-10)+"?text=Hi":"tel:"+n.replace(/[^\d+]/g,"")}" ${k==="wa"?'target="_blank" rel="noopener"':""}>${k==="wa"?"💬":"📞"} ${E(n)}</a></div>`).join("")}</details>`).join("");
-  $("safety").innerHTML=D.safety.map(s=>`<li>${E(s)}</li>`).join("");$("transport").textContent="🚆 "+D.transport;
+  $("pick").innerHTML=`<button data-n="__me">📍 Use my location</button>`+PL.map(p=>`<button data-n="${E(p.n)}"><i>${p.lvl==="red"?"🔴":p.lvl==="orange"?"🟠":"🟢"}</i> ${E(p.n)}</button>`).join("");
+  $("brief").innerHTML=D.briefing.map(b=>`<div><i>${E(b.e)}</i><span>${E(b.t)} <small>· ${b.n} sources</small></span></div>`).join("");
+  $("tl").innerHTML=D.updates.map(u=>`<div class="u"><small>${E(u.t)}</small><p>${E(u.e)} ${E(u.x)} <em>· ${E(u.src)}</em></p></div>`).join("");
+  $("mood").innerHTML=D.mood.map(m=>`<div><i>${E(m.e)}</i><span>${E(m.t)}<small>${E(m.src)}</small></span></div>`).join("");
+  $("faq").innerHTML=D.faq.map(f=>`<details><summary>${E(f.q)}</summary><p>${E(f.a)}</p></details>`).join("");
+  $("contacts").innerHTML=D.contacts.map((g,i)=>`<details class="cg" ${i<2?"open":""}><summary>${E(g.group)}</summary>${g.items.map(([l,n,k])=>`<div class="r"><span>${E(l)}</span><a href="${k==="wa"?"https://wa.me/91"+String(n).replace(/\D/g,"").slice(-10)+"?text=Hi":tel(n)}" ${k==="wa"?'target="_blank" rel="noopener"':""}>${k==="wa"?"💬":"📞"} ${E(n)}</a></div>`).join("")}</details>`).join("");
+  $("safety").innerHTML=D.safety.map(s=>`<li>${E(s)}</li>`).join("");
   $("sources").innerHTML=D.sources.map(([t,u])=>`<li><a href="${E(u)}" target="_blank" rel="noopener">${E(t)}</a></li>`).join("");
-  drawMap();
+  drawMap();if(sel&&PL.some(p=>p.n===sel))choose(sel);
 }
-async function loadDesk(){try{const r=await fetch("/cyclone/arnab.json?t="+Math.floor(Date.now()/30000));const j=await r.json();const ch=!D||j.updated!==D.updated;D=j;if(ch)render();else $("dupd").textContent=ago(D.updated)}catch(e){}}
-async function loadFeed(){
-  try{const r=await fetch(C.supabaseUrl+"/functions/v1/cyclone-feed?q=Cyclone%20Arnab");const j=await r.json();$("fupd").textContent=ago(j.checked);
-    const items=(j.items||[]).slice(0,25);if(!items.length){if(first)$("feed").innerHTML='<p class="upd">No new reports in the last few minutes.</p>';return}
-    $("feed").innerHTML=items.map(x=>{const k=x.url;const isNew=!first&&!seen.has(k);return `<a class="it ${isNew?"new":""}" href="${E(x.url)}" target="_blank" rel="noopener" data-k="${E(k)}"><b>${isNew?'<span class="nw">NEW</span>':""}${E(x.title)}</b><small>${E(x.source||"")}${x.at?" · "+ago(x.at):""}</small></a>`}).join("");
-    items.forEach(x=>seen.add(x.url));first=false;try{sessionStorage.setItem("arnab.seen",JSON.stringify([...seen].slice(-300)))}catch(e){}
-  }catch(e){$("fupd").textContent="retrying…"}
-}
-function dist(a,b,c,d){const R=6371,t=x=>x*Math.PI/180,dl=t(c-a),dn=t(d-b);const h=Math.sin(dl/2)**2+Math.cos(t(a))*Math.cos(t(c))*Math.sin(dn/2)**2;return 2*R*Math.asin(Math.sqrt(h))}
-$("locbtn").addEventListener("click",()=>{if(!navigator.geolocation){$("locres").textContent="Location isn't available on this device.";return}$("locres").textContent="Finding you…";
-  navigator.geolocation.getCurrentPosition(pos=>{me={lat:+pos.coords.latitude.toFixed(3),lon:+pos.coords.longitude.toFixed(3)};let best=null;
-    D.areas.forEach(a=>a.places.forEach(([n,la,lo])=>{const d=dist(me.lat,me.lon,la,lo);if(!best||d<best.d)best={d,n,a}}));
-    const dc=Math.round(dist(me.lat,me.lon,D.position.lat,D.position.lon));
-    $("locres").innerHTML=best&&best.d<60?`⚠️ You're about <b>${Math.round(best.d)} km</b> from <b>${E(best.n)}</b> (${E(best.a.state)}, ${best.a.level} alert). The storm centre is ~${dc} km away. Follow local officials and keep 112 handy.`:`✅ You're not near a listed alert district (storm centre ~${dc} km away). Rain may still reach you. Check the forecast below.`;
-    drawMap();map.setView([me.lat,me.lon],7);track("cyclone_locate")},()=>{$("locres").textContent="Location is off. Allow it in your browser settings."},{timeout:10000,maximumAge:600000})});
-$("share").addEventListener("click",e=>{e.preventDefault();const u="https://spillthetea.news/cyclone/?src=wa&c=arnab-desk";const t=`🌀 Cyclone Arnab live desk: map, affected districts, helplines (112 · 1070 · 1800 425 0101) and shelters near you. Updates every few seconds 👉 ${u}`;track("cyclone_share");if(navigator.share)navigator.share({text:t}).catch(()=>{});else window.open("https://wa.me/?text="+encodeURIComponent(t),"_blank","noopener")});
-document.addEventListener("click",e=>{const a=e.target.closest("a[href^='tel:']");if(a)track("cyclone_call",a.getAttribute("href"))});
-track("cyclone_open");
-loadDesk().then(loadFeed);
-setInterval(loadFeed,10000);setInterval(loadDesk,30000);
-setInterval(()=>{if(D)$("dupd").textContent=ago(D.updated)},5000);
+async function loadDesk(){try{const j=await (await fetch("/cyclone/arnab.json?t="+Math.floor(Date.now()/30000))).json();const ch=!D||j.updated!==D.updated;D=j;if(ch)render();else $("dupd").textContent=ago(D.updated)}catch(e){}}
+let seen=new Set(),first=true;
+async function loadWire(){try{const j=await (await fetch(C.supabaseUrl+"/functions/v1/cyclone-feed?q=Cyclone%20Arnab")).json();$("fupd").textContent=ago(j.checked);
+  const it=(j.items||[]).slice(0,20);let nw=0;$("wire").innerHTML=it.map(x=>{const isN=!first&&!seen.has(x.url);if(isN)nw++;return `<a class="wi ${isN?"new":""}" href="${E(x.url)}" target="_blank" rel="noopener">${isN?'<span class="nw">NEW</span>':""}${E(x.title)}<small>${E(x.source||"")}${x.at?" · "+ago(x.at):""}</small></a>`}).join("");
+  it.forEach(x=>seen.add(x.url));if(nw)$("wn").textContent=`· ${nw} new`;first=false}catch(e){$("fupd").textContent="retrying…"}}
+document.addEventListener("click",e=>{
+  const b=e.target.closest("#pick button");if(b){if(b.dataset.n==="__me")locate();else choose(b.dataset.n);return}
+  const s=e.target.closest("[data-sharecard]");if(s){e.preventDefault();const p=PL.find(x=>x.n===s.dataset.sharecard);const u="https://spillthetea.news/cyclone/?src=wa&c=arnab-"+encodeURIComponent(p.n.toLowerCase().replace(/\s+/g,"-"));
+    const t=`🌀 Cyclone Arnab · ${p.n}: ${p.lvl==="red"?"RED alert":p.lvl==="orange"?"ORANGE alert":"no cyclone alert"}. ${p.note||p.swhat}${p.cr?`\n📞 Control room: ${p.cr}`:""}\n🚨 Emergency: 112\nLive map & safe places 👉 ${u}`;track("cyclone_share",p.n);
+    if(navigator.share)navigator.share({text:t}).catch(()=>{});else window.open("https://wa.me/?text="+encodeURIComponent(t),"_blank","noopener");return}
+  const a=e.target.closest("a[href^='tel:']");if(a)track("cyclone_call",a.getAttribute("href"));
+});
+function locate(){if(!navigator.geolocation)return;navigator.geolocation.getCurrentPosition(pos=>{me={lat:pos.coords.latitude,lon:pos.coords.longitude};let best=null;PL.forEach(p=>{const d=km(me.lat,me.lon,p.lat,p.lon);if(!best||d<best.d)best={d,p}});
+  track("cyclone_locate");if(best&&best.d<80)choose(best.p.n);else{$("dcard").innerHTML=`<div class="dc"><div class="top"><b>Your location</b><span class="badge safe">NOT IN A LISTED ALERT DISTRICT</span></div><div class="ln"><i>🌀</i><span>Storm centre is ~${km(me.lat,me.lon,D.position.lat,D.position.lon)} km away. Rain may still reach you. Follow local news.</span></div></div>`;drawMap();map.setView([me.lat,me.lon],7)}},()=>{$("dcard").innerHTML='<p class="upd">Location is off. Pick your district above.</p>'},{timeout:10000,maximumAge:600000})}
+$("share").addEventListener("click",e=>{e.preventDefault();const u="https://spillthetea.news/cyclone/?src=wa&c=arnab-desk";const t=`🌀 Cyclone Arnab: check your district, the storm's position, control room numbers and safe places. Live, verified 👉 ${u}`;track("cyclone_share","desk");if(navigator.share)navigator.share({text:t}).catch(()=>{});else window.open("https://wa.me/?text="+encodeURIComponent(t),"_blank","noopener")});
+track("cyclone_open");loadDesk().then(loadWire);setInterval(loadWire,10000);setInterval(loadDesk,30000);setInterval(()=>{if(D)$("dupd").textContent=ago(D.updated)},5000);
 })();
-</script>
-</body></html>
+</script></body></html>

@@ -1,55 +1,520 @@
 {
  "name": "Cyclone Arnab",
- "updated": "2026-10-28T12:40:00+05:30",
- "status": "Landfall complete near Yanam (AP). Weakening over land.",
- "level": "Severe cyclonic storm → weakening",
- "headline": "Arnab has crossed the Andhra coast near Yanam. It's weakening over land but heavy rain and flash floods are still likely in coastal AP, south Odisha and east Telangana today and tomorrow.",
- "position": {"lat": 16.45, "lon": 81.90, "label": "Landfall area: ~40 km SW of Yanam, ~60 km SW of Kakinada (IMD, Oct 28 morning)"},
+ "updated": "2026-10-28T12:55:00+05:30",
+ "level": "Weakening over land",
+ "moving": {
+  "state": "moving",
+  "text": "Moving inland, north-west, towards south Odisha and Chhattisgarh",
+  "eta": "Deep depression by this evening, depression by early Thursday"
+ },
+ "headline": "Arnab crossed the coast near Yanam overnight. It's weaker now and moving inland, but heavy rain and flash floods are still likely today and tomorrow in coastal Andhra, south Odisha and east Telangana.",
+ "position": {
+  "lat": 16.45,
+  "lon": 81.9,
+  "label": "Landfall area: ~40 km SW of Yanam, ~60 km SW of Kakinada (IMD)"
+ },
+ "heading": {
+  "deg": 315,
+  "label": "Moving NW (IMD)"
+ },
  "track": [
-  {"lat": 16.40, "lon": 82.00, "t": "Oct 28, ~8:30 am", "note": "Over the coast, 30 km E of Narsapur · 115–125 km/h"},
-  {"lat": 16.45, "lon": 81.90, "t": "Oct 28, late morning", "note": "Landfall complete · entirely over land"}
+  {
+   "lat": 16.4,
+   "lon": 82.0,
+   "t": "Oct 28, 8:30 am",
+   "note": "30 km E of Narsapur · 115–125 km/h"
+  },
+  {
+   "lat": 16.45,
+   "lon": 81.9,
+   "t": "Oct 28, late morning",
+   "note": "Landfall complete · over land"
+  }
  ],
  "forecast": [
-  {"t": "Oct 28, 11:30 am", "what": "Cyclonic storm · 80–90 km/h, gusts 100"},
-  {"t": "Oct 28, 5:30 pm", "what": "Deep depression · 50–60 km/h, gusts 70"},
-  {"t": "Oct 29, early", "what": "Depression, moving inland (NW, then NNW)"}
+  {
+   "t": "Oct 28, 11:30 am",
+   "what": "Cyclonic storm · 80–90 km/h, gusts 100"
+  },
+  {
+   "t": "Oct 28, 5:30 pm",
+   "what": "Deep depression · 50–60 km/h, gusts 70"
+  },
+  {
+   "t": "Oct 29, early",
+   "what": "Depression, inland towards Chhattisgarh"
+  }
+ ],
+ "briefing": [
+  {
+   "e": "🌀",
+   "t": "Crossed the coast near Yanam overnight (landfall began ~1:20 am). Now over land and weakening.",
+   "n": 3
+  },
+  {
+   "e": "✅",
+   "t": "No deaths reported. Worst wind is over for the coast.",
+   "n": 2
+  },
+  {
+   "e": "🌊",
+   "t": "Kakinada: seawater flooding, Uppada coastal road washed away, trees and poles down.",
+   "n": 2
+  },
+  {
+   "e": "🌧️",
+   "t": "Heaviest rain: 261.5 mm at Kannuripalem (Anakapalli). Visakhapatnam, Kakinada, Konaseema 200 mm+.",
+   "n": 2
+  },
+  {
+   "e": "⚠️",
+   "t": "Next danger: flash floods in south Odisha (Malkangiri, Koraput, Rayagada, Ganjam, Gajapati) and coastal AP districts.",
+   "n": 2
+  },
+  {
+   "e": "🚆",
+   "t": "53–91 trains and 21+ flights cancelled. Check before you travel.",
+   "n": 2
+  }
+ ],
+ "updates": [
+  {
+   "t": "10:09 am",
+   "e": "🟠",
+   "x": "Odisha: system moving towards Chhattisgarh. Flash-flood alert for Malkangiri, Koraput, Rayagada, Ganjam, Gajapati. 313 rescue teams deployed.",
+   "src": "OdishaTV"
+  },
+  {
+   "t": "Late morning",
+   "e": "✅",
+   "x": "IMD: landfall complete, storm entirely over land. No loss of life reported in AP.",
+   "src": "The Hans India"
+  },
+  {
+   "t": "Morning",
+   "e": "🛟",
+   "x": "Kakinada police rescued 4 people from floodwater and 3 stranded at Anchorage Port godowns.",
+   "src": "India News Network"
+  },
+  {
+   "t": "Morning",
+   "e": "🏫",
+   "x": "609 schools turned into relief centres in AP; 854 people sheltered by early Wednesday.",
+   "src": "India News Network"
+  },
+  {
+   "t": "8:30 am",
+   "e": "📉",
+   "x": "Weakened to a severe cyclonic storm: 110–120 km/h winds.",
+   "src": "PTI / ThePrint"
+  },
+  {
+   "t": "Early morning",
+   "e": "🌳",
+   "x": "Kakinada: trees and power lines down. Visakhapatnam: fallen trees block Beach Road and Seethammadhara.",
+   "src": "ETV Bharat"
+  },
+  {
+   "t": "1:20 am",
+   "e": "🌀",
+   "x": "Landfall begins south of Yanam as a very severe cyclonic storm, 125–135 km/h, gusts 150.",
+   "src": "IMD via Daily Pioneer"
+  }
+ ],
+ "mood": [
+  {
+   "e": "😮‍💨",
+   "t": "Relief on the coast: 'the worst is over', with no deaths reported.",
+   "src": "The Hans India"
+  },
+  {
+   "e": "🙏",
+   "t": "Rescued workers in Kakinada thanked police teams for reaching them in time.",
+   "src": "India News Network"
+  },
+  {
+   "e": "😟",
+   "t": "Worry now shifts inland: flash floods and landslides feared in south Odisha's hill districts.",
+   "src": "OdishaTV"
+  }
  ],
  "numbers": [
-  {"v": "~89,000", "l": "evacuated in Andhra Pradesh"},
-  {"v": "30,000+", "l": "evacuated in Odisha"},
-  {"v": "2,000+", "l": "shelters ready in AP · 2,037 in Odisha"},
-  {"v": "0", "l": "deaths reported (Oct 28 morning)"}
+  {
+   "v": "0",
+   "l": "deaths reported"
+  },
+  {
+   "v": "~89,000",
+   "l": "evacuated in AP"
+  },
+  {
+   "v": "30,000+",
+   "l": "evacuated in Odisha"
+  },
+  {
+   "v": "2,000+",
+   "l": "shelters in AP · 2,037 in Odisha"
+  }
  ],
- "areas": [
-  {"state": "Andhra Pradesh", "level": "red", "what": "Landfall zone · storm surge · flash floods", "places": [
-    ["Kakinada", 16.989, 82.247], ["Yanam", 16.733, 82.213], ["Konaseema (Amalapuram)", 16.578, 82.006], ["East Godavari (Rajamahendravaram)", 17.000, 81.804], ["West Godavari (Bhimavaram)", 16.544, 81.521], ["Visakhapatnam", 17.687, 83.218], ["Anakapalli", 17.691, 83.004], ["Alluri Sitharama Raju (Paderu)", 18.083, 82.667], ["Krishna (Machilipatnam)", 16.187, 81.138], ["Eluru", 16.711, 81.095], ["Vizianagaram", 18.106, 83.395], ["Srikakulam", 18.297, 83.897]]},
-  {"state": "Odisha", "level": "red", "what": "Red alert: very heavy rain, gusts to 90 km/h", "places": [
-    ["Malkangiri", 18.348, 81.888], ["Koraput", 18.811, 82.711], ["Nabarangpur", 19.233, 82.550], ["Rayagada", 19.171, 83.416], ["Gajapati (Paralakhemundi)", 18.783, 84.083], ["Ganjam (Berhampur)", 19.315, 84.792], ["Kalahandi (Bhawanipatna)", 19.907, 83.167]]},
-  {"state": "Telangana", "level": "orange", "what": "Orange alert: heavy to very heavy rain", "places": [
-    ["Khammam", 17.247, 80.151], ["Bhadradri Kothagudem", 17.556, 80.619], ["Mulugu", 18.191, 79.943], ["Mahabubabad", 17.598, 80.002]]}
+ "districts": [
+  {
+   "state": "Andhra Pradesh",
+   "what": "Landfall zone. Heavy rain, flooding, power cuts.",
+   "places": [
+    {
+     "n": "Kakinada",
+     "lat": 16.989,
+     "lon": 82.247,
+     "lvl": "red",
+     "cr": "0884-2356801",
+     "crn": "9849903879",
+     "school": "Schools shut Oct 27–28 (AP govt order)",
+     "safe": [
+      "Gadimoga rehabilitation centre, Thallarevu mandal"
+     ],
+     "note": "Seawater flooding; Uppada coastal road washed away; trees and poles down."
+    },
+    {
+     "n": "Yanam",
+     "lat": 16.733,
+     "lon": 82.213,
+     "lvl": "red",
+     "note": "Peak storm surge zone (IMD)."
+    },
+    {
+     "n": "Konaseema",
+     "lat": 16.578,
+     "lon": 82.006,
+     "lvl": "red",
+     "cr": "8856293104",
+     "school": "Schools shut Oct 27–28 (AP govt order)",
+     "note": "200 mm+ rain."
+    },
+    {
+     "n": "East Godavari",
+     "lat": 17.0,
+     "lon": 81.804,
+     "lvl": "red",
+     "cr": "8832944455",
+     "school": "Schools shut Oct 27–28 (AP govt order)"
+    },
+    {
+     "n": "West Godavari",
+     "lat": 16.544,
+     "lon": 81.521,
+     "lvl": "red",
+     "cr": "08816-299181",
+     "school": "Schools shut Oct 27–28 (AP govt order)"
+    },
+    {
+     "n": "Eluru",
+     "lat": 16.711,
+     "lon": 81.095,
+     "lvl": "orange",
+     "cr": "18002331077",
+     "school": "Schools shut Oct 27–28 (AP govt order)"
+    },
+    {
+     "n": "Krishna",
+     "lat": 16.187,
+     "lon": 81.138,
+     "lvl": "orange",
+     "cr": "08672-252399",
+     "school": "Schools shut Oct 27–28 (AP govt order)"
+    },
+    {
+     "n": "Visakhapatnam",
+     "lat": 17.687,
+     "lon": 83.218,
+     "lvl": "red",
+     "cr": "0891-2590102",
+     "school": "Schools shut Oct 27–28 (AP govt order)",
+     "safe": [
+      "46 relief centres open; 283 people sheltered (Oct 27–28)"
+     ],
+     "note": "Fallen trees on Beach Road, Seethammadhara; 200 mm+ rain. GVMC toll-free 1800-425-0009."
+    },
+    {
+     "n": "Anakapalli",
+     "lat": 17.691,
+     "lon": 83.004,
+     "lvl": "red",
+     "cr": "08924-222888",
+     "school": "Schools shut Oct 27–29",
+     "note": "Heaviest rain: 261.5 mm at Kannuripalem."
+    },
+    {
+     "n": "Alluri Sitharama Raju",
+     "lat": 18.083,
+     "lon": 82.667,
+     "lvl": "orange",
+     "cr": "8935293448",
+     "school": "Schools shut Oct 27–28 (AP govt order)",
+     "note": "Trees, poles down; some roads flooded."
+    },
+    {
+     "n": "Vizianagaram",
+     "lat": 18.106,
+     "lon": 83.395,
+     "lvl": "orange",
+     "cr": "8922236947",
+     "school": "Schools shut Oct 27–28 (AP govt order)"
+    },
+    {
+     "n": "Srikakulam",
+     "lat": 18.297,
+     "lon": 83.897,
+     "lvl": "orange",
+     "cr": "08942-240557"
+    }
+   ]
+  },
+  {
+   "state": "Odisha",
+   "what": "Storm's next stop. Very heavy rain, flash floods, gusts to 80 km/h.",
+   "places": [
+    {
+     "n": "Malkangiri",
+     "lat": 18.348,
+     "lon": 81.888,
+     "lvl": "red",
+     "note": "Flash-flood alert; very heavy rain."
+    },
+    {
+     "n": "Koraput",
+     "lat": 18.811,
+     "lon": 82.711,
+     "lvl": "red",
+     "note": "Flash-flood alert; very heavy rain."
+    },
+    {
+     "n": "Nabarangpur",
+     "lat": 19.233,
+     "lon": 82.55,
+     "lvl": "red",
+     "note": "Very heavy rain."
+    },
+    {
+     "n": "Rayagada",
+     "lat": 19.171,
+     "lon": 83.416,
+     "lvl": "red",
+     "note": "Flash-flood alert."
+    },
+    {
+     "n": "Gajapati",
+     "lat": 18.783,
+     "lon": 84.083,
+     "lvl": "red",
+     "note": "Flash-flood alert."
+    },
+    {
+     "n": "Ganjam",
+     "lat": 19.315,
+     "lon": 84.792,
+     "lvl": "red",
+     "note": "Flash-flood alert."
+    },
+    {
+     "n": "Kalahandi",
+     "lat": 19.907,
+     "lon": 83.167,
+     "lvl": "orange",
+     "note": "Strong winds."
+    }
+   ]
+  },
+  {
+   "state": "Telangana",
+   "what": "Heavy to very heavy rain today and tomorrow.",
+   "places": [
+    {
+     "n": "Khammam",
+     "lat": 17.247,
+     "lon": 80.151,
+     "lvl": "orange"
+    },
+    {
+     "n": "Bhadradri Kothagudem",
+     "lat": 17.556,
+     "lon": 80.619,
+     "lvl": "orange"
+    },
+    {
+     "n": "Mulugu",
+     "lat": 18.191,
+     "lon": 79.943,
+     "lvl": "orange"
+    },
+    {
+     "n": "Mahabubabad",
+     "lat": 17.598,
+     "lon": 80.002,
+     "lvl": "orange"
+    },
+    {
+     "n": "Hyderabad",
+     "lat": 17.385,
+     "lon": 78.487,
+     "lvl": "safe",
+     "note": "No cyclone alert. Cloudy, light to moderate rain, gusty winds."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is the cyclone coming to Hyderabad?",
+   "a": "No. Hyderabad has no cyclone alert. Expect clouds, light to moderate rain and gusty winds. The heavy-rain alert is for Khammam, Kothagudem, Mulugu and Mahabubabad."
+  },
+  {
+   "q": "Is the danger over on the coast?",
+   "a": "The strongest winds are over: the storm is on land and weakening. Flash floods and fallen lines are still a risk today. Stay indoors until officials say it's safe."
+  },
+  {
+   "q": "Are schools closed?",
+   "a": "AP closed schools Oct 27–28 in 13 coastal districts (Anakapalli till Oct 29). Check your district's order for Oct 29."
+  },
+  {
+   "q": "Are trains and flights running?",
+   "a": "53–91 trains and 21+ flights (Vijayawada, Visakhapatnam) were cancelled. Check IRCTC / your airline before leaving."
+  },
+  {
+   "q": "When will power come back?",
+   "a": "No restoration time announced yet. Report fallen lines or outages in coastal AP on 1912 (APEPDCL)."
+  },
+  {
+   "q": "My family is in a red district. How do I check on them?",
+   "a": "Call the district control room listed for their district. In AP you can also WhatsApp Mana Mitra on 9552300009 (send 'Hi')."
+  }
  ],
  "contacts": [
-  {"group": "Anywhere in India", "items": [["Emergency (police, fire, ambulance)", "112"], ["Ambulance", "108"]]},
-  {"group": "Andhra Pradesh · state", "items": [["Disaster control room", "1070"], ["Disaster helpline (toll-free)", "1800 425 0101"], ["Mana Mitra WhatsApp (send 'Hi')", "9552300009", "wa"], ["Power complaints (APEPDCL)", "1912"]]},
-  {"group": "AP districts · control rooms", "items": [["Kakinada", "0884-2356801"], ["Kakinada (mobile)", "9849903879"], ["Konaseema", "8856293104"], ["East Godavari", "8832944455"], ["West Godavari", "08816-299181"], ["Eluru (toll-free)", "18002331077"], ["Visakhapatnam", "0891-2590102"], ["GVMC Visakhapatnam (toll-free)", "1800-425-0009"], ["Anakapalli", "08924-222888"], ["Alluri Sitharama Raju", "8935293448"], ["Vizianagaram", "8922236947"], ["Srikakulam", "08942-240557"], ["Krishna", "08672-252399"], ["NTR (Vijayawada)", "9154970454"], ["Guntur", "0863-2234014"], ["Bapatla", "08643-220226"], ["Prakasam (toll-free)", "18004250277"], ["Polavaram (toll-free)", "18004254225"]]},
-  {"group": "Odisha & Telangana", "items": [["Emergency", "112"]]}
+  {
+   "group": "Anywhere in India",
+   "items": [
+    [
+     "Emergency (police, fire, ambulance)",
+     "112"
+    ],
+    [
+     "Ambulance",
+     "108"
+    ]
+   ]
+  },
+  {
+   "group": "Andhra Pradesh",
+   "items": [
+    [
+     "Disaster control room",
+     "1070"
+    ],
+    [
+     "Disaster helpline (toll-free)",
+     "1800 425 0101"
+    ],
+    [
+     "Mana Mitra WhatsApp (send 'Hi')",
+     "9552300009",
+     "wa"
+    ],
+    [
+     "Power complaints (APEPDCL)",
+     "1912"
+    ],
+    [
+     "GVMC Visakhapatnam (toll-free)",
+     "1800-425-0009"
+    ]
+   ]
+  },
+  {
+   "group": "AP district control rooms (more)",
+   "items": [
+    [
+     "NTR (Vijayawada)",
+     "9154970454"
+    ],
+    [
+     "Guntur",
+     "0863-2234014"
+    ],
+    [
+     "Bapatla",
+     "08643-220226"
+    ],
+    [
+     "Prakasam (toll-free)",
+     "18004250277"
+    ],
+    [
+     "Polavaram (toll-free)",
+     "18004254225"
+    ],
+    [
+     "Parvathipuram Manyam",
+     "08963-450347"
+    ]
+   ]
+  },
+  {
+   "group": "Odisha & Telangana",
+   "items": [
+    [
+     "Emergency",
+     "112"
+    ]
+   ]
+  }
  ],
  "safety": [
-  "Stay indoors until officials say it's safe. The calm 'eye' passing is not the end.",
-  "Keep away from the sea, rivers, canals and low-lying roads: flash floods are still likely.",
-  "Don't touch fallen power lines or wet poles. Report them on 1912 (AP).",
-  "Charge phones, keep a torch, drinking water, medicines and documents in a plastic bag.",
-  "Never drive or walk through flood water. 15 cm of moving water can knock you down.",
-  "Only trust official updates. Forward nothing you can't verify."
+  "Stay indoors until officials say it's safe.",
+  "Keep away from the sea, rivers, canals and flooded roads.",
+  "Don't touch fallen lines or wet poles. Report on 1912 (AP).",
+  "Charge phones; keep a torch, water, medicines and documents in a plastic bag.",
+  "Never drive or walk through flood water.",
+  "Forward only what you can verify."
  ],
- "transport": "Trains: 53–91 cancelled across the east and south coast lines (reports vary). Flights: 21+ cancelled at Vijayawada and Visakhapatnam. Check with IRCTC / your airline before travelling.",
  "sources": [
-  ["Deccan Chronicle: AP state & district control room numbers (Oct 27)", "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-arnab-state-district-emergency-control-room-numbers-issued-1999240"],
-  ["The Hans India: Arnab completes landfall (Oct 28)", "https://www.thehansindia.com/andhra-pradesh/the-worst-is-over-arnab-completes-landfall-no-loss-of-life-or-major-damage-reported-1136701"],
-  ["Daily Pioneer: IMD position & forecast (Oct 28)", "https://dailypioneer.com/india/cyclone-arnab-live-landfall-wind-eases-yanam-andhra-coast-october-28"],
-  ["ThePrint/PTI: Odisha evacuates 30,000+ (Oct 28)", "https://theprint.in/india/odisha-evacuates-over-30000-people-as-cyclone-arnab-triggers-alert-in-southern-districts/3083667/"],
-  ["The Morning Voice: 89,000 evacuated in AP (Oct 28)", "https://tmv.in/article/andhra-pradesh-on-high-alert-as-cyclone-arnab-nears-the-coast-nearly-89000-evacuated"],
-  ["ETV Bharat live: IMD Odisha warnings (Oct 28)", "https://www.etvbharat.com/en/bharat/live-blog--cyclone-arnab-live-updates-landfall-in-andhra-pradesh-rain-odisha-jharkhand-chhattisgarh-enn26102800499"],
-  ["The Hindu: Telangana orange alert districts (Oct 27)", "https://www.thehindu.com/news/cities/Hyderabad/"]
+  [
+   "Deccan Chronicle: AP control room numbers (Oct 27)",
+   "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-arnab-state-district-emergency-control-room-numbers-issued-1999240"
+  ],
+  [
+   "The Hans India: Arnab completes landfall (Oct 28)",
+   "https://www.thehansindia.com/andhra-pradesh/the-worst-is-over-arnab-completes-landfall-no-loss-of-life-or-major-damage-reported-1136701"
+  ],
+  [
+   "Daily Pioneer: IMD position & forecast (Oct 28)",
+   "https://dailypioneer.com/india/cyclone-arnab-live-landfall-wind-eases-yanam-andhra-coast-october-28"
+  ],
+  [
+   "OdishaTV: deep depression moves towards Chhattisgarh (Oct 28)",
+   "https://odishatv.in/odisha/cyclone-arnab-heavy-rain-alert-for-odisha-as-deep-depression-moves-towards-chhattisgarh-12759841"
+  ],
+  [
+   "ThePrint/PTI: Odisha evacuates 30,000+ (Oct 28)",
+   "https://theprint.in/india/odisha-evacuates-over-30000-people-as-cyclone-arnab-triggers-alert-in-southern-districts/3083667/"
+  ],
+  [
+   "India News Network: rain, rescues, relief centres (Oct 28)",
+   "https://www.indianewsnetwork.com/en/cyclone-arnab-strikes-andhra-pradesh-heavy-rainfall-20261028"
+  ],
+  [
+   "UNI: Kakinada Collector inspects Gadimoga centre (Oct 27)",
+   "https://www.uniindia.com/south-india/cyclone-ap-kakinada-rehabilitation-centre/227422"
+  ],
+  [
+   "Sakshi Education: AP school holidays (Oct 27)",
+   "https://education.sakshi.com/en/schools/education-news/arnab-cyclone-alert-holiday-announced-schools-several-andhra-pradesh-districts-201740"
+  ],
+  [
+   "ETV Bharat live blog (Oct 28)",
+   "https://www.etvbharat.com/en/bharat/live-blog--cyclone-arnab-live-updates-landfall-in-andhra-pradesh-rain-odisha-jharkhand-chhattisgarh-enn26102800499"
+  ],
+  [
+   "The Morning Voice: 89,000 evacuated (Oct 28)",
+   "https://tmv.in/article/andhra-pradesh-on-high-alert-as-cyclone-arnab-nears-the-coast-nearly-89000-evacuated"
+  ]
  ]
 }
