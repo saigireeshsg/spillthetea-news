@@ -66,14 +66,62 @@ ul.sf{margin:0;padding-left:18px}ul.sf li{margin:3px 0;font-size:14.5px}
 .src{font-size:12px;color:var(--mut);padding-left:18px}.src li{margin:3px 0}
 .share{display:block;text-align:center;font-weight:900;background:var(--o);color:#fff;text-decoration:none;border-radius:999px;padding:13px;margin:20px 0 6px}
 @media(max-width:420px){.nums{grid-template-columns:repeat(2,1fr)}}
+.qn{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:10px 0 2px;position:sticky;top:46px;z-index:900;background:rgba(10,10,11,.94);padding:6px 0}.qn::-webkit-scrollbar{display:none}
+.qn button{flex:none;font:inherit;font-size:13px;font-weight:800;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:7px 11px;cursor:pointer}
+.locb{display:block;width:100%;font:inherit;font-size:15.5px;font-weight:900;border:0;border-radius:14px;padding:13px;background:#4fbcff;color:#04121d;cursor:pointer}
+.locb.on{background:#13301f;color:#7ee2a8}
+.sh{font-size:14.5px;margin:14px 0 6px;display:flex;align-items:center;gap:8px}
+.tl .u.more{display:none}.tl.all .u.more{display:block}.tlm{font:inherit;font-weight:800;font-size:13px;background:none;border:0;color:var(--blu,#4fbcff);cursor:pointer;padding:4px 0}
+.nf{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;font-size:14px;line-height:1.45;color:#d6dadd}.nf .locb{margin-top:8px;font-size:14.5px;padding:10px}
+.nf.out{background:#2b1408;border-color:#6b2e10}
+section{scroll-margin-top:110px}
+.tq[hidden],#relief[hidden]{display:none}
 </style></head>
 <body>
 <header><div class="hb"><img src="/favicon.svg" alt=""><b>spill</b><span style="font-size:12px;font-weight:800;color:var(--red);margin-left:6px"><span class="dot"></span> LIVE</span><a class="sos" href="tel:112">📞 112</a></div></header>
 <main>
 <div class="status"><div class="row"><span class="cy">🌀</span><div><h1>Cyclone Arnab · <span id="lvl"></span></h1><div class="mv" id="mv"></div></div></div><p id="headline"></p><div class="upd">Verified desk updated <b id="dupd"></b> · news checked <b id="fupd">…</b> · refreshes every 10 s</div></div>
-<div class="nums" id="nums"></div>
+<nav class="qn"><button data-go="area">📍 My area</button><button data-go="updates">📰 Updates</button><button data-go="travel">🚆 Travel</button><button data-go="contacts">☎️ Helplines</button><button data-go="near">🏥 Help near me</button><button data-go="mapsec">🗺️ Map</button></nav>
 
-<h2>🗺️ Where the storm is</h2>
+<section id="area"><h2>📍 Your area</h2>
+ <button class="locb" data-loc="1">📍 Use my live location</button>
+ <p class="upd" style="margin:8px 0 6px">or pick your district</p>
+ <div class="pick" id="pick"></div>
+ <div id="dcard"></div>
+</section>
+
+<section id="updates"><h2>📰 What's happening now</h2>
+ <div class="nums" id="nums"></div>
+ <div class="brief" id="brief" style="margin-top:8px"></div>
+ <h3 class="sh"><span class="dot"></span> Live updates</h3><div class="tl" id="tl"></div>
+ <details class="wire" id="wirebox"><summary>📡 Latest headlines from news outlets <span id="wn" style="color:var(--o)"></span></summary><div id="wire"></div></details>
+</section>
+
+<section id="travel"><h2>🚆 Travel: what's cancelled</h2>
+ <div class="mtabs tt"><button data-tt="trains" class="on">🚆 Trains</button><button data-tt="flights">✈️ Flights</button><button data-tt="buses">🚌 Buses</button><button data-tt="roads">🚧 Roads</button></div>
+<div id="trains" class="tp">
+ <div class="tq"><input id="tno" inputmode="numeric" maxlength="5" placeholder="Train number, e.g. 12728" aria-label="Train number"><button id="tgo">Check</button></div>
+ <div id="tres"></div>
+ <details class="cg" open><summary>Cancelled & affected trains</summary><div id="tlist"></div></details>
+ <details class="cg"><summary>Local / MEMU routes suspended</summary><div id="tlocal"></div></details>
+ <p class="upd" id="tnote"></p>
+</div>
+<div id="flights" class="tp" hidden><div id="fl"></div></div>
+<div id="buses" class="tp" hidden><div id="bus"></div></div>
+<div id="roads" class="tp" hidden><div id="rd"></div></div>
+</section>
+
+<section id="contacts-h"><h2>☎️ Emergency helplines <small style="color:var(--mut);font-weight:600">tap to call</small></h2><div id="contacts"></div></section>
+
+<section id="near"><h2>🏥 Help near you</h2>
+ <div class="nt"><button data-t="shelter" class="on">🏠 Shelters</button><button data-t="hospital">🏥 Hospitals</button><button data-t="pharmacy">💊 Pharmacy</button><button data-t="food">🍲 Food</button><button data-t="fuel">⛽ Fuel</button><button data-t="police">🚓 Police/Fire</button></div>
+ <div id="nearfor" class="nf"></div>
+ <div class="tq" style="margin:6px 0" id="nearqw" hidden><input id="nearq" placeholder="Filter by name or area, e.g. Government, Amalapuram" aria-label="Filter places"></div><p class="upd"><span id="nearcount"></span></p>
+ <div id="nearlist"></div>
+ <div class="info" id="relief"></div>
+</section>
+
+<section id="mapsec"><h2>🗺️ Where the storm is</h2>
 <div class="mtabs"><button data-mt="wind" class="on">🌀 Live cyclone</button><button data-mt="alert">🗺️ Alert zones + satellite</button></div>
 <div class="ovl" id="ovl"><button data-ov="wind" class="on">💨 Wind</button><button data-ov="rain">🌧️ Rain</button><button data-ov="clouds">☁️ Clouds</button><button data-ov="pressure">🌀 Pressure</button><button data-ov="satellite">🛰️ Satellite</button><button data-ov="gust">🌬️ Gusts</button></div>
 <iframe id="wind" title="Live cyclone map" src="about:blank" allow="fullscreen"></iframe>
@@ -81,48 +129,10 @@ ul.sf{margin:0;padding-left:18px}ul.sf li{margin:3px 0;font-size:14.5px}
 <div class="upd" id="satinfo" hidden>🛰️ Live satellite clouds: loading…</div>
 <div class="leg"><span>🌀 Storm</span><span><i style="background:#ff4d3d"></i>Red alert</span><span><i style="background:#ffb020"></i>Orange alert</span><span><i style="background:#46d160"></i>No alert</span><span><i style="background:#4fbcff"></i>You</span></div>
 
-<h2>🧰 What do you need?</h2>
-<div class="need">
- <button data-go="near" data-t="shelter">🏠<span>Shelter & food</span></button>
- <button data-go="near" data-t="hospital">🏥<span>Hospital</span></button>
- <button data-go="trains">🚆<span>Is my train on?</span></button>
- <button data-go="flights">✈️<span>Flights</span></button>
- <button data-go="buses">🚌<span>Buses</span></button>
- <button data-go="roads">🚧<span>Roads</span></button>
- <button data-go="power">⚡<span>Power</span></button>
- <button data-go="contacts">☎️<span>Helplines</span></button>
-</div>
-<h2>📍 Check your district</h2>
-<div class="pick" id="pick"></div>
-<div id="dcard"></div>
-
-
-
-<section id="near"><h2>🧭 Near you</h2>
- <div class="nt"><button data-t="shelter" class="on">🏠 Shelters</button><button data-t="hospital">🏥 Hospitals</button><button data-t="pharmacy">💊 Pharmacy</button><button data-t="food">🍲 Food</button><button data-t="fuel">⛽ Fuel</button><button data-t="police">🚓 Police/Fire</button></div>
- <div class="tq" style="margin:6px 0"><input id="nearq" placeholder="Filter by name or area, e.g. Government, Amalapuram" aria-label="Filter places"></div><p class="upd"><span id="nearcount"></span></p>
- <p class="upd" id="nearfor">Pick your district above or tap 📍 Use my location.</p>
- <div id="nearlist"></div>
- <div class="info" id="relief"></div>
 </section>
-<section id="trains"><h2>🚆 Is my train on?</h2>
- <div class="tq"><input id="tno" inputmode="numeric" maxlength="5" placeholder="Train number, e.g. 12728" aria-label="Train number"><button id="tgo">Check</button></div>
- <div id="tres"></div>
- <details class="cg" open><summary>Cancelled & affected trains</summary><div id="tlist"></div></details>
- <details class="cg"><summary>Local / MEMU routes suspended</summary><div id="tlocal"></div></details>
- <p class="upd" id="tnote"></p>
-</section>
-<section id="flights"><h2>✈️ Flights</h2><div id="fl"></div></section>
-<section id="buses"><h2>🚌 Buses (APSRTC)</h2><div id="bus"></div></section>
-<section id="roads"><h2>🚧 Roads & bridges</h2><div id="rd"></div></section>
 <section id="power"><h2>⚡ Power</h2><div id="pw"></div></section>
-<h2>📰 What's happening</h2><div class="brief" id="brief"></div>
-<h2><span class="dot"></span> Live updates</h2><div class="tl" id="tl"></div>
-<details class="wire" id="wirebox"><summary>📡 Latest headlines from news outlets <span id="wn" style="color:var(--o)"></span></summary><div id="wire"></div></details>
-
 <h2>💬 How people are feeling</h2><div class="mood" id="mood"></div>
 <h2>❓ Quick answers</h2><div class="faq" id="faq"></div>
-<h2 id="contacts-h">☎️ Helplines <small style="color:var(--mut);font-weight:600">tap to call</small></h2><div id="contacts"></div>
 <h2>🛟 Stay safe</h2><ul class="sf" id="safety"></ul>
 <a class="share" id="share" href="#">📲 Send this to family on WhatsApp</a>
 <h2>📚 Sources</h2><ol class="src" id="sources"></ol>
@@ -217,23 +227,35 @@ let SP=null;fetch("/cyclone/places.json").then(r=>r.ok?r.json():null).then(j=>{S
 function STATICP(pt){if(!SP||!SP[NT])return[];return SP[NT].map(x=>Object.assign({},x,{km:Math.round(km(pt.lat,pt.lon,x.lat,x.lon)*10)/10})).filter(x=>x.km<=25).sort((a,b)=>a.km-b.km).slice(0,25)}
 // ---------- in-app essentials ----------
 let NT="shelter",NP=null,NL=null;
-function nearPoint(){if(me)return{lat:me.lat,lon:me.lon,label:"you"};const p=PL.find(x=>x.n===sel);return p?{lat:p.lat,lon:p.lon,label:p.n}:null}
-async function loadNear(){const pt=nearPoint();if(!pt){$("nearfor").textContent="Pick your district above or tap 📍 Use my location.";$("nearlist").innerHTML="";return}
+let useMe=false,watch=null,fetchAt=null,fixAt=null;
+function nearPoint(){if(useMe&&me)return{lat:me.lat,lon:me.lon,label:"you",gps:true};const p=PL.find(x=>x.n===sel);return p?{lat:p.lat,lon:p.lon,label:p.n,gps:false,safe:p.lvl==="safe"}:null}
+// Coverage: we only hold help-centre data around the cyclone-hit (red/orange) districts.
+const ZONE_KM=50;
+function nearestHit(pt){let b=null;PL.filter(p=>p.lvl!=="safe").forEach(p=>{const d=km(pt.lat,pt.lon,p.lat,p.lon);if(!b||d<b.d)b={d,p}});return b}
+const LOCBTN='<button class="locb" data-loc="1">📍 Use my live location for exact distances</button>';
+async function loadNear(){const pt=nearPoint();const nf=$("nearfor");nf.classList.remove("out");$("nearqw").hidden=true;$("relief").hidden=false;$("nearcount").textContent="";NP=null;
+  if(!pt){nf.innerHTML=`Share your live location and we'll list the nearest help with the distance from where you are.${LOCBTN}`;$("nearlist").innerHTML="";return}
+  const hit=nearestHit(pt);
+  if(pt.safe||!hit||hit.d>ZONE_KM){nf.classList.add("out");nf.innerHTML=`<b>📍 ${pt.gps?"You're":E(pt.label)+" is"} outside the cyclone-hit area</b>${hit?` (nearest hit district: ${E(hit.p.n)}, ~${hit.d} km away)`:""}. We don't have shelter, hospital, fuel or police data for ${pt.gps?"your area":"this place"} — Spill covers only the districts under red or orange alert.<br>In an emergency call <a href="tel:112"><b>112</b></a> · ambulance <a href="tel:108"><b>108</b></a>.`;$("nearlist").innerHTML="";$("relief").hidden=true;track("cyclone_near_out",pt.gps?"gps":pt.label);return}
   const lbl={shelter:"shelters & public buildings",hospital:"hospitals & clinics",pharmacy:"pharmacies",food:"food & grocery",fuel:"fuel stations",police:"police & fire stations"}[NT];
-  $("nearfor").innerHTML=`Showing <b>${lbl}</b> within 15 km of <b>${E(pt.label)}</b> · from OpenStreetMap`;$("nearlist").innerHTML='<p class="upd">Searching the map…</p>';
-  try{const st=STATICP(pt);const live=await osmNear(pt,NT).catch(()=>null);let it=st;if(live&&live.length){const names=new Set(live.map(x=>x.name.toLowerCase()));it=live.concat(st.filter(x=>!names.has(x.name.toLowerCase()))).sort((a,b)=>a.km-b.km)}
-    NP=it;renderNear();
-    track("cyclone_near",NT)}catch(e){$("nearlist").innerHTML='<p class="upd">Couldn\'t load right now. Try again in a minute.</p>'}}
+  nf.innerHTML=pt.gps?`📍 <b>Distances from your live location</b> (straight line) · nearest <b>${lbl}</b> first · <span id="fixago"></span>`:`⚠️ Distances are from <b>${E(pt.label)} town centre</b>, not from you.${LOCBTN}`;
+  $("nearlist").innerHTML='<p class="upd">Searching the map…</p>';fetchAt={lat:pt.lat,lon:pt.lon};
+  try{const st=STATICP(pt);const live=await osmNear(pt,NT).catch(()=>null);let it=st;if(live&&live.length){const names=new Set(live.map(x=>x.name.toLowerCase()));it=live.concat(st.filter(x=>!names.has(x.name.toLowerCase())))}
+    NP=it;$("nearqw").hidden=!it.length;regDist();
+    track("cyclone_near",NT+(pt.gps?":gps":":district"))}catch(e){$("nearlist").innerHTML='<p class="upd">Couldn\'t load right now. Try again in a minute.</p>'}}
+// recompute distances from the latest point and re-sort, without a new lookup
+function regDist(){const pt=nearPoint();if(!NP||!pt)return;NP.forEach(x=>{x.km=Math.round(km2(pt.lat,pt.lon,x.lat,x.lon)*10)/10});NP.sort((a,b)=>a.km-b.km);renderNear();const f=$("fixago");if(f&&fixAt)f.textContent="location updated "+ago(fixAt)}
+const km2=(a,b,c,d)=>{const R=6371,t=x=>x*Math.PI/180,dl=t(c-a),dn=t(d-b);const h=Math.sin(dl/2)**2+Math.cos(t(a))*Math.cos(t(c))*Math.sin(dn/2)**2;return 2*R*Math.asin(Math.sqrt(h))};
 
 function nearTown(x){let b=null;PL.forEach(p=>{const d=km(x.lat,x.lon,p.lat,p.lon);if(!b||d<b.d)b={d,p}});return b?`${b.d<=3?"In":"Near"} ${b.p.n}${b.d>3?` (${b.d} km)`:""}`:""}
 function renderNear(){const it=NP||[];const f=($("nearq")&&$("nearq").value||"").toLowerCase().trim();
   const show=it.filter(x=>!f||(x.name+" "+(x.addr||"")).toLowerCase().includes(f)).slice(0,20);
   $("nearcount").textContent=it.length?`${show.length} of ${it.length} places`:"";
   $("nearlist").innerHTML=show.length?show.map(x=>{const ph=(x.phone||"").split(/[;,]/)[0].trim();const dir=`https://www.google.com/maps/dir/?api=1&destination=${x.lat},${x.lon}`;
-    return `<div class="pc"><div class="pct"><b>${E(x.name)}</b><span class="km">${x.km} km</span></div>
+    return `<div class="pc"><div class="pct"><b>${E(x.name)}</b><span class="km">${x.km<1?Math.round(x.km*1000)+" m":x.km+" km"}${useMe&&me?" away":""}</span></div>
     <div class="pca">📍 ${E(x.addr||nearTown(x))} <small>· ${x.lat.toFixed(4)}, ${x.lon.toFixed(4)}</small></div>
     ${x.kind?`<div class="pca">🏷️ ${E(String(x.kind).replace(/_/g," "))}${x.emergency?" · 🚑 has emergency":""}</div>`:""}
-    <div class="pcb">${ph?`<a class="c" href="${tel(ph)}">📞 ${E(ph)}</a>`:`<span class="np">No phone listed</span>`}<a class="g" href="${dir}" target="_blank" rel="noopener" data-dir="1">🧭 Directions in Google Maps</a></div></div>`}).join(""):`<p class="upd">${it.length?"No match for that search.":"Nothing mapped nearby yet. Call your district control room or 1070."}</p>`}
+    <div class="pcb">${ph?`<a class="c" href="${tel(ph)}">📞 ${E(ph)}</a>`:`<span class="np">No phone listed</span>`}<a class="g" href="${dir}" target="_blank" rel="noopener" data-dir="1">🧭 Directions in Google Maps</a></div></div>`}).join(""):`<p class="upd">${it.length?"No match for that search.":"Nothing mapped within 15 km yet. Call your district control room or 1070."}</p>`}
 function renderInfo(){
   const R=D.relief;if(R)$("relief").innerHTML=`<b>🍲 Food & water:</b> ${E(R.food)}<br><br><b>🏠 Official relief centres:</b> ${E(R.summary)}${R.named&&R.named.length?"<br>"+R.named.map(n=>`• ${E(n[0])}: ${E(n[1])}`).join("<br>"):""}`;
   const T=D.trains;if(T){$("tlist").innerHTML=T.list.map(t=>`<div class="tr"><b>${E(t[0])}</b><span>${E(t[1])}<br><small style="color:var(--mut)">${E(t[2])}</small></span><span class="x ${/Partial/.test(t[3])?"p":""}">${E(t[3].replace(/ \(.*\)/,""))}</span></div>`).join("");
@@ -247,26 +269,30 @@ function checkTrain(){const n=($("tno").value||"").replace(/\D/g,"");if(n.length
   const hit=(D.trains.list||[]).filter(t=>t[0]===n||t[0]===n.padStart(5,"0"));track("cyclone_train",n);
   $("tres").innerHTML=hit.length?hit.map(t=>`<div class="res bad">❌ <b>${E(t[0])} ${E(t[1])}</b><br>${E(t[3])} · ${E(t[2])}</div>`).join(""):`<div class="res ok">✅ <b>${E(n)}</b> is not on the reported cancellation list. Railways are still updating, so confirm on <a href="tel:139">📞 139</a> before you leave.</div>`}
 document.addEventListener("click",e=>{
-  const g=e.target.closest("[data-go]");if(g){const id=g.dataset.go;if(id==="near"){NT=g.dataset.t;document.querySelectorAll(".nt button").forEach(b=>b.classList.toggle("on",b.dataset.t===NT));loadNear()}const el=document.getElementById(id==="contacts"?"contacts-h":id);if(el)el.scrollIntoView({behavior:"smooth",block:"start"});track("cyclone_need",id+(g.dataset.t?":"+g.dataset.t:""));return}
+  const g=e.target.closest("[data-go]");if(g){let id=g.dataset.go;if(["trains","flights","buses","roads"].includes(id)){setTT(id);id="travel"}if(id==="near"&&g.dataset.t){NT=g.dataset.t;document.querySelectorAll(".nt button").forEach(b=>b.classList.toggle("on",b.dataset.t===NT));loadNear()}e.preventDefault();const el=document.getElementById(id==="contacts"?"contacts-h":id);if(el)el.scrollIntoView({behavior:"smooth",block:"start"});track("cyclone_need",id+(g.dataset.t?":"+g.dataset.t:""));return}
   const n=e.target.closest(".nt button");if(n){NT=n.dataset.t;document.querySelectorAll(".nt button").forEach(b=>b.classList.toggle("on",b===n));loadNear();return}
   const sp=e.target.closest("[data-showpl]");if(sp){e.preventDefault();const x=NP[+sp.dataset.showpl];if(x){$("map").scrollIntoView({behavior:"smooth"});map.setView([x.lat,x.lon],13);L.popup().setLatLng([x.lat,x.lon]).setContent(E(x.name)).openOn(map)}return}
   if(e.target.closest("#tgo"))checkTrain();
+  const tt=e.target.closest("[data-tt]");if(tt){setTT(tt.dataset.tt);track("cyclone_travel",tt.dataset.tt);return}
+  if(e.target.closest("[data-tlm]")){$("tl").classList.add("all");e.target.closest("[data-tlm]").remove();return}
+  if(e.target.closest("[data-loc]")){locate();return}
 });
+function setTT(k){document.querySelectorAll("[data-tt]").forEach(b=>b.classList.toggle("on",b.dataset.tt===k));document.querySelectorAll(".tp").forEach(d=>d.hidden=d.id!==k)}
 document.addEventListener("keydown",e=>{if(e.target&&e.target.id==="tno"&&e.key==="Enter")checkTrain()});
 document.addEventListener("input",e=>{if(e.target&&e.target.id==="nearq")renderNear()});
 document.addEventListener("click",e=>{if(e.target.closest("[data-dir]"))track("cyclone_directions",NT)});
 function render(){
   PL=places();$("lvl").textContent=D.level;$("mv").textContent=(D.moving.state==="stationary"?"⏸️ ":"➡️ ")+D.moving.text;$("headline").textContent=D.headline;$("dupd").textContent=ago(D.updated);
   $("nums").innerHTML=D.numbers.map(n=>`<div><b>${E(n.v)}</b><span>${E(n.l)}</span></div>`).join("");
-  $("pick").innerHTML=`<button data-n="__me">📍 Use my location</button>`+PL.map(p=>`<button data-n="${E(p.n)}"><i>${p.lvl==="red"?"🔴":p.lvl==="orange"?"🟠":"🟢"}</i> ${E(p.n)}</button>`).join("");
+  $("pick").innerHTML=PL.map(p=>`<button data-n="${E(p.n)}"><i>${p.lvl==="red"?"🔴":p.lvl==="orange"?"🟠":"🟢"}</i> ${E(p.n)}</button>`).join("");
   $("brief").innerHTML=D.briefing.map(b=>`<div><i>${E(b.e)}</i><span>${E(b.t)} <small>· ${b.n} sources</small></span></div>`).join("");
-  $("tl").innerHTML=D.updates.map(u=>`<div class="u"><small>${E(u.t)}</small><p>${E(u.e)} ${E(u.x)} <em>· ${E(u.src)}</em></p></div>`).join("");
+  $("tl").innerHTML=D.updates.map((u,i)=>`<div class="u${i>3?" more":""}"><small>${E(u.t)}</small><p>${E(u.e)} ${E(u.x)} <em>· ${E(u.src)}</em></p></div>`).join("")+(D.updates.length>4?`<button class="tlm" data-tlm="1">Show all ${D.updates.length} updates ↓</button>`:"");
   $("mood").innerHTML=D.mood.map(m=>`<div><i>${E(m.e)}</i><span>${E(m.t)}<small>${E(m.src)}</small></span></div>`).join("");
   $("faq").innerHTML=D.faq.map(f=>`<details><summary>${E(f.q)}</summary><p>${E(f.a)}</p></details>`).join("");
   $("contacts").innerHTML=D.contacts.map((g,i)=>`<details class="cg" ${i<2?"open":""}><summary>${E(g.group)}</summary>${g.items.map(([l,n,k])=>`<div class="r"><span>${E(l)}</span><a href="${k==="wa"?"https://wa.me/91"+String(n).replace(/\D/g,"").slice(-10)+"?text=Hi":tel(n)}" ${k==="wa"?'target="_blank" rel="noopener"':""}>${k==="wa"?"💬":"📞"} ${E(n)}</a></div>`).join("")}</details>`).join("");
   $("safety").innerHTML=D.safety.map(s=>`<li>${E(s)}</li>`).join("");
   $("sources").innerHTML=D.sources.map(([t,u])=>`<li><a href="${E(u)}" target="_blank" rel="noopener">${E(t)}</a></li>`).join("");
-  renderInfo();drawMap();if(sel&&PL.some(p=>p.n===sel))choose(sel);
+  renderInfo();drawMap();if(sel&&PL.some(p=>p.n===sel))choose(sel);else if(!useMe)loadNear();
 }
 async function loadDesk(){try{const j=await (await fetch("/cyclone/arnab.json?t="+Math.floor(Date.now()/30000))).json();const ch=!D||j.updated!==D.updated;D=j;if(ch)render();else $("dupd").textContent=ago(D.updated)}catch(e){}}
 let seen=new Set(),first=true;
@@ -274,14 +300,26 @@ async function loadWire(){try{const j=await (await fetch(C.supabaseUrl+"/functio
   const it=(j.items||[]).slice(0,20);let nw=0;$("wire").innerHTML=it.map(x=>{const isN=!first&&!seen.has(x.url);if(isN)nw++;return `<a class="wi ${isN?"new":""}" href="${E(x.url)}" target="_blank" rel="noopener">${isN?'<span class="nw">NEW</span>':""}${E(x.title)}<small>${E(x.source||"")}${x.at?" · "+ago(x.at):""}</small></a>`}).join("");
   it.forEach(x=>seen.add(x.url));if(nw)$("wn").textContent=`· ${nw} new`;first=false}catch(e){$("fupd").textContent="retrying…"}}
 document.addEventListener("click",e=>{
-  const b=e.target.closest("#pick button");if(b){if(b.dataset.n==="__me")locate();else choose(b.dataset.n);return}
+  const b=e.target.closest("#pick button");if(b){useMe=false;stopWatch();choose(b.dataset.n);return}
   const s=e.target.closest("[data-sharecard]");if(s){e.preventDefault();const p=PL.find(x=>x.n===s.dataset.sharecard);const u="https://spillthetea.news/cyclone/?src=wa&c=arnab-"+encodeURIComponent(p.n.toLowerCase().replace(/\s+/g,"-"));
     const t=`🌀 Cyclone Arnab · ${p.n}: ${p.lvl==="red"?"RED alert":p.lvl==="orange"?"ORANGE alert":"no cyclone alert"}. ${p.note||p.swhat}${p.cr?`\n📞 Control room: ${p.cr}`:""}\n🚨 Emergency: 112\nLive map & safe places 👉 ${u}`;track("cyclone_share",p.n);
     if(navigator.share)navigator.share({text:t}).catch(()=>{});else window.open("https://wa.me/?text="+encodeURIComponent(t),"_blank","noopener");return}
   const a=e.target.closest("a[href^='tel:']");if(a)track("cyclone_call",a.getAttribute("href"));
 });
-function locate(){if(!navigator.geolocation)return;navigator.geolocation.getCurrentPosition(pos=>{me={lat:pos.coords.latitude,lon:pos.coords.longitude};let best=null;PL.forEach(p=>{const d=km(me.lat,me.lon,p.lat,p.lon);if(!best||d<best.d)best={d,p}});
-  track("cyclone_locate");setTimeout(loadNear,0);if(best&&best.d<80)choose(best.p.n);else{$("dcard").innerHTML=`<div class="dc"><div class="top"><b>Your location</b><span class="badge safe">NOT IN A LISTED ALERT DISTRICT</span></div><div class="ln"><i>🌀</i><span>Storm centre is ~${km(me.lat,me.lon,D.position.lat,D.position.lon)} km away. Rain may still reach you. Follow local news.</span></div></div>`;drawMap();map.setView([me.lat,me.lon],7)}},()=>{$("dcard").innerHTML='<p class="upd">Location is off. Pick your district above.</p>'},{timeout:10000,maximumAge:600000})}
+function stopWatch(){if(watch!=null){navigator.geolocation.clearWatch(watch);watch=null}document.querySelectorAll(".locb").forEach(x=>{x.classList.remove("on");x.textContent=x.closest("#area")?"📍 Use my live location":"📍 Use my live location for exact distances"})}
+function locate(){if(!navigator.geolocation){$("dcard").innerHTML='<p class="upd">This browser can\'t share location. Pick your district above.</p>';return}
+  document.querySelectorAll(".locb").forEach(x=>x.textContent="📍 Finding you…");let firstFix=true;if(watch!=null)navigator.geolocation.clearWatch(watch);
+  watch=navigator.geolocation.watchPosition(pos=>{me={lat:pos.coords.latitude,lon:pos.coords.longitude};useMe=true;fixAt=new Date().toISOString();
+    document.querySelectorAll(".locb").forEach(x=>{x.classList.add("on");x.textContent="✓ Live location on · distances update as you move"});
+    if(firstFix){firstFix=false;track("cyclone_locate");let best=null;PL.forEach(p=>{const d=km(me.lat,me.lon,p.lat,p.lon);if(!best||d<best.d)best={d,p}});
+      const hit=nearestHit(me);
+      if(hit&&hit.d<=ZONE_KM){choose(best.p.n)}
+      else{sel=null;[...$("pick").children].forEach(b=>b.classList.remove("on"));$("dcard").innerHTML=`<div class="dc"><div class="top"><b>Your location</b><span class="badge safe">OUTSIDE THE CYCLONE-HIT AREA</span></div><div class="ln"><i>🌀</i><span>Storm centre is ~${km(me.lat,me.lon,D.position.lat,D.position.lon)} km away${hit?`; nearest hit district is ${E(hit.p.n)} (~${hit.d} km)`:""}. Rain may still reach you. Follow the updates below.</span></div></div>`;drawMap();loadNear()}
+      return}
+    // later fixes: refresh distances; new lookup only after moving 3 km
+    if(fetchAt&&km2(fetchAt.lat,fetchAt.lon,me.lat,me.lon)>3)loadNear();else regDist();if(map)drawMap()},
+   err=>{stopWatch();const m=err&&err.code===1?"Location is blocked for this site. Allow it in your browser settings, or pick your district.":"Couldn't get your location. Pick your district, or try again outdoors.";$("dcard").innerHTML=`<p class="upd">${m}</p>`;const nf=$("nearfor");if(nf&&!sel)nf.innerHTML=m},
+   {enableHighAccuracy:true,timeout:15000,maximumAge:60000})}
 $("share").addEventListener("click",e=>{e.preventDefault();const u="https://spillthetea.news/cyclone/?src=wa&c=arnab-desk";const t=`🌀 Cyclone Arnab: check your district, the storm's position, control room numbers and safe places. Live, verified 👉 ${u}`;track("cyclone_share","desk");if(navigator.share)navigator.share({text:t}).catch(()=>{});else window.open("https://wa.me/?text="+encodeURIComponent(t),"_blank","noopener")});
 track("cyclone_open");loadDesk().then(()=>{showWindy();loadWire()});setInterval(loadWire,10000);setInterval(loadDesk,30000);setInterval(()=>{if(D)$("dupd").textContent=ago(D.updated)},5000);
 })();
