@@ -192,14 +192,24 @@ function cardHTML(p){
 function choose(n,fromMap){sel=n;try{localStorage.setItem("arnab.district",n)}catch(e){}const p=PL.find(x=>x.n===n);if(!p)return;
   $("dcard").innerHTML=cardHTML(p);[...$("pick").children].forEach(b=>b.classList.toggle("on",b.dataset.n===n));drawMap();if(fromMap)$("dcard").scrollIntoView({block:"nearest",behavior:"smooth"});else map.setView([p.lat,p.lon],8);loadNear();track("cyclone_district",n)}
 
+
+// OpenStreetMap lookup straight from the phone (Overpass mirrors, CORS-enabled); falls back to the saved district list.
+const OSEL={hospital:['nwr["amenity"~"^(hospital|clinic)$"]'],pharmacy:['nwr["amenity"="pharmacy"]'],shelter:['nwr["emergency"="assembly_point"]','nwr["social_facility"="shelter"]','nwr["name"~"[Cc]yclone"]','nwr["amenity"="community_centre"]','nwr["amenity"="school"]'],food:['nwr["amenity"="marketplace"]','nwr["shop"~"^(supermarket|convenience)$"]','nwr["amenity"="restaurant"]'],fuel:['nwr["amenity"="fuel"]'],police:['nwr["amenity"~"^(police|fire_station)$"]']};
+async function osmNear(pt,type){const q=`[out:json][timeout:20];(${OSEL[type].map(x=>`${x}(around:15000,${pt.lat.toFixed(4)},${pt.lon.toFixed(4)});`).join("")});out center tags 60;`;
+  for(const m of["https://overpass.openstreetmap.fr/api/interpreter","https://overpass-api.de/api/interpreter","https://overpass.private.coffee/api/interpreter"]){
+    try{const ctl=new AbortController();const tm=setTimeout(()=>ctl.abort(),15000);const r=await fetch(m+"?data="+encodeURIComponent(q),{signal:ctl.signal});clearTimeout(tm);if(!r.ok)continue;const j=await r.json();
+      const seen=new Set();return (j.elements||[]).map(e=>{const t=e.tags||{},la=e.lat??(e.center&&e.center.lat),lo=e.lon??(e.center&&e.center.lon);const name=t.name||t["name:en"];if(!name||la==null)return null;const k=name.toLowerCase();if(seen.has(k))return null;seen.add(k);
+        return{name,lat:la,lon:lo,km:Math.round(km(pt.lat,pt.lon,la,lo)*10)/10,phone:t.phone||t["contact:phone"]||"",addr:[t["addr:street"],t["addr:city"]].filter(Boolean).join(", "),kind:t.amenity||t.emergency||t.shop||"",emergency:t.emergency==="yes"}}).filter(Boolean).sort((a,b)=>a.km-b.km).slice(0,25)}catch(e){}}
+  return null}
+let SP=null;fetch("/cyclone/places.json").then(r=>r.ok?r.json():null).then(j=>{SP=j}).catch(()=>{});
+function STATICP(pt){if(!SP||!SP[NT])return[];return SP[NT].map(x=>Object.assign({},x,{km:Math.round(km(pt.lat,pt.lon,x.lat,x.lon)*10)/10})).filter(x=>x.km<=25).sort((a,b)=>a.km-b.km).slice(0,25)}
 // ---------- in-app essentials ----------
 let NT="shelter",NP=null,NL=null;
 function nearPoint(){if(me)return{lat:me.lat,lon:me.lon,label:"you"};const p=PL.find(x=>x.n===sel);return p?{lat:p.lat,lon:p.lon,label:p.n}:null}
 async function loadNear(){const pt=nearPoint();if(!pt){$("nearfor").textContent="Pick your district above or tap 📍 Use my location.";$("nearlist").innerHTML="";return}
   const lbl={shelter:"shelters & public buildings",hospital:"hospitals & clinics",pharmacy:"pharmacies",food:"food & grocery",fuel:"fuel stations",police:"police & fire stations"}[NT];
-  $("nearfor").innerHTML=`Showing <b>${lbl}</b> within 15 km of <b>${E(pt.label)}</b> · from OpenStreetMap`;$("nearlist").innerHTML='<p class="upd">Searching…</p>';
-  try{const j=await (await fetch(`${C.supabaseUrl}/functions/v1/nearby?lat=${pt.lat.toFixed(3)}&lon=${pt.lon.toFixed(3)}&type=${NT}`)).json();
-    const it=j.items||[];NP=it;
+  $("nearfor").innerHTML=`Showing <b>${lbl}</b> within 15 km of <b>${E(pt.label)}</b> · from OpenStreetMap`;$("nearlist").innerHTML='<p class="upd">Searching the map…</p>';
+  try{let it=STATICP(pt);const live=await osmNear(pt,NT).catch(()=>null);if(live&&live.length)it=live;NP=it;const j={};
     $("nearlist").innerHTML=it.length?it.slice(0,12).map((x,i)=>`<div class="pl"><div class="pn"><b>${E(x.name)}</b><small>${E(x.addr||x.kind||"")}${x.emergency?" · 🚑 emergency":""}</small></div><span class="km">${x.km} km</span>${x.phone?`<a href="${tel(x.phone.split(/[;,]/)[0])}">📞 Call</a>`:`<a href="#" data-showpl="${i}">🗺️ Map</a>`}</div>`).join(""):`<p class="upd">${j.error?E(j.error):"Nothing mapped nearby yet. Call your district control room or 1070."}</p>`;
     if(NL)map.removeLayer(NL);NL=L.layerGroup(it.slice(0,12).map(x=>L.circleMarker([x.lat,x.lon],{radius:6,color:"#fff",weight:2,fillColor:NT==="hospital"?"#4fbcff":"#46d160",fillOpacity:.95}).bindTooltip(x.name))).addTo(map);
     track("cyclone_near",NT)}catch(e){$("nearlist").innerHTML='<p class="upd">Couldn\'t load right now. Try again in a minute.</p>'}}
