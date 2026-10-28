@@ -31,7 +31,8 @@ h2{font-size:16px;margin:22px 0 8px;display:flex;align-items:center;gap:8px}
 .pb{font:inherit;font-size:12px;font-weight:800;border:0;border-radius:999px;padding:3px 9px;background:var(--o);color:#fff;cursor:pointer;margin-left:4px}
 .mtabs{display:flex;gap:6px;margin-bottom:6px}.mtabs button{flex:1;font:inherit;font-size:13.5px;font-weight:800;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:8px;cursor:pointer}.mtabs button.on{background:var(--fg);color:#111}
 .ovl{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-bottom:6px}.ovl button{flex:none;font:inherit;font-size:12.5px;font-weight:800;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:6px 10px;cursor:pointer}.ovl button.on{background:#ff4500;border-color:#ff4500;color:#fff}
-.offscreen{position:absolute!important;left:-9999px;visibility:hidden}
+.offscreen{display:none!important}
+.ovl[hidden],#wind[hidden],#satinfo[hidden]{display:none!important}
 #wind{width:100%;height:460px;border:1px solid var(--line);border-radius:16px}
 #map{height:420px;border-radius:16px;border:1px solid var(--line)}
 .leg{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--mut);margin:6px 0 0}.leg i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
@@ -193,8 +194,9 @@ function windySrc(ov){const P=(D&&D.position)||{lat:16.45,lon:81.9};return `http
 function showWindy(){$("wind").src=windySrc(OV)}
 document.addEventListener("click",e=>{const o=e.target.closest("[data-ov]");if(o){OV=o.dataset.ov;document.querySelectorAll("[data-ov]").forEach(x=>x.classList.toggle("on",x===o));showWindy();track("cyclone_overlay",OV);return}
   const b=e.target.closest("[data-mt]");if(!b)return;document.querySelectorAll("[data-mt]").forEach(x=>x.classList.toggle("on",x===b));const w=b.dataset.mt==="wind";
-  $("map").classList.toggle("offscreen",w);$("wind").hidden=!w;$("ovl").hidden=!w;$("satinfo").hidden=w;if(w&&$("wind").src==="about:blank")showWindy();if(!w&&map)setTimeout(()=>map.invalidateSize(),50);track("cyclone_maptab",b.dataset.mt)});
+  $("map").classList.toggle("offscreen",w);$("wind").hidden=!w;$("ovl").hidden=!w;$("satinfo").hidden=w;if(w&&$("wind").src==="about:blank")showWindy();if(!w)setTimeout(()=>{if(map)map.invalidateSize();else drawMap();const p=PL.find(x=>x.n===sel);if(p)map.setView([p.lat,p.lon],8)},30);track("cyclone_maptab",b.dataset.mt)});
 function drawMap(){
+  if(!map&&$("map").classList.contains("offscreen"))return;
   if(!map){map=L.map("map",{zoomControl:true,scrollWheelZoom:false}).setView([17.8,82.0],6);
     L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png",{maxZoom:12,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>'}).addTo(map);
     map.createPane("labels");map.getPane("labels").style.zIndex=450;map.getPane("labels").style.pointerEvents="none";
@@ -226,7 +228,7 @@ function cardHTML(p){
    <a class="btn-map" href="#near" data-go="near" data-t="shelter">🏠 Shelters & food near ${E(p.n)}</a><a class="btn-map" href="#near" data-go="near" data-t="hospital">🏥 Hospitals near ${E(p.n)}</a>
    <a class="btn-map" href="#trains" data-go="trains">🚆 Trains & buses</a><a class="btn-map" href="#" data-sharecard="${E(p.n)}">📲 Send to family</a></div></div>`}
 function choose(n,fromMap){sel=n;try{localStorage.setItem("arnab.district",n)}catch(e){}const p=PL.find(x=>x.n===n);if(!p)return;
-  $("dcard").innerHTML=cardHTML(p);[...$("pick").children].forEach(b=>b.classList.toggle("on",b.dataset.n===n));drawMap();renderWind();if(fromMap)$("dcard").scrollIntoView({block:"nearest",behavior:"smooth"});else map.setView([p.lat,p.lon],8);loadNear();track("cyclone_district",n)}
+  $("dcard").innerHTML=cardHTML(p);[...$("pick").children].forEach(b=>b.classList.toggle("on",b.dataset.n===n));drawMap();renderWind();if(fromMap)$("dcard").scrollIntoView({block:"nearest",behavior:"smooth"});else if(map)map.setView([p.lat,p.lon],8);loadNear();track("cyclone_district",n)}
 
 
 // OpenStreetMap lookup straight from the phone (Overpass mirrors, CORS-enabled); falls back to the saved district list.
