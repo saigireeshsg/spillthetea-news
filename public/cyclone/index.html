@@ -319,7 +319,7 @@ document.addEventListener("input",e=>{if(e.target&&e.target.id==="nearq")renderN
 document.addEventListener("click",e=>{if(e.target.closest("[data-dir]"))track("cyclone_directions",NT)});
 function render(){
   PL=places();$("lvl").textContent=D.level;$("mv").textContent=(D.moving.state==="stationary"?"⏸️ ":"➡️ ")+D.moving.text;$("headline").textContent=D.headline;$("dupd").textContent=ago(D.updated);
-  $("nums").innerHTML=D.numbers.map(n=>`<div><b>${E(n.v)}</b><span>${E(n.l)}</span></div>`).join("");
+  $("nums").innerHTML=D.numbers.filter(n=>!/death/i.test(n.l)).map(n=>`<div><b>${E(n.v)}</b><span>${E(n.l)}</span></div>`).join("");
   $("pick").innerHTML=PL.map(p=>`<button data-n="${E(p.n)}"><i>${p.lvl==="red"?"🔴":p.lvl==="orange"?"🟠":"🟢"}</i> ${E(p.n)}</button>`).join("");
   $("brief").innerHTML=D.briefing.map(b=>`<div><i>${E(b.e)}</i><span>${E(b.t)} <small>· ${b.n} sources</small></span></div>`).join("");
   $("tl").innerHTML=D.updates.map((u,i)=>`<div class="u${i>3?" more":""}"><small>${E(u.t)}</small><p>${E(u.e)} ${E(u.x)} <em>· ${E(u.src)}</em></p></div>`).join("")+(D.updates.length>4?`<button class="tlm" data-tlm="1">Show all ${D.updates.length} updates ↓</button>`:"");
