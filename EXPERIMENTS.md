@@ -41,3 +41,4 @@ One line per experiment: date · what · result.
 - 2026-10-27 (half-hourly, 22:13 IST) · d20261026-hyd-rice-90-a-kg: updated in place (trader warning); B hook switched to hoarding question ('Rice at ₹90/kg: are traders hoarding it?') vs A number-first statement · running
 2026-10-28 · morning run blocked (Supabase SQL + WebFetch permission prompts unanswered) · only water-card update + 1 opp · n/a
 - 2026-10-28 (hourly, ~07:15 IST) · d20261024-bay-cyclone: updated in place (landfall underway); A = place-first statement vs B = traveller question · running
+- 2026-10-28 (hourly, ~12:30 IST) · d20261028-ugc-net-dec-oct31: A = deadline statement with date vs B = 'Missed the form?' question + countdown · running

@@ -1,0 +1,71 @@
+{
+ "cat": "campus",
+ "sort": "2026-10-28-80",
+ "order": 5,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "UGC NET December 2026",
+ "hook": "UGC NET Dec 2026: you can still apply till *Oct 31*",
+ "hook_b": "Missed the UGC NET form? 3 more days to apply",
+ "tldr": "NTA has kept UGC NET December 2026 registration open till October 31 (NDTV). The regular fee window was October 28, 11:50 pm; PW lists Oct 29–31 as a late window with a ₹500 late fee. Exam: December 14–19, 87 subjects.",
+ "beats": {
+  "what": "UGC NET December 2026 applications on ugcnet.nta.nic.in now run till October 31, up from October 28.",
+  "why": "NET is the gate for Assistant Professor jobs, JRF and PhD admissions. One form, one shot till the June cycle.",
+  "care": "PG student or grad? Apply tonight (Oct 28) to dodge a possible ₹500 late fee. Check the final fee on the NTA site."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "body": "Dates to save: regular window Oct 28 (11:50 pm) · late window Oct 29–31 · fix mistakes Nov 2–4 · exam Dec 14–19. Fees: ₹1,150 General, ₹600 EWS/OBC-NCL, ₹325 SC/ST/PwD/third gender, plus ₹500 if you apply late (per PW)."
+  },
+  {
+   "k": "num",
+   "value": "87",
+   "caption": "subjects in UGC NET Dec 2026",
+   "body": "The exam runs Dec 14 to 19. Correction window opens Nov 2, so you can fix typos after applying."
+  },
+  {
+   "k": "poll",
+   "q": "Writing UGC NET in December?",
+   "opts": ["Applied already", "Applying tonight", "Next cycle", "Not for me"]
+  },
+  {
+   "k": "quiz",
+   "q": "When can you correct your UGC NET form?",
+   "opts": ["Nov 2–4", "Oct 29–31", "Dec 14–19", "No corrections"],
+   "ans": 0,
+   "why": "Nov 2 to Nov 4, up to 11:50 pm."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "UGC NET Dec 2026 fee",
+   "a": {"v": 1150, "d": "₹1,150", "l": "General"},
+   "b": {"v": 325, "d": "₹325", "l": "SC/ST/PwD"},
+   "goodIfUp": false
+  }
+ ],
+ "map": {
+  "causes": [
+   {"icon": "🎓", "label": "NTA's NET exam"},
+   {"icon": "👩‍🏫", "label": "Asst Prof / JRF / PhD"}
+  ],
+  "event": {"icon": "⏰", "label": "Apply till Oct 31"},
+  "effects": [
+   {"icon": "✏️", "label": "Fix form Nov 2–4"},
+   {"icon": "📝", "label": "Exam Dec 14–19"}
+  ]
+ },
+ "learn": {"t": "JRF (Junior Research Fellowship): a top NET score that comes with a monthly fellowship for PhD research. Lower qualifying scores give Assistant Professor and/or PhD-admission eligibility."},
+ "watch": "Late fee and final dates on ugcnet.nta.nic.in; correction window Nov 2–4.",
+ "thread": "ugc-net-dec-2026",
+ "links": [{"label": "Apply now", "url": "https://ugcnet.nta.nic.in/"}],
+ "sources": [
+  {"name": "NDTV", "title": "UGC NET December 2026: Registration Deadline Extended To October 31", "url": "https://www.ndtv.com/education/ugc-net-december-2026-registration-deadline-extended-to-october-31-apply-here-12246933"},
+  {"name": "Physics Wallah", "title": "UGC NET December 2026 application form out", "url": "https://www.pw.live/news/ugc-net-december-2026-application-form-out"},
+  {"name": "NTA", "title": "UGC NET official site", "url": "https://ugcnet.nta.nic.in/"}
+ ],
+ "date": "2026-10-28",
+ "moment": {"e": "📤", "t": "Sending to my PG friends", "k": "tell"}
+}
