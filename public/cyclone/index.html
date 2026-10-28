@@ -30,7 +30,9 @@ h2{font-size:16px;margin:22px 0 8px;display:flex;align-items:center;gap:8px}
 .btn-call{background:#13301f;color:#7ee2a8}.btn-map{background:var(--card2);color:var(--fg);border:1px solid var(--line)}
 .pb{font:inherit;font-size:12px;font-weight:800;border:0;border-radius:999px;padding:3px 9px;background:var(--o);color:#fff;cursor:pointer;margin-left:4px}
 .mtabs{display:flex;gap:6px;margin-bottom:6px}.mtabs button{flex:1;font:inherit;font-size:13.5px;font-weight:800;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:8px;cursor:pointer}.mtabs button.on{background:var(--fg);color:#111}
-#wind{width:100%;height:420px;border:1px solid var(--line);border-radius:16px}
+.ovl{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-bottom:6px}.ovl button{flex:none;font:inherit;font-size:12.5px;font-weight:800;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:6px 10px;cursor:pointer}.ovl button.on{background:#ff4500;border-color:#ff4500;color:#fff}
+.offscreen{position:absolute!important;left:-9999px;visibility:hidden}
+#wind{width:100%;height:460px;border:1px solid var(--line);border-radius:16px}
 #map{height:420px;border-radius:16px;border:1px solid var(--line)}
 .leg{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--mut);margin:6px 0 0}.leg i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
 .lbl{background:none!important;border:0!important;box-shadow:none!important;font:800 11px system-ui;color:#fff;text-shadow:0 0 3px #000,0 0 3px #000;padding:0!important}.lbl:before{display:none}
@@ -69,6 +71,14 @@ ul.sf{margin:0;padding-left:18px}ul.sf li{margin:3px 0;font-size:14.5px}
 <div class="status"><div class="row"><span class="cy">🌀</span><div><h1>Cyclone Arnab · <span id="lvl"></span></h1><div class="mv" id="mv"></div></div></div><p id="headline"></p><div class="upd">Verified desk updated <b id="dupd"></b> · news checked <b id="fupd">…</b> · refreshes every 10 s</div></div>
 <div class="nums" id="nums"></div>
 
+<h2>🗺️ Where the storm is</h2>
+<div class="mtabs"><button data-mt="wind" class="on">🌀 Live cyclone</button><button data-mt="alert">🗺️ Alert zones + satellite</button></div>
+<div class="ovl" id="ovl"><button data-ov="wind" class="on">💨 Wind</button><button data-ov="rain">🌧️ Rain</button><button data-ov="clouds">☁️ Clouds</button><button data-ov="pressure">🌀 Pressure</button><button data-ov="satellite">🛰️ Satellite</button><button data-ov="gust">🌬️ Gusts</button></div>
+<iframe id="wind" title="Live cyclone map" src="about:blank" allow="fullscreen"></iframe>
+<div id="map" role="img" aria-label="Map of Cyclone Arnab and districts on alert" class="offscreen"></div>
+<div class="upd" id="satinfo" hidden>🛰️ Live satellite clouds: loading…</div>
+<div class="leg"><span>🌀 Storm</span><span><i style="background:#ff4d3d"></i>Red alert</span><span><i style="background:#ffb020"></i>Orange alert</span><span><i style="background:#46d160"></i>No alert</span><span><i style="background:#4fbcff"></i>You</span></div>
+
 <h2>🧰 What do you need?</h2>
 <div class="need">
  <button data-go="near" data-t="shelter">🏠<span>Shelter & food</span></button>
@@ -84,12 +94,7 @@ ul.sf{margin:0;padding-left:18px}ul.sf li{margin:3px 0;font-size:14.5px}
 <div class="pick" id="pick"></div>
 <div id="dcard"></div>
 
-<h2>🗺️ Where the storm is</h2>
-<div class="mtabs"><button data-mt="alert" class="on">🗺️ Alerts + live clouds</button><button data-mt="wind">💨 Live wind</button></div>
-<div id="map" role="img" aria-label="Map of Cyclone Arnab and districts on alert"></div>
-<iframe id="wind" title="Live wind map" loading="lazy" hidden src="about:blank"></iframe>
-<div class="upd" id="satinfo">🛰️ Live satellite clouds: loading…</div>
-<div class="leg"><span>🌀 Storm</span><span><i style="background:#ff4d3d"></i>Red alert</span><span><i style="background:#ffb020"></i>Orange alert</span><span><i style="background:#46d160"></i>No alert</span><span><i style="background:#4fbcff"></i>You</span></div>
+
 
 <section id="near"><h2>🧭 Near you</h2>
  <div class="nt"><button data-t="shelter" class="on">🏠 Shelters</button><button data-t="hospital">🏥 Hospitals</button><button data-t="pharmacy">💊 Pharmacy</button><button data-t="food">🍲 Food</button><button data-t="fuel">⛽ Fuel</button><button data-t="police">🚓 Police/Fire</button></div>
@@ -156,8 +161,12 @@ function startPlay(){const last=new Date(Math.floor((Date.now()-lag*60000)/60000
   SAT.setOpacity(0);fi=0;play=setInterval(()=>{FR.forEach((f,i)=>f.l.setOpacity(i===fi?.85:0));const b=$("playbtn");if(b)b.textContent="⏸️ "+stamp(FR[fi].d);fi=(fi+1)%FR.length},900)}
 document.addEventListener("click",e=>{if(e.target.closest("#playbtn")){play?stopPlay():startPlay();track("cyclone_play")}});
 setInterval(()=>{if(map&&!play)loadSat()},600000);
-document.addEventListener("click",e=>{const b=e.target.closest("[data-mt]");if(!b)return;document.querySelectorAll("[data-mt]").forEach(x=>x.classList.toggle("on",x===b));const w=b.dataset.mt==="wind";
-  $("map").hidden=w;$("wind").hidden=!w;if(w&&$("wind").src==="about:blank")$("wind").src="https://embed.windy.com/embed2.html?lat=17.5&lon=82.0&detailLat=16.45&detailLon=81.9&zoom=6&level=surface&overlay=wind&product=ecmwf&menu=&message=true&marker=true&calendar=now&pressure=true&type=map&location=coordinates&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1";if(!w&&map)setTimeout(()=>map.invalidateSize(),50);track("cyclone_maptab",b.dataset.mt)});
+let OV="wind";
+function windySrc(ov){const P=(D&&D.position)||{lat:16.45,lon:81.9};return `https://embed.windy.com/embed2.html?lat=${(P.lat+0.8).toFixed(2)}&lon=${P.lon.toFixed(2)}&detailLat=${P.lat}&detailLon=${P.lon}&zoom=6&level=surface&overlay=${ov}&product=ecmwf&menu=&message=true&marker=true&calendar=now&pressure=true&type=map&location=coordinates&detail=&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1`}
+function showWindy(){$("wind").src=windySrc(OV)}
+document.addEventListener("click",e=>{const o=e.target.closest("[data-ov]");if(o){OV=o.dataset.ov;document.querySelectorAll("[data-ov]").forEach(x=>x.classList.toggle("on",x===o));showWindy();track("cyclone_overlay",OV);return}
+  const b=e.target.closest("[data-mt]");if(!b)return;document.querySelectorAll("[data-mt]").forEach(x=>x.classList.toggle("on",x===b));const w=b.dataset.mt==="wind";
+  $("map").classList.toggle("offscreen",w);$("wind").hidden=!w;$("ovl").hidden=!w;$("satinfo").hidden=w;if(w&&$("wind").src==="about:blank")showWindy();if(!w&&map)setTimeout(()=>map.invalidateSize(),50);track("cyclone_maptab",b.dataset.mt)});
 function drawMap(){
   if(!map){map=L.map("map",{zoomControl:true,scrollWheelZoom:false}).setView([17.8,82.0],6);
     L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png",{maxZoom:12,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>'}).addTo(map);
@@ -260,6 +269,6 @@ document.addEventListener("click",e=>{
 function locate(){if(!navigator.geolocation)return;navigator.geolocation.getCurrentPosition(pos=>{me={lat:pos.coords.latitude,lon:pos.coords.longitude};let best=null;PL.forEach(p=>{const d=km(me.lat,me.lon,p.lat,p.lon);if(!best||d<best.d)best={d,p}});
   track("cyclone_locate");setTimeout(loadNear,0);if(best&&best.d<80)choose(best.p.n);else{$("dcard").innerHTML=`<div class="dc"><div class="top"><b>Your location</b><span class="badge safe">NOT IN A LISTED ALERT DISTRICT</span></div><div class="ln"><i>🌀</i><span>Storm centre is ~${km(me.lat,me.lon,D.position.lat,D.position.lon)} km away. Rain may still reach you. Follow local news.</span></div></div>`;drawMap();map.setView([me.lat,me.lon],7)}},()=>{$("dcard").innerHTML='<p class="upd">Location is off. Pick your district above.</p>'},{timeout:10000,maximumAge:600000})}
 $("share").addEventListener("click",e=>{e.preventDefault();const u="https://spillthetea.news/cyclone/?src=wa&c=arnab-desk";const t=`🌀 Cyclone Arnab: check your district, the storm's position, control room numbers and safe places. Live, verified 👉 ${u}`;track("cyclone_share","desk");if(navigator.share)navigator.share({text:t}).catch(()=>{});else window.open("https://wa.me/?text="+encodeURIComponent(t),"_blank","noopener")});
-track("cyclone_open");loadDesk().then(loadWire);setInterval(loadWire,10000);setInterval(loadDesk,30000);setInterval(()=>{if(D)$("dupd").textContent=ago(D.updated)},5000);
+track("cyclone_open");loadDesk().then(()=>{showWindy();loadWire()});setInterval(loadWire,10000);setInterval(loadDesk,30000);setInterval(()=>{if(D)$("dupd").textContent=ago(D.updated)},5000);
 })();
 </script></body></html>
