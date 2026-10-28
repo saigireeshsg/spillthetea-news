@@ -40,10 +40,12 @@ h2{font-size:16px;margin:22px 0 8px;display:flex;align-items:center;gap:8px}
 .ovl{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-bottom:6px}.ovl button{flex:none;font:inherit;font-size:12.5px;font-weight:800;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:6px 10px;cursor:pointer}.ovl button.on{background:#ff4500;border-color:#ff4500;color:#fff}
 .offscreen{display:none!important}
 .ovl[hidden],#wind[hidden],#satinfo[hidden]{display:none!important}
-#wind{width:100%;height:460px;border:1px solid var(--line);border-radius:16px}
+#wwrap{position:relative;height:460px}#wwrap[hidden]{display:none}#wind{width:100%;height:460px;border:1px solid var(--line);border-radius:16px;display:block}#wov{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible}
+#wbadge{position:absolute;left:8px;top:8px;background:rgba(10,10,11,.82);border:1px solid #5a2a0e;border-radius:10px;padding:5px 9px;font-size:12px;font-weight:800;color:#ffd7c4;pointer-events:none;max-width:70%}
+#wlock{position:absolute;right:8px;bottom:8px;font:inherit;font-size:12px;font-weight:800;border:0;border-radius:999px;padding:7px 12px;background:#ffffff;color:#111;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.5)}
 #map{height:420px;border-radius:16px;border:1px solid var(--line)}
 .leg{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--mut);margin:6px 0 0}.leg i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
-.lbl{background:none!important;border:0!important;box-shadow:none!important;font:800 11px system-ui;color:#fff;text-shadow:0 0 3px #000,0 0 3px #000;padding:0!important}.lbl:before{display:none}
+.lbl{background:none!important;border:0!important;box-shadow:none!important;font:800 10px system-ui;color:#fff;text-shadow:0 0 2px #000,0 0 2px #000,0 0 4px #000;padding:0!important;white-space:nowrap}.lblhide .lbl.perm{display:none}.lblmid .lbl.ora{display:none}.lbl:before{display:none}
 .need{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}.need button{font:inherit;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:22px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 4px;color:var(--fg);cursor:pointer}.need button span{font-size:11.5px;font-weight:800;text-align:center;line-height:1.2}
 .nt{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-bottom:6px}.nt button{flex:none;font:inherit;font-size:13px;font-weight:800;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:7px 11px;cursor:pointer}.nt button.on{background:var(--fg);color:#111}
 .pc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:11px 12px;margin-bottom:8px;display:grid;gap:5px}.pct{display:flex;gap:8px;align-items:flex-start}.pct b{flex:1;font-size:15px;line-height:1.3}.pc .km{font-weight:900;color:#ffb38f;white-space:nowrap;font-size:13px}
@@ -103,9 +105,9 @@ section{scroll-margin-top:110px}
 <section id="mapsec"><h2>🗺️ Where the storm is</h2>
 <div class="mtabs"><button data-mt="wind" class="on">🌀 Live cyclone</button><button data-mt="alert">🗺️ Alert zones + satellite</button></div>
 <div class="ovl" id="ovl"><button data-ov="wind" class="on">💨 Wind</button><button data-ov="rain">🌧️ Rain</button><button data-ov="clouds">☁️ Clouds</button><button data-ov="pressure">🌀 Pressure</button><button data-ov="satellite">🛰️ Satellite</button><button data-ov="gust">🌬️ Gusts</button></div>
-<iframe id="wind" title="Live cyclone map" src="about:blank" allow="fullscreen"></iframe>
+<div id="wwrap"><iframe id="wind" title="Live cyclone map" src="about:blank" allow="fullscreen" style="pointer-events:none"></iframe><svg id="wov" aria-hidden="true"></svg><div id="wbadge"></div><button id="wlock" type="button">✋ Explore map (pan / zoom)</button></div>
 <div id="map" role="img" aria-label="Map of Cyclone Arnab and districts on alert" class="offscreen"></div>
-<div class="upd" id="satinfo" hidden>🛰️ Live satellite clouds: loading…</div>
+<div class="upd" id="satinfo" hidden><button id="satbtn" class="pb" style="margin:0">🛰️ Show live satellite clouds</button></div>
 <div class="leg"><span>🌀 Storm</span><span><i style="background:#ff4d3d"></i>Red alert</span><span><i style="background:#ffb020"></i>Orange alert</span><span><i style="background:#46d160"></i>No cyclone alert</span><span style="color:var(--mut)">Tap a district for details</span><span><i style="background:#4fbcff"></i>You</span></div>
 
 </section>
@@ -185,7 +187,7 @@ fetch("/cyclone/districts.geojson").then(r=>r.ok?r.json():null).then(j=>{if(j){G
 // Real satellite: NASA GIBS, Himawari-9 AHI band 13 "clean infrared" (geostationary, every 10 min). Cold, high cloud = bright.
 const GIBS=t=>`https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Himawari_AHI_Band13_Clean_Infrared/default/${t}/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png`;
 const iso=d=>d.toISOString().slice(0,16)+":00Z";
-let SAT=null,FR=[],fi=0,play=null,lag=40;
+let SAT=null,FR=[],fi=0,play=null,lag=40,SATON=false,fitHit=false;
 function satLayer(t,op){return L.tileLayer(GIBS(t),{opacity:op,maxNativeZoom:6,maxZoom:12,tileSize:256,attribution:'Satellite: NASA GIBS / JMA Himawari-9'})}
 function stamp(d){return d.toLocaleTimeString("en-IN",{timeZone:"Asia/Kolkata",hour:"numeric",minute:"2-digit"})}
 function loadSat(){
@@ -193,44 +195,61 @@ function loadSat(){
   if(SAT)map.removeLayer(SAT);FR.forEach(f=>map.removeLayer(f.l));FR=[];stopPlay();
   SAT=satLayer(iso(base),.85).addTo(map);let errs=0,ok=false;
   SAT.on("tileerror",()=>{errs++;if(errs===3&&!ok&&lag<120){lag+=20;loadSat()}});
-  SAT.on("tileload",()=>{if(!ok){ok=true;$("satinfo").innerHTML=`🛰️ <b>Real satellite</b> (NASA/Himawari infrared): bright white = thick storm cloud. Image from <b>${stamp(base)} IST</b> · updates every 10 min · <button id="playbtn" class="pb">▶️ Play last 3 hours</button>`}});
-  $("satinfo").textContent="🛰️ Loading live satellite…";
+  SAT.on("tileload",()=>{if(!ok){ok=true;$("satinfo").innerHTML=`🛰️ <b>Real satellite</b> (NASA/Himawari infrared): bright white = thick storm cloud. Image from <b>${stamp(base)} IST</b> · updates every 10 min · <button id="playbtn" class="pb">▶️ Play last 3 hours</button> <button id="satbtn" class="pb" style="background:#333">Hide</button>`}});
+  $("satinfo").innerHTML='🛰️ Loading live satellite… <button id="satbtn" class="pb" style="background:#333">Cancel</button>';
 }
 function stopPlay(){if(play){clearInterval(play);play=null}FR.forEach(f=>f.l.setOpacity(0));if(SAT)SAT.setOpacity(.85);const b=$("playbtn");if(b)b.textContent="▶️ Play last 3 hours"}
 function startPlay(){const last=new Date(Math.floor((Date.now()-lag*60000)/600000)*600000);
   if(!FR.length)for(let k=6;k>=0;k--){const d=new Date(last-k*1800000);FR.push({d,l:satLayer(iso(d),0).addTo(map)})}
   SAT.setOpacity(0);fi=0;play=setInterval(()=>{FR.forEach((f,i)=>f.l.setOpacity(i===fi?.85:0));const b=$("playbtn");if(b)b.textContent="⏸️ "+stamp(FR[fi].d);fi=(fi+1)%FR.length},900)}
 document.addEventListener("click",e=>{if(e.target.closest("#playbtn")){play?stopPlay():startPlay();track("cyclone_play")}});
-setInterval(()=>{if(map&&!play)loadSat()},600000);
+setInterval(()=>{if(map&&SATON&&!play)loadSat()},600000);
+document.addEventListener("click",e=>{if(!e.target.closest("#satbtn"))return;if(!SATON){SATON=true;loadSat();track("cyclone_sat_on")}else{SATON=false;stopPlay();if(SAT){map.removeLayer(SAT);SAT=null}FR.forEach(f=>map.removeLayer(f.l));FR=[];$("satinfo").innerHTML='<button id="satbtn" class="pb" style="margin:0">🛰️ Show live satellite clouds</button>'}});
 let OV="wind";
-function windySrc(ov){const P=(D&&D.position)||{lat:16.45,lon:81.9};return `https://embed.windy.com/embed2.html?lat=${(P.lat+0.8).toFixed(2)}&lon=${P.lon.toFixed(2)}&detailLat=${P.lat}&detailLon=${P.lon}&zoom=6&level=surface&overlay=${ov}&product=ecmwf&menu=&message=true&marker=true&calendar=now&pressure=true&type=map&location=coordinates&detail=&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1`}
-function showWindy(){$("wind").src=windySrc(OV)}
+// Windy is locked to the coast: Srikakulam to Krishna + south Odisha (no auto-zoom, no pop-up pin). Our own arrow shows the storm's heading.
+const WV={lat:17.7,lon:82.6,z:6};
+function windySrc(ov){return `https://embed.windy.com/embed2.html?lat=${WV.lat}&lon=${WV.lon}&zoom=${WV.z}&level=surface&overlay=${ov}&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1`}
+let WLOCK=true;
+function showWindy(){WLOCK=true;$("wind").style.pointerEvents="none";$("wlock").textContent="✋ Explore map (pan / zoom)";$("wind").src=windySrc(OV);drawWov()}
+const mx=(lon,z)=>(lon+180)/360*256*2**z,my=(lat,z)=>{const r=lat*Math.PI/180;return(0.5-Math.log(Math.tan(Math.PI/4+r/2))/(2*Math.PI))*256*2**z};
+function drawWov(){const svg=$("wov"),bd=$("wbadge");if(!D||!D.position){return}const P=D.position,H=D.heading;
+  const W=$("wwrap").clientWidth||360,Hh=$("wwrap").clientHeight||460;
+  bd.innerHTML=`🌀 <b>${E(D.name||"Cyclone")}</b>${H?` · <b>${E(H.label)}</b>`:""}<br><span style="font-weight:600;color:#a3acb0">${E(D.moving.text)}</span>`;
+  if(!WLOCK){svg.innerHTML="";return}
+  const x=W/2+mx(P.lon,WV.z)-mx(WV.lon,WV.z),y=Hh/2+my(P.lat,WV.z)-my(WV.lat,WV.z);
+  if(x<-20||y<-20||x>W+20||y>Hh+20){svg.innerHTML="";return}
+  let arrow="";if(H){const a=H.deg*Math.PI/180,L2=64,ex=x+Math.sin(a)*L2,ey=y-Math.cos(a)*L2,hx=Math.sin(a),hy=-Math.cos(a),px=-hy,py=hx;
+    const h1=[ex-hx*10+px*7,ey-hy*10+py*7],h2=[ex-hx*10-px*7,ey-hy*10-py*7];
+    arrow=`<line x1="${x}" y1="${y}" x2="${ex}" y2="${ey}" stroke="#000" stroke-width="6" stroke-linecap="round" opacity=".55"/><line x1="${x}" y1="${y}" x2="${ex}" y2="${ey}" stroke="#ff4500" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="9 6"/><polygon points="${ex},${ey} ${h1[0]},${h1[1]} ${h2[0]},${h2[1]}" fill="#ff4500" stroke="#000" stroke-width="1.5"/>`}
+  svg.innerHTML=`${arrow}<circle cx="${x}" cy="${y}" r="11" fill="#ff4500" stroke="#fff" stroke-width="2.5"/><circle cx="${x}" cy="${y}" r="3.5" fill="#fff"/>`}
+window.addEventListener("resize",()=>{if(!$("wwrap").hidden)drawWov()});
+document.addEventListener("click",e=>{if(!e.target.closest("#wlock"))return;if(WLOCK){WLOCK=false;$("wind").style.pointerEvents="auto";$("wlock").textContent="↩ Back to coast view";$("wov").innerHTML="";track("cyclone_wind_explore")}else showWindy()});
 document.addEventListener("click",e=>{const o=e.target.closest("[data-ov]");if(o){OV=o.dataset.ov;document.querySelectorAll("[data-ov]").forEach(x=>x.classList.toggle("on",x===o));showWindy();track("cyclone_overlay",OV);return}
   const b=e.target.closest("[data-mt]");if(!b)return;document.querySelectorAll("[data-mt]").forEach(x=>x.classList.toggle("on",x===b));const w=b.dataset.mt==="wind";
-  $("map").classList.toggle("offscreen",w);$("wind").hidden=!w;$("ovl").hidden=!w;$("satinfo").hidden=w;if(w&&$("wind").src==="about:blank")showWindy();if(!w)setTimeout(()=>{if(map)map.invalidateSize();else drawMap();const p=PL.find(x=>x.n===sel);if(p)map.setView([p.lat,p.lon],8)},30);track("cyclone_maptab",b.dataset.mt)});
+  $("map").classList.toggle("offscreen",w);$("wwrap").hidden=!w;$("ovl").hidden=!w;$("satinfo").hidden=w;if(w&&$("wind").src==="about:blank")showWindy();if(!w)setTimeout(()=>{if(map)map.invalidateSize();else drawMap();const p=PL.find(x=>x.n===sel);if(p)map.setView([p.lat,p.lon],8)},30);track("cyclone_maptab",b.dataset.mt)});
+function lblZoom(){const z=map.getZoom(),c=$("map").classList;c.toggle("lblhide",z<6);c.toggle("lblmid",z>=6&&z<7)}
 function drawMap(){
   if(!map&&$("map").classList.contains("offscreen"))return;
   if(!map){map=L.map("map",{zoomControl:true,scrollWheelZoom:false}).setView([17.8,82.0],6);
     L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png",{maxZoom:12,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>'}).addTo(map);
-    map.createPane("labels");map.getPane("labels").style.zIndex=450;map.getPane("labels").style.pointerEvents="none";
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png",{maxZoom:12,pane:"labels"}).addTo(map);
-    L1=L.layerGroup().addTo(map);loadSat()}
+    L1=L.layerGroup().addTo(map);map.on("zoomend",lblZoom);fitHit=true}
   L1.clearLayers();mk={};
   if(GJ){const by={};PL.forEach(p=>by[(GJA[p.n]||p.n).toLowerCase()]=p);
     L.geoJSON(GJ,{style:f=>{const p=by[f.properties.n.toLowerCase()],lv=p?p.lvl:"none",c=COL[lv]||"#46d160",on=p&&p.n===sel;
         return{color:on||lv!=="none"?"#ffffff":c,weight:on?3:lv==="none"?.6:1,opacity:on?1:lv==="none"?.5:.5,fillColor:c,fillOpacity:lv==="red"?.42:lv==="orange"?.34:lv==="safe"?.25:.08}},
       onEachFeature:(f,ly)=>{const p=by[f.properties.n.toLowerCase()];const lv=p?p.lvl:"none";
-        const perm=!!p&&(p.lvl==="red"||p.n===sel);ly.bindTooltip(perm?E(f.properties.n):`${E(f.properties.n)}${lv==="red"?" · 🔴 red alert":lv==="orange"?" · 🟠 orange alert":" · 🟢 no cyclone alert"}`,{permanent:perm,direction:"center",className:"lbl"});
+        const perm=!!p&&(p.lvl==="red"||p.lvl==="orange"||p.n===sel);ly.bindTooltip(perm?E(f.properties.n):`${E(f.properties.n)}${lv==="red"?" · 🔴 red alert":lv==="orange"?" · 🟠 orange alert":" · 🟢 no cyclone alert"}`,{permanent:perm,direction:"center",className:"lbl"+(perm?" perm":"")+(p&&p.lvl==="orange"&&p.n!==sel?" ora":"")});
         if(p){ly.on("click",()=>choose(p.n,true));mk[p.n]=ly}}}).addTo(L1)}
   else PL.forEach(p=>{const c=COL[p.lvl]||"#ffb020";const z=L.circle([p.lat,p.lon],{radius:p.lvl==="safe"?12000:30000,color:c,weight:p.n===sel?4:1.5,fillColor:c,fillOpacity:p.n===sel?.35:.15}).addTo(L1);
     z.bindTooltip(p.n,{permanent:p.lvl==="red"||p.n===sel||p.n==="Hyderabad",direction:"center",className:"lbl"});z.on("click",()=>choose(p.n,true));mk[p.n]=z});
-  if(D.track.length>1)L.polyline(D.track.map(t=>[t.lat,t.lon]),{color:"#ff4500",weight:3}).addTo(L1);
-  const P=D.position;[150,80].forEach((r,i)=>L.circle([P.lat,P.lon],{radius:r*1000,color:"#ff4500",weight:1,dashArray:"4 4",fill:false}).addTo(L1));
-  if(D.heading){const a=D.heading.deg*Math.PI/180,len=1.4,end=[P.lat+len*Math.cos(a),P.lon+len*Math.sin(a)/Math.cos(P.lat*Math.PI/180)];
-    L.polyline([[P.lat,P.lon],end],{color:"#ff4500",weight:4,dashArray:"10 8"}).addTo(L1);
-    L.marker(end,{icon:L.divIcon({className:"",html:`<div style="transform:rotate(${D.heading.deg}deg);font-size:22px;color:#ff4500;line-height:22px">▲</div>`,iconSize:[22,22],iconAnchor:[11,11]})}).bindTooltip(D.heading.label+" (indicative direction)",{direction:"top"}).addTo(L1)}
+  const P=D.position;
+  if(D.heading){const a=D.heading.deg*Math.PI/180,len=.8,end=[P.lat+len*Math.cos(a),P.lon+len*Math.sin(a)/Math.cos(P.lat*Math.PI/180)];
+    L.polyline([[P.lat,P.lon],end],{color:"#ff4500",weight:3,dashArray:"8 6"}).addTo(L1);
+    L.marker(end,{icon:L.divIcon({className:"",html:`<div style="transform:rotate(${D.heading.deg}deg);font-size:18px;color:#ff4500;line-height:18px;text-shadow:0 0 3px #000">▲</div>`,iconSize:[18,18],iconAnchor:[9,9]})}).bindTooltip("Moving "+D.heading.label+" (indicative)",{direction:"top"}).addTo(L1)}
   L.marker([P.lat,P.lon],{icon:L.divIcon({className:"",html:'<div style="font-size:34px;line-height:34px;animation:spin 3s linear infinite">🌀</div>',iconSize:[34,34],iconAnchor:[17,17]}),zIndexOffset:1000}).bindPopup(`<b>Cyclone Arnab</b><br>${E(P.label)}`).addTo(L1);
   if(me)L.circleMarker([me.lat,me.lon],{radius:8,color:"#4fbcff",weight:3,fillOpacity:.9}).bindTooltip("You").addTo(L1);
+  if(fitHit&&!sel){fitHit=false;const pts=PL.filter(p=>p.lvl==="red"||p.lvl==="orange").map(p=>[p.lat,p.lon]);pts.push([P.lat,P.lon]);if(pts.length>1)map.fitBounds(pts,{padding:[18,18],maxZoom:8})}
+  lblZoom();
 }
 function cardHTML(p){
   const P=D.position,dk=km(P.lat,P.lon,p.lat,p.lon),dd=dir(p.lat,p.lon,P.lat,P.lon);
@@ -350,7 +369,7 @@ function render(){
   $("contacts").innerHTML=D.contacts.map((g,i)=>`<details class="cg" ${i<2?"open":""}><summary>${E(g.group)}</summary>${g.items.map(([l,n,k])=>`<div class="r"><span>${E(l)}</span><a href="${k==="wa"?"https://wa.me/91"+String(n).replace(/\D/g,"").slice(-10)+"?text=Hi":tel(n)}" ${k==="wa"?'target="_blank" rel="noopener"':""}>${k==="wa"?"💬":"📞"} ${E(n)}</a></div>`).join("")}</details>`).join("");
   $("safety").innerHTML=D.safety.map(s=>`<li>${E(s)}</li>`).join("");
   $("sources").innerHTML=D.sources.map(([t,u])=>`<li><a href="${E(u)}" target="_blank" rel="noopener">${E(t)}</a></li>`).join("");
-  renderInfo();drawMap();{const qd=new URLSearchParams(location.search).get("d");if(qd&&!render.q){render.q=1;const m=PL.find(p=>p.n.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")===qd.toLowerCase());if(m)sel=m.n}}if(sel&&PL.some(p=>p.n===sel))choose(sel);else if(!useMe)loadNear();
+  renderInfo();drawMap();drawWov();{const qd=new URLSearchParams(location.search).get("d");if(qd&&!render.q){render.q=1;const m=PL.find(p=>p.n.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")===qd.toLowerCase());if(m)sel=m.n}}if(sel&&PL.some(p=>p.n===sel))choose(sel);else if(!useMe)loadNear();
 }
 async function loadDesk(){try{const j=await (await fetch("/cyclone/arnab.json?t="+Math.floor(Date.now()/30000))).json();const ch=!D||j.updated!==D.updated;D=j;if(ch)render();else $("dupd").textContent=ago(D.updated)}catch(e){}}
 let seen=new Set(),first=true;
