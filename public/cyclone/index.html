@@ -88,7 +88,17 @@ section{scroll-margin-top:110px}
 <header><div class="hb"><img src="/favicon.svg" alt=""><b>spill</b><span style="font-size:12px;font-weight:800;color:var(--red);margin-left:6px"><span class="dot"></span> LIVE</span><a class="sos" href="tel:112">📞 112</a></div></header>
 <main>
 <div class="status"><div class="row"><span class="cy">🌀</span><div><h1>Cyclone Arnab · <span id="lvl"></span></h1><div class="mv" id="mv"></div></div></div><p id="headline"></p><div class="upd">Verified desk updated <b id="dupd"></b> · news checked <b id="fupd">…</b> · refreshes every 10 s</div></div>
-<nav class="qn"><button data-go="area">📍 My area</button><button data-go="windnow">💨 Wind</button><button data-go="updates">📰 Updates</button><button data-go="travel">🚆 Travel</button><button data-go="contacts">☎️ Helplines</button><button data-go="near">🏥 Help near me</button><button data-go="mapsec">🗺️ Map</button></nav>
+<nav class="qn"><button data-go="mapsec">🗺️ Map</button><button data-go="area">📍 My area</button><button data-go="windnow">💨 Wind</button><button data-go="updates">📰 Updates</button><button data-go="travel">🚆 Travel</button><button data-go="contacts">☎️ Helplines</button><button data-go="near">🏥 Help near me</button></nav>
+
+<section id="mapsec"><h2>🗺️ Where the storm is</h2>
+<div class="mtabs"><button data-mt="wind" class="on">🌀 Live cyclone</button><button data-mt="alert">🗺️ Alert zones + satellite</button></div>
+<div class="ovl" id="ovl"><button data-ov="wind" class="on">💨 Wind</button><button data-ov="rain">🌧️ Rain</button><button data-ov="clouds">☁️ Clouds</button><button data-ov="pressure">🌀 Pressure</button><button data-ov="satellite">🛰️ Satellite</button><button data-ov="gust">🌬️ Gusts</button></div>
+<iframe id="wind" title="Live cyclone map" src="about:blank" allow="fullscreen"></iframe>
+<div id="map" role="img" aria-label="Map of Cyclone Arnab and districts on alert" class="offscreen"></div>
+<div class="upd" id="satinfo" hidden>🛰️ Live satellite clouds: loading…</div>
+<div class="leg"><span>🌀 Storm</span><span><i style="background:#ff4d3d"></i>Red alert</span><span><i style="background:#ffb020"></i>Orange alert</span><span><i style="background:#46d160"></i>No alert</span><span><i style="background:#4fbcff"></i>You</span></div>
+
+</section>
 
 <section id="area"><h2>📍 Your area</h2>
  <button class="locb" data-loc="1">📍 Use my live location</button>
@@ -134,15 +144,6 @@ section{scroll-margin-top:110px}
  <div class="info" id="relief"></div>
 </section>
 
-<section id="mapsec"><h2>🗺️ Where the storm is</h2>
-<div class="mtabs"><button data-mt="wind" class="on">🌀 Live cyclone</button><button data-mt="alert">🗺️ Alert zones + satellite</button></div>
-<div class="ovl" id="ovl"><button data-ov="wind" class="on">💨 Wind</button><button data-ov="rain">🌧️ Rain</button><button data-ov="clouds">☁️ Clouds</button><button data-ov="pressure">🌀 Pressure</button><button data-ov="satellite">🛰️ Satellite</button><button data-ov="gust">🌬️ Gusts</button></div>
-<iframe id="wind" title="Live cyclone map" src="about:blank" allow="fullscreen"></iframe>
-<div id="map" role="img" aria-label="Map of Cyclone Arnab and districts on alert" class="offscreen"></div>
-<div class="upd" id="satinfo" hidden>🛰️ Live satellite clouds: loading…</div>
-<div class="leg"><span>🌀 Storm</span><span><i style="background:#ff4d3d"></i>Red alert</span><span><i style="background:#ffb020"></i>Orange alert</span><span><i style="background:#46d160"></i>No alert</span><span><i style="background:#4fbcff"></i>You</span></div>
-
-</section>
 <section id="power"><h2>⚡ Power</h2><div id="pw"></div></section>
 <h2>💬 How people are feeling</h2><div class="mood" id="mood"></div>
 <h2>❓ Quick answers</h2><div class="faq" id="faq"></div>
