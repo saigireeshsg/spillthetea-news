@@ -1,13 +1,13 @@
 {
   "name": "Cyclone Arnab",
-  "updated": "2026-10-31T22:15:00+05:30",
+  "updated": "2026-10-31T23:15:00+05:30",
   "level": "Over",
   "moving": {
     "state": "dissipated",
     "text": "Arnab has weakened to a low over Chhattisgarh. The storm is over; recovery is under way.",
-    "eta": "No more cyclone threat from Arnab. New, separate system: IMD says a depression formed at 11:30 am on Oct 31 over the southeast Bay, about 330 km west-southwest of Sri Vijayapuram (Port Blair), moving west-northwest. It should become a deep depression within 12 hours and a cyclonic storm in the next 12 (name: Murasu), with winds of 80–90 km/h gusting to 100. It should reach the west-central Bay near the Andhra coast by Nov 2 evening; PTI reports possible landfall on the AP coast on Nov 3 morning. IMD expects it to be weaker than Arnab. No exact landfall point yet."
+    "eta": "No more cyclone threat from Arnab. New, separate system: IMD's 5:30 pm bulletin (Oct 31) puts the depression about 980 km southeast of Visakhapatnam and 1,030 km southeast of Machilipatnam, moving west-northwest at 30 km/h. It should be a deep depression by midnight, cyclonic storm 'Murasu' on Nov 1 and a severe cyclonic storm on Nov 2. IMD expects it to cross the south Andhra coast between Nellore and Narsapur on Nov 3 morning, with winds of 100–110 km/h gusting to 120 (Arnab hit at about 150 km/h)."
   },
-  "headline": "Arnab is over, but a new depression has formed in the Bay. IMD says it may become Cyclone Murasu within 24 hours and near the Andhra coast by Nov 2 evening, possibly hitting land on Nov 3 morning. It should be weaker than Arnab (80–90 km/h winds). Andhra is in recovery; in Ganjam (Odisha), the landslide search goes on.",
+  "headline": "Arnab is over, but a new storm is coming. IMD now says it may become a severe cyclonic storm (Murasu) and cross the south Andhra coast between Nellore and Narsapur on Nov 3 morning, with 100–110 km/h winds. That is stronger than first forecast, but still weaker than Arnab. Andhra is in recovery; in Ganjam (Odisha), the landslide search goes on.",
   "position": {
     "lat": 16.45,
     "lon": 81.9,
@@ -45,12 +45,12 @@
       "what": "No cyclone. Only thunderstorm/lightning alerts in AP and east Telangana"
     },
     {
-      "t": "Nov 1",
-      "what": "New depression (not Arnab) likely to become a deep depression, then cyclonic storm 'Murasu' (IMD, Oct 31, 3 pm)"
+      "t": "Oct 31 midnight – Nov 1",
+      "what": "New depression (not Arnab) → deep depression by midnight → cyclonic storm 'Murasu' on Nov 1 (IMD, 5:30 pm Oct 31)"
     },
     {
-      "t": "Nov 2 evening – Nov 3",
-      "what": "Near the Andhra coast by Nov 2 evening; may cross the AP coast on Nov 3 morning (IMD via PTI). Exact point not announced"
+      "t": "Nov 2 – Nov 3 morning",
+      "what": "Severe cyclonic storm on Nov 2; expected to cross the south AP coast between Nellore and Narsapur on Nov 3 morning, 100–110 km/h gusting to 120 (IMD)"
     }
   ],
   "briefing": [
@@ -61,7 +61,7 @@
     },
     {
       "e": "🌧️",
-      "t": "New storm: a depression formed in the southeast Bay on Oct 31, 11:30 am. IMD says it may become cyclonic storm 'Murasu' (80–90 km/h, gusts 100) and near the Andhra coast by Nov 2 evening; possible AP landfall Nov 3 morning (PTI). Weaker than Arnab. APSDMA: heavy to very heavy rain in central AP & Rayalaseema Nov 2–3; fishermen stay ashore.",
+      "t": "New storm: IMD (5:30 pm, Oct 31) expects the Bay depression to become cyclone 'Murasu' on Nov 1 and a severe cyclonic storm on Nov 2, crossing the south Andhra coast between Nellore and Narsapur on Nov 3 morning at 100–110 km/h (gusts 120). Weaker than Arnab. APSDMA: heavy to very heavy rain in central AP & Rayalaseema Nov 2–3; fishermen stay ashore.",
       "n": 3
     },
     {
@@ -111,6 +111,12 @@
     }
   ],
   "updates": [
+    {
+      "t": "Oct 31, 11:15 pm",
+      "e": "🌀",
+      "x": "IMD's 5:30 pm bulletin raises the forecast for the new storm. The depression is about 980 km southeast of Visakhapatnam, 1,030 km southeast of Machilipatnam and 1,080 km east-southeast of Ongole, moving west-northwest at 30 km/h. It should be a deep depression by midnight, cyclonic storm 'Murasu' on Nov 1 and a severe cyclonic storm on Nov 2. It is expected to cross the south Andhra coast between Nellore and Narsapur on Nov 3 morning, with winds of 100–110 km/h gusting to 120 (earlier forecast: 80–90 km/h). Still weaker than Arnab. Odisha: orange (heavy to very heavy rain, 50–60 km/h winds) for south Odisha on Nov 3–4, most of all Rayagada, Koraput, Malkangiri, Gajapati and Ganjam; yellow alerts on Nov 1–2. One private forecaster on X says it won't become a cyclone; go by IMD. SACHET: no new red/orange district alerts for AP, Odisha, Telangana or Yanam at 11 pm, only AP lightning warnings.",
+      "src": "IMD via Argus News & Pragativadi, Oct 31 (10:30 pm); NDMA SACHET"
+    },
     {
       "t": "Oct 31, 10:15 pm",
       "e": "📢",
@@ -194,12 +200,6 @@
       "e": "🟠",
       "x": "Odisha: yellow rain alert for Rayagada, Koraput, Malkangiri, Gajapati and Ganjam on Nov 1–2; orange (heavy to very heavy rain) for Malkangiri on Nov 2–3.",
       "src": "Reporters Today (IMD Bhubaneswar)"
-    },
-    {
-      "t": "Oct 31, 10:00 am",
-      "e": "💰",
-      "x": "Odisha released an extra ₹20 crore to Ganjam for rescue, relief, medical help and road repair, after CM Majhi's aerial survey of Ganjam and Gajapati.",
-      "src": "Odisha Barta (SRC Odisha)"
     }
   ],
   "mood": [
@@ -472,12 +472,16 @@
   ],
   "faq": [
     {
+      "q": "Is Cyclone Murasu coming to Nellore, Ongole or Machilipatnam?",
+      "a": "IMD expects Murasu to cross the coast between Nellore and Narsapur on Nov 3 morning as a severe cyclonic storm (100–110 km/h, gusts 120). Nellore, Prakasam (Ongole), Bapatla, Krishna (Machilipatnam) and West Godavari lie on that stretch. No district red or orange alert had been issued on SACHET by 11 pm on Oct 31. Get ready now: charge phones, store water and dry food, and know your nearest relief centre (use 'Near me' on this page). Emergency: 112."
+    },
+    {
       "q": "Is anyone missing in the Ganjam landslide (Cyclone Arnab)?",
       "a": "Yes. On Oct 31 Odisha's Special Relief Commissioner said 12 people are missing after a landslide at hilltop Gidipabali village, Bhanjanagar block, Ganjam. One woman has been found. 160–170 Fire Services, SOG and NDRF personnel are searching. Odisha emergency: 112."
     },
     {
       "q": "What is Cyclone Murasu and where will it hit?",
-      "a": "Murasu is the name the new Bay of Bengal system will get if it becomes a cyclonic storm (name proposed by India). On Oct 31 it was a depression about 330 km west-southwest of Port Blair, moving west-northwest. IMD expects it near the Andhra coast by Nov 2 evening and PTI reports possible landfall on the AP coast on Nov 3 morning, with 80–90 km/h winds — weaker than Arnab. No exact landfall district announced yet. Emergency: 112."
+      "a": "Murasu is the name the new Bay of Bengal system will get when it becomes a cyclonic storm (name proposed by India). IMD's Oct 31 evening bulletin: it should become a cyclonic storm on Nov 1 and a severe cyclonic storm on Nov 2, then cross the south Andhra coast between Nellore and Narsapur on Nov 3 morning, with winds of 100–110 km/h gusting to 120. That stretch takes in the coasts of Nellore, Prakasam, Bapatla, Krishna and West Godavari. It is weaker than Arnab. Emergency: 112."
     },
     {
       "q": "Is there a red alert in Khammam for Cyclone Murasu?",
@@ -493,7 +497,7 @@
     },
     {
       "q": "Is another cyclone coming to Andhra Pradesh after Arnab?",
-      "a": "Possibly. A depression formed in the southeast Bay of Bengal on Oct 31. IMD says it may become a cyclonic storm (Murasu) within about 24 hours, with winds of 80–90 km/h gusting to 100, and reach near the Andhra coast by Nov 2 evening; PTI reports possible landfall on the AP coast on Nov 3 morning. It is expected to be weaker than Arnab. The exact landfall point is not known yet — we will update this page as IMD announces it. Expect heavy rain in coastal AP and Rayalaseema Nov 2–4. Fishermen should not go to sea."
+      "a": "Yes. IMD expects a new storm, Murasu, to cross the south Andhra coast between Nellore and Narsapur on Nov 3 morning as a severe cyclonic storm (100–110 km/h, gusts 120). That is stronger than the first forecast but weaker than Arnab. Expect heavy to very heavy rain in central AP and Rayalaseema on Nov 2–3. Fishermen should not go to sea. We will update this page as district alerts come in."
     },
     {
       "q": "Is Cyclone Arnab coming to Vizag or Hyderabad?",
@@ -791,6 +795,14 @@
     [
       "Telangana & AP weather update, Oct 31 (Asianet Newsable)",
       "https://newsable.asianetnews.com/gallery/india/telangana-andhra-pradesh-weather-update-cyclone-murasu-triggers-red-alert-heavy-rains-4f3qign"
+    ],
+    [
+      "IMD: Murasu may cross AP coast between Nellore and Narsapur Nov 3 (Argus News)",
+      "https://argusenglish.in/national/cyclone-murasu-likely-to-form-tomorrow-imd-says-severe-storm-may-hit-andhra-coast-on-november-3"
+    ],
+    [
+      "Murasu: severe cyclonic storm forecast, Odisha alerts (Pragativadi)",
+      "https://pragativadi.com/cyclone-murasu-alert-severe-cyclonic-storm-to-strike-andhra-rain-in-odisha/"
     ]
   ],
   "trains": {
