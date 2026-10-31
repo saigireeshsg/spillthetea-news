@@ -1,6 +1,6 @@
 {
   "name": "Cyclone Arnab",
-  "updated": "2026-10-31T08:15:00+05:30",
+  "updated": "2026-10-31T09:20:00+05:30",
   "level": "Over",
   "moving": {
     "state": "dissipated",
@@ -58,7 +58,7 @@
     },
     {
       "e": "🔌",
-      "t": "Konaseema is slowest: about 8,000 poles fell there (CM). Only 32% of damaged distribution transformers are fixed so far.",
+      "t": "Konaseema is slowest: about 8,000 poles fell there (CM). AP's target is full power restoration by this evening, Oct 31 (Energy Minister). Mobile network: 384 of 1,045 towers were still down on Oct 30.",
       "n": 2
     },
     {
@@ -130,6 +130,18 @@
       "src": "NDMA SACHET (CWC/SRC Odisha)"
     },
     {
+      "t": "Oct 30, 5:07 pm",
+      "e": "📶",
+      "x": "Mobile towers: 661 of 1,045 affected towers working again; 384 still down. Konaseema and West Godavari had the most villages without power.",
+      "src": "IANS"
+    },
+    {
+      "t": "Oct 30, 4:27 pm",
+      "e": "🔌",
+      "x": "Energy Minister Gottipati Ravi Kumar: nearly 15,000 power poles damaged across AP. Target: full restoration by Saturday (Oct 31) evening. 2,500 APSPDCL staff sent to help.",
+      "src": "Deccan Chronicle"
+    },
+    {
       "t": "Oct 30, evening",
       "e": "🛣️",
       "x": "AP: all 2,270 fallen trees cleared from R&B roads; 119 of 137 cut road points reconnected. 661 of 1,045 mobile towers working again.",
@@ -170,18 +182,6 @@
       "e": "🏠",
       "x": "AP: 3 deaths reported, 31 houses damaged, about 57,000 people in relief camps. 38 evacuated from Yanam overnight. NDRF: north AP and south Odisha worst hit; no serious impact in Odisha so far.",
       "src": "Business Standard / PTI"
-    },
-    {
-      "t": "Oct 28, 11:51 am",
-      "e": "🌧️",
-      "x": "Odisha: landfall took ~6.5 hours, ending around 8:30 am. Storm expected to cross Malkangiri tonight as a deep depression. Heaviest rain: Mahendragiri (Gajapati) 249.9 mm, Pottangi (Koraput) 188 mm.",
-      "src": "Kalinga TV / IMD Bhubaneswar"
-    },
-    {
-      "t": "Oct 28, 9:20 am",
-      "e": "⚡",
-      "x": "Konaseema collector: about 6,000 electric poles uprooted in the district. Power will be restored once winds ease.",
-      "src": "The South First"
     }
   ],
   "mood": [
@@ -467,7 +467,7 @@
     },
     {
       "q": "When will power come back in Konaseema?",
-      "a": "No date announced. Konaseema lost about 8,000 poles, so it is the slowest. Across APEPDCL, 92% of affected villages had power by Oct 30. Call 1912 for your area."
+      "a": "AP's Energy Minister set Saturday evening (Oct 31) as the target for full restoration. Konaseema lost about 8,000 poles, so it is the slowest. Across APEPDCL, 92% of affected villages had power by Oct 30. Call 1912 for your area."
     },
     {
       "q": "What compensation is given for Cyclone Arnab damage?",
@@ -685,6 +685,14 @@
     [
       "OdishaBytes: Gajapati, Ganjam hardest hit",
       "https://odishabytes.com/gajapati-ganjam-hardest-hit-as-cyclone-arnab-impacts-17-odisha-districts-no-lives-lost/amp/"
+    ],
+    [
+      "Deccan Chronicle: power restoration by Saturday",
+      "https://www.deccanchronicle.com/southern-states/andhra-pradesh/arnab-effect-15000-poles-damaged-power-restoration-by-saturday-energy-minister-gottipati-ravi-kumar-2000287"
+    ],
+    [
+      "IANS/Punjab Kesari: AP steps up restoration",
+      "https://english.punjabkesari.com/india/andhra-steps-up-efforts-to-restore-normalcy-in-cyclone-affected-districts"
     ]
   ],
   "trains": {
@@ -1144,7 +1152,7 @@
     ],
     "crew": "APEPDCL: 744 teams, 8,625 staff; Telangana TGNPDCL/TGSPDCL: 192 teams, 2,077 staff",
     "helpline": "1912 (24 hours)",
-    "note": "Oct 30: power back in 5,277 of 5,727 villages (92%), 535 of 552 substations, 22.2 lakh of 29.1 lakh homes/shops (76%) and 44,004 of 1.13 lakh farm connections. Fully restored: Visakhapatnam, Parvathipuram Manyam, Vizianagaram, Anakapalli, East Godavari, Kakinada, Eluru. Odisha: 13 of 20 lakh consumers were back by Oct 28 night. Never touch fallen wires; call 1912."
+    "note": "Oct 30: power back in 5,277 of 5,727 villages (92%), 535 of 552 substations, 22.2 lakh of 29.1 lakh homes/shops (76%) and 44,004 of 1.13 lakh farm connections. Fully restored: Visakhapatnam, Parvathipuram Manyam, Vizianagaram, Anakapalli, East Godavari, Kakinada, Eluru. Odisha: 13 of 20 lakh consumers were back by Oct 28 night. Target for full restoration: Oct 31 evening (Energy Minister). Never touch fallen wires; call 1912."
   },
   "relief": {
     "summary": "AP: 290 relief centres set up for 84,396 people; 3,100 pregnant women moved to hospitals (367 births). Odisha: 43,827 people moved to 634 shelters in 8 districts; no deaths.",
