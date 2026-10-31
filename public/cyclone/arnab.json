@@ -1,6 +1,6 @@
 {
  "name": "Cyclone Arnab",
- "updated": "2026-10-31T14:15:00+05:30",
+ "updated": "2026-10-31T15:20:00+05:30",
  "level": "Over",
  "moving": {
   "state": "dissipated",
@@ -104,6 +104,12 @@
  ],
  "updates": [
   {
+   "t": "Oct 31, 3:15 pm",
+   "e": "🌊",
+   "x": "Rivers easing slowly. Ganjam: the Rushikulya at Purushottampur is down from 'severe' (Oct 30 evening) to 'above normal' flood (7 am today). Balasore: the Jalaka at Mathani Road Bridge is still in severe flood (6 am). Srikakulam: the Nagavali is above normal. Stay off flooded roads and causeways. Watch for the new Bay system: heavy rain in coastal AP & Yanam on Nov 1–3.",
+   "src": "NDMA SACHET (CWC, SRC Odisha), Oct 30–31; IMD via CareerIndia"
+  },
+  {
    "t": "Oct 31, 1:50 pm",
    "e": "⚡",
    "x": "Lightning warning: the Andhra Pradesh government has been sending repeated thunderstorm alerts through the afternoon. During thunder and lightning, keep away from trees, towers, poles, fields and open ground, and stay inside a solid building. Balasore (Odisha): the Jalaka river is still in severe flood at Mathani Road Bridge.",
@@ -186,12 +192,6 @@
    "e": "🌊",
    "x": "CWC: Nagavali at Srikakulam above normal flood at 11 pm. Stay away from the river banks.",
    "src": "NDMA SACHET (CWC)"
-  },
-  {
-   "t": "Oct 30, 7:30 pm",
-   "e": "🌊",
-   "x": "Odisha SRC: Rushikulya river in severe flood at Purushottampur, Ganjam. Stay alert.",
-   "src": "NDMA SACHET (CWC/SRC Odisha)"
   }
  ],
  "mood": [
