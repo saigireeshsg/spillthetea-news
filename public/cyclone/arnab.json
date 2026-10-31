@@ -1,21 +1,21 @@
 {
  "name": "Cyclone Arnab",
- "updated": "2026-10-28T14:20:00+05:30",
- "level": "Weakening over land",
+ "updated": "2026-10-31T07:30:00+05:30",
+ "level": "Over",
  "moving": {
-  "state": "moving",
-  "text": "Moving inland, north-west, towards south Odisha and Chhattisgarh",
-  "eta": "Deep depression by this evening; expected to cross Malkangiri (Odisha) tonight; depression by early Thursday"
+  "state": "dissipated",
+  "text": "Arnab has weakened to a low over Chhattisgarh. The storm is over; recovery is under way.",
+  "eta": "No more cyclone threat. Watch for river floods in south Odisha (Ganjam) and Balasore."
  },
- "headline": "Arnab crossed the coast near Yanam overnight. It's weaker now and moving inland, but heavy rain and flash floods are still likely today and tomorrow in coastal Andhra, south Odisha and east Telangana.",
+ "headline": "Arnab is over. It weakened into a low over Chhattisgarh on Oct 29. Andhra is now in recovery: power is back in 92% of affected villages (APEPDCL), the Howrah–Chennai line is running again, and families leaving relief camps get 25 kg rice. Rivers are still high in Ganjam and Balasore (Odisha).",
  "position": {
   "lat": 16.45,
   "lon": 81.9,
-  "label": "Landfall area: ~40 km SW of Yanam, ~60 km SW of Kakinada (IMD)"
+  "label": "Landfall area near Yanam (Oct 28). Remnant low now over Chhattisgarh (IMD)"
  },
  "heading": {
-  "deg": 315,
-  "label": "Moving NW (IMD)"
+  "deg": 20,
+  "label": "Remnant moved N-NE and weakened (IMD)"
  },
  "track": [
   {
@@ -33,147 +33,163 @@
  ],
  "forecast": [
   {
-   "t": "Oct 28, 11:30 am",
-   "what": "Cyclonic storm · 80–90 km/h, gusts 100"
+   "t": "Oct 29 evening",
+   "what": "Weakened to a well-marked low over central Chhattisgarh & Odisha (IMD)"
   },
   {
-   "t": "Oct 28, 5:30 pm",
-   "what": "Deep depression · 50–60 km/h, gusts 70"
+   "t": "Oct 30",
+   "what": "Expected to weaken further into a low over NE Chhattisgarh (IMD)"
   },
   {
-   "t": "Oct 29, early",
-   "what": "Depression, inland towards Chhattisgarh"
+   "t": "Now",
+   "what": "No cyclone. Only thunderstorm/lightning alerts in AP and east Telangana"
   }
  ],
  "briefing": [
   {
-   "e": "🌀",
-   "t": "Crossed the coast near Yanam overnight (landfall began ~1:20 am). Now over land and weakening.",
+   "e": "✅",
+   "t": "Arnab is over: it weakened into a low over Chhattisgarh (IMD, Oct 29). No cyclone alerts remain.",
+   "n": 3
+  },
+  {
+   "e": "💡",
+   "t": "Power: 5,277 of 5,727 affected villages back (APEPDCL, Oct 30). Fully restored in Visakhapatnam, Vizianagaram, Parvathipuram Manyam, Anakapalli, East Godavari, Kakinada, Eluru.",
    "n": 3
   },
   {
    "e": "🔌",
-   "t": "Konaseema: ~6,000 power poles down. Expect long outages in Konaseema and rural Kakinada.",
-   "n": 2
-  },
-  {
-   "e": "⚡",
-   "t": "3 deaths reported in AP (PTI). At least 2 were from snapped live wires (one in Yellamanchili, Anakapalli). Never touch fallen wires or wade near them.",
-   "n": 2
-  },
-  {
-   "e": "🌊",
-   "t": "Kakinada: seawater flooding, Uppada coastal road washed away, trees and poles down.",
-   "n": 2
-  },
-  {
-   "e": "🌧️",
-   "t": "Heaviest rain: 261.5 mm at Kannuripalem (Anakapalli). Visakhapatnam, Kakinada, Konaseema 200 mm+.",
-   "n": 2
-  },
-  {
-   "e": "⚠️",
-   "t": "Next danger: flash floods in south Odisha (Malkangiri, Koraput, Rayagada, Ganjam, Gajapati) and coastal AP districts.",
+   "t": "Konaseema is slowest: about 8,000 poles fell there (CM). Only 32% of damaged distribution transformers are fixed so far.",
    "n": 2
   },
   {
    "e": "🚆",
-   "t": "53–91 trains and 21+ flights cancelled. Check before you travel.",
+   "t": "Howrah–Chennai main line fully open again since Oct 30, 3:45 pm (Ichchapuram–Jhadupudi bridge). Trains run at reduced speed.",
    "n": 2
   },
   {
-   "e": "🌧️",
-   "t": "Telangana: heavy to very heavy rain today in Khammam, Bhadradri Kothagudem, Nalgonda, Suryapet.",
+   "e": "🍚",
+   "t": "Leaving a relief camp? AP gives 25 kg rice, an essentials packet and cash for immediate needs.",
+   "n": 2
+  },
+  {
+   "e": "💰",
+   "t": "AP: ₹5 lakh for families of those who died; ₹1,500 per damaged coconut/oil palm tree; crop loss paid to bank accounts after field enumeration.",
+   "n": 2
+  },
+  {
+   "e": "🕯️",
+   "t": "7 people died in Andhra Pradesh (CM, Oct 29). Odisha reported no deaths.",
+   "n": 1
+  },
+  {
+   "e": "🌊",
+   "t": "Odisha: Rushikulya in severe flood at Purushottampur (Ganjam) and Jalaka at Mathani Road (Balasore) (CWC, Oct 30–31). Stay off river banks.",
+   "n": 2
+  },
+  {
+   "e": "⚡",
+   "t": "Lightning warnings keep coming in AP and east Telangana. Stay indoors during thunderstorms; avoid trees, poles and open fields.",
    "n": 1
   }
  ],
  "updates": [
   {
-   "t": "2:05 pm",
+   "t": "Oct 31, 6:15 am",
+   "e": "🌊",
+   "x": "CWC: Jalaka river at Mathani Road Bridge (Balasore, Odisha) still in severe flood at 6 am.",
+   "src": "NDMA SACHET (CWC)"
+  },
+  {
+   "t": "Oct 31, 12:12 am",
+   "e": "🚆",
+   "x": "Howrah–Chennai main line restored: single line from Oct 29, 9:30 pm, second line Oct 30, 3:45 pm, between Ichchapuram and Jhadupudi. 40+ trains were cancelled, 40 diverted, 16 short-terminated and 30 rescheduled over two days.",
+   "src": "Deccan Chronicle"
+  },
+  {
+   "t": "Oct 30, 11:59 pm",
+   "e": "💡",
+   "x": "APEPDCL: power back in 5,277 of 5,727 villages, 535 of 552 substations; 22.2 lakh of 29.1 lakh homes and shops. 744 teams (8,625 staff) plus 192 Telangana teams working.",
+   "src": "Deccan Chronicle"
+  },
+  {
+   "t": "Oct 30, 11:15 pm",
+   "e": "🌊",
+   "x": "CWC: Nagavali at Srikakulam above normal flood at 11 pm. Stay away from the river banks.",
+   "src": "NDMA SACHET (CWC)"
+  },
+  {
+   "t": "Oct 30, 7:30 pm",
+   "e": "🌊",
+   "x": "Odisha SRC: Rushikulya river in severe flood at Purushottampur, Ganjam. Stay alert.",
+   "src": "NDMA SACHET (CWC/SRC Odisha)"
+  },
+  {
+   "t": "Oct 30, evening",
+   "e": "🛣️",
+   "x": "AP: all 2,270 fallen trees cleared from R&B roads; 119 of 137 cut road points reconnected. 661 of 1,045 mobile towers working again.",
+   "src": "Newsage"
+  },
+  {
+   "t": "Oct 30",
+   "e": "🌾",
+   "x": "Crops damaged on 3.52 lakh hectares in 16 AP districts, plus 23,211 ha of horticulture. Central teams visiting; field enumeration under way.",
+   "src": "Newsage / Gulte"
+  },
+  {
+   "t": "Oct 29, 10:53 pm",
+   "e": "🏠",
+   "x": "CM Naidu: 7 deaths in AP, losses ₹4,600 crore (preliminary). ₹1,500 per damaged coconut/oil palm tree; 25 kg rice and essentials for families leaving camps.",
+   "src": "AP7AM"
+  },
+  {
+   "t": "Oct 29, evening",
+   "e": "✅",
+   "x": "IMD: Arnab's remnant weakened into a well-marked low over central Chhattisgarh and Odisha, moving N-NE and weakening further.",
+   "src": "Ommcom News / IMD"
+  },
+  {
+   "t": "Oct 28, 2:05 pm",
    "e": "🟠",
    "x": "Telangana (IMD/TGiCCC alert): heavy to very heavy rain likely in Bhadradri Kothagudem, Khammam, Nalgonda, Suryapet; heavy rain in Jayashankar Bhupalpally, Mulugu, Mahabubabad, Warangal, Hanumakonda. Gusts 50–70 km/h.",
    "src": "NDMA SACHET"
   },
   {
-   "t": "1:30 pm",
+   "t": "Oct 28, 1:30 pm",
    "e": "🌊",
    "x": "AP SDMA: rough sea, waves 0.9–2.3 m along the coast from 5:30 pm today to 5:30 pm Thursday. Fishermen and tourists stay off beaches.",
    "src": "NDMA SACHET (APSDMA)"
   },
   {
-   "t": "1:10 pm",
+   "t": "Oct 28, 1:10 pm",
    "e": "🏠",
    "x": "AP: 3 deaths reported, 31 houses damaged, about 57,000 people in relief camps. 38 evacuated from Yanam overnight. NDRF: north AP and south Odisha worst hit; no serious impact in Odisha so far.",
    "src": "Business Standard / PTI"
   },
   {
-   "t": "11:51 am",
+   "t": "Oct 28, 11:51 am",
    "e": "🌧️",
    "x": "Odisha: landfall took ~6.5 hours, ending around 8:30 am. Storm expected to cross Malkangiri tonight as a deep depression. Heaviest rain: Mahendragiri (Gajapati) 249.9 mm, Pottangi (Koraput) 188 mm.",
    "src": "Kalinga TV / IMD Bhubaneswar"
   },
   {
-   "t": "9:20 am",
+   "t": "Oct 28, 9:20 am",
    "e": "⚡",
    "x": "Konaseema collector: about 6,000 electric poles uprooted in the district. Power will be restored once winds ease.",
    "src": "The South First"
   },
   {
-   "t": "11:10 am",
+   "t": "Oct 28, 11:10 am",
    "e": "💡",
    "x": "Vizag: power back in parts of the city after a long cut; APEPDCL and GVMC crews working through north Andhra.",
    "src": "The Hans India"
-  },
-  {
-   "t": "12:28 pm",
-   "e": "⚡",
-   "x": "Two people died in AP after touching snapped live wires: a 53-year-old man (Tuesday night, farm channel) and a woman outside her home in Yellamanchili, Anakapalli (Wednesday morning).",
-   "src": "The Week"
-  },
-  {
-   "t": "10:09 am",
-   "e": "🟠",
-   "x": "Odisha: system moving towards Chhattisgarh. Flash-flood alert for Malkangiri, Koraput, Rayagada, Ganjam, Gajapati. 313 rescue teams deployed.",
-   "src": "OdishaTV"
-  },
-  {
-   "t": "Late morning",
-   "e": "✅",
-   "x": "IMD: landfall complete, storm entirely over land. CM's office said early Wednesday no deaths; later reports confirm 2 electrocutions.",
-   "src": "The Hans India"
-  },
-  {
-   "t": "Morning",
-   "e": "🛟",
-   "x": "Kakinada police rescued 4 people from floodwater and 3 stranded at Anchorage Port godowns.",
-   "src": "India News Network"
-  },
-  {
-   "t": "Morning",
-   "e": "🏫",
-   "x": "609 schools turned into relief centres in AP; 854 people sheltered by early Wednesday.",
-   "src": "India News Network"
-  },
-  {
-   "t": "8:30 am",
-   "e": "📉",
-   "x": "Weakened to a severe cyclonic storm: 110–120 km/h winds.",
-   "src": "PTI / ThePrint"
-  },
-  {
-   "t": "Early morning",
-   "e": "🌳",
-   "x": "Kakinada: trees and power lines down. Visakhapatnam: fallen trees block Beach Road and Seethammadhara.",
-   "src": "ETV Bharat"
-  },
-  {
-   "t": "1:20 am",
-   "e": "🌀",
-   "x": "Landfall begins south of Yanam as a very severe cyclonic storm, 125–135 km/h, gusts 150.",
-   "src": "IMD via Daily Pioneer"
   }
  ],
  "mood": [
+  {
+   "e": "😮‍💨",
+   "t": "Relief across north Andhra as lights come back, but Konaseema villages still wait for poles to go up.",
+   "src": "Deccan Chronicle / AP7AM"
+  },
   {
    "e": "🙏",
    "t": "Kakinada at dawn: \"Thank God, there was not as much damage this time.\" A 65-year-old at a shelter: \"Our homes get flooded, and we have to stay in the water.\"",
@@ -183,238 +199,248 @@
    "e": "🙏",
    "t": "Rescued workers in Kakinada thanked police teams for reaching them in time.",
    "src": "India News Network"
-  },
-  {
-   "e": "😟",
-   "t": "Worry now shifts inland: flash floods and landslides feared in south Odisha's hill districts.",
-   "src": "OdishaTV"
   }
  ],
  "numbers": [
   {
+   "v": "92%",
+   "l": "villages' power back (APEPDCL)"
+  },
+  {
    "v": "~89,000",
-   "l": "evacuated in AP"
+   "l": "evacuated in AP · 43,827 in Odisha"
   },
   {
-   "v": "30,000+",
-   "l": "evacuated in Odisha"
-  },
-  {
-   "v": "2,000+",
-   "l": "shelters in AP · 2,037 in Odisha"
+   "v": "290",
+   "l": "AP relief centres · 634 in Odisha"
   }
  ],
  "districts": [
   {
    "state": "Andhra Pradesh",
-   "what": "Landfall zone. Heavy rain, flooding, power cuts.",
+   "what": "Storm over. Recovery: power, roads and relief. Lightning alerts only.",
    "places": [
     {
      "n": "Kakinada",
      "lat": 16.989,
      "lon": 82.247,
-     "lvl": "red",
+     "lvl": "safe",
      "cr": "0884-2356801",
      "crn": "9849903879",
-     "school": "Schools shut Oct 27–28 (AP govt order)",
+     "school": "Schools were shut Oct 27–28 (AP govt order)",
      "safe": [
       "Gadimoga rehabilitation centre, Thallarevu mandal"
      ],
-     "note": "Seawater flooding; Uppada coastal road washed away; trees and poles down."
+     "note": "Storm over. Power fully restored (APEPDCL, Oct 30). Uppada coastal road was washed away."
     },
     {
      "n": "Yanam",
      "lat": 16.733,
      "lon": 82.213,
-     "lvl": "red",
-     "note": "Peak storm surge zone (IMD)."
+     "lvl": "safe",
+     "note": "Storm over. Landfall was near Yanam on Oct 28."
     },
     {
      "n": "Konaseema",
      "lat": 16.578,
      "lon": 82.006,
-     "lvl": "red",
+     "lvl": "safe",
      "cr": "8856293104",
-     "school": "Schools shut Oct 27–28 (AP govt order)",
-     "note": "200 mm+ rain."
+     "school": "Schools were shut Oct 27–28 (AP govt order)",
+     "note": "Storm over. Worst hit: about 8,000 power poles fell (CM); power restoration still in progress."
     },
     {
      "n": "East Godavari",
      "lat": 17.0,
      "lon": 81.804,
-     "lvl": "red",
+     "lvl": "safe",
      "cr": "8832944455",
-     "school": "Schools shut Oct 27–28 (AP govt order)"
+     "school": "Schools were shut Oct 27–28 (AP govt order)",
+     "note": "Storm over. Power fully restored (APEPDCL, Oct 30)."
     },
     {
      "n": "West Godavari",
      "lat": 16.544,
      "lon": 81.521,
-     "lvl": "red",
+     "lvl": "safe",
      "cr": "08816-299181",
-     "school": "Schools shut Oct 27–28 (AP govt order)"
+     "school": "Schools were shut Oct 27–28 (AP govt order)",
+     "note": "Storm over. Among the worst hit (CM). Power restoration continuing."
     },
     {
      "n": "Eluru",
      "lat": 16.711,
      "lon": 81.095,
-     "lvl": "orange",
+     "lvl": "safe",
      "cr": "18002331077",
-     "school": "Schools shut Oct 27–28 (AP govt order)"
+     "school": "Schools were shut Oct 27–28 (AP govt order)",
+     "note": "Storm over. Power fully restored (APEPDCL, Oct 30)."
     },
     {
      "n": "Krishna",
      "lat": 16.187,
      "lon": 81.138,
-     "lvl": "orange",
+     "lvl": "safe",
      "cr": "08672-252399",
-     "school": "Schools shut Oct 27–28 (AP govt order)"
+     "school": "Schools were shut Oct 27–28 (AP govt order)",
+     "note": "Storm over. Power back in 867 of 915 affected villages (Oct 30)."
     },
     {
      "n": "Visakhapatnam",
      "lat": 17.687,
      "lon": 83.218,
-     "lvl": "red",
+     "lvl": "safe",
      "cr": "0891-2590102",
-     "school": "Schools shut Oct 27–28 (AP govt order)",
+     "school": "Schools were shut Oct 27–28 (AP govt order)",
      "safe": [
       "46 relief centres open; 283 people sheltered (Oct 27–28)"
      ],
-     "note": "Fallen trees on Beach Road, Seethammadhara; 200 mm+ rain. GVMC toll-free 1800-425-0009."
+     "note": "Storm over. Power fully restored (APEPDCL, Oct 30)."
     },
     {
      "n": "Anakapalli",
      "lat": 17.691,
      "lon": 83.004,
-     "lvl": "red",
+     "lvl": "safe",
      "cr": "08924-222888",
-     "school": "Schools shut Oct 27–29",
-     "note": "Heaviest rain: 261.5 mm at Kannuripalem."
+     "school": "Schools were shut Oct 27–28 (AP govt order)",
+     "note": "Storm over. Power fully restored (APEPDCL, Oct 30)."
     },
     {
      "n": "Alluri Sitharama Raju",
      "lat": 18.083,
      "lon": 82.667,
-     "lvl": "orange",
+     "lvl": "safe",
      "cr": "8935293448",
-     "school": "Schools shut Oct 27–28 (AP govt order)",
+     "school": "Schools were shut Oct 27–28 (AP govt order)",
      "note": "Trees, poles down; some roads flooded."
     },
     {
      "n": "Vizianagaram",
      "lat": 18.106,
      "lon": 83.395,
-     "lvl": "orange",
+     "lvl": "safe",
      "cr": "8922236947",
-     "school": "Schools shut Oct 27–28 (AP govt order)"
+     "school": "Schools were shut Oct 27–28 (AP govt order)",
+     "note": "Storm over. Power fully restored (APEPDCL, Oct 30)."
     },
     {
      "n": "Srikakulam",
      "lat": 18.297,
      "lon": 83.897,
-     "lvl": "orange",
-     "cr": "08942-240557"
+     "lvl": "safe",
+     "cr": "08942-240557",
+     "note": "Storm over. Nagavali river above normal at Srikakulam (CWC, Oct 30). Avoid river banks."
     }
    ]
   },
   {
    "state": "Odisha",
-   "what": "Storm's next stop. Very heavy rain, flash floods, gusts to 80 km/h.",
+   "what": "Storm over. River floods in Ganjam and Balasore.",
    "places": [
     {
      "n": "Malkangiri",
      "lat": 18.348,
      "lon": 81.888,
-     "lvl": "red",
+     "lvl": "safe",
      "note": "Flash-flood alert; very heavy rain."
     },
     {
      "n": "Koraput",
      "lat": 18.811,
      "lon": 82.711,
-     "lvl": "red",
+     "lvl": "safe",
      "note": "Flash-flood alert; very heavy rain."
     },
     {
      "n": "Nabarangpur",
      "lat": 19.233,
      "lon": 82.55,
-     "lvl": "red",
+     "lvl": "safe",
      "note": "Very heavy rain."
     },
     {
      "n": "Rayagada",
      "lat": 19.171,
      "lon": 83.416,
-     "lvl": "red",
+     "lvl": "safe",
      "note": "Flash-flood alert."
     },
     {
      "n": "Gajapati",
      "lat": 18.783,
      "lon": 84.083,
-     "lvl": "red",
-     "note": "Flash-flood alert."
+     "lvl": "safe",
+     "note": "Storm over. Hardest-hit Odisha district; landslide at Regidisingi; trees blocked roads at ~30 spots (Oct 28)."
     },
     {
      "n": "Ganjam",
      "lat": 19.315,
      "lon": 84.792,
-     "lvl": "red",
-     "note": "Flash-flood alert."
+     "lvl": "orange",
+     "note": "River flood: Rushikulya in severe flood at Purushottampur (CWC, Oct 30). Ghodahada flooding cut NH-326 on Oct 28."
     },
     {
      "n": "Kalahandi",
      "lat": 19.907,
      "lon": 83.167,
-     "lvl": "orange",
+     "lvl": "safe",
      "note": "Strong winds."
+    },
+    {
+     "n": "Balasore",
+     "lat": 21.494,
+     "lon": 86.933,
+     "lvl": "orange",
+     "note": "River flood: Jalaka in severe flood at Mathani Road Bridge (CWC, Oct 31, 6 am). Stay off the banks."
     }
    ]
   },
   {
    "state": "Telangana",
-   "what": "Heavy to very heavy rain today and tomorrow.",
+   "what": "Storm over. Thunderstorm and lightning alerts only.",
    "places": [
     {
      "n": "Khammam",
      "lat": 17.247,
      "lon": 80.151,
-     "lvl": "orange"
+     "lvl": "safe",
+     "note": "Storm over. IMD: thunderstorms, lightning, gusts 30–40 km/h possible (Oct 30)."
     },
     {
      "n": "Bhadradri Kothagudem",
      "lat": 17.556,
      "lon": 80.619,
-     "lvl": "orange"
+     "lvl": "safe",
+     "note": "Storm over. IMD: thunderstorms, lightning, gusts 30–40 km/h possible (Oct 30)."
     },
     {
      "n": "Mulugu",
      "lat": 18.191,
      "lon": 79.943,
-     "lvl": "orange",
-     "note": "IMD: heavy rain, thunderstorms, gusts possible (Oct 28)."
+     "lvl": "safe",
+     "note": "Storm over. IMD: thunderstorms, lightning, gusts 30–40 km/h possible (Oct 30)."
     },
     {
      "n": "Mahabubabad",
      "lat": 17.598,
      "lon": 80.002,
-     "lvl": "orange",
-     "note": "IMD: heavy rain, thunderstorms, gusts possible (Oct 28)."
+     "lvl": "safe",
+     "note": "Storm over. IMD: thunderstorms, lightning, gusts 30–40 km/h possible (Oct 30)."
     },
     {
      "n": "Suryapet",
      "lat": 17.1405,
      "lon": 79.623,
-     "lvl": "orange",
-     "note": "IMD: heavy to very heavy rain, gusts up to 70 km/h (Oct 28)."
+     "lvl": "safe",
+     "note": "Storm over. IMD: thunderstorms, lightning, gusts 30–40 km/h possible (Oct 30)."
     },
     {
      "n": "Nalgonda",
      "lat": 17.0575,
      "lon": 79.2671,
-     "lvl": "orange",
-     "note": "IMD: heavy to very heavy rain, gusts up to 70 km/h (Oct 28)."
+     "lvl": "safe",
+     "note": "Storm over. IMD: thunderstorms, lightning, gusts 30–40 km/h possible (Oct 30)."
     },
     {
      "n": "Hyderabad",
@@ -428,32 +454,40 @@
  ],
  "faq": [
   {
-   "q": "Is Cyclone Arnab coming to Khammam, Nalgonda or Suryapet?",
-   "a": "The storm itself is moving into south Odisha, not Telangana. But IMD has warned of heavy to very heavy rain and gusts up to 70 km/h today in Khammam, Bhadradri Kothagudem, Nalgonda and Suryapet. Avoid streams and low causeways."
+   "q": "Is Cyclone Arnab over?",
+   "a": "Yes. IMD says Arnab weakened into a well-marked low over Chhattisgarh on Oct 29 and kept weakening. There are no cyclone alerts now, only lightning/thunderstorm warnings and river floods in Ganjam and Balasore (Odisha)."
   },
   {
-   "q": "Is the cyclone coming to Hyderabad?",
-   "a": "No. Hyderabad has no cyclone alert. Expect clouds, light to moderate rain and gusty winds. The heavy-rain alert is for Khammam, Kothagudem, Mulugu and Mahabubabad."
+   "q": "Is Cyclone Arnab coming to Vizag or Hyderabad?",
+   "a": "No. The storm is over. Visakhapatnam's power is fully restored (APEPDCL, Oct 30). Hyderabad had no cyclone alert."
   },
   {
-   "q": "Is the danger over on the coast?",
-   "a": "The strongest winds are over: the storm is on land and weakening. Flash floods and fallen lines are still a risk today. Stay indoors until officials say it's safe."
+   "q": "Are trains cancelled due to Cyclone Arnab today?",
+   "a": "The Howrah–Chennai main line is fully open again since Oct 30, 3:45 pm, at reduced speed. Visakhapatnam–Kirandul Night Express (18515/18516) was cancelled till Nov 4. See the train list on this page or call 139."
   },
   {
-   "q": "Are schools closed?",
-   "a": "AP closed schools Oct 27–28 in 13 coastal districts (Anakapalli till Oct 29). Check your district's order for Oct 29."
+   "q": "When will power come back in Konaseema?",
+   "a": "No date announced. Konaseema lost about 8,000 poles, so it is the slowest. Across APEPDCL, 92% of affected villages had power by Oct 30. Call 1912 for your area."
   },
   {
-   "q": "Are trains and flights running?",
-   "a": "53–91 trains and 21+ flights (Vijayawada, Visakhapatnam) were cancelled. Check IRCTC / your airline before leaving."
+   "q": "What compensation is given for Cyclone Arnab damage?",
+   "a": "AP: ₹5 lakh to families of those who died; ₹1,500 per damaged coconut or oil palm tree; 25 kg rice, essentials and cash for families leaving relief camps. Crop losses are paid to bank accounts after field enumeration — make sure the village officials record your loss."
   },
   {
-   "q": "When will power come back?",
-   "a": "No restoration time announced yet. Report fallen lines or outages in coastal AP on 1912 (APEPDCL)."
+   "q": "How do I claim crop loss for Cyclone Arnab?",
+   "a": "Officials are doing field-level enumeration now. Be present when they visit, keep your land and bank details ready, and make sure your crop loss is recorded. No separate online form has been announced."
   },
   {
-   "q": "My family is in a red district. How do I check on them?",
-   "a": "Call the district control room listed for their district. In AP you can also WhatsApp Mana Mitra on 9552300009 (send 'Hi')."
+   "q": "How many people died in Cyclone Arnab?",
+   "a": "Andhra Pradesh: 7 (CM Naidu, Oct 29). Odisha: none reported."
+  },
+  {
+   "q": "Are schools open after Cyclone Arnab?",
+   "a": "AP closed schools Oct 27–28 in coastal districts. We have not seen any new closure order; check with your school."
+  },
+  {
+   "q": "My family is in a cyclone-hit district. How do I check on them?",
+   "a": "Call the district control room on its page here. In AP you can also WhatsApp Mana Mitra on 9552300009 (send 'Hi')."
   }
  ],
  "contacts": [
@@ -623,10 +657,38 @@
   [
    "Yo Vizag: trains cancelled/rescheduled",
    "https://www.yovizag.com/cyclone-arnab-30-trains-cancelled-3-rescheduled-in-vizag/"
+  ],
+  [
+   "Deccan Chronicle: power restored in seven AP districts",
+   "https://www.deccanchronicle.com/southern-states/andhra-pradesh/post-cyclone-power-supply-restored-in-seven-ap-districts-2000435"
+  ],
+  [
+   "Deccan Chronicle: train services resume",
+   "https://www.deccanchronicle.com/southern-states/andhra-pradesh/train-services-resume-as-floods-recede-2000442"
+  ],
+  [
+   "Newsage: Naidu restoration drive",
+   "https://www.newsage.in/chandrababu-naidu-cyclone-arnab-restoration/"
+  ],
+  [
+   "AP7AM: 7 lives, ₹4,600 crore losses",
+   "https://www.ap7am.com/en/138485/cyclone-arnab-claimed-7-lives-in-andhra-losses-estimated-at-rs-4600-crore"
+  ],
+  [
+   "Gulte: relief & recovery plan",
+   "https://www.gulte.com/political-news/438842/cyclone-arnab-aftermath-governments-relief-recovery-plan"
+  ],
+  [
+   "Ommcom: Arnab weakens into well-marked low",
+   "https://ommcomnews.com/odisha-news/cyclone-arnab-weakens-into-well-marked-low-over-chhattisgarh-odisha-imd/"
+  ],
+  [
+   "OdishaBytes: Gajapati, Ganjam hardest hit",
+   "https://odishabytes.com/gajapati-ganjam-hardest-hit-as-cyclone-arnab-impacts-17-odisha-districts-no-lives-lost/amp/"
   ]
  ],
  "trains": {
-  "note": "Railways say 90+ services are cancelled or affected. Below: every train named by SCR/ECoR and news reports so far. Cancelled tickets are refunded automatically on IRCTC. Call 139 for live status.",
+  "note": "The Howrah–Chennai main line (Ichchapuram–Jhadupudi) is fully open again since Oct 30, 3:45 pm, at reduced speed. Cancellations below were for the dates shown; trains after those dates run as normal unless listed (e.g. Kirandul trains till Nov 4). Refunds are automatic on IRCTC. Call 139 for live status.",
   "helpline": "139",
   "list": [
    [
@@ -897,13 +959,13 @@
     "18515",
     "Visakhapatnam ⇄ Kirandul (Night Exp)",
     "Oct 29 – Nov 4",
-    "Cancelled"
+    "Cancelled (as announced)"
    ],
    [
     "18516",
     "Kirandul ⇄ Visakhapatnam (Night Exp)",
     "Oct 29 – Nov 4",
-    "Cancelled"
+    "Cancelled (as announced)"
    ],
    [
     "58538",
@@ -1038,50 +1100,55 @@
  },
  "roads": [
   [
+   "All AP districts",
+   "R&B roads",
+   "All 2,270 fallen trees cleared; 119 of 137 cut points reconnected (Oct 30)",
+   "open"
+  ],
+  [
+   "Srikakulam",
+   "Ichchapuram–Jhadupudi rail bridge No. 1052",
+   "Both lines open since Oct 30, 3:45 pm (speed limits)",
+   "open"
+  ],
+  [
    "Kakinada",
    "Uppada coastal road",
-   "Washed away",
+   "Washed away Oct 28; no reopening reported yet",
    "closed"
   ],
   [
-   "Visakhapatnam",
-   "Beach Road, Seethammadhara",
-   "Fallen trees (clearing under way)",
-   "slow"
+   "Ganjam",
+   "NH-326",
+   "Cut off by Ghodahada river flood (Oct 28); no reopening reported yet",
+   "closed"
   ],
   [
-   "Alluri Sitharama Raju",
-   "Several roads",
-   "Inundated; trees down",
+   "Gajapati",
+   "Ramagiri–Udayagiri, Purunapani–Udayagiri",
+   "Water over road; trees at ~30 spots (Oct 28)",
    "slow"
-  ],
-  [
-   "All AP districts",
-   "Highways & main roads",
-   "CM ordered all tree blocks cleared within 2 hours",
-   "info"
   ],
   [
    "Vizag & Godavari",
    "Flooded roads",
-   "RTC drivers told to check water depth before crossing. Don't drive through water.",
+   "Don't drive through water.",
    "info"
   ]
  ],
  "power": {
   "out": [
-   "Kakinada",
-   "Amalapuram",
-   "Yanam",
-   "Rural Kakinada & Konaseema"
+   "Konaseema (≈8,000 poles down)",
+   "Parts of West Godavari, Srikakulam, Alluri Sitharama Raju (APEPDCL: work continuing)",
+   "Krishna: 48 of 915 affected villages"
   ],
-  "crew": "4,339 APEPDCL staff in 438 teams; 244 generators, 239 cranes, 8,662 spare poles",
+  "crew": "APEPDCL: 744 teams, 8,625 staff; Telangana TGNPDCL/TGSPDCL: 192 teams, 2,077 staff",
   "helpline": "1912 (24 hours)",
-  "note": "Power is back in parts of Visakhapatnam (Wednesday morning). Elsewhere supply is switched off where lines are down and restored after inspection. Two people have died from snapped live wires: stay away from them and call 1912. Konaseema has about 6,000 poles down, so restoration there will take longer."
+  "note": "Oct 30: power back in 5,277 of 5,727 villages (92%), 535 of 552 substations, 22.2 lakh of 29.1 lakh homes/shops (76%) and 44,004 of 1.13 lakh farm connections. Fully restored: Visakhapatnam, Parvathipuram Manyam, Vizianagaram, Anakapalli, East Godavari, Kakinada, Eluru. Odisha: 13 of 20 lakh consumers were back by Oct 28 night. Never touch fallen wires; call 1912."
  },
  "relief": {
-  "summary": "AP: about 57,000 people in relief camps (PTI, Wed afternoon); 609 schools turned into relief centres. AP: 2,000+ shelters identified. GVMC (Vizag): 56 relief centres with food, drinking water and sanitation. Odisha: 2,037 cyclone shelters ready with food and drinking water.",
-  "food": "Food and drinking water are provided free at all official relief centres (CM's order in AP; OSDMA in Odisha). If you're at a centre without food, call your district control room or 1070.",
+  "summary": "AP: 290 relief centres set up for 84,396 people; 3,100 pregnant women moved to hospitals (367 births). Odisha: 43,827 people moved to 634 shelters in 8 districts; no deaths.",
+  "food": "Families leaving AP relief camps get 25 kg rice, a packet of essentials and cash for immediate expenses. Fishermen and handloom workers are promised food aid. Food and water stay free at open relief centres; if not, call 1070.",
   "named": [
    [
     "Kakinada",
@@ -1090,6 +1157,10 @@
    [
     "Visakhapatnam",
     "56 GVMC relief centres (locations not published)"
+   ],
+   [
+    "Konaseema",
+    "Relief centre at Gachakayalapora village"
    ]
   ]
  }
