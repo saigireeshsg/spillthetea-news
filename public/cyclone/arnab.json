@@ -1,6 +1,6 @@
 {
   "name": "Cyclone Arnab",
-  "updated": "2026-10-31T12:30:00+05:30",
+  "updated": "2026-10-31T13:20:00+05:30",
   "level": "Over",
   "moving": {
     "state": "dissipated",
@@ -104,6 +104,18 @@
   ],
   "updates": [
     {
+      "t": "Oct 31, 1:15 pm",
+      "e": "📶",
+      "x": "Phone networks: 99.18% of mobile service is back in Andhra (West Godavari 98.5%, Konaseema 91.96%, the lowest). 11 Cell-on-Wheels towers sent in. If your own network is down, keep \"Automatic network selection\" on — you can roam onto another operator for free (intra-circle roaming is on). Odisha (Ganjam, Gajapati, Kandhamal) improving as water recedes.",
+      "src": "DoT via Observer Voice, Oct 31"
+    },
+    {
+      "t": "Oct 31, 1:00 pm",
+      "e": "🌧️",
+      "x": "APSDMA: moderate rain today in Manyam, Alluri Sitharama Raju, Konaseema, West Godavari, Prakasam, Nellore, Kadapa, Chittoor and Tirupati areas. IMD: heavy rain possible in Hyderabad, Rangareddy, Medchal, Yadadri, Nalgonda and Suryapet.",
+      "src": "Asianet Newsable (APSDMA, IMD), Oct 31"
+    },
+    {
       "t": "Oct 31, 12:30 pm",
       "e": "🌀",
       "x": "IMD's 9 am bulletin (Oct 31): the new system over the southeast Bay is expected to become a depression and move towards the Andhra coast by Nov 2. Isolated very heavy rain in coastal AP & Yanam on Nov 2–3. No cyclone or landfall point has been forecast so far. Arnab itself is over.",
@@ -180,18 +192,6 @@
       "e": "📶",
       "x": "Mobile towers: 661 of 1,045 affected towers working again; 384 still down. Konaseema and West Godavari had the most villages without power.",
       "src": "IANS"
-    },
-    {
-      "t": "Oct 30, 4:27 pm",
-      "e": "🔌",
-      "x": "Energy Minister Gottipati Ravi Kumar: nearly 15,000 power poles damaged across AP. Target: full restoration by Saturday (Oct 31) evening. 2,500 APSPDCL staff sent to help.",
-      "src": "Deccan Chronicle"
-    },
-    {
-      "t": "Oct 30, evening",
-      "e": "🛣️",
-      "x": "AP: all 2,270 fallen trees cleared from R&B roads; 119 of 137 cut road points reconnected. 661 of 1,045 mobile towers working again.",
-      "src": "Newsage"
     }
   ],
   "mood": [
@@ -464,6 +464,10 @@
   ],
   "faq": [
     {
+      "q": "My phone has no signal after Cyclone Arnab. What do I do?",
+      "a": "Mobile service is back for 99% of Andhra (Konaseema ~92%). Keep \"Automatic network selection\" on in phone settings, or pick any network manually — intra-circle roaming lets you use another operator when yours is down. Emergency 112 works on any network."
+    },
+    {
       "q": "Is Cyclone Arnab over?",
       "a": "Yes. IMD says Arnab weakened into a well-marked low over Chhattisgarh on Oct 29 and kept weakening. There are no cyclone alerts now, only lightning/thunderstorm warnings and river floods in Ganjam and Balasore (Odisha)."
     },
@@ -735,6 +739,14 @@
     [
       "Skymet: Andaman Sea low may become depression",
       "https://www.skymetweather.com/content/monsoon-update/andaman-sea-low-may-become-depression-by-october-31-andhra-pradesh-coast-on-alert-for-heavy-rain"
+    ],
+    [
+      "DoT: telecom restored after Cyclone Arnab (Observer Voice)",
+      "https://observervoice.com/telecom-services-restored-post-cyclone-arnab-in-andhra-pradesh-and-odisha-243018/"
+    ],
+    [
+      "AP & Telangana weather update (Asianet Newsable)",
+      "https://newsable.asianetnews.com/gallery/india/andhra-pradesh-telangana-weather-latest-update-bay-of-bengal-system-likely-to-intensify-into-depression-k7gg9d1"
     ]
   ],
   "trains": {
