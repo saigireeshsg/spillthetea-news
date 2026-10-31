@@ -1,13 +1,13 @@
 {
   "name": "Cyclone Arnab",
-  "updated": "2026-10-31T18:25:00+05:30",
+  "updated": "2026-10-31T19:15:00+05:30",
   "level": "Over",
   "moving": {
     "state": "dissipated",
     "text": "Arnab has weakened to a low over Chhattisgarh. The storm is over; recovery is under way.",
-    "eta": "No more cyclone threat from Arnab. New, separate system: IMD (Oct 31, 8:30 am) says a well-marked low in the southeast Bay should become a depression within 6 hours and may strengthen into a cyclonic storm over the next 24 hours (around Nov 1), reaching the west-central Bay near the Andhra coast by the evening of Nov 2. No landfall point announced yet. Isolated very heavy rain in coastal AP & Yanam on Nov 2–3. Odisha: floods now only in Ganjam."
+    "eta": "No more cyclone threat from Arnab. New, separate system: IMD says a depression formed at 11:30 am on Oct 31 over the southeast Bay, about 330 km west-southwest of Sri Vijayapuram (Port Blair), moving west-northwest. It should become a deep depression within 12 hours and a cyclonic storm in the next 12 (name: Murasu), with winds of 80–90 km/h gusting to 100. It should reach the west-central Bay near the Andhra coast by Nov 2 evening; PTI reports possible landfall on the AP coast on Nov 3 morning. IMD expects it to be weaker than Arnab. No exact landfall point yet."
   },
-  "headline": "Arnab is over, but a new storm may be on the way. IMD says the fresh Bay system could become a cyclonic storm around Nov 1 and reach near the Andhra coast by Nov 2 evening, with very heavy rain in coastal AP & Yanam on Nov 2–3. Andhra is in recovery (power back in 92% of affected villages). In Ganjam (Odisha), a Navy helicopter joins the landslide search.",
+  "headline": "Arnab is over, but a new depression has formed in the Bay. IMD says it may become Cyclone Murasu within 24 hours and near the Andhra coast by Nov 2 evening, possibly hitting land on Nov 3 morning. It should be weaker than Arnab (80–90 km/h winds). Andhra is in recovery; in Ganjam (Odisha), the landslide search goes on.",
   "position": {
     "lat": 16.45,
     "lon": 81.9,
@@ -45,8 +45,12 @@
       "what": "No cyclone. Only thunderstorm/lightning alerts in AP and east Telangana"
     },
     {
-      "t": "Nov 2 evening",
-      "what": "New, separate system (not Arnab) likely near the Andhra coast; IMD says it may strengthen into a cyclonic storm around Nov 1 (IMD, Oct 31, 8:30 am)"
+      "t": "Nov 1",
+      "what": "New depression (not Arnab) likely to become a deep depression, then cyclonic storm 'Murasu' (IMD, Oct 31, 3 pm)"
+    },
+    {
+      "t": "Nov 2 evening – Nov 3",
+      "what": "Near the Andhra coast by Nov 2 evening; may cross the AP coast on Nov 3 morning (IMD via PTI). Exact point not announced"
     }
   ],
   "briefing": [
@@ -57,7 +61,7 @@
     },
     {
       "e": "🌧️",
-      "t": "More rain coming: a new Bay system may become a cyclonic storm around Nov 1 and reach near the Andhra coast by Nov 2 evening (IMD). Very heavy rain in coastal AP & Yanam on Nov 2–3. Fishermen stay ashore off AP Nov 1–4.",
+      "t": "New storm: a depression formed in the southeast Bay on Oct 31, 11:30 am. IMD says it may become cyclonic storm 'Murasu' (80–90 km/h, gusts 100) and near the Andhra coast by Nov 2 evening; possible AP landfall Nov 3 morning (PTI). Weaker than Arnab. Fishermen stay ashore off AP Nov 1–4.",
       "n": 3
     },
     {
@@ -107,6 +111,12 @@
     }
   ],
   "updates": [
+    {
+      "t": "Oct 31, 7:15 pm",
+      "e": "🌀",
+      "x": "The new Bay system is now a depression. IMD's 3 pm bulletin: it formed at 11:30 am about 330 km west-southwest of Sri Vijayapuram (Port Blair) and 300 km west-northwest of Car Nicobar, moving west-northwest. It should become a deep depression within 12 hours and a cyclonic storm after that (it would be named Murasu), with winds of 80–90 km/h gusting to 100 — weaker than Arnab's 150 km/h. It should reach near the Andhra coast by Nov 2 evening; PTI reports it may cross the AP coast on Nov 3 morning. No landfall point announced yet. APSDMA: rain on Oct 31 in Parvathipuram Manyam, Alluri Sitharama Raju, Konaseema, West Godavari and Prakasam; moderate to heavy rain for 3 days in south coastal AP and Rayalaseema; coastal winds 45–65 km/h. AP lightning alerts kept going out through the afternoon (SACHET). Odisha: the Rushikulya at Purushottampur (Ganjam) was still above normal at 7 am.",
+      "src": "IMD via PTI (DT Next) & The Week, Oct 31; APSDMA via Asianet Newsable, Oct 31; NDMA SACHET"
+    },
     {
       "t": "Oct 31, 6:20 pm",
       "e": "🌀",
@@ -189,12 +199,6 @@
       "t": "Oct 31, 7:00 am",
       "e": "🌊",
       "x": "CWC: Rushikulya at Purushottampur (Ganjam, Odisha) has eased from severe to above-normal flood at 7 am. Still stay off the river banks.",
-      "src": "NDMA SACHET (CWC)"
-    },
-    {
-      "t": "Oct 31, 6:15 am",
-      "e": "🌊",
-      "x": "CWC: Jalaka river at Mathani Road Bridge (Balasore, Odisha) still in severe flood at 6 am.",
       "src": "NDMA SACHET (CWC)"
     }
   ],
@@ -472,6 +476,10 @@
       "a": "Yes. On Oct 31 Odisha's Special Relief Commissioner said 12 people are missing after a landslide at hilltop Gidipabali village, Bhanjanagar block, Ganjam. One woman has been found. 160–170 Fire Services, SOG and NDRF personnel are searching. Odisha emergency: 112."
     },
     {
+      "q": "What is Cyclone Murasu and where will it hit?",
+      "a": "Murasu is the name the new Bay of Bengal system will get if it becomes a cyclonic storm (name proposed by India). On Oct 31 it was a depression about 330 km west-southwest of Port Blair, moving west-northwest. IMD expects it near the Andhra coast by Nov 2 evening and PTI reports possible landfall on the AP coast on Nov 3 morning, with 80–90 km/h winds — weaker than Arnab. No exact landfall district announced yet. Emergency: 112."
+    },
+    {
       "q": "My phone has no signal after Cyclone Arnab. What do I do?",
       "a": "Mobile service is back for 99% of Andhra (Konaseema ~92%). Keep \"Automatic network selection\" on in phone settings, or pick any network manually — intra-circle roaming lets you use another operator when yours is down. Emergency 112 works on any network."
     },
@@ -481,7 +489,7 @@
     },
     {
       "q": "Is another cyclone coming to Andhra Pradesh after Arnab?",
-      "a": "Possibly. IMD (Oct 31, 8:30 am) says a well-marked low over the southeast Bay should become a depression within hours and may strengthen into a cyclonic storm over the next 24 hours, then move west-northwest to reach near the Andhra coast by the evening of Nov 2. No landfall point yet. Expect very heavy rain in parts of coastal Andhra and Yanam on Nov 2–3 and heavy rain in Telangana on Nov 1–2. Fishermen should not go to sea off AP from Nov 1 to 4. Spill will update when IMD does."
+      "a": "Possibly. A depression formed in the southeast Bay of Bengal on Oct 31. IMD says it may become a cyclonic storm (Murasu) within about 24 hours, with winds of 80–90 km/h gusting to 100, and reach near the Andhra coast by Nov 2 evening; PTI reports possible landfall on the AP coast on Nov 3 morning. It is expected to be weaker than Arnab. The exact landfall point is not known yet — we will update this page as IMD announces it. Expect heavy rain in coastal AP and Rayalaseema Nov 2–4. Fishermen should not go to sea."
     },
     {
       "q": "Is Cyclone Arnab coming to Vizag or Hyderabad?",
@@ -767,6 +775,14 @@
     [
       "IMD: low may become depression near Andhra coast by Nov 2 (Telangana Today)",
       "https://telanganatoday.com/well-marked-low-pressure-area-may-become-depression-near-andhra-coast-by-nov-2"
+    ],
+    [
+      "IMD: cyclonic storm may hit Andhra coast Nov 3, weaker than Arnab (PTI via DT Next)",
+      "https://www.dtnext.in/news/national/cyclonic-storm-brewing-in-bay-of-bengal-may-hit-andhra-coast-on-nov-3-to-be-weaker-than-arnab-imd"
+    ],
+    [
+      "After Arnab, Cyclone Murasu headed to Andhra (The Week)",
+      "https://www.theweek.in/news/india/2026/10/31/another-cyclone-murasu-to-form-near-andhra-pradesh-depression-over-bay-of-bengal-to-bring-heavy-rains.html"
     ]
   ],
   "trains": {
