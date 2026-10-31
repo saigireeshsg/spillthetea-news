@@ -1,19 +1,24 @@
 {
  "cat": "local",
- "sort": "2026-10-27-90",
+ "sort": "2026-10-31-74",
  "order": 1,
  "heat": 5,
  "readSecs": 45,
  "topic": "Rice prices",
- "hook": "Rice that cost *₹45/kg* now sells for *₹90*. People are pre-booking harvests",
- "hook_b": "Rice at *₹90/kg*: are traders hoarding it?",
- "tldr": "Update Oct 27: traders in Telangana have been warned against creating an artificial rice shortage. Fine (sanna) rice that sold for about ₹45 a kg now costs over ₹90 in Telangana villages and Hyderabad. Families are paying farmers in advance to lock prices; farmers get ₹3,000–3,500 a quintal in open markets vs ₹2,450 MSP + ₹500 bonus.",
+ "hook": "Govt caps fine rice at *₹66–79/kg*, down from *₹90* in shops",
+ "hook_b": "Rice was ₹90/kg. Will the new *₹79* cap bring it down?",
+ "tldr": "Update Oct 31: the Telangana government has announced a maximum retail price for three fine rice varieties, between ₹66 and ₹79 a kg. Fine (sanna) rice had climbed from about ₹45 to over ₹90 a kg in Hyderabad and villages amid El Niño, pre-booking and hoarding cases.",
  "beats": {
   "what": "Open-market paddy prices jumped to ₹3,000–3,500 a quintal. Buyers are pre-booking harvests; one Vikarabad buyer paid ₹5,000 a quintal in advance.",
   "why": "El Niño dried up water, the government is asking farmers not to sow rabi paddy, and people expect a shortage. CID also arrested 14 millers for diverting fine paddy and passing off coarse rice to FCI.",
-  "care": "Your monthly rice bill may double. Buying a bag now locks today's price, but you lose money if prices fall when the harvest peaks in December."
+  "care": "If your shop charges above the new ₹66–79 MRP for these fine rice varieties, you are paying more than the government cap. Check the variety and the rate before you buy a bag."
  },
  "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new (Oct 31)",
+   "body": "The Telangana government announced an MRP for three fine rice varieties: ₹66 to ₹79 a kg (The Hindu). That is well below the ₹90+ readers were seeing in shops. Variety-wise rates and enforcement details weren't in the headline we could verify."
+  },
   {
    "k": "num",
    "value": "₹90",
@@ -42,6 +47,21 @@
   }
  ],
  "viz": [
+  {
+   "t": "compare",
+   "l": "Fine rice, per kg",
+   "a": {
+    "v": 90,
+    "d": "₹90+",
+    "l": "In shops"
+   },
+   "b": {
+    "v": 79,
+    "d": "₹66–79",
+    "l": "New MRP"
+   },
+   "goodIfUp": false
+  },
   {
    "t": "compare",
    "l": "Fine rice, per kg",
@@ -78,8 +98,8 @@
    "#2a1a05",
    "#e0a100"
   ],
-  "big": "₹90/kg",
-  "label": "rice, up from ₹45",
+  "big": "₹66–79",
+  "label": "new fine rice MRP/kg",
   "motion": "drift",
   "scene": [
    "🍚",
@@ -90,8 +110,13 @@
  "learn": {
   "t": "MSP (minimum support price) is the floor the government pays for crops. When open-market prices beat MSP, less grain reaches the government's ration stock."
  },
- "watch": "Any action on hoarding traders after the Oct 27 warning; all-party drought meet at the Secretariat, Oct 28, 2:30 pm; harvest arrivals through December.",
+ "watch": "Variety-wise MRP list and how it is enforced at shops; action on hoarding traders (6 booked Oct 31); harvest arrivals through December.",
  "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana govt. announces maximum retail price of three fine rice varieties between ₹66 and ₹79 per kg (31 Oct)",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/telangana-govt-announces-maximum-retail-price-of-three-fine-rice-varieties-between-66-and-79-per-kg/article71650444.ece"
+  },
   {
    "name": "The Hindu",
    "title": "Rice prices go up, many pre-book to lock rates; 14 millers arrested for diversion of fine rice (print, Hyderabad edition, 26 Oct, p.6, p.1)",
@@ -122,17 +147,17 @@
    }
   ],
   "event": {
-   "icon": "🍚",
-   "label": "Rice ₹45 → ₹90/kg"
+   "icon": "🏷️",
+   "label": "MRP cap ₹66–79/kg"
   },
   "effects": [
    {
-    "icon": "📝",
-    "label": "Harvests pre-booked"
+    "icon": "🍚",
+    "label": "Was ₹90+/kg in shops"
    },
    {
     "icon": "💰",
-    "label": "Rice bill may double"
+    "label": "Check your bag's price"
    }
   ]
  },
@@ -141,5 +166,5 @@
   "t": "My rice bill went up too",
   "k": "bill"
  },
- "updated": 1793118040459
+ "updated": 1793465179390
 }

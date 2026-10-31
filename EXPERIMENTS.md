@@ -49,3 +49,4 @@ One line per experiment: date · what · result.
 - 2026-10-31 (hourly, ~16:45 IST) · d20261031-narsingi-road-plan-4000-families: A = name+number statement vs B = question 'Will a new road displace 4,000 families?' · running
 2026-10-31 evening · hook_b on hyd-water-rules-nov1 (stake-first vs question) and vande-sleeper-blr-mumbai (number-first vs 'running tomorrow?' question) · running
 - 2026-10-31 (hourly, ~18:30 IST) · d20261031-hyd-rain-keesara-112mm: updated in place (9 TG districts heavy rain Nov 2, IMD); A = number-first '9 districts' statement vs B = question 'how wet does Telangana get?' · running
+- 2026-10-31 (hourly, ~22:30 IST) · d20261026-hyd-rice-90-a-kg: updated in place (TG MRP ₹66–79/kg for 3 fine rice varieties); A = cap-vs-shop number statement vs B = question 'will the ₹79 cap bring it down?' · running
