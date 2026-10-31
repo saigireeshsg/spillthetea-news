@@ -291,11 +291,11 @@ html.desk #hotline.inflow{max-width:676px}
   // ---------- Who's here now: Supabase Realtime presence (no DB writes). One key per device, so extra tabs don't double count. ----------
   let online = 0;
   function showOnline() {
-    document.querySelectorAll("#hotline .hl-on").forEach((x) => { x.hidden = online < 1; x.textContent = `🟢 ${online} online`; });
-    document.querySelectorAll("[data-online]").forEach((x) => { x.hidden = online < 1; x.textContent = `🟢 ${online} on Spill right now`; });
+    document.querySelectorAll("#hotline .hl-on").forEach((x) => { x.hidden = true; x.textContent = ""; });
+    document.querySelectorAll("[data-online]").forEach((x) => { x.hidden = true; x.textContent = ""; });
   }
   window.spillOnline = () => online;
-  window.spillOnlineHTML = () => `<span class="onl" data-online${online < 1 ? " hidden" : ""}>🟢 ${online} on Spill right now</span>`;
+  window.spillOnlineHTML = () => "";
   try {
     let dev = ""; try { dev = localStorage.getItem("spill_dev") || ""; if (!dev) { dev = Math.random().toString(36).slice(2) + Date.now().toString(36); localStorage.setItem("spill_dev", dev); } } catch (_) { dev = Math.random().toString(36).slice(2); }
     const ch = sb.channel("spill-online", { config: { presence: { key: dev } } });
