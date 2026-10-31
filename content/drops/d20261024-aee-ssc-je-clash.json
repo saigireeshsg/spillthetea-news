@@ -3,14 +3,19 @@
   "Citywide"
  ],
  "beats": {
-  "care": "Clash on Nov 6? Send your SSC hall ticket, TGPSC application and OTR ID by 5 pm, Oct 30.",
+  "care": "Writing AEE? Plan for Nov 6–7. The clash-proof deadline (Oct 30, 5 pm) has passed.",
   "what": "TGPSC's AEE (Civil) exam is on Nov 6–7. SSC's JE test runs Nov 2–6.",
   "why": "Rao says many SSC JE centres are in other states, so returning in time is hard."
  },
  "cards": [
   {
    "k": "tea",
-   "title": "🆕 TGPSC's fix (Oct 26)",
+   "title": "🆕 Dates unchanged (Oct 31)",
+   "body": "The New Indian Express reports TGPSC's AEE exam dates are unchanged, so Nov 6–7 stands. The only exception is the Oct 26 offer: a possible Nov 7 slot for AEE Civil candidates whose SSC JE Civil exam is on Nov 6. Documents for that were due by 5 pm, Oct 30. Questions: helpdesk@tgpsc.gov.in."
+  },
+  {
+   "k": "tea",
+   "title": "TGPSC's fix (Oct 26)",
    "body": "TGPSC will consider a separate date, possibly Nov 7, for AEE Civil candidates whose SSC JE Civil exam falls on Nov 6. To qualify, submit your SSC hall ticket, your TGPSC application and your OTR ID by 5 pm on Oct 30 (Telangana Today). Only clash-hit candidates are covered; everyone else keeps the original date."
   },
   {
@@ -44,8 +49,8 @@
  "city": "Hyderabad",
  "date": "2026-10-24",
  "heat": 3,
- "hook": "TGPSC blinks: AEE clash fix, *Nov 7* slot. Apply by *Oct 30*",
- "hook_b": "Writing both AEE and SSC JE? Send 3 documents by *Oct 30, 5 pm*",
+ "hook": "TGPSC AEE exam stays *Nov 6–7*. No change for most",
+ "hook_b": "Is the AEE exam moving? No: dates *unchanged*",
  "learn": {
   "t": "TGPSC hires for Telangana government posts. SSC hires for central government posts."
  },
@@ -62,23 +67,28 @@
   ],
   "effects": [
    {
-    "icon": "📅",
-    "label": "Possible Nov 7 slot"
+    "icon": "📝",
+    "label": "Exam Nov 6–7"
    },
    {
-    "icon": "📎",
-    "label": "Proof by Oct 30, 5 pm"
+    "icon": "📅",
+    "label": "Clash cases: Nov 7"
    }
   ],
   "event": {
-   "icon": "⚠️",
-   "label": "Exam dates clash"
+   "icon": "📌",
+   "label": "AEE dates unchanged"
   }
  },
  "order": 19,
  "readSecs": 40,
- "sort": "2026-10-26-58",
+ "sort": "2026-10-31-66",
  "sources": [
+  {
+   "name": "The New Indian Express",
+   "title": "TGPSC AEE exam dates unchanged",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdHpxOVVwcTBRWjRBUW1PQXNsS2FLaFRpZmJuV0RYaE1YdV93RU1fcWVLaHZtd1JHbnY2dXhCWlB4c0swdTVqWWxDZHpxUHBUeEQyNlN4cVM2SDNjeFdBbzNwOWMtRjFCeHdBYVVtTFZGTUFiSF92X3ZHY1FQVjlhRkY1R3lyaGZfOGJJNjdmcEZqSlpyTXRj0gGkAUFVX3lxTFBoMmM4Nng4TWE3Ry1tZ1gyWlZZemdzUnM2alVncE51WTJKY0JISS1XUG03Qk5ZcFhoQnd6RzhZMnBuU0d6b0ZaX0I0OHZocmJ5RkRBZGRpYUx4U3E4Nk0zdTBldlRYdzlOUjFvR0pyb0EtQ3hwcUhXcVQxakZuVzBTVDZKZVRjcXIzMHZIV1o2TFVINEc5Q1BFVFBOM0o1WkkydW10?oc=5"
+  },
   {
    "name": "Telangana Today",
    "title": "TGPSC to reschedule AEE Civil exam for candidates facing SSC clash",
@@ -96,14 +106,14 @@
   }
  ],
  "thread": "aee-exam-clash",
- "tldr": "TGPSC plans a separate Nov 7 AEE Civil slot for candidates whose SSC JE Civil exam is on Nov 6. Submit proof by 5 pm, Oct 30.",
+ "tldr": "The New Indian Express reports TGPSC has kept AEE exam dates unchanged: Nov 6–7. Only SSC JE clash cases could seek Nov 7.",
  "topic": "AEE vs SSC JE exam clash",
- "updated": 1793016326509,
+ "updated": 1793430981482,
  "viz": [
   {
    "t": "timeline",
    "l": "What happens when",
-   "now": 0,
+   "now": 2,
    "steps": [
     {
      "t": "Oct 26",
@@ -112,6 +122,10 @@
     {
      "t": "Oct 30, 5 pm",
      "e": "Deadline: SSC hall ticket + TGPSC form + OTR ID"
+    },
+    {
+     "t": "Oct 31",
+     "e": "Dates unchanged (NIE)"
     },
     {
      "t": "Nov 6",
@@ -130,5 +144,5 @@
    "v": "50,000+"
   }
  ],
- "watch": "Watch for TGPSC's final confirmation of the Nov 7 date and the submission mode."
+ "watch": "Hall tickets and TGPSC's confirmation of who gets the Nov 7 slot."
 }

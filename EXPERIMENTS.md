@@ -42,3 +42,4 @@ One line per experiment: date · what · result.
 2026-10-28 · morning run blocked (Supabase SQL + WebFetch permission prompts unanswered) · only water-card update + 1 opp · n/a
 - 2026-10-28 (hourly, ~07:15 IST) · d20261024-bay-cyclone: updated in place (landfall underway); A = place-first statement vs B = traveller question · running
 - 2026-10-28 (hourly, ~12:30 IST) · d20261028-ugc-net-dec-oct31: A = deadline statement with date vs B = 'Missed the form?' question + countdown · running
+- 2026-10-31 · midday · hook_b question-style on rain ("Did your area flood?") and AEE ("Is the AEE exam moving?") · running

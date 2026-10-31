@@ -1,0 +1,163 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "city": "Hyderabad",
+ "areas": [
+  "Keesara",
+  "Bahadurpura",
+  "Madhapur",
+  "Shaikpet"
+ ],
+ "date": "2026-10-31",
+ "sort": "2026-10-31-72",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Hyderabad overnight rain",
+ "hook": "*112 mm* overnight in Keesara ends Hyderabad's dry spell",
+ "hook_b": "Did your area flood last night? Keesara got *112 mm*",
+ "tldr": "Heavy rain hit Hyderabad from Friday evening to Saturday morning. Keesara logged 112 mm; low-lying roads flooded.",
+ "beats": {
+  "what": "Friday night downpour: Keesara 112 mm, Bahadurpura 82.3 mm, Madhapur 73.8 mm (TSDPS data).",
+  "why": "A long hot, humid dry spell broke. IMD expects more evening showers with gusty winds.",
+  "care": "Leave early for evening plans. Skip underpasses and low roads after a shower."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "☀️",
+    "label": "Long dry, humid spell"
+   },
+   {
+    "icon": "⛈️",
+    "label": "Fri night downpour"
+   }
+  ],
+  "event": {
+   "icon": "🌧️",
+   "label": "Keesara: 112 mm"
+  },
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Waterlogged low roads"
+   },
+   {
+    "icon": "🌤️",
+    "label": "Pleasant dip in heat"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 Overnight totals (TSDPS)",
+   "body": "City: Keesara 112 mm · Bahadurpura (near Zoo Park) 82.3 mm · Abdullapurmet 76.5 mm · Madhapur (Kakatiya Hills) 73.8 mm · Shaikpet 67.5 mm. Districts: Valigonda 118 mm, Narketpalle 90.5 mm. Low-lying roads flooded; GHMC and traffic police cleared water in the morning rush."
+  },
+  {
+   "k": "why",
+   "title": "What's next",
+   "body": "Times of India reports IMD expects four more days of evening showers with gusty winds, and a yellow alert for districts around Hyderabad. No area-wise timings yet."
+  },
+  {
+   "k": "poll",
+   "q": "How did last night's rain hit you?",
+   "opts": [
+    "Stuck in traffic",
+    "Slept through it",
+    "Loved the cool air",
+    "My lane flooded"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which spot got the most rain in Greater Hyderabad overnight?",
+   "opts": [
+    "Keesara",
+    "Madhapur",
+    "Shaikpet",
+    "Bahadurpura"
+   ],
+   "ans": 0,
+   "why": "Keesara (Medchal-Malkajgiri) logged 112 mm."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "112 mm",
+   "l": "Keesara, Fri night to Sat morning"
+  },
+  {
+   "t": "compare",
+   "l": "Overnight rain",
+   "a": {
+    "v": 112,
+    "d": "112 mm",
+    "l": "Keesara"
+   },
+   "b": {
+    "v": 73.8,
+    "d": "73.8 mm",
+    "l": "Madhapur"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "timeline",
+   "l": "What happens when",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Fri eve",
+     "e": "Heavy rain starts"
+    },
+    {
+     "t": "Sat am",
+     "e": "Waterlogging, slow commute"
+    },
+    {
+     "t": "Next 4 evenings",
+     "e": "More showers, gusty winds (IMD via TOI)"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#0b1d33",
+   "#3a6ea5"
+  ],
+  "big": "112 mm",
+  "label": "overnight in Keesara",
+  "motion": "drift",
+  "scene": [
+   "🌧️",
+   "🛵",
+   "🌊"
+  ]
+ },
+ "learn": {
+  "t": "TSDPS (Telangana State Development Planning Society) runs the state's automatic rain gauges. 100+ mm in a night counts as very heavy rain."
+ },
+ "watch": "IMD's daily bulletin for Hyderabad evenings through Nov 3.",
+ "thread": "hyd-rain-oct31",
+ "moment": {
+  "e": "☔",
+  "t": "My street flooded too",
+  "k": "flood"
+ },
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Heavy rains bring relief to Hyderabad after prolonged dry spell",
+   "url": "https://telanganatoday.com/heavy-rains-bring-relief-to-hyderabad-after-prolonged-dry-spell"
+  },
+  {
+   "name": "Times of India",
+   "title": "Hyderabad to see 4 more days of evening showers, IMD warns of gusty winds; Yellow alert for surrounding districts on Oct 31",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-to-see-4-more-days-of-evening-showers-imd-warns-of-gusty-winds-yellow-alert-for-surrounding-districts-on-oct-31/articleshow/135373220.cms"
+  }
+ ],
+ "updated": 1793430981482
+}
