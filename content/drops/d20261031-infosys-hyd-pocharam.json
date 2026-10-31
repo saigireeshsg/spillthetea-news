@@ -7,8 +7,8 @@
  "heat": 3,
  "readSecs": 30,
  "topic": "Infosys Hyderabad expansion",
- "hook": "Infosys opens *1.1 million sq ft* block, eyes *13,000* more staff in Hyderabad",
- "hook_b": "Infosys Hyderabad adds 13,000 jobs? What should the city fix next?",
+ "hook": "Infosys eyes *13,000 more people* in Hyderabad.",
+ "hook_b": "Infosys eyes *13,000 more people* in Hyderabad.",
  "tldr": "Infosys inaugurated a 1.1 million sq ft block at its Pocharam centre in Hyderabad and is eyeing 13,000 more employees.",
  "beats": {
   "what": "On Oct 30 Infosys announced the expansion of its Pocharam Development Centre with a new 1.1 million sq ft Software Development Block.",
@@ -88,10 +88,11 @@
    "url": "https://www.siasat.com/infosys-expands-hyderabad-campus-eyes-13000-more-employees-3567518/"
   }
  ],
- "updated": 1793435515007,
+ "updated": 1793436710316,
  "city": "Hyderabad",
  "img": {
   "u": "https://cdn.siasat.com/wp-content/uploads/2021/12/info.jpg",
   "c": "Siasat"
- }
+ },
+ "insight": "The new Pocharam block is 1.1 million sq ft."
 }

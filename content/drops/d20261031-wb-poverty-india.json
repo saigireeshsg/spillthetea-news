@@ -7,8 +7,8 @@
  "heat": 3,
  "readSecs": 30,
  "topic": "India extreme poverty World Bank",
- "hook": "World Bank: India's extreme poverty fell from *27.1%* to *2.6%*",
- "hook_b": "India poverty hit 2.6%. Does that match your street?",
+ "hook": "India's extreme poverty: *27.1% to 2.6%* in 12 years.",
+ "hook_b": "India's extreme poverty: *27.1% to 2.6%* in 12 years.",
  "tldr": "A World Bank report says India's extreme poverty fell from 27.1% to 2.6% in 12 years.",
  "beats": {
   "what": "NDTV reports the World Bank figure: extreme poverty down from 27.1% to 2.6% over 12 years.",
@@ -88,5 +88,6 @@
    "url": "https://www.ndtv.com/india-news/indias-extreme-poverty-drops-from-27-1-percent-to-2-6-percent-in-12-years-world-bank-12257248"
   }
  ],
- "updated": 1793435758140
+ "updated": 1793436710312,
+ "insight": "At the USD 4.20 a day line, 16.1% are still below it."
 }

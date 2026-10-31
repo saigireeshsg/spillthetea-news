@@ -7,8 +7,8 @@
  "heat": 3,
  "readSecs": 30,
  "topic": "*6* Hyderabad traders booked for hoardin",
- "hook": "*6* Hyderabad traders booked for hoarding PDS rice",
- "hook_b": "Ration rice hidden behind shops. Who should pay?",
+ "hook": "Ration rice was *hidden behind shop fronts*. 6 traders booked.",
+ "hook_b": "Ration rice was *hidden behind shop fronts*. 6 traders booked.",
  "tldr": "Officials booked six Hyderabad rice traders after finding hoarded stocks, including diverted PDS rice, behind their shops.",
  "beats": {
   "what": "Siasat: six rice traders were booked after officials found large stocks, including diverted PDS rice, in godowns hidden behind retail shops.",
@@ -84,6 +84,7 @@
    "url": "https://www.siasat.com/shops-in-front-rice-hoarded-behind-6-hyderabad-traders-booked-3567478/"
   }
  ],
- "updated": 1793436004767,
- "city": "Hyderabad"
+ "updated": 1793436710317,
+ "city": "Hyderabad",
+ "insight": "Some of the traders also own rice mills."
 }

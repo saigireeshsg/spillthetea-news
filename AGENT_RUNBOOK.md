@@ -375,3 +375,11 @@ Think as a 20-35 year old in Hyderabad. The question is never "will it happen?" 
 - **Rate:** services people use (bus, metro, water, power, signal, hospital, railways cleanliness): 😡-😍.
 - **Guess (rare):** only for a genuine toss-up the news itself leaves open (who becomes the first billionaire). Never a date or fact question.
 Every option is a position someone really holds, different from the others; the last one may be "none / not my issue". 12 words max in the question, options under 6 words.
+
+## What a good Spill card does (owner direction, Oct 31)
+Reader should finish a card knowing what happened, why, what it means for them, and having had a say. Short, calm, no wall of text.
+- **Hook = an insight, not a headline.** The "oh wow" fact or the tension: "Hyderabad-Pune bullet train is waiting on *one approval*: the route." Not "Revanth urges Centre to expedite...". 12 words max, one *key number*.
+- **`insight`** = one plain sentence (the detail that makes it click). Facts only from the source.
+- **Why / What / Consequences map** stays (3 short labels each).
+- **Answer the reader's questions** where the source does: when, how much, where, who is affected, what to do. If the source doesn't say, write "not announced yet" in `tea`; never guess.
+- **Voice poll** last (see voice rules). Cards load endlessly as the reader scrolls, so keep publishing 50+ a day.

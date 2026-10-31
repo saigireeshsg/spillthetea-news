@@ -7,8 +7,8 @@
  "heat": 3,
  "readSecs": 30,
  "topic": "AI cyclone forecast gave *35%* odds to l",
- "hook": "AI cyclone forecast gave *35%* odds to landfall near Yanam",
- "hook_b": "Would you trust an AI cyclone forecast over IMD?",
+ "hook": "AI forecast gave *35%* odds near Yanam. That is not 'safe'.",
+ "hook_b": "AI forecast gave *35%* odds near Yanam. That is not 'safe'.",
  "tldr": "NDTV Profit looks at where AI cyclone tracking works and fails; ECMWF's ensemble gave 35% to landfall between the Godavari delta and Yanam.",
  "beats": {
   "what": "ECMWF's 51-member ensemble assigned a 35% probability to landfall between the Godavari delta and Yanam, median time 07:11 IST (NDTV Profit).",
@@ -84,5 +84,6 @@
    "url": "https://www.ndtvprofit.com/technology/cyclone-tracking-with-ai-what-it-can-predict-and-where-it-falls-short-12257379"
   }
  ],
- "updated": 1793436004768
+ "updated": 1793436710323,
+ "insight": "Roughly 18 of the model's 51 forecast runs pointed to landfall between the Godavari delta and Yanam."
 }

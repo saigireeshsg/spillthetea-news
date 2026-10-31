@@ -7,8 +7,8 @@
  "heat": 3,
  "readSecs": 30,
  "topic": "Nalgonda e-bus protest",
- "hook": "Nalgonda e-buses stopped *3 hours* as drivers protest wages",
- "hook_b": "Your city bus is running. How is the service where you live?",
+ "hook": "Nalgonda's e-buses stopped *3 hours* over driver pay.",
+ "hook_b": "Nalgonda's e-buses stopped *3 hours* over driver pay.",
  "tldr": "Electric bus services at Nalgonda depot were disrupted for three hours on Saturday as drivers protested over wages and alleged harassment.",
  "beats": {
   "what": "Nalgonda depot e-bus drivers stopped work for three hours on Saturday over wages and alleged harassment.",
@@ -89,10 +89,11 @@
    "url": "https://telanganatoday.com/nalgonda-electric-bus-services-disrupted-for-three-hours-as-drivers-protest-over-wages"
   }
  ],
- "updated": 1793435936142,
+ "updated": 1793436710323,
  "city": "Hyderabad",
  "img": {
   "u": "https://media.telanganatoday.com/wp-content/uploads/2026/10/Nalgonda-electric-bus-services-disrupted-for-three-hours-as-drivers-protest-over-wages.jpg",
   "c": "Telangana Today"
- }
+ },
+ "insight": "Drivers work through a manpower agency; talks are set for Nov 4."
 }

@@ -7,8 +7,8 @@
  "heat": 3,
  "readSecs": 30,
  "topic": "Telangana launches *GPSAP 2026* unified ",
- "hook": "Telangana launches *GPSAP 2026* unified village development plan",
- "hook_b": "Your village's plan now has monthly monitoring. Enough?",
+ "hook": "Every village now gets *one plan* with monthly check-ups.",
+ "hook_b": "Every village now gets *one plan* with monthly check-ups.",
  "tldr": "Telangana launched GPSAP 2026, a unified village development plan that merges schemes and adds monthly monitoring.",
  "beats": {
   "what": "The Hindu: GPSAP 2026 integrates schemes, monthly monitoring, SDG alignment and household data into one village plan.",
@@ -84,10 +84,11 @@
    "url": "https://www.thehindu.com/news/national/telangana/telangana-introduces-unified-village-development-planning-framework/article71648357.ece"
   }
  ],
- "updated": 1793436004768,
+ "updated": 1793436710319,
  "city": "Hyderabad",
  "img": {
   "u": "https://th-i.thgim.com/public/incoming/c4eioy/article71648523.ece/alternates/LANDSCAPE_1200/MEMAU_27_8_2026_17_2_6_1_3111.JPG",
   "c": "The Hindu"
- }
+ },
+ "insight": "It merges schemes with household data and SDG goals."
 }

@@ -7,8 +7,8 @@
  "heat": 4,
  "readSecs": 30,
  "topic": "Telangana instant pension",
- "hook": "Telangana's *instant pension* now covers more families",
- "hook_b": "Is your family in the new *instant pension* list?",
+ "hook": "*Instant pension* now reaches dialysis patients, weavers and toddy tappers.",
+ "hook_b": "*Instant pension* now reaches dialysis patients, weavers and toddy tappers.",
  "tldr": "Telangana has extended its instant pension facility beyond the old-age category for women, to more groups of families.",
  "beats": {
   "what": "Per The Hindu, the decision benefits families of persons with disabilities, toddy tappers, handloom weavers, dialysis patients and those affected by HIV and filariasis.",
@@ -99,10 +99,11 @@
    "url": "https://www.thehindu.com/news/national/telangana/telangana-extends-instant-pension-facility-beyond-old-age-pension-category-for-women/article71648155.ece"
   }
  ],
- "updated": 1793435180910,
+ "updated": 1793436710311,
  "city": "Hyderabad",
  "img": {
   "u": "https://th-i.thgim.com/public/incoming/3pb3ow/article71648433.ece/alternates/LANDSCAPE_1200/KMGNR_13-1-2015_16-26-34_13GNRAO-AASARA-01_2_.JPG",
   "c": "The Hindu"
- }
+ },
+ "insight": "Earlier it covered only the old-age category for women."
 }

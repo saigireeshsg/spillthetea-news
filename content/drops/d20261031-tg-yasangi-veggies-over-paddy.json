@@ -7,8 +7,8 @@
  "heat": 3,
  "readSecs": 30,
  "topic": "Telangana farmers keep choosing *veggies",
- "hook": "Telangana farmers keep choosing *veggies over paddy* in Yasangi",
- "hook_b": "Farmers are leaving paddy. Will your sabzi get cheaper?",
+ "hook": "Telangana farmers keep picking *veggies over paddy*.",
+ "hook_b": "Telangana farmers keep picking *veggies over paddy*.",
  "tldr": "Telangana farmers' shift from paddy to vegetables and spices continues in Yasangi 2026, driven by water savings and market demand.",
  "beats": {
   "what": "The Hindu: farmers continue preferring vegetables and spices over paddy in Yasangi 2026.",
@@ -84,10 +84,11 @@
    "url": "https://www.thehindu.com/news/national/telangana/telangana-farmers-preference-for-veggies-spices-over-paddy-continues-in-yasangi-2026/article71645657.ece"
   }
  ],
- "updated": 1793436004767,
+ "updated": 1793436710313,
  "city": "Hyderabad",
  "img": {
   "u": "https://th-i.thgim.com/public/news/cities/Hyderabad/tubw3v/article71645659.ece/alternates/LANDSCAPE_1200/Vegetables.jpeg",
   "c": "The Hindu"
- }
+ },
+ "insight": "Heat may cut produce about 20%, which may push demand up."
 }

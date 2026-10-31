@@ -7,8 +7,8 @@
  "heat": 3,
  "readSecs": 30,
  "topic": "Reliance Q2 Jio",
- "hook": "Jio hits *542.4 million* users as ARPU climbs to *Rs 218.8*",
- "hook_b": "Jio ARPU is up. Is your network worth it?",
+ "hook": "Jio now has *542.4 million* users, Rs 218.8 average each.",
+ "hook_b": "Jio now has *542.4 million* users, Rs 218.8 average each.",
  "tldr": "Jio Platforms' ARPU rose to Rs 218.8 and subscribers reached 542.4 million in Reliance's Q2 results.",
  "beats": {
   "what": "NDTV Profit's takeaways: Jio ARPU rose to Rs 218.8, subscriber base 542.4 million, while Reliance Retail profit fell 6.67% sequentially.",
@@ -89,5 +89,6 @@
    "url": "https://www.ndtvprofit.com/business/reliance-q2-scorecard-o2c-roars-jio-expands-retail-feels-the-pinch-10-key-takeaways-12262547"
   }
  ],
- "updated": 1793435515007
+ "updated": 1793436710319,
+ "insight": "Reliance Retail profit fell 6.67% from the previous quarter."
 }

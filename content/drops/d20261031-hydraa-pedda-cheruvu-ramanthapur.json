@@ -7,8 +7,8 @@
  "heat": 3,
  "readSecs": 30,
  "topic": "HYDRAA demolishes houses in Ramanthapur'",
- "hook": "HYDRAA demolishes houses in Ramanthapur's *Pedda Cheruvu* FTL",
- "hook_b": "Houses razed inside a lake's FTL. Right or wrong?",
+ "hook": "Houses *inside a lake's legal line* were demolished in Ramanthapur.",
+ "hook_b": "Houses *inside a lake's legal line* were demolished in Ramanthapur.",
  "tldr": "HYDRAA demolished houses built in the full tank level zone of Pedda Cheruvu in Ramanthapur.",
  "beats": {
   "what": "Deccan Chronicle reports HYDRAA demolished houses inside the Pedda Cheruvu FTL (full tank level) in Ramanthapur.",
@@ -87,6 +87,7 @@
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRzg0ak1LcHMzSWZuQUdVVnVjbG5mRk9TX3JTZmJVY0hyTS1Cd3lmNm4wYk1IMkNsTjE1c211RWVfYzlVVFc0SWtCMmpmRktJbGQ5RHdlYk43d1ZrWHRUNUNFQlhHZUZvSFJrbGtteHd1VmdTRWM4dmxFdU12MzdyQmhPcjhoNGVLY25jcFZlcDJhSHNBVlJTX1hLNkJuUWR4STVrUmszZXdvNThHeEhzTnNXQUZBaHpWOFd2LXB0by1UNHFf?oc=5"
   }
  ],
- "updated": 1793436004767,
- "city": "Hyderabad"
+ "updated": 1793436710322,
+ "city": "Hyderabad",
+ "insight": "FTL is a lake's highest water line; building inside it counts as encroachment."
 }

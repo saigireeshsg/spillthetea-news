@@ -7,8 +7,8 @@
  "heat": 3,
  "readSecs": 30,
  "topic": "AI data centres face *community tension*",
- "hook": "AI data centres face *community tension* in India",
- "hook_b": "A data centre next door: yes or no?",
+ "hook": "AI needs *power and water*. Communities are pushing back.",
+ "hook_b": "AI needs *power and water*. Communities are pushing back.",
  "tldr": "ET Datacenters reports communities in India are pushing back against AI data centres.",
  "beats": {
   "what": "ET Datacenters headline: AI data centers face community tension in India.",
@@ -84,5 +84,6 @@
    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNERzOWhDSzdyUk9iMzF1c1NCZFNLUkRHRUJxRklXSlV3dWpPcDNUbkkyTmszQXBtZnZMQ0YyVHJJS1RVYlhMcDg3ZnhQbWY2RDZWRTVKc21aNVdneElxN1BkSjhUVmVTVC1qTW5kWXhEV3VFY3VOX1ZvdWszNzdSSzgxYUc0LU5qc0JZVFdodURVaHctSmpIejc5ancwZ2o1YjBTdHg0VVhEcWV6WFZ0QXhmdkhodjA4ak5YbnZmRWNvamJuZFlIcjVsR3o4c19seUl1amlmSGlHcFFtNVVMSzljYXAxeW5PZS1zbklpZE00cUFRbVZoS25JMF84QdIBzAFBVV95cUxNYllTNFVKSHpnOFdxbWNUdlVpaVg2NERHekxmWDc0WWtvVXRqc1BidHRSSV82MHpsTllQZFVDRWE5c0kzc25GWVlCN2VPenBTMDdzQWkwWE1udnZwcTFyQlVhb3FsYXNRYnBnSFlGWHA2NlZzcDFqOGJHQXFaVDlQakExY1VYQ3MtR0ZYNW5uM2NLQ2VDNkJkeUFnTml2RHk2TGg3Umtra2lpRmh2LW9RNkdiVTc0WGJOS1BVY2EtYng1OVE4bEpfTjZ2MF8?oc=5"
   }
  ],
- "updated": 1793436004768
+ "updated": 1793436710321,
+ "insight": "ET Datacenters reports tension around AI data centres in India; site details were not available."
 }

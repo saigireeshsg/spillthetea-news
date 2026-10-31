@@ -132,6 +132,17 @@
 .mvx-track{height:6px;border-radius:6px;background:#ffffff14;margin-top:6px;overflow:hidden}.mvx-track i{display:block;height:100%;background:linear-gradient(90deg,#ff4500,#ffd166);border-radius:6px;transition:width .4s}
 .nb.voted{border-color:#ff450055}
 </style>
+<style>
+.npost{padding:12px 14px 10px;border-color:#ffffff14}.npost .pt{font-size:18px;line-height:1.28;margin:8px 0 6px;font-weight:700}
+.nimg.lg{aspect-ratio:21/9;margin:8px 0 0;border-radius:12px}
+.ins{margin:0 0 10px;font-size:13.5px;line-height:1.45;color:#c9d1d9}
+.nflow .thumb{margin:0 0 10px;transform-origin:top left}.nflow .thumb>*{font-size:92%}
+.na .ipoll{padding:10px;margin:0 0 8px;background:#ffffff08}.na .ipoll b{font-size:14px}
+.na .iopts button{border-radius:999px;font-size:13px;padding:8px 8px}
+.na .acts{margin-top:2px}
+.ipoll .ik{color:#9aa4ad}
+@media (prefers-reduced-motion:no-preference){.post{transition:border-color .2s}}
+</style>
 </head>
 <body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1346,7 +1357,7 @@ function cardHTMLClassic(d,ix){const sc=S.post[d.id]||0;const n=commentCount(d);
   return `<article class="post click ${me.done[d.id]?"done":""}" data-open="${d.id}"${d.hook_b?` data-v="${abVar()}"`:""} tabindex="0">${d.featured?`<div class="featbar">📰 EDITORIAL OF THE DAY <small>· ${esc(d.editorial?.paper||"")}, decoded</small></div>`:""}${head(d)}${!me.done[d.id]&&reasonOf(d)?`<p class="rsn">${esc(reasonOf(d))}</p>`:""}<h2 class="pt">${rich(abHook(d))}</h2>${statChip(d)}${(()=>{const sb=siblings(d).length,lv=liveFor(d);return (lv?`<p class="cardlive"><span class="ldot" aria-hidden="true"></span><b>LIVE · ${ago(lv.updated||lv.ts)}</b><span class="t">${esc(lv.title)}</span></p>`:"")+(sb?`<p class="thr">🧵 Ongoing story · ${sb} earlier ${sb===1?"update":"updates"} inside</p>`:"")})()}${d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}${hookHTML(d)}<div class="acts">${storyActHTML(d)}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${me.done[d.id]?"Read again":"Read"} · ${readLen(d)} →</span></div></article>`}
 
 // ---------- Reddit-style news cards: image + Why / What / How it matters + inline poll & quiz (two layouts to test) ----------
-let UI=(()=>{try{const q=new URLSearchParams(location.search).get("ui");if(q&&/^(a|b|old)$/.test(q)){localStorage.setItem("spill_ui",q);return q}return localStorage.getItem("spill_ui")||"b"}catch(_){return "a"}})();
+let UI=(()=>{try{const q=new URLSearchParams(location.search).get("ui");if(q&&/^(a|b|old)$/.test(q)){localStorage.setItem("spill_ui",q);return q}return localStorage.getItem("spill_ui")||"a"}catch(_){return "a"}})();
 function cardHTML(d,ix){return UI==="old"?cardHTMLClassic(d,ix):newCard(d,ix)}
 function imgHTML(d,cls){const c=d.cover||{},bg=(c.bg||["#1a1a1b","#333"]);const sc=(c.scene||[]).slice(0,3).join(" ");
   const im=d.img&&d.img.u?`<img src="${esc(d.img.u)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:"";
@@ -1366,13 +1377,15 @@ function iquizHTML(d){const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q)return""
   const ok=a===q.ans;return `<div class="iquiz res ${ok?"ok":"no"}"><span class="ik">🧠 Quick one</span><b>${ok?"✅ Nailed it":"🤔 Not quite"} · ${esc(q.opts[q.ans])}</b>${q.why?`<span class="iw">${rich(q.why)}</span>`:""}</div>`}
 function thumbHTML(d){return d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}
 function newCard(d,ix){const n=commentCount(d);
-  const pl=(d.cards||[]).find(c=>c.k==="poll");const voted=pl&&me.poll[d.id]!=null;
-  const foot=`<div class="acts"><button class="act" data-act="share" data-key="${d.id}">↗ Share</button><button class="act" data-wwh="1">🧭 Why · What · So what ▾</button><span class="readcta" aria-hidden="true">${n?n+" 💬 · ":""}Story →</span></div>`;
-  const flow=`<div class="wwhbox" hidden>${thumbHTML(d)}</div>`;
-  if(UI==="a")return `<article class="post npost na click" data-open="${d.id}" tabindex="0">${head(d)}<h2 class="pt">${rich(abHook(d))}</h2>${imgHTML(d,"lg")}${ipollHTML(d)}${foot}${flow}</article>`;
-  return `<article class="post npost nb click ${voted?"voted":""}" data-open="${d.id}" tabindex="0">${head(d)}<div class="nbrow">${imgHTML(d,"sm")}<h2 class="pt">${rich(abHook(d))}</h2></div>${ipollHTML(d)}${foot}${flow}</article>`}
+  const foot=`<div class="acts"><button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${n?n+" 💬 · ":""}Full story →</span></div>`;
+  const ins=d.insight?`<p class="ins">💡 ${esc(d.insight)}</p>`:"";
+  if(UI==="b")return `<article class="post npost nb click" data-open="${d.id}" tabindex="0">${head(d)}<div class="nbrow">${imgHTML(d,"sm")}<h2 class="pt">${rich(abHook(d))}</h2></div>${ins}${ipollHTML(d)}${foot}</article>`;
+  return `<article class="post npost na click" data-open="${d.id}" tabindex="0">${head(d)}${imgHTML(d,"lg")}<h2 class="pt">${rich(abHook(d))}</h2>${ins}<div class="nflow">${thumbHTML(d)}</div>${ipollHTML(d)}${foot}</article>`}
 function voteBarHTML(pool){const t=today(),v=(me.vday||{})[t]||0,N=pool.filter(x=>(x.cards||[]).some(c=>c.k==="poll")).length;let st=0;const dd=new Date();for(;;){const k=day(dd);if((me.vday||{})[k]){st++;dd.setDate(dd.getDate()-1)}else break}
   return `<div class="mvx"><div class="mvx-top"><b>🗳️ Your voice today</b><span>${v}/${N}</span><span class="xp">⚡ ${me.xp||0} XP</span>${st>1?`<span class="xp">🔥 ${st}-day streak</span>`:""}</div><div class="mvx-track"><i style="width:${N?Math.min(100,Math.round(v*100/N)):0}%"></i></div></div>`}
+try{const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){io.unobserve(en.target);en.target.click()}}),{rootMargin:"600px"});
+const watch=()=>document.querySelectorAll("#view button.more:not([data-io])").forEach(b=>{b.dataset.io=1;io.observe(b)});
+new MutationObserver(watch).observe(document.documentElement,{childList:true,subtree:true});watch()}catch(_){}
 document.addEventListener("click",e=>{const w=e.target.closest("[data-wwh]");if(w){e.preventDefault();e.stopPropagation();const c=w.closest("article.post"),bx=c&&c.querySelector(".wwhbox");if(bx){bx.hidden=!bx.hidden;w.textContent=bx.hidden?"🧭 Why · What · So what ▾":"🧭 Hide ▴"}return}const u=e.target.closest("[data-ui]");if(u){UI=u.dataset.ui;try{localStorage.setItem("spill_ui",UI);window.spillTrack&&window.spillTrack("tab_open",{tab:"ui_"+UI})}catch(_){}feed();return}},true);
 document.addEventListener("click",e=>{const b=e.target.closest("[data-ip],[data-iq]");if(!b)return;e.preventDefault();e.stopPropagation();
   const poll=b.hasAttribute("data-ip"),id=b.dataset.ip||b.dataset.iq,i=+b.dataset.i;const d=drops.find(x=>x.id===id);if(!d)return;
@@ -1439,7 +1452,7 @@ function feed(){
     h+=greetHTML(done,total,pc,fresh);
     h+=voteBarHTML(feedPool());
     h+=tickerHTML();
-    h+=`<div class="uiswitch"><span>Layout:</span>${[["b","Compact"],["a","Photo"],["old","Classic"]].map(x=>`<button data-ui="${x[0]}" class="${UI===x[0]?"on":""}">${x[1]}</button>`).join("")}</div>`;
+    h+=`<div class="uiswitch"><span>Layout:</span>${[["a","Photo + explain"],["b","Compact"],["old","Classic"]].map(x=>`<button data-ui="${x[0]}" class="${UI===x[0]?"on":""}">${x[1]}</button>`).join("")}</div>`;
   }
   if(!list.length){$("#view").innerHTML=h+`<div class="end"><span class="big">🫖</span><b>No tea yet</b><span>Fresh stories land here every morning.</span></div>`+(filter==="all"?extrasHTML():"");return}
   const stale=isStale();

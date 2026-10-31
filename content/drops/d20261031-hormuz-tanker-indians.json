@@ -7,8 +7,8 @@
  "heat": 5,
  "readSecs": 30,
  "topic": "Hormuz tanker attack",
- "hook": "Tanker with *27 Indians* aboard hit by limpet mines in Hormuz",
- "hook_b": "Should India escort Indian-crewed ships through Hormuz?",
+ "hook": "*27 Indians* were aboard a tanker hit by limpet mines.",
+ "hook_b": "*27 Indians* were aboard a tanker hit by limpet mines.",
  "tldr": "A tanker carrying 27 Indians was attacked with limpet mines in the Strait of Hormuz.",
  "beats": {
   "what": "NDTV reports a tanker with 27 Indians aboard was attacked with limpet mines in the Strait of Hormuz.",
@@ -88,5 +88,6 @@
    "url": "https://www.ndtv.com/world-news/tanker-carrying-27-indians-attacked-with-limpet-mines-in-strait-of-hormuz-12261284"
   }
  ],
- "updated": 1793435758140
+ "updated": 1793436710320,
+ "insight": "First successful limpet mine use in the Strait of Hormuz since the conflict began in February."
 }

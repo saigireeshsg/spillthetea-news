@@ -7,8 +7,8 @@
  "heat": 4,
  "readSecs": 30,
  "topic": "Air India Saudi flights suspended",
- "hook": "Air India, Air India Express extend *Saudi flights suspension* to Nov 14",
- "hook_b": "Booked a Saudi flight? When will flights resume?",
+ "hook": "Saudi flights *paused till Nov 14*. Your ticket can move to Nov 29.",
+ "hook_b": "Saudi flights *paused till Nov 14*. Your ticket can move to Nov 29.",
  "tldr": "Air India and Air India Express extended the suspension of Saudi flights till November 14.",
  "beats": {
   "what": "NDTV reports Air India and Air India Express extended the Saudi Arabia flights suspension till Nov 14.",
@@ -88,5 +88,6 @@
    "url": "https://www.ndtv.com/india-news/air-india-air-india-express-extend-saudi-arabia-flights-suspension-till-november-14-12260263"
   }
  ],
- "updated": 1793435936146
+ "updated": 1793436710324,
+ "insight": "Bookings made by Oct 30 can shift up to 15 days past the pause, if seats are free."
 }

@@ -7,8 +7,8 @@
  "heat": 4,
  "readSecs": 30,
  "topic": "Telangana Inter exams 2027",
- "hook": "Telangana Inter 2027 theory exams likely from *Feb 24*",
- "hook_b": "Inter exams moving earlier. Good or bad for you?",
+ "hook": "Inter exams are being *pulled forward*: theory from Feb 24.",
+ "hook_b": "Inter exams are being *pulled forward*: theory from Feb 24.",
  "tldr": "Telangana is likely to bring forward the 2027 Intermediate exams, with theory papers starting Feb 24.",
  "beats": {
   "what": "The state is set to advance the 2027 Intermediate Public Examinations, theory likely from Wednesday, Feb 24; practicals likely earlier.",
@@ -88,6 +88,7 @@
    "url": "https://www.siasat.com/telangana-govt-likely-to-advance-inter-exams-theory-from-feb-24-3567528/"
   }
  ],
- "updated": 1793435515007,
- "city": "Hyderabad"
+ "updated": 1793436710312,
+ "city": "Hyderabad",
+ "insight": "Practicals are likely to start even earlier; the timetable is not final."
 }

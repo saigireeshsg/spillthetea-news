@@ -14,8 +14,8 @@
  "heat": 4,
  "readSecs": 30,
  "topic": "Hyderabad overnight rain",
- "hook": "*112 mm* overnight in Keesara ends Hyderabad's dry spell",
- "hook_b": "Did your area flood last night? Keesara got *112 mm*",
+ "hook": "*112 mm* in one night: Hyderabad's dry spell just broke.",
+ "hook_b": "*112 mm* in one night: Hyderabad's dry spell just broke.",
  "tldr": "Heavy rain hit Hyderabad from Friday evening to Saturday morning. Keesara logged 112 mm; low-lying roads flooded.",
  "beats": {
   "what": "Friday night downpour: Keesara 112 mm, Bahadurpura 82.3 mm, Madhapur 73.8 mm (TSDPS data).",
@@ -160,9 +160,10 @@
    "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-to-see-4-more-days-of-evening-showers-imd-warns-of-gusty-winds-yellow-alert-for-surrounding-districts-on-oct-31/articleshow/135373220.cms"
   }
  ],
- "updated": 1793435936147,
+ "updated": 1793436710324,
  "img": {
   "u": "https://media.telanganatoday.com/wp-content/uploads/2026/10/Rains-BanjaraHills-1.jpg",
   "c": "Telangana Today"
- }
+ },
+ "insight": "Over 100 mm in a night counts as very heavy rain."
 }

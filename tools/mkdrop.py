@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Compact drop builder. Usage: python3 tools/mkdrop.py specs.json   (list of specs)
-Spec keys: slug, cat, city?, sort (0-99), heat?, hook, hook_b, tldr, why, what, care, tea, poll{vt,q,opts}, src{name,title,url}|srcs[],
+Spec keys: slug, cat, city?, sort (0-99), heat?, hook (insight-led, 12 words max, *key number*), insight (one 'oh wow' line), hook_b, tldr, why, what, care, tea, poll{vt,q,opts}, src{name,title,url}|srcs[],
  img{u,c}?, big, bl, map{cause, event, effects[2]}, emoji[3]?, learn?, watch?
 Writes content/drops/d<date>-<slug>.json with map, cover, viz filled from these fields."""
 import json,sys,time,datetime
@@ -14,9 +14,10 @@ def build(s):
      "map":{"causes":[{"icon":em[0],"label":m["cause"]}],"event":{"icon":em[1],"label":m["event"]},"effects":[{"icon":em[2],"label":x} for x in m["effects"]]},
      "cards":[{"k":"tea","title":"🆕 What's new","body":s["tea"]},{"k":"poll","vt":s["poll"].get("vt","stance"),"q":s["poll"]["q"],"opts":s["poll"]["opts"]}],
      "viz":[{"t":"big","v":s["big"],"l":s["bl"]}],"cover":{"bg":BG.get(s["cat"],BG["india"]),"big":s["big"],"label":s["bl"],"motion":"drift","scene":em},
-     "learn":{"t":s.get("learn","")},"watch":s.get("watch",""),"thread":s["slug"],"sources":s.get("srcs") or [s["src"]],"updated":int(time.time()*1000)}
+     "insight":s.get("insight",""),"learn":{"t":s.get("learn","")},"watch":s.get("watch",""),"thread":s["slug"],"sources":s.get("srcs") or [s["src"]],"updated":int(time.time()*1000)}
     if s.get("city"):d["city"]=s["city"]
     if s.get("img"):d["img"]=s["img"]
+    if not d["insight"]:del d["insight"]
     if not d["learn"]["t"]:del d["learn"]
     if not d["watch"]:del d["watch"]
     fn=f"content/drops/d{today.replace('-','')}-{s['slug']}.json";json.dump(d,open(fn,"w"),indent=1,ensure_ascii=False);return fn

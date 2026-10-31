@@ -7,8 +7,8 @@
  "heat": 3,
  "readSecs": 30,
  "topic": "UK student visa: Indians must show up to",
- "hook": "UK student visa: Indians must show up to *Rs 18 lakh*",
- "hook_b": "UK now wants Rs 18 lakh in your account. Still going?",
+ "hook": "UK wants up to *Rs 18 lakh* in your account for 28 days.",
+ "hook_b": "UK wants up to *Rs 18 lakh* in your account for 28 days.",
  "tldr": "UK student visa rules change from Nov 30, with Indians needing up to Rs 18 lakh for living expenses held for 28 days.",
  "beats": {
   "what": "NDTV Profit: applicants relying on personal funds must maintain the required balance for at least 28 consecutive days before applying.",
@@ -84,5 +84,6 @@
    "url": "https://www.ndtvprofit.com/education/uk-student-visa-to-get-costlier-from-november-30-what-indian-students-should-know-12262309"
   }
  ],
- "updated": 1793436004768
+ "updated": 1793436710325,
+ "insight": "The rules get costlier from Nov 30."
 }

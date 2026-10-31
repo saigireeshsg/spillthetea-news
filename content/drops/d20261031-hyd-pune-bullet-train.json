@@ -7,8 +7,8 @@
  "heat": 4,
  "readSecs": 30,
  "topic": "Hyderabad-Pune bullet train",
- "hook": "Revanth presses Centre to speed up *Hyderabad-Pune bullet train*",
- "hook_b": "Bullet train to Pune: yes, but at what cost?",
+ "hook": "The Hyderabad-Pune bullet train is waiting on *one approval*: the route.",
+ "hook_b": "The Hyderabad-Pune bullet train is waiting on *one approval*: the route.",
  "tldr": "Telangana's CM asked the Railway Minister to fast-track the Hyderabad-Pune bullet train and approve its alignment early.",
  "beats": {
   "what": "On Oct 30, CM A Revanth Reddy urged Union Railway Minister Ashwini Vaishnaw to expedite the Hyderabad-Pune bullet train project.",
@@ -88,10 +88,11 @@
    "url": "https://www.siasat.com/revanth-urges-centre-to-expedite-hyderabad-pune-bullet-train-3567471/"
   }
  ],
- "updated": 1793435936139,
+ "updated": 1793436710319,
  "city": "Hyderabad",
  "img": {
   "u": "https://cdn.siasat.com/wp-content/uploads/2026/10/Revanth-and-Ashwini.jpg",
   "c": "Siasat"
- }
+ },
+ "insight": "Alignment approval comes before land and construction can begin."
 }

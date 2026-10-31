@@ -7,8 +7,8 @@
  "heat": 3,
  "readSecs": 30,
  "topic": "CBSE Class 10 in 2028: *five subjects* m",
- "hook": "CBSE Class 10 in 2028: *five subjects* mandatory",
- "hook_b": "CBSE Class 10 is changing. Good for students?",
+ "hook": "Class 10 in 2028 means *5 compulsory subjects* and a skill paper.",
+ "hook_b": "Class 10 in 2028 means *5 compulsory subjects* and a skill paper.",
  "tldr": "CBSE says five subjects will be mandatory in Class 10 boards from 2028, and a skill paper may help students pass.",
  "beats": {
   "what": "NDTV Profit: CBSE Class 10 board exams 2028 need five mandatory subjects; a skill paper may help students pass.",
@@ -84,5 +84,6 @@
    "url": "https://www.ndtvprofit.com/education/cbse-class-10-board-exams-2028-five-subjects-mandatory-skill-paper-may-help-students-pass-12262635"
   }
  ],
- "updated": 1793436004768
+ "updated": 1793436710315,
+ "insight": "The new parts will not apply to the current batch."
 }
