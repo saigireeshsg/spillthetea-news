@@ -1037,7 +1037,8 @@ function cups(n,why,el){me.cups+=n;save()}
 const once=(k,n,why,el)=>{if(me.paid[k])return false;me.paid[k]=1;cups(n,why,el);return true};
 
 // ---------- shared data ----------
-let drops=[],stories={},votes={},takes={},db=null,uid=null,filter=(Date.now()<Date.parse("2026-11-01T00:00:00+05:30")?"cyclone":"live"),open=null,sortBy="top";
+const CY_ON=false; /* storm over: set true to bring back the 🌀 Cyclone tab (first + default) and the Live-tab banner */
+let drops=[],stories={},votes={},takes={},db=null,uid=null,filter=(CY_ON?"cyclone":"live"),open=null,sortBy="top";
 const folds={};
 const S={poll:{},pred:{},quiz:{},post:{},take:{}};
 function agg(){
@@ -1296,7 +1297,7 @@ function attachedLive(){const s=new Set();visible().forEach(d=>liveAllFor(d).for
 // ---------- feed ----------
 function subs(){
   const used=[...new Set(visible().map(d=>d.cat))].filter(c=>SUBS[c]);
-  $("#subs").innerHTML=[...(Date.now()<Date.parse("2026-11-01T00:00:00+05:30")?[["cyclone","🌀 Cyclone live"]]:[]),["live","🔴 Live"],["all","🏠 Home"],["moneyhub","💰 Money"],...(window.eventsAny&&window.eventsAny()?[["events","🎟️ Events"+(window.eventsSoon()?" · "+window.eventsSoon():"")]]:[]),...((window.SPILL_CONFIG||{}).speakup?[["acts","📣 Speak up"+(window.actsOpen&&window.actsOpen()?" · "+window.actsOpen():"")]]:[]),...used.filter(c=>c!=="money").map(c=>[c,c==="local"&&me.city?"r/"+me.city:SUBS[c].n]),...(window.oppsAny&&window.oppsAny()?[["opps","💼 Opportunities · "+window.oppsCount()]]:[])].map(([k,n])=>`<button class="sub-chip ${k==="live"||k==="cyclone"?"livechip":""}" data-f="${k}" aria-pressed="${filter===k}">${esc(n)}</button>`).join("");
+  $("#subs").innerHTML=[...(CY_ON?[["cyclone","🌀 Cyclone live"]]:[]),["live","🔴 Live"],["all","🏠 Home"],["moneyhub","💰 Money"],...(window.eventsAny&&window.eventsAny()?[["events","🎟️ Events"+(window.eventsSoon()?" · "+window.eventsSoon():"")]]:[]),...((window.SPILL_CONFIG||{}).speakup?[["acts","📣 Speak up"+(window.actsOpen&&window.actsOpen()?" · "+window.actsOpen():"")]]:[]),...used.filter(c=>c!=="money").map(c=>[c,c==="local"&&me.city?"r/"+me.city:SUBS[c].n]),...(window.oppsAny&&window.oppsAny()?[["opps","💼 Opportunities · "+window.oppsCount()]]:[])].map(([k,n])=>`<button class="sub-chip ${k==="live"||k==="cyclone"?"livechip":""}" data-f="${k}" aria-pressed="${filter===k}">${esc(n)}</button>`).join("");
   $("#subs").hidden=!!open;
 }
 function head(d){const s=SUBS[d.cat]||SUBS.india,f=FLAIR[d.cat]||FLAIR.india;const sr=d.cat==="local"?"r/"+(d.city||"local"):s.n;return `<div class="ph"><span class="av" style="background:${s.c}">${s.i}</span><span class="sr">${esc(sr)}</span><span>· ${dayAgo(d.date)}</span><span class="flair" style="background:${f[1]}">${f[0]}</span>${me.done[d.id]?'<span class="donechip">✓ caught up</span>':!me.seen[d.id]?'<span class="dot-unread" title="Unread"></span>':""}${(d.heat||0)>=5?'<span>🔥 trending</span>':""}${me.goal==="exam"&&GS[d.cat]?`<span class="gs">${GS[d.cat]}</span>`:""}${isHeavy(d)?'<span class="heavy">⚠️ heavy story</span>':""}${outlets(d)>=2?`<span class="ver">· ✅ ${outlets(d)} sources</span>`:""}</div>`}
@@ -1962,7 +1963,7 @@ function developingHTML(){
     .sort((a,b)=>((b.region!=="india")-(a.region!=="india"))||(b.outlets-a.outlets)).slice(0,items.length>=2?1:2);
   if(!items.length&&!W.length)return"";
   return `<div class="sect"><span>🔴 Developing now</span><button data-act="live" data-key="local">All live →</button></div><section class="livebox ntk dev">${items.map(x=>liveItemHTML(x)).join("")}${W.map(w=>`<a class="devw" href="${esc(w.url)}" target="_blank" rel="noopener"><span class="ldot" aria-hidden="true"></span><span><b>${esc(window.spillDecode?window.spillDecode(w.title):w.title)}</b><small>${w.outlets} outlets reporting · ${esc(w.publisher||"")} · ${ago(Date.parse(w.published_at))}</small></span></a>`).join("")}</section>`}
-function cycloneDeskHTML(){if(Date.now()>Date.parse("2026-11-01T00:00:00+05:30"))return"";return `<a class="cydesk" href="/cyclone/?src=app&c=live-banner"><span class="cyi">🌀</span><span><b>Cyclone Arnab live desk</b><small>Map · affected districts · helplines · shelters near you</small></span><u>Open →</u></a>`}
+function cycloneDeskHTML(){if(!CY_ON)return"";return `<a class="cydesk" href="/cyclone/?src=app&c=live-banner"><span class="cyi">🌀</span><span><b>Cyclone Arnab live desk</b><small>Map · affected districts · helplines · shelters near you</small></span><u>Open →</u></a>`}
 function liveView(){
   const scope=liveTab;const arr=liveList(scope,true).sort((a,b)=>(b.ts||0)-(a.ts||0));
   const nowA=arr.filter(x=>activeLive(x)&&Date.now()-Math.max(x.ts||0,x.updated||0)<12*3600e3),earlier=arr.filter(x=>!nowA.includes(x));
@@ -2068,7 +2069,7 @@ $("#brain").addEventListener("click",()=>recap());
 
 // ---------- events ----------
 $("#subs").addEventListener("click",e=>{const b=e.target.closest(".sub-chip");if(!b)return;filter=b.dataset.f;feed();window.scrollTo(0,0)});
-$("#home").addEventListener("click",()=>{filter=(Date.now()<Date.parse("2026-11-01T00:00:00+05:30")?"cyclone":"live");feed();window.scrollTo(0,0)});
+$("#home").addEventListener("click",()=>{filter=(CY_ON?"cyclone":"live");feed();window.scrollTo(0,0)});
 $("#back").addEventListener("click",()=>feed());
 document.addEventListener("input",e=>{if(e.target.id==="take")$("#send").disabled=!e.target.value.trim();
   const t=e.target;if(t.dataset&&t.dataset.calc){const k=t.dataset.calc;calcVals[k]=calcVals[k]||{};calcVals[k][t.dataset.f]=t.value;document.querySelectorAll("#cout-"+k).forEach(o=>{const r=calcResult(k,calcVals[k]);o.innerHTML=`<b>${r.big}</b>${esc(r.line)}<small>Illustration only. Returns aren't guaranteed and this isn't advice.</small>`});document.querySelectorAll(`.cin[data-calc="${k}"][data-f="${t.dataset.f}"]`).forEach(x=>{if(x!==t)x.value=t.value})}
