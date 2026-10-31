@@ -1,6 +1,6 @@
 {
   "name": "Cyclone Arnab",
-  "updated": "2026-10-31T21:15:00+05:30",
+  "updated": "2026-10-31T22:15:00+05:30",
   "level": "Over",
   "moving": {
     "state": "dissipated",
@@ -112,6 +112,12 @@
   ],
   "updates": [
     {
+      "t": "Oct 31, 10:15 pm",
+      "e": "📢",
+      "x": "Telangana: posts showing a 'red alert' for Khammam, Bhadradri Kothagudem, Mahabubabad, Suryapet, Nalgonda and Yadadri Bhuvanagiri on Nov 2–4 come from a private forecaster (Telangana Weatherman), not IMD. IMD Hyderabad expects heavy rain from Monday, Nov 2, in Adilabad, Komaram Bheem Asifabad, Mancherial, Jagtial, Mahabubnagar, Nagarkurnool, Wanaparthy, Narayanpet and Jogulamba Gadwal, with 40–50 km/h winds; Hyderabad gets light to moderate rain. AP: no landfall point from IMD yet; APSDMA says heavy rain in central AP and Rayalaseema on Nov 2–3. SACHET had no new red or orange district alerts for AP, Odisha, Telangana or Yanam at 10 pm.",
+      "src": "Asianet Newsable, Oct 31 (5:51 pm); APSDMA via Andhra Prabha, Oct 31; NDMA SACHET"
+    },
+    {
       "t": "Oct 31, 9:15 pm",
       "e": "🌬️",
       "x": "Odisha (IMD Bhubaneswar): little rain on Oct 31–Nov 1, then more rain from Nov 2, mostly in south Odisha. Winds of 40–50 km/h gusting to 60 km/h are likely in Ganjam, Gajapati, Puri, Khordha, Rayagada, Koraput and Malkangiri, reaching about 70 km/h in places. The new depression is still forecast to reach near the Andhra coast by Nov 2 evening; IMD has still not given a landfall point. No new district-level red or orange alerts on SACHET tonight, only AP lightning warnings.",
@@ -194,12 +200,6 @@
       "e": "💰",
       "x": "Odisha released an extra ₹20 crore to Ganjam for rescue, relief, medical help and road repair, after CM Majhi's aerial survey of Ganjam and Gajapati.",
       "src": "Odisha Barta (SRC Odisha)"
-    },
-    {
-      "t": "Oct 31, 3:49 am",
-      "e": "🛶",
-      "x": "Odisha floods: 299 villages in 22 blocks of Ganjam and 711 villages in 7 blocks of Gajapati hit. 11,882 people moved to shelters in Ganjam and 17,441 in Gajapati. Food dropped by helicopter to cut-off villages; boats in use in Ganjam.",
-      "src": "Down To Earth"
     }
   ],
   "mood": [
@@ -478,6 +478,10 @@
     {
       "q": "What is Cyclone Murasu and where will it hit?",
       "a": "Murasu is the name the new Bay of Bengal system will get if it becomes a cyclonic storm (name proposed by India). On Oct 31 it was a depression about 330 km west-southwest of Port Blair, moving west-northwest. IMD expects it near the Andhra coast by Nov 2 evening and PTI reports possible landfall on the AP coast on Nov 3 morning, with 80–90 km/h winds — weaker than Arnab. No exact landfall district announced yet. Emergency: 112."
+    },
+    {
+      "q": "Is there a red alert in Khammam for Cyclone Murasu?",
+      "a": "Not from IMD yet. The 'red alert' posts for Khammam, Bhadradri Kothagudem, Mahabubabad, Suryapet and Nalgonda (Nov 2–4) come from a private forecaster. IMD expects heavy rain in parts of Telangana from Nov 2. Spill will change the map as soon as IMD or SACHET issues district alerts."
     },
     {
       "q": "My phone has no signal after Cyclone Arnab. What do I do?",
@@ -783,6 +787,10 @@
     [
       "After Arnab, Cyclone Murasu headed to Andhra (The Week)",
       "https://www.theweek.in/news/india/2026/10/31/another-cyclone-murasu-to-form-near-andhra-pradesh-depression-over-bay-of-bengal-to-bring-heavy-rains.html"
+    ],
+    [
+      "Telangana & AP weather update, Oct 31 (Asianet Newsable)",
+      "https://newsable.asianetnews.com/gallery/india/telangana-andhra-pradesh-weather-update-cyclone-murasu-triggers-red-alert-heavy-rains-4f3qign"
     ]
   ],
   "trains": {
