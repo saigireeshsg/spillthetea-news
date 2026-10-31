@@ -14,12 +14,12 @@
  "heat": 4,
  "readSecs": 30,
  "topic": "Hyderabad overnight rain",
- "hook": "*112 mm* in one night: Hyderabad's dry spell just broke.",
- "hook_b": "*From Nov 1*: IMD flags heavy rain for Telangana again.",
- "tldr": "Heavy rain hit Hyderabad from Friday evening to Saturday morning. Keesara logged 112 mm; low-lying roads flooded. IMD now forecasts heavy rain in Telangana and Andhra Pradesh from Nov 1 as a fresh depression develops.",
+ "hook": "*9 Telangana districts* face heavy rain on Nov 2, IMD says.",
+ "hook_b": "Bay depression on Nov 2: how wet does Telangana get?",
+ "tldr": "IMD Hyderabad says the Bay of Bengal depression will bring rain to Telangana, with heavy showers likely in nine districts on Nov 2, though the system weakens a lot before reaching the state. This follows Friday night's downpour (Keesara 112 mm).",
  "beats": {
-  "what": "Friday night downpour: Keesara 112 mm, Bahadurpura 82.3 mm, Madhapur 73.8 mm (TSDPS data).",
-  "why": "A long hot, humid dry spell broke. IMD expects more evening showers with gusty winds.",
+  "what": "Heavy rain likely in 9 Telangana districts on Nov 2 (IMD Hyderabad, via The Hindu). Friday night: Keesara 112 mm.",
+  "why": "A depression over the Bay of Bengal; IMD says it weakens considerably before reaching Telangana.",
   "care": "Leave early for evening plans. Skip underpasses and low roads after a shower."
  },
  "map": {
@@ -51,7 +51,12 @@
  "cards": [
   {
    "k": "tea",
-   "title": "🆕 Heavy rain from Nov 1 (IMD)",
+   "title": "🆕 Nov 2: heavy rain in 9 districts (IMD)",
+   "body": "IMD Hyderabad says the Bay of Bengal depression will bring rain to Telangana, with heavy showers likely in nine districts on Nov 2 (The Hindu). Its head, S. Stella, says the system will weaken considerably before reaching Telangana. The district list isn't in the summary we have; check IMD Hyderabad's bulletin."
+  },
+  {
+   "k": "tea",
+   "title": "Earlier: heavy rain from Nov 1 (IMD)",
    "body": "IMD forecasts heavy rains in Telangana and Andhra Pradesh from Nov 1, as a fresh depression develops (Daily Pioneer). District-wise alerts not out yet. Plan Sunday commutes with buffer time."
   },
   {
@@ -91,6 +96,11 @@
  "viz": [
   {
    "t": "big",
+   "v": "9 districts",
+   "l": "Heavy rain likely on Nov 2 (IMD)"
+  },
+  {
+   "t": "big",
    "v": "112 mm",
    "l": "Keesara, Fri night to Sat morning"
   },
@@ -127,8 +137,8 @@
      "e": "More showers, gusty winds (IMD via TOI)"
     },
     {
-     "t": "Nov 1 on",
-     "e": "Heavy rain, fresh depression (IMD)"
+     "t": "Nov 2",
+     "e": "Heavy rain likely in 9 TG districts (IMD)"
     }
    ]
   }
@@ -150,7 +160,7 @@
  "learn": {
   "t": "TSDPS (Telangana State Development Planning Society) runs the state's automatic rain gauges. 100+ mm in a night counts as very heavy rain."
  },
- "watch": "IMD bulletins from Nov 1: district alerts for Hyderabad and around.",
+ "watch": "IMD Hyderabad bulletin for Nov 2: which 9 districts, and the alert colour.",
  "thread": "hyd-rain-oct31",
  "moment": {
   "e": "☔",
@@ -158,6 +168,11 @@
   "k": "flood"
  },
  "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Depression over Bay of Bengal to bring rain to Telangana, heavy showers likely in nine districts on November 2",
+   "url": "https://www.thehindu.com/news/national/telangana/depression-over-bay-of-bengal-to-bring-rain-to-telangana-heavy-showers-likely-in-nine-districts-on-november-2/article71649315.ece"
+  },
   {
    "name": "Telangana Today",
    "title": "Heavy rains bring relief to Hyderabad after prolonged dry spell",
@@ -174,10 +189,11 @@
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdmF3b2xHSW1DeW45eV9pTEp6b1dTSVFQM2g3WHg2VUpIV2RJc3RQcUN3aGY2d0JMUzR1MzhqdVhKRDhtd1huZTF3blc5UG5Oak9iUmlhTENWYl9LNXJ4V1h5Wm9wSElkQUpwTk5kY3F5bGVnMkNzQTR2TEp5bGpsRzNhS3JINmg3OERxV0pyU1dOd0swbTdrSTFOYVpkNndQTFZtVkZYb2dtX2NkRWdHcjFSTlp5MTIwUXhqTEFSZE01Z0VpdHBn?oc=5"
   }
  ],
- "updated": 1793443547201,
+ "updated": 1793450782642,
  "img": {
   "u": "https://media.telanganatoday.com/wp-content/uploads/2026/10/Rains-BanjaraHills-1.jpg",
   "c": "Telangana Today"
  },
- "insight": "Over 100 mm in a night counts as very heavy rain."
+ "insight": "IMD Hyderabad head S. Stella says the system will weaken considerably before it reaches Telangana.",
+ "storyline": "bay-cyclone-2026"
 }
