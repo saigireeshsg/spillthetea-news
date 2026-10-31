@@ -1,0 +1,93 @@
+{
+ "cat": "money",
+ "lead": "money",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-64",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Reliance Q2 Jio",
+ "hook": "Jio hits *542.4 million* users as ARPU climbs to *Rs 218.8*",
+ "hook_b": "Jio ARPU is up. Is your network worth it?",
+ "tldr": "Jio Platforms' ARPU rose to Rs 218.8 and subscribers reached 542.4 million in Reliance's Q2 results.",
+ "beats": {
+  "what": "NDTV Profit's takeaways: Jio ARPU rose to Rs 218.8, subscriber base 542.4 million, while Reliance Retail profit fell 6.67% sequentially.",
+  "why": "ARPU is the average revenue each user pays per month, so a rising ARPU points to higher bills or more spend per user.",
+  "care": "Higher ARPU can show up as costlier plans over time. Rate your own network below."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📊",
+    "label": "Reliance Q2 results"
+   }
+  ],
+  "event": {
+   "icon": "📱",
+   "label": "Jio ARPU Rs 218.8"
+  },
+  "effects": [
+   {
+    "icon": "👥",
+    "label": "542.4m subscribers"
+   },
+   {
+    "icon": "🛒",
+    "label": "Retail profit -6.67% QoQ"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "NDTV Profit reports Jio ARPU Rs 218.8 and 542.4 million subscribers; Reliance Retail profit down 6.67% sequentially. Other segment figures were not in the summary."
+  },
+  {
+   "k": "poll",
+   "vt": "rate",
+   "q": "Rate your mobile signal and speed at home",
+   "opts": [
+    "Awful",
+    "Poor",
+    "Okay",
+    "Good",
+    "Great"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Rs 218.8",
+   "l": "Jio ARPU"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b0f0f",
+   "#c0392b"
+  ],
+  "big": "Rs 218.8",
+  "label": "Jio ARPU",
+  "motion": "drift",
+  "scene": [
+   "📱",
+   "📈",
+   "🛒"
+  ]
+ },
+ "learn": {
+  "t": "ARPU = Average Revenue Per User, a telecom's monthly earnings per subscriber."
+ },
+ "watch": "Whether telcos raise tariffs next.",
+ "thread": "reliance-q2-oct31",
+ "sources": [
+  {
+   "name": "NDTV Profit",
+   "title": "Reliance Q2 Scorecard: O2C Roars, Jio Expands, Retail Feels The Pinch - 10 Key Takeaways",
+   "url": "https://www.ndtvprofit.com/business/reliance-q2-scorecard-o2c-roars-jio-expands-retail-feels-the-pinch-10-key-takeaways-12262547"
+  }
+ ],
+ "updated": 1793435515007
+}

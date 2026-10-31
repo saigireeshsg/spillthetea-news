@@ -1,0 +1,97 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Infosys Hyderabad expansion",
+ "hook": "Infosys opens *1.1 million sq ft* block, eyes *13,000* more staff in Hyderabad",
+ "hook_b": "Infosys Hyderabad adds 13,000 jobs? What should the city fix next?",
+ "tldr": "Infosys inaugurated a 1.1 million sq ft block at its Pocharam centre in Hyderabad and is eyeing 13,000 more employees.",
+ "beats": {
+  "what": "On Oct 30 Infosys announced the expansion of its Pocharam Development Centre with a new 1.1 million sq ft Software Development Block.",
+  "why": "Hyderabad keeps pulling big IT employers. The report says Infosys eyes 13,000 more employees here.",
+  "care": "More jobs mean more people on the IT corridor, from homes to roads. Fresher hiring details were not in the report."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "New 1.1m sq ft block"
+   }
+  ],
+  "event": {
+   "icon": "💻",
+   "label": "Infosys Pocharam expands"
+  },
+  "effects": [
+   {
+    "icon": "👥",
+    "label": "13,000 more staff eyed"
+   },
+   {
+    "icon": "🚦",
+    "label": "More load on IT corridor"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat reports the Pocharam DC expansion and the inauguration of the 1.1 million sq ft block on Oct 30. Hiring timelines and fresher share were not stated."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "More big IT campuses are coming. What should Hyderabad fix first?",
+   "opts": [
+    "Metro and roads to IT areas",
+    "Affordable housing nearby",
+    "Fresher jobs, not just experienced",
+    "Water and power backup"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "13,000",
+   "l": "more employees eyed"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#0f2a2a",
+   "#2e8b7a"
+  ],
+  "big": "13,000",
+  "label": "more employees eyed",
+  "motion": "drift",
+  "scene": [
+   "💻",
+   "🏢",
+   "🚇"
+  ]
+ },
+ "learn": {
+  "t": "DC means Development Centre, an Indian base where a company builds software for global clients."
+ },
+ "watch": "Infosys hiring announcements for freshers.",
+ "thread": "infosys-hyd-pocharam",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Infosys expands Hyderabad campus, eyes 13,000 more employees",
+   "url": "https://www.siasat.com/infosys-expands-hyderabad-campus-eyes-13000-more-employees-3567518/"
+  }
+ ],
+ "updated": 1793435515007,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2021/12/info.jpg",
+  "c": "Siasat"
+ }
+}

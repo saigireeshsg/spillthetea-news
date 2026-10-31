@@ -1,0 +1,92 @@
+{
+ "cat": "tech",
+ "lead": "tech",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-66",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Google Gemini personal avatars",
+ "hook": "Gemini lets you make an *AI avatar* of your face and voice",
+ "hook_b": "Would you let AI copy your face and voice?",
+ "tldr": "Google Gemini users can record their face and voice to create personal avatars for AI-generated images and videos.",
+ "beats": {
+  "what": "Per NDTV's Gadgets 360, users record their face and voice to build a personal avatar for AI images and videos.",
+  "why": "Avatars can be shared with other Google users through Gmail invitations, and recipients need approval before they can use them.",
+  "care": "Your face and voice become reusable material. Think about who you would allow, before you try it."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎙️",
+    "label": "Record face and voice"
+   }
+  ],
+  "event": {
+   "icon": "🤖",
+   "label": "Gemini personal avatars"
+  },
+  "effects": [
+   {
+    "icon": "📤",
+    "label": "Share via Gmail invite"
+   },
+   {
+    "icon": "✅",
+    "label": "Recipient must approve"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Gadgets 360 (NDTV) explains how to create and share Gemini personal avatars. Avatars are shared by Gmail invite and the recipient must approve. Availability in India was not stated in the summary."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you make an AI avatar of your own face and voice?",
+   "opts": [
+    "Yes, looks fun",
+    "Only for private use",
+    "No, deepfake risk",
+    "Never"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Your face",
+   "l": "becomes an AI avatar"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1a1030",
+   "#6a3fb5"
+  ],
+  "big": "Your face",
+  "label": "becomes an AI avatar",
+  "motion": "drift",
+  "scene": [
+   "🤖",
+   "🧑",
+   "🎬"
+  ]
+ },
+ "learn": {
+  "t": "A deepfake is AI-made video or audio that imitates a real person."
+ },
+ "watch": "Whether Google adds controls for misuse and who can use shared avatars.",
+ "thread": "gemini-avatars",
+ "sources": [
+  {
+   "name": "Gadgets 360 (NDTV)",
+   "title": "Google Gemini Personal Avatars: How to Create, Share and Delete Them",
+   "url": "https://www.gadgets360.com/ai/news/google-gemini-personal-avatars-for-ai-generated-images-and-videos-12259355"
+  }
+ ],
+ "updated": 1793435515007
+}

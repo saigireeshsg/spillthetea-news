@@ -1,0 +1,98 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-82",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Nalgonda e-bus protest",
+ "hook": "Nalgonda e-buses stopped *3 hours* as drivers protest wages",
+ "hook_b": "Your city bus is running. How is the service where you live?",
+ "tldr": "Electric bus services at Nalgonda depot were disrupted for three hours on Saturday as drivers protested over wages and alleged harassment.",
+ "beats": {
+  "what": "Nalgonda depot e-bus drivers stopped work for three hours on Saturday over wages and alleged harassment.",
+  "why": "The manpower agency assured them their concerns would be addressed and agreed to meet on November 4.",
+  "care": "Commuters in Nalgonda lost service for 3 hours. Check with the depot before long trips."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💸",
+    "label": "Wage and harassment complaints"
+   }
+  ],
+  "event": {
+   "icon": "🚌",
+   "label": "Nalgonda e-buses halt 3 hrs"
+  },
+  "effects": [
+   {
+    "icon": "🧳",
+    "label": "Commuters stranded"
+   },
+   {
+    "icon": "🗓️",
+    "label": "Talks on Nov 4"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today reports services were disrupted for three hours on Saturday. The manpower agency agreed to meet drivers on Nov 4."
+  },
+  {
+   "k": "poll",
+   "vt": "rate",
+   "q": "How good is the bus service where you live?",
+   "opts": [
+    "Awful",
+    "Poor",
+    "Okay",
+    "Good",
+    "Great"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "3 hrs",
+   "l": "e-bus services disrupted"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b1a10",
+   "#b5651d"
+  ],
+  "big": "3 hrs",
+  "label": "e-bus services disrupted",
+  "motion": "drift",
+  "scene": [
+   "🚌",
+   "✊",
+   "⏱️"
+  ]
+ },
+ "learn": {
+  "t": "Many e-bus drivers are hired through manpower agencies, not directly by the transport corporation."
+ },
+ "watch": "Nov 4 meeting between drivers and the agency.",
+ "thread": "nalgonda-ebus",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Nalgonda electric bus services disrupted for three hours as drivers protest over wages",
+   "url": "https://telanganatoday.com/nalgonda-electric-bus-services-disrupted-for-three-hours-as-drivers-protest-over-wages"
+  }
+ ],
+ "updated": 1793435515007,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/10/Nalgonda-electric-bus-services-disrupted-for-three-hours-as-drivers-protest-over-wages.jpg",
+  "c": "Telangana Today"
+ }
+}

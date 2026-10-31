@@ -117,6 +117,7 @@
 .ipoll .ik,.iquiz .ik{font-size:11px;font-weight:800;opacity:.7}.ipoll b,.iquiz b{font-size:14.5px}
 .iopts{display:grid;grid-template-columns:1fr 1fr;gap:6px}.iopts button{font:inherit;font-size:13.5px;padding:9px 8px;border-radius:8px;border:1px solid var(--line);background:#ffffff10;color:inherit;cursor:pointer}
 .iopts button:active{background:#ff450040}
+.irate{display:grid;grid-template-columns:repeat(5,1fr);gap:5px}.irate button{font:inherit;display:grid;gap:2px;justify-items:center;padding:8px 2px;border-radius:8px;border:1px solid var(--line);background:#ffffff10;color:inherit;cursor:pointer}.irate span{font-size:22px}.irate small{font-size:10px;opacity:.75}.irate button:active{background:#ff450040}
 .ires{position:relative;display:flex;justify-content:space-between;padding:8px 10px;border-radius:8px;overflow:hidden;background:#ffffff0a;font-size:13.5px}
 .ires i{position:absolute;left:0;top:0;bottom:0;background:#4fbcff44}.ires.mine i{background:#ff450066}.ires span,.ires em{position:relative;font-style:normal}.ires.mine span{font-weight:800}
 .iquiz.res.ok{border-color:#46d160}.iquiz.res.no{border-color:#ffd166}.iw{font-size:13px;opacity:.85}
@@ -1344,8 +1345,13 @@ function imgHTML(d,cls){const c=d.cover||{},bg=(c.bg||["#1a1a1b","#333"]);const 
 function wwhHTML(d){const b=d.beats||{};const r=[["🤔","Why",b.why],["📰","What",b.what],["🫵","How it matters",b.care]].filter(x=>x[2]);
   return `<dl class="wwh">${r.map(x=>`<div><dt>${x[0]} ${x[1]}</dt><dd>${rich(x[2])}</dd></div>`).join("")}</dl>`}
 function ipollHTML(d){const pl=(d.cards||[]).find(c=>c.k==="poll");if(!pl)return"";const a=me.poll[d.id];const n=tot("poll",d.id);
-  if(a==null)return `<div class="ipoll"><span class="ik">🗳️ Your voice · tap to vote</span><b>${rich(pl.q)}</b><div class="iopts">${pl.opts.map((o,j)=>`<button data-ip="${d.id}" data-i="${j}">${esc(o)}</button>`).join("")}</div></div>`;
-  return `<div class="ipoll done"><span class="ik">🗳️ ${n} ${n===1?"voice":"voices"} so far</span><b>${rich(pl.q)}</b>${pl.opts.map((o,j)=>{const pc=pct("poll",d.id,j);return `<div class="ires ${a===j?"mine":""}"><i style="width:${Math.max(pc,3)}%"></i><span>${esc(o)}</span><em>${pc}%</em></div>`}).join("")}</div>`}
+  const vt=pl.vt||"stance",kick={rate:"⭐ Rate it · your experience",guess:"🔮 Your call",stance:"🗳️ Your voice · tap to vote"}[vt]||"🗳️ Your voice";
+  const EM=["😡","😕","😐","🙂","😍"];
+  if(a==null){
+    if(vt==="rate")return `<div class="ipoll"><span class="ik">${kick}</span><b>${rich(pl.q)}</b><div class="irate">${pl.opts.slice(0,5).map((o,j)=>`<button data-ip="${d.id}" data-i="${j}" aria-label="${esc(o)}"><span>${EM[j]}</span><small>${esc(o)}</small></button>`).join("")}</div></div>`;
+    return `<div class="ipoll"><span class="ik">${kick}</span><b>${rich(pl.q)}</b><div class="iopts">${pl.opts.map((o,j)=>`<button data-ip="${d.id}" data-i="${j}">${esc(o)}</button>`).join("")}</div></div>`}
+  let avg="";if(vt==="rate"&&n>0){const m=S.poll[d.id]||{};let t=0,c=0;Object.entries(m).forEach(([i,v])=>{t+=(+i+1)*v;c+=v});if(c)avg=` · avg ${(t/c).toFixed(1)}/5`}
+  return `<div class="ipoll done"><span class="ik">${vt==="rate"?"⭐":vt==="guess"?"🔮":"🗳️"} ${n} ${n===1?"voice":"voices"} so far${avg}</span><b>${rich(pl.q)}</b>${pl.opts.map((o,j)=>{const pc=pct("poll",d.id,j);return `<div class="ires ${a===j?"mine":""}"><i style="width:${Math.max(pc,3)}%"></i><span>${vt==="rate"?EM[j]+" ":""}${esc(o)}</span><em>${pc}%</em></div>`}).join("")}</div>`}
 function iquizHTML(d){const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q)return"";const a=me.quiz[d.id];
   if(a==null)return `<div class="iquiz"><span class="ik">🧠 Quick one</span><b>${rich(q.q)}</b><div class="iopts">${q.opts.slice(0,4).map((o,j)=>`<button data-iq="${d.id}" data-i="${j}">${esc(o)}</button>`).join("")}</div></div>`;
   const ok=a===q.ans;return `<div class="iquiz res ${ok?"ok":"no"}"><span class="ik">🧠 Quick one</span><b>${ok?"✅ Nailed it":"🤔 Not quite"} · ${esc(q.opts[q.ans])}</b>${q.why?`<span class="iw">${rich(q.why)}</span>`:""}</div>`}

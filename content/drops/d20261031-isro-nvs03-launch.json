@@ -12,7 +12,7 @@
  "tldr": "ISRO's GSLV-F18 launched the NVS-03 navigation satellite. PM Modi congratulated the scientists and engineers.",
  "beats": {
   "what": "NVS-03 was launched on GSLV-F18, and Modi congratulated ISRO's scientists and engineers.",
-  "why": "Modi said the satellite has enhanced capabilities, will advance self-reliance in critical technologies and support navigation services that benefit people.",
+  "why": "NavIC is back to its minimum four working satellites after this launch.",
   "care": "Better homegrown navigation means less dependence on foreign systems for maps, transport and logistics."
  },
  "map": {
@@ -41,7 +41,7 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "Per The Hindu: PM Modi said NVS-03 has enhanced capabilities and will further India's self-reliance in critical technologies and support navigation services. Orbit and service dates were not in the summary."
+   "body": "Siasat: NavIC was restored to its minimum operational configuration of four satellites on Oct 30. Economic Times: lift-off from Sriharikota's second launch pad at 11.51pm, with the satellite injected into its elliptical orbit after about 18 minutes 40 seconds. The Hindu: ISRO chief Narayanan said the satellite flew with pyro valves open to overcome technical hurdles; NVS-02 (2025) had failed."
   },
   {
    "k": "poll",
@@ -97,9 +97,24 @@
    "name": "The Hindu",
    "title": "Launch of NVS-03: PM Modi congratulates scientists, engineers at ISRO",
    "url": "https://www.thehindu.com/sci-tech/science/pm-modi-congratulates-isro-scientists-on-gslv-f18-launch-of-nvs-03/article71648465.ece"
+  },
+  {
+   "name": "Siasat",
+   "title": "ISRO's GSLV places NVS-03 satellite in orbit; Modi congratulates",
+   "url": "https://www.siasat.com/isros-gslv-places-nvs-03-satellite-in-orbit-modi-congratulates-3567508/"
+  },
+  {
+   "name": "Economic Times",
+   "title": "Isro successfully launches NVS-03 satellite to bolster NavIC constellation",
+   "url": "https://economictimes.indiatimes.com/tech/technology/isro-successfully-launches-nvs-03-satellite-to-bolster-navic-constellation/articleshow/135385396.cms"
+  },
+  {
+   "name": "The Hindu",
+   "title": "To overcome technical hurdles, ISRO flew NVS-03 satellite with pyro valves open: Narayanan",
+   "url": "https://www.thehindu.com/sci-tech/science/to-overcome-technical-hurdles-isro-flew-nvs-03-satellite-with-pyro-valves-open-narayanan/article71648408.ece"
   }
  ],
- "updated": 1793435180911,
+ "updated": 1793435515007,
  "img": {
   "u": "https://th-i.thgim.com/public/news/national/xa7nzd/article71648565.ece/alternates/LANDSCAPE_1200/gslv%20f18%20nvs%2003%20nabin.png",
   "c": "The Hindu"

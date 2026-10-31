@@ -1,0 +1,97 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-88",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Hyderabad-Pune bullet train",
+ "hook": "Revanth presses Centre to speed up *Hyderabad-Pune bullet train*",
+ "hook_b": "Hyderabad to Pune by bullet train: when will you ride it?",
+ "tldr": "Telangana's CM asked the Railway Minister to fast-track the Hyderabad-Pune bullet train and approve its alignment early.",
+ "beats": {
+  "what": "On Oct 30, CM A Revanth Reddy urged Union Railway Minister Ashwini Vaishnaw to expedite the Hyderabad-Pune bullet train project.",
+  "why": "He sought early approval for the project's alignments, a step the project needs before work can move ahead.",
+  "care": "If it happens it would link Hyderabad's IT and job market to Pune. No timeline has been announced."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🙋",
+    "label": "Telangana asks Centre"
+   }
+  ],
+  "event": {
+   "icon": "🚄",
+   "label": "Fast-track Hyd-Pune bullet train"
+  },
+  "effects": [
+   {
+    "icon": "📍",
+    "label": "Early route approval sought"
+   },
+   {
+    "icon": "💼",
+    "label": "Link to Pune job market"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat reports CM Revanth Reddy asked the Railway Minister on Friday, Oct 30, to expedite the project and sought early approval for alignments. No cost or completion date was in the report."
+  },
+  {
+   "k": "poll",
+   "vt": "guess",
+   "q": "When will you first ride Hyderabad-Pune bullet train?",
+   "opts": [
+    "Before 2032",
+    "2032 to 2035",
+    "After 2035",
+    "Never happening"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Hyd-Pune",
+   "l": "bullet train push"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Hyd-Pune",
+  "label": "bullet train push",
+  "motion": "drift",
+  "scene": [
+   "🚄",
+   "🏙️",
+   "🤝"
+  ]
+ },
+ "learn": {
+  "t": "Alignment approval is the step where the exact route of a rail line is finalised before land and construction."
+ },
+ "watch": "Railway Ministry reply on alignment approval.",
+ "thread": "hyd-pune-bullet",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Revanth urges Centre to expedite Hyderabad-Pune bullet train",
+   "url": "https://www.siasat.com/revanth-urges-centre-to-expedite-hyderabad-pune-bullet-train-3567471/"
+  }
+ ],
+ "updated": 1793435515007,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/10/Revanth-and-Ashwini.jpg",
+  "c": "Siasat"
+ }
+}

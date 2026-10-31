@@ -1,0 +1,93 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-86",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Telangana Inter exams 2027",
+ "hook": "Telangana Inter 2027 theory exams likely from *Feb 24*",
+ "hook_b": "Inter exams moving earlier. Good or bad for you?",
+ "tldr": "Telangana is likely to bring forward the 2027 Intermediate exams, with theory papers starting Feb 24.",
+ "beats": {
+  "what": "The state is set to advance the 2027 Intermediate Public Examinations, theory likely from Wednesday, Feb 24; practicals likely earlier.",
+  "why": "An earlier calendar changes how much time students get before entrance exams.",
+  "care": "If you or someone at home is in Inter, plan revision backward from Feb 24. The schedule is not final."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗓️",
+    "label": "Govt plans earlier calendar"
+   }
+  ],
+  "event": {
+   "icon": "📚",
+   "label": "Theory likely from Feb 24"
+  },
+  "effects": [
+   {
+    "icon": "⏳",
+    "label": "Less revision time"
+   },
+   {
+    "icon": "🎯",
+    "label": "Entrance-exam planning"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat reports the government is likely to advance the 2027 IPE, with theory papers likely from Feb 24. The official timetable is not out yet."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Inter exams moving earlier. How does that hit you?",
+   "opts": [
+    "Good, more time before entrances",
+    "Bad, syllabus won't finish",
+    "Fine if syllabus is trimmed",
+    "Depends on EAPCET/JEE dates"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Feb 24",
+   "l": "theory exams likely start"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1c2340",
+   "#4a5fb0"
+  ],
+  "big": "Feb 24",
+  "label": "theory exams likely start",
+  "motion": "drift",
+  "scene": [
+   "📚",
+   "🗓️",
+   "🎓"
+  ]
+ },
+ "learn": {
+  "t": "IPE stands for Intermediate Public Examination, the Class 11-12 board exam run by Telangana's intermediate board."
+ },
+ "watch": "Official IPE 2027 timetable.",
+ "thread": "tg-ipe-2027",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Telangana govt likely to advance Inter exams, theory from Feb 24",
+   "url": "https://www.siasat.com/telangana-govt-likely-to-advance-inter-exams-theory-from-feb-24-3567528/"
+  }
+ ],
+ "updated": 1793435515007,
+ "city": "Hyderabad"
+}
