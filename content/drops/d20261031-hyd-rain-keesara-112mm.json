@@ -15,8 +15,8 @@
  "readSecs": 30,
  "topic": "Hyderabad overnight rain",
  "hook": "*112 mm* in one night: Hyderabad's dry spell just broke.",
- "hook_b": "*112 mm* in one night: Hyderabad's dry spell just broke.",
- "tldr": "Heavy rain hit Hyderabad from Friday evening to Saturday morning. Keesara logged 112 mm; low-lying roads flooded.",
+ "hook_b": "*From Nov 1*: IMD flags heavy rain for Telangana again.",
+ "tldr": "Heavy rain hit Hyderabad from Friday evening to Saturday morning. Keesara logged 112 mm; low-lying roads flooded. IMD now forecasts heavy rain in Telangana and Andhra Pradesh from Nov 1 as a fresh depression develops.",
  "beats": {
   "what": "Friday night downpour: Keesara 112 mm, Bahadurpura 82.3 mm, Madhapur 73.8 mm (TSDPS data).",
   "why": "A long hot, humid dry spell broke. IMD expects more evening showers with gusty winds.",
@@ -49,6 +49,11 @@
   ]
  },
  "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 Heavy rain from Nov 1 (IMD)",
+   "body": "IMD forecasts heavy rains in Telangana and Andhra Pradesh from Nov 1, as a fresh depression develops (Daily Pioneer). District-wise alerts not out yet. Plan Sunday commutes with buffer time."
+  },
   {
    "k": "tea",
    "title": "🆕 Overnight totals (TSDPS)",
@@ -120,6 +125,10 @@
     {
      "t": "Next 4 evenings",
      "e": "More showers, gusty winds (IMD via TOI)"
+    },
+    {
+     "t": "Nov 1 on",
+     "e": "Heavy rain, fresh depression (IMD)"
     }
    ]
   }
@@ -141,7 +150,7 @@
  "learn": {
   "t": "TSDPS (Telangana State Development Planning Society) runs the state's automatic rain gauges. 100+ mm in a night counts as very heavy rain."
  },
- "watch": "IMD's daily bulletin for Hyderabad evenings through Nov 3.",
+ "watch": "IMD bulletins from Nov 1: district alerts for Hyderabad and around.",
  "thread": "hyd-rain-oct31",
  "moment": {
   "e": "☔",
@@ -158,9 +167,14 @@
    "name": "Times of India",
    "title": "Hyderabad to see 4 more days of evening showers, IMD warns of gusty winds; Yellow alert for surrounding districts on Oct 31",
    "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-to-see-4-more-days-of-evening-showers-imd-warns-of-gusty-winds-yellow-alert-for-surrounding-districts-on-oct-31/articleshow/135373220.cms"
+  },
+  {
+   "name": "Daily Pioneer",
+   "title": "IMD forecasts heavy rains in Telangana, Andhra Pradesh from Nov. 1 as fresh depression develops",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdmF3b2xHSW1DeW45eV9pTEp6b1dTSVFQM2g3WHg2VUpIV2RJc3RQcUN3aGY2d0JMUzR1MzhqdVhKRDhtd1huZTF3blc5UG5Oak9iUmlhTENWYl9LNXJ4V1h5Wm9wSElkQUpwTk5kY3F5bGVnMkNzQTR2TEp5bGpsRzNhS3JINmg3OERxV0pyU1dOd0swbTdrSTFOYVpkNndQTFZtVkZYb2dtX2NkRWdHcjFSTlp5MTIwUXhqTEFSZE01Z0VpdHBn?oc=5"
   }
  ],
- "updated": 1793436710324,
+ "updated": 1793439951852,
  "img": {
   "u": "https://media.telanganatoday.com/wp-content/uploads/2026/10/Rains-BanjaraHills-1.jpg",
   "c": "Telangana Today"

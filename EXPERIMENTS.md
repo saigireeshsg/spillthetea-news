@@ -45,3 +45,4 @@ One line per experiment: date · what · result.
 - 2026-10-31 · midday · hook_b question-style on rain ("Did your area flood?") and AEE ("Is the AEE exam moving?") · running
 - 2026-10-31 (hourly, ~14:30 IST) · d20261024-bay-cyclone: updated in place (new cyclone, landfall likely Nov 2); A = date-first statement vs B = traveller question 'this weekend?' · running
 - 2026-10-31 (half-hourly, ~14:45 IST) · d20261027-hyd-water-emergency-rules: updated in place (waste videos, ₹5,000 tanker fine Nov 1); A = rule+fine number-first vs B = place-first naming localities (Maula Ali, SR Nagar) · running
+- 2026-10-31 (hourly, ~15:45 IST) · d20261031-hyd-rain-keesara-112mm: updated in place (IMD heavy rain from Nov 1, fresh depression); A = number-first (112 mm) vs B = date-first 'From Nov 1' · running
