@@ -1,0 +1,91 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Narsingi road plan",
+ "hook": "Narsingi road plan: Harish Rao says *4,000 families* at risk.",
+ "hook_b": "Will a new Narsingi road displace *4,000 families*?",
+ "tldr": "BRS MLA T Harish Rao opposed a planned road in Narsingi, west Hyderabad, saying it threatens 4,000 families (Times of India headline). Route, width and the government's response are not in the report summary.",
+ "beats": {
+  "what": "Harish Rao (BRS) opposes the Narsingi road plan.",
+  "why": "He cites a threat to about 4,000 families.",
+  "care": "Live near Narsingi? Watch for official route and notice details."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛣️",
+    "label": "Narsingi road plan"
+   }
+  ],
+  "event": {
+   "icon": "🏠",
+   "label": "Harish Rao objects"
+  },
+  "effects": [
+   {
+    "icon": "👨‍👩‍👧",
+    "label": "4,000 families cited"
+   },
+   {
+    "icon": "👨‍👩‍👧",
+    "label": "Route details awaited"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "BRS MLA Harish Rao opposed the Narsingi road plan, citing a threat to 4,000 families (Times of India). The road's route, width, agency and any compensation terms are not in the report summary yet; no government response reported so far."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "New roads vs homes in Narsingi: what matters most?",
+   "opts": [
+    "Build it, traffic needs it",
+    "Build, but pay families fully",
+    "Reroute to spare homes",
+    "Not sure / not my area"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "4,000",
+   "l": "families at risk, per Harish Rao"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "4,000",
+  "label": "families at risk, per Harish Rao",
+  "motion": "drift",
+  "scene": [
+   "🛣️",
+   "🏠",
+   "👨‍👩‍👧"
+  ]
+ },
+ "insight": "BRS MLA Harish Rao has come out against the Narsingi road plan, citing a threat to 4,000 families (per Times of India).",
+ "watch": "Official route, width and compensation notice for the Narsingi road.",
+ "thread": "narsingi-road-plan-4000-families",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "BRS MLA Harish Rao Opposes Narsingi Road Plan, Cites Threat to 4,000 Families",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNM2xOd2haRFF6Z2RxZUdUY05MeDFhemlMR0NNdGdDSzN1MnRjWndvd25HMzJYVF91ZWZyVkptQTFsOFpXUmE4RnVZa1NTdlJ6bWJaZ1RxdHlzQ2RTY1pTZ2tWamFYcWxVbkowN2llWGtIc0lqYW4wazdSVENjQWw1Qkw2OExGNEpPU1hmbDRWdjNLNGRvb2EtejZYTlkycHNpWGN0X0xzZl9YMGRWRFdkZGRRY1JZcVlRZmc4eGd6Z1I5eDVETkkzNTl6anNFbDdTQ3VFd2RMcW5EQkN3aU1SSlk5RVlWd2vSAewBQVVfeXFMTmxLT29MSW5RMEFoeHQ5STZEVTN3S2VycHFVYlUxSDU1eHhRWkNrTzdfOEpRVFY0QUNsTzBKT3BsMHRNVVVnN1ZudTlvTXBVdFN6VjlQbEQ0OEhRa1hQek9ZWjczNjM4aEZ1emp2dl9HZEFvR3dDemNSRW12aEJsQ0ZkTlRpM0tSWENGeGxvdXZQQlc4UmNwa1djRjF1bm9ENVhRZ3BsaTZTSTJxNi16b0hTZ2p1SWI3MW1aeldoYW9PcjNDNDVPQTFicENnWGxWdzdlSlVyZmM1c0o0emFpVzVHczJ3blNkRWhvRFE?oc=5"
+  }
+ ],
+ "updated": 1793443547170,
+ "city": "Hyderabad"
+}
