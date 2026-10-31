@@ -7,6 +7,11 @@
   "cards": [
     {
       "k": "tea",
+      "title": "🆕 Oct 31 update: another cyclone is heading for Andhra, landfall likely Monday (Nov 2)",
+      "body": "Days after Arnab, a fresh system is heading Andhra Pradesh's way, with landfall likely on Monday, Nov 2 (Indian Express). Coastal fisherfolk are already hurting: repeated sea bans across four weather alerts since June have cost them more than ₹36 crore (The Hindu). Exact track, strength and any Telangana alerts aren't verified here yet. Travelling east by train or bus on Nov 1–3? Watch IMD and check NTES before you go."
+    },
+    {
+      "k": "tea",
       "title": "🆕 Morning update (Oct 28): Arnab is crossing the Andhra coast now",
       "body": "Landfall is underway: Cyclone Arnab is 'practically stationary' and the landfall process is expected to continue for 2–3 hours (Hindustan Times). Heavy rain is lashing Visakhapatnam and there's power damage in Konaseema (Hyderabad Mail). Train or bus towards the Andhra coast, Odisha, Khammam or Warangal today or Oct 29? Check NTES or your operator before you leave home."
     },
@@ -105,9 +110,9 @@
       "🌧️"
     ]
   },
-  "date": "2026-10-27",
+  "date": "2026-10-31",
   "heat": 5,
-  "hook": "🌀 Arnab hits Andhra coast now; Vizag rain, Konaseema power out",
+  "hook": "🌀 Another cyclone heads for Andhra; landfall likely Monday, Nov 2",
   "learn": {
     "t": "Cyclone names come from a list made by 13 countries around the Indian Ocean and are used in order. A storm is named only when its winds reach cyclonic strength (63 km/h or more)."
   },
@@ -139,8 +144,18 @@
   },
   "order": 1,
   "readSecs": 55,
-  "sort": "2026-10-27-96",
+  "sort": "2026-10-31-96",
   "sources": [
+    {
+      "name": "Indian Express",
+      "title": "Another cyclone heads Andhra Pradesh's way; landfall likely on Monday",
+      "url": "https://indianexpress.com/article/india/cyclone-andhra-pradesh-landfall-november-2-imd-10944671/"
+    },
+    {
+      "name": "The Hindu",
+      "title": "Coastal Andhra Pradesh fisherfolk face severe financial crisis amid Cyclones and frequent weather bans",
+      "url": "https://www.thehindu.com/news/cities/Visakhapatnam/coastal-andhra-pradesh-fisherfolk-face-severe-financial-crisis-amid-cyclones-and-frequent-weather-bans/article71648614.ece"
+    },
     {
       "name": "Hindustan Times",
       "title": "Cyclone Arnab 'practically stationary,' landfall process to continue for 2-3 hours",
@@ -313,7 +328,7 @@
     }
   ],
   "thread": "bay-cyclone",
-  "tldr": "Very severe Cyclone Arnab crosses near Yanam–Kakinada on Oct 28. Railways have cancelled 95 trains and hit 18 more; NDRF has 31 teams out. Andhra is moving 89,000+ people (15,000+ more from 92 Kakinada habitations), Odisha 48,000. East Telangana: heavy rain Wed–Thu. Hyderabad: no alert.",
+  "tldr": "New (Oct 31): another cyclone is heading for Andhra Pradesh, landfall likely Monday, Nov 2. Before that: Very severe Cyclone Arnab crosses near Yanam–Kakinada on Oct 28. Railways have cancelled 95 trains and hit 18 more; NDRF has 31 teams out. Andhra is moving 89,000+ people (15,000+ more from 92 Kakinada habitations), Odisha 48,000. East Telangana: heavy rain Wed–Thu. Hyderabad: no alert.",
   "topic": "Bay of Bengal cyclone",
   "viz": [
     {
@@ -425,9 +440,9 @@
       "goodIfUp": false
     }
   ],
-  "watch": "IMD's next bulletins on the exact crossing point; school holidays in east Telangana on Oct 28–29; whether Hyderabad gets an alert.",
-  "updated": 1793155485413,
-  "hook_b": "Heading to Vizag or Konaseema today? Arnab is making landfall now",
+  "watch": "IMD bulletins on the new system's track and strength before Monday's likely landfall; train cancellations for Nov 1–3; whether Telangana or Hyderabad gets an alert.",
+  "updated": 1793436606337,
+  "hook_b": "Travelling to coastal Andhra this weekend? A new cyclone may land Monday",
   "storyline": "bay-cyclone-2026",
   "lead": "local"
 }
