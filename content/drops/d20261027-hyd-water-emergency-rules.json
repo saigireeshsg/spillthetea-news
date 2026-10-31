@@ -20,13 +20,13 @@
  "storyline": "hyd-water-crisis",
  "thread": "hyd-water-crisis",
  "topic": "Hyderabad water emergency",
- "hook": "💧 Water emergency rules: taps every *3 days*, ₹1,000 overflow fine",
- "hook_b": "Does your sump overflow? In Hyderabad that's now a *₹1,000* fine",
- "tldr": "HMWSSB's water emergency moves most of the city from alternate-day supply to once every three days, with fines for wastage.",
+ "hook": "💧 Tap water every *3 days*; tankers that spill fined *₹5,000* from Nov 1",
+ "hook_b": "Maula Ali, SR Nagar: drinking water on the road as taps run *every 3 days*",
+ "tldr": "HMWSSB has moved most of Hyderabad to water once every three days, is fining wasters ₹5,000–₹20,000, and from Nov 1 fines spilling tankers ₹5,000. Videos still show water running onto roads.",
  "beats": {
   "what": "Water Board MD Ashok Reddy declared a water emergency and a restricted supply schedule.",
   "why": "Osman Sagar, Himayat Sagar and Singur are low; some may run dry mid to late December.",
-  "care": "Store water on supply day, fix overflowing tanks now, and book tankers early."
+  "care": "Store water on supply day, fix overflowing tanks, book tankers early. Wastage can cost ₹5,000–₹20,000."
  },
  "map": {
   "causes": [
@@ -103,12 +103,12 @@
      "e": "Water emergency declared"
     },
     {
-     "t": "Oct 28",
-     "e": "All-party drought meet, 2:30 pm"
+     "t": "Oct 31",
+     "e": "Waste videos from Maula Ali, SR Nagar"
     },
     {
      "t": "Nov 1",
-     "e": "'Green water' tankers (treated water) start"
+     "e": "₹5,000 tanker spill fine + 'green water' tankers start"
     },
     {
      "t": "Mid–late Dec",
@@ -134,6 +134,11 @@
  "cards": [
   {
    "k": "tea",
+   "title": "🆕 Oct 31: water on the road, fines go up",
+   "body": "Videos from Maula Ali (Manjeera water running down a road) and SR Nagar (water spilling from a pump outside JJ Hospital) went viral this week. HMWSSB has fined homes, restaurants and pubs ₹5,000–₹20,000 for washing premises with drinking water; one pub paid ₹20,000. From Nov 1, tankers caught spilling water pay ₹5,000, and tankers with leaks or loose lids won't be filled until fixed."
+  },
+  {
+   "k": "tea",
    "title": "🆕 What the emergency changes",
    "body": "Most of Hyderabad moves from alternate-day water to once every three days. Secunderabad Cantonment and the outskirts get water only once every three or four days. The board is adding tankers and starting tanker registration. New borewell permits for construction and other non-drinking uses will be limited."
   },
@@ -141,6 +146,11 @@
    "k": "tea",
    "title": "💸 The fines",
    "body": "First-time wasters pay ₹1,000. Homes and resident welfare associations that let tanks or pumps overflow pay more. Repeat offenders risk steeper fines or losing their water and sewer connection under the HMWSSB Act, 1989."
+  },
+  {
+   "k": "num",
+   "title": "🆕 The gap in numbers",
+   "body": "MD K Ashok Reddy says the city gets 560–570 MGD. The board plans to draw 60 MGD more from the Godavari, Krishna and Osman Sagar, but a 40–50 MGD gap could remain, hitting nearly 3 lakh connections between Patancheru and Narsingi. 500 tankers are being added to a fleet of about 1,200. The board calls viral claims that all reservoirs dry up by November false."
   },
   {
    "k": "num",
@@ -178,7 +188,7 @@
  "learn": {
   "t": "1 TMC = 1 thousand million cubic feet, about 28,317 million litres of water."
  },
- "watch": "Area-wise supply schedules from HMWSSB; the Oct 28 all-party drought meeting; green water tankers from Nov 1.",
+ "watch": "Nov 1 tanker fines and green water tankers; whether the extra 60 MGD arrives; area-wise schedules from HMWSSB.",
  "links": [
   {
    "label": "HMWSSB official site",
@@ -186,6 +196,11 @@
   }
  ],
  "sources": [
+  {
+   "name": "Siasat",
+   "title": "Amid severe scarcity, water runs to waste in some Hyderabad areas (31 Oct)",
+   "url": "https://www.siasat.com/amid-severe-scarcity-water-runs-to-waste-in-some-hyderabad-areas-3567517/"
+  },
   {
    "name": "Siasat",
    "title": "Hyderabad water board declares emergency over acute shortage (25 Oct)",
@@ -197,5 +212,5 @@
    "url": "https://www.sakshipost.com/news/hyderabad/hyderabad-water-crisis-why-are-tanker-bookings-rising-8000-day-482814"
   }
  ],
- "updated": 1793149430967
+ "updated": 1793438318277
 }
