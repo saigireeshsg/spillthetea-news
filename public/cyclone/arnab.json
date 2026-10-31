@@ -1,6 +1,6 @@
 {
  "name": "Cyclone Arnab",
- "updated": "2026-10-31T15:20:00+05:30",
+ "updated": "2026-10-31T16:20:00+05:30",
  "level": "Over",
  "moving": {
   "state": "dissipated",
@@ -104,6 +104,12 @@
  ],
  "updates": [
   {
+   "t": "Oct 31, 4:15 pm",
+   "e": "💰",
+   "x": "Cyclone Arnab compensation, in one place. Crop rates per acre (AP, announced Oct 29): paddy ₹20,000; cotton, sugarcane, wheat ₹25,000; vegetables, tomato, papaya, pineapple ₹25,000; banana, turmeric, mango, cashew, coffee, dragon fruit ₹35,000; betel leaf ₹75,000; maize, ragi, bajra, black/green/Bengal gram, soybean, sunflower ₹15,000; coconut and oil palm ₹1,500 per tree. Also: ₹10,000 for a partly damaged house, ₹25,000 for a damaged shop, ₹3,000 for a two-wheeler, ₹10,000 for a three-wheeler, ₹1,000 per person who stayed in a relief camp, ₹5 lakh to families of those who died. Officials will assess damage village by village: keep photos of your loss and make sure your name is on the list. AP lightning alerts are still going out this afternoon.",
+   "src": "RTV English (AP govt), Oct 29; Deccan Chronicle, Oct 30; NDMA SACHET, Oct 31"
+  },
+  {
    "t": "Oct 31, 3:15 pm",
    "e": "🌊",
    "x": "Rivers easing slowly. Ganjam: the Rushikulya at Purushottampur is down from 'severe' (Oct 30 evening) to 'above normal' flood (7 am today). Balasore: the Jalaka at Mathani Road Bridge is still in severe flood (6 am). Srikakulam: the Nagavali is above normal. Stay off flooded roads and causeways. Watch for the new Bay system: heavy rain in coastal AP & Yanam on Nov 1–3.",
@@ -186,12 +192,6 @@
    "e": "💡",
    "x": "APEPDCL: power back in 5,277 of 5,727 villages, 535 of 552 substations; 22.2 lakh of 29.1 lakh homes and shops. 744 teams (8,625 staff) plus 192 Telangana teams working.",
    "src": "Deccan Chronicle"
-  },
-  {
-   "t": "Oct 30, 11:15 pm",
-   "e": "🌊",
-   "x": "CWC: Nagavali at Srikakulam above normal flood at 11 pm. Stay away from the river banks.",
-   "src": "NDMA SACHET (CWC)"
   }
  ],
  "mood": [
@@ -489,7 +489,7 @@
   },
   {
    "q": "What compensation is given for Cyclone Arnab damage?",
-   "a": "AP: ₹5 lakh to families of those who died; ₹1,500 per damaged coconut or oil palm tree; 25 kg rice, essentials and cash for families leaving relief camps. Crop losses are paid to bank accounts after field enumeration — make sure the village officials record your loss."
+   "a": "Andhra Pradesh has announced: Crop rates per acre (AP, announced Oct 29): paddy ₹20,000; cotton, sugarcane, wheat ₹25,000; vegetables, tomato, papaya, pineapple ₹25,000; banana, turmeric, mango, cashew, coffee, dragon fruit ₹35,000; betel leaf ₹75,000; maize, ragi, bajra, black/green/Bengal gram, soybean, sunflower ₹15,000; coconut and oil palm ₹1,500 per tree. ₹10,000 for a partly damaged house; ₹25,000 for a damaged shop; ₹3,000 for a damaged two-wheeler and ₹10,000 for a three-wheeler; ₹1,000 per person who stayed in a relief camp; 25 kg rice plus 1 kg each of onions, sugar and potatoes for families whose homes flooded; ₹5 lakh to families of those who died. Money goes to bank accounts after the village-level damage survey."
   },
   {
    "q": "How do I claim crop loss for Cyclone Arnab?",
@@ -747,6 +747,10 @@
   [
    "AP & Telangana weather update (Asianet Newsable)",
    "https://newsable.asianetnews.com/gallery/india/andhra-pradesh-telangana-weather-latest-update-bay-of-bengal-system-likely-to-intensify-into-depression-k7gg9d1"
+  ],
+  [
+   "RTV English: AP crop compensation rates after Cyclone Arnab",
+   "https://english.rtvlive.com/andhra-pradesh-announces-crop-compensation-of-up-to-%E2%82%B975000-per-acre-after-cyclone-arnab/"
   ]
  ],
  "trains": {
@@ -1210,7 +1214,7 @@
  },
  "relief": {
   "summary": "AP: 290 relief centres set up for 84,396 people; 3,100 pregnant women moved to hospitals (367 births). Odisha: 43,827 people moved to 634 shelters in 8 districts; no deaths.",
-  "food": "Families leaving AP relief camps get 25 kg rice, a packet of essentials and cash for immediate expenses. Fishermen and handloom workers are promised food aid. Food and water stay free at open relief centres; if not, call 1070.",
+  "food": "Families leaving AP relief camps get 25 kg rice, a packet of essentials and cash for immediate expenses. Fishermen and handloom workers are promised food aid. Food and water stay free at open relief centres; if not, call 1070. AP also gives 1 kg each of onions, sugar and potatoes to affected families, 25 kg rice where water entered homes, and ₹1,000 per person who stayed in a relief camp.",
   "named": [
    [
     "Kakinada",
