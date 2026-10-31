@@ -18,18 +18,22 @@
  "map": {
   "causes": [
    {
-    "icon": "🚀",
-    "label": "Trigger"
+    "icon": "🛰️",
+    "label": "NavIC needs more satellites"
    }
   ],
   "event": {
-   "icon": "🛰️",
-   "label": "NVS-03"
+   "icon": "🚀",
+   "label": "GSLV-F18 launches NVS-03"
   },
   "effects": [
    {
     "icon": "🇮🇳",
-    "label": "Who it touches"
+    "label": "Self-reliant navigation"
+   },
+   {
+    "icon": "🗺️",
+    "label": "Better nav services"
    }
   ]
  },
@@ -95,5 +99,5 @@
    "url": "https://www.thehindu.com/sci-tech/science/pm-modi-congratulates-isro-scientists-on-gslv-f18-launch-of-nvs-03/article71648465.ece"
   }
  ],
- "updated": 1793432686155
+ "updated": 1793432849285
 }

@@ -19,17 +19,21 @@
   "causes": [
    {
     "icon": "🧓",
-    "label": "Trigger"
+    "label": "Old-age category only"
    }
   ],
   "event": {
    "icon": "🤝",
-   "label": "More groups"
+   "label": "Instant pension widened"
   },
   "effects": [
    {
-    "icon": "🏠",
-    "label": "Who it touches"
+    "icon": "♿",
+    "label": "Disabled, dialysis, HIV/filariasis"
+   },
+   {
+    "icon": "🧵",
+    "label": "Toddy tappers, weavers"
    }
   ]
  },
@@ -95,6 +99,6 @@
    "url": "https://www.thehindu.com/news/national/telangana/telangana-extends-instant-pension-facility-beyond-old-age-pension-category-for-women/article71648155.ece"
   }
  ],
- "updated": 1793432686155,
+ "updated": 1793432849285,
  "city": "Hyderabad"
 }

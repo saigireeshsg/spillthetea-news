@@ -18,18 +18,22 @@
  "map": {
   "causes": [
    {
-    "icon": "📝",
-    "label": "Trigger"
+    "icon": "⚖️",
+    "label": "Candidates cite SSC-JE clash"
    }
   ],
   "event": {
-   "icon": "⚖️",
-   "label": "Nov 6-7"
+   "icon": "📝",
+   "label": "HC: AEE stays Nov 6-7"
   },
   "effects": [
    {
     "icon": "🎓",
-    "label": "Who it touches"
+    "label": "Plan for both papers"
+   },
+   {
+    "icon": "🎫",
+    "label": "Check hall ticket"
    }
   ]
  },
@@ -95,6 +99,6 @@
    "url": "https://telanganatoday.com/telangana-hc-refuses-to-defer-tgpsc-aee-exams-over-ssc-je-schedule-clash"
   }
  ],
- "updated": 1793432686155,
+ "updated": 1793432849284,
  "city": "Hyderabad"
 }

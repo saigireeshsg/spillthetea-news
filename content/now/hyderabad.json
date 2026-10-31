@@ -1,17 +1,14 @@
 {
- "aqi": 107,
- "aqiLabel": "Moderate",
  "city": "Hyderabad",
- "cond": "Dry and warm",
- "high": 33,
- "icon": "☀️",
- "rain": "IMD: no Hyderabad rain alert · cyclone landfall in Andhra Oct 28 · red alert in 4 east Telangana districts Oct 29",
+ "cond": "Evening showers likely",
+ "icon": "🌦️",
+ "rain": "IMD: light rain or drizzle with 30-40 kmph gusts through Nov 3 · Keesara logged 112 mm overnight",
  "src": [
   {
-   "name": "The Hindu Weatherwatch (IMD, CPCB)",
-   "url": "https://www.thehindu.com/todays-paper/"
+   "name": "Times of India (IMD)",
+   "url": "https://www.msn.com/en-in/weather/meteorology/hyderabad-to-see-4-more-days-of-evening-showers-imd-warns-of-gusty-winds-yellow-alert-for-surrounding-districts-on-oct-31/ar-AA2gqLqd"
   }
  ],
- "tip": "Water supply may tighten this season: fix leaks, save water",
- "ts": 1792817400000
+ "tip": "Leave early for evening plans; skip underpasses after a shower",
+ "ts": 1793432868971
 }
