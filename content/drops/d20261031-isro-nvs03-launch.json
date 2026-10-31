@@ -45,12 +45,12 @@
   },
   {
    "k": "poll",
-   "q": "Do you use NavIC-based nav?",
+   "q": "Should phones and apps in India default to our NavIC over GPS?",
    "opts": [
-    "Not aware of it",
-    "Yes",
-    "Only Google Maps",
-    "Will check"
+    "Yes, make it the default",
+    "Use both, we pick",
+    "GPS works, no need",
+    "Need to know more"
    ]
   },
   {
@@ -99,7 +99,7 @@
    "url": "https://www.thehindu.com/sci-tech/science/pm-modi-congratulates-isro-scientists-on-gslv-f18-launch-of-nvs-03/article71648465.ece"
   }
  ],
- "updated": 1793435054114,
+ "updated": 1793435180911,
  "img": {
   "u": "https://th-i.thgim.com/public/news/national/xa7nzd/article71648565.ece/alternates/LANDSCAPE_1200/gslv%20f18%20nvs%2003%20nabin.png",
   "c": "The Hindu"

@@ -1344,15 +1344,16 @@ function imgHTML(d,cls){const c=d.cover||{},bg=(c.bg||["#1a1a1b","#333"]);const 
 function wwhHTML(d){const b=d.beats||{};const r=[["🤔","Why",b.why],["📰","What",b.what],["🫵","How it matters",b.care]].filter(x=>x[2]);
   return `<dl class="wwh">${r.map(x=>`<div><dt>${x[0]} ${x[1]}</dt><dd>${rich(x[2])}</dd></div>`).join("")}</dl>`}
 function ipollHTML(d){const pl=(d.cards||[]).find(c=>c.k==="poll");if(!pl)return"";const a=me.poll[d.id];const n=tot("poll",d.id);
-  if(a==null)return `<div class="ipoll"><span class="ik">🗳️ Your voice</span><b>${rich(pl.q)}</b><div class="iopts">${pl.opts.map((o,j)=>`<button data-ip="${d.id}" data-i="${j}">${esc(o)}</button>`).join("")}</div></div>`;
+  if(a==null)return `<div class="ipoll"><span class="ik">🗳️ Your voice · tap to vote</span><b>${rich(pl.q)}</b><div class="iopts">${pl.opts.map((o,j)=>`<button data-ip="${d.id}" data-i="${j}">${esc(o)}</button>`).join("")}</div></div>`;
   return `<div class="ipoll done"><span class="ik">🗳️ ${n} ${n===1?"voice":"voices"} so far</span><b>${rich(pl.q)}</b>${pl.opts.map((o,j)=>{const pc=pct("poll",d.id,j);return `<div class="ires ${a===j?"mine":""}"><i style="width:${Math.max(pc,3)}%"></i><span>${esc(o)}</span><em>${pc}%</em></div>`}).join("")}</div>`}
 function iquizHTML(d){const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q)return"";const a=me.quiz[d.id];
   if(a==null)return `<div class="iquiz"><span class="ik">🧠 Quick one</span><b>${rich(q.q)}</b><div class="iopts">${q.opts.slice(0,4).map((o,j)=>`<button data-iq="${d.id}" data-i="${j}">${esc(o)}</button>`).join("")}</div></div>`;
   const ok=a===q.ans;return `<div class="iquiz res ${ok?"ok":"no"}"><span class="ik">🧠 Quick one</span><b>${ok?"✅ Nailed it":"🤔 Not quite"} · ${esc(q.opts[q.ans])}</b>${q.why?`<span class="iw">${rich(q.why)}</span>`:""}</div>`}
+function thumbHTML(d){return d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}
 function newCard(d,ix){const n=commentCount(d);const open=`data-open="${d.id}"`;
   const bar=`<div class="acts">${storyActHTML(d)}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${n?n+" comments · ":""}Full story →</span></div>`;
-  if(UI==="b")return `<article class="post npost nb click" ${open} tabindex="0">${head(d)}<div class="nbrow">${imgHTML(d,"sm")}<h2 class="pt">${rich(abHook(d))}</h2></div>${wwhHTML(d)}${iquizHTML(d)}${ipollHTML(d)}${bar}</article>`;
-  return `<article class="post npost na click" ${open} tabindex="0">${head(d)}<h2 class="pt">${rich(abHook(d))}</h2>${imgHTML(d,"lg")}${wwhHTML(d)}${ipollHTML(d)}${iquizHTML(d)}${bar}</article>`}
+  if(UI==="b")return `<article class="post npost nb click" ${open} tabindex="0">${head(d)}<div class="nbrow">${imgHTML(d,"sm")}<h2 class="pt">${rich(abHook(d))}</h2></div>${thumbHTML(d)}${ipollHTML(d)}${bar}</article>`;
+  return `<article class="post npost na click" ${open} tabindex="0">${head(d)}<h2 class="pt">${rich(abHook(d))}</h2>${imgHTML(d,"lg")}${thumbHTML(d)}${ipollHTML(d)}${bar}</article>`}
 document.addEventListener("click",e=>{const u=e.target.closest("[data-ui]");if(u){UI=u.dataset.ui;try{localStorage.setItem("spill_ui",UI);window.spillTrack&&window.spillTrack("tab_open",{tab:"ui_"+UI})}catch(_){}feed();return}});
 document.addEventListener("click",e=>{const b=e.target.closest("[data-ip],[data-iq]");if(!b)return;e.preventDefault();e.stopPropagation();
   const poll=b.hasAttribute("data-ip"),id=b.dataset.ip||b.dataset.iq,i=+b.dataset.i;const d=drops.find(x=>x.id===id);if(!d)return;

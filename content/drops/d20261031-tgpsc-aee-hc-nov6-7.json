@@ -45,12 +45,12 @@
   },
   {
    "k": "poll",
-   "q": "Are you writing AEE?",
+   "q": "Court kept AEE on Nov 6-7 despite the SSC-JE clash. Fair?",
    "opts": [
-    "Yes, ready",
-    "Yes, clash with SSC-JE",
-    "No",
-    "Prepping for next one"
+    "Fair, dates were set",
+    "Should have moved it",
+    "Govt exams need a clash-check rule",
+    "Not my exam"
    ]
   },
   {
@@ -99,7 +99,7 @@
    "url": "https://telanganatoday.com/telangana-hc-refuses-to-defer-tgpsc-aee-exams-over-ssc-je-schedule-clash"
   }
  ],
- "updated": 1793435054113,
+ "updated": 1793435180911,
  "city": "Hyderabad",
  "img": {
   "u": "https://media.telanganatoday.com/wp-content/uploads/2026/10/Exastudentss-1.jpg",
