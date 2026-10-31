@@ -1,6 +1,6 @@
 {
   "name": "Cyclone Arnab",
-  "updated": "2026-10-31T19:15:00+05:30",
+  "updated": "2026-10-31T20:20:00+05:30",
   "level": "Over",
   "moving": {
     "state": "dissipated",
@@ -61,7 +61,7 @@
     },
     {
       "e": "🌧️",
-      "t": "New storm: a depression formed in the southeast Bay on Oct 31, 11:30 am. IMD says it may become cyclonic storm 'Murasu' (80–90 km/h, gusts 100) and near the Andhra coast by Nov 2 evening; possible AP landfall Nov 3 morning (PTI). Weaker than Arnab. Fishermen stay ashore off AP Nov 1–4.",
+      "t": "New storm: a depression formed in the southeast Bay on Oct 31, 11:30 am. IMD says it may become cyclonic storm 'Murasu' (80–90 km/h, gusts 100) and near the Andhra coast by Nov 2 evening; possible AP landfall Nov 3 morning (PTI). Weaker than Arnab. APSDMA: heavy to very heavy rain in central AP & Rayalaseema Nov 2–3; fishermen stay ashore.",
       "n": 3
     },
     {
@@ -111,6 +111,12 @@
     }
   ],
   "updates": [
+    {
+      "t": "Oct 31, 8:20 pm",
+      "e": "🌀",
+      "x": "New system update. APSDMA (MD Prakhar Jain): the depression may become a cyclone by Sunday (Nov 1) evening and reach the Andhra coast by Monday (Nov 2) evening. Isolated heavy to very heavy rain likely in central Andhra and Rayalaseema on Nov 2–3; coastal winds 45–65 km/h. Fishermen must not go to sea. Still no official landfall point; IMD expects it weaker than Arnab (80–90 km/h). Ganjam landslide (Gidipabali): bad weather stopped the Navy helicopter from landing, so the life-detection equipment is going by road and should reach early Nov 1; NDRF, ODRAF, Fire Services and Railways teams are searching in heavy rain. No new official district alerts on SACHET this evening.",
+      "src": "APSDMA via Asianet Newsable, Oct 31; IMD via The Business Standard & DT Next, Oct 31; OmmCom News, Oct 31; NDMA SACHET"
+    },
     {
       "t": "Oct 31, 7:15 pm",
       "e": "🌀",
@@ -194,12 +200,6 @@
       "e": "📶",
       "x": "Phones and mobile data: AP telecom network availability is back to 99.18% (DoT). In Odisha, Ganjam, Gajapati and Kandhamal networks are improving as floods recede. Emergency towers (COW) stay in place.",
       "src": "IANS / Punjab Kesari"
-    },
-    {
-      "t": "Oct 31, 7:00 am",
-      "e": "🌊",
-      "x": "CWC: Rushikulya at Purushottampur (Ganjam, Odisha) has eased from severe to above-normal flood at 7 am. Still stay off the river banks.",
-      "src": "NDMA SACHET (CWC)"
     }
   ],
   "mood": [
