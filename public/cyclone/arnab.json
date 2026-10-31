@@ -1,6 +1,6 @@
 {
   "name": "Cyclone Arnab",
-  "updated": "2026-10-31T20:20:00+05:30",
+  "updated": "2026-10-31T21:15:00+05:30",
   "level": "Over",
   "moving": {
     "state": "dissipated",
@@ -112,6 +112,12 @@
   ],
   "updates": [
     {
+      "t": "Oct 31, 9:15 pm",
+      "e": "🌬️",
+      "x": "Odisha (IMD Bhubaneswar): little rain on Oct 31–Nov 1, then more rain from Nov 2, mostly in south Odisha. Winds of 40–50 km/h gusting to 60 km/h are likely in Ganjam, Gajapati, Puri, Khordha, Rayagada, Koraput and Malkangiri, reaching about 70 km/h in places. The new depression is still forecast to reach near the Andhra coast by Nov 2 evening; IMD has still not given a landfall point. No new district-level red or orange alerts on SACHET tonight, only AP lightning warnings.",
+      "src": "IMD Bhubaneswar via Kalinga TV, Oct 31; IMD via DT Next, Oct 31; NDMA SACHET"
+    },
+    {
       "t": "Oct 31, 8:20 pm",
       "e": "🌀",
       "x": "New system update. APSDMA (MD Prakhar Jain): the depression may become a cyclone by Sunday (Nov 1) evening and reach the Andhra coast by Monday (Nov 2) evening. Isolated heavy to very heavy rain likely in central Andhra and Rayalaseema on Nov 2–3; coastal winds 45–65 km/h. Fishermen must not go to sea. Still no official landfall point; IMD expects it weaker than Arnab (80–90 km/h). Ganjam landslide (Gidipabali): bad weather stopped the Navy helicopter from landing, so the life-detection equipment is going by road and should reach early Nov 1; NDRF, ODRAF, Fire Services and Railways teams are searching in heavy rain. No new official district alerts on SACHET this evening.",
@@ -194,12 +200,6 @@
       "e": "🛶",
       "x": "Odisha floods: 299 villages in 22 blocks of Ganjam and 711 villages in 7 blocks of Gajapati hit. 11,882 people moved to shelters in Ganjam and 17,441 in Gajapati. Food dropped by helicopter to cut-off villages; boats in use in Ganjam.",
       "src": "Down To Earth"
-    },
-    {
-      "t": "Oct 31, 9:00 am",
-      "e": "📶",
-      "x": "Phones and mobile data: AP telecom network availability is back to 99.18% (DoT). In Odisha, Ganjam, Gajapati and Kandhamal networks are improving as floods recede. Emergency towers (COW) stay in place.",
-      "src": "IANS / Punjab Kesari"
     }
   ],
   "mood": [
