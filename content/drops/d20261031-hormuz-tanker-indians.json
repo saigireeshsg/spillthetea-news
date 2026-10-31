@@ -1,0 +1,92 @@
+{
+ "cat": "world",
+ "lead": "world",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-82",
+ "order": 1,
+ "heat": 5,
+ "readSecs": 30,
+ "topic": "Hormuz tanker attack",
+ "hook": "Tanker with *27 Indians* aboard hit by limpet mines in Hormuz",
+ "hook_b": "Should India escort Indian-crewed ships through Hormuz?",
+ "tldr": "A tanker carrying 27 Indians was attacked with limpet mines in the Strait of Hormuz.",
+ "beats": {
+  "what": "NDTV reports a tanker with 27 Indians aboard was attacked with limpet mines in the Strait of Hormuz.",
+  "why": "It was the first successful use of limpet mines in the waterway since the conflict began in February, per NDTV.",
+  "care": "Hormuz carries much of the Gulf's oil, so attacks there reach fuel prices and Indian crews at sea."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚔️",
+    "label": "Conflict since February"
+   }
+  ],
+  "event": {
+   "icon": "🚢",
+   "label": "Tanker hit by limpet mines"
+  },
+  "effects": [
+   {
+    "icon": "🇮🇳",
+    "label": "27 Indians aboard"
+   },
+   {
+    "icon": "⛽",
+    "label": "Oil route at risk"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "NDTV: the attack is described as the first successful deployment of limpet mines in the strategic waterway since the conflict began in February; limpet mines attach to a ship's hull and can be placed by a diver. Casualties and the owner were not in the summary."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should India send its navy to escort Indian-crewed ships through Hormuz?",
+   "opts": [
+    "Yes, protect our sailors",
+    "Only with allies",
+    "Diplomacy first, no navy",
+    "Tell crews to avoid the route"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "27",
+   "l": "Indians aboard the tanker"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1a0f0f",
+   "#8b2e2e"
+  ],
+  "big": "27",
+  "label": "Indians aboard the tanker",
+  "motion": "drift",
+  "scene": [
+   "🚢",
+   "💥",
+   "🇮🇳"
+  ]
+ },
+ "learn": {
+  "t": "A limpet mine is an explosive stuck to a ship's hull, usually placed by a swimmer or diver."
+ },
+ "watch": "India's MEA statement on the crew.",
+ "thread": "hormuz-tanker-oct31",
+ "sources": [
+  {
+   "name": "NDTV",
+   "title": "Tanker Carrying 27 Indians Attacked With Limpet Mines In Strait Of Hormuz",
+   "url": "https://www.ndtv.com/world-news/tanker-carrying-27-indians-attacked-with-limpet-mines-in-strait-of-hormuz-12261284"
+  }
+ ],
+ "updated": 1793435758140
+}

@@ -1,0 +1,92 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-78",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Air India Saudi flights suspended",
+ "hook": "Air India, Air India Express extend *Saudi flights suspension* to Nov 14",
+ "hook_b": "Booked a Saudi flight? When will flights resume?",
+ "tldr": "Air India and Air India Express extended the suspension of Saudi flights till November 14.",
+ "beats": {
+  "what": "NDTV reports Air India and Air India Express extended the Saudi Arabia flights suspension till Nov 14.",
+  "why": "Passengers with confirmed bookings issued on or before Oct 30 for travel up to Nov 14 can reschedule to travel up to Nov 29, subject to seat availability.",
+  "care": "If you or family fly to Saudi before Nov 14, rebook through the airline now. Seats on new dates are not guaranteed."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌍",
+    "label": "Regional conflict"
+   }
+  ],
+  "event": {
+   "icon": "✈️",
+   "label": "Saudi flights paused to Nov 14"
+  },
+  "effects": [
+   {
+    "icon": "🔁",
+    "label": "Rebook up to Nov 29"
+   },
+   {
+    "icon": "🎫",
+    "label": "Seats not guaranteed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "NDTV: the suspension runs till Nov 14; bookings made on or before Oct 30 can be rescheduled up to Nov 29, subject to availability. The reason for the suspension was not in the summary."
+  },
+  {
+   "k": "poll",
+   "vt": "guess",
+   "q": "When will Air India's Saudi flights resume?",
+   "opts": [
+    "Right on Nov 14",
+    "By end of November",
+    "December",
+    "Not this year"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Nov 14",
+   "l": "Saudi flights suspended till"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#0f2236",
+   "#2d6a9f"
+  ],
+  "big": "Nov 14",
+  "label": "Saudi flights suspended till",
+  "motion": "drift",
+  "scene": [
+   "✈️",
+   "🕌",
+   "📅"
+  ]
+ },
+ "learn": {
+  "t": "Rescheduling means moving to a new date without cancelling and losing the fare, within the airline's window."
+ },
+ "watch": "Airline notice around Nov 14.",
+ "thread": "airindia-saudi-nov14",
+ "sources": [
+  {
+   "name": "NDTV",
+   "title": "Air India, Air India Express Extend Saudi Flights Suspension Till November 14",
+   "url": "https://www.ndtv.com/india-news/air-india-air-india-express-extend-saudi-arabia-flights-suspension-till-november-14-12260263"
+  }
+ ],
+ "updated": 1793435758140
+}

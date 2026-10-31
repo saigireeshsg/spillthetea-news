@@ -1,0 +1,97 @@
+{
+ "cat": "world",
+ "lead": "world",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-80",
+ "order": 1,
+ "heat": 5,
+ "readSecs": 30,
+ "topic": "India at the UN Security Council",
+ "hook": "India rejects a UN Security Council seat *without veto*",
+ "hook_b": "Would you take a UNSC seat without veto power?",
+ "tldr": "At UN reform talks India said it will not accept 'second-class' permanent seats and that veto cannot stay with the P5 alone.",
+ "beats": {
+  "what": "India rejected UN Security Council reform that leaves out veto rights, calling such seats 'second-class' (India Weekly, Khmer Times).",
+  "why": "Times of India reports India said the veto cannot be restricted to the P5 in a reformed council. News India Times says India wants text-based reform and rejects piecemeal veto fixes.",
+  "care": "It decides how much say India gets on war, sanctions and shipping. Separately, India's 2028-29 UNSC campaign leads with AI and maritime security (NDTV)."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌍",
+    "label": "UN reform talks"
+   }
+  ],
+  "event": {
+   "icon": "✋",
+   "label": "India: no seat without veto"
+  },
+  "effects": [
+   {
+    "icon": "🇮🇳",
+    "label": "Say on war and sanctions"
+   },
+   {
+    "icon": "🚢",
+    "label": "2028-29 UNSC bid: AI, maritime"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "India's position, per the reports: no permanent seat without veto, and no veto kept only by the P5. Some outlets headline it as India backing veto for all members; the Times of India line is the narrower one. India is also campaigning for a non-permanent UNSC seat for 2028-29."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should India accept a permanent UNSC seat without veto power?",
+   "opts": [
+    "No, veto or nothing",
+    "Yes, take it and push for veto later",
+    "Push for veto for all members",
+    "UNSC is outdated, build new bodies"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "No veto",
+   "l": "India's red line"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#0d1b2e",
+   "#25508a"
+  ],
+  "big": "No veto",
+  "label": "India's red line",
+  "motion": "drift",
+  "scene": [
+   "🇮🇳",
+   "🏛️",
+   "✋"
+  ]
+ },
+ "learn": {
+  "t": "The P5 are the US, UK, France, Russia and China, the five permanent members who each hold a veto over UNSC decisions."
+ },
+ "watch": "The next round of UN reform talks.",
+ "thread": "india-unsc-veto",
+ "sources": [
+  {
+   "name": "The Times of India",
+   "title": "Can't restrict veto to P5 in a reformed UNSC: India",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQnNJMmMtelo1RHlONEd2blRiM2JqRUJpN1RLMU5wOXhFY3MzNF9SVnotbTNReVk1cFEyUkRCMklrZmNRZ09qeFZMM0NuZHlDa1JPQWliQW9LVGhWbjB4RnJyeHlfWGIwQ3YxaEZtVjdRQ3ZkNER1VWN5cUNCUDhreUZwOGwyV3QwM1QwMC0xWmFKd0hPMlNEVS1tZkdHb1pCUEItR1ZTLVhEdTdQZHpQUlUwbHVVNE5y0gG-AUFVX3lxTFBqdElPVTFqb0lXSDBpS2oyTkJfODgwLWVOeFlsWGtNQjVZYTNkQmNGZ0MtdFBSc1hwUm5wVFhDZWhYTkNfdlVMbGdxb3IwV0JVQ05YTGRaRU95LUVXaGJIeTJoN0pzd1lnUmhyUlhHSFd5TWI0dHFLRmItcnlMZXlVVThLWUxCWGtjLXNSemloSTZaYzV1M3h0V19hRVJ3T19lcTd1VzhoWVR0N0N3MjY3M0hHdC1WZC15ZTNYcnc?oc=5"
+  },
+  {
+   "name": "NDTV",
+   "title": "India Pins UN Security Council Seat Hope On AI-led Maritime Security Pitch",
+   "url": "https://www.ndtv.com/world-news/india-pins-un-security-council-seat-hope-on-ai-led-maritime-security-pitch-12257102"
+  }
+ ],
+ "updated": 1793435758140
+}

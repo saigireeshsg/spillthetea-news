@@ -1,0 +1,92 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "India extreme poverty World Bank",
+ "hook": "World Bank: India's extreme poverty fell from *27.1%* to *2.6%*",
+ "hook_b": "India poverty hit 2.6%. Does that match your street?",
+ "tldr": "A World Bank report says India's extreme poverty fell from 27.1% to 2.6% in 12 years.",
+ "beats": {
+  "what": "NDTV reports the World Bank figure: extreme poverty down from 27.1% to 2.6% over 12 years.",
+  "why": "People below the lower-middle-income line of USD 4.20 a day (2021 PPP) fell from 57.7% to 16.1%.",
+  "care": "The 2.6% uses the extreme line. At the higher USD 4.20 line, 16.1% are still below it."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌐",
+    "label": "World Bank report"
+   }
+  ],
+  "event": {
+   "icon": "📉",
+   "label": "Extreme poverty 27.1% to 2.6%"
+  },
+  "effects": [
+   {
+    "icon": "📏",
+    "label": "USD 4.20 line: 57.7% to 16.1%"
+   },
+   {
+    "icon": "🗣️",
+    "label": "Debate over the yardstick"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "NDTV, citing the World Bank: extreme poverty 27.1% to 2.6%; share below USD 4.20 per day (2021 PPP) 57.7% to 16.1%. The report's start and end years were not in the summary."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Does '2.6% extreme poverty' match what you see around you?",
+   "opts": [
+    "Yes, life has improved",
+    "Line is too low to mean much",
+    "Gains are uneven",
+    "Don't trust the numbers"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "2.6%",
+   "l": "extreme poverty, World Bank"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "2.6%",
+  "label": "extreme poverty, World Bank",
+  "motion": "drift",
+  "scene": [
+   "📉",
+   "🇮🇳",
+   "🏘️"
+  ]
+ },
+ "learn": {
+  "t": "PPP adjusts for what money buys in each country, so USD 4.20 PPP is not the same as USD 4.20 at the exchange rate."
+ },
+ "watch": "Debate on which poverty line India should use.",
+ "thread": "wb-india-poverty",
+ "sources": [
+  {
+   "name": "NDTV",
+   "title": "India's Extreme Poverty Drops From 27.1% To 2.6% In 12 Years: World Bank",
+   "url": "https://www.ndtv.com/india-news/indias-extreme-poverty-drops-from-27-1-percent-to-2-6-percent-in-12-years-world-bank-12257248"
+  }
+ ],
+ "updated": 1793435758140
+}
