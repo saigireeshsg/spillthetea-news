@@ -1,0 +1,88 @@
+{
+ "cat": "campus",
+ "lead": "campus",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-79",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "CBSE Class 10 in 2028: *five subjects* m",
+ "hook": "CBSE Class 10 in 2028: *five subjects* mandatory",
+ "hook_b": "CBSE Class 10 is changing. Good for students?",
+ "tldr": "CBSE says five subjects will be mandatory in Class 10 boards from 2028, and a skill paper may help students pass.",
+ "beats": {
+  "what": "NDTV Profit: CBSE Class 10 board exams 2028 need five mandatory subjects; a skill paper may help students pass.",
+  "why": "CBSE clarified some newly proposed curricular components will not be introduced for the current batch.",
+  "care": "If you have a sibling or child in Class 8-9 now, this is their pattern."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎒",
+    "label": "Board exam redesign"
+   }
+  ],
+  "event": {
+   "icon": "📘",
+   "label": "5 subjects mandatory, 2028"
+  },
+  "effects": [
+   {
+    "icon": "🧠",
+    "label": "Skill paper may help pass"
+   },
+   {
+    "icon": "🧠",
+    "label": "Not for current batch"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "NDTV Profit reports CBSE's clarification: new proposed components do not apply to the current batch. Which five subjects and skill-paper weight were not in the summary."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "A skill paper may help students pass Class 10. Your view?",
+   "opts": [
+    "Great, marks aren't everything",
+    "Dilutes the board exam",
+    "Only if skills are tested properly",
+    "Cut the syllabus instead"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "5",
+   "l": "mandatory subjects, Class 10 (2028)"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1c2340",
+   "#4a5fb0"
+  ],
+  "big": "5",
+  "label": "mandatory subjects, Class 10 (2028)",
+  "motion": "drift",
+  "scene": [
+   "🎒",
+   "📘",
+   "🧠"
+  ]
+ },
+ "thread": "cbse-class10-2028-five-subjects",
+ "sources": [
+  {
+   "name": "NDTV Profit",
+   "title": "CBSE Class 10 Board Exams 2028: Five Subjects Mandatory, Skill Paper May Help Students Pass",
+   "url": "https://www.ndtvprofit.com/education/cbse-class-10-board-exams-2028-five-subjects-mandatory-skill-paper-may-help-students-pass-12262635"
+  }
+ ],
+ "updated": 1793436004768
+}

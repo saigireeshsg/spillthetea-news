@@ -1,0 +1,88 @@
+{
+ "cat": "tech",
+ "lead": "tech",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-68",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "AI cyclone forecast gave *35%* odds to l",
+ "hook": "AI cyclone forecast gave *35%* odds to landfall near Yanam",
+ "hook_b": "Would you trust an AI cyclone forecast over IMD?",
+ "tldr": "NDTV Profit looks at where AI cyclone tracking works and fails; ECMWF's ensemble gave 35% to landfall between the Godavari delta and Yanam.",
+ "beats": {
+  "what": "ECMWF's 51-member ensemble assigned a 35% probability to landfall between the Godavari delta and Yanam, median time 07:11 IST (NDTV Profit).",
+  "why": "AI forecasts give probabilities, not one line on a map.",
+  "care": "For coastal Andhra, a 35% call means prepare, not ignore."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌀",
+    "label": "AI weather ensembles"
+   }
+  ],
+  "event": {
+   "icon": "🤖",
+   "label": "35% odds near Yanam"
+  },
+  "effects": [
+   {
+    "icon": "🌊",
+    "label": "Probabilities, not certainty"
+   },
+   {
+    "icon": "🌊",
+    "label": "Prepare early"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "NDTV Profit's explainer on what AI can predict about cyclones and where it falls short. The actual landfall location is not in this summary."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Cyclone forecasts are now AI-driven. Who do you trust?",
+   "opts": [
+    "IMD, the official call",
+    "AI models, they are faster",
+    "Both, compare them",
+    "None, I wait for the news"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "35%",
+   "l": "landfall odds, Godavari-Yanam"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1a1030",
+   "#6a3fb5"
+  ],
+  "big": "35%",
+  "label": "landfall odds, Godavari-Yanam",
+  "motion": "drift",
+  "scene": [
+   "🌀",
+   "🤖",
+   "🌊"
+  ]
+ },
+ "thread": "ai-cyclone-tracking-ecmwf",
+ "sources": [
+  {
+   "name": "NDTV Profit",
+   "title": "Cyclone Tracking With AI: What It Can Predict And Where It Falls Short",
+   "url": "https://www.ndtvprofit.com/technology/cyclone-tracking-with-ai-what-it-can-predict-and-where-it-falls-short-12257379"
+  }
+ ],
+ "updated": 1793436004768
+}

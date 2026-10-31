@@ -362,3 +362,16 @@ Every drop carries `"img":{"u":"<og:image url of the first source article>","c":
 Never a quiz or recall question on the card. The question names the issue the reader lives with, and every option is a real position.
 
 **World and India-abroad desk (added Oct 31):** world feeds in `scout_sources` (region `world`): NDTV World, Indian Express World, TOI World, HT World, Al Jazeera, BBC, UN News, ET International, plus Google News queries for India at the UN and India foreign policy. Pick world news only when it touches the reader: India's stand at the UN or on sanctions/tariffs, Indians abroad (crews, students, visas, flights), oil and shipping chokepoints, big global moments friends will discuss. Cat `world` for pure world, `india` when India is the actor. Headlines from Google News links carry no body: state only what the headline and summary say and mention when outlets frame it differently. Voice types: stance for India's positions ("Should India accept X?"), guess for outcomes, rate for services.
+
+## Daily volume and the lean way to hit it (owner direction Oct 31, supersedes caps above)
+**Target: at least 50 stories a day.** Per-run caps: morning 14, midday 10, evening 12, night 4, hourly 4, half-hourly 3. Stay lean: ONE shortlist query (A, plus C for tech/world/money), pick from the feed summaries, no per-story WebFetch (most outlets are blocked anyway). Only run the og:image fetch for direct-URL sources (Hindu, Siasat, Telangana Today, ET), batch them in one `net.http_get` call, read them in one query. Write all stories of the run as ONE spec list and build with `python3 tools/mkdrop.py specs.json` (see its docstring), then `python3 tools/build-data.py`, bump `public/sw.js`, commit, push. State only what the headline or summary says; say so in `tea` when details are missing.
+
+## Writing the voice question (this is the product)
+Think as a 20-35 year old in Hyderabad. The question is never "will it happen?" or "when?". It is what that person WANTS, would DO or would TRADE:
+- **Conditions / trade-off:** "Bullet train to Pune: what's your condition?" Fast whatever it takes · Fast but protect forests and farmland · Pay landowners first · Fix local transport first.
+- **Priority:** "What should the city fix first?" 4 real, different priorities.
+- **Stake / action:** "Would you ...?" "What will you do?" (visas, jobs, moving, switching, paying).
+- **Verdict:** "Right, wrong, or right but ...?" for demolitions, court calls, policy.
+- **Rate:** services people use (bus, metro, water, power, signal, hospital, railways cleanliness): 😡-😍.
+- **Guess (rare):** only for a genuine toss-up the news itself leaves open (who becomes the first billionaire). Never a date or fact question.
+Every option is a position someone really holds, different from the others; the last one may be "none / not my issue". 12 words max in the question, options under 6 words.

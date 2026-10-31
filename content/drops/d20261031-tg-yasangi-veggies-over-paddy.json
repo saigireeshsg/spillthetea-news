@@ -1,0 +1,93 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-74",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Telangana farmers keep choosing *veggies",
+ "hook": "Telangana farmers keep choosing *veggies over paddy* in Yasangi",
+ "hook_b": "Farmers are leaving paddy. Will your sabzi get cheaper?",
+ "tldr": "Telangana farmers' shift from paddy to vegetables and spices continues in Yasangi 2026, driven by water savings and market demand.",
+ "beats": {
+  "what": "The Hindu: farmers continue preferring vegetables and spices over paddy in Yasangi 2026.",
+  "why": "Water savings, market demand and drought-resistant seeds are behind the shift.",
+  "care": "The Horticulture Director says high heat in the next few months may cut produce by around 20%, which may drive demand."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🥬",
+    "label": "Water savings and demand"
+   }
+  ],
+  "event": {
+   "icon": "🌾",
+   "label": "Farmers shift from paddy"
+  },
+  "effects": [
+   {
+    "icon": "💰",
+    "label": "Veg prices at risk from heat"
+   },
+   {
+    "icon": "💰",
+    "label": "Paddy area shrinks"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu quotes Horticulture Director Shaik Yasmeen Basha: heat may reduce horticulture produce by about 20%, which may drive demand."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "More farms grow vegetables, less paddy. What do you want?",
+   "opts": [
+    "Cheaper vegetables, prices fixed",
+    "Farmers get assured prices",
+    "Keep enough paddy for rice",
+    "Subsidise drip irrigation"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "-20%",
+   "l": "possible heat hit to produce"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "-20%",
+  "label": "possible heat hit to produce",
+  "motion": "drift",
+  "scene": [
+   "🥬",
+   "🌾",
+   "💰"
+  ]
+ },
+ "thread": "tg-yasangi-veggies-over-paddy",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana farmers' preference for veggies, spices over paddy continues in Yasangi 2026",
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-farmers-preference-for-veggies-spices-over-paddy-continues-in-yasangi-2026/article71645657.ece"
+  }
+ ],
+ "updated": 1793436004767,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/cities/Hyderabad/tubw3v/article71645659.ece/alternates/LANDSCAPE_1200/Vegetables.jpeg",
+  "c": "The Hindu"
+ }
+}

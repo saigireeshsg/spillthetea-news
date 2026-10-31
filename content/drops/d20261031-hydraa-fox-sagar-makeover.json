@@ -1,0 +1,89 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-86",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "HYDRAA plans *Rs 75 crore* Fox Sagar lak",
+ "hook": "HYDRAA plans *Rs 75 crore* Fox Sagar lake makeover",
+ "hook_b": "Rs 75 crore for Fox Sagar. Worth it?",
+ "tldr": "HYDRAA plans a Rs 75 crore makeover of the historic Fox Sagar lake.",
+ "beats": {
+  "what": "INDToday and New Indian Express report HYDRAA's plan to revamp historic Fox Sagar, with a Rs 75 crore price tag.",
+  "why": "HYDRAA has been reclaiming lakes and nalas; a makeover shifts the focus to restoring one.",
+  "care": "Lakes decide how badly your area floods and whether you get a park or a fence."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏞️",
+    "label": "Lakes shrinking and flooding"
+   }
+  ],
+  "event": {
+   "icon": "💧",
+   "label": "HYDRAA plans Fox Sagar makeover"
+  },
+  "effects": [
+   {
+    "icon": "🌳",
+    "label": "Public space and cleaner water"
+   },
+   {
+    "icon": "🌳",
+    "label": "Rs 75 crore question"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "INDToday puts the Fox Sagar makeover at Rs 75 crore. Timeline and design details were not in the headlines."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Rs 75 crore on one lake. What should a lake makeover do first?",
+   "opts": [
+    "Stop sewage entering it",
+    "Open it up as a public park",
+    "Protect it from encroachment",
+    "Spend on drains instead"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Rs 75 cr",
+   "l": "Fox Sagar makeover plan"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Rs 75 cr",
+  "label": "Fox Sagar makeover plan",
+  "motion": "drift",
+  "scene": [
+   "🏞️",
+   "💧",
+   "🌳"
+  ]
+ },
+ "thread": "hydraa-fox-sagar-makeover",
+ "sources": [
+  {
+   "name": "INDToday",
+   "title": "HYDRAA Plans Rs. 75 Crore Fox Sagar Lake Makeover",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBjWlk0YzhXN0FON1VBOHRyVW56MGZCbno5M1p6YmtyVGc4Q2NCeHVWOUk1dGp0bjVySlB3TXE5eHFOZER6WU1OVW13X0h4Q3ZwdHUtaTRHREhlalN0bzBDWldPWTA2eU9aczhyUnV2Qy0xVHpNN2xld2RB?oc=5"
+  }
+ ],
+ "updated": 1793436004766,
+ "city": "Hyderabad"
+}

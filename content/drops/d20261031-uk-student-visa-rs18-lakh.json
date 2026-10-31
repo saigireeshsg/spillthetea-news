@@ -1,0 +1,88 @@
+{
+ "cat": "campus",
+ "lead": "campus",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-77",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "UK student visa: Indians must show up to",
+ "hook": "UK student visa: Indians must show up to *Rs 18 lakh*",
+ "hook_b": "UK now wants Rs 18 lakh in your account. Still going?",
+ "tldr": "UK student visa rules change from Nov 30, with Indians needing up to Rs 18 lakh for living expenses held for 28 days.",
+ "beats": {
+  "what": "NDTV Profit: applicants relying on personal funds must maintain the required balance for at least 28 consecutive days before applying.",
+  "why": "The visa gets costlier from Nov 30, per the headline.",
+  "care": "If you plan a UK Masters, your savings proof must sit untouched for 28 days."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎓",
+    "label": "UK tightens student visa"
+   }
+  ],
+  "event": {
+   "icon": "🇬🇧",
+   "label": "Rs 18 lakh balance for 28 days"
+  },
+  "effects": [
+   {
+    "icon": "💷",
+    "label": "Costlier from Nov 30"
+   },
+   {
+    "icon": "💷",
+    "label": "Planning needed early"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "NDTV Profit: up to Rs 18 lakh for living expenses for Indians; 28 consecutive days of balance before applying. Exact tiers by city were not in the summary."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "UK visa is getting costlier. What will you do?",
+   "opts": [
+    "Still going to the UK",
+    "Switch to Germany/Canada/Ireland",
+    "Study in India, work abroad later",
+    "Wait and watch the rules"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Rs 18 lakh",
+   "l": "living-expense proof, UK"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1c2340",
+   "#4a5fb0"
+  ],
+  "big": "Rs 18 lakh",
+  "label": "living-expense proof, UK",
+  "motion": "drift",
+  "scene": [
+   "🎓",
+   "🇬🇧",
+   "💷"
+  ]
+ },
+ "thread": "uk-student-visa-rs18-lakh",
+ "sources": [
+  {
+   "name": "NDTV Profit",
+   "title": "UK Student Visa Rules To Change: Indians Must Show Up To Rs 18 Lakh For Living Expenses",
+   "url": "https://www.ndtvprofit.com/education/uk-student-visa-to-get-costlier-from-november-30-what-indian-students-should-know-12262309"
+  }
+ ],
+ "updated": 1793436004768
+}

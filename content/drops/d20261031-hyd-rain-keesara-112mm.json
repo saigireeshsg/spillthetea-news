@@ -61,13 +61,14 @@
   },
   {
    "k": "poll",
-   "q": "Hyderabad's low roads flood after one heavy night. What should fix it first?",
+   "q": "One night of rain floods Hyderabad's roads. What do you want first?",
    "opts": [
-    "Clear and widen drains",
-    "Stop lake and nala encroachments",
-    "Stop dumping garbage in drains",
-    "Better traffic and office timing"
-   ]
+    "Drains cleared before monsoon",
+    "Lakes and nalas freed of encroachment",
+    "Stricter garbage penalties",
+    "WFH advisory on heavy-rain days"
+   ],
+   "vt": "stance"
   },
   {
    "k": "quiz",
@@ -159,7 +160,7 @@
    "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-to-see-4-more-days-of-evening-showers-imd-warns-of-gusty-winds-yellow-alert-for-surrounding-districts-on-oct-31/articleshow/135373220.cms"
   }
  ],
- "updated": 1793435180909,
+ "updated": 1793435936147,
  "img": {
   "u": "https://media.telanganatoday.com/wp-content/uploads/2026/10/Rains-BanjaraHills-1.jpg",
   "c": "Telangana Today"

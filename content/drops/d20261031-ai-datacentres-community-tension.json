@@ -1,0 +1,88 @@
+{
+ "cat": "tech",
+ "lead": "tech",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-67",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "AI data centres face *community tension*",
+ "hook": "AI data centres face *community tension* in India",
+ "hook_b": "A data centre next door: yes or no?",
+ "tldr": "ET Datacenters reports communities in India are pushing back against AI data centres.",
+ "beats": {
+  "what": "ET Datacenters headline: AI data centers face community tension in India.",
+  "why": "Data centres use heavy power and water, and Hyderabad is a big data centre hub.",
+  "care": "A new facility near you could mean jobs, but also power and water load."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🖥️",
+    "label": "AI demand surge"
+   }
+  ],
+  "event": {
+   "icon": "⚡",
+   "label": "Community tension over data centres"
+  },
+  "effects": [
+   {
+    "icon": "💧",
+    "label": "Power and water load"
+   },
+   {
+    "icon": "💧",
+    "label": "Local jobs"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Only the headline was available; the specific sites and complaints were not in the summary."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "An AI data centre is planned in your area. Your call?",
+   "opts": [
+    "Yes, jobs and growth",
+    "Yes, if it runs on its own power and water",
+    "No, our water and power come first",
+    "Put them away from cities"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "AI",
+   "l": "data centres vs communities"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1a1030",
+   "#6a3fb5"
+  ],
+  "big": "AI",
+  "label": "data centres vs communities",
+  "motion": "drift",
+  "scene": [
+   "🖥️",
+   "⚡",
+   "💧"
+  ]
+ },
+ "thread": "ai-datacentres-community-tension",
+ "sources": [
+  {
+   "name": "ET Datacenters",
+   "title": "AI data centers face community tension in India",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNERzOWhDSzdyUk9iMzF1c1NCZFNLUkRHRUJxRklXSlV3dWpPcDNUbkkyTmszQXBtZnZMQ0YyVHJJS1RVYlhMcDg3ZnhQbWY2RDZWRTVKc21aNVdneElxN1BkSjhUVmVTVC1qTW5kWXhEV3VFY3VOX1ZvdWszNzdSSzgxYUc0LU5qc0JZVFdodURVaHctSmpIejc5ancwZ2o1YjBTdHg0VVhEcWV6WFZ0QXhmdkhodjA4ak5YbnZmRWNvamJuZFlIcjVsR3o4c19seUl1amlmSGlHcFFtNVVMSzljYXAxeW5PZS1zbklpZE00cUFRbVZoS25JMF84QdIBzAFBVV95cUxNYllTNFVKSHpnOFdxbWNUdlVpaVg2NERHekxmWDc0WWtvVXRqc1BidHRSSV82MHpsTllQZFVDRWE5c0kzc25GWVlCN2VPenBTMDdzQWkwWE1udnZwcTFyQlVhb3FsYXNRYnBnSFlGWHA2NlZzcDFqOGJHQXFaVDlQakExY1VYQ3MtR0ZYNW5uM2NLQ2VDNkJkeUFnTml2RHk2TGg3Umtra2lpRmh2LW9RNkdiVTc0WGJOS1BVY2EtYng1OVE4bEpfTjZ2MF8?oc=5"
+  }
+ ],
+ "updated": 1793436004768
+}

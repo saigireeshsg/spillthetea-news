@@ -1,0 +1,92 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-85",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "HYDRAA demolishes houses in Ramanthapur'",
+ "hook": "HYDRAA demolishes houses in Ramanthapur's *Pedda Cheruvu* FTL",
+ "hook_b": "Houses razed inside a lake's FTL. Right or wrong?",
+ "tldr": "HYDRAA demolished houses built in the full tank level zone of Pedda Cheruvu in Ramanthapur.",
+ "beats": {
+  "what": "Deccan Chronicle reports HYDRAA demolished houses inside the Pedda Cheruvu FTL (full tank level) in Ramanthapur.",
+  "why": "FTL is the lake's legal water-spread line; construction inside it is treated as encroachment.",
+  "care": "If you rent or buy near a lake, check the FTL map before paying a token amount."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏚️",
+    "label": "Houses inside lake FTL"
+   }
+  ],
+  "event": {
+   "icon": "🚜",
+   "label": "HYDRAA demolishes in Ramanthapur"
+  },
+  "effects": [
+   {
+    "icon": "🏞️",
+    "label": "Families displaced"
+   },
+   {
+    "icon": "🏞️",
+    "label": "Lake zone cleared"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Deccan Chronicle: houses in the Pedda Cheruvu FTL, Ramanthapur, were demolished. Number of houses and owner notices were not in the headline."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Houses razed inside a lake's FTL. Where do you stand?",
+   "opts": [
+    "Right, lakes must be freed",
+    "Right, but compensate buyers",
+    "Wrong, they had permits",
+    "Punish officials who approved"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "FTL",
+   "l": "lake zone demolitions"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "FTL",
+  "label": "lake zone demolitions",
+  "motion": "drift",
+  "scene": [
+   "🏚️",
+   "🚜",
+   "🏞️"
+  ]
+ },
+ "learn": {
+  "t": "FTL means Full Tank Level, the highest water line of a lake; buildings inside it are treated as encroachment."
+ },
+ "thread": "hydraa-pedda-cheruvu-ramanthapur",
+ "sources": [
+  {
+   "name": "Deccan Chronicle",
+   "title": "HYDRAA Demolishes Houses in Pedda Cheruvu FTL in Ramanthapur",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRzg0ak1LcHMzSWZuQUdVVnVjbG5mRk9TX3JTZmJVY0hyTS1Cd3lmNm4wYk1IMkNsTjE1c211RWVfYzlVVFc0SWtCMmpmRktJbGQ5RHdlYk43d1ZrWHRUNUNFQlhHZUZvSFJrbGtteHd1VmdTRWM4dmxFdU12MzdyQmhPcjhoNGVLY25jcFZlcDJhSHNBVlJTX1hLNkJuUWR4STVrUmszZXdvNThHeEhzTnNXQUZBaHpWOFd2LXB0by1UNHFf?oc=5"
+  }
+ ],
+ "updated": 1793436004767,
+ "city": "Hyderabad"
+}

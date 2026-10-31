@@ -1,0 +1,89 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Seethakka announces funds for *alternati",
+ "hook": "Seethakka announces funds for *alternative drinking water* amid El Nino",
+ "hook_b": "El Nino is coming. Is your area's water ready?",
+ "tldr": "Minister Seethakka announced funds for alternative drinking water facilities in view of El Nino.",
+ "beats": {
+  "what": "The Hans India reports Minister Seethakka announced funds for alternative drinking water facilities amid El Nino.",
+  "why": "El Nino years usually bring weaker monsoon and tighter water; the state is planning a backup.",
+  "care": "Water supply is the first thing to strain in summer. Know your area's backup before March."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌡️",
+    "label": "El Nino warning"
+   }
+  ],
+  "event": {
+   "icon": "🚰",
+   "label": "Funds for backup drinking water"
+  },
+  "effects": [
+   {
+    "icon": "🏘️",
+    "label": "Fewer summer shortages"
+   },
+   {
+    "icon": "🏘️",
+    "label": "Which areas get it?"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Hans India headline: funds announced for alternative drinking water facility amid El Nino. Amount and districts were not in the headline."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "El Nino may tighten water. What should the state do first?",
+   "opts": [
+    "Fix pipeline leaks",
+    "Tanker supply for every colony",
+    "Borewell and lake recharge",
+    "Water price slabs for heavy users"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "El Nino",
+   "l": "water backup funds"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "El Nino",
+  "label": "water backup funds",
+  "motion": "drift",
+  "scene": [
+   "🌡️",
+   "🚰",
+   "🏘️"
+  ]
+ },
+ "thread": "tg-drinking-water-elnino-funds",
+ "sources": [
+  {
+   "name": "The Hans India",
+   "title": "Minister Seethakka announced funds for alternative drinking water facility amid El Nino",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUU1oXzk3NWtubnVJQXZodXVJbGVualNJZk8tLWsyQmtYVXJrTkFDWkJKMnRiM24wVzVXVG5leld0ZXczQTZEOHdzazZwX21jVmE4WUcxWU5ZTGM2VXBWeGRSYWx2V05QUnZMYWd4bVhlUkhiblZ5U2dNR3BjcEVZSmFDYU1zNWU0OWkxZjNHaDJOZGVMT3Jid0dpWUg5TkhtR2pEcUozODdPaF94U1Jsd1RkNDdKZmJkSDd5NVFEbUpWSVRtLW9kQ090X2EzZjg?oc=5"
+  }
+ ],
+ "updated": 1793436004767,
+ "city": "Hyderabad"
+}

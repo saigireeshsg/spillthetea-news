@@ -43,10 +43,10 @@
 .vbig.bad b{color:#ff6b6b}.vbig.good b{color:var(--good)}
 .vcmp .vrow{display:grid;grid-template-columns:96px 1fr auto;align-items:center;gap:8px;margin-top:6px;font-size:13px}
 .vcmp .vk{color:var(--muted);font-size:12px;line-height:1.2}
-.vbar{height:12px;background:var(--line);border-radius:999px;overflow:hidden}.vbar i{display:block;height:100%;background:#7c8a96;border-radius:999px}
-.vrow.now .vbar i{background:var(--orange)}.vrow.now b{color:var(--fg)}
+.vcb{height:12px;background:var(--line);border-radius:999px;overflow:hidden}.vcb i{display:block;height:100%;background:#7c8a96;border-radius:999px}
+.vrow.now .vcb i{background:var(--orange)}.vrow.now b{color:var(--fg)}
 .vch{font-size:11.5px;font-weight:800;border-radius:999px;padding:2px 8px;white-space:nowrap}.vch.good{background:var(--good-soft);color:var(--good)}.vch.bad{background:var(--bad-soft);color:#ff6b6b}
-.vtrack{height:14px;background:var(--line);border-radius:999px;overflow:hidden}.vtrack i{display:block;height:100%;background:linear-gradient(90deg,#ffd166,var(--orange));border-radius:999px}
+.vcb-track{height:14px;background:var(--line);border-radius:999px;overflow:hidden}.vcb-track i{display:block;height:100%;background:linear-gradient(90deg,#ffd166,var(--orange));border-radius:999px}
 .vsb{display:flex;height:16px;border-radius:999px;overflow:hidden;gap:2px}.vsb i{display:block;height:100%}
 .vleg{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:8px;font-size:12.5px;color:var(--muted)}.vleg span{display:flex;align-items:center;gap:5px}.vleg i{width:9px;height:9px;border-radius:3px;display:inline-block}.vleg b{color:var(--fg)}
 .vtl ol{list-style:none;margin:0;padding:0;display:grid;gap:0}
@@ -122,6 +122,15 @@
 .ires i{position:absolute;left:0;top:0;bottom:0;background:#4fbcff44}.ires.mine i{background:#ff450066}.ires span,.ires em{position:relative;font-style:normal}.ires.mine span{font-weight:800}
 .iquiz.res.ok{border-color:#46d160}.iquiz.res.no{border-color:#ffd166}.iw{font-size:13px;opacity:.85}
 .uiswitch{display:flex;gap:6px;align-items:center;margin:8px 0;font-size:12px;opacity:.9}.uiswitch button{font:inherit;font-size:12px;padding:4px 10px;border-radius:14px;border:1px solid var(--line);background:none;color:inherit;cursor:pointer}.uiswitch button.on{background:#ff4500;border-color:#ff4500;color:#fff}
+</style>
+<style>
+.npost{padding:10px 12px 8px}.nb .pt{font-size:16px;line-height:1.22;margin:0}.nimg.sm{width:76px;height:76px;border-radius:12px}.nb .nbrow{gap:10px;margin:2px 0 8px}
+.nb .ipoll{padding:8px;margin:0 0 6px;gap:6px;background:#ffffff08}.nb .ipoll b{font-size:13.5px}.nb .iopts button{font-size:12.5px;padding:7px 6px;border-radius:999px}
+.nb .ires{padding:6px 10px;font-size:12.5px}.nb .irate button{padding:6px 2px}.nb .irate span{font-size:20px}
+.nb .acts{gap:6px}.nb .act{font-size:11.5px;padding:5px 8px}.wwhbox{margin:8px 0 2px}.xpc{font-style:normal;color:#ffd166;margin-left:6px}
+.mvx{margin:8px 0 6px;padding:8px 10px;border:1px solid var(--line);border-radius:12px;background:#ffffff08}.mvx-top{display:flex;gap:10px;align-items:center;font-size:12px}.mvx-top b{margin-right:auto}.mvx-top .xp{color:#ffd166;font-weight:800}
+.mvx-track{height:6px;border-radius:6px;background:#ffffff14;margin-top:6px;overflow:hidden}.mvx-track i{display:block;height:100%;background:linear-gradient(90deg,#ff4500,#ffd166);border-radius:6px;transition:width .4s}
+.nb.voted{border-color:#ff450055}
 </style>
 </head>
 <body>
@@ -1337,7 +1346,7 @@ function cardHTMLClassic(d,ix){const sc=S.post[d.id]||0;const n=commentCount(d);
   return `<article class="post click ${me.done[d.id]?"done":""}" data-open="${d.id}"${d.hook_b?` data-v="${abVar()}"`:""} tabindex="0">${d.featured?`<div class="featbar">📰 EDITORIAL OF THE DAY <small>· ${esc(d.editorial?.paper||"")}, decoded</small></div>`:""}${head(d)}${!me.done[d.id]&&reasonOf(d)?`<p class="rsn">${esc(reasonOf(d))}</p>`:""}<h2 class="pt">${rich(abHook(d))}</h2>${statChip(d)}${(()=>{const sb=siblings(d).length,lv=liveFor(d);return (lv?`<p class="cardlive"><span class="ldot" aria-hidden="true"></span><b>LIVE · ${ago(lv.updated||lv.ts)}</b><span class="t">${esc(lv.title)}</span></p>`:"")+(sb?`<p class="thr">🧵 Ongoing story · ${sb} earlier ${sb===1?"update":"updates"} inside</p>`:"")})()}${d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}${hookHTML(d)}<div class="acts">${storyActHTML(d)}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${me.done[d.id]?"Read again":"Read"} · ${readLen(d)} →</span></div></article>`}
 
 // ---------- Reddit-style news cards: image + Why / What / How it matters + inline poll & quiz (two layouts to test) ----------
-let UI=(()=>{try{const q=new URLSearchParams(location.search).get("ui");if(q&&/^(a|b|old)$/.test(q)){localStorage.setItem("spill_ui",q);return q}return localStorage.getItem("spill_ui")||"a"}catch(_){return "a"}})();
+let UI=(()=>{try{const q=new URLSearchParams(location.search).get("ui");if(q&&/^(a|b|old)$/.test(q)){localStorage.setItem("spill_ui",q);return q}return localStorage.getItem("spill_ui")||"b"}catch(_){return "a"}})();
 function cardHTML(d,ix){return UI==="old"?cardHTMLClassic(d,ix):newCard(d,ix)}
 function imgHTML(d,cls){const c=d.cover||{},bg=(c.bg||["#1a1a1b","#333"]);const sc=(c.scene||[]).slice(0,3).join(" ");
   const im=d.img&&d.img.u?`<img src="${esc(d.img.u)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:"";
@@ -1351,19 +1360,23 @@ function ipollHTML(d){const pl=(d.cards||[]).find(c=>c.k==="poll");if(!pl)return
     if(vt==="rate")return `<div class="ipoll"><span class="ik">${kick}</span><b>${rich(pl.q)}</b><div class="irate">${pl.opts.slice(0,5).map((o,j)=>`<button data-ip="${d.id}" data-i="${j}" aria-label="${esc(o)}"><span>${EM[j]}</span><small>${esc(o)}</small></button>`).join("")}</div></div>`;
     return `<div class="ipoll"><span class="ik">${kick}</span><b>${rich(pl.q)}</b><div class="iopts">${pl.opts.map((o,j)=>`<button data-ip="${d.id}" data-i="${j}">${esc(o)}</button>`).join("")}</div></div>`}
   let avg="";if(vt==="rate"&&n>0){const m=S.poll[d.id]||{};let t=0,c=0;Object.entries(m).forEach(([i,v])=>{t+=(+i+1)*v;c+=v});if(c)avg=` · avg ${(t/c).toFixed(1)}/5`}
-  return `<div class="ipoll done"><span class="ik">${vt==="rate"?"⭐":vt==="guess"?"🔮":"🗳️"} ${n} ${n===1?"voice":"voices"} so far${avg}</span><b>${rich(pl.q)}</b>${pl.opts.map((o,j)=>{const pc=pct("poll",d.id,j);return `<div class="ires ${a===j?"mine":""}"><i style="width:${Math.max(pc,3)}%"></i><span>${vt==="rate"?EM[j]+" ":""}${esc(o)}</span><em>${pc}%</em></div>`}).join("")}</div>`}
+  return `<div class="ipoll done"><span class="ik">${vt==="rate"?"⭐":vt==="guess"?"🔮":"🗳️"} ${n} ${n===1?"voice":"voices"}${avg} · ${fewVotes(n)?"you're voice #"+n:"you're with "+pct("poll",d.id,a)+"%"} <em class="xpc">+10 XP</em></span><b>${rich(pl.q)}</b>${pl.opts.map((o,j)=>{const pc=pct("poll",d.id,j);return `<div class="ires ${a===j?"mine":""}"><i style="width:${Math.max(pc,3)}%"></i><span>${vt==="rate"?EM[j]+" ":""}${esc(o)}</span><em>${pc}%</em></div>`}).join("")}</div>`}
 function iquizHTML(d){const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q)return"";const a=me.quiz[d.id];
   if(a==null)return `<div class="iquiz"><span class="ik">🧠 Quick one</span><b>${rich(q.q)}</b><div class="iopts">${q.opts.slice(0,4).map((o,j)=>`<button data-iq="${d.id}" data-i="${j}">${esc(o)}</button>`).join("")}</div></div>`;
   const ok=a===q.ans;return `<div class="iquiz res ${ok?"ok":"no"}"><span class="ik">🧠 Quick one</span><b>${ok?"✅ Nailed it":"🤔 Not quite"} · ${esc(q.opts[q.ans])}</b>${q.why?`<span class="iw">${rich(q.why)}</span>`:""}</div>`}
 function thumbHTML(d){return d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}
-function newCard(d,ix){const n=commentCount(d);const open=`data-open="${d.id}"`;
-  const bar=`<div class="acts">${storyActHTML(d)}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${n?n+" comments · ":""}Full story →</span></div>`;
-  if(UI==="b")return `<article class="post npost nb click" ${open} tabindex="0">${head(d)}<div class="nbrow">${imgHTML(d,"sm")}<h2 class="pt">${rich(abHook(d))}</h2></div>${thumbHTML(d)}${ipollHTML(d)}${bar}</article>`;
-  return `<article class="post npost na click" ${open} tabindex="0">${head(d)}<h2 class="pt">${rich(abHook(d))}</h2>${imgHTML(d,"lg")}${thumbHTML(d)}${ipollHTML(d)}${bar}</article>`}
-document.addEventListener("click",e=>{const u=e.target.closest("[data-ui]");if(u){UI=u.dataset.ui;try{localStorage.setItem("spill_ui",UI);window.spillTrack&&window.spillTrack("tab_open",{tab:"ui_"+UI})}catch(_){}feed();return}});
+function newCard(d,ix){const n=commentCount(d);
+  const pl=(d.cards||[]).find(c=>c.k==="poll");const voted=pl&&me.poll[d.id]!=null;
+  const foot=`<div class="acts"><button class="act" data-act="share" data-key="${d.id}">↗ Share</button><button class="act" data-wwh="1">🧭 Why · What · So what ▾</button><span class="readcta" aria-hidden="true">${n?n+" 💬 · ":""}Story →</span></div>`;
+  const flow=`<div class="wwhbox" hidden>${thumbHTML(d)}</div>`;
+  if(UI==="a")return `<article class="post npost na click" data-open="${d.id}" tabindex="0">${head(d)}<h2 class="pt">${rich(abHook(d))}</h2>${imgHTML(d,"lg")}${ipollHTML(d)}${foot}${flow}</article>`;
+  return `<article class="post npost nb click ${voted?"voted":""}" data-open="${d.id}" tabindex="0">${head(d)}<div class="nbrow">${imgHTML(d,"sm")}<h2 class="pt">${rich(abHook(d))}</h2></div>${ipollHTML(d)}${foot}${flow}</article>`}
+function voteBarHTML(pool){const t=today(),v=(me.vday||{})[t]||0,N=pool.filter(x=>(x.cards||[]).some(c=>c.k==="poll")).length;let st=0;const dd=new Date();for(;;){const k=day(dd);if((me.vday||{})[k]){st++;dd.setDate(dd.getDate()-1)}else break}
+  return `<div class="mvx"><div class="mvx-top"><b>🗳️ Your voice today</b><span>${v}/${N}</span><span class="xp">⚡ ${me.xp||0} XP</span>${st>1?`<span class="xp">🔥 ${st}-day streak</span>`:""}</div><div class="mvx-track"><i style="width:${N?Math.min(100,Math.round(v*100/N)):0}%"></i></div></div>`}
+document.addEventListener("click",e=>{const w=e.target.closest("[data-wwh]");if(w){e.preventDefault();e.stopPropagation();const c=w.closest("article.post"),bx=c&&c.querySelector(".wwhbox");if(bx){bx.hidden=!bx.hidden;w.textContent=bx.hidden?"🧭 Why · What · So what ▾":"🧭 Hide ▴"}return}const u=e.target.closest("[data-ui]");if(u){UI=u.dataset.ui;try{localStorage.setItem("spill_ui",UI);window.spillTrack&&window.spillTrack("tab_open",{tab:"ui_"+UI})}catch(_){}feed();return}},true);
 document.addEventListener("click",e=>{const b=e.target.closest("[data-ip],[data-iq]");if(!b)return;e.preventDefault();e.stopPropagation();
   const poll=b.hasAttribute("data-ip"),id=b.dataset.ip||b.dataset.iq,i=+b.dataset.i;const d=drops.find(x=>x.id===id);if(!d)return;
-  if(poll){if(me.poll[id]!=null)return;me.poll[id]=i;bump(d,2)}else{const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q||me.quiz[id]!=null)return;recordQuiz(d,i)}
+  if(poll){if(me.poll[id]!=null)return;me.poll[id]=i;bump(d,2);me.xp=(me.xp||0)+10;me.vday=me.vday||{};me.vday[today()]=(me.vday[today()]||0)+1;try{toast("+10 XP · voice counted")}catch(_){}}else{const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q||me.quiz[id]!=null)return;recordQuiz(d,i)}
   pushVotes();agg();try{window.spillTrack&&window.spillTrack(poll?"poll_vote":"quiz_answer",{story_id:id,ui:UI,inline:1})}catch(_){}
   const card=b.closest("article.post");if(card)card.outerHTML=cardHTML(d,0)},true);
 const readLen=d=>{const s=+d.readSecs||60;return s<60?s+"s":Math.round(s/60)+" min"};
@@ -1424,8 +1437,9 @@ function feed(){
     h+=(window.cricHTML?window.cricHTML():"");
     h+=(window.ritualCardHTML?window.ritualCardHTML():"");
     h+=greetHTML(done,total,pc,fresh);
+    h+=voteBarHTML(feedPool());
     h+=tickerHTML();
-    h+=`<div class="uiswitch"><span>Layout:</span>${[["a","Photo"],["b","Compact"],["old","Classic"]].map(x=>`<button data-ui="${x[0]}" class="${UI===x[0]?"on":""}">${x[1]}</button>`).join("")}</div>`;
+    h+=`<div class="uiswitch"><span>Layout:</span>${[["b","Compact"],["a","Photo"],["old","Classic"]].map(x=>`<button data-ui="${x[0]}" class="${UI===x[0]?"on":""}">${x[1]}</button>`).join("")}</div>`;
   }
   if(!list.length){$("#view").innerHTML=h+`<div class="end"><span class="big">🫖</span><b>No tea yet</b><span>Fresh stories land here every morning.</span></div>`+(filter==="all"?extrasHTML():"");return}
   const stale=isStale();
@@ -1695,9 +1709,9 @@ function vizOne(x){
   if(x.t==="compare"){const a=x.a||{},b=x.b||{};const av=vNum(a.v),bv=vNum(b.v),mx=Math.max(av,bv)||1;
     const ch=av?Math.round((bv-av)/av*100):null;const up=bv>=av;
     const chip=ch!=null&&isFinite(ch)?`<span class="vch ${(x.goodIfUp===false?!up:up)?"good":"bad"}">${up?"▲":"▼"} ${Math.abs(ch)}%</span>`:"";
-    return `<div class="vz vcmp wide"><div class="vh">${L}${chip}</div>${[a,b].map((p,i)=>`<div class="vrow ${i?"now":""}"><span class="vk">${esc(p.l||"")}</span><div class="vbar"><i style="width:${Math.max(4,vNum(p.v)/mx*100)}%"></i></div><b>${esc(p.d||p.v)}</b></div>`).join("")}</div>`}
+    return `<div class="vz vcmp wide"><div class="vh">${L}${chip}</div>${[a,b].map((p,i)=>`<div class="vrow ${i?"now":""}"><span class="vk">${esc(p.l||"")}</span><div class="mvx"><i style="width:${Math.max(4,vNum(p.v)/mx*100)}%"></i></div><b>${esc(p.d||p.v)}</b></div>`).join("")}</div>`}
   if(x.t==="meter"){const v=vNum(x.v),m=vNum(x.max)||100,p=Math.max(0,Math.min(100,v/m*100));
-    return `<div class="vz vmeter wide"><div class="vh">${L}<b>${esc(x.d||Math.round(p)+"%")}</b></div><div class="vtrack"><i style="width:${p}%"></i></div>${x.note?`<small>${rich(x.note)}</small>`:""}</div>`}
+    return `<div class="vz vmeter wide"><div class="vh">${L}<b>${esc(x.d||Math.round(p)+"%")}</b></div><div class="mvx-track"><i style="width:${p}%"></i></div>${x.note?`<small>${rich(x.note)}</small>`:""}</div>`}
   if(x.t==="stack"){const parts=x.parts||[];const tot=parts.reduce((s,p)=>s+vNum(p.v),0)||1;const cols=["#ffd166","#c0c7cf","#d08c4b","#4fbcff","#46d160","#ff4500"];
     return `<div class="vz vstack wide"><div class="vh">${L}<b>${esc(x.total||tot)}</b></div><div class="vsb">${parts.map((p,i)=>`<i style="width:${vNum(p.v)/tot*100}%;background:${p.c||cols[i%cols.length]}"></i>`).join("")}</div><div class="vleg">${parts.map((p,i)=>`<span><i style="background:${p.c||cols[i%cols.length]}"></i>${esc(p.l)} <b>${esc(p.v)}</b></span>`).join("")}</div></div>`}
   if(x.t==="timeline"){const st=x.steps||[];const now=typeof x.now==="number"?x.now:-1;
@@ -1990,7 +2004,7 @@ function latestTs(arr){return Math.max(0,...arr.map(x=>Math.max(x.ts||0,x.update
 function tickerHTML(){
   const n=me.city&&nowDocs[me.city.toLowerCase()];
   const top=window.wireTop?window.wireTop():null;
-  const wx=window.wxTickerHTML&&window.wxTickerHTML()?window.wxTickerHTML():n?`<button class="tk-wx" data-act="live" data-key="local" aria-label="Weather">${esc(n.icon||"🌤️")} <b>${esc(n.temp!=null?n.temp:n.high)}°</b>${n.aqi?` · AQI ${esc(n.aqi)}`:""}</button>`:"";
+  const wx=window.wxTickerHTML&&window.wxTickerHTML()?window.wxTickerHTML():n?`<button class="tk-wx" data-act="live" data-key="local" aria-label="Weather">${esc(n.icon||"🌤️")} <b>${(n.temp!=null||n.high!=null)?esc(n.temp!=null?n.temp:n.high)+"°":esc(n.cond||"")}</b>${n.aqi?` · AQI ${esc(n.aqi)}`:""}</button>`:"";
   const lv=false&&top?`<button class="tk-lv" data-act="live" data-key="${top.item.region==="india"?"national":"local"}" aria-label="Live updates"><span class="ldot" aria-hidden="true"></span><span class="t">${esc(top.item.title)}</span>${top.count>1?`<i>+${top.count-1}</i>`:""}</button>`:"";
   if(!wx&&!lv)return"";
   return `<section class="ticker">${wx}${lv}</section>`}

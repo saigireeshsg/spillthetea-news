@@ -1,0 +1,89 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-83",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "*6* Hyderabad traders booked for hoardin",
+ "hook": "*6* Hyderabad traders booked for hoarding PDS rice",
+ "hook_b": "Ration rice hidden behind shops. Who should pay?",
+ "tldr": "Officials booked six Hyderabad rice traders after finding hoarded stocks, including diverted PDS rice, behind their shops.",
+ "beats": {
+  "what": "Siasat: six rice traders were booked after officials found large stocks, including diverted PDS rice, in godowns hidden behind retail shops.",
+  "why": "PDS rice is meant for ration card holders at subsidised rates. Some of the traders also own rice mills.",
+  "care": "Hoarding can push up rice prices and cut supply to ration shops."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🍚",
+    "label": "PDS rice diverted"
+   }
+  ],
+  "event": {
+   "icon": "🚨",
+   "label": "6 traders booked"
+  },
+  "effects": [
+   {
+    "icon": "🧾",
+    "label": "Higher rice prices risk"
+   },
+   {
+    "icon": "🧾",
+    "label": "Ration supply squeezed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat reports the six booked traders ran shops with hidden godowns. Quantities and seized value were not in the summary."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Ration rice is being diverted. What would stop it?",
+   "opts": [
+    "Jail for traders, not just cases",
+    "Aadhaar-tracked ration sales",
+    "Public list of raided godowns",
+    "Let ration shops sell more freely"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "6",
+   "l": "traders booked"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "6",
+  "label": "traders booked",
+  "motion": "drift",
+  "scene": [
+   "🍚",
+   "🚨",
+   "🧾"
+  ]
+ },
+ "thread": "hyd-rice-hoarding-six-traders",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Shops in front, rice hoarded behind: 6 Hyderabad traders booked",
+   "url": "https://www.siasat.com/shops-in-front-rice-hoarded-behind-6-hyderabad-traders-booked-3567478/"
+  }
+ ],
+ "updated": 1793436004767,
+ "city": "Hyderabad"
+}

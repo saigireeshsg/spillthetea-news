@@ -45,13 +45,13 @@
   },
   {
    "k": "poll",
-   "vt": "guess",
-   "q": "When will Air India's Saudi flights resume?",
+   "vt": "stance",
+   "q": "Saudi flights paused again. What do you want from the airline?",
    "opts": [
-    "Right on Nov 14",
-    "By end of November",
-    "December",
-    "Not this year"
+    "Cash refund, not credit",
+    "Free rebook is enough",
+    "Cap on change fees",
+    "Not flying, don't care"
    ]
   }
  ],
@@ -88,5 +88,5 @@
    "url": "https://www.ndtv.com/india-news/air-india-air-india-express-extend-saudi-arabia-flights-suspension-till-november-14-12260263"
   }
  ],
- "updated": 1793435758140
+ "updated": 1793435936146
 }

@@ -1,0 +1,93 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-72",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Telangana launches *GPSAP 2026* unified ",
+ "hook": "Telangana launches *GPSAP 2026* unified village development plan",
+ "hook_b": "Your village's plan now has monthly monitoring. Enough?",
+ "tldr": "Telangana launched GPSAP 2026, a unified village development plan that merges schemes and adds monthly monitoring.",
+ "beats": {
+  "what": "The Hindu: GPSAP 2026 integrates schemes, monthly monitoring, SDG alignment and household data into one village plan.",
+  "why": "One plan per village replaces separate scheme lists.",
+  "care": "If your family lives in a village, you can ask for the plan and its monthly review."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏡",
+    "label": "Schemes scattered"
+   }
+  ],
+  "event": {
+   "icon": "📋",
+   "label": "GPSAP 2026 unified plan"
+  },
+  "effects": [
+   {
+    "icon": "📈",
+    "label": "Monthly monitoring"
+   },
+   {
+    "icon": "📈",
+    "label": "Household data used"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Per The Hindu's summary, the plan covers scheme integration, monthly monitoring, SDG alignment and household data."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "One village plan with monthly checks. What would make it work?",
+   "opts": [
+    "Plan made public in Telugu",
+    "Villagers vote on priorities",
+    "Penalty for missed targets",
+    "Same for city wards too"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "GPSAP",
+   "l": "village plan 2026"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "GPSAP",
+  "label": "village plan 2026",
+  "motion": "drift",
+  "scene": [
+   "🏡",
+   "📋",
+   "📈"
+  ]
+ },
+ "thread": "tg-gpsap-village-plan",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana introduces unified village development planning framework",
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-introduces-unified-village-development-planning-framework/article71648357.ece"
+  }
+ ],
+ "updated": 1793436004768,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/c4eioy/article71648523.ece/alternates/LANDSCAPE_1200/MEMAU_27_8_2026_17_2_6_1_3111.JPG",
+  "c": "The Hindu"
+ }
+}

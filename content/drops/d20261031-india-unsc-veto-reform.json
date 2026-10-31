@@ -46,12 +46,12 @@
   {
    "k": "poll",
    "vt": "stance",
-   "q": "Should India accept a permanent UNSC seat without veto power?",
+   "q": "A permanent UN seat without veto: take it or hold out?",
    "opts": [
-    "No, veto or nothing",
-    "Yes, take it and push for veto later",
-    "Push for veto for all members",
-    "UNSC is outdated, build new bodies"
+    "Hold out for full veto",
+    "Take it, push for veto later",
+    "Veto for nobody",
+    "Fix my city first, don't care"
    ]
   }
  ],
@@ -93,5 +93,5 @@
    "url": "https://www.ndtv.com/world-news/india-pins-un-security-council-seat-hope-on-ai-led-maritime-security-pitch-12257102"
   }
  ],
- "updated": 1793435758140
+ "updated": 1793435936140
 }

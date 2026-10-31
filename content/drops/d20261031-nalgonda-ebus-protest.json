@@ -46,7 +46,7 @@
   {
    "k": "poll",
    "vt": "rate",
-   "q": "How good is the bus service where you live?",
+   "q": "Rate your daily bus ride where you live",
    "opts": [
     "Awful",
     "Poor",
@@ -89,7 +89,7 @@
    "url": "https://telanganatoday.com/nalgonda-electric-bus-services-disrupted-for-three-hours-as-drivers-protest-over-wages"
   }
  ],
- "updated": 1793435515007,
+ "updated": 1793435936142,
  "city": "Hyderabad",
  "img": {
   "u": "https://media.telanganatoday.com/wp-content/uploads/2026/10/Nalgonda-electric-bus-services-disrupted-for-three-hours-as-drivers-protest-over-wages.jpg",
