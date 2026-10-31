@@ -345,3 +345,7 @@ Events: ritual_start, ritual_done (variant = streak), ritual_quit (variant = ste
 ## §32 No promotional content (owner, Oct 26)
 - Never publish, hook or feature press releases or brand promotions: real-estate "launches premium villas/4BHK", store/showroom openings, product launches written as news, "brand desk / brand connect / partner content / sponsored" pieces, PR-wire stories. Many outlets (The Tribune, ANI, Mid-day, etc.) run paid PR under their own name; judge by the content, not the publisher.
 - The app hides them from Live automatically (public/wire.js isPromo). If one slips through, skip it in hooks and never turn it into a drop. Real news about the housing market (prices, rents, RERA action, new rules) is fine.
+
+
+## Story image (every drop)
+Every drop carries `"img":{"u":"<og:image url of the first source article>","c":"<outlet name>"}`. Fetch it with Supabase: `select net.http_get('<article url>', headers:='{"User-Agent":"Mozilla/5.0 (compatible; SpillBot/1.0)"}'::jsonb)` then `select (regexp_matches(content,'<meta[^>]*og:image"[^>]*>','i'))[1] from net._http_response where id=<rid>`. Use the outlet's own image URL (hotlinked, credited); never download or re-host. No og:image found: omit `img` (the card falls back to the cover). Cards show Why / What / How it matters (`beats.why`, `beats.what`, `beats.care`) then the poll and quiz inline, so write all three beats and both cards every time.
