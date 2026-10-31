@@ -1,0 +1,99 @@
+{
+ "cat": "tech",
+ "lead": "tech",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "ISRO NVS-03 launch",
+ "hook": "ISRO launches *NVS-03*; Modi hails the team",
+ "hook_b": "India's navigation satellite *NVS-03* is up",
+ "tldr": "ISRO's GSLV-F18 launched the NVS-03 navigation satellite. PM Modi congratulated the scientists and engineers.",
+ "beats": {
+  "what": "NVS-03 was launched on GSLV-F18, and Modi congratulated ISRO's scientists and engineers.",
+  "why": "Modi said the satellite has enhanced capabilities, will advance self-reliance in critical technologies and support navigation services that benefit people.",
+  "care": "Better homegrown navigation means less dependence on foreign systems for maps, transport and logistics."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚀",
+    "label": "Trigger"
+   }
+  ],
+  "event": {
+   "icon": "🛰️",
+   "label": "NVS-03"
+  },
+  "effects": [
+   {
+    "icon": "🇮🇳",
+    "label": "Who it touches"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Per The Hindu: PM Modi said NVS-03 has enhanced capabilities and will further India's self-reliance in critical technologies and support navigation services. Orbit and service dates were not in the summary."
+  },
+  {
+   "k": "poll",
+   "q": "Do you use NavIC-based nav?",
+   "opts": [
+    "Not aware of it",
+    "Yes",
+    "Only Google Maps",
+    "Will check"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which rocket launched NVS-03?",
+   "opts": [
+    "GSLV-F18",
+    "PSLV-C1",
+    "LVM3-M9",
+    "SSLV-D1"
+   ],
+   "ans": 0,
+   "why": "The Hindu names GSLV-F18 as the launcher."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "NVS-03",
+   "l": "launched on GSLV-F18"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#0a1226",
+   "#2b4a8f"
+  ],
+  "big": "NVS-03",
+  "label": "launched on GSLV-F18",
+  "motion": "drift",
+  "scene": [
+   "🚀",
+   "🛰️",
+   "🇮🇳"
+  ]
+ },
+ "learn": {
+  "t": "NVS satellites belong to India's own regional navigation system, NavIC."
+ },
+ "watch": "ISRO's next update on when NVS-03 begins service.",
+ "thread": "isro-nvs03",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Launch of NVS-03: PM Modi congratulates scientists, engineers at ISRO",
+   "url": "https://www.thehindu.com/sci-tech/science/pm-modi-congratulates-isro-scientists-on-gslv-f18-launch-of-nvs-03/article71648465.ece"
+  }
+ ],
+ "updated": 1793432686155
+}

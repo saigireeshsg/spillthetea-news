@@ -1,0 +1,100 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-78",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "TGPSC AEE exam dates",
+ "hook": "HC won't delay *TGPSC AEE* exams on Nov *6-7*",
+ "hook_b": "Clash with SSC-JE? TGPSC AEE stays on Nov *6-7*",
+ "tldr": "The Telangana High Court refused to postpone the TGPSC Assistant Executive Engineer exams despite a clash with SSC Junior Engineer papers.",
+ "beats": {
+  "what": "The TGPSC AEE exams are scheduled for November 6 and 7. Candidates had cited a clash with SSC JE exams.",
+  "why": "The court did not defer the exams, so the dates stand.",
+  "care": "Candidates with both exams must plan for the TGPSC dates. Check your hall ticket and centre now."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📝",
+    "label": "Trigger"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "Nov 6-7"
+  },
+  "effects": [
+   {
+    "icon": "🎓",
+    "label": "Who it touches"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today reports the High Court refused to defer the Nov 6-7 AEE exams. The court's full reasoning was not in the summary."
+  },
+  {
+   "k": "poll",
+   "q": "Are you writing AEE?",
+   "opts": [
+    "Yes, ready",
+    "Yes, clash with SSC-JE",
+    "No",
+    "Prepping for next one"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "On which dates are the TGPSC AEE exams?",
+   "opts": [
+    "Nov 6 and 7",
+    "Nov 1 and 2",
+    "Nov 13 and 14",
+    "Dec 6 and 7"
+   ],
+   "ans": 0,
+   "why": "The High Court refused to defer the Nov 6-7 exams."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Nov 6-7",
+   "l": "TGPSC AEE exam dates"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1c2340",
+   "#4a5fb0"
+  ],
+  "big": "Nov 6-7",
+  "label": "TGPSC AEE exam dates",
+  "motion": "drift",
+  "scene": [
+   "📝",
+   "⚖️",
+   "🎓"
+  ]
+ },
+ "learn": {
+  "t": "AEE stands for Assistant Executive Engineer, a senior engineering post in state departments."
+ },
+ "watch": "TGPSC notices for any change to centres or timings.",
+ "thread": "tgpsc-aee-nov",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana HC refuses to defer TGPSC AEE exams over SSC-JE schedule clash",
+   "url": "https://telanganatoday.com/telangana-hc-refuses-to-defer-tgpsc-aee-exams-over-ssc-je-schedule-clash"
+  }
+ ],
+ "updated": 1793432686155,
+ "city": "Hyderabad"
+}

@@ -1,0 +1,100 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-80",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Telangana instant pension",
+ "hook": "Telangana's *instant pension* now covers more families",
+ "hook_b": "Is your family in the new *instant pension* list?",
+ "tldr": "Telangana has extended its instant pension facility beyond the old-age category for women, to more groups of families.",
+ "beats": {
+  "what": "Per The Hindu, the decision benefits families of persons with disabilities, toddy tappers, handloom weavers, dialysis patients and those affected by HIV and filariasis.",
+  "why": "The facility, so far tied to the old-age category for women, now reaches households that earlier had to wait.",
+  "care": "If someone in your family fits a listed group, check eligibility at the local mandal or ward office."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧓",
+    "label": "Trigger"
+   }
+  ],
+  "event": {
+   "icon": "🤝",
+   "label": "More groups"
+  },
+  "effects": [
+   {
+    "icon": "🏠",
+    "label": "Who it touches"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Groups now covered, per The Hindu: persons with disabilities, toddy tappers, handloom weavers, dialysis patients, people affected by HIV and filariasis. Amounts and application steps were not in the summary; check the government order."
+  },
+  {
+   "k": "poll",
+   "q": "Know someone who could use this?",
+   "opts": [
+    "Yes, will tell them",
+    "Already on pension",
+    "Not sure",
+    "No"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which group is covered by the expanded instant pension?",
+   "opts": [
+    "Toddy tappers",
+    "Taxi drivers",
+    "Software engineers",
+    "Bank clerks"
+   ],
+   "ans": 0,
+   "why": "Toddy tappers are listed among the newly covered groups."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "More groups",
+   "l": "Telangana instant pension now covers"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#16302b",
+   "#2f7d6b"
+  ],
+  "big": "More groups",
+  "label": "Telangana instant pension now covers",
+  "motion": "drift",
+  "scene": [
+   "🧓",
+   "🤝",
+   "🏠"
+  ]
+ },
+ "learn": {
+  "t": "Instant pension means a pension granted quickly on a pre-set eligibility category instead of a long verification wait."
+ },
+ "watch": "The official GO for amounts and how to apply.",
+ "thread": "tg-instant-pension",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana extends 'Instant pension' facility beyond old-age pension category for women",
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-extends-instant-pension-facility-beyond-old-age-pension-category-for-women/article71648155.ece"
+  }
+ ],
+ "updated": 1793432686155,
+ "city": "Hyderabad"
+}
