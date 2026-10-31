@@ -46,12 +46,12 @@
   {
    "k": "poll",
    "vt": "stance",
-   "q": "Ration rice is being diverted. What would stop it?",
+   "q": "What would best curb ration rice diversion?",
    "opts": [
-    "Jail for traders, not just cases",
-    "Aadhaar-tracked ration sales",
-    "Public list of raided godowns",
-    "Let ration shops sell more freely"
+    "Tighter checks at ration shops",
+    "Digital tracking of stock",
+    "Stronger penalties",
+    "Public stock reports"
    ]
   }
  ],
@@ -84,7 +84,7 @@
    "url": "https://www.siasat.com/shops-in-front-rice-hoarded-behind-6-hyderabad-traders-booked-3567478/"
   }
  ],
- "updated": 1793436710317,
+ "updated": 1793437007705,
  "city": "Hyderabad",
  "insight": "Some of the traders also own rice mills."
 }

@@ -46,12 +46,12 @@
   {
    "k": "poll",
    "vt": "stance",
-   "q": "Saudi flights paused again. What do you want from the airline?",
+   "q": "Saudi flights paused again. What matters most to you?",
    "opts": [
-    "Cash refund, not credit",
-    "Free rebook is enough",
-    "Cap on change fees",
-    "Not flying, don't care"
+    "Cash refund option",
+    "Free rebooking",
+    "Lower change fees",
+    "Not affected"
    ]
   }
  ],
@@ -88,6 +88,6 @@
    "url": "https://www.ndtv.com/india-news/air-india-air-india-express-extend-saudi-arabia-flights-suspension-till-november-14-12260263"
   }
  ],
- "updated": 1793436710324,
+ "updated": 1793437023228,
  "insight": "Bookings made by Oct 30 can shift up to 15 days past the pause, if seats are free."
 }

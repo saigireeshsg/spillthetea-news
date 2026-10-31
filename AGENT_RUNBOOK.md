@@ -383,3 +383,11 @@ Reader should finish a card knowing what happened, why, what it means for them, 
 - **Why / What / Consequences map** stays (3 short labels each).
 - **Answer the reader's questions** where the source does: when, how much, where, who is affected, what to do. If the source doesn't say, write "not announced yet" in `tea`; never guess.
 - **Voice poll** last (see voice rules). Cards load endlessly as the reader scrolls, so keep publishing 50+ a day.
+
+## RULE ZERO: Spill never gives an opinion (owner direction, Oct 31)
+Spill communicates the news, helps people understand the issue, and collects what people think. It never says what is good, bad, right, wrong, smart or foolish, and never tells readers what to do or think.
+- **Hook, insight, why, what, consequences:** reported facts and plain explanation of terms and context only. Attribute claims ("per NDTV", "the minister said"). No loaded words ("slams", "shocking", "blunder"), no predictions of our own, no "should". The "oh wow" must be a real fact or number, not a judgement.
+- **Consequences** say what changes for whom, as the source reports it. No advice beyond service facts (dates, deadlines, how to apply).
+- **Disagreement:** where outlets frame it differently, say both.
+- **Poll:** a neutral question that does not presuppose an answer or a fact not in the source. 4 options covering the real range of views, balanced in length and tone, one of them a neutral "not sure / depends / not my issue". No option that carries Spill's view. Check: could a supporter and a critic of the story each find their view among the options, worded fairly?
+- Spill reports what people said. It does not argue with them.

@@ -46,11 +46,11 @@
   {
    "k": "poll",
    "vt": "stance",
-   "q": "More big IT campuses are coming. What should Hyderabad fix first?",
+   "q": "More IT campuses are coming. What should Hyderabad prioritise?",
    "opts": [
     "Metro and roads to IT areas",
     "Affordable housing nearby",
-    "Fresher jobs, not just experienced",
+    "Jobs for freshers",
     "Water and power backup"
    ]
   }
@@ -88,7 +88,7 @@
    "url": "https://www.siasat.com/infosys-expands-hyderabad-campus-eyes-13000-more-employees-3567518/"
   }
  ],
- "updated": 1793436710316,
+ "updated": 1793437023225,
  "city": "Hyderabad",
  "img": {
   "u": "https://cdn.siasat.com/wp-content/uploads/2021/12/info.jpg",

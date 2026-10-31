@@ -7,8 +7,8 @@
  "heat": 3,
  "readSecs": 30,
  "topic": "ISRO NVS-03 launch",
- "hook": "India's own GPS, *NavIC, is back to 4 satellites*.",
- "hook_b": "India's own GPS, *NavIC, is back to 4 satellites*.",
+ "hook": "NavIC is back to its *minimum 4 satellites* after NVS-03 launch",
+ "hook_b": "NavIC is back to its *minimum 4 satellites* after NVS-03 launch",
  "tldr": "ISRO's GSLV-F18 launched the NVS-03 navigation satellite. PM Modi congratulated the scientists and engineers.",
  "beats": {
   "what": "NVS-03 was launched on GSLV-F18, and Modi congratulated ISRO's scientists and engineers.",
@@ -45,12 +45,12 @@
   },
   {
    "k": "poll",
-   "q": "Should phones and apps in India default to our NavIC over GPS?",
+   "q": "Should phones in India use NavIC by default?",
    "opts": [
-    "Yes, make it the default",
-    "Use both, we pick",
-    "GPS works, no need",
-    "Need to know more"
+    "Yes, NavIC by default",
+    "Both, user chooses",
+    "GPS by default",
+    "Need more information"
    ]
   },
   {
@@ -114,7 +114,7 @@
    "url": "https://www.thehindu.com/sci-tech/science/to-overcome-technical-hurdles-isro-flew-nvs-03-satellite-with-pyro-valves-open-narayanan/article71648408.ece"
   }
  ],
- "updated": 1793436710322,
+ "updated": 1793437023227,
  "img": {
   "u": "https://th-i.thgim.com/public/news/national/xa7nzd/article71648565.ece/alternates/LANDSCAPE_1200/gslv%20f18%20nvs%2003%20nabin.png",
   "c": "The Hindu"

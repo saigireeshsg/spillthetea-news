@@ -46,12 +46,12 @@
   {
    "k": "poll",
    "vt": "stance",
-   "q": "A skill paper may help students pass Class 10. Your view?",
+   "q": "A skill paper may count toward passing Class 10. Your view?",
    "opts": [
-    "Great, marks aren't everything",
-    "Dilutes the board exam",
-    "Only if skills are tested properly",
-    "Cut the syllabus instead"
+    "Positive, broader than marks",
+    "Concern for board standards",
+    "Depends on how it's tested",
+    "Not sure"
    ]
   }
  ],
@@ -84,6 +84,6 @@
    "url": "https://www.ndtvprofit.com/education/cbse-class-10-board-exams-2028-five-subjects-mandatory-skill-paper-may-help-students-pass-12262635"
   }
  ],
- "updated": 1793436710315,
+ "updated": 1793437023224,
  "insight": "The new parts will not apply to the current batch."
 }

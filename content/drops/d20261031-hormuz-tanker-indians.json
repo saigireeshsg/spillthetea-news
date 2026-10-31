@@ -46,12 +46,12 @@
   {
    "k": "poll",
    "vt": "stance",
-   "q": "Should India send its navy to escort Indian-crewed ships through Hormuz?",
+   "q": "Should India escort Indian-crewed ships through Hormuz?",
    "opts": [
-    "Yes, protect our sailors",
-    "Only with allies",
-    "Diplomacy first, no navy",
-    "Tell crews to avoid the route"
+    "Yes, with navy escorts",
+    "Only alongside allies",
+    "Diplomacy, no navy",
+    "Advise crews to avoid the route"
    ]
   }
  ],
@@ -88,6 +88,6 @@
    "url": "https://www.ndtv.com/world-news/tanker-carrying-27-indians-attacked-with-limpet-mines-in-strait-of-hormuz-12261284"
   }
  ],
- "updated": 1793436710320,
+ "updated": 1793437023226,
  "insight": "First successful limpet mine use in the Strait of Hormuz since the conflict began in February."
 }

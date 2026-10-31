@@ -46,12 +46,12 @@
   {
    "k": "poll",
    "vt": "stance",
-   "q": "More farms grow vegetables, less paddy. What do you want?",
+   "q": "More farms grow vegetables, less paddy. What matters most?",
    "opts": [
-    "Cheaper vegetables, prices fixed",
-    "Farmers get assured prices",
-    "Keep enough paddy for rice",
-    "Subsidise drip irrigation"
+    "Vegetable prices",
+    "Farmer income support",
+    "Paddy supply for rice",
+    "Irrigation support"
    ]
   }
  ],
@@ -84,7 +84,7 @@
    "url": "https://www.thehindu.com/news/national/telangana/telangana-farmers-preference-for-veggies-spices-over-paddy-continues-in-yasangi-2026/article71645657.ece"
   }
  ],
- "updated": 1793436710313,
+ "updated": 1793437023223,
  "city": "Hyderabad",
  "img": {
   "u": "https://th-i.thgim.com/public/news/cities/Hyderabad/tubw3v/article71645659.ece/alternates/LANDSCAPE_1200/Vegetables.jpeg",

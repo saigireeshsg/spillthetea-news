@@ -7,8 +7,8 @@
  "heat": 3,
  "readSecs": 30,
  "topic": "HYDRAA plans *Rs 75 crore* Fox Sagar lak",
- "hook": "A *Rs 75 crore* plan to revive Fox Sagar lake.",
- "hook_b": "A *Rs 75 crore* plan to revive Fox Sagar lake.",
+ "hook": "HYDRAA plans a *Rs 75 crore* makeover of Fox Sagar lake",
+ "hook_b": "HYDRAA plans a *Rs 75 crore* makeover of Fox Sagar lake",
  "tldr": "HYDRAA plans a Rs 75 crore makeover of the historic Fox Sagar lake.",
  "beats": {
   "what": "INDToday and New Indian Express report HYDRAA's plan to revamp historic Fox Sagar, with a Rs 75 crore price tag.",
@@ -46,12 +46,12 @@
   {
    "k": "poll",
    "vt": "stance",
-   "q": "Rs 75 crore on one lake. What should a lake makeover do first?",
+   "q": "What should a lake makeover prioritise?",
    "opts": [
-    "Stop sewage entering it",
-    "Open it up as a public park",
-    "Protect it from encroachment",
-    "Spend on drains instead"
+    "Water quality and sewage",
+    "Public park and access",
+    "Protection from encroachment",
+    "Other civic spending first"
    ]
   }
  ],
@@ -84,7 +84,7 @@
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBjWlk0YzhXN0FON1VBOHRyVW56MGZCbno5M1p6YmtyVGc4Q2NCeHVWOUk1dGp0bjVySlB3TXE5eHFOZER6WU1OVW13X0h4Q3ZwdHUtaTRHREhlalN0bzBDWldPWTA2eU9aczhyUnV2Qy0xVHpNN2xld2RB?oc=5"
   }
  ],
- "updated": 1793436710315,
+ "updated": 1793437023225,
  "city": "Hyderabad",
  "insight": "The cost is reported by INDToday; design and timeline are not out yet."
 }

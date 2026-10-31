@@ -7,8 +7,8 @@
  "heat": 3,
  "readSecs": 30,
  "topic": "H-1B and green cards: what to watch afte",
- "hook": "US midterms could *reshape your H-1B odds*.",
- "hook_b": "US midterms could *reshape your H-1B odds*.",
+ "hook": "After US midterms, *H-1B and green card rules* may come under review",
+ "hook_b": "After US midterms, *H-1B and green card rules* may come under review",
  "tldr": "NDTV Profit says a Democratic win could bring more congressional scrutiny of immigration rules and pause some Republican-backed proposals.",
  "beats": {
   "what": "NDTV Profit lists what Indian professionals should watch on H-1B visas and green cards after the US midterms.",
@@ -46,11 +46,11 @@
   {
    "k": "poll",
    "vt": "stance",
-   "q": "US visas are uncertain. Where would you rather build a career?",
+   "q": "US visa rules may change. Where would you build a career?",
    "opts": [
-    "US, worth the risk",
-    "Canada/UK/Europe",
-    "India, remote for global",
+    "US, despite visa uncertainty",
+    "Canada, UK or Europe",
+    "India, remote for global firms",
     "Gulf or Singapore"
    ]
   }
@@ -84,6 +84,6 @@
    "url": "https://www.ndtvprofit.com/world/h-1b-visas-green-cards-what-indian-professionals-should-watch-after-us-midterms-12262382"
   }
  ],
- "updated": 1793436710317,
+ "updated": 1793437023226,
  "insight": "A Democratic win may bring more scrutiny of immigration rules and park some Republican proposals."
 }

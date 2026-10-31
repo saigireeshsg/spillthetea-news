@@ -48,10 +48,10 @@
    "vt": "stance",
    "q": "Does '2.6% extreme poverty' match what you see around you?",
    "opts": [
-    "Yes, life has improved",
-    "Line is too low to mean much",
-    "Gains are uneven",
-    "Don't trust the numbers"
+    "Yes, it matches",
+    "The poverty line seems too low",
+    "Gains uneven where I live",
+    "I question the data"
    ]
   }
  ],
@@ -88,6 +88,6 @@
    "url": "https://www.ndtv.com/india-news/indias-extreme-poverty-drops-from-27-1-percent-to-2-6-percent-in-12-years-world-bank-12257248"
   }
  ],
- "updated": 1793436710312,
+ "updated": 1793437023222,
  "insight": "At the USD 4.20 a day line, 16.1% are still below it."
 }
