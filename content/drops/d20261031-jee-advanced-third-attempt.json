@@ -1,0 +1,126 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-55",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "*13,000* JEE aspirants sign up for a thi",
+ "hook": "*13,000* JEE aspirants sign up for a third Advanced attempt",
+ "tldr": "An online petition asking for a third JEE Advanced 2027 attempt has 13,000 signatures.",
+ "beats": {
+  "what": "Petition seeks a third attempt, or two attempts spread over three straight years.",
+  "why": "Students say two attempts in a row disadvantage those also finishing regular school.",
+  "care": "No official change yet. Plan for the current two-attempt rule."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📚",
+    "label": "Two-attempt limit"
+   }
+  ],
+  "event": {
+   "icon": "✍️",
+   "label": "13,000 sign petition"
+  },
+  "effects": [
+   {
+    "icon": "🎓",
+    "label": "Third attempt sought"
+   },
+   {
+    "icon": "🎓",
+    "label": "No IIT response yet"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "JEE aspirants have started an online petition for a third attempt at JEE Advanced 2027. They argue the current two-attempt limit puts students in regular schooling at a disadvantage. The petition also offers an alternative: two attempts allowed over three consecutive years. It has 13,000 signatures, per Telangana Today. No response from the IITs was reported."
+  },
+  {
+   "k": "why",
+   "title": "🧠 The rule today",
+   "body": "JEE Advanced, the IIT entrance exam, can be taken at most twice, in two consecutive years."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "JEE Advanced attempts: what's fair?",
+   "opts": [
+    "Keep two",
+    "Allow three",
+    "Two within three years",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "How many signatures does the third-attempt petition have?",
+   "opts": [
+    "13,000",
+    "1,300",
+    "1.3 lakh",
+    "30,000"
+   ],
+   "ans": 0,
+   "why": "13,000 signatures, per Telangana Today."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "JEE Advanced attempts",
+   "a": {
+    "v": 2,
+    "d": "2",
+    "l": "Now"
+   },
+   "b": {
+    "v": 3,
+    "d": "3",
+    "l": "Asked for"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "big",
+   "v": "13,000",
+   "l": "signatures on the petition"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "13,000",
+  "label": "petition signatures",
+  "motion": "drift",
+  "scene": [
+   "📚",
+   "✍️",
+   "🎓"
+  ]
+ },
+ "insight": "The petition says the two-attempt limit hurts students in regular schooling.",
+ "watch": "Any response from the organising IIT.",
+ "thread": "jee-advanced-third-attempt",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "JEE Advanced 2027: Aspirants demand third attempt, petition gets 13,000 signatures",
+   "url": "https://telanganatoday.com/jee-advanced-2027-aspirants-demand-third-attempt-petition-gets-13000-signatures"
+  }
+ ],
+ "updated": 1793448212131,
+ "moment": {
+  "e": "📚",
+  "t": "Prepping for JEE myself",
+  "k": "jee"
+ }
+}

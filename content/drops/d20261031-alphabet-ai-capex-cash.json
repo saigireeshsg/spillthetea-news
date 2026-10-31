@@ -1,0 +1,135 @@
+{
+ "cat": "tech",
+ "lead": "tech",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-53",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Google Cloud grew *103%*. Alphabet's sha",
+ "hook": "Google Cloud grew *103%*. Alphabet's shares still fell 8%",
+ "tldr": "Alphabet's cloud revenue doubled, but heavy AI spending pushed free cash flow negative and shares fell after hours.",
+ "beats": {
+  "what": "Q3 revenue $127.6B (+25%). Cloud $30.7B (+103%). Capex $51.4B. Free cash flow −$9.1B.",
+  "why": "Alphabet is spending heavily on AI data centres and chips.",
+  "care": "Investors are questioning the cost of the AI build-out, per The Hindu and XTB."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🤖",
+    "label": "$51.4B AI capex"
+   }
+  ],
+  "event": {
+   "icon": "📉",
+   "label": "Cloud +103%, shares −8%"
+  },
+  "effects": [
+   {
+    "icon": "☁️",
+    "label": "Free cash flow −$9.1B"
+   },
+   {
+    "icon": "☁️",
+    "label": "AI search ad questions"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Alphabet, Google's parent, reported Q3 revenue of $127.6 billion, up 25%. Google Cloud more than doubled to $30.7 billion. But capex (spending on data centres and chips) rose 114% to $51.4 billion, above operating cash flow, so free cash flow was minus $9.1 billion. Earnings per share were $2.12 against expectations near $3, partly due to an $8.7 billion investment loss. Shares fell 8.25% after hours, per XTB. The Hindu adds that AI-powered search raises questions about Google's ad business."
+  },
+  {
+   "k": "why",
+   "title": "🧠 Free cash flow?",
+   "body": "Cash left after paying for operations and big investments. Negative means the company spent more than it brought in. Alphabet also raised about $28.7 billion through bonds, per XTB."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Big Tech's AI spending spree: your read?",
+   "opts": [
+    "It will pay off",
+    "Bubble risk",
+    "Depends on AI search ads",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "How much did Google Cloud revenue grow in Q3?",
+   "opts": [
+    "103%",
+    "25%",
+    "48%",
+    "8%"
+   ],
+   "ans": 0,
+   "why": "Up 103% to $30.7 billion."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Growth, year on year",
+   "a": {
+    "v": 25,
+    "d": "25%",
+    "l": "Alphabet revenue"
+   },
+   "b": {
+    "v": 103,
+    "d": "103%",
+    "l": "Google Cloud"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "big",
+   "v": "$51.4B",
+   "l": "capex in one quarter, up 114%"
+  },
+  {
+   "t": "big",
+   "v": "−$9.1B",
+   "l": "free cash flow in Q3"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1a1030",
+   "#6a3fb5"
+  ],
+  "big": "103%",
+  "label": "Google Cloud growth",
+  "motion": "drift",
+  "scene": [
+   "🤖",
+   "📉",
+   "☁️"
+  ]
+ },
+ "insight": "Alphabet spent $51.4 billion on capex in the quarter, more than its operating cash, leaving free cash flow at minus $9.1 billion.",
+ "thread": "alphabet-ai-capex-cash",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Why investors are worried despite Alphabet's 25% revenue growth and Google Cloud's revenue more than doubling",
+   "url": "https://www.thehindu.com/sci-tech/technology/why-investors-are-worried-despite-alphabets-25-revenue-growth-and-google-clouds-revenue-more-than-doubling-explained/article71648845.ece"
+  },
+  {
+   "name": "XTB",
+   "title": "Alphabet disappoints Wall Street despite record results",
+   "url": "https://www.xtb.com/en/market-analysis/alphabet-disappoints-wall-street-despite-record-results-shares-plunge-over-8-and-test-300"
+  }
+ ],
+ "updated": 1793448212132,
+ "moment": {
+  "e": "🤖",
+  "t": "I use Google's AI daily",
+  "k": "ai"
+ }
+}

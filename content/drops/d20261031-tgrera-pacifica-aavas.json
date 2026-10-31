@@ -1,0 +1,134 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-58",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Builder wanted *₹5.75 lakh* more. TG RER",
+ "hook": "Builder wanted *₹5.75 lakh* more. TG RERA blocked the flat cancellation",
+ "tldr": "TG RERA barred Pacifica Constructions from cancelling a buyer's Aavas Hyderabad flat over a ₹5.75 lakh extra demand.",
+ "beats": {
+  "what": "TG RERA gave the buyer interim relief: no cancellation, no sale of the flat for now.",
+  "why": "The developer sought ₹5.75 lakh more and moved to cancel the allotment.",
+  "care": "Buyers facing surprise charges after booking can approach TG RERA, the state's real-estate regulator."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "₹5.75 lakh extra demand"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "TG RERA stops cancellation"
+  },
+  "effects": [
+   {
+    "icon": "🏠",
+    "label": "Flat can't be resold"
+   },
+   {
+    "icon": "🏠",
+    "label": "Final ruling pending"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Telangana Real Estate Regulatory Authority (TG RERA) gave interim relief to a woman who booked a flat in Aavas Hyderabad. Developer Pacifica Constructions Pvt Ltd had demanded ₹5.75 lakh more and moved to cancel her allotment. RERA has stopped that. Pacifica also cannot sell, transfer or create third-party rights on the flat while the case is pending. The final hearing date was not reported."
+  },
+  {
+   "k": "why",
+   "title": "🧠 What's RERA?",
+   "body": "RERA is the regulator for housing projects. Buyers can file complaints against developers over delays, cancellations or extra charges. Interim relief means a temporary order until the final ruling."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Extra charges after booking a flat: who should decide?",
+   "opts": [
+    "RERA, case by case",
+    "Fix all costs at booking",
+    "Builders, costs do rise",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "How much extra did the developer demand from the Aavas buyer?",
+   "opts": [
+    "₹5.75 lakh",
+    "₹57,500",
+    "₹15 lakh",
+    "₹1 crore"
+   ],
+   "ans": 0,
+   "why": "₹5.75 lakh, which led to the cancellation move RERA blocked."
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the case moved",
+   "now": 2,
+   "steps": [
+    {
+     "t": "Step 1",
+     "e": "₹5.75 lakh extra demanded"
+    },
+    {
+     "t": "Step 2",
+     "e": "Allotment cancellation move"
+    },
+    {
+     "t": "Oct 31",
+     "e": "TG RERA interim stay"
+    },
+    {
+     "t": "Next",
+     "e": "Final hearing, date not reported"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "₹5.75 lakh",
+   "l": "extra demand by the developer"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹5.75 lakh",
+  "label": "extra demand",
+  "motion": "drift",
+  "scene": [
+   "🏗️",
+   "⚖️",
+   "🏠"
+  ]
+ },
+ "insight": "Until the case is decided, Pacifica can't sell, transfer or create third-party rights on the flat.",
+ "thread": "tgrera-pacifica-aavas",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad: TGRERA bars Pacifica from cancelling flat allotment",
+   "url": "https://www.siasat.com/hyderabad-tgrera-bars-pacifica-from-cancelling-flat-allotment-3567584/"
+  }
+ ],
+ "updated": 1793448212129,
+ "city": "Hyderabad",
+ "moment": {
+  "e": "🏠",
+  "t": "Booking a flat soon",
+  "k": "flat"
+ }
+}

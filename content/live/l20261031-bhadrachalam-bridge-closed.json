@@ -1,0 +1,52 @@
+{
+ "title": "Bhadrachalam's new Godavari bridge closed till Nov 7 for load tests",
+ "kind": "traffic",
+ "tag": "🚗 Commute",
+ "scope": "local",
+ "city": "Hyderabad",
+ "sev": 1,
+ "ts": 1793448230412,
+ "until": 1794076200000,
+ "body": "The new high-level bridge over the Godavari at Bhadrachalam is shut to vehicles from Oct 31 to Nov 7 for load testing. Traffic goes over the old bridge, police said.",
+ "means": [
+  "Driving to Bhadrachalam this week? Expect the old bridge route",
+  "Reopening after Nov 7 load tests"
+ ],
+ "steps": [
+  {
+   "t": "What",
+   "b": "New bridge shut, Oct 31–Nov 7."
+  },
+  {
+   "t": "Why",
+   "b": "Load testing."
+  },
+  {
+   "t": "Next",
+   "b": "Vehicles use the old bridge."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "8 days",
+   "l": "closure, Oct 31 to Nov 7"
+  }
+ ],
+ "poll": {
+  "q": "Heading to Bhadrachalam this week?",
+  "opts": [
+   "Yes, by road",
+   "Yes, by bus/train",
+   "No"
+  ]
+ },
+ "care": "Plan for the old bridge if you're driving to Bhadrachalam before Nov 8.",
+ "verified": "1",
+ "src": [
+  {
+   "name": "Telangana Today",
+   "url": "https://telanganatoday.com/bhadrachalam-new-godavari-bridge-to-remain-closed-for-load-testing-from-october-31-to-november-7"
+  }
+ ]
+}

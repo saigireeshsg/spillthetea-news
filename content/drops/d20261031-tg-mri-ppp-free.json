@@ -1,0 +1,128 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-57",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Govt hospital MRI stays *free* as Telang",
+ "hook": "Govt hospital MRI stays *free* as Telangana brings in private partners",
+ "tldr": "Telangana plans a public-private model to keep MRI machines running in government hospitals, with scans free on referral.",
+ "beats": {
+  "what": "A PPP (public-private partnership) model is planned. Referred patients still pay nothing.",
+  "why": "The state wants MRI services at government hospitals to run without interruption.",
+  "care": "If a government doctor refers you for an MRI, the scan stays free under the plan."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏥",
+    "label": "MRI services interrupted"
+   }
+  ],
+  "event": {
+   "icon": "🤝",
+   "label": "PPP model for MRI"
+  },
+  "effects": [
+   {
+    "icon": "🧲",
+    "label": "Scans free on referral"
+   },
+   {
+    "icon": "🧲",
+    "label": "Private partner runs it"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana plans to bring in private partners to run MRI services at government hospitals, so scans don't stop. Health Minister C. Damodara Raja Narasimha said scans will stay free for patients referred by doctors at government hospitals. The New Indian Express also reports free MRI services at state hospitals. Which hospitals, how many machines and when it starts were not in the reports."
+  },
+  {
+   "k": "why",
+   "title": "🧠 What's PPP?",
+   "body": "In a public-private partnership, a private firm runs or supplies the service and the government pays it. The patient-facing price is set by the state."
+  },
+  {
+   "k": "poll",
+   "vt": "rate",
+   "q": "How good are govt hospital scans where you live?",
+   "opts": [
+    "Very poor",
+    "Poor",
+    "Okay",
+    "Good",
+    "Very good"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Under the PPP plan, what does a referred patient pay for an MRI?",
+   "opts": [
+    "Nothing",
+    "₹500",
+    "Half the cost",
+    "Full private rate"
+   ],
+   "ans": 0,
+   "why": "The minister said scans stay free for patients referred by govt hospital doctors."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹0",
+   "l": "MRI cost for patients referred by govt doctors"
+  },
+  {
+   "t": "timeline",
+   "l": "What's known",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Oct 31",
+     "e": "PPP model announced"
+    },
+    {
+     "t": "Next",
+     "e": "Hospitals and partners, not announced"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹0",
+  "label": "MRI for referred patients",
+  "motion": "drift",
+  "scene": [
+   "🏥",
+   "🤝",
+   "🧲"
+  ]
+ },
+ "insight": "Health Minister Damodara Raja Narasimha said scans stay free for patients referred by government hospital doctors.",
+ "watch": "Which hospitals, how many machines and the start date.",
+ "thread": "tg-mri-ppp-free",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana plans PPP model to ensure uninterrupted MRI services at govt hospitals",
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-plans-ppp-model-to-ensure-uninterrupted-mri-services-at-govt-hospitals/article71648395.ece"
+  }
+ ],
+ "updated": 1793448212130,
+ "city": "Hyderabad",
+ "moment": {
+  "e": "🏥",
+  "t": "My family uses govt hospitals",
+  "k": "govhosp"
+ }
+}

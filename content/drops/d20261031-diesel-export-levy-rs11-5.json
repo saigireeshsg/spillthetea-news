@@ -1,0 +1,155 @@
+{
+ "cat": "money",
+ "lead": "money",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-54",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Diesel export levy jumps to *₹11.5* a li",
+ "hook": "Diesel export levy jumps to *₹11.5* a litre; petrol's goes to zero",
+ "tldr": "The Centre scrapped the petrol export levy and raised diesel and jet fuel export levies in its fortnightly review.",
+ "beats": {
+  "what": "Diesel export levy ₹8.5 → ₹11.5/litre. ATF ₹10.5 → ₹11. Petrol's ₹2.50 levy scrapped.",
+  "why": "The government reviews these export levies every two weeks.",
+  "care": "This is a tax on fuel sent abroad. Reports didn't mention any change to pump prices."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛢️",
+    "label": "Fortnightly levy review"
+   }
+  ],
+  "event": {
+   "icon": "🧾",
+   "label": "Diesel levy +₹3/litre"
+  },
+  "effects": [
+   {
+    "icon": "⛽",
+    "label": "Petrol export levy nil"
+   },
+   {
+    "icon": "⛽",
+    "label": "ATF levy ₹11/litre"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "In its fortnightly review, the Centre raised the export levy on diesel to ₹11.5 a litre from ₹8.5, and on aviation turbine fuel (ATF, jet fuel) to ₹11 from ₹10.5. It scrapped the ₹2.50 a litre additional excise duty on petrol exports. India's diesel exports touched 700 kilo barrels per day in October, the highest since September 2025, per data firm Kpler, cited by The Hindu."
+  },
+  {
+   "k": "why",
+   "title": "🧠 What's an export levy?",
+   "body": "A tax refiners pay when they sell fuel abroad. It makes exporting less attractive than selling at home."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Taxing fuel exports: your view?",
+   "opts": [
+    "Keep more fuel at home",
+    "Let refiners export freely",
+    "Fine-tune it every 2 weeks",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What's the new export levy on diesel?",
+   "opts": [
+    "₹11.5 a litre",
+    "₹8.5 a litre",
+    "₹2.5 a litre",
+    "Zero"
+   ],
+   "ans": 0,
+   "why": "Raised by ₹3, from ₹8.5 to ₹11.5 a litre."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Diesel export levy (₹/litre)",
+   "a": {
+    "v": 8.5,
+    "d": "₹8.5",
+    "l": "Before"
+   },
+   "b": {
+    "v": 11.5,
+    "d": "₹11.5",
+    "l": "Now"
+   },
+   "goodIfUp": false
+  },
+  {
+   "t": "compare",
+   "l": "Petrol export levy (₹/litre)",
+   "a": {
+    "v": 2.5,
+    "d": "₹2.50",
+    "l": "Before"
+   },
+   "b": {
+    "v": 0,
+    "d": "Nil",
+    "l": "Now"
+   },
+   "goodIfUp": false
+  },
+  {
+   "t": "compare",
+   "l": "Jet fuel (ATF) export levy (₹/litre)",
+   "a": {
+    "v": 10.5,
+    "d": "₹10.5",
+    "l": "Before"
+   },
+   "b": {
+    "v": 11,
+    "d": "₹11",
+    "l": "Now"
+   },
+   "goodIfUp": false
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b0f0f",
+   "#c0392b"
+  ],
+  "big": "₹11.5",
+  "label": "per litre diesel export levy",
+  "motion": "drift",
+  "scene": [
+   "🛢️",
+   "🧾",
+   "⛽"
+  ]
+ },
+ "insight": "India's diesel exports hit 700 kilo barrels a day in October, the highest since September 2025 (Kpler).",
+ "thread": "diesel-export-levy-rs11-5",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Petrol export duty cut to nil, diesel levy raised by ₹3 a litre",
+   "url": "https://www.thehindu.com/business/petrol-export-duty-cut-to-nil-diesel-levy-raised-by-3-a-litre/article71649004.ece"
+  },
+  {
+   "name": "NDTV Profit",
+   "title": "Centre Scraps Export Duty On Petrol; Diesel And ATF Levies Increased",
+   "url": "https://www.ndtvprofit.com/economy/centre-scraps-export-duty-on-petrol-diesel-and-atf-levies-increased-12263182"
+  }
+ ],
+ "updated": 1793448212131,
+ "moment": {
+  "e": "⛽",
+  "t": "Watching pump prices",
+  "k": "fuel"
+ }
+}

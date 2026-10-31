@@ -1,0 +1,153 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-60",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "From *tomorrow*: builders get sewage-tre",
+ "hook": "From *tomorrow*: builders get sewage-treated water, borewells need MRO nod",
+ "hook_b": "Digging a borewell near a public tap? You now need *MRO permission*",
+ "tldr": "From Nov 1, HMWSSB's green tankers supply treated wastewater, and borewells near drinking sources need MRO permission.",
+ "beats": {
+  "what": "HMWSSB starts green water tankers on Nov 1. Borewells near public drinking water sources need prior MRO permission.",
+  "why": "Hyderabad's reservoirs are low, so drinking water is being saved for homes.",
+  "care": "Building or digging a borewell? Get MRO clearance first. Sites must switch to treated-water tankers."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💧",
+    "label": "Reservoirs running low"
+   }
+  ],
+  "event": {
+   "icon": "🚛",
+   "label": "MRO nod + green tankers"
+  },
+  "effects": [
+   {
+    "icon": "🏗️",
+    "label": "Builders use treated water"
+   },
+   {
+    "icon": "🏗️",
+    "label": "Borewells inspected"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Green water tankers start Sunday, Nov 1. They carry treated water from sewage treatment plants for industry, construction and gardening. Civic bodies, government agencies and public spaces get it first. Registrations and filling points are still being set up. Separately, a borewell near a public drinking water source now needs prior permission from the Mandal Revenue Officer (MRO). Officials will inspect sites to enforce distance norms. The exact distance and fees were not in the report."
+  },
+  {
+   "k": "why",
+   "title": "🧠 Why now",
+   "body": "Most of the city already gets tap water once every 3 days under emergency rules. The green tankers are meant to keep drinking water for homes by giving builders, industry and gardens treated water instead."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Treated sewage water for building sites: your take?",
+   "opts": [
+    "Good, scale it up",
+    "Fine if quality is checked",
+    "Worried about safety",
+    "Not my issue"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Who must approve a borewell near a public drinking water source?",
+   "opts": [
+    "The MRO",
+    "GHMC",
+    "Traffic police",
+    "No one"
+   ],
+   "ans": 0,
+   "why": "Prior permission from the Mandal Revenue Officer is now mandatory."
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Hyderabad water rules",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Oct 27",
+     "e": "Tap water every 3 days"
+    },
+    {
+     "t": "Oct 31",
+     "e": "MRO nod for borewells near sources"
+    },
+    {
+     "t": "Nov 1",
+     "e": "Green tankers start"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "Every 3 days",
+   "l": "tap water in most of the city"
+  },
+  {
+   "t": "big",
+   "v": "₹5,000",
+   "l": "fine for tankers that spill, from Nov 1"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 1",
+  "label": "green water tankers start",
+  "motion": "drift",
+  "scene": [
+   "💧",
+   "🚛",
+   "🏗️"
+  ]
+ },
+ "insight": "Construction sites must now use treated wastewater from designated tankers, per Telangana Today.",
+ "watch": "Distance norms and green tanker rates not announced yet.",
+ "thread": "hyd-water-rules-nov1",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad: Permission from MRO mandatory for borewells near public drinking water sources",
+   "url": "https://telanganatoday.com/hyderabad-permission-from-mro-mandatory-for-borewells-near-public-drinking-water-sources"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "HMWSSB to supply treated wastewater for non-potable use from November 1",
+   "url": "https://telanganatoday.com/hmwssb-to-supply-treated-wastewater-for-non-potable-use-from-november-1"
+  },
+  {
+   "name": "Siasat",
+   "title": "Hyderabad to get treated water in 'green' tankers from Nov 1",
+   "url": "https://www.siasat.com/hyderabad-to-get-treated-water-in-green-tankers-from-nov-1-3567269/"
+  },
+  {
+   "name": "Siasat",
+   "title": "Amid severe scarcity, water runs to waste in some Hyderabad areas (31 Oct)",
+   "url": "https://www.siasat.com/amid-severe-scarcity-water-runs-to-waste-in-some-hyderabad-areas-3567517/"
+  },
+  {
+   "name": "Siasat",
+   "title": "Hyderabad water board declares emergency over acute shortage (25 Oct)",
+   "url": "https://www.siasat.com/hyderabad-water-board-declares-emergency-over-acute-shortage-3564047/"
+  }
+ ],
+ "updated": 1793448212129,
+ "city": "Hyderabad",
+ "storyline": "hyd-water-crisis"
+}

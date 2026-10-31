@@ -1,0 +1,155 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-10-31",
+ "sort": "2026-10-31-56",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Bengaluru–Mumbai overnight sleeper: *823",
+ "hook": "Bengaluru–Mumbai overnight sleeper: *823 berths*, about 16 hours",
+ "hook_b": "Is the Bengaluru–Mumbai Vande Bharat sleeper running *tomorrow*?",
+ "tldr": "The Bengaluru–Mumbai Vande Bharat sleeper is set for a Nov 1 flag-off; outlets differ on the first paid run.",
+ "beats": {
+  "what": "Flag-off set for Nov 1. Indian Express says commercial runs from Nov 3; Deccan Herald says Nov 2.",
+  "why": "Railways is rolling out sleeper Vande Bharats on long overnight routes.",
+  "care": "Booking has opened, per Indian Express. Check IRCTC for the first paid date and fares."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚆",
+    "label": "Sleeper Vande Bharat rollout"
+   }
+  ],
+  "event": {
+   "icon": "🌙",
+   "label": "Nov 1 flag-off"
+  },
+  "effects": [
+   {
+    "icon": "🛏️",
+    "label": "~16-hour overnight trip"
+   },
+   {
+    "icon": "🛏️",
+    "label": "823 berths"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Bengaluru–Mumbai Vande Bharat sleeper is set for a Nov 1 flag-off, per RaillyNews. The trip is expected to take about 16 hours. Reports differ on the first paid service: Indian Express says commercial runs start Nov 3 with booking open, while Deccan Herald says regular service from Nov 2. Fares and stops were not in the reports we read. Separately, PM Modi flagged off the Varanasi–New Delhi Vande Bharat sleeper."
+  },
+  {
+   "k": "why",
+   "title": "🛏️ Inside the train",
+   "body": "16 fully air-conditioned coaches: 11 Third AC (611 berths), 4 Second AC (188 berths) and 1 First AC (24 berths)."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Overnight sleeper train vs a flight: your pick?",
+   "opts": [
+    "Sleeper, saves a hotel night",
+    "Flight, time matters",
+    "Depends on fare",
+    "I'd take a bus"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "How many berths does the Bengaluru–Mumbai Vande Bharat sleeper have?",
+   "opts": [
+    "823",
+    "500",
+    "1,200",
+    "611"
+   ],
+   "ans": 0,
+   "why": "823 berths across 16 coaches; 611 of them are Third AC."
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "Berths by class",
+   "total": "823 berths",
+   "parts": [
+    {
+     "l": "Third AC",
+     "v": 611
+    },
+    {
+     "l": "Second AC",
+     "v": 188
+    },
+    {
+     "l": "First AC",
+     "v": 24
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "~16 hours",
+   "l": "expected Bengaluru–Mumbai trip"
+  },
+  {
+   "t": "timeline",
+   "l": "Dates in reports",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Nov 1",
+     "e": "Flag-off"
+    },
+    {
+     "t": "Nov 2",
+     "e": "Regular service (Deccan Herald)"
+    },
+    {
+     "t": "Nov 3",
+     "e": "Commercial run (Indian Express)"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "823",
+  "label": "berths, 16 AC coaches",
+  "motion": "drift",
+  "scene": [
+   "🚆",
+   "🌙",
+   "🛏️"
+  ]
+ },
+ "insight": "11 of its 16 coaches are Third AC, the value-priced class.",
+ "watch": "Fares, stops and the confirmed first paid run.",
+ "thread": "vande-sleeper-blr-mumbai",
+ "sources": [
+  {
+   "name": "RaillyNews",
+   "title": "Bengaluru–Mumbai Vande Bharat Sleeper Train Launches on November 1",
+   "url": "https://raillynews.com/2026/10/bengaluru-mumbai-vande-bharat-sleeper-train-launches-on-november-1/"
+  },
+  {
+   "name": "Indian Express",
+   "title": "Bengaluru-Mumbai Vande Bharat Sleeper: Ticket booking opens, commercial run from November 3",
+   "url": "https://indianexpress.com/article/india/bengaluru-mumbai-vande-bharat-sleeper-ticket-booking-fare-10944316/"
+  }
+ ],
+ "updated": 1793448212130,
+ "moment": {
+  "e": "🚆",
+  "t": "Want one to Hyderabad",
+  "k": "hydtrain"
+ }
+}
