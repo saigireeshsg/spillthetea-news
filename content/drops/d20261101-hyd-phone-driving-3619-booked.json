@@ -1,0 +1,138 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-92",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "*3,469* of 3,619 booked for phoning whil",
+ "hook": "*3,469* of 3,619 booked for phoning while driving were on two-wheelers",
+ "hook_b": "Phone in hand on the bike? *3,619* got booked, and all face court",
+ "tldr": "Hyderabad Traffic Police booked 3,619 motorists for phone use while driving between Apr 26 and Oct 31.",
+ "beats": {
+  "what": "Traffic police booked 3,619 motorists for using phones while driving in a special drive.",
+  "why": "Police say phone use slows reaction time and raises accident risk.",
+  "care": "Caught on the phone while riding? Expect a court case, not just a challan."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📱",
+    "label": "Phones slow reaction time"
+   }
+  ],
+  "event": {
+   "icon": "🚓",
+   "label": "3,619 booked, Apr–Oct"
+  },
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "All sent to court"
+   },
+   {
+    "icon": "⚖️",
+    "label": "More drives planned"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The drive ran from Apr 26 to Oct 31. Of 3,619 violators, 3,469 were two-wheeler riders, 46 drove three-wheelers and 104 drove cars. All will be produced in court with charge sheets and penalised as per law. Joint CP (Traffic) D. Joel Davis said police follow zero tolerance and will run such drives regularly. The penalty amount was not in the report."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Phone while driving: what works best?",
+   "opts": [
+    "Court cases like this",
+    "Licence suspension",
+    "More awareness",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "How many cars were among the 3,619 booked?",
+   "opts": [
+    "104",
+    "46",
+    "1,200",
+    "3,469"
+   ],
+   "ans": 0,
+   "why": "104 four-wheeler drivers; 3,469 were on two-wheelers and 46 on three-wheelers."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "3,619",
+   "l": "booked for phone use while driving"
+  },
+  {
+   "t": "stack",
+   "l": "Who got booked",
+   "total": "3,619 motorists",
+   "parts": [
+    {
+     "l": "Two-wheelers",
+     "v": 3469
+    },
+    {
+     "l": "Cars",
+     "v": 104
+    },
+    {
+     "l": "Three-wheelers",
+     "v": 46
+    }
+   ]
+  },
+  {
+   "t": "icons",
+   "n": 24,
+   "of": 25,
+   "icon": "🛵",
+   "d": "24 in 25",
+   "l": "were two-wheeler riders"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3,619",
+  "label": "booked for phone use while driving",
+  "motion": "drift",
+  "scene": [
+   "📱",
+   "🚓",
+   "⚖️"
+  ]
+ },
+ "insight": "Every violator is being sent to court with a charge sheet, not just fined on the spot.",
+ "thread": "hyd-phone-driving-3619-booked",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad traffic cops enforce zero-tolerance policy, book 3,619 motorists for phone use while driving",
+   "url": "https://telanganatoday.com/hyderabad-traffic-cops-enforce-zero-tolerance-policy-book-3619-motorists-for-phone-use-while-driving"
+  }
+ ],
+ "updated": 1793494693110,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/phone-driving.jpg",
+  "c": "Telangana Today"
+ },
+ "moment": {
+  "e": "📵",
+  "t": "Phone stays in my pocket",
+  "k": "pocket"
+ }
+}

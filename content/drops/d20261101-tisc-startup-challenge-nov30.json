@@ -1,0 +1,147 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-95",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Telangana wants startups to solve *7* pu",
+ "hook": "Telangana wants startups to solve *7* public problems. Apply by Nov 30",
+ "hook_b": "Got a startup idea? The state could become your *first customer*",
+ "tldr": "Telangana Innovation Startup Challenge is open till Nov 30 for startups, innovators, researchers and colleges.",
+ "beats": {
+  "what": "Telangana opened the Telangana Innovation Startup Challenge (TISC) for seven public-sector problems.",
+  "why": "The state wants tech fixes for farms, food safety, land, roads, health and education.",
+  "care": "Startup, researcher or student team? Apply at tisc.telangana.gov.in before Nov 30."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏛️",
+    "label": "Govt seeks tech fixes"
+   }
+  ],
+  "event": {
+   "icon": "💡",
+   "label": "TISC opens, Nov 30 cut-off"
+  },
+  "effects": [
+   {
+    "icon": "🚀",
+    "label": "Pilots with departments"
+   },
+   {
+    "icon": "🚀",
+    "label": "Summit showcase in Dec"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "💼 Opportunity. Who can apply: startups, individual innovators, researchers, industry players and academic institutions from India and abroad. Deadline: Nov 30, 2026, on tisc.telangana.gov.in. The lead challenge: solar pump or retrofit kits for deep borewells that are 30% cheaper, with theft-resistant panels and tamper-proof metering. Others: rapid food-adulteration test kits, AI kitchen-hygiene monitoring for hostels, satellite mapping of lake and land encroachments, vehicle cameras that map potholes, and monsoon-proof road repair materials. Selected teams showcase at the Invest Telangana Global Summit at Bharat Future City in December. Shortlisting dates are not announced yet. Fee: not mentioned."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Which problem should startups crack first?",
+   "opts": [
+    "Cheap solar pumps",
+    "Food adulteration",
+    "Lake encroachments",
+    "Potholes"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What is TISC's lead challenge?",
+   "opts": [
+    "Solar-powered irrigation",
+    "Metro tickets",
+    "EV charging",
+    "Exam proctoring"
+   ],
+   "ans": 0,
+   "why": "Affordable solar pumps or retrofit kits for deep borewells, 30% cheaper, is the lead challenge."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "7",
+   "l": "public problems open to startups"
+  },
+  {
+   "t": "timeline",
+   "l": "How it runs",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Now",
+     "e": "Applications open"
+    },
+    {
+     "t": "Nov 30",
+     "e": "Last date"
+    },
+    {
+     "t": "TBA",
+     "e": "Shortlist + reviews"
+    },
+    {
+     "t": "Dec",
+     "e": "Showcase at Global Summit"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "30%",
+   "l": "cheaper solar pump kits sought"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "7",
+  "label": "public problems open to startups",
+  "motion": "drift",
+  "scene": [
+   "🏛️",
+   "💡",
+   "🚀"
+  ]
+ },
+ "insight": "Winners can run pilots with government departments and may win procurement contracts.",
+ "watch": "Shortlisting and final-round dates, which the state says will be announced shortly.",
+ "thread": "tisc-startup-challenge-nov30",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana invites solutions to seven public-sector challenges, applications open till November 30",
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-invites-solutions-to-seven-public-sector-challenges-applications-open-till-november-30/article71648962.ece"
+  }
+ ],
+ "updated": 1793494693109,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/vml1ju/article71649024.ece/alternates/LANDSCAPE_1200/_NGP0610.JPG",
+  "c": "The Hindu"
+ },
+ "moment": {
+  "e": "🚀",
+  "t": "Sending this to my team",
+  "k": "team"
+ },
+ "links": [
+  {
+   "label": "Apply on TISC portal",
+   "url": "https://tisc.telangana.gov.in"
+  }
+ ],
+ "tag": "💼 Opportunity"
+}

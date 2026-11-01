@@ -1,0 +1,146 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-98",
+ "order": 1,
+ "heat": 5,
+ "readSecs": 30,
+ "topic": "No tap water for *36 hours*: Banjara Hil",
+ "hook": "No tap water for *36 hours*: Banjara Hills, Nampally, Mallepally",
+ "hook_b": "Live near Nampally or Banjara Hills? Store water by *Monday night*",
+ "tldr": "HMWSSB cuts supply 6 am Nov 3 to 6 pm Nov 4 in parts of Golconda zone, Kavadiguda and Banjara Hills.",
+ "beats": {
+  "what": "HMWSSB will shut drinking water from 6 am Tuesday to 6 pm Wednesday in several areas.",
+  "why": "Major leaks in the Gandipet conduit near Sabza Colony, Tolichowki and Manikonda need repair.",
+  "care": "In the listed areas? Fill tanks and store two days of water by Monday night."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚰",
+    "label": "Gandipet conduit leaks"
+   }
+  ],
+  "event": {
+   "icon": "🔧",
+   "label": "36-hour shutdown"
+  },
+  "effects": [
+   {
+    "icon": "🪣",
+    "label": "20+ areas dry Tue–Wed"
+   },
+   {
+    "icon": "🪣",
+    "label": "Store water Mon night"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Repairs run from 6 am Tuesday, Nov 3 to 6 pm Wednesday, Nov 4. Affected: Red Hills, Nampally, Mallepally, Old Mallepally, Sitarambagh, Godeki Khabar, Hindi Nagar, Assembly area, Secretariat, New MLA Quarters, Adarsh Nagar, Nampally railway area, Gunfoundry, Chintal Basti, Vijayanagar Colony, Asif Nagar and Ahmed Nagar (Golconda zone). Also Domalguda and areas in Kavadiguda and Gandhinagar wards, and Banjara Hills ward. HMWSSB asked people to use water sparingly. Tanker arrangements were not mentioned in the report."
+  },
+  {
+   "k": "poll",
+   "vt": "rate",
+   "q": "How reliable is tap water where you live?",
+   "opts": [
+    "Terrible",
+    "Patchy",
+    "Okay",
+    "Good",
+    "Never a problem"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which pipeline is being repaired?",
+   "opts": [
+    "Gandipet conduit",
+    "Singur line",
+    "Krishna Phase 3",
+    "Godavari Phase 2"
+   ],
+   "ans": 0,
+   "why": "HMWSSB is plugging major leaks in the Gandipet conduit near Tolichowki and Manikonda."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "36 hrs",
+   "l": "without tap water, Nov 3–4"
+  },
+  {
+   "t": "timeline",
+   "l": "The shutdown",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Sun 1",
+     "e": "Notice out"
+    },
+    {
+     "t": "Mon 2 night",
+     "e": "Store water"
+    },
+    {
+     "t": "Tue 3, 6 am",
+     "e": "Supply stops"
+    },
+    {
+     "t": "Wed 4, 6 pm",
+     "e": "Supply resumes"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "36 hrs",
+  "label": "without tap water, Nov 3–4",
+  "motion": "drift",
+  "scene": [
+   "🚰",
+   "🔧",
+   "🪣"
+  ]
+ },
+ "insight": "The shutdown is to plug major leaks in the Gandipet conduit near Tolichowki and Manikonda.",
+ "watch": "Whether HMWSSB adds tankers for the affected areas, and if work finishes on time.",
+ "thread": "hyd-water-cut-36hrs-nov3",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "36-hour water supply disruption in parts of Hyderabad from Nov 3",
+   "url": "https://telanganatoday.com/36-hour-water-supply-disruption-in-parts-of-hyderabad-from-nov-3"
+  },
+  {
+   "name": "Deccan Chronicle",
+   "title": "Water Supply To Be Disrupted In Parts Of Hyderabad For 36 Hours",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/water-supply-to-be-disrupted-in-parts-of-hyderabad-for-36-hours-2000698"
+  }
+ ],
+ "updated": 1793494693107,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/10/drinking-water-2.jpg",
+  "c": "Telangana Today"
+ },
+ "storyline": "hyd-water-crisis",
+ "areas": [
+  "Banjara Hills",
+  "Nampally",
+  "Mallepally",
+  "Red Hills",
+  "Asif Nagar",
+  "Domalguda",
+  "Kavadiguda"
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Telangana's Germany jobs plan: *12 of 79",
+ "hook": "Telangana's Germany jobs plan: *12 of 79* trainees deployed, says TOMCOM",
+ "hook_b": "Signed up for TOMCOM's Germany programme? Here's what the RTI shows",
+ "tldr": "RTI replies to Siasat.com show TOMCOM counts 12 of 79 Ausbildung candidates as deployed to Germany.",
+ "beats": {
+  "what": "TOMCOM told Siasat.com, via RTI, that 12 of 79 apprenticeship candidates went to Germany.",
+  "why": "Candidates questioned the 2024–25 programmes run with private partner Fairstreet India.",
+  "care": "Weighing a state overseas-jobs scheme? Ask for batch-wise placement numbers first."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "❓",
+    "label": "Candidates question outcomes"
+   }
+  ],
+  "event": {
+   "icon": "📄",
+   "label": "RTI: 12 of 79 deployed"
+  },
+  "effects": [
+   {
+    "icon": "✈️",
+    "label": "0 bus drivers gone yet"
+   },
+   {
+    "icon": "✈️",
+    "label": "Count disputed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "💼 Opportunity check. TOMCOM (Telangana Overseas Manpower Company) ran a German Ausbildung (apprenticeship) programme and a bus-driver programme. It counts 12 of 79 Ausbildung candidates, about 15%, as deployed. Its batch table lists 11, plus one Batch 3 candidate still awaiting a visa. Of the bus-driver trainees (19 per RTI, 24 per another reply), four got work contracts and two have pre-visa approval; none has gone yet. Candidates dispute the count. TOMCOM withheld its MoU with Fairstreet, citing confidentiality. Fairstreet says it fulfilled its obligations."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you join a state overseas-jobs programme?",
+   "opts": [
+    "Yes, after checking results",
+    "Only with a job offer first",
+    "No, I'd go private",
+    "Not for me"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "How many TOMCOM bus-driver trainees have reached Germany?",
+   "opts": [
+    "None",
+    "4",
+    "12",
+    "19"
+   ],
+   "ans": 0,
+   "why": "Four got work contracts and two have pre-visa approval, but none has gone yet."
+  }
+ ],
+ "viz": [
+  {
+   "t": "icons",
+   "n": 12,
+   "of": 79,
+   "icon": "✈️",
+   "d": "12 of 79",
+   "l": "Ausbildung trainees deployed (TOMCOM count)"
+  },
+  {
+   "t": "compare",
+   "l": "Bus-driver trainees",
+   "a": {
+    "v": 4,
+    "d": "4",
+    "l": "Got contracts"
+   },
+   "b": {
+    "v": 0,
+    "d": "0",
+    "l": "In Germany"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "donut",
+   "v": 15,
+   "d": "15%",
+   "l": "of Ausbildung candidates deployed"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "12 of 79",
+  "label": "Ausbildung trainees deployed",
+  "motion": "drift",
+  "scene": [
+   "❓",
+   "📄",
+   "✈️"
+  ]
+ },
+ "insight": "None of the bus-driver trainees has reached Germany yet, per TOMCOM's own replies.",
+ "learn": {
+  "t": "Ausbildung = Germany's paid vocational apprenticeship, mixing classroom and on-the-job training."
+ },
+ "watch": "Whether TOMCOM explains the 11-vs-12 gap and releases its MoU with Fairstreet.",
+ "thread": "tomcom-germany-12-of-79",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "TOMCOM: 12 of 79 sent to Germany for jobs, candidates dispute data",
+   "url": "https://www.siasat.com/tomcom-12-of-79-sent-to-germany-for-jobs-candidates-dispute-data-3567396/"
+  }
+ ],
+ "updated": 1793494693112,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/10/TOMCOM-Germany-programme-data.jpg",
+  "c": "Siasat"
+ },
+ "moment": {
+  "e": "🇩🇪",
+  "t": "I know someone who applied",
+  "k": "applied"
+ },
+ "tag": "💼 Opportunity"
+}

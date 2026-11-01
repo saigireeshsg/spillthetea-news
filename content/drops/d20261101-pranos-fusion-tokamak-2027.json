@@ -1,0 +1,136 @@
+{
+ "cat": "tech",
+ "lead": "tech",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "A Bengaluru startup wants to heat plasma",
+ "hook": "A Bengaluru startup wants to heat plasma to *100 million °C*",
+ "hook_b": "India's first private fusion reactor: blueprint by *2027*?",
+ "tldr": "Pranos Fusion aims to finalise designs for PRANIK, India's first privately built tokamak, by 2027.",
+ "beats": {
+  "what": "Bengaluru's Pranos Fusion built PRAGYA, a small tokamak, as a step to a bigger reactor.",
+  "why": "Fusion needs no uranium and has almost no runaway risk, the founders say.",
+  "care": "Deep-tech jobs are growing; fusion electricity is still years away, the CEO says."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚡",
+    "label": "Need for clean power"
+   }
+  ],
+  "event": {
+   "icon": "🍩",
+   "label": "PRAGYA test tokamak built"
+  },
+  "effects": [
+   {
+    "icon": "🔬",
+    "label": "PRANIK design by 2027"
+   },
+   {
+    "icon": "🔬",
+    "label": "Power still years away"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "A tokamak is a doughnut-shaped reactor where magnets hold superheated plasma off the walls. Fusion needs fuel at around 100 million °C. CEO Shaurya Kaushal says the PRANIK blueprint should be final by 2027; making electricity is 'a further step away'. Co-founder Roshan George says India already produces plenty of deuterium. The startup is incubated at the Institute of Plasma Research and JNCASR, Bengaluru. Funding was not in the report."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should India bet big on fusion power?",
+   "opts": [
+    "Yes, go all in",
+    "Yes, alongside solar",
+    "Focus on solar/wind",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What is a tokamak?",
+   "opts": [
+    "A doughnut-shaped fusion reactor",
+    "A uranium mine",
+    "A solar panel",
+    "A battery"
+   ],
+   "ans": 0,
+   "why": "A tokamak uses magnets to hold superheated plasma in a doughnut shape."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "100M °C",
+   "l": "heat needed for fusion"
+  },
+  {
+   "t": "timeline",
+   "l": "Pranos Fusion's plan",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Built",
+     "e": "PRAGYA test tokamak"
+    },
+    {
+     "t": "Now",
+     "e": "Testing magnets, plasma"
+    },
+    {
+     "t": "2027",
+     "e": "PRANIK blueprint"
+    },
+    {
+     "t": "Later",
+     "e": "Electricity"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1a1030",
+   "#6a3fb5"
+  ],
+  "big": "100M °C",
+  "label": "heat needed for fusion",
+  "motion": "drift",
+  "scene": [
+   "⚡",
+   "🍩",
+   "🔬"
+  ]
+ },
+ "insight": "Pranos Fusion has already built a small test tokamak, PRAGYA, to trial magnets and plasma control.",
+ "learn": {
+  "t": "Fusion joins light atoms (like hydrogen) to release energy; today's nuclear plants split heavy atoms (fission)."
+ },
+ "thread": "pranos-fusion-tokamak-2027",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "India's first fusion power company takes key steps",
+   "url": "https://www.thehindu.com/sci-tech/science/indias-first-fusion-power-company-takes-key-steps/article71649266.ece"
+  }
+ ],
+ "updated": 1793494693115,
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/national/6txof0/article71649468.ece/alternates/LANDSCAPE_1200/jenga_ref6.png",
+  "c": "The Hindu"
+ },
+ "moment": {
+  "e": "🤯",
+  "t": "Hotter than the Sun?!",
+  "k": "wow"
+ }
+}

@@ -1,0 +1,135 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-91",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Second cyclone in a week: *120 kmph* sto",
+ "hook": "Second cyclone in a week: *120 kmph* storm to hit AP coast Nov 3",
+ "hook_b": "Travelling to coastal Andhra this week? Landfall is due *Nov 3*",
+ "tldr": "IMD expects a severe cyclonic storm to cross the AP coast between Narsapur and Nellore early Nov 3.",
+ "beats": {
+  "what": "A Bay of Bengal depression is set to become a severe cyclonic storm by Nov 2.",
+  "why": "A low-pressure area formed over the south Andaman Sea on Oct 29 and keeps strengthening.",
+  "care": "Trips to coastal AP Nov 2–3? Check train and bus status before leaving."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌊",
+    "label": "Andaman Sea low, Oct 29"
+   }
+  ],
+  "event": {
+   "icon": "🌀",
+   "label": "Severe cyclone by Nov 2"
+  },
+  "effects": [
+   {
+    "icon": "🚫",
+    "label": "Landfall Narsapur–Nellore"
+   },
+   {
+    "icon": "🚫",
+    "label": "Fishing halt Nov 2–4"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "At 5.30 pm Saturday the depression sat about 960 km east-southeast of Chennai and 1,030 km southeast of Machilipatnam. IMD expects a cyclonic storm by Sunday and a severe cyclonic storm by Nov 2. Landfall: early Nov 3, between Narsapur and Nellore, winds up to 120 kmph. APSDMA: heavy to very heavy rain on Nov 2 in Eluru, West Godavari, NTR, Krishna, Guntur, Bapatla, Palnadu, Prakasam, Markapuram, Nellore and Tirupati. Fishermen told to stay off the sea Nov 2–4."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Two cyclones in a week: what worries you most?",
+   "opts": [
+    "Family on the coast",
+    "Travel plans",
+    "Prices of veggies",
+    "Not affected"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Where is the cyclone expected to cross the coast?",
+   "opts": [
+    "Between Narsapur and Nellore",
+    "Chennai",
+    "Visakhapatnam",
+    "Odisha"
+   ],
+   "ans": 0,
+   "why": "IMD's bulletin puts landfall between Narsapur and Nellore early on Nov 3."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "120 kmph",
+   "l": "max wind at landfall, Nov 3"
+  },
+  {
+   "t": "timeline",
+   "l": "Storm path",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Oct 29",
+     "e": "Low forms, Andaman Sea"
+    },
+    {
+     "t": "Nov 1",
+     "e": "Cyclonic storm"
+    },
+    {
+     "t": "Nov 2",
+     "e": "Severe cyclonic storm"
+    },
+    {
+     "t": "Nov 3, early",
+     "e": "Landfall Narsapur–Nellore"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "11",
+   "l": "AP districts on heavy-rain watch, Nov 2"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "120 kmph",
+  "label": "max wind at landfall, Nov 3",
+  "motion": "drift",
+  "scene": [
+   "🌊",
+   "🌀",
+   "🚫"
+  ]
+ },
+ "insight": "It comes just days after Cyclone Arnab hit the Kakinada–Narsapur coast on Oct 27–28.",
+ "watch": "IMD bulletins every few hours; the exact landfall point can shift.",
+ "thread": "cyclone-murasu-nov3-landfall",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "After 'Arnab', Andhra Pradesh may face another severe cyclonic storm",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/after-arnab-andhra-pradesh-may-face-another-severe-cyclonic-storm/article71649303.ece"
+  }
+ ],
+ "updated": 1793494693112,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/4u5hyb/article71649937.ece/alternates/LANDSCAPE_1200/VSP01_Fishing%20Boats%20%203.JPG",
+  "c": "The Hindu"
+ },
+ "storyline": "bay-cyclone-2026"
+}

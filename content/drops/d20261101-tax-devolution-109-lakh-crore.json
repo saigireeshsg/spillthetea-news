@@ -1,0 +1,124 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-86",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Centre sends states an extra *₹1.09 lakh",
+ "hook": "Centre sends states an extra *₹1.09 lakh crore* before the festive season",
+ "hook_b": "Why did your state just get a bonus cheque from Delhi?",
+ "tldr": "The Finance Ministry released ₹1,09,019 crore in additional tax devolution to states on Oct 31.",
+ "beats": {
+  "what": "The Centre released an extra ₹1,09,019 crore of tax share to state governments.",
+  "why": "The Ministry says it helps states speed up capital spending and welfare before festivals.",
+  "care": "More money for states can mean faster roads and welfare payouts; state-wise split not reported."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Festive season spending"
+   }
+  ],
+  "event": {
+   "icon": "💸",
+   "label": "₹1.09 lakh cr released"
+  },
+  "effects": [
+   {
+    "icon": "🏗️",
+    "label": "Faster capital works"
+   },
+   {
+    "icon": "🏗️",
+    "label": "Welfare funding"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "States get 41% of taxes the Centre collects, paid in 14 instalments a year. This release is on top of the regular monthly devolution and is the second additional instalment this financial year. The Finance Ministry said it is meant for the festive season, capital spending and development and welfare spending. Telangana's share was not in the report."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Where should Telangana spend its share first?",
+   "opts": [
+    "Water supply",
+    "Roads and metro",
+    "Schools and hospitals",
+    "Welfare payouts"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What share of central taxes goes to states?",
+   "opts": [
+    "41%",
+    "14%",
+    "50%",
+    "25%"
+   ],
+   "ans": 0,
+   "why": "41% of taxes the Centre collects is devolved to states in 14 instalments a year."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹1,09,019 cr",
+   "l": "extra tax share released Oct 31"
+  },
+  {
+   "t": "donut",
+   "v": 41,
+   "d": "41%",
+   "l": "of central taxes go to states"
+  },
+  {
+   "t": "big",
+   "v": "14",
+   "l": "instalments a year"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "₹1.09 lakh cr",
+  "label": "extra tax share to states",
+  "motion": "drift",
+  "scene": [
+   "🪔",
+   "💸",
+   "🏗️"
+  ]
+ },
+ "insight": "It is the second extra instalment this year, on top of the regular monthly share.",
+ "learn": {
+  "t": "Tax devolution = the share of central taxes that the Constitution says must go to states."
+ },
+ "thread": "tax-devolution-109-lakh-crore",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Centre releases additional instalment of tax devolution of ₹1.09 lakh crore to states",
+   "url": "https://www.thehindu.com/business/centre-releases-additional-instalment-of-tax-devolution-of-109-lakh-crore-to-states/article71650532.ece"
+  }
+ ],
+ "updated": 1793494693114,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/mo5bsn/article71650545.ece/alternates/LANDSCAPE_1200/TH%20TRI-1%207.jpg",
+  "c": "The Hindu"
+ },
+ "moment": {
+  "e": "🏗️",
+  "t": "Show me where it goes",
+  "k": "where"
+ }
+}

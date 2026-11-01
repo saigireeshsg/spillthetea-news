@@ -1,0 +1,155 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-93",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Free buses cut Hyderabad women's trip co",
+ "hook": "Free buses cut Hyderabad women's trip cost from ₹30.4 to *₹9.7*",
+ "hook_b": "Did free buses change how Hyderabad women travel? A study says *yes*",
+ "tldr": "An SPA study of 410 women in GHMC finds Mahalakshmi cut average trip cost by 68.1%.",
+ "beats": {
+  "what": "A School of Planning and Architecture study measured Mahalakshmi's impact on women's travel.",
+  "why": "Free TGSRTC travel for women began in Dec 2023; researchers checked if it improved mobility.",
+  "care": "Women save most on fares; researchers say peripheral routes and last-mile links still lag."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎟️",
+    "label": "Free bus rides since Dec 2023"
+   }
+  ],
+  "event": {
+   "icon": "📊",
+   "label": "Study of 410 women"
+  },
+  "effects": [
+   {
+    "icon": "🚌",
+    "label": "Trip cost ₹30.4 → ₹9.7"
+   },
+   {
+    "icon": "🚌",
+    "label": "Bus use 44% → 71%"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Researchers from SPA Vijayawada and SPA New Delhi surveyed 410 women across GHMC; 49% were students. Average cost per trip fell from ₹30.4 to ₹9.7. Bus as main mode rose from 43.8% to 71.2%. Weekly trips moved from 4.23 to 4.35, which was not statistically significant. Households earning under ₹20,000 a month saved about 73%. The study recommends more buses in peripheral and low-income areas, better first- and last-mile links and extra buses during college hours."
+  },
+  {
+   "k": "poll",
+   "vt": "rate",
+   "q": "How good are TGSRTC buses on your route?",
+   "opts": [
+    "Terrible",
+    "Crowded",
+    "Okay",
+    "Good",
+    "Great"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which group saved the most on travel, per the study?",
+   "opts": [
+    "Households under ₹20,000/month",
+    "Households over ₹2 lakh",
+    "Car owners",
+    "Men"
+   ],
+   "ans": 0,
+   "why": "Lower-income households saw costs fall about 73%, versus 62% for those above ₹2 lakh."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Average cost per trip",
+   "a": {
+    "v": 30.4,
+    "d": "₹30.4",
+    "l": "Before"
+   },
+   "b": {
+    "v": 9.7,
+    "d": "₹9.7",
+    "l": "After"
+   },
+   "goodIfUp": false
+  },
+  {
+   "t": "compare",
+   "l": "Women using buses as main mode",
+   "a": {
+    "v": 43.8,
+    "d": "43.8%",
+    "l": "Before"
+   },
+   "b": {
+    "v": 71.2,
+    "d": "71.2%",
+    "l": "After"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "compare",
+   "l": "Trips per week",
+   "a": {
+    "v": 4.23,
+    "d": "4.23",
+    "l": "Before"
+   },
+   "b": {
+    "v": 4.35,
+    "d": "4.35",
+    "l": "After"
+   },
+   "goodIfUp": true
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "68%",
+  "label": "cut in women's cost per trip",
+  "motion": "drift",
+  "scene": [
+   "🎟️",
+   "📊",
+   "🚌"
+  ]
+ },
+ "insight": "Women's main use of TGSRTC buses jumped from 43.8% to 71.2%, but weekly trips barely changed.",
+ "learn": {
+  "t": "SPA = School of Planning and Architecture, central institutes for urban planning."
+ },
+ "thread": "mahalakshmi-free-bus-68pc-study",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Mahalakshmi free bus scheme cuts women's travel costs by 68%",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/mahalakshmi-free-bus-scheme-cuts-womens-travel-costs-by-68/articleshow/135410484.cms"
+  }
+ ],
+ "updated": 1793494693111,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135410483,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "moment": {
+  "e": "🚌",
+  "t": "I ride free every day",
+  "k": "ride"
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "cat": "edit",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-97",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "*₹800 crore* lost to 'digital arrest' sc",
+ "hook": "*₹800 crore* lost to 'digital arrest' scams this year, after recoveries",
+ "hook_b": "Why do people still fall for fake 'CBI' video calls?",
+ "tldr": "The Hindu's editorial backs RBI's mule-account rules but warns they could freeze innocent accounts.",
+ "beats": {
+  "what": "The Supreme Court heard 'digital arrest' scam cases on Oct 29; The Hindu editorial weighs in.",
+  "why": "Scammers pose as CBI or police on video calls; mule accounts launder the money.",
+  "care": "No real agency 'arrests' on a video call. New bank rules may hold unusual transfers."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📹",
+    "label": "Fake 'CBI' video calls"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "SC presses RBI on mule rules"
+  },
+  "effects": [
+   {
+    "icon": "🏦",
+    "label": "Unusual transfers held"
+   },
+   {
+    "icon": "🏦",
+    "label": "Rules due by Dec 31"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu's view, Oct 31: about ₹800 crore was lost this year even after recoveries. It welcomes the Court pushing RBI to finalise the KYC Amendment Directions, 2026, which make banks flag suspected mule accounts; the Attorney-General said they will be in force by Dec 31. But it notes any 'unusual' transaction of ₹1,000 or more can be held up to 60 days, which it calls disproportionate for small traders and Jan Dhan holders who unknowingly receive mule money. It also flags privacy concerns over auto-reporting to police."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Banks holding 'unusual' transfers up to 60 days: fair?",
+   "opts": [
+    "Yes, scams are worse",
+    "Yes, but shorter holds",
+    "No, hurts honest users",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "By when did the Attorney-General say RBI's mule-account rules will be in force?",
+   "opts": [
+    "Dec 31",
+    "Nov 1",
+    "March 2027",
+    "Already in force"
+   ],
+   "ans": 0,
+   "why": "The Attorney-General assured the Court the directions will be in force by December 31."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹800 cr",
+   "l": "lost to digital arrest scams in 2026"
+  },
+  {
+   "t": "timeline",
+   "l": "What happens when",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Oct 29",
+     "e": "SC hearing"
+    },
+    {
+     "t": "Now",
+     "e": "RBI finalising KYC rules"
+    },
+    {
+     "t": "By Dec 31",
+     "e": "Rules in force (AG)"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "60 days",
+   "l": "max hold on 'unusual' ₹1,000+ transfers"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1c2340",
+   "#4a5fb0"
+  ],
+  "big": "₹800 cr",
+  "label": "lost to digital arrest scams in 2026",
+  "motion": "drift",
+  "scene": [
+   "📹",
+   "⚖️",
+   "🏦"
+  ]
+ },
+ "insight": "The Hindu argues fear of police, not just gullibility, makes fake arrests believable.",
+ "learn": {
+  "t": "Mule account = a bank account used to receive and pass on stolen money, often opened in someone else's name."
+ },
+ "thread": "ed-digital-arrest-scams",
+ "sources": [
+  {
+   "name": "The Hindu (Editorial)",
+   "title": "Beyond gullibility: On digital arrest scams",
+   "url": "https://www.thehindu.com/opinion/editorial/beyond-gullibility-on-digital-arrest-scams/article71646642.ece"
+  }
+ ],
+ "updated": 1793494693115,
+ "moment": {
+  "e": "📞",
+  "t": "Got a call like this once",
+  "k": "call"
+ },
+ "featured": true,
+ "editorial": {
+  "paper": "The Hindu",
+  "title": "Beyond gullibility"
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "cat": "money",
+ "lead": "money",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "IOC loses *₹309* on every LPG cylinder i",
+ "hook": "IOC loses *₹309* on every LPG cylinder in November, rising to ₹370",
+ "hook_b": "Your LPG cylinder costs IOC more than you pay. By how much?",
+ "tldr": "Indian Oil projects LPG under-recoveries of ₹309 per cylinder in November and ₹370 in December.",
+ "beats": {
+  "what": "Indian Oil's finance director shared LPG losses per cylinder on a post-results call.",
+  "why": "Crude buying stayed volatile; IOC paid from $5 below to $12 above benchmark prices.",
+  "care": "Any LPG price change is the government's call; none was announced in this report."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛢️",
+    "label": "Volatile crude costs"
+   }
+  ],
+  "event": {
+   "icon": "🔥",
+   "label": "LPG loss ₹309/cylinder"
+  },
+  "effects": [
+   {
+    "icon": "🏠",
+    "label": "₹370 projected in Dec"
+   },
+   {
+    "icon": "🏠",
+    "label": "No price move announced"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Under-recovery means IOC sells LPG below its cost. Anuj Jain, Director (Finance), said it was ₹184 per cylinder in September and ₹229 in October, projected at ₹309 in November and ₹370 in December. IOC's Q2 net profit more than doubled to ₹21,630 crore on better refining margins. Russian crude was about 55% of its basket in H1, the Middle East 24%. Whether cylinder prices change was not discussed in the report."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "If LPG losses keep rising, who should bear them?",
+   "opts": [
+    "Government subsidy",
+    "Oil companies' profits",
+    "Small price hike",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What was IOC's LPG loss per cylinder in September?",
+   "opts": [
+    "₹184",
+    "₹309",
+    "₹370",
+    "₹50"
+   ],
+   "ans": 0,
+   "why": "₹184 in September, ₹229 in October, projected ₹309 in November and ₹370 in December."
+  }
+ ],
+ "viz": [
+  {
+   "t": "trend",
+   "l": "IOC's loss per LPG cylinder (₹)",
+   "pts": [
+    [
+     "Sep",
+     184
+    ],
+    [
+     "Oct",
+     229
+    ],
+    [
+     "Nov*",
+     309
+    ],
+    [
+     "Dec*",
+     370
+    ]
+   ],
+   "unit": "₹"
+  },
+  {
+   "t": "big",
+   "v": "₹21,630 cr",
+   "l": "IOC Q2 net profit, more than doubled"
+  },
+  {
+   "t": "stack",
+   "l": "IOC crude basket, H1",
+   "total": "by source",
+   "parts": [
+    {
+     "l": "Russia",
+     "v": 55
+    },
+    {
+     "l": "Middle East",
+     "v": 24
+    },
+    {
+     "l": "Africa",
+     "v": 10
+    },
+    {
+     "l": "Brazil",
+     "v": 7
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b0f0f",
+   "#c0392b"
+  ],
+  "big": "₹309",
+  "label": "IOC's loss per LPG cylinder, Nov (projected)",
+  "motion": "drift",
+  "scene": [
+   "🛢️",
+   "🔥",
+   "🏠"
+  ]
+ },
+ "insight": "The gap was ₹184 a cylinder in September; IOC projects it doubles by December.",
+ "learn": {
+  "t": "Under-recovery = the gap between a fuel's cost and the regulated price it is sold at."
+ },
+ "watch": "Whether the Centre compensates oil companies or revises cylinder prices.",
+ "thread": "lpg-underrecovery-309-november",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Crude oil prices very volatile in Q2, carried both discounts, premium at varying intervals: IOCL official",
+   "url": "https://www.thehindu.com/business/Economy/crude-oil-prices-very-volatile-in-q2-carried-both-discounts-premium-at-varying-intervals-iocl-official/article71650317.ece"
+  }
+ ],
+ "updated": 1793494693114,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/t9f3bb/article71650425.ece/alternates/LANDSCAPE_1200/iStock-1466744855.jpg",
+  "c": "The Hindu"
+ },
+ "moment": {
+  "e": "🔥",
+  "t": "Checking my next refill",
+  "k": "refill"
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "title": "No tap water 6 am Tue to 6 pm Wed in Nampally, Mallepally, Banjara Hills",
+ "kind": "water",
+ "tag": "🏠 Home",
+ "scope": "local",
+ "city": "Hyderabad",
+ "sev": 2,
+ "ts": 1793494707773,
+ "until": 1793795400000,
+ "body": "HMWSSB is plugging major leaks in the Gandipet conduit near Sabza Colony, Tolichowki and Manikonda. Supply stops for 36 hours from 6 am Nov 3 to 6 pm Nov 4 in parts of Golconda zone, Kavadiguda and Banjara Hills.",
+ "means": [
+  "Store two days of drinking water by Monday night",
+  "Areas: Red Hills, Nampally, Mallepally, Asif Nagar, Domalguda, Banjara Hills ward and more",
+  "HMWSSB asks everyone to use water sparingly"
+ ],
+ "care": "Fill tanks and store water by Monday night.",
+ "steps": [
+  {
+   "t": "What",
+   "b": "36-hour water shutdown, Nov 3–4."
+  },
+  {
+   "t": "Why",
+   "b": "Gandipet conduit leak repairs."
+  },
+  {
+   "t": "Next",
+   "b": "Supply back 6 pm Wednesday."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "36 hrs",
+   "l": "without tap water, Nov 3–4"
+  }
+ ],
+ "poll": {
+  "q": "Is your area on the shutdown list?",
+  "opts": [
+   "Yes, storing water",
+   "Yes, have a sump",
+   "No",
+   "Not sure"
+  ]
+ },
+ "src": [
+  {
+   "name": "Telangana Today",
+   "url": "https://telanganatoday.com/36-hour-water-supply-disruption-in-parts-of-hyderabad-from-nov-3"
+  },
+  {
+   "name": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/water-supply-to-be-disrupted-in-parts-of-hyderabad-for-36-hours-2000698"
+  }
+ ],
+ "open": "d20261101-hyd-water-cut-36hrs-nov3",
+ "verified": true
+}
