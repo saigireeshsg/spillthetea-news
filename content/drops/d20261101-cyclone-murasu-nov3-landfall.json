@@ -8,12 +8,12 @@
  "readSecs": 30,
  "topic": "Second cyclone in a week: *120 kmph* sto",
  "hook": "Bay system now a *deep depression*; 'Murasu' due within hours",
- "hook_b": "Travelling to coastal Andhra this week? Landfall is due *Nov 3*",
+ "hook_b": "Hyderabad, get the umbrella out: Murasu brings *rain + gusts* to Telangana",
  "tldr": "IMD: the Bay depression has become a deep depression; landfall as a severe cyclonic storm Nov 3, Nellore–Narsapur.",
  "beats": {
   "what": "A Bay of Bengal depression is set to become a severe cyclonic storm by Nov 2.",
   "why": "A low-pressure area formed over the south Andaman Sea on Oct 29 and keeps strengthening.",
-  "care": "Trips to coastal AP Nov 2–3? Check train and bus status before leaving."
+  "care": "Trips to coastal AP Nov 2–3? Check train and bus status. In Telangana, expect rain, thunder and gusty winds over the next few days."
  },
  "map": {
   "causes": [
@@ -34,6 +34,10 @@
    {
     "icon": "🚫",
     "label": "Fishing halt Nov 2–4"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Telangana: rain, gusty winds"
    }
   ]
  },
@@ -41,7 +45,7 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "Update, Nov 1 midday: the depression has intensified into a deep depression over the Bay of Bengal (The Hindu). IMD says it may become cyclonic storm 'Murasu' within about six hours, and a severe cyclonic storm over the westcentral Bay on Nov 2 (Hindustan Times). It is likely to cross the AP coast between Nellore and Narsapur on Nov 3, at 100–110 kmph gusting 120 kmph. HT also reports a heavy rain alert for Andhra and Tamil Nadu till Nov 3. Earlier: APSDMA flagged heavy to very heavy rain on Nov 2 in Eluru, West Godavari, NTR, Krishna, Guntur, Bapatla, Palnadu, Prakasam, Markapuram, Nellore and Tirupati; fishermen told to stay off the sea Nov 2–4."
+   "body": "Update, Nov 1 evening: Telangana is likely to get rain, thunderstorms and gusty winds over the coming days as the system moves in (Telangana Today). Update, Nov 1 midday: the depression has intensified into a deep depression over the Bay of Bengal (The Hindu). IMD says it may become cyclonic storm 'Murasu' within about six hours, and a severe cyclonic storm over the westcentral Bay on Nov 2 (Hindustan Times). It is likely to cross the AP coast between Nellore and Narsapur on Nov 3, at 100–110 kmph gusting 120 kmph. HT also reports a heavy rain alert for Andhra and Tamil Nadu till Nov 3. Earlier: APSDMA flagged heavy to very heavy rain on Nov 2 in Eluru, West Godavari, NTR, Krishna, Guntur, Bapatla, Palnadu, Prakasam, Markapuram, Nellore and Tirupati; fishermen told to stay off the sea Nov 2–4."
   },
   {
    "k": "poll",
@@ -121,6 +125,11 @@
  "thread": "cyclone-murasu-nov3-landfall",
  "sources": [
   {
+   "name": "Telangana Today",
+   "title": "Telangana braces for heavy rains, squally weather over coming days under Cyclone Murasu",
+   "url": "https://telanganatoday.com/telangana-braces-for-heavy-rains-squally-weather-over-coming-days-under-cyclone-murasu"
+  },
+  {
    "name": "The Hindu",
    "title": "Depression intensifies into deep depression over Bay of Bengal",
    "url": "https://www.thehindu.com/news/national/andhra-pradesh/bay-of-bengal-deep-depression-cyclonic-storm-andhra-pradesh-november-1-2026-updates/article71652131.ece"
@@ -136,7 +145,7 @@
    "url": "https://www.thehindu.com/news/national/andhra-pradesh/after-arnab-andhra-pradesh-may-face-another-severe-cyclonic-storm/article71649303.ece"
   }
  ],
- "updated": 1793517656708,
+ "updated": "2026-11-01T13:50:09+05:30",
  "img": {
   "u": "https://th-i.thgim.com/public/incoming/ddkziq/article71652268.ece/alternates/LANDSCAPE_1200/VSP01_Fishing%20Boats%20%201.JPG",
   "c": "The Hindu"
