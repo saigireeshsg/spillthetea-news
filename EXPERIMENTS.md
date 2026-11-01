@@ -55,3 +55,4 @@ One line per experiment: date · what · result.
 - 2026-11-01 (hourly) · d20261101-ugc-net-fee-deadline-nov1: A = stake-first 'pay by tonight' vs B = curiosity 'it's not done till you pay' · running
 - 2026-11-01 (hourly) · d20261101-tg-hc-stays-bar-privilege-fee: A = statement '4 weeks pause' vs B = question/stake 'bar bills about to jump?' · running
 - 2026-11-01 (evening) · 7 new drops with hook_b: A = number-first statement vs B = stake/question ('Five days, longer hours…?', 'Imports, not shopping…?'); cyber card B = curiosity on 42% frozen funds · running
+- 2026-11-01 (half-hourly :43) · d20261101-cyclone-murasu-nov3-landfall updated in place (red alert, 5 AP districts); existing hook_b (Hyderabad stake-first) keeps running · running
