@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-99",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 25,
+ "topic": "TG High Court pauses new bar privilege fee",
+ "hook": "🍻 HC hits pause on Telangana's new bar fee for 4 weeks",
+ "hook_b": "Bar bills in Telangana about to jump? HC just said *wait*",
+ "tldr": "The Telangana High Court on Oct 30 stayed collection of the new Special Privilege Fee on 2B bar and restaurant licence holders for four weeks.",
+ "beats": {
+  "what": "Telangana HC stayed the newly introduced Special Privilege Fee on Form 2B bar licences for four weeks (Oct 30).",
+  "why": "Bar owners say the privilege cess was raised from 10% to 16–20%; the Telangana State Bars and Restaurants Association called shutdowns against it.",
+  "care": "For now bars don't pay the new levy, so there's no fee-driven reason for your bar bill to rise. The final call comes after the stay."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧾",
+    "label": "New Special Privilege Fee on 2B bars"
+   },
+   {
+    "icon": "✊",
+    "label": "Owners' bandh, Oct 26"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "HC stays collection, 4 weeks"
+  },
+  "effects": [
+   {
+    "icon": "🍻",
+    "label": "Old rates continue for now"
+   },
+   {
+    "icon": "📅",
+    "label": "Fight returns after stay"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "⚖️ Paused. On Friday, Oct 30, the Telangana High Court stayed the collection of the Special Privilege Fee for four weeks. It's an extra levy on Form 2B licence holders, the regular bars and restaurants that serve liquor. Owners say the privilege cess went from 10% to 16–20%. On Oct 26 the Telangana State Bars and Restaurants Association shut bars in Suryapet in protest. The excise department hasn't said publicly how it will respond. We couldn't confirm the next hearing date or whether bars had already started paying."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "If bars pass a new fee on, what do you do?",
+   "opts": [
+    "Pay it, whatever",
+    "Drink less often",
+    "Go to a bar outside the state",
+    "Fee was fair, owners overreacted"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "For how long did the HC stay the new bar fee?",
+   "opts": [
+    "1 week",
+    "2 weeks",
+    "4 weeks",
+    "Until 2027"
+   ],
+   "ans": 2,
+   "why": "The Telangana High Court stayed collection for four weeks on Oct 30."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Privilege cess on bars (as owners report it)",
+   "a": {
+    "v": 10,
+    "d": "10%",
+    "l": "Before"
+   },
+   "b": {
+    "v": 20,
+    "d": "16–20%",
+    "l": "New, now stayed"
+   }
+  },
+  {
+   "t": "timeline",
+   "l": "Bar fee fight",
+   "now": 2,
+   "steps": [
+    {
+     "t": "Early Oct",
+     "e": "Fee revamp; owners protest"
+    },
+    {
+     "t": "Oct 26",
+     "e": "Bars shut in Suryapet"
+    },
+    {
+     "t": "Oct 30",
+     "e": "HC stays it, 4 weeks"
+    },
+    {
+     "t": "Late Nov",
+     "e": "Stay runs out"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2a1606",
+   "#b8650f"
+  ],
+  "big": "4 wks",
+  "label": "Bar fee on hold",
+  "motion": "drift",
+  "scene": [
+   "🍻",
+   "⚖️",
+   "🧾"
+  ]
+ },
+ "insight": "A stay isn't a win: the levy can come back once the four weeks are up unless the court strikes it down.",
+ "watch": "Next HC hearing and whether the excise department revises the fee slabs.",
+ "thread": "tg-bar-privilege-fee",
+ "city": "Hyderabad",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Telangana High Court stays new fee on bars, restaurants",
+   "url": "https://www.siasat.com/telangana-high-court-stays-new-fee-on-bars-restaurants-3568041/"
+  },
+  {
+   "name": "Deccan Chronicle",
+   "title": "Bars and restaurant observe bandh against privilege tax hike",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/bars-and-restaurant-observe-bandh-against-privilege-tax-hike-1999061"
+  }
+ ],
+ "updated": 1793530260563
+}
