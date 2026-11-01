@@ -1,0 +1,94 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-62",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Telangana SIR voter deletions",
+ "hook": "*50,908* voter-deletion forms filed in Telangana after the SIR deadline",
+ "hook_b": "Is your name still on the Telangana voter list?",
+ "tldr": "Telangana Today reports 50,908 Form 7 (deletion) applications filed Oct 8–31, after the SIR claims and objections deadline. Officials attribute the figures to a data glitch; the high number of approvals has raised questions about the process.",
+ "beats": {
+  "what": "50,908 Form 7 voter-deletion applications recorded after the SIR deadline",
+  "why": "SIR = Special Intensive Revision of electoral rolls; Form 7 seeks deletion of a name",
+  "care": "A deletion can remove a voter from the roll; how many were approved and why is not detailed yet"
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗓️",
+    "label": "SIR deadline passed"
+   }
+  ],
+  "event": {
+   "icon": "🗳️",
+   "label": "50,908 Form 7s logged Oct 8–31"
+  },
+  "effects": [
+   {
+    "icon": "❓",
+    "label": "Officials: data glitch"
+   },
+   {
+    "icon": "❓",
+    "label": "Approvals questioned"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Per Telangana Today: 50,908 Form 7 applications seeking voter deletions were recorded between October 8 and 31, after the SIR claims and objections deadline. Officials attributed the figures to a data glitch. The report says the high number of approvals has raised questions about the process. District-wise numbers, the exact approval count and any review step are not in the report yet."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Late voter-deletion forms: what do you want from officials?",
+   "opts": [
+    "Full audit of every deletion",
+    "Public district-wise numbers",
+    "Glitch explanation is enough",
+    "Not sure / not my issue"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "50,908",
+   "l": "Form 7 deletion pleas after deadline"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "50,908",
+  "label": "Form 7 deletion pleas after deadline",
+  "motion": "drift",
+  "scene": [
+   "🗓️",
+   "🗳️",
+   "❓"
+  ]
+ },
+ "insight": "Form 7 is the form used to ask for a name to be deleted from the voter roll, and Telangana logged 50,908 of them between October 8 and 31, after claims and objections had closed.",
+ "learn": {
+  "t": "Form 6 adds a voter, Form 7 objects to or seeks deletion of a name, Form 8 corrects details."
+ },
+ "watch": "Whether the election office publishes district-wise deletion and approval figures.",
+ "thread": "tg-sir-form7-50908-after-deadline",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana SIR: Over 50,000 Form 7 applications filed after deadline",
+   "url": "https://telanganatoday.com/telangana-sir-over-50000-form-7-applications-filed-after-deadline"
+  }
+ ],
+ "updated": 1793538991892,
+ "city": "Hyderabad"
+}
