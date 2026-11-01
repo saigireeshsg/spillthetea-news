@@ -1,0 +1,90 @@
+{
+ "cat": "local",
+ "lead": "hyderabad",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-94",
+ "order": 2,
+ "heat": 3,
+ "readSecs": 20,
+ "topic": "Nov 2 traffic curbs: BJR Statue to MJ Market",
+ "hook": "🚦 Hyderabad: traffic curbs *1–7 pm* Sunday, BJR Statue → MJ Market",
+ "hook_b": "Out in central Hyderabad Sunday afternoon? Leave early 🚦",
+ "tldr": "Traffic restrictions likely Nov 2, 1–7 pm, for a BJP padayatra from BJR Statue to MJ Market; junctions and RTC bus routes hit.",
+ "beats": {
+  "what": "Traffic restrictions are likely on Nov 2 from 1 pm to 7 pm along a padayatra route from BJR Statue to MJ Market.",
+  "why": "A BJP padayatra uses the route; police diversions follow at junctions on the way.",
+  "care": "Travelling through central Hyderabad Sunday afternoon? Start early, expect RTC bus diversions, and check Hyderabad Traffic Police updates."
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's happening",
+   "body": "Traffic restrictions are likely in Hyderabad on Sunday, Nov 2, between 1 pm and 7 pm, for a BJP padayatra from BJR Statue to MJ Market (Telangana Today). Diversions will affect several junctions and RTC bus routes; Hyderabad Mail counts 12 junctions to avoid. Motorists are advised to plan journeys early."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Sunday afternoon in central Hyd: your move?",
+   "opts": [
+    "Leave early",
+    "Take metro",
+    "Stay home",
+    "Not my route"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "When are the Nov 2 traffic restrictions likely?",
+   "opts": [
+    "1 pm–7 pm",
+    "6 am–noon",
+    "All day",
+    "Night only"
+   ],
+   "ans": 0,
+   "why": "Telangana Today reports restrictions likely from 1 pm to 7 pm."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "6 hrs",
+   "l": "restrictions likely, 1–7 pm Nov 2"
+  },
+  {
+   "t": "big",
+   "v": "12",
+   "l": "junctions flagged to avoid (Hyderabad Mail)"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2a1a10",
+   "#c0702a"
+  ],
+  "big": "1–7 pm",
+  "label": "Sunday traffic curbs",
+  "motion": "drift",
+  "scene": [
+   "🚦",
+   "🚌",
+   "🚶"
+  ]
+ },
+ "watch": "Hyderabad Traffic Police's final advisory with exact diversions.",
+ "links": [
+  {
+   "label": "Hyderabad Traffic Police",
+   "url": "https://www.htp.gov.in"
+  }
+ ],
+ "thread": "hyd-traffic-nov2-padayatra",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad traffic restrictions on November 2 for BJP padayatra",
+   "url": "https://telanganatoday.com/hyderabad-traffic-restrictions-on-november-2-for-bjp-padayatra"
+  }
+ ],
+ "updated": "2026-11-01T19:50:00+05:30"
+}
