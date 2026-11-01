@@ -7,9 +7,9 @@
  "heat": 4,
  "readSecs": 30,
  "topic": "Second cyclone in a week: *120 kmph* sto",
- "hook": "Second cyclone in a week: *120 kmph* storm to hit AP coast Nov 3",
+ "hook": "Bay system now a *deep depression*; 'Murasu' due within hours",
  "hook_b": "Travelling to coastal Andhra this week? Landfall is due *Nov 3*",
- "tldr": "IMD expects a severe cyclonic storm to cross the AP coast between Narsapur and Nellore early Nov 3.",
+ "tldr": "IMD: the Bay depression has become a deep depression; landfall as a severe cyclonic storm Nov 3, Nellore–Narsapur.",
  "beats": {
   "what": "A Bay of Bengal depression is set to become a severe cyclonic storm by Nov 2.",
   "why": "A low-pressure area formed over the south Andaman Sea on Oct 29 and keeps strengthening.",
@@ -24,7 +24,7 @@
   ],
   "event": {
    "icon": "🌀",
-   "label": "Severe cyclone by Nov 2"
+   "label": "Deep depression, Nov 1"
   },
   "effects": [
    {
@@ -41,7 +41,7 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "At 5.30 pm Saturday the depression sat about 960 km east-southeast of Chennai and 1,030 km southeast of Machilipatnam. IMD expects a cyclonic storm by Sunday and a severe cyclonic storm by Nov 2. Landfall: early Nov 3, between Narsapur and Nellore, winds up to 120 kmph. APSDMA: heavy to very heavy rain on Nov 2 in Eluru, West Godavari, NTR, Krishna, Guntur, Bapatla, Palnadu, Prakasam, Markapuram, Nellore and Tirupati. Fishermen told to stay off the sea Nov 2–4."
+   "body": "Update, Nov 1 midday: the depression has intensified into a deep depression over the Bay of Bengal (The Hindu). IMD says it may become cyclonic storm 'Murasu' within about six hours, and a severe cyclonic storm over the westcentral Bay on Nov 2 (Hindustan Times). It is likely to cross the AP coast between Nellore and Narsapur on Nov 3, at 100–110 kmph gusting 120 kmph. HT also reports a heavy rain alert for Andhra and Tamil Nadu till Nov 3. Earlier: APSDMA flagged heavy to very heavy rain on Nov 2 in Eluru, West Godavari, NTR, Krishna, Guntur, Bapatla, Palnadu, Prakasam, Markapuram, Nellore and Tirupati; fishermen told to stay off the sea Nov 2–4."
   },
   {
    "k": "poll",
@@ -70,8 +70,8 @@
  "viz": [
   {
    "t": "big",
-   "v": "120 kmph",
-   "l": "max wind at landfall, Nov 3"
+   "v": "100–110 kmph",
+   "l": "sustained wind at landfall, gusts 120"
   },
   {
    "t": "timeline",
@@ -84,7 +84,7 @@
     },
     {
      "t": "Nov 1",
-     "e": "Cyclonic storm"
+     "e": "Deep depression; 'Murasu' next"
     },
     {
      "t": "Nov 2",
@@ -122,13 +122,23 @@
  "sources": [
   {
    "name": "The Hindu",
+   "title": "Depression intensifies into deep depression over Bay of Bengal",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/bay-of-bengal-deep-depression-cyclonic-storm-andhra-pradesh-november-1-2026-updates/article71652131.ece"
+  },
+  {
+   "name": "Hindustan Times",
+   "title": "Depression over Bay of Bengal intensified, says IMD; cyclone 'Murasu' may hit Andhra on Nov 3",
+   "url": "https://www.hindustantimes.com/india-news/depression-over-bay-of-bengal-intensified-imd-deep-depression-severe-cyclonic-storm-cyclone-murasu-andhra-november-3-latest-update-101793505939759.html"
+  },
+  {
+   "name": "The Hindu",
    "title": "After 'Arnab', Andhra Pradesh may face another severe cyclonic storm",
    "url": "https://www.thehindu.com/news/national/andhra-pradesh/after-arnab-andhra-pradesh-may-face-another-severe-cyclonic-storm/article71649303.ece"
   }
  ],
- "updated": 1793494693112,
+ "updated": 1793517656708,
  "img": {
-  "u": "https://th-i.thgim.com/public/incoming/4u5hyb/article71649937.ece/alternates/LANDSCAPE_1200/VSP01_Fishing%20Boats%20%203.JPG",
+  "u": "https://th-i.thgim.com/public/incoming/ddkziq/article71652268.ece/alternates/LANDSCAPE_1200/VSP01_Fishing%20Boats%20%201.JPG",
   "c": "The Hindu"
  },
  "storyline": "bay-cyclone-2026"

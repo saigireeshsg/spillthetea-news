@@ -1,0 +1,145 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-72",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Delhi to Agra in *59 minutes*: PM clears",
+ "hook": "Delhi to Agra in *59 minutes*: PM clears north bullet corridor",
+ "hook_b": "Could a Taj day trip take under an hour? Minister says *59 min*",
+ "tldr": "Railway minister Ashwini Vaishnaw says PM Modi approved the north bullet train corridor; timings are indicative.",
+ "beats": {
+  "what": "PM Modi approved the northern corridor of India's bullet train network, per Railway Minister Ashwini Vaishnaw.",
+  "why": "Vaishnaw announced it in Varanasi on Oct 31, before flagging off the Varanasi–New Delhi Vande Bharat Sleeper.",
+  "care": "No cost, timeline or station-wise timetable yet. The times quoted are indicative, not final."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎤",
+    "label": "Vaishnaw, Varanasi, Oct 31"
+   }
+  ],
+  "event": {
+   "icon": "🚄",
+   "label": "North corridor approved"
+  },
+  "effects": [
+   {
+    "icon": "⏱️",
+    "label": "Delhi–Lucknow 2h 12m"
+   },
+   {
+    "icon": "⏱️",
+    "label": "Cost, dates not out"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Railway Minister Ashwini Vaishnaw said on Oct 31 in Varanasi that PM Modi has approved the north corridor. Indicative times he shared: Delhi–Agra 59 min, Delhi–Kanpur 1 hr 45 min, Delhi–Lucknow 2 hr 12 min, Lucknow–Varanasi 1 hr 21 min, Varanasi–Delhi 3 hr 35 min. The route is planned to run Delhi, Agra, Kanpur, Lucknow, Ayodhya, Varanasi, Prayagraj, Patna, Siliguri and then Guwahati. Cost and completion date: not announced yet. Vaishnaw said it will be fully 'Make in India'."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "New bullet corridor: what's your condition?",
+   "opts": [
+    "Build it, fast",
+    "Fix regular trains first",
+    "Show cost and timeline first",
+    "Not my route"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which city is the planned corridor's far end?",
+   "opts": [
+    "Guwahati",
+    "Mumbai",
+    "Hyderabad",
+    "Jaipur"
+   ],
+   "ans": 0,
+   "why": "Per Vaishnaw, the route extends past Siliguri to Guwahati in Assam."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "59 min",
+   "l": "Delhi–Agra, indicative"
+  },
+  {
+   "t": "trend",
+   "l": "Indicative time from Delhi (minutes)",
+   "pts": [
+    [
+     "Agra",
+     59
+    ],
+    [
+     "Kanpur",
+     105
+    ],
+    [
+     "Lucknow",
+     132
+    ],
+    [
+     "Varanasi",
+     215
+    ]
+   ],
+   "unit": " min"
+  },
+  {
+   "t": "icons",
+   "n": 10,
+   "of": 10,
+   "icon": "📍",
+   "d": "10 cities",
+   "l": "on the planned route, Delhi to Guwahati"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "59 min",
+  "label": "Delhi–Agra, indicative",
+  "motion": "drift",
+  "scene": [
+   "🎤",
+   "🚄",
+   "⏱️"
+  ]
+ },
+ "insight": "The planned line runs Delhi–Agra–Kanpur–Lucknow–Ayodhya–Varanasi–Prayagraj–Patna–Siliguri, then on to Guwahati.",
+ "learn": {
+  "t": "A corridor is a planned high-speed line; approval comes before detailed costing and timetables."
+ },
+ "watch": "Official cost, Cabinet note, and when construction starts.",
+ "thread": "north-bullet-train-delhi-agra-59min",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Delhi to Agra in 59 minutes, Lucknow in 2 hours: PM Modi approves bullet train corridor",
+   "url": "https://timesofindia.indiatimes.com/life-style/travel/news/delhi-to-agra-in-59-minutes-lucknow-in-2-hours-and-varanasi-in-3-5-hours-pm-modi-approves-bullet-train-corridor-that-could-bring-north-indias-top-destinations-closer/articleshow/135417577.cms"
+  }
+ ],
+ "updated": 1793517656670,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135418031,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "moment": {
+  "e": "🚄",
+  "t": "I'd take a Taj day trip",
+  "k": "bullet-north"
+ }
+}
