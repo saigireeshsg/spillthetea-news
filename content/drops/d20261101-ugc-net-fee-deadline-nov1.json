@@ -1,0 +1,134 @@
+{
+ "cat": "campus",
+ "lead": "campus",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-96",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 25,
+ "topic": "UGC NET Dec 2026 fee: last day today",
+ "hook": "UGC NET Dec 2026: form filled but fee unpaid? Pay by *tonight*",
+ "hook_b": "Filled the UGC NET form last week? It's *not* done till you pay",
+ "tldr": "NTA has extended the UGC NET December 2026 fee payment window till tonight (Nov 1) for candidates who submitted the form but did not pay.",
+ "beats": {
+  "what": "NTA extended the UGC NET December 2026 fee payment deadline to November 1.",
+  "why": "The application deadline was already pushed from Oct 28 to Oct 31; this gives unpaid applicants one more day.",
+  "care": "Applied but didn't pay? Your form isn't complete. Pay on ugcnet.nta.nic.in tonight."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📝",
+    "label": "Forms filled, fees unpaid"
+   }
+  ],
+  "event": {
+   "icon": "⏰",
+   "label": "Fee window extended to Nov 1"
+  },
+  "effects": [
+   {
+    "icon": "💳",
+    "label": "Pay tonight or lose the attempt"
+   },
+   {
+    "icon": "📅",
+    "label": "Exam from Dec 14"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "🎓 Deadline. NTA has given UGC NET December 2026 applicants who submitted the form but didn't pay the fee one more day: the payment window is open till tonight, Nov 1. The application deadline itself was already extended from Oct 28 to Oct 31. The exam is scheduled to start Dec 14. Do it on the official site ugcnet.nta.nic.in, not via agents. Exact closing time and correction-window dates: check the NTA notice on the site; we couldn't confirm them."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Why do people miss exam fee deadlines?",
+   "opts": [
+    "Payment gateway fails",
+    "Forgot after filling form",
+    "Waiting for money",
+    "Didn't know it was separate"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "When is the UGC NET Dec 2026 fee deadline?",
+   "opts": [
+    "Oct 28",
+    "Oct 31",
+    "Nov 1",
+    "Dec 14"
+   ],
+   "ans": 2,
+   "why": "NTA extended the fee payment window to Nov 1 for those who filled the form but didn't pay."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Tonight",
+   "l": "last chance to pay the UGC NET fee"
+  },
+  {
+   "t": "timeline",
+   "l": "UGC NET Dec 2026",
+   "now": 2,
+   "steps": [
+    {
+     "t": "Oct 28",
+     "e": "Original form deadline"
+    },
+    {
+     "t": "Oct 31",
+     "e": "Extended form deadline"
+    },
+    {
+     "t": "Nov 1",
+     "e": "Fee payment closes"
+    },
+    {
+     "t": "Dec 14",
+     "e": "Exam begins"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b1a3d",
+   "#7a3fb0"
+  ],
+  "big": "Nov 1",
+  "label": "UGC NET fee deadline",
+  "motion": "drift",
+  "scene": [
+   "🎓",
+   "💳",
+   "⏰"
+  ]
+ },
+ "insight": "Filling the form isn't enough: an unpaid application usually doesn't count.",
+ "watch": "Correction window and city-slip dates on ugcnet.nta.nic.in.",
+ "thread": "ugc-net-dec-2026",
+ "cta": {
+  "label": "Official notice",
+  "url": "https://ugcnet.nta.nic.in"
+ },
+ "sources": [
+  {
+   "name": "NDTV",
+   "title": "NTA Extends UGC NET December 2026 Fee Payment Window Till Tonight",
+   "url": "https://www.ndtv.com/education/national-testing-agency-extends-ugc-net-december-2026-fee-payment-window-till-tonight-12266755"
+  },
+  {
+   "name": "Careers360",
+   "title": "UGC NET December 2026: NTA extends application deadline to October 31, exam from Dec 14",
+   "url": "https://news.careers360.com/ugc-net-december-2026-nta-extends-application-deadline-october-31-exam-from-dec-14-ugcnet-nta-nic-in"
+  }
+ ],
+ "updated": 1793526642995
+}

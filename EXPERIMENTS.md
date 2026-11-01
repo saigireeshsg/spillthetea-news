@@ -52,3 +52,4 @@ One line per experiment: date · what · result.
 - 2026-10-31 (hourly, ~22:30 IST) · d20261026-hyd-rice-90-a-kg: updated in place (TG MRP ₹66–79/kg for 3 fine rice varieties); A = cap-vs-shop number statement vs B = question 'will the ₹79 cap bring it down?' · running
 2026-11-01 · morning: hook_b A/B on all 10 drops (question/stake vs number-first); water-cut card stake-first B · running
 - 2026-11-01 (half-hourly :43) · d20261101-cyclone-murasu-nov3-landfall: updated in place (Telangana rain/gusts); hook_b switched to local-stake 'Hyderabad, get the umbrella out' vs A deep-depression statement · running
+- 2026-11-01 (hourly) · d20261101-ugc-net-fee-deadline-nov1: A = stake-first 'pay by tonight' vs B = curiosity 'it's not done till you pay' · running
