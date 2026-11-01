@@ -1,0 +1,146 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-56",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 45,
+ "topic": "India's first bullet train seats *557*, ",
+ "hook": "India's first bullet train seats *557*, built in Bengaluru",
+ "hook_b": "249 km/h, Wi-Fi, 3×2 seats: meet India's bullet train *B28*",
+ "tldr": "B28, for the Mumbai–Ahmedabad line, tests at 280 km/h, runs at 249 km/h and seats about 557.",
+ "beats": {
+  "what": "Details of B28, the indigenous trainset for the Mumbai–Ahmedabad bullet corridor, are out.",
+  "why": "India is building its own high-speed train at BEML instead of only importing one.",
+  "care": "Seven of eight coaches are standard class. Fares and launch date are not announced."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏭",
+    "label": "Made-in-India bullet push"
+   }
+  ],
+  "event": {
+   "icon": "🚄",
+   "label": "B28 specs revealed"
+  },
+  "effects": [
+   {
+    "icon": "🎫",
+    "label": "557 seats, 249 km/h"
+   },
+   {
+    "icon": "🎫",
+    "label": "Fares, date not out"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "B28 is about 202 m long: 4 motor cars and 4 trailer cars. Seven standard coaches have 3×2 seats; one executive coach has 2×2. Space for 2 wheelchair users, level boarding, Braille signs. LCD info in English, Hindi and regional languages, Wi-Fi infotainment with preloaded content, charging points. Runs on 25 kV AC with regenerative braking. Launch date and fares were not in the report."
+  },
+  {
+   "k": "num",
+   "title": "♿ Built in",
+   "body": "Floor level with the platform, retractable footsteps, wheelchair-wide doors, accessible seats and toilet."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What matters most in a bullet train for you?",
+   "opts": [
+    "Affordable fares",
+    "Top speed",
+    "Comfort and Wi-Fi",
+    "Not my issue"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Where is the B28 bullet train being built?",
+   "opts": [
+    "BEML, Bengaluru",
+    "ICF, Chennai",
+    "Kawasaki, Japan",
+    "RCF, Kapurthala"
+   ],
+   "ans": 0,
+   "why": "It is being made indigenously at BEML's Aditya Plant in Bengaluru."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "557",
+   "l": "passengers per 8-coach B28"
+  },
+  {
+   "t": "compare",
+   "l": "Speed",
+   "a": {
+    "v": 249,
+    "d": "249 km/h",
+    "l": "Operating"
+   },
+   "b": {
+    "v": 280,
+    "d": "280 km/h",
+    "l": "Test max"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "stack",
+   "l": "Coaches",
+   "total": "8 coaches",
+   "parts": [
+    {
+     "l": "Standard (3×2)",
+     "v": 7
+    },
+    {
+     "l": "Executive (2×2)",
+     "v": 1
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "557",
+  "label": "passengers per 8-coach B28",
+  "motion": "drift",
+  "scene": [
+   "🏭",
+   "🚄",
+   "🎫"
+  ]
+ },
+ "insight": "BEML is building the 8-coach B28 at its Aditya Plant in Bengaluru; two can couple into 16 coaches.",
+ "watch": "Trial-run dates and fares for Mumbai–Ahmedabad.",
+ "thread": "b28-bullet-train-557-seats",
+ "sources": [
+  {
+   "name": "Indian Express",
+   "title": "India's first bullet train B28: 280 kmph speed, 557 passengers capacity — key features explained",
+   "url": "https://indianexpress.com/article/india/india-first-bullet-train-b28-speed-capacity-features-10946006/"
+  }
+ ],
+ "updated": 1793534573326,
+ "img": {
+  "u": "https://images.indianexpress.com/2026/11/bullet-train-2.jpg",
+  "c": "Indian Express"
+ },
+ "moment": {
+  "e": "🚄",
+  "t": "Want to ride it first",
+  "k": "b28"
+ }
+}

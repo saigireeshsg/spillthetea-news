@@ -1,0 +1,140 @@
+{
+ "cat": "sport",
+ "lead": "sport",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-55",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 45,
+ "topic": "India lose Hamilton finale, still take N",
+ "hook": "India lose Hamilton finale, still take NZ T20 series *3-2*",
+ "hook_b": "Seifert's *93* off 50 spoils India's series party in Hamilton",
+ "tldr": "New Zealand beat India by 7 wickets in the 5th T20I, but India won the series 3-2.",
+ "beats": {
+  "what": "NZ won the final T20I in Hamilton on Nov 1; India had already sealed the series.",
+  "why": "Tim Seifert hit 93 off 50 and Glenn Phillips 65* off 38 to chase India's 191/8.",
+  "care": "Series in the bag; the ODIs against New Zealand come next."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏆",
+    "label": "India up 3-1, rest XI"
+   }
+  ],
+  "event": {
+   "icon": "🏏",
+   "label": "NZ win 5th T20I by 7 wkts"
+  },
+  "effects": [
+   {
+    "icon": "📅",
+    "label": "India take series 3-2"
+   },
+   {
+    "icon": "📅",
+    "label": "ODIs next"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "India made 191/8 around fifties from Shreyas Iyer and Ishan Kishan (61 off 32, per TOI). Kishan became the third-fastest Indian to 2,000 T20I runs by balls faced (1,345). Seifert hit 11 fours and 5 sixes. NZ reached 195/3. India made two changes: Bhuvneshwar Kumar returned and Varun Chakaravarthy played his first game of the tour."
+  },
+  {
+   "k": "num",
+   "title": "🏏 Kishan milestone",
+   "body": "2,000 T20I runs in 1,345 balls: third-fastest Indian by balls faced."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Series won, finale lost. Your verdict?",
+   "opts": [
+    "Series win is what counts",
+    "Finale loss is a worry",
+    "Good bench run-out",
+    "Didn't follow"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Who top-scored for New Zealand in the 5th T20I?",
+   "opts": [
+    "Tim Seifert (93)",
+    "Glenn Phillips (65*)",
+    "Daryl Mitchell",
+    "Finn Allen"
+   ],
+   "ans": 0,
+   "why": "Seifert hit 93 off 50 balls; Phillips made 65 not out."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "3-2",
+   "l": "India win the T20I series"
+  },
+  {
+   "t": "compare",
+   "l": "5th T20I, Hamilton",
+   "a": {
+    "v": 191,
+    "d": "191/8",
+    "l": "India"
+   },
+   "b": {
+    "v": 195,
+    "d": "195/3",
+    "l": "New Zealand"
+   }
+  },
+  {
+   "t": "big",
+   "v": "93 (50)",
+   "l": "Tim Seifert's knock"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b1a10",
+   "#b5651d"
+  ],
+  "big": "3-2",
+  "label": "India win the T20I series",
+  "motion": "drift",
+  "scene": [
+   "🏆",
+   "🏏",
+   "📅"
+  ]
+ },
+ "insight": "NZ chased 192 with 195/3; Seifert and Phillips added 86 for the third wicket.",
+ "watch": "India's ODI XI for the New Zealand series.",
+ "thread": "ind-nz-t20-series-3-2",
+ "sources": [
+  {
+   "name": "Siasat (PTI)",
+   "title": "Seifert, Milne power NZ to 7-wicket win; India clinch series 3-2",
+   "url": "https://www.siasat.com/seifert-milne-power-nz-to-7-wicket-win-india-clinch-series-3-2-3568187/"
+  },
+  {
+   "name": "Times of India",
+   "title": "Seifert, Phillips power New Zealand to win in the final T20I; India take series 3-2",
+   "url": "https://timesofindia.indiatimes.com/sports/cricket/india-vs-new-zealand/tim-seifert-glenn-phillips-power-new-zealand-to-7-wicket-win-in-the-final-t20i-as-india-take-series-3-2/articleshow/135424806.cms"
+  }
+ ],
+ "updated": 1793534573328,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/New-Zealand-India-Cricket.jpg",
+  "c": "Siasat"
+ },
+ "moment": {
+  "e": "🏏",
+  "t": "Watched every over",
+  "k": "indnz"
+ }
+}

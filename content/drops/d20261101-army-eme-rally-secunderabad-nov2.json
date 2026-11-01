@@ -1,0 +1,136 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-58",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 45,
+ "topic": "Army re-enrolment rally at Secunderabad ",
+ "hook": "Army re-enrolment rally at Secunderabad *tomorrow*, report 7.30 am",
+ "hook_b": "Retired from EME, under 46? Army rally at 1 EME Centre *Nov 2*",
+ "tldr": "Defence Security Corps holds a Sepoy (GD) re-enrolment rally for retired EME personnel at 1 EME Centre, Secunderabad, on Nov 2.",
+ "beats": {
+  "what": "DSC will re-enrol retired EME personnel as Sepoy (General Duty) on Monday, Nov 2.",
+  "why": "The Defence Security Corps recruits ex-servicemen to guard defence installations.",
+  "care": "Know a recently retired EME jawan? Forward this. Reporting is 7.30 am Monday."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎖️",
+    "label": "DSC needs Sepoys (GD)"
+   }
+  ],
+  "event": {
+   "icon": "🪖",
+   "label": "Rally at 1 EME Centre"
+  },
+  "effects": [
+   {
+    "icon": "📋",
+    "label": "Retired ≤2 yrs, age ≤46"
+   },
+   {
+    "icon": "📋",
+    "label": "Report 7.30 am Nov 2"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Venue: Recruitment Cell, Headquarters, 1 EME Centre, Secunderabad. Report at 7.30 am on Nov 2. Open to EME Other Ranks retired within the last two years, not above 46 as on Oct 1, 2026. Trades: Armourer, Driver MT, Operator, Driver Recovery. Queries: 040-27863016. Number of posts was not given."
+  },
+  {
+   "k": "num",
+   "title": "✅ Who can go",
+   "body": "Retired from Corps of EME within 2 years · max 46 years on Oct 1, 2026 · Armourer, Driver MT, Operator or Driver Recovery trade."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should more jobs reopen for ex-servicemen?",
+   "opts": [
+    "Yes, many more",
+    "Only security roles",
+    "Keep it as is",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Where is the Nov 2 Army re-enrolment rally?",
+   "opts": [
+    "1 EME Centre, Secunderabad",
+    "Parade Grounds",
+    "Golconda Fort",
+    "Gachibowli Stadium"
+   ],
+   "ans": 0,
+   "why": "Candidates report at the Recruitment Cell, HQ 1 EME Centre, Secunderabad, at 7.30 am."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Nov 2",
+   "l": "rally day, report 7.30 am"
+  },
+  {
+   "t": "big",
+   "v": "46 yrs",
+   "l": "max age on Oct 1, 2026"
+  },
+  {
+   "t": "timeline",
+   "l": "Rally",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Sun 1",
+     "e": "Notice out"
+    },
+    {
+     "t": "Mon 2, 7.30 am",
+     "e": "Report at 1 EME Centre"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 2",
+  "label": "rally day, report 7.30 am",
+  "motion": "drift",
+  "scene": [
+   "🎖️",
+   "🪖",
+   "📋"
+  ]
+ },
+ "insight": "Only EME Other Ranks who retired in the last two years, aged 46 or under, can join.",
+ "watch": "Posts filled and whether more DSC rallies follow.",
+ "thread": "army-eme-rally-secunderabad-nov2",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Indian Army to hold recruitment rally for retired EME personnel in Secunderabad on November 2",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/indian-army-to-hold-recruitment-rally-for-retired-eme-personnel-in-secunderabad-on-november-2/article71648930.ece"
+  }
+ ],
+ "updated": 1793534573326,
+ "city": "Hyderabad",
+ "moment": {
+  "e": "🎖️",
+  "t": "Forwarding to a veteran",
+  "k": "veteran"
+ },
+ "areas": [
+  "Secunderabad"
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "cat": "campus",
+ "lead": "india",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-54",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 45,
+ "topic": "IIM Bangalore: all *608* students got su",
+ "hook": "IIM Bangalore: all *608* students got summer internship offers",
+ "hook_b": "₹2 lakh stipend for a summer internship? IIM-B's *2026* numbers",
+ "tldr": "IIM Bangalore reports 100% summer placement: 608 PGP and PGP-BA students got offers in Oct 26–29 recruiting.",
+ "beats": {
+  "what": "IIM Bangalore completed summer placements for 608 students with 100% offers.",
+  "why": "Recruiting ran Oct 26–29 for the PGP and PGP in Business Analytics batches.",
+  "care": "Eyeing CAT or an MBA? These are the internship numbers top B-schools now report."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏫",
+    "label": "Summer recruiting Oct 26–29"
+   }
+  ],
+  "event": {
+   "icon": "🎓",
+   "label": "100% offers at IIM-B"
+  },
+  "effects": [
+   {
+    "icon": "💼",
+    "label": "608 students placed"
+   },
+   {
+    "icon": "💼",
+    "label": "₹2 lakh stipend (median)"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "All 608 students in the Post Graduate Programme in Management and PGP in Business Analytics secured summer offers. The process ran Oct 26–29. NDTV Profit's headline puts the median stipend at ₹2 lakh (its web link says average). Recruiter names and sector split were not in the summary we read."
+  },
+  {
+   "k": "num",
+   "title": "📅 Speed",
+   "body": "Four days of recruiting, Oct 26–29, for the full batch."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Is a top MBA still worth it for you?",
+   "opts": [
+    "Yes, placements prove it",
+    "Only the top IIMs",
+    "Skills beat degrees",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "How many IIM Bangalore students got summer offers?",
+   "opts": [
+    "608",
+    "480",
+    "750",
+    "1,000"
+   ],
+   "ans": 0,
+   "why": "All 608 PGP and PGP-BA students secured offers, per NDTV Profit."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "608",
+   "l": "students, 100% summer offers"
+  },
+  {
+   "t": "big",
+   "v": "₹2 lakh",
+   "l": "stipend (median, per headline)"
+  },
+  {
+   "t": "timeline",
+   "l": "Summer placements",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Oct 26",
+     "e": "Recruiting opens"
+    },
+    {
+     "t": "Oct 29",
+     "e": "All 608 placed"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1c2340",
+   "#4a5fb0"
+  ],
+  "big": "608",
+  "label": "students, 100% summer offers",
+  "motion": "drift",
+  "scene": [
+   "🏫",
+   "🎓",
+   "💼"
+  ]
+ },
+ "insight": "NDTV Profit reports a ₹2 lakh stipend figure; its headline calls it the median.",
+ "watch": "Final placement season numbers later in the year.",
+ "thread": "iimb-summer-placement-608",
+ "sources": [
+  {
+   "name": "NDTV Profit",
+   "title": "IIM Bangalore Achieves 100% Summer Placement; 608 Students Secure Offers As Median Stipend Hits Rs 2 Lakh",
+   "url": "https://www.ndtvprofit.com/education/iim-bangalore-achieves-100-summer-placement-608-students-secure-offers-as-average-stipend-hits-rs-2-lakh-12266108"
+  }
+ ],
+ "updated": 1793534573329,
+ "moment": {
+  "e": "🎓",
+  "t": "Prepping for CAT now",
+  "k": "cat"
+ }
+}

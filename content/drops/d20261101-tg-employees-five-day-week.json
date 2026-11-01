@@ -1,0 +1,140 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-60",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 45,
+ "topic": "TG staff pitch a *5-day week* to save wa",
+ "hook": "TG staff pitch a *5-day week* to save water and power",
+ "hook_b": "Five days, longer hours: would it save *water and power*?",
+ "tldr": "Telangana employees' JAC asked the Chief Secretary for a five-day week, citing El Nino's water and power strain.",
+ "beats": {
+  "what": "Employee unions' JAC sent a five-day-week request to Chief Secretary Sanjay Jaju.",
+  "why": "El Nino has hit water and power; employees say one less office day saves both.",
+  "care": "Visit government offices? Timings could change if the CM agrees. No decision yet."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌡️",
+    "label": "El Nino water, power strain"
+   }
+  ],
+  "event": {
+   "icon": "🗓️",
+   "label": "JAC seeks 5-day week"
+  },
+  "effects": [
+   {
+    "icon": "🏢",
+    "label": "10 am–5.30 pm proposed"
+   },
+   {
+    "icon": "🏢",
+    "label": "CM yet to decide"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Joint Action Committee of Telangana Employees, Gazetted Officers, Teachers, Workers and Pensioners made the request. Today staff work 10.30 am–5 pm, six days, 39 hours a week. They propose 10 am–5.30 pm, five days, plus one extra hour once a week if needed. They say it matches Central government offices and costs the exchequer nothing. They point to CM Revanth Reddy's own appeal to save water, power and fuel. The government has not responded yet."
+  },
+  {
+   "k": "why",
+   "title": "🤔 Why now",
+   "body": "The State is managing an El Nino-driven water and power crunch. The JAC says fewer commute days also mean less fuel and road pollution."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Five-day week for govt offices: your take?",
+   "opts": [
+    "Yes, saves resources",
+    "Yes, if hours get longer",
+    "No, services may slow",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Who received the employees' five-day-week request?",
+   "opts": [
+    "Chief Secretary Sanjay Jaju",
+    "CM Revanth Reddy",
+    "GHMC Commissioner",
+    "Governor"
+   ],
+   "ans": 0,
+   "why": "The JAC submitted the representation to Chief Secretary Sanjay Jaju, asking him to brief the CM."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "6 → 5",
+   "l": "office days a week, proposed"
+  },
+  {
+   "t": "compare",
+   "l": "Hours a day",
+   "a": {
+    "v": 6.5,
+    "d": "6.5 hrs",
+    "l": "Now"
+   },
+   "b": {
+    "v": 7.5,
+    "d": "7.5 hrs",
+    "l": "Proposed"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "big",
+   "v": "39 hrs",
+   "l": "current work week (6 days)"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "6 → 5",
+  "label": "office days a week, proposed",
+  "motion": "drift",
+  "scene": [
+   "🌡️",
+   "🗓️",
+   "🏢"
+  ]
+ },
+ "insight": "They offer 7.5-hour days (10 am–5.30 pm) instead of 6.5 hours over six days.",
+ "watch": "Whether the Chief Secretary takes it to the CM, and any trial in Hyderabad offices.",
+ "thread": "tg-employees-five-day-week",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "El Nino: Hyderabad employees seek five-day work week",
+   "url": "https://www.thehindu.com/news/national/telangana/el-nino-hyderabad-employees-seek-five-day-work-week/article71652504.ece"
+  }
+ ],
+ "updated": 1793534573322,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/igulm7/article71652575.ece/alternates/LANDSCAPE_1200/iStock-1144645520.jpg",
+  "c": "The Hindu"
+ },
+ "moment": {
+  "e": "🗓️",
+  "t": "Want a 5-day week too",
+  "k": "fiveday"
+ },
+ "areas": [
+  "Hyderabad"
+ ]
+}

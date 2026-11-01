@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-59",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 45,
+ "topic": "Telangana's cyber-fraud losses fell *20.",
+ "hook": "Telangana's cyber-fraud losses fell *20.2%* this year",
+ "hook_b": "Scammed money frozen *42% more* often in Telangana. What changed?",
+ "tldr": "TGCSB says cyber-fraud losses fell 20.2% in Jan–Sep after 24,886 awareness drives reaching 15.48 lakh people.",
+ "beats": {
+  "what": "Telangana Cyber Security Bureau reached 15.48 lakh people through 24,886 programmes till October.",
+  "why": "October was cyber awareness month: flash walks, campus sessions, Bathukamma and Dandiya outreach.",
+  "care": "Losses are falling, but scams keep changing. Freezing money fast is what recovers it."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📣",
+    "label": "24,886 awareness drives"
+   }
+  ],
+  "event": {
+   "icon": "🛡️",
+   "label": "Fraud losses down 20.2%"
+  },
+  "effects": [
+   {
+    "icon": "🏦",
+    "label": "Frozen funds up 42.2%"
+   },
+   {
+    "icon": "🏦",
+    "label": "15.48 lakh people reached"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The month-long campaign began Oct 1 with a flash walk on Necklace Road and ended with Night Flash Walks statewide on Oct 30–31. In October alone, police ran 4,248 programmes reaching 2,78,428 people. TGCSB Director Shikha Goel said awareness is a year-round effort. The bureau targets specific scam types and vulnerable groups. Total rupee losses were not given in the report."
+  },
+  {
+   "k": "num",
+   "title": "🔢 October alone",
+   "body": "4,248 programmes, 2,78,428 people reached, in colleges, public spaces and festival gatherings."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What would cut cyber fraud the most?",
+   "opts": [
+    "Faster bank freezes",
+    "More awareness drives",
+    "Stricter app rules",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "By how much did cyber-fraud losses fall in Telangana, Jan–Sep?",
+   "opts": [
+    "20.2%",
+    "42.2%",
+    "10%",
+    "35%"
+   ],
+   "ans": 0,
+   "why": "Losses fell 20.2%, while money placed under lien in fraudsters' accounts rose 42.2%."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "20.2%",
+   "l": "drop in cyber-fraud losses, Jan–Sep"
+  },
+  {
+   "t": "big",
+   "v": "+42.2%",
+   "l": "more money frozen in fraudsters' accounts"
+  },
+  {
+   "t": "timeline",
+   "l": "Awareness month",
+   "now": 2,
+   "steps": [
+    {
+     "t": "Oct 1",
+     "e": "Necklace Road flash walk"
+    },
+    {
+     "t": "Oct 30–31",
+     "e": "Night Flash Walks statewide"
+    },
+    {
+     "t": "Nov 1",
+     "e": "15.48 lakh reached"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "20.2%",
+  "label": "drop in cyber-fraud losses, Jan–Sep",
+  "motion": "drift",
+  "scene": [
+   "📣",
+   "🛡️",
+   "🏦"
+  ]
+ },
+ "insight": "Money frozen (lien) in fraudsters' bank accounts rose 42.2% in January–September.",
+ "watch": "Whether the drop holds in Oct–Dec as new scam types spread.",
+ "thread": "tg-cyber-losses-down-20pc",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana Cyber Security Bureau reaches 15.48 lakh people through cyber awareness drives",
+   "url": "https://telanganatoday.com/telangana-cyber-security-bureau-reaches-15-48-lakh-people-through-cyber-awareness-drives"
+  }
+ ],
+ "updated": 1793534573325,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Telangana-Cyber-Security-Bureau-reaches-15-48-lakh-people-through-cyber-awareness-drives.jpg",
+  "c": "Telangana Today"
+ },
+ "moment": {
+  "e": "🛡️",
+  "t": "Nearly got scammed once",
+  "k": "scam"
+ },
+ "areas": [
+  "Hyderabad"
+ ]
+}

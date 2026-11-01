@@ -1,0 +1,150 @@
+{
+ "cat": "money",
+ "lead": "money",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-57",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 45,
+ "topic": "GST jumped *23%* in October to ₹2.31 lak",
+ "hook": "GST jumped *23%* in October to ₹2.31 lakh crore",
+ "hook_b": "Imports, not shopping, drove October's GST? Import tax up *42%*",
+ "tldr": "Gross GST hit ₹2.31 lakh crore in October, up 23%; net collections rose 26% to ₹2.03 lakh crore.",
+ "beats": {
+  "what": "Government data on Nov 1 showed gross GST of over ₹2.31 lakh crore for October.",
+  "why": "Domestic sales GST rose 16% to ₹1.59 lakh crore; import GST jumped 42% to ₹72,246 crore.",
+  "care": "GST is in every bill you pay. Higher collections give the Centre and states more to spend."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚢",
+    "label": "Import GST up 42%"
+   }
+  ],
+  "event": {
+   "icon": "🧾",
+   "label": "GST ₹2.31 lakh cr, +23%"
+  },
+  "effects": [
+   {
+    "icon": "🏛️",
+    "label": "Net ₹2.03 lakh cr, +26%"
+   },
+   {
+    "icon": "🏛️",
+    "label": "More for Centre, states"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Split: Central GST ₹42,935 crore, State GST ₹51,340 crore, Integrated GST over ₹1.37 lakh crore. Refunds rose 6.5% to ₹27,934 crore. Net of refunds, collections rose 26% to over ₹2.03 lakh crore. April–October gross GST grew 13.2% to ₹14.77 lakh crore. The report did not give state-wise or Telangana figures."
+  },
+  {
+   "k": "num",
+   "title": "🔢 Year so far",
+   "body": "April–October: gross ₹14.77 lakh crore (+13.2%), net ₹12.69 lakh crore (+13%)."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "GST collections are up. What should it fund?",
+   "opts": [
+    "Lower GST rates",
+    "Roads and metro",
+    "Health and schools",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which part of GST grew fastest in October?",
+   "opts": [
+    "Import GST (42%)",
+    "Domestic GST (16%)",
+    "Refunds (6.5%)",
+    "CGST (50%)"
+   ],
+   "ans": 0,
+   "why": "Revenue from imports climbed 42% to ₹72,246 crore; domestic sales GST rose 16%."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹2.31 lakh cr",
+   "l": "gross GST in October, +23%"
+  },
+  {
+   "t": "compare",
+   "l": "GST growth in October",
+   "a": {
+    "v": 16,
+    "d": "16%",
+    "l": "Domestic sales"
+   },
+   "b": {
+    "v": 42,
+    "d": "42%",
+    "l": "Imports"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "stack",
+   "l": "Where October's GST went",
+   "total": "₹2.31 lakh cr",
+   "parts": [
+    {
+     "l": "IGST",
+     "v": 137000
+    },
+    {
+     "l": "SGST",
+     "v": 51340
+    },
+    {
+     "l": "CGST",
+     "v": 42935
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b0f0f",
+   "#c0392b"
+  ],
+  "big": "₹2.31 lakh cr",
+  "label": "gross GST in October, +23%",
+  "motion": "drift",
+  "scene": [
+   "🚢",
+   "🧾",
+   "🏛️"
+  ]
+ },
+ "insight": "Import GST rose 42% while GST on domestic sales rose 16%.",
+ "watch": "November's figure, and whether import-led growth lasts.",
+ "thread": "gst-october-231-lakh-crore",
+ "sources": [
+  {
+   "name": "The Hindu (PTI)",
+   "title": "GST mop-up grows 23% to over ₹2.31 lakh cr. in October",
+   "url": "https://www.thehindu.com/business/Economy/gst-collections-in-october/article71652320.ece"
+  }
+ ],
+ "updated": 1793534573326,
+ "img": {
+  "u": "https://th-i.thgim.com/public/business/Economy/jl21jo/article71652329.ece/alternates/LANDSCAPE_1200/GSTcollections.jpg",
+  "c": "The Hindu"
+ },
+ "moment": {
+  "e": "💸",
+  "t": "I pay it on every bill",
+  "k": "gstbill"
+ }
+}
