@@ -348,6 +348,18 @@
 .nhero .vtv li:nth-child(n+4){display:grid!important}
 </style>
 <style>.vtv li .vt:before,.vtv li .vt:after{display:none!important}.vtv li .vt{padding-left:8px!important;color:#ffb84d!important}.vtv ol{gap:0!important}.vtv .vh{margin-bottom:10px}.vtv{padding:12px 14px!important;background:#ffffff0a!important;border-radius:14px}.nhero:has(.vtv){padding:0!important;border:0!important;background:transparent!important}</style>
+<style>
+.vtg{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 8px}.vtg.c{justify-content:center;margin:6px 0 0}
+.vtag{font-size:11px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:999px}
+.vtag.good{background:#46d16026;color:#6be38a}.vtag.bad{background:#ff5a4d26;color:#ff8f85}.vtag.neutral{background:#4fbcff22;color:#8fd3ff}
+.vrule{font-size:11.5px!important;margin:0!important}.vrule.good{color:#6be38a!important}.vrule.bad{color:#ff8f85!important}
+.vch.neutral{background:#4fbcff26;color:#8fd3ff}
+.tone-good{box-shadow:inset 3px 0 0 #46d160}.tone-bad{box-shadow:inset 3px 0 0 #ff5a4d}.tone-neutral{box-shadow:inset 3px 0 0 #4fbcff}
+.nhero .tone-good,.nhero .tone-bad,.nhero .tone-neutral,.nviz .tone-good,.nviz .tone-bad,.nviz .tone-neutral{padding-left:12px!important}
+.vvs.tone-good .vn b{color:#46d160!important}.vvs.tone-bad .vn b{color:#ff5a4d!important}.vvs.tone-neutral .vn b{color:#8fd3ff!important}
+.vvs.tone-good .var{color:#46d160}.vvs.tone-bad .var{color:#ff5a4d}.vvs.tone-neutral .var{color:#8fd3ff}
+</style>
+<style>.vtg .vtag{white-space:nowrap;display:inline-block}.vtg small.vrule{display:inline!important;margin:0!important}.vtg.c{display:flex;justify-content:center;gap:8px;margin:8px 0 4px}.vgauge small{margin-top:4px}</style>
 </head>
 <body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1590,7 +1602,7 @@ function stripHTML(d){const m=d.map;if(!m)return"";const c=(m.causes||[])[0],e=m
   return `<ol class="nstrip">${st.map(([k,x],i)=>`<li><span class="ni">${esc(x.icon||"")}</span><small>${k}</small><b>${esc(x.label||"")}</b></li>`).join("")}</ol>`}
 const _tk=s=>new Set(String(s||"").toLowerCase().replace(/[^a-z0-9₹%. ]/g," ").split(/\s+/).filter(w=>w.length>3));
 function _dup(a,b){const A=_tk(a),B=_tk(b);if(!A.size||!B.size)return false;let n=0;A.forEach(w=>{if(B.has(w))n++});return n/Math.min(A.size,B.size)>=.5}
-function storyHTML(d){const m=d.map||{},c=(m.causes||[])[0],e=m.event,f=(m.effects||[])[0];
+function storyHTML(d){VCTX=(d.hook||"")+" "+(d.fact||"")+" "+(d.tldr||"");const m=d.map||{},c=(m.causes||[])[0],e=m.event,f=(m.effects||[])[0];
   const V=vizItems(d),v=V.find(x=>x.t&&x.t!=="big");
   const seen=[plain(factOf(d)||""),plain(d.hook||"")];const fresh=t=>t&&!seen.some(s=>_dup(t,s));
   const S=[];
@@ -1608,7 +1620,7 @@ function compactHTML(d){const g=[];const V=vizItems(d),v=V.find(x=>x.t&&x.t!=="b
   return g.join("")}
 const importantD=d=>(d.heat||0)>=4||d.lead||d.cover&&d.cover.big&&(d.heat||0)>=3||d.featured;
 function bodyHTML(d){return stripHTML(d)+(importantD(d)?"":compactHTML(d))}
-function heroHTML(d){const V=vizItems(d),v=V.find(x=>x.t&&x.t!=="big"),c=d.cover||{};
+function heroHTML(d){VCTX=(d.hook||"")+" "+(d.fact||"");const V=vizItems(d),v=V.find(x=>x.t&&x.t!=="big"),c=d.cover||{};
   if(v)return `<div class="nhero">${vizOne(v)}</div>`;
   if(c.big)return `<div class="nhero nbigstat"><b>${esc(c.big)}</b><span>${esc(c.label||"")}</span></div>`;
   return ""}
@@ -1958,6 +1970,16 @@ function vizItems(d){
   const out=[];(d.cards||[]).forEach(c=>{if(c.k==="num"&&c.value)out.push({t:"big",v:c.value,l:c.caption,sub:c.body});if(c.k==="bars"&&(c.items||[]).length)out.push({t:"bars",card:c})});
   return out}
 const vNum=x=>{const n=parseFloat(String(x).replace(/[^0-9.\-]/g,""));return isNaN(n)?0:n};
+let VCTX="";
+const _BAD=/loss|fraud|scam|cyber|cancel|clos(ed|ure)|shut|death|toll|price|fare|fee\b|fine\b|inflation|cases|pollut|deficit|shortage|crime|accident|delay|hike|cost|demoli|encroach|nitrate|fluoride|poverty|unemploy|debt|booked|drunk|jam|congest|damage|outage|dry|short|stranded|suspend|ban\b|penalt|fire\b|attack|mine|strike|protest|risk/i;
+const _GOOD=/profit|growth|subscri|placement|scholar|job|recover|gst|revenue|users|savings|rain|reservoir|capacity|slots|seats|approved|funds|refund|launch|offers|wage|income|pension|restor|reopen/i;
+function vTone(x,up){if(x.tone==="good"||x.tone==="bad"||x.tone==="neutral")return x.tone;
+  if(x.goodIfUp===true)return up?"good":"bad";if(x.goodIfUp===false)return up?"bad":"good";
+  const s=(x.l||"")+" "+((x.a||{}).l||"")+" "+((x.b||{}).l||"")+" "+VCTX,bad=_BAD.test(s),good=_GOOD.test(s);
+  if(bad&&!good)return up?"bad":"good";if(good&&!bad)return up?"good":"bad";return "neutral"}
+function vTag(t,up){const w={good:["✅","Good news"],bad:["⚠️","Worrying"],neutral:["ℹ️","Watch"]}[t];
+  const rule=t==="neutral"?"":`${up?"Rising":"Falling"} is ${t==="good"?"good":"bad"} news here`;
+  return `<span class="vtag ${t}">${w[0]} ${w[1]}</span>${rule?`<small class="vrule ${t}">${up?"▲":"▼"} ${rule}</small>`:""}`}
 function vizOne(x){
   const L=x.l?`<span class="vl">${rich(x.l)}</span>`:"";
   const tone=x.tone==="bad"?"bad":x.tone==="good"?"good":"";
@@ -1965,9 +1987,9 @@ function vizOne(x){
   if(x.t==="compare"){const a=x.a||{},b=x.b||{};const av=vNum(a.v),bv=vNum(b.v),mx=Math.max(av,bv)||1;
     const ch=av?Math.round((bv-av)/av*100):null;const up=bv>=av;
     const chip=ch!=null&&isFinite(ch)?`<span class="vch ${(x.goodIfUp===false?!up:up)?"good":"bad"}">${up?"▲":"▼"} ${Math.abs(ch)}%</span>`:"";
-    return `<div class="vz vvs wide ${(x.goodIfUp===false?!up:up)?"good":"bad"}"><div class="vh">${L}${chip}</div><div class="vsr"><div class="vo"><small>${esc(a.l||"")}</small><s>${esc(a.d||a.v)}</s></div><span class="var">➜</span><div class="vn"><small>${esc(b.l||"")}</small><b>${esc(b.d||b.v)}</b></div></div></div>`}
+    const tn=vTone(x,up);return `<div class="vz vvs wide tone-${tn}"><div class="vh">${L}${chip.replace(/vch (good|bad)/,"vch "+tn)}</div><div class="vtg">${vTag(tn,up)}</div><div class="vsr"><div class="vo"><small>${esc(a.l||"")}</small><s>${esc(a.d||a.v)}</s></div><span class="var">➜</span><div class="vn"><small>${esc(b.l||"")}</small><b>${esc(b.d||b.v)}</b></div></div></div>`}
   if(x.t==="meter"){const v=vNum(x.v),m=vNum(x.max)||100,p=Math.max(0,Math.min(100,v/m*100));
-    const arc=Math.PI*40;return `<div class="vz vgauge wide"><svg viewBox="0 0 100 58" aria-hidden="true"><path d="M10 50A40 40 0 0 1 90 50" fill="none" stroke="#ffffff1c" stroke-width="9" stroke-linecap="round"/><path d="M10 50A40 40 0 0 1 90 50" fill="none" stroke="url(#gg)" stroke-width="9" stroke-linecap="round" stroke-dasharray="${arc*p/100} ${arc}"/><defs><linearGradient id="gg"><stop offset="0" stop-color="#ffb84d"/><stop offset="1" stop-color="#ff4500"/></linearGradient></defs></svg><div class="vgc"><b>${esc(x.d||Math.round(p)+"%")}</b>${L}</div>${x.note?`<small>${rich(x.note)}</small>`:""}</div>`}
+    const arc=Math.PI*40,tn=vTone(x,true),gc=tn==="good"?["#8be28f","#2fbf4f"]:tn==="bad"?["#ff9a6b","#ff3b30"]:["#7fd0ff","#2a8cff"];return `<div class="vz vgauge wide tone-${tn}"><svg viewBox="0 0 100 58" aria-hidden="true"><path d="M10 50A40 40 0 0 1 90 50" fill="none" stroke="#ffffff1c" stroke-width="9" stroke-linecap="round"/><path d="M10 50A40 40 0 0 1 90 50" fill="none" stroke="url(#gg${tn})" stroke-width="9" stroke-linecap="round" stroke-dasharray="${arc*p/100} ${arc}"/><defs><linearGradient id="gg${tn}"><stop offset="0" stop-color="${gc[0]}"/><stop offset="1" stop-color="${gc[1]}"/></linearGradient></defs></svg><div class="vgc"><b>${esc(x.d||Math.round(p)+"%")}</b>${L}</div>${tn!=="neutral"?`<div class="vtg c">${vTag(tn,true)}</div>`:""}${x.note?`<small>${rich(x.note)}</small>`:""}</div>`}
   if(x.t==="stack"){const parts=x.parts||[];const tot=parts.reduce((s,p)=>s+vNum(p.v),0)||1;const cols=["#ffd166","#c0c7cf","#d08c4b","#4fbcff","#46d160","#ff4500"];
     const r=26,C=2*Math.PI*r;let off=0;const segs=parts.map((p,i)=>{const f=vNum(p.v)/tot,len=Math.max(0,C*f-2),s=`<circle cx="32" cy="32" r="${r}" fill="none" stroke="${p.c||cols[i%cols.length]}" stroke-width="10" stroke-dasharray="${len} ${C}" stroke-dashoffset="${-off}" transform="rotate(-90 32 32)"/>`;off+=C*f;return s}).join("");
     return `<div class="vz vdn wide"><div class="vdw"><svg viewBox="0 0 64 64" aria-hidden="true">${segs}</svg><b>${esc(x.total||tot)}</b></div><div class="vleg2">${L}${parts.map((p,i)=>`<span><i style="background:${p.c||cols[i%cols.length]}"></i>${esc(p.l||"")} <b>${esc(p.d||p.v)}</b></span>`).join("")}</div></div>`}
@@ -1979,10 +2001,10 @@ function vizOne(x){
   if(x.t==="trend"){const pts=(x.pts||[]).map(p=>[p[0],vNum(p[1])]);if(pts.length<2)return"";const vs=pts.map(p=>p[1]);const lo=Math.min(...vs),hi=Math.max(...vs),rg=(hi-lo)||1;
     const W=300,H=96,P=10;const xy=pts.map((p,i)=>[P+i*(W-2*P)/(pts.length-1),H-P-14-(p[1]-lo)/rg*(H-2*P-22)]);
     const f=pts[0][1],l=pts[pts.length-1][1],up=l>=f,ch=f?Math.round((l-f)/Math.abs(f)*100):null;
-    const good=(x.goodIfUp===false?!up:up),col=good?"#46d160":"#ff5a4d";
+    const tn=vTone(x,up),good=tn==="good",col=tn==="good"?"#46d160":tn==="bad"?"#ff5a4d":"#4fbcff";
     const line=xy.map(p=>p.join(",")).join(" "),area=`${xy[0][0]},${H-10} ${line} ${xy[xy.length-1][0]},${H-10}`;
     const u=x.unit||"";const fm=v=>(x.fmt?x.fmt(v):v)+u;
-    return `<div class="vz vtrend wide ${good?"good":"bad"}"><div class="vh"><span class="vl">${rich(x.l||"")}</span>${ch!=null&&isFinite(ch)?`<span class="vch ${good?"good":"bad"}">${up?"▲":"▼"} ${Math.abs(ch)}%</span>`:""}</div><div class="vtn"><small>${esc(pts[0][0])}</small><s>${esc(x.d0||fm(f))}</s><span>➜</span><small>${esc(pts[pts.length-1][0])}</small><b style="color:${col}">${esc(x.d||fm(l))}</b></div><svg viewBox="0 0 ${W} ${H}" aria-hidden="true"><defs><linearGradient id="tg${pts.length}${Math.round(l)}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${col}" stop-opacity=".35"/><stop offset="1" stop-color="${col}" stop-opacity="0"/></linearGradient></defs><polygon class="vta" points="${area}" fill="url(#tg${pts.length}${Math.round(l)})"/><polyline class="vtl2" pathLength="1" points="${line}" fill="none" stroke="${col}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>${xy.map((p,i)=>`<circle cx="${p[0]}" cy="${p[1]}" r="${i===xy.length-1?5:3}" fill="${i===xy.length-1?col:"#1a1a1b"}" stroke="${col}" stroke-width="2"/>`).join("")}</svg><div class="vax">${pts.map(p=>`<span>${esc(p[0])}</span>`).join("")}</div></div>`}
+    return `<div class="vz vtrend wide tone-${tn}"><div class="vh"><span class="vl">${rich(x.l||"")}</span>${ch!=null&&isFinite(ch)?`<span class="vch ${tn}">${up?"▲":"▼"} ${Math.abs(ch)}%</span>`:""}</div><div class="vtg">${vTag(tn,up)}</div><div class="vtn"><small>${esc(pts[0][0])}</small><s>${esc(x.d0||fm(f))}</s><span>➜</span><small>${esc(pts[pts.length-1][0])}</small><b style="color:${col}">${esc(x.d||fm(l))}</b></div><svg viewBox="0 0 ${W} ${H}" aria-hidden="true"><defs><linearGradient id="tg${pts.length}${Math.round(l)}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${col}" stop-opacity=".35"/><stop offset="1" stop-color="${col}" stop-opacity="0"/></linearGradient></defs><polygon class="vta" points="${area}" fill="url(#tg${pts.length}${Math.round(l)})"/><polyline class="vtl2" pathLength="1" points="${line}" fill="none" stroke="${col}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>${xy.map((p,i)=>`<circle cx="${p[0]}" cy="${p[1]}" r="${i===xy.length-1?5:3}" fill="${i===xy.length-1?col:"#1a1a1b"}" stroke="${col}" stroke-width="2"/>`).join("")}</svg><div class="vax">${pts.map(p=>`<span>${esc(p[0])}</span>`).join("")}</div></div>`}
   if(x.t==="donut"){const p=Math.max(0,Math.min(100,vNum(x.v)));const r=26,c=2*Math.PI*r;
     return `<div class="vz vdonut"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="${r}" fill="none" stroke="var(--line)" stroke-width="9"/><circle cx="32" cy="32" r="${r}" fill="none" stroke="var(--orange)" stroke-width="9" stroke-dasharray="${c*p/100} ${c}" transform="rotate(-90 32 32)" stroke-linecap="round"/></svg><div><b>${esc(x.d||p+"%")}</b>${L}</div></div>`}
   if(x.t==="bars")return `<div class="vz wide vbars"><div class="vh">${x.card.title?`<span class="vl">${rich(x.card.title)}</span>`:""}</div>${barsHTML(x.card)}${x.card.note?`<small>${rich(x.card.note)}</small>`:""}</div>`;
@@ -2256,7 +2278,7 @@ function rankLive(arr){return arr.slice().sort((a,b)=>(liveFol(b)-liveFol(a))||(
 function verLabel(x){return x.verified==="official"?"✅ Official":x.verified==="2"?"✅ 2 sources":"📰 1 outlet, not yet confirmed"}
 function livePollHTML(x){const p=x.poll,id=x.id,a=me.poll[id],n=tot("poll",id),voted=a!=null,show=voted&&!fewVotes(n);const cols=["#ff4500","#4fbcff","#ffd166","#46d160"];
   return `<div class="lpoll"><div class="lph"><span>🗳️ ${voted?"You voted":"Quick vote"}</span><small>${n>=5?n+" votes":voted?"Split shows at 5 votes":"Be one of the first"}</small></div><b>${esc(p.q)}</b>${p.opts.slice(0,4).map((o,j)=>{const pc=pct("poll",id,j);return `<button class="lpo ${a===j?"mine":""}" data-act="lpoll" data-key="${esc(id)}" data-i="${j}" ${voted?"disabled":""}>${show?`<i style="width:${pc}%;background:${cols[j%4]}"></i>`:""}<span>${a===j?"✓ ":""}${esc(o)}</span>${show?`<em>${pc}%</em>`:""}</button>`}).join("")}</div>`}
-function liveStoryHTML(x){const now=Date.now(),g=[];
+function liveStoryHTML(x){VCTX=x.title||"";const now=Date.now(),g=[];
   const sv=x.sev||1,lab=sv>=3?["Act now","#ff4d4d"]:sv===2?["Watch","#ffb84d"]:["Heads-up","#4fbcff"];
   let win="";if(x.until&&x.until>now&&x.ts){const tot=x.until-x.ts,el=Math.min(1,Math.max(0,(now-x.ts)/tot)),left=x.until-now,dd=Math.floor(left/864e5),hh=Math.floor(left%864e5/36e5);win=`<div class="lwin"><div class="lwt"><span>⏱ Live window</span><b>${dd?dd+"d ":""}${hh}h left</b></div><div class="lwb"><i style="width:${Math.round(el*100)}%"></i></div></div>`}
   g.push(`<div class="lsevrow"><span class="lsev" style="--c:${lab[1]}"><i></i><i class="${sv>=2?"":"off"}"></i><i class="${sv>=3?"":"off"}"></i> ${lab[0]}</span></div>${win}`);

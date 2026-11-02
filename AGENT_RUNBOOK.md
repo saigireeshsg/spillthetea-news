@@ -422,3 +422,14 @@ The 📘 Know line shows only when a term in the headline would block understand
 
 ## Every story gets a news-specific infographic
 Each drop and live item needs at least one non-`big` viz built from its own facts: `timeline` for dated steps, windows and how-it-works, `compare` for before/after (set goodIfUp), `meter` for a share, `icons` for N-of-M, `trend` for a series. A lone `big` stat is not enough. Never invent numbers; if the source has only one figure, use a `timeline` of the dates/steps it gives.
+
+## Colour and direction rules (good vs bad change)
+Every change graphic carries a tone: green = good news, red = worrying, blue = neutral/watch. The app sets it from `tone:"good|bad|neutral"` or `goodIfUp:true|false`, else guesses from the words. ALWAYS set it explicitly on compare/trend/meter so the guess is never relied on.
+| Change | Colour | Examples |
+|---|---|---|
+| Up and good | green ▲ "Good news" | profit, GST, subscribers, placements, funds, rain after a dry spell |
+| Up and bad | red ▲ "Worrying" | prices, fines, fraud losses, drunk-driving cases, pollution, cancellations |
+| Down and good | green ▼ | poverty, cyber-fraud losses, accidents, pollution |
+| Down and bad | red ▼ | rainfall in a drought, reservoir level, jobs, profit |
+| Not clearly good or bad | blue "Watch" | exam dates, alerts, counts with no judgement |
+Each shows a tag ("Good news"/"Worrying"/"Watch") and the rule ("Rising is bad news here"). Never colour something green or red to push a view: colour reports who is helped or hurt by the change (Rule Zero: no opinions). Use `expect` / `watch` to say what to look for next.
