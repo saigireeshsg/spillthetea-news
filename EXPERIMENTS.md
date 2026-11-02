@@ -62,3 +62,4 @@ One line per experiment: date · what · result.
 - 2026-11-02 (morning) · 10 new drops with hook_b; main test: rain-deficit card A = number-first ('1.27 cm of rain… Normal is 9 cm') vs B = timely question ('Murasu brings rain today. Does it fix the dry season?') · running
 - 2026-11-02 (hourly) · d20261101-cyclone-murasu-nov3-landfall updated in place (very severe, TG red alert per Hans India): new hook_b A = alert-first statement vs B = district-stake question ('Live in Khammam or Nagarkurnool?') · running
 - 2026-11-02 (hourly, 9 am) · d20261101-cyclone-murasu-nov3-landfall updated in place (severe cyclonic storm, Guntur holiday): A = status-first statement ('Murasu now a *severe* cyclonic storm…') vs B = curiosity question ('Murasu just got stronger. Where does it hit on *Nov 3*?') · running
+- 2026-11-02 · hook_b on d20261101-cyclone-murasu-nov3-landfall: city-stake second-person question ('Hyderabad: rain plans for Tue–Wed?') vs named-alert statement · running
