@@ -179,6 +179,14 @@
 .nrd{font-size:12px;font-weight:700;color:#ff8a4d}
 .nstrip{margin-bottom:12px}
 </style>
+<style>
+#streak{display:inline-flex!important}
+.ctrisk{margin:6px 0 0;padding:7px 10px;border-radius:10px;background:#ff450022;border:1px solid #ff450050;font-size:12px;font-weight:700;color:#ffb38a}
+.nxt{background:#ffffff12!important}
+.cfx{position:fixed;inset:0;pointer-events:none;z-index:99;overflow:hidden}
+.cfx i{position:absolute;top:-30px;font-style:normal;font-size:22px;animation:cfall 1.8s ease-in forwards}
+@keyframes cfall{to{transform:translateY(105vh) rotate(360deg);opacity:.2}}
+</style>
 </head>
 <body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1423,18 +1431,22 @@ function revealHTML(d){const g=[];
   return g.length?`<div class="nreveal">${g.join("")}</div>`:""}
 function newCard(d,ix){const n=commentCount(d);
   const pl=(d.cards||[]).find(c=>c.k==="poll"),voted=pl&&me.poll[d.id]!=null;
-  const foot=`<div class="acts"><button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${n?n+" 💬 · ":""}Full story →</span></div>`;
+  const foot=`<div class="acts">${voted?`<button class="act nxt" data-next="1">Next ↓</button>`:""}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${n?n+" 💬 · ":""}Full story →</span></div>`;
   if(UI==="b")return `<article class="post npost nb click" data-open="${d.id}" tabindex="0">${head(d)}<div class="nbrow">${imgHTML(d,"sm")}<h2 class="pt">${rich(abHook(d))}</h2></div>${ipollHTML(d)}${voted||!pl?revealHTML(d):""}${foot}</article>`;
   return `<article class="post npost na click ${voted?"voted":""}" data-open="${d.id}" tabindex="0">${head(d)}${imgHTML(d,"lg")}<h2 class="pt nfact">${rich(factOf(d))}</h2>${stripHTML(d)}${ipollHTML(d)}${!voted&&pl&&twistOf(d)?`<div class="nlock">🔒 Plot twist unlocks after your vote</div>`:""}${voted||!pl?revealHTML(d):""}${foot}</article>`}
+function confetti(){try{const w=document.createElement("div");w.className="cfx";w.setAttribute("aria-hidden","true");w.innerHTML=Array.from({length:18},(_,i)=>`<i style="left:${Math.random()*100}%;animation-delay:${Math.random()*.4}s">${["🎉","✨","🔥","⚡","🗳️"][i%5]}</i>`).join("");document.body.appendChild(w);setTimeout(()=>w.remove(),2200)}catch(_){}}
+document.addEventListener("click",e=>{const n=e.target.closest("[data-next]");if(!n)return;e.preventDefault();e.stopPropagation();const cur=n.closest("article.post");let x=cur&&cur.nextElementSibling;while(x&&!(x.matches&&x.matches("article.post.na:not(.voted)")))x=x.nextElementSibling;if(x)x.scrollIntoView({behavior:"smooth",block:"start"});else toast("That's all for now ✅")},true);
 function voteBarHTML(pool){const t=today(),v=(me.vday||{})[t]||0,N=pool.filter(x=>(x.cards||[]).some(c=>c.k==="poll")).length;let st=0;const dd=new Date();for(;;){const k=day(dd);if((me.vday||{})[k]){st++;dd.setDate(dd.getDate()-1)}else break}
-  return `<div class="ctb"><div class="ctb-top"><b>🗳️ Your voice today</b><span>${v}/${N}</span><span class="xp">⚡ ${me.xp||0} XP</span>${st>1?`<span class="xp">🔥 ${st}-day streak</span>`:""}</div><div class="ctb-track"><i style="width:${N?Math.min(100,Math.round(v*100/N)):0}%"></i></div></div>`}
+  let prev=0;if(!v){const d2=new Date();d2.setDate(d2.getDate()-1);for(;;){const k=day(d2);if((me.vday||{})[k]){prev++;d2.setDate(d2.getDate()-1)}else break}}
+  const risk=!v&&prev>=1?`<div class="ctrisk">🔥 ${prev}-day streak ends tonight. One vote keeps it.</div>`:"";
+  return risk+`<div class="ctb"><div class="ctb-top"><b>🗳️ Your voice today</b><span>${v}/${N}</span><span class="xp">⚡ ${me.xp||0} XP</span>${st>1?`<span class="xp">🔥 ${st}-day streak</span>`:""}</div><div class="ctb-track"><i style="width:${N?Math.min(100,Math.round(v*100/N)):0}%"></i></div></div>`}
 try{const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){io.unobserve(en.target);en.target.click()}}),{rootMargin:"600px"});
 const watch=()=>document.querySelectorAll("#view button.more:not([data-io])").forEach(b=>{b.dataset.io=1;io.observe(b)});
 new MutationObserver(watch).observe(document.documentElement,{childList:true,subtree:true});watch()}catch(_){}
 document.addEventListener("click",e=>{const w=e.target.closest("[data-wwh]");if(w){e.preventDefault();e.stopPropagation();const c=w.closest("article.post"),bx=c&&c.querySelector(".wwhbox");if(bx){bx.hidden=!bx.hidden;w.textContent=bx.hidden?"🧭 Why · What · Consequences ▾":"🧭 Hide ▴"}return}const u=e.target.closest("[data-ui]");if(u){UI=u.dataset.ui;try{localStorage.setItem("spill_ui",UI);window.spillTrack&&window.spillTrack("tab_open",{tab:"ui_"+UI})}catch(_){}feed();return}},true);
 document.addEventListener("click",e=>{const b=e.target.closest("[data-ip],[data-iq]");if(!b)return;e.preventDefault();e.stopPropagation();
   const poll=b.hasAttribute("data-ip"),id=b.dataset.ip||b.dataset.iq,i=+b.dataset.i;const d=drops.find(x=>x.id===id);if(!d)return;
-  if(poll){if(me.poll[id]!=null)return;me.poll[id]=i;bump(d,2);me.xp=(me.xp||0)+10;me.vday=me.vday||{};me.vday[today()]=(me.vday[today()]||0)+1;{const c=me.vday[today()];try{toast(c%5===0?"🎉 "+c+" voices today! +20 bonus XP":"+10 XP · voice counted")}catch(_){}if(c%5===0)me.xp+=20;if(!me.area&&!me.areaAsked&&Object.keys(me.poll||{}).length>=2&&me.city&&areasFor(me.city).length){me.areaAsked=1;setTimeout(()=>{try{areaPicker()}catch(_){}},1800)}}}else{const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q||me.quiz[id]!=null)return;recordQuiz(d,i)}
+  if(poll){if(me.poll[id]!=null)return;me.poll[id]=i;bump(d,2);me.xp=(me.xp||0)+10;me.vday=me.vday||{};me.vday[today()]=(me.vday[today()]||0)+1;{const c=me.vday[today()];try{toast(c===5?"🎉 Daily 5 done! +20 bonus XP · 🔥 streak safe":c%5===0?"🎉 "+c+" voices today! +20 bonus XP":"+10 XP · voice counted");if(c%5===0)confetti()}catch(_){}if(c%5===0)me.xp+=20;if(!me.area&&!me.areaAsked&&Object.keys(me.poll||{}).length>=2&&me.city&&areasFor(me.city).length){me.areaAsked=1;setTimeout(()=>{try{areaPicker()}catch(_){}},1800)}}}else{const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q||me.quiz[id]!=null)return;recordQuiz(d,i)}
   pushVotes();agg();try{window.spillTrack&&window.spillTrack(poll?"poll_vote":"quiz_answer",{story_id:id,ui:UI,inline:1})}catch(_){}
   const card=b.closest("article.post");if(card)card.outerHTML=cardHTML(d,0)},true);
 const readLen=d=>{const s=+d.readSecs||60;return s<60?s+"s":Math.round(s/60)+" min"};
