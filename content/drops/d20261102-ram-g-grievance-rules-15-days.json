@@ -1,0 +1,164 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-54",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Rural jobs complaints now have a deadlin",
+ "hook": "Rural jobs complaints now have a deadline: *15 days* to resolve",
+ "hook_b": "Rural jobs complaints now have a deadline: *15 days* to resolve",
+ "tldr": "The Centre notified grievance rules under the VB-G RAM G Act: 15-day resolution, 7-day inquiry.",
+ "beats": {
+  "what": "The Rural Development Ministry notified Grievance Redressal Rules, 2026 under the VB-G RAM G Act.",
+  "why": "The rules set how complaints under the rural employment law are filed and handled.",
+  "care": "Family in a village using the scheme? Complaints now carry a 15-day deadline."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📜",
+    "label": "New rural jobs law"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "Grievance rules notified"
+  },
+  "effects": [
+   {
+    "icon": "⏱️",
+    "label": "15-day resolution"
+   },
+   {
+    "icon": "⏱️",
+    "label": "Inquiry in 7 days"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Rural Development Ministry has notified the Grievance Redressal Rules, 2026 under the VB-G RAM G Act, 2025 (PIB, The Hindu, HT, TOI). Complaints must be resolved within 15 days, with a preliminary inquiry within seven working days (TOI). Grievances can be filed in person, by speed post, on a designated digital platform, through telephone helplines, or any other mode a state decides (The Hindu). All complaints must be recorded, complainants get a hearing, and unresolved issues are escalated (TOI). The officer levels for escalation were not in the summaries we read."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Will a 15-day deadline make complaints work?",
+   "opts": [
+    "Yes, deadlines help",
+    "Only if officials are penalised",
+    "Depends on the state",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Within how long must a RAM G complaint be resolved?",
+   "opts": [
+    "7 days",
+    "15 days",
+    "30 days",
+    "90 days"
+   ],
+   "ans": 1,
+   "why": "The new rules set a 15-day resolution deadline; inquiry within 7 working days."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "15 days",
+   "l": "to resolve a VB-G RAM G complaint"
+  },
+  {
+   "t": "compare",
+   "l": "Deadlines in the rules",
+   "a": {
+    "v": 7,
+    "d": "7 working days",
+    "l": "Preliminary inquiry"
+   },
+   "b": {
+    "v": 15,
+    "d": "15 days",
+    "l": "Resolution"
+   },
+   "goodIfUp": false
+  },
+  {
+   "t": "stack",
+   "l": "Ways to file a complaint",
+   "total": "4 modes + state options",
+   "parts": [
+    {
+     "l": "In person",
+     "v": 1
+    },
+    {
+     "l": "Speed post",
+     "v": 1
+    },
+    {
+     "l": "Digital platform",
+     "v": 1
+    },
+    {
+     "l": "Phone helpline",
+     "v": 1
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "15 days",
+  "label": "to resolve a VB-G RAM G complaint",
+  "motion": "drift",
+  "scene": [
+   "📜",
+   "🏛️",
+   "⏱️"
+  ]
+ },
+ "insight": "A preliminary inquiry must be done in 7 working days, and every complaint has to be recorded.",
+ "learn": {
+  "t": "VB-G RAM G Act, 2025 = the rural employment law run by the Rural Development Ministry."
+ },
+ "watch": "How states set up helplines and the digital platform.",
+ "thread": "ram-g-grievance-rules-15-days",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Government notifies grievance redressal rules under VB-G RAM G Act; fixes 15-day deadline",
+   "url": "https://www.thehindu.com/news/national/government-notifies-grievance-redressal-rules-under-vb-g-ram-g-act-fixes-15-day-deadline/article71656383.ece"
+  },
+  {
+   "name": "Times of India",
+   "title": "Centre notifies grievance redressal rules under VB-G RAM G Act, sets 15-day resolution deadline",
+   "url": "https://timesofindia.indiatimes.com/india/centre-notifies-grievance-redressal-rules-under-vb-g-ram-g-act-sets-15-day-resolution-deadline/articleshow/135454107.cms"
+  },
+  {
+   "name": "Hindustan Times",
+   "title": "Govt notifies grievance redressal rules under VB-G RAM G Act; fixes 15-day deadline",
+   "url": "https://www.hindustantimes.com/india-news/govt-notifies-grievance-redressal-rules-under-vb-g-ram-g-act-fixes-15-day-deadline-101793612055379.html"
+  }
+ ],
+ "updated": 1793621058996,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/imtpzw/article71656518.ece/alternates/LANDSCAPE_1200/AK5_3875.JPG.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "Complaints under the VB-G RAM G Act must now be resolved within *15 days*",
+ "twist": "States can add their own ways to complain on top of post, phone, online and in-person.",
+ "moment": {
+  "e": "🧑‍🌾",
+  "t": "Family uses this scheme",
+  "k": "family"
+ }
+}

@@ -1,0 +1,166 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-60",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Hyderabad Passport Mela on Nov 21: *4,00",
+ "hook": "Hyderabad Passport Mela on Nov 21: *4,000* extra appointments",
+ "hook_b": "Waiting weeks for a passport slot? *4,000* open up for Nov 21",
+ "tldr": "RPO Hyderabad holds a Passport Mela on Sat, Nov 21 with about 4,000 slots; booking from Nov 3.",
+ "beats": {
+  "what": "RPO Hyderabad runs a special Passport Mela on Saturday, Nov 21.",
+  "why": "The aim is to cut waiting time and add appointment slots, per Siasat.",
+  "care": "Need a passport or PCC? Slots for Nov 21 open for booking from Nov 3."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⏳",
+    "label": "Long waits for slots"
+   }
+  ],
+  "event": {
+   "icon": "🛂",
+   "label": "Passport Mela, Nov 21"
+  },
+  "effects": [
+   {
+    "icon": "📅",
+    "label": "4,000 extra slots"
+   },
+   {
+    "icon": "📅",
+    "label": "Booking opens Nov 3"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "RPO Hyderabad will hold a special Passport Mela on Saturday, November 21 (The Hindu, Siasat, Telangana Today). About 4,000 appointments will be released for three services: normal passports, Tatkaal passports and Police Clearance Certificates (PCCs). Per Telangana Today, slots can be booked from November 3 at designated Passport Seva Kendras (PSKs) and Post Office PSKs (POPSKs). Which centres take part was not in the reports we read; check the Passport Seva portal when booking opens."
+  },
+  {
+   "k": "poll",
+   "vt": "rate",
+   "q": "How easy is getting a passport slot in Hyderabad?",
+   "opts": [
+    "Very hard",
+    "Hard",
+    "Okay",
+    "Easy",
+    "Very easy"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which service is NOT part of Hyderabad's Nov 21 Passport Mela?",
+   "opts": [
+    "Normal passport",
+    "Tatkaal passport",
+    "Police Clearance Certificate",
+    "Visa stamping"
+   ],
+   "ans": 3,
+   "why": "The drive covers normal and Tatkaal passports and PCCs only."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "4,000",
+   "l": "extra passport appointments, Sat Nov 21"
+  },
+  {
+   "t": "stack",
+   "l": "Three services in the drive",
+   "total": "~4,000 slots",
+   "parts": [
+    {
+     "l": "Normal passport",
+     "v": 1
+    },
+    {
+     "l": "Tatkaal",
+     "v": 1
+    },
+    {
+     "l": "PCC",
+     "v": 1
+    }
+   ]
+  },
+  {
+   "t": "timeline",
+   "l": "Key dates",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Nov 2",
+     "e": "Mela announced"
+    },
+    {
+     "t": "Nov 3",
+     "e": "Booking opens"
+    },
+    {
+     "t": "Sat Nov 21",
+     "e": "Passport Mela"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "4,000",
+  "label": "extra passport appointments, Sat Nov 21",
+  "motion": "drift",
+  "scene": [
+   "⏳",
+   "🛂",
+   "📅"
+  ]
+ },
+ "insight": "Booking for the Nov 21 slots opens on Nov 3, at designated PSKs and POPSKs.",
+ "learn": {
+  "t": "PCC = Police Clearance Certificate, often needed for jobs or visas abroad."
+ },
+ "watch": "Booking opens Nov 3; check which PSKs/POPSKs are part of the drive.",
+ "thread": "passport-mela-nov21-4000-slots",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "RPO Hyderabad’s Passport Mela on November 21",
+   "url": "https://www.thehindu.com/news/national/telangana/rpo-hyderabads-passport-mela-on-november-21/article71655920.ece"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad RPO to hold Passport Mela on November 21",
+   "url": "https://telanganatoday.com/hyderabad-rpo-to-hold-passport-mela-on-november-21"
+  },
+  {
+   "name": "Siasat",
+   "title": "Hyderabad Passport Mela on Nov 21; 4000 appointments to be released",
+   "url": "https://www.siasat.com/hyderabad-passport-mela-on-nov-21-4000-appointments-to-be-released-3568610/"
+  }
+ ],
+ "updated": 1793621058994,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/wac54l/article71655956.ece/alternates/LANDSCAPE_1200/iStock-2245245924.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "Hyderabad's passport office is releasing *4,000* extra appointments for one Saturday",
+ "twist": "It's not just new passports: Tatkaal and police clearance certificates are in the same drive.",
+ "moment": {
+  "e": "🛂",
+  "t": "Booking my slot tomorrow",
+  "k": "booking"
+ }
+}

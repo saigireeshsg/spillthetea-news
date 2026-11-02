@@ -1,0 +1,131 @@
+{
+ "cat": "campus",
+ "lead": "campus",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-50",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "CAT 2026 admit cards drop on *Nov 4*",
+ "hook": "CAT 2026 admit cards drop on *Nov 4*",
+ "hook_b": "Writing CAT this year? Your hall ticket lands *Nov 4*",
+ "tldr": "CAT 2026 hall tickets release on Nov 4 at iimcat.ac.in; log in with your registered details.",
+ "beats": {
+  "what": "IIM Indore releases CAT 2026 admit cards on November 4.",
+  "why": "CAT is the MBA entrance test for IIMs; admit cards come before the exam.",
+  "care": "Registered for CAT? Download your admit card from iimcat.ac.in from Nov 4."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📚",
+    "label": "CAT 2026 nears"
+   }
+  ],
+  "event": {
+   "icon": "🎫",
+   "label": "Admit cards on Nov 4"
+  },
+  "effects": [
+   {
+    "icon": "💻",
+    "label": "Download: iimcat.ac.in"
+   },
+   {
+    "icon": "💻",
+    "label": "Use registered login"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "IIM Indore will release CAT 2026 admit cards on November 4 (NDTV Profit). Registered candidates can download them on iimcat.ac.in using their login credentials. The exam date and slot timings were not in the summary we read; they will be printed on the admit card and listed on iimcat.ac.in."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "CAT prep: where are you at?",
+   "opts": [
+    "Mocks every day",
+    "Revising weak areas",
+    "Winging it",
+    "Not writing CAT"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which IIM is releasing the CAT 2026 admit cards?",
+   "opts": [
+    "IIM Ahmedabad",
+    "IIM Indore",
+    "IIM Bangalore",
+    "IIM Calcutta"
+   ],
+   "ans": 1,
+   "why": "IIM Indore releases the CAT 2026 hall tickets on Nov 4."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Nov 4",
+   "l": "CAT 2026 admit cards release"
+  },
+  {
+   "t": "timeline",
+   "l": "CAT 2026 next steps",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Now",
+     "e": "Keep login ready"
+    },
+    {
+     "t": "Nov 4",
+     "e": "Admit cards out"
+    },
+    {
+     "t": "Exam day",
+     "e": "Per your admit card"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1c2340",
+   "#4a5fb0"
+  ],
+  "big": "Nov 4",
+  "label": "CAT 2026 admit cards release",
+  "motion": "drift",
+  "scene": [
+   "📚",
+   "🎫",
+   "💻"
+  ]
+ },
+ "insight": "You'll need your registered login on iimcat.ac.in to download it.",
+ "learn": {
+  "t": "CAT = Common Admission Test, the entrance exam for IIM MBA programmes."
+ },
+ "watch": "Admit card download on Nov 4; check exam centre and slot.",
+ "thread": "cat-2026-admit-card-nov4",
+ "sources": [
+  {
+   "name": "NDTV Profit",
+   "title": "CAT 2026 Admit Card To Release On November 4; Check Exam Timings And Download Process",
+   "url": "https://www.ndtvprofit.com/education/cat-2026-admit-cards-iim-indore-to-release-hall-tickets-on-november-4-check-exam-timings-12270655"
+  }
+ ],
+ "updated": 1793621058997,
+ "fact": "IIM Indore will release CAT 2026 admit cards on *November 4*",
+ "twist": "This year's CAT is run by IIM Indore, which issues the hall tickets.",
+ "moment": {
+  "e": "📚",
+  "t": "Writing CAT this year",
+  "k": "writing"
+ }
+}

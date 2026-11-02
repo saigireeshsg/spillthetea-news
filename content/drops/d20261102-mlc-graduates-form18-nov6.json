@@ -1,0 +1,160 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-58",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Graduate voter? Old MLC registration won",
+ "hook": "Graduate voter? Old MLC registration won't count: fresh Form-18 by *Nov 6*",
+ "hook_b": "Graduate voter? Old MLC registration won't count: fresh Form-18 by *Nov 6*",
+ "tldr": "Graduates in two Telangana MLC seats must re-register with Form-18 by Nov 6; some report issues.",
+ "beats": {
+  "what": "Telangana's CEO urged graduates to finish Form-18 registration before the Nov 6 deadline.",
+  "why": "New electoral rolls are being prepared for two graduates' MLC constituencies.",
+  "care": "Graduate in Hyderabad, Rangareddy or Mahabubnagar? File a fresh Form-18 by Nov 6 to vote."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📋",
+    "label": "New MLC voter rolls"
+   }
+  ],
+  "event": {
+   "icon": "🗳️",
+   "label": "Fresh Form-18 by Nov 6"
+  },
+  "effects": [
+   {
+    "icon": "⚠️",
+    "label": "Old signup won't count"
+   },
+   {
+    "icon": "⚠️",
+    "label": "Some face form issues"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana's Chief Electoral Officer has urged graduates to finish Form-18 registration before the November 6 deadline (Siasat). Graduates in the Mahabubnagar–Rangareddy–Hyderabad and Warangal–Khammam–Nalgonda MLC constituencies must submit a fresh Form-18 for the newly prepared rolls, even if they registered before. Some eligible graduates have reported problems registering (Siasat, Deccan Chronicle); the exact issues were not in the summaries we read. K Kavitha has urged the Election Commission to extend the registration (The Hans India headline). No extension has been announced so far."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Will you register for the graduates' MLC vote?",
+   "opts": [
+    "Already done",
+    "Will do by Nov 6",
+    "Stuck on the form",
+    "Not eligible / skip"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "You registered as a graduate voter last time. What now?",
+   "opts": [
+    "File a fresh Form-18",
+    "Nothing, you're on the roll",
+    "Use Form-6",
+    "Register at the polling booth"
+   ],
+   "ans": 0,
+   "why": "Rolls are newly prepared; everyone must submit a fresh Form-18."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Nov 6",
+   "l": "last date for a fresh Form-18 (graduate MLC vote)"
+  },
+  {
+   "t": "stack",
+   "l": "Graduates' MLC seats re-enrolling",
+   "total": "2 constituencies",
+   "parts": [
+    {
+     "l": "Mahabubnagar–Rangareddy–Hyderabad",
+     "v": 1
+    },
+    {
+     "l": "Warangal–Khammam–Nalgonda",
+     "v": 1
+    }
+   ]
+  },
+  {
+   "t": "timeline",
+   "l": "What happens when",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Now",
+     "e": "File fresh Form-18"
+    },
+    {
+     "t": "Nov 6",
+     "e": "Deadline"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 6",
+  "label": "last date for a fresh Form-18 (graduate MLC vote)",
+  "motion": "drift",
+  "scene": [
+   "📋",
+   "🗳️",
+   "⚠️"
+  ]
+ },
+ "insight": "The rolls are newly prepared, so past registration doesn't carry over, per Siasat.",
+ "learn": {
+  "t": "Form-18 = the form graduates use to enrol as voters for a graduates' MLC (Legislative Council) seat."
+ },
+ "watch": "Nov 6 deadline; whether the EC extends it.",
+ "thread": "mlc-graduates-form18-nov6",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Graduates face Form-18 registration issues ahead of deadline",
+   "url": "https://www.siasat.com/graduates-face-form-18-registration-issues-ahead-of-deadline-3568609/"
+  },
+  {
+   "name": "Deccan Chronicle",
+   "title": "Graduates Face Issues with Form-18 Registration Ahead of November 6 Deadline",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORU5nc0djNW13TG1ZempVaHlDMVdxSk5lNS1ZaFR0RzFfQU80cWw2M1M1bmJwWkRtLVJkZ2wyOFBrUi1LRkNsRnpiTDFwU1l4NUlSbUtDQmJidjVaYWRVc3R4Q3Rid1hIc2JnUGlCRHpxbFJJWWNXZHdwaUF1VUN6eWFKSW8zbzBtVDdMajRxMHd3dGJrN3lsSUs1UTV2ZG5GU0Y5NHJLazQ3TGxUOVpFSEVNZWl0U2FhR2UwNmNaOG82ZDFZOVh2RW5Mb1dqaEV6UFFTcnozZGZRUdIB3wFBVV95cUxQTmhOV0JFNUVTeFpUQzhvcmlmYnlHZWhYRFRMTl80bWUxZ1paN0JTd1FGM1ZWQzlyQjkzczZkSE5ITlJNY3dOMU9ob3gzMVZVdkRXWjUwNThFd0pqVHd5XzZFcTgyNUQ2MlFodGVhYUpJU05EWENfbE9DTDk0UWFXRm5BWHotcVNDdkJpNXJZOUFIYnNCcmpmcjdxNTRTa1piRC1LdjVJLU5Bb3lCS3ZSbnU3YkxwbzhJTVhPUVFrekVGVktoajl0SGxhOFhscVBORm5pY1RqcTdycDUzRWpN?oc=5"
+  },
+  {
+   "name": "The Hans India",
+   "title": "K Kavitha Urges EC to Extend Telangana MLC Voter Registration",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMlhXbGJUcHNPeFRxb1AwQ2RuVEs5SVAyQ2JodElUbnNVcnViRmtvU2czVmNON3YwNmRwUkFPSnhuVlBwM2dKcVFCd1hPV0RVSHVIR09PWkkydGZwX0F3Q0JLaU9BWUtoYUx2em9zV3RjaWpFektFWHk4RTNzT0d5T1lrajBHWEhJZnlxcnlmN3ctNDRDd2RnNEhtdmg1WUdrTFhHRHhOMVA?oc=5"
+  }
+ ],
+ "updated": 1793621058995,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Untitled-Design-2026-11-02T153156.404.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Telangana graduates must file a *fresh* Form-18 to vote in two MLC seats",
+ "twist": "Some eligible graduates say they're struggling to register, and K Kavitha has asked the EC to extend the window.",
+ "moment": {
+  "e": "🗳️",
+  "t": "Filing my Form-18",
+  "k": "filing"
+ },
+ "areas": [
+  "Hyderabad"
+ ]
+}

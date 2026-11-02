@@ -1,0 +1,127 @@
+{
+ "cat": "money",
+ "lead": "money",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-48",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Jio Platforms' quarterly profit hits *₹8",
+ "hook": "Jio Platforms' quarterly profit hits *₹8,389 crore*, up 13.7%",
+ "hook_b": "Jio Platforms' quarterly profit hits *₹8,389 crore*, up 13.7%",
+ "tldr": "Jio Platforms' Q2 profit rose 13.7% to ₹8,389 crore; shares climbed over 3%.",
+ "beats": {
+  "what": "Jio Platforms reported Q2 consolidated net profit of ₹8,389 crore on Oct 30.",
+  "why": "Profit grew 13.7% year on year for the September quarter, per The Hindu.",
+  "care": "On Jio? Watch whether stronger profits come with tariff changes; none announced here."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📊",
+    "label": "Q2 results, Oct 30"
+   }
+  ],
+  "event": {
+   "icon": "📶",
+   "label": "Profit up 13.7%"
+  },
+  "effects": [
+   {
+    "icon": "📈",
+    "label": "₹8,389 cr profit"
+   },
+   {
+    "icon": "📈",
+    "label": "Shares up 3%+"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Jio Platforms reported a 13.7% rise in consolidated net profit to ₹8,389 crore for the September 2026 quarter, announced on October 30 (The Hindu). Its shares climbed over 3% after the earnings. Revenue, ARPU and subscriber numbers were not in the summary we read."
+  },
+  {
+   "k": "poll",
+   "vt": "rate",
+   "q": "How good is Jio's network where you live?",
+   "opts": [
+    "Terrible",
+    "Patchy",
+    "Okay",
+    "Good",
+    "Great"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "By how much did Jio Platforms' Q2 net profit grow?",
+   "opts": [
+    "3%",
+    "8.4%",
+    "13.7%",
+    "31%"
+   ],
+   "ans": 2,
+   "why": "Consolidated net profit rose 13.7% to ₹8,389 crore."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹8,389 cr",
+   "l": "Jio Platforms Q2 net profit"
+  },
+  {
+   "t": "big",
+   "v": "13.7%",
+   "l": "profit growth, Sept quarter"
+  },
+  {
+   "t": "big",
+   "v": "3%+",
+   "l": "share rise after results"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b0f0f",
+   "#c0392b"
+  ],
+  "big": "₹8,389 cr",
+  "label": "Jio Platforms Q2 net profit",
+  "motion": "drift",
+  "scene": [
+   "📊",
+   "📶",
+   "📈"
+  ]
+ },
+ "insight": "Its shares rose over 3% after the results, per The Hindu.",
+ "learn": {
+  "t": "Consolidated net profit = profit of the company plus its subsidiaries, after all costs and taxes."
+ },
+ "watch": "Tariff moves and the next quarter's results.",
+ "thread": "jio-platforms-q2-profit-8389cr",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Jio Platforms’ shares climb over 3% post Q2 earnings",
+   "url": "https://www.thehindu.com/business/Industry/jio-platforms-shares-climb-over-3-pc-post-q2-earnings/article71655570.ece"
+  }
+ ],
+ "updated": 1793621058997,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/javwqv/article71655597.ece/alternates/LANDSCAPE_1200/2026-10-30T134212Z_1921014067_RC21BKAUFBO0_RTRMADP_3_JIO-PLATFORMS-RESULTS.JPG",
+  "c": "The Hindu"
+ },
+ "fact": "Jio Platforms earned *₹8,389 crore* profit in July–September, up 13.7%",
+ "twist": "The 13.7% jump is consolidated net profit for the September 2026 quarter.",
+ "moment": {
+  "e": "📶",
+  "t": "I'm on Jio",
+  "k": "onjio"
+ }
+}

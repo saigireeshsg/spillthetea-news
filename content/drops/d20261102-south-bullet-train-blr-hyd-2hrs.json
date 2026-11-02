@@ -1,0 +1,155 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-56",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Bengaluru to Hyderabad in *2 hours*: Vai",
+ "hook": "Bengaluru to Hyderabad in *2 hours*: Vaishnaw names the South Bullet Train route",
+ "hook_b": "Bengaluru to Hyderabad in *2 hours*: Vaishnaw names the South Bullet Train route",
+ "tldr": "Railway Minister Vaishnaw says the proposed South Bullet Train will link Bengaluru, Hyderabad, Amaravati and Chennai.",
+ "beats": {
+  "what": "On Nov 1, Ashwini Vaishnaw announced the South Bullet Train corridor's cities.",
+  "why": "Vaishnaw spoke in Bengaluru; the report summary gives no cost or timeline.",
+  "care": "A Hyderabad–Bengaluru trip could take about 2 hours, if the proposed line is built."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚄",
+    "label": "High-speed rail push"
+   }
+  ],
+  "event": {
+   "icon": "🗺️",
+   "label": "South corridor: 4 cities"
+  },
+  "effects": [
+   {
+    "icon": "⏱️",
+    "label": "BLR–HYD in ~2 hrs"
+   },
+   {
+    "icon": "⏱️",
+    "label": "Cost, dates not given"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Railway Minister Ashwini Vaishnaw said in Bengaluru on Sunday, November 1 that the proposed South Bullet Train corridor would connect Bengaluru with Hyderabad, Amaravati and Chennai (Siasat). Siasat's headline puts Bengaluru–Hyderabad at 2 hours. He also said a Vande Bharat service between Bengaluru and Mangaluru will start in the coming weeks, once electrification and testing are done. Cost, route alignment and a timeline for the bullet corridor were not in the report summary we read."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Hyderabad–Bengaluru bullet train: what's your condition?",
+   "opts": [
+    "Fast, whatever it takes",
+    "Only if tickets stay affordable",
+    "Fix local trains first",
+    "Not my issue"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which city is NOT on the proposed South Bullet Train corridor?",
+   "opts": [
+    "Amaravati",
+    "Chennai",
+    "Mumbai",
+    "Hyderabad"
+   ],
+   "ans": 2,
+   "why": "Vaishnaw named Bengaluru, Hyderabad, Amaravati and Chennai."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "2 hrs",
+   "l": "proposed Bengaluru–Hyderabad bullet train time"
+  },
+  {
+   "t": "stack",
+   "l": "Cities on the proposed South corridor",
+   "total": "4 cities",
+   "parts": [
+    {
+     "l": "Bengaluru",
+     "v": 1
+    },
+    {
+     "l": "Hyderabad",
+     "v": 1
+    },
+    {
+     "l": "Amaravati",
+     "v": 1
+    },
+    {
+     "l": "Chennai",
+     "v": 1
+    }
+   ]
+  },
+  {
+   "t": "timeline",
+   "l": "Where it stands",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Nov 1",
+     "e": "Cities named by Vaishnaw"
+    },
+    {
+     "t": "Next",
+     "e": "Cost, route, timeline: not announced"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2 hrs",
+  "label": "proposed Bengaluru–Hyderabad bullet train time",
+  "motion": "drift",
+  "scene": [
+   "🚄",
+   "🗺️",
+   "⏱️"
+  ]
+ },
+ "insight": "The South corridor would also connect Amaravati and Chennai, Railway Minister Ashwini Vaishnaw said.",
+ "learn": {
+  "t": "A corridor is the planned route; it still needs surveys, approval and funding before work starts."
+ },
+ "watch": "A detailed project report, cost and alignment for the South corridor.",
+ "thread": "south-bullet-train-blr-hyd-2hrs",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "South Bullet Train to connect Bengaluru and Hyderabad in 2 hours",
+   "url": "https://www.siasat.com/south-bullet-train-to-connect-bengaluru-and-hyderabad-in-2-hours-3568591/"
+  }
+ ],
+ "updated": 1793621058996,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/bullet-train-Nov2-1-1.jpeg",
+  "c": "Siasat"
+ },
+ "fact": "A proposed bullet train would link Hyderabad and Bengaluru in about *2 hours*",
+ "twist": "It is still a 'proposed' corridor: cost and start date were not in the announcement summary.",
+ "moment": {
+  "e": "🚄",
+  "t": "Would ride it to Bengaluru",
+  "k": "ride"
+ }
+}

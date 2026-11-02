@@ -1,0 +1,64 @@
+{
+ "title": "Passport Mela Nov 21: 4,000 Hyderabad slots, booking from Nov 3",
+ "kind": "civic",
+ "tag": "🛂 Passport",
+ "scope": "local",
+ "city": "Hyderabad",
+ "sev": 1,
+ "ts": 1793621058998,
+ "until": 1795285800000,
+ "body": "RPO Hyderabad holds a special Passport Mela on Saturday, Nov 21. About 4,000 appointments for normal, Tatkaal passports and PCCs. Booking opens Nov 3 at designated PSKs and POPSKs.",
+ "means": [
+  "Need a passport or PCC? Book from Nov 3",
+  "Slots are limited to ~4,000"
+ ],
+ "care": "Book from Nov 3 on the Passport Seva portal.",
+ "steps": [
+  {
+   "t": "What",
+   "b": "Passport Mela, Sat Nov 21."
+  },
+  {
+   "t": "Why",
+   "b": "Cut waiting time."
+  },
+  {
+   "t": "Next",
+   "b": "Booking opens Nov 3."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "4,000",
+   "l": "extra appointments, Nov 21"
+  }
+ ],
+ "poll": {
+  "q": "Do you need a passport slot?",
+  "opts": [
+   "Yes, booking",
+   "Renewal soon",
+   "Already have one",
+   "No"
+  ]
+ },
+ "links": [
+  {
+   "label": "Passport Seva portal",
+   "url": "https://www.passportindia.gov.in/"
+  }
+ ],
+ "src": [
+  {
+   "name": "Telangana Today",
+   "url": "https://telanganatoday.com/hyderabad-rpo-to-hold-passport-mela-on-november-21"
+  },
+  {
+   "name": "The Hindu",
+   "url": "https://www.thehindu.com/news/national/telangana/rpo-hyderabads-passport-mela-on-november-21/article71655920.ece"
+  }
+ ],
+ "open": "d20261102-passport-mela-nov21-4000-slots",
+ "verified": true
+}

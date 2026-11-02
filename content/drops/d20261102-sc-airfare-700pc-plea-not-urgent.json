@@ -1,0 +1,135 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-52",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Plea says airfares jumped *700%*. SC: 'D",
+ "hook": "Plea says airfares jumped *700%*. SC: 'Don't travel by air'",
+ "hook_b": "Plea says airfares jumped *700%*. SC: 'Don't travel by air'",
+ "tldr": "SC declined urgent listing of a plea on a 700% airfare hike; Centre says new rules are coming.",
+ "beats": {
+  "what": "The Supreme Court refused urgent listing of a plea alleging a 700% airfare hike.",
+  "why": "The plea alleged steep fare rises; the bench didn't see urgency, per The Hindu headline.",
+  "care": "Flying home for the holidays? No court cap on fares yet; new rules are pending."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "✈️",
+    "label": "Plea on fare spikes"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "SC: no urgent hearing"
+  },
+  "effects": [
+   {
+    "icon": "📜",
+    "label": "No fare cap for now"
+   },
+   {
+    "icon": "📜",
+    "label": "Centre fast-tracks rules"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Supreme Court refused to urgently list a plea alleging a 700% hike in airfares, with the bench remarking 'Don't travel by air' (The Hindu headline). The Centre said aviation rules under the Bharatiya Vayuyan Adhiniyam are being fast-tracked to curb fare volatility and ensure passenger protection. Who filed the plea, which routes it cites, and when it may be heard were not in the summary we read."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should airfares have a ceiling?",
+   "opts": [
+    "Yes, a hard cap",
+    "Cap only during crises",
+    "No, let markets decide",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Under which law is the Centre fast-tracking new aviation rules?",
+   "opts": [
+    "Motor Vehicles Act",
+    "Bharatiya Vayuyan Adhiniyam",
+    "Consumer Protection Act",
+    "Aircraft Act, 1934"
+   ],
+   "ans": 1,
+   "why": "The Centre told the court rules under the Bharatiya Vayuyan Adhiniyam are being fast-tracked."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "700%",
+   "l": "airfare hike alleged in the plea"
+  },
+  {
+   "t": "timeline",
+   "l": "Where it stands",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Plea",
+     "e": "Alleges 700% fare hike"
+    },
+    {
+     "t": "Nov 2",
+     "e": "SC declines urgent listing"
+    },
+    {
+     "t": "Next",
+     "e": "Centre's new aviation rules"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "700%",
+  "label": "airfare hike alleged in the plea",
+  "motion": "drift",
+  "scene": [
+   "✈️",
+   "⚖️",
+   "📜"
+  ]
+ },
+ "insight": "The Centre told the court aviation rules under the Bharatiya Vayuyan Adhiniyam are being fast-tracked.",
+ "learn": {
+  "t": "Urgent listing = asking the court to hear a case out of turn, ahead of the normal queue."
+ },
+ "watch": "The draft aviation rules under the Bharatiya Vayuyan Adhiniyam.",
+ "thread": "sc-airfare-700pc-plea-not-urgent",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Don't travel by air, says Supreme Court; refuses urgent listing of plea alleging 700% hike in airfares",
+   "url": "https://www.thehindu.com/news/national/dont-travel-by-air-says-supreme-court-refuses-urgent-listing-of-plea-alleging-700-hike-in-airfares/article71656239.ece"
+  }
+ ],
+ "updated": 1793621058997,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/4bjk3g/article71656295.ece/alternates/LANDSCAPE_1200/PTI06_15_2026_000027B.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "The Supreme Court refused to urgently hear a plea alleging a *700%* airfare hike",
+ "twist": "The government says those rules aim to curb fare volatility and protect passengers.",
+ "moment": {
+  "e": "✈️",
+  "t": "Paid surge fares too",
+  "k": "surge"
+ }
+}
