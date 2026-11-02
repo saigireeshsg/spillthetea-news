@@ -242,6 +242,48 @@
 .vtrend svg{width:100%;height:70px;color:#ff6a2b}
 .vz small{font-size:12px;color:#9aa4ad}
 </style>
+<style>
+/* compact card: whole card within ~70% of screen height */
+.na .nimg.lg{aspect-ratio:auto!important;height:clamp(76px,11vh,104px)!important;margin:6px 0 0!important}
+.na .nimg .nfb{font-size:30px}
+.nfact{font-size:19px!important;margin:8px 0 8px!important;line-height:1.2!important}
+.nhero{margin:0 0 8px;padding:10px 12px;border-radius:14px;background:#ffffff0a;border:1px solid #ffffff14}
+.nhero .vz{background:transparent!important;border:0!important;padding:0!important}
+.nhero .vz .vh{margin-bottom:6px!important}.nhero .vz .vh b{font-size:20px!important}.nhero .vz .vh .vl{font-size:12px!important}
+.nhero .vcmp .vrow{margin:0 0 6px!important}.nhero .vcb,.nhero .vcb-track{height:11px!important}
+.nhero .vz small,.nhero .vleg{display:none}.nhero .vsb{height:12px}.nhero .vic span{font-size:18px}.nhero .vtrend svg{height:46px}
+.nhero .vtl li:nth-child(n+4){display:none}
+.nbigstat{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.nbigstat b{font-size:34px;font-weight:900;letter-spacing:-.02em;color:#ff6a2b;line-height:1}
+.nbigstat span{font-size:13px;color:#c9d1d9;font-weight:600;flex:1;min-width:120px}
+.na .ntwist2{padding:8px 10px;margin:0 0 8px}.na .ntwist2 p{font-size:13px;line-height:1.3}.na .ntwist2 span{font-size:18px}
+.na .ipoll{gap:7px!important;margin:0 0 8px!important}.na .ipoll>b{font-size:15.5px!important;line-height:1.25}
+.na .iopts{grid-template-columns:1fr 1fr!important;gap:6px!important}
+.na .iopts button{padding:9px 10px!important;min-height:0!important;font-size:13.5px!important;border-radius:12px!important;justify-content:center;text-align:center}
+.na .iopts button::before{display:none}
+.na .irate button{padding:7px 2px!important}.na .irate span{font-size:22px!important}.na .irate small{font-size:9px}
+.na .ires{padding:8px 12px!important;font-size:13.5px!important}
+.na .acts{margin-top:2px}.npost.na{padding:8px 12px 8px}
+</style>
+<style>
+.na .nimg.lg{height:clamp(64px,8.5vh,80px)!important}
+.nfact{font-size:18px!important;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.na .ntwist2 p{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.nhero{padding:8px 12px!important;margin:0 0 6px!important}.nhero .vcmp .vrow{margin:0 0 4px!important}.nhero .vcmp .vrow .vk{font-size:11px}
+.nhero .vz .vh{margin-bottom:4px!important}.nbigstat b{font-size:28px}
+.na .ntwist2{margin:0 0 6px!important}.na .ipoll>b{font-size:15px!important}
+.na .head,.na .phead{margin-bottom:0}
+</style>
+<style>
+.na .acts{min-height:0;padding:0;margin:0}.na .acts .act,.na .acts .readcta{padding:6px 12px!important;font-size:12.5px!important}
+.na .ntwist2 small{display:none}.na .ntwist2 p::before{content:"Plot twist · ";color:#ffb84d;font-weight:800;font-size:11px;letter-spacing:.05em;text-transform:uppercase}
+.na .ntwist2{padding:7px 10px!important}
+.na .ipoll{gap:5px!important}.na .iopts button{padding:7px 8px!important}.na .ipoll .ik{display:none}
+.na .irate button{padding:5px 2px!important}.na .irate span{font-size:20px!important}
+.nhero .vcmp .vh{display:none}.nhero .vcmp .vrow:first-of-type{margin-top:0}
+.nhero .vz .vh .vl{max-width:100%}
+</style>
+<style>.na .ntwist2 p{-webkit-line-clamp:3!important}</style>
 </head>
 <body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1497,12 +1539,17 @@ function compactHTML(d){const g=[];const V=vizItems(d),v=V.find(x=>x.t&&x.t!=="b
   return g.join("")}
 const importantD=d=>(d.heat||0)>=4||d.lead||d.cover&&d.cover.big&&(d.heat||0)>=3||d.featured;
 function bodyHTML(d){return stripHTML(d)+(importantD(d)?"":compactHTML(d))}
+function heroHTML(d){const V=vizItems(d),v=V.find(x=>x.t&&x.t!=="big"),c=d.cover||{};
+  if(v)return `<div class="nhero">${vizOne(v)}</div>`;
+  if(c.big)return `<div class="nhero nbigstat"><b>${esc(c.big)}</b><span>${esc(c.label||"")}</span></div>`;
+  return ""}
+function twistBox(d){const t=twistOf(d);return t?`<div class="ntwist2"><span>🤯</span><div><small>Plot twist</small><p>${esc(t)}</p></div></div>`:""}
 function revealHTML(d){return d.learn&&d.learn.t?`<div class="nreveal"><p class="naha"><b>📘 Know</b> ${rich(d.learn.t)}</p></div>`:""}
 function newCard(d,ix){const n=commentCount(d);
   const pl=(d.cards||[]).find(c=>c.k==="poll"),voted=pl&&me.poll[d.id]!=null;
   const foot=`<div class="acts">${voted?`<button class="act nxt" data-next="1">Next ↓</button>`:""}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${n?n+" 💬 · ":""}Full story →</span></div>`;
   if(UI==="b")return `<article class="post npost nb click" data-open="${d.id}" tabindex="0">${head(d)}<div class="nbrow">${imgHTML(d,"sm")}<h2 class="pt">${rich(abHook(d))}</h2></div>${voted||!pl?"":revealHTML(d)}${ipollHTML(d)}${voted||!pl?revealHTML(d):""}${foot}</article>`;
-  return `<article class="post npost na click ${voted?"voted":""}" data-open="${d.id}" tabindex="0">${head(d)}${imgHTML(d,"lg")}<h2 class="pt nfact">${rich(factOf(d))}</h2>${importantD(d)?storyHTML(d):bodyHTML(d)}${ipollHTML(d)}${revealHTML(d)}${foot}</article>`}
+  return `<article class="post npost na click ${voted?"voted":""}" data-open="${d.id}" tabindex="0">${head(d)}${imgHTML(d,"lg")}<h2 class="pt nfact">${rich(factOf(d))}</h2>${heroHTML(d)}${twistBox(d)}${ipollHTML(d)}${foot}</article>`}
 function confetti(){try{const w=document.createElement("div");w.className="cfx";w.setAttribute("aria-hidden","true");w.innerHTML=Array.from({length:18},(_,i)=>`<i style="left:${Math.random()*100}%;animation-delay:${Math.random()*.4}s">${["🎉","✨","🔥","⚡","🗳️"][i%5]}</i>`).join("");document.body.appendChild(w);setTimeout(()=>w.remove(),2200)}catch(_){}}
 document.addEventListener("click",e=>{const n=e.target.closest("[data-next]");if(!n)return;e.preventDefault();e.stopPropagation();const cur=n.closest("article.post");let x=cur&&cur.nextElementSibling;while(x&&!(x.matches&&x.matches("article.post.na:not(.voted)")))x=x.nextElementSibling;if(x)x.scrollIntoView({behavior:"smooth",block:"start"});else toast("That's all for now ✅")},true);
 function voteBarHTML(pool){const t=today(),v=(me.vday||{})[t]||0,N=pool.filter(x=>(x.cards||[]).some(c=>c.k==="poll")).length;let st=0;const dd=new Date();for(;;){const k=day(dd);if((me.vday||{})[k]){st++;dd.setDate(dd.getDate()-1)}else break}
