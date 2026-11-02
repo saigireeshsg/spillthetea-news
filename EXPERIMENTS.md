@@ -64,3 +64,4 @@ One line per experiment: date · what · result.
 - 2026-11-02 (hourly, 9 am) · d20261101-cyclone-murasu-nov3-landfall updated in place (severe cyclonic storm, Guntur holiday): A = status-first statement ('Murasu now a *severe* cyclonic storm…') vs B = curiosity question ('Murasu just got stronger. Where does it hit on *Nov 3*?') · running
 - 2026-11-02 · hook_b on d20261101-cyclone-murasu-nov3-landfall: city-stake second-person question ('Hyderabad: rain plans for Tue–Wed?') vs named-alert statement · running
 - 2026-11-02 (hourly) · hook_b on d20261102-swayam-july-exam-registration-nov5: A = deadline-first statement vs B = second-person question ('Did a SWAYAM course this year?…') · running
+- 2026-11-02 (half-hourly, 4:43 pm) · d20261101-cyclone-murasu-nov3-landfall updated (9 trains cancelled): new hook_b, A = number-first agency statement vs B = second-person travel question ('Taking a train east this week?…') · running
