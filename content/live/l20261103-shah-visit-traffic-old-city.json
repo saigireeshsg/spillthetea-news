@@ -1,0 +1,41 @@
+{
+ "title": "Amit Shah's Hyderabad visit jammed the Old City and central roads for hours",
+ "kind": "traffic",
+ "tag": "🚦 Traffic",
+ "scope": "local",
+ "city": "Hyderabad",
+ "sev": 1,
+ "ts": 1793646000000,
+ "until": 1793667600000,
+ "body": "Amit Shah's visit to the Bhagya Laxmi temple near Charminar and a Maha Padayatra supporting SIR caused severe congestion across the Old City and central Hyderabad on Monday for several hours (Telangana Today).",
+ "areas": [
+  "Old City"
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Monday in Hyderabad",
+   "steps": [
+    {
+     "t": "Monday",
+     "e": "Visit to Bhagya Laxmi temple near Charminar"
+    },
+    {
+     "t": "Same day",
+     "e": "Maha Padayatra supporting SIR"
+    },
+    {
+     "t": "Result",
+     "e": "Severe congestion for several hours, Old City and central Hyderabad"
+    }
+   ]
+  }
+ ],
+ "src": [
+  {
+   "name": "Telangana Today",
+   "url": "https://telanganatoday.com/amit-shahs-visit-triggers-traffic-snarls-across-hyderabad"
+  }
+ ],
+ "verified": true
+}

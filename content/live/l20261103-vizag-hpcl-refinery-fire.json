@@ -1,0 +1,44 @@
+{
+ "title": "Fire at HPCL's Visakhapatnam refinery near an oil tank; no injuries reported",
+ "kind": "incident",
+ "tag": "🛢️ Industry",
+ "scope": "national",
+ "sev": 2,
+ "ts": 1793646000000,
+ "until": 1793732400000,
+ "body": "A fire broke out on Monday evening at HPCL's Visakh Refinery, near a tank holding Ruf Pitch Oil, per Times of India. HPCL sources reported no injuries or casualties; the cause is unclear and officials considered an explosion unlikely. Hindustan Times carried it as an explosion report.",
+ "areas": [
+  "Visakhapatnam"
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What is known so far",
+   "steps": [
+    {
+     "t": "Mon evening",
+     "e": "Fire near an oil tank at the Visakh Refinery"
+    },
+    {
+     "t": "HPCL sources",
+     "e": "No injuries or casualties reported"
+    },
+    {
+     "t": "Open",
+     "e": "Cause unclear; explosion rumours played down"
+    }
+   ]
+  }
+ ],
+ "src": [
+  {
+   "name": "Times of India",
+   "url": "https://timesofindia.indiatimes.com/city/visakhapatnam/hpcls-visakhapatnam-refinery-hit-by-major-fire-near-oil-tank-explosion-reports-under-scrutiny/articleshow/135469343.cms"
+  },
+  {
+   "name": "Hindustan Times",
+   "url": "https://www.hindustantimes.com/india-news/explosion-at-hindustan-petroleum-refinery-in-vishakhapatnam-dead-injured-casualties-fire-smoke-police-101793640365382.html"
+  }
+ ],
+ "verified": true
+}

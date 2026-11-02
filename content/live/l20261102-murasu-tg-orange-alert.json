@@ -1,5 +1,5 @@
 {
- "title": "Murasu lands tonight; Hyderabad–Vijayawada flights cancelled",
+ "title": "Murasu due to cross Andhra coast tonight; gusts up to 120 kmph",
  "kind": "weather",
  "tag": "🌧️ Weather",
  "scope": "local",
@@ -7,7 +7,7 @@
  "sev": 2,
  "ts": 1793604180839,
  "until": 1793817000000,
- "body": "IMD: landfall between Nellore and Narsapur, 11:30 pm Mon to 4 am Tue, gusts up to 120 kmph. 12 Vijayawada flights are off, including Hyderabad routes. Six Telangana districts are on orange alert today; Hyderabad is not.",
+ "body": "NDTV Profit: Murasu is forecast to cross the Andhra Pradesh coast between midnight and early Tuesday, with winds of 100–110 kmph and gusts up to 120 kmph. IMD's window: Nellore to Narsapur, 11:30 pm Mon to 4 am Tue. Pawan Kalyan told officials to stay alert as it nears the Nellore coast (The Hindu). 12 Vijayawada flights are off, including Hyderabad routes. Six Telangana districts were on orange alert Monday; Hyderabad was not.",
  "means": [
   "Flying HYD–Vijayawada or Vizag today? Check your airline",
   "Nagarkurnool: avoid Somasila, Nallamalla ghat road. Helpline 08540-230201",
@@ -19,15 +19,11 @@
  "steps": [
   {
    "t": "What",
-   "b": "Orange alert, 6 TG districts, Mon."
-  },
-  {
-   "t": "Why",
-   "b": "Murasu crossing AP coast."
+   "b": "Severe cyclonic storm nearing the Andhra coast."
   },
   {
    "t": "Next",
-   "b": "Landfall 11:30 pm–4 am, Nellore–Narsapur."
+   "b": "Crossing expected after midnight; watch IMD for landfall confirmation."
   }
  ],
  "viz": [
@@ -52,15 +48,19 @@
   },
   {
    "t": "timeline",
-   "l": "Murasu landfall window",
+   "l": "Murasu tonight",
    "steps": [
     {
-     "t": "11:30 pm Mon",
-     "e": "Landfall window opens, Nellore–Narsapur"
+     "t": "Mon evening",
+     "e": "Officials told to stay alert as it nears Nellore coast"
+    },
+    {
+     "t": "11:30 pm",
+     "e": "IMD landfall window opens, Nellore–Narsapur"
     },
     {
      "t": "4 am Tue",
-     "e": "Window ends, gusts up to 120 kmph"
+     "e": "Window ends; winds 100–110 kmph, gusts to 120"
     }
    ]
   }
@@ -82,6 +82,14 @@
  ],
  "src": [
   {
+   "name": "NDTV Profit",
+   "url": "https://www.ndtvprofit.com/india/cyclone-murasu-landfall-date-time-and-place-as-severe-cyclonic-storm-nears-andhra-coast-12273375"
+  },
+  {
+   "name": "The Hindu",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/pawan-kalyan-tells-officials-to-stay-alert-as-cyclone-murasu-nears-nellore-coast/article71655340.ece"
+  },
+  {
    "name": "The Hindu",
    "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-12-flight-services-cancelled-at-vijayawada-visakhapatnam-flights-hit/article71655530.ece"
   },
@@ -95,5 +103,6 @@
   }
  ],
  "open": "d20261101-cyclone-murasu-nov3-landfall",
- "verified": true
+ "verified": true,
+ "updated": 1793646000000
 }
