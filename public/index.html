@@ -313,6 +313,17 @@
 .npins{display:flex;flex-wrap:wrap;gap:6px;margin-top:3px}.npins span{padding:4px 10px;border-radius:999px;background:#4fbcff1f;border:1px solid #4fbcff55;font-size:12.5px;font-weight:700;color:#a9dcff}
 </style>
 <style>.vdw b{font-size:12.5px!important;line-height:1.1;padding:0 20px;text-align:center}.vgauge svg{width:62%!important;max-width:190px!important}.vgc{margin-top:-18px!important}.vgc b{font-size:24px!important}</style>
+<style>
+.vtrend .vtn{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:2px}.vtrend .vtn small{font-size:10.5px;color:#9aa4ad}.vtrend .vtn s{font-size:15px;font-weight:700;color:#8a98a5}.vtrend .vtn span{color:#ff6a2b}.vtrend .vtn b{font-size:24px;font-weight:900;letter-spacing:-.02em}
+.vtrend svg{width:100%;height:auto!important}.vtrend .vax{display:flex;justify-content:space-between;font-size:10.5px;color:#9aa4ad}
+.vtl2{stroke-dasharray:1;stroke-dashoffset:1;animation:vdraw 1.1s .15s ease-out forwards}.vta{opacity:0;animation:vfade .8s .6s ease-out forwards}
+@keyframes vdraw{to{stroke-dashoffset:0}}@keyframes vfade{to{opacity:1}}
+.vvs.good .vn b{color:#46d160}.vvs.bad .vn b{color:#ff6a2b}.vvs .var{animation:vnudge 1.2s ease-in-out infinite}
+@keyframes vnudge{50%{transform:translateX(4px)}}
+.vgauge path:nth-of-type(2){animation:vgrow 1s ease-out}.vcb i,.vsb i{animation:vgrowx .9s ease-out}
+@keyframes vgrow{from{stroke-dasharray:0 126}}@keyframes vgrowx{from{transform:scaleX(0);transform-origin:left}}
+.vdw svg circle{animation:vfade2 .8s ease-out}@keyframes vfade2{from{opacity:0}}
+</style>
 </head>
 <body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1929,7 +1940,7 @@ function vizOne(x){
   if(x.t==="compare"){const a=x.a||{},b=x.b||{};const av=vNum(a.v),bv=vNum(b.v),mx=Math.max(av,bv)||1;
     const ch=av?Math.round((bv-av)/av*100):null;const up=bv>=av;
     const chip=ch!=null&&isFinite(ch)?`<span class="vch ${(x.goodIfUp===false?!up:up)?"good":"bad"}">${up?"▲":"▼"} ${Math.abs(ch)}%</span>`:"";
-    return `<div class="vz vvs wide"><div class="vh">${L}${chip}</div><div class="vsr"><div class="vo"><small>${esc(a.l||"")}</small><s>${esc(a.d||a.v)}</s></div><span class="var">➜</span><div class="vn"><small>${esc(b.l||"")}</small><b>${esc(b.d||b.v)}</b></div></div></div>`}
+    return `<div class="vz vvs wide ${(x.goodIfUp===false?!up:up)?"good":"bad"}"><div class="vh">${L}${chip}</div><div class="vsr"><div class="vo"><small>${esc(a.l||"")}</small><s>${esc(a.d||a.v)}</s></div><span class="var">➜</span><div class="vn"><small>${esc(b.l||"")}</small><b>${esc(b.d||b.v)}</b></div></div></div>`}
   if(x.t==="meter"){const v=vNum(x.v),m=vNum(x.max)||100,p=Math.max(0,Math.min(100,v/m*100));
     const arc=Math.PI*40;return `<div class="vz vgauge wide"><svg viewBox="0 0 100 58" aria-hidden="true"><path d="M10 50A40 40 0 0 1 90 50" fill="none" stroke="#ffffff1c" stroke-width="9" stroke-linecap="round"/><path d="M10 50A40 40 0 0 1 90 50" fill="none" stroke="url(#gg)" stroke-width="9" stroke-linecap="round" stroke-dasharray="${arc*p/100} ${arc}"/><defs><linearGradient id="gg"><stop offset="0" stop-color="#ffb84d"/><stop offset="1" stop-color="#ff4500"/></linearGradient></defs></svg><div class="vgc"><b>${esc(x.d||Math.round(p)+"%")}</b>${L}</div>${x.note?`<small>${rich(x.note)}</small>`:""}</div>`}
   if(x.t==="stack"){const parts=x.parts||[];const tot=parts.reduce((s,p)=>s+vNum(p.v),0)||1;const cols=["#ffd166","#c0c7cf","#d08c4b","#4fbcff","#46d160","#ff4500"];
@@ -1940,13 +1951,17 @@ function vizOne(x){
   if(x.t==="icons"){const n=Math.max(0,Math.min(+x.n||0,20)),of=Math.max(1,Math.min(+x.of||10,20));
     return `<div class="vz vicons wide"><div class="vh"><b>${esc(x.d||n+" in "+of)}</b>${L}</div><div class="vic">${Array.from({length:of},(_,i)=>`<span class="${i<n?"on":""}">${esc(x.icon||"🧍")}</span>`).join("")}</div></div>`}
   if(x.t==="trend"){const pts=(x.pts||[]).map(p=>[p[0],vNum(p[1])]);if(pts.length<2)return"";const vs=pts.map(p=>p[1]);const lo=Math.min(...vs),hi=Math.max(...vs),rg=(hi-lo)||1;
-    const W=300,H=70,P=8;const xy=pts.map((p,i)=>[P+i*(W-2*P)/(pts.length-1),H-P-(p[1]-lo)/rg*(H-2*P)]);
-    const last=pts[pts.length-1];
-    return `<div class="vz vtrend wide"><div class="vh">${L}<b>${esc(x.d||(last[1]+(x.unit||"")))}</b></div><svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true"><polyline points="${xy.map(p=>p.join(",")).join(" ")}" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>${xy.map((p,i)=>`<circle cx="${p[0]}" cy="${p[1]}" r="${i===xy.length-1?4:2.5}"/>`).join("")}</svg><div class="vax">${pts.map(p=>`<span>${esc(p[0])}</span>`).join("")}</div></div>`}
+    const W=300,H=96,P=10;const xy=pts.map((p,i)=>[P+i*(W-2*P)/(pts.length-1),H-P-14-(p[1]-lo)/rg*(H-2*P-22)]);
+    const f=pts[0][1],l=pts[pts.length-1][1],up=l>=f,ch=f?Math.round((l-f)/Math.abs(f)*100):null;
+    const good=(x.goodIfUp===false?!up:up),col=good?"#46d160":"#ff5a4d";
+    const line=xy.map(p=>p.join(",")).join(" "),area=`${xy[0][0]},${H-10} ${line} ${xy[xy.length-1][0]},${H-10}`;
+    const u=x.unit||"";const fm=v=>(x.fmt?x.fmt(v):v)+u;
+    return `<div class="vz vtrend wide ${good?"good":"bad"}"><div class="vh"><span class="vl">${rich(x.l||"")}</span>${ch!=null&&isFinite(ch)?`<span class="vch ${good?"good":"bad"}">${up?"▲":"▼"} ${Math.abs(ch)}%</span>`:""}</div><div class="vtn"><small>${esc(pts[0][0])}</small><s>${esc(x.d0||fm(f))}</s><span>➜</span><small>${esc(pts[pts.length-1][0])}</small><b style="color:${col}">${esc(x.d||fm(l))}</b></div><svg viewBox="0 0 ${W} ${H}" aria-hidden="true"><defs><linearGradient id="tg${pts.length}${Math.round(l)}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${col}" stop-opacity=".35"/><stop offset="1" stop-color="${col}" stop-opacity="0"/></linearGradient></defs><polygon class="vta" points="${area}" fill="url(#tg${pts.length}${Math.round(l)})"/><polyline class="vtl2" pathLength="1" points="${line}" fill="none" stroke="${col}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>${xy.map((p,i)=>`<circle cx="${p[0]}" cy="${p[1]}" r="${i===xy.length-1?5:3}" fill="${i===xy.length-1?col:"#1a1a1b"}" stroke="${col}" stroke-width="2"/>`).join("")}</svg><div class="vax">${pts.map(p=>`<span>${esc(p[0])}</span>`).join("")}</div></div>`}
   if(x.t==="donut"){const p=Math.max(0,Math.min(100,vNum(x.v)));const r=26,c=2*Math.PI*r;
     return `<div class="vz vdonut"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="${r}" fill="none" stroke="var(--line)" stroke-width="9"/><circle cx="32" cy="32" r="${r}" fill="none" stroke="var(--orange)" stroke-width="9" stroke-dasharray="${c*p/100} ${c}" transform="rotate(-90 32 32)" stroke-linecap="round"/></svg><div><b>${esc(x.d||p+"%")}</b>${L}</div></div>`}
   if(x.t==="bars")return `<div class="vz wide vbars"><div class="vh">${x.card.title?`<span class="vl">${rich(x.card.title)}</span>`:""}</div>${barsHTML(x.card)}${x.card.note?`<small>${rich(x.card.note)}</small>`:""}</div>`;
   return ""}
+window.spillViz=vizOne;
 function vizHTML(d){const it=vizItems(d);if(!it.length)return"";
   return `<section class="vizbox" aria-label="By the numbers"><h3 class="vzh">📊 By the numbers</h3><div class="vgrid">${it.map(vizOne).join("")}</div></section>`}
 function statChip(d){const it=vizItems(d).find(x=>x.t==="big");if(!it)return"";let v="",l="";

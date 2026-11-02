@@ -412,3 +412,7 @@ The card shows: image + `fact` (headline) -> Why -> numbers infographic -> `twis
 
 ## Infographic = news-specific (Nov 2026)
 Pick the viz type that matches the story, never default to bars: `compare` (old -> new, shown as a big struck-through old figure vs big new figure), `meter` (a share of a total, shown as a gauge), `stack` (parts of a whole, shown as a donut), `icons` (N of 10 people), `timeline` (dated steps), `trend` (series over time), `big`. Local stories also show a "Where" row of area pins from `areas`. Use real numbers from the source; the chart must show something the headline does not.
+
+## Change stories (up/down) - viz fields
+- `compare`: set `goodIfUp:false` when a rise is bad news (prices, fines, pollution, cases); omit when a rise is good. The new figure turns green (good) or orange-red (bad) and the pill shows the % change.
+- `trend`: `{t:"trend",l:"label",pts:[["Jan",12],["Apr",15],...,["Oct",31]],unit:"%",goodIfUp:false}` needs 3-6 real points. It draws a line with a filled area, start -> end values and a % change pill (green good, red bad). Prefer trend when the source gives a series, compare when it gives only before/after.
