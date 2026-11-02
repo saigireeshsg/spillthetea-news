@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Compact drop builder. Usage: python3 tools/mkdrop.py specs.json   (list of specs)
-Spec keys: slug, cat, city?, sort (0-99), heat?, hook (insight-led, 12 words max, *key number*), insight (one 'oh wow' line), hook_b, tldr, why, what, care, tea, poll{vt,q,opts}, src{name,title,url}|srcs[],
+Spec keys: slug, cat, city?, sort (0-99), heat?, hook (insight-led, 12 words max, *key number*), insight (one 'oh wow' line), fact (card headline, 5-6 words, *stat*), twist (plot-twist reveal, one factual surprising line), hook_b, tldr, why, what, care, tea, poll{vt,q,opts}, src{name,title,url}|srcs[],
  img{u,c}?, big, bl, map{cause, event, effects[2]}, emoji[3]?, learn?, watch?
 Writes content/drops/d<date>-<slug>.json with map, cover, viz filled from these fields."""
 import json,sys,time,datetime
@@ -17,6 +17,8 @@ def build(s):
      "insight":s.get("insight",""),"learn":{"t":s.get("learn","")},"watch":s.get("watch",""),"thread":s["slug"],"sources":s.get("srcs") or [s["src"]],"updated":int(time.time()*1000)}
     if s.get("city"):d["city"]=s["city"]
     if s.get("img"):d["img"]=s["img"]
+    for k in("fact","twist"):
+        if s.get(k):d[k]=s[k]
     if not d["insight"]:del d["insight"]
     if not d["learn"]["t"]:del d["learn"]
     if not d["watch"]:del d["watch"]

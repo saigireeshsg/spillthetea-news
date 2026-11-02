@@ -391,3 +391,8 @@ Spill communicates the news, helps people understand the issue, and collects wha
 - **Disagreement:** where outlets frame it differently, say both.
 - **Poll:** a neutral question that does not presuppose an answer or a fact not in the source. 4 options covering the real range of views, balanced in length and tone, one of them a neutral "not sure / depends / not my issue". No option that carries Spill's view. Check: could a supporter and a critic of the story each find their view among the options, worded fairly?
 - Spill reports what people said. It does not argue with them.
+
+## Card anatomy v3 (fact + twist)
+- `fact`: card headline under the image. 5-6 words, the main stat wrapped in *stars*. Example: `*4-5x* safe nitrate limit in Rangareddy`. No full sentences. If omitted the app builds it from cover.big + cover.label.
+- `twist`: one factual plot-twist line, shown after the vote (locked before). It must surprise and make people want the full story: a number, a reversal, or a "but". Sourced, never opinion (Rule Zero). If omitted the app shows `insight`.
+- Every story also needs `map` (why/what/hits-you flow), `watch` (what happens next) and `learn` (one term explained).

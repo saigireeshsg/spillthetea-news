@@ -170,6 +170,15 @@
 .nreveal p{margin:0;font-size:13px;line-height:1.45}.nviz .vz{margin:0}.nfx{opacity:.8}
 .nnext{padding:8px 10px;border-radius:10px;background:#4fbcff14}.naha{padding:8px 10px;border-radius:10px;background:#ffd16618}
 </style>
+<style>
+.nfact{font-size:24px!important;line-height:1.15!important;font-weight:800!important;margin:10px 0 10px!important;letter-spacing:-.01em}
+.nfact em,.nfact b,.nfact mark{color:#ff6a2b;font-style:normal;background:none}
+.nlock{margin:0 0 8px;padding:8px 10px;border-radius:10px;border:1px dashed #ffffff30;font-size:12px;opacity:.75;text-align:center}
+.ntwist{padding:10px 12px;border-radius:12px;background:linear-gradient(135deg,#ff450022,#ffd16622);border:1px solid #ff450040;display:grid;gap:4px}
+.ntwist b{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#ffb84d}
+.nrd{font-size:12px;font-weight:700;color:#ff8a4d}
+.nstrip{margin-bottom:12px}
+</style>
 </head>
 <body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1403,22 +1412,24 @@ function iquizHTML(d){const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q)return""
   if(a==null)return `<div class="iquiz"><span class="ik">🧠 Quick one</span><b>${rich(q.q)}</b><div class="iopts">${q.opts.slice(0,4).map((o,j)=>`<button data-iq="${d.id}" data-i="${j}">${esc(o)}</button>`).join("")}</div></div>`;
   const ok=a===q.ans;return `<div class="iquiz res ${ok?"ok":"no"}"><span class="ik">🧠 Quick one</span><b>${ok?"✅ Nailed it":"🤔 Not quite"} · ${esc(q.opts[q.ans])}</b>${q.why?`<span class="iw">${rich(q.why)}</span>`:""}</div>`}
 function thumbHTML(d){return d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}
+function factOf(d){if(d.fact)return d.fact;const c=d.cover||{};if(c.big&&c.label){const l=String(c.label).split(/[,(]/)[0].trim().split(/\s+/).slice(0,5).join(" ");return "*"+c.big+"* "+l}return abHook(d)}
+function twistOf(d){return d.twist||d.insight||""}
 function stripHTML(d){const m=d.map;if(!m)return"";const c=(m.causes||[])[0],e=m.event,f=(m.effects||[])[0];
   const st=[["Why",c],["What",e],["Hits you",f]].filter(x=>x[1]);
   return `<ol class="nstrip">${st.map(([k,x],i)=>`<li><span class="ni">${esc(x.icon||"")}</span><small>${k}</small><b>${esc(x.label||"")}</b></li>`).join("")}</ol>`}
 function revealHTML(d){const v=vizItems(d).find(x=>x.t&&x.t!=="big");const big=vizItems(d).find(x=>x.t==="big");
   const g=[];
   if(v)g.push(`<div class="nviz">${vizOne(v)}</div>`);else if(big)g.push(`<div class="nviz">${vizOne(big)}</div>`);
-  if(d.insight)g.push(`<p class="ins">💡 ${esc(d.insight)}</p>`);
+  if(twistOf(d))g.push(`<p class="ntwist"><b>🤯 Plot twist</b> ${esc(twistOf(d))}<span class="nrd">Read the full story →</span></p>`);
   const m=d.map;if(m&&(m.effects||[]).length>1)g.push(`<p class="nfx">${(m.effects||[]).map(x=>esc((x.icon||"")+" "+x.label)).join(" · ")}</p>`);
   if(d.watch)g.push(`<p class="nnext"><b>👀 Next</b> ${esc(d.watch)}</p>`);
-  if(d.learn&&d.learn.t)g.push(`<p class="naha"><b>🤯 Aha</b> ${rich(d.learn.t)}</p>`);
+  if(d.learn&&d.learn.t)g.push(`<p class="naha"><b>📘 Know</b> ${rich(d.learn.t)}</p>`);
   return `<div class="nreveal">${g.join("")}</div>`}
 function newCard(d,ix){const n=commentCount(d);
   const pl=(d.cards||[]).find(c=>c.k==="poll"),voted=pl&&me.poll[d.id]!=null;
   const foot=`<div class="acts"><button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${n?n+" 💬 · ":""}Full story →</span></div>`;
   if(UI==="b")return `<article class="post npost nb click" data-open="${d.id}" tabindex="0">${head(d)}<div class="nbrow">${imgHTML(d,"sm")}<h2 class="pt">${rich(abHook(d))}</h2></div>${ipollHTML(d)}${voted||!pl?revealHTML(d):""}${foot}</article>`;
-  return `<article class="post npost na click ${voted?"voted":""}" data-open="${d.id}" tabindex="0">${head(d)}${imgHTML(d,"lg")}<h2 class="pt">${rich(abHook(d))}</h2>${stripHTML(d)}${ipollHTML(d)}${voted||!pl?revealHTML(d):""}${foot}</article>`}
+  return `<article class="post npost na click ${voted?"voted":""}" data-open="${d.id}" tabindex="0">${head(d)}${imgHTML(d,"lg")}<h2 class="pt nfact">${rich(factOf(d))}</h2>${stripHTML(d)}${ipollHTML(d)}${!voted&&pl&&twistOf(d)?`<div class="nlock">🔒 Plot twist unlocks after your vote</div>`:""}${voted||!pl?revealHTML(d):""}${foot}</article>`}
 function voteBarHTML(pool){const t=today(),v=(me.vday||{})[t]||0,N=pool.filter(x=>(x.cards||[]).some(c=>c.k==="poll")).length;let st=0;const dd=new Date();for(;;){const k=day(dd);if((me.vday||{})[k]){st++;dd.setDate(dd.getDate()-1)}else break}
   return `<div class="ctb"><div class="ctb-top"><b>🗳️ Your voice today</b><span>${v}/${N}</span><span class="xp">⚡ ${me.xp||0} XP</span>${st>1?`<span class="xp">🔥 ${st}-day streak</span>`:""}</div><div class="ctb-track"><i style="width:${N?Math.min(100,Math.round(v*100/N)):0}%"></i></div></div>`}
 try{const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){io.unobserve(en.target);en.target.click()}}),{rootMargin:"600px"});
