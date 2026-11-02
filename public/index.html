@@ -1599,7 +1599,8 @@ function heroHTML(d){const V=vizItems(d),v=V.find(x=>x.t&&x.t!=="big"),c=d.cover
   if(c.big)return `<div class="nhero nbigstat"><b>${esc(c.big)}</b><span>${esc(c.label||"")}</span></div>`;
   return ""}
 function twistBox(d){const t=twistOf(d);return t?`<div class="ntwist2"><span>🤯</span><div><small>Plot twist</small><p>${esc(t)}</p></div></div>`:""}
-function revealHTML(d){return d.learn&&d.learn.t?`<div class="nreveal"><p class="naha"><b>📘 Know</b> ${rich(d.learn.t)}</p></div>`:""}
+function needsKnow(d){const t=d.learn&&d.learn.t;if(!t)return false;if(d.learn.show===true)return true;if(d.learn.show===false)return false;const m=String(t).split(/\s=\s|:\s/)[0].trim();if(!m||m.length>28||t.indexOf(m)!==0||m.length===t.length)return false;const hay=plain((factOf(d)||"")+" "+(d.hook||"")).toLowerCase();return hay.includes(m.toLowerCase())}
+function revealHTML(d){return needsKnow(d)?`<div class="nreveal"><p class="naha"><b>📘 Know</b> ${rich(d.learn.t)}</p></div>`:""}
 function newCard(d,ix){const n=commentCount(d);
   const pl=(d.cards||[]).find(c=>c.k==="poll"),voted=pl&&me.poll[d.id]!=null;
   const foot=`<div class="acts">${voted?`<button class="act nxt" data-next="1">Next ↓</button>`:""}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${n?n+" 💬 · ":""}Full story →</span></div>`;

@@ -416,3 +416,6 @@ Pick the viz type that matches the story, never default to bars: `compare` (old 
 ## Change stories (up/down) - viz fields
 - `compare`: set `goodIfUp:false` when a rise is bad news (prices, fines, pollution, cases); omit when a rise is good. The new figure turns green (good) or orange-red (bad) and the pill shows the % change.
 - `trend`: `{t:"trend",l:"label",pts:[["Jan",12],["Apr",15],...,["Oct",31]],unit:"%",goodIfUp:false}` needs 3-6 real points. It draws a line with a filled area, start -> end values and a % change pill (green good, red bad). Prefer trend when the source gives a series, compare when it gives only before/after.
+
+## Know box (only when needed)
+The 📘 Know line shows only when a term in the headline would block understanding (the term before " = " appears in `fact`/`hook`), or when `learn.show:true`. Set `learn.show:false` to hide it. Most stories need no Know line; write one only for a jargon term, acronym or scheme name readers may not know.
