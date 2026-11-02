@@ -60,3 +60,4 @@ One line per experiment: date · what · result.
 - 2026-11-01 (hourly) · d20261101-hyd-traffic-nov2-padayatra: A = time+route statement vs B = stake question ('Out in central Hyderabad Sunday afternoon?') · running; cyclone card updated in place (TG orange alert)
 - 2026-11-01 (hourly) · d20261031-hyd-rice-hoarding-six-traders updated in place (12 cases, ₹95/kg): A = price-first statement vs B = reader-stake question ('Paying more for fine rice?') · running
 - 2026-11-02 (morning) · 10 new drops with hook_b; main test: rain-deficit card A = number-first ('1.27 cm of rain… Normal is 9 cm') vs B = timely question ('Murasu brings rain today. Does it fix the dry season?') · running
+- 2026-11-02 (hourly) · d20261101-cyclone-murasu-nov3-landfall updated in place (very severe, TG red alert per Hans India): new hook_b A = alert-first statement vs B = district-stake question ('Live in Khammam or Nagarkurnool?') · running
