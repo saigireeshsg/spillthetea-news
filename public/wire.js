@@ -101,7 +101,7 @@
   function caRow(a, cls) {
     const d = a.details || {};
     const meta = d.where ? `${E(d.when || "")}${d.when ? " · " : ""}${E(d.where.slice(0, 3).join(", "))}${d.where.length > 3 ? ` +${d.where.length - 3}` : ""}` : d.summary ? E(d.when || "Tap for what to do") : "Checking areas & timings…";
-    return `<button class="ca ${cls}" data-ca="${E(a.id)}"><span class="ci">${KIND_ICON[a.kind] || "🚨"}</span><span class="ct"><small>${cls === "fresh" ? `<em class="canew">NEW</em> ` : ""}${E(d.level || KIND_NAME[a.kind] || "Alert")} · ${ago(a.published_at || a.created_at)}</small><b>${E(d.push_title ? d.push_title.replace(/^\S+\s/, "") : a.headline)}</b><span>${meta} · <u>full details</u></span></span></button>`;
+    return `<button class="ca ${cls}" data-ca="${E(a.id)}"><span class="ci">${KIND_ICON[a.kind] || "🚨"}</span><span class="ct"><small>${cls === "fresh" ? `<em class="canew">NEW</em> ` : ""}${E(d.level || KIND_NAME[a.kind] || "Alert")} · ${ago(a.published_at || a.created_at)}</small><b>${E(d.push_title ? d.push_title.replace(/^\S+\s/, "") : a.headline)}</b><span>${d.timing ? `⏰ ${E(d.timing)} · ` : ""}${meta} · <u>full details</u></span></span></button>`;
   }
   // Promotional / press-release items never reach readers (real-estate launches, "premium villas", brand desks, sponsored).
   const PROMO_T1 = /\b(launch(es|ed)?|unveils?|introduces|inaugurates|opens|announces)\b.*\b(villas?|apartments?|flats?|\d\s?bhk|bhk|triplex|duplex|plots?|gated community|township|residences|luxury|premium|showroom|store|outlet|offer|discount|sale|collection|menu)\b/i;
@@ -152,8 +152,40 @@
 .casheet .ok{background:#0f2a18;color:#9be7b0;border-radius:12px;padding:10px 12px;font-size:14px;font-weight:600}
 .casheet .off{display:block;text-align:center;font-weight:800;border-radius:999px;padding:12px;background:var(--orange,#ff4500);color:#fff;text-decoration:none}
 .casheet .src{font-size:12.5px;color:var(--muted,#9aa5ad)}.casheet .src a{color:inherit}
+.caviz{margin:10px 0;padding:12px;border-radius:14px;background:var(--card-2,#202024)}.cavh{display:flex;justify-content:space-between;align-items:center;gap:8px}.cavh b{font-size:22px}.cast{font-size:12px;font-weight:800;padding:3px 9px;border-radius:999px;background:#4fbcff22;color:#4fbcff}.cast.on{background:#ff5a4d26;color:#ff7a6e}.cast.off{background:#ffffff14;color:#9a9aa3}
+.cabar{position:relative;height:14px;margin:12px 0 4px;border-radius:99px;background:#ffffff14}.cawin{position:absolute;top:0;bottom:0;border-radius:99px;background:linear-gradient(90deg,#ffb86b,#ff5a4d)}.canow{position:absolute;top:-4px;bottom:-4px;width:3px;margin-left:-1px;border-radius:2px;background:#fff;box-shadow:0 0 0 2px #0008}
+.catk{display:flex;justify-content:space-between;font-size:10px;opacity:.6}.cacount{display:flex;align-items:baseline;gap:8px;margin:8px 0}.cacount b{font-size:30px}.cacount span{opacity:.75;font-weight:700}
+.calad{display:flex;gap:6px;margin:10px 0}.calad span{flex:1;text-align:center;font-weight:800;padding:8px 4px;border-radius:12px;opacity:.35;background:#ffffff10;font-size:13px}.calad small{display:block;font-weight:600;font-size:10px}.calad .on{opacity:1;color:#111}.calad .y.on{background:#ffd84d}.calad .o.on{background:#ff9a3d}.calad .r.on{background:#ff4d3d;color:#fff}.calow{font-size:12px;opacity:.75;margin:6px 0}
 .casheet .x{justify-self:end;font:inherit;font-weight:800;border:0;background:var(--card-2,#202024);color:inherit;border-radius:999px;padding:6px 12px;cursor:pointer}`;
   document.head.appendChild(caCss);
+
+  // Infographic for an alert: a 24-hour day bar with the affected window and a "now" marker, a count of areas,
+  // and for weather a yellow/orange/red ladder. Built only from fields the alert really has.
+  function caViz(a, d) {
+    let h = "";
+    const tm = (d.timing || "").match(/(\d{1,2})(?::(\d{2}))?\s?([ap])m\s*[–-]\s*(\d{1,2})(?::(\d{2}))?\s?([ap])m/i);
+    if (tm && d.valid_until) {
+      const hh = (n, ap) => (+n % 12) + (ap.toLowerCase() === "p" ? 12 : 0);
+      const s0 = hh(tm[1], tm[3]) + (+(tm[2] || 0)) / 60, e0 = hh(tm[4], tm[6]) + (+(tm[5] || 0)) / 60;
+      const endIST = new Date(Date.parse(d.valid_until) - 3600e3 + 19800e3), dayStart = Date.UTC(endIST.getUTCFullYear(), endIST.getUTCMonth(), endIST.getUTCDate()) - 19800e3;
+      let st = dayStart + s0 * 3600e3, en = dayStart + e0 * 3600e3; if (en <= st) st -= 86400e3;
+      const now = Date.now(), hrs = (en - st) / 3600e3;
+      const state = now < st ? `Starts in ${Math.max(1, Math.round((st - now) / 3600e3))} h` : now <= en ? `Happening now · ends in ${Math.max(1, Math.round((en - now) / 3600e3))} h` : "Over";
+      const pct = (t) => Math.max(0, Math.min(100, ((t - dayStart) / 86400e3) * 100));
+      const nowP = pct(now), a0 = pct(st), a1 = pct(en);
+      h += `<div class="caviz"><div class="cavh"><b>${hrs % 1 ? hrs.toFixed(1) : hrs} hours</b><span class="cast ${now >= st && now <= en ? "on" : now > en ? "off" : ""}">${E(state)}</span></div>
+        <div class="cabar"><i class="cawin" style="left:${a0}%;width:${Math.max(2, a1 - a0)}%"></i>${nowP > 0 && nowP < 100 && now - dayStart < 86400e3 && now >= dayStart ? `<i class="canow" style="left:${nowP}%"></i>` : ""}</div>
+        <div class="catk"><span>12 am</span><span>6 am</span><span>12 pm</span><span>6 pm</span><span>12 am</span></div></div>`;
+    }
+    if ((d.where || []).length && a.kind !== "weather") h += `<div class="cacount"><b>${d.where.length}</b><span>area${d.where.length > 1 ? "s" : ""} affected</span></div>`;
+    if (a.kind === "weather") {
+      const lv = ((d.level || "").match(/red|orange|yellow/i) || [""])[0].toLowerCase();
+      if (lv) h += `<div class="calad"><span class="y${lv === "yellow" ? " on" : ""}">Yellow<small>be aware</small></span><span class="o${lv === "orange" ? " on" : ""}">Orange<small>be prepared</small></span><span class="r${lv === "red" ? " on" : ""}">Red<small>take action</small></span></div>`;
+      if ((d.where || []).length) h += `<div class="cacount"><b>${d.where.length}</b><span>${d.where.length > 1 ? "places" : "place"} named</span></div>`;
+    }
+    if (d.confidence && d.confidence !== "high") h += `<div class="calow">ℹ️ Some details weren't in the report, so we show only what it says.</div>`;
+    return h;
+  }
   function caOpen(id) {
     const a = CA.find((x) => String(x.id) === String(id)); if (!a) return false;
     const d = a.details || {};
@@ -162,6 +194,7 @@
       <span class="cak">${KIND_ICON[a.kind] || "🚨"} ${E(d.level || KIND_NAME[a.kind] || "Alert")}${d.when ? " · " + E(d.when) : ""}</span>
       <h3>${E(d.push_title ? d.push_title.replace(/^\S+\s/, "") : a.headline)}</h3>
       ${d.summary ? `<p>${E(d.summary)}</p>` : `<p>${E(a.headline)}</p><p class="src">We're checking the exact areas and timings. This updates here as soon as they're confirmed.</p>`}
+      ${caViz(a, d)}
       ${d.where ? `<div class="cag"><small>📍 ${E(d.where_label || "Where")}</small><div class="chips">${d.where.map((w) => `<span>${E(w)}</span>`).join("")}</div></div>` : ""}
       ${d.timing ? `<div class="cag"><small>⏰ When</small><p>${E(d.timing)}</p></div>` : ""}
       ${d.not_affected ? `<div class="ok">✅ ${E(d.not_affected)}</div>` : ""}
