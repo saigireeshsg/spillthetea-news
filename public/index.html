@@ -324,6 +324,16 @@
 @keyframes vgrow{from{stroke-dasharray:0 126}}@keyframes vgrowx{from{transform:scaleX(0);transform-origin:left}}
 .vdw svg circle{animation:vfade2 .8s ease-out}@keyframes vfade2{from{opacity:0}}
 </style>
+<style>
+.lsev{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--c)}
+.lsev i{width:18px;height:6px;border-radius:3px;background:var(--c)}.lsev i.off{background:#ffffff22}
+.lsevrow{margin:8px 0 6px}
+.lwin{margin:0 0 8px}.lwt{display:flex;justify-content:space-between;font-size:11.5px;color:#9aa4ad;margin-bottom:4px}.lwt b{color:#fff}
+.lwb{height:8px;border-radius:999px;background:#ffffff14;overflow:hidden}.lwb i{display:block;height:100%;background:linear-gradient(90deg,#4fbcff,#ff6a2b);border-radius:999px;animation:vgrowx .9s ease-out}
+.li .nhero{margin:0 0 8px}.li .nstory{margin:4px 0 8px}
+.lchips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}.lchips span{padding:5px 10px;border-radius:999px;background:#ffffff0e;border:1px solid #ffffff1c;font-size:12.5px;font-weight:600}
+.lmore summary{cursor:pointer;font-size:12.5px;color:#9aa4ad;margin:2px 0 4px}.lmore .lb{font-size:13.5px;line-height:1.45;margin:4px 0}
+</style>
 </head>
 <body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -2230,9 +2240,24 @@ function rankLive(arr){return arr.slice().sort((a,b)=>(liveFol(b)-liveFol(a))||(
 function verLabel(x){return x.verified==="official"?"✅ Official":x.verified==="2"?"✅ 2 sources":"📰 1 outlet, not yet confirmed"}
 function livePollHTML(x){const p=x.poll,id=x.id,a=me.poll[id],n=tot("poll",id),voted=a!=null,show=voted&&!fewVotes(n);const cols=["#ff4500","#4fbcff","#ffd166","#46d160"];
   return `<div class="lpoll"><div class="lph"><span>🗳️ ${voted?"You voted":"Quick vote"}</span><small>${n>=5?n+" votes":voted?"Split shows at 5 votes":"Be one of the first"}</small></div><b>${esc(p.q)}</b>${p.opts.slice(0,4).map((o,j)=>{const pc=pct("poll",id,j);return `<button class="lpo ${a===j?"mine":""}" data-act="lpoll" data-key="${esc(id)}" data-i="${j}" ${voted?"disabled":""}>${show?`<i style="width:${pc}%;background:${cols[j%4]}"></i>`:""}<span>${a===j?"✓ ":""}${esc(o)}</span>${show?`<em>${pc}%</em>`:""}</button>`}).join("")}</div>`}
+function liveStoryHTML(x){const now=Date.now(),g=[];
+  const sv=x.sev||1,lab=sv>=3?["Act now","#ff4d4d"]:sv===2?["Watch","#ffb84d"]:["Heads-up","#4fbcff"];
+  let win="";if(x.until&&x.until>now&&x.ts){const tot=x.until-x.ts,el=Math.min(1,Math.max(0,(now-x.ts)/tot)),left=x.until-now,dd=Math.floor(left/864e5),hh=Math.floor(left%864e5/36e5);win=`<div class="lwin"><div class="lwt"><span>⏱ Live window</span><b>${dd?dd+"d ":""}${hh}h left</b></div><div class="lwb"><i style="width:${Math.round(el*100)}%"></i></div></div>`}
+  g.push(`<div class="lsevrow"><span class="lsev" style="--c:${lab[1]}"><i></i><i class="${sv>=2?"":"off"}"></i><i class="${sv>=3?"":"off"}"></i> ${lab[0]}</span></div>${win}`);
+  const ar=(x.areas||[]).filter(a=>a!=="Citywide").slice(0,5);if(ar.length)g.push(`<div class="npins">${ar.map(a=>`<span>📍 ${esc(a)}</span>`).join("")}</div>`);
+  const V=Array.isArray(x.viz)?x.viz:[],v=V.find(z=>z.t&&z.t!=="big")||V[0];
+  if(v)g.push(`<div class="nhero">${vizOne(v)}</div>`);
+  const seen=[x.title||""],fr=t=>t&&!seen.some(s=>_dup(t,s));const S=[];
+  (x.steps||[]).slice(0,4).forEach(st=>{if(fr(st.b)){S.push([({What:"⚡",Why:"📍",Next:"👀",Who:"👥"})[st.t]||"•",st.t,esc(st.b)]);seen.push(st.b)}});
+  if(fr(x.care))S.push(["🎯","For you",esc(x.care)]);
+  if(S.length)g.push(`<ol class="nstory">${S.map(([i,k,t])=>`<li><span class="ndot">${i}</span><div><small>${k}</small><p>${t}</p></div></li>`).join("")}</ol>`);
+  const ms=(x.means||[]).filter(m=>fr(m)).slice(0,3);if(ms.length)g.push(`<div class="lchips">${ms.map(m=>`<span>${esc(m)}</span>`).join("")}</div>`);
+  if(x.body)g.push(`<details class="lmore"><summary>Read the details</summary><p class="lb">${esc(x.body)}</p></details>`);
+  return g.join("")}
+window.spillLiveItem=x=>liveItemHTML(x,false);
 function liveItemHTML(x,compact){const k=KIND[x.kind]||KIND.alert;const old=!activeLive(x);
   const areas=(x.areas||[]).filter(a=>a!=="Citywide").slice(0,2);
-  return `<div class="li sev${x.sev||1} ${old?"old":""}"><span class="lk" aria-hidden="true">${k[0]}</span><div style="min-width:0"><div class="lm"><span class="k">${esc(k[1])}</span>${x.tag?`<span class="ltag">${esc(x.tag)}</span>`:""}<span>· ${ago(x.ts)}</span>${(x.sev||1)>=3?'<span class="urg">ACT NOW</span>':""}${nearYou(x)?`<span class="near">📍 near you</span>`:areas.map(a=>`<span>· ${esc(a)}</span>`).join("")}${x.updated?`<span>· updated ${ago(x.updated)}</span>`:""}</div><p class="lt">${esc(x.title)}</p>${!compact&&x.body?`<p class="lb">${esc(x.body)}</p>`:""}${!compact&&(x.means||[]).length?`<ul class="lmeans">${x.means.slice(0,3).map(m=>`<li>${esc(m)}</li>`).join("")}</ul>`:""}${!compact&&(x.steps||[]).length?`<ol class="lsteps">${x.steps.slice(0,4).map(st=>`<li><b>${esc(st.t)}</b>${esc(st.b)}</li>`).join("")}</ol>`:""}${!compact&&Array.isArray(x.viz)&&x.viz.length?`<div class="vgrid lviz">${x.viz.slice(0,3).map(vizOne).join("")}</div>`:""}${!compact&&x.poll&&(x.poll.opts||[]).length>1?livePollHTML(x):""}${!compact&&x.care?`<p class="lcare"><b>👉 For you:</b> ${esc(x.care)}</p>`:""}${!compact&&(x.links||[]).length?`<div class="llinks">${x.links.slice(0,3).map(l=>`<a class="llink" href="${esc(l.url)}" target="_blank" rel="noopener" data-llink="${esc(x.id)}">${esc(l.label)} ↗</a>`).join("")}</div>`:""}${!compact&&x.open&&drops.some(d=>d.id===x.open)?`<div class="lcard"><span class="lgrp">🧠 Explained · this card updates as the story moves</span>${cardHTML(drops.find(d=>d.id===x.open))}</div>`:""}${!compact?`<div class="ls"><span>${verLabel(x)}</span>${(x.src||[]).slice(0,2).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join("")}${old?"<span>· over</span>":`<button data-act="lshare" data-key="${esc(x.id)}">↗ Share</button>`}</div>`:""}</div></div>`}
+  return `<div class="li sev${x.sev||1} ${old?"old":""}"><span class="lk" aria-hidden="true">${k[0]}</span><div style="min-width:0"><div class="lm"><span class="k">${esc(k[1])}</span>${x.tag?`<span class="ltag">${esc(x.tag)}</span>`:""}<span>· ${ago(x.ts)}</span>${(x.sev||1)>=3?'<span class="urg">ACT NOW</span>':""}${nearYou(x)?`<span class="near">📍 near you</span>`:areas.map(a=>`<span>· ${esc(a)}</span>`).join("")}${x.updated?`<span>· updated ${ago(x.updated)}</span>`:""}</div><p class="lt">${esc(x.title)}</p>${!compact?liveStoryHTML(x):""}${!compact&&x.poll&&(x.poll.opts||[]).length>1?livePollHTML(x):""}${!compact&&(x.links||[]).length?`<div class="llinks">${x.links.slice(0,3).map(l=>`<a class="llink" href="${esc(l.url)}" target="_blank" rel="noopener" data-llink="${esc(x.id)}">${esc(l.label)} ↗</a>`).join("")}</div>`:""}${!compact&&x.open&&drops.some(d=>d.id===x.open)?`<div class="lcard"><span class="lgrp">🧠 Explained · this card updates as the story moves</span>${cardHTML(drops.find(d=>d.id===x.open))}</div>`:""}${!compact?`<div class="ls"><span>${verLabel(x)}</span>${(x.src||[]).slice(0,2).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join("")}${old?"<span>· over</span>":`<button data-act="lshare" data-key="${esc(x.id)}">↗ Share</button>`}</div>`:""}</div></div>`}
 function aqiCls(n){return n<=100?"":n<=200?"m":"p"}
 function nowHTML(){const n=me.city&&nowDocs[me.city.toLowerCase()];if(window.spillWx&&window.spillWx()&&window.wxCardHTML){const adv=n&&n.rain&&Date.now()-(n.ts||0)<20*3600e3?String(n.rain).split(" · ").filter(x=>/imd|alert|warning|cyclone|heavy/i.test(x)).join(" · "):"";return window.wxCardHTML(adv)}if(!n)return"";
   return `<div class="wx"><span class="wi" aria-hidden="true">${esc(n.icon||"🌤️")}</span><div class="tx"><b>${n.temp!=null?esc(n.temp)+"° · ":""}${esc(n.cond||"")}${n.high!=null?` · high ${esc(n.high)}°`:""}</b><span class="s">${esc(n.rain||"")}${n.tip?" · "+esc(n.tip):""}</span></div>${n.aqi?`<span class="aqi ${aqiCls(+n.aqi)}">AQI ${esc(n.aqi)} · ${esc(n.aqiLabel||"")}</span>`:""}</div>`}
