@@ -98,10 +98,30 @@
     }), { threshold: 0.6 });
     document.querySelectorAll(".calerts .ca.fresh[data-ca]").forEach((el) => caIO.observe(el));
   }
+
+  // Inline mini-infographic for the Live list so readers get the answer without opening anything.
+  function caMini(a, d) {
+    let h = "";
+    const tm = (d.timing || "").match(/(\d{1,2})(?::(\d{2}))?\s?([ap])m\s*[–-]\s*(\d{1,2})(?::(\d{2}))?\s?([ap])m/i);
+    if (tm && d.valid_until) {
+      const hh = (n, ap) => (+n % 12) + (ap.toLowerCase() === "p" ? 12 : 0);
+      const s0 = hh(tm[1], tm[3]) + (+(tm[2] || 0)) / 60, e0 = hh(tm[4], tm[6]) + (+(tm[5] || 0)) / 60;
+      const endIST = new Date(Date.parse(d.valid_until) - 3600e3 + 19800e3), ds = Date.UTC(endIST.getUTCFullYear(), endIST.getUTCMonth(), endIST.getUTCDate()) - 19800e3;
+      let st = ds + s0 * 3600e3, en = ds + e0 * 3600e3; if (en <= st) st -= 86400e3;
+      const now = Date.now(), pc = (t) => Math.max(0, Math.min(100, ((t - ds) / 86400e3) * 100));
+      const state = now < st ? `Starts in ${Math.max(1, Math.round((st - now) / 3600e3))} h` : now <= en ? `Now · ends in ${Math.max(1, Math.round((en - now) / 3600e3))} h` : "Over";
+      h += `<span class="cmb"><i class="cawin" style="left:${pc(st)}%;width:${Math.max(2, pc(en) - pc(st))}%"></i>${now >= ds && now < ds + 86400e3 ? `<i class="canow" style="left:${pc(now)}%"></i>` : ""}</span><span class="cmt"><b>${E(state)}</b><em>${Math.round((en - st) / 3600e3)} h without</em></span>`;
+    }
+    const lv = a.kind === "weather" ? ((d.level || "").match(/red|orange|yellow/i) || [""])[0].toLowerCase() : "";
+    if (lv) h += `<span class="cml ${lv}">${lv.toUpperCase()} ALERT</span>`;
+    if ((d.where || []).length) h += `<span class="cmc">${d.where.slice(0, 5).map((w) => `<u>${E(w)}</u>`).join("")}${d.where.length > 5 ? `<u>+${d.where.length - 5}</u>` : ""}</span>`;
+    if ((d.do || [])[0]) h += `<span class="cmd">👉 ${E(d.do[0])}</span>`;
+    return h ? `<span class="cmini">${h}</span>` : "";
+  }
   function caRow(a, cls) {
     const d = a.details || {};
     const meta = d.where ? `${E(d.when || "")}${d.when ? " · " : ""}${E(d.where.slice(0, 3).join(", "))}${d.where.length > 3 ? ` +${d.where.length - 3}` : ""}` : d.summary ? E(d.when || "Tap for what to do") : "Checking areas & timings…";
-    return `<button class="ca ${cls}" data-ca="${E(a.id)}"><span class="ci">${KIND_ICON[a.kind] || "🚨"}</span><span class="ct"><small>${cls === "fresh" ? `<em class="canew">NEW</em> ` : ""}${E(d.level || KIND_NAME[a.kind] || "Alert")} · ${ago(a.published_at || a.created_at)}</small><b>${E(d.push_title ? d.push_title.replace(/^\S+\s/, "") : a.headline)}</b><span>${d.timing ? `⏰ ${E(d.timing)} · ` : ""}${meta} · <u>full details</u></span></span></button>`;
+    return `<button class="ca ${cls}" data-ca="${E(a.id)}"><span class="ci">${KIND_ICON[a.kind] || "🚨"}</span><span class="ct"><small>${cls === "fresh" ? `<em class="canew">NEW</em> ` : ""}${E(d.level || KIND_NAME[a.kind] || "Alert")} · ${ago(a.published_at || a.created_at)}</small><b>${E(d.push_title ? d.push_title.replace(/^\S+\s/, "") : a.headline)}</b><span>${d.timing ? `⏰ ${E(d.timing)} · ` : ""}${meta} · <u>full details</u></span>${caMini(a, d)}</span></button>`;
   }
   // Promotional / press-release items never reach readers (real-estate launches, "premium villas", brand desks, sponsored).
   const PROMO_T1 = /\b(launch(es|ed)?|unveils?|introduces|inaugurates|opens|announces)\b.*\b(villas?|apartments?|flats?|\d\s?bhk|bhk|triplex|duplex|plots?|gated community|township|residences|luxury|premium|showroom|store|outlet|offer|discount|sale|collection|menu)\b/i;
@@ -156,6 +176,9 @@
 .cabar{position:relative;height:14px;margin:12px 0 4px;border-radius:99px;background:#ffffff14}.cawin{position:absolute;top:0;bottom:0;border-radius:99px;background:linear-gradient(90deg,#ffb86b,#ff5a4d)}.canow{position:absolute;top:-4px;bottom:-4px;width:3px;margin-left:-1px;border-radius:2px;background:#fff;box-shadow:0 0 0 2px #0008}
 .catk{display:flex;justify-content:space-between;font-size:10px;opacity:.6}.cacount{display:flex;align-items:baseline;gap:8px;margin:8px 0}.cacount b{font-size:30px}.cacount span{opacity:.75;font-weight:700}
 .calad{display:flex;gap:6px;margin:10px 0}.calad span{flex:1;text-align:center;font-weight:800;padding:8px 4px;border-radius:12px;opacity:.35;background:#ffffff10;font-size:13px}.calad small{display:block;font-weight:600;font-size:10px}.calad .on{opacity:1;color:#111}.calad .y.on{background:#ffd84d}.calad .o.on{background:#ff9a3d}.calad .r.on{background:#ff4d3d;color:#fff}.calow{font-size:12px;opacity:.75;margin:6px 0}
+.cmini{display:block;margin-top:8px}.cmb{position:relative;display:block;height:10px;border-radius:99px;background:#ffffff14}.cmb .cawin{position:absolute;top:0;bottom:0;border-radius:99px;background:linear-gradient(90deg,#ffb86b,#ff5a4d)}.cmb .canow{position:absolute;top:-3px;bottom:-3px;width:3px;border-radius:2px;background:#fff;box-shadow:0 0 0 2px #0008}
+.cmt{display:flex;justify-content:space-between;font-size:11px;margin-top:4px}.cmt em{font-style:normal;opacity:.7}.cml{display:inline-block;font-size:11px;font-weight:900;padding:3px 8px;border-radius:99px;margin-top:6px;color:#111}.cml.red{background:#ff4d3d;color:#fff}.cml.orange{background:#ff9a3d}.cml.yellow{background:#ffd84d}
+.cmc{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}.cmc u{text-decoration:none;font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px;background:#ffffff14}.cmd{display:block;font-size:12px;margin-top:6px;opacity:.9}
 .casheet .x{justify-self:end;font:inherit;font-weight:800;border:0;background:var(--card-2,#202024);color:inherit;border-radius:999px;padding:6px 12px;cursor:pointer}`;
   document.head.appendChild(caCss);
 
