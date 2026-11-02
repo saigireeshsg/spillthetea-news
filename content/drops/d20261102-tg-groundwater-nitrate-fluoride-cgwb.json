@@ -1,0 +1,140 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Telangana groundwater contamination",
+ "hook": "Rangareddy borewell nitrate hits *4–5x* the safe limit",
+ "hook_b": "Your borewell water may hold nitrate, fluoride, uranium",
+ "tldr": "CGWB's 2026 report finds nitrate, fluoride and uranium above safe limits across Telangana groundwater.",
+ "beats": {
+  "what": "CGWB's 2026 groundwater report flags nitrate, fluoride, uranium, iron and manganese above limits in Telangana.",
+  "why": "Experts cite open sewage nalas, garbage dumping and fluoride-bearing rocks, per TOI.",
+  "care": "Many homes drink borewell water. Experts warn deeper borewells aren't automatically safer."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚱",
+    "label": "Sewage in open nalas"
+   }
+  ],
+  "event": {
+   "icon": "🧪",
+   "label": "Nitrate, fluoride over limits"
+  },
+  "effects": [
+   {
+    "icon": "🏠",
+    "label": "Borewell water risk"
+   },
+   {
+    "icon": "🏠",
+    "label": "Infants, kids most exposed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Per the Central Ground Water Board's (CGWB) Annual Ground Water Quality Report 2026, reported by the Times of India: Rangareddy district is a major nitrate hotspot, with samples at four to five times the permissible 45 mg per litre. High fluoride and uranium turned up in Nalgonda, Nirmal, Mahabubnagar, Wanaparthy and Vikarabad. Last year's report found 290 of 1,114 Telangana samples over the nitrate limit and 167 over the fluoride limit of 1.5 mg per litre. Why: in Hyderabad, sewage runs through open stormwater nalas and can seep into the ground during rains, experts said. JNTU Hyderabad professor M V S S Giridhar says fluoride comes from the region's rocks, dissolving as rainwater percolates. Health: doctors quoted by TOI link nitrate to 'blue baby syndrome' in infants, fluoride to dental and skeletal fluorosis, and uranium to kidney damage. Experts also caution that borewells drilled to 1,500–3,000 feet are not automatically safer. Which Hyderabad localities were tested: not detailed in the report coverage."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Groundwater contamination: what should Telangana fix first?",
+   "opts": [
+    "Close open sewage nalas",
+    "Free water testing for homes",
+    "Stop garbage dumping",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which Telangana district is a nitrate hotspot in CGWB's 2026 report?",
+   "opts": [
+    "Rangareddy",
+    "Adilabad",
+    "Karimnagar",
+    "Khammam"
+   ],
+   "ans": 0,
+   "why": "Rangareddy samples showed nitrate at four to five times the 45 mg/L limit."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "4–5x",
+   "l": "the 45 mg/L nitrate limit in Rangareddy samples"
+  },
+  {
+   "t": "meter",
+   "l": "2025 CGWB: samples over nitrate limit",
+   "v": 290,
+   "max": 1114,
+   "d": "290 of 1,114",
+   "note": "167 also over fluoride limit"
+  },
+  {
+   "t": "compare",
+   "l": "Safe limits, mg per litre",
+   "a": {
+    "v": 45,
+    "d": "45",
+    "l": "nitrate"
+   },
+   "b": {
+    "v": 1.5,
+    "d": "1.5",
+    "l": "fluoride"
+   }
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "4–5x",
+  "label": "safe nitrate limit in Rangareddy samples",
+  "motion": "drift",
+  "scene": [
+   "🚱",
+   "🧪",
+   "🏠"
+  ]
+ },
+ "insight": "In 2025, 290 of 1,114 Telangana groundwater samples were over the nitrate limit.",
+ "learn": {
+  "t": "Safe limits in drinking water: nitrate 45 mg per litre, fluoride 1.5 mg per litre."
+ },
+ "watch": "Whether HMWSSB or the state orders fresh testing in hotspot districts.",
+ "thread": "tg-groundwater-nitrate-fluoride-cgwb",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Beyond scarcity, Telangana groundwater battles cocktail of contaminants",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/beyond-scarcity-telangana-groundwater-battles-cocktail-of-contaminants/articleshow/135444140.cms"
+  }
+ ],
+ "updated": 1793604200631,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135447011,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "areas": [
+  "Rangareddy",
+  "Nalgonda",
+  "Nirmal",
+  "Mahabubnagar",
+  "Wanaparthy",
+  "Vikarabad"
+ ]
+}

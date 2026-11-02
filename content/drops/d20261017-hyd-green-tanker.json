@@ -4,14 +4,14 @@
  ],
  "beats": {
   "care": "Every litre builders stop taking from the drinking supply is a litre that can reach homes, including yours, next summer.",
-  "what": "The water board, HMWSSB, will launch a Dial-a-Green Tanker service on 1 November, supplying treated sewage water for construction, industries and parks.",
-  "why": "Rain was weak, groundwater is falling and the Singur and Manjira reservoirs are under pressure, raising fears of a summer shortage."
+  "what": "HMWSSB launched green tankers on Nov 1: 28 trucks drawing treated water from 19 STPs.",
+  "why": "Officials say it saves drinking water and groundwater as rain stays weak."
  },
  "cards": [
   {
-   "body": "Managing director K. Ashok Reddy says the board wants 500 million litres a day of treated water used for non-drinking needs. A digital platform will match tankers with nearby treatment plants and track bookings.",
    "k": "tea",
-   "title": ""
+   "title": "🆕 What's new",
+   "body": "Update, Nov 2: It's live. HMWSSB managing director K. Ashok Reddy launched the green water tanker programme at the Telangana Secretariat on Sunday, the board's 37th Foundation Day (The Hindu). Treated wastewater from registered sewage treatment plants (STPs) goes out in branded green tankers marked 'Strictly for non-domestic use and not for drinking'. Phase 1: 19 STPs and 28 tankers. Government departments, public parks and greenery needs get priority first. About 100 tankers from GHMC, HMDA and private firms have registered to join. Coming soon: a booking system, GPS tracking and e-POS. Prices: not announced yet. The Secretariat itself uses 250 kilolitres of drinking water a day, 50 of it for non-drinking needs; a pipeline from a 20 MLD STP will now cover that. Officials say the scheme follows a directive from CM A. Revanth Reddy. Earlier (Oct 17): the board wants 500 million litres a day of treated water used for non-drinking needs."
   },
   {
    "body": "Borewells that once struck water at 300 feet are failing far deeper, Telangana Today reports.",
@@ -25,12 +25,14 @@
   },
   {
    "k": "poll",
+   "vt": "stance",
+   "q": "Treated water for builders and parks: your take?",
    "opts": [
-    "Yes, make it compulsory",
-    "Only in summer",
-    "No, let them choose"
-   ],
-   "q": "Should builders be forced to use treated water?"
+    "Make it compulsory",
+    "Good, keep it optional",
+    "Worried about quality",
+    "Not my issue"
+   ]
   },
   {
    "ans": 0,
@@ -48,8 +50,8 @@
  "cat": "local",
  "city": "Hyderabad",
  "date": "2026-10-17",
- "heat": 3,
- "hook": "Hyderabad will truck *treated sewage water* to builders. Here's why",
+ "heat": 4,
+ "hook": "Hyderabad's green tankers are live: *28 trucks*, 19 sewage plants",
  "learn": {
   "t": "Hyderabad's water board supplies about 585 million gallons a day against demand of about 735, a 150 MGD gap."
  },
@@ -76,13 +78,18 @@
   ],
   "event": {
    "icon": "🚛",
-   "label": "Dial-a-Green Tanker from 1 Nov"
+   "label": "Green tankers launched Nov 1"
   }
  },
  "order": 11,
  "readSecs": 50,
  "sort": "2026-10-17-88",
  "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Water Board launches green tanker services to promote idea of conservation",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/water-board-launches-green-tanker-services-to-promote-idea-of-conservation/article71652990.ece"
+  },
   {
    "name": "Telangana Today",
    "title": "HMWSSB to launch Dial-a-Green Tanker service on November 1",
@@ -100,7 +107,42 @@
   }
  ],
  "thread": "hyd-water",
- "tldr": "From 1 November, Hyderabad's water board will supply treated sewage water by tanker to builders and industries, saving drinking water.",
+ "tldr": "HMWSSB launched green tankers on Sunday: treated wastewater for construction, parks and gardens, never for drinking.",
  "topic": "Green water tankers",
- "watch": "Dial-a-Green Tanker launches on 1 November. Watch for the booking platform and prices, not yet announced."
+ "watch": "Booking system, GPS tracking and prices are still to come. Phase-wise expansion to all divisions.",
+ "hook_b": "Treated sewage water now rolls out in green tankers",
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Green tanker fleet",
+   "a": {
+    "v": 28,
+    "d": "28",
+    "l": "tankers at launch"
+   },
+   "b": {
+    "v": 100,
+    "d": "~100",
+    "l": "more registered"
+   }
+  },
+  {
+   "t": "big",
+   "v": "19",
+   "l": "sewage treatment plants filling tankers in phase 1"
+  },
+  {
+   "t": "meter",
+   "l": "Secretariat: drinking water used for non-drinking needs",
+   "v": 50,
+   "max": 250,
+   "d": "50 of 250 KL a day",
+   "note": "to switch to treated water"
+  }
+ ],
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/kind40/article71653651.ece/alternates/LANDSCAPE_1200/Green%20Tanker6.jpg",
+  "c": "The Hindu"
+ },
+ "updated": 1793604180839
 }

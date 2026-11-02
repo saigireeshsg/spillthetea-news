@@ -1,14 +1,16 @@
 {
- "title": "Murasu: orange alert in Khammam, Nalgonda and 4 more Telangana districts today",
+ "title": "Murasu lands tonight; Hyderabad–Vijayawada flights cancelled",
  "kind": "weather",
  "tag": "🌧️ Weather",
  "scope": "local",
  "city": "Hyderabad",
  "sev": 2,
- "ts": 1793581500509,
+ "ts": 1793604180839,
  "until": 1793817000000,
- "body": "IMD has an orange alert today in six Telangana districts as Cyclone Murasu nears. Landfall is likely near Ongole, AP, on Tuesday morning at 100–110 kmph. Hyderabad is not on the orange list.",
+ "body": "IMD: landfall between Nellore and Narsapur, 11:30 pm Mon to 4 am Tue, gusts up to 120 kmph. 12 Vijayawada flights are off, including Hyderabad routes. Six Telangana districts are on orange alert today; Hyderabad is not.",
  "means": [
+  "Flying HYD–Vijayawada or Vizag today? Check your airline",
+  "Nagarkurnool: avoid Somasila, Nallamalla ghat road. Helpline 08540-230201",
   "Orange districts: Khammam, Mahabubnagar, Nalgonda, Suryapet, Nagarkurnool, Wanaparthy",
   "Travelling to coastal AP Nov 2–3? Check train and bus status",
   "Farmers: cover harvested paddy with tarpaulins"
@@ -25,10 +27,15 @@
   },
   {
    "t": "Next",
-   "b": "Landfall near Ongole, Tue morning."
+   "b": "Landfall 11:30 pm–4 am, Nellore–Narsapur."
   }
  ],
  "viz": [
+  {
+   "t": "big",
+   "v": "12",
+   "l": "Vijayawada flights cancelled today"
+  },
   {
    "t": "compare",
    "l": "Telangana alerts today",
@@ -60,6 +67,10 @@
   }
  ],
  "src": [
+  {
+   "name": "The Hindu",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-12-flight-services-cancelled-at-vijayawada-visakhapatnam-flights-hit/article71655530.ece"
+  },
   {
    "name": "The Hindu",
    "url": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-paddy-farmers-in-telangana-fear-crop-damage-amid-high-market-prices/article71653493.ece"

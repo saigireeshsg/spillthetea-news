@@ -1,241 +1,275 @@
 {
-  "cat": "india",
-  "lead": "india",
-  "date": "2026-11-01",
-  "sort": "2026-11-01-95",
-  "order": 1,
-  "heat": 4,
-  "readSecs": 30,
-  "topic": "Second cyclone in a week: *120 kmph* sto",
-  "hook": "Murasu: *red alert* in 3 Telangana districts tomorrow; Hyderabad on yellow",
-  "hook_b": "Hyderabad: rain plans for *Tue–Wed*? Murasu says cancel them",
-  "tldr": "IMD: Murasu has intensified into a severe cyclonic storm and should cross the south Andhra coast on Nov 3 at 100–110 kmph. Guntur has shut schools and colleges; Telangana districts remain on rain alerts.",
-  "beats": {
-    "what": "A Bay of Bengal depression is set to become a severe cyclonic storm by Nov 2.",
-    "why": "A low-pressure area formed over the south Andaman Sea on Oct 29 and keeps strengthening.",
-    "care": "Hyderabad: IMD yellow alert, moderate to heavy rain or thundershowers on Nov 3 and 4. Khammam, Suryapet, Mahabubabad: red alert on Nov 3. Plan travel around it."
-  },
-  "map": {
-    "causes": [
-      {
-        "icon": "🌊",
-        "label": "Andaman Sea low, Oct 29"
-      }
-    ],
-    "event": {
-      "icon": "🌀",
-      "label": "Severe cyclonic storm, Nov 2"
-    },
-    "effects": [
-      {
-        "icon": "🚫",
-        "label": "Landfall Narsapur–Nellore"
-      },
-      {
-        "icon": "🚫",
-        "label": "Fishing halt Nov 2–4"
-      },
-      {
-        "icon": "🌧️",
-        "label": "Telangana: orange alert, 6 districts"
-      }
-    ]
-  },
-  "cards": [
-    {
-      "k": "tea",
-      "title": "🆕 What's new",
-      "body": "Update, Nov 2 (10 am): IMD Hyderabad forecasts three days of heavy rain in Telangana (Siasat). Nov 2: orange alert for Nalgonda and Suryapet. Nov 3: 'extremely heavy rain', red alert for Mahabubabad, Khammam and Suryapet; orange for Warangal, Hanamkonda, Jangaon, Nalgonda and Nagarkurnool. Nov 4: heavy rain continues under an orange alert. Hyderabad city: yellow alert, moderate to heavy rain or thundershowers on Tue and Wed. At 2:30 am the storm was 260 km ENE of Chennai, moving NW at 20 kmph. Update, Nov 2 (9 am): Murasu has intensified into a 'severe cyclonic storm' (Hindustan Times live). IMD says it should keep moving northwest and make landfall on the south Andhra Pradesh coast on Nov 3, with winds of 100–110 kmph at crossing. Guntur district has declared a holiday for educational institutions under all managements (The Hindu). Bapatla's administration is preparing for the storm (The Hindu; details not in the headline). Update, Nov 2 (8 am): IMD expects Murasu to intensify into a very severe cyclonic storm before landfall on Nov 3 (Siasat). The Hans India reports an IMD red alert for Khammam, Suryapet and Mahabubabad, with orange alerts for districts incl. Bhadradri Kothagudem, Nalgonda and Warangal; this differs from The Hindu's six-district orange list below, so check your district's IMD warning. Nagarkurnool is on orange alert and its collector has issued a public advisory (Deccan Chronicle; details not in the headline). Hyderabad is still not on the red or orange lists in these reports. Update, Nov 2 morning: APSDMA says the landfall point is likely near Ongole, between Nellore and Narsapur, on the morning of Tuesday, Nov 3, at 100–110 kmph gusting 120 kmph (The Hindu live). Telangana's six orange-alert districts for Monday (heavy to very heavy rain): Khammam, Mahabubnagar, Nalgonda, Suryapet, Nagarkurnool and Wanaparthy; Hyderabad is not among them. Five more districts are on yellow alert. Schools and colleges are shut today in Palnadu (AP) and in Chennai and Tiruvallur (TN). NDRF and SDRF teams are posted in Krishna, Bapatla, Guntur, Nellore and Prakasam. Update, Nov 1 night: Telangana has an orange alert in six districts and a yellow alert in five for Nov 2 as Murasu nears (The Hindu, Livemint; district list not in the headlines). Orange = be prepared for heavy rain; check your district's IMD warning before heading out. Update, Nov 1 evening: Andhra has sounded a red alert in five districts; Murasu is likely to cross the coast between Nellore and Narsapur on the night of Nov 2–3 as a severe cyclonic storm (The Hindu; districts not named in the report). Update, Nov 1 afternoon: Telangana is likely to get rain, thunderstorms and gusty winds over the coming days as the system moves in (Telangana Today). Update, Nov 1 midday: the depression has intensified into a deep depression over the Bay of Bengal (The Hindu). IMD says it may become cyclonic storm 'Murasu' within about six hours, and a severe cyclonic storm over the westcentral Bay on Nov 2 (Hindustan Times). It is likely to cross the AP coast between Nellore and Narsapur on Nov 3, at 100–110 kmph gusting 120 kmph. HT also reports a heavy rain alert for Andhra and Tamil Nadu till Nov 3. Earlier: APSDMA flagged heavy to very heavy rain on Nov 2 in Eluru, West Godavari, NTR, Krishna, Guntur, Bapatla, Palnadu, Prakasam, Markapuram, Nellore and Tirupati; fishermen told to stay off the sea Nov 2–4."
-    },
-    {
-      "k": "poll",
-      "vt": "stance",
-      "q": "Two cyclones in a week: what worries you most?",
-      "opts": [
-        "Family on the coast",
-        "Travel plans",
-        "Prices of veggies",
-        "Not affected"
-      ]
-    },
-    {
-      "k": "quiz",
-      "q": "Where is the cyclone expected to cross the coast?",
-      "opts": [
-        "Between Narsapur and Nellore",
-        "Chennai",
-        "Visakhapatnam",
-        "Odisha"
-      ],
-      "ans": 0,
-      "why": "IMD's bulletin puts landfall between Narsapur and Nellore early on Nov 3."
-    }
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-01",
+ "sort": "2026-11-01-95",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Second cyclone in a week: *120 kmph* sto",
+ "hook": "Murasu crosses AP coast *tonight*: Hyderabad–Vijayawada flights cancelled",
+ "hook_b": "Hyderabad: rain plans for *Tue–Wed*? Murasu says cancel them",
+ "tldr": "Landfall between Nellore and Narsapur, 11:30 pm–4 am. 12 Vijayawada flights cancelled, incl. Hyderabad routes.",
+ "beats": {
+  "what": "A Bay of Bengal depression is set to become a severe cyclonic storm by Nov 2.",
+  "why": "A low-pressure area formed over the south Andaman Sea on Oct 29 and keeps strengthening.",
+  "care": "Hyderabad: IMD yellow alert, moderate to heavy rain or thundershowers on Nov 3 and 4. Khammam, Suryapet, Mahabubabad: red alert on Nov 3. Plan travel around it."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌊",
+    "label": "Andaman Sea low, Oct 29"
+   }
   ],
-  "viz": [
-    {
-      "t": "big",
-      "v": "100–110 kmph",
-      "l": "sustained wind at landfall, gusts 120"
-    },
-    {
-      "t": "timeline",
-      "l": "Telangana rain alerts (IMD Hyderabad)",
-      "now": 0,
-      "steps": [
-        {
-          "t": "Nov 2",
-          "e": "Orange: Nalgonda, Suryapet"
-        },
-        {
-          "t": "Nov 3",
-          "e": "Red: Khammam, Suryapet, Mahabubabad"
-        },
-        {
-          "t": "Nov 4",
-          "e": "Heavy rain, orange alert"
-        }
-      ]
-    },
-    {
-      "t": "big",
-      "v": "3",
-      "l": "TG districts on red alert (per The Hans India)"
-    },
-    {
-      "t": "compare",
-      "l": "Telangana alerts, Nov 2",
-      "a": {
-        "v": 6,
-        "d": "6",
-        "l": "orange-alert districts"
-      },
-      "b": {
-        "v": 5,
-        "d": "5",
-        "l": "yellow-alert districts"
-      }
-    },
-    {
-      "t": "timeline",
-      "l": "Storm path",
-      "now": 1,
-      "steps": [
-        {
-          "t": "Oct 29",
-          "e": "Low forms, Andaman Sea"
-        },
-        {
-          "t": "Nov 1",
-          "e": "Deep depression; 'Murasu' next"
-        },
-        {
-          "t": "Nov 2",
-          "e": "Severe cyclonic storm"
-        },
-        {
-          "t": "Nov 3, early",
-          "e": "Landfall Narsapur–Nellore"
-        }
-      ]
-    },
-    {
-      "t": "big",
-      "v": "11",
-      "l": "AP districts on heavy-rain watch, Nov 2"
-    }
-  ],
-  "cover": {
-    "bg": [
-      "#14281a",
-      "#3a8a52"
-    ],
-    "big": "120 kmph",
-    "label": "max wind at landfall, Nov 3",
-    "motion": "drift",
-    "scene": [
-      "🌊",
-      "🌀",
-      "🚫"
-    ]
+  "event": {
+   "icon": "🌀",
+   "label": "Severe cyclonic storm, Nov 2"
   },
-  "insight": "It comes just days after Cyclone Arnab hit the Kakinada–Narsapur coast on Oct 27–28.",
-  "watch": "IMD bulletins every few hours; the exact landfall point can shift.",
-  "thread": "cyclone-murasu-nov3-landfall",
-  "sources": [
-    {
-      "name": "Siasat",
-      "title": "Cyclone Murasu: IMD Hyderabad forecasts 'heavy rain' for 3 days",
-      "url": "https://www.siasat.com/cyclone-murasu-imd-hyderabad-forecasts-heavy-rain-for-3-days-3568387/"
-    },
-    {
-      "name": "Hindustan Times",
-      "title": "Cyclone Murasu LIVE: System intensifies into 'severe cyclonic storm', landfall expected in Andhra tomorrow",
-      "url": "https://www.hindustantimes.com/india-news/cyclone-murasu-live-updates-severe-cyclonic-storm-andhra-pradesh-odisha-rain-warning-landfall-tomorrow-november-3-imd-101793588601578.html"
-    },
-    {
-      "name": "The Hindu",
-      "title": "Holiday declared for educational institutions in Guntur",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/holiday-declared-for-educational-institutions-in-guntur/article71655143.ece"
-    },
-    {
-      "name": "Siasat",
-      "title": "Cyclone Murasu to make landfall on Nov 3, states put on alert",
-      "url": "https://www.siasat.com/cyclone-murasu-to-make-landfall-on-nov-3-states-put-on-alert-3568277/"
-    },
-    {
-      "name": "The Hans India",
-      "title": "Cyclone Murasu: Heavy rain alert for Telangana",
-      "url": "https://www.thehansindia.com/news/cities/hyderabad/cyclone-murasu-heavy-rain-alert-for-telangana-1138238"
-    },
-    {
-      "name": "Economic Times",
-      "title": "Weather today, November 2: IMD warns of heavy rain in AP, Telangana, TN",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/weather-today-november-2-imd-warns-of-heavy-rain-in-andhra-pradesh-telangana-tamil-nadu-delhi-ncrs-aqi-becomes-severe-check-latest-imd-update-and-aqi-levels/articleshow/135441795.cms"
-    },
-    {
-      "name": "The Hindu",
-      "title": "Cyclone Murasu LIVE update, November 2",
-      "url": "https://www.thehindu.com/news/national/murasu-cyclone-live-updates-on-november-2-2026-tamil-nadu-telangana-andhra-pradesh-odisha/article71654226.ece"
-    },
-    {
-      "name": "The Hindu",
-      "title": "Cyclone Murasu | Paddy farmers in Telangana fear crop damage",
-      "url": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-paddy-farmers-in-telangana-fear-crop-damage-amid-high-market-prices/article71653493.ece"
-    },
-    {
-      "name": "The Hindu",
-      "title": "Cyclone Murasu: Orange alert in six Telangana districts, yellow alert in five on November 2",
-      "url": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-orange-alert-in-six-telangana-districts-yellow-alert-in-five-on-november-2/article71652716.ece"
-    },
-    {
-      "name": "Telangana Today",
-      "title": "Telangana braces for heavy rains, squally weather over coming days under Cyclone Murasu",
-      "url": "https://telanganatoday.com/telangana-braces-for-heavy-rains-squally-weather-over-coming-days-under-cyclone-murasu"
-    },
-    {
-      "name": "The Hindu",
-      "title": "Depression intensifies into deep depression over Bay of Bengal",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/bay-of-bengal-deep-depression-cyclonic-storm-andhra-pradesh-november-1-2026-updates/article71652131.ece"
-    },
-    {
-      "name": "Hindustan Times",
-      "title": "Depression over Bay of Bengal intensified, says IMD; cyclone 'Murasu' may hit Andhra on Nov 3",
-      "url": "https://www.hindustantimes.com/india-news/depression-over-bay-of-bengal-intensified-imd-deep-depression-severe-cyclonic-storm-cyclone-murasu-andhra-november-3-latest-update-101793505939759.html"
-    },
-    {
-      "name": "The Hindu",
-      "title": "After 'Arnab', Andhra Pradesh may face another severe cyclonic storm",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/after-arnab-andhra-pradesh-may-face-another-severe-cyclonic-storm/article71649303.ece"
-    },
-    {
-      "name": "The Hindu",
-      "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-drums-up-fresh-worry-for-andhra-after-arnab-red-alert-sounded-in-five-districts/article71652622.ece"
-    }
-  ],
-  "updated": 1793596510153,
-  "img": {
-    "u": "https://th-i.thgim.com/public/incoming/ddkziq/article71652268.ece/alternates/LANDSCAPE_1200/VSP01_Fishing%20Boats%20%201.JPG",
-    "c": "The Hindu"
+  "effects": [
+   {
+    "icon": "🚫",
+    "label": "Landfall Narsapur–Nellore"
+   },
+   {
+    "icon": "🚫",
+    "label": "Fishing halt Nov 2–4"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Telangana: orange alert, 6 districts"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Update, Nov 2 (12:30 pm): Landfall is now expected tonight, between 11:30 pm Monday and 4 am Tuesday, between Nellore and Narsapur, south of Ongole, with gusts up to 120 kmph (IMD via The Hindu). At 8:30 am the storm was about 160 km ESE of Nellore, moving WNW at 22 kmph. Flying to Vijayawada today? 12 IndiGo and Air India Express services are cancelled, including Hyderabad–Vijayawada–Hyderabad (6E 6263/6E 6327, 6E 2580/6E 2581, IX 2405/2406). At Visakhapatnam, five IndiGo flights are cancelled, including 6E 714 and 6E 716 to and from Hyderabad. Check with your airline. In Telangana, Nagarkurnool Collector Hemanta Keshav Patil's office asks people to avoid Somasila, the Nallamalla ghat road and tourist spots, keep off causeways, tanks and rivers, and keep cattle safe. Helpline: 08540-230201. Update, Nov 2 (10 am): IMD Hyderabad forecasts three days of heavy rain in Telangana (Siasat). Nov 2: orange alert for Nalgonda and Suryapet. Nov 3: 'extremely heavy rain', red alert for Mahabubabad, Khammam and Suryapet; orange for Warangal, Hanamkonda, Jangaon, Nalgonda and Nagarkurnool. Nov 4: heavy rain continues under an orange alert. Hyderabad city: yellow alert, moderate to heavy rain or thundershowers on Tue and Wed. At 2:30 am the storm was 260 km ENE of Chennai, moving NW at 20 kmph. Update, Nov 2 (9 am): Murasu has intensified into a 'severe cyclonic storm' (Hindustan Times live). IMD says it should keep moving northwest and make landfall on the south Andhra Pradesh coast on Nov 3, with winds of 100–110 kmph at crossing. Guntur district has declared a holiday for educational institutions under all managements (The Hindu). Bapatla's administration is preparing for the storm (The Hindu; details not in the headline). Update, Nov 2 (8 am): IMD expects Murasu to intensify into a very severe cyclonic storm before landfall on Nov 3 (Siasat). The Hans India reports an IMD red alert for Khammam, Suryapet and Mahabubabad, with orange alerts for districts incl. Bhadradri Kothagudem, Nalgonda and Warangal; this differs from The Hindu's six-district orange list below, so check your district's IMD warning. Nagarkurnool is on orange alert and its collector has issued a public advisory (Deccan Chronicle; details not in the headline). Hyderabad is still not on the red or orange lists in these reports. Update, Nov 2 morning: APSDMA says the landfall point is likely near Ongole, between Nellore and Narsapur, on the morning of Tuesday, Nov 3, at 100–110 kmph gusting 120 kmph (The Hindu live). Telangana's six orange-alert districts for Monday (heavy to very heavy rain): Khammam, Mahabubnagar, Nalgonda, Suryapet, Nagarkurnool and Wanaparthy; Hyderabad is not among them. Five more districts are on yellow alert. Schools and colleges are shut today in Palnadu (AP) and in Chennai and Tiruvallur (TN). NDRF and SDRF teams are posted in Krishna, Bapatla, Guntur, Nellore and Prakasam. Update, Nov 1 night: Telangana has an orange alert in six districts and a yellow alert in five for Nov 2 as Murasu nears (The Hindu, Livemint; district list not in the headlines). Orange = be prepared for heavy rain; check your district's IMD warning before heading out. Update, Nov 1 evening: Andhra has sounded a red alert in five districts; Murasu is likely to cross the coast between Nellore and Narsapur on the night of Nov 2–3 as a severe cyclonic storm (The Hindu; districts not named in the report). Update, Nov 1 afternoon: Telangana is likely to get rain, thunderstorms and gusty winds over the coming days as the system moves in (Telangana Today). Update, Nov 1 midday: the depression has intensified into a deep depression over the Bay of Bengal (The Hindu). IMD says it may become cyclonic storm 'Murasu' within about six hours, and a severe cyclonic storm over the westcentral Bay on Nov 2 (Hindustan Times). It is likely to cross the AP coast between Nellore and Narsapur on Nov 3, at 100–110 kmph gusting 120 kmph. HT also reports a heavy rain alert for Andhra and Tamil Nadu till Nov 3. Earlier: APSDMA flagged heavy to very heavy rain on Nov 2 in Eluru, West Godavari, NTR, Krishna, Guntur, Bapatla, Palnadu, Prakasam, Markapuram, Nellore and Tirupati; fishermen told to stay off the sea Nov 2–4."
   },
-  "storyline": "bay-cyclone-2026"
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Two cyclones in a week: what worries you most?",
+   "opts": [
+    "Family on the coast",
+    "Travel plans",
+    "Prices of veggies",
+    "Not affected"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Where is the cyclone expected to cross the coast?",
+   "opts": [
+    "Between Narsapur and Nellore",
+    "Chennai",
+    "Visakhapatnam",
+    "Odisha"
+   ],
+   "ans": 0,
+   "why": "IMD's bulletin puts landfall between Narsapur and Nellore early on Nov 3."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "12",
+   "l": "flights cancelled at Vijayawada today, incl. Hyderabad routes"
+  },
+  {
+   "t": "timeline",
+   "l": "Landfall window (IMD)",
+   "now": 0,
+   "steps": [
+    {
+     "t": "8:30 am Mon",
+     "e": "160 km ESE of Nellore"
+    },
+    {
+     "t": "11:30 pm Mon",
+     "e": "Window opens"
+    },
+    {
+     "t": "4 am Tue",
+     "e": "Window closes"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "100–110 kmph",
+   "l": "sustained wind at landfall, gusts 120"
+  },
+  {
+   "t": "timeline",
+   "l": "Telangana rain alerts (IMD Hyderabad)",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Nov 2",
+     "e": "Orange: Nalgonda, Suryapet"
+    },
+    {
+     "t": "Nov 3",
+     "e": "Red: Khammam, Suryapet, Mahabubabad"
+    },
+    {
+     "t": "Nov 4",
+     "e": "Heavy rain, orange alert"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "3",
+   "l": "TG districts on red alert (per The Hans India)"
+  },
+  {
+   "t": "compare",
+   "l": "Telangana alerts, Nov 2",
+   "a": {
+    "v": 6,
+    "d": "6",
+    "l": "orange-alert districts"
+   },
+   "b": {
+    "v": 5,
+    "d": "5",
+    "l": "yellow-alert districts"
+   }
+  },
+  {
+   "t": "timeline",
+   "l": "Storm path",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Oct 29",
+     "e": "Low forms, Andaman Sea"
+    },
+    {
+     "t": "Nov 1",
+     "e": "Deep depression; 'Murasu' next"
+    },
+    {
+     "t": "Nov 2",
+     "e": "Severe cyclonic storm"
+    },
+    {
+     "t": "Nov 3, early",
+     "e": "Landfall Narsapur–Nellore"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "11",
+   "l": "AP districts on heavy-rain watch, Nov 2"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "120 kmph",
+  "label": "max wind at landfall, Nov 3",
+  "motion": "drift",
+  "scene": [
+   "🌊",
+   "🌀",
+   "🚫"
+  ]
+ },
+ "insight": "It comes just days after Cyclone Arnab hit the Kakinada–Narsapur coast on Oct 27–28.",
+ "watch": "IMD bulletins every few hours; the exact landfall point can shift.",
+ "thread": "cyclone-murasu-nov3-landfall",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Cyclone Murasu: 12 flight services cancelled at Vijayawada; Visakhapatnam flights hit",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-12-flight-services-cancelled-at-vijayawada-visakhapatnam-flights-hit/article71655530.ece"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Cyclone Murasu | Telangana's Nagarkurnool administration releases do's and don'ts",
+   "url": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-telanganas-nagarkurnool-administration-releases-dos-and-donts/article71655531.ece"
+  },
+  {
+   "name": "Siasat",
+   "title": "Cyclone Murasu: IMD Hyderabad forecasts 'heavy rain' for 3 days",
+   "url": "https://www.siasat.com/cyclone-murasu-imd-hyderabad-forecasts-heavy-rain-for-3-days-3568387/"
+  },
+  {
+   "name": "Hindustan Times",
+   "title": "Cyclone Murasu LIVE: System intensifies into 'severe cyclonic storm', landfall expected in Andhra tomorrow",
+   "url": "https://www.hindustantimes.com/india-news/cyclone-murasu-live-updates-severe-cyclonic-storm-andhra-pradesh-odisha-rain-warning-landfall-tomorrow-november-3-imd-101793588601578.html"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Holiday declared for educational institutions in Guntur",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/holiday-declared-for-educational-institutions-in-guntur/article71655143.ece"
+  },
+  {
+   "name": "Siasat",
+   "title": "Cyclone Murasu to make landfall on Nov 3, states put on alert",
+   "url": "https://www.siasat.com/cyclone-murasu-to-make-landfall-on-nov-3-states-put-on-alert-3568277/"
+  },
+  {
+   "name": "The Hans India",
+   "title": "Cyclone Murasu: Heavy rain alert for Telangana",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/cyclone-murasu-heavy-rain-alert-for-telangana-1138238"
+  },
+  {
+   "name": "Economic Times",
+   "title": "Weather today, November 2: IMD warns of heavy rain in AP, Telangana, TN",
+   "url": "https://economictimes.indiatimes.com/news/new-updates/weather-today-november-2-imd-warns-of-heavy-rain-in-andhra-pradesh-telangana-tamil-nadu-delhi-ncrs-aqi-becomes-severe-check-latest-imd-update-and-aqi-levels/articleshow/135441795.cms"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Cyclone Murasu LIVE update, November 2",
+   "url": "https://www.thehindu.com/news/national/murasu-cyclone-live-updates-on-november-2-2026-tamil-nadu-telangana-andhra-pradesh-odisha/article71654226.ece"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Cyclone Murasu | Paddy farmers in Telangana fear crop damage",
+   "url": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-paddy-farmers-in-telangana-fear-crop-damage-amid-high-market-prices/article71653493.ece"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Cyclone Murasu: Orange alert in six Telangana districts, yellow alert in five on November 2",
+   "url": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-orange-alert-in-six-telangana-districts-yellow-alert-in-five-on-november-2/article71652716.ece"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Telangana braces for heavy rains, squally weather over coming days under Cyclone Murasu",
+   "url": "https://telanganatoday.com/telangana-braces-for-heavy-rains-squally-weather-over-coming-days-under-cyclone-murasu"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Depression intensifies into deep depression over Bay of Bengal",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/bay-of-bengal-deep-depression-cyclonic-storm-andhra-pradesh-november-1-2026-updates/article71652131.ece"
+  },
+  {
+   "name": "Hindustan Times",
+   "title": "Depression over Bay of Bengal intensified, says IMD; cyclone 'Murasu' may hit Andhra on Nov 3",
+   "url": "https://www.hindustantimes.com/india-news/depression-over-bay-of-bengal-intensified-imd-deep-depression-severe-cyclonic-storm-cyclone-murasu-andhra-november-3-latest-update-101793505939759.html"
+  },
+  {
+   "name": "The Hindu",
+   "title": "After 'Arnab', Andhra Pradesh may face another severe cyclonic storm",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/after-arnab-andhra-pradesh-may-face-another-severe-cyclonic-storm/article71649303.ece"
+  },
+  {
+   "name": "The Hindu",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-drums-up-fresh-worry-for-andhra-after-arnab-red-alert-sounded-in-five-districts/article71652622.ece"
+  }
+ ],
+ "updated": 1793604180839,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/ddkziq/article71652268.ece/alternates/LANDSCAPE_1200/VSP01_Fishing%20Boats%20%201.JPG",
+  "c": "The Hindu"
+ },
+ "storyline": "bay-cyclone-2026"
 }
