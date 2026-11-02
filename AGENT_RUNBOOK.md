@@ -439,3 +439,9 @@ Each shows a tag ("Good news"/"Worrying"/"Watch") and the rule ("Rising is bad n
 - Labels shown: 🟢 Good trend / 🔴 Bad trend / 👀 Trend to notice (neutral).
 - Price, fee, fine, cost rising = bad for the people paying. If it helps one group and hurts another (e.g. paddy price: farmers gain, buyers pay), use neutral and say who in `verdict`.
 - Colour reports the effect on people. It never pushes a view (Rule Zero).
+
+## Civic alert details are now automatic (v2)
+- Edge function `civic-enrich` (cron `spill-civic-enrich`, every 10 min, free, no AI) reads the article and fills `details`: `when`, `timing`, `where` (known Hyderabad areas / Telangana districts), `level`, `do`, `valid_until`, `confidence`. It only extracts what the text says; missing parts are named in `summary` ("The report doesn't give the timing, areas").
+- Only `confidence: high` (date + timing or areas confirmed) can be pushed. Others are `skipped` for push but still show in the app.
+- Agents (§14) now only review `details->>'confidence' <> 'high'` alerts: open the real article, fix `when/timing/where` by hand, set `confidence` to 'high' and `push_status='pending'` if verified.
+- Known limit: alerts found through Google/Bing News links are enriched from the headline/summary only (their pages can't be opened by the function), so they are often medium/low.
