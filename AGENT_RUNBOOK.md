@@ -393,6 +393,6 @@ Spill communicates the news, helps people understand the issue, and collects wha
 - Spill reports what people said. It does not argue with them.
 
 ## Card anatomy v3 (fact + twist)
-- `fact`: card headline under the image. 5-6 words, the main stat wrapped in *stars*. Example: `*4-5x* safe nitrate limit in Rangareddy`. No full sentences. If omitted the app builds it from cover.big + cover.label.
+- `fact`: card headline under the image. ONE complete, surprising sentence, 8-14 words, main stat in *stars*. Must stand alone (who/what/number) and be interesting to read. Example: `Rangareddy borewells carry *4-5x* the safe nitrate limit`. Never a fragment. If omitted the app shows `hook`.
 - `twist`: one factual plot-twist line, shown after the vote (locked before). It must surprise and make people want the full story: a number, a reversal, or a "but". Sourced, never opinion (Rule Zero). If omitted the app shows `insight`.
 - Every story also needs `map` (why/what/hits-you flow), `watch` (what happens next) and `learn` (one term explained).

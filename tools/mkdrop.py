@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Compact drop builder. Usage: python3 tools/mkdrop.py specs.json   (list of specs)
-Spec keys: slug, cat, city?, sort (0-99), heat?, hook (insight-led, 12 words max, *key number*), insight (one 'oh wow' line), fact (card headline, 5-6 words, *stat*), twist (plot-twist reveal, one factual surprising line), hook_b, tldr, why, what, care, tea, poll{vt,q,opts}, src{name,title,url}|srcs[],
+Spec keys: slug, cat, city?, sort (0-99), heat?, hook (insight-led, 12 words max, *key number*), insight (one 'oh wow' line), fact (card headline, one complete surprising sentence 8-14 words, *stat*), twist (plot-twist reveal, one factual surprising line), hook_b, tldr, why, what, care, tea, poll{vt,q,opts}, src{name,title,url}|srcs[],
  img{u,c}?, big, bl, map{cause, event, effects[2]}, emoji[3]?, learn?, watch?
 Writes content/drops/d<date>-<slug>.json with map, cover, viz filled from these fields."""
 import json,sys,time,datetime

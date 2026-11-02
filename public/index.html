@@ -171,7 +171,7 @@
 .nnext{padding:8px 10px;border-radius:10px;background:#4fbcff14}.naha{padding:8px 10px;border-radius:10px;background:#ffd16618}
 </style>
 <style>
-.nfact{font-size:24px!important;line-height:1.15!important;font-weight:800!important;margin:10px 0 10px!important;letter-spacing:-.01em}
+.nfact{font-size:21px!important;line-height:1.22!important;font-weight:800!important;margin:10px 0 10px!important;letter-spacing:-.01em}
 .nfact em,.nfact b,.nfact mark{color:#ff6a2b;font-style:normal;background:none}
 .nlock{margin:0 0 8px;padding:8px 10px;border-radius:10px;border:1px dashed #ffffff30;font-size:12px;opacity:.75;text-align:center}
 .ntwist{padding:10px 12px;border-radius:12px;background:linear-gradient(135deg,#ff450022,#ffd16622);border:1px solid #ff450040;display:grid;gap:4px}
@@ -1412,7 +1412,7 @@ function iquizHTML(d){const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q)return""
   if(a==null)return `<div class="iquiz"><span class="ik">🧠 Quick one</span><b>${rich(q.q)}</b><div class="iopts">${q.opts.slice(0,4).map((o,j)=>`<button data-iq="${d.id}" data-i="${j}">${esc(o)}</button>`).join("")}</div></div>`;
   const ok=a===q.ans;return `<div class="iquiz res ${ok?"ok":"no"}"><span class="ik">🧠 Quick one</span><b>${ok?"✅ Nailed it":"🤔 Not quite"} · ${esc(q.opts[q.ans])}</b>${q.why?`<span class="iw">${rich(q.why)}</span>`:""}</div>`}
 function thumbHTML(d){return d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}
-function factOf(d){if(d.fact)return d.fact;const c=d.cover||{};if(c.big&&c.label){const l=String(c.label).split(/[,(]/)[0].trim().split(/\s+/).slice(0,5).join(" ");return "*"+c.big+"* "+l}return abHook(d)}
+function factOf(d){return d.fact||abHook(d)}
 function twistOf(d){return d.twist||d.insight||""}
 function stripHTML(d){const m=d.map;if(!m)return"";const c=(m.causes||[])[0],e=m.event,f=(m.effects||[])[0];
   const st=[["Why",c],["What",e],["Hits you",f]].filter(x=>x[1]);
