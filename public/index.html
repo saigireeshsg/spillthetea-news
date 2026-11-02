@@ -143,6 +143,14 @@
 .ipoll .ik{color:#9aa4ad}
 @media (prefers-reduced-motion:no-preference){.post{transition:border-color .2s}}
 </style>
+<style>
+.nstat{position:absolute;left:8px;bottom:7px;background:#000b;color:#fff;font-weight:800;font-size:15px;padding:2px 10px;border-radius:999px;backdrop-filter:blur(2px)}
+.nimg.lg{aspect-ratio:2/1}.nimg.lg .nfb b{display:none}
+.na .pt{margin:8px 0 8px;font-size:19px}
+.wwhbtn{display:block;margin:2px 0 8px;font-size:12.5px}
+.na.voted{border-color:#ff450040}
+.wwhbox{animation:wwin .25s ease}@keyframes wwin{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+</style>
 </head>
 <body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1361,7 +1369,7 @@ let UI=(()=>{try{const q=new URLSearchParams(location.search).get("ui");if(q&&/^
 function cardHTML(d,ix){return UI==="old"?cardHTMLClassic(d,ix):newCard(d,ix)}
 function imgHTML(d,cls){const c=d.cover||{},bg=(c.bg||["#1a1a1b","#333"]);const sc=(c.scene||[]).slice(0,3).join(" ");
   const im=d.img&&d.img.u?`<img src="${esc(d.img.u)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:"";
-  return `<div class="nimg ${cls}" style="background:linear-gradient(135deg,${bg[0]},${bg[1]})"><span class="nfb">${esc(sc)}<b>${esc(c.big||"")}</b></span>${im}${d.img&&d.img.c?`<small class="ncr">📷 ${esc(d.img.c)}</small>`:""}</div>`}
+  return `<div class="nimg ${cls}" style="background:linear-gradient(135deg,${bg[0]},${bg[1]})"><span class="nfb">${esc(sc)}<b>${esc(c.big||"")}</b></span>${im}${c.big?`<span class="nstat">${esc(c.big)}</span>`:""}${d.img&&d.img.c?`<small class="ncr">📷 ${esc(d.img.c)}</small>`:""}</div>`}
 function wwhHTML(d){const b=d.beats||{};const r=[["🤔","Why",b.why],["📰","What",b.what],["🫵","How it matters",b.care]].filter(x=>x[2]);
   return `<dl class="wwh">${r.map(x=>`<div><dt>${x[0]} ${x[1]}</dt><dd>${rich(x[2])}</dd></div>`).join("")}</dl>`}
 function ipollHTML(d){const pl=(d.cards||[]).find(c=>c.k==="poll");if(!pl)return"";const a=me.poll[d.id];const n=tot("poll",d.id);
@@ -1377,16 +1385,19 @@ function iquizHTML(d){const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q)return""
   const ok=a===q.ans;return `<div class="iquiz res ${ok?"ok":"no"}"><span class="ik">🧠 Quick one</span><b>${ok?"✅ Nailed it":"🤔 Not quite"} · ${esc(q.opts[q.ans])}</b>${q.why?`<span class="iw">${rich(q.why)}</span>`:""}</div>`}
 function thumbHTML(d){return d.map?`<div class="thumb" aria-hidden="true">${mapHTML(d.map)}</div>`:structHTML(d)}
 function newCard(d,ix){const n=commentCount(d);
+  const pl=(d.cards||[]).find(c=>c.k==="poll"),voted=pl&&me.poll[d.id]!=null;
   const foot=`<div class="acts"><button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${n?n+" 💬 · ":""}Full story →</span></div>`;
   const ins=d.insight?`<p class="ins">💡 ${esc(d.insight)}</p>`:"";
-  if(UI==="b")return `<article class="post npost nb click" data-open="${d.id}" tabindex="0">${head(d)}<div class="nbrow">${imgHTML(d,"sm")}<h2 class="pt">${rich(abHook(d))}</h2></div>${ins}${ipollHTML(d)}${foot}</article>`;
-  return `<article class="post npost na click" data-open="${d.id}" tabindex="0">${head(d)}${imgHTML(d,"lg")}<h2 class="pt">${rich(abHook(d))}</h2>${ins}<div class="nflow">${thumbHTML(d)}</div>${ipollHTML(d)}${foot}</article>`}
+  const flowBody=`${ins}<div class="nflow">${thumbHTML(d)}</div>`;
+  if(UI==="b")return `<article class="post npost nb click" data-open="${d.id}" tabindex="0">${head(d)}<div class="nbrow">${imgHTML(d,"sm")}<h2 class="pt">${rich(abHook(d))}</h2></div>${ipollHTML(d)}${voted||!pl?flowBody:""}${foot}</article>`;
+  const open=voted||!pl;
+  return `<article class="post npost na click ${voted?"voted":""}" data-open="${d.id}" tabindex="0">${head(d)}${imgHTML(d,"lg")}<h2 class="pt">${rich(abHook(d))}</h2>${ipollHTML(d)}${open?`<div class="wwhbox">${flowBody}</div>`:`<button class="act wwhbtn" data-wwh="1">🧭 Why · What · Consequences ▾</button><div class="wwhbox" hidden>${flowBody}</div>`}${foot}</article>`}
 function voteBarHTML(pool){const t=today(),v=(me.vday||{})[t]||0,N=pool.filter(x=>(x.cards||[]).some(c=>c.k==="poll")).length;let st=0;const dd=new Date();for(;;){const k=day(dd);if((me.vday||{})[k]){st++;dd.setDate(dd.getDate()-1)}else break}
   return `<div class="mvx"><div class="mvx-top"><b>🗳️ Your voice today</b><span>${v}/${N}</span><span class="xp">⚡ ${me.xp||0} XP</span>${st>1?`<span class="xp">🔥 ${st}-day streak</span>`:""}</div><div class="mvx-track"><i style="width:${N?Math.min(100,Math.round(v*100/N)):0}%"></i></div></div>`}
 try{const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){io.unobserve(en.target);en.target.click()}}),{rootMargin:"600px"});
 const watch=()=>document.querySelectorAll("#view button.more:not([data-io])").forEach(b=>{b.dataset.io=1;io.observe(b)});
 new MutationObserver(watch).observe(document.documentElement,{childList:true,subtree:true});watch()}catch(_){}
-document.addEventListener("click",e=>{const w=e.target.closest("[data-wwh]");if(w){e.preventDefault();e.stopPropagation();const c=w.closest("article.post"),bx=c&&c.querySelector(".wwhbox");if(bx){bx.hidden=!bx.hidden;w.textContent=bx.hidden?"🧭 Why · What · So what ▾":"🧭 Hide ▴"}return}const u=e.target.closest("[data-ui]");if(u){UI=u.dataset.ui;try{localStorage.setItem("spill_ui",UI);window.spillTrack&&window.spillTrack("tab_open",{tab:"ui_"+UI})}catch(_){}feed();return}},true);
+document.addEventListener("click",e=>{const w=e.target.closest("[data-wwh]");if(w){e.preventDefault();e.stopPropagation();const c=w.closest("article.post"),bx=c&&c.querySelector(".wwhbox");if(bx){bx.hidden=!bx.hidden;w.textContent=bx.hidden?"🧭 Why · What · Consequences ▾":"🧭 Hide ▴"}return}const u=e.target.closest("[data-ui]");if(u){UI=u.dataset.ui;try{localStorage.setItem("spill_ui",UI);window.spillTrack&&window.spillTrack("tab_open",{tab:"ui_"+UI})}catch(_){}feed();return}},true);
 document.addEventListener("click",e=>{const b=e.target.closest("[data-ip],[data-iq]");if(!b)return;e.preventDefault();e.stopPropagation();
   const poll=b.hasAttribute("data-ip"),id=b.dataset.ip||b.dataset.iq,i=+b.dataset.i;const d=drops.find(x=>x.id===id);if(!d)return;
   if(poll){if(me.poll[id]!=null)return;me.poll[id]=i;bump(d,2);me.xp=(me.xp||0)+10;me.vday=me.vday||{};me.vday[today()]=(me.vday[today()]||0)+1;try{toast("+10 XP · voice counted")}catch(_){}}else{const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q||me.quiz[id]!=null)return;recordQuiz(d,i)}
