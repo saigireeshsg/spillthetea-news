@@ -1417,14 +1417,10 @@ function twistOf(d){return d.twist||d.insight||""}
 function stripHTML(d){const m=d.map;if(!m)return"";const c=(m.causes||[])[0],e=m.event,f=(m.effects||[])[0];
   const st=[["Why",c],["What",e],["Hits you",f]].filter(x=>x[1]);
   return `<ol class="nstrip">${st.map(([k,x],i)=>`<li><span class="ni">${esc(x.icon||"")}</span><small>${k}</small><b>${esc(x.label||"")}</b></li>`).join("")}</ol>`}
-function revealHTML(d){const v=vizItems(d).find(x=>x.t&&x.t!=="big");const big=vizItems(d).find(x=>x.t==="big");
-  const g=[];
-  if(v)g.push(`<div class="nviz">${vizOne(v)}</div>`);else if(big)g.push(`<div class="nviz">${vizOne(big)}</div>`);
-  if(twistOf(d))g.push(`<p class="ntwist"><b>🤯 Plot twist</b> ${esc(twistOf(d))}<span class="nrd">Read the full story →</span></p>`);
-  const m=d.map;if(m&&(m.effects||[]).length>1)g.push(`<p class="nfx">${(m.effects||[]).map(x=>esc((x.icon||"")+" "+x.label)).join(" · ")}</p>`);
-  if(d.watch)g.push(`<p class="nnext"><b>👀 Next</b> ${esc(d.watch)}</p>`);
+function revealHTML(d){const g=[];
+  if(twistOf(d))g.push(`<p class="ntwist"><b>🤯 Plot twist</b> ${esc(twistOf(d))}</p>`);
   if(d.learn&&d.learn.t)g.push(`<p class="naha"><b>📘 Know</b> ${rich(d.learn.t)}</p>`);
-  return `<div class="nreveal">${g.join("")}</div>`}
+  return g.length?`<div class="nreveal">${g.join("")}</div>`:""}
 function newCard(d,ix){const n=commentCount(d);
   const pl=(d.cards||[]).find(c=>c.k==="poll"),voted=pl&&me.poll[d.id]!=null;
   const foot=`<div class="acts"><button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${n?n+" 💬 · ":""}Full story →</span></div>`;
