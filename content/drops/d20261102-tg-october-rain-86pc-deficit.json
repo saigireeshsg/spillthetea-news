@@ -1,0 +1,156 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-98",
+ "order": 1,
+ "heat": 5,
+ "readSecs": 30,
+ "topic": "Telangana got *1.27 cm* of rain in Octob",
+ "hook": "Telangana got *1.27 cm* of rain in October. Normal is 9 cm",
+ "hook_b": "Murasu brings rain today. Does it fix the dry season?",
+ "tldr": "October rain fell 86% short in Telangana; experts see November short too, cyclone aside.",
+ "beats": {
+  "what": "Telangana logged 1.27 cm of rain in October against a normal 9.01 cm.",
+  "why": "Rain has been below normal for five straight months since the southwest monsoon.",
+  "care": "Weaker borewells and lakes ahead. One cyclone may not refill them, officials suggest."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "☀️",
+    "label": "5 dry months in a row"
+   }
+  ],
+  "event": {
+   "icon": "🌧️",
+   "label": "Oct rain 86% short"
+  },
+  "effects": [
+   {
+    "icon": "💧",
+    "label": "Groundwater recharge hit"
+   },
+   {
+    "icon": "💧",
+    "label": "Nov outlook: 25–40% short"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Per Sakshi, citing the weather department: October rain was 86% below normal (1.27 cm vs 9.01 cm). Last October the state got 17.57 cm. From June to October, Telangana got 62.82 cm against a normal 83.07 cm, a gap of 20.25 cm. That hits kharif crops, groundwater recharge and lake storage. IMD's November outlook is also below normal: the month's average is 1.57 cm, and experts expect a 25–40% shortfall, though Cyclone Murasu may push some places above normal. Days are expected to stay warmer than usual, with less winter chill."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Dry months ahead: what should Hyderabad do first?",
+   "opts": [
+    "Recharge pits in every building",
+    "Fine water wasters",
+    "Fix pipeline leaks",
+    "Not my issue"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "How much rain did Telangana get in October 2026?",
+   "opts": [
+    "1.27 cm",
+    "9 cm",
+    "17.6 cm",
+    "4 cm"
+   ],
+   "ans": 0,
+   "why": "Just 1.27 cm against a normal 9.01 cm: an 86% shortfall."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "86%",
+   "l": "less rain than normal in October"
+  },
+  {
+   "t": "compare",
+   "l": "October rainfall, Telangana",
+   "a": {
+    "v": 9.01,
+    "d": "9.01 cm",
+    "l": "Normal"
+   },
+   "b": {
+    "v": 1.27,
+    "d": "1.27 cm",
+    "l": "Oct 2026"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "meter",
+   "l": "Monsoon to date (Jun–Oct)",
+   "v": 62.82,
+   "max": 83.07,
+   "d": "62.82 cm of 83.07 cm",
+   "note": "20.25 cm short"
+  },
+  {
+   "t": "trend",
+   "l": "October rain (cm)",
+   "pts": [
+    [
+     "Oct 2025",
+     17.57
+    ],
+    [
+     "Normal",
+     9.01
+    ],
+    [
+     "Oct 2026",
+     1.27
+    ]
+   ],
+   "unit": " cm"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "86%",
+  "label": "less rain than normal in October",
+  "motion": "drift",
+  "scene": [
+   "☀️",
+   "🌧️",
+   "💧"
+  ]
+ },
+ "insight": "October was 86% short; it is the fifth dry month in a row, per IMD figures in Sakshi.",
+ "learn": {
+  "t": "Rain deficit = how far below the long-term average a region's rainfall is for a period."
+ },
+ "watch": "How much rain Murasu actually brings Nov 2–4, and HMWSSB's reservoir update.",
+ "thread": "tg-october-rain-86pc-deficit",
+ "sources": [
+  {
+   "name": "Sakshi",
+   "title": "ఈనెలా వర్షాభావమే! (October 86% rain deficit)",
+   "url": "https://www.sakshi.com/telugu-news/telangana/telangana-experiences-86-percent-rainfall-deficit-october-2949123"
+  }
+ ],
+ "updated": 1793581441791,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://www.sakshi.com/article_images/2026/11/2/rainfall-deficit.jpg",
+  "c": "Sakshi"
+ },
+ "storyline": "hyd-water-crisis",
+ "areas": [
+  "Hyderabad"
+ ]
+}

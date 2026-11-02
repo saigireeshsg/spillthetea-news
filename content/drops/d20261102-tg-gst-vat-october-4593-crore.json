@@ -1,0 +1,149 @@
+{
+ "cat": "money",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-95",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Telangana's October GST hit *₹4,593 cror",
+ "hook": "Telangana's October GST hit *₹4,593 crore*, up 17%",
+ "hook_b": "Petrol and liquor VAT jumped 31%. What does that say?",
+ "tldr": "Telangana's GST rose 17% and VAT 31% in October; ₹1,402 crore more than last October.",
+ "beats": {
+  "what": "Telangana collected ₹4,593 crore GST in October, up from ₹3,914 crore a year ago.",
+  "why": "Sakshi credits Hyderabad's IT, services, pharma and auto-parts activity.",
+  "care": "More state revenue means more room for schemes. VAT growth reflects fuel and liquor sales."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💻",
+    "label": "IT, services, pharma"
+   }
+  ],
+  "event": {
+   "icon": "🧾",
+   "label": "Oct GST up 17%"
+  },
+  "effects": [
+   {
+    "icon": "📈",
+    "label": "VAT up 31%"
+   },
+   {
+    "icon": "📈",
+    "label": "+₹1,402 cr vs last Oct"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Per Sakshi, citing Centre's GST data: Telangana's October GST rose from ₹3,914 crore to ₹4,593 crore (+₹679 crore, 17%). VAT on petroleum and liquor rose from ₹2,342 crore to ₹3,065 crore (+₹723 crore, 31%). Together, ₹1,402 crore more than last October. For April–October, GST plus VAT reached ₹51,563 crore vs ₹44,023 crore last year, about ₹7,500 crore more. Sakshi attributes growth to IT/ITES and corporate services in Hyderabad, plus manufacturing, pharma and auto parts."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Extra ₹1,400 crore: where should it go first?",
+   "opts": [
+    "Water and roads",
+    "Jobs and skilling",
+    "Pay pending dues",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which grew faster in October?",
+   "opts": [
+    "VAT on petrol and liquor",
+    "GST",
+    "Both the same",
+    "Neither"
+   ],
+   "ans": 0,
+   "why": "VAT rose 31%; GST rose 17%."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹4,593 cr",
+   "l": "Telangana GST in October, up 17%"
+  },
+  {
+   "t": "compare",
+   "l": "Telangana GST, October",
+   "a": {
+    "v": 3914,
+    "d": "₹3,914 cr",
+    "l": "Oct 2025"
+   },
+   "b": {
+    "v": 4593,
+    "d": "₹4,593 cr",
+    "l": "Oct 2026"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "compare",
+   "l": "VAT on petrol, liquor",
+   "a": {
+    "v": 2342,
+    "d": "₹2,342 cr",
+    "l": "Oct 2025"
+   },
+   "b": {
+    "v": 3065,
+    "d": "₹3,065 cr",
+    "l": "Oct 2026"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "big",
+   "v": "₹51,563 cr",
+   "l": "GST + VAT, Apr–Oct (₹44,023 cr last year)"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b0f0f",
+   "#c0392b"
+  ],
+  "big": "₹4,593 cr",
+  "label": "Telangana GST in October, up 17%",
+  "motion": "drift",
+  "scene": [
+   "💻",
+   "🧾",
+   "📈"
+  ]
+ },
+ "insight": "VAT on petrol and liquor grew faster than GST: 31% vs 17%, per Sakshi's figures.",
+ "learn": {
+  "t": "VAT = value added tax; states still levy it on petrol, diesel and liquor, which sit outside GST."
+ },
+ "watch": "November collections, and whether cyclone rain dents economic activity.",
+ "thread": "tg-gst-vat-october-4593-crore",
+ "sources": [
+  {
+   "name": "Sakshi",
+   "title": "జీఎస్టీ.. 'వ్యాట్‌' ఏ వసూల్‌! (Telangana GST, VAT grow in October)",
+   "url": "https://www.sakshi.com/telugu-news/telangana/gst-collections-grow-october-telangana-2949126"
+  }
+ ],
+ "updated": 1793581441792,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://www.sakshi.com/article_images/2026/11/2/GSTSS.jpg",
+  "c": "Sakshi"
+ },
+ "moment": {
+  "e": "🧾",
+  "t": "Fuel eats my salary too",
+  "k": "fuel"
+ }
+}

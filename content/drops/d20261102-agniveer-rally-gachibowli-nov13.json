@@ -1,0 +1,161 @@
+{
+ "cat": "local",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-96",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Army Agniveer rally at Gachibowli stadiu",
+ "hook": "Army Agniveer rally at Gachibowli stadium, *Nov 13–24*: all 33 districts",
+ "hook_b": "Got an Agniveer admit card? Here's where to report",
+ "tldr": "The Army holds an Agniveer rally for all 33 Telangana districts at Gachibowli, Nov 13–24.",
+ "beats": {
+  "what": "Indian Army recruitment rally for Agniveers at GMC Balayogi Athletic Stadium, Gachibowli.",
+  "why": "It screens candidates for the 2027 recruiting year across four Agniveer categories.",
+  "care": "Have an admit card? Bring every original document. Ignore anyone asking for money."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪖",
+    "label": "2027 Agniveer intake"
+   }
+  ],
+  "event": {
+   "icon": "🏟️",
+   "label": "Rally at Gachibowli"
+  },
+  "effects": [
+   {
+    "icon": "📄",
+    "label": "33 districts, 4 categories"
+   },
+   {
+    "icon": "📄",
+    "label": "Admit card + originals"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The rally runs Nov 13–24 at GMC Balayogi Athletic Stadium, Gachibowli, for candidates from all 33 Telangana districts (The Hindu). Categories: Agniveer General Duty, Agniveer Technical, Agniveer Tradesman (10th pass) and Agniveer Tradesman (8th pass). Only candidates who received admit cards should report, with all documents in original as listed in the 2027 notification. The Army warns against touts: selection is automated and agents have no role. Info: joinindianarmy.nic.in · Army Recruiting Office, Secunderabad: 040-27740059. Day-wise district schedule was not in the report."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you consider an Agniveer stint?",
+   "opts": [
+    "Yes, I'd apply",
+    "Only for a permanent post",
+    "No, other plans",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Who decides selection at the Agniveer rally?",
+   "opts": [
+    "An automated, transparent process",
+    "Local agents",
+    "Coaching centres",
+    "District collectors"
+   ],
+   "ans": 0,
+   "why": "The Army says selection is automated and agents have no role."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "12 days",
+   "l": "of rally, Nov 13–24, Gachibowli"
+  },
+  {
+   "t": "stack",
+   "l": "4 categories at the rally",
+   "total": "4 Agniveer posts",
+   "parts": [
+    {
+     "l": "General Duty",
+     "v": 1
+    },
+    {
+     "l": "Technical",
+     "v": 1
+    },
+    {
+     "l": "Tradesman 10th",
+     "v": 1
+    },
+    {
+     "l": "Tradesman 8th",
+     "v": 1
+    }
+   ]
+  },
+  {
+   "t": "timeline",
+   "l": "Rally dates",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Now",
+     "e": "Check admit card"
+    },
+    {
+     "t": "Nov 13",
+     "e": "Rally opens, Gachibowli"
+    },
+    {
+     "t": "Nov 24",
+     "e": "Rally ends"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "12 days",
+  "label": "of rally, Nov 13–24, Gachibowli",
+  "motion": "drift",
+  "scene": [
+   "🪖",
+   "🏟️",
+   "📄"
+  ]
+ },
+ "insight": "Only candidates with admit cards report; the Army says no agent can get you selected.",
+ "learn": {
+  "t": "Agniveer = a soldier recruited under the Agnipath scheme for a fixed term of service."
+ },
+ "watch": "District-wise reporting dates on joinindianarmy.nic.in.",
+ "thread": "agniveer-rally-gachibowli-nov13",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Indian Army to hold Agniveer recruitment rally in Hyderabad from November 13 to 24",
+   "url": "https://www.thehindu.com/news/national/telangana/indian-army-to-hold-agniveer-recruitment-rally-in-hyderabad-from-november-13-to-24/article71652699.ece"
+  }
+ ],
+ "updated": 1793581441791,
+ "city": "Hyderabad",
+ "moment": {
+  "e": "🪖",
+  "t": "Know someone applying",
+  "k": "applying"
+ },
+ "areas": [
+  "Gachibowli"
+ ],
+ "links": [
+  {
+   "label": "Join Indian Army (official)",
+   "url": "https://www.joinindianarmy.nic.in"
+  }
+ ]
+}

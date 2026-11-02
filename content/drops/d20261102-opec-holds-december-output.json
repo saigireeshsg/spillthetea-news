@@ -1,0 +1,112 @@
+{
+ "cat": "world",
+ "lead": "world",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-89",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "OPEC+ keeps December oil output *unchang",
+ "hook": "OPEC+ keeps December oil output *unchanged* as Iran war hits Gulf",
+ "hook_b": "Will petrol get cheaper? OPEC+ just said: not yet",
+ "tldr": "OPEC+ held December output steady as the Iran war disrupts Gulf oil exports.",
+ "beats": {
+  "what": "OPEC+ kept its December oil output target unchanged.",
+  "why": "The Iran war is disrupting Gulf exports; members wait for the Nov 29 meeting.",
+  "care": "India imports most of its oil. Supply decisions shape fuel and LPG costs here."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚔️",
+    "label": "Iran war hits Gulf exports"
+   }
+  ],
+  "event": {
+   "icon": "🛢️",
+   "label": "Dec output unchanged"
+  },
+  "effects": [
+   {
+    "icon": "⛽",
+    "label": "2027 quotas on Nov 29"
+   },
+   {
+    "icon": "⛽",
+    "label": "Fuel costs in focus"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Per NDTV Profit: OPEC+ (oil exporters led by Saudi Arabia and Russia) held its December output target steady while the Iran war disrupts Gulf exports. Members are preparing for crucial 2027 quota decisions at a meeting on November 29. Exact production numbers and price impact were not in the summary we read."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Oil shocks again: what should India do?",
+   "opts": [
+    "Buy more from Russia",
+    "Push EVs faster",
+    "Build bigger reserves",
+    "Not sure"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Nov 29",
+   "l": "OPEC+ meets to set 2027 quotas"
+  },
+  {
+   "t": "timeline",
+   "l": "What happens when",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Now",
+     "e": "Dec output held"
+    },
+    {
+     "t": "Nov 29",
+     "e": "OPEC+ meets on 2027 quotas"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#0d1b2e",
+   "#25508a"
+  ],
+  "big": "Nov 29",
+  "label": "OPEC+ meets to set 2027 quotas",
+  "motion": "drift",
+  "scene": [
+   "⚔️",
+   "🛢️",
+   "⛽"
+  ]
+ },
+ "insight": "The bigger call comes Nov 29, when OPEC+ meets to set 2027 production quotas.",
+ "learn": {
+  "t": "OPEC+ = OPEC's 12 members plus allies like Russia, who coordinate how much oil to pump."
+ },
+ "thread": "opec-holds-december-output",
+ "sources": [
+  {
+   "name": "NDTV Profit",
+   "title": "OPEC+ Retains December Oil Output Target Amid Iran War Disruptions: Why 2027 Quota Matters",
+   "url": "https://www.ndtvprofit.com/markets/opec-retains-december-oil-output-target-amid-iran-war-disruptions-why-2027-quota-matters-12268455"
+  }
+ ],
+ "updated": 1793581441793,
+ "moment": {
+  "e": "⛽",
+  "t": "Watching petrol prices",
+  "k": "petrol"
+ }
+}

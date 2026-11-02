@@ -1,0 +1,121 @@
+{
+ "cat": "local",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "*205* caught drunk driving in one Cybera",
+ "hook": "*205* caught drunk driving in one Cyberabad weekend",
+ "hook_b": "Heading out this weekend in Gachibowli or Kondapur? Read this",
+ "tldr": "Cyberabad police booked 205 drunk drivers in a weekend drive; courts sentenced 26 to jail.",
+ "beats": {
+  "what": "Cyberabad Traffic Police booked 205 motorists for drunk driving over one weekend.",
+  "why": "Weekend enforcement drives target drink driving across the Cyberabad commissionerate.",
+  "care": "Drunk driving here can mean jail, not just a fine. Book a cab after a party."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🍺",
+    "label": "Weekend checks"
+   }
+  ],
+  "event": {
+   "icon": "🚓",
+   "label": "205 booked"
+  },
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "26 sent to jail"
+   },
+   {
+    "icon": "⚖️",
+    "label": "289 cases disposed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Per Telangana Today: 205 motorists were booked in a weekend drive; 11 recorded high blood alcohol levels. Courts disposed of 289 cases, sentencing 26 offenders to imprisonment and fines, and penalising others. Exact jail terms and fine amounts were not in the summary."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What would stop drunk driving fastest?",
+   "opts": [
+    "Jail on first offence",
+    "Cheaper late-night cabs",
+    "Licence suspension",
+    "More checkpoints"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "205",
+   "l": "motorists booked in one weekend"
+  },
+  {
+   "t": "icons",
+   "n": 11,
+   "of": 205,
+   "icon": "🍺",
+   "d": "11 of 205",
+   "l": "had high blood alcohol levels"
+  },
+  {
+   "t": "compare",
+   "l": "Court outcome",
+   "a": {
+    "v": 289,
+    "d": "289",
+    "l": "cases disposed"
+   },
+   "b": {
+    "v": 26,
+    "d": "26",
+    "l": "sent to jail"
+   }
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "205",
+  "label": "motorists booked in one weekend",
+  "motion": "drift",
+  "scene": [
+   "🍺",
+   "🚓",
+   "⚖️"
+  ]
+ },
+ "insight": "11 of the 205 had high blood alcohol levels; courts jailed 26 offenders.",
+ "thread": "cyberabad-205-drunk-driving",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad: Cyberabad Traffic Police book 205 motorists for drunk driving",
+   "url": "https://telanganatoday.com/hyderabad-cyberabad-traffic-police-book-205-motorists-for-drunk-driving"
+  }
+ ],
+ "updated": 1793581441792,
+ "city": "Hyderabad",
+ "moment": {
+  "e": "🚕",
+  "t": "I always book a cab",
+  "k": "cab"
+ },
+ "areas": [
+  "Gachibowli",
+  "Madhapur",
+  "Kondapur"
+ ]
+}

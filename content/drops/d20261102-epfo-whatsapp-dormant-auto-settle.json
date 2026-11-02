@@ -1,0 +1,113 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-93",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "PF on *WhatsApp*: EPFO adds chat service",
+ "hook": "PF on *WhatsApp*: EPFO adds chat services, auto-settles dormant accounts",
+ "hook_b": "Old PF account from your first job? It may settle itself",
+ "tldr": "Labour Minister Mansukh Mandaviya launched WhatsApp PF info and auto-settlement of dormant accounts.",
+ "beats": {
+  "what": "EPFO launched WhatsApp access to routine PF info and auto-settlement of eligible inoperative accounts.",
+  "why": "The ministry says the aim is to simplify EPFO services for members.",
+  "care": "Switched jobs and left a PF account behind? Check if it's eligible for auto-settlement."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗂️",
+    "label": "Complex PF claims"
+   }
+  ],
+  "event": {
+   "icon": "💬",
+   "label": "EPFO on WhatsApp"
+  },
+  "effects": [
+   {
+    "icon": "💰",
+    "label": "Balance, passbook in chat"
+   },
+   {
+    "icon": "💰",
+    "label": "Dormant accounts auto-settle"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Per NDTV Profit: Union Labour Minister Mansukh Mandaviya launched two EPFO initiatives: WhatsApp-based access to routine PF information (the report mentions balance and passbook checks), and automatic settlement of eligible inoperative accounts. NDTV's headline puts the first batch at about 1 lakh dormant accounts. The WhatsApp number, eligibility rules for auto-settlement and timelines were not in the summary we could read; check epfindia.gov.in."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you check your PF on WhatsApp?",
+   "opts": [
+    "Yes, easier",
+    "Prefer the UMANG app",
+    "Worried about scams",
+    "Don't have PF"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "1 lakh",
+   "l": "dormant PF accounts set for auto-settlement"
+  },
+  {
+   "t": "stack",
+   "l": "EPFO's two launches",
+   "total": "2 new services",
+   "parts": [
+    {
+     "l": "WhatsApp PF info",
+     "v": 1
+    },
+    {
+     "l": "Auto-settle dormant",
+     "v": 1
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "1 lakh",
+  "label": "dormant PF accounts set for auto-settlement",
+  "motion": "drift",
+  "scene": [
+   "🗂️",
+   "💬",
+   "💰"
+  ]
+ },
+ "insight": "Eligible inoperative PF accounts will now be settled automatically, without a claim.",
+ "learn": {
+  "t": "Inoperative PF account = one with no contributions for a long time, often left after a job switch."
+ },
+ "watch": "The official WhatsApp number and auto-settlement rules on epfindia.gov.in.",
+ "thread": "epfo-whatsapp-dormant-auto-settle",
+ "sources": [
+  {
+   "name": "NDTV Profit",
+   "title": "EPFO Debuts On WhatsApp: Dormant PF Accounts To Auto-Settle; Check Balance, Passbook",
+   "url": "https://www.ndtvprofit.com/personal-finance/epfo-twin-rollout-routine-pf-services-debut-on-whatsapp-auto-settlement-for-1-lakh-dormant-accounts-12267836"
+  }
+ ],
+ "updated": 1793581441793,
+ "moment": {
+  "e": "🗂️",
+  "t": "I have an old PF account",
+  "k": "oldpf"
+ }
+}

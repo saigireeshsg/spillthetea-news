@@ -1,0 +1,134 @@
+{
+ "cat": "campus",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-91",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "BITS Pilani: full scholarship for top *1",
+ "hook": "BITS Pilani: full scholarship for top *1,000* BITSAT rankers from 2027",
+ "hook_b": "Taking BITSAT 2027? A top-1,000 rank could mean zero fees",
+ "tldr": "BITS Pilani will give full scholarships to the top 1,000 BITSAT rankers from 2027.",
+ "beats": {
+  "what": "BITS Pilani will offer full scholarships to the top 1,000 BITSAT rankers from 2027.",
+  "why": "Group VC V Ramgopal Rao says it helps eligible students from families earning up to ₹20 lakh.",
+  "care": "Writing BITSAT 2027? Check the rules; BITS also has a Hyderabad campus."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎓",
+    "label": "Fees keep toppers away"
+   }
+  ],
+  "event": {
+   "icon": "🏫",
+   "label": "Top 1,000 go free"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Family income ≤ ₹20 lakh"
+   },
+   {
+    "icon": "💸",
+    "label": "Up from top 500 in 2026"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Per NDTV Profit, BITS Pilani will offer full scholarships to the top 1,000 BITSAT rankers from 2027. Group Vice Chancellor V Ramgopal Rao said it is for eligible students whose annual family income does not exceed ₹20 lakh. For 2026, BITS had offered tuition-blind admission to the top 500 rankers (Careers360). Whether it covers hostel and mess, and campus-wise split, were not in the summary we read."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Merit scholarships: is ₹20 lakh the right income cap?",
+   "opts": [
+    "Yes, fair",
+    "Should be lower",
+    "Should be merit only",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Who qualifies for BITS's 2027 full scholarship?",
+   "opts": [
+    "Top 1,000 BITSAT rankers, family income ≤ ₹20 lakh",
+    "Top 100 JEE rankers",
+    "All BITS students",
+    "Only Pilani campus"
+   ],
+   "ans": 0,
+   "why": "V Ramgopal Rao said it covers top 1,000 rankers from families earning up to ₹20 lakh."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "1,000",
+   "l": "top BITSAT rankers get full scholarship from 2027"
+  },
+  {
+   "t": "compare",
+   "l": "Free seats for top rankers",
+   "a": {
+    "v": 500,
+    "d": "Top 500",
+    "l": "2026 (tuition-blind)"
+   },
+   "b": {
+    "v": 1000,
+    "d": "Top 1,000",
+    "l": "From 2027"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "big",
+   "v": "₹20 lakh",
+   "l": "max annual family income to qualify"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1c2340",
+   "#4a5fb0"
+  ],
+  "big": "1,000",
+  "label": "top BITSAT rankers get full scholarship from 2027",
+  "motion": "drift",
+  "scene": [
+   "🎓",
+   "🏫",
+   "💸"
+  ]
+ },
+ "insight": "The scholarship is for families earning up to ₹20 lakh a year, per Group VC V Ramgopal Rao.",
+ "learn": {
+  "t": "BITSAT = BITS's own online entrance test for its Pilani, Goa and Hyderabad campuses."
+ },
+ "watch": "BITSAT 2027 dates and the scholarship's exact rules on the official BITS admissions site.",
+ "thread": "bits-full-scholarship-top-1000",
+ "sources": [
+  {
+   "name": "NDTV Profit",
+   "title": "BITS Pilani to offer full scholarship to top 1,000 BITSAT Rankers From 2027",
+   "url": "https://www.ndtvprofit.com/education/bits-pilani-to-offer-full-scholarship-to-top-1-000-bitsat-rankers-from-2027-12267520"
+  },
+  {
+   "name": "Careers360",
+   "title": "BITS Pilani introduces tuition-blind admissions for top 500 BITSAT 2026 rankers",
+   "url": "https://news.careers360.com/bitsat-2026-bits-pilani-introduces-tuition-blind-admissions-top-500-rankers-btech-test-dates-session-1-2"
+  }
+ ],
+ "updated": 1793581441793,
+ "moment": {
+  "e": "🎓",
+  "t": "Writing BITSAT next year",
+  "k": "bitsat"
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "cat": "edit",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-97",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "ISRO has flown just *2* successful orbit",
+ "hook": "ISRO has flown just *2* successful orbital missions in 2026",
+ "hook_b": "Why is India's space agency launching so rarely this year?",
+ "tldr": "The Hindu's editorial says GSLV-F18's success is a relief, but ISRO lacks people and money.",
+ "beats": {
+  "what": "GSLV-F18 put the NVS-03 navigation satellite in orbit; only 2026's second successful launch.",
+  "why": "Two PSLV failures in 18 months slowed ISRO; GSLV shares some PSLV design parts.",
+  "care": "NavIC is India's own GPS. It has been one satellite short for six months."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚀",
+    "label": "2 PSLV failures in 18 months"
+   }
+  ],
+  "event": {
+   "icon": "🛰️",
+   "label": "GSLV-F18 lifts NVS-03"
+  },
+  "effects": [
+   {
+    "icon": "🧭",
+    "label": "NavIC rescue in sight"
+   },
+   {
+    "icon": "🧭",
+    "label": "Paper asks ₹17,000 cr budget"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu's editorial (Nov 2) calls GSLV-F18 a 'slow recovery'. If NVS-03 reaches its final slot and is commissioned, NavIC (India's own satellite navigation, like GPS) can again give standalone positioning over the subcontinent. It has been at least one working satellite short for six months. The new NVS satellites carry at least one Indian-made atomic clock, unlike the imported clocks on the older IRNSS satellites. The paper's asks: about ₹17,000 crore for the Department of Space in the 2027-28 Budget (vs ₹13,705.6 crore in 2026-27), a dedicated NavIC operator, faster component supply, and a national space law on private players and liability. This is the newspaper's opinion; ISRO's response is not part of the piece."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What should ISRO's next rupee go to first?",
+   "opts": [
+    "More rockets, more launches",
+    "Hire more scientists",
+    "Fix NavIC for good",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What is NavIC?",
+   "opts": [
+    "India's own satellite navigation",
+    "A new rocket",
+    "ISRO's space station",
+    "A weather satellite"
+   ],
+   "ans": 0,
+   "why": "NavIC gives standalone positioning over the Indian subcontinent, like GPS."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "2",
+   "l": "successful ISRO orbital launches in 2026 so far"
+  },
+  {
+   "t": "compare",
+   "l": "Dept of Space budget",
+   "a": {
+    "v": 13705.6,
+    "d": "₹13,706 cr",
+    "l": "2026-27"
+   },
+   "b": {
+    "v": 17000,
+    "d": "~₹17,000 cr",
+    "l": "Paper's ask, 2027-28"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "timeline",
+   "l": "ISRO's rough patch",
+   "now": 2,
+   "steps": [
+    {
+     "t": "Last 18 months",
+     "e": "2 PSLV failures"
+    },
+    {
+     "t": "6 months",
+     "e": "NavIC a satellite short"
+    },
+    {
+     "t": "Oct 30",
+     "e": "GSLV-F18 lifts NVS-03"
+    },
+    {
+     "t": "Next",
+     "e": "NVS-03 to final slot"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1c2340",
+   "#4a5fb0"
+  ],
+  "big": "2",
+  "label": "successful ISRO orbital launches in 2026 so far",
+  "motion": "drift",
+  "scene": [
+   "🚀",
+   "🛰️",
+   "🧭"
+  ]
+ },
+ "insight": "The Hindu wants Space's budget raised to about ₹17,000 crore, from ₹13,705.6 crore.",
+ "learn": {
+  "t": "NavIC = India's regional satellite navigation system, an Indian alternative to GPS over the subcontinent."
+ },
+ "watch": "Whether NVS-03 reaches its final orbital slot and is commissioned.",
+ "thread": "ed-isro-two-launches",
+ "sources": [
+  {
+   "name": "The Hindu (Editorial)",
+   "title": "Slow recovery: On the ISRO's GSLV-F18 mission",
+   "url": "https://www.thehindu.com/opinion/editorial/the-hindu-editorial-november-2-2026-slow-recovery-on-the-isros-gslv-f18-mission/article71654004.ece"
+  }
+ ],
+ "updated": 1793581441790,
+ "moment": {
+  "e": "🧭",
+  "t": "I use GPS every day",
+  "k": "gps"
+ },
+ "featured": true,
+ "editorial": {
+  "paper": "The Hindu",
+  "title": "Slow recovery"
+ },
+ "img": {
+  "u": "https://www.thehindu.com/static/content/images/20260921062859/editorialLeadImg.jpg",
+  "c": "The Hindu"
+ }
+}

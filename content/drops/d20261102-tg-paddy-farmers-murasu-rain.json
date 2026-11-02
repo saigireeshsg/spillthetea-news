@@ -1,0 +1,133 @@
+{
+ "cat": "local",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-94",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Paddy at *₹3,500–4,500*/quintal, and Mur",
+ "hook": "Paddy at *₹3,500–4,500*/quintal, and Murasu's rain hits harvest week",
+ "hook_b": "Why rain this week could push your rice bill up",
+ "tldr": "Telangana farmers fear Murasu's rain will damage paddy and cotton just as prices run high.",
+ "beats": {
+  "what": "Rain is forecast across Telangana Nov 2–4 with paddy at harvest, near harvest or pre-flowering.",
+  "why": "Cyclone Murasu is crossing the AP coast; six Telangana districts are on orange alert.",
+  "care": "Rice prices are already high in Hyderabad. Crop damage could tighten supply further."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌀",
+    "label": "Murasu rain Nov 2–4"
+   }
+  ],
+  "event": {
+   "icon": "🌾",
+   "label": "Paddy, cotton at risk"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Harvester cost doubles"
+   },
+   {
+    "icon": "💸",
+    "label": "Wet grain loses weight"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Khammam, Mahabubnagar, Nalgonda, Suryapet, Nagarkurnool and Wanaparthy are forecast heavy to very heavy rain on Monday (The Hindu). Fresh paddy is fetching ₹3,500–4,500 a quintal, against about ₹2,900 (MSP plus ₹500 fine-rice bonus) earlier. Farmers say soaked, drooping panicles double harvester time; machines cost ₹2,500–3,000 an hour (Donthu Rambabu, Telangana Rythu Sangham). Wet grain loses weight when dried and discoloured grain fetches less. Cotton near harvest is also at risk. The Agriculture Department says it has alerted farmers and told officials to supply tarpaulin sheets. Damage figures are not known yet."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Rain hits harvest: what should the state do first?",
+   "opts": [
+    "Free tarpaulins now",
+    "Faster procurement",
+    "Crop-loss payouts",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Why does rain raise harvest costs?",
+   "opts": [
+    "Harvesters take twice as long on soaked paddy",
+    "Diesel prices jump",
+    "Labour goes on strike",
+    "MSP falls"
+   ],
+   "ans": 0,
+   "why": "Farmers say a one-hour acre takes two hours when panicles droop in water."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹4,500",
+   "l": "top price per quintal of fresh paddy now"
+  },
+  {
+   "t": "compare",
+   "l": "Paddy price per quintal",
+   "a": {
+    "v": 2900,
+    "d": "~₹2,900",
+    "l": "Earlier (MSP + bonus)"
+   },
+   "b": {
+    "v": 4500,
+    "d": "₹3,500–4,500",
+    "l": "Fresh paddy now"
+   },
+   "goodIfUp": true
+  },
+  {
+   "t": "icons",
+   "n": 6,
+   "of": 33,
+   "icon": "🌧️",
+   "d": "6 of 33",
+   "l": "districts on orange alert Monday"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹4,500",
+  "label": "top price per quintal of fresh paddy now",
+  "motion": "drift",
+  "scene": [
+   "🌀",
+   "🌾",
+   "💸"
+  ]
+ },
+ "insight": "Soaked paddy doubles harvester time: ₹2,500–3,000 an hour becomes twice the bill, farmers say.",
+ "learn": {
+  "t": "MSP = minimum support price, the rate at which the government buys crops from farmers."
+ },
+ "watch": "Crop-damage estimates from the Agriculture Department after Nov 4.",
+ "thread": "tg-paddy-farmers-murasu-rain",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Cyclone Murasu | Paddy farmers in Telangana fear crop damage amid high market prices",
+   "url": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-paddy-farmers-in-telangana-fear-crop-damage-amid-high-market-prices/article71653493.ece"
+  }
+ ],
+ "updated": 1793581441791,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/wcx3i2/article71653677.ece/alternates/LANDSCAPE_1200/MEMAU_5_10_2026_19_24_48_2_7006.JPG",
+  "c": "The Hindu"
+ },
+ "storyline": "bay-cyclone-2026"
+}

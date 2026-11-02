@@ -7,9 +7,9 @@
  "heat": 4,
  "readSecs": 30,
  "topic": "Second cyclone in a week: *120 kmph* sto",
- "hook": "Murasu: *orange alert* in 6 Telangana districts for Nov 2",
+ "hook": "Murasu: landfall near *Ongole* Tue morning; 6 Telangana districts on orange",
  "hook_b": "Hyderabad, get the umbrella out: Murasu brings *rain + gusts* to Telangana",
- "tldr": "Telangana: orange alert in 6 districts, yellow in 5 on Nov 2. Murasu likely to cross the AP coast, Nellore–Narsapur, night of Nov 2–3.",
+ "tldr": "Orange alert today in Khammam, Nalgonda, Suryapet, Mahabubnagar, Nagarkurnool, Wanaparthy. Landfall likely near Ongole, Nov 3 morning.",
  "beats": {
   "what": "A Bay of Bengal depression is set to become a severe cyclonic storm by Nov 2.",
   "why": "A low-pressure area formed over the south Andaman Sea on Oct 29 and keeps strengthening.",
@@ -45,7 +45,7 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "Update, Nov 1 night: Telangana has an orange alert in six districts and a yellow alert in five for Nov 2 as Murasu nears (The Hindu, Livemint; district list not in the headlines). Orange = be prepared for heavy rain; check your district's IMD warning before heading out. Update, Nov 1 evening: Andhra has sounded a red alert in five districts; Murasu is likely to cross the coast between Nellore and Narsapur on the night of Nov 2–3 as a severe cyclonic storm (The Hindu; districts not named in the report). Update, Nov 1 afternoon: Telangana is likely to get rain, thunderstorms and gusty winds over the coming days as the system moves in (Telangana Today). Update, Nov 1 midday: the depression has intensified into a deep depression over the Bay of Bengal (The Hindu). IMD says it may become cyclonic storm 'Murasu' within about six hours, and a severe cyclonic storm over the westcentral Bay on Nov 2 (Hindustan Times). It is likely to cross the AP coast between Nellore and Narsapur on Nov 3, at 100–110 kmph gusting 120 kmph. HT also reports a heavy rain alert for Andhra and Tamil Nadu till Nov 3. Earlier: APSDMA flagged heavy to very heavy rain on Nov 2 in Eluru, West Godavari, NTR, Krishna, Guntur, Bapatla, Palnadu, Prakasam, Markapuram, Nellore and Tirupati; fishermen told to stay off the sea Nov 2–4."
+   "body": "Update, Nov 2 morning: APSDMA says the landfall point is likely near Ongole, between Nellore and Narsapur, on the morning of Tuesday, Nov 3, at 100–110 kmph gusting 120 kmph (The Hindu live). Telangana's six orange-alert districts for Monday (heavy to very heavy rain): Khammam, Mahabubnagar, Nalgonda, Suryapet, Nagarkurnool and Wanaparthy; Hyderabad is not among them. Five more districts are on yellow alert. Schools and colleges are shut today in Palnadu (AP) and in Chennai and Tiruvallur (TN). NDRF and SDRF teams are posted in Krishna, Bapatla, Guntur, Nellore and Prakasam. Update, Nov 1 night: Telangana has an orange alert in six districts and a yellow alert in five for Nov 2 as Murasu nears (The Hindu, Livemint; district list not in the headlines). Orange = be prepared for heavy rain; check your district's IMD warning before heading out. Update, Nov 1 evening: Andhra has sounded a red alert in five districts; Murasu is likely to cross the coast between Nellore and Narsapur on the night of Nov 2–3 as a severe cyclonic storm (The Hindu; districts not named in the report). Update, Nov 1 afternoon: Telangana is likely to get rain, thunderstorms and gusty winds over the coming days as the system moves in (Telangana Today). Update, Nov 1 midday: the depression has intensified into a deep depression over the Bay of Bengal (The Hindu). IMD says it may become cyclonic storm 'Murasu' within about six hours, and a severe cyclonic storm over the westcentral Bay on Nov 2 (Hindustan Times). It is likely to cross the AP coast between Nellore and Narsapur on Nov 3, at 100–110 kmph gusting 120 kmph. HT also reports a heavy rain alert for Andhra and Tamil Nadu till Nov 3. Earlier: APSDMA flagged heavy to very heavy rain on Nov 2 in Eluru, West Godavari, NTR, Krishna, Guntur, Bapatla, Palnadu, Prakasam, Markapuram, Nellore and Tirupati; fishermen told to stay off the sea Nov 2–4."
   },
   {
    "k": "poll",
@@ -140,6 +140,16 @@
  "sources": [
   {
    "name": "The Hindu",
+   "title": "Cyclone Murasu LIVE update, November 2",
+   "url": "https://www.thehindu.com/news/national/murasu-cyclone-live-updates-on-november-2-2026-tamil-nadu-telangana-andhra-pradesh-odisha/article71654226.ece"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Cyclone Murasu | Paddy farmers in Telangana fear crop damage",
+   "url": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-paddy-farmers-in-telangana-fear-crop-damage-amid-high-market-prices/article71653493.ece"
+  },
+  {
+   "name": "The Hindu",
    "title": "Cyclone Murasu: Orange alert in six Telangana districts, yellow alert in five on November 2",
    "url": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-orange-alert-in-six-telangana-districts-yellow-alert-in-five-on-november-2/article71652716.ece"
   },
@@ -168,7 +178,7 @@
    "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-murasu-drums-up-fresh-worry-for-andhra-after-arnab-red-alert-sounded-in-five-districts/article71652622.ece"
   }
  ],
- "updated": "2026-11-01T19:50:00+05:30",
+ "updated": 1793581500507,
  "img": {
   "u": "https://th-i.thgim.com/public/incoming/ddkziq/article71652268.ece/alternates/LANDSCAPE_1200/VSP01_Fishing%20Boats%20%201.JPG",
   "c": "The Hindu"

@@ -1,0 +1,74 @@
+{
+ "title": "Murasu: orange alert in Khammam, Nalgonda and 4 more Telangana districts today",
+ "kind": "weather",
+ "tag": "🌧️ Weather",
+ "scope": "local",
+ "city": "Hyderabad",
+ "sev": 2,
+ "ts": 1793581500509,
+ "until": 1793817000000,
+ "body": "IMD has an orange alert today in six Telangana districts as Cyclone Murasu nears. Landfall is likely near Ongole, AP, on Tuesday morning at 100–110 kmph. Hyderabad is not on the orange list.",
+ "means": [
+  "Orange districts: Khammam, Mahabubnagar, Nalgonda, Suryapet, Nagarkurnool, Wanaparthy",
+  "Travelling to coastal AP Nov 2–3? Check train and bus status",
+  "Farmers: cover harvested paddy with tarpaulins"
+ ],
+ "care": "Check your district's IMD warning before travelling today.",
+ "steps": [
+  {
+   "t": "What",
+   "b": "Orange alert, 6 TG districts, Mon."
+  },
+  {
+   "t": "Why",
+   "b": "Murasu crossing AP coast."
+  },
+  {
+   "t": "Next",
+   "b": "Landfall near Ongole, Tue morning."
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Telangana alerts today",
+   "a": {
+    "v": 6,
+    "d": "6",
+    "l": "orange"
+   },
+   "b": {
+    "v": 5,
+    "d": "5",
+    "l": "yellow"
+   }
+  }
+ ],
+ "poll": {
+  "q": "Is it raining where you are?",
+  "opts": [
+   "Heavy rain",
+   "Light showers",
+   "Dry so far",
+   "Not in Telangana"
+  ]
+ },
+ "links": [
+  {
+   "label": "IMD Hyderabad",
+   "url": "https://mausam.imd.gov.in/hyderabad/"
+  }
+ ],
+ "src": [
+  {
+   "name": "The Hindu",
+   "url": "https://www.thehindu.com/news/national/telangana/cyclone-murasu-paddy-farmers-in-telangana-fear-crop-damage-amid-high-market-prices/article71653493.ece"
+  },
+  {
+   "name": "The Hindu",
+   "url": "https://www.thehindu.com/news/national/murasu-cyclone-live-updates-on-november-2-2026-tamil-nadu-telangana-andhra-pradesh-odisha/article71654226.ece"
+  }
+ ],
+ "open": "d20261101-cyclone-murasu-nov3-landfall",
+ "verified": true
+}

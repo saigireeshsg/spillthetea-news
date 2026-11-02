@@ -1,0 +1,132 @@
+{
+ "cat": "local",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-92",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "ED: Jubilee Hills co-op bank *mule accou",
+ "hook": "ED: Jubilee Hills co-op bank *mule accounts* moved betting money",
+ "hook_b": "Is someone using a bank account in your name?",
+ "tldr": "ED says mule accounts at Jubilee Hills Mercantile Cooperative Bank routed betting and fraud money.",
+ "beats": {
+  "what": "ED found mule accounts at a Hyderabad co-op bank used to route betting and cyber-fraud funds.",
+  "why": "The probe into the APX betting platform stems from three FIRs where victims lost crores.",
+  "care": "Never lend your bank account or KYC to anyone. Mule-account holders face legal trouble."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎰",
+    "label": "APX betting, cyber fraud"
+   }
+  ],
+  "event": {
+   "icon": "🏦",
+   "label": "Mule accounts in Hyd bank"
+  },
+  "effects": [
+   {
+    "icon": "🔒",
+    "label": "Accused held Oct 27"
+   },
+   {
+    "icon": "🔒",
+    "label": "₹9 cr frozen"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Per TOI, citing the Enforcement Directorate: multiple mule accounts at the Jubilee Hills Mercantile Cooperative Bank were allegedly used to route money from illegal online betting and cyber fraud (All Panel Exchange, APX). Funds then moved to shell entities and to a nodal account at Nagarbhavi Credit Cooperative Society, Bengaluru, run for Armstrong Exchange, set up by accused Sagar Dash. ED arrested Dash on Oct 27 under the PMLA; a Mumbai court gave three days' ED custody. Searches in Hyderabad, Pune, Mumbai, Bengaluru, Surat and Mehsana froze about ₹9 crore. ED earlier arrested Edsom Fintech CEO Ram U Ramdhani. These are ED's allegations; the bank's response was not in the report."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Mule accounts: who should answer first?",
+   "opts": [
+    "Banks that open them",
+    "People who lend accounts",
+    "Betting apps",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What is a mule account?",
+   "opts": [
+    "An account used to pass on illegal money",
+    "A dormant savings account",
+    "A joint account",
+    "A crypto wallet"
+   ],
+   "ans": 0,
+   "why": "Mule accounts receive and forward illicit funds, often in someone else's name."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹9 crore",
+   "l": "frozen across bank accounts in ED searches"
+  },
+  {
+   "t": "timeline",
+   "l": "The ED probe",
+   "now": 2,
+   "steps": [
+    {
+     "t": "Earlier",
+     "e": "Edsom Fintech CEO held"
+    },
+    {
+     "t": "Oct 27",
+     "e": "Sagar Dash arrested"
+    },
+    {
+     "t": "Nov 1",
+     "e": "Hyd mule accounts named"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹9 crore",
+  "label": "frozen across bank accounts in ED searches",
+  "motion": "drift",
+  "scene": [
+   "🎰",
+   "🏦",
+   "🔒"
+  ]
+ },
+ "insight": "ED says the money went from Hyderabad mule accounts to shell firms, then a Bengaluru society.",
+ "learn": {
+  "t": "Mule account = a bank account used to receive and pass on illegal money, often in someone else's name."
+ },
+ "watch": "Further ED arrests and any action against the cooperative bank.",
+ "thread": "ed-jubilee-hills-bank-mule-betting",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Hyd bank mule accounts used to funnel betting proceeds: ED",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyd-bank-mule-accounts-used-to-funnel-betting-proceeds-ed/articleshow/135436356.cms"
+  }
+ ],
+ "updated": 1793581441792,
+ "city": "Hyderabad",
+ "moment": {
+  "e": "🏦",
+  "t": "Got asked to 'rent' my account",
+  "k": "rent"
+ },
+ "areas": [
+  "Jubilee Hills"
+ ]
+}
