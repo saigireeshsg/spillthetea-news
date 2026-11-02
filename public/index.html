@@ -334,6 +334,20 @@
 .lchips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px}.lchips span{padding:5px 10px;border-radius:999px;background:#ffffff0e;border:1px solid #ffffff1c;font-size:12.5px;font-weight:600}
 .lmore summary{cursor:pointer;font-size:12.5px;color:#9aa4ad;margin:2px 0 4px}.lmore .lb{font-size:13.5px;line-height:1.45;margin:4px 0}
 </style>
+<style>
+.vtv ol{list-style:none;margin:0;padding:0;display:grid;gap:0;position:relative}
+.vtv li{display:grid!important;grid-template-columns:34px 1fr!important;gap:12px!important;position:relative;padding-bottom:12px;font-size:13.5px}
+.vtv li:not(.last)::before{content:"";position:absolute;left:16px;top:34px;bottom:0;width:3px;border-radius:2px;background:linear-gradient(#ff6a2b,#ff6a2b33)}
+.vn2{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-size:17px;background:#ff6a2b22;border:2px solid #ff6a2b;z-index:1;animation:vpop .5s ease-out backwards}
+.vtv li:nth-child(2) .vn2{animation-delay:.12s}.vtv li:nth-child(3) .vn2{animation-delay:.24s}.vtv li:nth-child(4) .vn2{animation-delay:.36s}
+@keyframes vpop{from{transform:scale(.3);opacity:0}}
+.vtv .vt{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:2px 8px;border-radius:999px;background:#ffb84d22;color:#ffb84d;margin-bottom:3px}
+.vtv .ve{display:block;font-size:14px;font-weight:600;line-height:1.35;color:#eef2f6}
+.vtv li.last .vn2{background:#ff4500;border-color:#ff4500;box-shadow:0 0 0 5px #ff450030}.vtv li.last .vt{background:#ff450033;color:#ff9a6b}
+.vtv li.past{opacity:.55}.vtv li.cur .vn2{animation:vpulse 1.4s infinite}@keyframes vpulse{50%{box-shadow:0 0 0 7px #ff450040}}
+.nhero .vtv li:nth-child(n+4){display:grid!important}
+</style>
+<style>.vtv li .vt:before,.vtv li .vt:after{display:none!important}.vtv li .vt{padding-left:8px!important;color:#ffb84d!important}.vtv ol{gap:0!important}.vtv .vh{margin-bottom:10px}.vtv{padding:12px 14px!important;background:#ffffff0a!important;border-radius:14px}.nhero:has(.vtv){padding:0!important;border:0!important;background:transparent!important}</style>
 </head>
 <body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1958,7 +1972,8 @@ function vizOne(x){
     const r=26,C=2*Math.PI*r;let off=0;const segs=parts.map((p,i)=>{const f=vNum(p.v)/tot,len=Math.max(0,C*f-2),s=`<circle cx="32" cy="32" r="${r}" fill="none" stroke="${p.c||cols[i%cols.length]}" stroke-width="10" stroke-dasharray="${len} ${C}" stroke-dashoffset="${-off}" transform="rotate(-90 32 32)"/>`;off+=C*f;return s}).join("");
     return `<div class="vz vdn wide"><div class="vdw"><svg viewBox="0 0 64 64" aria-hidden="true">${segs}</svg><b>${esc(x.total||tot)}</b></div><div class="vleg2">${L}${parts.map((p,i)=>`<span><i style="background:${p.c||cols[i%cols.length]}"></i>${esc(p.l||"")} <b>${esc(p.d||p.v)}</b></span>`).join("")}</div></div>`}
   if(x.t==="timeline"){const st=x.steps||[];const now=typeof x.now==="number"?x.now:-1;
-    return `<div class="vz vtl wide"><div class="vh">${L}</div><ol>${st.map((p,i)=>`<li class="${i<now?"past":i===now?"cur":""}"><span class="vt">${esc(p.t)}</span><span class="ve">${rich(p.e)}</span></li>`).join("")}</ol></div>`}
+    const ic=s=>{s=String(s).toLowerCase();return /cancel|closed|shut|stop|suspend|pause|off\b|fail/.test(s)?"⛔":/open|back|restor|reopen|resume|ends?\b|supply back|done|win/.test(s)?"✅":/launch|land|flight|fly|rocket/.test(s)?"🚀":/exam|paper|test|hall ticket/.test(s)?"📝":/book|apply|regist|form|slot|deadline/.test(s)?"🗓️":/work|build|flyover|construct|repair|leak/.test(s)?"🛠️":/vote|poll|elect/.test(s)?"🗳️":/alert|warn|storm|rain|cyclone|wind/.test(s)?"🌀":"📍"};
+    return `<div class="vz vtl vtv wide">${L?`<div class="vh">${L}</div>`:""}<ol>${st.map((p,i)=>`<li class="${i<now?"past":i===now?"cur":""} ${i===st.length-1?"last":""}"><span class="vn2">${p.i||ic((p.e||"")+" "+(p.t||""))}</span><div><span class="vt">${esc(p.t)}</span><span class="ve">${rich(p.e)}</span></div></li>`).join("")}</ol></div>`}
   if(x.t==="icons"){const n=Math.max(0,Math.min(+x.n||0,20)),of=Math.max(1,Math.min(+x.of||10,20));
     return `<div class="vz vicons wide"><div class="vh"><b>${esc(x.d||n+" in "+of)}</b>${L}</div><div class="vic">${Array.from({length:of},(_,i)=>`<span class="${i<n?"on":""}">${esc(x.icon||"🧍")}</span>`).join("")}</div></div>`}
   if(x.t==="trend"){const pts=(x.pts||[]).map(p=>[p[0],vNum(p[1])]);if(pts.length<2)return"";const vs=pts.map(p=>p[1]);const lo=Math.min(...vs),hi=Math.max(...vs),rg=(hi-lo)||1;
@@ -2248,7 +2263,7 @@ function liveStoryHTML(x){const now=Date.now(),g=[];
   const ar=(x.areas||[]).filter(a=>a!=="Citywide").slice(0,5);if(ar.length)g.push(`<div class="npins">${ar.map(a=>`<span>📍 ${esc(a)}</span>`).join("")}</div>`);
   const V=Array.isArray(x.viz)?x.viz:[],v=V.find(z=>z.t&&z.t!=="big")||V[0];
   if(v)g.push(`<div class="nhero">${vizOne(v)}</div>`);
-  const seen=[x.title||""],fr=t=>t&&!seen.some(s=>_dup(t,s));const S=[];
+  const seen=[x.title||""];V.forEach(z=>{if(z.t==="timeline")(z.steps||[]).forEach(s=>seen.push(s.e||""));if(z.l)seen.push(z.l)});const fr=t=>t&&!seen.some(s=>_dup(t,s));const S=[];
   (x.steps||[]).slice(0,4).forEach(st=>{if(fr(st.b)){S.push([({What:"⚡",Why:"📍",Next:"👀",Who:"👥"})[st.t]||"•",st.t,esc(st.b)]);seen.push(st.b)}});
   if(fr(x.care))S.push(["🎯","For you",esc(x.care)]);
   if(S.length)g.push(`<ol class="nstory">${S.map(([i,k,t])=>`<li><span class="ndot">${i}</span><div><small>${k}</small><p>${t}</p></div></li>`).join("")}</ol>`);
