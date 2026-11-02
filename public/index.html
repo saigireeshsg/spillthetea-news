@@ -1540,15 +1540,17 @@ function twistOf(d){return d.twist||d.insight||""}
 function stripHTML(d){const m=d.map;if(!m)return"";const c=(m.causes||[])[0],e=m.event,f=(m.effects||[])[0];
   const st=[["Why",c],["What",e],["Hits you",f]].filter(x=>x[1]);
   return `<ol class="nstrip">${st.map(([k,x],i)=>`<li><span class="ni">${esc(x.icon||"")}</span><small>${k}</small><b>${esc(x.label||"")}</b></li>`).join("")}</ol>`}
+const _tk=s=>new Set(String(s||"").toLowerCase().replace(/[^a-z0-9₹%. ]/g," ").split(/\s+/).filter(w=>w.length>3));
+function _dup(a,b){const A=_tk(a),B=_tk(b);if(!A.size||!B.size)return false;let n=0;A.forEach(w=>{if(B.has(w))n++});return n/Math.min(A.size,B.size)>=.5}
 function storyHTML(d){const m=d.map||{},c=(m.causes||[])[0],e=m.event,f=(m.effects||[])[0];
-  const V=vizItems(d),v=V.find(x=>x.t&&x.t!=="big"),big=(d.cover||{}).big;
+  const V=vizItems(d),v=V.find(x=>x.t&&x.t!=="big");
+  const seen=[plain(factOf(d)||""),plain(d.hook||"")];const fresh=t=>t&&!seen.some(s=>_dup(t,s));
   const S=[];
-  if(c)S.push(["📍","Before",`${esc(c.icon||"")} ${esc(c.label||"")}`]);
-  if(e)S.push(["⚡","Then",`${esc(e.icon||"")} ${esc(e.label||"")}${big?` <span class="nbig">${esc(big)}</span>`:""}`]);
+  const cl=c&&c.label;if(fresh(cl)){S.push(["📍","Why",`${esc(c.icon||"")} ${esc(cl)}`]);seen.push(cl)}
   if(v)S.push(["📊","The numbers",`<div class="nviz">${vizOne(v)}</div>`,1]);
-  if(twistOf(d))S.push(["🤯","Plot twist",esc(twistOf(d)),2]);
-  if(f)S.push(["🎯","Hits you",`${esc(f.icon||"")} ${esc(f.label||"")}`]);
-  if(d.watch)S.push(["👀","Next",esc(d.watch)]);
+  const tw=twistOf(d);if(tw&&fresh(tw)){S.push(["🤯","Plot twist",esc(tw),2]);seen.push(tw)}
+  const fl=f&&f.label;if(fresh(fl)){S.push(["🎯","Hits you",`${esc(f.icon||"")} ${esc(fl)}`]);seen.push(fl)}
+  if(d.watch&&fresh(d.watch))S.push(["👀","Next",esc(d.watch)]);
   if(!S.length)return "";
   return `<ol class="nstory">${S.map(([i,k,t,x])=>`<li class="${x===2?"tw":""}"><span class="ndot">${i}</span><div><small>${k}</small>${x===1?t:`<p>${t}</p>`}</div></li>`).join("")}</ol>`}
 function compactHTML(d){const g=[];const V=vizItems(d),v=V.find(x=>x.t&&x.t!=="big");

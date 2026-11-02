@@ -403,3 +403,9 @@ Spill communicates the news, helps people understand the issue, and collects wha
 - Gate first: if Supabase shows nothing important since the last run, stop BEFORE cloning the repo.
 - Max 1 fetch per story, max 3 searches per run, no subagents. Stop at any usage limit.
 - PERSONALISATION: every Hyderabad story MUST carry `areas` (neighbourhoods it touches, app names e.g. Madhapur, Gachibowli, Kukatpally) and `topic`. The app ranks by area (+14), interests, follows and past votes. Write more hyperlocal items: water, power, traffic, civic, jobs by area. Prefer 8 sharp local stories over 20 generic ones.
+
+## No repeats inside a card (Nov 2026)
+The card shows: image + `fact` (headline) -> Why -> numbers infographic -> `twist` -> Hits you -> Next. Each line must add NEW information. Never restate the headline in `map.event`, `twist` or `watch`.
+- `twist` = the most surprising ADDITIONAL, sourced fact that is NOT in the headline: a total, a comparison, a record, a hidden cost. Example for a drunk-driving drive: headline has the weekend count; twist = fines collected in the year or city-wide total, if a source states it. No source for a surprising extra fact? Use a different angle (rate, trend, rank), never a restatement.
+- `viz` must show numbers not already in the headline (trend, comparison, split).
+- The app hides any step that repeats the headline, so repeated text is wasted.
