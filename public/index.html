@@ -284,6 +284,20 @@
 .nhero .vz .vh .vl{max-width:100%}
 </style>
 <style>.na .ntwist2 p{-webkit-line-clamp:3!important}</style>
+<style>
+.iopts button{transition:transform .12s,background .2s,opacity .25s,border-color .2s}
+.iopts button:active,.irate button:active{transform:scale(.96)}
+.iopts.picked button,.irate.picked button{opacity:.25;pointer-events:none}
+.iopts.picked button.pick,.irate.picked button.pick{opacity:1;background:#ff4500!important;border-color:#ff4500!important;color:#fff;transform:scale(1.03);box-shadow:0 0 0 4px #ff450033}
+.ipoll.done{gap:8px!important;animation:wwin .3s ease}
+.imine{display:grid;grid-template-columns:30px 1fr auto;gap:10px;align-items:center;padding:10px 12px;border-radius:14px;background:#46d16018;border:1px solid #46d16040}
+.ick{width:26px;height:26px;border-radius:50%;background:#46d160;color:#08210f;display:grid;place-items:center;font-weight:900;font-size:14px}
+.imine small{display:block;font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:#8fd1a0;font-weight:800}.imine b{font-size:15px;font-weight:800}
+.istat{font-size:13px;color:#c9d1d9}.istat b{color:#ffb84d}
+.ireact{display:flex;align-items:center;gap:8px}.ireact small{flex:1;font-size:12px;color:#9aa4ad}
+.ireact button{width:40px;height:40px;border-radius:50%;border:1.5px solid #ffffff22;background:#ffffff0c;font-size:20px;cursor:pointer;transition:transform .12s}
+.ireact button:active{transform:scale(.88)}.ireact button.on{border-color:#ff4500;background:#ff450030;transform:scale(1.1)}
+</style>
 </head>
 <body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1212,6 +1226,7 @@ function pills(b){$("#streak").textContent="🔥 "+me.streak;$("#brain").textCon
 pills();
 let tt;function toast(m){document.querySelectorAll(".toast").forEach(t=>t.remove());const t=document.createElement("div");t.className="toast";t.textContent=m;document.body.appendChild(t);clearTimeout(tt);tt=setTimeout(()=>t.remove(),2000)}
 function steam(el){if(!el)return;const r=el.getBoundingClientRect();for(let i=0;i<3;i++){const s=document.createElement("span");s.className="steam";s.textContent="☕";s.style.left=(r.left+r.width/2-10+(i-1)*18)+"px";s.style.top=(r.top-6)+"px";s.style.animationDelay=(i*.08)+"s";document.body.appendChild(s);setTimeout(()=>s.remove(),1200)}}
+document.addEventListener("click",e=>{const r=e.target.closest("[data-rx]");if(!r)return;e.preventDefault();e.stopPropagation();const id=r.dataset.rx,j=+r.dataset.j;me.react=me.react||{};const first=me.react[id]==null;me.react[id]=j;if(first)me.xp=(me.xp||0)+5;save();try{toast(first?"+5 XP · noted":"Updated")}catch(_){}const d=drops.find(x=>x.id===id),card=r.closest("article.post");if(d&&card)card.outerHTML=cardHTML(d,0)},true);
 function confetti(){const cols=["#ff4500","#0079d3","#46d160","#ffd23f","#7193ff"];for(let i=0;i<26;i++){const s=document.createElement("i");s.className="conf";s.style.background=cols[i%5];s.style.setProperty("--dx",(Math.random()*360-180)+"px");s.style.setProperty("--dy",(Math.random()*-320-40)+"px");s.style.setProperty("--rot",(Math.random()*720)+"deg");document.body.appendChild(s);setTimeout(()=>s.remove(),1200)}}
 function cups(n,why,el){me.cups+=n;save()}
 const once=(k,n,why,el)=>{if(me.paid[k])return false;me.paid[k]=1;cups(n,why,el);return true};
@@ -1512,7 +1527,8 @@ function ipollHTML(d){const pl=(d.cards||[]).find(c=>c.k==="poll");if(!pl)return
     if(vt==="rate")return `<div class="ipoll"><span class="ik">${kick}</span><b>${rich(pl.q)}</b><div class="irate">${pl.opts.slice(0,5).map((o,j)=>`<button data-ip="${d.id}" data-i="${j}" aria-label="${esc(o)}"><span>${EM[j]}</span><small>${esc(o)}</small></button>`).join("")}</div></div>`;
     return `<div class="ipoll"><span class="ik">${kick}</span><b>${rich(pl.q)}</b><div class="iopts">${pl.opts.map((o,j)=>`<button data-ip="${d.id}" data-i="${j}">${esc(o)}</button>`).join("")}</div></div>`}
   let avg="";if(vt==="rate"&&n>0){const m=S.poll[d.id]||{};let t=0,c=0;Object.entries(m).forEach(([i,v])=>{t+=(+i+1)*v;c+=v});if(c)avg=` · avg ${(t/c).toFixed(1)}/5`}
-  return `<div class="ipoll done"><span class="ik">${vt==="rate"?"⭐":vt==="guess"?"🔮":"🗳️"} ${n} ${n===1?"voice":"voices"}${avg} · ${fewVotes(n)?"you're voice #"+n:"you're with "+pct("poll",d.id,a)+"%"} <em class="xpc">+10 XP</em></span><b>${rich(pl.q)}</b>${pl.opts.map((o,j)=>{const pc=pct("poll",d.id,j);return `<div class="ires ${a===j?"mine":""}"><i style="width:${Math.max(pc,3)}%"></i><span>${vt==="rate"?EM[j]+" ":""}${esc(o)}</span><em>${pc}%</em></div>`}).join("")}</div>`}
+  const RX=[["🤯","Surprised"],["😤","Angry"],["🤝","Makes sense"],["🤔","Need more"]];const rx=(me.react||{})[d.id];
+  return `<div class="ipoll done"><div class="imine"><span class="ick">✓</span><div><small>Your voice</small><b>${vt==="rate"?EM[a]+" ":""}${esc(pl.opts[a])}</b></div><em class="xpc">+10 XP</em></div><div class="istat">🗳️ ${n} ${n===1?"voice":"voices"}${avg} · ${fewVotes(n)?"you're voice #"+n:"you're with <b>"+pct("poll",d.id,a)+"%</b>"}</div><div class="ireact"><small>${rx?"Thanks, noted":"How does it make you feel?"}</small>${RX.map(([em,t],j)=>`<button data-rx="${d.id}" data-j="${j}" class="${rx===j?"on":""}" aria-label="${t}">${em}</button>`).join("")}</div></div>`}
 function iquizHTML(d){const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q)return"";const a=me.quiz[d.id];
   if(a==null)return `<div class="iquiz"><span class="ik">🧠 Quick one</span><b>${rich(q.q)}</b><div class="iopts">${q.opts.slice(0,4).map((o,j)=>`<button data-iq="${d.id}" data-i="${j}">${esc(o)}</button>`).join("")}</div></div>`;
   const ok=a===q.ans;return `<div class="iquiz res ${ok?"ok":"no"}"><span class="ik">🧠 Quick one</span><b>${ok?"✅ Nailed it":"🤔 Not quite"} · ${esc(q.opts[q.ans])}</b>${q.why?`<span class="iw">${rich(q.why)}</span>`:""}</div>`}
@@ -1564,7 +1580,7 @@ document.addEventListener("click",e=>{const b=e.target.closest("[data-ip],[data-
   const poll=b.hasAttribute("data-ip"),id=b.dataset.ip||b.dataset.iq,i=+b.dataset.i;const d=drops.find(x=>x.id===id);if(!d)return;
   if(poll){if(me.poll[id]!=null)return;me.poll[id]=i;bump(d,2);me.xp=(me.xp||0)+10;me.vday=me.vday||{};me.vday[today()]=(me.vday[today()]||0)+1;{const c=me.vday[today()];try{toast(c===5?"🎉 Daily 5 done! +20 bonus XP · 🔥 streak safe":c%5===0?"🎉 "+c+" voices today! +20 bonus XP":"+10 XP · voice counted");if(c%5===0)confetti()}catch(_){}if(c%5===0)me.xp+=20;if(!me.area&&!me.areaAsked&&Object.keys(me.poll||{}).length>=2&&me.city&&areasFor(me.city).length){me.areaAsked=1;setTimeout(()=>{try{areaPicker()}catch(_){}},1800)}}}else{const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q||me.quiz[id]!=null)return;recordQuiz(d,i)}
   pushVotes();agg();try{window.spillTrack&&window.spillTrack(poll?"poll_vote":"quiz_answer",{story_id:id,ui:UI,inline:1})}catch(_){}
-  const card=b.closest("article.post");if(card)card.outerHTML=cardHTML(d,0)},true);
+  const card=b.closest("article.post");if(card){try{navigator.vibrate&&navigator.vibrate(18)}catch(_){}b.classList.add("pick");const o=b.closest(".iopts,.irate");if(o)o.classList.add("picked");setTimeout(()=>{if(card.isConnected)card.outerHTML=cardHTML(d,0)},380)}},true);
 const readLen=d=>{const s=+d.readSecs||60;return s<60?s+"s":Math.round(s/60)+" min"};
 // Curiosity hook on the card: the story's quiz question with tappable answers (tap = open story + answer).
 // One visual hook per card, chosen by what fits the story:
