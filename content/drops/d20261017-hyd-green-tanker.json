@@ -124,7 +124,9 @@
     "v": 100,
     "d": "~100",
     "l": "more registered"
-   }
+   },
+   "tone": "good",
+   "verdict": "More green tankers on the road"
   },
   {
    "t": "big",
@@ -137,7 +139,9 @@
    "v": 50,
    "max": 250,
    "d": "50 of 250 KL a day",
-   "note": "to switch to treated water"
+   "note": "to switch to treated water",
+   "tone": "bad",
+   "verdict": "Drinking-grade water going to non-drinking use"
   }
  ],
  "img": {

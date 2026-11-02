@@ -64,14 +64,17 @@
     "d": "39 min 28 s",
     "l": "Evening rush"
    },
-   "goodIfUp": false
+   "tone": "bad",
+   "verdict": "Evening drive is slower"
   },
   {
    "t": "meter",
    "l": "Evening rush congestion",
    "v": 85.7,
    "max": 100,
-   "d": "85.7%"
+   "d": "85.7%",
+   "tone": "bad",
+   "verdict": "Roads near their limit at evening rush"
   },
   {
    "t": "big",

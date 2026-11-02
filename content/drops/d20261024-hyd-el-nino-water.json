@@ -217,7 +217,8 @@
     "d": "−84%+",
     "l": "Manjeera"
    },
-   "goodIfUp": false
+   "tone": "bad",
+   "verdict": "Reservoirs far lower than last year"
   },
   {
    "t": "icons",
@@ -252,7 +253,8 @@
     "d": "585",
     "l": "Supplied"
    },
-   "goodIfUp": true
+   "tone": "bad",
+   "verdict": "Supply falls short of need"
   },
   {
    "t": "icons",
@@ -267,7 +269,9 @@
    "l": "Telangana's major reservoirs",
    "v": 178.6,
    "max": 470.22,
-   "d": "178.6 of 470 TMC (38%)"
+   "d": "178.6 of 470 TMC (38%)",
+   "tone": "bad",
+   "verdict": "State reservoirs under 40% full"
   },
   {
    "t": "big",
@@ -288,7 +292,8 @@
     "d": "~3 TMC",
     "l": "This year"
    },
-   "goodIfUp": true
+   "tone": "bad",
+   "verdict": "Almost no rainy-season inflow"
   }
  ],
  "updated": 1793000770824,

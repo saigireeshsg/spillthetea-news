@@ -85,7 +85,8 @@
     "d": "~₹17,000 cr",
     "l": "Paper's ask, 2027-28"
    },
-   "goodIfUp": true
+   "tone": "neutral",
+   "verdict": "Ask is higher than this year's budget"
   },
   {
    "t": "timeline",

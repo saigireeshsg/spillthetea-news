@@ -89,7 +89,8 @@
     "d": "0",
     "l": "In Germany"
    },
-   "goodIfUp": true
+   "tone": "bad",
+   "verdict": "No trainee has reached Germany yet"
   },
   {
    "t": "donut",

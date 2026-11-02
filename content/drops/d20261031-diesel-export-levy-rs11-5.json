@@ -85,7 +85,8 @@
     "d": "₹11.5",
     "l": "Now"
    },
-   "goodIfUp": false
+   "tone": "neutral",
+   "verdict": "Export tax raised to keep fuel at home"
   },
   {
    "t": "compare",
@@ -100,7 +101,8 @@
     "d": "Nil",
     "l": "Now"
    },
-   "goodIfUp": false
+   "tone": "neutral",
+   "verdict": "Petrol export levy removed"
   },
   {
    "t": "compare",
@@ -115,7 +117,8 @@
     "d": "₹11",
     "l": "Now"
    },
-   "goodIfUp": false
+   "tone": "neutral",
+   "verdict": "Jet fuel levy edged up"
   }
  ],
  "cover": {

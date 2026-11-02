@@ -66,7 +66,8 @@
     "d": "181/6",
     "l": "Won, 1 ball left"
    },
-   "goodIfUp": true
+   "tone": "good",
+   "verdict": "India came back from 70/5"
   },
   {
    "t": "big",
@@ -95,7 +96,9 @@
      170
     ]
    ],
-   "unit": ""
+   "unit": "",
+   "tone": "good",
+   "verdict": "Scoring rate picked up at the death"
   },
   {
    "t": "big",

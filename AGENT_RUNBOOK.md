@@ -433,3 +433,9 @@ Every change graphic carries a tone: green = good news, red = worrying, blue = n
 | Down and bad | red ▼ | rainfall in a drought, reservoir level, jobs, profit |
 | Not clearly good or bad | blue "Watch" | exam dates, alerts, counts with no judgement |
 Each shows a tag ("Good news"/"Worrying"/"Watch") and the rule ("Rising is bad news here"). Never colour something green or red to push a view: colour reports who is helped or hurt by the change (Rule Zero: no opinions). Use `expect` / `watch` to say what to look for next.
+
+## Tone labels (v2, replaces keyword guessing)
+- The app never guesses good/bad. Every compare/trend/meter MUST set `tone` ("good"|"bad"|"neutral") and a short `verdict` (plain words, what is happening and for whom).
+- Labels shown: 🟢 Good trend / 🔴 Bad trend / 👀 Trend to notice (neutral).
+- Price, fee, fine, cost rising = bad for the people paying. If it helps one group and hurts another (e.g. paddy price: farmers gain, buyers pay), use neutral and say who in `verdict`.
+- Colour reports the effect on people. It never pushes a view (Rule Zero).

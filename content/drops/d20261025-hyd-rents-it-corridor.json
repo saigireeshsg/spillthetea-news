@@ -62,7 +62,8 @@
     "d": "₹36,600",
     "l": "Mid-2025"
    },
-   "goodIfUp": false
+   "tone": "bad",
+   "verdict": "Tenants pay far more than in 2021"
   },
   {
    "t": "compare",
@@ -77,7 +78,8 @@
     "d": "₹36,350",
     "l": "Mid-2025"
    },
-   "goodIfUp": false
+   "tone": "bad",
+   "verdict": "Tenants pay far more than in 2021"
   },
   {
    "t": "big",

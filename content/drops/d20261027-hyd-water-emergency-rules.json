@@ -68,7 +68,8 @@
     "d": "62,565",
     "l": "This year"
    },
-   "goodIfUp": false
+   "tone": "bad",
+   "verdict": "Tanker bookings more than tripled"
   },
   {
    "t": "compare",
@@ -83,7 +84,8 @@
     "d": "Every 3 days",
     "l": "Now"
    },
-   "goodIfUp": false
+   "tone": "bad",
+   "verdict": "Taps run less often"
   },
   {
    "t": "meter",
@@ -91,7 +93,9 @@
    "v": 3.4,
    "max": 29.9,
    "d": "3.4 of 29.9 TMC",
-   "note": "Siasat, citing irrigation dept data"
+   "note": "Siasat, citing irrigation dept data",
+   "tone": "bad",
+   "verdict": "Reservoir very low"
   },
   {
    "t": "timeline",

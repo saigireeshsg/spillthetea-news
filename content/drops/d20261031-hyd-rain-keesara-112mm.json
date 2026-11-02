@@ -117,7 +117,8 @@
     "d": "73.8 mm",
     "l": "Madhapur"
    },
-   "goodIfUp": true
+   "tone": "neutral",
+   "verdict": "Rain was uneven across the city"
   },
   {
    "t": "timeline",

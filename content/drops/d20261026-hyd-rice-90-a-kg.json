@@ -60,7 +60,8 @@
     "d": "₹66–79",
     "l": "New MRP"
    },
-   "goodIfUp": false
+   "tone": "good",
+   "verdict": "New MRP is lower than shop prices"
   },
   {
    "t": "compare",
@@ -75,7 +76,8 @@
     "d": "₹90+",
     "l": "Now"
    },
-   "goodIfUp": false
+   "tone": "bad",
+   "verdict": "Buyers pay double what they paid before"
   },
   {
    "t": "compare",
@@ -90,7 +92,8 @@
     "d": "up to ₹3,500",
     "l": "Open market"
    },
-   "goodIfUp": true
+   "tone": "neutral",
+   "verdict": "Farmers gain, buyers pay more"
   }
  ],
  "cover": {

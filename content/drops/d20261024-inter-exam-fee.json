@@ -122,7 +122,9 @@
     "v": 890
    },
    "l": "Exam fee",
-   "t": "compare"
+   "t": "compare",
+   "tone": "neutral",
+   "verdict": "Science students pay more"
   }
  ],
  "watch": "Watch for the Inter 2027 timetable on tgbie.cgg.gov.in."

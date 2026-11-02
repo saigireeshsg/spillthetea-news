@@ -32,7 +32,9 @@
    "l": "Share for Indian industry",
    "v": 82,
    "max": 100,
-   "d": "82%"
+   "d": "82%",
+   "tone": "good",
+   "verdict": "Most of the spend goes to Indian industry"
   }
  ],
  "cover": {

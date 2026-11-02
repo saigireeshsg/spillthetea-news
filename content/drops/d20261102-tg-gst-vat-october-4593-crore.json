@@ -85,7 +85,8 @@
     "d": "₹4,593 cr",
     "l": "Oct 2026"
    },
-   "goodIfUp": true
+   "tone": "good",
+   "verdict": "State's GST collection grew"
   },
   {
    "t": "compare",
@@ -100,7 +101,8 @@
     "d": "₹3,065 cr",
     "l": "Oct 2026"
    },
-   "goodIfUp": true
+   "tone": "good",
+   "verdict": "More VAT coming in"
   },
   {
    "t": "big",

@@ -40,7 +40,8 @@
     "d": "~7.25 Pbps",
     "l": "Planned"
    },
-   "goodIfUp": true
+   "tone": "good",
+   "verdict": "Network capacity set to grow several times"
   }
  ],
  "cover": {

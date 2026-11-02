@@ -91,7 +91,8 @@
     "d": "280 km/h",
     "l": "Test max"
    },
-   "goodIfUp": true
+   "tone": "neutral",
+   "verdict": "Test speed higher than operating speed"
   },
   {
    "t": "stack",

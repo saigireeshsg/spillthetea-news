@@ -100,7 +100,9 @@
     "v": 100
    },
    "l": "Most applications for an Indian IPO",
-   "t": "compare"
+   "t": "compare",
+   "tone": "neutral",
+   "verdict": "New record for IPO applications"
   },
   {
    "l": "to get fully subscribed",

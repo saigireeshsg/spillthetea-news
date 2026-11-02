@@ -85,7 +85,8 @@
     "d": "103%",
     "l": "Google Cloud"
    },
-   "goodIfUp": true
+   "tone": "neutral",
+   "verdict": "Cloud growing faster than the rest"
   },
   {
    "t": "big",

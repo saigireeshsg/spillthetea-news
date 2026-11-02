@@ -100,9 +100,10 @@
     "l": "Proposed",
     "v": 75
    },
-   "goodIfUp": true,
    "l": "Learner's test pass mark",
-   "t": "compare"
+   "t": "compare",
+   "tone": "neutral",
+   "verdict": "Harder to pass: fewer will clear it first time"
   },
   {
    "a": {
@@ -116,7 +117,9 @@
     "v": 15
    },
    "l": "Days to finish the learner's process",
-   "t": "compare"
+   "t": "compare",
+   "tone": "bad",
+   "verdict": "Longer wait to finish the process"
   },
   {
    "l": "safe-driving tutorial every applicant would watch",

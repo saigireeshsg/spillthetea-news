@@ -86,7 +86,8 @@
     "d": "15 days",
     "l": "Resolution"
    },
-   "goodIfUp": false
+   "tone": "neutral",
+   "verdict": "Time limits set for complaints"
   },
   {
    "t": "stack",

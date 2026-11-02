@@ -86,7 +86,8 @@
     "d": "1.27 cm",
     "l": "Oct 2026"
    },
-   "goodIfUp": true
+   "tone": "bad",
+   "verdict": "Rain far below normal"
   },
   {
    "t": "meter",
@@ -94,7 +95,9 @@
    "v": 62.82,
    "max": 83.07,
    "d": "62.82 cm of 83.07 cm",
-   "note": "20.25 cm short"
+   "note": "20.25 cm short",
+   "tone": "bad",
+   "verdict": "Monsoon total behind target"
   },
   {
    "t": "trend",
@@ -113,7 +116,9 @@
      1.27
     ]
    ],
-   "unit": " cm"
+   "unit": " cm",
+   "tone": "bad",
+   "verdict": "Rain collapsed from last year"
   }
  ],
  "cover": {

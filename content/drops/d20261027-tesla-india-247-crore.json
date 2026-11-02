@@ -53,7 +53,8 @@
     "d": "₹247.31 cr",
     "l": "FY26"
    },
-   "goodIfUp": true
+   "tone": "neutral",
+   "verdict": "Sales jumped from a small base"
   },
   {
    "t": "compare",
@@ -68,7 +69,8 @@
     "d": "650",
     "l": "Apr–Sep 2026"
    },
-   "goodIfUp": true
+   "tone": "neutral",
+   "verdict": "More cars registered"
   },
   {
    "t": "donut",

@@ -145,9 +145,10 @@
     "l": "October average",
     "v": 120
    },
-   "goodIfUp": false,
    "l": "India's crude basket vs what the RBI planned for ($ a barrel)",
-   "t": "compare"
+   "t": "compare",
+   "tone": "bad",
+   "verdict": "Oil far above the RBI's plan: pressure on prices"
   },
   {
    "l": "wholesale inflation in September — first double digit in the new series",

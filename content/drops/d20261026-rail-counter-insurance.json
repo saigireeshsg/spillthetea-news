@@ -32,7 +32,8 @@
     "d": "₹10 lakh",
     "l": "Max cover"
    },
-   "goodIfUp": true
+   "tone": "good",
+   "verdict": "Tiny premium for large cover"
   }
  ],
  "cover": {

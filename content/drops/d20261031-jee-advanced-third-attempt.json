@@ -85,7 +85,8 @@
     "d": "3",
     "l": "Asked for"
    },
-   "goodIfUp": true
+   "tone": "neutral",
+   "verdict": "Students want one more try"
   },
   {
    "t": "big",

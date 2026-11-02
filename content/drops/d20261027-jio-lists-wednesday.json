@@ -55,7 +55,8 @@
     "d": "2.72x",
     "l": "Retail"
    },
-   "goodIfUp": true
+   "tone": "neutral",
+   "verdict": "Big funds bid far more than retail"
   },
   {
    "t": "big",

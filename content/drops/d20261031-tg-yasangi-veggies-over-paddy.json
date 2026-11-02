@@ -67,7 +67,9 @@
    "max": 100,
    "d": "−20%",
    "l": "Possible heat hit to produce",
-   "note": "Horticulture Director, next few months"
+   "note": "Horticulture Director, next few months",
+   "tone": "bad",
+   "verdict": "Heat could cut produce"
   }
  ],
  "cover": {

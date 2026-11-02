@@ -82,7 +82,8 @@
     "d": "₹9.7",
     "l": "After"
    },
-   "goodIfUp": false
+   "tone": "good",
+   "verdict": "Women pay far less per trip"
   },
   {
    "t": "compare",
@@ -97,7 +98,8 @@
     "d": "71.2%",
     "l": "After"
    },
-   "goodIfUp": true
+   "tone": "good",
+   "verdict": "More women rely on buses"
   },
   {
    "t": "compare",
@@ -112,7 +114,8 @@
     "d": "4.35",
     "l": "After"
    },
-   "goodIfUp": true
+   "tone": "neutral",
+   "verdict": "Trips barely changed"
   }
  ],
  "cover": {

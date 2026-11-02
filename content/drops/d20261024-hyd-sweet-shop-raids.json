@@ -122,7 +122,8 @@
     "d": "38",
     "l": "Statewide drive (Oct 25)"
    },
-   "goodIfUp": true
+   "tone": "neutral",
+   "verdict": "Drive widened across the state"
   },
   {
    "l": "sweet units inspected by TG SAFE",

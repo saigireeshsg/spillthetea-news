@@ -142,7 +142,9 @@
     "v": 5,
     "d": "5",
     "l": "yellow-alert districts"
-   }
+   },
+   "tone": "bad",
+   "verdict": "More districts on orange alert"
   },
   {
    "t": "timeline",

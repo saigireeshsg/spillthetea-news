@@ -79,7 +79,9 @@
    "v": 290,
    "max": 1114,
    "d": "290 of 1,114",
-   "note": "167 also over fluoride limit"
+   "note": "167 also over fluoride limit",
+   "tone": "bad",
+   "verdict": "One in four samples over the nitrate limit"
   },
   {
    "t": "compare",
@@ -93,7 +95,9 @@
     "v": 1.5,
     "d": "1.5",
     "l": "fluoride"
-   }
+   },
+   "tone": "neutral",
+   "verdict": "Limits set for safe drinking water"
   }
  ],
  "cover": {

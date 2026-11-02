@@ -80,7 +80,8 @@
     "v": 93.33,
     "d": "-6.67%"
    },
-   "goodIfUp": true
+   "tone": "bad",
+   "verdict": "Retail profit fell from last quarter"
   }
  ],
  "cover": {

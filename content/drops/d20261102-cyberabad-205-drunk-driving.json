@@ -80,7 +80,9 @@
     "v": 26,
     "d": "26",
     "l": "sent to jail"
-   }
+   },
+   "tone": "neutral",
+   "verdict": "Few ended in jail"
   }
  ],
  "cover": {

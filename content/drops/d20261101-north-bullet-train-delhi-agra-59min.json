@@ -94,7 +94,9 @@
      215
     ]
    ],
-   "unit": " min"
+   "unit": " min",
+   "tone": "neutral",
+   "verdict": "Journey times to each city"
   },
   {
    "t": "icons",

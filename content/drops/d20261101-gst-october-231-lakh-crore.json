@@ -91,7 +91,8 @@
     "d": "42%",
     "l": "Imports"
    },
-   "goodIfUp": true
+   "tone": "good",
+   "verdict": "Collections grew, imports fastest"
   },
   {
    "t": "stack",

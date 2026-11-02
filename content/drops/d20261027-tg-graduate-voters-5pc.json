@@ -43,7 +43,9 @@
    "l": "Applications approved",
    "v": 4.98,
    "max": 100,
-   "d": "4.98%"
+   "d": "4.98%",
+   "tone": "bad",
+   "verdict": "Very few applications approved so far"
   },
   {
    "t": "compare",
@@ -58,7 +60,8 @@
     "d": "~5.2 lakh",
     "l": "Applied so far"
    },
-   "goodIfUp": true
+   "tone": "bad",
+   "verdict": "Far fewer than the 2021 roll"
   }
  ],
  "cover": {

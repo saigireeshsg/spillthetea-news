@@ -61,7 +61,8 @@
     "d": "+3.34°C",
     "l": "This week"
    },
-   "goodIfUp": false
+   "tone": "neutral",
+   "verdict": "Easing slightly from the peak but still extreme"
   }
  ],
  "map": {

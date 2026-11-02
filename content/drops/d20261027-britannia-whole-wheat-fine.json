@@ -44,7 +44,8 @@
     "d": "62%",
     "l": "Pack declared"
    },
-   "goodIfUp": true
+   "tone": "bad",
+   "verdict": "Pack had less wheat than the ad claimed"
   }
  ],
  "cover": {

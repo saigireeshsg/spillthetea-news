@@ -76,7 +76,9 @@
     "v": 110000,
     "d": "1.1 lakh",
     "l": "Registered last time"
-   }
+   },
+   "tone": "bad",
+   "verdict": "Far fewer applications than last time"
   },
   {
    "t": "stack",
@@ -109,7 +111,9 @@
     "v": 293821,
     "d": "2.94 lakh",
     "l": "Warangal–Khammam–Nalgonda"
-   }
+   },
+   "tone": "neutral",
+   "verdict": "Regions differ in turnout of applications"
   }
  ],
  "map": {
