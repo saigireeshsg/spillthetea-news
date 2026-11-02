@@ -1,0 +1,110 @@
+{
+ "cat": "campus",
+ "lead": "campus",
+ "date": "2026-11-02",
+ "sort": "2026-11-02-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "SWAYAM July sem exam: registration extended",
+ "hook": "SWAYAM July semester exam: registration now open till *Nov 5*",
+ "hook_b": "Did a SWAYAM course this year? You have till *Nov 5* to sign up for the exam",
+ "tldr": "Registration for the SWAYAM July 2026 semester exam is extended to November 5; corrections open November 6.",
+ "beats": {
+  "what": "The testing agency extended registration for the SWAYAM July 2026 semester exam to November 5.",
+  "why": "Per NDTV, the deadline was pushed back; the report summary does not give a reason.",
+  "care": "Took a SWAYAM course for credit or a certificate? Register for the exam by Nov 5."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⏳",
+    "label": "Deadline extended"
+   }
+  ],
+  "event": {
+   "icon": "📚",
+   "label": "SWAYAM exam signup"
+  },
+  "effects": [
+   {
+    "icon": "✏️",
+    "label": "Register by Nov 5"
+   },
+   {
+    "icon": "✏️",
+    "label": "Fix errors from Nov 6"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Per NDTV: registration for the SWAYAM July Semester 2026 exam now runs till November 5. The application correction window opens on November 6. Exam dates, fees and the reason for the extension were not in the summary we could read; check the official SWAYAM exam portal before you pay."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Why do SWAYAM courses matter to you?",
+   "opts": [
+    "Credits for my degree",
+    "Certificate for my CV",
+    "Just learning",
+    "Not my thing"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Nov 5",
+   "l": "last date to register for the SWAYAM July sem exam"
+  },
+  {
+   "t": "stack",
+   "l": "Two dates to note",
+   "total": "Nov 5 → Nov 6",
+   "parts": [
+    {
+     "l": "Register by Nov 5",
+     "v": 1
+    },
+    {
+     "l": "Corrections from Nov 6",
+     "v": 1
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1c2340",
+   "#4a5fb0"
+  ],
+  "big": "Nov 5",
+  "label": "last date to register for the SWAYAM July sem exam",
+  "motion": "drift",
+  "scene": [
+   "⏳",
+   "📚",
+   "✏️"
+  ]
+ },
+ "insight": "A correction window for filled forms opens right after, on November 6.",
+ "learn": {
+  "t": "SWAYAM = the government's free online course platform; the proctored exam is what gets you a certificate or credits."
+ },
+ "watch": "Correction window from Nov 6, then the exam schedule and admit cards.",
+ "thread": "swayam-july-exam-registration-nov5",
+ "sources": [
+  {
+   "name": "NDTV",
+   "title": "SWAYAM July Semester Exam 2026: Testing Agency Extended Registration Deadline, Here's How To Apply",
+   "url": "https://www.ndtv.com/education/swayam-july-semester-exam-2026-testing-agency-extended-registration-deadline-heres-how-to-apply-12270213"
+  }
+ ],
+ "updated": 1793609345473,
+ "fact": "Missed the SWAYAM exam form? Registration is extended to *Nov 5*",
+ "twist": "Already registered? You still get a fix-it window: corrections open *Nov 6*."
+}
