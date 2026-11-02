@@ -1334,7 +1334,7 @@ function scoreOf(d){let s=(d.heat||0)*2;const k=gkey(d);
   const nn=parseInt(String(d.sort||"").split("-")[3]||"0",10);if(nn)s+=Math.min(nn,99)/12;
   if(isFollow(d))s+=40;
   if(d.cat==="local"&&me.city&&d.city===me.city)s+=6;
-  if(nearArea(d))s+=8;
+  if(nearArea(d))s+=14;
   if((me.ints||[]).includes(d.cat))s+=3;
   s+=Math.min(affOf("c:"+d.cat),15)*.8;
   if(!k.startsWith("_"))s+=Math.min(affOf("t:"+k),15)*.6;
@@ -1434,7 +1434,7 @@ new MutationObserver(watch).observe(document.documentElement,{childList:true,sub
 document.addEventListener("click",e=>{const w=e.target.closest("[data-wwh]");if(w){e.preventDefault();e.stopPropagation();const c=w.closest("article.post"),bx=c&&c.querySelector(".wwhbox");if(bx){bx.hidden=!bx.hidden;w.textContent=bx.hidden?"🧭 Why · What · Consequences ▾":"🧭 Hide ▴"}return}const u=e.target.closest("[data-ui]");if(u){UI=u.dataset.ui;try{localStorage.setItem("spill_ui",UI);window.spillTrack&&window.spillTrack("tab_open",{tab:"ui_"+UI})}catch(_){}feed();return}},true);
 document.addEventListener("click",e=>{const b=e.target.closest("[data-ip],[data-iq]");if(!b)return;e.preventDefault();e.stopPropagation();
   const poll=b.hasAttribute("data-ip"),id=b.dataset.ip||b.dataset.iq,i=+b.dataset.i;const d=drops.find(x=>x.id===id);if(!d)return;
-  if(poll){if(me.poll[id]!=null)return;me.poll[id]=i;bump(d,2);me.xp=(me.xp||0)+10;me.vday=me.vday||{};me.vday[today()]=(me.vday[today()]||0)+1;{const c=me.vday[today()];try{toast(c%5===0?"🎉 "+c+" voices today! +20 bonus XP":"+10 XP · voice counted")}catch(_){}if(c%5===0)me.xp+=20}}else{const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q||me.quiz[id]!=null)return;recordQuiz(d,i)}
+  if(poll){if(me.poll[id]!=null)return;me.poll[id]=i;bump(d,2);me.xp=(me.xp||0)+10;me.vday=me.vday||{};me.vday[today()]=(me.vday[today()]||0)+1;{const c=me.vday[today()];try{toast(c%5===0?"🎉 "+c+" voices today! +20 bonus XP":"+10 XP · voice counted")}catch(_){}if(c%5===0)me.xp+=20;if(!me.area&&!me.areaAsked&&Object.keys(me.poll||{}).length>=2&&me.city&&areasFor(me.city).length){me.areaAsked=1;setTimeout(()=>{try{areaPicker()}catch(_){}},1800)}}}else{const q=(d.cards||[]).find(c=>c.k==="quiz");if(!q||me.quiz[id]!=null)return;recordQuiz(d,i)}
   pushVotes();agg();try{window.spillTrack&&window.spillTrack(poll?"poll_vote":"quiz_answer",{story_id:id,ui:UI,inline:1})}catch(_){}
   const card=b.closest("article.post");if(card)card.outerHTML=cardHTML(d,0)},true);
 const readLen=d=>{const s=+d.readSecs||60;return s<60?s+"s":Math.round(s/60)+" min"};

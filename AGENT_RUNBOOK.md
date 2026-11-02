@@ -396,3 +396,10 @@ Spill communicates the news, helps people understand the issue, and collects wha
 - `fact`: card headline under the image. ONE complete, surprising sentence, 8-14 words, main stat in *stars*. Must stand alone (who/what/number) and be interesting to read. Example: `Rangareddy borewells carry *4-5x* the safe nitrate limit`. Never a fragment. If omitted the app shows `hook`.
 - `twist`: one factual plot-twist line, shown after the vote (locked before). It must surprise and make people want the full story: a number, a reversal, or a "but". Sourced, never opinion (Rule Zero). If omitted the app shows `insight`.
 - Every story also needs `map` (why/what/hits-you flow), `watch` (what happens next) and `learn` (one term explained).
+
+## LEAN MODE (Nov 2026, owner priority: cut weekly usage)
+- Only TWO scheduled runs a day: morning (~15 stories) and evening (~10). No hourly, half-hourly, night or cyclone desks.
+- Do the cheap work in code, not in the model: scouting, dedupe, og:image, hooks/briefs from templates. The model writes only: `fact`, `twist`, `poll`, `map`, `watch`, `learn`, `areas`, `topic`.
+- Gate first: if Supabase shows nothing important since the last run, stop BEFORE cloning the repo.
+- Max 1 fetch per story, max 3 searches per run, no subagents. Stop at any usage limit.
+- PERSONALISATION: every Hyderabad story MUST carry `areas` (neighbourhoods it touches, app names e.g. Madhapur, Gachibowli, Kukatpally) and `topic`. The app ranks by area (+14), interests, follows and past votes. Write more hyperlocal items: water, power, traffic, civic, jobs by area. Prefer 8 sharp local stories over 20 generic ones.
