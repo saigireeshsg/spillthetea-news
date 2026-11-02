@@ -300,6 +300,19 @@
 </style>
 <style>.na .nimg.lg{height:auto!important;aspect-ratio:21/9!important;margin:8px 0 0!important}.nfact{font-size:21px!important;-webkit-line-clamp:unset!important;display:block!important}</style>
 <style>.nstory .nviz .vh b{font-size:19px!important}</style>
+<style>
+.vvs .vsr{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.vvs .vo,.vvs .vn{flex:1;min-width:0}.vvs small{display:block;font-size:11px;color:#9aa4ad;margin:0 0 2px}
+.vvs .vo s{font-size:20px;font-weight:800;color:#8a98a5;text-decoration-thickness:2px}.vvs .vn b{font-size:26px;font-weight:900;color:#ff6a2b;letter-spacing:-.02em;line-height:1}
+.vvs .var{font-size:22px;color:#ff4500}.vvs .vn{text-align:right}
+.vgauge{position:relative;text-align:center}.vgauge svg{width:70%;max-width:220px;display:block;margin:0 auto}
+.vgc{margin-top:-30px}.vgc b{display:block;font-size:26px;font-weight:900;color:#fff;letter-spacing:-.02em}.vgc .vl{font-size:12px;color:#aab4be}
+.vdn{display:flex;align-items:center;gap:14px}.vdw{position:relative;flex:none;width:92px;height:92px}.vdw svg{width:100%;height:100%}
+.vdw b{position:absolute;inset:0;display:grid;place-items:center;font-size:17px;font-weight:900}
+.vleg2{display:grid;gap:5px;font-size:12.5px;color:#c9d1d9;min-width:0}.vleg2 .vl{font-weight:700;color:#fff;margin-bottom:2px}.vleg2 span{display:flex;align-items:center;gap:7px}.vleg2 i{width:10px;height:10px;border-radius:3px;flex:none}.vleg2 b{margin-left:auto;font-weight:800}
+.npins{display:flex;flex-wrap:wrap;gap:6px;margin-top:3px}.npins span{padding:4px 10px;border-radius:999px;background:#4fbcff1f;border:1px solid #4fbcff55;font-size:12.5px;font-weight:700;color:#a9dcff}
+</style>
+<style>.vdw b{font-size:12.5px!important;line-height:1.1;padding:0 20px;text-align:center}.vgauge svg{width:62%!important;max-width:190px!important}.vgc{margin-top:-18px!important}.vgc b{font-size:24px!important}</style>
 </head>
 <body>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1547,6 +1560,7 @@ function storyHTML(d){const m=d.map||{},c=(m.causes||[])[0],e=m.event,f=(m.effec
   const seen=[plain(factOf(d)||""),plain(d.hook||"")];const fresh=t=>t&&!seen.some(s=>_dup(t,s));
   const S=[];
   const cl=c&&c.label;if(fresh(cl)){S.push(["📍","Why",`${esc(c.icon||"")} ${esc(cl)}`]);seen.push(cl)}
+  {const ar=(d.areas||[]).slice(0,5);if(d.cat==="local"&&ar.length)S.push(["📍","Where",`<div class="npins">${ar.map(a=>`<span>📍 ${esc(a)}</span>`).join("")}</div>`,1])}
   if(v)S.push(["📊","The numbers",`<div class="nviz">${vizOne(v)}</div>`,1]);
   const tw=twistOf(d);if(tw&&fresh(tw)){S.push(["🤯","Plot twist",esc(tw),2]);seen.push(tw)}
   const fl=f&&f.label;if(fresh(fl)){S.push(["🎯","Hits you",`${esc(f.icon||"")} ${esc(fl)}`]);seen.push(fl)}
@@ -1915,11 +1929,12 @@ function vizOne(x){
   if(x.t==="compare"){const a=x.a||{},b=x.b||{};const av=vNum(a.v),bv=vNum(b.v),mx=Math.max(av,bv)||1;
     const ch=av?Math.round((bv-av)/av*100):null;const up=bv>=av;
     const chip=ch!=null&&isFinite(ch)?`<span class="vch ${(x.goodIfUp===false?!up:up)?"good":"bad"}">${up?"▲":"▼"} ${Math.abs(ch)}%</span>`:"";
-    return `<div class="vz vcmp wide"><div class="vh">${L}${chip}</div>${[a,b].map((p,i)=>`<div class="vrow ${i?"now":""}"><span class="vk">${esc(p.l||"")}</span><div class="vcb"><i style="width:${Math.max(4,vNum(p.v)/mx*100)}%"></i></div><b>${esc(p.d||p.v)}</b></div>`).join("")}</div>`}
+    return `<div class="vz vvs wide"><div class="vh">${L}${chip}</div><div class="vsr"><div class="vo"><small>${esc(a.l||"")}</small><s>${esc(a.d||a.v)}</s></div><span class="var">➜</span><div class="vn"><small>${esc(b.l||"")}</small><b>${esc(b.d||b.v)}</b></div></div></div>`}
   if(x.t==="meter"){const v=vNum(x.v),m=vNum(x.max)||100,p=Math.max(0,Math.min(100,v/m*100));
-    return `<div class="vz vmeter wide"><div class="vh">${L}<b>${esc(x.d||Math.round(p)+"%")}</b></div><div class="vcb-track"><i style="width:${p}%"></i></div>${x.note?`<small>${rich(x.note)}</small>`:""}</div>`}
+    const arc=Math.PI*40;return `<div class="vz vgauge wide"><svg viewBox="0 0 100 58" aria-hidden="true"><path d="M10 50A40 40 0 0 1 90 50" fill="none" stroke="#ffffff1c" stroke-width="9" stroke-linecap="round"/><path d="M10 50A40 40 0 0 1 90 50" fill="none" stroke="url(#gg)" stroke-width="9" stroke-linecap="round" stroke-dasharray="${arc*p/100} ${arc}"/><defs><linearGradient id="gg"><stop offset="0" stop-color="#ffb84d"/><stop offset="1" stop-color="#ff4500"/></linearGradient></defs></svg><div class="vgc"><b>${esc(x.d||Math.round(p)+"%")}</b>${L}</div>${x.note?`<small>${rich(x.note)}</small>`:""}</div>`}
   if(x.t==="stack"){const parts=x.parts||[];const tot=parts.reduce((s,p)=>s+vNum(p.v),0)||1;const cols=["#ffd166","#c0c7cf","#d08c4b","#4fbcff","#46d160","#ff4500"];
-    return `<div class="vz vstack wide"><div class="vh">${L}<b>${esc(x.total||tot)}</b></div><div class="vsb">${parts.map((p,i)=>`<i style="width:${vNum(p.v)/tot*100}%;background:${p.c||cols[i%cols.length]}"></i>`).join("")}</div><div class="vleg">${parts.map((p,i)=>`<span><i style="background:${p.c||cols[i%cols.length]}"></i>${esc(p.l)} <b>${esc(p.v)}</b></span>`).join("")}</div></div>`}
+    const r=26,C=2*Math.PI*r;let off=0;const segs=parts.map((p,i)=>{const f=vNum(p.v)/tot,len=Math.max(0,C*f-2),s=`<circle cx="32" cy="32" r="${r}" fill="none" stroke="${p.c||cols[i%cols.length]}" stroke-width="10" stroke-dasharray="${len} ${C}" stroke-dashoffset="${-off}" transform="rotate(-90 32 32)"/>`;off+=C*f;return s}).join("");
+    return `<div class="vz vdn wide"><div class="vdw"><svg viewBox="0 0 64 64" aria-hidden="true">${segs}</svg><b>${esc(x.total||tot)}</b></div><div class="vleg2">${L}${parts.map((p,i)=>`<span><i style="background:${p.c||cols[i%cols.length]}"></i>${esc(p.l||"")} <b>${esc(p.d||p.v)}</b></span>`).join("")}</div></div>`}
   if(x.t==="timeline"){const st=x.steps||[];const now=typeof x.now==="number"?x.now:-1;
     return `<div class="vz vtl wide"><div class="vh">${L}</div><ol>${st.map((p,i)=>`<li class="${i<now?"past":i===now?"cur":""}"><span class="vt">${esc(p.t)}</span><span class="ve">${rich(p.e)}</span></li>`).join("")}</ol></div>`}
   if(x.t==="icons"){const n=Math.max(0,Math.min(+x.n||0,20)),of=Math.max(1,Math.min(+x.of||10,20));

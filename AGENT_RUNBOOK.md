@@ -409,3 +409,6 @@ The card shows: image + `fact` (headline) -> Why -> numbers infographic -> `twis
 - `twist` = the most surprising ADDITIONAL, sourced fact that is NOT in the headline: a total, a comparison, a record, a hidden cost. Example for a drunk-driving drive: headline has the weekend count; twist = fines collected in the year or city-wide total, if a source states it. No source for a surprising extra fact? Use a different angle (rate, trend, rank), never a restatement.
 - `viz` must show numbers not already in the headline (trend, comparison, split).
 - The app hides any step that repeats the headline, so repeated text is wasted.
+
+## Infographic = news-specific (Nov 2026)
+Pick the viz type that matches the story, never default to bars: `compare` (old -> new, shown as a big struck-through old figure vs big new figure), `meter` (a share of a total, shown as a gauge), `stack` (parts of a whole, shown as a donut), `icons` (N of 10 people), `timeline` (dated steps), `trend` (series over time), `big`. Local stories also show a "Where" row of area pins from `areas`. Use real numbers from the source; the chart must show something the headline does not.
