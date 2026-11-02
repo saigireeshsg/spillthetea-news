@@ -60,6 +60,14 @@
    "t": "big",
    "v": "35%",
    "l": "landfall odds, Godavari-Yanam"
+  },
+  {
+   "t": "meter",
+   "v": 35,
+   "max": 100,
+   "d": "35%",
+   "l": "ECMWF runs landfall Godavari–Yanam",
+   "note": "About 18 of 51 forecast runs"
   }
  ],
  "cover": {

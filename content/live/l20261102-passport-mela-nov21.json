@@ -32,6 +32,20 @@
    "t": "big",
    "v": "4,000",
    "l": "extra appointments, Nov 21"
+  },
+  {
+   "t": "timeline",
+   "l": "Passport Mela timeline",
+   "steps": [
+    {
+     "t": "Nov 3",
+     "e": "Booking opens at PSKs and POPSKs"
+    },
+    {
+     "t": "Nov 21",
+     "e": "Mela day, about 4,000 slots"
+    }
+   ]
   }
  ],
  "poll": {

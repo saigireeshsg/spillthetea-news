@@ -60,6 +60,27 @@
    "t": "big",
    "v": "Your face",
    "l": "becomes an AI avatar"
+  },
+  {
+   "t": "timeline",
+   "steps": [
+    {
+     "t": "1",
+     "e": "Record your face and voice"
+    },
+    {
+     "t": "2",
+     "e": "Avatar made for AI images and video"
+    },
+    {
+     "t": "3",
+     "e": "Share it by Gmail invite"
+    },
+    {
+     "t": "4",
+     "e": "Receiver must approve first"
+    }
+   ]
   }
  ],
  "cover": {

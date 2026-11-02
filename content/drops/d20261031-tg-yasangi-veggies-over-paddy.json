@@ -60,6 +60,14 @@
    "t": "big",
    "v": "-20%",
    "l": "possible heat hit to produce"
+  },
+  {
+   "t": "meter",
+   "v": 20,
+   "max": 100,
+   "d": "−20%",
+   "l": "Possible heat hit to produce",
+   "note": "Horticulture Director, next few months"
   }
  ],
  "cover": {

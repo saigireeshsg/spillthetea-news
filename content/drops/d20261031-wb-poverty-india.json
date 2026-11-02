@@ -60,6 +60,36 @@
    "t": "big",
    "v": "2.6%",
    "l": "extreme poverty, World Bank"
+  },
+  {
+   "t": "compare",
+   "l": "Extreme poverty, India",
+   "a": {
+    "l": "12 years ago",
+    "v": 27.1,
+    "d": "27.1%"
+   },
+   "b": {
+    "l": "Now",
+    "v": 2.6,
+    "d": "2.6%"
+   },
+   "goodIfUp": false
+  },
+  {
+   "t": "compare",
+   "l": "Below the USD 4.20/day line",
+   "a": {
+    "l": "12 years ago",
+    "v": 57.7,
+    "d": "57.7%"
+   },
+   "b": {
+    "l": "Now",
+    "v": 16.1,
+    "d": "16.1%"
+   },
+   "goodIfUp": false
   }
  ],
  "cover": {

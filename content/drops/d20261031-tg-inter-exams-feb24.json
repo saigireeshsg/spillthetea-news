@@ -60,6 +60,23 @@
    "t": "big",
    "v": "Feb 24",
    "l": "theory exams likely start"
+  },
+  {
+   "t": "timeline",
+   "steps": [
+    {
+     "t": "Earlier",
+     "e": "Practicals likely start"
+    },
+    {
+     "t": "Feb 24",
+     "e": "Theory papers likely begin"
+    },
+    {
+     "t": "Note",
+     "e": "Timetable not final"
+    }
+   ]
   }
  ],
  "cover": {

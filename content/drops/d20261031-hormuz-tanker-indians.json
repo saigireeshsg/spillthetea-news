@@ -60,6 +60,19 @@
    "t": "big",
    "v": "27",
    "l": "Indians aboard the tanker"
+  },
+  {
+   "t": "timeline",
+   "steps": [
+    {
+     "t": "Feb 2026",
+     "e": "Conflict begins"
+    },
+    {
+     "t": "Now",
+     "e": "First successful limpet-mine hit in Hormuz since then"
+    }
+   ]
   }
  ],
  "cover": {

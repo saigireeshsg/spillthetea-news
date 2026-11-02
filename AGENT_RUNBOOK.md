@@ -419,3 +419,6 @@ Pick the viz type that matches the story, never default to bars: `compare` (old 
 
 ## Know box (only when needed)
 The 📘 Know line shows only when a term in the headline would block understanding (the term before " = " appears in `fact`/`hook`), or when `learn.show:true`. Set `learn.show:false` to hide it. Most stories need no Know line; write one only for a jargon term, acronym or scheme name readers may not know.
+
+## Every story gets a news-specific infographic
+Each drop and live item needs at least one non-`big` viz built from its own facts: `timeline` for dated steps, windows and how-it-works, `compare` for before/after (set goodIfUp), `meter` for a share, `icons` for N-of-M, `trend` for a series. A lone `big` stat is not enough. Never invent numbers; if the source has only one figure, use a `timeline` of the dates/steps it gives.

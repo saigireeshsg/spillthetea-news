@@ -60,6 +60,14 @@
    "t": "big",
    "v": "5",
    "l": "mandatory subjects, Class 10 (2028)"
+  },
+  {
+   "t": "icons",
+   "n": 5,
+   "of": 5,
+   "icon": "📚",
+   "d": "5 mandatory subjects",
+   "l": "Class 10 boards from 2028, plus a skill paper"
   }
  ],
  "cover": {

@@ -60,6 +60,23 @@
    "t": "big",
    "v": "Hyd-Pune",
    "l": "bullet train push"
+  },
+  {
+   "t": "timeline",
+   "steps": [
+    {
+     "t": "Oct 30",
+     "e": "CM asks Railway Minister to fast-track"
+    },
+    {
+     "t": "Next",
+     "e": "Centre approves the alignment"
+    },
+    {
+     "t": "Then",
+     "e": "Land and construction can begin"
+    }
+   ]
   }
  ],
  "cover": {

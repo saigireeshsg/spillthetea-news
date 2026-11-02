@@ -19,5 +19,25 @@
  "title": "Tumakuru–KSR Bengaluru MEMUs cancelled on 12 days from Oct 23",
  "ts": 1792563700000,
  "until": 1794076200000,
- "verified": "1"
+ "verified": "1",
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "MEMU 66571/66572 off on these dates",
+   "steps": [
+    {
+     "t": "Oct 23–25",
+     "e": "Cancelled, Tumakuru yard work"
+    },
+    {
+     "t": "Oct 28–Nov 1",
+     "e": "Cancelled"
+    },
+    {
+     "t": "Nov 4–7",
+     "e": "Cancelled"
+    }
+   ]
+  }
+ ]
 }

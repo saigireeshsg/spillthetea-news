@@ -60,6 +60,19 @@
    "t": "big",
    "v": "Rs 18 lakh",
    "l": "living-expense proof, UK"
+  },
+  {
+   "t": "timeline",
+   "steps": [
+    {
+     "t": "28 days",
+     "e": "Hold the funds before you apply"
+    },
+    {
+     "t": "Nov 30",
+     "e": "New rules, costlier visa"
+    }
+   ]
   }
  ],
  "cover": {

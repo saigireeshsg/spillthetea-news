@@ -61,6 +61,19 @@
    "t": "big",
    "v": "3 hrs",
    "l": "e-bus services disrupted"
+  },
+  {
+   "t": "timeline",
+   "steps": [
+    {
+     "t": "Saturday",
+     "e": "E-bus drivers stop work for 3 hours"
+    },
+    {
+     "t": "Nov 4",
+     "e": "Manpower agency meets drivers"
+    }
+   ]
   }
  ],
  "cover": {

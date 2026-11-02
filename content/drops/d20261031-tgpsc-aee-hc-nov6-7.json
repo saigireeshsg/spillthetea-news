@@ -71,6 +71,19 @@
    "t": "big",
    "v": "Nov 6-7",
    "l": "TGPSC AEE exam dates"
+  },
+  {
+   "t": "timeline",
+   "steps": [
+    {
+     "t": "Nov 6",
+     "e": "TGPSC AEE exam, day 1"
+    },
+    {
+     "t": "Nov 7",
+     "e": "Day 2; court refused delay despite SSC-JE clash"
+    }
+   ]
   }
  ],
  "cover": {

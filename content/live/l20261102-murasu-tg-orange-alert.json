@@ -49,6 +49,20 @@
     "d": "5",
     "l": "yellow"
    }
+  },
+  {
+   "t": "timeline",
+   "l": "Murasu landfall window",
+   "steps": [
+    {
+     "t": "11:30 pm Mon",
+     "e": "Landfall window opens, Nellore–Narsapur"
+    },
+    {
+     "t": "4 am Tue",
+     "e": "Window ends, gusts up to 120 kmph"
+    }
+   ]
   }
  ],
  "poll": {

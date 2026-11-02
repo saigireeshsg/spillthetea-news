@@ -35,6 +35,24 @@
    "t": "big",
    "v": "3 months",
    "l": "more closure from Oct 27"
+  },
+  {
+   "t": "timeline",
+   "l": "Closure timeline",
+   "steps": [
+    {
+     "t": "Oct 27",
+     "e": "Closure extended 3 months"
+    },
+    {
+     "t": "~Jan 27",
+     "e": "Extended closure runs till about"
+    },
+    {
+     "t": "1 yr+",
+     "e": "Flyover works may take at least a year"
+    }
+   ]
   }
  ],
  "poll": {

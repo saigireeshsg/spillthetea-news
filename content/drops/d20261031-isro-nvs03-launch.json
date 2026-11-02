@@ -71,6 +71,23 @@
    "t": "big",
    "v": "NVS-03",
    "l": "launched on GSLV-F18"
+  },
+  {
+   "t": "timeline",
+   "steps": [
+    {
+     "t": "2025",
+     "e": "NVS-02 failed"
+    },
+    {
+     "t": "Now",
+     "e": "NVS-03 launched on GSLV-F18"
+    },
+    {
+     "t": "Result",
+     "e": "NavIC back to 4 working satellites"
+    }
+   ]
   }
  ],
  "cover": {

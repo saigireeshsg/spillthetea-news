@@ -60,6 +60,23 @@
    "t": "big",
    "v": "Nov 14",
    "l": "Saudi flights suspended till"
+  },
+  {
+   "t": "timeline",
+   "steps": [
+    {
+     "t": "Oct 30",
+     "e": "Bookings issued by this date are covered"
+    },
+    {
+     "t": "Nov 14",
+     "e": "Saudi flights paused till"
+    },
+    {
+     "t": "Nov 29",
+     "e": "Latest rebooked travel date"
+    }
+   ]
   }
  ],
  "cover": {

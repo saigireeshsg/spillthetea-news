@@ -61,6 +61,26 @@
    "t": "big",
    "v": "Rs 218.8",
    "l": "Jio ARPU"
+  },
+  {
+   "t": "big",
+   "v": "542.4M",
+   "l": "Jio subscribers"
+  },
+  {
+   "t": "compare",
+   "l": "Reliance Retail profit vs last quarter",
+   "a": {
+    "l": "Last quarter",
+    "v": 100,
+    "d": "100"
+   },
+   "b": {
+    "l": "This quarter",
+    "v": 93.33,
+    "d": "-6.67%"
+   },
+   "goodIfUp": true
   }
  ],
  "cover": {

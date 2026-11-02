@@ -31,6 +31,20 @@
    "t": "big",
    "v": "8 days",
    "l": "closure, Oct 31 to Nov 7"
+  },
+  {
+   "t": "timeline",
+   "l": "Load test closure",
+   "steps": [
+    {
+     "t": "Oct 31",
+     "e": "New Godavari bridge shut to vehicles"
+    },
+    {
+     "t": "Nov 7",
+     "e": "Closure ends; old bridge carries traffic till then"
+    }
+   ]
   }
  ],
  "poll": {
@@ -48,5 +62,8 @@
    "name": "Telangana Today",
    "url": "https://telanganatoday.com/bhadrachalam-new-godavari-bridge-to-remain-closed-for-load-testing-from-october-31-to-november-7"
   }
+ ],
+ "areas": [
+  "Bhadrachalam"
  ]
 }

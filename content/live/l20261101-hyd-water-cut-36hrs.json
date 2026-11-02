@@ -33,6 +33,20 @@
    "t": "big",
    "v": "36 hrs",
    "l": "without tap water, Nov 3–4"
+  },
+  {
+   "t": "timeline",
+   "l": "36 hours without tap water",
+   "steps": [
+    {
+     "t": "6 am Nov 3",
+     "e": "Supply stops"
+    },
+    {
+     "t": "6 pm Nov 4",
+     "e": "Supply back"
+    }
+   ]
   }
  ],
  "poll": {
@@ -55,5 +69,10 @@
   }
  ],
  "open": "d20261101-hyd-water-cut-36hrs-nov3",
- "verified": true
+ "verified": true,
+ "areas": [
+  "Banjara Hills",
+  "Kavadiguda",
+  "Golconda"
+ ]
 }
