@@ -34,7 +34,7 @@
 
   const cache = {};
   async function loadStatic(col) {
-    const res = await fetch(`/data/${col}.json?t=${Math.floor(Date.now() / 60000)}`);
+    const res = await fetch(`/data/${col}.json`, { cache: "no-cache" }); // always revalidate: fresh live updates on first load
     if (!res.ok) return [];
     return res.json();
   }
