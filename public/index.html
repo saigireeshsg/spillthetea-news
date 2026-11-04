@@ -1628,7 +1628,7 @@ function heroHTML(d){VCTX=(d.hook||"")+" "+(d.fact||"");const V=vizItems(d),v=V.
   if(v)return `<div class="nhero">${vizOne(v)}</div>`;
   if(c.big)return `<div class="nhero nbigstat"><b>${esc(c.big)}</b><span>${esc(c.label||"")}</span></div>`;
   return ""}
-function twistBox(d){const t=twistOf(d);return t?`<div class="ntwist2"><span>🤯</span><div><small>Plot twist</small><p>${esc(t)}</p></div></div>`:""}
+function twistBox(d){const t=twistOf(d);return t?`<div class="ntwist2"><span>🤯</span><div><small>Plot twist</small><p>${rich(t)}</p></div></div>`:""}
 function needsKnow(d){const t=d.learn&&d.learn.t;if(!t)return false;if(d.learn.show===true)return true;if(d.learn.show===false)return false;const m=String(t).split(/\s=\s|:\s/)[0].trim();if(!m||m.length>28||t.indexOf(m)!==0||m.length===t.length)return false;const hay=plain((factOf(d)||"")+" "+(d.hook||"")).toLowerCase();return hay.includes(m.toLowerCase())}
 function revealHTML(d){return needsKnow(d)?`<div class="nreveal"><p class="naha"><b>📘 Know</b> ${rich(d.learn.t)}</p></div>`:""}
 function newCard(d,ix){const n=commentCount(d);
@@ -1707,11 +1707,9 @@ function feed(){
   if(filter==="all"){
     h+=breakingHTML();
     h+=(window.cricHTML?window.cricHTML():"");
-    h+=(window.ritualCardHTML?window.ritualCardHTML():"");
     h+=greetHTML(done,total,pc,fresh);
     h+=voteBarHTML(feedPool());
     h+=tickerHTML();
-    h+=`<div class="uiswitch"><span>Layout:</span>${[["a","Photo + explain"],["b","Compact"],["old","Classic"]].map(x=>`<button data-ui="${x[0]}" class="${UI===x[0]?"on":""}">${x[1]}</button>`).join("")}</div>`;
   }
   if(!list.length){$("#view").innerHTML=h+`<div class="end"><span class="big">🫖</span><b>No tea yet</b><span>Fresh stories land here every morning.</span></div>`+(filter==="all"?extrasHTML():"");return}
   const stale=isStale();

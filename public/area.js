@@ -51,7 +51,7 @@
   }
 
   window.areaPickHTML = function () {
-    return `<section class="apk"><b>📍 Where in Hyderabad are you?</b><p>One tap. Get your area's water status, alerts and weather, every time you open Spill.</p><div class="ach">${Object.keys(A).map((a) => `<button data-pickarea="${E(a)}">${E(a)}</button>`).join("")}</div></section>`;
+    return `<button class="setloc" data-act="area">📍 Pick your area: water, power and alerts for where you live →</button>`;
   };
 
   window.areaTodayHTML = function (area) {
