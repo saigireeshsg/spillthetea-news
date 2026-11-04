@@ -1,0 +1,114 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-04",
+ "sort": "2026-11-04-94",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "HYDRAA's chief keeps his seat. Court pro",
+ "hook": "HYDRAA's chief keeps his seat. Court protection runs to *January*",
+ "hook_b": "HYDRAA's chief keeps his seat. Court protection runs to *January*",
+ "tldr": "Telangana HC extended interim protection for HYDRAA Commissioner Ranganath until January.",
+ "beats": {
+  "what": "The High Court extended interim protection to Ranganath until January, keeping a single-judge order to replace him on hold.",
+  "why": "The single bench found HYDRAA's actions amounted to wilful disobedience of court directions (July 27). The division bench stayed the order on Sept 1 and questioned whether HYDRAA demolished hastily.",
+  "care": "HYDRAA's demolition and lake-protection drives continue under the same leadership for now."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚖️",
+    "label": "Single judge orders replacement"
+   }
+  ],
+  "event": {
+   "icon": "🏗️",
+   "label": "Division bench stays order"
+  },
+  "effects": [
+   {
+    "icon": "📅",
+    "label": "Protection extended to January"
+   },
+   {
+    "icon": "📅",
+    "label": "HYDRAA drives continue"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Background from The News Minute: the dispute involves a 40-acre property at Lothkunta, Malkajgiri; HYDRAA says the land is government property."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Before any demolition, what should HYDRAA do first?",
+   "opts": [
+    "Publish land records",
+    "Give owners notice time",
+    "Keep current process",
+    "Not sure"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The court fight so far",
+   "now": 3,
+   "steps": [
+    {
+     "t": "Jul 27",
+     "e": "Single judge finds wilful disobedience; orders his replacement"
+    },
+    {
+     "t": "Sep 1",
+     "e": "Division bench stays that order; hearing set for Nov 3"
+    },
+    {
+     "t": "Nov 3",
+     "e": "Hearing held"
+    },
+    {
+     "t": "Now",
+     "e": "Interim protection extended until January"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Jan",
+  "label": "court protection now runs until",
+  "motion": "drift",
+  "scene": [
+   "⚖️",
+   "🏗️",
+   "📅"
+  ]
+ },
+ "watch": "The January hearing date and any ruling on the contempt appeals.",
+ "thread": "hydraa-ranganath-hc-protection-january",
+ "sources": [
+  {
+   "name": "The News Minute",
+   "title": "Telangana HC extends interim protection to HYDRAA Commissioner Ranganath until January",
+   "url": "https://www.thenewsminute.com/telangana/telangana-hc-puts-temporary-hold-on-earlier-order-seeking-hydraa-chiefs-replacement"
+  }
+ ],
+ "updated": 1793772015123,
+ "city": "Hyderabad",
+ "fact": "The High Court extended interim protection for HYDRAA chief Ranganath until *January*.",
+ "twist": "A single judge had ordered his replacement over alleged wilful disobedience; the bench stayed that order.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "storyline": "hydraa"
+}

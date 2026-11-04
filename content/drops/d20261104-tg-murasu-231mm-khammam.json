@@ -1,0 +1,126 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-04",
+ "sort": "2026-11-04-99",
+ "order": 1,
+ "heat": 5,
+ "readSecs": 30,
+ "topic": "Murasu dumped *231.8 mm* on one village.",
+ "hook": "Murasu dumped *231.8 mm* on one village. Hyderabad stayed dry",
+ "hook_b": "Murasu dumped *231.8 mm* on one village. Hyderabad stayed dry",
+ "tldr": "Murasu's rain hit Khammam and Bhadradri Kothagudem hardest; Hyderabad got mostly cloud.",
+ "beats": {
+  "what": "Extremely heavy to very heavy rain fell in Khammam and Bhadradri Kothagudem; Mulakalapally logged 231.8 mm.",
+  "why": "Murasu weakened into a depression over Telangana and AP after crossing the Andhra coast.",
+  "care": "Hyderabad's water crisis is unchanged by this rain. East Telangana roads and low crossings stay risky."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌀",
+    "label": "Cyclone Murasu crossed Andhra coast"
+   }
+  ],
+  "event": {
+   "icon": "🌧️",
+   "label": "Depression over Telangana & AP"
+  },
+  "effects": [
+   {
+    "icon": "🏘️",
+    "label": "East Telangana flood alert"
+   },
+   {
+    "icon": "🏘️",
+    "label": "Hyderabad mostly dry"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: Hyderabad and several other districts mostly saw overcast skies and minimal rain. Deccan Chronicle reports a flash flood alert for Bhadradri Kothagudem. The News Minute reports 2 deaths and 312 damaged houses in Andhra Pradesh."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Did the cyclone bring rain where you live?",
+   "opts": [
+    "Heavy rain",
+    "Light showers",
+    "Only clouds",
+    "Nothing"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "231.8 mm",
+   "l": "rain at Mulakalapally from Murasu",
+   "tone": "neutral"
+  },
+  {
+   "t": "timeline",
+   "l": "Murasu's last 3 days",
+   "now": 2,
+   "steps": [
+    {
+     "t": "Nov 2 night",
+     "e": "IMD landfall window, Nellore to Narsapur"
+    },
+    {
+     "t": "Nov 3",
+     "e": "Weakens into a depression over Telangana and AP"
+    },
+    {
+     "t": "Nov 4",
+     "e": "Khammam and Bhadradri Kothagudem report the heaviest rain"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "231.8 mm",
+  "label": "rain at Mulakalapally from Murasu",
+  "motion": "drift",
+  "scene": [
+   "🌀",
+   "🌧️",
+   "🏘️"
+  ]
+ },
+ "watch": "IMD's next bulletin on rain and whether Hyderabad gets any.",
+ "thread": "tg-murasu-231mm-khammam",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Cyclone Murasu brings over 230 mm rain to Bhadradri Kothagudem, Khammam",
+   "url": "https://telanganatoday.com/telangana-cyclone-murasu-brings-over-230-mm-rain-to-bhadradri-kothagudem-khammam"
+  },
+  {
+   "name": "Deccan Chronicle",
+   "title": "Cyclone Murasu weakens into depression over Telangana, AP",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWVRrSlVOUWhUZ0xQdmxaYVNKeWsteTVMSGQtTzNGQ3U1U3B0Q3BUSFcyWTViWS12M1BmeTU3YVRLNmdBUVZXVnhVQ0Fya3hYaXJXSThtYUV6RjBPNWNvY0pLaFhLSzlFY0pydENCdE8xcV9jTjQ5Vl96Nk8yaWctbEl3NnJJbE4wcWljVTItYnZ0OU1RS0Uxb2VBeWNiWFdxV203QUcyUGU5QUtpVVVTMWtobDV4WERTM2FIUjYyZ9IBxAFBVV95cUxPMEFZWkduM201U25mWWZDSXcyZU51M0NlX3BNOU80bGRDRnloM1Rrd2x6QkNiX0hxdFB1c2xtbWlaMlBsSm9rMExOb3BNMlpoT19CSnIzYUIzRkV2eXR6SU54U29ZcnVkVVdoOVdZRVZNb2JUYVBkMGU0a3JKVmxrS0NSMGQwcFFLOWx1WV9BOWNiVks1SnBmNVZhcTdlWVFQQzNFOXNiLUV6RXBOX3V2a1RyT2ZkQTZ6anlhQV9FTUZUUDN6?oc=5"
+  },
+  {
+   "name": "The News Minute",
+   "title": "Cyclone Murasu leaves 2 dead, damages 312 houses in Andhra Pradesh",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPc0oyV2cteE5zZW5sX0I0S3JYRUt5RDBnNmNHRlA4UWw2SFBDd0VMLWJVTm9QNUFYYXk4RzY3V3NTajlpUXcyU2gwdVlmcVZ1YjBnQkVXNXBlRlVnUzAweXpJOWFqeHU4S0ZOekt0MWNEWlBsbUp6dmdkM1BvTnJMRHNTLXhsZHZ5T0s5OHBFYlYxdngtTElMejNHY01DdjlqVnNWS1JKcW8zWGd0YjQ00gG8AUFVX3lxTE56UjYzTl9VemtLQTIzUHY2aUNiczZvUEpxMko2bVhtaEdhak05NVVWQjRxYS1ZSjZtazVSMms5MzVaMHRxUldwaWVjWkUyWEg3bFNzRFB0NEtPVnVNLVZtRTlUWXpGOVRQZDE0UE5CWGZIeEFsM1VRRVFrY05OOFNFZnlldE1qR2ZYOERNQlY3Rl9KRmRPWDI0UmdvNndrVVRYdW05NkJIcXEtNFloMjFxMmx3S2xHamZ3U1lU?oc=5"
+  }
+ ],
+ "updated": 1793772015122,
+ "city": "Hyderabad",
+ "fact": "One Khammam village got *231.8 mm* of rain from Murasu while Hyderabad stayed dry.",
+ "twist": "The same cyclone drowned two districts and barely touched the capital, which stays *86% short* on October rain.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "storyline": "bay-cyclone-2026"
+}

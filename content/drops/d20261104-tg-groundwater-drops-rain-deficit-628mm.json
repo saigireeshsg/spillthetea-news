@@ -1,0 +1,116 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-04",
+ "sort": "2026-11-04-97",
+ "order": 1,
+ "heat": 5,
+ "readSecs": 30,
+ "topic": "Telangana got *628 mm* of rain against 8",
+ "hook": "Telangana got *628 mm* of rain against 831 normal. Groundwater fell again",
+ "hook_b": "Telangana got *628 mm* of rain against 831 normal. Groundwater fell again",
+ "tldr": "State rain finished at 628 mm vs 831 mm normal; 22 of 33 districts are in deficit.",
+ "beats": {
+  "what": "The state got 628 mm against 831 mm normal. 22 districts are in deficit (20% to 50% short) and 11 are in the normal band.",
+  "why": "Less rain means less recharge, so water tables fell further over the past month.",
+  "care": "If you depend on a borewell near Vikarabad or Hyderabad's edge, expect weaker yield and plan tanker backup."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Rain 24% below normal"
+   }
+  ],
+  "event": {
+   "icon": "💧",
+   "label": "Water tables fall further"
+  },
+  "effects": [
+   {
+    "icon": "🕳️",
+    "label": "Vikarabad, Hyd edge lowest"
+   },
+   {
+    "icon": "🕳️",
+    "label": "Borewell yields at risk"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu: groundwater levels dropped further in a month, lowest in Vikarabad and the Hyderabad periphery."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Does your building have a rainwater recharge pit?",
+   "opts": [
+    "Yes, working",
+    "Yes, but unused",
+    "No",
+    "Not sure"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Monsoon rain, Telangana (mm)",
+   "a": {
+    "v": 831,
+    "d": "831 mm",
+    "l": "Normal"
+   },
+   "b": {
+    "v": 628,
+    "d": "628 mm",
+    "l": "This year"
+   },
+   "tone": "bad",
+   "verdict": "Rain finished about 24% short"
+  },
+  {
+   "t": "meter",
+   "l": "Districts in rain deficit",
+   "v": 22,
+   "max": 33,
+   "d": "22 of 33",
+   "tone": "bad",
+   "verdict": "Two in three districts are 20% to 50% short"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "22 of 33",
+  "label": "districts in rain deficit",
+  "motion": "drift",
+  "scene": [
+   "🌧️",
+   "💧",
+   "🕳️"
+  ]
+ },
+ "watch": "Next month's groundwater report and HMWSSB reservoir update.",
+ "thread": "tg-groundwater-drops-rain-deficit-628mm",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana's groundwater levels drop further in a month as rain deficit soars",
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-groundwater-levels-drop-further-in-a-month-as-rain-deficit-soars/article71663854.ece"
+  }
+ ],
+ "updated": 1793772015123,
+ "city": "Hyderabad",
+ "fact": "Telangana's groundwater fell again in a month as the monsoon ended *200 mm* short.",
+ "twist": "Groundwater is lowest in Vikarabad and the Hyderabad periphery, the places that lean on borewells most.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "storyline": "hyd-water-crisis"
+}

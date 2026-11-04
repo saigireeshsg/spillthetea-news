@@ -1,0 +1,127 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-04",
+ "sort": "2026-11-04-96",
+ "order": 1,
+ "heat": 5,
+ "readSecs": 30,
+ "topic": "A *₹90* change dispute on a bus cost a c",
+ "hook": "A *₹90* change dispute on a bus cost a conductor her life",
+ "hook_b": "A *₹90* change dispute on a bus cost a conductor her life",
+ "tldr": "TGSRTC conductor Pravalika died about 10 days after being pushed from a moving bus near Mittagudem.",
+ "beats": {
+  "what": "Pravalika, a Manuguru-depot conductor, was allegedly pushed off a moving bus on Oct 25 after a row over ₹90 balance. She died about 10 days later.",
+  "why": "Cash change disputes on buses are routine; this one ended in a death. A woman passenger was taken into custody and a case registered on RTC's complaint.",
+  "care": "Carry small change or pay digitally. Raise fare issues with the depot, not on the footboard."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚌",
+    "label": "₹90 change dispute on bus"
+   }
+  ],
+  "event": {
+   "icon": "⚠️",
+   "label": "Conductor pushed off moving bus"
+  },
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "Died about 10 days later"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Case registered; minister promises action"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Transport minister Ponnam Prabhakar assured strict action; CM Revanth Reddy condoled her death and assured support (Deccan Chronicle, The Hans India)."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What would protect bus conductors most?",
+   "opts": [
+    "Cameras on every bus",
+    "Digital-only tickets",
+    "Quick-response helpline",
+    "Stricter punishment"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹90",
+   "l": "balance at the centre of the fight",
+   "tone": "neutral"
+  },
+  {
+   "t": "timeline",
+   "l": "How it unfolded",
+   "now": 3,
+   "steps": [
+    {
+     "t": "Sun, Oct 25",
+     "e": "Row over ₹90 balance; conductor allegedly pushed off a moving bus near Mittagudem"
+    },
+    {
+     "t": "Oct 26",
+     "e": "Woman passenger taken into custody; case registered"
+    },
+    {
+     "t": "Minister",
+     "e": "Ponnam Prabhakar orders action and better treatment"
+    },
+    {
+     "t": "Nov 4",
+     "e": "Pravalika dies about 10 days later; CM condoles"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹90",
+  "label": "balance at the centre of the fight",
+  "motion": "drift",
+  "scene": [
+   "🚌",
+   "⚠️",
+   "⚖️"
+  ]
+ },
+ "watch": "Police case progress and any RTC safety measures for staff.",
+ "thread": "hyd-conductor-pravalika-dies",
+ "sources": [
+  {
+   "name": "The Pioneer",
+   "title": "Passenger pushes ticket conductor from moving bus over Rs90 unreturned change in Telangana",
+   "url": "https://dailypioneer.com/telangana/passenger-pushes-ticket-conductor-from-moving-bus-over-rs90-unreturned-change-in-telangana"
+  },
+  {
+   "name": "Times of India",
+   "title": "Telangana woman conductor dies after 10 days",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-woman-conductor-asks-passenger-to-collect-balance-while-getting-off-bus-gets-pushed-out-of-moving-vehicle-over-fare-dispute-dies-after-10-days/articleshow/135521523.cms"
+  },
+  {
+   "name": "Deccan Chronicle",
+   "title": "TGSRTC Conductor Pravalika Dies; Ponnam Prabhakar Assures Strict Action",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbzRFcEk0RlI5cUszakFGdWNIR29NR1ZzWmRqRWVKUEVYR09OWjBMZ2F6aTRWd1dMVTlmVnJiYjZmMHJ6R1lMbVhJc2dYVjdZU0gzWkxpbTQzdmhBdzJmLW05Q20tcHYyQU4tMmstcGY4VEdqc0t4a2M4a25jZy1IY01hX0RwcXppN0haUWpJQ2g3dnkxTTJFZFA4OGJiV1pTbE5oQTB5c0o3TGNHTHpaUks3WkphcUlNVXVIeW9yM29zczc0aXJXYWZJOUlmdjNXWVHSAdcBQVVfeXFMUHFHcHQ2QjRyb09JT3JDaTFFNnZsYUVXMkJSeC05SnFkZEhZNjVHUU5TWEhHUEZjMHVEY3BmS1h6YnhiN3N0MHI0RmdfVlItSllwT0h0REFIRzFMYjE3b042VmlzYWM1RXZfdlVrNl9KNlE2alozVUxiai1jcHZmY1I5LXl3Vy1sQ3psdlJ0dlpncEhIOUQ1VjNYZnpGYkd6bmxSV192ZTlpRjhUNmpvYlN3UnRHcTlIMGVic2E3U3J2alVuekNmU0NHNTdBYWtwb044T2J0cGM?oc=5"
+  }
+ ],
+ "updated": 1793772015123,
+ "city": "Hyderabad",
+ "fact": "A conductor pushed off a moving bus over *₹90* in change has died.",
+ "twist": "The passenger paid ₹100 for a half ticket; the ₹10 ticket carried a note of the ₹90 balance owed.",
+ "areas": []
+}

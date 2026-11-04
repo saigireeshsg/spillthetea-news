@@ -1,0 +1,92 @@
+{
+ "cat": "campus",
+ "lead": "campus",
+ "date": "2026-11-04",
+ "sort": "2026-11-04-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "CAT 2026 hall tickets are out. Exam is *",
+ "hook": "CAT 2026 hall tickets are out. Exam is *Nov 29*",
+ "hook_b": "CAT 2026 hall tickets are out. Exam is *Nov 29*",
+ "tldr": "IIMs will run CAT 2026 as a computer-based test on Nov 29 in three sessions.",
+ "beats": {
+  "what": "The IIMs released CAT 2026 admit cards. The computer-based test runs in three sessions on Sunday, Nov 29.",
+  "why": "CAT scores feed MBA admissions at the IIMs and many other B-schools.",
+  "care": "Download your admit card now, check name and photo, and note your session and centre."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📝",
+    "label": "IIMs release admit cards"
+   }
+  ],
+  "event": {
+   "icon": "🎫",
+   "label": "CAT on Nov 29, 3 sessions"
+  },
+  "effects": [
+   {
+    "icon": "🏫",
+    "label": "Check session and centre"
+   },
+   {
+    "icon": "🏫",
+    "label": "Report time on ticket"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "NDTV: CAT 2026 will be conducted in computer-based mode on Sunday, Nov 29, in three sessions."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Are you writing CAT this year?",
+   "opts": [
+    "Yes",
+    "Wrote before",
+    "Thinking of next year",
+    "No"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Nov 29",
+   "l": "CAT 2026, three sessions",
+   "tone": "neutral"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1c2340",
+   "#4a5fb0"
+  ],
+  "big": "Nov 29",
+  "label": "CAT 2026 exam date",
+  "motion": "drift",
+  "scene": [
+   "📝",
+   "🎫",
+   "🏫"
+  ]
+ },
+ "watch": "Official CAT site notices on centre changes.",
+ "thread": "cat-2026-admit-card-nov29",
+ "sources": [
+  {
+   "name": "NDTV",
+   "title": "CAT 2026 Admit Card LIVE: Common Admission Test Hall Ticket Download Link Here",
+   "url": "https://www.ndtv.com/education/cat-2026-admit-card-live-common-admission-test-hall-ticket-download-link-here-12280239"
+  }
+ ],
+ "updated": 1793772015123,
+ "fact": "CAT 2026 admit cards are out and the exam is on *November 29*, in three sessions.",
+ "twist": "Slots are fixed in three sessions, so check your session time before you plan travel."
+}
