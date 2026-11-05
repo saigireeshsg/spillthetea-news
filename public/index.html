@@ -1501,10 +1501,10 @@ const dAge=d=>d.date?ageDays(d.date):0;
 const isStale=()=>!visibleAll().some(d=>dAge(d)===0);
 function feedPool(){
   const v=visibleAll();if(!v.length)return[];
-  let pool=v.filter(d=>dAge(d)===0);
+  let pool=v.filter(d=>dAge(d)<=1);if(pool.length<4)pool=v.filter(d=>dAge(d)<=2); // today + yesterday only: older stories drop out of the feed on their own
   if(!pool.length){const latest=v.map(d=>d.date).filter(Boolean).sort().pop();pool=v.filter(d=>d.date===latest)}
   const by={};pool.forEach(d=>{const k=gkey(d);if(!by[k]||String(d.sort||"")>String(by[k].sort||""))by[k]=d});
-  return Object.values(by).map(d=>[scoreOf(d),d]).sort((x,y)=>y[0]-x[0]||String(y[1].sort||"").localeCompare(String(x[1].sort||""))).map(x=>x[1]);
+  return Object.values(by).map(d=>[scoreOf(d)+(dAge(d)===0?5:0),d]).sort((x,y)=>y[0]-x[0]||String(y[1].sort||"").localeCompare(String(x[1].sort||""))).map(x=>x[1]);
 }
 // ---------- personal ranking (learns from what you open, finish, answer, vote on, comment on, follow) ----------
 const CATN={edit:"editorial",local:"local",money:"money",india:"India",world:"world",campus:"study-abroad",sport:"sports",tech:"tech",planet:"planet"};
