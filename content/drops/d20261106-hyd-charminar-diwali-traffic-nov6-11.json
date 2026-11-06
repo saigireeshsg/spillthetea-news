@@ -1,0 +1,128 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-06",
+ "sort": "2026-11-06-86",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 40,
+ "topic": "Charminar Diwali traffic advisory",
+ "hook": "Avoid Charminar roads for *6 days*: Diwali rush, Nov 6–11",
+ "hook_b": "Avoid Charminar roads for *6 days*: Diwali rush, Nov 6–11",
+ "tldr": "Hyderabad Traffic Police expect heavy Diwali crowds at Bhagyalakshmi Temple, Charminar, Nov 6–11.",
+ "beats": {
+  "what": "Hyderabad Traffic Police issued a Charminar advisory for Nov 6 to 11.",
+  "why": "A big rush of devotees is expected at Bhagyalakshmi Temple for Diwali.",
+  "care": "Old City trips slow down; park at listed spots or skip the stretch."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Diwali temple rush"
+   }
+  ],
+  "event": {
+   "icon": "🚦",
+   "label": "Avoid Charminar roads"
+  },
+  "effects": [
+   {
+    "icon": "🅿️",
+    "label": "Old City jams"
+   },
+   {
+    "icon": "🅿️",
+    "label": "Use listed parking"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Jam-prone: Madina → Charminar, Murgi Chowk → Charminar, Rajesh Medical Hall → Shah Ali Banda → Charminar. Parking: Mufeed-ul-Anam School Ground, Sardar Mahal Road, Charminar Bus Terminal, Unani Hospital, SYJ Complex, MJ Bridge, Govt City College, QQ Stadium, Khilwath Road. Helpline 9010203626. Timings and diversions: not given."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Diwali at Charminar: how will you go?",
+   "opts": [
+    "Metro/bus, then walk",
+    "Drive and park",
+    "Skip the crowd",
+    "Not going"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Charminar advisory",
+   "steps": [
+    {
+     "t": "Nov 6",
+     "e": "Advisory starts"
+    },
+    {
+     "t": "Diwali",
+     "e": "Bhagyalakshmi Temple rush"
+    },
+    {
+     "t": "Nov 11",
+     "e": "Advisory ends"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Six days of expected Old City jams",
+   "now": 0
+  },
+  {
+   "t": "icons",
+   "l": "Parking spots listed",
+   "of": 10,
+   "icon": "🅿️",
+   "d": "9 spots",
+   "tone": "neutral",
+   "verdict": "Police ask devotees to park at these",
+   "n": 9
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "9010203626",
+  "label": "Traffic helpline",
+  "motion": "drift",
+  "scene": [
+   "🪔",
+   "🚦",
+   "🅿️"
+  ]
+ },
+ "insight": "Three stretches into Charminar are expected to jam: from Madina, Murgi Chowk and Shah Ali Banda.",
+ "watch": "Live updates from Hyderabad Traffic Police on social media till Nov 11.",
+ "thread": "hyd-charminar-diwali-traffic-nov6-11",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad traffic advisory issued for Charminar from November 6",
+   "url": "https://telanganatoday.com/hyderabad-traffic-advisory-issued-for-charminar-from-november-6"
+  }
+ ],
+ "updated": 1793949167544,
+ "city": "hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/traffic-restrictions-1.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Police ask Hyderabadis to avoid roads into Charminar for *6 days*, Nov 6–11",
+ "twist": "Police list 9 parking spots for devotees, from QQ Stadium to MJ Bridge.",
+ "areas": [
+  "Charminar",
+  "Old City",
+  "Shah Ali Banda"
+ ]
+}

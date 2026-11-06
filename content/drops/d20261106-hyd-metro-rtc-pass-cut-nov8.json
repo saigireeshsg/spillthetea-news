@@ -1,0 +1,151 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-06",
+ "sort": "2026-11-06-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 40,
+ "topic": "Metro-RTC common pass prices",
+ "hook": "Metro + bus monthly pass drops from ₹8,500 to *₹4,000*",
+ "hook_b": "Metro + bus monthly pass drops from ₹8,500 to *₹4,000*",
+ "tldr": "From Nov 8, the joint Metro-TGSRTC pass costs ₹275 a day or ₹4,000 a month.",
+ "beats": {
+  "what": "Transport Minister Ponnam Prabhakar cut joint Metro-TGSRTC pass prices on Friday, Nov 6.",
+  "why": "The government says it wants public transport to be affordable.",
+  "care": "Daily users save ₹125 a day; monthly holders save ₹4,500 from Nov 8."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚇",
+    "label": "Make transit affordable"
+   }
+  ],
+  "event": {
+   "icon": "🎟️",
+   "label": "Joint pass prices cut"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "₹125 saved a day"
+   },
+   {
+    "icon": "💸",
+    "label": "₹4,500 saved a month"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Daily pass: ₹400 → ₹275, up to 4 single journeys a day. Monthly pass: ₹8,500 → ₹4,000 (₹3,000 Metro + ₹1,000 bus), up to 50 round trips. Where to buy and which stations: not announced in the report yet."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "₹4,000 monthly Metro + bus pass: will you buy it?",
+   "opts": [
+    "Yes, switching",
+    "Maybe, if routes fit",
+    "No, bike/cab works",
+    "Not my commute"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Monthly Metro + bus pass",
+   "a": {
+    "v": 8500,
+    "d": "₹8,500",
+    "l": "Before"
+   },
+   "b": {
+    "v": 4000,
+    "d": "₹4,000",
+    "l": "From Nov 8"
+   },
+   "goodIfUp": false,
+   "tone": "good",
+   "verdict": "Riders pay ₹4,500 less a month"
+  },
+  {
+   "t": "compare",
+   "l": "Daily Metro + bus pass",
+   "a": {
+    "v": 400,
+    "d": "₹400",
+    "l": "Before"
+   },
+   "b": {
+    "v": 275,
+    "d": "₹275",
+    "l": "From Nov 8"
+   },
+   "goodIfUp": false,
+   "tone": "good",
+   "verdict": "₹125 less a day, 4 journeys"
+  },
+  {
+   "t": "stack",
+   "l": "Where the ₹4,000 goes",
+   "parts": [
+    {
+     "l": "Metro",
+     "v": 3000,
+     "d": "₹3,000"
+    },
+    {
+     "l": "TGSRTC bus",
+     "v": 1000,
+     "d": "₹1,000"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Three-quarters of the pass is Metro",
+   "total": "₹4,000"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹4,000",
+  "label": "Monthly Metro + bus pass from Nov 8",
+  "motion": "drift",
+  "scene": [
+   "🚇",
+   "🎟️",
+   "💸"
+  ]
+ },
+ "insight": "The monthly pass gets cheaper by more than half: ₹4,500 saved.",
+ "learn": {
+  "t": "Common pass = one ticket valid on both Hyderabad Metro and TGSRTC buses."
+ },
+ "watch": "Sale counters and stations covered, once TGSRTC and Metro publish details.",
+ "thread": "hyd-metro-rtc-pass-cut-nov8",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Telangana to cut Hyderabad Metro-RTC Pass prices from November 8",
+   "url": "https://www.siasat.com/telangana-to-cut-hyderabad-metro-rtc-pass-prices-from-november-8-3570531/"
+  }
+ ],
+ "updated": 1793949167540,
+ "city": "hyderabad",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/10/TGSRTC-1.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Hyderabad's Metro-plus-bus monthly pass falls to *₹4,000* from ₹8,500 on November 8",
+ "twist": "The new daily pass is ₹275: ₹200 goes to Metro, ₹75 to TGSRTC buses.",
+ "areas": [
+  "Hyderabad"
+ ]
+}

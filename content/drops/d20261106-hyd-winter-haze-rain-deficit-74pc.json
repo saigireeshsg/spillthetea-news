@@ -1,0 +1,130 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-06",
+ "sort": "2026-11-06-82",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 40,
+ "topic": "Hyderabad winter haze, rain deficit",
+ "hook": "Hazy mornings ahead; Hyderabad's NE monsoon rain *74%* short",
+ "hook_b": "Hazy mornings ahead; Hyderabad's NE monsoon rain *74%* short",
+ "tldr": "Winter chill and morning haze set in; Hyderabad's Oct 1–Nov 6 rain is 74% below normal.",
+ "beats": {
+  "what": "IMD forecasts hazy mornings and partly cloudy skies for the next four days.",
+  "why": "Recent cyclone rains are over; the city is turning to winter.",
+  "care": "Morning drives may be slower in haze; dry weeks add pressure on groundwater."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Cyclone rain ends"
+   }
+  ],
+  "event": {
+   "icon": "🌫️",
+   "label": "Winter haze sets in"
+  },
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Slow morning drives"
+   },
+   {
+    "icon": "🚗",
+    "label": "Dry spell continues"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "No IMD alert for the next 7 days. Rain Oct 1–Nov 6 (TGDPS): Telangana 28.7 mm vs 96.4 mm normal (70% short); Hyderabad 30.1 mm vs 117.9 mm (74% short). Peddapalli, Rajanna Sircilla, Kamareddy: 97% short. Temperatures: not given in the report."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Hazy winter mornings: what changes for you?",
+   "opts": [
+    "Leave home earlier",
+    "Ride slower, lights on",
+    "Mask up",
+    "Nothing changes"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Hyderabad rain, Oct 1–Nov 6 (mm)",
+   "a": {
+    "v": 117.9,
+    "d": "117.9 mm",
+    "l": "Normal"
+   },
+   "b": {
+    "v": 30.1,
+    "d": "30.1 mm",
+    "l": "This year"
+   },
+   "tone": "bad",
+   "verdict": "City got about a quarter of normal rain"
+  },
+  {
+   "t": "compare",
+   "l": "Telangana rain, Oct 1–Nov 6 (mm)",
+   "a": {
+    "v": 96.4,
+    "d": "96.4 mm",
+    "l": "Normal"
+   },
+   "b": {
+    "v": 28.7,
+    "d": "28.7 mm",
+    "l": "This year"
+   },
+   "tone": "bad",
+   "verdict": "State is 70% short"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "74%",
+  "label": "Hyderabad rain deficit, Oct 1–Nov 6",
+  "motion": "drift",
+  "scene": [
+   "🌧️",
+   "🌫️",
+   "🚗"
+  ]
+ },
+ "insight": "IMD forecasts morning haze for four days and no weather alert for a week.",
+ "learn": {
+  "t": "NE monsoon = the Oct–Dec rain season, after the main SW monsoon."
+ },
+ "watch": "IMD's next weekly outlook and any cold-wave note.",
+ "thread": "hyd-winter-haze-rain-deficit-74pc",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "After rain, Hyderabad to see winter chill; IMD forecasts haze",
+   "url": "https://www.siasat.com/after-rain-hyderabad-to-see-winter-chill-imd-forecasts-haze-3570484/"
+  }
+ ],
+ "updated": 1793949167544,
+ "city": "hyderabad",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/01/cold-wave-hyderabad-jan7.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Hyderabad got *30.1 mm* of rain since October 1, against a normal 117.9 mm",
+ "twist": "Nizamabad district got no rain at all in the same five weeks.",
+ "areas": [
+  "Hyderabad"
+ ]
+}
