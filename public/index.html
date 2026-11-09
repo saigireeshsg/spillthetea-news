@@ -205,6 +205,7 @@
 .nstory li.tw p{font-weight:700}
 </style>
 <style>
+.dig{margin:12px 0;padding:12px;border-radius:14px;background:linear-gradient(135deg,#1f6feb22,#8a5cf622);border:1px solid #1f6feb44}.dig>b{font-size:13px;display:block;margin-bottom:6px}.dig .dq{margin:6px 0 0;padding:0;list-style:none}.dig .dq li{font-size:14px;font-weight:700;line-height:1.35;padding:6px 0;border-top:1px dashed #ffffff22}.dig .dq li:first-child{border-top:0}.dig .df{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;margin-top:8px;padding-top:8px;border-top:1px solid #ffffff22;align-items:center}.dig .df big{font-size:22px;font-weight:900;color:#7fb2ff;line-height:1}.dig .df p{margin:0;font-size:13px;line-height:1.35}.dig .df small{grid-column:2;font-size:11px;opacity:.7}.dig .df a{color:inherit}.ndig{margin:0 0 8px;padding:8px 10px;border-radius:10px;background:#1f6feb1c;font-size:13px;line-height:1.3}.ndig b{color:#7fb2ff}
 .ntwist2{display:grid;grid-template-columns:28px 1fr;gap:8px;padding:10px 12px;margin:0 0 10px;border-radius:12px;background:linear-gradient(135deg,#ff450022,#ffd16622);border:1px solid #ff450040}
 .ntwist2 span{font-size:22px}.ntwist2 small{font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:#ffb84d;font-weight:800}.ntwist2 p{margin:2px 0 0;font-size:14px;font-weight:700;line-height:1.35}
 .ninfo{margin:0 0 10px;padding:10px 12px;border-radius:12px;background:#ffffff08}.ninfo small{font-size:10px;letter-spacing:.07em;text-transform:uppercase;opacity:.6;font-weight:800;display:block;margin-bottom:6px}
@@ -1628,6 +1629,10 @@ function heroHTML(d){VCTX=(d.hook||"")+" "+(d.fact||"");const V=vizItems(d),v=V.
   if(v)return `<div class="nhero">${vizOne(v)}</div>`;
   if(c.big)return `<div class="nhero nbigstat"><b>${esc(c.big)}</b><span>${esc(c.label||"")}</span></div>`;
   return ""}
+function digOf(d){return (d.cards||[]).find(c=>c.k==="dig")}
+function digHTML(d){const g=digOf(d);if(!g)return"";const q=(g.qs||[]).slice(0,3),f=(g.facts||[]).slice(0,4);
+  return `<section class="dig"><b>🔎 Dig deeper</b>${q.length?`<ul class="dq">${q.map(x=>`<li>🤔 ${rich(x)}</li>`).join("")}</ul>`:""}${f.map(x=>`<div class="df"><big>${esc(x.big||"•")}</big><p>${rich(x.t)}</p><small>${x.u?`<a href="${esc(x.u)}" target="_blank" rel="noopener noreferrer">${esc(x.s||"source")} ↗</a>`:esc(x.s||"")}</small></div>`).join("")}</section>`}
+function digTease(d){const g=digOf(d),f=g&&(g.facts||[])[0];return f?`<div class="ndig"><b>🔎 ${esc(f.big||"Did you know")}</b> ${rich(f.t)}</div>`:""}
 function twistBox(d){const t=twistOf(d);return t?`<div class="ntwist2"><span>🤯</span><div><small>Plot twist</small><p>${rich(t)}</p></div></div>`:""}
 function needsKnow(d){const t=d.learn&&d.learn.t;if(!t)return false;if(d.learn.show===true)return true;if(d.learn.show===false)return false;const m=String(t).split(/\s=\s|:\s/)[0].trim();if(!m||m.length>28||t.indexOf(m)!==0||m.length===t.length)return false;const hay=plain((factOf(d)||"")+" "+(d.hook||"")).toLowerCase();return hay.includes(m.toLowerCase())}
 function revealHTML(d){return needsKnow(d)?`<div class="nreveal"><p class="naha"><b>📘 Know</b> ${rich(d.learn.t)}</p></div>`:""}
@@ -1635,7 +1640,7 @@ function newCard(d,ix){const n=commentCount(d);
   const pl=(d.cards||[]).find(c=>c.k==="poll"),voted=pl&&me.poll[d.id]!=null;
   const foot=`<div class="acts">${voted?`<button class="act nxt" data-next="1">Next ↓</button>`:""}<button class="act" data-act="share" data-key="${d.id}">↗ Share</button><span class="readcta" aria-hidden="true">${n?n+" 💬 · ":""}Full story →</span></div>`;
   if(UI==="b")return `<article class="post npost nb click" data-open="${d.id}" tabindex="0">${head(d)}<div class="nbrow">${imgHTML(d,"sm")}<h2 class="pt">${rich(abHook(d))}</h2></div>${voted||!pl?"":revealHTML(d)}${ipollHTML(d)}${voted||!pl?revealHTML(d):""}${foot}</article>`;
-  return `<article class="post npost na click ${voted?"voted":""}" data-open="${d.id}" tabindex="0">${head(d)}${imgHTML(d,"lg")}<h2 class="pt nfact">${rich(factOf(d))}</h2>${storyHTML(d)}${ipollHTML(d)}${revealHTML(d)}${foot}</article>`}
+  return `<article class="post npost na click ${voted?"voted":""}" data-open="${d.id}" tabindex="0">${head(d)}${imgHTML(d,"lg")}<h2 class="pt nfact">${rich(factOf(d))}</h2>${storyHTML(d)}${digTease(d)}${ipollHTML(d)}${revealHTML(d)}${foot}</article>`}
 function confetti(){try{const w=document.createElement("div");w.className="cfx";w.setAttribute("aria-hidden","true");w.innerHTML=Array.from({length:18},(_,i)=>`<i style="left:${Math.random()*100}%;animation-delay:${Math.random()*.4}s">${["🎉","✨","🔥","⚡","🗳️"][i%5]}</i>`).join("");document.body.appendChild(w);setTimeout(()=>w.remove(),2200)}catch(_){}}
 document.addEventListener("click",e=>{const n=e.target.closest("[data-next]");if(!n)return;e.preventDefault();e.stopPropagation();const cur=n.closest("article.post");let x=cur&&cur.nextElementSibling;while(x&&!(x.matches&&x.matches("article.post.na:not(.voted)")))x=x.nextElementSibling;if(x)x.scrollIntoView({behavior:"smooth",block:"start"});else toast("That's all for now ✅")},true);
 function voteBarHTML(pool){const t=today(),v=(me.vday||{})[t]||0,N=pool.filter(x=>(x.cards||[]).some(c=>c.k==="poll")).length;let st=0;const dd=new Date();for(;;){const k=day(dd);if((me.vday||{})[k]){st++;dd.setDate(dd.getDate()-1)}else break}
@@ -2090,6 +2095,7 @@ function postView(id,jump,keep){
       <div class="beats">${beats.map(([ic,l,t])=>`<div class="beat ${ic==="➡️"?"care2":""}"><span class="bi" aria-hidden="true">${ic}</span><div><small>${l}</small><p>${rich(t)}</p></div></div>`).join("")}</div>
       ${window.actBoxHTML?window.actBoxHTML(d):""}
       ${remH}
+      ${digHTML(d)}
       ${watchH}
       ${pollH}
       ${predH}

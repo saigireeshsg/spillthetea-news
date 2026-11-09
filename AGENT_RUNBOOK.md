@@ -445,3 +445,6 @@ Each shows a tag ("Good news"/"Worrying"/"Watch") and the rule ("Rising is bad n
 - Only `confidence: high` (date + timing or areas confirmed) can be pushed. Others are `skipped` for push but still show in the app.
 - Agents (§14) now only review `details->>'confidence' <> 'high'` alerts: open the real article, fix `when/timing/where` by hand, set `confidence` to 'high' and `push_status='pending'` if verified.
 - Known limit: alerts found through Google/Bing News links are enriched from the headline/summary only (their pages can't be opened by the function), so they are often medium/low.
+
+## Dig deeper (v3): thoughtful questions + related surprise facts on EVERY card
+Every drop carries a card `{"k":"dig","qs":["<1-3 thoughtful, neutral questions that make the reader think>"],"facts":[{"big":"61%","t":"<one related, SOURCED fact with *stat*>","s":"<publisher>","u":"<url>"}]}` (1-4 facts). Facts must be about the same place/theme and show a TREND or surprising number (lakes lost, population growth, last year's reading, vehicle growth), never invented: search or fetch the source, copy only what it states, include `s` and `u`. Questions never carry opinion (Rule Zero); they ask what the data leaves open. Patch the card into the drop JSON after mkdrop (mkdrop does not pass it). The feed shows the first fact as a teaser line; the story sheet shows all of them.

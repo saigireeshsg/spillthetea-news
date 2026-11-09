@@ -52,6 +52,26 @@
     "Licence suspension",
     "More checkpoints"
    ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "With this many vehicles on the road, how many drunk-driving checks does one night realistically cover?"
+   ],
+   "facts": [
+    {
+     "big": "1.72 cr",
+     "t": "vehicles were registered in Telangana as of *Feb 2025*, about *2,000 more every day*.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/telanganas-vehicle-count-hits-1-72-cr-3197247"
+    },
+    {
+     "big": "70%",
+     "t": "of Telangana's vehicles are motorcycles, about *1.2 crore* of them.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/telanganas-vehicle-count-hits-1-72-cr-3197247"
+    }
+   ]
   }
  ],
  "viz": [

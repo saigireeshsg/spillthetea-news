@@ -53,6 +53,33 @@
     "No",
     "Not sure"
    ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Hyderabad's lakes used to recharge its groundwater. How many are left to do that job?",
+    "If rain is down and lakes are gone, where does the city's water actually come from?"
+   ],
+   "facts": [
+    {
+     "big": "61%",
+     "t": "of Hyderabad's lakes were lost between *1975 and 2024*, per NRSC data cited by HYDRAA's commissioner.",
+     "s": "NewsMeter",
+     "u": "https://newsmeter.in/hyderabad/hydraa-flags-flood-risk-as-hyderabad-loses-61-of-lakes-amid-massive-population-surge-764819"
+    },
+    {
+     "big": "6.2x",
+     "t": "Population rose from about *2.1 million to 13 million* in the same period, a 6.2-fold jump.",
+     "s": "NewsMeter",
+     "u": "https://newsmeter.in/hyderabad/hydraa-flags-flood-risk-as-hyderabad-loses-61-of-lakes-amid-massive-population-surge-764819"
+    },
+    {
+     "big": "185",
+     "t": "water bodies were reported left within GHMC limits after *3,000+* vanished from the 1990s to mid-2000s, linked to a rule letting bodies under 10 hectares be converted.",
+     "s": "Deccan Chronicle",
+     "u": "https://deccanchronicle.com/nation/current-affairs/050518/hyderabad-over-3000-water-bodies-disappear-in-2-decades.html"
+    }
+   ]
   }
  ],
  "viz": [

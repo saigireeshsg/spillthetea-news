@@ -53,6 +53,27 @@
     "Not at all",
     "Not sure"
    ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Diwali 2024's citywide AQI was 171. Is 509 a one-night overnight spike, or a new baseline for festival nights?",
+    "Which Hyderabad areas get the worst air when smoke settles?"
+   ],
+   "facts": [
+    {
+     "big": "171",
+     "t": "was Hyderabad's citywide AQI on *Diwali 2024*, against an acceptable limit of 60. New Malakpet hit 335.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-faces-surge-in-air-pollution-amid-diwali-celebrations-3124973"
+    },
+    {
+     "big": "475",
+     "t": "PM2.5 peaked at *475* at the US Consulate monitor on Diwali 2024.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-faces-surge-in-air-pollution-amid-diwali-celebrations-3124973"
+    }
+   ]
   }
  ],
  "viz": [
@@ -140,7 +161,7 @@
  "fact": "Hyderabad's air averaged an AQI of *509* overnight after Deepavali.",
  "twist": "Begumpet's AQI hit *828* on Diwali night, Siasat reports, and the week's forecast is dry.",
  "areas": [
- "Hyderabad",
+  "Hyderabad",
   "Begumpet"
  ],
  "img": {
