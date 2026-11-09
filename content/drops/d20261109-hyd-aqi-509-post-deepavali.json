@@ -6,14 +6,14 @@
  "order": 1,
  "heat": 5,
  "readSecs": 30,
- "topic": "weather",
- "hook": "Hyderabad's AQI averaged *509* the night after Deepavali",
+ "topic": "Hyderabad's air hit AQI *509* on Diwali ",
+ "hook": "Hyderabad's air hit AQI *509* on Diwali night, then eased by Monday midday",
  "hook_b": "Hyderabad's AQI averaged *509* the night after Deepavali",
- "tldr": "Deepavali smoke kept Hyderabad's air at hazardous levels into Monday morning.",
+ "tldr": "Diwali night air went hazardous (Begumpet hit 828); Monday daytime reports are better.",
  "beats": {
-  "what": "The Hindu reports air quality worsened overnight, with PM2.5 at 392 µg/m³ at 9:30 pm and an average AQI of 509.",
-  "why": "Fireworks smoke settles when winds are weak. Hyderabad Mail reports IMD expects dry conditions from Nov 9 through the week.",
-  "care": "Check your area's AQI before outdoor runs or school drop-offs today."
+  "what": "Siasat: at about 9:30 pm on Nov 8 the city's average AQI touched 509, and Begumpet reached 828. The Hindu reports PM2.5 at 392 µg/m³ and an overnight average of 509.",
+  "why": "Siasat: it took just two hours for the air to go from unhealthy to hazardous. Hyderabad Mail reports IMD expects dry conditions from Nov 9.",
+  "care": "Diwali night was the worst window. Monday daytime reports say moderate; still check your area's AQI before long outdoor runs."
  },
  "map": {
   "causes": [
@@ -41,7 +41,7 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "The Hindu: the air of Deepavali celebrations lingers in Hyderabad with AQI at hazardous levels. Hyderabad Mail: isolated rain on Nov 8, dry conditions forecast for the following week. Update (evening): Siasat reports Begumpet's AQI hit 828 as firecrackers choked Hyderabad on Diwali night."
+   "body": "Monday midday: Moneycontrol's post-Diwali AQI check ranked Hyderabad cleanest among the metros it listed. Daily Pioneer: 'moderate' air after Deepavali. Siasat published an explainer on what AQI readings mean."
   },
   {
    "k": "poll",
@@ -57,10 +57,16 @@
   {
    "k": "dig",
    "qs": [
-    "Diwali 2024's citywide AQI was 171. Is 509 a one-night overnight spike, or a new baseline for festival nights?",
-    "Which Hyderabad areas get the worst air when smoke settles?"
+    "Diwali 2024's citywide AQI was 171. Is 509 a one-night spike or a new baseline for festival nights?",
+    "Why did Begumpet read 828 while the city average was 509?"
    ],
    "facts": [
+    {
+     "big": "828",
+     "t": "was Begumpet's AQI on Diwali night, Siasat reports.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-air-quality-diwali-2026-aqi-hazardous-3572286/"
+    },
     {
      "big": "171",
      "t": "was Hyderabad's citywide AQI on *Diwali 2024*, against an acceptable limit of 60. New Malakpet hit 335.",
@@ -80,46 +86,29 @@
   {
    "t": "big",
    "v": "509",
-   "l": "average AQI overnight after Deepavali",
+   "l": "citywide AQI at ~9:30 pm, Diwali night",
    "tone": "bad",
-   "verdict": "Hazardous air, avoid outdoor exertion"
-  },
-  {
-   "t": "compare",
-   "l": "Diwali night AQI",
-   "tone": "bad",
-   "goodIfUp": false,
-   "verdict": "Begumpet far above the city's hazardous average",
-   "a": {
-    "v": 509,
-    "d": "509",
-    "l": "City average overnight"
-   },
-   "b": {
-    "v": 828,
-    "d": "828",
-    "l": "Begumpet, Diwali night"
-   }
+   "verdict": "Hazardous that night; eased by Monday midday"
   },
   {
    "t": "timeline",
-   "l": "Smoke and the forecast",
+   "l": "Diwali night to Monday",
    "steps": [
     {
-     "t": "9:30 pm",
-     "e": "PM2.5 hits 392 µg/m³"
+     "t": "Nov 8, 9:30 pm",
+     "e": "Citywide AQI touches 509; Begumpet 828"
     },
     {
      "t": "Overnight",
-     "e": "AQI averages 509"
+     "e": "The Hindu: hazardous levels linger"
     },
     {
-     "t": "Nov 9 on",
-     "e": "IMD: dry conditions forecast"
+     "t": "Nov 9 midday",
+     "e": "Reports say moderate / cleanest of metros checked"
     }
    ],
-   "tone": "bad",
-   "verdict": "No rain forecast to wash the smoke out",
+   "tone": "neutral",
+   "verdict": "Air improved after the night peak",
    "now": 2
   }
  ],
@@ -137,7 +126,7 @@
    "🌫️"
   ]
  },
- "watch": "Tonight's AQI readings and IMD's next forecast.",
+ "watch": "Tonight's readings, in case smoke settles again, and IMD's dry-week forecast.",
  "thread": "hyd-aqi-509-post-deepavali",
  "sources": [
   {
@@ -154,12 +143,17 @@
    "name": "Siasat",
    "title": "Begumpet AQI hits 828 as firecrakers choke Hyderabad on Diwali night",
    "url": "https://www.siasat.com/hyderabad-air-quality-diwali-2026-aqi-hazardous-3572286/"
+  },
+  {
+   "name": "Daily Pioneer",
+   "title": "Hyderabad records 'moderate' air quality after Deepavali",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjEzWGtDeE10anpQMnZ5WER6RERNTWpHSVlYWjl3RlJnTDFReE1fRFI3U2RQU2ZKOGVOVFVONjdRZENNSmlDN1VEbTV5enlJRW5lam1qaXVxc0NzeVFLUDk2ZFVQMFVycmVpMzA4ei1VcHl4NVZ2R3l6THo3cmZWUGxFZzhDZmV4bUhZRXBPM0Vubk3SAaABQVVfeXFMUDU5ak9YczAtdldib2NjLWJNOThOTndOZVEwXzFPeTRkX2ppQ2ppc2VLenMzOHVCdUotSjRUVTNxTzNaeW12QWxnNHlPcE03ZW90TkJCcnh3dnhWODM3UU92WGtMNDBpVHpQRzR1V3QyWkFkRjBKWEczQThPb0M4UDVRODZiRFNiNkMwZktRSEF0S1h6d2JfYUMxdDdwal83RA?oc=5"
   }
  ],
- "updated": 1794225516928,
+ "updated": 1794243330346,
  "city": "Hyderabad",
- "fact": "Hyderabad's air averaged an AQI of *509* overnight after Deepavali.",
- "twist": "Begumpet's AQI hit *828* on Diwali night, Siasat reports, and the week's forecast is dry.",
+ "fact": "Hyderabad's citywide AQI touched *509* around 9:30 pm on Diwali night, up from unhealthy in two hours.",
+ "twist": "By Monday midday, Moneycontrol ranked Hyderabad the cleanest of the post-Diwali metros it checked, and Daily Pioneer called the air 'moderate'.",
  "areas": [
   "Hyderabad",
   "Begumpet"

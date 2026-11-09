@@ -1,0 +1,34 @@
+{
+ "title": "HMWSSB speeds up Godavari project; Nov 15 deadline for Ghanpur pipeline",
+ "kind": "water",
+ "tag": "💧 Water",
+ "scope": "local",
+ "city": "Hyderabad",
+ "sev": 0,
+ "ts": 1794243330346,
+ "until": 1794675330346,
+ "body": "Siasat: HMWSSB is speeding up the Godavari project to ease Hyderabad's water woes. Hyderabad Mail: Nov 15 is the deadline for the Ghanpur pipeline works that bring an additional 40 MGD.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "40 MGD",
+   "l": "extra Godavari water planned",
+   "tone": "good",
+   "verdict": "If the Nov 15 deadline holds"
+  }
+ ],
+ "src": [
+  {
+   "name": "Siasat",
+   "url": "https://www.siasat.com/hmwssb-speeds-up-godavari-project-to-ease-hyderabad-water-woes-3572618/"
+  },
+  {
+   "name": "Hyderabad Mail",
+   "url": "https://hyderabadmail.com/ashok-reddy-godavari-water-pipeline-hyderabad-november-15-deadline/"
+  }
+ ],
+ "verified": true
+}

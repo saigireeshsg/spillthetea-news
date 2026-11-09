@@ -1,0 +1,34 @@
+{
+ "title": "GHMC starts a four-week sanitation drive; Day 1 cleaned 105 locations",
+ "kind": "civic",
+ "tag": "🧹 Civic",
+ "scope": "local",
+ "city": "Hyderabad",
+ "sev": 0,
+ "ts": 1794243330346,
+ "until": 1794502530346,
+ "body": "The Hindu reports GHMC has launched a four-week sanitation drive. Siasat says Day 1 cleaned 105 locations.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "105",
+   "l": "locations cleaned on Day 1",
+   "tone": "good",
+   "verdict": "Four-week drive under way"
+  }
+ ],
+ "src": [
+  {
+   "name": "The Hindu",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/ghmc-launches-four-week-sanitation-drive/article71683076.ece"
+  },
+  {
+   "name": "Siasat",
+   "url": "https://www.siasat.com/on-day-1-of-sanitation-drive-ghmc-cleans-105-locations-3572613/"
+  }
+ ],
+ "verified": true
+}

@@ -1,0 +1,40 @@
+{
+ "title": "Census 2027 Phase II in Telangana: self-enumeration from January 10 to 24",
+ "kind": "deadline",
+ "tag": "📅 Deadline",
+ "scope": "local",
+ "city": "Hyderabad",
+ "sev": 0,
+ "ts": 1794243330346,
+ "until": 1799427330346,
+ "body": "The Hindu reports the Census-2027 Phase-II dates for Telangana: self-enumeration runs from January 10 to 24.",
+ "areas": [
+  "Telangana"
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Census 2027, Telangana",
+   "steps": [
+    {
+     "t": "Jan 10",
+     "e": "Self-enumeration opens"
+    },
+    {
+     "t": "Jan 24",
+     "e": "Self-enumeration closes"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Two-week window to self-enumerate",
+   "now": 0
+  }
+ ],
+ "src": [
+  {
+   "name": "The Hindu",
+   "url": "https://www.thehindu.com/news/national/telangana/census-2027-phase-ii-dates-in-telangana-announced-self-enumeration-from-january-10-24/article71683491.ece"
+  }
+ ],
+ "verified": true
+}

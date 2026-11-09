@@ -1,26 +1,31 @@
 {
- "title": "Hyderabad air hazardous after Deepavali: AQI averaged 509 overnight",
+ "title": "Hyderabad air: AQI hit 509 on Diwali night, reports say moderate by Monday midday",
  "kind": "air",
  "tag": "🌫️ Air quality",
  "scope": "local",
  "city": "Hyderabad",
- "sev": 2,
- "ts": 1794200675599,
- "until": 1794330275599,
- "body": "The Hindu reports PM2.5 reached 392 µg/m³ at 9:30 pm and the AQI averaged 509 overnight. Hyderabad Mail says IMD forecasts dry conditions from Nov 9.",
+ "sev": 1,
+ "ts": 1794243330346,
+ "until": 1794329730346,
+ "body": "Siasat: the citywide AQI touched 509 around 9:30 pm on Nov 8 and Begumpet reached 828. Daily Pioneer reports 'moderate' air after Deepavali; Moneycontrol's midday check ranked Hyderabad cleanest of the metros it listed.",
  "areas": [
-  "Hyderabad"
+  "Hyderabad",
+  "Begumpet"
  ],
  "viz": [
   {
    "t": "big",
    "v": "509",
-   "l": "average AQI overnight",
+   "l": "peak citywide AQI, Diwali night",
    "tone": "bad",
-   "verdict": "Hazardous air, limit outdoor exposure"
+   "verdict": "Hazardous that night; eased by Monday midday"
   }
  ],
  "src": [
+  {
+   "name": "Siasat",
+   "url": "https://www.siasat.com/hyderabad-air-quality-diwali-2026-aqi-hazardous-3572286/"
+  },
   {
    "name": "The Hindu",
    "url": "https://www.thehindu.com/news/national/telangana/air-of-deepavali-celebrations-lingers-in-hyderabad-with-aqi-remaining-at-hazardous-levels/article71681358.ece"

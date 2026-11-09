@@ -1,0 +1,22 @@
+{
+ "title": "Qadir Ali Baig theatre festival begins in Hyderabad on Nov 12",
+ "kind": "event",
+ "tag": "🎭 Event",
+ "scope": "local",
+ "city": "Hyderabad",
+ "sev": 0,
+ "ts": 1794243330346,
+ "until": 1794502530346,
+ "body": "The Hindu reports the Qadir Ali Baig theatre festival begins in Hyderabad on November 12.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "viz": [],
+ "src": [
+  {
+   "name": "The Hindu",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/qadir-ali-baig-theatre-festival-to-begin-in-hyderabad-on-november-12/article71682560.ece"
+  }
+ ],
+ "verified": true
+}
