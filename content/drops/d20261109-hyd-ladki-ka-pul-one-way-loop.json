@@ -1,0 +1,115 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-92",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "A retired banker's sketch is reshaping t",
+ "hook": "A retired banker's sketch is reshaping traffic at Ladki-Ka-Pul",
+ "hook_b": "A retired banker's sketch is reshaping traffic at Ladki-Ka-Pul",
+ "tldr": "Hyderabad police are trying one-way loops at Ladki-Ka-Pul based on a retired banker's design.",
+ "beats": {
+  "what": "The Hindu reports the one-way arrangement came from a retired banker's sketch, and police say it may give commuters a hassle-free experience with less honking.",
+  "why": "One-way loops cut head-on conflict points at busy junctions.",
+  "care": "If you commute through Ladki-Ka-Pul, check the new directions before you ride."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚦",
+    "label": "Retired banker's sketch"
+   }
+  ],
+  "event": {
+   "icon": "✏️",
+   "label": "One-way loops at Ladki-Ka-Pul"
+  },
+  "effects": [
+   {
+    "icon": "🔁",
+    "label": "Less honking expected"
+   },
+   {
+    "icon": "🔁",
+    "label": "Idea may spread citywide"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu: police are exploring the same arrangement across the city."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do one-way loops make your commute easier?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "If a sketch can fix a junction, how many others could be solved the same way?"
+   ],
+   "facts": [
+    {
+     "big": "1",
+     "t": "retired banker's sketch started the plan, per The Hindu.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-retired-bankers-sketch-puts-ladki-ka-puls-one-way-traffic-plan-in-motion/article71678714.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "1-way",
+   "l": "loops tested at Ladki-Ka-Pul",
+   "tone": "neutral",
+   "verdict": "Hyderabad police are trying one-way loops at Ladki-Ka-Pul ba"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "1-way",
+  "label": "loops tested at Ladki-Ka-Pul",
+  "motion": "drift",
+  "scene": [
+   "🚦",
+   "✏️",
+   "🔁"
+  ]
+ },
+ "watch": "Whether police extend the loops to other junctions.",
+ "thread": "hyd-ladki-ka-pul-one-way-loop",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Hyderabad: Retired banker's sketch puts Ladki-Ka-Pul's one-way traffic plan in motion",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-retired-bankers-sketch-puts-ladki-ka-puls-one-way-traffic-plan-in-motion/article71678714.ece"
+  }
+ ],
+ "updated": 1794232352170,
+ "city": "Hyderabad",
+ "fact": "A retired banker's hand-drawn sketch put Ladki-Ka-Pul's *one-way traffic plan* in motion.",
+ "twist": "Police say the loops may also reduce honking.",
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/national/telangana/fp05lz/article71678705.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-07%20at%207.26.47%20PM.jpeg",
+  "c": "The Hindu"
+ },
+ "areas": [
+  "Ladki-Ka-Pul",
+  "Old City"
+ ]
+}

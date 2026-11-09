@@ -1,0 +1,107 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-90",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "TGSRTC announces special buses to Sabari",
+ "hook": "TGSRTC announces special buses to Sabarimala for the 2026-27 season",
+ "hook_b": "TGSRTC announces special buses to Sabarimala for the 2026-27 season",
+ "tldr": "Special TGSRTC buses will serve Sabarimala pilgrims this season.",
+ "beats": {
+  "what": "TGSRTC announced special services for the 2026-27 pilgrimage season, running during Mandala Pooja and Makara Vilakku, with concessions for Guruswamis and support staff.",
+  "why": "Pilgrim demand peaks in those two festival windows.",
+  "care": "Check TGSRTC's online booking before travel dates fill up."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚌",
+    "label": "Sabarimala season demand"
+   }
+  ],
+  "event": {
+   "icon": "🙏",
+   "label": "TGSRTC special buses announced"
+  },
+  "effects": [
+   {
+    "icon": "🛕",
+    "label": "Concessions for Guruswamis"
+   },
+   {
+    "icon": "🛕",
+    "label": "Online booking available"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: services cover Mandala Pooja and Makara Vilakku, with concessions for Guruswamis."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Are you planning a Sabarimala trip this season?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which cities do the special buses connect, and how early do seats go?"
+   ],
+   "facts": []
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "2026-27",
+   "l": "Sabarimala season special buses",
+   "tone": "neutral",
+   "verdict": "Special TGSRTC buses will serve Sabarimala pilgrims this sea"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2026-27",
+  "label": "Sabarimala season special buses",
+  "motion": "drift",
+  "scene": [
+   "🚌",
+   "🙏",
+   "🛕"
+  ]
+ },
+ "watch": "Booking dates and route list.",
+ "thread": "tgsrtc-sabarimala-special-buses",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "TGSRTC announces special buses to Sabarimala for 2026-27 season",
+   "url": "https://telanganatoday.com/tgsrtc-announces-special-buses-to-sabarimala-2026-27-season"
+  }
+ ],
+ "updated": 1794232352170,
+ "city": "Hyderabad",
+ "fact": "TGSRTC will run special Sabarimala buses for the *Mandala Pooja* and *Makara Vilakku* season.",
+ "twist": "Guruswamis and support staff get travel concessions.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/TGSRTC-2-1.jpg",
+  "c": "Telangana Today"
+ },
+ "areas": [
+  "Hyderabad"
+ ]
+}

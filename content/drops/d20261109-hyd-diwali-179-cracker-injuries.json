@@ -1,0 +1,125 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-97",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Diwali sent *179* people to Hyderabad ho",
+ "hook": "Diwali sent *179* people to Hyderabad hospitals with cracker injuries",
+ "hook_b": "Diwali sent *179* people to Hyderabad hospitals with cracker injuries",
+ "tldr": "Four city hospitals logged 179 cracker injuries and the fire service took 49 calls.",
+ "beats": {
+  "what": "Siasat compiled figures from four Hyderabad hospitals for Saturday night to Monday afternoon, with most injuries to the eyes, plus 49 fire calls.",
+  "why": "Times of India reports over 190 burn injuries across the city, with half of them children.",
+  "care": "Eye injuries from crackers need urgent care; do not rub the eye and go to a hospital."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎇",
+    "label": "Diwali crackers"
+   }
+  ],
+  "event": {
+   "icon": "🏥",
+   "label": "179 injuries, 49 fire calls"
+  },
+  "effects": [
+   {
+    "icon": "👁️",
+    "label": "Most injuries to the eyes"
+   },
+   {
+    "icon": "👁️",
+    "label": "Half of burn cases were children"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat: 179 injuries, 49 fire calls. Times of India: over 190 burn injuries, half children."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should crackers be limited to fixed hours?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Eye injuries lead the count. What protective steps would have prevented most of them?"
+   ],
+   "facts": [
+    {
+     "big": "49",
+     "t": "fire calls were logged in Hyderabad over the same period.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-diwali-2026-firecracker-injuries-fires-3572323/"
+    },
+    {
+     "big": "190+",
+     "t": "burn injuries, about half in children, per Times of India's count.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/diwali-revelries-leave-over-190-people-half-of-them-children-with-burn-injuries-in-hyderabad/articleshow/135683714.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "179",
+   "l": "cracker injuries, Nov 7-9",
+   "tone": "neutral",
+   "verdict": "Four city hospitals logged 179 cracker injuries and the fire"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "179",
+  "label": "cracker injuries, Nov 7-9",
+  "motion": "drift",
+  "scene": [
+   "🎇",
+   "🏥",
+   "👁️"
+  ]
+ },
+ "watch": "Final hospital counts for the festival week.",
+ "thread": "hyd-diwali-179-cracker-injuries",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Lights out: 179 cracker injuries, 49 fire calls mar Hyderabad Diwali",
+   "url": "https://www.siasat.com/hyderabad-diwali-2026-firecracker-injuries-fires-3572323/"
+  },
+  {
+   "name": "Times of India",
+   "title": "Diwali revelries leave over 190 people, half of them children, with burn injuries in Hyderabad",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/diwali-revelries-leave-over-190-people-half-of-them-children-with-burn-injuries-in-hyderabad/articleshow/135683714.cms"
+  }
+ ],
+ "updated": 1794232352167,
+ "city": "Hyderabad",
+ "fact": "At least *179* Hyderabad residents suffered firecracker injuries between Nov 7 and 9, mostly to the eyes.",
+ "twist": "Times of India counts over 190 burn injuries, about half of them children.",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Hyderabad-fire-accidents.jpg",
+  "c": "Siasat"
+ },
+ "areas": [
+  "Hyderabad"
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-89",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Hyderabad police chief warns of *AI-assi",
+ "hook": "Hyderabad police chief warns of *AI-assisted* cyber threats",
+ "hook_b": "Hyderabad police chief warns of *AI-assisted* cyber threats",
+ "tldr": "Commissioner VC Sajjanar urged banks, financial institutions and digital platforms to strengthen cybersecurity.",
+ "beats": {
+  "what": "Hyderabad Police Commissioner VC Sajjanar urged stronger cybersecurity amid growing AI-assisted cyber threats.",
+  "why": "Scams are using AI to look more convincing, which makes simple checks more important.",
+  "care": "Never share OTPs; call your bank on its official number if a message feels urgent."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛡️",
+    "label": "AI-assisted cyber threats"
+   }
+  ],
+  "event": {
+   "icon": "🤖",
+   "label": "Police chief urges stronger safeguards"
+  },
+  "effects": [
+   {
+    "icon": "🏦",
+    "label": "Banks asked to tighten systems"
+   },
+   {
+    "icon": "🏦",
+    "label": "Platforms asked to do the same"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: he stressed stronger safeguards across banks, financial institutions and digital platforms."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Have you received a suspicious payment or OTP message?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What would an AI-proof OTP check look like for an everyday user?"
+   ],
+   "facts": []
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "AI",
+   "l": "scams are getting smarter, police say",
+   "tone": "neutral",
+   "verdict": "Commissioner VC Sajjanar urged banks, financial institutions"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "AI",
+  "label": "scams are getting smarter, police say",
+  "motion": "drift",
+  "scene": [
+   "🛡️",
+   "🤖",
+   "🏦"
+  ]
+ },
+ "watch": "Any new advisory from Hyderabad police.",
+ "thread": "hyd-sajjanar-ai-cyber-threats-banks",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Sajjanar urges banks, digital platforms to strengthen cybersecurity",
+   "url": "https://telanganatoday.com/sajjanar-urges-banks-digital-platforms-to-strengthen-cybersecurity"
+  }
+ ],
+ "updated": 1794232352170,
+ "city": "Hyderabad",
+ "fact": "Hyderabad's police chief says *AI-assisted* cyber threats are growing and banks must tighten defences.",
+ "twist": "He asked digital platforms, not only banks, to strengthen their systems.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/sajjanar-1-1.jpg",
+  "c": "Telangana Today"
+ },
+ "areas": [
+  "Hyderabad"
+ ]
+}

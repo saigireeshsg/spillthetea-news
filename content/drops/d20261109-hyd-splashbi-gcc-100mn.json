@@ -1,0 +1,114 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-86",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "SplashBI opens a Hyderabad GCC with *$10",
+ "hook": "SplashBI opens a Hyderabad GCC with *$100 million* planned",
+ "hook_b": "SplashBI opens a Hyderabad GCC with *$100 million* planned",
+ "tldr": "US data platform firm SplashBI opened its Hyderabad GCC and plans a $100 million investment.",
+ "beats": {
+  "what": "SplashBI, an enterprise data intelligence platform headquartered in Georgia, opened a Global Capability Centre in Hyderabad on Nov 9.",
+  "why": "Siasat: the company opened its GCC in Hyderabad on Nov 9.",
+  "care": "Tech job seekers: watch SplashBI's careers page for Hyderabad roles."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏢",
+    "label": "GCC expansion"
+   }
+  ],
+  "event": {
+   "icon": "💻",
+   "label": "SplashBI opens Hyderabad centre"
+  },
+  "effects": [
+   {
+    "icon": "💰",
+    "label": "$100M planned"
+   },
+   {
+    "icon": "💰",
+    "label": "New tech roles"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat: investment over the next five to seven years in infrastructure and talent."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Is Hyderabad your first choice for a tech career?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many GCCs does Hyderabad host now, and where do they cluster?"
+   ],
+   "facts": [
+    {
+     "big": "$100M",
+     "t": "planned over 5 to 7 years.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/splashbi-opens-hyderabad-gcc-plans-usd-100-mn-investment-3572492/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "$100M",
+   "l": "planned over 5-7 years",
+   "tone": "neutral",
+   "verdict": "US data platform firm SplashBI opened its Hyderabad GCC and "
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "$100M",
+  "label": "planned over 5-7 years",
+  "motion": "drift",
+  "scene": [
+   "🏢",
+   "💻",
+   "💰"
+  ]
+ },
+ "watch": "Hiring numbers and campus plans.",
+ "thread": "hyd-splashbi-gcc-100mn",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "SplashBI opens Hyderabad GCC, plans USD 100 mn investment",
+   "url": "https://www.siasat.com/splashbi-opens-hyderabad-gcc-plans-usd-100-mn-investment-3572492/"
+  }
+ ],
+ "updated": 1794232352171,
+ "city": "Hyderabad",
+ "fact": "SplashBI plans to invest over *$100 million* in Hyderabad over five to seven years.",
+ "twist": "The Georgia (US) company opened its GCC here on Monday, Nov 9.",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Untitled-Design-2026-11-09T182507.810.jpg",
+  "c": "Siasat"
+ },
+ "areas": [
+  "Hyderabad"
+ ]
+}

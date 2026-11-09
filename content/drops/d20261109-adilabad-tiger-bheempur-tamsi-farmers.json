@@ -1,0 +1,104 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-85",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "A tiger from Maharashtra may be roaming ",
+ "hook": "A tiger from Maharashtra may be roaming farms in *Adilabad*",
+ "hook_b": "A tiger from Maharashtra may be roaming farms in *Adilabad*",
+ "tldr": "Forest officials are tracking a tiger near Bheempur and Tamsi after panic among farmers.",
+ "beats": {
+  "what": "Forest officials suspect the animal came from Maharashtra's Tipeshwar Tiger Reserve and have deployed teams.",
+  "why": "Harvest delays raise the risk of crop loss.",
+  "care": "Villagers: avoid fields at dawn and dusk and report sightings to forest staff."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🐅",
+    "label": "Tiger strays from Maharashtra"
+   }
+  ],
+  "event": {
+   "icon": "🌾",
+   "label": "Panic in Bheempur and Tamsi"
+  },
+  "effects": [
+   {
+    "icon": "🌲",
+    "label": "Harvest postponed"
+   },
+   {
+    "icon": "🌲",
+    "label": "Forest teams deployed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: farmers are postponing harvesting activities."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should forest staff relocate straying tigers?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How far can a tiger roam from its reserve, and how do corridors help?"
+   ],
+   "facts": []
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "2",
+   "l": "Adilabad mandals on alert",
+   "tone": "neutral",
+   "verdict": "Forest officials are tracking a tiger near Bheempur and Tams"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2",
+  "label": "Adilabad mandals on alert",
+  "motion": "drift",
+  "scene": [
+   "🐅",
+   "🌾",
+   "🌲"
+  ]
+ },
+ "watch": "Forest department updates on tracking.",
+ "thread": "adilabad-tiger-bheempur-tamsi-farmers",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Tiger movement triggers panic among farmers in Adilabad",
+   "url": "https://telanganatoday.com/tiger-movement-triggers-panic-among-farmers-in-adilabad"
+  }
+ ],
+ "updated": 1794232352171,
+ "city": "Hyderabad",
+ "fact": "A tiger believed to have strayed from *Tipeshwar Tiger Reserve* has farmers in Adilabad on edge.",
+ "twist": "Farmers in Bheempur and Tamsi mandals are postponing harvest.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/tiger.jpg",
+  "c": "Telangana Today"
+ }
+}

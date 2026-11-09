@@ -1,0 +1,114 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-96",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Telangana fire crews handled *112* Diwal",
+ "hook": "Telangana fire crews handled *112* Diwali fire incidents in two days",
+ "hook_b": "Telangana fire crews handled *112* Diwali fire incidents in two days",
+ "tldr": "Hyderabad firefighters responded to a series of Diwali blazes while the state logged 112 incidents.",
+ "beats": {
+  "what": "Hyderabad firefighters responded to fires on Sunday and Monday; major ones hit industrial units, medical establishments and a firecracker shop.",
+  "why": "Festival nights stack many small ignition sources into a few hours, which stretches fire crews.",
+  "care": "Store crackers away from buildings and keep the fire helpline number handy."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔥",
+    "label": "Diwali crackers"
+   }
+  ],
+  "event": {
+   "icon": "🚒",
+   "label": "112 fire incidents statewide"
+  },
+  "effects": [
+   {
+    "icon": "🎇",
+    "label": "Industrial and medical units hit"
+   },
+   {
+    "icon": "🎇",
+    "label": "A cracker shop burned"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: 112 incidents across Telangana, with major blazes in industrial units, medical establishments and a firecracker shop."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Did you see a Diwali fire near you?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Fire crews hit industrial and medical units too. How do festival-night risks reach beyond homes?"
+   ],
+   "facts": [
+    {
+     "big": "112",
+     "t": "fire incidents statewide on Sunday and Monday.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-reports-112-diwali-fire-incidents-8c3062be"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "112",
+   "l": "Diwali fire incidents across Telangana",
+   "tone": "neutral",
+   "verdict": "Hyderabad firefighters responded to a series of Diwali blaze"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "112",
+  "label": "Diwali fire incidents across Telangana",
+  "motion": "drift",
+  "scene": [
+   "🔥",
+   "🚒",
+   "🎇"
+  ]
+ },
+ "watch": "Damage estimates from the fire department.",
+ "thread": "tg-112-diwali-fire-incidents",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad firefighters battle Diwali blazes",
+   "url": "https://telanganatoday.com/hyderabad-reports-112-diwali-fire-incidents-8c3062be"
+  }
+ ],
+ "updated": 1794232352168,
+ "city": "Hyderabad",
+ "fact": "Telangana reported *112* Diwali-related fire incidents on Sunday and Monday.",
+ "twist": "The big blazes hit industrial units, medical establishments and a firecracker shop.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/hyderabad-reports-112-diwali-fire-incidents-8c3062be-8bcd7ecf.webp",
+  "c": "Telangana Today"
+ },
+ "areas": [
+  "Hyderabad"
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-82",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Telangana is turning to *land monetisati",
+ "hook": "Telangana is turning to *land monetisation* to raise money",
+ "hook_b": "Telangana is turning to *land monetisation* to raise money",
+ "tldr": "The state is using land deals to ease financial pressure, Telangana Today reports.",
+ "beats": {
+  "what": "The government is exploring monetisation, land pooling and infrastructure development, including plot auctions.",
+  "why": "The strategy follows financial pressure on the state budget.",
+  "care": "Plot buyers: watch for auction notices from HMDA and the state."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏞️",
+    "label": "Financial pressure"
+   }
+  ],
+  "event": {
+   "icon": "💰",
+   "label": "Land monetisation plan"
+  },
+  "effects": [
+   {
+    "icon": "📑",
+    "label": "Plot auctions"
+   },
+   {
+    "icon": "📑",
+    "label": "Land pooling"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: auctions and regularisation of industrial land are part of the plan."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should government land be auctioned for revenue?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who gains and who loses when government plots are auctioned?"
+   ],
+   "facts": []
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Land",
+   "l": "state's new revenue lever",
+   "tone": "neutral",
+   "verdict": "The state is using land deals to ease financial pressure, Te"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Land",
+  "label": "state's new revenue lever",
+  "motion": "drift",
+  "scene": [
+   "🏞️",
+   "💰",
+   "📑"
+  ]
+ },
+ "watch": "First auction dates.",
+ "thread": "tg-land-monetisation-financial-pressure",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Congress government turns to land monetisation amid financial pressure",
+   "url": "https://telanganatoday.com/congress-government-turns-to-land-monetisation-amid-financial-pressure"
+  }
+ ],
+ "updated": 1794232352172,
+ "city": "Hyderabad",
+ "fact": "Telangana is exploring *land monetisation* and private land pooling to mobilise revenue.",
+ "twist": "The plan includes auctioning government plots and regularising industrial land."
+}

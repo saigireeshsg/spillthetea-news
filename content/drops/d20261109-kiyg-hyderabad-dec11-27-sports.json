@@ -1,0 +1,114 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Hyderabad hosts *27 sports* at the Khelo",
+ "hook": "Hyderabad hosts *27 sports* at the Khelo India Youth Games from Dec 11",
+ "hook_b": "Hyderabad hosts *27 sports* at the Khelo India Youth Games from Dec 11",
+ "tldr": "KIYG Hyderabad starts Dec 11 with 27 competitive sports and a sailing demo.",
+ "beats": {
+  "what": "Sports Minister Mansukh Mandaviya said the 12-day Games start on December 11 with 27 competitive sports and sailing as a demonstration event.",
+  "why": "The Games are a 12-day showpiece event in the city.",
+  "care": "Watch for venue and schedule updates ahead of Dec 11."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏅",
+    "label": "Hyderabad picked as host"
+   }
+  ],
+  "event": {
+   "icon": "⛵",
+   "label": "KIYG starts Dec 11"
+  },
+  "effects": [
+   {
+    "icon": "🏟️",
+    "label": "27 sports, 12 days"
+   },
+   {
+    "icon": "🏟️",
+    "label": "Sailing as demonstration sport"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat: eighth edition of the Khelo India Youth Games in Hyderabad."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Will you watch a KIYG event?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which of the 27 sports could Hyderabad athletes win medals in?"
+   ],
+   "facts": [
+    {
+     "big": "27",
+     "t": "competitive sports plus one demonstration sport, sailing.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/sailing-to-be-demonstration-sport-at-kiyg-hyderabad-edition-3572253/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "27",
+   "l": "sports at KIYG Hyderabad",
+   "tone": "neutral",
+   "verdict": "KIYG Hyderabad starts Dec 11 with 27 competitive sports and "
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "27",
+  "label": "sports at KIYG Hyderabad",
+  "motion": "drift",
+  "scene": [
+   "🏅",
+   "⛵",
+   "🏟️"
+  ]
+ },
+ "watch": "Venue list and ticket details.",
+ "thread": "kiyg-hyderabad-dec11-27-sports",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Sailing to be demonstration sport at KIYG Hyderabad edition",
+   "url": "https://www.siasat.com/sailing-to-be-demonstration-sport-at-kiyg-hyderabad-edition-3572253/"
+  }
+ ],
+ "updated": 1794232352170,
+ "city": "Hyderabad",
+ "fact": "The 8th Khelo India Youth Games in Hyderabad will have *27 sports* over *12 days*.",
+ "twist": "Sailing joins as a demonstration sport.",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2024/07/hyderabad-sailing-week.jpg",
+  "c": "Siasat"
+ },
+ "areas": [
+  "Hyderabad"
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-98",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Hyderabad's extra *40 MGD* of Godavari w",
+ "hook": "Hyderabad's extra *40 MGD* of Godavari water has a Nov 15 deadline",
+ "hook_b": "Hyderabad's extra *40 MGD* of Godavari water has a Nov 15 deadline",
+ "tldr": "Ghanpur pipeline works must be done by Nov 15 to bring 40 MGD more Godavari water to the city.",
+ "beats": {
+  "what": "Ashok Reddy set a Nov 15 deadline for the Ghanpur pipeline works so Hyderabad can receive an additional 40 MGD of Godavari water.",
+  "why": "The city is also dealing with a Telangana rain deficit and falling groundwater.",
+  "care": "If your area has low pressure, this supply is meant to help, but only after the works are complete."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💧",
+    "label": "Ghanpur pipeline works"
+   }
+  ],
+  "event": {
+   "icon": "🚰",
+   "label": "Nov 15 deadline set"
+  },
+  "effects": [
+   {
+    "icon": "📅",
+    "label": "Extra 40 MGD"
+   },
+   {
+    "icon": "📅",
+    "label": "Godavari link for Hyderabad"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Hyderabad Mail: deadline of November 15 for the Ghanpur pipeline works."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you get enough water at home?",
+   "opts": [
+    "Yes",
+    "Sometimes short",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "If 40 MGD more arrives, which parts of the city gain first?",
+    "Telangana is in a rain deficit this year. How much can pipelines offset a weak monsoon?"
+   ],
+   "facts": [
+    {
+     "big": "40 MGD",
+     "t": "extra Godavari water is planned via the Ghanpur pipeline.",
+     "s": "Hyderabad Mail",
+     "u": "https://hyderabadmail.com/ashok-reddy-godavari-water-pipeline-hyderabad-november-15-deadline/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "40 MGD",
+   "l": "extra Godavari water for Hyderabad",
+   "tone": "neutral",
+   "verdict": "Ghanpur pipeline works must be done by Nov 15 to bring 40 MG"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "40 MGD",
+  "label": "extra Godavari water for Hyderabad",
+  "motion": "drift",
+  "scene": [
+   "💧",
+   "🚰",
+   "📅"
+  ]
+ },
+ "watch": "Whether the works finish by Nov 15.",
+ "thread": "hyd-godavari-water-nov15-deadline",
+ "sources": [
+  {
+   "name": "Hyderabad Mail",
+   "title": "Ashok Reddy sets November 15 deadline for Godavari water link",
+   "url": "https://hyderabadmail.com/ashok-reddy-godavari-water-pipeline-hyderabad-november-15-deadline/"
+  }
+ ],
+ "updated": 1794232352169,
+ "city": "Hyderabad",
+ "fact": "Hyderabad is due an extra *40 MGD* of Godavari water once the Ghanpur pipeline works finish.",
+ "twist": "Water board head Ashok Reddy has set Nov 15 as the deadline for those works.",
+ "img": {
+  "u": "https://hyderabadmail.com/wp-content/uploads/2026/11/jalamandali.jpg",
+  "c": "Hyderabad Mail"
+ },
+ "areas": [
+  "Hyderabad"
+ ]
+}

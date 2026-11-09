@@ -1,0 +1,114 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Hyderabad placed Instamart's first Dhant",
+ "hook": "Hyderabad placed Instamart's first Dhanteras gold coin order *30 seconds* after midnight",
+ "hook_b": "Hyderabad placed Instamart's first Dhanteras gold coin order *30 seconds* after midnight",
+ "tldr": "Hyderabad beat every city to Instamart's first Dhanteras gold coin order.",
+ "beats": {
+  "what": "Swiggy's Instamart said Hyderabad placed the very first gold coin order of Dhanteras, 30 seconds past midnight.",
+  "why": "Quick commerce is now part of festival buying.",
+  "care": "Buy gold coins only from verified sellers and keep the bill."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪙",
+    "label": "Dhanteras"
+   }
+  ],
+  "event": {
+   "icon": "🛵",
+   "label": "Hyderabad places first gold coin order"
+  },
+  "effects": [
+   {
+    "icon": "✨",
+    "label": "Party orders up over 2x"
+   },
+   {
+    "icon": "✨",
+    "label": "Quick commerce goes festive"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat: party-planning orders more than doubled during Diwali."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you buy festival items on quick commerce?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Is quick commerce now the festival default, or just a Hyderabad habit?"
+   ],
+   "facts": [
+    {
+     "big": "2x+",
+     "t": "surge in party-planning orders on Instamart during Diwali.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-instamart-diwali-2026-gold-coin-orders-3572531/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "30 sec",
+   "l": "after midnight, first gold order",
+   "tone": "neutral",
+   "verdict": "Hyderabad beat every city to Instamart's first Dhanteras gol"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "30 sec",
+  "label": "after midnight, first gold order",
+  "motion": "drift",
+  "scene": [
+   "🪙",
+   "🛵",
+   "✨"
+  ]
+ },
+ "watch": "Instamart's festive totals.",
+ "thread": "hyd-instamart-gold-coin-midnight-dhanteras",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Midnight rush: Hyderabad first to buy gold on Instamart on Dhanteras",
+   "url": "https://www.siasat.com/hyderabad-instamart-diwali-2026-gold-coin-orders-3572531/"
+  }
+ ],
+ "updated": 1794232352171,
+ "city": "Hyderabad",
+ "fact": "Hyderabad placed the first Dhanteras gold coin order on Instamart *30 seconds* past midnight.",
+ "twist": "Instamart saw a more than *two-fold* surge in party-planning orders during Diwali.",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Dhanteras.jpg",
+  "c": "Siasat"
+ },
+ "areas": [
+  "Hyderabad"
+ ]
+}

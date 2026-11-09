@@ -1,0 +1,119 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-81",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "A Keesara sub-inspector was caught by th",
+ "hook": "A Keesara sub-inspector was caught by the ACB taking a *₹2 lakh* bribe",
+ "hook_b": "A Keesara sub-inspector was caught by the ACB taking a *₹2 lakh* bribe",
+ "tldr": "Telangana's Anti-Corruption Bureau trapped a Keesara SI over a ₹2 lakh bribe.",
+ "beats": {
+  "what": "The Hindu reports the sub-inspector at Keesara was caught taking ₹2 lakh.",
+  "why": "ACB traps are the main tool for catching bribes in government offices.",
+  "care": "You can report bribe demands to the ACB."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚨",
+    "label": "Bribe demand"
+   }
+  ],
+  "event": {
+   "icon": "💸",
+   "label": "ACB traps Keesara SI"
+  },
+  "effects": [
+   {
+    "icon": "🕵️",
+    "label": "ACB trap"
+   },
+   {
+    "icon": "🕵️",
+    "label": "Police officer caught"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Sakshi's headline calls it another police officer caught taking a bribe at Keesara."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you report a bribe demand?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What makes ACB traps work, and why do bribes still happen?"
+   ],
+   "facts": [
+    {
+     "big": "2 lakh",
+     "t": "rupees was the bribe amount in the trap.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/keesara-si-in-acb-net-for-taking-2-lakh-bribe/article71682580.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹2 lakh",
+   "l": "bribe, ACB trap at Keesara",
+   "tone": "neutral",
+   "verdict": "Telangana's Anti-Corruption Bureau trapped a Keesara SI over"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹2 lakh",
+  "label": "bribe, ACB trap at Keesara",
+  "motion": "drift",
+  "scene": [
+   "🚨",
+   "💸",
+   "🕵️"
+  ]
+ },
+ "watch": "Chargesheet and suspension orders.",
+ "thread": "keesara-si-acb-2-lakh-bribe",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Keesara SI in ACB net for taking ₹2 lakh bribe",
+   "url": "https://www.thehindu.com/news/national/telangana/keesara-si-in-acb-net-for-taking-2-lakh-bribe/article71682580.ece"
+  },
+  {
+   "name": "Sakshi",
+   "title": "Keesara one more police officer caught while taking bribe",
+   "url": "https://www.sakshi.com/telugu-news/crime/keesara-one-more-police-officer-caught-while-taking-bribe-2955539"
+  }
+ ],
+ "updated": 1794232352172,
+ "city": "Hyderabad",
+ "fact": "The ACB caught a Keesara sub-inspector accepting a *₹2 lakh* bribe.",
+ "twist": "Sakshi's headline calls it another police officer caught taking a bribe at Keesara.",
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/national/telangana/rvctib/article71682755.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-09%20at%205.51.45%20PM.jpeg",
+  "c": "The Hindu"
+ },
+ "areas": [
+  "Keesara"
+ ]
+}

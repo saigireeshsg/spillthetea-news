@@ -1,0 +1,107 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-93",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Drought and power cuts hit paddy across ",
+ "hook": "Drought and power cuts hit paddy across *200 acres* in a Sangareddy village",
+ "hook_b": "Drought and power cuts hit paddy across *200 acres* in a Sangareddy village",
+ "tldr": "Farmers in a Sangareddy hamlet want compensation after drought and power cuts.",
+ "beats": {
+  "what": "Villagers at Bheemala Thanda reported crop damage across 200 acres and demanded compensation.",
+  "why": "Telangana is also dealing with a large rain deficit this year.",
+  "care": "Farmers: file a crop-loss report with your mandal agriculture office."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌾",
+    "label": "Drought and irregular power"
+   }
+  ],
+  "event": {
+   "icon": "⚡",
+   "label": "Paddy damaged at Bheemala Thanda"
+  },
+  "effects": [
+   {
+    "icon": "☀️",
+    "label": "200 acres hit"
+   },
+   {
+    "icon": "☀️",
+    "label": "One family lost 16 acres"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: drought conditions and irregular power supply."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should crop-loss compensation be automatic in drought years?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Do drought and power cuts together count as one loss or two for compensation?"
+   ],
+   "facts": [
+    {
+     "big": "16",
+     "t": "acres of paddy lost by a single tribal family.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/drought-power-cuts-devastate-paddy-crops-across-200-acres-in-sangareddy-village"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "200",
+   "l": "acres of paddy damaged",
+   "tone": "neutral",
+   "verdict": "Farmers in a Sangareddy hamlet want compensation after droug"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "200",
+  "label": "acres of paddy damaged",
+  "motion": "drift",
+  "scene": [
+   "🌾",
+   "⚡",
+   "☀️"
+  ]
+ },
+ "watch": "Whether compensation is announced.",
+ "thread": "tg-sangareddy-paddy-200-acres-drought",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Drought, power cuts devastate paddy crops across 200 acres in Sangareddy village",
+   "url": "https://telanganatoday.com/drought-power-cuts-devastate-paddy-crops-across-200-acres-in-sangareddy-village"
+  }
+ ],
+ "updated": 1794232352171,
+ "city": "Hyderabad",
+ "fact": "Drought and irregular power ruined paddy across *200 acres* at Bheemala Thanda in Sangareddy.",
+ "twist": "One tribal family lost its crop on *16 acres*."
+}

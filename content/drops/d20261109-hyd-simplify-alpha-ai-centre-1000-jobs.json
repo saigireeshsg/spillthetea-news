@@ -1,0 +1,119 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-87",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Simplify Alpha plans *1,000 jobs* at its",
+ "hook": "Simplify Alpha plans *1,000 jobs* at its new Hyderabad AI centre",
+ "hook_b": "Simplify Alpha plans *1,000 jobs* at its new Hyderabad AI centre",
+ "tldr": "Healthcare tech firm Simplify Alpha opened an AI engineering centre in Hyderabad.",
+ "beats": {
+  "what": "Telangana's IT Minister D. Sridhar Babu opened the AI Innovation and Engineering Centre; Times of India reports plans for 1,000 jobs over two years.",
+  "why": "Siasat describes Simplify Alpha as a global healthcare technology company.",
+  "care": "AI and data engineers: this adds roles in Hyderabad."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🤖",
+    "label": "Healthcare AI demand"
+   }
+  ],
+  "event": {
+   "icon": "🏥",
+   "label": "Hyderabad AI centre opens"
+  },
+  "effects": [
+   {
+    "icon": "💼",
+    "label": "1,000 jobs planned"
+   },
+   {
+    "icon": "💼",
+    "label": "Minister inaugurates"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat: Simplify Alpha is a global healthcare technology company."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you work in healthcare AI?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What skills do 1,000 AI engineering roles actually need?"
+   ],
+   "facts": [
+    {
+     "big": "1,000",
+     "t": "jobs over two years, per Times of India.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/simplify-alpha-opens-ai-engineering-centre-in-hyderabad-plans-1000-jobs-over-next-2-years/articleshow/135683932.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "1,000",
+   "l": "jobs planned over 2 years",
+   "tone": "neutral",
+   "verdict": "Healthcare tech firm Simplify Alpha opened an AI engineering"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "1,000",
+  "label": "jobs planned over 2 years",
+  "motion": "drift",
+  "scene": [
+   "🤖",
+   "🏥",
+   "💼"
+  ]
+ },
+ "watch": "First hiring drives.",
+ "thread": "hyd-simplify-alpha-ai-centre-1000-jobs",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Simplify Alpha opens AI engineering centre in Hyderabad, plans 1,000 jobs over next 2 years",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/simplify-alpha-opens-ai-engineering-centre-in-hyderabad-plans-1000-jobs-over-next-2-years/articleshow/135683932.cms"
+  },
+  {
+   "name": "Siasat",
+   "title": "Hyderabad: Simplify Alpha starts AI Engineering Centre",
+   "url": "https://www.siasat.com/hyderabad-simplify-alpha-starts-ai-engineering-centre-3572392/"
+  }
+ ],
+ "updated": 1794232352171,
+ "city": "Hyderabad",
+ "fact": "Simplify Alpha plans *1,000 jobs* over two years at its new Hyderabad AI centre.",
+ "twist": "IT Minister D. Sridhar Babu opened the centre on Monday, Nov 9.",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135684020,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "areas": [
+  "Hyderabad"
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-83",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "NHRC gives Telangana *four weeks* to rep",
+ "hook": "NHRC gives Telangana *four weeks* to report on Ramappa opencast mining",
+ "hook_b": "NHRC gives Telangana *four weeks* to report on Ramappa opencast mining",
+ "tldr": "NHRC has asked Telangana to respond on proposed opencast mining near Ramappa in Mulugu.",
+ "beats": {
+  "what": "The NHRC sought a report on proposed opencast mining at Ramappa in Mulugu district after concerns over threats to the temple.",
+  "why": "Ramappa is a heritage temple, so mining nearby draws scrutiny.",
+  "care": "Heritage fans: watch for the state's reply in four weeks."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛕",
+    "label": "Proposed opencast mining"
+   }
+  ],
+  "event": {
+   "icon": "⛏️",
+   "label": "NHRC seeks report"
+  },
+  "effects": [
+   {
+    "icon": "📄",
+    "label": "State must reply in 4 weeks"
+   },
+   {
+    "icon": "📄",
+    "label": "Temple concerns raised"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: the advocate raised concerns over potential threats to the temple."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should mining near heritage sites be barred?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What buffer should protect a heritage temple from mining?"
+   ],
+   "facts": [
+    {
+     "big": "4",
+     "t": "weeks given to Telangana to file its action taken report.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/nhrc-seeks-telangana-governments-report-on-ramappa-opencast-mining"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "4 weeks",
+   "l": "for the state's report",
+   "tone": "neutral",
+   "verdict": "NHRC has asked Telangana to respond on proposed opencast min"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "4 weeks",
+  "label": "for the state's report",
+  "motion": "drift",
+  "scene": [
+   "🛕",
+   "⛏️",
+   "📄"
+  ]
+ },
+ "watch": "Telangana's reply to NHRC.",
+ "thread": "nhrc-ramappa-opencast-mining-report",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "NHRC seeks Telangana government's report on Ramappa opencast mining",
+   "url": "https://telanganatoday.com/nhrc-seeks-telangana-governments-report-on-ramappa-opencast-mining"
+  }
+ ],
+ "updated": 1794232352172,
+ "city": "Hyderabad",
+ "fact": "The NHRC wants Telangana's action taken report on Ramappa mining within *four weeks*.",
+ "twist": "The complaint came from a Hyderabad-based advocate worried about the temple.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/NHRC-2-1.jpg",
+  "c": "Telangana Today"
+ }
+}
