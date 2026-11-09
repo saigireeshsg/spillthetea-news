@@ -393,6 +393,8 @@ Spill communicates the news, helps people understand the issue, and collects wha
 - Spill reports what people said. It does not argue with them.
 
 ## Card anatomy v3 (fact + twist)
+
+**REQUIRED on every card: the `dig` card (section "Dig deeper (v3)" at the end of this file). 1-3 thoughtful neutral questions plus 1-4 SOURCED related trend/surprise facts (e.g. lakes lost, population growth, last year's reading). Search or fetch to verify; copy only what the source states; include publisher + url. No dig facts you cannot source.**
 - `fact`: card headline under the image. ONE complete, surprising sentence, 8-14 words, main stat in *stars*. Must stand alone (who/what/number) and be interesting to read. Example: `Rangareddy borewells carry *4-5x* the safe nitrate limit`. Never a fragment. If omitted the app shows `hook`.
 - `twist`: one factual plot-twist line, shown after the vote (locked before). It must surprise and make people want the full story: a number, a reversal, or a "but". Sourced, never opinion (Rule Zero). If omitted the app shows `insight`.
 - Every story also needs `map` (why/what/hits-you flow), `watch` (what happens next) and `learn` (one term explained).
