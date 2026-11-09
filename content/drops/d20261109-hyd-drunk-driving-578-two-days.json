@@ -1,0 +1,117 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-96",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "*578* drunk drivers caught in two days of Hyderabad checks",
+ "hook_b": "*578* drunk drivers caught in two days of Hyderabad checks",
+ "tldr": "A two-day Hyderabad traffic police drive on Nov 6–7 booked 578 people for driving under the influence.",
+ "beats": {
+  "what": "Hyderabad traffic police booked 578 motorists for drunk driving in a two-day special drive on Nov 6–7, as reported by The Hindu and two other outlets.",
+  "why": "The city runs weekend special drives against drunk driving; this one fell in the Deepavali week.",
+  "care": "Cases booked in these drives go to court; riding home after a party is the main catch zone."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚓",
+    "label": "Two-day special drive, Nov 6–7"
+   }
+  ],
+  "event": {
+   "icon": "🍺",
+   "label": "Most caught on two-wheelers"
+  },
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "Cases go to court"
+   },
+   {
+    "icon": "⚖️",
+    "label": "More drives on weekends"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu: 578 caught driving under influence in a two-day Hyderabad traffic police drive. 495 were on two-wheelers; 5 recorded blood alcohol above 300 mg/100 ml."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should weekend drunk-driving checks run every night?",
+   "opts": [
+    "Yes",
+    "Only weekends",
+    "No",
+    "Not sure"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "578",
+   "l": "booked for drunk driving in 2 days"
+  },
+  {
+   "t": "stack",
+   "l": "Who was caught",
+   "tone": "bad",
+   "verdict": "Most offenders were on bikes and scooters",
+   "parts": [
+    {
+     "l": "Two-wheelers",
+     "v": 495,
+     "c": "#e0533d"
+    },
+    {
+     "l": "Other vehicles",
+     "v": 83,
+     "c": "#8a94a6"
+    }
+   ],
+   "total": "578 booked"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "578",
+  "label": "booked for drunk driving in 2 days",
+  "motion": "drift",
+  "scene": [
+   "🚓",
+   "🍺",
+   "⚖️"
+  ]
+ },
+ "learn": {
+  "t": "BAC = blood alcohol concentration; the legal limit in India is 30 mg per 100 ml of blood."
+ },
+ "watch": "Next weekend's drive totals from Hyderabad traffic police.",
+ "thread": "hyd-drunk-driving-578-two-days",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "578 caught driving under influence in two-day Hyderabad traffic police drive",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/578-caught-driving-under-influence-in-two-day-hyderabad-traffic-police-drive/article71682209.ece"
+  }
+ ],
+ "updated": 1794225516905,
+ "city": "Hyderabad",
+ "fact": "Hyderabad traffic police caught *578* drunk drivers in just two nights.",
+ "twist": "*495* of the 578 were on two-wheelers, and 5 blew over 300 mg/100 ml.",
+ "areas": [
+  "Hyderabad"
+ ]
+}

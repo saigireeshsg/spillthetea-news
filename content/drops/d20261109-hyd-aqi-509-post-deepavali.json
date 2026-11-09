@@ -6,7 +6,7 @@
  "order": 1,
  "heat": 5,
  "readSecs": 30,
- "topic": "Hyderabad's AQI averaged *509* the night",
+ "topic": "weather",
  "hook": "Hyderabad's AQI averaged *509* the night after Deepavali",
  "hook_b": "Hyderabad's AQI averaged *509* the night after Deepavali",
  "tldr": "Deepavali smoke kept Hyderabad's air at hazardous levels into Monday morning.",
@@ -41,7 +41,7 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "The Hindu: the air of Deepavali celebrations lingers in Hyderabad with AQI at hazardous levels. Hyderabad Mail: isolated rain on Nov 8, dry conditions forecast for the following week."
+   "body": "The Hindu: the air of Deepavali celebrations lingers in Hyderabad with AQI at hazardous levels. Hyderabad Mail: isolated rain on Nov 8, dry conditions forecast for the following week. Update (evening): Siasat reports Begumpet's AQI hit 828 as firecrackers choked Hyderabad on Diwali night."
   },
   {
    "k": "poll",
@@ -62,6 +62,23 @@
    "l": "average AQI overnight after Deepavali",
    "tone": "bad",
    "verdict": "Hazardous air, avoid outdoor exertion"
+  },
+  {
+   "t": "compare",
+   "l": "Diwali night AQI",
+   "tone": "bad",
+   "goodIfUp": false,
+   "verdict": "Begumpet far above the city's hazardous average",
+   "a": {
+    "v": 509,
+    "d": "509",
+    "l": "City average overnight"
+   },
+   "b": {
+    "v": 828,
+    "d": "828",
+    "l": "Begumpet, Diwali night"
+   }
   },
   {
    "t": "timeline",
@@ -111,13 +128,19 @@
    "name": "Hyderabad Mail",
    "title": "Telangana weather: IMD predicts dry conditions from November 9",
    "url": "https://hyderabadmail.com/telangana-weather-forecast-november-9-15-2026/"
+  },
+  {
+   "name": "Siasat",
+   "title": "Begumpet AQI hits 828 as firecrakers choke Hyderabad on Diwali night",
+   "url": "https://www.siasat.com/hyderabad-air-quality-diwali-2026-aqi-hazardous-3572286/"
   }
  ],
- "updated": 1794200606807,
+ "updated": 1794225516928,
  "city": "Hyderabad",
  "fact": "Hyderabad's air averaged an AQI of *509* overnight after Deepavali.",
- "twist": "PM2.5 hit *392 µg/m³* at 9:30 pm, and the forecast is dry all week, so no rain to clear it.",
+ "twist": "Begumpet's AQI hit *828* on Diwali night, Siasat reports, and the week's forecast is dry.",
  "areas": [
-  "Hyderabad"
+  "Hyderabad",
+  "Begumpet"
  ]
 }

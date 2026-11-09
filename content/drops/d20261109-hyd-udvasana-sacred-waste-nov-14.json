@@ -1,0 +1,137 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-94",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "GHMC collects Diwali puja waste at *12* temples on Nov 14",
+ "hook_b": "GHMC collects Diwali puja waste at *12* temples on Nov 14",
+ "tldr": "GHMC's Project Udvasana sacred-waste collection drive returns on Nov 14 at 12 temples across Hyderabad.",
+ "beats": {
+  "what": "Telangana Today reports GHMC will run its Project Udvasana collection drive at 12 temples on November 14.",
+  "why": "Udvasana collects worshipped items (idols, photos, flowers, puja leftovers) so they are not dumped in lakes or bins.",
+  "care": "Post-Deepavali puja leftovers can be dropped at the collection temples instead of the garbage."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Post-festival puja waste"
+   }
+  ],
+  "event": {
+   "icon": "🛕",
+   "label": "Drive at 12 temples"
+  },
+  "effects": [
+   {
+    "icon": "♻️",
+    "label": "Less waste in lakes"
+   },
+   {
+    "icon": "♻️",
+    "label": "Items handled properly"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: GHMC to launch Project Udvasana collection drive at 12 temples on November 14. Deccan Chronicle earlier reported GHMC expanding the drive from 6 to 12 centres."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you drop old puja items at a collection temple?",
+   "opts": [
+    "Yes",
+    "Maybe",
+    "No",
+    "Not sure"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "12",
+   "l": "temples collecting sacred waste on Nov 14"
+  },
+  {
+   "t": "compare",
+   "l": "Collection centres",
+   "tone": "good",
+   "goodIfUp": true,
+   "verdict": "Twice as many drop points as the first drives",
+   "a": {
+    "v": 6,
+    "d": "6",
+    "l": "Earlier drives"
+   },
+   "b": {
+    "v": 12,
+    "d": "12",
+    "l": "Nov 14"
+   }
+  },
+  {
+   "t": "timeline",
+   "l": "Drive",
+   "steps": [
+    {
+     "t": "Deepavali",
+     "e": "Puja items pile up"
+    },
+    {
+     "t": "Nov 14",
+     "e": "Collection at 12 temples"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "One-day drive",
+   "now": 0
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "12",
+  "label": "temples collecting sacred waste on Nov 14",
+  "motion": "drift",
+  "scene": [
+   "🪔",
+   "🛕",
+   "♻️"
+  ]
+ },
+ "learn": {
+  "t": "Udvasana = GHMC's drive to collect worshipped sacred items for respectful disposal."
+ },
+ "watch": "GHMC's list of the 12 temples and collection timings before Nov 14.",
+ "thread": "hyd-udvasana-sacred-waste-nov-14",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "GHMC to launch Project Udvasana collection drive at 12 temples on November 14",
+   "url": "https://telanganatoday.com/ghmc-to-launch-project-udvasana-collection-drive-at-12-temples-on-november-14"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "GHMC, ISKCON collect over a tonne of sacred material in Project Udvasana drive",
+   "url": "https://telanganatoday.com/ghmc-iskcon-collect-over-a-tonne-of-sacred-material-in-project-udvasana-drive"
+  }
+ ],
+ "updated": 1794225516905,
+ "city": "Hyderabad",
+ "fact": "GHMC will collect your old puja items at *12* temples on November 14.",
+ "twist": "An earlier Udvasana drive with ISKCON collected over *a tonne* of sacred material.",
+ "areas": [
+  "Hyderabad"
+ ]
+}
