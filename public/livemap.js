@@ -52,9 +52,9 @@
     try { (window.wireList ? window.wireList() : []).forEach((w) => { const ageH = (now - Date.parse(w.published_at || 0)) / 3600e3; if (ageH > 24 || w.tier === "spicy") return; const t = w.title || ""; const k = kindOf(t); if (!k) return; add({ title: t, kind: k, when: "", doThis: "", where: [], url: w.url, src: w.publisher || "", ts: Date.parse(w.published_at || 0) || 0 }); }); } catch (_) {}
     return out.sort((a, b) => b.ts - a.ts);
   };
-  let M = null, layer = null, filter = "all", data = [];
+  let filter = "all", data = [];
   const css = `.lmap{position:relative;z-index:0;isolation:isolate;margin:10px 0 12px;border-radius:16px;overflow:hidden;border:1px solid #ffffff22;background:#0f1218}.lmap h3{margin:0;padding:11px 12px 4px;font-size:15px}.lmap .lsub{margin:0;padding:0 12px 8px;font-size:12px;opacity:.7}
-.lmap #lmapc{height:330px;width:100%}.lmap .lchips{display:flex;gap:6px;overflow-x:auto;padding:8px 10px;scrollbar-width:none}.lmap .lchips::-webkit-scrollbar{display:none}
+.lmap #lmapc{display:block;width:100%;height:auto}.lmap .lchips{display:flex;gap:6px;overflow-x:auto;padding:8px 10px;scrollbar-width:none}.lmap .lchips::-webkit-scrollbar{display:none}
 .lmap .lc{display:inline-flex;align-items:center;gap:6px;flex:0 0 auto;padding:6px 10px;border-radius:999px;border:1px solid #ffffff2a;background:transparent;color:inherit;font:600 12px/1 inherit;cursor:pointer}
 .lmap .lc svg{width:14px;height:14px;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.lmap .lc[aria-pressed="true"]{background:#ffffff18;border-color:#ffffff66}
 .lmap .llist{padding:6px 12px 12px;display:grid;gap:8px}.lmap .li{display:grid;grid-template-columns:22px 1fr;gap:8px;font-size:13px;line-height:1.35}.lmap .li svg{width:18px;height:18px;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;margin-top:1px}
@@ -65,57 +65,62 @@
 .lmap .leaflet-control-attribution{background:#0d1017b3!important;color:#ffffff88;font-size:9px;border-radius:8px 0 0 0}.lmap .leaflet-control-attribution a{color:#ffffffaa}
 .lmap .leaflet-popup-content-wrapper{background:#141922f2;color:#fff;border:1px solid #ffffff22;border-radius:14px;box-shadow:0 8px 24px #000a;backdrop-filter:blur(8px)}.lmap .leaflet-popup-tip{background:#141922f2}.lmap .leaflet-popup-close-button{color:#fff9!important}
 .lmap .leaflet-popup-content{font:13px/1.4 system-ui,sans-serif;margin:11px 14px}.lmap .leaflet-popup-content b{display:block;font-weight:800;margin-bottom:2px}.lmap .leaflet-popup-content a{color:#8ec5ff}
-.lpin{position:relative;width:64px;height:64px}.lpin .halo{position:absolute;inset:0;border-radius:50%}.lpin .pls{position:absolute;inset:0;border-radius:50%;animation:lpls 2.4s ease-out infinite}.lpin .dot{position:absolute;left:19px;top:19px;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;border:2px solid #fff;box-shadow:0 2px 8px #0009}.lpin .dot svg{width:14px;height:14px;fill:none;stroke:#fff;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.lmap .lpg{cursor:pointer;outline:none}.lmap .lpg:focus-visible circle{stroke:#fff}.lmap .lpl{transform-box:fill-box;transform-origin:center;animation:lpl 2.4s ease-out infinite}@keyframes lpl{0%{transform:scale(.7);opacity:.9}100%{transform:scale(1.5);opacity:0}}.lmap .lx{margin-left:8px;border:0;background:#ffffff18;color:inherit;border-radius:8px;padding:2px 8px;font:600 10px inherit;cursor:pointer;text-transform:none;letter-spacing:0}@media(prefers-reduced-motion:reduce){.lmap .lpl{animation:none}}.lpin{position:relative;width:64px;height:64px}.lpin .halo{position:absolute;inset:0;border-radius:50%}.lpin .pls{position:absolute;inset:0;border-radius:50%;animation:lpls 2.4s ease-out infinite}.lpin .dot{position:absolute;left:19px;top:19px;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;border:2px solid #fff;box-shadow:0 2px 8px #0009}.lpin .dot svg{width:14px;height:14px;fill:none;stroke:#fff;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
 @keyframes lpls{0%{transform:scale(.45);opacity:.7}100%{transform:scale(1.15);opacity:0}}@media(prefers-reduced-motion:reduce){.lpin .pls{animation:none;opacity:0}}`;
   const icon = (k) => `<svg viewBox="0 0 24 24" stroke="${KINDS[k].c}"><path d="${KINDS[k].i}"/></svg>`;
   const when = (ts) => { if (!ts) return ""; const h = Math.round((Date.now() - ts) / 3600e3); return h < 1 ? "just now" : h < 24 ? h + "h ago" : Math.round(h / 24) + "d ago"; };
   const li = (o) => `<div class="li">${icon(o.kind)}<div><b>${E(o.title)}</b><small>${E(KINDS[o.kind].n)}${o.where ? " · " + E(o.where) : ""}${o.when ? " · " + E(o.when) : ""}${o.ts ? " · " + when(o.ts) : ""}${o.src ? " · " + E(o.src) : ""}</small>${o.doThis ? `<small>👉 ${E(o.doThis)}</small>` : ""}${o.url ? ` <a href="${E(o.url)}" target="_blank" rel="noopener noreferrer"><small>Read ↗</small></a>` : ""}</div></div>`;
+  // Schematic SVG map of Hyderabad (not to scale; locality centres approximate)
+  const W = 400, H = 340, px = (ll) => [((ll[1] - 78.28) / 0.34) * W, ((17.56 - ll[0]) / 0.32) * H];
+  const MAJOR = ["Secunderabad", "Charminar", "Madhapur", "Gachibowli", "Kukatpally", "Uppal", "LB Nagar", "Banjara Hills", "Miyapur", "Shamshabad", "Ameerpet", "Dilsukhnagar", "Kapra", "Mehdipatnam"];
+  let sel = null;
+  const base = () => {
+    const P = (n) => px(G[n]).map((v) => v.toFixed(1)).join(",");
+    const musi = `M${px([17.40, 78.30]).join(",")} C ${px([17.39, 78.38]).join(" ")} ${px([17.385, 78.43]).join(" ")} ${px([17.375, 78.47]).join(" ")} S ${px([17.36, 78.53]).join(" ")} ${px([17.355, 78.62]).join(" ")}`;
+    const hs = px(G["Hussain Sagar"]);
+    return `<defs><radialGradient id="lbg" cx="50%" cy="50%" r="70%"><stop offset="0" stop-color="#1a2130"/><stop offset="1" stop-color="#0b0e14"/></radialGradient><filter id="lgl" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5"/></filter></defs>
+<rect width="${W}" height="${H}" fill="url(#lbg)"/>
+<g stroke="#ffffff0d" stroke-width="1">${[1, 2, 3, 4, 5, 6, 7].map((i) => `<line x1="${i * 50}" y1="0" x2="${i * 50}" y2="${H}"/>`).join("")}${[1, 2, 3, 4, 5].map((i) => `<line x1="0" y1="${i * 57}" x2="${W}" y2="${i * 57}"/>`).join("")}</g>
+<ellipse cx="${(px([17.42, 78.45])[0]).toFixed(0)}" cy="${(px([17.42, 78.45])[1]).toFixed(0)}" rx="${(0.2 / 0.34 * W).toFixed(0)}" ry="${(0.155 / 0.32 * H).toFixed(0)}" fill="#ffffff06" stroke="#ffffff30" stroke-dasharray="4 5"/>
+<text x="${(px([17.42, 78.45])[0] + 0.2 / 0.34 * W - 6).toFixed(0)}" y="${(px([17.3, 78.45])[1] + 20).toFixed(0)}" font-size="8" fill="#ffffff55" text-anchor="end">ORR ring (approx.)</text>
+<path d="${musi}" fill="none" stroke="#3aa0ff55" stroke-width="3" stroke-linecap="round"/><text x="${px([17.37, 78.56])[0].toFixed(0)}" y="${(px([17.37, 78.56])[1] + 12).toFixed(0)}" font-size="8" fill="#3aa0ffaa" font-style="italic">Musi</text>
+<ellipse cx="${hs[0].toFixed(1)}" cy="${hs[1].toFixed(1)}" rx="11" ry="7" fill="#3aa0ff40" stroke="#3aa0ff99"/><text x="${(hs[0]).toFixed(1)}" y="${(hs[1] - 10).toFixed(1)}" font-size="8" fill="#9cc9ff" text-anchor="middle">Hussain Sagar</text>`;
+  };
+  function drawMap(sel2, by) {
+    const svg = document.getElementById("lmapc"); if (!svg) return;
+    let g = base();
+    const act = Object.keys(by);
+    Object.keys(G).forEach((n) => { if (by[n] || n === "Old City" || n === "Hitech City" || n === "Hussain Sagar" || n === "Tank Bund") return; const [x, y] = px(G[n]); g += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="1.8" fill="#ffffff40"/>`; if (MAJOR.includes(n)) g += `<text x="${(x + 4).toFixed(1)}" y="${(y + 3).toFixed(1)}" font-size="7.5" fill="#ffffff70">${E(n)}</text>`; });
+    let me = null; try { const m = window.spillMe && window.spillMe(); me = m && m.area && G[m.area]; } catch (_) {}
+    if (me) { const [x, y] = px(me); g += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="5" fill="#4a8cff" stroke="#fff" stroke-width="2"/><text x="${(x + 8).toFixed(1)}" y="${(y - 6).toFixed(1)}" font-size="8" fill="#9cc2ff" font-weight="700">you</text>`; }
+    let glow = "", pins = "";
+    act.forEach((n) => {
+      const arr = by[n], [x, y] = px(G[n]), kinds = [...new Set(arr.map((o) => o.kind))], k = KINDS[kinds[0]], r = 15 + Math.min(arr.length, 4) * 4, on = sel2 === n;
+      glow += kinds.map((kk, i) => `<circle cx="${(x + (i - (kinds.length - 1) / 2) * 7).toFixed(1)}" cy="${y.toFixed(1)}" r="${r}" fill="${KINDS[kk].c}" opacity=".38" filter="url(#lgl)"/>`).join("");
+      pins += `<g class="lpg" data-lp="${E(n)}" tabindex="0" role="button" aria-label="${E(n)}: ${arr.length} report${arr.length > 1 ? "s" : ""}" transform="translate(${x.toFixed(1)} ${y.toFixed(1)})"><circle class="lpl" r="${r - 4}" fill="none" stroke="${k.c}" stroke-width="1.5"/><circle r="${r - 4}" fill="${k.c}" opacity=".16" stroke="${k.c}" stroke-opacity=".7"/>${on ? `<circle r="${r + 3}" fill="none" stroke="#fff" stroke-width="1.5"/>` : ""}<circle r="10" fill="${k.c}" stroke="#fff" stroke-width="2"/><g transform="translate(-6 -6) scale(.5)" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="${k.i}"/></g>${kinds.slice(1).map((kk, i) => `<circle cx="${12 + i * 7}" cy="-9" r="3.2" fill="${KINDS[kk].c}" stroke="#fff"/>`).join("")}${arr.length > 1 ? `<g transform="translate(8 8)"><circle r="6.5" fill="#fff"/><text y="3" font-size="8.5" font-weight="800" fill="#111" text-anchor="middle">${arr.length}</text></g>` : ""}<text y="${r + 7}" font-size="8.5" font-weight="700" fill="#fff" text-anchor="middle" paint-order="stroke" stroke="#0b0e14" stroke-width="3">${E(n)}</text></g>`;
+    });
+    svg.innerHTML = g + glow + pins;
+  }
   function paint() {
     const box = document.querySelector("[data-lmap]"); if (!box) return;
-    const sel = data.filter((o) => filter === "all" || o.kind === filter);
-    const pinned = sel.filter((o) => o.where), unp = sel.filter((o) => !o.where);
-    const list = box.querySelector(".llist"); if (list) list.innerHTML = (pinned.length ? `<div class="lh2">On the map · ${pinned.length}</div>` + pinned.map(li).join("") : "") + (unp.length ? `<div class="lh2">City-wide / no exact spot · ${unp.length}</div>` + unp.slice(0, 8).map(li).join("") : "") || `<div class="li"><div><b>Nothing active for this filter</b></div></div>`;
-    if (!M || !layer) return;
-    if (!M._loaded) { M.setView([17.385, 78.4867], 11); }
-    layer.clearLayers(); const pts = [];
+    const sel0 = data.filter((o) => filter === "all" || o.kind === filter);
+    const pinned = sel0.filter((o) => o.where), unp = sel0.filter((o) => !o.where);
     const by = {}; pinned.forEach((o) => { (by[o.where] = by[o.where] || []).push(o); });
-    Object.keys(by).forEach((p) => {
-      const arr = by[p], c = G[p]; arr.forEach((o, i) => {
-        const k = KINDS[o.kind], a = (i / arr.length) * Math.PI * 2, off = arr.length > 1 ? 0.004 : 0, ll = [c[0] + Math.sin(a) * off, c[1] + Math.cos(a) * off];
-        const dot = L.divIcon({ className: "", iconSize: [64, 64], iconAnchor: [32, 32], html: `<div class="lpin"><span class="halo" style="background:${k.c}2b;border:1px solid ${k.c}77"></span><span class="pls" style="border:2px solid ${k.c}"></span><span class="dot" style="background:${k.c}"><svg viewBox="0 0 24 24"><path d="${k.i}"/></svg></span></div>` });
-        L.marker(ll, { icon: dot, keyboard: true, title: o.title }).addTo(layer).bindPopup(`<b>${E(o.title)}</b>${E(k.n)} · near ${E(p)} (approx.)${o.when ? "<br>" + E(o.when) : ""}${o.doThis ? "<br>👉 " + E(o.doThis) : ""}${o.url ? `<br><a href="${E(o.url)}" target="_blank" rel="noopener noreferrer">Read ↗</a>` : ""}`);
-        pts.push(ll);
-      });
-    });
-    try { const me = window.spillMe && window.spillMe(); const ar = me && me.area && G[me.area]; if (ar) L.marker(ar, { icon: L.divIcon({ className: "", iconSize: [14, 14], iconAnchor: [7, 7], html: '<i style="display:block;width:14px;height:14px;border-radius:50%;background:#1f6feb;border:2px solid #fff;box-sizing:border-box"></i>' }) }).addTo(layer).bindTooltip("Your area: " + me.area); } catch (_) {}
-    if (pts.length > 1) M.fitBounds(pts, { padding: [28, 28], maxZoom: 13 }); else if (pts.length === 1) M.setView(pts[0], 13); else M.setView([17.385, 78.4867], 11);
+    if (sel && !by[sel]) sel = null;
+    drawMap(sel, by);
+    const shown = sel ? by[sel] : pinned;
+    const list = box.querySelector(".llist"); if (list) list.innerHTML = (shown.length ? `<div class="lh2">${sel ? "Near " + E(sel) + " · " + shown.length + ' <button class="lx" data-lp="">show all</button>' : "On the map · " + pinned.length}</div>` + shown.map(li).join("") : "") + (!sel && unp.length ? `<div class="lh2">City-wide / no exact spot · ${unp.length}</div>` + unp.slice(0, 8).map(li).join("") : "") || `<div class="li"><div><b>Nothing active for this filter</b></div></div>`;
   }
   function init() {
     const box = document.querySelector("[data-lmap]"); if (!box || box.dataset.ready) return; box.dataset.ready = "1";
     data = items().map((o) => Object.assign(o, { where: place(o.title, o.where) }));
     const ks = Object.keys(KINDS).filter((k) => data.some((o) => o.kind === k));
-    box.innerHTML = `<style>${css}</style><h3>Live map · Hyderabad</h3><p class="lsub">Where today's traffic, water, power, air and incident reports land. Pins mark the area named in the report (about 1 km, not exact streets).</p><div id="lmapc" role="img" aria-label="Map of live Hyderabad alerts"></div><div class="lchips"><button class="lc" data-lk="all" aria-pressed="true">All · ${data.length}</button>${ks.map((k) => `<button class="lc" data-lk="${k}" aria-pressed="false">${icon(k)}${KINDS[k].n} · ${data.filter((o) => o.kind === k).length}</button>`).join("")}</div><div class="llist"></div><p class="lnote">Map © OpenStreetMap contributors © CARTO. Area centres are approximate. Headlines link to the original report.</p>`;
-    const CF = window.SPILL_CONFIG || {}, KEY = CF.cartoKey || "";
-    const fallback = () => { const c = document.getElementById("lmapc"); if (c) c.remove(); paint(); };
-    const go = () => {
-      try {
-        if (CF.mapTiles === false) return fallback(); // central kill switch: list-only
-        M = L.map("lmapc", { zoomControl: true, attributionControl: true, scrollWheelZoom: false, minZoom: 10, maxZoom: 16, maxBounds: [[17.1, 78.15], [17.75, 78.8]], maxBoundsViscosity: 0.9, zoomSnap: 0.5, fadeAnimation: true }).setView([17.385, 78.4867], 11);
-        const url = KEY ? "https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=" + encodeURIComponent(KEY) : "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png";
-        const tl = L.tileLayer(url, { subdomains: "abcd", maxZoom: 16, maxNativeZoom: 16, detectRetina: false, keepBuffer: 1, updateWhenIdle: true, className: KEY ? "lm-tint" : "", attribution: "&copy; OpenStreetMap &copy; CARTO" }).addTo(M);
-        let bad = 0; tl.on("tileerror", () => { if (++bad > 6 && M) { try { M.remove(); } catch (_) {} M = null; layer = null; fallback(); } });
-        layer = L.layerGroup().addTo(M); paint(); setTimeout(() => { if (!M) return; try { M.invalidateSize(); paint(); } catch (_) {} }, 300);
-      } catch (_) { fallback(); }
-    };
-    const load = () => {
-      if (window.L && window.L.map) return go();
-      const l = document.createElement("link"); l.rel = "stylesheet"; l.href = "/vendor/leaflet/leaflet.css"; document.head.appendChild(l);
-      const sc = document.createElement("script"); sc.src = "/vendor/leaflet/leaflet.js"; sc.onload = go; sc.onerror = fallback; document.head.appendChild(sc);
-    };
-    // load tiles only when the map is actually on screen (saves shared tile quota)
-    if ("IntersectionObserver" in window) { const io = new IntersectionObserver((en) => { if (en.some((e) => e.isIntersecting)) { io.disconnect(); load(); } }, { rootMargin: "100px" }); io.observe(box); } else load();
+    box.innerHTML = `<style>${css}</style><h3>Live map · Hyderabad</h3><p class="lsub">Glowing spots = areas named in today's reports. Tap one to see what's happening there.</p><svg id="lmapc" viewBox="0 0 ${W} ${H}" role="img" aria-label="Schematic map of live Hyderabad alerts"></svg><div class="lchips"><button class="lc" data-lk="all" aria-pressed="true">All · ${data.length}</button>${ks.map((k) => `<button class="lc" data-lk="${k}" aria-pressed="false">${icon(k)}${KINDS[k].n} · ${data.filter((o) => o.kind === k).length}</button>`).join("")}</div><div class="llist"></div><p class="lnote">Schematic map, not to scale. Area centres are approximate (no exact streets). Headlines link to the original report.</p>`;
+    paint();
   }
+  document.addEventListener("click", (e) => { const g = e.target.closest("[data-lp]"); if (!g) return; e.preventDefault(); e.stopPropagation(); sel = g.dataset.lp || null; paint(); const l = document.querySelector(".lmap .llist"); if (l && sel) l.scrollIntoView({ block: "nearest", behavior: "smooth" }); }, true);
+  document.addEventListener("keydown", (e) => { if ((e.key === "Enter" || e.key === " ") && e.target.closest && e.target.closest(".lpg")) { e.preventDefault(); e.target.closest(".lpg").dispatchEvent(new MouseEvent("click", { bubbles: true })); } });
   document.addEventListener("click", (e) => { const b = e.target.closest("[data-lk]"); if (!b) return; e.preventDefault(); e.stopPropagation(); filter = b.dataset.lk; document.querySelectorAll("[data-lk]").forEach((x) => x.setAttribute("aria-pressed", String(x === b))); paint(); }, true);
   window.liveMapHTML = (scope) => (scope === "local" ? `<section class="lmap" data-lmap></section>` : "");
-  new MutationObserver(() => { const b = document.querySelector("[data-lmap]"); if (b && !b.dataset.ready) { M = null; layer = null; init(); } }).observe(document.documentElement, { childList: true, subtree: true });
+  new MutationObserver(() => { const b = document.querySelector("[data-lmap]"); if (b && !b.dataset.ready) { init(); } }).observe(document.documentElement, { childList: true, subtree: true });
 })();
