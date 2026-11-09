@@ -2278,6 +2278,7 @@ const H36=36*3600e3;
 const isLocalLive=x=>x.scope==="local"&&me.city&&x.city===me.city;
 const activeLive=x=>!(x.until&&x.until<Date.now())&&Date.now()-(x.ts||0)<H36;
 const nearYou=x=>!!me.area&&(x.areas||[]).some(a=>String(a).toLowerCase()===me.area.toLowerCase());
+window.spillLiveItems=()=>live;window.spillMe=()=>me;
 function liveList(scope,all){return live.filter(x=>scope==="local"?isLocalLive(x):x.scope==="national").filter(x=>all?Date.now()-(x.ts||0)<48*3600e3:activeLive(x))}
 const liveFol=x=>!!(me.follow[x.storyline]||me.follow[x.thread]||(x.open&&(()=>{const d=drops.find(y=>y.id===x.open);return d&&isFollow(d)})()));
 function rankLive(arr){return arr.slice().sort((a,b)=>(liveFol(b)-liveFol(a))||(nearYou(b)-nearYou(a))||((b.sev||1)-(a.sev||1))||((b.ts||0)-(a.ts||0)))}
@@ -2338,6 +2339,7 @@ function liveView(){
   const scope=liveTab;const arr=liveList(scope,true).sort((a,b)=>(b.ts||0)-(a.ts||0));
   const nowA=arr.filter(x=>activeLive(x)&&Date.now()-Math.max(x.ts||0,x.updated||0)<12*3600e3),earlier=arr.filter(x=>!nowA.includes(x));
   let h=cycloneDeskHTML()+`<section class="livebox"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE</b><span class="upd">${(()=>{const dp=window.spillDaypart?window.spillDaypart():null;return dp?esc(dp.icon+" "+dp.title+" · "+dp.line):"updated every 10 min, round the clock"})()}</span></div><div class="ltabs"><button data-act="ltab" data-key="local" aria-pressed="${scope==="local"}">📍 ${esc(me.city||"Your city")}</button><button data-act="ltab" data-key="national" aria-pressed="${scope==="national"}">🇮🇳 India</button></div>${scope==="local"?(me.area&&window.areaTodayHTML&&window.areaTodayHTML(me.area)?window.areaTodayHTML(me.area):(window.areaPickHTML&&!me.area?window.areaPickHTML():"")+nowHTML()):""}${scope==="local"&&areasFor(me.city).length?`<button class="areabtn" data-act="area">📍 ${me.area?"Your area: "+esc(me.area)+" · change":"Set your area for \"near you\" alerts"}</button>`:""}${window.newsBellHTML?window.newsBellHTML():""}</section>`;
+  h+=(window.liveMapHTML?window.liveMapHTML(scope):"");
   h+=(window.civicHTML?window.civicHTML(scope):"");
   // "Need to know" paused on Live (owner, 25 Oct): big items become crisp feed articles instead.
   h+=(window.wireHTML?window.wireHTML(scope,8):"");
@@ -2624,6 +2626,7 @@ window.spillRerender=function(){if(open||document.querySelector(".sheet"))return
 <script src="/analytics.js" defer></script>
 <script src="/desktop.js" defer></script>
 <script src="/weather.js" defer></script>
+<script src="/livemap.js" defer></script>
 <script src="/area.js" defer></script>
 <script src="/ritual.js" defer></script>
 <script src="/civic.js" defer></script>
