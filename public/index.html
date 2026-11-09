@@ -104,6 +104,10 @@
 .lmeans{margin:6px 0 0;padding-left:18px;display:grid;gap:4px;font-size:14px;line-height:1.45}
 .lviz{margin-top:8px}.lviz .vz{min-width:0}
 .ltag{background:var(--blue-soft,#16253a);color:var(--blue,#7cb7ff);border-radius:999px;padding:1px 8px;font-weight:800}
+.lbrief{margin:10px 0;border:1px solid #ffffff22;border-radius:16px;background:linear-gradient(180deg,#171d29,#0f1218);overflow:hidden}.lbh{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;padding:14px 14px 8px}.lbh small{font:800 11px/1 inherit;letter-spacing:.08em;text-transform:uppercase}.lbh h3{margin:4px 0 2px;font-size:20px;font-weight:900}.lbh p{margin:0;font-size:13px;opacity:.75}
+.lbshare{flex:0 0 auto;border:1px solid #ffffff44;background:#ffffff14;color:inherit;border-radius:999px;padding:8px 14px;font:700 13px/1 inherit;cursor:pointer}.lbs{padding:10px 14px 4px;font:800 11px/1 inherit;letter-spacing:.08em;text-transform:uppercase;opacity:.65}
+.lbr{margin:6px 12px;padding:10px 12px;border-radius:12px;background:#ffffff0a;border-left:4px solid var(--c)}.lbm{display:flex;flex-wrap:wrap;gap:4px 8px;font-size:11px;opacity:.75}.lbm b{color:var(--c);opacity:1;text-transform:uppercase;letter-spacing:.04em}.lbn{background:#4a8cff33;color:#9cc2ff;border-radius:6px;padding:0 6px}
+.lbt{font-weight:800;font-size:15px;line-height:1.3;margin-top:3px}.lbd{margin-top:6px;font-size:13px;line-height:1.35;background:#ffffff0d;border-radius:8px;padding:6px 8px}.lbd i{display:block;font:800 10px/1.3 inherit;letter-spacing:.06em;text-transform:uppercase;opacity:.6;font-style:normal}.lbok{margin:6px 12px;padding:10px 12px;border-radius:12px;background:#46d16018;border-left:4px solid #46d160;font-weight:700;font-size:14px}.lbrief{padding-bottom:8px}
 </style>
 <script src="/config.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
@@ -2335,10 +2339,31 @@ function developingHTML(){
   if(!items.length&&!W.length)return"";
   return `<div class="sect"><span>🔴 Developing now</span><button data-act="live" data-key="local">All live →</button></div><section class="livebox ntk dev">${items.map(x=>liveItemHTML(x)).join("")}${W.map(w=>{const tt=esc(window.spillDecode?window.spillDecode(w.title):w.title),ou=Math.max(1,+w.outlets||1);const hasMore=w.hook||w.brief||w.why;return `<details class="devw"><summary><span class="ldot" aria-hidden="true"></span><span><b>${tt}</b><small>${hasMore?"Tap to read here · ":""}${ou} outlet${ou>1?"s":""} reporting · ${ago(Date.parse(w.published_at))}</small></span></summary><div class="dwb">${w.hook?`<p class="dwh">${esc(w.hook)}</p>`:""}${w.brief?`<p>${esc(w.brief)}</p>`:""}${w.why?`<p class="dww"><b>Why it matters:</b> ${esc(w.why)}</p>`:""}<div class="dwm"><span class="dwo" title="${ou} outlets">${Array.from({length:Math.min(ou,6)},()=>"<i></i>").join("")}</span><span>${ou>=3?"Widely confirmed":ou===2?"Two outlets agree":"Single source, treat with care"}</span>${w.url?`<a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.publisher||"source")} ↗</a>`:""}</div></div></details>`}).join("")}</section>`}
 function cycloneDeskHTML(){if(!CY_ON)return"";return `<a class="cydesk" href="/cyclone/?src=app&c=live-banner"><span class="cyi">🌀</span><span><b>Cyclone Arnab live desk</b><small>Map · affected districts · helplines · shelters near you</small></span><u>Open →</u></a>`}
+
+// Live briefing: what needs attention now, what's happening, what's coming up, and one-tap share.
+function liveBriefItems(scope){const now=Date.now(),arr=liveList(scope,false).filter(x=>activeLive(x));const att=[],hap=[],soon=[];
+  arr.forEach(x=>{const sv=x.sev||1;if(sv>=3||(sv>=2&&nearYou(x)))att.push(x);else if(sv>=2)att.push(x);else if(x.until&&x.until>now&&x.until-now<4*864e5&&x.until-now>6*36e5)soon.push(x);else hap.push(x)});
+  const bySev=(a,b)=>(nearYou(b)-nearYou(a))||((b.sev||1)-(a.sev||1))||((b.ts||0)-(a.ts||0));return{att:att.sort(bySev).slice(0,4),hap:hap.sort(bySev).slice(0,8),soon:soon.sort((a,b)=>a.until-b.until).slice(0,4)}}
+const lbDo=x=>x.care||((x.steps||[]).find(t=>t.t==="Next")||{}).b||(x.means||[])[0]||"";
+const lbWhen=x=>{const now=Date.now();if(x.until&&x.until>now){const l=x.until-now,d=Math.floor(l/864e5),h=Math.floor(l%864e5/36e5);return d>=1?"ends in "+d+"d":"ends in "+Math.max(1,h)+"h"}return ago(x.ts)+" ago"};
+function lbRow(x,big){const k=KIND[x.kind]||KIND.alert,sv=x.sev||1,col=sv>=3?"#ff4d4d":sv===2?"#ffb84d":"#4fbcff",ar=(x.areas||[]).filter(a=>a!=="Citywide").slice(0,3).join(", "),dd=big?lbDo(x):"";
+  return `<div class="lbr" style="--c:${col}"><div class="lbm"><b>${esc(k[1])}</b>${ar?`<span>${esc(ar)}</span>`:""}<span>${lbWhen(x)}</span>${nearYou(x)?'<span class="lbn">near you</span>':""}</div><div class="lbt">${esc(x.title)}</div>${dd?`<div class="lbd"><i>What to do</i>${esc(dd)}</div>`:""}</div>`}
+function liveBriefText(scope){const{att,hap,soon}=liveBriefItems(scope),c=scope==="local"?(me.city||"Hyderabad"):"India";const t=new Date().toLocaleTimeString("en-IN",{hour:"numeric",minute:"2-digit"});
+  const ln=(x)=>"- "+x.title+((x.areas||[]).filter(a=>a!=="Citywide").length?" ("+x.areas.filter(a=>a!=="Citywide").slice(0,2).join(", ")+")":"");
+  let o=c+" live, "+t+"\n";if(att.length)o+="\nNeeds attention:\n"+att.map(x=>ln(x)+(lbDo(x)?"\n  Do: "+lbDo(x):"")).join("\n")+"\n";if(hap.length)o+="\nHappening:\n"+hap.slice(0,5).map(ln).join("\n")+"\n";if(soon.length)o+="\nComing up:\n"+soon.map(x=>ln(x)+" ["+lbWhen(x)+"]").join("\n")+"\n";if(!att.length&&!hap.length&&!soon.length)o+="All quiet right now.\n";
+  return o+"\nspillthetea.news"}
+function liveBriefHTML(scope){const{att,hap,soon}=liveBriefItems(scope),c=scope==="local"?(me.city||"Hyderabad"):"India",n=att.length+hap.length+soon.length;
+  const top=att.some(x=>(x.sev||1)>=3)?["Act now","#ff4d4d"]:att.length?["Keep an eye","#ffb84d"]:["All clear","#46d160"];
+  const sum=att.length?`${att.length} thing${att.length>1?"s":""} need your attention`:n?"Nothing urgent. Here's what's happening":"Quiet right now";
+  return `<section class="lbrief" aria-label="Live briefing"><div class="lbh"><div><small style="color:${top[1]}">● ${top[0]}</small><h3>${esc(c)} right now</h3><p>${sum}${n?` · ${n} live`:""}</p></div><button class="lbshare" data-act="lshare" data-key="${scope}">Share</button></div>
+  ${att.length?`<div class="lbs"><span>Needs your attention</span></div>${att.map(x=>lbRow(x,true)).join("")}`:`<div class="lbok">Nothing needs your immediate attention.</div>`}
+  ${hap.length?`<div class="lbs"><span>Happening today</span></div>${hap.map(x=>lbRow(x,false)).join("")}`:""}
+  ${soon.length?`<div class="lbs"><span>Coming up</span></div>${soon.map(x=>lbRow(x,false)).join("")}`:""}</section>`}
 function liveView(){
   const scope=liveTab;const arr=liveList(scope,true).sort((a,b)=>(b.ts||0)-(a.ts||0));
   const nowA=arr.filter(x=>activeLive(x)&&Date.now()-Math.max(x.ts||0,x.updated||0)<12*3600e3),earlier=arr.filter(x=>!nowA.includes(x));
   let h=cycloneDeskHTML()+`<section class="livebox"><div class="lh"><span class="ldot" aria-hidden="true"></span><b>LIVE</b><span class="upd">${(()=>{const dp=window.spillDaypart?window.spillDaypart():null;return dp?esc(dp.icon+" "+dp.title+" · "+dp.line):"updated every 10 min, round the clock"})()}</span></div><div class="ltabs"><button data-act="ltab" data-key="local" aria-pressed="${scope==="local"}">📍 ${esc(me.city||"Your city")}</button><button data-act="ltab" data-key="national" aria-pressed="${scope==="national"}">🇮🇳 India</button></div>${scope==="local"?(me.area&&window.areaTodayHTML&&window.areaTodayHTML(me.area)?window.areaTodayHTML(me.area):(window.areaPickHTML&&!me.area?window.areaPickHTML():"")+nowHTML()):""}${scope==="local"&&areasFor(me.city).length?`<button class="areabtn" data-act="area">📍 ${me.area?"Your area: "+esc(me.area)+" · change":"Set your area for \"near you\" alerts"}</button>`:""}${window.newsBellHTML?window.newsBellHTML():""}</section>`;
+  h+=liveBriefHTML(scope);
   h+=(window.liveMapHTML?window.liveMapHTML(scope):"");
   h+=(window.civicHTML?window.civicHTML(scope):"");
   // "Need to know" paused on Live (owner, 25 Oct): big items become crisp feed articles instead.
@@ -2476,6 +2501,7 @@ document.addEventListener("click",async e=>{
   if(act==="savestreak"){const d=visible().find(x=>!me.done[x.id]&&me.quiz[x.id]==null&&(x.cards||[]).some(c=>c.k==="quiz"))||visible().find(x=>me.quiz[x.id]==null&&(x.cards||[]).some(c=>c.k==="quiz"));if(!d){toast("You've done every quick check today. New ones at 7am");return}if(me.skipq)delete me.skipq[d.id];postView(d.id);setTimeout(()=>$("#got")?.scrollIntoView({behavior:"smooth",block:"center"}),120);return}
   if(act==="whyorder"){toast("Sorted by how new it is, how close to home it is (Hyderabad first), how many outlets report it, and how big it is. Stories you follow come first; ones you've read drop down.");return}
   if(act==="tip"){tipSheet();return}
+  if(act==="lshare"){shareSheet(liveBriefText(key||"local"),"live");return}
   if(act==="cmmore"){cmMore=true;comments();return}
   if(act==="reply"){replyTo=replyTo===key?null:key;comments();setTimeout(()=>$("#rtext")?.focus(),30);return}
   if(act==="rcancel"){replyTo=null;comments();return}
