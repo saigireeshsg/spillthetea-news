@@ -3,7 +3,7 @@
 window.SPILL_CONFIG = {
   // Live map tiles (CARTO). Central switches: set mapTiles:false to go list-only; paste CARTO key into cartoKey (public by nature: restrict it to spillthetea.news in the CARTO dashboard).
   mapTiles: true,
-  cartoKey: "",
+  cartoKey: "cb1_55hv_1_9dcc8a32171e6d00477668b3",
   speakup: false, // 📣 Speak up (civic actions) tab + "Take part" boxes; set true to show again
   // PostHog: Project settings → Project API key (starts with phc_). Host: us.i.posthog.com or eu.i.posthog.com
   posthogKey: "phc_sa3vuQTENx8XM4iLXqcyYcLFTWaXHS2VPaAVJdm5owcw",
