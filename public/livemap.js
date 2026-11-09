@@ -59,7 +59,14 @@
 .lmap .lc svg{width:14px;height:14px;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.lmap .lc[aria-pressed="true"]{background:#ffffff18;border-color:#ffffff66}
 .lmap .llist{padding:6px 12px 12px;display:grid;gap:8px}.lmap .li{display:grid;grid-template-columns:22px 1fr;gap:8px;font-size:13px;line-height:1.35}.lmap .li svg{width:18px;height:18px;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;margin-top:1px}
 .lmap .li b{display:block;font-weight:700}.lmap .li small{opacity:.7}.lmap .li a{color:inherit}.lmap .lnote{padding:0 12px 10px;font-size:11px;opacity:.6}.lmap .lh2{padding:2px 12px;font-size:11px;letter-spacing:.06em;text-transform:uppercase;opacity:.6}
-.leaflet-popup-content{font:13px/1.35 system-ui,sans-serif;color:#111}.leaflet-popup-content b{display:block}.lpin{border-radius:50%}`;
+.lmap #lmapc{background:#0d1017;border-top:1px solid #ffffff14;border-bottom:1px solid #ffffff14}.lmap #lmapc::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:500;box-shadow:inset 0 0 48px 6px #0d1017cc}
+.lmap .lm-tint{filter:invert(1) hue-rotate(188deg) saturate(.55) brightness(.92) contrast(.95)}
+.lmap .leaflet-control-zoom{border:0!important;border-radius:12px;overflow:hidden;box-shadow:0 4px 14px #0008}.lmap .leaflet-control-zoom a{background:#141922ee;color:#fff;border:0;border-bottom:1px solid #ffffff1a;width:32px;height:32px;line-height:32px;backdrop-filter:blur(6px)}.lmap .leaflet-control-zoom a:hover{background:#222a38}
+.lmap .leaflet-control-attribution{background:#0d1017b3!important;color:#ffffff88;font-size:9px;border-radius:8px 0 0 0}.lmap .leaflet-control-attribution a{color:#ffffffaa}
+.lmap .leaflet-popup-content-wrapper{background:#141922f2;color:#fff;border:1px solid #ffffff22;border-radius:14px;box-shadow:0 8px 24px #000a;backdrop-filter:blur(8px)}.lmap .leaflet-popup-tip{background:#141922f2}.lmap .leaflet-popup-close-button{color:#fff9!important}
+.lmap .leaflet-popup-content{font:13px/1.4 system-ui,sans-serif;margin:11px 14px}.lmap .leaflet-popup-content b{display:block;font-weight:800;margin-bottom:2px}.lmap .leaflet-popup-content a{color:#8ec5ff}
+.lpin{position:relative;width:64px;height:64px}.lpin .halo{position:absolute;inset:0;border-radius:50%}.lpin .pls{position:absolute;inset:0;border-radius:50%;animation:lpls 2.4s ease-out infinite}.lpin .dot{position:absolute;left:19px;top:19px;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;border:2px solid #fff;box-shadow:0 2px 8px #0009}.lpin .dot svg{width:14px;height:14px;fill:none;stroke:#fff;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+@keyframes lpls{0%{transform:scale(.45);opacity:.7}100%{transform:scale(1.15);opacity:0}}@media(prefers-reduced-motion:reduce){.lpin .pls{animation:none;opacity:0}}`;
   const icon = (k) => `<svg viewBox="0 0 24 24" stroke="${KINDS[k].c}"><path d="${KINDS[k].i}"/></svg>`;
   const when = (ts) => { if (!ts) return ""; const h = Math.round((Date.now() - ts) / 3600e3); return h < 1 ? "just now" : h < 24 ? h + "h ago" : Math.round(h / 24) + "d ago"; };
   const li = (o) => `<div class="li">${icon(o.kind)}<div><b>${E(o.title)}</b><small>${E(KINDS[o.kind].n)}${o.where ? " · " + E(o.where) : ""}${o.when ? " · " + E(o.when) : ""}${o.ts ? " · " + when(o.ts) : ""}${o.src ? " · " + E(o.src) : ""}</small>${o.doThis ? `<small>👉 ${E(o.doThis)}</small>` : ""}${o.url ? ` <a href="${E(o.url)}" target="_blank" rel="noopener noreferrer"><small>Read ↗</small></a>` : ""}</div></div>`;
@@ -75,7 +82,7 @@
     Object.keys(by).forEach((p) => {
       const arr = by[p], c = G[p]; arr.forEach((o, i) => {
         const k = KINDS[o.kind], a = (i / arr.length) * Math.PI * 2, off = arr.length > 1 ? 0.004 : 0, ll = [c[0] + Math.sin(a) * off, c[1] + Math.cos(a) * off];
-        const dot = L.divIcon({ className: "", iconSize: [64, 64], iconAnchor: [32, 32], html: `<span style="display:block;width:64px;height:64px;border-radius:50%;background:${k.c}33;border:1px solid ${k.c}88;position:relative"><i style="position:absolute;left:23px;top:23px;width:18px;height:18px;border-radius:50%;background:${k.c};border:2px solid #fff;box-sizing:border-box"></i></span>` });
+        const dot = L.divIcon({ className: "", iconSize: [64, 64], iconAnchor: [32, 32], html: `<div class="lpin"><span class="halo" style="background:${k.c}2b;border:1px solid ${k.c}77"></span><span class="pls" style="border:2px solid ${k.c}"></span><span class="dot" style="background:${k.c}"><svg viewBox="0 0 24 24"><path d="${k.i}"/></svg></span></div>` });
         L.marker(ll, { icon: dot, keyboard: true, title: o.title }).addTo(layer).bindPopup(`<b>${E(o.title)}</b>${E(k.n)} · near ${E(p)} (approx.)${o.when ? "<br>" + E(o.when) : ""}${o.doThis ? "<br>👉 " + E(o.doThis) : ""}${o.url ? `<br><a href="${E(o.url)}" target="_blank" rel="noopener noreferrer">Read ↗</a>` : ""}`);
         pts.push(ll);
       });
@@ -88,17 +95,25 @@
     data = items().map((o) => Object.assign(o, { where: place(o.title, o.where) }));
     const ks = Object.keys(KINDS).filter((k) => data.some((o) => o.kind === k));
     box.innerHTML = `<style>${css}</style><h3>Live map · Hyderabad</h3><p class="lsub">Where today's traffic, water, power, air and incident reports land. Pins mark the area named in the report (about 1 km, not exact streets).</p><div id="lmapc" role="img" aria-label="Map of live Hyderabad alerts"></div><div class="lchips"><button class="lc" data-lk="all" aria-pressed="true">All · ${data.length}</button>${ks.map((k) => `<button class="lc" data-lk="${k}" aria-pressed="false">${icon(k)}${KINDS[k].n} · ${data.filter((o) => o.kind === k).length}</button>`).join("")}</div><div class="llist"></div><p class="lnote">Map © OpenStreetMap contributors © CARTO. Area centres are approximate. Headlines link to the original report.</p>`;
+    const CF = window.SPILL_CONFIG || {}, KEY = CF.cartoKey || "";
+    const fallback = () => { const c = document.getElementById("lmapc"); if (c) c.remove(); paint(); };
     const go = () => {
       try {
-        M = L.map("lmapc", { zoomControl: true, attributionControl: true, scrollWheelZoom: false }).setView([17.385, 78.4867], 11);
-        L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", { maxZoom: 17, attribution: "&copy; OpenStreetMap &copy; CARTO" }).addTo(M);
+        if (CF.mapTiles === false) return fallback(); // central kill switch: list-only
+        M = L.map("lmapc", { zoomControl: true, attributionControl: true, scrollWheelZoom: false, minZoom: 10, maxZoom: 16, maxBounds: [[17.1, 78.15], [17.75, 78.8]], maxBoundsViscosity: 0.9, zoomSnap: 0.5, fadeAnimation: true }).setView([17.385, 78.4867], 11);
+        const url = KEY ? "https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=" + encodeURIComponent(KEY) : "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png";
+        const tl = L.tileLayer(url, { subdomains: "abcd", maxZoom: 16, maxNativeZoom: 16, detectRetina: false, keepBuffer: 1, updateWhenIdle: true, className: KEY ? "lm-tint" : "", attribution: "&copy; OpenStreetMap &copy; CARTO" }).addTo(M);
+        let bad = 0; tl.on("tileerror", () => { if (++bad > 6 && M) { try { M.remove(); } catch (_) {} M = null; layer = null; fallback(); } });
         layer = L.layerGroup().addTo(M); paint(); setTimeout(() => { if (!M) return; try { M.invalidateSize(); paint(); } catch (_) {} }, 300);
-      } catch (_) { const c = document.getElementById("lmapc"); if (c) c.remove(); paint(); }
+      } catch (_) { fallback(); }
     };
-    if (window.L && window.L.map) go(); else {
+    const load = () => {
+      if (window.L && window.L.map) return go();
       const l = document.createElement("link"); l.rel = "stylesheet"; l.href = "/vendor/leaflet/leaflet.css"; document.head.appendChild(l);
-      const s = document.createElement("script"); s.src = "/vendor/leaflet/leaflet.js"; s.onload = go; s.onerror = () => { const c = document.getElementById("lmapc"); if (c) c.remove(); paint(); }; document.head.appendChild(s);
-    }
+      const sc = document.createElement("script"); sc.src = "/vendor/leaflet/leaflet.js"; sc.onload = go; sc.onerror = fallback; document.head.appendChild(sc);
+    };
+    // load tiles only when the map is actually on screen (saves shared tile quota)
+    if ("IntersectionObserver" in window) { const io = new IntersectionObserver((en) => { if (en.some((e) => e.isIntersecting)) { io.disconnect(); load(); } }, { rootMargin: "100px" }); io.observe(box); } else load();
   }
   document.addEventListener("click", (e) => { const b = e.target.closest("[data-lk]"); if (!b) return; e.preventDefault(); e.stopPropagation(); filter = b.dataset.lk; document.querySelectorAll("[data-lk]").forEach((x) => x.setAttribute("aria-pressed", String(x === b))); paint(); }, true);
   window.liveMapHTML = (scope) => (scope === "local" ? `<section class="lmap" data-lmap></section>` : "");
