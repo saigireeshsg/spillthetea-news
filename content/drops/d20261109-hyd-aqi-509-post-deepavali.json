@@ -1,0 +1,123 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-99",
+ "order": 1,
+ "heat": 5,
+ "readSecs": 30,
+ "topic": "Hyderabad's AQI averaged *509* the night",
+ "hook": "Hyderabad's AQI averaged *509* the night after Deepavali",
+ "hook_b": "Hyderabad's AQI averaged *509* the night after Deepavali",
+ "tldr": "Deepavali smoke kept Hyderabad's air at hazardous levels into Monday morning.",
+ "beats": {
+  "what": "The Hindu reports air quality worsened overnight, with PM2.5 at 392 µg/m³ at 9:30 pm and an average AQI of 509.",
+  "why": "Fireworks smoke settles when winds are weak. Hyderabad Mail reports IMD expects dry conditions from Nov 9 through the week.",
+  "care": "Check your area's AQI before outdoor runs or school drop-offs today."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎆",
+    "label": "Deepavali fireworks"
+   }
+  ],
+  "event": {
+   "icon": "😷",
+   "label": "AQI averages 509; PM2.5 at 392"
+  },
+  "effects": [
+   {
+    "icon": "🌫️",
+    "label": "Hazardous air into Monday"
+   },
+   {
+    "icon": "🌫️",
+    "label": "Dry week forecast"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu: the air of Deepavali celebrations lingers in Hyderabad with AQI at hazardous levels. Hyderabad Mail: isolated rain on Nov 8, dry conditions forecast for the following week."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Did the smoke affect you last night?",
+   "opts": [
+    "A lot",
+    "A little",
+    "Not at all",
+    "Not sure"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "509",
+   "l": "average AQI overnight after Deepavali",
+   "tone": "bad",
+   "verdict": "Hazardous air, avoid outdoor exertion"
+  },
+  {
+   "t": "timeline",
+   "l": "Smoke and the forecast",
+   "steps": [
+    {
+     "t": "9:30 pm",
+     "e": "PM2.5 hits 392 µg/m³"
+    },
+    {
+     "t": "Overnight",
+     "e": "AQI averages 509"
+    },
+    {
+     "t": "Nov 9 on",
+     "e": "IMD: dry conditions forecast"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "No rain forecast to wash the smoke out",
+   "now": 2
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "509",
+  "label": "average AQI overnight after Deepavali",
+  "motion": "drift",
+  "scene": [
+   "🎆",
+   "😷",
+   "🌫️"
+  ]
+ },
+ "watch": "Tonight's AQI readings and IMD's next forecast.",
+ "thread": "hyd-aqi-509-post-deepavali",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Air of Deepavali celebrations lingers in Hyderabad with AQI remaining at hazardous levels",
+   "url": "https://www.thehindu.com/news/national/telangana/air-of-deepavali-celebrations-lingers-in-hyderabad-with-aqi-remaining-at-hazardous-levels/article71681358.ece"
+  },
+  {
+   "name": "Hyderabad Mail",
+   "title": "Telangana weather: IMD predicts dry conditions from November 9",
+   "url": "https://hyderabadmail.com/telangana-weather-forecast-november-9-15-2026/"
+  }
+ ],
+ "updated": 1794200606807,
+ "city": "Hyderabad",
+ "fact": "Hyderabad's air averaged an AQI of *509* overnight after Deepavali.",
+ "twist": "PM2.5 hit *392 µg/m³* at 9:30 pm, and the forecast is dry all week, so no rain to clear it.",
+ "areas": [
+  "Hyderabad"
+ ]
+}

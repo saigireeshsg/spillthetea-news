@@ -1,0 +1,30 @@
+{
+ "title": "Hyderabad air hazardous after Deepavali: AQI averaged 509 overnight",
+ "kind": "air",
+ "tag": "🌫️ Air quality",
+ "scope": "local",
+ "city": "Hyderabad",
+ "sev": 2,
+ "ts": 1794200675599,
+ "until": 1794330275599,
+ "body": "The Hindu reports PM2.5 reached 392 µg/m³ at 9:30 pm and the AQI averaged 509 overnight. Hyderabad Mail says IMD forecasts dry conditions from Nov 9.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "509",
+   "l": "average AQI overnight",
+   "tone": "bad",
+   "verdict": "Hazardous air, limit outdoor exposure"
+  }
+ ],
+ "src": [
+  {
+   "name": "The Hindu",
+   "url": "https://www.thehindu.com/news/national/telangana/air-of-deepavali-celebrations-lingers-in-hyderabad-with-aqi-remaining-at-hazardous-levels/article71681358.ece"
+  }
+ ],
+ "verified": true
+}

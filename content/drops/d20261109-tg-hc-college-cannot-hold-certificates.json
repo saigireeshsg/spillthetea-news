@@ -1,0 +1,108 @@
+{
+ "cat": "campus",
+ "lead": "campus",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-95",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Colleges can't hold your original certif",
+ "hook": "Colleges can't hold your original certificates over unpaid fees",
+ "hook_b": "Colleges can't hold your original certificates over unpaid fees",
+ "tldr": "Telangana HC: a college cannot retain original certificates as security for unpaid fees.",
+ "beats": {
+  "what": "The High Court held that colleges cannot retain students' original certificates as security for unpaid fees.",
+  "why": "Students often need originals for jobs, higher studies and visas.",
+  "care": "If a college is holding your originals, you can cite this ruling when asking for them back."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎓",
+    "label": "Unpaid fees"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "HC bars holding originals as security"
+  },
+  "effects": [
+   {
+    "icon": "📄",
+    "label": "Students keep certificates"
+   },
+   {
+    "icon": "📄",
+    "label": "Fee dues remain separate"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Reported by Verdictum on Nov 8."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Has a college ever held your original documents?",
+   "opts": [
+    "Yes",
+    "No",
+    "Know someone",
+    "Not sure"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The ruling",
+   "steps": [
+    {
+     "t": "Problem",
+     "e": "College holds original certificates over unpaid fees"
+    },
+    {
+     "t": "HC",
+     "e": "Cannot be kept as security"
+    },
+    {
+     "t": "Result",
+     "e": "Fee dues stay separate from your documents"
+    }
+   ],
+   "tone": "good",
+   "verdict": "Students' originals are protected",
+   "now": 2
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1c2340",
+   "#4a5fb0"
+  ],
+  "big": "HC ruling",
+  "label": "originals can't be held for fees",
+  "motion": "drift",
+  "scene": [
+   "🎓",
+   "⚖️",
+   "📄"
+  ]
+ },
+ "watch": "Whether colleges change their practice.",
+ "thread": "tg-hc-college-cannot-hold-certificates",
+ "sources": [
+  {
+   "name": "Verdictum",
+   "title": "College Cannot Retain Students' Original Certificates As Security For Unpaid Fees: Telangana High Court",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQa2FXYUE1ZEowb29wSjBINERZRnJydks0SDlwRnM5OXZSbzduNFVGOTlYN0wybWNESEkxNHMzOG9UTk5WOHpDZkdpVVI4T2pwR3k5b1JFUjcyZXdBNUMzeDRCSGN1Rk05clZuUHlCZ0UtT0tLWG5tR1RkaU1kejJzY0FCX0hrRkk1bWJTUk1aaU9CZDJ6QlNCeXNKc2FCbHJJMnhmQUxMeWRuTFpDaTNnajZlaEFVODBTaS1TaXl3U0g4a0dvLXI2T2t0Y9IB0AFBVV95cUxObXdPNXNXMFNuLVZKaEZ6eHlia3VuUmpaT3FwVUlFaV8wRHpzZVQyekU2dVZTS2wzQlBXX2tERFhVeGRGNUZnN3RoRWladFZiZXNtZEl2V055YTVqRGpablFObmxSYUpBMlR3b3ZhSHQ3REVHMnNzZkhSQ2tRNFFZSE1ZZmxMSzZKWXo4UzNNX3BTRXlXaGlkbjNsR2ptSUQ0NUdQZTk0cEZVajV3elprcXFjeXdpTVZxQXlHMGVxS21SdXlSUndHZE1kVTloMHA3?oc=5"
+  }
+ ],
+ "updated": 1794200606808,
+ "city": "Hyderabad",
+ "fact": "Telangana High Court says colleges cannot keep students' original certificates as fee security.",
+ "twist": "The ruling is about holding originals as security, not about waiving the fees."
+}

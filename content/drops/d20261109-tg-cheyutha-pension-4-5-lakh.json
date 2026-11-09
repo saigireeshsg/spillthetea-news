@@ -1,0 +1,107 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-96",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Cheyutha pensions sanctioned for *4.5 la",
+ "hook": "Cheyutha pensions sanctioned for *4.5 lakh* Telangana people",
+ "hook_b": "Cheyutha pensions sanctioned for *4.5 lakh* Telangana people",
+ "tldr": "CM Revanth Reddy sanctioned Cheyutha pensions for 4.5 lakh eligible people.",
+ "beats": {
+  "what": "The scheme covers single women, widows, persons with disabilities, toddy tappers, weavers and filaria patients.",
+  "why": "The pensions were sanctioned at an event in Kodangal on Sunday, Nov 8.",
+  "care": "If you or a relative falls in these groups, ask your local ward or mandal office about eligibility."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧓",
+    "label": "Pension scheme postponed from Dussehra"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "Sanctioned at Kodangal, Nov 8"
+  },
+  "effects": [
+   {
+    "icon": "📋",
+    "label": "4.5 lakh beneficiaries"
+   },
+   {
+    "icon": "📋",
+    "label": "Six groups covered"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat: the launch was initially planned for Dussehra and was postponed."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you know someone who may be eligible?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "4.5 lakh",
+   "l": "people sanctioned Cheyutha pensions",
+   "tone": "good",
+   "verdict": "Pensions sanctioned for six groups"
+  },
+  {
+   "t": "icons",
+   "l": "Groups covered",
+   "of": 6,
+   "icon": "👤",
+   "d": "6 groups",
+   "tone": "neutral",
+   "verdict": "Single women, widows, disabled, toddy tappers, weavers, filaria patients",
+   "n": 6
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "4.5 lakh",
+  "label": "people sanctioned Cheyutha pensions",
+  "motion": "drift",
+  "scene": [
+   "🧓",
+   "🏛️",
+   "📋"
+  ]
+ },
+ "watch": "When the first payments reach accounts.",
+ "thread": "tg-cheyutha-pension-4-5-lakh",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "CM Revanth to launch Cheyathu Pension Scheme on Sunday",
+   "url": "https://www.siasat.com/cm-revanth-to-launch-cheyathu-pension-scheme-on-sunday-3571515/"
+  }
+ ],
+ "updated": 1794200606808,
+ "city": "Hyderabad",
+ "fact": "Telangana sanctioned Cheyutha pensions for *4.5 lakh* people at Kodangal on Nov 8.",
+ "twist": "The scheme was first planned for Dussehra, then postponed to November.",
+ "areas": [
+  "Kodangal",
+  "Telangana"
+ ]
+}

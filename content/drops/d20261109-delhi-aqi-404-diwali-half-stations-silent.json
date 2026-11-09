@@ -1,0 +1,108 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-80",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Delhi's AQI crossed *400*, and half its ",
+ "hook": "Delhi's AQI crossed *400*, and half its monitors went silent",
+ "hook_b": "Delhi's AQI crossed *400*, and half its monitors went silent",
+ "tldr": "Delhi's air slipped into 'severe' after Diwali; Hindustan Times calls it the 3rd worst Diwali since 2021.",
+ "beats": {
+  "what": "The CPCB reported AQI 406 at ITO. Smog spread to Mumbai, Lucknow and other cities, The Hindu reports.",
+  "why": "More than half the air quality stations in the capital stopped reporting around midnight (Hindustan Times).",
+  "care": "Delhi-region readers: check official AQI before outdoor plans; treat gaps in data as unknown, not as clean air."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎆",
+    "label": "Diwali fireworks"
+   }
+  ],
+  "event": {
+   "icon": "🌫️",
+   "label": "Delhi AQI above 400"
+  },
+  "effects": [
+   {
+    "icon": "📉",
+    "label": "Smog in Mumbai, Lucknow"
+   },
+   {
+    "icon": "📉",
+    "label": "Half of stations offline"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Times of India: visibility was greatly reduced as thick smog covered the city early morning."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Did you burst crackers this Diwali?",
+   "opts": [
+    "Yes",
+    "A few",
+    "No",
+    "Not sure"
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "404",
+   "l": "Delhi AQI on Diwali night",
+   "tone": "bad",
+   "verdict": "Severe category; 3rd worst Diwali since 2021"
+  },
+  {
+   "t": "icons",
+   "l": "Stations that stopped reporting",
+   "of": 10,
+   "icon": "📡",
+   "d": "over half",
+   "tone": "bad",
+   "verdict": "Data gaps hide the full picture",
+   "n": 5
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "404",
+  "label": "Delhi AQI on Diwali night",
+  "motion": "drift",
+  "scene": [
+   "🎆",
+   "🌫️",
+   "📉"
+  ]
+ },
+ "watch": "Delhi's AQI through the week.",
+ "thread": "delhi-aqi-404-diwali-half-stations-silent",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Delhi's air quality slips into 'severe' category on Diwali, AQI at 404",
+   "url": "https://timesofindia.indiatimes.com/city/delhi/delhis-air-quality-slips-into-severe-category-on-diwali-aqi-at-404/articleshow/135667552.cms"
+  },
+  {
+   "name": "Hindustan Times",
+   "title": "Delhi records 3rd worst Diwali pollution since 2021, data gaps cloud full picture",
+   "url": "https://www.hindustantimes.com/india-news/delhi-records-3rd-worst-diwali-pollution-since-2021-data-gaps-cloud-full-picture-101794196053430.html"
+  }
+ ],
+ "updated": 1794200606809,
+ "fact": "Delhi's air hit AQI *404* on Diwali night as over half its monitors stopped reporting.",
+ "twist": "With over half the stations offline around midnight, the full picture is missing."
+}
