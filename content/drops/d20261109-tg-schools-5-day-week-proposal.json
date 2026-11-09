@@ -1,0 +1,148 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-70",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Schools, 5-day week",
+ "hook": "Telangana schools could drop Saturdays: a *5-day* week proposal",
+ "hook_b": "Telangana schools could drop Saturdays: a *5-day* week proposal",
+ "tldr": "MLC Malka Komaraiah has proposed a 5-day school week with Saturday holidays in Hyderabad and other districts. The government hasn't decided.",
+ "beats": {
+  "what": "Teachers' MLC Malka Komaraiah submitted a proposal for a 5-day week, with Saturdays as holidays, for schools in Hyderabad and other Telangana districts.",
+  "why": "He cited the El Nino impact, concerns over water availability and climatic conditions (Siasat).",
+  "care": "Parents and students: nothing changes yet. It only applies if the state government accepts the proposal."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌡️",
+    "label": "El Nino, water worries"
+   }
+  ],
+  "event": {
+   "icon": "🏫",
+   "label": "MLC proposes Saturday off"
+  },
+  "effects": [
+   {
+    "icon": "📅",
+    "label": "Govt decision pending"
+   },
+   {
+    "icon": "📅",
+    "label": "Weekly routine could change"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "This is a proposal, not an order. Siasat says the switch happens only if the government accepts it. How lost Saturday class time would be made up is not clear from the report."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "5-day school week in Telangana: your take?",
+   "opts": [
+    "Yes, Saturdays off",
+    "Yes, if syllabus is covered",
+    "No, keep 6 days",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "What reason did the 5-day week proposal cite?",
+   "opts": [
+    "El Nino and water concerns",
+    "Teacher shortage",
+    "Board exam reform",
+    "Metro construction"
+   ],
+   "ans": 0,
+   "why": "Komaraiah cited El Nino, water availability and climatic conditions."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "6 → 5",
+   "l": "school days a week, if accepted",
+   "tone": "neutral"
+  },
+  {
+   "t": "compare",
+   "l": "School days per week",
+   "a": {
+    "v": 6,
+    "d": "6 days",
+    "l": "Now"
+   },
+   "b": {
+    "v": 5,
+    "d": "5 days",
+    "l": "Proposed"
+   },
+   "tone": "neutral",
+   "verdict": "Saturdays off for students, if the govt agrees"
+  },
+  {
+   "t": "timeline",
+   "l": "Where it stands",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Now",
+     "e": "MLC Malka Komaraiah submits proposal"
+    },
+    {
+     "t": "Next",
+     "e": "Govt decides: not announced"
+    },
+    {
+     "t": "If yes",
+     "e": "Saturdays become school holidays"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "6 → 5",
+  "label": "school days a week, if accepted",
+  "motion": "drift",
+  "scene": [
+   "🌡️",
+   "🏫",
+   "📅"
+  ]
+ },
+ "learn": {
+  "t": "MLC = Member of the Legislative Council, the upper house of Telangana's legislature; Komaraiah represents teachers.",
+  "show": false
+ },
+ "watch": "Whether the School Education Department accepts, rejects or modifies the proposal.",
+ "thread": "tg-schools-5-day-week-proposal",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad schools may adopt 5-day week with Saturday holidays",
+   "url": "https://www.siasat.com/hyderabad-schools-may-adopt-5-day-week-with-saturday-holidays-3572053/"
+  }
+ ],
+ "updated": 1794208472127,
+ "city": "Hyderabad",
+ "fact": "A proposal asks Telangana schools to move to a *5-day* week, Saturdays off.",
+ "twist": "The reason given isn't workload: it's El Nino, water shortages and the climate.",
+ "areas": [
+  "Hyderabad",
+  "Telangana"
+ ]
+}

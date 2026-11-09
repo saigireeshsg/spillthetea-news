@@ -1,0 +1,153 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-68",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Diwali eye injuries",
+ "hook": "Firecrackers sent *67* people in Hyderabad to hospital with eye injuries",
+ "hook_b": "Firecrackers sent *67* people in Hyderabad to hospital with eye injuries",
+ "tldr": "By Monday morning at least 67 people had sought treatment for cracker-related eye injuries at Sarojini Devi, Gandhi and Osmania hospitals (Siasat).",
+ "beats": {
+  "what": "At least 67 people, including children, were treated for firecracker eye injuries at Sarojini Devi Eye Hospital (Mehdipatnam), Gandhi Hospital and Osmania General Hospital, per Siasat figures till Monday morning.",
+  "why": "Injuries came from a range of fireworks, and bystanders made up many of the cases, The Hindu reports.",
+  "care": "Most patients were treated without surgery. Eight children need surgery (The Hindu). One patient reportedly lost vision in the right eye (Telangana Today)."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎆",
+    "label": "Diwali firecrackers"
+   }
+  ],
+  "event": {
+   "icon": "👁️",
+   "label": "67 eye injuries treated"
+  },
+  "effects": [
+   {
+    "icon": "🏥",
+    "label": "8 children need surgery"
+   },
+   {
+    "icon": "🏥",
+    "label": "1 reported vision loss"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Outlets report different counts because they covered different hospitals and times. Telangana Today: about 35 at Sarojini Devi, six admitted, including four children. Deccan Chronicle: 48 at Sarojini Devi. NewsBytes: 60 at Sarojini Devi. Siasat: 67 across Sarojini Devi, Gandhi and Osmania, till Monday morning."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "After this, what's your cracker plan next Diwali?",
+   "opts": [
+    "Skip crackers",
+    "Only with eye safety",
+    "Same as always",
+    "Never burst them"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which hospital took most of Hyderabad's Diwali eye cases?",
+   "opts": [
+    "Sarojini Devi Eye Hospital",
+    "NIMS",
+    "Niloufer Hospital",
+    "ESI Hospital"
+   ],
+   "ans": 0,
+   "why": "The state-run eye hospital in Mehdipatnam treated most cases."
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "67",
+   "l": "cracker eye injuries, 3 hospitals",
+   "tone": "neutral"
+  },
+  {
+   "t": "icons",
+   "l": "Patients at Sarojini Devi who were children",
+   "n": 5,
+   "of": 10,
+   "icon": "🧒",
+   "d": "nearly half",
+   "tone": "bad",
+   "verdict": "Children were nearly half the cases (The Hindu)"
+  },
+  {
+   "t": "timeline",
+   "l": "Counts reported on Nov 9, by outlet",
+   "now": 3,
+   "steps": [
+    {
+     "t": "Telangana Today",
+     "e": "~35 at Sarojini Devi"
+    },
+    {
+     "t": "Deccan Chronicle",
+     "e": "48 at Sarojini Devi"
+    },
+    {
+     "t": "NewsBytes",
+     "e": "60 at Sarojini Devi"
+    },
+    {
+     "t": "Siasat",
+     "e": "67 across 3 hospitals"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "67",
+  "label": "cracker eye injuries, 3 hospitals",
+  "motion": "drift",
+  "scene": [
+   "🎆",
+   "👁️",
+   "🏥"
+  ]
+ },
+ "watch": "Final Diwali counts from Sarojini Devi Eye Hospital and follow-up on surgical cases.",
+ "thread": "hyd-diwali-eye-injuries-67",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Firecrackers leave 67 with eye injuries in Hyderabad",
+   "url": "https://www.siasat.com/firecrackers-leave-67-with-eye-injuries-in-hyderabad-3572065/"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Children make up nearly half of Deepavali eye-injury cases at Hyderabad hospital",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/children-make-up-nearly-half-of-deepavali-eye-injury-cases-at-hyderabad-hospital/article71681416.ece"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad: Nearly 35 suffer firecracker-related eye injuries during Diwali",
+   "url": "https://telanganatoday.com/hyderabad-nearly-35-suffer-firecracker-related-eye-injuries-during-diwali"
+  }
+ ],
+ "updated": 1794208472129,
+ "city": "Hyderabad",
+ "fact": "At least *67* people in Hyderabad suffered firecracker eye injuries this Diwali.",
+ "twist": "Nearly half the cases at Sarojini Devi Eye Hospital were children, and many were bystanders.",
+ "areas": [
+  "Mehdipatnam",
+  "Secunderabad",
+  "Afzal Gunj"
+ ]
+}

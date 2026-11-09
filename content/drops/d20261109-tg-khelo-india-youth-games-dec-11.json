@@ -1,0 +1,133 @@
+{
+ "cat": "sport",
+ "lead": "sport",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-64",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "Khelo India Youth Games",
+ "hook": "Khelo India Youth Games come to Telangana: *6,050+* athletes, 12 days",
+ "hook_b": "Khelo India Youth Games come to Telangana: *6,050+* athletes, 12 days",
+ "tldr": "Telangana hosts the Khelo India Youth Games from December 11 to 22, with 27 sports across six cities (Telangana Today).",
+ "beats": {
+  "what": "The Khelo India Youth Games run December 11–22 in Telangana, with 27 competitive sports and sailing as a demonstration event.",
+  "why": "It's a 12-day national youth sports meet, spread over six cities in the state.",
+  "care": "A national multi-sport event is coming to Telangana next month. Venues and ticket details were not in the report."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏟️",
+    "label": "Telangana picked as host"
+   }
+  ],
+  "event": {
+   "icon": "🏅",
+   "label": "Games: Dec 11–22"
+  },
+  "effects": [
+   {
+    "icon": "🏃",
+    "label": "6,050+ athletes arrive"
+   },
+   {
+    "icon": "🏃",
+    "label": "Events in six cities"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "More than 6,050 athletes are expected. The report says six cities will host events; the full venue list and spectator details are not out yet."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Khelo India in Telangana: will you go watch?",
+   "opts": [
+    "Yes, for sure",
+    "If it's near me",
+    "Only on TV/stream",
+    "Not my thing"
+   ]
+  },
+  {
+   "k": "quiz",
+   "q": "Which sport is a demonstration event at these Games?",
+   "opts": [
+    "Sailing",
+    "Cricket",
+    "Chess",
+    "Golf"
+   ],
+   "ans": 0,
+   "why": "Sailing joins the 27 competitive sports as a demo event."
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The Games calendar",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Dec 11",
+     "e": "Games open in Telangana"
+    },
+    {
+     "t": "12 days",
+     "e": "27 sports + sailing demo, six cities"
+    },
+    {
+     "t": "Dec 22",
+     "e": "Closing day"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "6,050+",
+   "l": "athletes expected",
+   "tone": "neutral",
+   "verdict": "National youth meet, Telangana hosts"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b1a10",
+   "#b5651d"
+  ],
+  "big": "27",
+  "label": "sports at the Youth Games",
+  "motion": "drift",
+  "scene": [
+   "🏟️",
+   "🏅",
+   "🏃"
+  ]
+ },
+ "learn": {
+  "t": "Khelo India Youth Games = India's national multi-sport meet for young athletes, run under the Khelo India scheme.",
+  "show": false
+ },
+ "watch": "Venue list, schedule by sport and spectator entry details.",
+ "thread": "tg-khelo-india-youth-games-dec-11",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana to host Khelo India Youth Games from December 11; 27 sports on schedule",
+   "url": "https://telanganatoday.com/telangana-to-host-khelo-india-youth-games-from-december-11-27-sports-on-schedule"
+  }
+ ],
+ "updated": 1794208472130,
+ "city": "Hyderabad",
+ "fact": "Telangana will host *6,050+* young athletes at the Khelo India Youth Games from Dec 11.",
+ "twist": "Besides 27 medal sports, sailing will feature as a demonstration event.",
+ "areas": [
+  "Hyderabad",
+  "Telangana"
+ ]
+}
