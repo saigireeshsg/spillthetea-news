@@ -140,16 +140,11 @@
  "fact": "Hyderabad's air averaged an AQI of *509* overnight after Deepavali.",
  "twist": "Begumpet's AQI hit *828* on Diwali night, Siasat reports, and the week's forecast is dry.",
  "areas": [
-<<<<<<< Updated upstream
-  "Hyderabad",
+ "Hyderabad",
   "Begumpet"
- ]
-=======
-  "Hyderabad"
  ],
  "img": {
   "u": "https://th-i.thgim.com/public/news/international/qu680/article71681360.ece/alternates/LANDSCAPE_1200/TelanganaAQI.jpg",
   "c": "The Hindu"
  }
->>>>>>> Stashed changes
 }
