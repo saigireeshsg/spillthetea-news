@@ -206,7 +206,6 @@
 </style>
 <style>
 .dig{margin:12px 0;padding:12px;border-radius:14px;background:linear-gradient(135deg,#1f6feb22,#8a5cf622);border:1px solid #1f6feb44}.dig>b{font-size:13px;display:block;margin-bottom:6px}.dig .dq{margin:6px 0 0;padding:0;list-style:none}.dig .dq li{font-size:14px;font-weight:700;line-height:1.35;padding:6px 0;border-top:1px dashed #ffffff22}.dig .dq li:first-child{border-top:0}.dig .df{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;margin-top:8px;padding-top:8px;border-top:1px solid #ffffff22;align-items:center}.dig .df big{font-size:22px;font-weight:900;color:#7fb2ff;line-height:1}.dig .df p{margin:0;font-size:13px;line-height:1.35}.dig .df small{grid-column:2;font-size:11px;opacity:.7}.dig .df a{color:inherit}.ndig{margin:0 0 8px;padding:8px 10px;border-radius:10px;background:#1f6feb1c;font-size:13px;line-height:1.3}.ndig b{color:#7fb2ff}
-.layers{display:flex;gap:6px;overflow-x:auto;padding:8px 0 10px;scrollbar-width:none}.layers::-webkit-scrollbar{display:none}.lyr{display:inline-flex;align-items:center;gap:6px;flex:0 0 auto;padding:7px 12px;border-radius:999px;border:1px solid #ffffff2a;background:transparent;color:inherit;font:600 13px/1 inherit;cursor:pointer}.lyr svg{width:15px;height:15px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.lyr[aria-pressed="true"]{background:#ff6a2b;border-color:#ff6a2b;color:#fff}
 .na .nfact{font-size:24px!important;line-height:1.18!important;font-weight:900!important}.na .nstory li small{font-size:10px}.na .nstory p,.na .nstory li div{font-size:13px;line-height:1.35;opacity:.88}.na .ntwist2 p{font-size:12.5px!important;font-weight:600!important}.na .ndig{font-size:12px}
 .ntwist2{display:grid;grid-template-columns:28px 1fr;gap:8px;padding:10px 12px;margin:0 0 10px;border-radius:12px;background:linear-gradient(135deg,#ff450022,#ffd16622);border:1px solid #ff450040}
 .ntwist2 span{font-size:22px}.ntwist2 small{font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:#ffb84d;font-weight:800}.ntwist2 p{margin:2px 0 0;font-size:14px;font-weight:700;line-height:1.35}
@@ -1503,12 +1502,6 @@ const dAge=d=>d.date?ageDays(d.date):0;
 // Only today's stories reach the feed (older ones live inside their story thread). Before 7am, the latest day's stories show as "yesterday's tea".
 const isStale=()=>!visibleAll().some(d=>dAge(d)===0);
 
-let layer="all";try{layer=sessionStorage.getItem("spill_layer")||"all"}catch(_){}
-const LI={near:'<svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>',city:'<svg viewBox="0 0 24 24"><path d="M4 21V8l6-3v16M10 21V10l10 3v8M2 21h20"/></svg>',state:'<svg viewBox="0 0 24 24"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg>',india:'<svg viewBox="0 0 24 24"><path d="M5 21V4M5 4h13l-3 4 3 4H5"/></svg>',world:'<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg>',all:'<svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.8 6.3.7-4.7 4.3 1.3 6.2L12 17l-5.6 3 1.3-6.2L3 9.5l6.3-.7z"/></svg>'};
-const CITYRX=/hyderabad|cyberabad|secunderabad|ghmc|hmda|hydraa|tgsrtc|charminar|madhapur|gachibowli|jubilee|banjara|kukatpally|uppal|lb nagar|begumpet|ameerpet|ladki|tolichowki|old city|orr\b|metro/i;
-function layerOf(d){const t=(d.hook||"")+" "+(d.fact||"")+" "+(d.tldr||"");if(d.layer)return d.layer;if(d.cat==="world")return"world";if(d.cat==="local"||d.cat==="campus"){return nearArea(d)||CITYRX.test(t)||(d.areas||[]).length?"city":"state"}return"india"}
-function layerHTML(){const L=[["all","For you"],["near","Near you"],["city",me.city||"City"],["state","Telangana"],["india","India"],["world","World"]];return `<div class="layers" role="tablist" aria-label="News layers">${L.map(([k,n])=>`<button class="lyr" data-layer="${k}" aria-pressed="${layer===k}">${LI[k]}${esc(n)}</button>`).join("")}</div>`}
-document.addEventListener("click",e=>{const b=e.target.closest("[data-layer]");if(!b)return;e.preventDefault();layer=b.dataset.layer;try{sessionStorage.setItem("spill_layer",layer)}catch(_){}try{window.spillRerender?window.spillRerender():feed()}catch(_){}},true);
 function feedPool(){
   const v=visibleAll();if(!v.length)return[];
   let pool=v.filter(d=>dAge(d)<=1);if(pool.length<4)pool=v.filter(d=>dAge(d)<=2); // today + yesterday only: older stories drop out of the feed on their own
@@ -1724,18 +1717,17 @@ function feed(){
     h+=greetHTML(done,total,pc,fresh);
     h+=voteBarHTML(feedPool());
     h+=tickerHTML();
-    h+=layerHTML();
   }
   if(!list.length){$("#view").innerHTML=h+`<div class="end"><span class="big">🫖</span><b>No tea yet</b><span>Fresh stories land here every morning.</span></div>`+(filter==="all"?extrasHTML():"");return}
   const stale=isStale();
   const cap=(k,arr,n)=>{const show=showAll[k]?arr:arr.slice(0,n);return show.map(cardHTML).join("")+(arr.length>show.length?`<button class="more" data-act="more" data-key="${k}">Show ${arr.length-show.length} more ↓</button>`:"")};
   if(filter==="all"){
-    const LF=x=>layer==="all"?true:layer==="near"?nearArea(x):layerOf(x)===layer;const fol=list.filter(d=>isFollow(d)&&!me.done[d.id]),rest=list.filter(d=>!fol.includes(d)&&LF(d));
+    const fol=list.filter(d=>isFollow(d)&&!me.done[d.id]),rest=list.filter(d=>!fol.includes(d));
     if(fol.length)h+=`<div class="sect"><span>🔔 Stories you follow</span></div>`+fol.map(cardHTML).join("");
     if(!me.city)h+=`<button class="setloc" data-act="pickcity">📍 Pick your city to get local news and live alerts →</button>`;
     else if(areasFor(me.city).length&&!me.area)h+=`<button class="setloc" data-act="area">📍 Add your area (${esc(areasFor(me.city).slice(0,2).join(", "))}…) so news near you comes first →</button>`;
     h+=developingHTML();
-    h+=`<div class="sect"><span>${stale?"☕ Yesterday's tea · today's lands at 7am":"✨ For you"}</span><button data-act="whyorder">why this order?</button></div>`+(rest.length?cap("rest",rest,layer==="all"?5:50):`<div class="end"><b>Nothing here yet</b><span>${layer==="near"?"Pick your area to see news near you.":"Fresh stories land here through the day."}</span></div>`);
+    h+=`<div class="sect"><span>${stale?"☕ Yesterday's tea · today's lands at 7am":"✨ For you"}</span><button data-act="whyorder">why this order?</button></div>`+cap("rest",rest,5);
     h+=extrasHTML();
   } else h+=list.map(cardHTML).join("");
   h+=`<div class="end"><span class="big">${done>=total?"🏆":"🫖"}</span><b>${done>=total?"Done for today. You know what's going on.":"That's today's tea"}</b><span>${done}/${total} caught up · fresh stories tomorrow at 7am</span>${done>=total&&total?bonusHTML()+tomorrowHTML():""}${window.spillPush&&window.spillPush.has("news")?"":`<button class="ldo" data-alertme="done" style="margin-top:10px">🔔 Get tomorrow morning's Hyderabad brief</button>`}${done>=total&&total?`<button class="recapbtn" data-act="recap" style="margin-top:8px"><span>🌙 See what you learned today</span><small>→</small></button>`:""}</div>`;
