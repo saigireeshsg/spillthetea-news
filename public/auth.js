@@ -39,8 +39,21 @@
     });
     document.body.appendChild(el);
   }
+  function loadJs(u) { return new Promise((res, rej) => { const x = document.createElement("script"); x.src = u; x.onload = res; x.onerror = () => rej(new Error("Couldn't load Google sign-in. Check your connection.")); document.head.appendChild(x); }); }
   async function google(up) {
     const sb = SB(); if (!sb) throw new Error("Sign-in is offline right now.");
+    if (C.firebase && C.firebase.apiKey) { // fast path: Firebase popup, no page reload until done
+      const V = "10.12.2", B = "https://cdnjs.cloudflare.com/ajax/libs/firebase/" + V + "/";
+      if (!window.firebase) { await loadJs(B + "firebase-app-compat.min.js"); await loadJs(B + "firebase-auth-compat.min.js"); }
+      const fb = window.firebase; if (!fb.apps.length) fb.initializeApp(C.firebase);
+      let cred; try { cred = await fb.auth().signInWithPopup(new fb.auth.GoogleAuthProvider()); } catch (e) { throw new Error(e && e.code === "auth/popup-closed-by-user" ? "Sign-in cancelled." : e && e.code === "auth/unauthorized-domain" ? "This site isn't authorised in Firebase yet." : "Google sign-in failed. Try again."); }
+      const idt = await cred.user.getIdToken();
+      const r = await fetch(C.supabaseUrl + "/functions/v1/firebase-auth", { method: "POST", headers: { "Content-Type": "application/json", apikey: C.supabaseAnonKey, Authorization: "Bearer " + C.supabaseAnonKey }, body: JSON.stringify({ id_token: idt }) });
+      const j = await r.json().catch(() => ({})); if (!j.token_hash) throw new Error(j.error === "not_configured" ? "Google sign-in isn't switched on yet." : "Google sign-in failed. Try again.");
+      const { error } = await sb.auth.verifyOtp({ token_hash: j.token_hash, type: "magiclink" }); if (error) throw error;
+      try { await fb.auth().signOut(); } catch (_) {}
+      location.reload(); return;
+    }
     const opts = { redirectTo: REDIR() };
     if (up && user && user.is_anonymous) { const { error } = await sb.auth.linkIdentity({ provider: "google", options: opts }); if (error) throw new Error(/manual linking|not enabled|provider/i.test(error.message) ? "Google sign-up isn't switched on yet." : error.message); return; }
     const { error } = await sb.auth.signInWithOAuth({ provider: "google", options: opts });
