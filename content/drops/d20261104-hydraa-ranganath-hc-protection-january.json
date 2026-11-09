@@ -110,5 +110,9 @@
  "areas": [
   "Hyderabad"
  ],
- "storyline": "hydraa"
+ "storyline": "hydraa",
+ "img": {
+  "u": "https://cf-images.assettype.com/thenewsminute%2F2026-07-01%2Fuzcutohn%2Ftelangana-high-court.avif?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop",
+  "c": "The News Minute"
+ }
 }

@@ -104,5 +104,9 @@
  ],
  "updated": 1794200606809,
  "fact": "Delhi's air hit AQI *404* on Diwali night as over half its monitors stopped reporting.",
- "twist": "With over half the stations offline around midnight, the full picture is missing."
+ "twist": "With over half the stations offline around midnight, the full picture is missing.",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135668368,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ }
 }

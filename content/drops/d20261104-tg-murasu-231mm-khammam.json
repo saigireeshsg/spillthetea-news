@@ -122,5 +122,9 @@
  "areas": [
   "Hyderabad"
  ],
- "storyline": "bay-cyclone-2026"
+ "storyline": "bay-cyclone-2026",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Telangana-Cyclone-Murasu-brings-over-230-mm-rain-to-Bhadradri-Kothagudem-Khammam.jpeg",
+  "c": "Telangana Today"
+ }
 }

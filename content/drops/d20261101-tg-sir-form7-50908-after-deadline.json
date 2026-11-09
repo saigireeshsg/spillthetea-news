@@ -90,5 +90,9 @@
   }
  ],
  "updated": 1793538991892,
- "city": "Hyderabad"
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/SIR-notices-1.jpg",
+  "c": "Telangana Today"
+ }
 }

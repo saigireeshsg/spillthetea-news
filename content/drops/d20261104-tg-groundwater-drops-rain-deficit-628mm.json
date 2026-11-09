@@ -112,5 +112,9 @@
  "areas": [
   "Hyderabad"
  ],
- "storyline": "hyd-water-crisis"
+ "storyline": "hyd-water-crisis",
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/k0i4sp/article71664141.ece/alternates/LANDSCAPE_1200/09092025_heavy%20rains%20the%20groundwater%20level%20has%20gone%20up%20%2003.jpg",
+  "c": "The Hindu"
+ }
 }

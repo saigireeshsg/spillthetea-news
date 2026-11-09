@@ -123,5 +123,9 @@
  "city": "Hyderabad",
  "fact": "A conductor pushed off a moving bus over *₹90* in change has died.",
  "twist": "The passenger paid ₹100 for a half ticket; the ₹10 ticket carried a note of the ₹90 balance owed.",
- "areas": []
+ "areas": [],
+ "img": {
+  "u": "https://media.assettype.com/dailypioneer%2F2026-10-26%2Ftvq223q2%2FHVhv05YW8AACxs.jpg?rect=0%2C200%2C960%2C504&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop",
+  "c": "The Daily Pioneer"
+ }
 }
