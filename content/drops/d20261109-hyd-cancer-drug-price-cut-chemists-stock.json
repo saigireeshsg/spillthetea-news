@@ -1,0 +1,138 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-09",
+ "sort": "2026-11-09-70",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "Cancer drug price cuts",
+ "hook": "New cancer-drug prices start, but Hyderabad shelves still hold *old-MRP* stock",
+ "hook_b": "New cancer-drug prices start, but Hyderabad shelves still hold *old-MRP* stock",
+ "tldr": "Revised cancer-drug MRPs apply from 9 Nov. Telangana chemists say existing stock bought at higher prices must be returned for reprinted MRPs, so cheaper medicines may take days or weeks to reach shelves.",
+ "beats": {
+  "what": "Revised lower MRPs for anti-cancer drugs began. Hyderabad chemists say they paid upfront or on credit for stock at pre-revision prices.",
+  "why": "Selling old stock at new prices would wipe out margins, the Telangana Druggists and Chemists Association said; stock must go upstream to makers for new MRPs.",
+  "care": "Patients may see a gap of days or weeks before cheaper cancer medicines reach retail shelves."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💊",
+    "label": "Revised cancer-drug MRPs"
+   }
+  ],
+  "event": {
+   "icon": "🏪",
+   "label": "Chemists hold old-price stock"
+  },
+  "effects": [
+   {
+    "icon": "🧾",
+    "label": "Stock returned to makers for new MRPs"
+   },
+   {
+    "icon": "🧾",
+    "label": "Cheaper drugs may reach shelves late"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: chemists warn of temporary supply bottlenecks until manufacturers issue credit adjustments and fresh stock with revised MRPs arrives."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Have you or family bought cancer medicines recently?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How long will old-MRP stock take to clear, and who bears the cost in the meantime?"
+   ],
+   "facts": [
+    {
+     "big": "Rs 4,840",
+     "t": "A cancer drug priced at Rs 28,000 is to cost *Rs 4,840* under new rules",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/cancer-drug-priced-at-rs-28000-to-cost-rs-4840-under-new-rules"
+    },
+    {
+     "big": "137",
+     "t": "Centre capped trade margins on *137* anti-cancer drugs at 30% of MRP",
+     "s": "The Hans India",
+     "u": "https://www.thehansindia.com/business/govt-caps-trade-margins-on-137-anti-cancer-drugs-at-30-pc-of-mrp-1133509"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "One cancer drug, price per pack",
+   "a": {
+    "v": 28000,
+    "d": "Rs 28,000",
+    "l": "before"
+   },
+   "b": {
+    "v": 4840,
+    "d": "Rs 4,840",
+    "l": "new rules"
+   },
+   "goodIfUp": false,
+   "tone": "good",
+   "verdict": "Patients pay less per pack; chemists carry old-price stock until new MRPs arrive"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Rs 28,000 to Rs 4,840",
+  "label": "one cancer drug under new rules",
+  "motion": "drift",
+  "scene": [
+   "💊",
+   "🏪",
+   "🧾"
+  ]
+ },
+ "insight": "Chemists say old stock must go back to makers for reprinted MRPs.",
+ "learn": {
+  "t": "MRP = maximum retail price printed on a medicine pack"
+ },
+ "watch": "Whether manufacturers issue credit adjustments and fresh stock with revised MRPs, and how fast it reaches Hyderabad shops.",
+ "thread": "hyd-cancer-drug-price-cut-chemists-stock",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad pharmacies face hurdles in implementing cancer drug price cuts",
+   "url": "https://telanganatoday.com/hyderabad-pharmacies-face-hurdles-in-implementing-cancer-drug-price-cuts"
+  }
+ ],
+ "updated": 1794235945614,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Cancer-Drug-1.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Hyderabad chemists hold *multi-crore* oncology stock bought at old prices as cheaper MRPs begin.",
+ "twist": "One cancer drug listed at Rs 28,000 is to cost Rs 4,840 under the new rules, Telangana Today reported.",
+ "areas": [
+  "Hyderabad",
+  "Abids",
+  "Koti",
+  "Nampally",
+  "Banjara Hills"
+ ]
+}
