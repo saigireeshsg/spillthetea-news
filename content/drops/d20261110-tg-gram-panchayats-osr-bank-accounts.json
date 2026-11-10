@@ -1,0 +1,132 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-70",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Telangana villages to keep own revenue in *bank* accounts, not treasury",
+ "hook_b": "Telangana villages to keep own revenue in *bank* accounts, not treasury",
+ "tldr": "The Panchayat Raj Department told District Panchayat Officers to open zero-balance 'OSR Account' savings accounts for every gram panchayat.",
+ "beats": {
+  "what": "Accounts will be at designated SBI and Union Bank branches and used only for own-source revenue.",
+  "why": "The Telangana Panchayat Raj (Fourth Amendment) Act, 2026 changed Section 70(3), in force from Oct 9, 2026.",
+  "care": "Village taxes and fees will now sit in dedicated bank accounts managed by the panchayats."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📜",
+    "label": "Panchayat Raj Act amendment"
+   }
+  ],
+  "event": {
+   "icon": "🏦",
+   "label": "Separate OSR bank accounts"
+  },
+  "effects": [
+   {
+    "icon": "🏘️",
+    "label": "Treasury routing ends"
+   },
+   {
+    "icon": "🏘️",
+    "label": "SBI/UBI branches assigned"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu: Commissioner Divya Devarajan directed DPOs to open 'OSR Account – [GP name]' accounts; Rangareddy, Sangareddy and Siddipet are among SBI districts."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should village councils control their own revenue directly?",
+   "opts": [
+    "Yes",
+    "No",
+    "Depends on oversight",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who audits spending from the new OSR accounts?"
+   ],
+   "facts": [
+    {
+     "big": "Oct 9",
+     "t": "The Panchayat Raj (Fourth Amendment) Act, 2026 came into force on *October 9, 2026*.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/telangana-directs-gram-panchayats-to-open-separate-bank-accounts-for-own-revenue/article71685533.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "Districts by designated bank",
+   "parts": [
+    {
+     "l": "SBI",
+     "v": 15,
+     "d": "15"
+    },
+    {
+     "l": "Union Bank",
+     "v": 16,
+     "d": "16"
+    }
+   ],
+   "total": "31 districts",
+   "tone": "neutral",
+   "verdict": "Every district gets designated branches"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "31",
+  "label": "districts covered",
+  "motion": "drift",
+  "scene": [
+   "📜",
+   "🏦",
+   "🏘️"
+  ]
+ },
+ "learn": {
+  "t": "OSR = Own Source Revenue, money a panchayat raises itself (taxes, fees)."
+ },
+ "watch": "Banks have been asked to open and configure accounts on priority; no deadline given.",
+ "thread": "tg-gram-panchayats-osr-bank-accounts",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana directs Gram Panchayats to open separate bank accounts for own revenue",
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-directs-gram-panchayats-to-open-separate-bank-accounts-for-own-revenue/article71685533.ece"
+  }
+ ],
+ "updated": 1794311790931,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/z8bxp0/article71685971.ece/alternates/LANDSCAPE_1200/MEMAU_27_8_2026_17_2_6_1_3111.JPG",
+  "c": "The Hindu"
+ },
+ "fact": "Telangana gram panchayats must now bank their own revenue, *not* route it via treasury.",
+ "twist": "SBI handles 15 districts and Union Bank 16 under the new zero-balance OSR accounts.",
+ "layer": "state",
+ "areas": [
+  "Rangareddy",
+  "Sangareddy",
+  "Siddipet"
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "transport",
+ "hook": "Hyderabad airport's Runway 09R moves from *CAT II* to *CAT III*",
+ "hook_b": "Hyderabad airport's Runway 09R moves from *CAT II* to *CAT III*",
+ "tldr": "GMR Hyderabad International Airport commissioned CAT III airfield ground lighting on Runway 09R, letting planes operate in much lower visibility.",
+ "beats": {
+  "what": "Upgrades include CAT III runway lighting, advanced monitoring and stand guidance lights for pilots.",
+  "why": "Winter fog causes diversions and delays; the move from CAT II to CAT III is meant to cut those.",
+  "care": "Flying out of or into Hyderabad this winter? Fewer fog diversions are the stated goal."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌫️",
+    "label": "Winter fog season"
+   }
+  ],
+  "event": {
+   "icon": "🛬",
+   "label": "CAT III lighting on Runway 09R"
+  },
+  "effects": [
+   {
+    "icon": "🕒",
+    "label": "Fewer diversions expected"
+   },
+   {
+    "icon": "🕒",
+    "label": "More reliable schedules"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: GHIAL commissioned CAT III Airfield Ground Lighting for Runway 09R, plus Stand Manoeuvring Guidance Lights and a PLC-SCADA control system at the Airport Predictive Operation Centre."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Has fog ever delayed or diverted a flight you took?",
+   "opts": [
+    "Yes",
+    "No",
+    "Never flown in winter",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many flights were diverted from Hyderabad by fog last winter?"
+   ],
+   "facts": [
+    {
+     "big": "CAT II → III",
+     "t": "The upgrade moves Runway 09R from *CAT II* to *CAT III* capability.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-airport-upgrades-runway-09r-for-cat-iii-operations"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What was upgraded",
+   "steps": [
+    {
+     "t": "Runway",
+     "e": "CAT III-compliant lighting"
+    },
+    {
+     "t": "Stands",
+     "e": "Stand Manoeuvring Guidance Lights"
+    },
+    {
+     "t": "Control",
+     "e": "PLC-SCADA monitoring from APOC"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Systems for low-visibility operations"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "CAT III",
+  "label": "Runway 09R capability",
+  "motion": "drift",
+  "scene": [
+   "🌫️",
+   "🛬",
+   "🕒"
+  ]
+ },
+ "learn": {
+  "t": "CAT III = the highest instrument landing category, allowing landings in very low visibility."
+ },
+ "watch": "Whether fog-related diversions at Hyderabad fall this winter.",
+ "thread": "hyd-airport-runway-09r-cat-iii-fog",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad Airport upgrades Runway 09R for CAT III operations",
+   "url": "https://telanganatoday.com/hyderabad-airport-upgrades-runway-09r-for-cat-iii-operations"
+  }
+ ],
+ "updated": 1794311790930,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Untitled-1-13.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Hyderabad airport's Runway *09R* can now handle *CAT III* low-visibility landings.",
+ "twist": "Even the runway lights are now run centrally by an indigenously developed PLC-SCADA system from the airport's operations centre.",
+ "layer": "city",
+ "areas": [
+  "Shamshabad"
+ ]
+}

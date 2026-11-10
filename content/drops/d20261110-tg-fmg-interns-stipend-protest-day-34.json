@@ -1,0 +1,145 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-82",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "FMG interns get *Rs 5,000*; local MBBS interns *Rs 29,792*",
+ "hook_b": "FMG interns get *Rs 5,000*; local MBBS interns *Rs 29,792*",
+ "tldr": "Foreign Medical Graduate interns' statewide protest hit day 34, with police detaining protesters near the Telangana Medical Council office in Koti.",
+ "beats": {
+  "what": "Tuesday was the sixth day of a relay hunger strike; interns work in government teaching hospitals.",
+  "why": "They demand stipend parity, clearance of arrears and protection from disciplinary action.",
+  "care": "These interns staff government teaching hospitals across Telangana."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💸",
+    "label": "Stipend gap with local interns"
+   }
+  ],
+  "event": {
+   "icon": "🩺",
+   "label": "Day 34 protest, police detain interns"
+  },
+  "effects": [
+   {
+    "icon": "✊",
+    "label": "Hunger strike continues"
+   },
+   {
+    "icon": "✊",
+    "label": "Medical bodies seek talks"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: Day 34 of protests, day 6 of relay hunger strike; police detained protesters near TSMC office, Koti. TJUDA and medical bodies urged Health Minister Damodar Raja Narasimha to intervene."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should interns with the same workload get the same stipend?",
+   "opts": [
+    "Yes",
+    "No",
+    "Depends",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What does the health department say about the stipend gap?",
+    "How many FMG interns are posted in Telangana hospitals?"
+   ],
+   "facts": [
+    {
+     "big": "6th",
+     "t": "Tuesday was the *sixth day* of the relay hunger strike and the 34th day of protests.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/fmg-interns-face-police-action-near-tsmc-office-as-hunger-strike-enters-critical-phase"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Monthly intern stipend",
+   "a": {
+    "v": 29792,
+    "d": "₹29,792",
+    "l": "Local MBBS"
+   },
+   "b": {
+    "v": 5000,
+    "d": "₹5,000",
+    "l": "FMG intern"
+   },
+   "tone": "bad",
+   "verdict": "FMG interns get about one-sixth for the same clinical work, they say"
+  },
+  {
+   "t": "timeline",
+   "l": "Protest so far",
+   "steps": [
+    {
+     "t": "Since Jan 2026",
+     "e": "Stipend arrears pending, per interns"
+    },
+    {
+     "t": "Day 34 (Tue)",
+     "e": "6th day of relay hunger strike; police detain protesters at Koti"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "No talks announced yet"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "34",
+  "label": "days of protest",
+  "motion": "drift",
+  "scene": [
+   "💸",
+   "🩺",
+   "✊"
+  ]
+ },
+ "learn": {
+  "t": "FMG = Foreign Medical Graduate, an Indian who studied medicine abroad."
+ },
+ "watch": "Whether the health department meets the interns; no talks announced in the report.",
+ "thread": "tg-fmg-interns-stipend-protest-day-34",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "FMG interns face police action near TSMC office as hunger strike enters critical phase",
+   "url": "https://telanganatoday.com/fmg-interns-face-police-action-near-tsmc-office-as-hunger-strike-enters-critical-phase"
+  }
+ ],
+ "updated": 1794311790931,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/FMG-protest.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "FMG interns earn *Rs 5,000* a month; local MBBS interns get *Rs 29,792*.",
+ "twist": "Their stipend arrears have been pending since January 2026, per the protesters.",
+ "layer": "state",
+ "areas": [
+  "Koti"
+ ]
+}

@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-88",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "metro",
+ "hook": "Old City Metro: *833* of 888 properties already acquired",
+ "hook_b": "Old City Metro: *833* of 888 properties already acquired",
+ "tldr": "Prep work on the 7.5-km Darulshifa–Chandrayangutta Metro is speeding up: utilities are being mapped, and civil works tenders are expected late Nov or early Dec.",
+ "beats": {
+  "what": "Officials are probing water pipelines, drainage lines and service connections to shift them before digging begins.",
+  "why": "Road widening and Metro works need 888 properties; over Rs 800 crore has been paid to owners so far.",
+  "care": "Expect phased demolitions and possible traffic changes along the Old City stretch in the coming weeks."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Road widening + Metro land"
+   }
+  ],
+  "event": {
+   "icon": "🚇",
+   "label": "Utility shifting and tenders next"
+  },
+  "effects": [
+   {
+    "icon": "🚧",
+    "label": "Phased demolitions"
+   },
+   {
+    "icon": "🚧",
+    "label": "Construction from January"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: 833 properties acquired, ~55 left. Tenders for pillars and elevated corridor due late Nov/early Dec; MGBS–Chandrayangutta construction targeted to start in January."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you use the Old City Metro once it opens?",
+   "opts": [
+    "Yes, regularly",
+    "Sometimes",
+    "Probably not",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will the heritage structures on the route be handled?",
+    "What traffic changes will demolitions bring to the Old City?"
+   ],
+   "facts": [
+    {
+     "big": "Rs 800 cr+",
+     "t": "Compensation of *over Rs 800 crore* has already been paid to property owners.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/preparatory-works-gather-pace-for-darulshifa-chandrayangutta-metro-corridor"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Properties acquired",
+   "v": 833,
+   "max": 888,
+   "unit": "",
+   "tone": "neutral",
+   "verdict": "55 left, some of them heritage structures",
+   "d": "833 / 888",
+   "note": "Telangana Today, Nov 10"
+  },
+  {
+   "t": "timeline",
+   "l": "What comes next",
+   "steps": [
+    {
+     "t": "Now",
+     "e": "Utilities mapped and shifted"
+    },
+    {
+     "t": "Late Nov / early Dec",
+     "e": "Civil works tenders"
+    },
+    {
+     "t": "January",
+     "e": "MGBS–Chandrayangutta construction targeted"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Old City commuters: phased demolitions before work starts"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "7.5 km",
+  "label": "Darulshifa–Chandrayangutta corridor",
+  "motion": "drift",
+  "scene": [
+   "🏗️",
+   "🚇",
+   "🚧"
+  ]
+ },
+ "watch": "Civil works tenders expected late November or early December; construction targeted for January.",
+ "thread": "hyd-darulshifa-chandrayangutta-metro-55-properties-left",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Preparatory works gather pace for Darulshifa-Chandrayangutta Metro corridor",
+   "url": "https://telanganatoday.com/preparatory-works-gather-pace-for-darulshifa-chandrayangutta-metro-corridor"
+  }
+ ],
+ "updated": 1794311790929,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Untitled-1-14.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Old City Metro has *833 of 888* properties acquired; construction targeted for January.",
+ "twist": "Some of the last 55 properties are heritage and ancient structures, making acquisition more sensitive.",
+ "layer": "near",
+ "areas": [
+  "Darulshifa",
+  "Chandrayangutta",
+  "Charminar",
+  "Old City"
+ ]
+}

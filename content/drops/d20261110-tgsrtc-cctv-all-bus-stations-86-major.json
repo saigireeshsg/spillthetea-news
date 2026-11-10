@@ -1,0 +1,135 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "transport",
+ "hook": "TGSRTC puts a controller at *86* busiest bus stations",
+ "hook_b": "TGSRTC puts a controller at *86* busiest bus stations",
+ "tldr": "TGSRTC will install CCTV at all bus stations and has added controllers, enquiry numbers and PA systems at 86 major stations.",
+ "beats": {
+  "what": "New timetable boards are coming soon; PA systems will announce first and last bus timings.",
+  "why": "The plan targets passenger safety, crowd management and easier bus information.",
+  "care": "At big stations you can now ask a controller or call a dedicated enquiry number for timings."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "👥",
+    "label": "Crowds at busy stations"
+   }
+  ],
+  "event": {
+   "icon": "🚌",
+   "label": "Controllers, PA systems, CCTV"
+  },
+  "effects": [
+   {
+    "icon": "📢",
+    "label": "First/last bus announced"
+   },
+   {
+    "icon": "📢",
+    "label": "Central CCTV monitoring"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: 86 stations with over 5,000 daily footfall got a controller, enquiry numbers and PA systems; CCTV planned at all stations, linked to regional offices and HQ."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How do you usually find bus timings?",
+   "opts": [
+    "Ask at the station",
+    "App / online",
+    "Just wait",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which Hyderabad stations are among the 86?",
+    "Will the CCTV feeds be used for crowd alerts during festivals?"
+   ],
+   "facts": [
+    {
+     "big": "5,000+",
+     "t": "Each of the 86 stations records *over 5,000* passengers a day.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/tgsrtc-plans-cctv-at-bus-stations-augmentation-of-passenger-f6246537"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "RTC station plan",
+   "steps": [
+    {
+     "t": "Done",
+     "e": "Controller + enquiry numbers at 86 stations"
+    },
+    {
+     "t": "Done",
+     "e": "PA systems announce first/last buses"
+    },
+    {
+     "t": "Soon",
+     "e": "New timetable boards"
+    },
+    {
+     "t": "Planned",
+     "e": "CCTV at all stations, linked to HQ"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Passengers get more on-site bus information"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "86",
+  "label": "major bus stations upgraded",
+  "motion": "drift",
+  "scene": [
+   "👥",
+   "🚌",
+   "📢"
+  ]
+ },
+ "watch": "New timetable boards are due soon at all stations; CCTV rollout timeline not given.",
+ "thread": "tgsrtc-cctv-all-bus-stations-86-major",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "RTC plans CCTVs and augmentation of passenger facilities at 86 bus stations",
+   "url": "https://telanganatoday.com/tgsrtc-plans-cctv-at-bus-stations-augmentation-of-passenger-f6246537"
+  }
+ ],
+ "updated": 1794311790930,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/tgsrtc-plans-cctv-at-bus-stations-augmentation-of-passenger-f6246537-d52260cd.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "TGSRTC's *86* busiest stations, each over *5,000* daily passengers, now get controllers.",
+ "twist": "CCTV feeds from all bus stations will stream straight to regional offices and RTC headquarters.",
+ "layer": "state",
+ "areas": [
+  "Secunderabad",
+  "Koti"
+ ]
+}

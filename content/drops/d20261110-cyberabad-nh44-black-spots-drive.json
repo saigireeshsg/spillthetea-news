@@ -1,0 +1,132 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-78",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "*8* departments, incl. Cyberabad police, hunt NH-44 black spots",
+ "hook_b": "*8* departments, incl. Cyberabad police, hunt NH-44 black spots",
+ "tldr": "Cyberabad Police, NHAI, R&B and other departments launched a joint exercise to find accident-prone stretches and fix road defects.",
+ "beats": {
+  "what": "Officials inspected frequent-crash locations on NH-44 and are studying technical shortcomings.",
+  "why": "Frequent accidents on NH-44 and other major roads raised public safety concerns.",
+  "care": "If you drive NH-44 through Cyberabad, engineering fixes at risky stretches may follow."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚠️",
+    "label": "Repeated crashes on NH-44"
+   }
+  ],
+  "event": {
+   "icon": "🛣️",
+   "label": "Joint black-spot survey"
+  },
+  "effects": [
+   {
+    "icon": "🚦",
+    "label": "Road defects studied"
+   },
+   {
+    "icon": "🚦",
+    "label": "Corrective fixes planned"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: Additional Collector Faizan Ahmed and Traffic DCP-II S Seshadri Reddy did a field inspection of accident-prone NH-44 stretches with traffic, NHAI, R&B, transport, health, revenue and municipal officials."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you feel safe on highway stretches around Hyderabad?",
+   "opts": [
+    "Yes",
+    "Mostly",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will the list of identified black spots be made public?"
+   ],
+   "facts": [
+    {
+     "big": "8",
+     "t": "Traffic police, law enforcement, NHAI, R&B, transport, health, revenue and municipal administration are *all* in the drive.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/cyberabad-police-agencies-launch-drive-to-identify-accident-black-spots-on-nh-44"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the drive works",
+   "steps": [
+    {
+     "t": "Step 1",
+     "e": "Field inspection of crash-prone NH-44 stretches"
+    },
+    {
+     "t": "Step 2",
+     "e": "Analyse technical shortcomings"
+    },
+    {
+     "t": "Step 3",
+     "e": "Corrective engineering measures"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Fixes planned; no list of spots yet"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "8",
+  "label": "departments in the drive",
+  "motion": "drift",
+  "scene": [
+   "⚠️",
+   "🛣️",
+   "🚦"
+  ]
+ },
+ "learn": {
+  "t": "Black spot = a road stretch where crashes keep happening."
+ },
+ "watch": "Which stretches get corrective engineering first; no list or timeline given yet.",
+ "thread": "cyberabad-nh44-black-spots-drive",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Cyberabad Police, agencies launch drive to identify accident black spots on NH-44",
+   "url": "https://telanganatoday.com/cyberabad-police-agencies-launch-drive-to-identify-accident-black-spots-on-nh-44"
+  }
+ ],
+ "updated": 1794311790930,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Cyberabad-Police-1-1-1.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Cyberabad police and NHAI are among *8* departments mapping NH-44 crash black spots.",
+ "twist": "The drive also covers problem stretches on the Pudur route, not just NH-44.",
+ "layer": "city",
+ "areas": [
+  "Pudur"
+ ]
+}
