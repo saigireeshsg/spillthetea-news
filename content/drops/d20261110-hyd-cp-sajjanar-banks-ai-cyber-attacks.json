@@ -1,0 +1,150 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-85",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "cyber",
+ "hook": "Hyderabad CP warns banks of *AI-assisted* cyber attacks",
+ "hook_b": "Hyderabad CP warns banks of *AI-assisted* cyber attacks",
+ "tldr": "Hyderabad CP VC Sajjanar urged banks to tighten security after I4C and CERT-In warned of AI-assisted attacks on financial systems.",
+ "beats": {
+  "what": "Sajjanar said third-party software handling confidential data should be secured like core banking apps.",
+  "why": "I4C flagged 'multi-crore unauthorised transactions' through fund disbursement systems and APIs.",
+  "care": "Stolen money is routed through mule accounts via IMPS and NEFT, per the advisory."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🤖",
+    "label": "AI agents probe bank systems"
+   }
+  ],
+  "event": {
+   "icon": "🏦",
+   "label": "CP urges banks to harden security"
+  },
+  "effects": [
+   {
+    "icon": "🔐",
+    "label": "Mule accounts move funds"
+   },
+   {
+    "icon": "🔐",
+    "label": "6-hour reporting rule"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat: attackers exploit unpatched software and misconfigured servers, then delete transaction records to hide traces."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How confident are you that your bank app is secure?",
+   "opts": [
+    "Very confident",
+    "Somewhat confident",
+    "Not confident",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will customers be told if their bank is hit?",
+    "Who checks third-party apps that banks plug into?"
+   ],
+   "facts": [
+    {
+     "big": "6 hrs",
+     "t": "Banks and NBFCs must also report incidents to RBI's *DAKSH* portal within 6 hours.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-commissioner-warns-banks-against-ai-assisted-cyber-attacks-3572788/"
+    },
+    {
+     "big": "May 2026",
+     "t": "Agencies told banks to follow CERT-In's *May 2026* blueprint on AI-assisted exploits.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-commissioner-warns-banks-against-ai-assisted-cyber-attacks-3572788/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the attack works, per I4C",
+   "steps": [
+    {
+     "t": "Break in",
+     "e": "Unpatched software, misconfigured servers"
+    },
+    {
+     "t": "Hit payments",
+     "e": "AI agents target fund disbursement APIs"
+    },
+    {
+     "t": "Move money",
+     "e": "Mule accounts, IMPS/NEFT"
+    },
+    {
+     "t": "Hide",
+     "e": "Transaction records deleted"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Risk to bank customers' money and data"
+  },
+  {
+   "t": "big",
+   "v": "6 hrs",
+   "l": "deadline to report to CERT-In",
+   "tone": "neutral",
+   "verdict": "Risk to bank customers' money and data"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "6 hrs",
+  "label": "deadline to report to CERT-In",
+  "motion": "drift",
+  "scene": [
+   "🤖",
+   "🏦",
+   "🔐"
+  ]
+ },
+ "learn": {
+  "t": "Mule account = a bank account used to receive and pass on stolen money, often rented from someone else."
+ },
+ "watch": "Whether banks issue customer alerts after the I4C and CERT-In advisory.",
+ "thread": "hyd-cp-sajjanar-banks-ai-cyber-attacks",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad Commissioner warns banks against AI-assisted cyber attacks",
+   "url": "https://www.siasat.com/hyderabad-commissioner-warns-banks-against-ai-assisted-cyber-attacks-3572788/"
+  }
+ ],
+ "updated": 1794295033644,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/08/Untitled-design-2026-08-27T154830.665.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Agencies say AI agents are draining banks through *payment APIs* at machine speed.",
+ "twist": "Banks, NBFCs and fintechs must now report such attacks to CERT-In within *6 hours*.",
+ "layer": "city",
+ "areas": [
+  "Hyderabad"
+ ]
+}

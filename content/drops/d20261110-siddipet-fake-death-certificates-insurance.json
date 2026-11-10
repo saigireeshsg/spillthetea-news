@@ -1,0 +1,143 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-75",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "*18* fake death certificates for living people, Siddipet",
+ "hook_b": "*18* fake death certificates for living people, Siddipet",
+ "tldr": "Cherial police booked two people after 18 fake death certificates were allegedly issued using a panchayat official's digital signature.",
+ "beats": {
+  "what": "Police suspect the certificates were used to claim insurance on policies taken in relatives' names.",
+  "why": "The case came from a complaint by the Mandal Panchayat Officer, per Siasat.",
+  "care": "Police are checking records and whether others were part of the racket."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔑",
+    "label": "E-sign dongle handed over"
+   }
+  ],
+  "event": {
+   "icon": "📜",
+   "label": "18 fake certificates issued"
+  },
+  "effects": [
+   {
+    "icon": "💰",
+    "label": "Insurance claims suspected"
+   },
+   {
+    "icon": "💰",
+    "label": "Two booked by Cherial police"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat: the e-sign dongle is the digital key used to authorise official records."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How should digital signatures on government certificates be protected?",
+   "opts": [
+    "Biometric check every time",
+    "Regular audits of issued certificates",
+    "Current system is enough",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How do insurers verify a death certificate before paying?"
+   ],
+   "facts": [
+    {
+     "big": "2",
+     "t": "Police booked *2* people: a gram panchayat secretary and an internet centre operator.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/living-declared-dead-fake-death-certificate-racket-busted-in-telangana-3572912/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the racket worked, per police",
+   "steps": [
+    {
+     "t": "Bribe",
+     "e": "E-sign dongle handed over"
+    },
+    {
+     "t": "Certificates",
+     "e": "18 issued for living people"
+    },
+    {
+     "t": "Claims",
+     "e": "Insurance on relatives' policies suspected"
+    },
+    {
+     "t": "Case",
+     "e": "Two booked after MPO complaint"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Official records misused, police say"
+  },
+  {
+   "t": "big",
+   "v": "18",
+   "l": "fake death certificates",
+   "tone": "bad",
+   "verdict": "Official records misused, police say"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "18",
+  "label": "fake death certificates",
+  "motion": "drift",
+  "scene": [
+   "🔑",
+   "📜",
+   "💰"
+  ]
+ },
+ "learn": {
+  "t": "E-sign dongle = a USB key holding an official's digital signature for approving records."
+ },
+ "watch": "Whether police find more certificates or people involved.",
+ "thread": "siddipet-fake-death-certificates-insurance",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Living declared dead: Fake death certificate racket busted in Telangana",
+   "url": "https://www.siasat.com/living-declared-dead-fake-death-certificate-racket-busted-in-telangana-3572912/"
+  }
+ ],
+ "updated": 1794295033645,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2025/05/Fake-certificate-Hyderabad.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Police found *18* fake death certificates issued for people still alive.",
+ "twist": "Police say a panchayat secretary's e-sign dongle was handed to a Hyderabad internet centre for a bribe.",
+ "layer": "state",
+ "areas": [
+  "Siddipet",
+  "Cherial"
+ ]
+}

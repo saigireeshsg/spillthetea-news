@@ -1,0 +1,143 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-90",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "food",
+ "hook": "TG SAFE: most eateries got *notices*, few suspensions",
+ "hook_b": "TG SAFE: most eateries got *notices*, few suspensions",
+ "tldr": "TG SAFE chief Avinash Mohanty said most inspected Hyderabad eateries got improvement or show-cause notices; suspension was used for extremely serious hazards.",
+ "beats": {
+  "what": "A restaurant owners' delegation led by MP Asaduddin Owaisi met the TG SAFE Commissioner on Nov 9.",
+  "why": "Several popular Hyderabad restaurants faced suspension and FSSAI licence cancellation in recent months.",
+  "care": "The rules being enforced are Schedule IV hygiene norms, in force since 2011, per the commissioner."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧪",
+    "label": "Hygiene violations found"
+   }
+  ],
+  "event": {
+   "icon": "🍛",
+   "label": "Owners meet TG SAFE chief"
+  },
+  "effects": [
+   {
+    "icon": "📋",
+    "label": "Notices vs suspension debated"
+   },
+   {
+    "icon": "📋",
+    "label": "Same rules for all, says chief"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu: owners asked for improvement notices and time to fix deficiencies before any suspension, 'wherever legally permissible'."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Before suspending a restaurant, should officials first issue an improvement notice?",
+   "opts": [
+    "Yes, always give time to fix",
+    "Only for minor issues",
+    "No, act immediately on hygiene",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many inspected eateries got each type of notice?",
+    "How long do owners get to fix an improvement notice?"
+   ],
+   "facts": [
+    {
+     "big": "2011",
+     "t": "The hygiene rules being enforced (Schedule IV) have been in force since *2011*, the commissioner said.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/only-few-hyderabad-eateries-faced-suspension-most-received-improvement-notices-telangana-safe/article71685117.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How TG SAFE escalates",
+   "steps": [
+    {
+     "t": "Minor deficiency",
+     "e": "Improvement notice"
+    },
+    {
+     "t": "More serious",
+     "e": "Show-cause notice"
+    },
+    {
+     "t": "Extremely serious hazard",
+     "e": "Suspension"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Most inspected eateries got notices, not shutdowns"
+  },
+  {
+   "t": "big",
+   "v": "3",
+   "l": "steps: improvement, show-cause, suspension",
+   "tone": "neutral",
+   "verdict": "Most inspected eateries got notices, not shutdowns"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3",
+  "label": "steps: improvement, show-cause, suspension",
+  "motion": "drift",
+  "scene": [
+   "🧪",
+   "🍛",
+   "📋"
+  ]
+ },
+ "learn": {
+  "t": "TG SAFE = Telangana Standards Authority for Food and Essential Drugs, the state food safety regulator."
+ },
+ "watch": "Whether TG SAFE changes how it moves from notice to suspension after the meeting.",
+ "thread": "tg-safe-eateries-improvement-notices-owaisi",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Only few Hyderabad eateries faced suspension; most received improvement notices: Telangana SAFE",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/only-few-hyderabad-eateries-faced-suspension-most-received-improvement-notices-telangana-safe/article71685117.ece"
+  }
+ ],
+ "updated": 1794295033644,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/jt0e9f/article71685126.ece/alternates/LANDSCAPE_1200/HWrTe5LaQAAe_5-.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "TG SAFE says only a *small share* of inspected restaurants faced suspension.",
+ "twist": "Pista House, Shah Ghouse and Grand Hotel owners met the commissioner, asking for notices before shutdowns.",
+ "layer": "city",
+ "areas": [
+  "Charminar",
+  "Abids",
+  "Tolichowki",
+  "Hyderabad"
+ ]
+}

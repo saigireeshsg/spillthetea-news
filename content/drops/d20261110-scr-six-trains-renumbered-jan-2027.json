@@ -1,0 +1,133 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "transport",
+ "hook": "SCR renumbers *six* trains from Superfast to Mail/Express",
+ "hook_b": "SCR renumbers *six* trains from Superfast to Mail/Express",
+ "tldr": "South Central Railway will renumber six trains and recategorise them from Superfast to Mail/Express from Jan 2-3, 2027.",
+ "beats": {
+  "what": "Hyderabad–CST Mumbai, Kacheguda–Kumta and Narasapur–Nagarsol pairs get new 17xxx numbers.",
+  "why": "SCR is revising the category of these services from Superfast to Mail/Express.",
+  "care": "If you book these trains for January 2027 or later, search by the new number."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚆",
+    "label": "Category revision"
+   }
+  ],
+  "event": {
+   "icon": "🔢",
+   "label": "Six trains get new numbers"
+  },
+  "effects": [
+   {
+    "icon": "🎫",
+    "label": "New numbers from Jan 2, 2027"
+   },
+   {
+    "icon": "🎫",
+    "label": "Superfast tag dropped"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: 22731/22732 become 17081/17082; 12789/12790 become 17689/17690; 12787/12788 become 17241/17242."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you search trains by number or by name?",
+   "opts": [
+    "By number",
+    "By name",
+    "By route on an app",
+    "Not sure / don't take trains"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Do fares change when a train moves from Superfast to Mail/Express?"
+   ],
+   "facts": [
+    {
+     "big": "6",
+     "t": "The renumbering covers *3 pairs*: Hyderabad–Mumbai, Kacheguda–Kumta and Narasapur–Nagarsol.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/six-trains-renumbered-by-scr-from-jan-2-2027-665eaec9"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "When the change kicks in",
+   "steps": [
+    {
+     "t": "Jan 2, 2027",
+     "e": "Five trains get new numbers"
+    },
+    {
+     "t": "Jan 3, 2027",
+     "e": "Nagarsol–Narasapur becomes 17242"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Bookings after the date use new numbers"
+  },
+  {
+   "t": "big",
+   "v": "6",
+   "l": "trains renumbered",
+   "tone": "neutral",
+   "verdict": "Same train, new number and Mail/Express category"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "6",
+  "label": "trains renumbered",
+  "motion": "drift",
+  "scene": [
+   "🚆",
+   "🔢",
+   "🎫"
+  ]
+ },
+ "watch": "New numbers apply from Jan 2, 2027; Nagarsol–Narasapur from Jan 3.",
+ "thread": "scr-six-trains-renumbered-jan-2027",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "SCR renumbers six Mail/Express trains",
+   "url": "https://telanganatoday.com/six-trains-renumbered-by-scr-from-jan-2-2027-665eaec9"
+  }
+ ],
+ "updated": 1794295033644,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/SCR-trains.gif",
+  "c": "Telangana Today"
+ },
+ "fact": "Hyderabad–Mumbai train *22731* becomes *17081* from January 2, 2027.",
+ "twist": "All six also drop from the Superfast category to Mail/Express, per SCR.",
+ "layer": "city",
+ "areas": [
+  "Kacheguda",
+  "Secunderabad"
+ ]
+}
