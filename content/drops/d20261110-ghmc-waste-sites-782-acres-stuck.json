@@ -1,0 +1,157 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-96",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "GHMC's *782 acres* of waste sites stuck after 19 filings",
+ "hook_b": "GHMC's *782 acres* of waste sites stuck after 19 filings",
+ "tldr": "A GHMC report to the NGT lists 19 filings since 2021 and blockers at all four outskirts sites.",
+ "beats": {
+  "what": "Land transfer is pending at one site, work is halted by court order at another, pollution consent pending at a third, land-use conversion awaited at the fourth.",
+  "why": "Litigation over Hyderabad's garbage disposal reached the National Green Tribunal five years ago.",
+  "care": "Delays in new processing sites keep pressure on how the city handles its waste."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗑️",
+    "label": "NGT case on garbage disposal"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "GHMC report: all 4 sites blocked"
+  },
+  "effects": [
+   {
+    "icon": "🏞️",
+    "label": "Court stays at Pyaranagar"
+   },
+   {
+    "icon": "🏞️",
+    "label": "Village objections at Siddapur"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI: GHMC still asked the tribunal to dispose of the case."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should waste be processed inside city limits or on the outskirts?",
+   "opts": [
+    "Inside city",
+    "Outskirts",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What happens to city waste while all four sites wait?"
+   ],
+   "facts": [
+    {
+     "big": "494",
+     "t": "Banda Ravirayala needs *494 acres* from TGIIC, requested Apr 25, 2026, still pending.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/19-filings-in-five-years-yet-ghmcs-four-waste-processing-sites-remain-stuck-in-legal-battles/articleshow/135691951.cms"
+    },
+    {
+     "big": "22",
+     "t": "*22* mining-agency cases on that land are pending in the high court.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/19-filings-in-five-years-yet-ghmcs-four-waste-processing-sites-remain-stuck-in-legal-battles/articleshow/135691951.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "19",
+   "l": "filings since Oct 2021",
+   "tone": "bad",
+   "verdict": "All named sites are held up; city waste plans wait"
+  },
+  {
+   "t": "stack",
+   "l": "Land at 3 named sites (acres)",
+   "parts": [
+    {
+     "l": "Banda Ravirayala",
+     "v": 494,
+     "d": "494 acres"
+    },
+    {
+     "l": "Pyaranagar",
+     "v": 117,
+     "d": "117 acres"
+    },
+    {
+     "l": "Siddapur",
+     "v": 86,
+     "d": "86 acres"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "All named sites are held up; city waste plans wait"
+  },
+  {
+   "t": "icons",
+   "l": "Sites stuck",
+   "of": 4,
+   "n": 4,
+   "icon": "🗑️",
+   "d": "4 of 4 stalled",
+   "tone": "bad",
+   "verdict": "Every planned site faces a blocker"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "19",
+  "label": "filings since Oct 2021",
+  "motion": "drift",
+  "scene": [
+   "🗑️",
+   "⚖️",
+   "🏞️"
+  ]
+ },
+ "watch": "Whether the high court and NGT vacate stay orders after fresh applications.",
+ "thread": "ghmc-waste-sites-782-acres-stuck",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "19 filings in five years, yet GHMC's four waste-processing sites remain stuck in legal battles",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/19-filings-in-five-years-yet-ghmcs-four-waste-processing-sites-remain-stuck-in-legal-battles/articleshow/135691951.cms"
+  }
+ ],
+ "updated": 1794272336898,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135691949,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Four GHMC waste-processing sites on *782 acres* remain stuck in court and approvals.",
+ "twist": "One site alone, Banda Ravirayala, faces 22 mining cases in the high court.",
+ "layer": "city",
+ "areas": [
+  "Abdullapurmet",
+  "Kothur",
+  "Sangareddy",
+  "Medchal-Malkajgiri"
+ ]
+}

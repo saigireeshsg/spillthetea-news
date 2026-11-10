@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-80",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "culture",
+ "hook": "Qadir Ali Baig Theatre Festival returns for *21st* edition",
+ "hook_b": "Qadir Ali Baig Theatre Festival returns for *21st* edition",
+ "tldr": "The 21st Qadir Ali Baig Theatre Festival brings plays, films, masterclasses and workshops.",
+ "beats": {
+  "what": "Rakesh Bedi performs Massage; Raghubir Yadav performs Piano; films include Yatra and Jait Re Jait.",
+  "why": "The festival is held in memory of theatre veteran Qadir Ali Baig, curated by Mohammad Ali Baig.",
+  "care": "Masterclasses and a children's theatre workshop are part of the line-up."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎭",
+    "label": "Tribute to Qadir Ali Baig"
+   }
+  ],
+  "event": {
+   "icon": "🎬",
+   "label": "21st edition, Nov 12-20"
+  },
+  "effects": [
+   {
+    "icon": "🍽️",
+    "label": "Plays and film screenings"
+   },
+   {
+    "icon": "🍽️",
+    "label": "Masterclasses, workshops"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu: workshops include Language of Light and Theatre for Children."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you go to a theatre show this month?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What keeps a theatre festival running for 21 editions?"
+   ],
+   "facts": [
+    {
+     "big": "21st",
+     "t": "This is the festival's *21st* edition.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/qadir-ali-baig-theatre-festival-to-begin-in-hyderabad-on-november-12/article71682560.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "9 days",
+   "l": "of plays, films, masterclasses",
+   "tone": "neutral",
+   "verdict": "Nine days of theatre and cinema"
+  },
+  {
+   "t": "timeline",
+   "l": "Festival line-up",
+   "steps": [
+    {
+     "t": "Nov 12",
+     "e": "Festival opens"
+    },
+    {
+     "t": "During",
+     "e": "Plays: Massage, Piano, Eruka"
+    },
+    {
+     "t": "During",
+     "e": "Films: Yatra, Jait Re Jait"
+    },
+    {
+     "t": "Nov 20",
+     "e": "Festival ends"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Nine days of theatre and cinema"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "9 days",
+  "label": "of plays, films, masterclasses",
+  "motion": "drift",
+  "scene": [
+   "🎭",
+   "🎬",
+   "🍽️"
+  ]
+ },
+ "watch": "Ticket and venue details as the Nov 12 start nears.",
+ "thread": "hyd-qadir-ali-baig-theatre-fest-nov-12",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Qadir Ali Baig theatre festival to begin in Hyderabad on November 12",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/qadir-ali-baig-theatre-festival-to-begin-in-hyderabad-on-november-12/article71682560.ece"
+  }
+ ],
+ "updated": 1794272336899,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/national/telangana/asddzv/article71683494.ece/alternates/LANDSCAPE_1200/Festival%20.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "Hyderabad's Qadir Ali Baig Theatre Festival runs *Nov 12-20* with Raghubir Yadav, Deepti Naval.",
+ "twist": "Shows are traditionally followed by Hyderabadi chowki dinners at the Baig family's haveli.",
+ "layer": "city",
+ "areas": [
+  "Hyderabad"
+ ]
+}

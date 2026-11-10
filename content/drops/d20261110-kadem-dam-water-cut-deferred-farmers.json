@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-94",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Kadem water cut for paddy *deferred* after farmer road blocks",
+ "hook_b": "Kadem water cut for paddy *deferred* after farmer road blocks",
+ "tldr": "Irrigation officials postponed stopping Kadem dam water for farms, scheduled from Nov 9.",
+ "beats": {
+  "what": "A revised date for the suspension will be announced soon.",
+  "why": "On Nov 3 officials said water would be held for drinking needs from Nov 7; farmers protested in Nirmal and Mancherial.",
+  "care": "It shows the tension between summer drinking water and standing crops in a dry year."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌾",
+    "label": "Plan to save water for summer 2027"
+   }
+  ],
+  "event": {
+   "icon": "💧",
+   "label": "Irrigation shutoff deferred"
+  },
+  "effects": [
+   {
+    "icon": "🚧",
+    "label": "Paddy at booting stage saved for now"
+   },
+   {
+    "icon": "🚧",
+    "label": "New date to be announced"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: farmers from Rampur, Thimmapur, Chintaguda and Thapalapur blocked roads."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should dam water go first to crops now or drinking water in summer?",
+   "opts": [
+    "Crops now",
+    "Drinking water",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "If water goes to crops till late November, how much is left for summer?"
+   ],
+   "facts": [
+    {
+     "big": "2027",
+     "t": "The original plan held Kadem water for drinking until *summer 2027*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/kadem-dam-water-supply-suspension-deferred-after-farmer-protests"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Nov 30",
+   "l": "date farmers asked water till",
+   "tone": "neutral",
+   "verdict": "Farmers gain time; summer drinking reserve still in question"
+  },
+  {
+   "t": "timeline",
+   "l": "Kadem water decision",
+   "steps": [
+    {
+     "t": "Nov 3",
+     "e": "Water to be kept for drinking from Nov 7"
+    },
+    {
+     "t": "Protests",
+     "e": "Farmers block roads"
+    },
+    {
+     "t": "Nov 9",
+     "e": "Shutoff deferred"
+    },
+    {
+     "t": "Next",
+     "e": "Revised date to be announced"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Farmers gain time; summer drinking reserve still in question"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 30",
+  "label": "date farmers asked water till",
+  "motion": "drift",
+  "scene": [
+   "🌾",
+   "💧",
+   "🚧"
+  ]
+ },
+ "watch": "The revised suspension date and whether it reaches Nov 30.",
+ "thread": "kadem-dam-water-cut-deferred-farmers",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Kadem dam water supply suspension deferred after farmer protests",
+   "url": "https://telanganatoday.com/kadem-dam-water-supply-suspension-deferred-after-farmer-protests"
+  }
+ ],
+ "updated": 1794272336899,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Kaddam-Project-1.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Farmers' road blockades forced officials to *defer* Kadem dam's irrigation shutoff.",
+ "twist": "Officials had planned to reserve Kadem water only for drinking until summer 2027.",
+ "layer": "state",
+ "areas": [
+  "Nirmal",
+  "Mancherial"
+ ]
+}

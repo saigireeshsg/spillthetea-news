@@ -1,0 +1,127 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-93",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "ORR van-truck crash near exit 18 leaves *3 dead, 14 hurt*",
+ "hook_b": "ORR van-truck crash near exit 18 leaves *3 dead, 14 hurt*",
+ "tldr": "Three workers died and 14 were injured near the Telangana State Police Academy on ORR.",
+ "beats": {
+  "what": "The workers were returning from a job at Muchintal to their pickup point in Moinabad around 11 pm.",
+  "why": "Police said the truck took a right turn without indicators and the van rammed it.",
+  "care": "Late-night ORR travel and sudden lane changes near exit ramps are a known risk."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚚",
+    "label": "Truck turned without indicators"
+   }
+  ],
+  "event": {
+   "icon": "💥",
+   "label": "Van rammed truck at exit 18"
+  },
+  "effects": [
+   {
+    "icon": "🚑",
+    "label": "3 dead, 14 injured"
+   },
+   {
+    "icon": "🚑",
+    "label": "Both drivers booked"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI: the injured are out of danger, Rajendranagar police said."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you feel safe on the ORR at night?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How visible are exit ramps on the ORR at night?"
+   ],
+   "facts": [
+    {
+     "big": "17",
+     "t": "All *17* occupants, including the driver, were injured.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/3-killed-14-injured-as-van-rams-into-truck-on-orr/articleshow/135692130.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "3",
+   "l": "workers killed",
+   "tone": "bad",
+   "verdict": "Every occupant was hurt"
+  },
+  {
+   "t": "icons",
+   "l": "17 people in the van",
+   "of": 17,
+   "n": 3,
+   "icon": "🧍",
+   "d": "3 died, 14 injured",
+   "tone": "bad",
+   "verdict": "Every occupant was hurt"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3",
+  "label": "workers killed",
+  "motion": "drift",
+  "scene": [
+   "🚚",
+   "💥",
+   "🚑"
+  ]
+ },
+ "watch": "The police probe into both drivers under BNS negligence sections.",
+ "thread": "orr-van-truck-crash-3-dead-rajendranagar",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "3 killed, 14 injured as van rams into truck on ORR",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/3-killed-14-injured-as-van-rams-into-truck-on-orr/articleshow/135692130.cms"
+  }
+ ],
+ "updated": 1794272336899,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135692129,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "A van carrying *17 workers* rammed a truck on ORR near exit 18.",
+ "twist": "Police say the truck turned right without indicators; both drivers were booked.",
+ "layer": "near",
+ "areas": [
+  "Rajendranagar",
+  "Moinabad",
+  "Shamshabad"
+ ]
+}

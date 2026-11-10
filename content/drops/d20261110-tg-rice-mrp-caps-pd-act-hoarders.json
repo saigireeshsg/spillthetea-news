@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-97",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "prices",
+ "hook": "Telangana caps HMT and JSR rice at *₹79 a kg*",
+ "hook_b": "Telangana caps HMT and JSR rice at *₹79 a kg*",
+ "tldr": "The civil supplies department is enforcing rice price caps and plans PD Act action against hoarders.",
+ "beats": {
+  "what": "BPT and KNM rice are capped at ₹66/kg, RNR and Telangana Sona at ₹74/kg, HMT and JSR at ₹79/kg.",
+  "why": "Shopkeepers reported shortages; the department says middlemen are spreading unverified rumours to push prices up.",
+  "care": "If a shop charges above the cap, the cap applies across the state."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌾",
+    "label": "Shortage claims, price hikes"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "MRP caps enforced, PD Act warning"
+  },
+  "effects": [
+   {
+    "icon": "🛒",
+    "label": "Retailers can buy from millers"
+   },
+   {
+    "icon": "🛒",
+    "label": "Weight, MRP cheats being caught"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI: retailers short of stock can approach district civil supplies officers and buy directly from millers."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Has your rice bill gone up this month?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will buyers know the cap for the variety they pick?"
+   ],
+   "facts": [
+    {
+     "big": "₹66",
+     "t": "BPT and KNM, the cheapest capped rice, can't sell above *₹66/kg*.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/govt-cracks-down-on-rice-price-hikes-hoarding/articleshow/135690969.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹79",
+   "l": "max per kg for HMT, JSR rice",
+   "tone": "neutral",
+   "verdict": "Caps protect buyers; traders must sell at or below them"
+  },
+  {
+   "t": "timeline",
+   "l": "Rice price caps (₹/kg)",
+   "tone": "neutral",
+   "verdict": "Caps protect buyers; traders must sell at or below them",
+   "steps": [
+    {
+     "t": "BPT, KNM",
+     "e": "Capped at ₹66/kg"
+    },
+    {
+     "t": "RNR, Telangana Sona",
+     "e": "Capped at ₹74/kg"
+    },
+    {
+     "t": "HMT, JSR",
+     "e": "Capped at ₹79/kg"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹79",
+  "label": "max per kg for HMT, JSR rice",
+  "motion": "drift",
+  "scene": [
+   "🌾",
+   "⚖️",
+   "🛒"
+  ]
+ },
+ "learn": {
+  "t": "PD Act = Preventive Detention Act, lets authorities detain someone to prevent offences like hoarding."
+ },
+ "watch": "Whether the PD Act is actually invoked against any trader.",
+ "thread": "tg-rice-mrp-caps-pd-act-hoarders",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Govt cracks down on rice price hikes, hoarding",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/govt-cracks-down-on-rice-price-hikes-hoarding/articleshow/135690969.cms"
+  }
+ ],
+ "updated": 1794272336897,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Telangana caps HMT and JSR rice at *₹79 a kg* amid shortage rumours.",
+ "twist": "Inspectors caught traders labelling 25-kg rice bags as 26 kg.",
+ "layer": "state",
+ "areas": [
+  "Telangana",
+  "Hyderabad"
+ ]
+}

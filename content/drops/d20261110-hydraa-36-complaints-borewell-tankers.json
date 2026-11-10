@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-95",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Hydraa gets *36* complaints on borewells, encroachments",
+ "hook_b": "Hydraa gets *36* complaints on borewells, encroachments",
+ "tldr": "Hydraa received 36 complaints on illegal borewells, encroachments and civic issues at Prajavani.",
+ "beats": {
+  "what": "Residents sought removal of illegal borewells near lakes, saying operators claim personal use but sell the water.",
+  "why": "Residents say groundwater extraction is depriving households of regular supply.",
+  "care": "If borewells near your lake are selling water, Hydraa Prajavani takes complaints at Budha Bhavan."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💧",
+    "label": "Groundwater sold by tankers"
+   }
+  ],
+  "event": {
+   "icon": "🚛",
+   "label": "36 complaints at Prajavani"
+  },
+  "effects": [
+   {
+    "icon": "🏞️",
+    "label": "Lake FTL encroachments flagged"
+   },
+   {
+    "icon": "🏞️",
+    "label": "Officials told to act"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: Commissioner AV Ranganath assigned the complaints for immediate action."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Have you seen tankers filling from borewells near a lake?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who checks whether a 'personal use' borewell is selling water?"
+   ],
+   "facts": [
+    {
+     "big": "1",
+     "t": "Residents named *Thummalakunta Lake* in Keesara as being pumped and sold.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hydraa-receives-36-complaints-over-illegal-borewells"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "36",
+   "l": "complaints at Hydraa Prajavani",
+   "tone": "neutral",
+   "verdict": "Complaints logged, action pending"
+  },
+  {
+   "t": "timeline",
+   "l": "How the complaint goes",
+   "steps": [
+    {
+     "t": "Prajavani, Budha Bhavan",
+     "e": "36 complaints filed"
+    },
+    {
+     "t": "Same day",
+     "e": "Commissioner assigns to officials"
+    },
+    {
+     "t": "Next",
+     "e": "Action on borewells, FTL encroachments"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Complaints logged, action pending"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "36",
+  "label": "complaints at Hydraa Prajavani",
+  "motion": "drift",
+  "scene": [
+   "💧",
+   "🚛",
+   "🏞️"
+  ]
+ },
+ "learn": {
+  "t": "FTL = Full Tank Level, the boundary of a lake at full capacity where building is barred."
+ },
+ "watch": "Whether Hydraa seizes or seals any borewells near Thummalakunta.",
+ "thread": "hydraa-36-complaints-borewell-tankers",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hydraa receives 36 complaints over illegal borewells",
+   "url": "https://telanganatoday.com/hydraa-receives-36-complaints-over-illegal-borewells"
+  }
+ ],
+ "updated": 1794272336898,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/HYDRAA-1-1-1-1.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Residents told Hydraa borewell water near lakes is *sold by tanker at night*.",
+ "twist": "Complaints say Thummalakunta Lake in Keesara is being pumped through borewells and sold.",
+ "layer": "near",
+ "areas": [
+  "Keesara",
+  "Secunderabad"
+ ]
+}

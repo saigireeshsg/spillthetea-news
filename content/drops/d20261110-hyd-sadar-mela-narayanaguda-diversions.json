@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-10",
+ "sort": "2026-11-10-98",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Narayanaguda roads diverted for Sadar Mela, *7 pm to 4 am*",
+ "hook_b": "Narayanaguda roads diverted for Sadar Mela, *7 pm to 4 am*",
+ "tldr": "Traffic police announced diversions around YMCA Narayanaguda for the Sadar Utsav Mela on Nov 10-11.",
+ "beats": {
+  "what": "Vehicles heading to YMCA from Kachiguda, RTC X Roads, Barkatpura and Vithalwadi will be diverted at nearby junctions.",
+  "why": "The Sadar Utsav Mela is being held at YMCA, Narayanaguda from 7 pm on Nov 10 to 4 am on Nov 11.",
+  "care": "If you travel through Narayanaguda, Himayatnagar or Kachiguda tonight, plan for diversions."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🐃",
+    "label": "Sadar Utsav Mela at YMCA"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "Diversions 7 pm Nov 10 to 4 am Nov 11"
+  },
+  "effects": [
+   {
+    "icon": "🚌",
+    "label": "RTC buses rerouted via Barkatpura"
+   },
+   {
+    "icon": "🚌",
+    "label": "Narayanaguda X Roads diversions"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: vehicles from Tourist Junction towards Lingampally X Roads will not be allowed."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Will you pass through Narayanaguda tonight?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How long do RTC bus detours add for Secunderabad–Koti riders on mela nights?"
+   ],
+   "facts": [
+    {
+     "big": "2",
+     "t": "RTC buses avoid *2* points: YMCA Circle and Narayanaguda X Roads.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/traffic-curbs-announced-for-sadar-utsav-mela-in-hyderabad"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "9 hrs",
+   "l": "of diversions around YMCA",
+   "tone": "neutral",
+   "verdict": "Diversions only for the mela hours"
+  },
+  {
+   "t": "timeline",
+   "l": "Sadar Mela traffic window",
+   "steps": [
+    {
+     "t": "Nov 10, 7 pm",
+     "e": "Mela begins, diversions start"
+    },
+    {
+     "t": "Overnight",
+     "e": "RTC buses via Barkatpura, VST, RTC X Roads"
+    },
+    {
+     "t": "Nov 11, 4 am",
+     "e": "Mela ends"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Diversions only for the mela hours"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "9 hrs",
+  "label": "of diversions around YMCA",
+  "motion": "drift",
+  "scene": [
+   "🐃",
+   "🚧",
+   "🚌"
+  ]
+ },
+ "watch": "Whether traffic police extend curbs if crowds stay past 4 am.",
+ "thread": "hyd-sadar-mela-narayanaguda-diversions",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Traffic curbs announced for Sadar Utsav Mela in Hyderabad",
+   "url": "https://telanganatoday.com/traffic-curbs-announced-for-sadar-utsav-mela-in-hyderabad"
+  }
+ ],
+ "updated": 1794272336897,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Hyd.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Sadar Utsav Mela shuts YMCA Narayanaguda roads from *7 pm till 4 am*.",
+ "twist": "Secunderabad–Koti RTC buses skip YMCA Circle and run via Barkatpura and Bagh Lingampally.",
+ "layer": "near",
+ "areas": [
+  "Narayanaguda",
+  "Himayatnagar",
+  "Kachiguda",
+  "Barkatpura",
+  "RTC X Roads"
+ ]
+}
