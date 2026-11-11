@@ -1,0 +1,152 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "updated": 1794381081731,
+ "sort": "2026-11-11-84",
+ "topic": "health",
+ "layer": "near",
+ "areas": [
+  "Alwal",
+  "Secunderabad Cantonment"
+ ],
+ "hook": "TIMS-Alwal: *90%* done in Jan 2025, *95%* done now, says BRS",
+ "fact": "TIMS-Alwal hospital was called *90% complete* in January 2025 and *95%* this week.",
+ "twist": "The January 2025 announcement promised the hospital would be fully running by August 31, 2025.",
+ "tldr": "BRS leader Manne Krishank, quoting two ministers' statements, says only five per cent of work moved in nearly two years.",
+ "beats": {
+  "what": "Health Minister Damodar Rajanarasimha visited on Nov 10 and said 95% of work was done and it would open soon.",
+  "why": "BRS says R&B Minister Komatireddy Venkat Reddy had announced 90% completion in January 2025.",
+  "care": "The hospital is meant to serve north Hyderabad, including Alwal and Cantonment."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Deadline Aug 31, 2025 missed"
+   }
+  ],
+  "event": {
+   "icon": "🏥",
+   "label": "Minister: 95% done"
+  },
+  "effects": [
+   {
+    "icon": "🗣️",
+    "label": "BRS: only 5% in 2 years"
+   },
+   {
+    "icon": "⏳",
+    "label": "Opening date not given"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: Krishank also cited delays at TIMS Sanathnagar and the Warangal super-speciality hospital."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What should the government share about TIMS-Alwal?",
+   "opts": [
+    "A firm opening date",
+    "Remaining work list",
+    "Both",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What does the remaining 5% of work involve, and who sets the new opening date?"
+   ],
+   "facts": [
+    {
+     "big": "Aug 31, 2025",
+     "t": "In January 2025 the hospital was to be fully operational by *August 31, 2025*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/brs-alleges-only-five-per-cent-progress-in-two-years-at-tims-alwal"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Work declared complete",
+   "a": {
+    "v": 90,
+    "d": "90%",
+    "l": "Jan 2025"
+   },
+   "b": {
+    "v": 95,
+    "d": "95%",
+    "l": "Nov 2026"
+   },
+   "goodIfUp": true,
+   "tone": "neutral",
+   "verdict": "Progress claims 22 months apart; opening still pending"
+  },
+  {
+   "t": "timeline",
+   "l": "TIMS-Alwal",
+   "steps": [
+    {
+     "t": "Jan 2025",
+     "e": "Ministers: 90% done"
+    },
+    {
+     "t": "Aug 31, 2025",
+     "e": "Promised opening"
+    },
+    {
+     "t": "Nov 10, 2026",
+     "e": "Health Minister: 95% done"
+    },
+    {
+     "t": "Next",
+     "e": "Opening 'soon', no date"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Deadline passed; new date not announced"
+  }
+ ],
+ "learn": {
+  "show": false
+ },
+ "cover": {
+  "bg": [
+   "#14213d",
+   "#3d6fa8"
+  ],
+  "big": "95%",
+  "label": "declared done",
+  "motion": "drift",
+  "scene": [
+   "🏥",
+   "🏗️",
+   "⏳"
+  ]
+ },
+ "watch": "Whether the government announces a firm opening date for TIMS-Alwal.",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "BRS alleges only five per cent progress in two years at TIMS-Alwal",
+   "url": "https://telanganatoday.com/brs-alleges-only-five-per-cent-progress-in-two-years-at-tims-alwal"
+  }
+ ],
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/manne-krishank-3-1.jpg",
+  "c": "Telangana Today"
+ },
+ "thread": "hyd-tims-alwal-hospital-progress-claims"
+}

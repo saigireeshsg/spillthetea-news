@@ -1,0 +1,143 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "updated": 1794381081731,
+ "sort": "2026-11-11-82",
+ "topic": "events",
+ "layer": "city",
+ "areas": [
+  "Tank Bund",
+  "Durgam Cheruvu",
+  "Miyapur",
+  "Uppal",
+  "Shamirpet",
+  "Hasmatpet"
+ ],
+ "hook": "Chhath Puja comes to *28 venues* across Hyderabad, Nov 14-16",
+ "fact": "Hyderabad will host Chhath Puja at *28 venues* from November 14 to 16.",
+ "twist": "The 28 spots sit across three civic bodies: GHMC, Cyberabad and Malkajgiri corporations, with HYDRAA also looped in.",
+ "tldr": "The Bihar Association has picked 28 locations, including Tank Bund, Durgam Cheruvu and Miyapur, for Chhath Puja on Nov 14, 15 and 16.",
+ "beats": {
+  "what": "Devotees offer prayers to the setting and rising Sun at lakes and Bathukamma ghats.",
+  "why": "The Bihar Association asked MAUD for sanitation, drinking water, lighting and crowd management.",
+  "care": "Siasat says traffic restrictions or diversions are expected near venues on those dates."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🙏",
+    "label": "Bihar Association request"
+   }
+  ],
+  "event": {
+   "icon": "🌅",
+   "label": "Puja at 28 venues"
+  },
+  "effects": [
+   {
+    "icon": "🚧",
+    "label": "Likely traffic diversions"
+   },
+   {
+    "icon": "💧",
+    "label": "Water, lights, sanitation"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat: The MAUD department forwarded the request to HYDRAA and the three municipal corporations."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What matters most at the 28 Chhath venues?",
+   "opts": [
+    "Crowd management",
+    "Clean water and sanitation",
+    "Traffic plans shared early",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will traffic police publish venue-wise diversions before Nov 14?"
+   ],
+   "facts": [
+    {
+     "big": "28",
+     "t": "*28 venues* include Tank Bund, Hasmatpet Lake, Durgam Cheruvu, Shamirpet, Miyapur and Uppal.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-set-for-grand-chhath-puja-celebrations-at-28-venues-3573785/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Chhath in Hyderabad",
+   "steps": [
+    {
+     "t": "Now",
+     "e": "Request sent to MAUD, HYDRAA, 3 corporations"
+    },
+    {
+     "t": "Nov 14",
+     "e": "Celebrations begin"
+    },
+    {
+     "t": "Nov 15",
+     "e": "Prayers continue"
+    },
+    {
+     "t": "Nov 16",
+     "e": "Final day"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Three days, 28 venues; diversions expected"
+  },
+  {
+   "t": "big",
+   "v": "3 days",
+   "l": "Nov 14, 15, 16",
+   "tone": "neutral",
+   "verdict": "Diversions expected near venues"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#3a1d0a",
+   "#d9822b"
+  ],
+  "big": "28",
+  "label": "Chhath venues",
+  "motion": "drift",
+  "scene": [
+   "🌅",
+   "🙏",
+   "🌊"
+  ]
+ },
+ "watch": "Venue-wise traffic diversion notices from police before November 14.",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad set for grand Chhath Puja celebrations at 28 venues",
+   "url": "https://www.siasat.com/hyderabad-set-for-grand-chhath-puja-celebrations-at-28-venues-3573785/"
+  }
+ ],
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/chattpuja-1-1.jpg",
+  "c": "Siasat"
+ },
+ "thread": "hyd-chhath-puja-28-venues-nov-14-16"
+}

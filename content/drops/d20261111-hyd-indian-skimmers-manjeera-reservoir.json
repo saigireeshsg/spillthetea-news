@@ -1,0 +1,132 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "updated": 1794381081731,
+ "sort": "2026-11-11-80",
+ "topic": "environment",
+ "layer": "near",
+ "areas": [
+  "Manjeera",
+  "Sangareddy"
+ ],
+ "hook": "Rare *Indian skimmers* spotted at Manjeera, 60 km from Hyderabad",
+ "fact": "Birders spotted *three rare Indian skimmers* at Manjeera reservoir, about 60 km from Hyderabad.",
+ "twist": "Skimmers usually winter on coasts after breeding near rivers like the Chambal; earlier this year only a lone bird was seen at Kishtareddypet.",
+ "tldr": "Three birdwatchers photographed three Indian skimmers in the Manjeera reservoir backwaters on a holiday trip.",
+ "beats": {
+  "what": "Three Indian skimmers were seen flying over Manjeera backwaters.",
+  "why": "These migratory birds usually winter in a few coastal spots in the South, West and East.",
+  "care": "Birders say more may join if the site suits them, making Manjeera a weekend birding spot."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🐦",
+    "label": "Winter migration from north"
+   }
+  ],
+  "event": {
+   "icon": "🔭",
+   "label": "3 skimmers at Manjeera"
+  },
+  "effects": [
+   {
+    "icon": "📸",
+    "label": "More birders likely"
+   },
+   {
+    "icon": "🎣",
+    "label": "Shares water with fishing"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: The same trio photographed skimmers at mid-Manair in Sircilla last year and in Bhairavapalem earlier."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should Manjeera backwaters get protected birding zones?",
+   "opts": [
+    "Yes",
+    "No",
+    "Only in winter",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will more skimmers arrive in the coming weeks, and how will fishing activity affect them?"
+   ],
+   "facts": [
+    {
+     "big": "3",
+     "t": "Skimmers usually move in large groups; the team spotted only *3 individuals*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/indian-skimmers-sighted-at-manjeera-reservoir-in-hyderabad"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Skimmer sightings in Telangana",
+   "steps": [
+    {
+     "t": "Earlier seasons",
+     "e": "Seen at Bhairavapalem"
+    },
+    {
+     "t": "Last year",
+     "e": "Photographed at mid-Manair, Sircilla"
+    },
+    {
+     "t": "Early 2026",
+     "e": "Lone bird at Kishtareddypet"
+    },
+    {
+     "t": "Nov 2026",
+     "e": "3 birds at Manjeera"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Rare but repeat visits across Telangana"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#0e2a33",
+   "#2f8f9d"
+  ],
+  "big": "3",
+  "label": "rare skimmers",
+  "motion": "drift",
+  "scene": [
+   "🐦",
+   "🌊",
+   "🔭"
+  ]
+ },
+ "watch": "Whether more skimmers join the three at Manjeera over the winter.",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Indian skimmers sighted at Manjeera reservoir in Hyderabad",
+   "url": "https://telanganatoday.com/indian-skimmers-sighted-at-manjeera-reservoir-in-hyderabad"
+  }
+ ],
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Indian-skimmer.jpg",
+  "c": "Telangana Today"
+ },
+ "thread": "hyd-indian-skimmers-manjeera-reservoir"
+}
