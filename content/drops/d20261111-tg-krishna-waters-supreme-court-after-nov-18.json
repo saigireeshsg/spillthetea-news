@@ -1,0 +1,140 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-87",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Krishna water fight heads to Supreme Court *after Nov 18*",
+ "hook_b": "Krishna water fight heads to Supreme Court *after Nov 18*",
+ "tldr": "CM Revanth Reddy told officials to present all evidence in the Krishna water dispute with Andhra Pradesh.",
+ "beats": {
+  "what": "He reviewed legal strategy with senior counsel C.S. Vaidyanathan and irrigation officials at MCRHRDI.",
+  "why": "Telangana and Andhra Pradesh dispute their shares of Krishna river water.",
+  "care": "Krishna water feeds farms in south Telangana and part of Hyderabad's drinking supply."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌊",
+    "label": "TG-AP share dispute"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "SC hearing after Nov 18"
+  },
+  "effects": [
+   {
+    "icon": "🚜",
+    "label": "Evidence to be filed"
+   },
+   {
+    "icon": "🚜",
+    "label": "Lift schemes sped up"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Deccan Chronicle: Engineers told to speed up Dindi and Achampet lift schemes, fed from Edula."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How closely do you follow the Krishna water dispute?",
+   "opts": [
+    "Closely",
+    "A little",
+    "Not at all",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What happens to farm and city supply plans while the case is pending?"
+   ],
+   "facts": [
+    {
+     "big": "2 TMC",
+     "t": "CM said the existing *2 TMC* Kaleshwaram conveyance is itself facing difficulties.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/cm-directs-officials-to-strengthen-arguments-in-supreme-court-on-krishna-waters/article71687230.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "0.6 TMC",
+   "l": "needed for Dindi, Achampet",
+   "tone": "neutral",
+   "verdict": "Legal and project steps in parallel"
+  },
+  {
+   "t": "timeline",
+   "l": "What's lined up",
+   "steps": [
+    {
+     "t": "Nov 10",
+     "e": "CM reviews legal strategy"
+    },
+    {
+     "t": "After Nov 18",
+     "e": "Supreme Court hearing expected"
+    },
+    {
+     "t": "Next",
+     "e": "DPR for Dindi, Achampet tunnels and canals"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Legal and project steps in parallel"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "0.6 TMC",
+  "label": "needed for Dindi, Achampet",
+  "motion": "drift",
+  "scene": [
+   "🌊",
+   "⚖️",
+   "🚜"
+  ]
+ },
+ "learn": {
+  "t": "TMC = thousand million cubic feet of water, about 28.3 billion litres."
+ },
+ "watch": "The Supreme Court hearing date after November 18.",
+ "thread": "tg-krishna-waters-supreme-court-after-nov-18",
+ "sources": [
+  {
+   "name": "Deccan Chronicle",
+   "title": "Secure Telangana's River Water Interests, Revanth Tells Officials",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/secure-telanganas-river-water-interests-revanth-tells-officials-2003345"
+  },
+  {
+   "name": "The Hindu",
+   "title": "CM directs officials to strengthen arguments in Supreme Court on Krishna waters",
+   "url": "https://www.thehindu.com/news/national/telangana/cm-directs-officials-to-strengthen-arguments-in-supreme-court-on-krishna-waters/article71687230.ece"
+  }
+ ],
+ "updated": 1794358675257,
+ "img": {
+  "u": "https://www.deccanchronicle.com/h-upload/2026/11/10/2111535-11rr.jpg",
+  "c": "Deccan Chronicle"
+ },
+ "fact": "Telangana preps Supreme Court case on Krishna waters, hearing *after November 18*.",
+ "twist": "CM says the state cannot use even its existing 2 TMC Kaleshwaram capacity, so no hasty expansion.",
+ "layer": "state"
+}

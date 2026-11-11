@@ -1,0 +1,141 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-93",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Lakdikapul tests a *one-way* loop on November 22",
+ "hook_b": "Lakdikapul tests a *one-way* loop on November 22",
+ "tldr": "Traffic police and GHMC will trial a one-way system between Ravindra Bharathi, Lakdikapul and Iqbal Minar on Nov 22.",
+ "beats": {
+  "what": "Vehicles from Old Control Room to Iqbal Minar will be diverted at Ravindra Bharathi via HDFC Junction and old Saifabad police station.",
+  "why": "Police say Lakdikapul has faced congestion for several years and this followed a detailed study.",
+  "care": "If you pass Ravindra Bharathi, Iqbal Minar or Secretariat on Nov 22, expect a changed route."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚗",
+    "label": "Years of Lakdikapul jams"
+   }
+  ],
+  "event": {
+   "icon": "↪️",
+   "label": "One-way trial on Nov 22"
+  },
+  "effects": [
+   {
+    "icon": "📊",
+    "label": "Diversions via HDFC Jn"
+   },
+   {
+    "icon": "📊",
+    "label": "Data decides final plan"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat: Officials will meet traders, residents and commuters before the trial and consider objections."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should Lakdikapul switch to one-way if the trial data is good?",
+   "opts": [
+    "Yes",
+    "No",
+    "Depends on the data",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which trips get longer under a one-way loop, and which get shorter?"
+   ],
+   "facts": [
+    {
+     "big": "6",
+     "t": "Route covers *6 points*: Lakdikapul, Iqbal Minar, Ravindra Bharathi, Old Control Room, HDFC Jn, old Saifabad PS.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/trial-of-hyderabad-lakdikapul-one-way-traffic-system-on-nov-22-3572926/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Nov 22",
+   "l": "one-way trial day",
+   "tone": "neutral",
+   "verdict": "Trial first, decision later"
+  },
+  {
+   "t": "timeline",
+   "l": "Trial plan",
+   "steps": [
+    {
+     "t": "Before Nov 22",
+     "e": "Meetings with traders, residents"
+    },
+    {
+     "t": "Before Nov 22",
+     "e": "GHMC fixes potholes, adds signboards"
+    },
+    {
+     "t": "Nov 22",
+     "e": "One-day trial, data collected"
+    },
+    {
+     "t": "After",
+     "e": "Decision on technical data"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Trial first, decision later"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 22",
+  "label": "one-way trial day",
+  "motion": "drift",
+  "scene": [
+   "🚗",
+   "↪️",
+   "📊"
+  ]
+ },
+ "watch": "What the Nov 22 travel-time data shows and whether the plan is made permanent.",
+ "thread": "hyd-lakdikapul-one-way-trial-nov-22",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Lakdikapul one-way traffic: Trial run on November 22",
+   "url": "https://www.siasat.com/trial-of-hyderabad-lakdikapul-one-way-traffic-system-on-nov-22-3572926/"
+  }
+ ],
+ "updated": 1794358675256,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-11.01.40-AM-1-1.jpeg",
+  "c": "Siasat"
+ },
+ "fact": "Lakdikapul gets a *one-day one-way traffic trial* on November 22.",
+ "twist": "The final call depends on trial data: travel time, congestion, junction performance and safety.",
+ "layer": "near",
+ "areas": [
+  "Lakdikapul",
+  "Khairatabad",
+  "Saifabad"
+ ]
+}

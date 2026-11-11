@@ -1,0 +1,135 @@
+{
+ "cat": "money",
+ "lead": "money",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-78",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "farming",
+ "hook": "Banks asked to *restructure* loans of drought-hit farmers",
+ "hook_b": "Banks asked to *restructure* loans of drought-hit farmers",
+ "tldr": "Deputy CM Bhatti Vikramarka urged banks at a special SLBC meeting to support farmers hit by drought in Kharif 2026.",
+ "beats": {
+  "what": "He asked banks to restructure and reschedule loans where applicable and give timely fresh credit.",
+  "why": "Drought conditions this Kharif season have hit farmers across the state.",
+  "care": "Farm families with crop loans can ask their bank about restructuring under drought relief."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌾",
+    "label": "Kharif 2026 drought"
+   }
+  ],
+  "event": {
+   "icon": "🏦",
+   "label": "Special SLBC meeting"
+  },
+  "effects": [
+   {
+    "icon": "💳",
+    "label": "Loan restructuring"
+   },
+   {
+    "icon": "💳",
+    "label": "Fresh credit"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: RBI, NABARD, SBI and the Centre's Department of Financial Services attended."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should drought-hit farmers get automatic loan restructuring?",
+   "opts": [
+    "Yes",
+    "No",
+    "Case by case",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will a farmer know if they qualify for restructuring?"
+   ],
+   "facts": [
+    {
+     "big": "Sept",
+     "t": "The review covered the quarter ended *September 2026*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-slbc-urges-banks-to-support-drought-hit-farmers-with-fresh-credit"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "51st",
+   "l": "SLBC quarterly review",
+   "tone": "neutral",
+   "verdict": "Request made; bank action awaited"
+  },
+  {
+   "t": "timeline",
+   "l": "Relief steps asked",
+   "steps": [
+    {
+     "t": "Step 1",
+     "e": "Restructure loans where applicable"
+    },
+    {
+     "t": "Step 2",
+     "e": "Reschedule repayments"
+    },
+    {
+     "t": "Step 3",
+     "e": "Timely fresh credit"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Request made; bank action awaited"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b0f0f",
+   "#c0392b"
+  ],
+  "big": "51st",
+  "label": "SLBC quarterly review",
+  "motion": "drift",
+  "scene": [
+   "🌾",
+   "🏦",
+   "💳"
+  ]
+ },
+ "learn": {
+  "t": "SLBC = State Level Bankers' Committee, where banks and the govt coordinate lending."
+ },
+ "watch": "Whether banks announce how many farm loans they restructure.",
+ "thread": "tg-slbc-drought-farmers-loan-restructuring",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana SLBC urges banks to support drought-hit farmers with fresh credit",
+   "url": "https://telanganatoday.com/telangana-slbc-urges-banks-to-support-drought-hit-farmers-with-fresh-credit"
+  }
+ ],
+ "updated": 1794358675257,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/SLBC-meeting.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Drought-hit Telangana farmers could get *restructured loans and fresh credit*.",
+ "twist": "It was a special drought meeting held alongside the bankers' 51st quarterly review.",
+ "layer": "state"
+}

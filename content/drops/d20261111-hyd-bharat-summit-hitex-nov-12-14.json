@@ -1,0 +1,137 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-83",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "events",
+ "hook": "*1,000 delegates* from 70 countries head to Hitex from Nov 12",
+ "hook_b": "*1,000 delegates* from 70 countries head to Hitex from Nov 12",
+ "tldr": "Congress hosts the Bharat Summit at Hitex, Hyderabad, from Nov 12 to 14, the second time the city hosts it.",
+ "beats": {
+  "what": "Talks cover a new global order, cooperative federalism and electoral integrity, plus a new think tank 'Our World'.",
+  "why": "Telangana passed the Platform Based Gig Workers Bill, 2026 in March, which prompted the gig workers meet.",
+  "care": "Expect VIP movement around Hitex and HITEC City roads on Nov 13 or 14."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌍",
+    "label": "Second Bharat Summit"
+   }
+  ],
+  "event": {
+   "icon": "🎤",
+   "label": "Hitex, Nov 12-14"
+  },
+  "effects": [
+   {
+    "icon": "🛵",
+    "label": "VIP visits"
+   },
+   {
+    "icon": "🛵",
+    "label": "Gig workers meet"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI: Rahul Gandhi will come on either Nov 13 or 14, TPCC chief Mahesh Kumar Goud said."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do big summits at Hitex affect your commute?",
+   "opts": [
+    "Yes, a lot",
+    "A little",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What does the Gig Workers Act change for delivery and ride-hailing workers in Hyderabad?"
+   ],
+   "facts": [
+    {
+     "big": "2nd",
+     "t": "This is the *second time* Hyderabad hosts the Bharat Summit.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/cong-to-host-3-day-bharat-summit-from-nov-12-rahul-likely-to-attend/articleshow/135719056.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "70",
+   "l": "countries sending delegates",
+   "tone": "neutral",
+   "verdict": "Three days of events at Hitex"
+  },
+  {
+   "t": "timeline",
+   "l": "Summit days",
+   "steps": [
+    {
+     "t": "Nov 12",
+     "e": "Summit opens at Hitex"
+    },
+    {
+     "t": "Nov 13 or 14",
+     "e": "Rahul Gandhi visit, gig workers meet"
+    },
+    {
+     "t": "Nov 14",
+     "e": "Summit ends"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Three days of events at Hitex"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "70",
+  "label": "countries sending delegates",
+  "motion": "drift",
+  "scene": [
+   "🌍",
+   "🎤",
+   "🛵"
+  ]
+ },
+ "watch": "Any traffic advisory for Hitex and HITEC City during the summit.",
+ "thread": "hyd-bharat-summit-hitex-nov-12-14",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Cong to host 3-day 'Bharat Summit' from Nov 12, Rahul likely to attend",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/cong-to-host-3-day-bharat-summit-from-nov-12-rahul-likely-to-attend/articleshow/135719056.cms"
+  }
+ ],
+ "updated": 1794358675257,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135719054,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Hitex hosts *1,000 delegates from 70 countries* for a three-day Bharat Summit.",
+ "twist": "Rahul Gandhi is also likely to address a meeting of gig workers during his visit.",
+ "layer": "near",
+ "areas": [
+  "HITEC City",
+  "Madhapur",
+  "Kondapur"
+ ]
+}

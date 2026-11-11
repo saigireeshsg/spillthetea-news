@@ -1,0 +1,138 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-74",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "education",
+ "hook": "Young India Police School gets *₹50 lakh* for labs, library",
+ "hook_b": "Young India Police School gets *₹50 lakh* for labs, library",
+ "tldr": "Optimus Group's D. Srinivas Reddy handed the cheque to DGP C.V. Anand at an open house in Mindspace.",
+ "beats": {
+  "what": "The money will go to classrooms, science and tech labs, a library, sports and digital learning.",
+  "why": "The DGP appealed to companies and philanthropists to help build the school's facilities.",
+  "care": "Families looking at schools: it admits children from police families and the public."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏫",
+    "label": "DGP appeal to donors"
+   }
+  ],
+  "event": {
+   "icon": "💰",
+   "label": "₹50 lakh donated"
+  },
+  "effects": [
+   {
+    "icon": "🔬",
+    "label": "Labs, library"
+   },
+   {
+    "icon": "🔬",
+    "label": "Sports, digital learning"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu: The DGP appealed to more industrial and commercial organisations to contribute."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should companies fund public schools' infrastructure?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How does a school funded by donations decide what to build first?"
+   ],
+   "facts": [
+    {
+     "big": "2",
+     "t": "The school serves *2 groups*: police families' children and the general public.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/young-india-police-school-in-hyderabad-receives-donation-of-50-lakh/article71686619.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹50 lakh",
+   "l": "donated to the school",
+   "tone": "good",
+   "verdict": "Funds for school facilities"
+  },
+  {
+   "t": "timeline",
+   "l": "Where the money goes",
+   "steps": [
+    {
+     "t": "1",
+     "e": "Classrooms"
+    },
+    {
+     "t": "2",
+     "e": "Science and technology labs"
+    },
+    {
+     "t": "3",
+     "e": "Library and sports"
+    },
+    {
+     "t": "4",
+     "e": "Digital learning"
+    }
+   ],
+   "tone": "good",
+   "verdict": "Funds for school facilities"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹50 lakh",
+  "label": "donated to the school",
+  "motion": "drift",
+  "scene": [
+   "🏫",
+   "💰",
+   "🔬"
+  ]
+ },
+ "watch": "Whether other companies follow with donations.",
+ "thread": "hyd-young-india-police-school-50-lakh",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Young India Police School in Hyderabad receives donation of ₹50 lakh",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/young-india-police-school-in-hyderabad-receives-donation-of-50-lakh/article71686619.ece"
+  }
+ ],
+ "updated": 1794358675257,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/8zcqqd/article71686626.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-10%20at%207.34.35%20PM.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "Hyderabad's Young India Police School receives a *₹50 lakh* donation.",
+ "twist": "The school is open to the general public, not just children of police families.",
+ "layer": "city",
+ "areas": [
+  "Hyderabad"
+ ]
+}

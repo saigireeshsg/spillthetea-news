@@ -1,0 +1,137 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-91",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Water Board races to add *40 MGD* Godavari water by Nov 15",
+ "hook_b": "Water Board races to add *40 MGD* Godavari water by Nov 15",
+ "tldr": "HMWSSB is speeding up Godavari pipeline interconnection works at Ghanpur, with crews working round the clock.",
+ "beats": {
+  "what": "MD K Ashok Reddy ordered three eight-hour shifts, floodlights for night work and extra labour teams.",
+  "why": "Water availability from the Singur-Manjeera sources is declining because of El Nino conditions.",
+  "care": "Areas that depend on Singur-Manjeera water are to get Godavari supply prioritised."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌵",
+    "label": "Singur-Manjeera falling"
+   }
+  ],
+  "event": {
+   "icon": "🔧",
+   "label": "Ghanpur works 24x7"
+  },
+  "effects": [
+   {
+    "icon": "💧",
+    "label": "40 MGD more by Nov 15"
+   },
+   {
+    "icon": "💧",
+    "label": "Manjeera-fed areas first"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: Road-crossing work was ordered to start so pipes can be laid within two to three days."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Has your area's water supply dropped this month?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How do residents know whether their area is Singur-Manjeera fed?"
+   ],
+   "facts": [
+    {
+     "big": "3",
+     "t": "Crews ordered to work *3 eight-hour shifts* with separate teams for each.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hmwssb-keen-to-complete-pipeline-works-by-nov-15-to-supply-7017a49a"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "40 MGD",
+   "l": "extra Godavari supply planned",
+   "tone": "neutral",
+   "verdict": "Deadline-driven supply boost"
+  },
+  {
+   "t": "timeline",
+   "l": "Race to Nov 15",
+   "steps": [
+    {
+     "t": "Nov 9",
+     "e": "MD inspects Ghanpur works"
+    },
+    {
+     "t": "Next 2-3 days",
+     "e": "Road-crossing pipes laid"
+    },
+    {
+     "t": "Nov 15",
+     "e": "Target: 40 MGD added"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Deadline-driven supply boost"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "40 MGD",
+  "label": "extra Godavari supply planned",
+  "motion": "drift",
+  "scene": [
+   "🌵",
+   "🔧",
+   "💧"
+  ]
+ },
+ "learn": {
+  "t": "MGD = million gallons per day, the unit used for city water supply."
+ },
+ "watch": "Whether the Ghanpur interconnection is finished by the Nov 15 deadline.",
+ "thread": "hmwssb-ghanpur-godavari-40-mgd-nov-15",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "HMWSSB speeds up Ghanpur pipeline works",
+   "url": "https://telanganatoday.com/hmwssb-keen-to-complete-pipeline-works-by-nov-15-to-supply-7017a49a"
+  }
+ ],
+ "updated": 1794358675256,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/GODAVARI-WATER-SUPPLY.jpg.jpeg",
+  "c": "Telangana Today"
+ },
+ "fact": "Hyderabad could get *40 million gallons a day* more Godavari water by Nov 15.",
+ "twist": "The push comes because Singur-Manjeera supply is falling under El Nino conditions.",
+ "layer": "city",
+ "areas": [
+  "Hyderabad"
+ ]
+}

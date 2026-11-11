@@ -1,0 +1,134 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "*112* new DSPs could be sent abroad to study policing",
+ "hook_b": "*112* new DSPs could be sent abroad to study policing",
+ "tldr": "CM Revanth Reddy addressed the passing-out of the second DSP batch (2025) at MCR HRD Institute.",
+ "beats": {
+  "what": "He said the govt is willing to send new DSPs abroad and flagged cybercrime as a major threat.",
+  "why": "The CM said crime patterns have changed, with people losing money to fraudsters they never meet.",
+  "care": "These officers will lead police subdivisions, including cyber, drugs and traffic work."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "👮",
+    "label": "Crime patterns changing"
+   }
+  ],
+  "event": {
+   "icon": "🎓",
+   "label": "112 DSPs pass out"
+  },
+  "effects": [
+   {
+    "icon": "💻",
+    "label": "Foreign study offer"
+   },
+   {
+    "icon": "💻",
+    "label": "Cybercrime focus"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI: The CM cited the Eagle Force for drug control and new systems for food safety and cybercrime."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should police officers train abroad?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What would officers learn abroad that cannot be taught here?"
+   ],
+   "facts": [
+    {
+     "big": "30 yrs",
+     "t": "CM said Telangana's next *30 years* partly rest with this batch.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/cm-revanth-urges-new-telangana-dsps-to-tackle-emerging-crimes/articleshow/135718906.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "112",
+   "l": "new DSPs pass out",
+   "tone": "neutral",
+   "verdict": "Training offer, no dates yet"
+  },
+  {
+   "t": "timeline",
+   "l": "New DSPs",
+   "steps": [
+    {
+     "t": "2025",
+     "e": "Second DSP batch recruited"
+    },
+    {
+     "t": "Nov 10, 2026",
+     "e": "Valedictory at MCR HRD Institute"
+    },
+    {
+     "t": "Next",
+     "e": "Possible study tours abroad"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Training offer, no dates yet"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "112",
+  "label": "new DSPs pass out",
+  "motion": "drift",
+  "scene": [
+   "👮",
+   "🎓",
+   "💻"
+  ]
+ },
+ "learn": {
+  "t": "DSP = Deputy Superintendent of Police, who usually heads a police subdivision."
+ },
+ "watch": "Whether a foreign training programme for DSPs is formally announced.",
+ "thread": "tg-112-new-dsps-foreign-study-cybercrime",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "CM Revanth urges new Telangana DSPs to tackle emerging crimes",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/cm-revanth-urges-new-telangana-dsps-to-tackle-emerging-crimes/articleshow/135718906.cms"
+  }
+ ],
+ "updated": 1794358675257,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135718905,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Telangana's *112 new DSPs* may be sent abroad to study global policing.",
+ "twist": "Govt school teachers are already being sent overseas to study education practices, the CM said.",
+ "layer": "state"
+}

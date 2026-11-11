@@ -1,0 +1,148 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-85",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "welfare",
+ "hook": "Indiramma family insurance launches *Nov 19* in Siddipet",
+ "hook_b": "Indiramma family insurance launches *Nov 19* in Siddipet",
+ "tldr": "CM Revanth Reddy will launch the scheme at a Siddipet public meeting on Indira Gandhi's birth anniversary.",
+ "beats": {
+  "what": "Light green Indiramma sarees for women will also start being distributed at the event.",
+  "why": "The govt is holding public meetings in constituencies held by senior BRS leaders.",
+  "care": "Families should watch for eligibility and enrolment details once the scheme launches."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📜",
+    "label": "Welfare promise"
+   }
+  ],
+  "event": {
+   "icon": "🛡️",
+   "label": "Launch in Siddipet"
+  },
+  "effects": [
+   {
+    "icon": "👨‍👩‍👧",
+    "label": "Sarees for women"
+   },
+   {
+    "icon": "👨‍👩‍👧",
+    "label": "Scheme details awaited"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI: Ministers Ponnam Prabhakar and Vivek Venkataswamy inspected the venues."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would your family sign up for a state family insurance scheme?",
+   "opts": [
+    "Yes",
+    "No",
+    "Need details first",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What will the insurance actually cover, and who is eligible?"
+   ],
+   "facts": [
+    {
+     "big": "20 lakh",
+     "t": "The state's breakfast scheme covers *20 lakh students*, minister Vivek said.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/revanth-to-launch-indiramma-insurance-scheme-in-siddipet-on-nov-19/articleshow/135719032.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Nov 19",
+   "l": "statewide launch",
+   "tone": "good",
+   "verdict": "Higher limit for women's self-help groups"
+  },
+  {
+   "t": "compare",
+   "l": "SHG interest-free loan limit",
+   "goodIfUp": true,
+   "tone": "good",
+   "verdict": "Higher limit for women's self-help groups",
+   "a": {
+    "v": 5.0,
+    "d": "₹5 lakh",
+    "l": "Before"
+   },
+   "b": {
+    "v": 10.0,
+    "d": "₹10 lakh",
+    "l": "Now"
+   }
+  },
+  {
+   "t": "timeline",
+   "l": "Event plan",
+   "steps": [
+    {
+     "t": "Sept 30",
+     "e": "Meeting in Sircilla (KTR's seat)"
+    },
+    {
+     "t": "Nov 19",
+     "e": "Siddipet: insurance launch + sarees"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Launch tied to political outreach"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 19",
+  "label": "statewide launch",
+  "motion": "drift",
+  "scene": [
+   "📜",
+   "🛡️",
+   "👨‍👩‍👧"
+  ]
+ },
+ "watch": "The scheme's eligibility rules and cover amount, not stated in the report.",
+ "thread": "tg-indiramma-family-insurance-launch-nov-19",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Revanth to launch Indiramma insurance scheme in Siddipet on Nov 19",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/revanth-to-launch-indiramma-insurance-scheme-in-siddipet-on-nov-19/articleshow/135719032.cms"
+  }
+ ],
+ "updated": 1794358675257,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135719031,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Telangana's *Indiramma family insurance* scheme launches statewide on November 19.",
+ "twist": "The venue, Siddipet, is the constituency of BRS leader T Harish Rao.",
+ "layer": "state",
+ "areas": [
+  "Siddipet"
+ ]
+}

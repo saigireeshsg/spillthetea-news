@@ -1,0 +1,162 @@
+{
+ "cat": "money",
+ "lead": "money",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-89",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "money",
+ "hook": "Telangana's off-budget debt hits *₹1.21 lakh crore*, World Bank flags gaps",
+ "hook_b": "Telangana's off-budget debt hits *₹1.21 lakh crore*, World Bank flags gaps",
+ "tldr": "A World Bank study for the 16th Finance Commission flags inconsistencies in Telangana's off-budget borrowing disclosures.",
+ "beats": {
+  "what": "Telangana's outstanding off-budget liabilities were ₹1,20,944 crore at the end of 2023-24.",
+  "why": "Such loans are raised via state-owned entities and SPVs, so they sit outside the budget's headline debt.",
+  "care": "Debt repayments shape how much the state can spend on schemes, jobs and infrastructure."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏦",
+    "label": "Loans via state entities"
+   }
+  ],
+  "event": {
+   "icon": "📑",
+   "label": "World Bank flags gaps"
+  },
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "Disclosure mismatches"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Push for budget disclosure"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI: The report recommends entity-wise yearly disclosure, ideally in state budgets."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should states publish all off-budget loans in the budget?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much of the state's yearly revenue goes into servicing these loans?"
+   ],
+   "facts": [
+    {
+     "big": "3%",
+     "t": "Kerala's off-budget liabilities were *3% of GSDP*; Karnataka's *1%*.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/world-bank-flags-gaps-in-telangana-off-budget-debt-reporting/articleshow/135718967.cms"
+    },
+    {
+     "big": "₹2,303 cr",
+     "t": "Telangana raised *₹2,303 crore* fresh off-budget loans in 2023-24.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/world-bank-flags-gaps-in-telangana-off-budget-debt-reporting/articleshow/135718967.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "₹1.21L cr",
+   "l": "off-budget liabilities, 2023-24",
+   "tone": "bad",
+   "verdict": "Liabilities up about ₹23,000 crore in three years"
+  },
+  {
+   "t": "trend",
+   "l": "Off-budget liabilities (₹ crore)",
+   "pts": [
+    [
+     "2020-21",
+     97940
+    ],
+    [
+     "2021-22",
+     118955
+    ],
+    [
+     "2022-23",
+     118629
+    ],
+    [
+     "2023-24",
+     120944
+    ]
+   ],
+   "unit": "",
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Liabilities up about ₹23,000 crore in three years"
+  },
+  {
+   "t": "compare",
+   "l": "Share of GSDP: Telangana vs Andhra",
+   "tone": "neutral",
+   "verdict": "AP and Telangana highest among states studied",
+   "a": {
+    "v": 9.0,
+    "d": "9%",
+    "l": "Telangana"
+   },
+   "b": {
+    "v": 11.0,
+    "d": "11%",
+    "l": "Andhra Pradesh"
+   }
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b0f0f",
+   "#c0392b"
+  ],
+  "big": "₹1.21L cr",
+  "label": "off-budget liabilities, 2023-24",
+  "motion": "drift",
+  "scene": [
+   "🏦",
+   "📑",
+   "⚖️"
+  ]
+ },
+ "learn": {
+  "t": "Off-budget borrowing = loans taken by state companies or SPVs, repaid with govt money, but not shown as state debt."
+ },
+ "watch": "Whether the 16th Finance Commission adopts the disclosure recommendation.",
+ "thread": "tg-world-bank-off-budget-debt-9-pct-gsdp",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "World Bank flags gaps in Telangana off-budget debt reporting",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/world-bank-flags-gaps-in-telangana-off-budget-debt-reporting/articleshow/135718967.cms"
+  }
+ ],
+ "updated": 1794358675256,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135718966,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Telangana's hidden off-budget debt equals about *9% of its GSDP*.",
+ "twist": "Six state entities showed nil liabilities in 2022 despite ₹35,667 crore in govt guarantees.",
+ "layer": "state"
+}

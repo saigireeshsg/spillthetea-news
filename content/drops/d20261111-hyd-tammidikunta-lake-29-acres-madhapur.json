@@ -1,0 +1,164 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-95",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "lakes",
+ "hook": "Tammidikunta lake grows to *29.3 acres* after Hydraa restoration",
+ "hook_b": "Tammidikunta lake grows to *29.3 acres* after Hydraa restoration",
+ "tldr": "CM Revanth Reddy inaugurates the restored Tammidikunta lake in Madhapur at 6 pm on Wednesday, Nov 11.",
+ "beats": {
+  "what": "Hydraa removed 30,000 truckloads of silt and built a 1.6 km walkway, open-air gym and play area.",
+  "why": "The lake had shrunk to 16.2 acres and was used as a dump for debris, garbage and biomedical waste.",
+  "care": "A new public lakefront with a walking track opens in Madhapur; Hydraa says it will also help control monsoon flooding."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗑️",
+    "label": "Lake shrank, used as dump"
+   }
+  ],
+  "event": {
+   "icon": "🏞️",
+   "label": "Tammidikunta reopens Nov 11"
+  },
+  "effects": [
+   {
+    "icon": "🚶",
+    "label": "1.6 km walkway, gym"
+   },
+   {
+    "icon": "🚶",
+    "label": "Flood control, groundwater"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat: Hydraa invited actor Nagarjuna for 'extending support' to the lake's development."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you use a lakefront walkway like Tammidikunta's?",
+   "opts": [
+    "Yes, regularly",
+    "Maybe once",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who maintains a restored lake once the inauguration is over?",
+    "How many other Hyderabad lakes are still below their recorded size?"
+   ],
+   "facts": [
+    {
+     "big": "30,000",
+     "t": "Hydraa removed *30,000 truckloads* of silt from the lake.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/from-demolition-to-invitation-nagarjuna-hydraa-come-full-circle-3573673/"
+    },
+    {
+     "big": "34",
+     "t": "*34 people* who lost huts at Ramanthapur Pedda Cheruvu get Indiramma house papers at the event.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/from-demolition-to-invitation-nagarjuna-hydraa-come-full-circle-3573673/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "29.3",
+   "l": "acres after restoration",
+   "tone": "good",
+   "verdict": "More lake area for residents and flood control"
+  },
+  {
+   "t": "compare",
+   "l": "Lake area (acres)",
+   "goodIfUp": true,
+   "tone": "good",
+   "verdict": "More lake area for residents and flood control",
+   "a": {
+    "v": 16.2,
+    "d": "16.2 acres",
+    "l": "Before"
+   },
+   "b": {
+    "v": 29.3,
+    "d": "29.3 acres",
+    "l": "Now"
+   }
+  },
+  {
+   "t": "timeline",
+   "l": "How it got here",
+   "steps": [
+    {
+     "t": "Aug 24, 2024",
+     "e": "N Convention demolished for FTL"
+    },
+    {
+     "t": "Restoration",
+     "e": "30,000 truckloads of silt removed"
+    },
+    {
+     "t": "Nov 11, 6 pm",
+     "e": "CM inaugurates lake"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Restored lake opens to public"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "29.3",
+  "label": "acres after restoration",
+  "motion": "drift",
+  "scene": [
+   "🗑️",
+   "🏞️",
+   "🚶"
+  ]
+ },
+ "learn": {
+  "t": "FTL = Full Tank Level, the lake boundary at full capacity where building is barred.",
+  "show": false
+ },
+ "watch": "Whether Hydraa's other lake restorations follow the same timeline.",
+ "thread": "hyd-tammidikunta-lake-29-acres-madhapur",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "From demolition to invitation: Nagarjuna, HYDRAA come full circle",
+   "url": "https://www.siasat.com/from-demolition-to-invitation-nagarjuna-hydraa-come-full-circle-3573673/"
+  }
+ ],
+ "updated": 1794358675255,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/thammidikunta.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Madhapur's Tammidikunta lake nearly doubles from 16.2 to *29.3 acres*.",
+ "twist": "Nagarjuna, whose N Convention Hydraa demolished here in 2024, is the guest of honour.",
+ "layer": "near",
+ "areas": [
+  "Madhapur",
+  "HITEC City"
+ ]
+}
