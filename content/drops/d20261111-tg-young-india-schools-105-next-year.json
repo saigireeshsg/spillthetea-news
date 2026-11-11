@@ -1,0 +1,136 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-74",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "education",
+ "hook": "Several of *105* Young India schools to open next academic year",
+ "hook_b": "Several of *105* Young India schools to open next academic year",
+ "tldr": "Bhatti Vikramarka said construction is moving fast, speaking at a Telangana Public School foundation event in Kazipet.",
+ "beats": {
+  "what": "The State sanctioned 105 Young India Integrated Residential Schools; several should open from the next academic year.",
+  "why": "The government says it wants quality schooling regardless of a child's socio-economic background.",
+  "care": "Separately, Telangana Public Schools (one per constituency) will be semi-residential, English-medium, pre-primary to Class 12."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Push for quality schools"
+   }
+  ],
+  "event": {
+   "icon": "🏫",
+   "label": "Construction speeding up"
+  },
+  "effects": [
+   {
+    "icon": "🎒",
+    "label": "Some open next year"
+   },
+   {
+    "icon": "🎒",
+    "label": "₹200 cr per school"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu: Telangana Public School students would get breakfast, lunch, uniforms, books and transport, and go home in the evening."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Fully residential or semi-residential: which works better for kids?",
+   "opts": [
+    "Fully residential",
+    "Semi-residential",
+    "Depends on the child",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will students be selected for the first Young India schools?",
+    "Which constituencies get the first schools?"
+   ],
+   "facts": [
+    {
+     "big": "1",
+     "t": "Separately, *one* Telangana Public School is sanctioned per Assembly constituency, pre-primary to Class 12.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/young-india-residential-schools-to-be-ready-from-next-academic-year-telangana-deputy-cm/article71689442.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "105",
+   "l": "Young India schools sanctioned",
+   "tone": "neutral",
+   "verdict": "Opening depends on construction pace"
+  },
+  {
+   "t": "timeline",
+   "l": "Plan",
+   "steps": [
+    {
+     "t": "Sanctioned",
+     "e": "105 schools, ~₹200 cr each"
+    },
+    {
+     "t": "Nov 11",
+     "e": "Kazipet TPS foundation laid"
+    },
+    {
+     "t": "Next academic year",
+     "e": "Several schools to open"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Opening depends on construction pace"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "105",
+  "label": "Young India schools sanctioned",
+  "motion": "drift",
+  "scene": [
+   "🏗️",
+   "🏫",
+   "🎒"
+  ]
+ },
+ "watch": "How many of the 105 schools are actually ready for the 2027-28 session.",
+ "thread": "tg-young-india-schools-105-next-year",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Young India Residential Schools to be ready from next academic year",
+   "url": "https://www.thehindu.com/news/national/telangana/young-india-residential-schools-to-be-ready-from-next-academic-year-telangana-deputy-cm/article71689442.ece"
+  }
+ ],
+ "updated": 1794398180396,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/7x239w/article71689431.ece/alternates/LANDSCAPE_1200/Bhatti.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "Telangana plans to open several of its *105* Young India residential schools next year.",
+ "twist": "Each school is sanctioned at an estimated *₹200 crore*, Deputy CM Bhatti Vikramarka said.",
+ "layer": "state",
+ "areas": [
+  "Kazipet"
+ ]
+}

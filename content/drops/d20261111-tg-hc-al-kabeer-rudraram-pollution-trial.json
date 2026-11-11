@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "environment",
+ "hook": "HC: Al Kabeer must face trial over *buried animal waste* at Rudraram",
+ "hook_b": "HC: Al Kabeer must face trial over *buried animal waste* at Rudraram",
+ "tldr": "Justice N Tukaramji refused to quash the TGPCB case over the meat unit at Rudraram, Sangareddy, and asked the trial court to prioritise it.",
+ "beats": {
+  "what": "The court found a prima facie case under the Water Act and said only a trial can decide whether the allegations are true.",
+  "why": "TGPCB alleged dead animals and waste were buried in pits, contaminating ponds, wells and groundwater near the unit.",
+  "care": "Residents near Rudraram have waited since 2017 for the case to be decided."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧪",
+    "label": "Waste allegedly buried"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "HC refuses to quash"
+  },
+  "effects": [
+   {
+    "icon": "💧",
+    "label": "Trial on priority"
+   },
+   {
+    "icon": "💧",
+    "label": "Directors' roles checked"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat: The HC also said high TDS or COD readings alone don't prove an offence, and each director's role must be examined separately."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Pollution cases pending 9 years: what should change first?",
+   "opts": [
+    "Fast-track courts",
+    "Stronger PCB checks",
+    "Bigger penalties",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How often are pollution cases against industries in Telangana decided?",
+    "Who tests the water around Rudraram now?"
+   ],
+   "facts": [
+    {
+     "big": "₹50 lakh",
+     "t": "TGPCB already encashed the company's *₹50 lakh* bank guarantee, the company told the court.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/al-kabeer-must-face-trial-in-animal-waste-pollution-case-telangana-hc-3574209/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "2017",
+   "l": "case pending since",
+   "tone": "neutral",
+   "verdict": "Nine years on, the case moves to trial"
+  },
+  {
+   "t": "timeline",
+   "l": "The case so far",
+   "steps": [
+    {
+     "t": "Sep 2015",
+     "e": "Consent order issued to unit"
+    },
+    {
+     "t": "Dec 2016",
+     "e": "Legal Services Authority flags it"
+    },
+    {
+     "t": "2017",
+     "e": "TGPCB case filed"
+    },
+    {
+     "t": "Oct 28, 2026",
+     "e": "HC: case goes to trial"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Nine years on, the case moves to trial"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2017",
+  "label": "case pending since",
+  "motion": "drift",
+  "scene": [
+   "🧪",
+   "⚖️",
+   "💧"
+  ]
+ },
+ "learn": {
+  "t": "COD = chemical oxygen demand, a common marker of water pollution."
+ },
+ "watch": "Whether the Sangareddy trial court sets fast dates after the HC's priority direction.",
+ "thread": "tg-hc-al-kabeer-rudraram-pollution-trial",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Al Kabeer must face trial in animal waste pollution case: Telangana HC",
+   "url": "https://www.siasat.com/al-kabeer-must-face-trial-in-animal-waste-pollution-case-telangana-hc-3574209/"
+  }
+ ],
+ "updated": 1794398180396,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Al-Kabeer-Exports-Pvt-Ltd.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Telangana HC says Al Kabeer must face trial in a *2017* water pollution case.",
+ "twist": "The board says company letters mentioned removing about *40 tonnes* of buried waste; Al Kabeer says it holds all permissions.",
+ "layer": "state",
+ "areas": [
+  "Rudraram",
+  "Sangareddy"
+ ]
+}

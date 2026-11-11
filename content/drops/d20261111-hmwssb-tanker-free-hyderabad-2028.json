@@ -1,0 +1,158 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-80",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Water Board's target: a *tanker-free* Hyderabad by end-2028",
+ "hook_b": "Water Board's target: a *tanker-free* Hyderabad by end-2028",
+ "tldr": "HMWSSB MD K Ashok Reddy told TOI readers the plan hinges on Godavari Phase II and III adding 320 MGD by end-2027.",
+ "beats": {
+  "what": "Godavari Phase II and III are to add 320 MGD by end-2027, aiming at daily supply to all CURE-area homes.",
+  "why": "Peripheral areas like Kollur, Gachibowli, Kokapet and Neopolis still lean on expensive private tankers.",
+  "care": "If the network reaches these areas, households would not need to pay for private tankers."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚚",
+    "label": "Peripheral areas on tankers"
+   }
+  ],
+  "event": {
+   "icon": "🔧",
+   "label": "Godavari II & III pipeline"
+  },
+  "effects": [
+   {
+    "icon": "💧",
+    "label": "Daily supply goal"
+   },
+   {
+    "icon": "💧",
+    "label": "Tankers phased out by 2028"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI: 15 more filling stations are proposed for this summer, and an order now bars illegal groundwater extraction by bulk non-domestic users."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Tanker-free by 2028: how does that sound for your area?",
+   "opts": [
+    "Realistic",
+    "Too ambitious",
+    "Depends on Godavari works",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which neighbourhoods will get daily supply first once Godavari water arrives?",
+    "How will the board track whether tanker bookings actually fall?"
+   ],
+   "facts": [
+    {
+     "big": "15,000 km",
+     "t": "HMWSSB runs a *15,000-km* pipe network, with pipes from 2 to 50 years old.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-aims-to-become-tanker-free-city-by-2028-hmwssb-outlines-water-supply-sewage-and-conservation-plans/articleshow/135730514.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "320 MGD",
+   "l": "Godavari Phase II+III by end-2027",
+   "tone": "neutral",
+   "verdict": "A long-term target, tied to Godavari works"
+  },
+  {
+   "t": "timeline",
+   "l": "Road to tanker-free",
+   "steps": [
+    {
+     "t": "Summer 2027",
+     "e": "15 more filling stations proposed"
+    },
+    {
+     "t": "End-2027",
+     "e": "Godavari II & III add 320 MGD"
+    },
+    {
+     "t": "End-2028",
+     "e": "Tanker-free target"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A long-term target, tied to Godavari works"
+  },
+  {
+   "t": "compare",
+   "l": "Tankers in the CURE area",
+   "a": {
+    "v": 1500,
+    "d": "1,500",
+    "l": "now"
+   },
+   "b": {
+    "v": 1800,
+    "d": "1,800+",
+    "l": "with 300+ new registrations"
+   },
+   "tone": "neutral",
+   "verdict": "More tankers registered before the network catches up"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "320 MGD",
+  "label": "Godavari Phase II+III by end-2027",
+  "motion": "drift",
+  "scene": [
+   "🚚",
+   "🔧",
+   "💧"
+  ]
+ },
+ "learn": {
+  "t": "CURE = Core Urban Region Economy, the area inside the ORR under the Telangana Rising 2047 plan."
+ },
+ "watch": "Whether Godavari Phase II and III are commissioned by end-2027 as planned.",
+ "thread": "hmwssb-tanker-free-hyderabad-2028",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Hyderabad aims to become tanker-free city by 2028",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-aims-to-become-tanker-free-city-by-2028-hmwssb-outlines-water-supply-sewage-and-conservation-plans/articleshow/135730514.cms"
+  }
+ ],
+ "updated": 1794398180395,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135730742,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Hyderabad Water Board targets a *tanker-free* city by the end of 2028.",
+ "twist": "Right now *1,500 tankers* and 96 filling stations serve the CURE area, with 300 more tankers to be registered.",
+ "layer": "city",
+ "areas": [
+  "Kollur",
+  "Gachibowli",
+  "Kokapet",
+  "Neopolis"
+ ]
+}

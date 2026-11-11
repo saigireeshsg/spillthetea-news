@@ -1,0 +1,138 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-66",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Telangana seeks *$430 million* urban plan with World Bank help",
+ "hook_b": "Telangana seeks *$430 million* urban plan with World Bank help",
+ "tldr": "The Telangana Urban Transformation and Jobs Program targets towns in the PURE and RARE regions outside the ORR.",
+ "beats": {
+  "what": "It aims to fix municipal finances, support municipal bonds and fund climate-resilient water, sanitation and drainage.",
+  "why": "Only a few urban local bodies are creditworthy; most depend on State and central transfers.",
+  "care": "Fast-growing peri-urban towns could get better drains, water and public spaces if it is approved."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏚️",
+    "label": "Towns short of money"
+   }
+  ],
+  "event": {
+   "icon": "🏦",
+   "label": "World Bank loan sought"
+  },
+  "effects": [
+   {
+    "icon": "🏙️",
+    "label": "Water, drains, public spaces"
+   },
+   {
+    "icon": "🏙️",
+    "label": "Municipal bonds backed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu: TUFIDC would act as the financial intermediary, and the project would reward towns that improve their finances."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should towns borrow through municipal bonds for infrastructure?",
+   "opts": [
+    "Yes, if well managed",
+    "No, too risky",
+    "Only with State backing",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which towns count as PURE and RARE, and who picks them?",
+    "How would a town repay a municipal bond?"
+   ],
+   "facts": [
+    {
+     "big": "$300M",
+     "t": "The IBRD would extend a *$300 million* Programme for Results loan.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/telangana-seeks-world-bank-assistance-for-urban-mission-programme-in-pure-and-rare-regions/article71688892.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "$430M",
+   "l": "≈ ₹4,000 crore programme",
+   "tone": "neutral",
+   "verdict": "Mostly loan-funded, adds to State borrowing"
+  },
+  {
+   "t": "stack",
+   "l": "Who pays",
+   "parts": [
+    {
+     "l": "World Bank loan",
+     "v": 300,
+     "d": "$300M"
+    },
+    {
+     "l": "State Government",
+     "v": 130,
+     "d": "$130M"
+    }
+   ],
+   "total": "$430M",
+   "tone": "neutral",
+   "verdict": "Mostly loan-funded, adds to State borrowing"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "$430M",
+  "label": "≈ ₹4,000 crore programme",
+  "motion": "drift",
+  "scene": [
+   "🏚️",
+   "🏦",
+   "🏙️"
+  ]
+ },
+ "learn": {
+  "t": "PURE / RARE = Peri-Urban and Rural Agricultural Regional Economy zones in the Telangana Rising 2047 plan."
+ },
+ "watch": "Whether the World Bank approves the programme next year, and which towns are picked.",
+ "thread": "tg-world-bank-430m-urban-pure-rare",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana seeks World Bank assistance for urban mission programme",
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-seeks-world-bank-assistance-for-urban-mission-programme-in-pure-and-rare-regions/article71688892.ece"
+  }
+ ],
+ "updated": 1794398180397,
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/cities/Hyderabad/d8odve/article71689133.ece/alternates/LANDSCAPE_1200/Telangana%20finances%20M%20Venkat%20Rao.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "Telangana seeks World Bank help for a *$430 million* urban programme.",
+ "twist": "The World Bank would lend *$300 million*; the State funds the other $130 million, with approval likely next year.",
+ "layer": "state",
+ "areas": [
+  "Telangana"
+ ]
+}

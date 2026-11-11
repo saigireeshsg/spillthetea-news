@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-78",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "education",
+ "hook": "CM orders *10+2* school system from 2027-28",
+ "hook_b": "CM orders *10+2* school system from 2027-28",
+ "tldr": "Revanth Reddy, who also holds Education, directed officials at a meeting at MCR HRD on Nov 11.",
+ "beats": {
+  "what": "Officials were told to prepare a 10+2 system for the 2027-28 academic year and build the infrastructure it needs.",
+  "why": "The CM said the education system must change to keep up with the needs of modern times.",
+  "care": "Students now in Class 8 or 9 could be among the first batches under the new structure."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📚",
+    "label": "Reform push"
+   }
+  ],
+  "event": {
+   "icon": "🏫",
+   "label": "10+2 system ordered"
+  },
+  "effects": [
+   {
+    "icon": "🎓",
+    "label": "IX-XII as one block"
+   },
+   {
+    "icon": "🎓",
+    "label": "New infrastructure needed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu: Chief Secretary Sanjay Jaju and adviser K Keshava Rao attended the meeting. An earlier plan to merge Intermediate with school education had been put on hold."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should Classes 9-12 sit together in one system?",
+   "opts": [
+    "Yes, one system",
+    "Keep Intermediate separate",
+    "Need more details first",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What happens to Intermediate colleges and the Intermediate Board under 10+2?",
+    "Will private junior colleges follow the same structure?"
+   ],
+   "facts": [
+    {
+     "big": "27 lakh",
+     "t": "A breakfast scheme now covers nearly *27 lakh* government school students, the Deputy CM said.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/young-india-residential-schools-to-be-ready-from-next-academic-year-telangana-deputy-cm/article71689442.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "2027-28",
+   "l": "target academic year",
+   "tone": "neutral",
+   "verdict": "A structural change for students, timeline set"
+  },
+  {
+   "t": "timeline",
+   "l": "How it got here",
+   "steps": [
+    {
+     "t": "Earlier",
+     "e": "Inter-school merger put on hold"
+    },
+    {
+     "t": "Nov 11",
+     "e": "CM orders 10+2 steps"
+    },
+    {
+     "t": "2027-28",
+     "e": "Target start"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A structural change for students, timeline set"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2027-28",
+  "label": "target academic year",
+  "motion": "drift",
+  "scene": [
+   "📚",
+   "🏫",
+   "🎓"
+  ]
+ },
+ "learn": {
+  "t": "10+2 = ten years of schooling plus two senior years (Classes 11-12), here grouped with 9-10."
+ },
+ "watch": "Whether a formal order spells out what happens to the Intermediate Board.",
+ "thread": "tg-10-plus-2-schools-from-2027-28",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Take steps to introduce 10+2 education system from next academic year",
+   "url": "https://www.thehindu.com/news/national/telangana/take-steps-to-introduce-102-education-system-from-next-academic-year-telangana-cm-directs-officials/article71689444.ece"
+  }
+ ],
+ "updated": 1794398180396,
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/cities/Hyderabad/c94t7p/article71689448.ece/alternates/LANDSCAPE_1200/Image%2028.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "Telangana CM orders steps for a *10+2* school system from 2027-28.",
+ "twist": "Classes IX to XII would be treated as *higher education*, with specialised teaching, per the CM's direction.",
+ "layer": "state",
+ "areas": [
+  "Hyderabad"
+ ]
+}

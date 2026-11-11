@@ -1,0 +1,140 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-11",
+ "sort": "2026-11-11-62",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Morning *fog* behind bus crash on NH-65 near RC Puram",
+ "hook_b": "Morning *fog* behind bus crash on NH-65 near RC Puram",
+ "tldr": "The private travel bus turned turtle on Wednesday morning; the bus driver was seriously injured and taken to hospital.",
+ "beats": {
+  "what": "A speeding lorry hit the bus from behind after the bus driver reportedly braked suddenly.",
+  "why": "Fog had covered the area, so the lorry driver could not see the bus braking.",
+  "care": "Fog season is starting on highways around Hyderabad; morning commuters on NH-65 should slow down."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌫️",
+    "label": "Morning fog"
+   }
+  ],
+  "event": {
+   "icon": "🚌",
+   "label": "Lorry hits braking bus"
+  },
+  "effects": [
+   {
+    "icon": "🚑",
+    "label": "Driver seriously injured"
+   },
+   {
+    "icon": "🚑",
+    "label": "Case registered"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today: Police have registered a case."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What would cut foggy-morning highway crashes most?",
+   "opts": [
+    "Lower speed limits in fog",
+    "Better lane lighting",
+    "Strict checks on lorries",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Do highway buses and lorries have rules for driving in fog?"
+   ],
+   "facts": [
+    {
+     "big": "CAT III",
+     "t": "Hyderabad airport Runway 09R can now handle *CAT III* low-visibility landings.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-airport-upgrades-runway-09r-for-cat-iii-operations"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "NH-65",
+   "l": "near RC Puram",
+   "tone": "neutral",
+   "verdict": "Low visibility turned a sudden stop into a crash"
+  },
+  {
+   "t": "timeline",
+   "l": "How it happened",
+   "steps": [
+    {
+     "t": "1",
+     "e": "Fog covers NH-65"
+    },
+    {
+     "t": "2",
+     "e": "Bus brakes suddenly"
+    },
+    {
+     "t": "3",
+     "e": "Lorry can't see, hits bus"
+    },
+    {
+     "t": "4",
+     "e": "Bus overturns"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Low visibility turned a sudden stop into a crash"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "NH-65",
+  "label": "near RC Puram",
+  "motion": "drift",
+  "scene": [
+   "🌫️",
+   "🚌",
+   "🚑"
+  ]
+ },
+ "watch": "Fog through the coming mornings on highways out of Hyderabad.",
+ "thread": "nh65-rc-puram-bus-overturns-fog",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Private bus overturns after lorry collision on NH-65 near RC Puram",
+   "url": "https://telanganatoday.com/bus-turns-turtle-on-nh-65-near-ramachandrapuram-502f0252"
+  }
+ ],
+ "updated": 1794398180397,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/bus-turns-turtle-on-nh-65-near-ramachandrapuram-502f0252-d24f31ed.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "A private bus overturned on *NH-65* near RC Puram after a lorry hit it.",
+ "twist": "Police say *morning fog* hid the bus's sudden braking from the lorry driver behind it.",
+ "layer": "near",
+ "areas": [
+  "Ramachandrapuram",
+  "Patancheru"
+ ]
+}
