@@ -1,0 +1,136 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-12",
+ "sort": "2026-11-12-75",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "events",
+ "hook": "Bharat Summit speaker says her India visa was *cancelled*",
+ "hook_b": "Bharat Summit speaker says her India visa was *cancelled*",
+ "tldr": "Helle Lyng of Oslo daily Dagsavisen posted on X that 'orders from above' in the Home Ministry cancelled her valid visa.",
+ "beats": {
+  "what": "Helle Lyng says she was due to fly on Nov 11 to speak at the Bharat Summit in Hyderabad.",
+  "why": "She links the refusal to a press-freedom question she asked PM Modi in Norway in May 2026.",
+  "care": "The summit runs in Hyderabad this week, and the panel she was on is about media and democracy."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎤",
+    "label": "Invited as panellist"
+   }
+  ],
+  "event": {
+   "icon": "🛂",
+   "label": "Says visa cancelled"
+  },
+  "effects": [
+   {
+    "icon": "🏛️",
+    "label": "Empty seat on Nov 14 panel?"
+   },
+   {
+    "icon": "🏛️",
+    "label": "Press-freedom debate"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu: the same panel lists the Press Club of India president among speakers."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Are you following the Bharat Summit in Hyderabad this week?",
+   "opts": [
+    "Yes, closely",
+    "Just headlines",
+    "First I'm hearing",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What reason, if any, will officials give for the visa decision?",
+    "Who else is on the Nov 14 media panel?"
+   ],
+   "facts": [
+    {
+     "big": "48 hrs",
+     "t": "In her video she said there were still *48 hours* before her session.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/norwegian-journalist-helle-lyng-says-she-has-been-stopped-from-coming-to-hyderabad-for-bharat-summit/article71691222.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Nov 14",
+   "l": "Her scheduled panel",
+   "tone": "neutral",
+   "verdict": "Dates as she describes them"
+  },
+  {
+   "t": "timeline",
+   "l": "How it unfolded",
+   "steps": [
+    {
+     "t": "May 2026",
+     "e": "Asks PM Modi a press-freedom question in Norway"
+    },
+    {
+     "t": "Nov 11",
+     "e": "Says visa cancelled on day of travel"
+    },
+    {
+     "t": "Nov 14",
+     "e": "Her scheduled Day 2 panel"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Dates as she describes them"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 14",
+  "label": "Her scheduled panel",
+  "motion": "drift",
+  "scene": [
+   "🎤",
+   "🛂",
+   "🏛️"
+  ]
+ },
+ "watch": "Whether the Home Ministry comments, and whether she makes it to the Nov 14 session.",
+ "thread": "hyd-bharat-summit-norway-journalist-visa",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Norwegian journalist Helle Lyng says she has been stopped from coming to Hyderabad for Bharat Summit",
+   "url": "https://www.thehindu.com/news/national/norwegian-journalist-helle-lyng-says-she-has-been-stopped-from-coming-to-hyderabad-for-bharat-summit/article71691222.ece"
+  }
+ ],
+ "updated": 1794445054341,
+ "fact": "A Norwegian journalist invited to Hyderabad's Bharat Summit says her *visa was cancelled*.",
+ "twist": "She was listed for a Day 2 media and press-freedom panel on *Nov 14*.",
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/national/scygqf/article71691231.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-12%20at%2001.10.26.jpeg",
+  "c": "The Hindu"
+ },
+ "layer": "city",
+ "areas": [
+  "Madhapur"
+ ]
+}

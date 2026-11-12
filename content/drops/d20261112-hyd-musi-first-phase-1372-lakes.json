@@ -1,0 +1,138 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-12",
+ "sort": "2026-11-12-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "lakes",
+ "hook": "Hyderabad had *1,372 lakes*; nearly half are gone, says CM",
+ "hook_b": "Hyderabad had *1,372 lakes*; nearly half are gone, says CM",
+ "tldr": "At the Thammidikunta lake inauguration, CM Revanth Reddy tied lost lakes to flooding and said Musi work would start soon.",
+ "beats": {
+  "what": "The CM said the first phase of the Musi rejuvenation project would begin shortly and that no one would suffer losses.",
+  "why": "He said lost water bodies broke natural drainage, leaving roads and colonies prone to flooding.",
+  "care": "Musi works and lake drives decide which colonies flood less, and which structures face action."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Encroachments on lakes"
+   }
+  ],
+  "event": {
+   "icon": "🌊",
+   "label": "Musi phase 1 'shortly'"
+  },
+  "effects": [
+   {
+    "icon": "🏘️",
+    "label": "Drainage restored?"
+   },
+   {
+    "icon": "🏘️",
+    "label": "Fewer flooded colonies?"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu: he said Musi pollution is hurting people downstream in Nalgonda district, and asked all parties to cooperate."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Musi rejuvenation's first phase: what matters most to you?",
+   "opts": [
+    "Cleaner water",
+    "Less flooding",
+    "Fair deal for residents",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which lakes near you are on the list for restoration?",
+    "How will people living along the Musi be compensated?"
+   ],
+   "facts": [
+    {
+     "big": "30 acres",
+     "t": "Thammidikunta, which had *shrunk to 14 acres*, was expanded to 30 acres, the CM said.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/encroachments-caused-disappearance-of-nearly-half-of-hyderabads-lakes-says-revanth-reddy"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "1,372",
+   "l": "lakes Hyderabad once had",
+   "tone": "neutral",
+   "verdict": "Lake area restored for nearby residents"
+  },
+  {
+   "t": "compare",
+   "l": "Thammidikunta lake area",
+   "a": {
+    "v": 14,
+    "d": "14 acres",
+    "l": "shrunk to"
+   },
+   "b": {
+    "v": 30,
+    "d": "30 acres",
+    "l": "after restoration"
+   },
+   "tone": "good",
+   "verdict": "Lake area restored for nearby residents"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "1,372",
+  "label": "lakes Hyderabad once had",
+  "motion": "drift",
+  "scene": [
+   "🏗️",
+   "🌊",
+   "🏘️"
+  ]
+ },
+ "watch": "An official start date and route for Musi rejuvenation phase one.",
+ "thread": "hyd-musi-first-phase-1372-lakes",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "First phase of Musi rejuvenation to begin shortly, says Telangana CM",
+   "url": "https://www.thehindu.com/news/national/telangana/first-phase-of-musi-rejuvenation-to-begin-shortly-says-telangana-cm-revath/article71690889.ece"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Encroachments caused disappearance of nearly half of Hyderabad's lakes, says Revanth Reddy",
+   "url": "https://telanganatoday.com/encroachments-caused-disappearance-of-nearly-half-of-hyderabads-lakes-says-revanth-reddy"
+  }
+ ],
+ "updated": 1794445054341,
+ "fact": "Hyderabad once had *1,372 lakes*, and nearly half have vanished, the CM says.",
+ "twist": "He says the Musi rejuvenation's *first phase* will begin shortly, but gave no start date.",
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/g69n7j/article71691067.ece/alternates/LANDSCAPE_1200/_DSC4986.JPG",
+  "c": "The Hindu"
+ },
+ "layer": "city",
+ "areas": [
+  "Madhapur",
+  "Hyderabad"
+ ]
+}

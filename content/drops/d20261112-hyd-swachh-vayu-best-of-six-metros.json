@@ -1,0 +1,151 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-12",
+ "sort": "2026-11-12-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "air",
+ "hook": "Hyderabad beats Delhi, Mumbai, Bengaluru on *clean-air* efforts",
+ "hook_b": "Hyderabad beats Delhi, Mumbai, Bengaluru on *clean-air* efforts",
+ "tldr": "CPCB's Swachh Vayu Sarvekshan 2026 put Hyderabad ahead of Delhi, Mumbai, Bengaluru, Chennai and Kolkata.",
+ "beats": {
+  "what": "Hyderabad scored 174.2 of 200 in the CPCB's Swachh Vayu Sarvekshan 2026 and ranked 19th among million-plus cities.",
+  "why": "The survey scores how civic bodies tackle road dust, construction waste, vehicle and industrial pollution, and garbage.",
+  "care": "Money tied to the scheme is going into electric buses and EV charging points in the city."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚧",
+    "label": "Dust, vehicles, waste burning"
+   }
+  ],
+  "event": {
+   "icon": "🏆",
+   "label": "Top among six metros"
+  },
+  "effects": [
+   {
+    "icon": "🚌",
+    "label": "Rs 100 cr for e-buses"
+   },
+   {
+    "icon": "🚌",
+    "label": "Rs 30 cr for EV charging"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI: Rs 100 crore under the National Clean Air Programme is sanctioned to TGSRTC for e-buses, and Rs 30 crore to TGREDCO for EV charging."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Does Hyderabad's air feel cleaner than other big metros to you?",
+   "opts": [
+    "Yes",
+    "No",
+    "Depends on my area",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which parts of the city drag the score down: dust, traffic or waste burning?",
+    "Will the e-bus money show up as fewer diesel buses on your route?"
+   ],
+   "facts": [
+    {
+     "big": "1st",
+     "t": "Greater Hyderabad was also named Telangana's *first Swachh city* in Swachh Survekshan 2025-26.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/greater-hyderabad-named-telanganas-first-swachh-city/articleshow/135747246.cms"
+    },
+    {
+     "big": "6th",
+     "t": "In 2024 Hyderabad was *6th* in Swachh Survekshan among cities over 10 lakh people.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/greater-hyderabad-named-telanganas-first-swachh-city/articleshow/135747246.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "174.2/200",
+   "l": "Swachh Vayu Sarvekshan 2026 score",
+   "tone": "neutral",
+   "verdict": "Up three places from 22nd"
+  },
+  {
+   "t": "compare",
+   "l": "Rank among 10-lakh-plus cities",
+   "a": {
+    "v": 22,
+    "d": "22nd",
+    "l": "last year"
+   },
+   "b": {
+    "v": 19,
+    "d": "19th",
+    "l": "2026"
+   },
+   "goodIfUp": false,
+   "tone": "good",
+   "verdict": "Up three places from 22nd"
+  },
+  {
+   "t": "meter",
+   "l": "Score out of 200",
+   "v": 174.2,
+   "max": 200,
+   "d": "174.2",
+   "tone": "good",
+   "verdict": "About 87% of the maximum marks"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "174.2/200",
+  "label": "Swachh Vayu Sarvekshan 2026 score",
+  "motion": "drift",
+  "scene": [
+   "🚧",
+   "🏆",
+   "🚌"
+  ]
+ },
+ "learn": {
+  "t": "Swachh Vayu Sarvekshan = CPCB's yearly ranking of how well cities act to cut air pollution."
+ },
+ "watch": "How many of the NCAP-funded electric buses and EV charging stations actually roll out.",
+ "thread": "hyd-swachh-vayu-best-of-six-metros",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Hyd beats five other metros in Centre's clean-air survey",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyd-beats-five-other-metros-in-centres-clean-air-survey/articleshow/135747926.cms"
+  }
+ ],
+ "updated": 1794445054339,
+ "fact": "Hyderabad tops six big metros in the Centre's clean-air survey, scoring *174.2/200*.",
+ "twist": "Among all India's 10-lakh-plus cities, though, it ranks only *19th*, up three places.",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135747923,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "layer": "city",
+ "areas": [
+  "Hyderabad"
+ ]
+}

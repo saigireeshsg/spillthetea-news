@@ -1,0 +1,155 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-12",
+ "sort": "2026-11-12-85",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "courts",
+ "hook": "HC orders DGP to produce *HYDRAA chief* on Nov 17",
+ "hook_b": "HC orders DGP to produce *HYDRAA chief* on Nov 17",
+ "tldr": "Justice CV Bhaskar Reddy dismissed exemption pleas in two contempt cases over land in Shamshabad and Bachupally.",
+ "beats": {
+  "what": "HYDRAA commissioner AV Ranganath and the Shamshabad tahsildar must appear on Nov 17; the Medchal-Malkajgiri Collector on Nov 25.",
+  "why": "In both cases petitioners say officials acted on land despite earlier court orders, and filed contempt petitions.",
+  "care": "The rulings test how far HYDRAA's land and lake actions must follow court process."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📜",
+    "label": "Contempt pleas over land"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "Exemption pleas dismissed"
+  },
+  "effects": [
+   {
+    "icon": "👮",
+    "label": "DGP to produce HYDRAA chief"
+   },
+   {
+    "icon": "👮",
+    "label": "Police to produce Medchal Collector"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI: both HYDRAA's chief and the tahsildar had been told on Oct 13 to appear on Nov 11, and neither was present."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should senior officials appear in person when a court summons them?",
+   "opts": [
+    "Yes, always",
+    "Only if they skipped before",
+    "Lawyers are enough",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What happens if an official still does not appear after the police are told to ensure it?",
+    "How many HYDRAA actions are being challenged in court right now?"
+   ],
+   "facts": [
+    {
+     "big": "9 acres",
+     "t": "The Shamshabad case is over *43,560 sq yards* (about 9 acres) on the prohibited-properties list.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/hc-pulls-up-hydraa-chief-asks-dgp-to-ensure-his-appearance-on-nov-17/articleshow/135745659.cms"
+    },
+    {
+     "big": "Election duty",
+     "t": "The Medchal Collector sought exemption citing *election-related duties*; the court said official work is no excuse.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hc-rejects-medchal-collectors-plea-for-exemption-from-personal-appearance"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "big",
+   "v": "Nov 17",
+   "l": "HYDRAA chief must appear in HC",
+   "tone": "neutral",
+   "verdict": "Court dates to watch for both officials"
+  },
+  {
+   "t": "timeline",
+   "l": "Two contempt cases, one judge",
+   "steps": [
+    {
+     "t": "Oct 13",
+     "e": "Notices to HYDRAA chief, tahsildar"
+    },
+    {
+     "t": "Nov 11",
+     "e": "Both absent; exemption pleas dismissed"
+    },
+    {
+     "t": "Nov 17",
+     "e": "HYDRAA chief, Shamshabad tahsildar due"
+    },
+    {
+     "t": "Nov 25",
+     "e": "Medchal-Malkajgiri Collector due"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Court dates to watch for both officials"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 17",
+  "label": "HYDRAA chief must appear in HC",
+  "motion": "drift",
+  "scene": [
+   "📜",
+   "⚖️",
+   "👮"
+  ]
+ },
+ "learn": {
+  "t": "Contempt of court = a case filed when someone is accused of not obeying a court's order."
+ },
+ "watch": "Whether both officials appear on Nov 17 and Nov 25, and what the court decides on contempt.",
+ "thread": "tg-hc-hydraa-chief-medchal-collector-appear",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "HC pulls up HYDRAA chief, asks DGP to ensure his appearance on Nov 17",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/hc-pulls-up-hydraa-chief-asks-dgp-to-ensure-his-appearance-on-nov-17/articleshow/135745659.cms"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "HC rejects Medchal Collector's plea for exemption from personal appearance",
+   "url": "https://telanganatoday.com/hc-rejects-medchal-collectors-plea-for-exemption-from-personal-appearance"
+  }
+ ],
+ "updated": 1794445054340,
+ "fact": "High Court orders the DGP to produce HYDRAA's chief in court on *Nov 17*.",
+ "twist": "Same judge, same day: the Medchal Collector's exemption plea was also rejected, with presence ordered *Nov 25*.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/High-Court-1-1.jpg",
+  "c": "Telangana Today"
+ },
+ "layer": "near",
+ "areas": [
+  "Shamshabad",
+  "Bachupally"
+ ]
+}
