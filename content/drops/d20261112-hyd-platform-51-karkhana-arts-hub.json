@@ -1,0 +1,141 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-12",
+ "sort": "2026-11-12-62",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "culture",
+ "hook": "A Karkhana house turns into a *51-seat* arts space",
+ "hook_b": "A Karkhana house turns into a *51-seat* arts space",
+ "tldr": "Platform 51, a new arts space in Vikrampuri Colony, Karkhana, is hosting trial events ahead of an official launch.",
+ "beats": {
+  "what": "A 700 sq ft stage with a green room; a café, amphitheatre and banquet hall are planned, per The Hindu.",
+  "why": "Co-founder Prerna Kirthi says she chose Secunderabad over West Hyderabad, seen as the city's growth centre, to return to her roots.",
+  "care": "Plays and a Sufi night are planned for Secunderabad, closer to home for people in the twin city."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏠",
+    "label": "Old house, new use"
+   }
+  ],
+  "event": {
+   "icon": "🎭",
+   "label": "Platform 51 opens trials"
+  },
+  "effects": [
+   {
+    "icon": "🎶",
+    "label": "Plays, music nearby"
+   },
+   {
+    "icon": "🎶",
+    "label": "Sufi night planned"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "It is not officially open yet; trial events are running to iron out operational issues, per The Hindu."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "A new arts space in Secunderabad: what would bring you in?",
+   "opts": [
+    "Plays and theatre",
+    "Music nights",
+    "Workshops like pottery or painting",
+    "Not sure / not my thing"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What kinds of arts spaces exist in Secunderabad compared with West Hyderabad?",
+    "Will small venues like this stay affordable for performers?"
+   ],
+   "facts": [
+    {
+     "big": "40 yrs",
+     "t": "The venue sits in a *four-decade-old house* in a quiet residential neighbourhood that keeps its architectural character.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/entertainment/theatre/inside-platform-51-secunderabads-new-community-hub-for-art-and-theatre/article71685271.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How Platform 51 came together",
+   "steps": [
+    {
+     "t": "Feb 2025",
+     "e": "House in Vikrampuri Colony leased"
+    },
+    {
+     "t": "Then",
+     "e": "Investors pulled out; RK Shenoy stepped in"
+    },
+    {
+     "t": "Now",
+     "e": "Trial events before official launch"
+    },
+    {
+     "t": "Planned",
+     "e": "Café, amphitheatre, banquet hall"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A new arts venue for Secunderabad residents, not yet officially open"
+  },
+  {
+   "t": "big",
+   "v": "700 sq ft",
+   "l": "performance space with stage and green room",
+   "tone": "neutral",
+   "verdict": "Small venue: 51 seats"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "51",
+  "label": "seats in the performance space",
+  "motion": "drift",
+  "scene": [
+   "🏠",
+   "🎭",
+   "🎶"
+  ]
+ },
+ "watch": "The official launch date; plays and a Sufi night are planned, per the founders.",
+ "thread": "hyd-platform-51-karkhana-arts-hub",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Inside Secunderabad's new community hub for art and theatre",
+   "url": "https://www.thehindu.com/entertainment/theatre/inside-platform-51-secunderabads-new-community-hub-for-art-and-theatre/article71685271.ece"
+  }
+ ],
+ "updated": 1794467535920,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/m4v4j/article71692466.ece/alternates/LANDSCAPE_1200/platform-collage.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "A four-decade-old Karkhana house is now Platform 51, seating just *51 people*.",
+ "twist": "Its *50-cm-thick* brick walls diffuse sound, so performers don't need mics, co-founder RK Shenoy told The Hindu.",
+ "areas": [
+  "Karkhana",
+  "Secunderabad"
+ ],
+ "layer": "near"
+}

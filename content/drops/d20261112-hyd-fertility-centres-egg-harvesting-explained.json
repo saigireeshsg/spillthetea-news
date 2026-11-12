@@ -1,0 +1,140 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-12",
+ "sort": "2026-11-12-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "Hyderabad fertility crackdown: *13 ART notices* after raids",
+ "hook_b": "Hyderabad fertility crackdown: *13 ART notices* after raids",
+ "tldr": "The Hindu explains why Hyderabad's fertility centres are under scrutiny after raids exposed illegal oocyte (egg) harvesting.",
+ "beats": {
+  "what": "Raids found illegal oocyte harvesting and trafficking; notices were issued under ART rules, per The Hindu.",
+  "why": "Fertility centres have surged in Hyderabad, with ads on autorickshaws and bus bays, per The Hindu.",
+  "care": "Couples paying for IVF and similar packages, and women recruited as egg donors, are the people these rules cover."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏥",
+    "label": "Fertility centres surge"
+   }
+  ],
+  "event": {
+   "icon": "🔍",
+   "label": "Raids, 13 ART notices"
+  },
+  "effects": [
+   {
+    "icon": "👩",
+    "label": "Clinics face checks"
+   },
+   {
+    "icon": "👩",
+    "label": "Donor safety in focus"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Packages at these centres range from ₹2.5 lakh to ₹50 lakh depending on the ART service, per The Hindu."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Fertility centres in Hyderabad: what matters most to you now?",
+   "opts": [
+    "Tighter inspections",
+    "Clear package pricing",
+    "Safeguards for egg donors",
+    "Not sure / depends"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who checks that fertility centres follow the ART rules?",
+    "How are egg donors protected under current rules?"
+   ],
+   "facts": [
+    {
+     "big": "₹50 lakh",
+     "t": "Fertility packages in Hyderabad range from *₹2.5 lakh to ₹50 lakh* depending on the ART service.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/why-are-fertility-centres-in-hyderabad-in-crosshairs-over-human-egg-harvesting-explained/article71692345.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The crackdown so far, per The Hindu",
+   "steps": [
+    {
+     "t": "Late Oct",
+     "e": "Police raid 3 premises"
+    },
+    {
+     "t": "Rescue",
+     "e": "29 women from 6 states freed"
+    },
+    {
+     "t": "Notices",
+     "e": "13 ART notices issued"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Women were confined for egg harvesting, police found"
+  },
+  {
+   "t": "big",
+   "v": "₹2.5L–₹50L",
+   "l": "range of fertility packages",
+   "tone": "neutral",
+   "verdict": "What couples pay, depending on the service"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "29",
+  "label": "women rescued from six states",
+  "motion": "drift",
+  "scene": [
+   "🏥",
+   "🔍",
+   "👩"
+  ]
+ },
+ "learn": {
+  "t": "ART = Assisted Reproductive Technology: IVF, IUI, ICSI and related procedures like egg retrieval.",
+  "show": true
+ },
+ "watch": "Whether the 13 notices lead to action against centres, and what the probe finds next.",
+ "thread": "hyd-fertility-centres-egg-harvesting-explained",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Why are fertility centres in Hyderabad in crosshairs over human egg harvesting? Explained",
+   "url": "https://www.thehindu.com/news/national/telangana/why-are-fertility-centres-in-hyderabad-in-crosshairs-over-human-egg-harvesting-explained/article71692345.ece"
+  }
+ ],
+ "updated": 1794467535921,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/mgyful/article71692372.ece/alternates/LANDSCAPE_1200/Oocyte%20racket.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "Hyderabad's fertility-centre crackdown has led to *13 ART notices*, The Hindu reports.",
+ "twist": "In late October, police raided three premises and rescued *29 women from six states* confined for egg harvesting.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}
