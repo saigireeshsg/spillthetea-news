@@ -458,3 +458,9 @@ Skip crime victims, named private individuals, allegations without charges, cele
 
 ## Live map (v1)
 The Live tab shows a Hyderabad map (public/livemap.js). A pin appears when a live item, civic alert or key wire headline NAMES a locality from the gazetteer in livemap.js (Charminar, Narayanaguda, Begumpet, Madhapur, Kukatpally, LB Nagar, ...). Pins are area-level (about 1 km), never exact streets. So: in live items put the specific locality in `areas` (e.g. ["Narayanaguda"], not just ["Hyderabad"]) and use the locality name in the headline. Add a locality to `G` in livemap.js only when you know its approximate centre. Kind -> colour: traffic, water, power, air, weather, incident, civic, event.
+
+## Post kit carousels (v1) - ONE command per run, no extra research
+After publishing your drops, run: `python3 tools/mkcarousel.py <slot> --auto 2` (slot = morning | midday | evening), then `python3 tools/build-data.py`, and commit content/carousels + public/data with the rest.
+It builds a clean carousel (cover with publisher image + credit, what happened, why it matters, the number, what to watch, CTA) and captions for Instagram, X thread, YouTube Shorts script and LinkedIn, ONLY from the drop's own sourced fields. Nothing is invented.
+Use `tools/mkcarousel.py <slot> <drop-id> ...` to pick specific drops. Quality rule: the drop must have `img` (publisher image + credit), `beats.what`, `beats.why`. Owner opens spillthetea.news/kit to download PNGs (4:5, 16:9, 9:16) and copy captions.
+Do NOT edit scheduled-task prompts for this; changes to process go in this runbook only.

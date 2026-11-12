@@ -9,10 +9,10 @@ import json
 import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-COLLECTIONS = ["drops", "storylines", "live", "weekly", "now", "notifs", "acts", "events", "opps"]
+COLLECTIONS = ["drops", "storylines", "live", "weekly", "now", "notifs", "acts", "events", "opps", "carousels"]
 # Only the newest stories ship to readers; older ones stay in content/ as the archive.
-LIMITS = {"drops": 160, "notifs": 30, "live": 80, "weekly": 40}
-SORT_KEY = {"drops": "sort", "notifs": "ts", "live": "ts", "weekly": "date", "acts": "added", "events": "start", "opps": "posted"}
+LIMITS = {"drops": 160, "notifs": 30, "live": 80, "weekly": 40, "carousels": 40}
+SORT_KEY = {"drops": "sort", "notifs": "ts", "live": "ts", "weekly": "date", "acts": "added", "events": "start", "opps": "posted", "carousels": "ts"}
 
 os.makedirs(os.path.join(ROOT, "public", "data"), exist_ok=True)
 for col in COLLECTIONS:
