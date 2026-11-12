@@ -1,0 +1,135 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-12",
+ "sort": "2026-11-12-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "GHMC razes *30-year-old* huts on a Tolichowki nala",
+ "hook_b": "GHMC razes *30-year-old* huts on a Tolichowki nala",
+ "tldr": "GHMC ran an anti-encroachment drive at Hakeempet, Tolichowki, removing huts over a stormwater drain amid resident protests.",
+ "beats": {
+  "what": "The drive began at 9 am at Hakeempet; some residents resisted, others welcomed it, per Siasat.",
+  "why": "GHMC officials said the encroachments were obstructing water flow in the stormwater nala.",
+  "care": "Blocked nalas are a flooding risk for nearby streets in the rains."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚖️",
+    "label": "HC order on encroachments"
+   }
+  ],
+  "event": {
+   "icon": "🚜",
+   "label": "Huts over nala razed"
+  },
+  "effects": [
+   {
+    "icon": "🌊",
+    "label": "Drain flow cleared"
+   },
+   {
+    "icon": "🌊",
+    "label": "Residents protest"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Police said there was mild tension but no detentions were made."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Clearing nala encroachments: what matters most?",
+   "opts": [
+    "Keeping drains clear of floods",
+    "Rehousing people who lived there",
+    "Both equally",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Where do the people who lived in these huts go next?",
+    "How many other Hyderabad nalas have similar encroachments?"
+   ],
+   "facts": [
+    {
+     "big": "35 yrs",
+     "t": "A Hakeempet resident told Siasat the spot had drawn loitering for the *past 35 years*.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/ghmc-razes-30-yr-old-huts-over-tolichowki-stormwater-nala-3575215/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the drive unfolded",
+   "steps": [
+    {
+     "t": "HC order",
+     "e": "Remove encroachments from streets"
+    },
+    {
+     "t": "9 am, Nov 12",
+     "e": "GHMC drive begins at Hakeempet"
+    },
+    {
+     "t": "During",
+     "e": "Mild tension, no detentions"
+    },
+    {
+     "t": "Result",
+     "e": "Shelters 10-15 ft into the drain removed"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Drain cleared; huts that stood ~30 years are gone"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "30 yrs",
+  "label": "old huts removed",
+  "motion": "drift",
+  "scene": [
+   "⚖️",
+   "🚜",
+   "🌊"
+  ]
+ },
+ "watch": "Whether GHMC extends the drive to other nalas in the Golconda zone.",
+ "thread": "hyd-tolichowki-huts-stormwater-nala-razed",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "GHMC razes 30-yr-old huts over Tolichowki stormwater nala",
+   "url": "https://www.siasat.com/ghmc-razes-30-yr-old-huts-over-tolichowki-stormwater-nala-3575215/"
+  }
+ ],
+ "updated": 1794484597259,
+ "fact": "GHMC razed *30-year-old* huts built over a Tolichowki stormwater nala on Thursday.",
+ "twist": "Officials said the shelters stuck *10 to 15 feet* into the drain; the drive followed Telangana High Court orders, per Siasat.",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Untitled-Design-2026-11-12T140908.503.jpg",
+  "c": "Siasat"
+ },
+ "areas": [
+  "Tolichowki",
+  "Hakeempet",
+  "Golconda"
+ ],
+ "layer": "near"
+}

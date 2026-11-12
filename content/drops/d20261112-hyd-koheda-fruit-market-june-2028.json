@@ -1,0 +1,134 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-12",
+ "sort": "2026-11-12-70",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "city projects",
+ "hook": "Koheda fruit market gets a *June 2, 2028* deadline",
+ "hook_b": "Koheda fruit market gets a *June 2, 2028* deadline",
+ "tldr": "Agriculture Minister Tummala Nageswara Rao set June 2, 2028 as the deadline for the Koheda Integrated Fruit Market.",
+ "beats": {
+  "what": "First phase by March 2027, full facility by Telangana Formation Day 2028; contract conditions to be changed.",
+  "why": "The minister reviewed construction progress at the Secretariat on Nov 12 and asked officials to speed up work.",
+  "care": "The market is meant to serve farmers; it is being built at Koheda on the city's edge."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🐢",
+    "label": "Slow construction"
+   }
+  ],
+  "event": {
+   "icon": "🍎",
+   "label": "Minister sets 2028 deadline"
+  },
+  "effects": [
+   {
+    "icon": "📅",
+    "label": "Phase 1 by Mar 2027"
+   },
+   {
+    "icon": "📅",
+    "label": "Special officer named"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "CM Revanth Reddy laid the foundation stone in June 2026."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "A 2028 deadline for the Koheda fruit market: realistic?",
+   "opts": [
+    "Yes, it'll be on time",
+    "It'll likely slip",
+    "Too early to say",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What happens to traders at the current fruit market once Koheda opens?",
+    "How will farmers reach a market on the city's edge?"
+   ],
+   "facts": [
+    {
+     "big": "₹3,000 cr",
+     "t": "BRS has alleged Koheda market land worth *₹3,000 crore* is under threat, Siasat reported.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/koheda-fruit-market-near-hyderabad-set-for-2028-completion-3575343/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Koheda fruit market: the clock",
+   "steps": [
+    {
+     "t": "Jun 2026",
+     "e": "CM lays foundation stone"
+    },
+    {
+     "t": "Nov 12, 2026",
+     "e": "Minister reviews, names special officer"
+    },
+    {
+     "t": "Mar 2027",
+     "e": "Phase 1 due"
+    },
+    {
+     "t": "Jun 2, 2028",
+     "e": "Whole market due"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Deadline set; progress to watch"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "239 acres",
+  "label": "Koheda fruit market",
+  "motion": "drift",
+  "scene": [
+   "🐢",
+   "🍎",
+   "📅"
+  ]
+ },
+ "watch": "Phase one progress against the March 2027 target.",
+ "thread": "hyd-koheda-fruit-market-june-2028",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Koheda Fruit Market near Hyderabad set for 2028 completion",
+   "url": "https://www.siasat.com/koheda-fruit-market-near-hyderabad-set-for-2028-completion-3575343/"
+  }
+ ],
+ "updated": 1794484597259,
+ "fact": "Hyderabad's *239-acre* Koheda fruit market must be ready by June 2, 2028.",
+ "twist": "Phase one is due even sooner, by *March 2027*, and a special officer, Rahul Raj, will track the work, per Siasat.",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/06/Tummala.jpg",
+  "c": "Siasat"
+ },
+ "areas": [
+  "Koheda",
+  "LB Nagar"
+ ],
+ "layer": "city"
+}

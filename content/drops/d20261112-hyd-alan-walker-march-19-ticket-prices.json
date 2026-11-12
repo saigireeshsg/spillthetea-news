@@ -1,0 +1,126 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-12",
+ "sort": "2026-11-12-55",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "events",
+ "hook": "Alan Walker tickets in Hyderabad: *₹999* to *₹5 lakh*",
+ "hook_b": "Alan Walker tickets in Hyderabad: *₹999* to *₹5 lakh*",
+ "tldr": "Norwegian DJ Alan Walker plays GMR Arena, Hyderabad on March 19, 2027; tickets are on District by Zomato.",
+ "beats": {
+  "what": "General Access is ₹999 and Fan Pit ₹5,499; premium hospitality tiers run from ₹75,000 to ₹5 lakh.",
+  "why": "His India tour covers six cities across two weekends in March 2027.",
+  "care": "The cheapest and the costliest ticket differ by about 500 times."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎧",
+    "label": "India tour announced"
+   }
+  ],
+  "event": {
+   "icon": "🎟️",
+   "label": "Hyderabad prices out"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Entry from ₹999"
+   },
+   {
+    "icon": "💸",
+    "label": "Top tier ₹5 lakh"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Bengaluru, Kolkata, Mumbai, Pune and Delhi NCR follow after Hyderabad."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Concert tickets up to ₹5 lakh: fair for premium perks?",
+   "opts": [
+    "Fair, it's optional",
+    "Too steep",
+    "Only the cheap tiers matter",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who buys the lakh-rupee tiers at Indian concerts?",
+    "Do premium tiers keep general tickets cheaper?"
+   ],
+   "facts": [
+    {
+     "big": "6 cities",
+     "t": "The tour runs *six cities in two weekends*, Hyderabad first, Delhi NCR last.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/rs-5l-alan-walker-hyderabad-concert-ticket-prices-will-shock-you-3575454/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Cheapest vs costliest Hyderabad ticket",
+   "a": {
+    "v": 999,
+    "d": "₹999",
+    "l": "General Access"
+   },
+   "b": {
+    "v": 500000,
+    "d": "₹5 lakh",
+    "l": "Platinum"
+   },
+   "goodIfUp": false,
+   "tone": "neutral",
+   "verdict": "Entry stays under ₹1,000; premium hospitality tiers cost lakhs"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹999",
+  "label": "cheapest ticket",
+  "motion": "drift",
+  "scene": [
+   "🎧",
+   "🎟️",
+   "💸"
+  ]
+ },
+ "watch": "Show day: March 19, 2027, GMR Arena.",
+ "thread": "hyd-alan-walker-march-19-ticket-prices",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Rs 5L? Alan Walker Hyderabad concert ticket prices will shock you",
+   "url": "https://www.siasat.com/rs-5l-alan-walker-hyderabad-concert-ticket-prices-will-shock-you-3575454/"
+  }
+ ],
+ "updated": 1794484597260,
+ "fact": "Alan Walker's Hyderabad show tickets range from *₹999* to *₹5 lakh*.",
+ "twist": "Hyderabad *opens* his six-city Legend of Atlantis India tour on March 19, 2027, at GMR Arena, per Siasat.",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/alan-walker-hyderabad-tickets.jpg",
+  "c": "Siasat"
+ },
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}

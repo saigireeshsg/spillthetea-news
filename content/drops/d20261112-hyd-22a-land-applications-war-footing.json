@@ -1,0 +1,140 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-12",
+ "sort": "2026-11-12-65",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "housing",
+ "hook": "Stuck in the *22-A* land list? Collectors told to clear files",
+ "hook_b": "Stuck in the *22-A* land list? Collectors told to clear files",
+ "tldr": "Minister Ponguleti Srinivasa Reddy directed collectors of Hyderabad, Rangareddy, Sangareddy and Medchal-Malkajgiri to dispose of 22-A applications on a war footing.",
+ "beats": {
+  "what": "Orders cover registering houses, plots and flats on the 22-A list that have GHMC, HMDA, DTCP or municipal approvals.",
+  "why": "Many applications on lands in the prohibited properties list (22-A) are pending with district collectors.",
+  "care": "Owners of such flats or plots can face registration blocks; the minister said genuine owners should not face repeated office visits."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📂",
+    "label": "22-A files pending"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "Minister orders fast disposal"
+  },
+  "effects": [
+   {
+    "icon": "🏠",
+    "label": "Weekly district reviews"
+   },
+   {
+    "icon": "🏠",
+    "label": "ULC report in a week"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Collectors and registrars are to hold weekly district reviews; unresolved cases go to a committee led by the revenue secretary."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Clearing 22-A land files fast: what matters more?",
+   "opts": [
+    "Relief for genuine owners",
+    "Protecting government land",
+    "Both equally",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many 22-A applications are pending in each district?",
+    "How will officials tell genuine owners from encroachers?"
+   ],
+   "facts": [
+    {
+     "big": "GO 59",
+     "t": "Orders were issued on *GOs 118, 76 and 59*, ULC files and incomplete nala conversions, per TOI.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/revenue-minister-directs-collectors-to-resolve-22-a-land-applications-on-war-footing/articleshow/135764112.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How a 22-A file moves now",
+   "steps": [
+    {
+     "t": "Step 1",
+     "e": "Collector checks revenue and registration records"
+    },
+    {
+     "t": "Weekly",
+     "e": "District reviews with registrars"
+    },
+    {
+     "t": "Stuck?",
+     "e": "Sent to revenue secretary's committee"
+    },
+    {
+     "t": "Within a week",
+     "e": "ULC report, then CM decides"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Faster files for owners; govt land to stay protected"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "4 districts",
+  "label": "Hyderabad, Rangareddy, Sangareddy, Medchal",
+  "motion": "drift",
+  "scene": [
+   "📂",
+   "🏛️",
+   "🏠"
+  ]
+ },
+ "learn": {
+  "t": "22-A = the prohibited properties list; lands on it face registration blocks until cleared",
+  "show": true
+ },
+ "watch": "The committee's ULC report, due within a week, and the CM's decision on regularisation.",
+ "thread": "hyd-22a-land-applications-war-footing",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Clear all 22-A land issues on war footing, revenue minister directs collectors",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/revenue-minister-directs-collectors-to-resolve-22-a-land-applications-on-war-footing/articleshow/135764112.cms"
+  }
+ ],
+ "updated": 1794484597260,
+ "fact": "Revenue minister orders Hyderabad-region collectors to clear *all pending 22-A* land applications.",
+ "twist": "A high-level committee must report on ULC cases *within a week*, before the CM decides on regularisation, per TOI.",
+ "img": {
+  "u": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg",
+  "c": "Times of India"
+ },
+ "areas": [
+  "Hyderabad",
+  "Rangareddy",
+  "Sangareddy",
+  "Medchal"
+ ],
+ "layer": "city"
+}

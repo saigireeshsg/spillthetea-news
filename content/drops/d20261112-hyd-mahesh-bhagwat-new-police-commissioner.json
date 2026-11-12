@@ -1,0 +1,143 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-12",
+ "sort": "2026-11-12-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "Hyderabad gets a *new* police commissioner tonight",
+ "hook_b": "Hyderabad gets a *new* police commissioner tonight",
+ "tldr": "Telangana reshuffled senior IPS officers on Nov 12; Mahesh Muralidhar Bhagwat is Hyderabad's new Police Commissioner.",
+ "beats": {
+  "what": "Bhagwat replaces V.C. Sajjanar, who becomes DG of Telangana Fire, Disaster Response, Emergency and Civil Defence.",
+  "why": "The state issued a General Administration Department order moving top police officers across posts.",
+  "care": "The city commissioner heads policing, traffic and law and order for Hyderabad."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📜",
+    "label": "State GO on IPS transfers"
+   }
+  ],
+  "event": {
+   "icon": "👮",
+   "label": "Bhagwat named Hyderabad CP"
+  },
+  "effects": [
+   {
+    "icon": "🔁",
+    "label": "Sajjanar to Fire & Disaster"
+   },
+   {
+    "icon": "🔁",
+    "label": "New heads for ACB, SHE Teams"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Soumya Mishra moves to DGP, Women and Safety, SHE Teams and Bharosa; Charu Sinha now heads the ACB, per The Hindu."
+  },
+  {
+   "k": "poll",
+   "vt": "priority",
+   "q": "What should Hyderabad's new police chief focus on first?",
+   "opts": [
+    "Traffic jams",
+    "Women's safety",
+    "Cyber fraud",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What changes for Hyderabad residents when a city police chief changes?",
+    "Which of these new postings touches daily life most: police, RTC or civil supplies?"
+   ],
+   "facts": [
+    {
+     "big": "ADGP",
+     "t": "Akun Sabharwal, who was *awaiting a posting*, is now Additional DGP (Law and Order).",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/major-reshuffle-of-ips-officers-in-telangana-mahesh-bhagwat-is-new-commissioner-of-hyderabad-police/article71693549.ece"
+    },
+    {
+     "big": "TG-TMARS",
+     "t": "M. Stephen Raveendra now directs the state's *traffic, road and rail safety* bureau.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/major-reshuffle-of-ips-officers-in-telangana-mahesh-bhagwat-is-new-commissioner-of-hyderabad-police/article71693549.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Who moves where (Nov 12 GO)",
+   "steps": [
+    {
+     "t": "Hyderabad CP",
+     "e": "Mahesh Bhagwat (was V.C. Sajjanar)"
+    },
+    {
+     "t": "Fire & Disaster DG",
+     "e": "V.C. Sajjanar"
+    },
+    {
+     "t": "Women & Safety DGP",
+     "e": "Soumya Mishra"
+    },
+    {
+     "t": "ACB DG",
+     "e": "Charu Sinha, also CID"
+    },
+    {
+     "t": "TGSRTC MD",
+     "e": "Anil Kumar"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "New heads for city policing, women's safety, ACB and RTC"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "New CP",
+  "label": "Mahesh Bhagwat for Hyderabad",
+  "motion": "drift",
+  "scene": [
+   "📜",
+   "👮",
+   "🔁"
+  ]
+ },
+ "watch": "When Bhagwat formally takes charge at the Commissionerate.",
+ "thread": "hyd-mahesh-bhagwat-new-police-commissioner",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Major reshuffle of IPS officers in Telangana | Mahesh Bhagwat is new Commissioner of Hyderabad Police",
+   "url": "https://www.thehindu.com/news/national/telangana/major-reshuffle-of-ips-officers-in-telangana-mahesh-bhagwat-is-new-commissioner-of-hyderabad-police/article71693549.ece"
+  }
+ ],
+ "updated": 1794484597258,
+ "fact": "Mahesh Bhagwat replaces V.C. Sajjanar as *Hyderabad Police Commissioner* in a big IPS reshuffle.",
+ "twist": "Sajjanar moves to head Fire, Disaster Response and Civil Defence; ex-Greyhounds chief Anil Kumar now runs *TGSRTC*, per The Hindu.",
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/wpnt5o/article71693577.ece/alternates/LANDSCAPE_1200/B%20Shivadhar%20Reddy%2003.jpg",
+  "c": "The Hindu"
+ },
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}
