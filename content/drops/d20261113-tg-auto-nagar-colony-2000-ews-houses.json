@@ -1,0 +1,164 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "housing",
+ "hook": "*2,000* EWS flats approved only for auto-rickshaw workers",
+ "hook_b": "*2,000* EWS flats approved only for auto-rickshaw workers",
+ "tldr": "A government order on Friday cleared 2,000 Economically Weaker Section houses for auto-rickshaw workers: 500 each at Bandlaguda (LIG Colony, Nagole), Gandamguda, Petbasheerbad and Jalpally or Laxmiguda.",
+ "beats": {
+  "what": "The State Housing Board will use Indiramma Indlu eligibility, reservations and allotment rules, with the condition that beneficiaries are auto-rickshaw workers.",
+  "why": "The scheme copies the affordable flats at Indiramma Housing towers in the Core Urban Region Economy (CURE), per The Hindu.",
+  "care": "The Board must first verify land, site suitability and technical feasibility and file detailed project reports, so no allotment dates are out yet."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛺",
+    "label": "Indiramma towers model"
+   }
+  ],
+  "event": {
+   "icon": "📜",
+   "label": "2,000 flats for auto workers"
+  },
+  "effects": [
+   {
+    "icon": "🏢",
+    "label": "4 sites, 500 each"
+   },
+   {
+    "icon": "🏢",
+    "label": "DPRs due before allotment"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "G.O. issued November 13, 2026: 500 flats at each of four sites."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Housing reserved for one profession: your take?",
+   "opts": [
+    "Good targeted help",
+    "Should be open to all EWS",
+    "Depends on who qualifies",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will auto-rickshaw workers prove eligibility?",
+    "Will the four sites be close to where drivers work?"
+   ],
+   "facts": [
+    {
+     "big": "₹22 cr",
+     "t": "Indicative project cost for the scheme is *₹22 crore*, per the G.O.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/telangana-approves-2000-houses-for-auto-rickshaw-workers-in-around-hyderabad/article71697711.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "Flats by site",
+   "parts": [
+    [
+     "Bandlaguda (Nagole)",
+     500
+    ],
+    [
+     "Gandamguda",
+     500
+    ],
+    [
+     "Petbasheerbad",
+     500
+    ],
+    [
+     "Jalpally/Laxmiguda",
+     500
+    ]
+   ],
+   "tone": "neutral",
+   "verdict": "Equal split across four sites"
+  },
+  {
+   "t": "timeline",
+   "l": "What happens next",
+   "steps": [
+    {
+     "t": "Nov 13",
+     "e": "G.O. issued"
+    },
+    {
+     "t": "Next",
+     "e": "Land and feasibility checks"
+    },
+    {
+     "t": "Then",
+     "e": "DPR and finance proposals"
+    },
+    {
+     "t": "Later",
+     "e": "Selection and allotment"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "No allotment date given yet"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2,000",
+  "label": "EWS flats for auto drivers",
+  "motion": "drift",
+  "scene": [
+   "🛺",
+   "📜",
+   "🏢"
+  ]
+ },
+ "learn": {
+  "t": "EWS = Economically Weaker Section, the lowest income band for housing schemes."
+ },
+ "watch": "The Housing Board's project reports and when applications open.",
+ "thread": "tg-auto-nagar-colony-2000-ews-houses",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana approves 2,000 affordable houses for auto-rickshaw workers in & around Hyderabad",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/telangana-approves-2000-houses-for-auto-rickshaw-workers-in-around-hyderabad/article71697711.ece"
+  }
+ ],
+ "updated": 1794571038252,
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/cities/Hyderabad/h98wje/article71697713.ece/alternates/LANDSCAPE_1200/Indiramm%20Housing%20towers%20in%20Telangana.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "Telangana approves *2,000* flats for auto-rickshaw workers across four Hyderabad-area sites.",
+ "twist": "The colonies will be named *'Auto Nagar Colony'* and follow Indiramma Indlu rules, with an indicative cost of *₹22 crore*.",
+ "areas": [
+  "Nagole",
+  "Bandlaguda",
+  "Gandamguda",
+  "Petbasheerabad",
+  "Jalpally"
+ ],
+ "layer": "near"
+}

@@ -1,0 +1,135 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-85",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Traffic police book *5 cases* over fake, tampered number plates",
+ "hook_b": "Traffic police book *5 cases* over fake, tampered number plates",
+ "tldr": "A week-long special drive from November 5 to 12 led to five cases and several vehicle seizures, Telangana Today reports.",
+ "beats": {
+  "what": "Cases were registered at Toli Chowk, Bahadurpura, Banjara Hills, Chilakalguda and Atmakur in Wanaparthy district.",
+  "why": "Fake plates hide a vehicle's identity and help riders evade traffic e-challans and enforcement, police said.",
+  "care": "Joint CP (Traffic) D Joel Davis said fake or altered plates mean a criminal case and seizure; only government-approved HSRP plates are allowed, no altered digits or unauthorised stickers."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏍️",
+    "label": "Plates altered to dodge challans"
+   }
+  ],
+  "event": {
+   "icon": "🚔",
+   "label": "Special drive, 5 cases"
+  },
+  "effects": [
+   {
+    "icon": "🪪",
+    "label": "Vehicles seized"
+   },
+   {
+    "icon": "🪪",
+    "label": "Only HSRP plates allowed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Drive ran Nov 5-12; several vehicles seized."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Is a criminal case the right response to fake plates?",
+   "opts": [
+    "Yes, strict is right",
+    "Fine is enough",
+    "Depends on intent",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How do traffic cameras catch a tampered plate?",
+    "Where in the city are fake plates most common? Police did not say."
+   ],
+   "facts": [
+    {
+     "big": "5 places",
+     "t": "Cases came from *Toli Chowk, Bahadurpura, Banjara Hills, Chilakalguda* and Atmakur.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-traffic-police-book-five-cases-over-fake-tampered-number-plates"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The drive",
+   "steps": [
+    {
+     "t": "Nov 5",
+     "e": "Special drive begins"
+    },
+    {
+     "t": "Nov 5-12",
+     "e": "Cases at 5 police limits"
+    },
+    {
+     "t": "Nov 13",
+     "e": "Warning: criminal case + seizure"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Enforcement drive; rule is HSRP only"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "5",
+  "label": "cases in a week",
+  "motion": "drift",
+  "scene": [
+   "🏍️",
+   "🚔",
+   "🪪"
+  ]
+ },
+ "learn": {
+  "t": "HSRP = High Security Registration Plate, the tamper-proof plate approved by the government."
+ },
+ "watch": "Whether the drive continues and more seizures follow.",
+ "thread": "hyd-fake-number-plates-five-cases-hsrp",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad Traffic Police book five cases over fake, tampered number plates",
+   "url": "https://telanganatoday.com/hyderabad-traffic-police-book-five-cases-over-fake-tampered-number-plates"
+  }
+ ],
+ "updated": 1794571038253,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/fake-number-plates.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Hyderabad traffic police book *five* criminal cases over fake and tampered number plates.",
+ "twist": "Police found *multiple registration numbers* used on the same two-wheelers to dodge enforcement.",
+ "areas": [
+  "Tolichowki",
+  "Bahadurpura",
+  "Banjara Hills",
+  "Chilkalguda"
+ ],
+ "layer": "near"
+}

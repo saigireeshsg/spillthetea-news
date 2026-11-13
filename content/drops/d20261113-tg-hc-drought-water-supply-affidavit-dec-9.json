@@ -1,0 +1,146 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-90",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "HC to govt: *ensure water* for all, file drought affidavit by Dec 9",
+ "hook_b": "HC to govt: *ensure water* for all, file drought affidavit by Dec 9",
+ "tldr": "Hearing a PIL on El Niño-induced drought, the Telangana High Court said its concern is not how the government sources water but whether every citizen gets it, and sought a detailed affidavit. The case returns on December 9.",
+ "beats": {
+  "what": "A bench of Acting Chief Justice P Sam Koshy and Justice Suddala Chalapathi Rao said the situation 'was not man-made and the govt cannot be blamed', but asked for the measures taken, per TOI.",
+  "why": "Telangana got 630.1 mm of rain from June 1 to Oct 31 against a normal 833.1 mm, a 24% deficit, per the petitioners.",
+  "care": "The petitioners' counsel said the western parts of Hyderabad, the IT corridor, are among the worst hit, and that hundreds of hostels have closed over water scarcity."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌵",
+    "label": "24% rainfall deficit, El Niño"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "HC seeks drought affidavit"
+  },
+  "effects": [
+   {
+    "icon": "🚰",
+    "label": "Govt must list water steps"
+   },
+   {
+    "icon": "🚰",
+    "label": "Next hearing Dec 9"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "365 of the state's 621 mandals have been declared drought-affected, the petitioners told the court; another 254 face similar conditions."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What matters most in the drought response?",
+   "opts": [
+    "Tankers and supply now",
+    "Long-term water sources",
+    "Saving water at home",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will the government's affidavit measure whether water reaches every citizen?",
+    "Which parts of Hyderabad depend most on tankers this season?"
+   ],
+   "facts": [
+    {
+     "big": "409 vs 200",
+     "t": "Telangana needs about *409 tmc* of drinking water; about *200 tmc* is available, petitioners said.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/ensure-water-supply-not-explain-source-of-water-telangana-high-court-to-govt/articleshow/135801141.cms"
+    },
+    {
+     "big": "254",
+     "t": "Besides 365 drought mandals, *254 more* face similar conditions, per the PIL.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/ensure-water-supply-not-explain-source-of-water-telangana-high-court-to-govt/articleshow/135801141.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Telangana rainfall, Jun 1-Oct 31 2026 (mm)",
+   "a": {
+    "v": 833.1,
+    "d": "833.1 mm",
+    "l": "Normal"
+   },
+   "b": {
+    "v": 630.1,
+    "d": "630.1 mm",
+    "l": "Received"
+   },
+   "goodIfUp": true,
+   "tone": "bad",
+   "verdict": "24% less rain than normal, per the petitioners"
+  },
+  {
+   "t": "meter",
+   "l": "Mandals declared drought-affected",
+   "v": 365,
+   "max": 621,
+   "d": "365 of 621",
+   "tone": "bad",
+   "verdict": "More than half the state's mandals, per the petition"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "24%",
+  "label": "rain deficit, Jun 1-Oct 31",
+  "motion": "drift",
+  "scene": [
+   "🌵",
+   "⚖️",
+   "🚰"
+  ]
+ },
+ "learn": {
+  "t": "PIL = public interest litigation, a case filed in the public's interest rather than for a private dispute."
+ },
+ "watch": "The government's affidavit on drinking water measures at the December 9 hearing.",
+ "thread": "tg-hc-drought-water-supply-affidavit-dec-9",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Ensure water supply, not explain source of water: Telangana high court to govt",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/ensure-water-supply-not-explain-source-of-water-telangana-high-court-to-govt/articleshow/135801141.cms"
+  }
+ ],
+ "updated": 1794571038249,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135744060,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "High Court asks Telangana for a *detailed affidavit* on drought drinking-water steps.",
+ "twist": "Petitioners say the state needs about *409 tmc* of drinking water but has only about *200 tmc*.",
+ "areas": [
+  "Gachibowli",
+  "Madhapur",
+  "Hitec City"
+ ],
+ "layer": "city"
+}

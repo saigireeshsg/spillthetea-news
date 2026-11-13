@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-89",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "lakes",
+ "hook": "HYDRAA starts Fox Sagar revamp to lift storage *4x*",
+ "hook_b": "HYDRAA starts Fox Sagar revamp to lift storage *4x*",
+ "tldr": "HYDRAA launched restoration of the 1897 Fox Sagar lake in Jeedimetla on Friday, aiming to turn it into a mini reservoir and mini Tank Bund within a year.",
+ "beats": {
+  "what": "Works include desilting, treating polluted water, strengthening the bund, inlets and outlets, a sewage treatment plant and a ring bund, per The Hindu.",
+  "why": "Sewage and industrial chemical waste left nearly five metres of silt, blocking water from percolating into the ground, Commissioner A.V. Ranganath said.",
+  "care": "Houses built before HYDRAA was formed on July 19, 2024 will not be demolished; those losing plots in approved layouts can get TDR, per the agency."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏭",
+    "label": "Sewage, chemical waste, 5m silt"
+   }
+  ],
+  "event": {
+   "icon": "🛠️",
+   "label": "Fox Sagar restoration launched"
+  },
+  "effects": [
+   {
+    "icon": "💧",
+    "label": "Mini reservoir in a year"
+   },
+   {
+    "icon": "💧",
+    "label": "Water stored before next monsoon"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "NEERI will test lake water and nearby groundwater before and after the works; HYDRAA will seek European experts to restore the heritage stone pump house."
+  },
+  {
+   "k": "poll",
+   "vt": "priority",
+   "q": "What should the Fox Sagar works fix first?",
+   "opts": [
+    "Stop sewage inflow",
+    "Clear remaining encroachments",
+    "Restore the heritage pump house",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will NEERI's before-and-after tests be shared with residents?",
+    "Which industries drain into the lake today?"
+   ],
+   "facts": [
+    {
+     "big": "1897",
+     "t": "Fox Sagar was built in *1897* under the Nizam and once supplied Secunderabad's drinking water.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/hydraa-launches-fox-sagar-lake-developments-works/article71697678.ece"
+    },
+    {
+     "big": "5 m",
+     "t": "Silt nearly *five metres* deep had stopped water from seeping into the ground, Ranganath said.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/hydraa-launches-fox-sagar-lake-developments-works/article71697678.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Fox Sagar storage (million litres)",
+   "a": {
+    "v": 1000,
+    "d": "1,000 ML",
+    "l": "Now"
+   },
+   "b": {
+    "v": 4000,
+    "d": "4,000 ML",
+    "l": "Target"
+   },
+   "goodIfUp": true,
+   "tone": "good",
+   "verdict": "More stored water for the area, if works finish as planned"
+  },
+  {
+   "t": "meter",
+   "l": "Lake area identified as encroached",
+   "v": 150,
+   "max": 500,
+   "d": "150 of 500 acres",
+   "tone": "bad",
+   "verdict": "Most cleared, HYDRAA says"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "4x",
+  "label": "planned storage increase",
+  "motion": "drift",
+  "scene": [
+   "🏭",
+   "🛠️",
+   "💧"
+  ]
+ },
+ "learn": {
+  "t": "TDR = Transferable Development Rights, building rights given elsewhere in place of land lost."
+ },
+ "watch": "Whether the water-storage works finish before the next monsoon, as HYDRAA aims.",
+ "thread": "hyd-fox-sagar-lake-restoration-4000-ml",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "HYDRAA launches Fox Sagar Lake development; plans STP for preventing sewage, industrial effluents",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/hydraa-launches-fox-sagar-lake-developments-works/article71697678.ece"
+  }
+ ],
+ "updated": 1794571038251,
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/cities/Hyderabad/3n87oe/article71697741.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-13%20at%204.31.52%20PM.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "HYDRAA begins Fox Sagar lake revamp to raise storage *1,000 to 4,000 million litres*.",
+ "twist": "Of the lake's *500 acres*, about *150 acres* had been encroached; most has been cleared, HYDRAA says.",
+ "areas": [
+  "Jeedimetla"
+ ],
+ "layer": "near"
+}

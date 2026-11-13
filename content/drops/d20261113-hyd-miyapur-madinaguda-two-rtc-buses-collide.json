@@ -1,0 +1,130 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Two TGSRTC buses collide on Miyapur-Madinaguda road, *5* hurt",
+ "hook_b": "Two TGSRTC buses collide on Miyapur-Madinaguda road, *5* hurt",
+ "tldr": "Two TGSRTC buses collided on the Miyapur-Madinaguda road on Friday, leaving at least five passengers with minor injuries. No deaths were reported.",
+ "beats": {
+  "what": "The impact damaged the front of one bus and the rear of the other, per Telangana Today.",
+  "why": "The report does not give the cause of the collision.",
+  "care": "Both are busy Secunderabad routes to the west: Lingampalli (AC) and Patancheru (Metro Deluxe)."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚌",
+    "label": "Cause not reported"
+   }
+  ],
+  "event": {
+   "icon": "💥",
+   "label": "Two RTC buses collide"
+  },
+  "effects": [
+   {
+    "icon": "🩹",
+    "label": "5 passengers hurt"
+   },
+   {
+    "icon": "🩹",
+    "label": "Both buses damaged"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "At least 5 minor injuries, no fatalities."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How safe do city bus rides feel to you?",
+   "opts": [
+    "Safe",
+    "Mostly safe",
+    "Not safe",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What caused the collision? The report does not say.",
+    "Will TGSRTC review driving on this stretch?"
+   ],
+   "facts": [
+    {
+     "big": "0",
+     "t": "*No fatalities* were reported in the crash.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-five-injured-as-two-tgsrtc-buses-collide-in-miyapur"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The two routes",
+   "steps": [
+    {
+     "t": "AC bus",
+     "e": "Secunderabad → Lingampalli"
+    },
+    {
+     "t": "Metro Deluxe",
+     "e": "Secunderabad → Patancheru"
+    },
+    {
+     "t": "Fri",
+     "e": "Collide on Miyapur-Madinaguda road"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Both west-bound routes"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "5",
+  "label": "minor injuries",
+  "motion": "drift",
+  "scene": [
+   "🚌",
+   "💥",
+   "🩹"
+  ]
+ },
+ "watch": "Any TGSRTC statement on the cause.",
+ "thread": "hyd-miyapur-madinaguda-two-rtc-buses-collide",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad: Five injured as two TGSRTC buses collide in Miyapur",
+   "url": "https://telanganatoday.com/hyderabad-five-injured-as-two-tgsrtc-buses-collide-in-miyapur"
+  }
+ ],
+ "updated": 1794571038253,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/accident-10-1.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Two TGSRTC buses collide on Miyapur-Madinaguda road; *five* passengers suffer minor injuries.",
+ "twist": "One was an AC bus to Lingampalli, the other a Metro Deluxe to Patancheru, both from *Secunderabad*.",
+ "areas": [
+  "Miyapur",
+  "Madinaguda"
+ ],
+ "layer": "near"
+}

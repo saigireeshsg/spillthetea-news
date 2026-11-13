@@ -1,0 +1,147 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-87",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "Contract staff at Gandhi, Osmania protest for *₹26,000* minimum wage",
+ "hook_b": "Contract staff at Gandhi, Osmania protest for *₹26,000* minimum wage",
+ "tldr": "Sanitation, patient care and security contract workers at government hospitals across Telangana protested for a second day on Friday.",
+ "beats": {
+  "what": "Leader M Narasimha said workers lack statutory minimum wages, paid leave, bonuses and even new uniforms, per Telangana Today.",
+  "why": "The Telangana Medical Contract Employees and Workers Union says it has sought a ₹26,000 minimum monthly wage for two years.",
+  "care": "Protests were held at Gandhi, Osmania General, Niloufer, Fever, King Koti, Koti Maternity, Malakpet Area, Nampally and Sarojini Devi Eye hospitals."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧹",
+    "label": "2 years of wage demands"
+   }
+  ],
+  "event": {
+   "icon": "📢",
+   "label": "Statewide hospital protests"
+  },
+  "effects": [
+   {
+    "icon": "🏥",
+    "label": "Strike threat at teaching hospitals"
+   },
+   {
+    "icon": "🏥",
+    "label": "9 Hyderabad hospitals saw protests"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Day 2 of statewide protests by sanitation, patient-care and security staff."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How should the wage dispute be settled?",
+   "opts": [
+    "Meet the ₹26,000 demand",
+    "Talks on a middle figure",
+    "Keep current terms",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which hospital services rely most on contract staff?",
+    "What do contract workers earn now? The report does not say."
+   ],
+   "facts": [
+    {
+     "big": "9",
+     "t": "Protests reached *9* Hyderabad hospitals including Gandhi, Osmania and Niloufer.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/contract-healthcare-workers-protests-enter-second-day-warn-of-larger-strike"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the protest has grown",
+   "steps": [
+    {
+     "t": "2 years",
+     "e": "Workers seek ₹26,000 minimum wage"
+    },
+    {
+     "t": "Nov 12",
+     "e": "Statewide protests begin"
+    },
+    {
+     "t": "Nov 13",
+     "e": "Day 2 at 9 city hospitals"
+    },
+    {
+     "t": "Warned",
+     "e": "Strike in all teaching hospitals"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Patients could be hit if a strike goes ahead, per the union's warning"
+  },
+  {
+   "t": "big",
+   "v": "9",
+   "l": "Hyderabad hospitals with protests",
+   "tone": "neutral",
+   "verdict": "Includes Gandhi, Osmania, Niloufer"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹26,000",
+  "label": "minimum wage demanded",
+  "motion": "drift",
+  "scene": [
+   "🧹",
+   "📢",
+   "🏥"
+  ]
+ },
+ "watch": "Whether the government calls the union for talks before a teaching-hospital strike.",
+ "thread": "hyd-contract-health-workers-protest-26000-wage",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Contract healthcare workers' protests enter second day, warn of larger strike",
+   "url": "https://telanganatoday.com/contract-healthcare-workers-protests-enter-second-day-warn-of-larger-strike"
+  }
+ ],
+ "updated": 1794571038252,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Untitled-1-22.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Contract hospital workers protest a second day, seeking a *₹26,000* monthly minimum wage.",
+ "twist": "The union warns of a *massive strike* in all teaching hospitals if the state does not act.",
+ "areas": [
+  "Secunderabad",
+  "Afzalgunj",
+  "Red Hills",
+  "Nallakunta",
+  "Koti",
+  "Malakpet",
+  "Nampally",
+  "Mehdipatnam"
+ ],
+ "layer": "city"
+}

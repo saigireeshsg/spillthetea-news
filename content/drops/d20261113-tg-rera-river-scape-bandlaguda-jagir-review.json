@@ -1,0 +1,136 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-86",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "real estate",
+ "hook": "RERA told to re-check River Scape registration, review *all projects*",
+ "hook_b": "RERA told to re-check River Scape registration, review *all projects*",
+ "tldr": "The RERA Appellate Tribunal asked TG RERA to re-check the registration of League Spaces LLP's River Scape at Bandlaguda Jagir, after concerns that it may have been registered without all documents and the layout fee.",
+ "beats": {
+  "what": "Judicial Member P Pradeep Kumar Reddy directed RERA to check original records and issue notices to the promoter.",
+  "why": "Seven petitioners, led by Venkatasubbamma of Guntur, sought cancellation, alleging the land was under a family division dispute when registered, per Siasat.",
+  "care": "The wider review will look at document gaps and unpaid layout fees in project registrations across the state, which matters to anyone buying off-plan."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📄",
+    "label": "Missing documents, layout fee alleged"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "Tribunal orders RERA re-check"
+  },
+  "effects": [
+   {
+    "icon": "🏘️",
+    "label": "Notice to promoter"
+   },
+   {
+    "icon": "🏘️",
+    "label": "Statewide registration review"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "RERA Secretary must report within eight weeks."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "A statewide RERA records review: your take?",
+   "opts": [
+    "Needed for buyers",
+    "Could slow approvals",
+    "Depends on findings",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How can buyers check a project's RERA documents themselves?",
+    "How many projects could the statewide review cover? The order does not say."
+   ],
+   "facts": [
+    {
+     "big": "7",
+     "t": "*Seven* petitioners sought cancellation of River Scape's registrations.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/river-scape-near-hyderabad-under-scanner-rera-told-to-re-check-3576335/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Steps ordered",
+   "steps": [
+    {
+     "t": "Now",
+     "e": "Check original records"
+    },
+    {
+     "t": "Next",
+     "e": "Notice to promoter"
+    },
+    {
+     "t": "Wider",
+     "e": "Review other Telangana projects"
+    },
+    {
+     "t": "8 weeks",
+     "e": "RERA Secretary report due"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Outcome depends on the records check"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "8 wks",
+  "label": "for RERA's report",
+  "motion": "drift",
+  "scene": [
+   "📄",
+   "⚖️",
+   "🏘️"
+  ]
+ },
+ "learn": {
+  "t": "RERA = Real Estate Regulatory Authority, which registers projects so buyers can check approvals."
+ },
+ "watch": "The RERA Secretary's report within eight weeks and any notices to other projects.",
+ "thread": "tg-rera-river-scape-bandlaguda-jagir-review",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "River Scape near Hyderabad under scanner: RERA told to re-check",
+   "url": "https://www.siasat.com/river-scape-near-hyderabad-under-scanner-rera-told-to-re-check-3576335/"
+  }
+ ],
+ "updated": 1794571038253,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2025/04/real-estate-22april.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Tribunal orders TG RERA to re-examine River Scape gated community's registration in *8 weeks*.",
+ "twist": "The judge also ordered a review of *other real estate projects across Telangana* for similar gaps.",
+ "areas": [
+  "Bandlaguda Jagir"
+ ],
+ "layer": "near"
+}
