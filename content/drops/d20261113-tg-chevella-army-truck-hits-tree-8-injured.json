@@ -1,0 +1,136 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-80",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "Army training truck hits tree in Chevella, *8* hurt",
+ "hook_b": "Army training truck hits tree in Chevella, *8* hurt",
+ "tldr": "An Army truck carrying 14 personnel hit the median at Allawada, Chevella on Friday morning, went out of control and rammed a roadside tree.",
+ "beats": {
+  "what": "Eight personnel suffered minor injuries and were taken to the Army hospital in Golconda, Chevella ACP B Kishan said, per TOI.",
+  "why": "Police say the truck hit the median while a trainee was driving, then lost control.",
+  "care": "Chevella-Shabad road users: police say no case has been registered and no complaint given so far."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚛",
+    "label": "Truck hits median"
+   }
+  ],
+  "event": {
+   "icon": "🌳",
+   "label": "Rams roadside tree"
+  },
+  "effects": [
+   {
+    "icon": "🚑",
+    "label": "8 treated at Army hospital"
+   },
+   {
+    "icon": "🚑",
+    "label": "No case registered yet"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The truck left the Golconda Army camp for Shabad at around 6.30 am."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Where should driver training runs happen?",
+   "opts": [
+    "Closed training tracks",
+    "Public roads, with escorts",
+    "Public roads as now",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Do military driver-training runs need civilian road safety checks?"
+   ],
+   "facts": [
+    {
+     "big": "14",
+     "t": "The truck carried *14* personnel on a driver-training run, police said.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/india/hyderabad-8-army-personnel-injured-after-truck-crashes-into-roadside-tree/articleshow/135792327.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Personnel hurt out of 14 on board",
+   "v": 8,
+   "max": 14,
+   "d": "8 of 14",
+   "tone": "bad",
+   "verdict": "Minor injuries, all treated at Army hospital"
+  },
+  {
+   "t": "timeline",
+   "l": "Friday morning",
+   "steps": [
+    {
+     "t": "6.30 am",
+     "e": "Truck leaves Golconda camp for Shabad"
+    },
+    {
+     "t": "Allawada",
+     "e": "Hits median, rams tree"
+    },
+    {
+     "t": "After",
+     "e": "8 taken to Army hospital, Golconda"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "8 of 14",
+  "label": "personnel injured (minor)",
+  "motion": "drift",
+  "scene": [
+   "🚛",
+   "🌳",
+   "🚑"
+  ]
+ },
+ "watch": "Whether a case is registered or the Army orders an inquiry.",
+ "thread": "tg-chevella-army-truck-hits-tree-8-injured",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Hyderabad: 8 Army personnel injured after truck crashes into roadside tree",
+   "url": "https://timesofindia.indiatimes.com/india/hyderabad-8-army-personnel-injured-after-truck-crashes-into-roadside-tree/articleshow/135792327.cms"
+  }
+ ],
+ "updated": 1794553921214,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135792568,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Army training truck rams tree near Chevella; *8 of 14* personnel hurt.",
+ "twist": "A trainee was driving: the truck was on a driver-training run from Golconda camp to Shabad.",
+ "areas": [
+  "Chevella",
+  "Golconda"
+ ],
+ "layer": "state"
+}

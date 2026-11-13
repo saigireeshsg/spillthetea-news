@@ -1,0 +1,136 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-86",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "Nights to run *2-3°C* below normal; health dept flags flu risk",
+ "hook_b": "Nights to run *2-3°C* below normal; health dept flags flu risk",
+ "tldr": "IMD forecasts dry weather and minimum temperatures 2°C to 3°C below normal across Telangana for the next two days, and the State Health Department has issued a seasonal flu advisory.",
+ "beats": {
+  "what": "Director of Public Health B. Ravinder Nayak warned the dip could favour seasonal flu and raise acute respiratory infections, per The Hindu.",
+  "why": "Colder minimum temperatures can favour the spread of seasonal flu, the advisory says.",
+  "care": "Pregnant women, children under 5, people over 65 and those with chronic illness are flagged as high-risk and told to see a doctor if symptoms start."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌡️",
+    "label": "Dry weather, colder nights"
+   }
+  ],
+  "event": {
+   "icon": "🤧",
+   "label": "Flu advisory issued"
+  },
+  "effects": [
+   {
+    "icon": "🏥",
+    "label": "Respiratory infections may rise"
+   },
+   {
+    "icon": "🏥",
+    "label": "Special beds at govt facilities"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Warning signs needing immediate care: high fever, breathing difficulty, bluish lips or skin, blood in sputum. Dial 108 for an ambulance."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How are you handling the colder nights?",
+   "opts": [
+    "Extra layers, all set",
+    "Already have a cold",
+    "Haven't noticed the chill",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will flu cases rise at government hospitals this week?",
+    "Who checks that special beds and medicines are in place?"
+   ],
+   "facts": [
+    {
+     "big": "1 week",
+     "t": "Most flu patients are expected to recover *within a week*, the advisory says.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/imd-forecasts-2c-to-3c-dip-in-temperatures-across-telangana-for-next-two-days/article71694489.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What the advisory says to do",
+   "steps": [
+    {
+     "t": "Flu symptoms",
+     "e": "Stay home, rest, drink fluids"
+    },
+    {
+     "t": "High-risk group",
+     "e": "See a doctor at nearest facility"
+    },
+    {
+     "t": "Warning signs",
+     "e": "Go to govt hospital now; 108 for ambulance"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Precaution advice for the next two colder days"
+  },
+  {
+   "t": "big",
+   "v": "2-3°C",
+   "l": "below normal minimum, next 2 days",
+   "tone": "bad",
+   "verdict": "Colder nights raise flu risk, says the health dept"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2-3°C",
+  "label": "below normal minimum temperature",
+  "motion": "drift",
+  "scene": [
+   "🌡️",
+   "🤧",
+   "🏥"
+  ]
+ },
+ "watch": "Minimum temperatures over the next two days and any rise in flu cases at government hospitals.",
+ "thread": "tg-cold-dip-flu-advisory-health-dept",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "IMD forecasts 2°C to 3°C dip in temperatures across Telangana for next two days",
+   "url": "https://www.thehindu.com/news/national/telangana/imd-forecasts-2c-to-3c-dip-in-temperatures-across-telangana-for-next-two-days/article71694489.ece"
+  }
+ ],
+ "updated": 1794553921214,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/igu5yn/article71696594.ece/alternates/LANDSCAPE_1200/Easterly-winds-GQFGPM8AR.3.jpg.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "Telangana nights to run *2-3°C* colder than normal; flu advisory issued.",
+ "twist": "The advisory says most flu patients recover *within a week*, and warns against self-medication.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "state"
+}

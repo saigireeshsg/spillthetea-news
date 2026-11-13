@@ -1,0 +1,136 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Kukatpally truck park's *3.15 acres* up for auction, protests grow",
+ "hook_b": "Kukatpally truck park's *3.15 acres* up for auction, protests grow",
+ "tldr": "BRS leaders led by T Harish Rao visited the Kukatpally truck park site on Friday and backed residents protesting the proposed auction of 3.15 acres earmarked for the truck park.",
+ "beats": {
+  "what": "CPI and CPM have also joined the protest and want the government to withdraw the proposal, per Telangana Today.",
+  "why": "Residents say land earmarked for public purposes is being put up for sale.",
+  "care": "Kukatpally residents and truck operators who use the park are directly affected by what happens to the site."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏛️",
+    "label": "Govt auction proposal"
+   }
+  ],
+  "event": {
+   "icon": "📢",
+   "label": "Residents, parties protest"
+  },
+  "effects": [
+   {
+    "icon": "🚚",
+    "label": "BRS, CPI, CPM join in"
+   },
+   {
+    "icon": "🚚",
+    "label": "Demand to withdraw sale"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Harish Rao inspected the site with MLAs Madhavaram Krishna Rao and KP Vivekananda and said BRS would oppose the auction."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What should happen to public land like the Kukatpally truck park?",
+   "opts": [
+    "Keep it for public use",
+    "Auction it for revenue",
+    "Decide after public consultation",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What did the 2013 plan propose, and why was it dropped?",
+    "What would the site be used for if not auctioned?"
+   ],
+   "facts": [
+    {
+     "big": "2013",
+     "t": "A sale attempt in *2013* was foiled after all political parties opposed it, protesters say.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/brs-backs-protest-against-proposed-auction-of-3-15-acres-at-kukatpally-truck-park"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Kukatpally truck park land",
+   "steps": [
+    {
+     "t": "2013",
+     "e": "Sale attempt dropped after all parties opposed"
+    },
+    {
+     "t": "Nov 2026",
+     "e": "3.15 acres proposed for auction"
+    },
+    {
+     "t": "Nov 13",
+     "e": "BRS, CPI, CPM back protest"
+    }
+   ]
+  },
+  {
+   "t": "meter",
+   "l": "Parties publicly backing the protest",
+   "v": 3,
+   "max": 3,
+   "d": "BRS, CPI, CPM",
+   "tone": "neutral",
+   "verdict": "Opposition parties back residents; government has not responded in the report"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3.15 ac",
+  "label": "truck park land proposed for auction",
+  "motion": "drift",
+  "scene": [
+   "🏛️",
+   "📢",
+   "🚚"
+  ]
+ },
+ "watch": "Whether the government goes ahead with the auction or withdraws the proposal.",
+ "thread": "hyd-kukatpally-truck-park-3-15-acres-auction-protest",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "BRS backs protest against proposed auction of 3.15 acres at Kukatpally truck park",
+   "url": "https://telanganatoday.com/brs-backs-protest-against-proposed-auction-of-3-15-acres-at-kukatpally-truck-park"
+  }
+ ],
+ "updated": 1794553921212,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/BRS-backs-protest-against-proposed-auction-of-3-15-acres-at-Kukatpally-truck-park.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Protest grows against auction of *3.15 acres* at Kukatpally truck park.",
+ "twist": "The same land was put up for sale in *2013*; protesters say all parties blocked it then.",
+ "areas": [
+  "Kukatpally"
+ ],
+ "layer": "near"
+}
