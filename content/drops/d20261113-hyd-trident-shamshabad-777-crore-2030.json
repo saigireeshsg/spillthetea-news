@@ -1,0 +1,130 @@
+{
+ "cat": "money",
+ "lead": "money",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-78",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "business",
+ "hook": "Oberoi group plans *₹777 crore* Trident near RGIA",
+ "hook_b": "Oberoi group plans *₹777 crore* Trident near RGIA",
+ "tldr": "EIH Ltd's board approved a five-star Trident hotel on an 8.89-acre plot it already owns near Rajiv Gandhi International Airport.",
+ "beats": {
+  "what": "The hotel is expected to open by September 2030 and serve domestic and international travellers, per a regulatory filing cited by Siasat.",
+  "why": "EIH said it will cater to travellers near RGIA; the group already runs a Trident in HITEC City.",
+  "care": "A big hotel build near the airport adds to Shamshabad's growth as a hospitality hub."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "✈️",
+    "label": "Airport traveller demand"
+   }
+  ],
+  "event": {
+   "icon": "🏨",
+   "label": "Trident hotel approved"
+  },
+  "effects": [
+   {
+    "icon": "📈",
+    "label": "Opening by Sept 2030"
+   },
+   {
+    "icon": "📈",
+    "label": "8.89-acre site"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "EIH revenue from operations rose about 16% to ₹694.19 crore in July-September."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What does the airport area need more?",
+   "opts": [
+    "Hotels",
+    "Better public transport",
+    "Housing",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will a new airport hotel bring local jobs before 2030?"
+   ],
+   "facts": [
+    {
+     "big": "8.89 ac",
+     "t": "The hotel will rise on an *8.89-acre* plot EIH already owns near RGIA.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/new-trident-hotel-to-come-up-near-hyderabad-airport-by-2030-3575787/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "EIH quarterly net profit (₹ crore)",
+   "a": {
+    "v": 116.56,
+    "d": "₹116.56 cr",
+    "l": "Jul-Sep 2025"
+   },
+   "b": {
+    "v": 141.46,
+    "d": "₹141.46 cr",
+    "l": "Jul-Sep 2026"
+   },
+   "goodIfUp": true,
+   "tone": "neutral",
+   "verdict": "Profit up for the company; hotel opens by Sept 2030"
+  },
+  {
+   "t": "big",
+   "v": "₹777 cr",
+   "l": "Trident hotel investment"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b0f0f",
+   "#c0392b"
+  ],
+  "big": "₹777 cr",
+  "label": "Trident hotel investment",
+  "motion": "drift",
+  "scene": [
+   "✈️",
+   "🏨",
+   "📈"
+  ]
+ },
+ "watch": "Construction start on the 8.89-acre site.",
+ "thread": "hyd-trident-shamshabad-777-crore-2030",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "New Trident hotel to come up near Hyderabad airport by 2030",
+   "url": "https://www.siasat.com/new-trident-hotel-to-come-up-near-hyderabad-airport-by-2030-3575787/"
+  }
+ ],
+ "updated": 1794531434455,
+ "fact": "Oberoi group to build *₹777 crore* Trident hotel near Shamshabad airport by 2030.",
+ "twist": "EIH's quarterly profit rose *21%* to ₹141.46 crore, announced the same day the board cleared the hotel.",
+ "areas": [
+  "Shamshabad"
+ ],
+ "layer": "city",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Trident-Hotel-Hyderabad-airport-.jpg",
+  "c": "Siasat"
+ }
+}

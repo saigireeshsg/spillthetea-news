@@ -1,0 +1,147 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-88",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "CM wants *3* PRTS corridors tendered by December",
+ "hook_b": "CM wants *3* PRTS corridors tendered by December",
+ "tldr": "Revanth Reddy asked officials to prepare Personal Rapid Transit System corridors across central Hyderabad and the IT corridor to ease traffic.",
+ "beats": {
+  "what": "Corridors: LB Stadium to Ranigunj via Tank Bund; Assembly Metro to Begumpet via Secretariat; KPHB Metro to Biodiversity via Durgam Cheruvu and Mindspace, per TOI.",
+  "why": "The CM said the aim is to improve urban mobility and cut congestion, with speedy execution.",
+  "care": "If built, the IT-corridor line would link KPHB, Madhapur and Gachibowli metro stations."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚦",
+    "label": "City traffic congestion"
+   }
+  ],
+  "event": {
+   "icon": "🚝",
+   "label": "PRTS corridors ordered"
+  },
+  "effects": [
+   {
+    "icon": "🅿️",
+    "label": "Tenders by December"
+   },
+   {
+    "icon": "🅿️",
+    "label": "Parking + depots planned"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "He set a deadline to finish tendering by December and complete corridors within a year of work starting."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you use a PRTS line on your commute?",
+   "opts": [
+    "Yes, regularly",
+    "Sometimes",
+    "No, I'd stick to metro/bus/bike",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will PRTS fares compare with metro and bus fares?",
+    "Which corridor would cut the most car trips?"
+   ],
+   "facts": [
+    {
+     "big": "1 yr",
+     "t": "The CM wants corridors finished *within one year* of work commencing.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/reduce-traffic-woes-boost-healthcare-infrastructure-cm-to-officials/articleshow/135780745.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The three proposed corridors",
+   "steps": [
+    {
+     "t": "Line 1",
+     "e": "LB Stadium - Ambedkar Statue - Indira Park - Lower Tank Bund - Ranigunj"
+    },
+    {
+     "t": "Line 2",
+     "e": "Assembly Metro - Ravindra Bharathi - Secretariat - IMAX - Begumpet"
+    },
+    {
+     "t": "Line 3",
+     "e": "KPHB Metro - Durgam Cheruvu - Raheja Mindspace - Biodiversity Metro"
+    },
+    {
+     "t": "Deadline",
+     "e": "Tenders by Dec; build within 1 year of start"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A plan for now; timelines depend on tenders"
+  },
+  {
+   "t": "big",
+   "v": "3",
+   "l": "PRTS corridors proposed"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3",
+  "label": "PRTS corridors proposed",
+  "motion": "drift",
+  "scene": [
+   "🚦",
+   "🚝",
+   "🅿️"
+  ]
+ },
+ "learn": {
+  "t": "PRTS = Personal Rapid Transit System, the new transit mode proposed for these corridors"
+ },
+ "watch": "Whether tenders are floated by December as the CM directed.",
+ "thread": "hyd-prts-three-corridors-tenders-dec",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Reduce traffic woes, boost healthcare infrastructure: CM to officials",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/reduce-traffic-woes-boost-healthcare-infrastructure-cm-to-officials/articleshow/135780745.cms"
+  }
+ ],
+ "updated": 1794531434454,
+ "fact": "CM orders *three* PRTS corridors, tenders by December, built within a year.",
+ "twist": "Multi-level parking with PRTS depots is planned at *Necklace Road* and near *IKEA, Gachibowli*.",
+ "areas": [
+  "Tank Bund",
+  "Begumpet",
+  "KPHB",
+  "Madhapur",
+  "Gachibowli",
+  "Necklace Road",
+  "Ranigunj"
+ ],
+ "layer": "city",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135780744,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ }
+}

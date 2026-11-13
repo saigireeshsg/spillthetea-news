@@ -1,0 +1,131 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "*15 acres* of planned bus terminal land encroached",
+ "hook_b": "*15 acres* of planned bus terminal land encroached",
+ "tldr": "Plans for an international bus terminal at Gajularamaram have put encroachments on government land in Survey No. 307 back in focus.",
+ "beats": {
+  "what": "RTC officials have asked District Collector Manu Choudary to protect the land and act against encroachers.",
+  "why": "The land sat vacant for years, and parts were allegedly carved into plots and sold despite HYDRAA drives.",
+  "care": "Buyers of such rooms risk losing them; the terminal needs the full plot."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏚️",
+    "label": "Vacant govt land for years"
+   }
+  ],
+  "event": {
+   "icon": "🚌",
+   "label": "Terminal land encroached"
+  },
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "Collector asked to act"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Rooms sold to buyers"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "RTC says steps are being taken with all departments to clear the encroachments."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What should happen to encroached terminal land?",
+   "opts": [
+    "Clear it for the terminal",
+    "Shift terminal plan to fit",
+    "Case-by-case review",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How are buyers supposed to check if a plot is government land?",
+    "Why did allotted land stay vacant for years?"
+   ],
+   "facts": [
+    {
+     "big": "238 ac",
+     "t": "*238 acres* in Survey No. 307 were allotted to APSFC in undivided AP.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-gajularamaram-bus-terminal-plan-puts-government-land-encroachments-in-focus"
+    },
+    {
+     "big": "250 ac",
+     "t": "*250 acres* in Survey No. 79 went to the Jeedimetla Industrial Estate.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-gajularamaram-bus-terminal-plan-puts-government-land-encroachments-in-focus"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Share of RTC's 100-acre allotment encroached",
+   "v": 15,
+   "max": 100,
+   "unit": "%",
+   "tone": "bad",
+   "verdict": "Public land for a bus terminal is shrinking"
+  },
+  {
+   "t": "big",
+   "v": "15 ac",
+   "l": "of 100 acres encroached"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "15 ac",
+  "label": "of 100 acres encroached",
+  "motion": "drift",
+  "scene": [
+   "🏚️",
+   "🚌",
+   "⚖️"
+  ]
+ },
+ "watch": "Whether the Collector orders action on Survey No. 307.",
+ "thread": "hyd-gajularamaram-bus-terminal-15-acres-encroached",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad: Gajularamaram bus terminal plan puts government land encroachments in focus",
+   "url": "https://telanganatoday.com/hyderabad-gajularamaram-bus-terminal-plan-puts-government-land-encroachments-in-focus"
+  }
+ ],
+ "updated": 1794531434455,
+ "fact": "TGSRTC survey finds *15 of 100* acres for Gajularamaram bus terminal encroached.",
+ "twist": "Encroachers allegedly build rooms *overnight* and sell them, even as police cases are registered, per Telangana Today.",
+ "areas": [
+  "Gajularamaram",
+  "Jeedimetla",
+  "Quthbullapur"
+ ],
+ "layer": "near",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Hyderabad-Gajularamaram-bus-terminal-plan-puts-government-land-encroachments-in-focus.jpg",
+  "c": "Telangana Today"
+ }
+}

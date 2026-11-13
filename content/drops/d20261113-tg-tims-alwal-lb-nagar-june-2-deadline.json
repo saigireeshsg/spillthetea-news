@@ -1,0 +1,140 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-86",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "TIMS Alwal, LB Nagar get a *June 2* deadline",
+ "hook_b": "TIMS Alwal, LB Nagar get a *June 2* deadline",
+ "tldr": "Revanth Reddy directed that TIMS Alwal and LB Nagar, Warangal super speciality hospital and NIMS expansion be completed and operational by June 2 next year.",
+ "beats": {
+  "what": "He called for a unified recruitment policy so doctors can move between TIMS Sanathnagar, Alwal and LB Nagar, per The Hindu.",
+  "why": "He wants Sanathnagar TIMS fully used to ease NIMS when beds are unavailable or surgeries delayed.",
+  "care": "Residents of Alwal and LB Nagar would get large government hospitals closer to home if deadlines hold."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏥",
+    "label": "NIMS overload"
+   }
+  ],
+  "event": {
+   "icon": "📅",
+   "label": "Hospital deadlines set"
+  },
+  "effects": [
+   {
+    "icon": "👩‍⚕️",
+    "label": "Unified TIMS recruitment"
+   },
+   {
+    "icon": "👩‍⚕️",
+    "label": "79 more dialysis centres"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Doctors may be hired from outside until regular TIMS recruitment is done, with funds released immediately."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Which matters most for the new TIMS hospitals?",
+   "opts": [
+    "Enough doctors and staff",
+    "Opening on time",
+    "Cleanliness and upkeep",
+    "All equally",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will staffing keep pace with the new beds?",
+    "How will patients be routed between NIMS and TIMS?"
+   ],
+   "facts": [
+    {
+     "big": "9 cr",
+     "t": "Outpatients rose from *7 crore to 9 crore*, officials informed the CM.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/tims-hospitals-will-be-fully-operational-by-june-2-says-chief-minister/article71695185.ece"
+    },
+    {
+     "big": "5,640",
+     "t": "Recruitment for *5,640* more health posts is underway, after 13,401 appointments.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/tims-hospitals-will-be-fully-operational-by-june-2-says-chief-minister/article71695185.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Beds in govt hospitals (officials' figures)",
+   "a": {
+    "v": 30000,
+    "d": "30,000",
+    "l": "Before"
+   },
+   "b": {
+    "v": 38000,
+    "d": "38,000",
+    "l": "Now"
+   },
+   "goodIfUp": true,
+   "tone": "good",
+   "verdict": "More public hospital beds, as reported by officials"
+  },
+  {
+   "t": "big",
+   "v": "Jun 2",
+   "l": "deadline for TIMS hospitals"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Jun 2",
+  "label": "deadline for TIMS hospitals",
+  "motion": "drift",
+  "scene": [
+   "🏥",
+   "📅",
+   "👩‍⚕️"
+  ]
+ },
+ "watch": "Whether TIMS Alwal and LB Nagar open by June 2, 2027.",
+ "thread": "tg-tims-alwal-lb-nagar-june-2-deadline",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "TIMS hospitals will be fully operational by June 2, says Chief Minister",
+   "url": "https://www.thehindu.com/news/national/telangana/tims-hospitals-will-be-fully-operational-by-june-2-says-chief-minister/article71695185.ece"
+  }
+ ],
+ "updated": 1794531434454,
+ "fact": "CM sets *June 2, 2027* deadline for TIMS Alwal and LB Nagar hospitals.",
+ "twist": "Officials told him government hospital beds rose from *30,000 to 38,000*; new Osmania General Hospital is due by *Dec 2027*.",
+ "areas": [
+  "Alwal",
+  "LB Nagar",
+  "Sanathnagar"
+ ],
+ "layer": "city",
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/national/telangana/b3vfgs/article71695188.ece/alternates/LANDSCAPE_1200/CM%20.jpeg",
+  "c": "The Hindu"
+ }
+}

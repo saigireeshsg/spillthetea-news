@@ -1,0 +1,140 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "courts",
+ "hook": "HC takes up newborn-unit fire and hospital roof collapse",
+ "hook_b": "HC takes up newborn-unit fire and hospital roof collapse",
+ "tldr": "The Telangana High Court took suo motu cognisance of the October SNCU fire at RIMS Adilabad and the September roof collapse at MGM Warangal.",
+ "beats": {
+  "what": "A bench of Acting Chief Justice P Sam Koshy and Justice Suddala Chalapathi Rao heard the PIL on Nov 5, per TOI.",
+  "why": "The petition says the incidents expose gaps in safety inspections, maintenance and emergency systems in government hospitals.",
+  "care": "Government hospitals serve lakhs of patients; the court could order safety audits across them."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔥",
+    "label": "Fire and roof collapse"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "HC takes up PIL"
+  },
+  "effects": [
+   {
+    "icon": "🏥",
+    "label": "Govts must reply"
+   },
+   {
+    "icon": "🏥",
+    "label": "Safety audit sought"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The petitioner seeks fire, electrical and structural safety reports and a time-bound corrective plan for all govt hospitals."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What should a hospital safety probe focus on first?",
+   "opts": [
+    "Fire and electrical systems",
+    "Building structure",
+    "Staffing and training",
+    "All equally",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How often are fire and structural audits done in Telangana's govt hospitals?",
+    "What would a time-bound safety plan need to cover?"
+   ],
+   "facts": [
+    {
+     "big": "Nov 16",
+     "t": "The HC posted the case to *Nov 16* after directing state and central govts to file counters.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/hc-takes-suo-motu-cognisance-of-rims-hospital-fire-mgm-roof-collapse/articleshow/135774238.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "From incidents to court",
+   "steps": [
+    {
+     "t": "Sept",
+     "e": "Roof collapse at MGM Hospital, Warangal"
+    },
+    {
+     "t": "Oct",
+     "e": "Fire at RIMS Adilabad newborn unit, 5 infants die"
+    },
+    {
+     "t": "Nov 5",
+     "e": "HC bench hears PIL, seeks counters"
+    },
+    {
+     "t": "Nov 16",
+     "e": "Next hearing"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Court now tracking safety in government hospitals"
+  },
+  {
+   "t": "big",
+   "v": "5",
+   "l": "infants died in SNCU fire"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "5",
+  "label": "infants died in SNCU fire",
+  "motion": "drift",
+  "scene": [
+   "🔥",
+   "⚖️",
+   "🏥"
+  ]
+ },
+ "watch": "The Nov 16 hearing, when state and central governments must file their replies.",
+ "thread": "tg-hc-suo-motu-rims-fire-mgm-roof",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "HC takes suo motu cognisance of RIMS hospital fire & MGM roof collapse",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/hc-takes-suo-motu-cognisance-of-rims-hospital-fire-mgm-roof-collapse/articleshow/135774238.cms"
+  }
+ ],
+ "updated": 1794531434453,
+ "fact": "Telangana HC takes up Adilabad hospital fire that killed *five* infants.",
+ "twist": "The case began as an advocate's *letter to the Supreme Court*; the state and Centre must file counters before the *Nov 16* hearing.",
+ "areas": [
+  "Adilabad",
+  "Warangal"
+ ],
+ "layer": "state",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135774237,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ }
+}

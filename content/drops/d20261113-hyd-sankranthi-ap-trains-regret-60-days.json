@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-92",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "transport",
+ "hook": "Sankranthi trains to AP sold out *two months* early",
+ "hook_b": "Sankranthi trains to AP sold out *two months* early",
+ "tldr": "Popular Secunderabad-Visakhapatnam and Godavari-district trains ran out of tickets minutes after 60-day advance booking opened for Jan 9-12.",
+ "beats": {
+  "what": "Godavari Superfast, Garib Rath, LTT Visakhapatnam and Visakha Express show REGRET in Sleeper; Gowthami, Cocanada and Narasapur are full or long-waitlisted, per TOI.",
+  "why": "Railways open reservations 60 days ahead, and demand for the Sankranthi weekend to AP is far above seats.",
+  "care": "If you are heading home for Sankranthi, confirmed train seats are already scarce and passengers fear bus fares will rise."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📅",
+    "label": "60-day booking window opens"
+   }
+  ],
+  "event": {
+   "icon": "🚆",
+   "label": "AP trains sold out"
+  },
+  "effects": [
+   {
+    "icon": "🎟️",
+    "label": "Waitlists cross limit"
+   },
+   {
+    "icon": "🎟️",
+    "label": "Special trains promised"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "SCR says it will run hundreds of special trains and may add coaches to existing services."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How are you planning Sankranthi travel to AP?",
+   "opts": [
+    "Train waitlist / specials",
+    "Bus",
+    "Own vehicle or carpool",
+    "Not travelling",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How early will SCR announce Sankranthi specials this year?",
+    "Will private bus fares rise as train seats run out?"
+   ],
+   "facts": [
+    {
+     "big": "100+",
+     "t": "SCR operates *at least 100* trains connecting Telangana with AP destinations.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/two-months-ahead-train-tickets-to-ap-sold-out-for-sankranthi/articleshow/135780594.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The Sankranthi booking crunch",
+   "steps": [
+    {
+     "t": "60 days ahead",
+     "e": "Bookings open, trains fill in minutes"
+    },
+    {
+     "t": "Jan 8-10",
+     "e": "Heavy AC II/III demand for pre-festival weekend"
+    },
+    {
+     "t": "Jan 9-12",
+     "e": "Peak travel dates to AP"
+    },
+    {
+     "t": "Next",
+     "e": "SCR plans hundreds of special trains"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Hard for travellers to AP to get confirmed seats"
+  },
+  {
+   "t": "big",
+   "v": "REGRET",
+   "l": "on AP trains for Jan 9-12"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "REGRET",
+  "label": "on AP trains for Jan 9-12",
+  "motion": "drift",
+  "scene": [
+   "📅",
+   "🚆",
+   "🎟️"
+  ]
+ },
+ "watch": "When SCR announces its Sankranthi special trains and extra coaches.",
+ "thread": "hyd-sankranthi-ap-trains-regret-60-days",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Two-months ahead, train tickets to AP sold out for Sankranthi",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/two-months-ahead-train-tickets-to-ap-sold-out-for-sankranthi/articleshow/135780594.cms"
+  }
+ ],
+ "updated": 1794531434450,
+ "fact": "AP-bound Sankranthi trains from Hyderabad show *REGRET* nearly two months early.",
+ "twist": "SCR runs *at least 100* trains between Telangana and AP, yet Jan 9-12 seats are gone; Mumbai, Delhi and Bengaluru trains still have berths.",
+ "areas": [
+  "Secunderabad"
+ ],
+ "layer": "city",
+ "img": {
+  "u": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg",
+  "c": "Times of India"
+ }
+}

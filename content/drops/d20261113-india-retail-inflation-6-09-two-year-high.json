@@ -1,0 +1,141 @@
+{
+ "cat": "money",
+ "lead": "money",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-82",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "money",
+ "hook": "Retail inflation hits *6.09%*, above RBI's limit",
+ "hook_b": "Retail inflation hits *6.09%*, above RBI's limit",
+ "tldr": "CPI inflation crossed the RBI's 6% upper tolerance limit in October, raising expectations of a December rate hike.",
+ "beats": {
+  "what": "Prices rose in 11 of 12 major CPI categories; sugar, confectionery and desserts hit 13%, per Hindustan Times.",
+  "why": "Both food and non-food prices pushed inflation up; it has risen every month since November 2025.",
+  "care": "Your grocery, eating-out and EMI costs are linked: higher prices now, and a rate hike would make loans dearer."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛒",
+    "label": "Food and non-food prices up"
+   }
+  ],
+  "event": {
+   "icon": "📈",
+   "label": "Inflation crosses 6%"
+  },
+  "effects": [
+   {
+    "icon": "🏦",
+    "label": "Rate hike expected"
+   },
+   {
+    "icon": "🏦",
+    "label": "Costlier groceries"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Core inflation stood at 4.6%, per CMIE data cited by HT."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Where are rising prices hitting you most?",
+   "opts": [
+    "Groceries",
+    "Eating out",
+    "Rent / transport",
+    "Not feeling it yet",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much of the rise is weather-driven versus lasting?",
+    "Would a rate hike cool food prices?"
+   ],
+   "facts": [
+    {
+     "big": "5.2%",
+     "t": "RBI's MPC projects headline inflation at *5.2%* for FY27.",
+     "s": "Hindustan Times",
+     "u": "https://www.hindustantimes.com/india-news/inflation-tops-rbi-s-6-ceiling-raises-december-rate-hike-prospects-101794527823707.html"
+    },
+    {
+     "big": "4%",
+     "t": "Inflation had already crossed RBI's *4%* target in June.",
+     "s": "Hindustan Times",
+     "u": "https://www.hindustantimes.com/india-news/inflation-tops-rbi-s-6-ceiling-raises-december-rate-hike-prospects-101794527823707.html"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "trend",
+   "l": "Food & beverage inflation",
+   "pts": [
+    [
+     "Jan",
+     2.1
+    ],
+    [
+     "Sep",
+     7.36
+    ],
+    [
+     "Oct",
+     8.51
+    ]
+   ],
+   "unit": "%",
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Food prices rising faster for everyone buying them"
+  },
+  {
+   "t": "big",
+   "v": "6.09%",
+   "l": "retail inflation, October"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b0f0f",
+   "#c0392b"
+  ],
+  "big": "6.09%",
+  "label": "retail inflation, October",
+  "motion": "drift",
+  "scene": [
+   "🛒",
+   "📈",
+   "🏦"
+  ]
+ },
+ "watch": "RBI's December policy meeting, where economists expect a rate hike.",
+ "thread": "india-retail-inflation-6-09-two-year-high",
+ "sources": [
+  {
+   "name": "Hindustan Times",
+   "title": "Inflation tops RBI's 6% ceiling, raises December rate hike prospects",
+   "url": "https://www.hindustantimes.com/india-news/inflation-tops-rbi-s-6-ceiling-raises-december-rate-hike-prospects-101794527823707.html"
+  }
+ ],
+ "updated": 1794531434456,
+ "fact": "India's retail inflation hits *6.09%*, a two-year high above RBI's limit.",
+ "twist": "Food and beverages, *37%* of the basket, rose to *8.51%*; the figure was just 2.1% in January.",
+ "areas": [],
+ "layer": "india",
+ "img": {
+  "u": "https://www.hindustantimes.com/ht-img/img/2026/11/13/1600x900/logo/PAKISTAN-INFLATION--0_1685639043085_1685639150233_1794528489727_ofFd_3b77fbce-6377-44bf-a5fc-62bc503f1612_eP9a.JPG",
+  "c": "Hindustan Times"
+ }
+}

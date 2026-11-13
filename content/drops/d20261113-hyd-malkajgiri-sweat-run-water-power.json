@@ -1,0 +1,142 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-13",
+ "sort": "2026-11-13-70",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "*60* runners take water-saving message Nagole to Tarnaka",
+ "hook_b": "*60* runners take water-saving message Nagole to Tarnaka",
+ "tldr": "Malkajgiri Municipal Corporation and LB Nagar Runners held a 10 km 'Sweat Run' for water conservation, power saving and the environment.",
+ "beats": {
+  "what": "Participants went through Nagole, Uppal and Habsiguda to the MMC headquarters in Tarnaka with banners, per Telangana Today.",
+  "why": "The event aimed to flag water scarcity and electricity use challenges.",
+  "care": "East Hyderabad residents may see more conservation drives from the civic body."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💧",
+    "label": "Water, power stress"
+   }
+  ],
+  "event": {
+   "icon": "🏃",
+   "label": "10 km Sweat Run"
+  },
+  "effects": [
+   {
+    "icon": "⚡",
+    "label": "Conservation message"
+   },
+   {
+    "icon": "⚡",
+    "label": "Civic push in east Hyd"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Central Ground Water Board was among the event's supporters."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What's the easiest way you save water at home?",
+   "opts": [
+    "Shorter showers",
+    "Fixing leaks",
+    "Reusing water",
+    "Haven't started",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What concrete steps will MMC take on water saving?"
+   ],
+   "facts": [
+    {
+     "big": "60+",
+     "t": "*More than 60* runners and cyclists joined the run.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-malkajgiri-civic-body-organises-10-km-sweat-run-to-promote-water-and-energy-conservation"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The route",
+   "steps": [
+    {
+     "t": "Start",
+     "e": "Nagole"
+    },
+    {
+     "t": "Via",
+     "e": "Uppal"
+    },
+    {
+     "t": "Via",
+     "e": "Habsiguda"
+    },
+    {
+     "t": "Finish",
+     "e": "MMC headquarters, Tarnaka"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "An awareness event, no new rules announced"
+  },
+  {
+   "t": "big",
+   "v": "10 km",
+   "l": "awareness run"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "10 km",
+  "label": "awareness run",
+  "motion": "drift",
+  "scene": [
+   "💧",
+   "🏃",
+   "⚡"
+  ]
+ },
+ "watch": "Whether MMC follows up with water-saving measures.",
+ "thread": "hyd-malkajgiri-sweat-run-water-power",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad: Malkajgiri civic body organises 10-km Sweat Run to promote water and energy conservation",
+   "url": "https://telanganatoday.com/hyderabad-malkajgiri-civic-body-organises-10-km-sweat-run-to-promote-water-and-energy-conservation"
+  }
+ ],
+ "updated": 1794531434456,
+ "fact": "Over *60* runners and cyclists did a 10 km water-saving run to Tarnaka.",
+ "twist": "Organisers tied the run to future water and power stress from the *El Niño* effect.",
+ "areas": [
+  "Nagole",
+  "Uppal",
+  "Habsiguda",
+  "Tarnaka",
+  "Malkajgiri"
+ ],
+ "layer": "near",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Hyderabad-Malkajgiri-civic-body-organises-10-km-Sweat-Run-to-promote-water-and-energy-conservation.jpg",
+  "c": "Telangana Today"
+ }
+}
