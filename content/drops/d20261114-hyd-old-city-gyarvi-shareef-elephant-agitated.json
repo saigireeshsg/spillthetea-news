@@ -1,0 +1,130 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-78",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "incident",
+ "hook": "Procession elephant panics in Old City; *no injuries*",
+ "hook_b": "Procession elephant panics in Old City; *no injuries*",
+ "tldr": "An elephant in the annual Gyarvi Shareef procession became agitated and moved uncontrollably through a crowded Old City street on Friday night.",
+ "beats": {
+  "what": "It happened near Etebar Chowk on Panjeshah Road, under Mir Chowk police limits, after the elephant came out of Irani Galli.",
+  "why": "The elephant suddenly became agitated during the procession, sending people running for safety.",
+  "care": "Mir Chowk police stepped in to disperse the crowd and prevent further mishaps."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🐘",
+    "label": "Elephant agitated in procession"
+   }
+  ],
+  "event": {
+   "icon": "⚠️",
+   "label": "Panic near Etebar Chowk"
+  },
+  "effects": [
+   {
+    "icon": "🚓",
+    "label": "Parked vehicles damaged"
+   },
+   {
+    "icon": "🚓",
+    "label": "Crowd dispersed by police"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Mahouts and handlers rushed in and restrained the animal."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Elephants in crowded city processions should…",
+   "opts": [
+    "Continue with more safety",
+    "Avoid narrow lanes",
+    "Be stopped",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What safety checks do processions with animals need from police?",
+    "Who pays for the damaged vehicles?"
+   ],
+   "facts": [
+    {
+     "big": "Minutes",
+     "t": "Handlers brought the elephant under control *within minutes*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/caparisoned-elephant-runs-amok-during-gyarvi-shareef-procession-in-hyderabad"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Friday night",
+   "steps": [
+    {
+     "t": "Irani Galli",
+     "e": "Elephant emerges, turns agitated"
+    },
+    {
+     "t": "Etebar Chowk",
+     "e": "Crowd runs, vehicles damaged"
+    },
+    {
+     "t": "Within minutes",
+     "e": "Mahouts bring it under control"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Scare, but no one hurt"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "0",
+  "label": "injuries reported",
+  "motion": "drift",
+  "scene": [
+   "🐘",
+   "⚠️",
+   "🚓"
+  ]
+ },
+ "watch": "Whether police or organisers announce new safety rules for animals in processions.",
+ "thread": "hyd-old-city-gyarvi-shareef-elephant-agitated",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Caparisoned elephant runs amok during Gyarvi Shareef procession in Hyderabad",
+   "url": "https://telanganatoday.com/caparisoned-elephant-runs-amok-during-gyarvi-shareef-procession-in-hyderabad"
+  }
+ ],
+ "updated": 1794618060979,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Gyarvih-elephant.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Gyarvi Shareef procession elephant panics near Etebar Chowk; *no injuries* reported",
+ "twist": "Handlers calmed the elephant *within minutes*, but several parked vehicles were damaged.",
+ "areas": [
+  "Old City",
+  "Charminar"
+ ],
+ "layer": "near"
+}

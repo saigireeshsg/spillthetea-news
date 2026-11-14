@@ -1,0 +1,158 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-95",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "transport",
+ "hook": "Women's monthly bus pass now priced at *15 days*",
+ "hook_b": "Women's monthly bus pass now priced at *15 days*",
+ "tldr": "TGSRTC's revised Monthly Season Ticket scheme with nine concessions takes effect across Telangana from Saturday, November 14.",
+ "beats": {
+  "what": "Women pay a 15-day fare (was 20) including tolls; for others, tolls are counted for 20 days instead of 25, and the distance limit on passes is gone.",
+  "why": "TGSRTC says the move aims to boost ridership and make daily bus travel cheaper for students, employees and regular commuters.",
+  "care": "Sunday free rides apply in Hyderabad, Warangal, Nizamabad, Nalgonda and Karimnagar city buses, but not on government holidays or Pushpak Airport Liners."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚌",
+    "label": "RTC wants more riders"
+   }
+  ],
+  "event": {
+   "icon": "🎟️",
+   "label": "Nine MST concessions from Nov 14"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Cheaper monthly passes"
+   },
+   {
+    "icon": "💸",
+    "label": "Free Sunday city rides"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "A new combi-ticket lets pass holders board a higher-category bus for an extra Rs 20 per journey; two- and three-month passes get 5 and 10 bonus days."
+  },
+  {
+   "k": "poll",
+   "vt": "priority",
+   "q": "Which new pass perk matters most to you?",
+   "opts": [
+    "Free Sunday rides",
+    "Women's 15-day fare",
+    "No distance limit",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will TGSRTC publish ridership numbers after the new pass rules?",
+    "How many commuters use Deluxe services that Mahalakshmi free travel does not cover?"
+   ],
+   "facts": [
+    {
+     "big": "Rs 20",
+     "t": "A new combi-ticket lets pass holders take a higher-category bus for *Rs 20* extra per trip.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/tgsrtc-rolls-out-nine-new-concessions-for-monthly-season-ticket-holders"
+    },
+    {
+     "big": "10%",
+     "t": "MST holders travelling off their route get *10%* off Super Luxury and higher buses.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/tgsrtc-announces-a-slew-of-bus-pass-concessions/article71698039.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Days charged for a women's monthly pass",
+   "a": {
+    "v": 20,
+    "d": "20 days",
+    "l": "Before"
+   },
+   "b": {
+    "v": 15,
+    "d": "15 days",
+    "l": "From Nov 14"
+   },
+   "goodIfUp": false,
+   "tone": "good",
+   "verdict": "Women pay for fewer days on a monthly pass"
+  },
+  {
+   "t": "compare",
+   "l": "Toll days counted for other pass holders",
+   "a": {
+    "v": 25,
+    "d": "25 days",
+    "l": "Before"
+   },
+   "b": {
+    "v": 20,
+    "d": "20 days",
+    "l": "Now"
+   },
+   "goodIfUp": false,
+   "tone": "good",
+   "verdict": "Lower pass cost for all other commuters"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "15 days",
+  "label": "fare for a women's monthly pass",
+  "motion": "drift",
+  "scene": [
+   "🚌",
+   "🎟️",
+   "💸"
+  ]
+ },
+ "learn": {
+  "t": "MST = Monthly Season Ticket, TGSRTC's monthly bus pass."
+ },
+ "watch": "The scheme starts today; Sunday free rides first apply on November 15.",
+ "thread": "hyd-tgsrtc-mst-nine-concessions-women-15-days",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "TGSRTC rolls out nine new concessions for Monthly Season Ticket holders",
+   "url": "https://telanganatoday.com/tgsrtc-rolls-out-nine-new-concessions-for-monthly-season-ticket-holders"
+  },
+  {
+   "name": "The Hindu",
+   "title": "TGSRTC announces a slew of bus pass concessions",
+   "url": "https://www.thehindu.com/news/national/telangana/tgsrtc-announces-a-slew-of-bus-pass-concessions/article71698039.ece"
+  }
+ ],
+ "updated": 1794618060977,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/TGSRTC-1.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Women's monthly RTC bus passes now cost just *15 days'* fare",
+ "twist": "Pass holders also ride *free on Sundays* on all city buses in five cities, Pushpak excluded.",
+ "areas": [
+  "Hyderabad",
+  "Secunderabad"
+ ],
+ "layer": "city"
+}

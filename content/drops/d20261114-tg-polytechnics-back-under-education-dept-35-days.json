@@ -1,0 +1,134 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "campus",
+ "hook": "After *35 days* of protest, polytechnics stay with Education",
+ "hook_b": "After *35 days* of protest, polytechnics stay with Education",
+ "tldr": "Telangana issued an order on Friday keeping government polytechnics under the Higher Education Department instead of Young India Skills University.",
+ "beats": {
+  "what": "Chief Secretary Sanjay Jaju's order puts both YISU and government polytechnics under the Higher Education Department.",
+  "why": "Teachers said polytechnic pay scales and cadres, including AICTE scales, differ from ITIs, and students feared the merger would lower their status.",
+  "care": "The decision followed recommendations of a committee headed by K Keshava Rao, which met the Polytechnic JAC and students."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📢",
+    "label": "Polytechnics merged into YISU"
+   }
+  ],
+  "event": {
+   "icon": "📜",
+   "label": "Order reverses merger"
+  },
+  "effects": [
+   {
+    "icon": "🎓",
+    "label": "Polytechnics under Higher Education"
+   },
+   {
+    "icon": "🎓",
+    "label": "ITIs stay with Shakti dept"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "YISU has been told to get AICTE and other approvals to expand its academic programmes."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Who should run polytechnic courses?",
+   "opts": [
+    "Education department",
+    "YISU",
+    "A joint panel",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What happens to polytechnic staff promotions after the order?",
+    "Will YISU still offer diploma courses?"
+   ],
+   "facts": [
+    {
+     "big": "35",
+     "t": "Polytechnic students and staff had protested for *about 35 days*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-retains-polytechnics-under-education-department-after-month-long-protests"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How it played out",
+   "steps": [
+    {
+     "t": "Earlier",
+     "e": "Polytechnics, ITIs, ATCs merged into YISU"
+    },
+    {
+     "t": "~35 days",
+     "e": "Teachers and students protest"
+    },
+    {
+     "t": "Committee",
+     "e": "K Keshava Rao panel meets JAC"
+    },
+    {
+     "t": "Friday",
+     "e": "Order keeps polytechnics under Education"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Protesters' main demand met; ITIs stay with Shakti dept"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "35 days",
+  "label": "of protests",
+  "motion": "drift",
+  "scene": [
+   "📢",
+   "📜",
+   "🎓"
+  ]
+ },
+ "learn": {
+  "t": "YISU = Young India Skills University, a public-private skills university."
+ },
+ "watch": "Whether the Polytechnic JAC ends its protest and YISU gets AICTE approvals.",
+ "thread": "tg-polytechnics-back-under-education-dept-35-days",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana retains polytechnics under Education department after month-long protests",
+   "url": "https://telanganatoday.com/telangana-retains-polytechnics-under-education-department-after-month-long-protests"
+  }
+ ],
+ "updated": 1794618060979,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/YISU-polytechnic.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "After *35 days* of protests, polytechnics return to Education department control",
+ "twist": "ITIs and ATCs stay under the Shakti department, but *YISU* still sets their curriculum.",
+ "areas": [],
+ "layer": "state"
+}

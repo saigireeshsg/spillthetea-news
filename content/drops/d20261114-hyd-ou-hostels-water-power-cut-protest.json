@@ -1,0 +1,125 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-86",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "campus",
+ "hook": "OU cuts water, power to *three* hostels; students protest",
+ "hook_b": "OU cuts water, power to *three* hostels; students protest",
+ "tldr": "Osmania University students protested on Friday demanding power and water be restored to the E1, E2 and D hostels, and opposed their proposed demolition.",
+ "beats": {
+  "what": "Protesters said the administration was trying to push students to go home, though many are in law courses or preparing for government recruitment exams.",
+  "why": "The university has proposed demolishing the three hostel buildings.",
+  "care": "Protesters were detained and shifted to a local police station."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏚️",
+    "label": "Proposed hostel demolition"
+   }
+  ],
+  "event": {
+   "icon": "🚱",
+   "label": "Water, power cut to 3 hostels"
+  },
+  "effects": [
+   {
+    "icon": "📢",
+    "label": "Students protest, detained"
+   },
+   {
+    "icon": "📢",
+    "label": "Pressure to vacate"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Students also demanded job notifications for OU teaching and non-teaching posts."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What should OU do with the E1, E2 and D hostels?",
+   "opts": [
+    "Repair and keep them",
+    "Demolish and rebuild",
+    "Decide after student talks",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Where will hostel students stay if the buildings are demolished?",
+    "What has OU said about the power and water cuts?"
+   ],
+   "facts": [
+    {
+     "big": "1 yr",
+     "t": "BRSV says *one year* has passed since the CM's campus visit and Rs 1,000 crore promise.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/osmania-university-students-protest-over-water-power-cuts-in-hostels"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "OU funds: promised vs released (BRSV claim)",
+   "a": {
+    "v": 1000,
+    "d": "Rs 1,000 cr",
+    "l": "Promised"
+   },
+   "b": {
+    "v": 0,
+    "d": "Rs 0",
+    "l": "Released, per BRSV"
+   },
+   "tone": "bad",
+   "verdict": "Students' group says promised funds have not arrived; no official response in the report"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3",
+  "label": "hostels without water, power",
+  "motion": "drift",
+  "scene": [
+   "🏚️",
+   "🚱",
+   "📢"
+  ]
+ },
+ "watch": "Whether OU restores supply or sets a demolition and relocation plan.",
+ "thread": "hyd-ou-hostels-water-power-cut-protest",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Osmania University students protest over water, power cuts in hostels",
+   "url": "https://telanganatoday.com/osmania-university-students-protest-over-water-power-cuts-in-hostels"
+  }
+ ],
+ "updated": 1794618060979,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/OU-protest-1.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "OU students protest as water and power are cut to *three* hostels",
+ "twist": "BRSV says *none* of the *Rs 1,000 crore* the CM promised OU a year ago has been released.",
+ "areas": [
+  "Tarnaka"
+ ],
+ "layer": "near"
+}

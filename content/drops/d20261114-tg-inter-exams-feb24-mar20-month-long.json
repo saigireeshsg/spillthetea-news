@@ -1,0 +1,146 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-88",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "exams",
+ "hook": "Inter exams to run *Feb 24–Mar 20*",
+ "hook_b": "Inter exams to run *Feb 24–Mar 20*",
+ "tldr": "The government approved the IPE 2027 timetable: first-year papers start February 24, second-year from February 26, ending March 20.",
+ "beats": {
+  "what": "There will be a two-day gap between language papers, four days before Mathematics and five days before Chemistry; TG BIE will release the detailed schedule shortly.",
+  "why": "Ramzan and Shivratri fall in the exam window; last year SSC exams were similarly stretched to over a month along CBSE lines.",
+  "care": "Junior lecturers quoted by Telangana Today say long breaks could make some students lose focus; the longer schedule may push results later."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📅",
+    "label": "Festivals in exam window"
+   }
+  ],
+  "event": {
+   "icon": "📝",
+   "label": "IPE 2027 stretched"
+  },
+  "effects": [
+   {
+    "icon": "⏳",
+    "label": "Longer gaps between papers"
+   },
+   {
+    "icon": "⏳",
+    "label": "Results may come later"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "First-year Inter exams begin February 24, second-year papers from February 26."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Longer gaps between Inter papers mean…",
+   "opts": [
+    "More time to revise",
+    "More chance to lose focus",
+    "No real difference",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will the longer schedule delay Inter results and college admissions?",
+    "How will rural students who take up work during gaps be supported?"
+   ],
+   "facts": [
+    {
+     "big": "1 month+",
+     "t": "Last year Telangana stretched SSC exams to *more than a month*, from 10 days earlier.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-inter-exams-stretched-to-nearly-a-month-to-be-held-from-feb-24"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "IPE 2027",
+   "steps": [
+    {
+     "t": "Feb 24",
+     "e": "First-year papers begin"
+    },
+    {
+     "t": "Feb 26",
+     "e": "Second-year papers begin"
+    },
+    {
+     "t": "Mar 20",
+     "e": "Exams end"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Nearly a month of exams for Inter students"
+  },
+  {
+   "t": "compare",
+   "l": "Gap before key papers (days)",
+   "a": {
+    "v": 4,
+    "d": "4 days",
+    "l": "Before Maths"
+   },
+   "b": {
+    "v": 5,
+    "d": "5 days",
+    "l": "Before Chemistry"
+   },
+   "tone": "neutral",
+   "verdict": "Longer prep gaps between subjects"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "25 days",
+  "label": "exam window Feb 24–Mar 20",
+  "motion": "drift",
+  "scene": [
+   "📅",
+   "📝",
+   "⏳"
+  ]
+ },
+ "learn": {
+  "t": "IPE = Intermediate Public Examinations, Telangana's Class 11–12 board exams."
+ },
+ "watch": "TG BIE's detailed subject-wise timetable, due shortly.",
+ "thread": "tg-inter-exams-feb24-mar20-month-long",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana Inter exams stretched to nearly a month, to be held from Feb 24",
+   "url": "https://telanganatoday.com/telangana-inter-exams-stretched-to-nearly-a-month-to-be-held-from-feb-24"
+  }
+ ],
+ "updated": 1794618060978,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Exastudentss.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Telangana Inter exams will now stretch nearly a month: *Feb 24–Mar 20*",
+ "twist": "They usually wrap up in *a little over two weeks*; Ramzan and Shivratri forced wider gaps.",
+ "areas": [],
+ "layer": "state"
+}

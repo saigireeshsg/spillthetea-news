@@ -1,0 +1,119 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "KBR parking tower only *50%* full amid flyover works",
+ "hook_b": "KBR parking tower only *50%* full amid flyover works",
+ "tldr": "Steel flyover works and a one-way loop around KBR Park are keeping motorists away from Hyderabad's first automated multi-level car park at Entry-1.",
+ "beats": {
+  "what": "Barricades and machinery for the steel flyover from Jubilee Hills Check Post to NFCL Junction have narrowed roads, with peak-hour diversions in force.",
+  "why": "Construction and one-way traffic have complicated entry and exit to the parking bay, a senior GHMC official said.",
+  "care": "Users want access to the tower built into the construction traffic plan and no-parking rules enforced on roadsides."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Steel flyover works, one-way loop"
+   }
+  ],
+  "event": {
+   "icon": "🅿️",
+   "label": "Parking tower underused"
+  },
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Half the slots empty"
+   },
+   {
+    "icon": "🚗",
+    "label": "Hard entry and exit"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The RFID-enabled tower has EV charging points and 24/7 CCTV."
+  },
+  {
+   "k": "poll",
+   "vt": "priority",
+   "q": "What would get you to use the KBR parking tower?",
+   "opts": [
+    "Clear access route",
+    "Strict roadside no-parking",
+    "I avoid KBR now",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How long will the KBR steel flyover works last?",
+    "Will parking be free or cheaper during construction?"
+   ],
+   "facts": [
+    {
+     "big": "72",
+     "t": "The rotary tower at KBR Park's main entrance can hold *72 cars*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/kbr-park-flyover-works-hit-usage-of-hyderabads-automated-parking-tower"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Parking tower occupancy",
+   "v": 50,
+   "max": 100,
+   "d": "50%",
+   "tone": "bad",
+   "verdict": "Half the 72 slots go unused during works"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "50%",
+  "label": "occupancy since excavation",
+  "motion": "drift",
+  "scene": [
+   "🏗️",
+   "🅿️",
+   "🚗"
+  ]
+ },
+ "watch": "Whether GHMC adds tower access to the construction-phase traffic plan.",
+ "thread": "hyd-kbr-park-parking-tower-50pc-flyover-works",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "KBR Park flyover works hit usage of Hyderabad's automated parking tower",
+   "url": "https://telanganatoday.com/kbr-park-flyover-works-hit-usage-of-hyderabads-automated-parking-tower"
+  }
+ ],
+ "updated": 1794618060978,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Untitled-1-23.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "KBR Park's automated parking tower is only *50%* used amid flyover works",
+ "twist": "The Korean-style tower holds *72 cars* and opened just a year ago, on *Nov 1, 2025*.",
+ "areas": [
+  "Jubilee Hills",
+  "Banjara Hills"
+ ],
+ "layer": "near"
+}

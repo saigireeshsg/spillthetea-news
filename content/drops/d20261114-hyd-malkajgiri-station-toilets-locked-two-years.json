@@ -1,0 +1,132 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-82",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Malkajgiri station toilets shut for *two years*",
+ "hook_b": "Malkajgiri station toilets shut for *two years*",
+ "tldr": "Passenger washrooms at the redeveloped Malkajgiri railway station remain closed because the station has not been commissioned yet.",
+ "beats": {
+  "what": "The station was redeveloped under the Amrit Bharat Station Scheme, but its toilets, including those for women, are not open to the public.",
+  "why": "SCR has not yet inaugurated the redeveloped station, so its new facilities stay locked.",
+  "care": "Women passengers often have to ask the station master or staff to use their washrooms, commuters say."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚉",
+    "label": "Station not yet commissioned"
+   }
+  ],
+  "event": {
+   "icon": "🔒",
+   "label": "New toilets stay locked"
+  },
+  "effects": [
+   {
+    "icon": "🚻",
+    "label": "Women depend on staff washrooms"
+   },
+   {
+    "icon": "🚻",
+    "label": "Passengers use open spaces"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Train Travellers Association has asked SCR to open the pending washrooms, especially ladies' toilets, without delay."
+  },
+  {
+   "k": "poll",
+   "vt": "priority",
+   "q": "What should SCR do first at Malkajgiri?",
+   "opts": [
+    "Open the new toilets now",
+    "Add mobile toilets",
+    "Hold the inauguration soon",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Why has the redeveloped station not been commissioned?",
+    "How many daily passengers use Malkajgiri station?"
+   ],
+   "facts": [
+    {
+     "big": "2 yrs",
+     "t": "Commuters say they have faced the problem for *nearly two years*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/malkajgiri-rail-passengers-struggle-without-toilets-as-station-awaits-inauguration"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Malkajgiri station",
+   "steps": [
+    {
+     "t": "Redevelopment",
+     "e": "Station rebuilt under Amrit Bharat scheme"
+    },
+    {
+     "t": "~2 years",
+     "e": "Toilets closed to public"
+    },
+    {
+     "t": "Next",
+     "e": "SCR reportedly planning inauguration"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Daily commuters, especially women, without toilets"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "~2 yrs",
+  "label": "without public toilets",
+  "motion": "drift",
+  "scene": [
+   "🚉",
+   "🔒",
+   "🚻"
+  ]
+ },
+ "learn": {
+  "t": "ABSS = Amrit Bharat Station Scheme, the Railways' station redevelopment programme."
+ },
+ "watch": "When SCR schedules the station's inauguration, which it is reportedly planning.",
+ "thread": "hyd-malkajgiri-station-toilets-locked-two-years",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Malkajgiri rail passengers struggle without toilets as station awaits inauguration",
+   "url": "https://telanganatoday.com/malkajgiri-rail-passengers-struggle-without-toilets-as-station-awaits-inauguration"
+  }
+ ],
+ "updated": 1794618060979,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Untitled-1-24.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Redeveloped Malkajgiri station's toilets stay shut for nearly *two years*",
+ "twist": "Commuters are asking for just *one or two* mobile toilets until the station opens.",
+ "areas": [
+  "Malkajgiri"
+ ],
+ "layer": "near"
+}

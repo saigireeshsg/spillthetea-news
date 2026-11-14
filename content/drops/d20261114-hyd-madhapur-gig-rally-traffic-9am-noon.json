@@ -1,0 +1,147 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-97",
+ "order": 1,
+ "heat": 5,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Cyber Towers–HITEX stretch shut *9 am to noon* today",
+ "hook_b": "Cyber Towers–HITEX stretch shut *9 am to noon* today",
+ "tldr": "Cyberabad Traffic Police have restricted traffic in Madhapur on November 14 for a gig workers' bike rally with Rahul Gandhi from Shilpakala Vedika to Jayabheri Grounds.",
+ "beats": {
+  "what": "Vehicles are restricted from Cyber Towers to HITEX Kaman (Metal Charminar) and up to HICC/Novotel from 9 am to 12 noon; heavy vehicles are barred on these routes.",
+  "why": "The rally comes as Rahul Gandhi is set to launch the Telangana Platform-Based Gig Workers law at the Bharat Summit at HITEX.",
+  "care": "Cyber Towers to Kondapur traffic goes via Yashoda-Vasantha City Road, Novotel and RTA Junction; Kothaguda to Cyber Towers goes via Radisson, AIG and IKEA Rotary."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛵",
+    "label": "Gig workers' bike rally"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "Madhapur roads restricted"
+  },
+  "effects": [
+   {
+    "icon": "🔀",
+    "label": "Diversions near Cyber Towers"
+   },
+   {
+    "icon": "🔀",
+    "label": "Heavy vehicles barred"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Drones, paragliders and micro-light aircraft are banned in Madhapur from 7 pm Nov 13 to 6 pm Nov 15; Rajnath Singh visits the summit on Nov 15."
+  },
+  {
+   "k": "poll",
+   "vt": "plan",
+   "q": "How are you getting around Madhapur this morning?",
+   "opts": [
+    "Taking the diversions",
+    "Leaving earlier or later",
+    "Working from home",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What does the new gig workers' law require from delivery and ride apps?",
+    "How many gig workers ride in Hyderabad daily?"
+   ],
+   "facts": [
+    {
+     "big": "Mar 29",
+     "t": "The Gig Workers Bill was introduced in the Assembly on *March 29, 2026*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/rahul-gandhi-to-launch-gig-workers-legislation-after-32-week-delay"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Madhapur curbs",
+   "steps": [
+    {
+     "t": "Nov 13, 7 pm",
+     "e": "Drone and paraglider ban starts"
+    },
+    {
+     "t": "Nov 14, 9 am–12 pm",
+     "e": "Cyber Towers–HITEX–HICC traffic restricted"
+    },
+    {
+     "t": "Nov 15",
+     "e": "Rajnath Singh visits Bharat Summit"
+    },
+    {
+     "t": "Nov 15, 6 pm",
+     "e": "Drone ban ends"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Morning traffic curbs, drone ban through Sunday evening"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "9–12",
+  "label": "restriction window today",
+  "motion": "drift",
+  "scene": [
+   "🛵",
+   "🚧",
+   "🔀"
+  ]
+ },
+ "watch": "Restrictions end at noon; the drone ban stays until 6 pm on November 15.",
+ "thread": "hyd-madhapur-gig-rally-traffic-9am-noon",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Traffic restrictions in Madhapur for Rahul Gandhi's rally",
+   "url": "https://www.thehindu.com/news/national/telangana/traffic-restrictions-in-madhapur-for-rahul-gandhis-rally/article71698315.ece"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Cyberabad Police ban drones ahead of Rahul Gandhi visit",
+   "url": "https://telanganatoday.com/cyberabad-police-ban-drones-ahead-of-rahul-gandhi-visit"
+  },
+  {
+   "name": "Telangana Today",
+   "title": "Rahul Gandhi to launch gig workers legislation after 32-week delay",
+   "url": "https://telanganatoday.com/rahul-gandhi-to-launch-gig-workers-legislation-after-32-week-delay"
+  }
+ ],
+ "updated": 1794618060978,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Drone-ban.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Cyber Towers to HITEX road restricted *9 am to noon* for gig workers' rally",
+ "twist": "The gig workers' law being launched today passed the Assembly *32 weeks* ago.",
+ "areas": [
+  "Madhapur",
+  "HITEC City",
+  "Kondapur",
+  "Gachibowli",
+  "Kothaguda"
+ ],
+ "layer": "near"
+}

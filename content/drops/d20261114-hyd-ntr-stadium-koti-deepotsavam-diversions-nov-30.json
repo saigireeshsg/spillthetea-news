@@ -1,0 +1,133 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "*17 days* of evening diversions near Indira Park",
+ "hook_b": "*17 days* of evening diversions near Indira Park",
+ "tldr": "Hyderabad Traffic Police announced diversions around NTR Stadium from November 14 to 30 for the Koti Deepotsavam event.",
+ "beats": {
+  "what": "Traffic from Telangana Thalli flyover towards Steel Bridge will be diverted at Katta Maisamma Temple via Dhobi Ghat, DBR Mills, Gandhi Nagar, Kavadiguda, CGO Towers and Musheerabad X Roads.",
+  "why": "Koti Deepotsavam is being held at NTR Stadium, and moderate congestion is expected in the surrounding roads.",
+  "care": "Vehicles from Ashok Nagar X Roads towards Katta Maisamma Temple go towards Himayatnagar; avoid RK Mutt Road and Indira Park X Roads."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Koti Deepotsavam at NTR Stadium"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "Diversions Nov 14–30"
+  },
+  "effects": [
+   {
+    "icon": "🔀",
+    "label": "Evening jams near Indira Park"
+   },
+   {
+    "icon": "🔀",
+    "label": "Detours via Kavadiguda"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Police also advise skipping the Banda Maisamma–Dharna Chowk and Indira Park–Ashok Nagar Nala stretches."
+  },
+  {
+   "k": "poll",
+   "vt": "plan",
+   "q": "Will you change your evening route till Nov 30?",
+   "opts": [
+    "Yes, via Himayatnagar",
+    "Yes, another way",
+    "No change",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will extra buses or metro trips run for Deepotsavam visitors?",
+    "Which stretch sees the worst evening jams?"
+   ],
+   "facts": [
+    {
+     "big": "6",
+     "t": "Steel Bridge-bound traffic is routed through *six* points, from Dhobi Ghat to Musheerabad X Roads.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/traffic-diversions-around-ntr-stadium-from-november-14-to-30"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Diversion window",
+   "steps": [
+    {
+     "t": "Nov 14",
+     "e": "Diversions begin"
+    },
+    {
+     "t": "Daily, 3–11 pm",
+     "e": "Congestion expected near Katta Maisamma"
+    },
+    {
+     "t": "Nov 30",
+     "e": "Event and diversions end"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Evening commuters around Indira Park affected for over two weeks"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "17 days",
+  "label": "of evening diversions",
+  "motion": "drift",
+  "scene": [
+   "🪔",
+   "🚧",
+   "🔀"
+  ]
+ },
+ "watch": "Diversions run daily until November 30.",
+ "thread": "hyd-ntr-stadium-koti-deepotsavam-diversions-nov-30",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Traffic diversions around NTR Stadium from November 14 to 30",
+   "url": "https://telanganatoday.com/traffic-diversions-around-ntr-stadium-from-november-14-to-30"
+  }
+ ],
+ "updated": 1794618060978,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/TRaffic.jpeg",
+  "c": "Telangana Today"
+ },
+ "fact": "Koti Deepotsavam brings *17 days* of evening diversions around NTR Stadium",
+ "twist": "Police expect jams every day from *3 pm to 11 pm*, Katta Maisamma Temple to Indira Park X Roads.",
+ "areas": [
+  "Indira Park",
+  "Himayatnagar",
+  "Kavadiguda",
+  "Musheerabad",
+  "Ashok Nagar"
+ ],
+ "layer": "near"
+}

@@ -1,0 +1,125 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-74",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "FMG interns end strike, back on duty in *all districts*",
+ "hook_b": "FMG interns end strike, back on duty in *all districts*",
+ "tldr": "FMG interns at Telangana government medical colleges announced an unconditional withdrawal of their strike on Friday and resumed internship duties.",
+ "beats": {
+  "what": "A delegation then met Health Minister Damodar Raja Narasimha with their stipend representations.",
+  "why": "The interns said they called off the protest based on trust in the government's assurances.",
+  "care": "The minister urged interns to focus on hospital duties and patient care while the administration works on a resolution."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🩺",
+    "label": "Stipend gap protest"
+   }
+  ],
+  "event": {
+   "icon": "🤝",
+   "label": "Strike called off"
+  },
+  "effects": [
+   {
+    "icon": "⏳",
+    "label": "Interns back in hospitals"
+   },
+   {
+    "icon": "⏳",
+    "label": "Stipend hike under review"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Interns have returned to compulsory rotatory internship duties with immediate effect."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "FMG interns went back on assurances. What next?",
+   "opts": [
+    "Wait for the stipend decision",
+    "Set a deadline",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much would raising FMG stipends cost the state?",
+    "Will interns get arrears for the protest period?"
+   ],
+   "facts": [
+    {
+     "big": "34",
+     "t": "The protest had reached its *34th day* on Nov 10, with a relay hunger strike.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/fmg-interns-face-police-action-near-tsmc-office-as-hunger-strike-enters-critical-phase"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Monthly intern stipend",
+   "a": {
+    "v": 29792,
+    "d": "₹29,792",
+    "l": "Local MBBS"
+   },
+   "b": {
+    "v": 5000,
+    "d": "₹5,000",
+    "l": "FMG intern"
+   },
+   "tone": "bad",
+   "verdict": "The gap behind the strike, per interns' earlier protest"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "All",
+  "label": "districts back on duty",
+  "motion": "drift",
+  "scene": [
+   "🩺",
+   "🤝",
+   "⏳"
+  ]
+ },
+ "learn": {
+  "t": "FMG = Foreign Medical Graduate, an Indian who studied medicine abroad."
+ },
+ "watch": "Whether the state announces a stipend revision for FMG interns.",
+ "thread": "tg-fmg-interns-call-off-strike-resume-duty",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana FMG interns call off strike following government assurances",
+   "url": "https://telanganatoday.com/telangana-fmg-interns-call-off-strike-following-government-assurances"
+  }
+ ],
+ "updated": 1794618060979,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/FMG-interns.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Foreign medical graduate interns end strike, resume duty in *all* districts",
+ "twist": "The Health Minister only assured that a stipend hike would be *positively examined*.",
+ "areas": [],
+ "layer": "state"
+}

@@ -1,0 +1,140 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-76",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "farming",
+ "hook": "Banks flag no records for *36%* of farmers",
+ "hook_b": "Banks flag no records for *36%* of farmers",
+ "tldr": "Banks have asked the Telangana government for guidelines to give crop loans to tenant farmers, citing no official way to verify leased land.",
+ "beats": {
+  "what": "Banks say there is no government-certified system or database on tenant cultivation, and the Bhu Bharati portal cannot record loan charges for tenants.",
+  "why": "Without verified records, banks say they cannot extend institutional credit to farmers working on leased land.",
+  "care": "A 2022 Rythu Swarajya Vedika survey put tenant farmers at 36% of cultivators, at least 22 lakh families."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌾",
+    "label": "No official tenancy records"
+   }
+  ],
+  "event": {
+   "icon": "🏦",
+   "label": "Banks seek lending rules"
+  },
+  "effects": [
+   {
+    "icon": "📉",
+    "label": "Tenants miss crop loans"
+   },
+   {
+    "icon": "📉",
+    "label": "Reliance on private lenders"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Banks also want an awareness programme for bankers on recording loan charges on Bhu Bharati."
+  },
+  {
+   "k": "poll",
+   "vt": "priority",
+   "q": "What would help tenant farmers get loans fastest?",
+   "opts": [
+    "Govt-certified tenancy records",
+    "Bhu Bharati loan option",
+    "Clear bank guidelines",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How can leased land be recorded without hurting landowners?",
+    "How much crop loan reached tenants this season?"
+   ],
+   "facts": [
+    {
+     "big": "24%",
+     "t": "Tenant farmers' private loans carried average interest as high as *24%* a year, a May survey found.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/crop-loans-elude-tenant-farmers-as-banks-flag-land-record-gaps/articleshow/135814059.cms"
+    },
+    {
+     "big": "7 acres",
+     "t": "Each surveyed tenant farmer cultivated about *seven acres*, owned and leased.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/crop-loans-elude-tenant-farmers-as-banks-flag-land-record-gaps/articleshow/135814059.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Tenant farmers among all cultivators (2022 survey)",
+   "v": 36,
+   "max": 100,
+   "d": "36%",
+   "tone": "neutral",
+   "verdict": "About 22 lakh families farm leased land"
+  },
+  {
+   "t": "stack",
+   "l": "Tenant farmers surveyed (May)",
+   "total": "1,816 farmers",
+   "parts": [
+    {
+     "l": "Own some land too",
+     "v": 83.9
+    },
+    {
+     "l": "No land of their own",
+     "v": 16.1
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "36%",
+  "label": "of cultivators are tenants",
+  "motion": "drift",
+  "scene": [
+   "🌾",
+   "🏦",
+   "📉"
+  ]
+ },
+ "learn": {
+  "t": "Bhu Bharati = Telangana's online land records portal."
+ },
+ "watch": "Whether the government issues guidelines for banks to lend to tenant farmers.",
+ "thread": "tg-tenant-farmers-crop-loans-36pc-no-records",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Crop loans elude tenant farmers as banks flag land record gaps",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/crop-loans-elude-tenant-farmers-as-banks-flag-land-record-gaps/articleshow/135814059.cms"
+  }
+ ],
+ "updated": 1794618060979,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135814057,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Tenant farmers are *36%* of Telangana's cultivators but lack loan records",
+ "twist": "Private lenders charge them an average *24%* a year; family debt averages *Rs 2 lakh*.",
+ "areas": [],
+ "layer": "state"
+}
