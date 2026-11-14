@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-87",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Dropped voters filed *Form 6* before EC's re-entry fix",
+ "hook_b": "Dropped voters filed *Form 6* before EC's re-entry fix",
+ "tldr": "Voters wrongly listed as Absent, Shifted, Dead or Duplicate in Hyderabad's draft roll are caught between Form 6 and re-filing the Enumeration Form.",
+ "beats": {
+  "what": "On Nov 6 the ECI said people on the ASDD list can get back on the roll by re-filing the Enumeration Form, but some BLOs told voters they had not been informed and pushed Form 6.",
+  "why": "Families in Kukatpally, Yakutpura and Sultan Shahi filed Form 6 before or without knowing about the Nov 6 announcement; one EF scan even pulled up a Khairatabad voter's details.",
+  "care": "The ECI has said no action will be taken against voters just because they were on an earlier roll and later filed Form 6."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📋",
+    "label": "Names marked shifted in draft roll"
+   }
+  ],
+  "event": {
+   "icon": "🗳️",
+   "label": "Form 6 vs EF confusion"
+  },
+  "effects": [
+   {
+    "icon": "❓",
+    "label": "Families split across lists"
+   },
+   {
+    "icon": "❓",
+    "label": "BLOs give mixed advice"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Some family members got a new EPIC card the same day the ECI announced the Enumeration Form route, while others are still off the roll."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Dropped from the draft roll? What would help most?",
+   "opts": [
+    "Clear BLO instructions",
+    "One form for everyone",
+    "Help desk at polling stations",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many Hyderabad voters are on the ASDD list?",
+    "Will those who filed Form 6 need to do anything more?"
+   ],
+   "facts": [
+    {
+     "big": "1 yr",
+     "t": "False information on Form 6 is punishable with up to *1 year* in jail, a fine, or both, under Section 31 of the RP Act, 1950.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/electors-face-form-6-and-enumeration-form-quandary/article71700798.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the confusion built",
+   "steps": [
+    {
+     "t": "Draft roll",
+     "e": "Names marked shifted"
+    },
+    {
+     "t": "BLO advice",
+     "e": "File Form 6"
+    },
+    {
+     "t": "Nov 6",
+     "e": "ECI allows EF re-filing"
+    },
+    {
+     "t": "Now",
+     "e": "Some BLOs unaware"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Two routes for the same problem leave dropped voters unsure which to use"
+  },
+  {
+   "t": "big",
+   "v": "Nov 6",
+   "l": "ECI allowed EF re-filing"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 6",
+  "label": "ECI allowed EF re-filing",
+  "motion": "drift",
+  "scene": [
+   "📋",
+   "🗳️",
+   "❓"
+  ]
+ },
+ "learn": {
+  "t": "ASDD = Absent, Shifted, Dead, Duplicate list of names removed from the draft roll",
+  "show": true
+ },
+ "watch": "Whether the ECI issues fresh instructions to BLOs on the Enumeration Form route.",
+ "thread": "hyd-sir-form6-vs-enumeration-form-confusion",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Electors face Form 6 and enumeration form quandary",
+   "url": "https://www.thehindu.com/news/national/telangana/electors-face-form-6-and-enumeration-form-quandary/article71700798.ece"
+  }
+ ],
+ "updated": 1794640348128,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/8fczq2/article71700977.ece/alternates/LANDSCAPE_1200/DSC_4655.JPG",
+  "c": "The Hindu"
+ },
+ "fact": "Hyderabad voters marked 'shifted' filed *Form 6*, missing EC's simpler re-entry route",
+ "twist": "Form 6's declaration says it is for *first-time voters*, and false info carries up to *1 year* in jail under the RP Act.",
+ "areas": [
+  "Kukatpally",
+  "Yakutpura",
+  "Khairatabad"
+ ],
+ "layer": "city"
+}

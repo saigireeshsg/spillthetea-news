@@ -1,0 +1,140 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "Hafeezpet painting shop fire at *5 am*, nobody hurt",
+ "hook_b": "Hafeezpet painting shop fire at *5 am*, nobody hurt",
+ "tldr": "A painting shop in Hafeezpet caught fire around 5 am on Saturday; fire crews controlled it and stopped it from spreading.",
+ "beats": {
+  "what": "Flames engulfed the shop around 5 am; fire personnel from Kukatpally and Patancheru fought the blaze.",
+  "why": "The shop was closed at the time, which is why there were no casualties.",
+  "care": "The extent of property damage is not yet known and fire officials are investigating the cause."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔥",
+    "label": "Fire at closed painting shop"
+   }
+  ],
+  "event": {
+   "icon": "🚒",
+   "label": "Two stations respond"
+  },
+  "effects": [
+   {
+    "icon": "🏪",
+    "label": "No casualties"
+   },
+   {
+    "icon": "🏪",
+    "label": "Cause under probe"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The blaze was kept from spreading to adjacent establishments."
+  },
+  {
+   "k": "poll",
+   "vt": "priority",
+   "q": "Shops with paint and chemicals: what matters most?",
+   "opts": [
+    "Regular fire audits",
+    "Night-time sensors and alarms",
+    "Keep them away from homes",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What fire-safety checks apply to shops storing paint?",
+    "Why did crews come from Patancheru as well as Kukatpally?"
+   ],
+   "facts": [
+    {
+     "big": "0",
+     "t": "*No casualties* were reported because the shop was closed when the fire broke out.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/no-casualties-in-early-morning-fire-at-hafeezpet-painting-shop"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Saturday morning",
+   "steps": [
+    {
+     "t": "~5 am",
+     "e": "Fire at closed shop"
+    },
+    {
+     "t": "Then",
+     "e": "Kukatpally, Patancheru crews"
+    },
+    {
+     "t": "Later",
+     "e": "Blaze controlled"
+    },
+    {
+     "t": "Now",
+     "e": "Cause under probe"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Shop was shut, so no one was hurt; damage not yet assessed"
+  },
+  {
+   "t": "big",
+   "v": "5 am",
+   "l": "fire broke out"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "5 am",
+  "label": "fire broke out",
+  "motion": "drift",
+  "scene": [
+   "🔥",
+   "🚒",
+   "🏪"
+  ]
+ },
+ "watch": "The fire department's finding on what caused the blaze.",
+ "thread": "hyd-hafeezpet-painting-shop-fire-5am",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "No casualties in early morning fire at Hafeezpet painting shop",
+   "url": "https://telanganatoday.com/no-casualties-in-early-morning-fire-at-hafeezpet-painting-shop"
+  }
+ ],
+ "updated": 1794640348128,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/fire.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "A *5 am* fire gutted a Hafeezpet painting shop, but nobody was hurt",
+ "twist": "Crews had to come from *two* stations, Kukatpally and Patancheru, to stop it reaching next-door shops.",
+ "areas": [
+  "Hafeezpet",
+  "Kukatpally",
+  "Miyapur"
+ ],
+ "layer": "near"
+}

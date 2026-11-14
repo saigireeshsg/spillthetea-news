@@ -1,0 +1,128 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "HYDRAA turns to Hyderabad's *160+* stepwells after lakes",
+ "hook_b": "HYDRAA turns to Hyderabad's *160+* stepwells after lakes",
+ "tldr": "HYDRAA Commissioner A. Ranganath said the SOPs written for lake conservation will now be used to restore stepwells in Telangana, and the idea may go national.",
+ "beats": {
+  "what": "Ranganath announced it at a stepwell awareness programme in Hyderabad, where Akarma Foundation showed an exhibition on Telangana's water legacy.",
+  "why": "He linked it to the El Nino water crisis: stepwells are more decentralised than lakes and restoring them should help the groundwater table.",
+  "care": "He will raise stepwell conservation at a meeting with the Union Home Secretary next Tuesday on Hyderabad water, floods and drought."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌡️",
+    "label": "El Nino water crisis"
+   }
+  ],
+  "event": {
+   "icon": "🪜",
+   "label": "Stepwells get lake SOPs"
+  },
+  "effects": [
+   {
+    "icon": "💧",
+    "label": "Groundwater recharge hoped for"
+   },
+   {
+    "icon": "💧",
+    "label": "Plan pitched to Centre"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Ranganath said many lakes near temples and stepwells have disappeared altogether."
+  },
+  {
+   "k": "poll",
+   "vt": "priority",
+   "q": "What should HYDRAA restore first?",
+   "opts": [
+    "Old City stepwells",
+    "Lakes still being encroached",
+    "Stepwells near temples",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many of Hyderabad's stepwells still hold water today?",
+    "Will lake encroachment rules also apply to land around stepwells?"
+   ],
+   "facts": [
+    {
+     "big": "600+",
+     "t": "Telangana has *more than 600* stepwells, HYDRAA's chief said, and the number is likely higher.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/hydraa-to-take-up-stepwell-restorations-to-help-water-conservation-measures-in-hyderabad/article71701018.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Hyderabad's share of Telangana's known stepwells",
+   "v": 160,
+   "max": 600,
+   "d": "160+ of 600+",
+   "tone": "neutral",
+   "verdict": "Hyderabad holds about a quarter of the state's known stepwells; real count likely higher"
+  },
+  {
+   "t": "big",
+   "v": "160+",
+   "l": "stepwells in Hyderabad"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "160+",
+  "label": "stepwells in Hyderabad",
+  "motion": "drift",
+  "scene": [
+   "🌡️",
+   "🪜",
+   "💧"
+  ]
+ },
+ "learn": {
+  "t": "SOP = standard operating procedure, a fixed step-by-step rulebook",
+  "show": true
+ },
+ "watch": "What comes out of Tuesday's meeting with the Union Home Secretary on water, floods and drought.",
+ "thread": "hyd-hydraa-stepwells-160-lake-sop",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "HYDRAA to take up stepwell restorations to help water conservation measures in Hyderabad",
+   "url": "https://www.thehindu.com/news/national/telangana/hydraa-to-take-up-stepwell-restorations-to-help-water-conservation-measures-in-hyderabad/article71701018.ece"
+  }
+ ],
+ "updated": 1794640348127,
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/national/telangana/xpgpn5/article71701017.ece/alternates/LANDSCAPE_1200/water.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "HYDRAA will restore Hyderabad's *160+* stepwells using its lake-revival rulebook",
+ "twist": "Telangana has *600+* stepwells, and Ranganath says the real count is likely much higher.",
+ "areas": [
+  "Old City",
+  "Charminar"
+ ],
+ "layer": "city"
+}
