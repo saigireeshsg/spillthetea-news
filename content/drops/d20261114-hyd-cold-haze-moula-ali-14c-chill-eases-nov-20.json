@@ -1,0 +1,177 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-90",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "weather",
+ "hook": "Moula Ali hits *14.1°C*; hazy mornings till Nov 17",
+ "hook_b": "Moula Ali hits *14.1°C*; hazy mornings till Nov 17",
+ "tldr": "IMD Hyderabad has forecast mist and haze in the mornings till November 17, with partly cloudy skies, but no cold-wave or rain warning.",
+ "beats": {
+  "what": "Moula Ali recorded 14.1°C, followed by BHEL and HCU Serilingampally at 14.6°C and Rajendranagar at 14.8°C.",
+  "why": "Winter chill has set in across Telangana; independent forecaster T Balaji (Telangana Weatherman) expects it to ease after November 20 with rain linked to Cyclone Akvan.",
+  "care": "Expect cold, hazy mornings tomorrow and through November 17; IMD has issued no warning for chill or rain."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "❄️",
+    "label": "Winter chill sets in"
+   }
+  ],
+  "event": {
+   "icon": "🌫️",
+   "label": "Cold, hazy mornings"
+  },
+  "effects": [
+   {
+    "icon": "🌧️",
+    "label": "Haze till Nov 17"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Chill may ease after Nov 20"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The rain outlook comes from the Telangana Weatherman, not IMD, which has not issued a rain warning."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How are you handling the cold mornings?",
+   "opts": [
+    "Jacket out already",
+    "Still fine without one",
+    "Avoiding early rides",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will Cyclone Akvan's rain reach Hyderabad or stay in other districts?"
+   ],
+   "facts": [
+    {
+     "big": "11°C",
+     "t": "Kohir in Sangareddy recorded *11°C*, with Sirpur at 11.2°C and Gandhari at 11.5°C.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/brace-for-winter-chill-then-rain-imd-hyderabad-forecasts-haze-3577228/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "bars",
+   "card": {
+    "title": "Coldest Hyderabad spots (°C, min)",
+    "items": [
+     {
+      "label": "Moula Ali",
+      "value": 14.1,
+      "display": "14.1°C"
+     },
+     {
+      "label": "BHEL",
+      "value": 14.6,
+      "display": "14.6°C"
+     },
+     {
+      "label": "HCU Serilingampally",
+      "value": 14.6,
+      "display": "14.6°C"
+     },
+     {
+      "label": "Rajendranagar",
+      "value": 14.8,
+      "display": "14.8°C"
+     },
+     {
+      "label": "Medchal",
+      "value": 15,
+      "display": "15°C"
+     },
+     {
+      "label": "Uppal",
+      "value": 15.3,
+      "display": "15.3°C"
+     }
+    ],
+    "note": "Cold mornings across the city; no IMD warning issued"
+   },
+   "tone": "neutral",
+   "verdict": "Cold mornings across the city; no IMD warning issued"
+  },
+  {
+   "t": "timeline",
+   "l": "What's next",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Till Nov 17",
+     "e": "Mist and haze in mornings (IMD)"
+    },
+    {
+     "t": "After Nov 20",
+     "e": "Chill likely to ease (Telangana Weatherman)"
+    },
+    {
+     "t": "Following days",
+     "e": "Rain linked to Cyclone Akvan (Telangana Weatherman)"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Haze now; rain outlook is an independent forecast, not IMD"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "14.1°C",
+  "label": "Moula Ali, coldest in Hyderabad",
+  "motion": "drift",
+  "scene": [
+   "❄️",
+   "🌫️",
+   "🌧️"
+  ]
+ },
+ "watch": "Whether IMD issues a rain alert for Telangana as Cyclone Akvan develops after November 20.",
+ "thread": "hyd-cold-haze-moula-ali-14c-chill-eases-nov-20",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Brace for winter chill, then rain; IMD Hyderabad forecasts haze",
+   "url": "https://www.siasat.com/brace-for-winter-chill-then-rain-imd-hyderabad-forecasts-haze-3577228/"
+  }
+ ],
+ "updated": 1794657484849,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/01/coldwave-Hyderabad-Jan5.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Hyderabad's coldest spot Moula Ali dipped to *14.1°C*, with hazy mornings till Nov 17",
+ "twist": "Kohir in Sangareddy was colder still at *11°C*, the lowest in the state.",
+ "areas": [
+  "Moula Ali",
+  "BHEL",
+  "Serilingampally",
+  "Rajendranagar",
+  "Medchal",
+  "Uppal",
+  "Bandlaguda",
+  "West Marredpally"
+ ],
+ "layer": "city"
+}

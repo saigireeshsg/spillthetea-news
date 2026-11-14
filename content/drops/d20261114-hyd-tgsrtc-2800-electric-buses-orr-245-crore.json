@@ -1,0 +1,154 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "transport",
+ "hook": "TGSRTC plans *2,800* e-buses to replace diesel inside ORR",
+ "hook_b": "TGSRTC plans *2,800* e-buses to replace diesel inside ORR",
+ "tldr": "TGSRTC plans to induct around 2,800 electric buses in phases to replace diesel buses running within Outer Ring Road limits.",
+ "beats": {
+  "what": "The plan includes 2,200 extra e-buses under the Centre's PM E-DRIVE scheme plus retrofitting 240 diesel buses at the Uppal workshop.",
+  "why": "Running costs: about ₹20 per km for diesel buses against ₹8 per km for electric, per previously reported figures.",
+  "care": "Electrification could cut 1.6 to 2 lakh tonnes of tailpipe CO2 a year and remove NOx and particulate emissions on busy roads."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⛽",
+    "label": "High diesel bills"
+   }
+  ],
+  "event": {
+   "icon": "🚌",
+   "label": "Diesel-to-electric switch"
+  },
+  "effects": [
+   {
+    "icon": "🌿",
+    "label": "₹245 cr a year saved"
+   },
+   {
+    "icon": "🌿",
+    "label": "Cleaner air on bus routes"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TGSRTC estimates about ₹392 crore for charging, depot upgrades and high-tension power connections."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would e-buses make you take the bus more?",
+   "opts": [
+    "Yes",
+    "Already take the bus",
+    "No, frequency matters more",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How long will the phased switch to 2,800 e-buses take?",
+    "Will fares change once diesel buses go?"
+   ],
+   "facts": [
+    {
+     "big": "1,037",
+     "t": "TGSRTC already ran *1,037* electric buses across Telangana by August 2026.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/tgsrtc-plans-to-introduce-2800-electric-buses-in-hyderabad"
+    },
+    {
+     "big": "₹392 cr",
+     "t": "Charging, depot upgrades and power lines need about *₹392 crore*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/tgsrtc-plans-to-introduce-2800-electric-buses-in-hyderabad"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Running cost per km",
+   "a": {
+    "v": 20.0,
+    "d": "₹20",
+    "l": "Diesel bus"
+   },
+   "b": {
+    "v": 8.0,
+    "d": "₹8",
+    "l": "Electric bus"
+   },
+   "tone": "good",
+   "verdict": "Lower running cost for TGSRTC if the switch happens",
+   "goodIfUp": false
+  },
+  {
+   "t": "compare",
+   "l": "Electric buses in Hyderabad",
+   "a": {
+    "v": 500,
+    "d": "~500",
+    "l": "Running, May 2026"
+   },
+   "b": {
+    "v": 2800,
+    "d": "~2,800",
+    "l": "Planned inside ORR"
+   },
+   "tone": "good",
+   "goodIfUp": true,
+   "verdict": "More e-buses means less diesel exhaust on city roads; timeline not given"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2,800",
+  "label": "e-buses planned inside ORR",
+  "motion": "drift",
+  "scene": [
+   "⛽",
+   "🚌",
+   "🌿"
+  ]
+ },
+ "learn": {
+  "t": "Retrofitting = converting an existing diesel bus to run on electric power",
+  "show": true
+ },
+ "watch": "Which depots get charging and high-tension power connections first.",
+ "thread": "hyd-tgsrtc-2800-electric-buses-orr-245-crore",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "TGSRTC plans to introduce 2,800 electric buses in Hyderabad",
+   "url": "https://telanganatoday.com/tgsrtc-plans-to-introduce-2800-electric-buses-in-hyderabad"
+  }
+ ],
+ "updated": 1794657484849,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/electric-buses.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "TGSRTC plans *2,800* electric buses to replace every diesel bus inside the ORR",
+ "twist": "Switching could save about *₹245 crore* a year, after paying for electricity.",
+ "areas": [
+  "Uppal",
+  "Hyderabad"
+ ],
+ "layer": "city"
+}

@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-80",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "events",
+ "hook": "Indian Roads Congress brings its *85th* session to HITEX, Nov 19-22",
+ "hook_b": "Indian Roads Congress brings its *85th* session to HITEX, Nov 19-22",
+ "tldr": "The Indian Roads Congress (IRC) will hold its 85th Annual Session at the HITEX Exhibition Centre from November 19 to 22.",
+ "beats": {
+  "what": "Engineers, researchers, students, contractors, consultants, manufacturers and government departments will discuss the future of India's roads and highways.",
+  "why": "It also hosts IRC's key meetings: the 238th Council Meeting (Nov 19), the 90th Highway Research Board meeting (Nov 20) and the Business Meeting (Nov 21).",
+  "care": "The session ends on November 22 with the 239th Council Meeting, delegate tours and a technical site visit."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛣️",
+    "label": "Telangana hosts IRC"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "85th session at HITEX"
+  },
+  "effects": [
+   {
+    "icon": "🗳️",
+    "label": "National road meetings in city"
+   },
+   {
+    "icon": "🗳️",
+    "label": "Council elections held"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Roads and Buildings Minister Komatireddy Venkat Reddy called it a matter of pride for Telangana to host the event."
+  },
+  {
+   "k": "poll",
+   "vt": "priority",
+   "q": "What should India's road engineers fix first in Hyderabad?",
+   "opts": [
+    "Potholes",
+    "Flooded underpasses",
+    "Junction jams",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will any Hyderabad road project be shown at the technical site visit?"
+   ],
+   "facts": [
+    {
+     "big": "90th",
+     "t": "The Highway Research Board meets for the *90th* time on Nov 20 at the session.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/indian-roads-congress-to-hold-85th-annual-session-in-hyderabad"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "IRC session at HITEX",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Nov 19",
+     "e": "238th Council Meeting"
+    },
+    {
+     "t": "Nov 20",
+     "e": "90th Highway Research Board"
+    },
+    {
+     "t": "Nov 21",
+     "e": "Council elections and Business Meeting"
+    },
+    {
+     "t": "Nov 22",
+     "e": "239th Council Meeting, tours, site visit"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Four days of national road meetings in Hyderabad"
+  },
+  {
+   "t": "big",
+   "v": "85th",
+   "l": "annual session"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "4 days",
+  "label": "at HITEX, Nov 19-22",
+  "motion": "drift",
+  "scene": [
+   "🛣️",
+   "🏛️",
+   "🗳️"
+  ]
+ },
+ "learn": {
+  "t": "IRC = Indian Roads Congress, the body that sets road design standards in India",
+  "show": true
+ },
+ "watch": "Whether Hyderabad traffic police issue advisories around HITEX for November 19-22.",
+ "thread": "hyd-irc-85th-session-hitex-nov-19-22",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Indian Roads Congress to hold 85th Annual Session in Hyderabad",
+   "url": "https://telanganatoday.com/indian-roads-congress-to-hold-85th-annual-session-in-hyderabad"
+  }
+ ],
+ "updated": 1794657484850,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/IRC.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "India's road engineers meet at HITEX for the *85th* Indian Roads Congress, Nov 19-22",
+ "twist": "Members will also vote to elect the IRC's Council during the Hyderabad session.",
+ "areas": [
+  "HITEC City",
+  "Madhapur",
+  "Kondapur"
+ ],
+ "layer": "city"
+}

@@ -1,0 +1,146 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-86",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "education",
+ "hook": "One board for Classes *IX to XII*: Inter board to be scrapped",
+ "hook_b": "One board for Classes *IX to XII*: Inter board to be scrapped",
+ "tldr": "With the government deciding to scrap the intermediate system, a common Telangana School Education Board is likely to run academics and exams for Classes IX to XII.",
+ "beats": {
+  "what": "The government will amend the Telangana Education Act 1962 and repeal the Intermediate Education Act 1971 through a Bill.",
+  "why": "Today, Class X exams are run by the Directorate of Government Examinations and Inter exams by the Telangana Board of Intermediate Education.",
+  "care": "Officials say no decision has been taken on scrapping Class XI board exams, and the integration will be done slowly."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏫",
+    "label": "Govt decides to scrap Inter system"
+   }
+  ],
+  "event": {
+   "icon": "📚",
+   "label": "Common school board planned"
+  },
+  "effects": [
+   {
+    "icon": "📝",
+    "label": "Inter board ceases to exist"
+   },
+   {
+    "icon": "📝",
+    "label": "Colleges, schools add classes"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Bill is expected in the coming winter Assembly session."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should Class XI board exams continue under a common board?",
+   "opts": [
+    "Keep them",
+    "Drop them like CBSE",
+    "Depends on the syllabus",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What happens to students already in Inter first year when the board changes?",
+    "Will junior college lecturers teach Classes IX and X?"
+   ],
+   "facts": [
+    {
+     "big": "1971",
+     "t": "Intermediate education has been run under a separate law since *1971*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-plans-common-school-education-board-for-classes-ix-to-xii"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Boards running exams",
+   "a": {
+    "v": 2.0,
+    "d": "2",
+    "l": "Now: DGE + Inter board"
+   },
+   "b": {
+    "v": 1.0,
+    "d": "1",
+    "l": "Planned: School Education Board"
+   },
+   "tone": "neutral",
+   "verdict": "Changes who runs exams for students in Classes IX to XII"
+  },
+  {
+   "t": "timeline",
+   "l": "How it happens",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Winter session",
+     "e": "Bill expected in Assembly"
+    },
+    {
+     "t": "Then",
+     "e": "Education Act 1962 amended, Inter Act 1971 repealed"
+    },
+    {
+     "t": "Later",
+     "e": "Integration carried out slowly"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Details still being worked out, officials say"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "IX–XII",
+  "label": "classes under one board",
+  "motion": "drift",
+  "scene": [
+   "🏫",
+   "📚",
+   "📝"
+  ]
+ },
+ "watch": "Whether the Bill is tabled in the winter Assembly session, and what it says on Class XI exams.",
+ "thread": "tg-common-school-board-class-9-12-inter-board-scrapped",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana plans common school education board for Classes IX to XII",
+   "url": "https://telanganatoday.com/telangana-plans-common-school-education-board-for-classes-ix-to-xii"
+  }
+ ],
+ "updated": 1794657484849,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Telangana-plans-common-school-education-board-for-Classes-IX-to-XII.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Telangana plans one school board for Classes *IX to XII*, ending the Inter board",
+ "twist": "Junior colleges may add Classes IX and X, while schools with space may add XI and XII.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "state"
+}

@@ -1,0 +1,136 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-14",
+ "sort": "2026-11-14-92",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "jobs",
+ "hook": "Gig workers get *₹10 lakh* health cover under new Telangana scheme",
+ "hook_b": "Gig workers get *₹10 lakh* health cover under new Telangana scheme",
+ "tldr": "The Telangana Gig Workers' Social Security and Welfare Scheme was launched in Hyderabad on Saturday after a bike rally with gig workers.",
+ "beats": {
+  "what": "Rahul Gandhi and CM Revanth Reddy rode pillion with gig workers and launched the scheme under the gig workers act passed in March 2026.",
+  "why": "The scheme lets gig workers see data on their work, completed rides and earnings on their phones, which they could not access until now.",
+  "care": "The act also requires platforms to pay on time and ensure safe working conditions, and the state plans Wi-Fi-enabled rest zones."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📜",
+    "label": "Gig workers act passed in March"
+   }
+  ],
+  "event": {
+   "icon": "🛵",
+   "label": "Welfare scheme launched"
+  },
+  "effects": [
+   {
+    "icon": "🛡️",
+    "label": "Insurance cover for riders"
+   },
+   {
+    "icon": "🛡️",
+    "label": "Earnings data on phones"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Rahul Gandhi said gig workers in India were not getting their own data until now, and the new law gives them that right."
+  },
+  {
+   "k": "poll",
+   "vt": "priority",
+   "q": "Which part of the scheme matters most to delivery and cab riders?",
+   "opts": [
+    "Health and accident cover",
+    "7-day notice before firing",
+    "Access to own earnings data",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will gig workers register to claim the insurance cover?",
+    "Who checks that platforms pay on time under the act?"
+   ],
+   "facts": [
+    {
+     "big": "March 2026",
+     "t": "The Telangana platform-based gig workers act was *passed in March 2026*; the welfare scheme is part of it.",
+     "s": "Hindustan Times",
+     "u": "https://www.hindustantimes.com/india-news/rahul-gandhi-revnath-reddy-joins-gig-workers-bike-rally-in-hyderabad-launches-telangana-gig-workers-social-security-and-welfare-scheme-101794643662646.html"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "Insurance cover per gig worker",
+   "total": "₹15 lakh",
+   "parts": [
+    {
+     "l": "Health insurance",
+     "v": 10
+    },
+    {
+     "l": "Accident insurance",
+     "v": 5
+    }
+   ],
+   "tone": "good",
+   "verdict": "Gig workers gain health and accident cover under the act"
+  },
+  {
+   "t": "big",
+   "v": "7 days",
+   "l": "written notice before an app can terminate a worker"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹10 lakh",
+  "label": "health insurance per gig worker",
+  "motion": "drift",
+  "scene": [
+   "📜",
+   "🛵",
+   "🛡️"
+  ]
+ },
+ "learn": {
+  "t": "Aggregator = the app company (food, cab, delivery) that connects gig workers to customers",
+  "show": false
+ },
+ "watch": "Where the first Wi-Fi-enabled rest zones for gig workers come up across the state.",
+ "thread": "tg-gig-workers-scheme-launch-10-lakh-health-cover",
+ "sources": [
+  {
+   "name": "Hindustan Times",
+   "title": "Rahul Gandhi joins gig workers' bike rally in Hyderabad, launches welfare scheme",
+   "url": "https://www.hindustantimes.com/india-news/rahul-gandhi-revnath-reddy-joins-gig-workers-bike-rally-in-hyderabad-launches-telangana-gig-workers-social-security-and-welfare-scheme-101794643662646.html"
+  }
+ ],
+ "updated": 1794657484848,
+ "img": {
+  "u": "https://www.hindustantimes.com/ht-img/img/2026/11/14/1600x900/logo/PTI11-14-2026-000062B-0_1794643769116_ESQX_1794643795295_Tu2C_64332267-99ac-4827-ae69-41f4448cff74_M5t6.jpg",
+  "c": "Hindustan Times"
+ },
+ "fact": "Telangana's gig workers now get *₹10 lakh* health cover and *₹5 lakh* accident insurance",
+ "twist": "Under the law, apps can fire a gig worker only for a valid reason, in writing, with *7 days'* notice.",
+ "areas": [
+  "HITEC City",
+  "Madhapur"
+ ],
+ "layer": "state"
+}
