@@ -1,0 +1,131 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-86",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Hyderabad RWAs push *mandatory* rainwater harvesting in every building",
+ "hook_b": "Hyderabad RWAs push *mandatory* rainwater harvesting in every building",
+ "tldr": "Hyderabad resident welfare associations called for mandatory rainwater harvesting, groundwater recharge and lake restoration at a national RWA conference in Ernakulam.",
+ "beats": {
+  "what": "Groups from Malkajgiri, Alwal, Kukatpally, Tellapur and HITEC City took part in the 13th National Conference of RWAs, organised by CoRWA.",
+  "why": "Water scarcity, and the chance of it worsening under El Nino conditions, was a key concern raised by Telangana RWAs.",
+  "care": "Other asks: quick-response teams for roads, sewage and streetlights, monthly RWA meetings with officials, and RWA seats in disaster committees."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏜️",
+    "label": "Water scarcity, El Nino"
+   }
+  ],
+  "event": {
+   "icon": "🌧️",
+   "label": "RWAs push RWH mandate"
+  },
+  "effects": [
+   {
+    "icon": "🏘️",
+    "label": "Recharge pits, lake protection"
+   },
+   {
+    "icon": "🏘️",
+    "label": "Asks go to states"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "RWAs were urged to run water audits, fix leaks and reuse treated wastewater for gardening."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Does your building have rainwater harvesting?",
+   "opts": [
+    "Yes, working",
+    "Yes, not working",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who would check that rainwater pits in old buildings actually work?",
+    "Would residents pay for retrofitting RWH structures?"
+   ],
+   "facts": [
+    {
+     "big": "5",
+     "t": "*Five* Hyderabad groups, from Malkajgiri to Tellapur, joined the delegation.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/build-rwh-pits-restore-lakes-to-tackle-water-woes-rwas/articleshow/135840229.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Share of civic performance grants RWAs want for their priorities",
+   "v": 20,
+   "max": 100,
+   "tone": "neutral",
+   "verdict": "A proposal only; states must decide",
+   "d": "20%"
+  },
+  {
+   "t": "big",
+   "v": "13th",
+   "l": "national RWA conference"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "13th",
+  "label": "national RWA conference",
+  "motion": "drift",
+  "scene": [
+   "🏜️",
+   "🌧️",
+   "🏘️"
+  ]
+ },
+ "learn": {
+  "t": "RWH = rainwater harvesting: catching rain and sending it into pits or wells to recharge groundwater",
+  "show": true
+ },
+ "watch": "CoRWA says final resolutions will be taken to states for implementation.",
+ "thread": "hyd-rwas-mandatory-rainwater-harvesting-corwa",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Build RWH pits, restore lakes to tackle water woes: RWAs",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/build-rwh-pits-restore-lakes-to-tackle-water-woes-rwas/articleshow/135840229.cms"
+  }
+ ],
+ "updated": 1794704266195,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135840221,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "*Five* Hyderabad resident groups demand mandatory rainwater harvesting in all buildings",
+ "twist": "They also want *20%* of civic performance grants spent on RWA-picked priorities.",
+ "layer": "city",
+ "areas": [
+  "Malkajgiri",
+  "Alwal",
+  "Kukatpally",
+  "Tellapur",
+  "HITEC City"
+ ]
+}

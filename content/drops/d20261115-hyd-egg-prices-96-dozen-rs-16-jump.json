@@ -1,0 +1,138 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-94",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "prices",
+ "hook": "Eggs hit *₹96* a dozen wholesale in Hyderabad",
+ "hook_b": "Eggs hit *₹96* a dozen wholesale in Hyderabad",
+ "tldr": "Wholesale egg prices in Hyderabad rose from about ₹80 to ₹96 a dozen within days, after holding steady since early August.",
+ "beats": {
+  "what": "Retail prices went from ₹6-7 to ₹7.50-8 per egg.",
+  "why": "Traders cite tight supply, lower production and fewer birds in poultry farms; farmers also report higher feed costs.",
+  "care": "Hostel, PG and home food budgets pay more per egg, with rice and vegetables also up."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🐔",
+    "label": "Fewer birds, costly feed"
+   }
+  ],
+  "event": {
+   "icon": "🥚",
+   "label": "Egg prices jump"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "₹7.50-8 per egg retail"
+   },
+   {
+    "icon": "💸",
+    "label": "Tighter food budgets"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Retailers in Meerpet and Bahadurpura say arrivals are not meeting steady demand."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Has the price rise changed how many eggs you buy?",
+   "opts": [
+    "Buying fewer",
+    "Same as before",
+    "Don't buy eggs",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will the hike reach hostel and mess menus?",
+    "Is the supply drop local or across South India?"
+   ],
+   "facts": [
+    {
+     "big": "₹8,000",
+     "t": "Fine rice now costs up to *₹8,000* a quintal, up from ₹6,400 a month ago.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-egg-prices-surge-retail-rates-touch-rs-96-per-dozen-3577408/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "trend",
+   "l": "Wholesale egg price (₹/dozen)",
+   "pts": [
+    [
+     "Aug-early Nov",
+     80
+    ],
+    [
+     "~5 days ago",
+     90
+    ],
+    [
+     "Now",
+     96
+    ]
+   ],
+   "unit": "₹",
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Rising prices hit buyers; poultry farmers say their costs rose too"
+  },
+  {
+   "t": "big",
+   "v": "₹96",
+   "l": "per dozen, wholesale"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹96",
+  "label": "per dozen, wholesale",
+  "motion": "drift",
+  "scene": [
+   "🐔",
+   "🥚",
+   "💸"
+  ]
+ },
+ "watch": "Whether supply recovers or prices climb further; traders give no timeline.",
+ "thread": "hyd-egg-prices-96-dozen-rs-16-jump",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad egg prices surge, retail rates touch Rs 96 per dozen",
+   "url": "https://www.siasat.com/hyderabad-egg-prices-surge-retail-rates-touch-rs-96-per-dozen-3577408/"
+  }
+ ],
+ "updated": 1794704266195,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/eggs.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Hyderabad eggs jump *₹16* a dozen in days, ending three calm months",
+ "twist": "Fine rice also rose, from *₹5,600-6,400* to *₹6,600-8,000* a quintal in a month.",
+ "layer": "city",
+ "areas": [
+  "Meerpet",
+  "Bahadurpura",
+  "Hyderabad"
+ ]
+}

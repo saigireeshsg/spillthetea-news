@@ -1,0 +1,125 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-78",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "power",
+ "hook": "Kothagudem coal mine idle *5 days* over contract workers' bonus strike",
+ "hook_b": "Kothagudem coal mine idle *5 days* over contract workers' bonus strike",
+ "tldr": "Production at SCCL's VKCM opencast mine in Kothagudem has been halted for five days by a contract workers' strike.",
+ "beats": {
+  "what": "Workers of Shodha Constructions, which handles overburden removal and coal extraction at VKCM, want a 20% annual bonus.",
+  "why": "SCCL's CMD told contractors to meet overburden-removal targets and deploy enough machines and staff.",
+  "care": "SCCL coal feeds TG GENCO thermal plants that power Telangana, including Hyderabad."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⛏️",
+    "label": "20% bonus demand"
+   }
+  ],
+  "event": {
+   "icon": "✊",
+   "label": "VKCM mine strike"
+  },
+  "effects": [
+   {
+    "icon": "⚡",
+    "label": "Production halted"
+   },
+   {
+    "icon": "⚡",
+    "label": "Pressure on OB targets"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "SCCL has set a daily overburden target of 1.415 million cubic metres; the Kothagudem region's share is 0.55 million."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How should the bonus dispute be settled?",
+   "opts": [
+    "Talks with contractor",
+    "SCCL steps in",
+    "Labour department mediates",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Has the strike affected coal stocks at GENCO plants yet?",
+    "Why is the 20% bonus disputed?"
+   ],
+   "facts": [
+    {
+     "big": "1.415M m³",
+     "t": "SCCL's daily overburden target across all areas is *1.415 million cubic metres*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/sccl-cmd-warns-contractors-on-ob-targets-as-vkcm-strike-hits-coal-production"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Kothagudem region's share of SCCL's daily OB target",
+   "v": 0.55,
+   "max": 1.415,
+   "tone": "neutral",
+   "verdict": "Kothagudem carries about 39% of the daily target",
+   "d": "0.55 of 1.415 M m³"
+  },
+  {
+   "t": "big",
+   "v": "75,000 t",
+   "l": "coal a day owed to GENCO"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "75,000 t",
+  "label": "coal a day owed to GENCO",
+  "motion": "drift",
+  "scene": [
+   "⛏️",
+   "✊",
+   "⚡"
+  ]
+ },
+ "learn": {
+  "t": "Overburden (OB) = soil and rock removed to reach coal in an opencast mine",
+  "show": true
+ },
+ "watch": "Whether Shodha Constructions and the workers' JAC reach a deal.",
+ "thread": "tg-sccl-vkcm-strike-5-days-coal-genco",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "SCCL CMD warns contractors on OB targets as VKCM strike hits coal production",
+   "url": "https://telanganatoday.com/sccl-cmd-warns-contractors-on-ob-targets-as-vkcm-strike-hits-coal-production"
+  }
+ ],
+ "updated": 1794704266196,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/VKCM-strike.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "SCCL's VKCM mine sits idle *five days* as contract workers strike for bonus",
+ "twist": "SCCL must send *75,000 tonnes* of coal a day to TG GENCO power plants.",
+ "layer": "state",
+ "areas": []
+}

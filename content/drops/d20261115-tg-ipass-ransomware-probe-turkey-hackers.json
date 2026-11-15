@@ -1,0 +1,142 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "tech",
+ "hook": "TG-iPASS portal hit by *ransomware*; probe points to Turkey",
+ "hook_b": "TG-iPASS portal hit by *ransomware*; probe points to Turkey",
+ "tldr": "The Telangana Cyber Security Bureau is investigating a suspected ransomware attack on the TG-iPASS industrial clearances portal on October 22.",
+ "beats": {
+  "what": "Investigators have reportedly identified hackers operating from Turkey; the attack encrypted the database and renamed files with a '.vgb' extension.",
+  "why": "TG-iPASS is the state's single-window portal for industrial clearances; services were disrupted until restored from backups.",
+  "care": "Forensic experts are checking whether sensitive data was stolen or moved outside the system."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💻",
+    "label": "Ransomware attack"
+   }
+  ],
+  "event": {
+   "icon": "🔒",
+   "label": "TG-iPASS data encrypted"
+  },
+  "effects": [
+   {
+    "icon": "🕵️",
+    "label": "Clearance services disrupted"
+   },
+   {
+    "icon": "🕵️",
+    "label": "Data-theft check underway"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "A case was registered under Sections 43 and 66 of the IT Act after a complaint by the Industries Department."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you trust government portals with your data?",
+   "opts": [
+    "Yes",
+    "Somewhat",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Was any applicant or company data copied before encryption?",
+    "Why did the hackers keep changing IP addresses?"
+   ],
+   "facts": [
+    {
+     "big": "2",
+     "t": "The case is filed under *two* IT Act sections, 43 and 66.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-cyber-bureau-probes-ransomware-attack-on-tg-ipass-website"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the case moved",
+   "steps": [
+    {
+     "t": "Oct 22",
+     "e": "Portal attacked, files encrypted"
+    },
+    {
+     "t": "After",
+     "e": "Services restored from backups"
+    },
+    {
+     "t": "Complaint",
+     "e": "Case under IT Act Sec 43, 66"
+    },
+    {
+     "t": "Now",
+     "e": "Forensic check for data theft"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "A state portal was breached; the extent is still being probed"
+  },
+  {
+   "t": "big",
+   "v": "Oct 22",
+   "l": "day of the attack"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Oct 22",
+  "label": "day of the attack",
+  "motion": "drift",
+  "scene": [
+   "💻",
+   "🔒",
+   "🕵️"
+  ]
+ },
+ "learn": {
+  "t": "Ransomware = malware that locks (encrypts) a system's files, usually followed by a demand to unlock them",
+  "show": true
+ },
+ "watch": "The forensic finding on whether any data left the system.",
+ "thread": "tg-ipass-ransomware-probe-turkey-hackers",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana cyber bureau probes ransomware attack on TG-iPASS website",
+   "url": "https://telanganatoday.com/telangana-cyber-bureau-probes-ransomware-attack-on-tg-ipass-website"
+  }
+ ],
+ "updated": 1794704266195,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/cybercrime.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Ransomware encrypted Telangana's *TG-iPASS* industry portal; probe points to Turkey-based hackers",
+ "twist": "The ransom note left only an email address, with *no money demanded*.",
+ "layer": "state",
+ "areas": [
+  "Hyderabad"
+ ]
+}

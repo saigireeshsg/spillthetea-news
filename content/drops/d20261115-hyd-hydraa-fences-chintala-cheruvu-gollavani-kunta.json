@@ -1,0 +1,133 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-92",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "HYDRAA fences *9 acres* of lake land after residents complain",
+ "hook_b": "HYDRAA fences *9 acres* of lake land after residents complain",
+ "tldr": "HYDRAA protected two lakes in Medchal-Malkajgiri district on Saturday after residents complained of fresh encroachment attempts.",
+ "beats": {
+  "what": "The lakes are the 3.11-acre Gollavani Kunta at Dummarapochampally (Dundigal mandal) and the 27-acre Chintala Cheruvu in Qutbullapur mandal.",
+  "why": "Residents reported soil dumping, renewed illegal construction and temporary sheds on lake land.",
+  "care": "Signboards now mark the land as lake property and warn that trespassers will be prosecuted."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚜",
+    "label": "Soil dumping, sheds"
+   }
+  ],
+  "event": {
+   "icon": "🌊",
+   "label": "HYDRAA fences lake land"
+  },
+  "effects": [
+   {
+    "icon": "🪧",
+    "label": "Boards warn of prosecution"
+   },
+   {
+    "icon": "🪧",
+    "label": "Residents' complaint acted on"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "After an inspection, HYDRAA teams fenced nine acres and put up warning boards."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Is there a lake near you facing encroachment?",
+   "opts": [
+    "Yes",
+    "No",
+    "Don't know any lake nearby",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much of the two lakes' 30 acres remains unfenced?",
+    "What happens to the sheds already built on lake land?"
+   ],
+   "facts": [
+    {
+     "big": "30+ acres",
+     "t": "The two lakes together cover over *30 acres* (3.11 + 27).",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hydraa-protects-two-lakes-in-medchal-malkajgiri-after-encroachment-complaints"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Size of the two lakes",
+   "a": {
+    "v": 3.11,
+    "d": "3.11 acres",
+    "l": "Gollavani Kunta"
+   },
+   "b": {
+    "v": 27,
+    "d": "27 acres",
+    "l": "Chintala Cheruvu"
+   },
+   "tone": "neutral",
+   "verdict": "Two lakes of very different size, both reported encroached"
+  },
+  {
+   "t": "big",
+   "v": "9 acres",
+   "l": "lake land fenced"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "9 acres",
+  "label": "lake land fenced",
+  "motion": "drift",
+  "scene": [
+   "🚜",
+   "🌊",
+   "🪧"
+  ]
+ },
+ "watch": "Whether HYDRAA follows the fencing with action on the illegal structures residents named.",
+ "thread": "hyd-hydraa-fences-chintala-cheruvu-gollavani-kunta",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "HYDRAA protects two lakes in Medchal-Malkajgiri after encroachment complaints",
+   "url": "https://telanganatoday.com/hydraa-protects-two-lakes-in-medchal-malkajgiri-after-encroachment-complaints"
+  }
+ ],
+ "updated": 1794704266195,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/HYDRAA-lakes.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "HYDRAA fences *nine acres* of lake land in Qutbullapur and Dundigal after complaints",
+ "twist": "Chintala Cheruvu alone covers *27 acres*, across Gajularamaram and Devender Nagar.",
+ "layer": "near",
+ "areas": [
+  "Gajularamaram",
+  "Qutbullapur",
+  "Dundigal",
+  "Medchal"
+ ]
+}

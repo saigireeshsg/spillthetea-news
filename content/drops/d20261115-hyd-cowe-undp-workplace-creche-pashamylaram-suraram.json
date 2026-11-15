@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-80",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "jobs",
+ "hook": "UNDP backs *2* workplace creches for low-income families",
+ "hook_b": "UNDP backs *2* workplace creches for low-income families",
+ "tldr": "COWE India and UNDP launched a workplace-based childcare collaboration with two pilot Aveksha day-care centres.",
+ "beats": {
+  "what": "The centres in Pashamylaram and Suraram will each give children three meals a day plus early learning.",
+  "why": "The pilots test whether a centre for low-income families can run on shared funding from industry, CSR and parents.",
+  "care": "Working parents in industrial areas get on-site childcare; the model, if it works, could spread."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏭",
+    "label": "Childcare gap at work"
+   }
+  ],
+  "event": {
+   "icon": "👶",
+   "label": "UNDP-backed creche pilots"
+  },
+  "effects": [
+   {
+    "icon": "🍱",
+    "label": "Meals + early learning"
+   },
+   {
+    "icon": "🍱",
+    "label": "Shared-cost model tested"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The launch was at the Aveksha Day Care Centre at the TGIIC-IALA office in Pashamylaram."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should workplaces have on-site creches?",
+   "opts": [
+    "Yes, all",
+    "Only big employers",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much will parents pay per month?",
+    "Can the model work in IT parks, not just industrial estates?"
+   ],
+   "facts": [
+    {
+     "big": "2",
+     "t": "*Two* Aveksha centres, Pashamylaram and Suraram, are the UNDP pilots.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/cowe-india-undp-launch-workplace-based-childcare-pilot-centres-in-hyderabad"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The pilot",
+   "steps": [
+    {
+     "t": "Nov 13",
+     "e": "COWE-UNDP collaboration launched, Pashamylaram"
+    },
+    {
+     "t": "Pilot",
+     "e": "Two centres: Pashamylaram and Suraram"
+    },
+    {
+     "t": "Daily",
+     "e": "3 meals + early learning per child"
+    },
+    {
+     "t": "Goal",
+     "e": "Run on industry, CSR and parent funding"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A test of whether low-cost creches can pay for themselves"
+  },
+  {
+   "t": "big",
+   "v": "3 meals",
+   "l": "a day per child"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3 meals",
+  "label": "a day per child",
+  "motion": "drift",
+  "scene": [
+   "🏭",
+   "👶",
+   "🍱"
+  ]
+ },
+ "watch": "Whether the two pilots can run without grants, as the model aims.",
+ "thread": "hyd-cowe-undp-workplace-creche-pashamylaram-suraram",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "COWE India, UNDP launch workplace-based childcare pilot centres in Hyderabad",
+   "url": "https://telanganatoday.com/cowe-india-undp-launch-workplace-based-childcare-pilot-centres-in-hyderabad"
+  }
+ ],
+ "updated": 1794704266195,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/COWE-India.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "UNDP backs *two* industrial-area creches in Pashamylaram and Suraram as self-sustaining pilots",
+ "twist": "An AI tool scans the centres' CCTV and *SMS-alerts* staff within seconds if it spots an unsafe act.",
+ "layer": "near",
+ "areas": [
+  "Pashamylaram",
+  "Suraram"
+ ]
+}

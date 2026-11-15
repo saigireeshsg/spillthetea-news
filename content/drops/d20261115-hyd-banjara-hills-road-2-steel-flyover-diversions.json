@@ -1,0 +1,143 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-96",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Banjara Hills Road No.2 diverted for *steel flyover* works",
+ "hook_b": "Banjara Hills Road No.2 diverted for *steel flyover* works",
+ "tldr": "Traffic police have diverted traffic around Banjara Hills Road No.2 for H-CITI steel flyover construction between Jubilee Hills Check Post and NFCL.",
+ "beats": {
+  "what": "Congestion is expected between Srinagar 'T' Junction and NTR Bhavan; commuters to Banjara Hills, Jubilee Hills, Madhapur and the Durgam Cheruvu Cable Bridge are told to use other routes.",
+  "why": "The steel flyover is part of the H-CITI project between Jubilee Hills Check Post and NFCL.",
+  "care": "Begumpet to Madhapur traffic is routed via Panjagutta Flyover 'Y' Junction, Taj Krishna, Road No. 1 and Zaheranagar."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "H-CITI steel flyover"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "Road No.2 diversions"
+  },
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Jams Srinagar T to NTR Bhavan"
+   },
+   {
+    "icon": "🚗",
+    "label": "Longer Madhapur trips"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Srinagar Colony to NTR Bhavan or the Cable Bridge: go via Indiranagar Gadda, Venkatagiri and Jubilee Hills Road Nos. 10 and 36. Helpline: 9010203626."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Will you change your route or timing this week?",
+   "opts": [
+    "Changing route",
+    "Leaving earlier/later",
+    "No change",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will the detours via Road Nos. 10 and 36 move the jams into Jubilee Hills lanes?",
+    "When is the Check Post-NFCL steel flyover due to finish?"
+   ],
+   "facts": [
+    {
+     "big": "6.5 hrs",
+     "t": "Police flag *6.5 hours* a day of peak time to avoid: 8.30-11 am and 5-9 pm.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/traffic-curbs-in-place-near-banjara-hills-as-h-citi-steel-flyover-construction-progresses"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Peak hours to avoid",
+   "steps": [
+    {
+     "t": "8.30 am",
+     "e": "Morning peak starts"
+    },
+    {
+     "t": "11 am",
+     "e": "Morning peak ends"
+    },
+    {
+     "t": "5 pm",
+     "e": "Evening peak starts"
+    },
+    {
+     "t": "9 pm",
+     "e": "Evening peak ends"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Police advise commuters to skip these windows"
+  },
+  {
+   "t": "big",
+   "v": "8.30-11 am",
+   "l": "morning peak to avoid"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "8.30-11 am",
+  "label": "morning peak to avoid",
+  "motion": "drift",
+  "scene": [
+   "🏗️",
+   "🚧",
+   "🚗"
+  ]
+ },
+ "watch": "How long the Road No.2 diversions stay in place; the police notice gives no end date.",
+ "thread": "hyd-banjara-hills-road-2-steel-flyover-diversions",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Traffic curbs in place near Banjara Hills as H-CITI steel flyover construction progresses",
+   "url": "https://telanganatoday.com/traffic-curbs-in-place-near-banjara-hills-as-h-citi-steel-flyover-construction-progresses"
+  }
+ ],
+ "updated": 1794704266193,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/KBR-oneway.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Steel flyover works divert Banjara Hills Road No.2 traffic, avoid *8.30-11 am*",
+ "twist": "Police name *four* separate detours, from Panjagutta 'Y' Junction to Jubilee Hills Road No. 36.",
+ "layer": "near",
+ "areas": [
+  "Banjara Hills",
+  "Jubilee Hills",
+  "Srinagar Colony",
+  "Madhapur",
+  "Begumpet",
+  "Panjagutta"
+ ]
+}

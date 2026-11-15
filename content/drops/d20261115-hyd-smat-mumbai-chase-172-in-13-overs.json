@@ -1,0 +1,131 @@
+{
+ "cat": "sport",
+ "lead": "sport",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "sports",
+ "hook": "Mumbai chase Hyderabad's *172* in just 13.1 overs",
+ "hook_b": "Mumbai chase Hyderabad's *172* in just 13.1 overs",
+ "tldr": "Mumbai beat Hyderabad by seven wickets in the Syed Mushtaq Ali Trophy first round at Kolkata.",
+ "beats": {
+  "what": "Hyderabad were all out for 172 in 20 overs (M Abhirath Reddy 35); Mumbai made 174/3 in 13.1 overs.",
+  "why": "It is Hyderabad's opening game of India's domestic T20 tournament.",
+  "care": "Maxwell Swaminathan took 3/23 for Mumbai."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏏",
+    "label": "Hyderabad post 172"
+   }
+  ],
+  "event": {
+   "icon": "💥",
+   "label": "Mumbai cruise home"
+  },
+  "effects": [
+   {
+    "icon": "📉",
+    "label": "Loss in opener"
+   },
+   {
+    "icon": "📉",
+    "label": "6.5 overs to spare"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Hyderabad women's U-23 side also lost, all out for 68 against Maharashtra in Raipur."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Can Hyderabad bounce back in the next game?",
+   "opts": [
+    "Yes",
+    "No",
+    "Didn't follow",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Was 172 below par at the Kolkata venue?",
+    "Who replaces the top order if changes come?"
+   ],
+   "facts": [
+    {
+     "big": "68",
+     "t": "Hyderabad's women's U-23 team was bowled out for *68* by Maharashtra the same day.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-cricket-results-mumbai-defeat-hyderabad-in-syed-mushtaq-ali-trophy"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Overs used",
+   "a": {
+    "v": 20,
+    "d": "20",
+    "l": "Hyderabad (172 all out)"
+   },
+   "b": {
+    "v": 13.1,
+    "d": "13.1",
+    "l": "Mumbai (174/3)"
+   },
+   "tone": "bad",
+   "goodIfUp": true,
+   "verdict": "Mumbai needed far fewer overs; a heavy loss for Hyderabad"
+  },
+  {
+   "t": "big",
+   "v": "13.1",
+   "l": "overs to chase 172"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b1a10",
+   "#b5651d"
+  ],
+  "big": "13.1",
+  "label": "overs to chase 172",
+  "motion": "drift",
+  "scene": [
+   "🏏",
+   "💥",
+   "📉"
+  ]
+ },
+ "watch": "Hyderabad's next Mushtaq Ali Trophy match.",
+ "thread": "hyd-smat-mumbai-chase-172-in-13-overs",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad cricket results: Mumbai defeat Hyderabad in Syed Mushtaq Ali Trophy",
+   "url": "https://telanganatoday.com/hyderabad-cricket-results-mumbai-defeat-hyderabad-in-syed-mushtaq-ali-trophy"
+  }
+ ],
+ "updated": 1794704266196,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Cricket-1-2.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Mumbai chased Hyderabad's 172 in just *13.1 overs* in Mushtaq Ali opener",
+ "twist": "Suryakumar Yadav made *60 not out*; Musheer Khan added 51.",
+ "layer": "city",
+ "areas": [
+  "Hyderabad"
+ ]
+}
