@@ -1,0 +1,156 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-93",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "*5* private travel buses burn in a Dundigal parking yard",
+ "hook_b": "*5* private travel buses burn in a Dundigal parking yard",
+ "tldr": "A fire broke out on Saturday night in parked private travel buses at a yard near Bodrai, Bowrampet, in Dundigal. Three buses were gutted and two damaged.",
+ "beats": {
+  "what": "Three buses were completely gutted and two more caught fire and were damaged.",
+  "why": "The cause of the fire is not yet known; locals spotted it and alerted the fire department.",
+  "care": "Private travel buses carry many of the city's long-distance riders; the cause and loss are still being assessed."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚌",
+    "label": "Buses parked close together"
+   }
+  ],
+  "event": {
+   "icon": "🔥",
+   "label": "Yard fire, Bowrampet"
+  },
+  "effects": [
+   {
+    "icon": "🚒",
+    "label": "3 buses gutted"
+   },
+   {
+    "icon": "🚒",
+    "label": "2 buses damaged"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Fire personnel rushed to the yard near Bodrai after locals raised the alarm."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you check a private bus operator's safety record before booking?",
+   "opts": [
+    "Always",
+    "Sometimes",
+    "Never",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What started the fire in parked, idle buses?",
+    "Do private bus yards in the city follow fire-spacing rules?"
+   ],
+   "facts": [
+    {
+     "big": "3 of 5",
+     "t": "*Three* of the five buses were completely gutted; two were damaged.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/dundigal-fire-damages-five-private-travel-buses-3b0b13b6"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "The 5 buses hit",
+   "total": "5 buses",
+   "parts": [
+    {
+     "l": "Completely gutted",
+     "v": 3
+    },
+    {
+     "l": "Damaged",
+     "v": 2
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Bus operators lose vehicles; cause and loss not yet known"
+  },
+  {
+   "t": "timeline",
+   "l": "Saturday night",
+   "steps": [
+    {
+     "t": "Night",
+     "e": "Fire starts in parked buses near Bodrai"
+    },
+    {
+     "t": "Minutes",
+     "e": "Flames spread bus to bus"
+    },
+    {
+     "t": "Alarm",
+     "e": "Locals alert fire department"
+    },
+    {
+     "t": "Now",
+     "e": "Cause and loss being assessed"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "No cause stated yet"
+  },
+  {
+   "t": "big",
+   "v": "5",
+   "l": "buses hit by the fire"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "5",
+  "label": "buses hit by the fire",
+  "motion": "drift",
+  "scene": [
+   "🚌",
+   "🔥",
+   "🚒"
+  ]
+ },
+ "watch": "Fire officials are yet to state the cause and the extent of the property loss.",
+ "thread": "hyd-dundigal-bowrampet-yard-fire-5-travel-buses",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderaba: Five private travel buses gutted in yard fire",
+   "url": "https://telanganatoday.com/dundigal-fire-damages-five-private-travel-buses-3b0b13b6"
+  }
+ ],
+ "updated": 1794726617356,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/dundigal-fire-damages-five-private-travel-buses-3b0b13b6-d8820b3d.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "*Five* private travel buses caught fire in a Bowrampet parking yard overnight",
+ "twist": "The buses were parked so close that flames jumped from *one bus to the next*.",
+ "layer": "near",
+ "areas": [
+  "Dundigal",
+  "Bowrampet"
+ ]
+}

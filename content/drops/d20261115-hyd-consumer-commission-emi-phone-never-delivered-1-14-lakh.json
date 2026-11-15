@@ -1,0 +1,162 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-92",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "money",
+ "hook": "EMIs ran for a phone that never came; retailer told to pay *₹1.14 lakh*",
+ "hook_b": "EMIs ran for a phone that never came; retailer told to pay *₹1.14 lakh*",
+ "tldr": "A Hyderabad district consumer commission ordered an electronics retailer to refund ₹74,698 and pay ₹40,000 more after a buyer's zero-interest EMIs began without the phone ever being delivered.",
+ "beats": {
+  "what": "The commission ordered a ₹74,698 refund, ₹30,000 for mental agony and ₹10,000 litigation costs, and told the retailer to get the loan account closed.",
+  "why": "The buyer shared an OTP in the store in March 2024 to process a zero-interest EMI purchase; the first ₹4,204 EMI was deducted on April 3, 2024, with no phone handed over.",
+  "care": "Store EMI deals often need an OTP at the counter; the commission's order turned on who could prove delivery."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📱",
+    "label": "OTP shared for EMI, no phone"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "Consumer commission order"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "₹74,698 refund"
+   },
+   {
+    "icon": "💸",
+    "label": "Loan account to be closed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The retailer said the buyer got the phone and alleged a wider loan-resale scheme; the commission found no FIR or chargesheet backing that."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you share an OTP at a store counter to start an EMI purchase?",
+   "opts": [
+    "Yes",
+    "Only after I get the product",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who should prove a product was delivered: the buyer or the seller?",
+    "How many store EMI disputes reach consumer commissions?"
+   ],
+   "facts": [
+    {
+     "big": "₹4,204",
+     "t": "The first EMI of *₹4,204* was deducted on April 3, 2024, with no phone in hand.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-man-gets-rs-1-14l-after-emis-ran-for-undelivered-phone-3577750/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "What the ₹1,14,698 order adds up to",
+   "total": "₹1,14,698",
+   "parts": [
+    {
+     "l": "Phone refund",
+     "v": 74698
+    },
+    {
+     "l": "Mental agony",
+     "v": 30000
+    },
+    {
+     "l": "Litigation costs",
+     "v": 10000
+    }
+   ],
+   "tone": "good",
+   "verdict": "The buyer is compensated; the retailer pays"
+  },
+  {
+   "t": "timeline",
+   "l": "How the case moved",
+   "steps": [
+    {
+     "t": "Mar 2024",
+     "e": "OTP shared for zero-interest EMI"
+    },
+    {
+     "t": "Apr 3, 2024",
+     "e": "First ₹4,204 EMI deducted, no phone"
+    },
+    {
+     "t": "Complaint",
+     "e": "Buyer goes to consumer commission"
+    },
+    {
+     "t": "Nov 2026",
+     "e": "Retailer held liable"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "About two and a half years from first EMI to order"
+  },
+  {
+   "t": "big",
+   "v": "₹1.14L",
+   "l": "ordered to the buyer"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹1.14L",
+  "label": "ordered to the buyer",
+  "motion": "drift",
+  "scene": [
+   "📱",
+   "⚖️",
+   "💸"
+  ]
+ },
+ "learn": {
+  "t": "Consumer commission = a district body that hears complaints about faulty goods and poor service"
+ },
+ "watch": "Whether the retailer complies or appeals; the article does not say.",
+ "thread": "hyd-consumer-commission-emi-phone-never-delivered-1-14-lakh",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad man gets Rs 1.14L after EMIs ran for undelivered phone",
+   "url": "https://www.siasat.com/hyderabad-man-gets-rs-1-14l-after-emis-ran-for-undelivered-phone-3577750/"
+  }
+ ],
+ "updated": 1794726617357,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/EMI.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Hyderabad retailer must pay *₹1.14 lakh* after EMIs ran for an undelivered phone",
+ "twist": "The retailer had no signed receipt, stock entry or gate pass to show the handset was handed over.",
+ "layer": "city",
+ "areas": [
+  "Hyderabad"
+ ]
+}

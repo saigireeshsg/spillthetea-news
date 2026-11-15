@@ -1,0 +1,158 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-90",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "PHFI public health institute in Hyderabad gets a *June 2, 2028* deadline",
+ "hook_b": "PHFI public health institute in Hyderabad gets a *June 2, 2028* deadline",
+ "tldr": "CM A Revanth Reddy laid the foundation stone for the Public Health Foundation of India's Institute of Public Health Sciences in Hyderabad on November 14 and unveiled its campus master plan.",
+ "beats": {
+  "what": "He set June 2, 2028, as the completion target and said he would act as the institute's brand ambassador.",
+  "why": "He said the state spends about ₹2,500 crore a year via Aarogyasri and the CM Relief Fund and ₹12,000 crore on building hospitals.",
+  "care": "The CM said TIMS Sanathnagar is open, other TIMS hospitals will be made operational soon, and a new Osmania General Hospital complex is being built."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏥",
+    "label": "State health spending push"
+   }
+  ],
+  "event": {
+   "icon": "🧱",
+   "label": "PHFI institute foundation"
+  },
+  "effects": [
+   {
+    "icon": "🎓",
+    "label": "Campus due June 2028"
+   },
+   {
+    "icon": "🎓",
+    "label": "More public health training"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Speaking to investors, he said there was no policy paralysis and his government had built on predecessors' policies."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What should Hyderabad's health push deliver first?",
+   "opts": [
+    "Open the pending TIMS hospitals",
+    "New Osmania hospital",
+    "Public health research and training",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which of the pending TIMS hospitals opens next?",
+    "Will the institute's courses be open to Telangana students first?"
+   ],
+   "facts": [
+    {
+     "big": "$3T",
+     "t": "Telangana Rising 2047 aims for a *$3 trillion* economy by 2047 and 10% of national GDP.",
+     "s": "Siasat (PTI)",
+     "u": "https://www.siasat.com/cm-revanth-lays-foundation-for-phfi-institute-in-hyderabad-3577733/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "State health spending cited by the CM",
+   "a": {
+    "v": 2500,
+    "d": "₹2,500 cr/yr",
+    "l": "Aarogyasri + CMRF"
+   },
+   "b": {
+    "v": 12000,
+    "d": "₹12,000 cr",
+    "l": "Building hospitals"
+   },
+   "tone": "neutral",
+   "verdict": "Figures as stated by the CM; not independently verified"
+  },
+  {
+   "t": "timeline",
+   "l": "Dates ahead",
+   "steps": [
+    {
+     "t": "Nov 14, 2026",
+     "e": "Foundation stone, master plan unveiled"
+    },
+    {
+     "t": "Dec 7-9, 2026",
+     "e": "Telangana Global Summit"
+    },
+    {
+     "t": "Jun 2, 2028",
+     "e": "Institute completion target"
+    },
+    {
+     "t": "2034",
+     "e": "State's $1 trillion economy goal"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Targets set by the government"
+  },
+  {
+   "t": "big",
+   "v": "2028",
+   "l": "completion target"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2028",
+  "label": "completion target",
+  "motion": "drift",
+  "scene": [
+   "🏥",
+   "🧱",
+   "🎓"
+  ]
+ },
+ "learn": {
+  "t": "PHFI = Public Health Foundation of India, a body that trains and researches in public health"
+ },
+ "watch": "The Telangana Global Summit on December 7-9, and progress on the TIMS hospitals.",
+ "thread": "hyd-phfi-public-health-institute-foundation-june-2028",
+ "sources": [
+  {
+   "name": "Siasat (PTI)",
+   "title": "CM Revanth lays foundation for PHFI institute in Hyderabad",
+   "url": "https://www.siasat.com/cm-revanth-lays-foundation-for-phfi-institute-in-hyderabad-3577733/"
+  }
+ ],
+ "updated": 1794726617357,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/download-1-2.jpg",
+  "c": "Siasat"
+ },
+ "fact": "CM sets *June 2, 2028* target for Hyderabad's new PHFI public health institute",
+ "twist": "The CM said *65%* of Telangana's revenue comes from areas around Hyderabad.",
+ "layer": "city",
+ "areas": [
+  "Hyderabad",
+  "Sanathnagar"
+ ]
+}
