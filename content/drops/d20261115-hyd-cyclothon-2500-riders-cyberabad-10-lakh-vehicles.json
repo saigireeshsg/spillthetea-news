@@ -1,0 +1,135 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-60",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "*10 lakh* vehicles hit Cyberabad roads daily, police chief says",
+ "hook_b": "*10 lakh* vehicles hit Cyberabad roads daily, police chief says",
+ "tldr": "At the 3rd HCL Hyderabad Cyclothon, where 2,500+ cyclists rode, Cyberabad CP M Ramesh flagged rising congestion and urged public transport, carpooling and cycling.",
+ "beats": {
+  "what": "The third HCL Hyderabad Cyclothon was held at Prime Arena on Sunday, with the Green Race and other categories.",
+  "why": "Cyberabad police are pushing alternatives to private vehicles as congestion grows.",
+  "care": "If you commute in the IT corridor, the Nov 26-28 symposium is where mobility plans get discussed."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚗",
+    "label": "10 lakh vehicles a day in Cyberabad"
+   }
+  ],
+  "event": {
+   "icon": "🚴",
+   "label": "Police push cycling and carpooling"
+  },
+  "effects": [
+   {
+    "icon": "🏙️",
+    "label": "Cyberabad Moves symposium Nov 26-28"
+   },
+   {
+    "icon": "🏙️",
+    "label": "IT corridor commute in focus"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Joint CP (Traffic) Sunpreet Singh co-flagged off the ride; the symposium is at T-Hub and T-Works."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What would get you out of your own vehicle?",
+   "opts": [
+    "Better metro/bus links",
+    "Safe cycle lanes",
+    "Carpool apps",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which commute changes would actually cut IT-corridor traffic?"
+   ],
+   "facts": [
+    {
+     "big": "3 days",
+     "t": "'Cyberabad Moves' runs *3 days*, Nov 26-28, with government, industry and other stakeholders.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/over-2500-cyclists-participate-in-hcl-hyderabad-cyclothon"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Cyberabad's mobility push",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Nov 15",
+     "e": "3rd HCL Cyclothon, 2,500+ riders"
+    },
+    {
+     "t": "Nov 26-28",
+     "e": "'Cyberabad Moves' symposium, T-Hub"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Police seek alternatives as congestion grows"
+  },
+  {
+   "t": "big",
+   "v": "10 lakh+",
+   "l": "vehicles on Cyberabad roads daily",
+   "tone": "bad",
+   "verdict": "Heavy traffic load for commuters"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2,500+",
+  "label": "cyclists at the Cyclothon",
+  "motion": "drift",
+  "scene": [
+   "🚗",
+   "🚴",
+   "🏙️"
+  ]
+ },
+ "watch": "'Cyberabad Moves' at T-Hub and T-Works, Nov 26-28.",
+ "thread": "hyd-cyclothon-2500-riders-cyberabad-10-lakh-vehicles",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Over 2,500 cyclists participate in HCL Hyderabad Cyclothon",
+   "url": "https://telanganatoday.com/over-2500-cyclists-participate-in-hcl-hyderabad-cyclothon"
+  }
+ ],
+ "updated": 1794743812022,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/cyclists.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Over *10 lakh* vehicles ply Cyberabad roads every day, says CP M Ramesh.",
+ "twist": "He invited citizens to 'Cyberabad Moves', a mobility symposium at T-Hub on *Nov 26-28*.",
+ "areas": [
+  "Cyberabad",
+  "Hitec City",
+  "Gachibowli"
+ ],
+ "layer": "city"
+}

@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "weather",
+ "hook": "Cyclone *Akvan* could end Hyderabad's cold dry spell by Nov 21",
+ "hook_b": "Cyclone *Akvan* could end Hyderabad's cold dry spell by Nov 21",
+ "tldr": "IMD Hyderabad says Cyclone Akvan may bring rain to Telangana from Nov 20, with Hyderabad likely to see showers on Nov 21-22.",
+ "beats": {
+  "what": "Cyclone Akvan is expected to form over the Bay of Bengal on Nov 16-17 and cross the coast between Chennai and Bapatla, focused on south Andhra Pradesh, around Nov 19.",
+  "why": "After landfall, the system is forecast to push rain across Telangana from Nov 20 to 22.",
+  "care": "Khammam, Bhadradri Kothagudem, Mahabubabad, Suryapet, Nalgonda and Mulugu may see isolated heavy rain, lightning and gusty winds on Nov 20-21."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌀",
+    "label": "Cyclone Akvan forming in Bay of Bengal"
+   }
+  ],
+  "event": {
+   "icon": "🌊",
+   "label": "Landfall near south AP around Nov 19"
+  },
+  "effects": [
+   {
+    "icon": "🌧️",
+    "label": "Eastern TG districts: rain Nov 20-21"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Hyderabad: showers Nov 21-22"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "IMD Hyderabad's Sunday forecast: light to moderate thundershowers in eastern districts first, then the rest of Telangana including Hyderabad."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Rain on Nov 21-22: does it change your weekend plans?",
+   "opts": [
+    "Yes, rescheduling",
+    "No change",
+    "Waiting for the next forecast",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will rain on Nov 21-22 affect standing crops in drought-hit districts?",
+    "Will the forecast hold once the cyclone actually forms?"
+   ],
+   "facts": [
+    {
+     "big": "8",
+     "t": "Thunderstorms with lightning are possible in *8* districts including Warangal, Karimnagar and Mancherial.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/cyclone-akvan-may-bring-rain-to-telangana-from-november-20-imd-forecasts"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Akvan's path to Hyderabad",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Nov 16-17",
+     "e": "Cyclone expected to form, Bay of Bengal"
+    },
+    {
+     "t": "~Nov 19",
+     "e": "Coast crossing, Chennai-Bapatla stretch"
+    },
+    {
+     "t": "Nov 20-21",
+     "e": "Rain in Khammam, Nalgonda, Mulugu & others"
+    },
+    {
+     "t": "Nov 21-22",
+     "e": "Showers likely in Hyderabad"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Forecast, not yet a warning: timing can shift"
+  },
+  {
+   "t": "big",
+   "v": "~14°C",
+   "l": "dawn low, Moula Ali & BHEL",
+   "tone": "neutral",
+   "verdict": "Chill continues until the rain arrives"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 21",
+  "label": "showers likely in Hyderabad",
+  "motion": "drift",
+  "scene": [
+   "🌀",
+   "🌊",
+   "🌧️"
+  ]
+ },
+ "watch": "IMD updates once the cyclone forms on Nov 16-17; district alerts for Nov 20.",
+ "thread": "hyd-cyclone-akvan-rain-nov-21-22",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Cyclone Akvan may bring rain to Telangana from November 20, IMD forecasts",
+   "url": "https://telanganatoday.com/cyclone-akvan-may-bring-rain-to-telangana-from-november-20-imd-forecasts"
+  }
+ ],
+ "updated": 1794743812020,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Cyclone-Akvan-may-bring-rain-to-Telangana-from-November-20-IMD-forecasts.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Cyclone *Akvan* may bring showers to Hyderabad on Nov 21-22, says IMD.",
+ "twist": "Before the rain, Moula Ali and BHEL are still dipping to around 14°C at dawn.",
+ "areas": [
+  "Hyderabad",
+  "Moula Ali",
+  "BHEL"
+ ],
+ "layer": "city"
+}

@@ -1,0 +1,146 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "GHMC parks will cost more to enter; new rates not out yet",
+ "hook_b": "GHMC parks will cost more to enter; new rates not out yet",
+ "tldr": "The GHMC standing committee approved a proposal to raise entry ticket prices at GHMC-maintained parks. The report does not give the new rates.",
+ "beats": {
+  "what": "The committee also approved streetlight maintenance under the CURE framework, a DPR for an Intelligent Traffic Management System and moving GHMC apps to Microsoft Azure Cloud.",
+  "why": "These are civic-body decisions taken at the standing committee chaired by Special Officer and MAUD Secretary Sarfaraz Ahmed.",
+  "care": "Anyone using GHMC parks for walks, play or picnics will pay more once new rates are notified."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏛️",
+    "label": "GHMC standing committee meeting"
+   }
+  ],
+  "event": {
+   "icon": "🎟️",
+   "label": "Park entry fee hike approved"
+  },
+  "effects": [
+   {
+    "icon": "🌳",
+    "label": "Park visitors pay more once rates are out"
+   },
+   {
+    "icon": "🌳",
+    "label": "Road, police station, vet hospital works cleared"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Other approvals: GHMC land at Keshavagiri for a new Chandrayangutta police station, and ₹20 crore to rebuild the veterinary hospital at Bhogiguda."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How often do you visit a GHMC park?",
+   "opts": [
+    "Every week",
+    "Once a month",
+    "Rarely",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will the hike apply to morning walkers with passes or only day tickets?",
+    "Where will the extra fee revenue go?"
+   ],
+   "facts": [
+    {
+     "big": "₹20 cr",
+     "t": "The same meeting approved *₹20 crore* to rebuild the veterinary hospital at PVNR Telangana Veterinary University, Bhogiguda.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-ghmc-standing-committee-approves-hike-in-park-entry-fees"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What the committee cleared",
+   "now": 0,
+   "steps": [
+    {
+     "t": "Parks",
+     "e": "Entry fee hike (rates not given)"
+    },
+    {
+     "t": "Roads",
+     "e": "218 properties for Saheb Nagar road"
+    },
+    {
+     "t": "Police",
+     "e": "Keshavagiri land for Chandrayangutta PS"
+    },
+    {
+     "t": "₹20 cr",
+     "e": "Bhogiguda vet hospital rebuild"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Higher fees cost park visitors; other approvals are works"
+  },
+  {
+   "t": "big",
+   "v": "₹20 cr",
+   "l": "vet hospital rebuild",
+   "tone": "neutral",
+   "verdict": "Civic spending approved"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "218",
+  "label": "properties to be acquired for a road",
+  "motion": "drift",
+  "scene": [
+   "🏛️",
+   "🎟️",
+   "🌳"
+  ]
+ },
+ "watch": "The new ticket prices and the date they take effect.",
+ "thread": "hyd-ghmc-park-entry-fee-hike-approved",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad: GHMC standing committee approves hike in park entry fees",
+   "url": "https://telanganatoday.com/hyderabad-ghmc-standing-committee-approves-hike-in-park-entry-fees"
+  }
+ ],
+ "updated": 1794743812021,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Hyderabad-GHMC-standing-committee-approves-hike-in-park-entry-fees.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "GHMC's standing committee approved *higher* entry fees for city parks it maintains.",
+ "twist": "Same meeting cleared acquiring *218* properties for a new road at Saheb Nagar.",
+ "areas": [
+  "Hyderabad",
+  "Saheb Nagar",
+  "Keshavagiri",
+  "Chandrayangutta",
+  "Bhogiguda"
+ ],
+ "layer": "city"
+}

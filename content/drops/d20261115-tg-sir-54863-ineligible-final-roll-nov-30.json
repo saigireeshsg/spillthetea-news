@@ -1,0 +1,154 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-78",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "SIR: *54,863* voters dropped as ineligible; final roll Nov 30",
+ "hook_b": "SIR: *54,863* voters dropped as ineligible; final roll Nov 30",
+ "tldr": "The Election Commission found 54,863 electors ineligible after SIR hearings; 91.72 lakh electors are cleared for the final rolls due Nov 30.",
+ "beats": {
+  "what": "Of the ineligible, 21,514 did not submit documents for discrepancies and 33,349 could not link to the 2002 SIR list.",
+  "why": "Notices went to about 92.9 lakh electors over name/age mismatches or missing 2002 mapping in their enumeration forms.",
+  "care": "If your name is missing from the draft roll, officials say you can submit Form 6 afresh."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "SIR notices over mismatches and 2002 mapping"
+   }
+  ],
+  "event": {
+   "icon": "📋",
+   "label": "Hearings done, 54,863 ruled ineligible"
+  },
+  "effects": [
+   {
+    "icon": "✅",
+    "label": "Final rolls due Nov 30"
+   },
+   {
+    "icon": "✅",
+    "label": "Missing names can file Form 6"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Total electorate stood at 2,63,18,514 as of Saturday, against 3,38,26,448 before SIR began."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Have you checked your name on the draft voter roll?",
+   "opts": [
+    "Yes, it's there",
+    "Yes, it's missing",
+    "Haven't checked",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many of the 73 lakh absent/shifted entries were real voters who moved?",
+    "Will Form 6 applications reach the final roll in time?"
+   ],
+   "facts": [
+    {
+     "big": "73.4L",
+     "t": "*73,39,235* electors were marked Absent, Shifted or Dead after not returning enumeration forms.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-sir-54863-electors-found-ineligible-for-final-voter-list"
+    },
+    {
+     "big": "13,436",
+     "t": "Rangareddy topped ineligible electors with *13,436*, then Peddapalli with 4,933.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-sir-54863-electors-found-ineligible-for-final-voter-list"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "Why 54,863 were ruled ineligible",
+   "parts": [
+    {
+     "l": "No 2002 SIR link",
+     "v": 33349
+    },
+    {
+     "l": "Documents not submitted",
+     "v": 21514
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Most failed the 2002 mapping check"
+  },
+  {
+   "t": "compare",
+   "l": "Telangana electorate",
+   "a": {
+    "v": 338.26,
+    "d": "3.38 cr",
+    "l": "Before SIR"
+   },
+   "b": {
+    "v": 263.19,
+    "d": "2.63 cr",
+    "l": "Nov 14"
+   },
+   "tone": "neutral",
+   "verdict": "Roll shrank mainly from absent, shifted and dead entries"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "54,863",
+  "label": "electors found ineligible",
+  "motion": "drift",
+  "scene": [
+   "🗳️",
+   "📋",
+   "✅"
+  ]
+ },
+ "learn": {
+  "t": "SIR = Special Intensive Revision, a full re-check of the voter list",
+  "show": true
+ },
+ "watch": "Final electoral rolls publication on Nov 30.",
+ "thread": "tg-sir-54863-ineligible-final-roll-nov-30",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana SIR: 54,863 electors found ineligible for final voter list",
+   "url": "https://telanganatoday.com/telangana-sir-54863-electors-found-ineligible-for-final-voter-list"
+  }
+ ],
+ "updated": 1794743812021,
+ "city": "Telangana",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/SIR.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Telangana's SIR found *54,863* electors ineligible for the final voter list.",
+ "twist": "Rangareddy alone has *13,436* of them; Hyderabad, the biggest electorate, just 2,472.",
+ "areas": [
+  "Hyderabad",
+  "Rangareddy",
+  "Peddapalli"
+ ],
+ "layer": "state"
+}

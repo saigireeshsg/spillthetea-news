@@ -1,0 +1,130 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-55",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "RPF ASI pulls man from gap under moving train at Secunderabad",
+ "hook_b": "RPF ASI pulls man from gap under moving train at Secunderabad",
+ "tldr": "RPF ASI D Naresh pulled a passenger out of the platform gap after he slipped boarding the moving Godavari Express on Nov 14.",
+ "beats": {
+  "what": "The passenger lost his balance trying to board Train No. 12728 and fell into the gap between platform and train.",
+  "why": "The ASI rushed to the spot and pulled him onto the platform, averting a potentially fatal accident.",
+  "care": "Boarding a moving train is one of the riskiest things on a platform; it nearly cost a life here."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚆",
+    "label": "Passenger boards a moving train"
+   }
+  ],
+  "event": {
+   "icon": "⚠️",
+   "label": "Slips into platform gap"
+  },
+  "effects": [
+   {
+    "icon": "🦺",
+    "label": "RPF ASI pulls him out"
+   },
+   {
+    "icon": "🦺",
+    "label": "Clip goes viral as safety warning"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat shared the CCTV clip of the rescue on Nov 15."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Have you seen people board moving trains at Secunderabad?",
+   "opts": [
+    "Often",
+    "Sometimes",
+    "Never",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What stops people boarding trains that have already started?"
+   ],
+   "facts": [
+    {
+     "big": "12728",
+     "t": "The train was Train No. *12728*, the Godavari Express.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/rpf-pulls-passenger-to-safety-from-moving-train-at-secunderabad-3578104/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Seconds that mattered",
+   "now": 0,
+   "steps": [
+    {
+     "t": "5.30 pm",
+     "e": "Godavari Express starts moving, Platform 1"
+    },
+    {
+     "t": "Moments later",
+     "e": "Passenger tries to board, slips into gap"
+    },
+    {
+     "t": "Right after",
+     "e": "RPF ASI D Naresh pulls him out"
+    }
+   ],
+   "tone": "good",
+   "verdict": "Quick action averted a fatal accident"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "5.30 pm",
+  "label": "Platform 1, Nov 14",
+  "motion": "drift",
+  "scene": [
+   "🚆",
+   "⚠️",
+   "🦺"
+  ]
+ },
+ "watch": "Whether railways step up platform announcements at Secunderabad.",
+ "thread": "hyd-secunderabad-rpf-asi-saves-passenger-godavari-express",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "RPF pulls passenger to safety from moving train at Secunderabad",
+   "url": "https://www.siasat.com/rpf-pulls-passenger-to-safety-from-moving-train-at-secunderabad-3578104/"
+  }
+ ],
+ "updated": 1794743812022,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/ASI-D-Naresh.jpg",
+  "c": "Siasat"
+ },
+ "fact": "An RPF officer pulled a *53*-year-old from under a moving train at Secunderabad.",
+ "twist": "The train had already started moving when he tried to board at 5.30 pm on Platform 1.",
+ "areas": [
+  "Secunderabad"
+ ],
+ "layer": "near"
+}

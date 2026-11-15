@@ -41,7 +41,7 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "More than 6,050 athletes are expected. The report says six cities will host events; the full venue list and spectator details are not out yet."
+   "body": "Logo and mascot unveiled in Delhi on Nov 15. Host cities: Hyderabad, Khammam, Karimnagar, Hanumakonda, Mahabubnagar and Nizamabad. Softball is a competitive sport; sailing and Karra Samu are demos."
   },
   {
    "k": "poll",
@@ -56,15 +56,15 @@
   },
   {
    "k": "quiz",
-   "q": "Which sport is a demonstration event at these Games?",
+   "q": "Which martial art is a demonstration event at these Games?",
    "opts": [
-    "Sailing",
-    "Cricket",
-    "Chess",
-    "Golf"
+    "Karra Samu",
+    "Karate",
+    "Taekwondo",
+    "Wushu"
    ],
    "ans": 0,
-   "why": "Sailing joins the 27 competitive sports as a demo event."
+   "why": "Sailing and Karra Samu are the two demonstration events."
   }
  ],
  "viz": [
@@ -88,11 +88,20 @@
    ]
   },
   {
-   "t": "big",
-   "v": "6,050+",
-   "l": "athletes expected",
+   "t": "compare",
+   "l": "Expected participants",
+   "a": {
+    "v": 6050,
+    "d": "6,050+",
+    "l": "Nov 9 report"
+   },
+   "b": {
+    "v": 8000,
+    "d": "~8,000",
+    "l": "Nov 15 report"
+   },
    "tone": "neutral",
-   "verdict": "National youth meet, Telangana hosts"
+   "verdict": "Newer estimate counts athletes and other participants"
   }
  ],
  "cover": {
@@ -118,16 +127,30 @@
  "sources": [
   {
    "name": "Telangana Today",
+   "title": "Khelo India Youth Games to bring 8,000 participants to Telangana",
+   "url": "https://telanganatoday.com/khelo-india-youth-games-to-bring-8000-participants-to-telangana"
+  },
+  {
+   "name": "Telangana Today",
    "title": "Telangana to host Khelo India Youth Games from December 11; 27 sports on schedule",
    "url": "https://telanganatoday.com/telangana-to-host-khelo-india-youth-games-from-december-11-27-sports-on-schedule"
   }
  ],
- "updated": 1794208472130,
+ "updated": 1794743737686,
  "city": "Hyderabad",
- "fact": "Telangana will host *6,050+* young athletes at the Khelo India Youth Games from Dec 11.",
- "twist": "Besides 27 medal sports, sailing will feature as a demonstration event.",
+ "fact": "Telangana will host around *8,000* athletes and participants at Khelo India Youth Games, Dec 11-22.",
+ "twist": "29 disciplines across six cities: 27 medal sports plus sailing and Karra Samu as demos.",
  "areas": [
   "Hyderabad",
-  "Telangana"
- ]
+  "Khammam",
+  "Karimnagar",
+  "Hanumakonda",
+  "Mahabubnagar",
+  "Nizamabad"
+ ],
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Khelo-India-Youth-Games.jpg",
+  "c": "Telangana Today"
+ },
+ "layer": "state"
 }

@@ -1,0 +1,149 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-15",
+ "sort": "2026-11-15-75",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "farming",
+ "hook": "CM takes Telangana's drought ask to PM Modi; *365* mandals hit",
+ "hook_b": "CM takes Telangana's drought ask to PM Modi; *365* mandals hit",
+ "tldr": "CM Revanth Reddy met PM Modi in New Delhi on Nov 15 to seek financial help for drought relief, citing the El Niño rainfall deficit.",
+ "beats": {
+  "what": "The state declared 365 mandals in 31 of 33 districts drought-affected on Oct 27: 111 severe, 254 moderate.",
+  "why": "Telangana got 615.5 mm of rain from June 1 to Sep 30 against a normal 740.6 mm, a 17% deficit, with 18 of 33 districts in deficit.",
+  "care": "Farm incomes and rural livelihoods are hit; the Assembly had urged the Centre for a ₹20,000 crore package on Sep 18."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "☀️",
+    "label": "El Niño rain deficit of 17%"
+   }
+  ],
+  "event": {
+   "icon": "🤝",
+   "label": "CM seeks Centre's drought aid"
+  },
+  "effects": [
+   {
+    "icon": "🌾",
+    "label": "Farmers wait on relief package"
+   },
+   {
+    "icon": "🌾",
+    "label": "Kharif sowing area already down"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "He also invited the PM to the Telangana Global Investors Summit and to inaugurate the Khelo India competitions."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Who should move first on drought relief?",
+   "opts": [
+    "Centre",
+    "State",
+    "Both together",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much of the requested aid typically arrives, and how fast?",
+    "Which districts carry most of the 111 severe mandals?"
+   ],
+   "facts": [
+    {
+     "big": "13.2L",
+     "t": "Kharif crop area fell from *139.28* to *126.06 lakh acres* this season.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/revanth-reddy-meets-pm-modi-seeks-drought-relief-for-telangana-3577986/"
+    },
+    {
+     "big": "18/33",
+     "t": "*18 of 33* districts recorded deficit rainfall.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/revanth-reddy-meets-pm-modi-seeks-drought-relief-for-telangana-3577986/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Monsoon rain, Jun 1-Sep 30",
+   "a": {
+    "v": 740.6,
+    "d": "740.6 mm",
+    "l": "Normal"
+   },
+   "b": {
+    "v": 615.5,
+    "d": "615.5 mm",
+    "l": "2026"
+   },
+   "goodIfUp": true,
+   "tone": "bad",
+   "verdict": "Rain fell 17% short, hurting farmers"
+  },
+  {
+   "t": "stack",
+   "l": "Drought mandals by severity",
+   "parts": [
+    {
+     "l": "Severe",
+     "v": 111
+    },
+    {
+     "l": "Moderate",
+     "v": 254
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Nearly a third of drought mandals are severe"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "365",
+  "label": "drought-hit mandals",
+  "motion": "drift",
+  "scene": [
+   "☀️",
+   "🤝",
+   "🌾"
+  ]
+ },
+ "watch": "Whether the Centre announces a package or sends a central team.",
+ "thread": "tg-revanth-modi-drought-relief-365-mandals",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Revanth Reddy meets PM Modi, seeks drought relief for Telangana",
+   "url": "https://www.siasat.com/revanth-reddy-meets-pm-modi-seeks-drought-relief-for-telangana-3577986/"
+  }
+ ],
+ "updated": 1794743812021,
+ "city": "Telangana",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/revanth-reddy-modi.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Revanth Reddy met PM Modi seeking drought aid for *365* drought-hit mandals.",
+ "twist": "Kharif area shrank from *139.28* to *126.06* lakh acres as rain fell 17% short.",
+ "areas": [
+  "Telangana"
+ ],
+ "layer": "state"
+}
