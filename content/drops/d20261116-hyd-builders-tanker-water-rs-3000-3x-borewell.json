@@ -1,0 +1,135 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-16",
+ "sort": "2026-11-16-96",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Builders now pay *₹3,000* a tanker, three times borewell water",
+ "hook_b": "Builders now pay *₹3,000* a tanker, three times borewell water",
+ "tldr": "With fresh borewell permissions restricted as groundwater falls, construction sites in Hyderabad are buying private tanker water at about ₹3,000 a load against ₹1,000 earlier.",
+ "beats": {
+  "what": "Sites that used borewells now rely on private tankers; a 5-7 floor building spends ₹25,000-30,000 a month on water, per the Cyberabad Builders Association.",
+  "why": "Falling groundwater, curbs on new borewells and the El Niño threat, builders say.",
+  "care": "Builders estimate about 350-400 ongoing projects are hit, and handovers could be delayed."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💧",
+    "label": "Groundwater falling"
+   }
+  ],
+  "event": {
+   "icon": "🚚",
+   "label": "Tanker water for sites"
+  },
+  "effects": [
+   {
+    "icon": "🏗️",
+    "label": "₹10/sq ft costlier"
+   },
+   {
+    "icon": "🏗️",
+    "label": "Handover delays feared"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Builders say it could worsen from December, when reservoir levels are expected to come under more pressure."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Who should carry the extra water cost?",
+   "opts": [
+    "Builders absorb it",
+    "Buyers share it",
+    "Govt supplies treated water",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will the extra cost show up in flat prices?",
+    "How many sites have switched to treated water?"
+   ],
+   "facts": [
+    {
+     "big": "10-15",
+     "t": "Projects of 500+ units could need *10-15* tankers a day without groundwater, per the Telangana Builders Federation.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/el-nio-threat-puts-construction-sector-in-hyderabad-under-water-stress-builders-pay-three-times-more-for-water/articleshow/135863856.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Water cost per load for a construction site",
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Builders pay more; buyers may face delays",
+   "a": {
+    "v": 1000.0,
+    "d": "₹1,000",
+    "l": "Borewell"
+   },
+   "b": {
+    "v": 3000.0,
+    "d": "₹3,000",
+    "l": "Private tanker"
+   }
+  },
+  {
+   "t": "big",
+   "v": "₹3,000",
+   "l": "per private tanker"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹3,000",
+  "label": "per private tanker",
+  "motion": "drift",
+  "scene": [
+   "💧",
+   "🚚",
+   "🏗️"
+  ]
+ },
+ "insight": "Builders estimate water has added about ₹10 per sq ft to construction costs.",
+ "watch": "December reservoir levels, which builders say could slow construction further.",
+ "thread": "hyd-builders-tanker-water-rs-3000-3x-borewell",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "El Niño threat puts construction sector in Hyderabad under water stress; builders pay three times more for water",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/el-nio-threat-puts-construction-sector-in-hyderabad-under-water-stress-builders-pay-three-times-more-for-water/articleshow/135863856.cms"
+  }
+ ],
+ "updated": 1794790670837,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135863854,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Hyderabad builders now pay *₹3,000* a water tanker, three times borewell cost",
+ "twist": "Builders fear flats due by mid-2027 could slip by up to *six months*, into late 2027 or 2028.",
+ "areas": [
+  "Miyapur",
+  "Kukatpally",
+  "Gachibowli",
+  "HITEC City"
+ ],
+ "layer": "near"
+}

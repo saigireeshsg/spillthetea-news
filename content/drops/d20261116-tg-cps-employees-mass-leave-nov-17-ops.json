@@ -1,0 +1,134 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-16",
+ "sort": "2026-11-16-92",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "government",
+ "hook": "*2.15 lakh* CPS employees and teachers call mass leave on Nov 17",
+ "hook_b": "*2.15 lakh* CPS employees and teachers call mass leave on Nov 17",
+ "tldr": "TSCPSEU has called a statewide mass leave on Tuesday, Nov 17, demanding the Contributory Pension Scheme be scrapped and the old pension scheme restored, per Sakshi.",
+ "beats": {
+  "what": "Dharna deekshas are planned at all district headquarters.",
+  "why": "Employees under CPS want a return to the Old Pension Scheme (OPS).",
+  "care": "Government offices and schools could see thin staff on Nov 17; the report does not say which services are affected."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧾",
+    "label": "CPS pension rules"
+   }
+  ],
+  "event": {
+   "icon": "🪧",
+   "label": "Mass leave Nov 17"
+  },
+  "effects": [
+   {
+    "icon": "🏫",
+    "label": "District dharnas"
+   },
+   {
+    "icon": "🏫",
+    "label": "Offices, schools thin"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "No government response is mentioned in the report."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Old pension scheme: what's your view?",
+   "opts": [
+    "Bring back OPS",
+    "Keep CPS",
+    "Middle path",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many states have returned to the old pension scheme?"
+   ],
+   "facts": [
+    {
+     "big": "2.15 lakh",
+     "t": "The union counts *2.15 lakh* CPS employees and teachers statewide.",
+     "s": "Sakshi",
+     "u": "https://www.sakshi.com/telugu-news/telangana/telangana-cps-employees-announce-mass-leave-november-17-2962045"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What's planned",
+   "steps": [
+    {
+     "t": "Demand",
+     "e": "Scrap CPS, restore OPS"
+    },
+    {
+     "t": "Nov 17",
+     "e": "Statewide mass leave"
+    },
+    {
+     "t": "Nov 17",
+     "e": "Dharna deekshas at district HQs"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "2.15 lakh",
+   "l": "CPS staff on leave call"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2.15 lakh",
+  "label": "CPS staff on leave call",
+  "motion": "drift",
+  "scene": [
+   "🧾",
+   "🪧",
+   "🏫"
+  ]
+ },
+ "learn": {
+  "t": "CPS = Contributory Pension Scheme; OPS = old pension paid fully by the government"
+ },
+ "watch": "Whether the government talks to the union before Nov 17.",
+ "thread": "tg-cps-employees-mass-leave-nov-17-ops",
+ "sources": [
+  {
+   "name": "Sakshi",
+   "title": "రేపు సీపీఎస్‌ ఉద్యోగుల సామూహిక సెలవు",
+   "url": "https://www.sakshi.com/telugu-news/telangana/telangana-cps-employees-announce-mass-leave-november-17-2962045"
+  }
+ ],
+ "updated": 1794790670838,
+ "img": {
+  "u": "https://www.sakshi.com/article_images/2026/11/16/CCS.jpg",
+  "c": "Sakshi"
+ },
+ "fact": "*2.15 lakh* Telangana employees and teachers plan mass leave on Nov 17",
+ "twist": "The date marks *three years* since the Congress released its election manifesto, the union says.",
+ "areas": [
+  "Telangana"
+ ],
+ "layer": "state"
+}

@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-16",
+ "sort": "2026-11-16-88",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "AP building *₹1,200 crore* tunnel at Nagarjuna Sagar, report says",
+ "hook_b": "AP building *₹1,200 crore* tunnel at Nagarjuna Sagar, report says",
+ "tldr": "Namasthe Telangana reports that Andhra Pradesh is building a tunnel at Vijayapuri South to draw water from the reservoir for drinking water to Guntur, Bapatla and Palnadu, under Jal Jeevan Mission.",
+ "beats": {
+  "what": "The paper says phase one costs about ₹1,200 crore, with completion targeted in 8 months; AP or the Centre has not confirmed this in the report.",
+  "why": "AP describes it as a drinking water project; experts quoted by the paper say it could draw water even at the 510 ft dead storage level.",
+  "care": "Nagarjuna Sagar feeds Hyderabad's Krishna drinking water supply, so the share of Krishna water is a city issue too."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏞️",
+    "label": "AP drinking water plan"
+   }
+  ],
+  "event": {
+   "icon": "🚇",
+   "label": "Tunnel at Sagar, reported"
+  },
+  "effects": [
+   {
+    "icon": "💧",
+    "label": "Dead storage draw"
+   },
+   {
+    "icon": "💧",
+    "label": "Telangana share question"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "This is one outlet's report, based on information it says it gathered; no official confirmation yet. Opposition parties criticised the Telangana government in the report."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What should happen next on this report?",
+   "opts": [
+    "Telangana verifies it",
+    "Krishna board steps in",
+    "Wait for facts",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who approves projects drawing from shared Krishna reservoirs?"
+   ],
+   "facts": [
+    {
+     "big": "510 ft",
+     "t": "The paper says the tunnel could draw water even at the *510 ft* dead storage level.",
+     "s": "Namasthe Telangana",
+     "u": "https://www.ntnews.com/telangana/nagarjuna-sagar-water-diversion-plan-raises-concerns-in-telangana-2561473"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What the report claims",
+   "steps": [
+    {
+     "t": "Site",
+     "e": "Vijayapuri South, right side of dam"
+    },
+    {
+     "t": "Cost",
+     "e": "₹1,200 crore, phase one"
+    },
+    {
+     "t": "Time",
+     "e": "8 months to finish"
+    },
+    {
+     "t": "For",
+     "e": "Guntur, Bapatla, Palnadu drinking water"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "₹1,200 cr",
+   "l": "phase one, per report"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹1,200 cr",
+  "label": "phase one, per report",
+  "motion": "drift",
+  "scene": [
+   "🏞️",
+   "🚇",
+   "💧"
+  ]
+ },
+ "learn": {
+  "t": "Dead storage = water below the level normally released from a dam"
+ },
+ "watch": "Any response from the Telangana or AP government, or the Krishna River Management Board.",
+ "thread": "tg-nagarjuna-sagar-ap-tunnel-rs-1200-crore-report",
+ "sources": [
+  {
+   "name": "Namasthe Telangana",
+   "title": "సాగ‌ర్‌కు ఏపీ క‌న్నం",
+   "url": "https://www.ntnews.com/telangana/nagarjuna-sagar-water-diversion-plan-raises-concerns-in-telangana-2561473"
+  }
+ ],
+ "updated": 1794790670838,
+ "img": {
+  "u": "https://d2e1hu1ktur9ur.cloudfront.net/wp-content/uploads/2026/11/Nagarjuna-Sagar-Project.jpg",
+  "c": "Namasthe Telangana"
+ },
+ "fact": "AP is digging a *₹1,200 crore* tunnel from Nagarjuna Sagar, Namasthe Telangana reports",
+ "twist": "Sagar officials told the paper they had *no information* about the works.",
+ "areas": [
+  "Nalgonda",
+  "Telangana"
+ ],
+ "layer": "state"
+}

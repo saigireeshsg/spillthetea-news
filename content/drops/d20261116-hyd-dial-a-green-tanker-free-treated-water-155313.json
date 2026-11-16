@@ -1,0 +1,150 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-16",
+ "sort": "2026-11-16-93",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Water board gives sewage-treated water *free*; you pay only transport",
+ "hook_b": "Water board gives sewage-treated water *free*; you pay only transport",
+ "tldr": "HMWSSB's Dial-a-Green Tanker scheme supplies treated water from sewage treatment plants at no cost for non-drinking uses; users pay only transport.",
+ "beats": {
+  "what": "Builders, commercial buildings and apartment associations can register their own tankers or book through the water board.",
+  "why": "To cut use of drinking water and pressure on groundwater for construction and gardening.",
+  "care": "Apartments and sites can book on helpline 155313; the water is for curing, gardening and landscaping, not drinking."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "♻️",
+    "label": "Drinking water stress"
+   }
+  ],
+  "event": {
+   "icon": "🚚",
+   "label": "Free treated water"
+  },
+  "effects": [
+   {
+    "icon": "🌱",
+    "label": "Pay only transport"
+   },
+   {
+    "icon": "🌱",
+    "label": "Less borewell draw"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "One Cyberabad developer already draws 90,000-1.2 lakh litres a day from the Kokapet STP, per TOI."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would your apartment use treated water for gardens?",
+   "opts": [
+    "Yes, right away",
+    "Only if tested",
+    "No, prefer borewell",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Should large gated communities be required to use treated water?"
+   ],
+   "facts": [
+    {
+     "big": "30-40k L",
+     "t": "Each green tanker carries *30,000-40,000 litres*, with 3-4 trips a day for one developer.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/el-nio-threat-puts-construction-sector-in-hyderabad-under-water-stress-builders-pay-three-times-more-for-water/articleshow/135863856.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How to get it",
+   "steps": [
+    {
+     "t": "Call",
+     "e": "Helpline 155313"
+    },
+    {
+     "t": "Choose",
+     "e": "Own tanker or board-booked tanker"
+    },
+    {
+     "t": "Pay",
+     "e": "Transport only; water is free"
+    },
+    {
+     "t": "Use",
+     "e": "Curing, gardening, landscaping"
+    }
+   ]
+  },
+  {
+   "t": "meter",
+   "l": "Drinking water saving target",
+   "v": 20,
+   "unit": "%",
+   "tone": "neutral",
+   "verdict": "Board's target for collective conservation",
+   "max": 100,
+   "d": "20%"
+  },
+  {
+   "t": "big",
+   "v": "155313",
+   "l": "helpline to book"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "155313",
+  "label": "helpline to book",
+  "motion": "drift",
+  "scene": [
+   "♻️",
+   "🚚",
+   "🌱"
+  ]
+ },
+ "learn": {
+  "t": "STP = sewage treatment plant, which cleans waste water for reuse"
+ },
+ "watch": "How many builders and apartments sign up as summer approaches.",
+ "thread": "hyd-dial-a-green-tanker-free-treated-water-155313",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Opt for treated water, water board urges builders in Hyderabad",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/opt-for-treated-water-water-board-urges-builders-in-hyderabad/articleshow/135863976.cms"
+  }
+ ],
+ "updated": 1794790670837,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135863975,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Hyderabad water board now gives treated sewage water *free* for construction and gardens",
+ "twist": "The board's target: save at least *20%* of the city's drinking water through such switches.",
+ "areas": [
+  "Kokapet",
+  "Malkajgiri",
+  "Hyderabad"
+ ],
+ "layer": "city"
+}

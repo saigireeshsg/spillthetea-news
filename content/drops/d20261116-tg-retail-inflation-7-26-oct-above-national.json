@@ -1,0 +1,153 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-16",
+ "sort": "2026-11-16-95",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "prices",
+ "hook": "Telangana inflation hits *7.26%*, first time above 7% this year",
+ "hook_b": "Telangana inflation hits *7.26%*, first time above 7% this year",
+ "tldr": "NSO data show Telangana's CPI inflation rose to 7.26% in October from 6.64% in September, against 6.09% nationally.",
+ "beats": {
+  "what": "Telangana is among six states above 7%, with Tamil Nadu (7.29%) slightly higher.",
+  "why": "Food prices led nationally; a CESS economist says lower farm output due to El Niño could be one reason, and rice prices added in Telangana.",
+  "care": "Everyday costs (food, rent, hostel mess) rise faster than the national average here."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛒",
+    "label": "Food and rice prices"
+   }
+  ],
+  "event": {
+   "icon": "📈",
+   "label": "Inflation tops 7%"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Rural 8.05%"
+   },
+   {
+    "icon": "💸",
+    "label": "1.17 pts over India"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Nationally, onion prices rose 116% year on year in October and garlic 61%, per NSO."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Where are rising prices hurting you most?",
+   "opts": [
+    "Food and groceries",
+    "Rent",
+    "Travel",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Why is rural inflation higher than urban here?",
+    "Will food prices ease after the next harvest?"
+   ],
+   "facts": [
+    {
+     "big": "8.94%",
+     "t": "India's food inflation rose to *8.94%* in October from 7.74% in September.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/ts-inflation-breaches-7-mark-in-oct-zooms-past-national-avg/articleshow/135864496.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "trend",
+   "l": "Telangana retail inflation 2026 (%)",
+   "pts": [
+    [
+     "Jan",
+     4.92
+    ],
+    [
+     "Mar",
+     5.83
+    ],
+    [
+     "May",
+     6.15
+    ],
+    [
+     "Jul",
+     6.32
+    ],
+    [
+     "Sep",
+     6.64
+    ],
+    [
+     "Oct",
+     7.26
+    ]
+   ],
+   "unit": "%",
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Rising prices cut what households can buy"
+  },
+  {
+   "t": "big",
+   "v": "7.26%",
+   "l": "Telangana CPI, October"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "7.26%",
+  "label": "Telangana CPI, October",
+  "motion": "drift",
+  "scene": [
+   "🛒",
+   "📈",
+   "💸"
+  ]
+ },
+ "insight": "Rural Telangana is hit harder: 8.05% against 6.68% in towns and cities.",
+ "learn": {
+  "t": "CPI inflation = how fast prices of things households buy rise, year on year",
+  "show": false
+ },
+ "watch": "November CPI data from NSO, due next month.",
+ "thread": "tg-retail-inflation-7-26-oct-above-national",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "T's inflation breaches 7% mark in Oct, zooms past national avg",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/ts-inflation-breaches-7-mark-in-oct-zooms-past-national-avg/articleshow/135864496.cms"
+  }
+ ],
+ "updated": 1794790670837,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135864495,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Telangana retail inflation crossed *7%* in October, for the first time in 2026",
+ "twist": "It has stayed above the national average for *10 months* straight; October's gap was 1.17 points.",
+ "areas": [
+  "Telangana"
+ ],
+ "layer": "state"
+}

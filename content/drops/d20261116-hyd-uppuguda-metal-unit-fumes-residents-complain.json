@@ -1,0 +1,137 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-16",
+ "sort": "2026-11-16-90",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Uppuguda colony says a metal unit sent *12* people to hospital",
+ "hook_b": "Uppuguda colony says a metal unit sent *12* people to hospital",
+ "tldr": "Residents of Hanuman Nagar in Uppuguda say an allegedly unpermitted metal-processing unit in their colony has spread fumes, metal dust and noise for nearly two months.",
+ "beats": {
+  "what": "About 30-35 families (200-250 people) are affected, residents say; they petitioned GHMC's Charminar zone in October.",
+  "why": "Residents allege the unit runs from an open plot without municipal permission or pollution clearance.",
+  "care": "GHMC's Charminar zonal commissioner says GHMC will act, but the Labour Department and Pollution Control Board also need to."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏭",
+    "label": "Unit in residential lane"
+   }
+  ],
+  "event": {
+   "icon": "😷",
+   "label": "Fumes, dust, noise"
+  },
+  "effects": [
+   {
+    "icon": "🏘️",
+    "label": "Breathing complaints"
+   },
+   {
+    "icon": "🏘️",
+    "label": "Kids' study disturbed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Residents have asked GHMC and TGPCB to inspect the site; the unit's side is not in the report."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Who should act first here?",
+   "opts": [
+    "GHMC",
+    "Pollution board",
+    "Police",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who checks whether small units have pollution clearance?"
+   ],
+   "facts": [
+    {
+     "big": "5",
+     "t": "The residents' petition cites *five* police complaint IDs.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/fumes-filth-and-noise-fuel-residents-fury-in-uppuguda-colony/articleshow/135864694.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How it unfolded (residents' account)",
+   "steps": [
+    {
+     "t": "~Sep",
+     "e": "Unit starts; complaints begin"
+    },
+    {
+     "t": "Sep-Nov",
+     "e": "7-8 calls to 100, 5 police complaints"
+    },
+    {
+     "t": "Oct",
+     "e": "Prajavani petition to GHMC Charminar zone"
+    },
+    {
+     "t": "Now",
+     "e": "GHMC says it will act"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "12",
+   "l": "in hospital, residents say"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "12",
+  "label": "in hospital, residents say",
+  "motion": "drift",
+  "scene": [
+   "🏭",
+   "😷",
+   "🏘️"
+  ]
+ },
+ "watch": "Whether GHMC and TGPCB inspect the unit.",
+ "thread": "hyd-uppuguda-metal-unit-fumes-residents-complain",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Fumes, filth and noise fuel residents' fury in Uppuguda colony",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/fumes-filth-and-noise-fuel-residents-fury-in-uppuguda-colony/articleshow/135864694.cms"
+  }
+ ],
+ "updated": 1794790670838,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135864693,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Uppuguda residents say fumes from a metal unit put *12* people in hospital",
+ "twist": "Residents say they dialled 100 about *7-8 times* since September; the unit restarts after each halt.",
+ "areas": [
+  "Uppuguda",
+  "Chatrinaka",
+  "Charminar"
+ ],
+ "layer": "near"
+}
