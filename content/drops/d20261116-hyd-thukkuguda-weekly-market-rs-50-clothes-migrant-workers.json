@@ -1,0 +1,134 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-16",
+ "sort": "2026-11-16-70",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "city life",
+ "hook": "Thukkuguda's weekly market sells shirts and trousers for *₹50*",
+ "hook_b": "Thukkuguda's weekly market sells shirts and trousers for *₹50*",
+ "tldr": "Second-hand clothes at ₹50 a piece are drawing migrant workers to Thukkuguda's weekly market, Telangana Today reports.",
+ "beats": {
+  "what": "Vendors like Renuka travel from Champapet every week to sell used garments; most buyers work at construction sites and nearby units.",
+  "why": "Workers from other States want to keep daily costs low, vendors and buyers say.",
+  "care": "The market shows how fast the airport-side belt around Thukkuguda is filling with new workers."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏭",
+    "label": "New jobs around Thukkuguda"
+   }
+  ],
+  "event": {
+   "icon": "👕",
+   "label": "Weekly second-hand clothes market"
+  },
+  "effects": [
+   {
+    "icon": "🛍️",
+    "label": "Cheap wear for migrant workers"
+   },
+   {
+    "icon": "🛍️",
+    "label": "Steady business for vendors"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 16): a worker from Bihar told the paper ₹50 a pair is affordable when there are many other expenses to manage."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you buy second-hand clothes at a weekly market?",
+   "opts": [
+    "Already do",
+    "Would try",
+    "Prefer new",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What other services are springing up for new workers around Thukkuguda?",
+    "Where do the second-hand clothes come from?"
+   ],
+   "facts": [
+    {
+     "big": "Weekly",
+     "t": "Vendor Renuka travels from *Champapet* every week to sell at the market.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/thukkugudas-weekly-market-offers-clothes-at-throwaway-prices"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the ₹50 market works",
+   "steps": [
+    {
+     "t": "Weekly",
+     "e": "Vendors travel in, some from Champapet"
+    },
+    {
+     "t": "Stock",
+     "e": "Second-hand shirts and trousers"
+    },
+    {
+     "t": "Buyers",
+     "e": "Construction and factory workers from other States"
+    },
+    {
+     "t": "Why here",
+     "e": "Defence, aeronautics, gems firms nearby"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A market shaped by the area's new workforce"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹50",
+  "label": "a shirt or trousers",
+  "motion": "drift",
+  "scene": [
+   "🏭",
+   "👕",
+   "🛍️"
+  ]
+ },
+ "watch": "Whether the weekly market grows as more firms set up around Thukkuguda.",
+ "thread": "hyd-thukkuguda-weekly-market-rs-50-clothes-migrant-workers",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Thukkuguda's weekly market offers clothes at throwaway prices",
+   "url": "https://telanganatoday.com/thukkugudas-weekly-market-offers-clothes-at-throwaway-prices"
+  }
+ ],
+ "updated": 1794830292224,
+ "fact": "At Thukkuguda's weekly market, *₹50* buys a shirt or a pair of trousers",
+ "twist": "The rush is driven by defence, aeronautics and gems firms turning the area into a job hub, not just construction.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Untitled-1-26.jpg",
+  "c": "Telangana Today"
+ },
+ "areas": [
+  "Thukkuguda",
+  "Champapet"
+ ],
+ "layer": "near"
+}

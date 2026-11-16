@@ -1,0 +1,170 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-16",
+ "sort": "2026-11-16-92",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Srisailam slips to *829 ft*, below its minimum drawdown level",
+ "hook_b": "Srisailam slips to *829 ft*, below its minimum drawdown level",
+ "tldr": "Srisailam holds 48.57 TMC against a 215.80 TMC capacity, and the Krishna and Godavari river boards have not met to settle Telangana's drinking water share.",
+ "beats": {
+  "what": "Inflows from Jurala, Sunkesula and Handri have stopped; the reservoir lost 3.03 TMC in nine days in early November.",
+  "why": "Annual inflows were just 218 TMC due to El Niño, and Telangana and AP have not agreed on drinking water allocations.",
+  "care": "Srisailam water is needed for drinking supply in Hyderabad, Nalgonda and Khammam until July next year."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌡️",
+    "label": "Weak El Niño inflows"
+   }
+  ],
+  "event": {
+   "icon": "🏞️",
+   "label": "Srisailam below minimum drawdown"
+  },
+  "effects": [
+   {
+    "icon": "🚱",
+    "label": "Summer drinking water at risk"
+   },
+   {
+    "icon": "🚱",
+    "label": "TG-AP share still unsettled"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 16): Telangana has sought 5 TMC from Srisailam for erstwhile Mahabubnagar via Kalwakurthy and Palamuru-Rangareddy schemes; no decision yet."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How should Telangana and AP split Krishna drinking water?",
+   "opts": [
+    "By population",
+    "50:50",
+    "Let KRMB decide",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What happens to Hyderabad's Krishna supply if no share is agreed before summer?",
+    "Why do the two States disagree on the meeting agenda?"
+   ],
+   "facts": [
+    {
+     "big": "0.33 TMC",
+     "t": "Srisailam lost *3.03 TMC* in nine days, about 0.33 TMC a day.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-faces-drinking-water-crisis-over-delayed-river-board-meetings"
+    },
+    {
+     "big": "218 TMC",
+     "t": "Annual inflows into Srisailam were just *218 TMC* this year, due to El Niño.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-faces-drinking-water-crisis-over-delayed-river-board-meetings"
+    },
+    {
+     "big": "46 TMC",
+     "t": "Telangana seeks *46 TMC* for drinking water against a total demand of 200 TMC.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-faces-drinking-water-crisis-over-delayed-river-board-meetings"
+    },
+    {
+     "big": "160 MLD",
+     "t": "AP is going ahead with a *160 MLD* drinking water project from Nagarjuna Sagar, sources told the paper.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-faces-drinking-water-crisis-over-delayed-river-board-meetings"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Srisailam storage now",
+   "v": 48.57,
+   "max": 215.8,
+   "d": "48.57 of 215.80 TMC",
+   "unit": "TMC",
+   "tone": "bad",
+   "verdict": "Low storage before summer: drinking supply for Hyderabad, Nalgonda, Khammam under pressure"
+  },
+  {
+   "t": "timeline",
+   "l": "River board meetings that didn't happen",
+   "now": 3,
+   "steps": [
+    {
+     "t": "Jan 21, 2025",
+     "e": "Last regular KRMB meeting"
+    },
+    {
+     "t": "Aug 18",
+     "e": "18th GRMB meeting scheduled, deferred"
+    },
+    {
+     "t": "Oct 26",
+     "e": "21st KRMB meeting deferred, no new date"
+    },
+    {
+     "t": "Oct 30",
+     "e": "GRMB proposed date, deferred again"
+    },
+    {
+     "t": "Till July 2027",
+     "e": "Srisailam needed for city drinking water"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Allocation still unsettled between TG and AP"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "22%",
+  "label": "of Srisailam's capacity left",
+  "motion": "drift",
+  "scene": [
+   "🌡️",
+   "🏞️",
+   "🚱"
+  ]
+ },
+ "learn": {
+  "t": "Minimum drawdown level = the lowest reservoir level at which water can normally be drawn out",
+  "show": true
+ },
+ "watch": "A fresh date for the 21st KRMB meeting, deferred since May.",
+ "thread": "tg-srisailam-below-minimum-drawdown-krmb-meetings-deferred",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana faces drinking water crisis over delayed river board meetings",
+   "url": "https://telanganatoday.com/telangana-faces-drinking-water-crisis-over-delayed-river-board-meetings"
+  }
+ ],
+ "updated": 1794830292224,
+ "fact": "Srisailam has fallen to *829 ft*, below its 834-ft minimum drawdown level",
+ "twist": "The last regular Krishna river board meeting was on Jan 21, 2025; the Oct 26 one was deferred with no new date.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/drought.jpg",
+  "c": "Telangana Today"
+ },
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "state"
+}

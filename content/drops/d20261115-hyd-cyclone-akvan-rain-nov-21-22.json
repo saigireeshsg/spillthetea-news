@@ -41,7 +41,7 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "Update Nov 16: IMD now puts landfall between Nellore and Tuni by Nov 20 noon, winds 120-130 kmph gusting to 145 kmph. Earlier forecast: Chennai-Bapatla around Nov 19."
+   "body": "Update Nov 16 eve: IMD-Hyderabad puts Bhadradri Kothagudem, Khammam, Mahabubabad and Suryapet on orange alert for Nov 20, and Bhupalapally, Mulugu, Bhadradri and Khammam for Nov 21. No warning for Telangana for the next three days; thunderstorms may start in eastern districts on Nov 19."
   },
   {
    "k": "poll",
@@ -72,6 +72,12 @@
      "t": "The Nellore-Tuni window covers about *500 km*, nearly half of AP's 1,053-km coastline.",
      "s": "The Hindu",
      "u": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-akvan-to-cross-andhra-coast-between-nellore-and-tuni-by-november-20-noon-says-imd/article71706785.ece"
+    },
+    {
+     "big": "6",
+     "t": "*6* districts are under orange alert across Nov 20-21; Hyderabad is not one of them.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/cyclone-akvan-may-bring-rains-to-telangana-between-november-19-and-21/article71707448.ece"
     }
    ]
   }
@@ -89,6 +95,10 @@
     {
      "t": "After Nov 18",
      "e": "Hyderabad's night chill likely to ease"
+    },
+    {
+     "t": "Nov 19",
+     "e": "Thunderstorms likely: Mulugu, Khammam, Nalgonda, Suryapet"
     },
     {
      "t": "Nov 20 noon",
@@ -148,6 +158,11 @@
  "thread": "hyd-cyclone-akvan-rain-nov-21-22",
  "sources": [
   {
+   "name": "The Hindu",
+   "title": "Cyclone Akvan may bring rains to Telangana between November 19 and 21",
+   "url": "https://www.thehindu.com/news/national/telangana/cyclone-akvan-may-bring-rains-to-telangana-between-november-19-and-21/article71707448.ece"
+  },
+  {
    "name": "Telangana Today",
    "title": "Cyclone Akvan may bring rain to Telangana from November 20, IMD forecasts",
    "url": "https://telanganatoday.com/cyclone-akvan-may-bring-rain-to-telangana-from-november-20-imd-forecasts"
@@ -163,7 +178,7 @@
    "url": "https://www.siasat.com/hyderabad-shivers-as-temperatures-drop-imd-forecasts-hazy-conditions-3578417/"
   }
  ],
- "updated": 1794813209569,
+ "updated": 1794830314360,
  "city": "Hyderabad",
  "img": {
   "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Cyclone-Akvan-may-bring-rain-to-Telangana-from-November-20-IMD-forecasts.jpg",

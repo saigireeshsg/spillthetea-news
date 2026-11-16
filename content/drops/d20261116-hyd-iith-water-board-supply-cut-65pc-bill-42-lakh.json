@@ -1,0 +1,156 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-16",
+ "sort": "2026-11-16-93",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "IIT Hyderabad cut Water Board supply *65%* in 10 months",
+ "hook_b": "IIT Hyderabad cut Water Board supply *65%* in 10 months",
+ "tldr": "With Singur and Manjeera running low, IIT Hyderabad has cut the water it takes from HMWSSB from 2,000 KL to 700 KL using treated sewage, rainwater harvesting and its own borewells.",
+ "beats": {
+  "what": "The campus now runs flush tanks and gardens on water from its three 650 KLD sewage plants and draws from 33 borewells as needed.",
+  "why": "HMWSSB asked institutes like IITH to arrange alternatives until next monsoon, as Singur and Manjeera lack enough water for summer.",
+  "care": "Every litre bulk users skip is water left in the same Manjeera system that feeds parts of Hyderabad."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏞️",
+    "label": "Singur & Manjeera running low"
+   }
+  ],
+  "event": {
+   "icon": "🚰",
+   "label": "IITH cuts Water Board draw to 700 KL"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Bill down to ₹42 lakh/month"
+   },
+   {
+    "icon": "💸",
+    "label": "Treated water runs flush tanks"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 16): the campus of 7,300 residents also fixed leaks and ran water-saving drives for students and staff."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should large campuses and offices be asked to cut Water Board use like this?",
+   "opts": [
+    "Yes, make it a rule",
+    "Keep it voluntary",
+    "Depends on the campus",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Could other large campuses around Hyderabad reuse treated water the same way?",
+    "How much of the saving comes from borewells that also draw on groundwater?"
+   ],
+   "facts": [
+    {
+     "big": "4.79 cr L",
+     "t": "Campus lakes, ponds and bio-swales give a combined storage of over *4.79 crore litres*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/iit-hyderabad-cuts-water-consumption-by-65pc-amid-telangana-water-crisis"
+    },
+    {
+     "big": "14.84 km",
+     "t": "A *14.84 km* bio-swale network slows runoff and recharges groundwater.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/iit-hyderabad-cuts-water-consumption-by-65pc-amid-telangana-water-crisis"
+    },
+    {
+     "big": "7,300",
+     "t": "The campus has *7,300* residents, including 1,000 staff.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/iit-hyderabad-cuts-water-consumption-by-65pc-amid-telangana-water-crisis"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Water drawn from HMWSSB",
+   "goodIfUp": false,
+   "tone": "good",
+   "verdict": "Less pressure on Manjeera supply shared with the city",
+   "a": {
+    "v": 2000,
+    "d": "2,000 KL",
+    "l": "10 months ago"
+   },
+   "b": {
+    "v": 700,
+    "d": "700 KL",
+    "l": "Now"
+   }
+  },
+  {
+   "t": "compare",
+   "l": "IITH monthly water bill",
+   "goodIfUp": false,
+   "tone": "good",
+   "verdict": "The institute pays less; the Water Board sells less",
+   "a": {
+    "v": 100,
+    "d": "₹1 cr+",
+    "l": "10 months ago"
+   },
+   "b": {
+    "v": 42,
+    "d": "₹42 lakh",
+    "l": "Now"
+   }
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "700 KL",
+  "label": "from HMWSSB, down from 2,000 KL",
+  "motion": "drift",
+  "scene": [
+   "🏞️",
+   "🚰",
+   "💸"
+  ]
+ },
+ "watch": "Whether other bulk users follow before summer, when HMWSSB expects Manjeera supply to tighten further.",
+ "thread": "hyd-iith-water-board-supply-cut-65pc-bill-42-lakh",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "IIT Hyderabad cuts water consumption by 65pc amid Telangana water crisis",
+   "url": "https://telanganatoday.com/iit-hyderabad-cuts-water-consumption-by-65pc-amid-telangana-water-crisis"
+  }
+ ],
+ "updated": 1794830292223,
+ "fact": "IIT Hyderabad cut its Water Board supply by *65%* in just 10 months",
+ "twist": "Its monthly water bill fell from over ₹1 crore to ₹42 lakh.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/iit-hyd-1.jpg",
+  "c": "Telangana Today"
+ },
+ "areas": [
+  "Sangareddy",
+  "Kandi"
+ ],
+ "layer": "state"
+}
