@@ -11,7 +11,7 @@
  "hook_b": "Cyclone *Akvan* could end Hyderabad's cold dry spell by Nov 21",
  "tldr": "IMD Hyderabad says Cyclone Akvan may bring rain to Telangana from Nov 20, with Hyderabad likely to see showers on Nov 21-22.",
  "beats": {
-  "what": "Cyclone Akvan is expected to form over the Bay of Bengal on Nov 16-17 and cross the coast between Chennai and Bapatla, focused on south Andhra Pradesh, around Nov 19.",
+  "what": "IMD (Nov 16): Akvan, expected to form over the Bay of Bengal on Monday evening, is very likely to cross the Andhra Pradesh and Yanam coast between Nellore and Tuni by noon on Nov 20 as a very severe cyclonic storm.",
   "why": "After landfall, the system is forecast to push rain across Telangana from Nov 20 to 22.",
   "care": "Khammam, Bhadradri Kothagudem, Mahabubabad, Suryapet, Nalgonda and Mulugu may see isolated heavy rain, lightning and gusty winds on Nov 20-21."
  },
@@ -24,7 +24,7 @@
   ],
   "event": {
    "icon": "🌊",
-   "label": "Landfall near south AP around Nov 19"
+   "label": "Landfall Nellore-Tuni by Nov 20 noon"
   },
   "effects": [
    {
@@ -41,7 +41,7 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "IMD Hyderabad's Sunday forecast: light to moderate thundershowers in eastern districts first, then the rest of Telangana including Hyderabad."
+   "body": "Update Nov 16: IMD now puts landfall between Nellore and Tuni by Nov 20 noon, winds 120-130 kmph gusting to 145 kmph. Earlier forecast: Chennai-Bapatla around Nov 19."
   },
   {
    "k": "poll",
@@ -66,6 +66,12 @@
      "t": "Thunderstorms with lightning are possible in *8* districts including Warangal, Karimnagar and Mancherial.",
      "s": "Telangana Today",
      "u": "https://telanganatoday.com/cyclone-akvan-may-bring-rain-to-telangana-from-november-20-imd-forecasts"
+    },
+    {
+     "big": "~500 km",
+     "t": "The Nellore-Tuni window covers about *500 km*, nearly half of AP's 1,053-km coastline.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-akvan-to-cross-andhra-coast-between-nellore-and-tuni-by-november-20-noon-says-imd/article71706785.ece"
     }
    ]
   }
@@ -77,12 +83,16 @@
    "now": 0,
    "steps": [
     {
-     "t": "Nov 16-17",
+     "t": "Nov 16 eve",
      "e": "Cyclone expected to form, Bay of Bengal"
     },
     {
-     "t": "~Nov 19",
-     "e": "Coast crossing, Chennai-Bapatla stretch"
+     "t": "After Nov 18",
+     "e": "Hyderabad's night chill likely to ease"
+    },
+    {
+     "t": "Nov 20 noon",
+     "e": "Landfall Nellore-Tuni, gusts to 145 kmph"
     },
     {
      "t": "Nov 20-21",
@@ -95,6 +105,22 @@
    ],
    "tone": "neutral",
    "verdict": "Forecast, not yet a warning: timing can shift"
+  },
+  {
+   "t": "compare",
+   "l": "Landfall forecast moved",
+   "a": {
+    "v": 19,
+    "d": "~Nov 19",
+    "l": "Chennai-Bapatla (Nov 15)"
+   },
+   "b": {
+    "v": 20,
+    "d": "Nov 20 noon",
+    "l": "Nellore-Tuni (Nov 16)"
+   },
+   "tone": "neutral",
+   "verdict": "Track shifted north; experts say it may change again"
   },
   {
    "t": "big",
@@ -118,23 +144,33 @@
    "🌧️"
   ]
  },
- "watch": "IMD updates once the cyclone forms on Nov 16-17; district alerts for Nov 20.",
+ "watch": "IMD bulletins as Akvan forms; experts say its course may change again before Nov 20.",
  "thread": "hyd-cyclone-akvan-rain-nov-21-22",
  "sources": [
   {
    "name": "Telangana Today",
    "title": "Cyclone Akvan may bring rain to Telangana from November 20, IMD forecasts",
    "url": "https://telanganatoday.com/cyclone-akvan-may-bring-rain-to-telangana-from-november-20-imd-forecasts"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Cyclone Akvan to cross Andhra coast between Nellore and Tuni by November 20 noon, says IMD",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cyclone-akvan-to-cross-andhra-coast-between-nellore-and-tuni-by-november-20-noon-says-imd/article71706785.ece"
+  },
+  {
+   "name": "Siasat",
+   "title": "Hyderabad shivers as temperatures drop, IMD forecasts hazy conditions",
+   "url": "https://www.siasat.com/hyderabad-shivers-as-temperatures-drop-imd-forecasts-hazy-conditions-3578417/"
   }
  ],
- "updated": 1794743812020,
+ "updated": 1794813209569,
  "city": "Hyderabad",
  "img": {
   "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Cyclone-Akvan-may-bring-rain-to-Telangana-from-November-20-IMD-forecasts.jpg",
   "c": "Telangana Today"
  },
  "fact": "Cyclone *Akvan* may bring showers to Hyderabad on Nov 21-22, says IMD.",
- "twist": "Before the rain, Moula Ali and BHEL are still dipping to around 14°C at dawn.",
+ "twist": "IMD now expects a very severe cyclonic storm at landfall, with gusts up to 145 kmph.",
  "areas": [
   "Hyderabad",
   "Moula Ali",

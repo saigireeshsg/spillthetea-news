@@ -1,0 +1,135 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-16",
+ "sort": "2026-11-16-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "Tolichowki kitchen fire climbed to the *6th* floor next door",
+ "hook_b": "Tolichowki kitchen fire climbed to the *6th* floor next door",
+ "tldr": "A fire that started in Mandi King restaurant's kitchen chimney in Tolichowki around midnight on Sunday spread to the neighbouring Hotel Zunera.",
+ "beats": {
+  "what": "The blaze began in the second-floor kitchen chimney of Mandi King between 11 pm and midnight, then reached Zunera's fourth and fifth floors.",
+  "why": "Thick smoke engulfed several floors; flames were reported up to the sixth floor.",
+  "care": "The cause and extent of damage have not yet been determined, Telangana Today reports."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔥",
+    "label": "Fire in 2nd-floor kitchen chimney"
+   }
+  ],
+  "event": {
+   "icon": "🏢",
+   "label": "Spreads to neighbouring hotel"
+  },
+  "effects": [
+   {
+    "icon": "🚪",
+    "label": "Smoke engulfs several floors"
+   },
+   {
+    "icon": "🚪",
+    "label": "Customers evacuated, no casualties"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Fire started between 11 pm and midnight Sunday in a 2nd-floor kitchen chimney and spread to the hotel next door."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "When you eat at a multi-floor restaurant, do you notice the fire exits?",
+   "opts": [
+    "Always check",
+    "Sometimes",
+    "Never thought about it",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who checks fire safety in kitchens of multi-storey restaurants?",
+    "How quickly can a chimney fire jump to the building next door?"
+   ],
+   "facts": [
+    {
+     "big": "0",
+     "t": "*No casualties* were reported; staff evacuated customers through emergency exits.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-fire-at-mandi-king-spreads-to-neighbouring-hotel-zunera-in-tolichowki"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the fire moved",
+   "now": 3,
+   "steps": [
+    {
+     "t": "11 pm-12 am",
+     "e": "Starts in 2nd-floor kitchen chimney"
+    },
+    {
+     "t": "Next",
+     "e": "Spreads to Zunera's 4th & 5th floors"
+    },
+    {
+     "t": "Peak",
+     "e": "Flames reported up to 6th floor"
+    },
+    {
+     "t": "Now",
+     "e": "No casualties; cause, damage undetermined"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Two buildings hit; no one hurt"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "6th floor",
+  "label": "flames reported up to",
+  "motion": "drift",
+  "scene": [
+   "🔥",
+   "🏢",
+   "🚪"
+  ]
+ },
+ "watch": "Officials are yet to state the cause and the extent of damage.",
+ "thread": "hyd-tolichowki-mandi-king-fire-spreads-hotel-zunera",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad: Fire at Mandi King spreads to neighbouring Hotel Zunera in Tolichowki",
+   "url": "https://telanganatoday.com/hyderabad-fire-at-mandi-king-spreads-to-neighbouring-hotel-zunera-in-tolichowki"
+  }
+ ],
+ "updated": 1794813193583,
+ "city": "Hyderabad",
+ "fact": "A Tolichowki restaurant chimney fire spread up to the *6th* floor of the next hotel.",
+ "twist": "Several customers were inside; staff got them out through emergency exits and moved gas cylinders away. No casualties.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Hyderabad-Fire-at-Mandi-King-spreads-to-neighbouring-Hotel-Zunera-in-Tolichowki.jpg",
+  "c": "Telangana Today"
+ },
+ "layer": "near",
+ "areas": [
+  "Tolichowki"
+ ]
+}

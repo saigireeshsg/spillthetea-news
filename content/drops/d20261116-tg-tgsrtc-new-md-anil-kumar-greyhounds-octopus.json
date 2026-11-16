@@ -1,0 +1,134 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-16",
+ "sort": "2026-11-16-78",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "transport",
+ "hook": "Ex-Greyhounds, OCTOPUS chief now runs *TGSRTC* buses",
+ "hook_b": "Ex-Greyhounds, OCTOPUS chief now runs *TGSRTC* buses",
+ "tldr": "Senior IPS officer Dr Anil Kumar assumed charge as Vice-Chairman and Managing Director of TGSRTC at Bus Bhavan in Hyderabad on Monday.",
+ "beats": {
+  "what": "He was appointed by the State government on Nov 12 as part of the latest administrative changes.",
+  "why": "He previously held key police posts, including heading Operations, Greyhounds and OCTOPUS.",
+  "care": "He will oversee the administration and functioning of TGSRTC, which runs public bus services across Telangana."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📋",
+    "label": "State reshuffle, Nov 12"
+   }
+  ],
+  "event": {
+   "icon": "🚌",
+   "label": "New VC & MD at TGSRTC"
+  },
+  "effects": [
+   {
+    "icon": "🧭",
+    "label": "Runs statewide bus services"
+   },
+   {
+    "icon": "🧭",
+    "label": "Ex-police operations head at helm"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Dr Anil Kumar took charge as TGSRTC VC & MD at Bus Bhavan on Monday."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What should the new TGSRTC chief's first update be about?",
+   "opts": [
+    "Bus frequency",
+    "Ticket prices",
+    "New routes",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What changes for daily bus riders when TGSRTC gets a new chief?"
+   ],
+   "facts": [
+    {
+     "big": "3",
+     "t": "He earlier headed *3* police wings: Operations, Greyhounds and OCTOPUS.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/dr-anil-kumar-assumes-charge-as-telangana-state-road-transport-corporation-vc-and-md"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "From order to office",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Nov 12",
+     "e": "State government appoints him"
+    },
+    {
+     "t": "Nov 16",
+     "e": "Takes charge at Bus Bhavan"
+    },
+    {
+     "t": "Next",
+     "e": "Oversees TGSRTC statewide"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Leadership change at the state bus body"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 16",
+  "label": "took charge at Bus Bhavan",
+  "motion": "drift",
+  "scene": [
+   "📋",
+   "🚌",
+   "🧭"
+  ]
+ },
+ "learn": {
+  "t": "VC & MD = Vice-Chairman and Managing Director, the top executive post at TGSRTC",
+  "show": true
+ },
+ "watch": "Any first announcements from Bus Bhavan on services or routes.",
+ "thread": "tg-tgsrtc-new-md-anil-kumar-greyhounds-octopus",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Dr Anil Kumar assumes charge as Telangana State Road Transport Corporation VC and MD",
+   "url": "https://telanganatoday.com/dr-anil-kumar-assumes-charge-as-telangana-state-road-transport-corporation-vc-and-md"
+  }
+ ],
+ "updated": 1794813193583,
+ "city": "Hyderabad",
+ "fact": "A senior IPS officer who headed Greyhounds and OCTOPUS now runs *TGSRTC*.",
+ "twist": "He took charge at Bus Bhavan on Monday, four days after the State government's Nov 12 appointment order.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Dr-Anil-Kumar-assumes-charge-as-Telangana-State-Road-Transport-Corporation-VC-and-MD.jpg",
+  "c": "Telangana Today"
+ },
+ "layer": "state",
+ "areas": [
+  "Hyderabad"
+ ]
+}

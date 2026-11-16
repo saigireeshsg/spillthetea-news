@@ -1,0 +1,139 @@
+{
+ "cat": "world",
+ "lead": "world",
+ "date": "2026-11-16",
+ "sort": "2026-11-16-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "students abroad",
+ "hook": "TANA to Telugu students in US: skip the *Thanksgiving* trip home",
+ "hook_b": "TANA to Telugu students in US: skip the *Thanksgiving* trip home",
+ "tldr": "Telugu students in the US are reconsidering Thanksgiving trips to India over visa renewals, immigration scrutiny and flight disruptions; TANA is advising them to stay put.",
+ "beats": {
+  "what": "TANA says it has been getting enquiries from students and is advising them to celebrate Thanksgiving in the US.",
+  "why": "Students whose visa stamps have expired or are due to expire worry about getting fresh appointments; reports of stranded passengers add to it.",
+  "care": "Students with pending OPT applications are also weighing the risk, which depends on individual status and documents."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛂",
+    "label": "Visa slots, stricter checks"
+   }
+  ],
+  "event": {
+   "icon": "✈️",
+   "label": "TANA: don't travel now"
+  },
+  "effects": [
+   {
+    "icon": "🏠",
+    "label": "Students rethink trips home"
+   },
+   {
+    "icon": "🏠",
+    "label": "OPT applicants weigh risk"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Yale (Nov 10), Berkeley and Michigan (Nov 12) have issued travel advisories ahead of the break."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Someone in your family studying in the US: are they flying home this break?",
+   "opts": [
+    "Yes, flying home",
+    "No, staying there",
+    "Still deciding",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who carries the risk if a student's re-entry is delayed: the student or the university?",
+    "Will visa appointment availability change before winter break?"
+   ],
+   "facts": [
+    {
+     "big": "3",
+     "t": "*3* US universities, Yale, Berkeley and Michigan, issued travel cautions between Nov 10 and Nov 12.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/planning-a-thanksgiving-trip-home-telugu-students-in-us-are-being-advised-against-travelling-to-india-as-visa-appointment-uncertainty-stricter-immigration-checks-and-flight-disruptions-raise-fears-of-getting-stranded/articleshow/135872215.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Advisories so far",
+   "now": 2,
+   "steps": [
+    {
+     "t": "Nov 10",
+     "e": "Yale: check visa and documents"
+    },
+    {
+     "t": "Nov 12",
+     "e": "Berkeley: travel 'may be high risk'"
+    },
+    {
+     "t": "Nov 12",
+     "e": "Michigan: visa slots short in some regions"
+    },
+    {
+     "t": "Nov 16",
+     "e": "TANA: stay in the US for now"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Students face harder trips home"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#0d1b2e",
+   "#25508a"
+  ],
+  "big": "Nov 12",
+  "label": "Berkeley & Michigan advisories",
+  "motion": "drift",
+  "scene": [
+   "🛂",
+   "✈️",
+   "🏠"
+  ]
+ },
+ "learn": {
+  "t": "OPT = Optional Practical Training, US work permission for students after their course",
+  "show": true
+ },
+ "watch": "Further university advisories before the holiday break.",
+ "thread": "hyd-telugu-students-us-thanksgiving-tana-stay-put",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Telugu students in US advised against travelling to India for Thanksgiving",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/planning-a-thanksgiving-trip-home-telugu-students-in-us-are-being-advised-against-travelling-to-india-as-visa-appointment-uncertainty-stricter-immigration-checks-and-flight-disruptions-raise-fears-of-getting-stranded/articleshow/135872215.cms"
+  }
+ ],
+ "updated": 1794813193583,
+ "city": "Hyderabad",
+ "fact": "TANA is telling Telugu students in the US to skip *Thanksgiving* trips home.",
+ "twist": "UC Berkeley's Nov 12 advisory says international travel 'may be high risk' and warns of device inspections at US ports of entry.",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135872257,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "layer": "world",
+ "areas": [
+  "Hyderabad"
+ ]
+}
