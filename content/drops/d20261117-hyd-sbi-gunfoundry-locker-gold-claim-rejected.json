@@ -1,0 +1,145 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-17",
+ "sort": "2026-11-17-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "courts",
+ "hook": "Locker gold went 'missing', but an undated photo wasn't *proof*",
+ "hook_b": "Locker gold went 'missing', but an undated photo wasn't *proof*",
+ "tldr": "The Telangana State Consumer Commission upheld a district order dismissing a claim that gold coins, bars and melted gold went missing from a jointly held SBI locker in Hyderabad.",
+ "beats": {
+  "what": "The holders said they kept about 200 g of gold in 2015; in 2016 eight coins, two bars and some melted gold were found missing.",
+  "why": "The bank said a locker needs two keys, only holders know its contents, and there was no sign of the locker being forced.",
+  "care": "Banks don't record what's inside a locker, so your own dated proof of contents is what counts if anything goes missing."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔐",
+    "label": "Gold allegedly missing from locker"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "Commission rejects appeal"
+  },
+  "effects": [
+   {
+    "icon": "📸",
+    "label": "Undated photo not enough proof"
+   },
+   {
+    "icon": "📸",
+    "label": "Protest petition still open"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI (Nov 17): police had classified the theft case as 'undetectable'; the commission let the holders pursue their pending protest petition."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should banks share responsibility for what goes missing from lockers?",
+   "opts": [
+    "Yes, always",
+    "Only if the locker was forced",
+    "No, holders' risk",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What proof should locker holders keep of what's inside?",
+    "Who bears the risk when a locker isn't forced but items go missing?"
+   ],
+   "facts": [
+    {
+     "big": "2 keys",
+     "t": "Opening the locker needs *two keys*, one with the customer and one with the bank.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/business/india-business/grandmother-granddaughter-say-they-put-200-gms-gold-in-their-bank-locker-in-hyderabad-but-later-8-gold-coins-two-bars-and-some-melted-gold-allegedly-went-missing-they-blame-bank-negligence-and-seek-compensation-but-consumer-commission-rejects-appeal/articleshow/135892169.cms"
+    },
+    {
+     "big": "8 coins",
+     "t": "Holders said *eight* gold coins, two bars and melted gold were missing.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/business/india-business/grandmother-granddaughter-say-they-put-200-gms-gold-in-their-bank-locker-in-hyderabad-but-later-8-gold-coins-two-bars-and-some-melted-gold-allegedly-went-missing-they-blame-bank-negligence-and-seek-compensation-but-consumer-commission-rejects-appeal/articleshow/135892169.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the case went",
+   "tone": "neutral",
+   "verdict": "Holders lost at both consumer forums; police case still open",
+   "steps": [
+    {
+     "t": "2015",
+     "e": "Gold kept in locker, per holders"
+    },
+    {
+     "t": "2016",
+     "e": "Coins, bars found missing"
+    },
+    {
+     "t": "Police",
+     "e": "Case closed as 'undetectable'"
+    },
+    {
+     "t": "Sep 2, 2026",
+     "e": "State commission rejects appeal"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "200 g",
+   "l": "gold claimed missing"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "200 g",
+  "label": "gold claimed missing",
+  "motion": "drift",
+  "scene": [
+   "🔐",
+   "⚖️",
+   "📸"
+  ]
+ },
+ "watch": "The pending protest petition against the police's 'undetectable' closure of the theft case.",
+ "thread": "hyd-sbi-gunfoundry-locker-gold-claim-rejected",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Woman, granddaughter allege gold missing from locker; but commission rejects claim",
+   "url": "https://timesofindia.indiatimes.com/business/india-business/grandmother-granddaughter-say-they-put-200-gms-gold-in-their-bank-locker-in-hyderabad-but-later-8-gold-coins-two-bars-and-some-melted-gold-allegedly-went-missing-they-blame-bank-negligence-and-seek-compensation-but-consumer-commission-rejects-appeal/articleshow/135892169.cms"
+  }
+ ],
+ "updated": 1794876976275,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135894746,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Consumer commission rejected a *200-gram* locker gold loss claim against SBI Gunfoundry",
+ "twist": "The deciding factor: their only proof was a photo with no date or signature.",
+ "layer": "city",
+ "areas": [
+  "Gunfoundry",
+  "Abids"
+ ]
+}

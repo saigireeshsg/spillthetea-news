@@ -1,0 +1,145 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-17",
+ "sort": "2026-11-17-88",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Hyderabad auto drivers call a *day-long* bandh on Nov 30",
+ "hook_b": "Hyderabad auto drivers call a *day-long* bandh on Nov 30",
+ "tldr": "The Mahatma Gandhi Telangana Auto Drivers JAC wants revised meter fares implemented within 15 days, or the Transport Minister's resignation, and has called a bandh on Nov 30.",
+ "beats": {
+  "what": "Demands include revised meter charges, a ban on green cabs, a crackdown on the auto black market and ₹36,000 per driver (₹12,000 a year) as promised.",
+  "why": "The JAC says new cab and bike-taxi services are hurting drivers' earnings and that the promised fare revision hasn't come.",
+  "care": "If the bandh goes ahead, autos may be scarce across the city on Nov 30; plan Metro, bus or cab alternatives."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧾",
+    "label": "Meter fare revision pending"
+   }
+  ],
+  "event": {
+   "icon": "🛺",
+   "label": "Auto JAC calls Nov 30 bandh"
+  },
+  "effects": [
+   {
+    "icon": "🚇",
+    "label": "Autos may be scarce citywide"
+   },
+   {
+    "icon": "🚇",
+    "label": "Bike taxi ban demanded"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat (Nov 16): an August strike by the same association was called off after a meeting with the Transport Minister."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should auto meter fares in Hyderabad be revised?",
+   "opts": [
+    "Yes, revise them",
+    "Keep current fares",
+    "Depends on the new rates",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How would revised meter fares change a typical short auto ride?",
+    "Could talks before Nov 30 end this like the August strike?"
+   ],
+   "facts": [
+    {
+     "big": "₹36,000",
+     "t": "Drivers want *₹36,000* each, at ₹12,000 a year, as promised by the government.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-auto-drivers-strike-on-nov-30-over-revised-fare-3578751/"
+    },
+    {
+     "big": "₹10 lakh",
+     "t": "They seek *₹10 lakh* for the family of a driver allegedly assaulted in September.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-auto-drivers-strike-on-nov-30-over-revised-fare-3578751/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Auto JAC's ask",
+   "tone": "neutral",
+   "verdict": "Drivers seek fare revision; commuters may face a no-auto day",
+   "steps": [
+    {
+     "t": "Aug",
+     "e": "Earlier strike called off after talks"
+    },
+    {
+     "t": "Nov 15",
+     "e": "JAC announces bandh at Hyderguda"
+    },
+    {
+     "t": "Within 15 days",
+     "e": "Demand: revised meter fares"
+    },
+    {
+     "t": "Nov 30",
+     "e": "Day-long auto bandh"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "Nov 30",
+   "l": "auto bandh date"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 30",
+  "label": "auto bandh date",
+  "motion": "drift",
+  "scene": [
+   "🧾",
+   "🛺",
+   "🚇"
+  ]
+ },
+ "watch": "Whether talks with the Transport Minister before Nov 30 lead to the bandh being called off, as in August.",
+ "thread": "hyd-auto-drivers-bandh-nov-30-meter-fares",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad auto drivers' strike on Nov 30 over revised fare",
+   "url": "https://www.siasat.com/hyderabad-auto-drivers-strike-on-nov-30-over-revised-fare-3578751/"
+  }
+ ],
+ "updated": 1794876976274,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/auto-1.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Hyderabad's auto drivers have called a *day-long* city bandh on November 30",
+ "twist": "They also want bike taxis banned in the city, like in Bengaluru.",
+ "layer": "city",
+ "areas": [
+  "Hyderguda",
+  "Hyderabad"
+ ]
+}

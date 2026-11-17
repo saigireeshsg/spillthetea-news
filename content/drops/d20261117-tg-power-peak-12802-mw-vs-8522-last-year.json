@@ -1,0 +1,161 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-17",
+ "sort": "2026-11-17-90",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "power",
+ "hook": "Telangana's Nov evening power peak jumped *50%* in a year",
+ "hook_b": "Telangana's Nov evening power peak jumped *50%* in a year",
+ "tldr": "At a review on Monday, Deputy CM Bhatti Vikramarka said power supply is comfortable despite the El Niño monsoon, with demand rising year on year and two new substations charged in Saroornagar circle.",
+ "beats": {
+  "what": "Peak demand on Nov 16 was 12,802 MW at 7.26 pm: 8,859 MW in the southern discom area and 3,595 MW in the northern one.",
+  "why": "Consumption is rising every year, and the state crossed 20,000 MW for the first time on Oct 15-16.",
+  "care": "New 33/11 kV substations at Dawoodkhanguda and Badangpet are meant to improve supply reliability in Saroornagar circle."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📈",
+    "label": "Demand rising every year"
+   }
+  ],
+  "event": {
+   "icon": "⚡",
+   "label": "Peak hits 12,802 MW on Nov 16"
+  },
+  "effects": [
+   {
+    "icon": "🏠",
+    "label": "New substations in Saroornagar circle"
+   },
+   {
+    "icon": "🏠",
+    "label": "Rabi season spikes on watch"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI and The Hindu (Nov 16): Vikramarka asked officials to watch for demand spikes in the rabi season, as long dry spells are predicted."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How has power supply been in your area this month?",
+   "opts": [
+    "No cuts",
+    "A few short cuts",
+    "Frequent cuts",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will the grid handle rabi-season spikes with hydel power down?",
+    "Do the new substations reduce outages in Saroornagar circle?"
+   ],
+   "facts": [
+    {
+     "big": "20,018 MW",
+     "t": "Telangana's all-time peak was *20,018 MW* on Oct 16, after 20,003 MW the day before.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/power-supply-in-telangana-stable-says-bhatti/articleshow/135900005.cms"
+    },
+    {
+     "big": "4,000 MW",
+     "t": "Hydel generation fell short by *4,000 MW* due to the poor monsoon.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/power-supply-in-telangana-stable-says-bhatti/articleshow/135900005.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Peak demand on Nov 16",
+   "goodIfUp": false,
+   "tone": "neutral",
+   "verdict": "More use for consumers; more load for utilities to meet",
+   "a": {
+    "v": 8522,
+    "d": "8,522 MW",
+    "l": "Nov 16, 2025"
+   },
+   "b": {
+    "v": 12802,
+    "d": "12,802 MW",
+    "l": "Nov 16, 2026"
+   }
+  },
+  {
+   "t": "stack",
+   "l": "Nov 16 peak by discom",
+   "parts": [
+    {
+     "l": "Southern (SPDCL)",
+     "v": 8859
+    },
+    {
+     "l": "Northern (NPDCL)",
+     "v": 3595
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Southern discom, which covers Hyderabad, carries most of the load",
+   "total": "12,802 MW"
+  },
+  {
+   "t": "big",
+   "v": "12,802 MW",
+   "l": "peak demand, Nov 16"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "12,802 MW",
+  "label": "peak demand, Nov 16",
+  "motion": "drift",
+  "scene": [
+   "📈",
+   "⚡",
+   "🏠"
+  ]
+ },
+ "watch": "Whether rabi-season demand pushes past October's 20,018 MW record during the predicted dry spells.",
+ "thread": "tg-power-peak-12802-mw-vs-8522-last-year",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "State power utilities working towards uninterrupted power supply during Rabi, summer",
+   "url": "https://www.thehindu.com/news/national/telangana/state-power-utilities-working-towards-uninterrupted-power-supply-during-rabi-summer/article71708870.ece"
+  },
+  {
+   "name": "Times of India",
+   "title": "Power supply in Telangana stable, says Bhatti",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/power-supply-in-telangana-stable-says-bhatti/articleshow/135900005.cms"
+  }
+ ],
+ "updated": 1794876976274,
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/national/telangana/hcw67p/article71708865.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-16%20at%208.07.23%20PM.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "Telangana's power demand on Nov 16 hit *12,802 MW*, up from 8,522 MW last year",
+ "twist": "Utilities managed it despite a 4,000 MW shortfall in hydel power after a poor monsoon.",
+ "layer": "state",
+ "areas": [
+  "Saroornagar",
+  "Badangpet",
+  "Dawoodkhanguda"
+ ]
+}

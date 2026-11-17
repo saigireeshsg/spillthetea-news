@@ -1,0 +1,145 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-17",
+ "sort": "2026-11-17-85",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Bharat Future City needs *₹18,000 crore* just for core infra",
+ "hook_b": "Bharat Future City needs *₹18,000 crore* just for core infra",
+ "tldr": "The master plan for Bharat Future City is ready, and CM Revanth Reddy is expected to unveil it at the Invest Global Summit on Dec 7-9.",
+ "beats": {
+  "what": "The 30,000-acre core area will host 11 sectors over 13,440 acres, including life sciences, electronics, data centres, an AI city and EV industries.",
+  "why": "Much of the land was acquired earlier for the Hyderabad Green Pharma City; the state now plans a net-zero integrated city on it.",
+  "care": "Roads, water and power for the new city are being planned now, including a greenfield expressway and substations at Meerkhanpet."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📐",
+    "label": "Master plan finalised"
+   }
+  ],
+  "event": {
+   "icon": "🏙️",
+   "label": "₹18,000 cr core infra estimate"
+  },
+  "effects": [
+   {
+    "icon": "🛣️",
+    "label": "Unveil expected Dec 7-9"
+   },
+   {
+    "icon": "🛣️",
+    "label": "15 lakh residents planned"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI (Nov 17): about ₹2,000 crore has already been spent on initial infrastructure works, sources said."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you consider living or working in Bharat Future City?",
+   "opts": [
+    "Yes",
+    "No",
+    "Maybe, once Metro reaches",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Where will 164 MLD of water come from in a dry year?",
+    "When does Metro or BRT reach the new city?"
+   ],
+   "facts": [
+    {
+     "big": "164 MLD",
+     "t": "Nearly *164 MLD* of water is planned from Venkatadri reservoir, including 40 MLD recycled.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/bharat-future-city-master-plan-ready-telangana-govt-pegs-18k-crore-for-core-infra-revanth-reddy-likely-to-unveil-plan-during-bharat-summit/articleshow/135899979.cms"
+    },
+    {
+     "big": "4,000+ acres",
+     "t": "Over *4,000 acres* are reserved for life sciences; 357 acres for data centres.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/bharat-future-city-master-plan-ready-telangana-govt-pegs-18k-crore-for-core-infra-revanth-reddy-likely-to-unveil-plan-during-bharat-summit/articleshow/135899979.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "₹18,000 cr core infra (stated parts)",
+   "parts": [
+    {
+     "l": "Water & waste",
+     "v": 6000
+    },
+    {
+     "l": "Roads",
+     "v": 5000
+    },
+    {
+     "l": "Power",
+     "v": 2350
+    },
+    {
+     "l": "Other",
+     "v": 4650
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Water and roads take most of the planned spend",
+   "total": "₹18,000 cr"
+  },
+  {
+   "t": "big",
+   "v": "₹18,000 cr",
+   "l": "core infra estimate"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹18,000 cr",
+  "label": "core infra estimate",
+  "motion": "drift",
+  "scene": [
+   "📐",
+   "🏙️",
+   "🛣️"
+  ]
+ },
+ "watch": "The master plan's public unveiling at the Invest Global Summit, Dec 7-9.",
+ "thread": "tg-future-city-master-plan-rs-18000-crore-infra",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Bharat Future City master plan ready, Telangana govt pegs ₹18k crore for core infra",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/bharat-future-city-master-plan-ready-telangana-govt-pegs-18k-crore-for-core-infra-revanth-reddy-likely-to-unveil-plan-during-bharat-summit/articleshow/135899979.cms"
+  }
+ ],
+ "updated": 1794876976275,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135899977,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Bharat Future City's core infrastructure alone will cost about *₹18,000 crore*",
+ "twist": "Officials expect 15 lakh people to live there once it is fully developed.",
+ "layer": "state",
+ "areas": [
+  "Meerkhanpet"
+ ]
+}

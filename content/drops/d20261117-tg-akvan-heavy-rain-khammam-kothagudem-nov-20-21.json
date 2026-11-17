@@ -1,0 +1,148 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-17",
+ "sort": "2026-11-17-95",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "weather",
+ "hook": "Akvan could dump up to *204 mm* on 4 Telangana districts",
+ "hook_b": "Akvan could dump up to *204 mm* on 4 Telangana districts",
+ "tldr": "IMD Hyderabad scaled up its Cyclone Akvan warnings: heavy to very heavy rain and 50-60 kmph squally winds are likely in Bhadradri Kothagudem, Khammam, Suryapet and Mahabubabad on Nov 20-21.",
+ "beats": {
+  "what": "IMD forecasts dry, chilly weather for three days, then rain and thundershowers in eastern districts from Nov 19, turning heavy on Nov 20-22.",
+  "why": "Cyclone Akvan is approaching the Andhra coast, and its rain bands are expected to spread over eastern and southeastern Telangana.",
+  "care": "Trips by road or rail to Khammam, Warangal or Bhadrachalam side on Nov 20-22 may run into heavy rain and strong winds."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌀",
+    "label": "Cyclone Akvan nears Andhra coast"
+   }
+  ],
+  "event": {
+   "icon": "🌧️",
+   "label": "IMD ups Telangana rain alert"
+  },
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Heavy rain in 4 eastern districts"
+   },
+   {
+    "icon": "🚗",
+    "label": "Hyderabad stays largely dry"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 17): Mulugu, Nalgonda, Jangaon, Yadadri Bhuvanagiri, Warangal and Hanamkonda also have heavy-rain warnings with 40-50 kmph winds."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you postpone a road trip east of Hyderabad on Nov 20-22?",
+   "opts": [
+    "Yes, I'd wait",
+    "No, I'd still go",
+    "Depends on the alert",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much of Akvan's rain will reach Hyderabad if its track shifts?",
+    "Which districts are on a heavy-rain warning on more than one day?"
+   ],
+   "facts": [
+    {
+     "big": "64.5-115.5 mm",
+     "t": "IMD counts *64.5-115.5 mm* in a day as 'heavy' rain in these warnings.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/imd-steps-up-rain-alert-for-telangana-under-cyclone-akvan"
+    },
+    {
+     "big": "10",
+     "t": "At least *10* Telangana districts have heavy-rain warnings for Nov 20-21.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/imd-steps-up-rain-alert-for-telangana-under-cyclone-akvan"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "IMD Hyderabad outlook",
+   "tone": "neutral",
+   "verdict": "Rain builds in the east; Hyderabad mostly dry",
+   "steps": [
+    {
+     "t": "Nov 17-18",
+     "e": "Dry, chilly across Telangana"
+    },
+    {
+     "t": "Nov 19-20",
+     "e": "Light-moderate rain, 30-40 kmph gusts in east"
+    },
+    {
+     "t": "Nov 20-21",
+     "e": "Heavy to very heavy rain, 50-60 kmph squalls"
+    },
+    {
+     "t": "Nov 21-22",
+     "e": "Heavy rain in Bhupalpally, Mulugu, Khammam belt"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "204.4 mm",
+   "l": "max rain warned, Nov 20-21"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "204.4 mm",
+  "label": "max rain warned, Nov 20-21",
+  "motion": "drift",
+  "scene": [
+   "🌀",
+   "🌧️",
+   "🚗"
+  ]
+ },
+ "watch": "IMD's updated bulletins on Nov 19-20 as Akvan nears landfall; districts can move from yellow to orange alerts.",
+ "thread": "tg-akvan-heavy-rain-khammam-kothagudem-nov-20-21",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "IMD steps up rain alert for Telangana under Cyclone Akvan",
+   "url": "https://telanganatoday.com/imd-steps-up-rain-alert-for-telangana-under-cyclone-akvan"
+  }
+ ],
+ "updated": 1794876976273,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Rains-5-1-1.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Cyclone Akvan may bring up to *204.4 mm* of rain to four Telangana districts",
+ "twist": "Hyderabad and its surrounding districts are expected to stay largely dry through it.",
+ "layer": "state",
+ "areas": [
+  "Khammam",
+  "Bhadradri Kothagudem",
+  "Suryapet",
+  "Mahabubabad",
+  "Warangal"
+ ]
+}
