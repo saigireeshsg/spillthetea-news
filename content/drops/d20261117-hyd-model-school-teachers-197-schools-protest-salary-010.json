@@ -1,0 +1,138 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-17",
+ "sort": "2026-11-17-82",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "education",
+ "hook": "Teachers from *197* Model Schools sit in at school directorate",
+ "hook_b": "Teachers from *197* Model Schools sit in at school directorate",
+ "tldr": "Model School staff protested at the Directorate of School Education on Tuesday, asking the state to pay salaries under the 010 head of account.",
+ "beats": {
+  "what": "The Model School Teachers' Joint Action Committee called the sit-in; teachers raised slogans and sang songs about their demands.",
+  "why": "Paying under the 010 head means salaries come from the state's regular salary budget line, which teachers want.",
+  "care": "Other demands: compassionate appointments, promotions and transfers, notional benefits for TGTs, and junior lecturer pay scales for PGTs."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📚",
+    "label": "Salaries outside the 010 head"
+   }
+  ],
+  "event": {
+   "icon": "✊",
+   "label": "Sit-in at school directorate"
+  },
+  "effects": [
+   {
+    "icon": "🧾",
+    "label": "DA arrears pending"
+   },
+   {
+    "icon": "🧾",
+    "label": "Promotions, transfers stuck"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 17): 'Tension prevailed' at the directorate as a large number of teachers gathered."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What should the government settle first for Model School teachers?",
+   "opts": [
+    "Salaries under 010",
+    "Pending DA",
+    "Pension for families",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many Model School teachers are paid outside the 010 head today?"
+   ],
+   "facts": [
+    {
+     "big": "5",
+     "t": "Teachers say *five* DA instalments are pending.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/model-school-teachers-protest-over-salary-payments-in-hyderabad"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "What teachers are asking for",
+   "tone": "neutral",
+   "verdict": "Several pay and service demands at once",
+   "total": "8 demands",
+   "parts": [
+    {
+     "l": "Pay (010 head, DA, scales)",
+     "v": 3
+    },
+    {
+     "l": "Service (promotions, transfers, notional)",
+     "v": 3
+    },
+    {
+     "l": "Families (appointments, pension)",
+     "v": 2
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "197",
+   "l": "Model Schools' staff joined the sit-in"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "197",
+  "label": "Model Schools' staff joined the sit-in",
+  "motion": "drift",
+  "scene": [
+   "📚",
+   "✊",
+   "🧾"
+  ]
+ },
+ "learn": {
+  "t": "010 head = the state budget line for regular salaries, like other government staff",
+  "show": true
+ },
+ "watch": "Whether the School Education department responds to the JAC's demands.",
+ "thread": "hyd-model-school-teachers-197-schools-protest-salary-010",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Model School teachers protest over salary payments in Hyderabad",
+   "url": "https://telanganatoday.com/model-school-teachers-protest-over-salary-payments-in-hyderabad"
+  }
+ ],
+ "updated": 1794916627584,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/ModelTeachers.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Teachers from *197* Telangana Model Schools staged a sit-in in Hyderabad",
+ "twist": "Their list includes five pending DA instalments, plus gratuity and family pension for families of teachers who died.",
+ "layer": "state",
+ "areas": [
+  "Hyderabad"
+ ]
+}

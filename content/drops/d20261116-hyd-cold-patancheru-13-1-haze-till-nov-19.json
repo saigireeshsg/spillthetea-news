@@ -1,8 +1,8 @@
 {
  "cat": "local",
  "lead": "local",
- "date": "2026-11-16",
- "sort": "2026-11-16-86",
+ "date": "2026-11-17",
+ "sort": "2026-11-17-87",
  "order": 1,
  "heat": 3,
  "readSecs": 30,
@@ -40,6 +40,11 @@
  "cards": [
   {
    "k": "tea",
+   "title": "🆕 Update, Nov 17",
+   "body": "The Hindu: the state low fell from 11.7°C to 11.2°C (Kohir) between Monday and Tuesday; Rangareddy's Shabad 11.3°C, Uppal 13.4°C, Golconda 15.0°C (TGDPS)."
+  },
+  {
+   "k": "tea",
    "title": "🆕 What's new",
    "body": "Monday's minimums: Patancheru 13.1°C, HCU and BHEL 13.4°C, Rajendranagar 14.1°C, Moula Ali 14.2°C."
   },
@@ -62,6 +67,12 @@
    ],
    "facts": [
     {
+     "big": "7.1°C",
+     "t": "Last year in the same period, Telangana's lowest was *7.1°C*.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/lowest-of-112c-in-telanganas-sangareddy-cyclone-akvan-may-change-weather-conditions-from-november-19/article71711060.ece"
+    },
+    {
      "big": "12.6°C",
      "t": "Moinabad in Rangareddy recorded *12.6°C* on Monday.",
      "s": "Siasat",
@@ -77,6 +88,43 @@
   }
  ],
  "viz": [
+  {
+   "t": "compare",
+   "l": "State's lowest, Nov 17 vs a year ago",
+   "a": {
+    "v": 7.1,
+    "d": "7.1°C",
+    "l": "Last year"
+   },
+   "b": {
+    "v": 11.2,
+    "d": "11.2°C",
+    "l": "Nov 17, 2026"
+   },
+   "tone": "neutral",
+   "verdict": "Milder chill than last year so far"
+  },
+  {
+   "t": "timeline",
+   "l": "Chill, then Akvan",
+   "now": 0,
+   "tone": "neutral",
+   "verdict": "Forecast for districts east of Hyderabad",
+   "steps": [
+    {
+     "t": "Nov 17",
+     "e": "Kohir 11.2°C, Uppal 13.4°C, Golconda 15.0°C"
+    },
+    {
+     "t": "Nov 19",
+     "e": "Isolated thunderstorms, 8 eastern districts"
+    },
+    {
+     "t": "Nov 20",
+     "e": "Heavy to very heavy rain possible: Khammam, Kothagudem, Mahabubabad, Suryapet"
+    }
+   ]
+  },
   {
    "t": "timeline",
    "l": "The chill, then the change",
@@ -133,29 +181,36 @@
    "🌫️"
   ]
  },
- "watch": "IMD's morning haze forecast runs to Nov 19; Cyclone Akvan rain may change the pattern after Nov 18.",
+ "watch": "Nov 19: IMD-Hyderabad forecasts isolated thunderstorms with lightning and gusty winds in eight eastern districts as Cyclone Akvan nears; heavy rain possible in Khammam, Kothagudem, Mahabubabad, Suryapet on Nov 20.",
  "thread": "hyd-cold-patancheru-13-1-haze-till-nov-19",
  "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Lowest of 11.2°C in Telangana's Sangareddy; cyclone Akvan may change weather conditions from November 19",
+   "url": "https://www.thehindu.com/news/national/telangana/lowest-of-112c-in-telanganas-sangareddy-cyclone-akvan-may-change-weather-conditions-from-november-19/article71711060.ece"
+  },
   {
    "name": "Siasat",
    "title": "Hyderabad shivers as temperatures drop, IMD forecasts hazy conditions",
    "url": "https://www.siasat.com/hyderabad-shivers-as-temperatures-drop-imd-forecasts-hazy-conditions-3578417/"
   }
  ],
- "updated": 1794813193582,
+ "updated": 1794916656657,
  "city": "Hyderabad",
- "fact": "Patancheru dipped to *13.1°C* on Monday, the coldest spot in Hyderabad.",
- "twist": "Kohir in Sangareddy district went even lower: 11.7°C, Telangana's lowest on Monday.",
+ "fact": "Kohir in Sangareddy hit *11.2°C* on Tuesday, Telangana's coldest; Golconda 15°C",
+ "twist": "Same time last year it was far colder: the state's lowest then was 7.1°C.",
  "img": {
-  "u": "https://cdn.siasat.com/wp-content/uploads/2025/12/winter-hyderabad-dec14.jpg",
-  "c": "Siasat"
+  "u": "https://th-i.thgim.com/public/news/cities/Hyderabad/rxgc5l/article71711050.ece/alternates/LANDSCAPE_1200/Image%2040.jpeg",
+  "c": "The Hindu"
  },
  "layer": "near",
  "areas": [
-  "Patancheru",
-  "Serilingampally",
   "BHEL",
+  "Golconda",
+  "Moula Ali",
+  "Patancheru",
   "Rajendranagar",
-  "Moula Ali"
+  "Serilingampally",
+  "Uppal"
  ]
 }

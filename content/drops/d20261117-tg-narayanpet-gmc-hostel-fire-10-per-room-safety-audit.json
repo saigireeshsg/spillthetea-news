@@ -1,0 +1,134 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-17",
+ "sort": "2026-11-17-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "education",
+ "hook": "After hostel fire, students say *10 per room* at GMC Narayanpet",
+ "hook_b": "After hostel fire, students say *10 per room* at GMC Narayanpet",
+ "tldr": "Monday's fire in the senior girls' hostel at Government Medical College, Narayanpet has renewed complaints about facilities at Telangana's newer medical colleges.",
+ "beats": {
+  "what": "Junior doctors' body TJUDA says Narayanpet students face overcrowding, rat bites and a 12-km daily commute without dedicated transport.",
+  "why": "Several new district medical colleges are running without permanent hostels or buildings.",
+  "care": "Jagtial students protested over lecture halls; Mulugu batches sleep on admin floors; Maheshwaram has unlit roads and no perimeter wall."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "New colleges without permanent campuses"
+   }
+  ],
+  "event": {
+   "icon": "🔥",
+   "label": "Fire at Narayanpet girls' hostel"
+  },
+  "effects": [
+   {
+    "icon": "🩺",
+    "label": "Calls for safety audits"
+   },
+   {
+    "icon": "🩺",
+    "label": "Long commutes, crowded rooms"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 17): DME Dr N Vani said the colleges have adequate facilities and permanent buildings at Mulugu and Jagtial are nearly complete."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should every new medical college get a safety audit now?",
+   "opts": [
+    "Yes",
+    "Only the ones with complaints",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which of the new medical colleges have a fire safety audit on record?",
+    "When will permanent campuses at Mulugu and Jagtial open?"
+   ],
+   "facts": [
+    {
+     "big": "40 km",
+     "t": "MBBS students at GMC Maheshwaram face a *40-km* daily commute, on unlit approach roads.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hostel-fire-puts-spotlight-on-safety-gaps-at-telangana-medical-colleges"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Daily commute to teaching hospital",
+   "tone": "bad",
+   "verdict": "Long travel for students at new colleges",
+   "goodIfUp": false,
+   "a": {
+    "v": 12,
+    "d": "12 km",
+    "l": "GMC Narayanpet"
+   },
+   "b": {
+    "v": 40,
+    "d": "40 km",
+    "l": "GMC Maheshwaram"
+   }
+  },
+  {
+   "t": "big",
+   "v": "10",
+   "l": "students per room, GMC Narayanpet (TJUDA)"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "10",
+  "label": "students per room, GMC Narayanpet (TJUDA)",
+  "motion": "drift",
+  "scene": [
+   "🏗️",
+   "🔥",
+   "🩺"
+  ]
+ },
+ "watch": "Whether the health department, KNRUHS or NMC order the safety audits student bodies are asking for.",
+ "thread": "tg-narayanpet-gmc-hostel-fire-10-per-room-safety-audit",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hostel fire puts spotlight on safety gaps at Telangana medical colleges",
+   "url": "https://telanganatoday.com/hostel-fire-puts-spotlight-on-safety-gaps-at-telangana-medical-colleges"
+  }
+ ],
+ "updated": 1794916627584,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/medical-college.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "After a hostel fire, Narayanpet medical students report *10 people* per room",
+ "twist": "At GMC Maheshwaram, near Hyderabad, MBBS students commute 40 km a day to their teaching hospital.",
+ "layer": "state",
+ "areas": [
+  "Maheshwaram",
+  "Narayanpet",
+  "Jagtial",
+  "Mulugu"
+ ]
+}

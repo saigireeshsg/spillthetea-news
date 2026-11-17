@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-17",
+ "sort": "2026-11-17-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Nagar Kirtan rolls through Secunderabad on *Nov 19*",
+ "hook_b": "Nagar Kirtan rolls through Secunderabad on *Nov 19*",
+ "tldr": "Hyderabad's Sikh community announced Guru Nanak Jayanti programmes from Nov 19 to 24, with processions in Secunderabad and the old city.",
+ "beats": {
+  "what": "The Nov 19 Nagar Kirtan starts from Secunderabad Gurudwara Sahib and goes via Manohar Talkies, Clock Tower, Patny Circle, Kingsway Circle and Monda Market before returning.",
+  "why": "Gurudwara committees of Hyderabad and Secunderabad are jointly marking the 557th birth anniversary of Guru Nanak Dev Ji.",
+  "care": "Processions pass busy Secunderabad roads; the Nov 21 one covers Afzalgunj, Siddiamber Bazar, Moazamjahi Market and Jambagh, returning by 9 pm."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🙏",
+    "label": "557th Guru Nanak Jayanti"
+   }
+  ],
+  "event": {
+   "icon": "🚩",
+   "label": "Nagar Kirtans from Nov 19"
+  },
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Secunderabad roads busy Nov 19"
+   },
+   {
+    "icon": "🚗",
+    "label": "Nampally event Nov 24"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 17): Ashok Bazar and Secunderabad gurudwara committee heads announced the schedule on Tuesday."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Will you catch any of the Gurupurab events this week?",
+   "opts": [
+    "Yes, a Nagar Kirtan",
+    "Yes, the Nov 24 event",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will traffic police announce diversions for the procession routes?"
+   ],
+   "facts": [
+    {
+     "big": "Nov 19-23",
+     "t": "Nagar Kirtan programmes run *Nov 19 to 23* in Secunderabad and Afzalgunj areas.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/guru-nanak-jayanti-celebrations-to-begin-in-hyderabad-on-november-19"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Gurupurab week",
+   "now": 0,
+   "tone": "neutral",
+   "verdict": "Processions on busy roads on two evenings",
+   "steps": [
+    {
+     "t": "Nov 19",
+     "e": "Nagar Kirtan, Secunderabad Gurudwara loop"
+    },
+    {
+     "t": "Nov 21",
+     "e": "Nagar Kirtan via Afzalgunj, back by 9 pm"
+    },
+    {
+     "t": "Nov 23",
+     "e": "Kirtan Darbar, Secunderabad"
+    },
+    {
+     "t": "Nov 24",
+     "e": "Gurupurab, Exhibition Grounds Nampally"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "557th",
+   "l": "Gurupurab of Guru Nanak Dev Ji"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "557th",
+  "label": "Gurupurab of Guru Nanak Dev Ji",
+  "motion": "drift",
+  "scene": [
+   "🙏",
+   "🚩",
+   "🚗"
+  ]
+ },
+ "watch": "Whether Hyderabad Traffic Police issue diversions for the Nov 19 and Nov 21 procession routes.",
+ "thread": "hyd-guru-nanak-nagar-kirtan-nov-19-secunderabad-route",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Guru Nanak Jayanti celebrations to begin in Hyderabad on November 19",
+   "url": "https://telanganatoday.com/guru-nanak-jayanti-celebrations-to-begin-in-hyderabad-on-november-19"
+  }
+ ],
+ "updated": 1794916627583,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Untitled-1-37.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Guru Nanak's *557th* Gurupurab kicks off with a Secunderabad Nagar Kirtan on Nov 19",
+ "twist": "It's five days of events: a second procession through Afzalgunj on Nov 21, and the main Gurupurab at Exhibition Grounds, Nampally on Nov 24.",
+ "layer": "near",
+ "areas": [
+  "Secunderabad",
+  "Clock Tower",
+  "Patny",
+  "Monda Market",
+  "Afzalgunj",
+  "Siddiamber Bazar",
+  "Nampally"
+ ]
+}

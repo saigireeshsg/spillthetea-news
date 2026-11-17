@@ -1,0 +1,153 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-17",
+ "sort": "2026-11-17-86",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "education",
+ "hook": "KNRUHS PG university fee jumps *4x* to ₹2 lakh",
+ "hook_b": "KNRUHS PG university fee jumps *4x* to ₹2 lakh",
+ "tldr": "Kaloji Narayana Rao University of Health Sciences hiked university fees for Category B and C postgraduate medical seats weeks before counselling; tuition fees were left unchanged.",
+ "beats": {
+  "what": "Category B seat fee went from ₹50,000 to ₹2,00,000 a year; Category C (NRI quota) from ₹70,000 to ₹3,00,000.",
+  "why": "The university revised institutional, registration and processing fees; government-fixed tuition fees stayed the same.",
+  "care": "NEET-PG rank holders in Telangana had to arrange extra money close to admission deadlines; HRDA doctors took the issue to the High Court."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏥",
+    "label": "University fee revision"
+   }
+  ],
+  "event": {
+   "icon": "💸",
+   "label": "PG fee 4x before counselling"
+  },
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "Families scramble for funds"
+   },
+   {
+    "icon": "⚖️",
+    "label": "HC allows reduced payment"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 17): aspirants say periodic hikes are common but 300% is not, and asked authorities for 'breathing space'."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should university fees be revised just before counselling?",
+   "opts": [
+    "No, announce earlier",
+    "Yes, if needed",
+    "Depends on the amount",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much of the new fee can students defer under the High Court order?",
+    "Why were fees revised days before counselling?"
+   ],
+   "facts": [
+    {
+     "big": "0%",
+     "t": "Baseline PG *tuition* fees were *not changed*; only university, registration and processing fees were raised.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/neet-pg-aspirants-squeezed-as-knruhs-hikes-university-fees-by-over-300-percent"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Category B PG university fee, per year",
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Higher cost for PG medical students and families",
+   "a": {
+    "v": 50000,
+    "d": "₹50,000",
+    "l": "Before"
+   },
+   "b": {
+    "v": 200000,
+    "d": "₹2,00,000",
+    "l": "Now"
+   }
+  },
+  {
+   "t": "compare",
+   "l": "Category C (NRI quota), per year",
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Higher cost for NRI-quota students",
+   "a": {
+    "v": 70000,
+    "d": "₹70,000",
+    "l": "Before"
+   },
+   "b": {
+    "v": 300000,
+    "d": "₹3,00,000",
+    "l": "Now"
+   }
+  },
+  {
+   "t": "big",
+   "v": "₹2 lakh",
+   "l": "Category B PG university fee, per year"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹2 lakh",
+  "label": "Category B PG university fee, per year",
+  "motion": "drift",
+  "scene": [
+   "🏥",
+   "💸",
+   "⚖️"
+  ]
+ },
+ "learn": {
+  "t": "KNRUHS = Kaloji Narayana Rao University of Health Sciences, Telangana's medical university",
+  "show": true
+ },
+ "watch": "The High Court's further orders on the contested KNRUHS fee.",
+ "thread": "tg-knruhs-pg-medical-fee-rs-50k-to-2-lakh-hc",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "NEET-PG aspirants squeezed as KNRUHS hikes university fees by over 300 percent",
+   "url": "https://telanganatoday.com/neet-pg-aspirants-squeezed-as-knruhs-hikes-university-fees-by-over-300-percent"
+  }
+ ],
+ "updated": 1794916627584,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/KNRUHS-1-2.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "KNRUHS raised the PG medical university fee from ₹50,000 to *₹2 lakh* a year",
+ "twist": "The High Court has let students pay only a reduced part of the new fee until further orders.",
+ "layer": "state",
+ "areas": [
+  "Warangal",
+  "Hyderabad"
+ ]
+}

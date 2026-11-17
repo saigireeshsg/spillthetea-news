@@ -1,0 +1,122 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-17",
+ "sort": "2026-11-17-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "₹560 liquor sold as Johnnie Walker in *Shamshabad*",
+ "hook_b": "₹560 liquor sold as Johnnie Walker in *Shamshabad*",
+ "tldr": "The Excise Task Force arrested two men in Shamshabad for filling cheap liquor into empty premium whisky bottles and selling them at higher prices.",
+ "beats": {
+  "what": "Officials seized 10 filled bottles and more than 30 empty premium bottles from a house in Sathamrai, Shamshabad.",
+  "why": "Excise officials say the main accused, a former distillery worker, mixed cheap liquor at home and passed it off as premium brands.",
+  "care": "Bottles were sold as Johnnie Walker, Dewar's and 100 Pipers; check seals and buy from licensed shops."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "♻️",
+    "label": "Empty bottles bought from scrap"
+   }
+  ],
+  "event": {
+   "icon": "🥃",
+   "label": "Cheap liquor sold as premium"
+  },
+  "effects": [
+   {
+    "icon": "🚔",
+    "label": "2 arrested"
+   },
+   {
+    "icon": "🚔",
+    "label": "Buyers' role under probe"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 17): the raid followed a tip-off; investigation is ongoing."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you check bottle seals before buying liquor?",
+   "opts": [
+    "Always",
+    "Sometimes",
+    "Never",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How can buyers tell a refilled bottle from a sealed one?"
+   ],
+   "facts": [
+    {
+     "big": "₹560",
+     "t": "The liquor used costs about *₹560* a bottle and was sold as Johnnie Walker, Dewar's and 100 Pipers.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/excise-task-force-busts-fake-premium-liquor-racket-in-shamshabad"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Seized: filled vs empty bottles",
+   "v": 10,
+   "max": 40,
+   "d": "10 of 40+",
+   "tone": "bad",
+   "verdict": "Most bottles were still waiting to be refilled"
+  },
+  {
+   "t": "big",
+   "v": "30+",
+   "l": "empty premium bottles seized"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "30+",
+  "label": "empty premium bottles seized",
+  "motion": "drift",
+  "scene": [
+   "♻️",
+   "🥃",
+   "🚔"
+  ]
+ },
+ "watch": "Further arrests as Excise officials trace who bought the refilled bottles.",
+ "thread": "hyd-shamshabad-fake-premium-whisky-rs-560-refill",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Excise Task Force busts fake premium liquor racket in Shamshabad",
+   "url": "https://telanganatoday.com/excise-task-force-busts-fake-premium-liquor-racket-in-shamshabad"
+  }
+ ],
+ "updated": 1794916627584,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Untitled-1-36.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Shamshabad racket refilled premium whisky bottles with liquor costing about *₹560*",
+ "twist": "The empty premium bottles came from a scrap shop; officials say they are now looking at the buyers' role too.",
+ "layer": "near",
+ "areas": [
+  "Shamshabad"
+ ]
+}
