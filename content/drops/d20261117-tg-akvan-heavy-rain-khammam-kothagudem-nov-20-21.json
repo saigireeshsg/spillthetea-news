@@ -41,7 +41,7 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "Telangana Today (Nov 17): Mulugu, Nalgonda, Jangaon, Yadadri Bhuvanagiri, Warangal and Hanamkonda also have heavy-rain warnings with 40-50 kmph winds."
+   "body": "The Hindu (Nov 17, 12:06 pm): IMD says Akvan becomes a Severe Cyclone tonight and a Very Severe Cyclone on Nov 19 evening, then crosses the Andhra coast around noon on Nov 20."
   },
   {
    "k": "poll",
@@ -77,6 +77,29 @@
   }
  ],
  "viz": [
+  {
+   "t": "timeline",
+   "l": "Akvan's path",
+   "steps": [
+    {
+     "t": "Nov 16 eve",
+     "e": "Cyclonic Storm forms"
+    },
+    {
+     "t": "Nov 17 night",
+     "e": "Severe Cyclone"
+    },
+    {
+     "t": "Nov 19 eve",
+     "e": "Very Severe Cyclone"
+    },
+    {
+     "t": "Nov 20 noon",
+     "e": "Crosses Andhra coast"
+    }
+   ],
+   "tone": "neutral"
+  },
   {
    "t": "timeline",
    "l": "IMD Hyderabad outlook",
@@ -128,9 +151,14 @@
    "name": "Telangana Today",
    "title": "IMD steps up rain alert for Telangana under Cyclone Akvan",
    "url": "https://telanganatoday.com/imd-steps-up-rain-alert-for-telangana-under-cyclone-akvan"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Cyclone 'Akvan' LIVE updates: Akvan to become a severe cyclone tonight",
+   "url": "https://www.thehindu.com/news/national/cyclone-akvan-cyclonic-storm-forms-over-bay-of-bengal-andhra-pradesh-november-17-2026-live-updates/article71710277.ece"
   }
  ],
- "updated": 1794876976273,
+ "updated": 1794899508694,
  "img": {
   "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Rains-5-1-1.jpg",
   "c": "Telangana Today"

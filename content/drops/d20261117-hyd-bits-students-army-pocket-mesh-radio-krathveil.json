@@ -1,0 +1,182 @@
+{
+ "cat": "tech",
+ "lead": "tech",
+ "date": "2026-11-17",
+ "sort": "2026-11-17-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "startups",
+ "hook": "BITS Hyderabad students pitch Army a radio at *1/5th* the import price",
+ "hook_b": "BITS Hyderabad students pitch Army a radio at *1/5th* the import price",
+ "tldr": "Krathveil, a startup by two 20-year-old BITS Pilani Hyderabad students, has built Krath Control, a sub-180 g radio that links soldiers over an encrypted mesh without towers, satellites or SIM cards. Two Army units have assessed it.",
+ "beats": {
+  "what": "Krath Control pairs with a soldier's phone and links to nearby radios in an encrypted mesh that reroutes if one node drops out.",
+  "why": "Conventional voice radios don't show locations, and imported live-map systems cost several times more and are closed systems, the founders say.",
+  "care": "Army units asked for power raised from 156 mW to 1 W and better antennas; an upgraded version is planned in 2-3 months."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💸",
+    "label": "Imported radios cost ~₹2 lakh"
+   }
+  ],
+  "event": {
+   "icon": "📻",
+   "label": "Students build tower-free mesh radio"
+  },
+  "effects": [
+   {
+    "icon": "🪖",
+    "label": "Army asks for 1 W power, better antennas"
+   },
+   {
+    "icon": "🪖",
+    "label": "Re-assessment after 2-3 month upgrade"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI (Nov 17): An Army official said there is no Indian alternative today and called Krathveil's 'a promising one'."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you join a student startup over a campus placement?",
+   "opts": [
+    "Startup",
+    "Placement",
+    "Depends on the idea",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What does an Army trial need to see before it buys an Indian device?",
+    "Can a 1 W radio hold the 100 km hops the founders describe?"
+   ],
+   "facts": [
+    {
+     "big": "<180 g",
+     "t": "The radio weighs *under 180 grams* and needs no tower, satellite or SIM.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/army-eyes-cheaper-pocket-sized-radio-built-by-bits-hyderabads-students/articleshow/135911114.cms"
+    },
+    {
+     "big": "100 km",
+     "t": "Founders say one hop between two hilltops can cover *more than 100 km* on paper.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/army-eyes-cheaper-pocket-sized-radio-built-by-bits-hyderabads-students/articleshow/135911114.cms"
+    },
+    {
+     "big": "2nd",
+     "t": "It is at least the *second* BITS Hyderabad student startup to draw the Army, after drone-maker Apollyon Dynamics.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/army-eyes-cheaper-pocket-sized-radio-built-by-bits-hyderabads-students/articleshow/135911114.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Price per radio",
+   "goodIfUp": false,
+   "tone": "good",
+   "verdict": "Cheaper for the Army if the Indian device clears trials",
+   "a": {
+    "v": 200000,
+    "d": "~₹2 lakh",
+    "l": "Imported (US)"
+   },
+   "b": {
+    "v": 40000,
+    "d": "₹40,000",
+    "l": "Krath Control"
+   }
+  },
+  {
+   "t": "compare",
+   "l": "Power output",
+   "goodIfUp": true,
+   "tone": "neutral",
+   "verdict": "Army's ask for the next version",
+   "a": {
+    "v": 0.156,
+    "d": "156 mW",
+    "l": "Now"
+   },
+   "b": {
+    "v": 1,
+    "d": "1 W",
+    "l": "Army wants"
+   }
+  },
+  {
+   "t": "timeline",
+   "l": "Krathveil so far",
+   "steps": [
+    {
+     "t": "May",
+     "e": "Startup incorporated"
+    },
+    {
+     "t": "July",
+     "e": "Co-founder joins for tech"
+    },
+    {
+     "t": "Nov",
+     "e": "Two Army units assess it"
+    },
+    {
+     "t": "Next 2-3 months",
+     "e": "Upgraded version, re-assessment"
+    }
+   ],
+   "tone": "neutral"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1a1030",
+   "#6a3fb5"
+  ],
+  "big": "₹40,000",
+  "label": "per radio unit",
+  "motion": "drift",
+  "scene": [
+   "💸",
+   "📻",
+   "🪖"
+  ]
+ },
+ "learn": {
+  "t": "Mesh network = each device relays signals to its neighbours, so no tower is needed",
+  "show": true
+ },
+ "watch": "Whether the upgraded radio, due in two to three months, clears a second Army assessment.",
+ "thread": "hyd-bits-students-army-pocket-mesh-radio-krathveil",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Army eyes cheaper pocket-sized radio built by BITS Hyderabad's students",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/army-eyes-cheaper-pocket-sized-radio-built-by-bits-hyderabads-students/articleshow/135911114.cms"
+  }
+ ],
+ "updated": 1794899491845,
+ "fact": "BITS Hyderabad students built a *₹40,000* pocket radio the Army is assessing",
+ "twist": "The Army currently imports similar devices from the US at around ₹2 lakh apiece.",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135912683,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "layer": "city",
+ "areas": [
+  "Shameerpet"
+ ]
+}
