@@ -1,0 +1,170 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-86",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "welfare",
+ "hook": "Telangana's *₹5 lakh* family life cover finally opens Nov 19",
+ "hook_b": "Telangana's *₹5 lakh* family life cover finally opens Nov 19",
+ "tldr": "CM Revanth Reddy opens applications for the Indiramma Family Insurance scheme at a Siddipet meeting on Thursday, Nov 19; it missed its June 2 launch.",
+ "beats": {
+  "what": "The Indiramma Kutumba Jeevitha Bima Pathakam gives families a ₹5 lakh life cover; applications open at a public meeting in Siddipet on Nov 19.",
+  "why": "Officials told the CM existing schemes give up to ₹2 lakh life cover; he asked for all department insurance schemes under one umbrella, with life cover raised to ₹5 lakh.",
+  "care": "Accident cover of up to ₹10 lakh stays as it is, the CM said; no one now covered by a government scheme is to be left out."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📑",
+    "label": "Insurance spread across departments"
+   }
+  ],
+  "event": {
+   "icon": "🛡️",
+   "label": "One ₹5 lakh family life cover"
+  },
+  "effects": [
+   {
+    "icon": "👨‍👩‍👧",
+    "label": "Applications open Nov 19"
+   },
+   {
+    "icon": "👨‍👩‍👧",
+    "label": "Eligibility not announced yet"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat (Nov 18): The CMO statement did not say who is eligible, how much premium the state pays or which insurer carries the risk. Not announced yet."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "₹5 lakh family life cover: what matters most to you?",
+   "opts": [
+    "Clear eligibility rules",
+    "Fast claim payouts",
+    "Keep Rythu Bima as is",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who counts as the head or main earner when a family applies?",
+    "How will merged schemes compare with Rythu Bima's ₹5 lakh payout?"
+   ],
+   "facts": [
+    {
+     "big": "₹10 lakh",
+     "t": "Existing accident cover of up to *₹10 lakh* stays unchanged, the CM said.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/telanganas-delayed-rs-5-lakh-family-insurance-to-launch-on-nov-19-3580133/"
+    },
+    {
+     "big": "2018",
+     "t": "Rythu Bima, launched in *2018*, pays ₹5 lakh to the family of any farmer who dies.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/telanganas-delayed-rs-5-lakh-family-insurance-to-launch-on-nov-19-3580133/"
+    },
+    {
+     "big": "1 cr",
+     "t": "Sircilla weavers were promised *1 crore* Indiramma sarees, also distributed at the Nov 19 event.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/telanganas-delayed-rs-5-lakh-family-insurance-to-launch-on-nov-19-3580133/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Govt life cover per family",
+   "a": {
+    "v": 200000,
+    "d": "₹2 lakh",
+    "l": "Existing schemes"
+   },
+   "b": {
+    "v": 500000,
+    "d": "₹5 lakh",
+    "l": "New scheme"
+   },
+   "goodIfUp": true,
+   "tone": "good",
+   "verdict": "Higher life cover for covered families; eligibility not announced"
+  },
+  {
+   "t": "timeline",
+   "l": "Scheme's road to launch",
+   "tone": "neutral",
+   "verdict": "Launch came about six months after the original date",
+   "steps": [
+    {
+     "t": "Budget 2026-27",
+     "e": "Announced for ~1.15 cr families"
+    },
+    {
+     "t": "June 2",
+     "e": "Original launch date missed"
+    },
+    {
+     "t": "Early Nov",
+     "e": "Cabinet nod, ~1.5 cr households"
+    },
+    {
+     "t": "Nov 19",
+     "e": "Applications open, Siddipet"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "₹5 lakh",
+   "l": "life cover per family"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹5 lakh",
+  "label": "life cover per family",
+  "motion": "drift",
+  "scene": [
+   "📑",
+   "🛡️",
+   "👨‍👩‍👧"
+  ]
+ },
+ "learn": {
+  "t": "Rythu Bima = 2018 scheme paying ₹5 lakh to a farmer's family on death"
+ },
+ "watch": "Whether the eligibility rules, premium and insurer are announced at the Siddipet launch.",
+ "thread": "tg-indiramma-family-insurance-rs-5-lakh-launch-nov-19",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Telangana's delayed Rs 5-lakh family insurance to launch on Nov 19",
+   "url": "https://www.siasat.com/telanganas-delayed-rs-5-lakh-family-insurance-to-launch-on-nov-19-3580133/"
+  }
+ ],
+ "updated": 1794985868021,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Indiramma-family-insurance.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Telangana's *₹5 lakh* family life insurance opens applications Nov 19, six months late",
+ "twist": "The target keeps moving: budget said 1.15 crore families, Cabinet 1.5 crore, the CMO now says 1 crore.",
+ "layer": "state",
+ "areas": [
+  "Siddipet"
+ ]
+}

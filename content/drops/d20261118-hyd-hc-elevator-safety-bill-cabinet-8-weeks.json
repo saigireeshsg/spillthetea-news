@@ -1,0 +1,147 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "HC gives Telangana *8 weeks* to bring a lift safety Bill",
+ "hook_b": "HC gives Telangana *8 weeks* to bring a lift safety Bill",
+ "tldr": "A bench of Acting CJ Sam Koshy and Justice Chalapathi Rao directed the Chief Secretary to speed up the long-delayed Elevator Safety Bill for multi-storey buildings.",
+ "beats": {
+  "what": "In a suo motu PIL, the High Court on Tuesday told the Chief Secretary to expedite the elevator safety law and place the draft Bill before Cabinet within eight weeks.",
+  "why": "The court registered the case from letters flagging no legal framework for lift safety; accidents include the death of a police battalion commandant last year, allegedly due to poor maintenance.",
+  "care": "The proposed law would regulate safety and maintenance of elevators in multi-storey buildings, where many Hyderabad residents live and work."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛗",
+    "label": "No lift safety law in Telangana"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "HC sets 8-week Cabinet deadline"
+  },
+  "effects": [
+   {
+    "icon": "🏢",
+    "label": "State to file counter affidavit"
+   },
+   {
+    "icon": "🏢",
+    "label": "Petitioners' guidelines to be examined"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 18): The state must also file a counter affidavit on steps taken, and examine the petitioners' safety guidelines for the Bill."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "A lift safety law: what should it require first?",
+   "opts": [
+    "Certified yearly inspections",
+    "Licensed maintenance firms",
+    "Public lift safety records",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who checks lift maintenance in apartment blocks today?",
+    "What happens if the eight-week deadline is missed?"
+   ],
+   "facts": [
+    {
+     "big": "2 months",
+     "t": "Government counsel said the process was likely to take *another two months*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-high-court-directs-government-to-finalise-elevator-safety-bill-within-eight-weeks"
+    },
+    {
+     "big": "1",
+     "t": "Accidents cited include the death of *a police battalion commandant* last year.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-high-court-directs-government-to-finalise-elevator-safety-bill-within-eight-weeks"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Where the lift safety Bill is stuck",
+   "tone": "bad",
+   "verdict": "Draft rules sent earlier; law still not before Cabinet",
+   "steps": [
+    {
+     "t": "Earlier",
+     "e": "Court directions; draft rules sent to govt"
+    },
+    {
+     "t": "Now",
+     "e": "File with Industries & Commerce dept"
+    },
+    {
+     "t": "Next",
+     "e": "Law Department scrutiny"
+    },
+    {
+     "t": "Within 8 weeks",
+     "e": "Draft Bill before Cabinet"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "8 weeks",
+   "l": "deadline to reach Cabinet"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "8 weeks",
+  "label": "deadline to reach Cabinet",
+  "motion": "drift",
+  "scene": [
+   "🛗",
+   "⚖️",
+   "🏢"
+  ]
+ },
+ "learn": {
+  "t": "Suo motu PIL = a case the court opens on its own, here from citizens' letters"
+ },
+ "watch": "Whether the draft Elevator Safety Bill reaches Cabinet inside the eight-week window.",
+ "thread": "hyd-hc-elevator-safety-bill-cabinet-8-weeks",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana High Court directs government to finalise elevator safety Bill within eight weeks",
+   "url": "https://telanganatoday.com/telangana-high-court-directs-government-to-finalise-elevator-safety-bill-within-eight-weeks"
+  }
+ ],
+ "updated": 1794985868022,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Telangana-High-Court-directs-government-to-finalise-elevator-safety-Bill-within-eight-weeks.jpeg",
+  "c": "Telangana Today"
+ },
+ "fact": "High Court gives Telangana *8 weeks* to place its elevator safety Bill before Cabinet",
+ "twist": "Petitioners' draft rules were already with the government; the file has only reached the Industries department so far.",
+ "layer": "city",
+ "areas": [
+  "Hyderabad"
+ ]
+}

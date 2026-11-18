@@ -1,0 +1,147 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-82",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "police",
+ "hook": "HC seeks police reply on Task Force searches *without FIRs*",
+ "hook_b": "HC seeks police reply on Task Force searches *without FIRs*",
+ "tldr": "Justice T. Madhavi Devi issued notices to the Home Department, DGP, Hyderabad CP and DCP (Task Force) on a Borabanda resident's writ petition.",
+ "beats": {
+  "what": "The High Court on Tuesday sought explanations from the Home Department, DGP, Hyderabad Police Commissioner and DCP (Task Force) on the allegations.",
+  "why": "The petitioner alleges Task Force personnel search and seize in civilian clothes, without registering an FIR or following a transparent procedure, contrary to the BNSS 2023.",
+  "care": "The respondents must file explanations; the court has not ruled on the allegations yet."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "👮",
+    "label": "Plea alleges searches without FIR"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "HC issues notices to police"
+  },
+  "effects": [
+   {
+    "icon": "📄",
+    "label": "Explanations due from police"
+   },
+   {
+    "icon": "📄",
+    "label": "Hearing on Dec 12"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 18): The matter was adjourned to December 12. Police responses are not public yet."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Police searches in plain clothes: where do you stand?",
+   "opts": [
+    "FIR and uniform always",
+    "Fine if legally done",
+    "Depends on the case",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What does the BNSS say about searches before an FIR is filed?",
+    "Who can issue a search warrant under the law?"
+   ],
+   "facts": [
+    {
+     "big": "2023",
+     "t": "The plea says pre-FIR searches break the *2023* Bharatiya Nagarik Suraksha Sanhita.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-high-court-issues-notices-over-alleged-illegal-task-force-searches"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The case so far",
+   "tone": "neutral",
+   "verdict": "Court has sought replies; no ruling yet",
+   "steps": [
+    {
+     "t": "Petition",
+     "e": "Borabanda resident files writ"
+    },
+    {
+     "t": "Nov 17",
+     "e": "Notices to Home Dept, DGP, CP, DCP"
+    },
+    {
+     "t": "Dec 12",
+     "e": "Next hearing"
+    }
+   ]
+  },
+  {
+   "t": "icons",
+   "l": "Respondents served notices",
+   "n": 4,
+   "of": 4,
+   "tone": "neutral",
+   "verdict": "Home Dept, DGP, Hyderabad CP and DCP (Task Force)",
+   "icon": "📄",
+   "d": "4 of 4"
+  },
+  {
+   "t": "big",
+   "v": "4",
+   "l": "officials served notices"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "4",
+  "label": "officials served notices",
+  "motion": "drift",
+  "scene": [
+   "👮",
+   "⚖️",
+   "📄"
+  ]
+ },
+ "learn": {
+  "t": "BNSS = Bharatiya Nagarik Suraksha Sanhita 2023, India's new criminal procedure code"
+ },
+ "watch": "What the police tell the court at the Dec 12 hearing.",
+ "thread": "hyd-hc-notices-task-force-searches-without-fir",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana High Court issues notices over alleged illegal Task Force searches",
+   "url": "https://telanganatoday.com/telangana-high-court-issues-notices-over-alleged-illegal-task-force-searches"
+  }
+ ],
+ "updated": 1794985868022,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Telangana-High-Court-issues-notices-over-alleged-illegal-Task-Force-searches.jpeg",
+  "c": "Telangana Today"
+ },
+ "fact": "High Court seeks Hyderabad police reply on plea alleging Task Force searches *without FIRs*",
+ "twist": "The plea also questions whether ACPs can issue search warrants at all, saying only judicial magistrates can.",
+ "layer": "near",
+ "areas": [
+  "Borabanda"
+ ]
+}
