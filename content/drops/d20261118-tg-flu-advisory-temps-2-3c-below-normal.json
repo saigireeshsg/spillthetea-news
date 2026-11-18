@@ -1,0 +1,138 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-65",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "Telangana flags flu risk as temps dip *2-3°C* below normal",
+ "hook_b": "Telangana flags flu risk as temps dip *2-3°C* below normal",
+ "tldr": "The Director of Public Health warned that dry, cold weather could raise acute respiratory infections and listed precautions and warning signs.",
+ "beats": {
+  "what": "The advisory asks people with symptoms to stay home, cover coughs, wash hands often and avoid crowded places.",
+  "why": "Dry weather and falling temperatures can increase the spread of respiratory infections, said Dr B Ravinder Nayak.",
+  "care": "High fever, breathing trouble, bluish lips, blood in sputum or altered behaviour need care at a govt facility; call 108 for an ambulance."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🥶",
+    "label": "Dry weather, falling temperatures"
+   }
+  ],
+  "event": {
+   "icon": "🤧",
+   "label": "Health dept issues flu advisory"
+  },
+  "effects": [
+   {
+    "icon": "🏥",
+    "label": "Higher risk for elderly, kids under 5"
+   },
+   {
+    "icon": "🏥",
+    "label": "Beds, medicines set aside"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Times of India (Nov 18): Most people recover within a week with rest and fluids, the advisory says."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Has anyone at home caught a cold or flu this week?",
+   "opts": [
+    "Yes",
+    "No",
+    "Recovering now",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Are govt clinics seeing more respiratory cases this week?",
+    "Who at home falls in the higher-risk groups?"
+   ],
+   "facts": [
+    {
+     "big": "65+",
+     "t": "Seniors above *65*, kids under 5, pregnant women and the chronically ill face higher risk.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-sounds-flu-alert-as-mercury-dips/articleshow/135937803.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What the advisory says to do",
+   "tone": "neutral",
+   "verdict": "Most recover in a week; some need a doctor",
+   "steps": [
+    {
+     "t": "Symptoms",
+     "e": "Fever, cough, sore throat, aches"
+    },
+    {
+     "t": "At home",
+     "e": "Rest, fluids, avoid crowds"
+    },
+    {
+     "t": "Red flags",
+     "e": "Breathing trouble, bluish lips"
+    },
+    {
+     "t": "Act",
+     "e": "Govt facility or call 108"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "2-3°C",
+   "l": "below normal, next 2 days"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2-3°C",
+  "label": "below normal, next 2 days",
+  "motion": "drift",
+  "scene": [
+   "🥶",
+   "🤧",
+   "🏥"
+  ]
+ },
+ "watch": "Whether govt hospitals report a rise in respiratory cases as the cold spell continues.",
+ "thread": "tg-flu-advisory-temps-2-3c-below-normal",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Telangana sounds flu alert as mercury dips",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-sounds-flu-alert-as-mercury-dips/articleshow/135937803.cms"
+  }
+ ],
+ "updated": 1794963409928,
+ "img": {
+  "u": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Telangana issues a flu advisory as temperatures drop *2-3°C* below normal",
+ "twist": "Special beds and essential medicines have been set aside at public health facilities.",
+ "layer": "state",
+ "areas": [
+  "Hyderabad"
+ ]
+}

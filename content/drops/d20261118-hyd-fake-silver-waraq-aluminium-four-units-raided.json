@@ -1,0 +1,143 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-85",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "food safety",
+ "hook": "Hyderabad sweets got 'silver' leaf that was *aluminium*, police say",
+ "hook_b": "Hyderabad sweets got 'silver' leaf that was *aluminium*, police say",
+ "tldr": "The Commissioner's Task Force raided four units it says passed aluminium leaves off as edible silver waraq, supplied to sweet makers and bakeries.",
+ "beats": {
+  "what": "Police seized 49 bundles of aluminium leaves, 10 kg of aluminium flakes, coated sugar balls and other materials.",
+  "why": "Police said the fake waraq went on Kaju Katli, Kaju Rolls and Cham Cham, and aluminium flakes into zarda and flavoured paan.",
+  "care": "Police cautioned that long-term intake of non-food-grade aluminium may harm the kidneys, nerves, bones and digestion."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🍬",
+    "label": "Aluminium sold as edible silver"
+   }
+  ],
+  "event": {
+   "icon": "🚨",
+   "label": "Task Force raids four units"
+  },
+  "effects": [
+   {
+    "icon": "🧪",
+    "label": "Sweets and paan supply hit"
+   },
+   {
+    "icon": "🧪",
+    "label": "Health warning on aluminium"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 17): The units were allegedly running without valid FSSAI licences, said Commissioner MM Bhagwath."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you check sweets with silver leaf before buying?",
+   "opts": [
+    "Always",
+    "Sometimes",
+    "Never",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How can buyers verify silver leaf before a lab test?",
+    "Who checks FSSAI licences for small waraq units?"
+   ],
+   "facts": [
+    {
+     "big": "10 kg",
+     "t": "Police also seized *10 kg* of aluminium flakes in cartons.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-police-bust-alleged-fake-silver-waraq-manufacturing-racket"
+    },
+    {
+     "big": "999",
+     "t": "Edible silver leaf must be at least *999 parts per thousand* silver.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-police-bust-alleged-fake-silver-waraq-manufacturing-racket"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Where the aluminium went, per police",
+   "tone": "bad",
+   "verdict": "Several everyday foods were in the supply chain",
+   "steps": [
+    {
+     "t": "Sweets",
+     "e": "Kaju Katli, Kaju Rolls, Cham Cham"
+    },
+    {
+     "t": "Bakeries",
+     "e": "Coated sugar balls on cakes"
+    },
+    {
+     "t": "Paan",
+     "e": "Flakes in zarda, flavoured paan"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "49 bundles",
+   "l": "aluminium leaves seized"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "4 units",
+  "label": "raided by Task Force",
+  "motion": "drift",
+  "scene": [
+   "🍬",
+   "🚨",
+   "🧪"
+  ]
+ },
+ "learn": {
+  "t": "Waraq = very thin edible silver leaf used to decorate sweets and paan"
+ },
+ "watch": "Whether food safety officials test sweet shops that bought from these units.",
+ "thread": "hyd-fake-silver-waraq-aluminium-four-units-raided",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad police bust alleged fake silver waraq manufacturing racket",
+   "url": "https://telanganatoday.com/hyderabad-police-bust-alleged-fake-silver-waraq-manufacturing-racket"
+  }
+ ],
+ "updated": 1794963409927,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Untitled-1-38.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Police raided *four* Hyderabad units allegedly making edible silver waraq from aluminium",
+ "twist": "Genuine edible silver leaf must be 99.9% pure silver under food safety rules.",
+ "layer": "city",
+ "areas": [
+  "Hyderabad"
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-95",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Medchal's groundwater fell to *12.67 m* below ground after a dry October",
+ "hook_b": "Medchal's groundwater fell to *12.67 m* below ground after a dry October",
+ "tldr": "A Groundwater Department report shows severe depletion across Medchal-Malkajgiri after a 74% rainfall deficit in October, raising concerns for next summer.",
+ "beats": {
+  "what": "The district got just 27.9 mm of rain in October 2026, a 74% deficit classed as a 'Large Deficit'.",
+  "why": "Low rain cut aquifer recharge, and deeper water levels raise the rate of domestic borewell failures.",
+  "care": "Residents in Uppal, Malkajgiri, Bachupally, Muduchintalapally and Dundigal could face early shortages next summer."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "74% rain deficit in October"
+   }
+  ],
+  "event": {
+   "icon": "💧",
+   "label": "Groundwater drops to 12.67 m bgl"
+  },
+  "effects": [
+   {
+    "icon": "🚰",
+    "label": "Borewell failure risk rises"
+   },
+   {
+    "icon": "🚰",
+    "label": "Early summer shortage feared"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 18): RWAs, Malkajgiri civic officials and HMWSSB have raised concerns over the data."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Has your borewell or water supply changed this month?",
+   "opts": [
+    "No change",
+    "Lower than usual",
+    "Gone dry",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which colonies depend most on borewells rather than piped water?",
+    "How much of the drop is from new construction versus low rain?"
+   ],
+   "facts": [
+    {
+     "big": "27.9 mm",
+     "t": "The district got only *27.9 mm* of rain in October, a 74% deficit.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/groundwater-depletion-raises-summer-water-concerns-in-medchal-district"
+    },
+    {
+     "big": "31.66%",
+     "t": "Muduchintalapally's water table fell *31.66%*, close behind Bachupally.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/groundwater-depletion-raises-summer-water-concerns-in-medchal-district"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Avg groundwater depth, Medchal-Malkajgiri",
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Water is further underground for borewell users",
+   "a": {
+    "v": 6.51,
+    "d": "6.51 m",
+    "l": "Nov 2025"
+   },
+   "b": {
+    "v": 12.67,
+    "d": "12.67 m",
+    "l": "Oct 2026"
+   }
+  },
+  {
+   "t": "bars",
+   "card": {
+    "title": "Depth below ground, Oct (m)",
+    "items": [
+     {
+      "label": "Dundigal",
+      "value": 37.63,
+      "display": "37.63 m"
+     },
+     {
+      "label": "Malkajgiri",
+      "value": 17.89,
+      "display": "17.89 m"
+     },
+     {
+      "label": "Uppal",
+      "value": 15.52,
+      "display": "15.52 m"
+     },
+     {
+      "label": "Nacharam",
+      "value": 2.3,
+      "display": "2.3 m"
+     }
+    ],
+    "note": "Dundigal's well is the deepest in the district"
+   },
+   "tone": "bad",
+   "verdict": "Dundigal's well is the deepest in the district"
+  },
+  {
+   "t": "big",
+   "v": "12.67 m",
+   "l": "avg groundwater depth, Oct"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "12.67 m",
+  "label": "avg groundwater depth, Oct",
+  "motion": "drift",
+  "scene": [
+   "🌧️",
+   "💧",
+   "🚰"
+  ]
+ },
+ "watch": "Whether HMWSSB plans extra tanker or piped supply for the Medchal fringes before summer.",
+ "thread": "hyd-medchal-groundwater-12-67m-74pc-rain-deficit",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Groundwater depletion raises summer water concerns in Medchal district",
+   "url": "https://telanganatoday.com/groundwater-depletion-raises-summer-water-concerns-in-medchal-district"
+  }
+ ],
+ "updated": 1794963409926,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Ground-water-1.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Medchal-Malkajgiri's average groundwater level dropped to *12.67 m*, from 6.51 m",
+ "twist": "Bachupally's water table fell 36.54% even though its depth isn't among the worst.",
+ "layer": "near",
+ "areas": [
+  "Bachupally",
+  "Muduchintalapally",
+  "Uppal",
+  "Malkajgiri",
+  "Dundigal",
+  "Nacharam"
+ ]
+}

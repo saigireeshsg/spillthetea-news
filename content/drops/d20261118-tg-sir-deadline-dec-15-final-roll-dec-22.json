@@ -1,0 +1,161 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Telangana's final voter list now comes on *Dec 22*, not Nov 30",
+ "hook_b": "Telangana's final voter list now comes on *Dec 22*, not Nov 30",
+ "tldr": "The Election Commission extended the Special Intensive Revision schedule in seven states including Telangana; claims and objections now close December 15.",
+ "beats": {
+  "what": "The deadline for claims and objections moved from November 26 to December 15, and the final roll from November 30 to December 22.",
+  "why": "ECI also revised the schedule for ASDD electors who were dropped from draft rolls for not submitting enumeration forms.",
+  "care": "ASDD enumeration forms are being distributed and collected from November 18 to 30, and must be disposed of by December 10."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "ECI revises SIR schedule in 7 states"
+   }
+  ],
+  "event": {
+   "icon": "📅",
+   "label": "Claims deadline moves to Dec 15"
+  },
+  "effects": [
+   {
+    "icon": "🧾",
+    "label": "ASDD forms collected Nov 18-30"
+   },
+   {
+    "icon": "🧾",
+    "label": "Final roll published Dec 22"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 17): ECI wrote to Telangana CEO C Sudharsan Reddy with the revised dates."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Have you checked your name on the draft voter list?",
+   "opts": [
+    "Yes, I'm on it",
+    "Yes, I'm missing",
+    "Not yet",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will ASDD voters learn that their names were dropped?",
+    "What happens to the 76,058 names still pending?"
+   ],
+   "facts": [
+    {
+     "big": "92.88 lakh",
+     "t": "ECI flagged discrepancies or no 2002 mapping for *92,88,188* voters who filed forms.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/eci-extends-telangana-sir-deadline-to-december-15-final-voter-list-on-december-22"
+    },
+    {
+     "big": "57,644",
+     "t": "So far *57,644* electors have been found ineligible.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/eci-extends-telangana-sir-deadline-to-december-15-final-voter-list-on-december-22"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Revised SIR dates",
+   "tone": "neutral",
+   "verdict": "More time for claims, later final list",
+   "steps": [
+    {
+     "t": "Nov 18-30",
+     "e": "ASDD forms distributed, collected"
+    },
+    {
+     "t": "Dec 10",
+     "e": "ASDD forms disposed"
+    },
+    {
+     "t": "Dec 15",
+     "e": "Claims and objections close"
+    },
+    {
+     "t": "Dec 22",
+     "e": "Final voter list"
+    }
+   ]
+  },
+  {
+   "t": "stack",
+   "l": "Pre-SIR voters (3.38 cr)",
+   "parts": [
+    {
+     "l": "Submitted forms",
+     "v": 26487213
+    },
+    {
+     "l": "ASDD list",
+     "v": 7339235
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "About 1 in 5 voters landed in the ASDD list",
+   "total": "3,38,26,448"
+  },
+  {
+   "t": "big",
+   "v": "Dec 22",
+   "l": "final voter list"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Dec 22",
+  "label": "final voter list",
+  "motion": "drift",
+  "scene": [
+   "🗳️",
+   "📅",
+   "🧾"
+  ]
+ },
+ "watch": "How many of the 76,058 pending names are decided before December 15.",
+ "thread": "tg-sir-deadline-dec-15-final-roll-dec-22",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "ECI extends Telangana SIR deadline to December 15, final voter list on December 22",
+   "url": "https://telanganatoday.com/eci-extends-telangana-sir-deadline-to-december-15-final-voter-list-on-december-22"
+  }
+ ],
+ "updated": 1794963409927,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Election-Commission.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Telangana's final voter list is pushed to *December 22* after ECI extends SIR",
+ "twist": "73.39 lakh voters were put in the absent, shifted, dead or duplicate list during enumeration.",
+ "layer": "state",
+ "areas": [
+  "Hyderabad"
+ ]
+}

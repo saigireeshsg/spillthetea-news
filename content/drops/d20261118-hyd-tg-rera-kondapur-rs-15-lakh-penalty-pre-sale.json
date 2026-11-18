@@ -1,0 +1,173 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "housing",
+ "hook": "TG-RERA fines a Kondapur developer *₹15 lakh* for selling before registering",
+ "hook_b": "TG-RERA fines a Kondapur developer *₹15 lakh* for selling before registering",
+ "tldr": "In two Nov 10 orders, Telangana RERA ruled that later registration or layout approval cannot cure sales made without RERA registration.",
+ "beats": {
+  "what": "Atluri Developers was fined for agreeing to sell a seventh-floor unit at Atluri Ascend, Kondapur, before the project got RERA registration on Dec 14, 2022.",
+  "why": "RERA held that agreeing to sell an identified unit before registration breaks Section 3(1), however the agreement is described.",
+  "care": "In a second order, a Mancherial plot promoter was fined ₹5.3 lakh: DTCP layout approval was ruled no substitute for RERA registration."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Sales signed before RERA registration"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "TG-RERA fines two promoters"
+  },
+  "effects": [
+   {
+    "icon": "🏠",
+    "label": "Penalties due in 30 days"
+   },
+   {
+    "icon": "🏠",
+    "label": "Buyers: check RERA number first"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Times of India (Nov 18): Both penalties must be paid into the TG RERA Fund within 30 days, or face action under Section 63."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Before booking a flat or plot, would you check its RERA number?",
+   "opts": [
+    "Always",
+    "Only for big buys",
+    "Never thought of it",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How can a buyer check if a project is RERA-registered before paying?",
+    "Should DTCP and RERA approvals be shown together to buyers?"
+   ],
+   "facts": [
+    {
+     "big": "₹6.1 cr",
+     "t": "The Kondapur seventh-floor unit was priced at *₹6.1 crore*.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/registration-later-cannot-erase-pre-sale-violation-rera/articleshow/135934637.cms"
+    },
+    {
+     "big": "₹5.3 lakh",
+     "t": "A Mancherial plot promoter was fined *₹5.3 lakh* despite DTCP approval.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/layout-approval-no-substitute-for-rera-registration-says-authority/articleshow/135934647.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Kondapur project: sale before registration",
+   "tone": "bad",
+   "verdict": "Sale agreement came 22 months before registration",
+   "steps": [
+    {
+     "t": "Feb 2020",
+     "e": "Development agreement with landowners"
+    },
+    {
+     "t": "Feb 3, 2021",
+     "e": "₹6.1 cr unit agreed for sale"
+    },
+    {
+     "t": "Dec 14, 2022",
+     "e": "RERA registration"
+    },
+    {
+     "t": "Nov 10, 2026",
+     "e": "₹15 lakh penalty"
+    }
+   ]
+  },
+  {
+   "t": "bars",
+   "card": {
+    "title": "TG-RERA penalties, Nov 10 orders (₹ lakh)",
+    "items": [
+     {
+      "label": "Kondapur commercial",
+      "value": 15,
+      "display": "₹15 lakh"
+     },
+     {
+      "label": "Mancherial plots",
+      "value": 5.3,
+      "display": "₹5.3 lakh"
+     }
+    ],
+    "note": "Both orders say late paperwork doesn't cure the breach"
+   },
+   "tone": "neutral",
+   "verdict": "Both orders say late paperwork doesn't cure the breach"
+  },
+  {
+   "t": "big",
+   "v": "₹15 lakh",
+   "l": "penalty, Kondapur project"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹15 lakh",
+  "label": "penalty, Kondapur project",
+  "motion": "drift",
+  "scene": [
+   "🏗️",
+   "⚖️",
+   "🏠"
+  ]
+ },
+ "learn": {
+  "t": "RERA = Real Estate Regulatory Authority; projects must register before ads or sales"
+ },
+ "watch": "Whether both promoters pay into the TG RERA Fund within the 30-day window.",
+ "thread": "hyd-tg-rera-kondapur-rs-15-lakh-penalty-pre-sale",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Registration later cannot erase pre-sale violation: RERA",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/registration-later-cannot-erase-pre-sale-violation-rera/articleshow/135934637.cms"
+  },
+  {
+   "name": "Times of India",
+   "title": "Layout approval no substitute for RERA registration, says authority",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/layout-approval-no-substitute-for-rera-registration-says-authority/articleshow/135934647.cms"
+  }
+ ],
+ "updated": 1794963409928,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135934632,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "TG-RERA fined a Kondapur developer *₹15 lakh* for selling before RERA registration",
+ "twist": "The ₹6.1 crore unit was agreed for sale in Feb 2021, nearly two years before registration.",
+ "layer": "near",
+ "areas": [
+  "Kondapur"
+ ]
+}

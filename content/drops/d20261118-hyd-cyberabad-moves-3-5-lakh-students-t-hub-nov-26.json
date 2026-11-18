@@ -1,0 +1,137 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Cyberabad asks *3.5 lakh* students for ideas to fix traffic",
+ "hook_b": "Cyberabad asks *3.5 lakh* students for ideas to fix traffic",
+ "tldr": "Cyberabad Police and Cyberabad Municipal Corporation are inviting students to Cyberabad Moves 2026 and its Innovation Challenge on congestion and road safety.",
+ "beats": {
+  "what": "Police Commissioner M Ramesh and CMC Commissioner G Srijana briefed schools and colleges in a virtual session on Nov 17.",
+  "why": "The programme links classroom subjects like geography, maths and civics with real commuting problems.",
+  "care": "Interactive activities for students run at T-Hub from November 26 to 28."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚦",
+    "label": "Congestion and road safety in Cyberabad"
+   }
+  ],
+  "event": {
+   "icon": "🎓",
+   "label": "Students invited to Cyberabad Moves"
+  },
+  "effects": [
+   {
+    "icon": "🗺️",
+    "label": "T-Hub activities Nov 26-28"
+   },
+   {
+    "icon": "🗺️",
+    "label": "Innovation Challenge ideas"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu (Nov 18): SCSC CEO Naved Khan and WRI Fellow Srinivas Allavalli explained the Innovation Challenge."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What slows your daily commute most?",
+   "opts": [
+    "Traffic jams",
+    "Bad roads",
+    "No good public transport",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will any student idea be tested on a real Cyberabad junction?",
+    "Which commute problems do students face most near their schools?"
+   ],
+   "facts": [
+    {
+     "big": "3.5 lakh",
+     "t": "Nearly *3.5 lakh* students were invited to take part.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/cyberabad-moves-to-engage-students-from-400-institutions-in-urban-mobility-solutions/article71711547.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Cyberabad Moves 2026",
+   "tone": "neutral",
+   "verdict": "Students get a role in mobility planning",
+   "steps": [
+    {
+     "t": "Nov 17",
+     "e": "Virtual briefing for 400+ institutions"
+    },
+    {
+     "t": "Nov 26-28",
+     "e": "Activities, floor maps at T-Hub"
+    },
+    {
+     "t": "Challenge",
+     "e": "Students pitch traffic ideas"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "400+",
+   "l": "schools and colleges reached"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3.5 lakh",
+  "label": "students invited",
+  "motion": "drift",
+  "scene": [
+   "🚦",
+   "🎓",
+   "🗺️"
+  ]
+ },
+ "watch": "Which student ideas from the Innovation Challenge Cyberabad says it will try on the roads.",
+ "thread": "hyd-cyberabad-moves-3-5-lakh-students-t-hub-nov-26",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Cyberabad Moves to engage students from 400 institutions in urban mobility solutions",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/cyberabad-moves-to-engage-students-from-400-institutions-in-urban-mobility-solutions/article71711547.ece"
+  }
+ ],
+ "updated": 1794963409928,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/dzn5xh/article71711552.ece/alternates/LANDSCAPE_1200/f1bc4501-b650-47f5-9100-3ad59fdf532b.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "Cyberabad police reached *3.5 lakh* students in 400+ schools for traffic ideas",
+ "twist": "Students will use giant floor maps at T-Hub to trace their own homes, schools and routes.",
+ "layer": "near",
+ "areas": [
+  "Gachibowli",
+  "Madhapur",
+  "HITEC City",
+  "Kondapur"
+ ]
+}
