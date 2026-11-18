@@ -1,0 +1,145 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-78",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "Snapchat drug ring claimed *800-900* Hyderabad buyers",
+ "hook_b": "Snapchat drug ring claimed *800-900* Hyderabad buyers",
+ "tldr": "Telangana's EAGLE Force arrested three men near Manikonda on Nov 15 and seized 1.24 kg of ganja and 16.59 g of OG Kush. Police say the gang took orders on Snapchat, paid suppliers in crypto and delivered 5-gram sachets around the city.",
+ "beats": {
+  "what": "The Hyderabad Narcotics Police Station of EAGLE Force intercepted a car heading from Lanco Hills to Manikonda and seized drugs, three phones and the car.",
+  "why": "Police say the accused ran Snapchat accounts to take orders and opened a new one after the first was blocked; the Mumbai-based main supplier is absconding.",
+  "care": "Police say the network sold through social media to hundreds of local users, many young."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚔",
+    "label": "Tip-off on a car near Lanco Hills"
+   }
+  ],
+  "event": {
+   "icon": "📱",
+   "label": "3 arrested, Snapchat ring busted"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Mumbai supplier absconding"
+   },
+   {
+    "icon": "💸",
+    "label": "Crypto payment trail under probe"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu (Nov 18): drugs came from Mumbai by bus and were repacked into ~5 g sachets for delivery across Hyderabad."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should apps like Snapchat be required to flag drug-selling accounts faster?",
+   "opts": [
+    "Yes",
+    "No",
+    "Already enough",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How do platforms detect drug sales that move to new accounts after a ban?"
+   ],
+   "facts": [
+    {
+     "big": "800-900",
+     "t": "Accused claimed to have supplied *800 to 900* people via social media contacts, police say.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/three-arrested-as-telanganas-eagle-force-busts-drug-network-in-hyderabad/article71715376.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the network worked, per police",
+   "tone": "bad",
+   "verdict": "Social media + crypto used to sell drugs locally",
+   "steps": [
+    {
+     "t": "Supply",
+     "e": "Bulk ganja, OG Kush from Mumbai by bus"
+    },
+    {
+     "t": "Repack",
+     "e": "~5 g sachets"
+    },
+    {
+     "t": "Orders",
+     "e": "Snapchat accounts; new one after ban"
+    },
+    {
+     "t": "Pay",
+     "e": "Crypto account for suppliers and buyers"
+    },
+    {
+     "t": "Nov 15",
+     "e": "Car stopped near Manikonda, 3 held"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "1.24 kg",
+   "l": "ganja seized, plus 16.59 g OG Kush"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "1.24 kg",
+  "label": "ganja seized, plus 16.59 g OG Kush",
+  "motion": "drift",
+  "scene": [
+   "🚔",
+   "📱",
+   "💸"
+  ]
+ },
+ "watch": "Whether police trace the absconding Mumbai supplier and the crypto payments.",
+ "thread": "hyd-eagle-snapchat-og-kush-network-800-buyers",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Three arrested as Telangana's EAGLE Force busts Snapchat-based drug network in Hyderabad",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/three-arrested-as-telanganas-eagle-force-busts-drug-network-in-hyderabad/article71715376.ece"
+  }
+ ],
+ "updated": 1795003041774,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/z7itek/article71715739.ece/alternates/LANDSCAPE_1200/586113582.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "EAGLE Force says a Snapchat drug network claimed *800-900* buyers in Hyderabad",
+ "twist": "Payments ran through a crypto account, with police finding a USDT top-up screen on one phone.",
+ "areas": [
+  "Manikonda",
+  "Lanco Hills",
+  "Tolichowki",
+  "Golconda",
+  "Asif Nagar"
+ ],
+ "layer": "near"
+}

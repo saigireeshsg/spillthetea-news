@@ -1,0 +1,153 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-80",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "BRS asks why AP's *9 TMCft* Sagar plan went unnoticed",
+ "hook_b": "BRS asks why AP's *9 TMCft* Sagar plan went unnoticed",
+ "tldr": "BRS working president KT Rama Rao asked the Telangana government whether it had complained to the Krishna River Management Board about Andhra Pradesh's alleged project to draw 9 TMCft from Nagarjuna Sagar. He warned of agitation and a legal fight. The government's reply is not in the report.",
+ "beats": {
+  "what": "At Telangana Bhavan on Nov 18, KTR asked if the State had approached KRMB, lodged a complaint or sought the remaining 40 TMCft for drinking water.",
+  "why": "Reports earlier this week said AP is building a tunnel to draw Krishna water from Nagarjuna Sagar, which supplies Hyderabad and several districts.",
+  "care": "Nagarjuna Sagar is a drinking-water source for Hyderabad; any shift in Krishna shares matters for summer supply."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💧",
+    "label": "Reports of AP tunnel at Nagarjuna Sagar"
+   }
+  ],
+  "event": {
+   "icon": "🏞️",
+   "label": "BRS questions State's silence"
+  },
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "Pressure to approach KRMB"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Hyderabad drinking-water share in focus"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 18): KTR asked how a project 'underway for nearly a year' escaped officials and intelligence agencies."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you know which reservoir your home's water comes from?",
+   "opts": [
+    "Yes",
+    "Roughly",
+    "No idea",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much of Hyderabad's drinking water comes from Nagarjuna Sagar this season?",
+    "What can KRMB do once a project is already under construction?"
+   ],
+   "facts": [
+    {
+     "big": "₹1,200 cr",
+     "t": "Namasthe Telangana reported AP is digging a *₹1,200 crore* tunnel from Nagarjuna Sagar.",
+     "s": "Namasthe Telangana",
+     "u": "https://www.ntnews.com/telangana/nagarjuna-sagar-water-diversion-plan-raises-concerns-in-telangana-2561473"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The Sagar dispute so far",
+   "tone": "neutral",
+   "verdict": "Claims by the opposition; no government response reported yet",
+   "steps": [
+    {
+     "t": "Nov 16",
+     "e": "Report: AP digging ₹1,200 crore tunnel from Sagar"
+    },
+    {
+     "t": "Nov 18",
+     "e": "KTR: 9 TMCft diversion went undetected for a year"
+    },
+    {
+     "t": "Next",
+     "e": "KRMB complaint? Legal fight threatened"
+    }
+   ]
+  },
+  {
+   "t": "compare",
+   "l": "Krishna water in question (TMCft)",
+   "a": {
+    "v": 9,
+    "d": "9",
+    "l": "alleged AP diversion"
+   },
+   "b": {
+    "v": 40,
+    "d": "40",
+    "l": "remaining share KTR wants for drinking water"
+   },
+   "tone": "neutral",
+   "verdict": "Figures as stated by KTR"
+  },
+  {
+   "t": "big",
+   "v": "9 TMCft",
+   "l": "alleged AP diversion from Sagar"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "9 TMCft",
+  "label": "alleged AP diversion from Sagar",
+  "motion": "drift",
+  "scene": [
+   "💧",
+   "🏞️",
+   "⚖️"
+  ]
+ },
+ "watch": "Whether the Telangana government or KRMB responds, and the Krishna waters case in the Supreme Court.",
+ "thread": "tg-ktr-ap-sagar-diversion-9-tmcft-krmb",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "KT Rama Rao questions Revanth government over Andhra's alleged water diversion",
+   "url": "https://telanganatoday.com/kt-rama-rao-questions-revanth-government-over-andhras-alleged-90-tmcft-water-diversion"
+  }
+ ],
+ "updated": 1795003041774,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/KTR-4-1.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "BRS says AP's *9 TMCft* Nagarjuna Sagar diversion ran undetected for a year",
+ "twist": "KTR also asked how much Krishna water is reserved in Srisailam and Sagar for Hyderabad's drinking needs.",
+ "areas": [
+  "Nalgonda",
+  "Mahabubnagar",
+  "Khammam",
+  "Hyderabad"
+ ],
+ "layer": "state"
+}

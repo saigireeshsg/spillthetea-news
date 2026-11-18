@@ -1,0 +1,152 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "IIIT Junction flyover: *43 of 54* pillars done",
+ "hook_b": "IIIT Junction flyover: *43 of 54* pillars done",
+ "tldr": "Work on the 3.39-km signal-free interchange at Gachibowli's IIIT Junction picked up after the monsoon. Cyberabad Municipal Corporation says 43 of 54 foundation pillars are complete and beam work is underway. Target: May 2027.",
+ "beats": {
+  "what": "CMC is building three steel flyovers and a six-lane underpass at IIIT Junction under the H-CITI project; 43 of 54 pillars are done.",
+  "why": "IIIT Junction is one of the IT corridor's worst bottlenecks between ISB Road, DLF Road, Lingampally and Gachibowli.",
+  "care": "Expect construction slowdowns around IIIT Junction until the May 2027 target; once done, right turns from ISB Road skip the signal."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Monsoon ends, works speed up"
+   }
+  ],
+  "event": {
+   "icon": "🌉",
+   "label": "43 of 54 pillars complete"
+  },
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Construction zone till May 2027"
+   },
+   {
+    "icon": "🚗",
+    "label": "10-15 min saved at peak, officials say"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 18): heavy structural beam installation is now underway on the three interconnected steel flyover stretches."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How do you get through IIIT Junction most days?",
+   "opts": [
+    "Bike/scooter",
+    "Car/cab",
+    "Bus/metro + walk",
+    "Avoid it",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will traffic be managed at IIIT Junction while the upper decks go up?",
+    "Will the 10-15 minute saving hold as ORR-side offices keep growing?"
+   ],
+   "facts": [
+    {
+     "big": "4-5 lakh",
+     "t": "*4-5 lakh* commuters use the HITEC City-Financial District-Kokapet-Lingampally stretch daily, CMC says.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/iiit-junction-flyover-works-gather-pace-after-monsoon-in-hyderabad"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Foundation pillars done",
+   "v": 43,
+   "max": 54,
+   "unit": "",
+   "tone": "neutral",
+   "verdict": "11 pillars left before the decks go up"
+  },
+  {
+   "t": "timeline",
+   "l": "Three flyovers, one junction",
+   "tone": "neutral",
+   "verdict": "Two decks stacked to cut land acquisition",
+   "steps": [
+    {
+     "t": "Level 1",
+     "e": "720 m, 4-lane: ISB Road ↔ DLF Road"
+    },
+    {
+     "t": "Level 2",
+     "e": "948 m: DLF Road → Lingampally"
+    },
+    {
+     "t": "Level 2",
+     "e": "1.2 km, 3-lane: ISB Road → Gachibowli"
+    },
+    {
+     "t": "May 2027",
+     "e": "Completion target"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "3.39 km",
+   "l": "signal-free network at IIIT Junction"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3.39 km",
+  "label": "signal-free network at IIIT Junction",
+  "motion": "drift",
+  "scene": [
+   "🏗️",
+   "🌉",
+   "🚗"
+  ]
+ },
+ "watch": "Girder launches over the junction in the coming months; the May 2027 completion target.",
+ "thread": "hyd-iiit-junction-flyover-43-of-54-pillars-done",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "IIIT Junction flyover works gather pace after monsoon in Hyderabad",
+   "url": "https://telanganatoday.com/iiit-junction-flyover-works-gather-pace-after-monsoon-in-hyderabad"
+  }
+ ],
+ "updated": 1795003041773,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Untitled-1-45.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Gachibowli's IIIT Junction interchange has *43 of 54* foundation pillars finished",
+ "twist": "Officials say it could cut peak-hour travel by 10-15 minutes for 4-5 lakh daily commuters.",
+ "areas": [
+  "Gachibowli",
+  "Financial District",
+  "Lingampally",
+  "Kokapet",
+  "HITEC City"
+ ],
+ "layer": "near"
+}

@@ -1,35 +1,35 @@
 {
  "cat": "local",
  "lead": "local",
- "date": "2026-11-17",
- "sort": "2026-11-17-95",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-95",
  "order": 1,
  "heat": 4,
  "readSecs": 30,
  "topic": "weather",
- "hook": "Akvan could dump up to *204 mm* on 4 Telangana districts",
- "hook_b": "Akvan could dump up to *204 mm* on 4 Telangana districts",
- "tldr": "IMD Hyderabad scaled up its Cyclone Akvan warnings: heavy to very heavy rain and 50-60 kmph squally winds are likely in Bhadradri Kothagudem, Khammam, Suryapet and Mahabubabad on Nov 20-21.",
+ "hook": "Akvan veers to Odisha: Telangana heavy-rain alert *withdrawn*",
+ "hook_b": "Akvan veers to Odisha: Telangana heavy-rain alert *withdrawn*",
+ "tldr": "IMD's Nov 18 track shows Cyclone Akvan crossing the coast between Narsapur (AP) and Puri (Odisha) by Friday noon and weakening before Telangana. The heavy to very heavy rain warning for Bhadradri Kothagudem, Khammam, Suryapet and Mahabubabad is withdrawn; only isolated thunderstorms with lightning remain.",
  "beats": {
-  "what": "IMD forecasts dry, chilly weather for three days, then rain and thundershowers in eastern districts from Nov 19, turning heavy on Nov 20-22.",
-  "why": "Cyclone Akvan is approaching the Andhra coast, and its rain bands are expected to spread over eastern and southeastern Telangana.",
-  "care": "Trips by road or rail to Khammam, Warangal or Bhadrachalam side on Nov 20-22 may run into heavy rain and strong winds."
+  "what": "IMD Hyderabad withdrew Tuesday's heavy to very heavy rain forecast for four eastern districts. Wednesday's bulletin predicts only isolated thunderstorms with lightning on Thursday and Friday.",
+  "why": "Akvan's forecast track shifted north: it may now cross between Narsapur and Puri by noon on Nov 20 and head towards Odisha instead of Telangana.",
+  "care": "Trips east of Hyderabad on Nov 19-20 face thunderstorms and lightning at isolated places, not the heavy-rain warning issued on Tuesday."
  },
  "map": {
   "causes": [
    {
     "icon": "🌀",
-    "label": "Cyclone Akvan nears Andhra coast"
+    "label": "Akvan track shifts north towards Odisha"
    }
   ],
   "event": {
    "icon": "🌧️",
-   "label": "IMD ups Telangana rain alert"
+   "label": "IMD withdraws Telangana heavy-rain alert"
   },
   "effects": [
    {
-    "icon": "🚗",
-    "label": "Heavy rain in 4 eastern districts"
+    "icon": "⛈️",
+    "label": "Only isolated thunderstorms in 7 districts"
    },
    {
     "icon": "🚗",
@@ -41,16 +41,16 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "The Hindu (Nov 17, 12:06 pm): IMD says Akvan becomes a Severe Cyclone tonight and a Very Severe Cyclone on Nov 19 evening, then crosses the Andhra coast around noon on Nov 20."
+   "body": "The Hindu (Nov 18, 5:02 pm): IMD's latest track shows Akvan may not enter Telangana after weakening into a depression; the heavy-rain warning for four districts is withdrawn."
   },
   {
    "k": "poll",
    "vt": "stance",
-   "q": "Would you postpone a road trip east of Hyderabad on Nov 20-22?",
+   "q": "Will you still travel east of Hyderabad on Nov 19-20?",
    "opts": [
-    "Yes, I'd wait",
-    "No, I'd still go",
-    "Depends on the alert",
+    "Yes, going",
+    "Postponing anyway",
+    "No plans to",
     "Not sure"
    ]
   },
@@ -79,55 +79,43 @@
  "viz": [
   {
    "t": "timeline",
-   "l": "Akvan's path",
+   "l": "How the Friday forecast changed",
+   "tone": "good",
+   "verdict": "Lower rain risk for Khammam, Kothagudem, Suryapet, Mahabubabad",
    "steps": [
     {
-     "t": "Nov 16 eve",
-     "e": "Cyclonic Storm forms"
+     "t": "Tue Nov 17",
+     "e": "Heavy to very heavy rain warned in 4 districts"
     },
     {
-     "t": "Nov 17 night",
-     "e": "Severe Cyclone"
+     "t": "Wed Nov 18",
+     "e": "Track shifts north towards Odisha"
     },
     {
-     "t": "Nov 19 eve",
-     "e": "Very Severe Cyclone"
-    },
-    {
-     "t": "Nov 20 noon",
-     "e": "Crosses Andhra coast"
-    }
-   ],
-   "tone": "neutral"
-  },
-  {
-   "t": "timeline",
-   "l": "IMD Hyderabad outlook",
-   "tone": "neutral",
-   "verdict": "Rain builds in the east; Hyderabad mostly dry",
-   "steps": [
-    {
-     "t": "Nov 17-18",
-     "e": "Dry, chilly across Telangana"
-    },
-    {
-     "t": "Nov 19-20",
-     "e": "Light-moderate rain, 30-40 kmph gusts in east"
-    },
-    {
-     "t": "Nov 20-21",
-     "e": "Heavy to very heavy rain, 50-60 kmph squalls"
-    },
-    {
-     "t": "Nov 21-22",
-     "e": "Heavy rain in Bhupalpally, Mulugu, Khammam belt"
+     "t": "Wed afternoon",
+     "e": "Warning withdrawn; isolated thunderstorms only"
     }
    ]
   },
   {
-   "t": "big",
-   "v": "204.4 mm",
-   "l": "max rain warned, Nov 20-21"
+   "t": "timeline",
+   "l": "What IMD expects now",
+   "tone": "neutral",
+   "verdict": "Thunderstorms in the east; Hyderabad mostly dry",
+   "steps": [
+    {
+     "t": "Thu Nov 19",
+     "e": "Thunderstorms, lightning: Kothagudem, Khammam, Suryapet"
+    },
+    {
+     "t": "Fri Nov 20 noon",
+     "e": "Akvan crosses coast between Narsapur and Puri"
+    },
+    {
+     "t": "Fri Nov 20",
+     "e": "Thunderstorms in 7 districts incl. Mulugu, Nalgonda"
+    }
+   ]
   }
  ],
  "cover": {
@@ -135,8 +123,8 @@
    "#10243d",
    "#2a6fb0"
   ],
-  "big": "204.4 mm",
-  "label": "max rain warned, Nov 20-21",
+  "big": "Withdrawn",
+  "label": "heavy-rain alert, 4 districts",
   "motion": "drift",
   "scene": [
    "🌀",
@@ -144,9 +132,14 @@
    "🚗"
   ]
  },
- "watch": "IMD's updated bulletins on Nov 19-20 as Akvan nears landfall; districts can move from yellow to orange alerts.",
+ "watch": "IMD bulletins on Nov 19 as Akvan nears the coast; the track has already shifted once.",
  "thread": "tg-akvan-heavy-rain-khammam-kothagudem-nov-20-21",
  "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Cyclone Akvan forecast track changes, heavy rain alert withdrawn for Telangana's four districts",
+   "url": "https://www.thehindu.com/news/national/telangana/cyclone-akvan-forecast-track-changes-heavy-rain-alert-withdrawn-for-telanganas-four-districts/article71715467.ece"
+  },
   {
    "name": "Telangana Today",
    "title": "IMD steps up rain alert for Telangana under Cyclone Akvan",
@@ -158,19 +151,21 @@
    "url": "https://www.thehindu.com/news/national/cyclone-akvan-cyclonic-storm-forms-over-bay-of-bengal-andhra-pradesh-november-17-2026-live-updates/article71710277.ece"
   }
  ],
- "updated": 1794899508694,
+ "updated": 1795002957054,
  "img": {
-  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Rains-5-1-1.jpg",
-  "c": "Telangana Today"
+  "u": "https://th-i.thgim.com/public/news/cities/Hyderabad/ag8mb7/article71715460.ece/alternates/LANDSCAPE_1200/Image%2048.jpeg",
+  "c": "The Hindu"
  },
- "fact": "Cyclone Akvan may bring up to *204.4 mm* of rain to four Telangana districts",
- "twist": "Hyderabad and its surrounding districts are expected to stay largely dry through it.",
+ "fact": "IMD *withdraws* heavy-rain alert for four Telangana districts as Akvan veers north",
+ "twist": "Tuesday's bulletin had warned of heavy to very heavy rain; by Wednesday afternoon it was down to isolated thunderstorms.",
  "layer": "state",
  "areas": [
   "Khammam",
   "Bhadradri Kothagudem",
   "Suryapet",
   "Mahabubabad",
-  "Warangal"
+  "Mulugu",
+  "Jayashankar Bhupalpally",
+  "Nalgonda"
  ]
 }

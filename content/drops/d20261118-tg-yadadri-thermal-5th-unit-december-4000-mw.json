@@ -1,0 +1,142 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-68",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "power",
+ "hook": "Yadadri plant's *5th* 800 MW unit set for December",
+ "hook_b": "Yadadri plant's *5th* 800 MW unit set for December",
+ "tldr": "The 5x800 MW Yadadri Thermal Power Station at Damaracherla, Nalgonda, expects its fifth unit to begin commercial operations next month. Four units already run. TG-Genco aims for the full 4,000 MW through the rabi and summer season.",
+ "beats": {
+  "what": "The fifth unit was synchronised with the grid on Oct 20 and is expected to reach commercial operation date in December.",
+  "why": "Telangana's peak demand is rising; TG-Genco wants all five units running through the coming rabi and summer season.",
+  "care": "More in-state generation going into summer, when Hyderabad's demand peaks."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚡",
+    "label": "Fifth unit synced to grid Oct 20"
+   }
+  ],
+  "event": {
+   "icon": "🏭",
+   "label": "Commercial operation due December"
+  },
+  "effects": [
+   {
+    "icon": "💡",
+    "label": "Full 4,000 MW for summer"
+   },
+   {
+    "icon": "💡",
+    "label": "Coal-feed fixes in place"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu (Nov 18): a BHEL and TG-Genco team camped at the plant to fix coal-handling issues; boiler, turbine and generator systems are working, officials say."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Did your area face power cuts last summer?",
+   "opts": [
+    "Often",
+    "A few times",
+    "Rarely",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much of Telangana's summer peak can Yadadri alone cover?"
+   ],
+   "facts": [
+    {
+     "big": "3,200 t/hr",
+     "t": "Four restored coal lines feed about *3,200 tonnes* an hour, 800 each.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/telanganas-ytps-final-unit-commercial-operations-likely-in-december-2026-to-further-boost-states-energy-sector/article71712752.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Yadadri units in commercial operation",
+   "v": 4,
+   "max": 5,
+   "unit": " units",
+   "tone": "good",
+   "verdict": "Fifth 800 MW unit due next month"
+  },
+  {
+   "t": "timeline",
+   "l": "Yadadri's road",
+   "tone": "neutral",
+   "verdict": "Delayed by COVID, clearances and NGT directions",
+   "steps": [
+    {
+     "t": "Feb 2024",
+     "e": "Construction resumes after fresh EIA"
+    },
+    {
+     "t": "Oct 20, 2026",
+     "e": "Unit 5 synced to grid"
+    },
+    {
+     "t": "Dec 2026",
+     "e": "Unit 5 commercial operation (expected)"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "4,000 MW",
+   "l": "target from all 5 Yadadri units"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "4,000 MW",
+  "label": "target from all 5 Yadadri units",
+  "motion": "drift",
+  "scene": [
+   "⚡",
+   "🏭",
+   "💡"
+  ]
+ },
+ "watch": "The fifth unit's commercial operation date in December and summer 2027 peak demand.",
+ "thread": "tg-yadadri-thermal-5th-unit-december-4000-mw",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana's YTPS final unit commercial operations likely in December 2026",
+   "url": "https://www.thehindu.com/news/national/telangana/telanganas-ytps-final-unit-commercial-operations-likely-in-december-2026-to-further-boost-states-energy-sector/article71712752.ece"
+  }
+ ],
+ "updated": 1795003041774,
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/national/telangana/ifmpzi/article71712745.ece/alternates/LANDSCAPE_1200/YTPS_2026-05-13%20at%2010.53.01%20PM.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "Yadadri thermal plant's fifth unit may start commercial power in *December*",
+ "twist": "A coal-handling glitch had to be fixed first: four feed lines now move 3,200 tonnes an hour.",
+ "areas": [
+  "Nalgonda"
+ ],
+ "layer": "state"
+}

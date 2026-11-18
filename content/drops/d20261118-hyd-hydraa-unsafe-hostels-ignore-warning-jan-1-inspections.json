@@ -1,0 +1,143 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-88",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "Unsafe hostels ignore HYDRAA's *3-month* move-out warning",
+ "hook_b": "Unsafe hostels ignore HYDRAA's *3-month* move-out warning",
+ "tldr": "After a seven-storey illegal hostel building collapsed at Anjaiah Nagar, Gachibowli in August killing two workers, HYDRAA told operators to shift to safe buildings within three months. Many have not, Telangana Today reports; inspections start January 1.",
+ "beats": {
+  "what": "Several hostel managements in Hyderabad and Cyberabad have not vacated unsafe premises or added safety measures despite HYDRAA's warning.",
+  "why": "HYDRAA Commissioner AV Ranganath gave the warning after the August collapse at Anjaiah Nagar, Gachibowli.",
+  "care": "If you live in a PG/hostel: check stairs, exits and ventilation; HYDRAA says buildings at risk of collapse will be demolished after Jan 1 inspections."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏚️",
+    "label": "Aug hostel-building collapse in Gachibowli"
+   }
+  ],
+  "event": {
+   "icon": "🏠",
+   "label": "Operators ignore HYDRAA move-out order"
+  },
+  "effects": [
+   {
+    "icon": "🚪",
+    "label": "Inspections from Jan 1"
+   },
+   {
+    "icon": "🚪",
+    "label": "Risky buildings may be demolished"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 18): residents describe rooms shared by 2-4 people, narrow staircases, undersized lifts and choked vents."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Does your hostel/PG have a second exit?",
+   "opts": [
+    "Yes",
+    "No",
+    "Never checked",
+    "Don't live in one",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Where would residents go if many hostels shut at once?",
+    "Who checks fire exits in hostels before January?"
+   ],
+   "facts": [
+    {
+     "big": "1-3 yrs",
+     "t": "Operators say they hold leases of *1-3 years* paid in lakhs, so they won't move.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hydraa-warning-fails-to-move-unsafe-hostels-in-hyderabad"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "HYDRAA vs hostels",
+   "tone": "bad",
+   "verdict": "Deadline nears with many hostels unchanged",
+   "steps": [
+    {
+     "t": "Aug 2026",
+     "e": "7-storey hostel building collapses, Anjaiah Nagar; 2 workers dead"
+    },
+    {
+     "t": "After collapse",
+     "e": "HYDRAA: shift to safe buildings in 3 months"
+    },
+    {
+     "t": "Nov 18",
+     "e": "Many operators yet to move"
+    },
+    {
+     "t": "Jan 1, 2027",
+     "e": "Inspections; at-risk buildings face demolition"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "Jan 1",
+   "l": "HYDRAA hostel inspections begin"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Jan 1",
+  "label": "HYDRAA hostel inspections begin",
+  "motion": "drift",
+  "scene": [
+   "🏚️",
+   "🏠",
+   "🚪"
+  ]
+ },
+ "watch": "HYDRAA's inspections from January 1 and whether any hostels are sealed or demolished.",
+ "thread": "hyd-hydraa-unsafe-hostels-ignore-warning-jan-1-inspections",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "HYDRAA warning fails to move unsafe hostels in Hyderabad",
+   "url": "https://telanganatoday.com/hydraa-warning-fails-to-move-unsafe-hostels-in-hyderabad"
+  }
+ ],
+ "updated": 1795003041774,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/HYDRAA.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Hyderabad hostels are ignoring HYDRAA's *three-month* deadline to leave unsafe buildings",
+ "twist": "Operators say they signed 1-3 year leases worth lakhs and complying could shut hostels across the city.",
+ "areas": [
+  "Gachibowli",
+  "Madhapur",
+  "Ameerpet",
+  "Kondapur",
+  "SR Nagar"
+ ],
+ "layer": "city"
+}

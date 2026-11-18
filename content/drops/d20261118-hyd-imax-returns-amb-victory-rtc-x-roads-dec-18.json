@@ -1,0 +1,138 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "movies",
+ "hook": "IMAX returns to Hyderabad after *10 years* on Dec 18",
+ "hook_b": "IMAX returns to Hyderabad after *10 years* on Dec 18",
+ "tldr": "AMB Victory Cinemas at RTC Cross Roads opens an IMAX with Laser screen on December 18 with Dune: Part Three. Prasads stopped original-format IMAX in 2015 after the switch to digital. A second IMAX is planned at AMB Cinemas, Hakimpet.",
+ "beats": {
+  "what": "Asian Cinemas, under a deal with IMAX Corporation, launches the format at AMB Victory Cinemas: one IMAX laser screen, a 4DX screen and five regular screens.",
+  "why": "Prasads Multiplex dropped original IMAX screenings in 2015 when films moved from reels to digital.",
+  "care": "Showtimes and seats are not yet listed; the theatre is on IMAX's official site."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎬",
+    "label": "Asian Cinemas-IMAX deal"
+   }
+  ],
+  "event": {
+   "icon": "🍿",
+   "label": "IMAX laser screen at RTC X Roads"
+  },
+  "effects": [
+   {
+    "icon": "🎟️",
+    "label": "Opens Dec 18"
+   },
+   {
+    "icon": "🎟️",
+    "label": "Second screen planned at Hakimpet"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 18): the third screen's location under the Asian Cinemas-IMAX deal hasn't been disclosed."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you travel to RTC Cross Roads for an IMAX show?",
+   "opts": [
+    "Yes, first week",
+    "Maybe later",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will ticket prices at the new IMAX be closer to multiplex or premium-format rates?"
+   ],
+   "facts": [
+    {
+     "big": "7",
+     "t": "AMB Victory has *7* screens: one IMAX laser, one 4DX and five regular.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-to-get-imax-screenings-again-after-a-decade-from-december-18"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Hyderabad and IMAX",
+   "tone": "good",
+   "verdict": "Large-format screens return to the city",
+   "steps": [
+    {
+     "t": "1970",
+     "e": "Sudarshan Theatre opens at RTC X Roads"
+    },
+    {
+     "t": "2010",
+     "e": "Sudarshan demolished"
+    },
+    {
+     "t": "2015",
+     "e": "Prasads stops original IMAX"
+    },
+    {
+     "t": "Dec 18, 2026",
+     "e": "IMAX laser at AMB Victory"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "Dec 18",
+   "l": "IMAX opens with Dune: Part Three"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Dec 18",
+  "label": "IMAX opens with Dune: Part Three",
+  "motion": "drift",
+  "scene": [
+   "🎬",
+   "🍿",
+   "🎟️"
+  ]
+ },
+ "watch": "Ticket bookings opening for the Dec 18 Dune: Part Three shows.",
+ "thread": "hyd-imax-returns-amb-victory-rtc-x-roads-dec-18",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad to get IMAX screenings again after a decade from December 18",
+   "url": "https://telanganatoday.com/hyderabad-to-get-imax-screenings-again-after-a-decade-from-december-18"
+  }
+ ],
+ "updated": 1795003041774,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Untitled-1-43.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Hyderabad gets an IMAX screen again after *10 years*, at RTC Cross Roads",
+ "twist": "It stands on the site of Sudarshan Theatre, opened in 1970 and demolished in 2010.",
+ "areas": [
+  "RTC Cross Roads",
+  "Hakimpet"
+ ],
+ "layer": "near"
+}

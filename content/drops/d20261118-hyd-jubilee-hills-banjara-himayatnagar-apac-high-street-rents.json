@@ -1,0 +1,155 @@
+{
+ "cat": "money",
+ "lead": "money",
+ "date": "2026-11-18",
+ "sort": "2026-11-18-62",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "real estate",
+ "hook": "Jubilee Hills enters Asia's priciest streets at *₹250*/sq ft",
+ "hook_b": "Jubilee Hills enters Asia's priciest streets at *₹250*/sq ft",
+ "tldr": "Cushman & Wakefield's Main Streets Across the World 2026 lists three Hyderabad high streets in Asia-Pacific: Jubilee Hills (51st, new entry), Banjara Hills and Himayatnagar (joint 52nd).",
+ "beats": {
+  "what": "Prime retail rents: Jubilee Hills ₹250, Banjara Hills ₹230, Himayatnagar ₹225 per sq ft per month.",
+  "why": "Only Banjara Hills and Himayatnagar made the previous edition; Jubilee Hills joined this year.",
+  "care": "High rents on these streets feed into what shops and cafes there charge."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛍️",
+    "label": "Retail demand in west Hyderabad"
+   }
+  ],
+  "event": {
+   "icon": "🏙️",
+   "label": "Jubilee Hills enters APAC ranking"
+  },
+  "effects": [
+   {
+    "icon": "💰",
+    "label": "3 city streets listed"
+   },
+   {
+    "icon": "💰",
+    "label": "Shop rents up to ₹250/sq ft"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat (Nov 18), citing the Cushman & Wakefield 2026 report."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Where do you shop most in Hyderabad?",
+   "opts": [
+    "Malls",
+    "Himayatnagar/Abids-type streets",
+    "Jubilee/Banjara Hills",
+    "Online",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Do high-street rents push small shops out of Jubilee and Banjara Hills?"
+   ],
+   "facts": [
+    {
+     "big": "24th",
+     "t": "Delhi's Khan Market ranks *24th* globally, India's priciest high street.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/worlds-most-expensive-streets-2026-3-hyderabad-spots-in-list-3580409/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Prime retail rent, ₹/sq ft/month",
+   "a": {
+    "v": 225,
+    "d": "₹225",
+    "l": "Himayatnagar"
+   },
+   "b": {
+    "v": 250,
+    "d": "₹250",
+    "l": "Jubilee Hills"
+   },
+   "tone": "neutral",
+   "verdict": "Good for landlords, costlier for shops"
+  },
+  {
+   "t": "timeline",
+   "l": "APAC ranks 2026",
+   "tone": "neutral",
+   "steps": [
+    {
+     "t": "#51",
+     "e": "Jubilee Hills (₹250) - new"
+    },
+    {
+     "t": "#52",
+     "e": "Banjara Hills (₹230)"
+    },
+    {
+     "t": "#52",
+     "e": "Himayatnagar (₹225)"
+    },
+    {
+     "t": "#25 APAC",
+     "e": "Khan Market, Delhi"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "3",
+   "l": "Hyderabad streets in APAC list"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b0f0f",
+   "#c0392b"
+  ],
+  "big": "3",
+  "label": "Hyderabad streets in APAC list",
+  "motion": "drift",
+  "scene": [
+   "🛍️",
+   "🏙️",
+   "💰"
+  ]
+ },
+ "watch": "Whether Hyderabad streets climb in next year's Cushman & Wakefield ranking.",
+ "thread": "hyd-jubilee-hills-banjara-himayatnagar-apac-high-street-rents",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "World's most expensive streets 2026: 3 Hyderabad spots in list",
+   "url": "https://www.siasat.com/worlds-most-expensive-streets-2026-3-hyderabad-spots-in-list-3580409/"
+  }
+ ],
+ "updated": 1795003041775,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Hyd-markets.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Jubilee Hills shop rents hit *₹250* per sq ft a month, ranking 51st in Asia-Pacific",
+ "twist": "Delhi's Khan Market is India's priciest, ranking 24th in the world.",
+ "areas": [
+  "Jubilee Hills",
+  "Banjara Hills",
+  "Himayatnagar"
+ ],
+ "layer": "near"
+}
