@@ -1,0 +1,147 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-82",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "food safety",
+ "hook": "*9* of a family hospitalised after hotel biryani in Amberpet",
+ "hook_b": "*9* of a family hospitalised after hotel biryani in Amberpet",
+ "tldr": "Nine members of a family, including four children, fell ill after eating biryani ordered from a hotel in Amberpet and were taken to the Government Fever Hospital, Nallakunta. Food poisoning is suspected.",
+ "beats": {
+  "what": "Nine family members were rushed to the Fever Hospital, Nallakunta, after eating hotel biryani.",
+  "why": "Food poisoning is suspected; police alerted the Food Safety Department.",
+  "care": "Food safety teams will investigate; the patients' condition and details of the food are awaited."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🍛",
+    "label": "Biryani ordered from hotel"
+   }
+  ],
+  "event": {
+   "icon": "🤢",
+   "label": "Suspected food poisoning"
+  },
+  "effects": [
+   {
+    "icon": "🏥",
+    "label": "Fever Hospital admission"
+   },
+   {
+    "icon": "🏥",
+    "label": "Food Safety probe"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 19, 11:57 am): the hotel has not been named in the report."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you check a restaurant's hygiene before ordering online?",
+   "opts": [
+    "Always",
+    "Sometimes",
+    "Never",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Should food-poisoning cases trigger automatic public inspection reports?"
+   ],
+   "facts": [
+    {
+     "big": "4",
+     "t": "On Nov 18, TG SAFE suspended *4* Hyderabad eateries' FSSAI licences after raids on 10.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/fssai-licences-of-four-restaurants-in-hyderabad-suspended-over-food-safety-violations/article71716456.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "Who fell ill",
+   "tone": "bad",
+   "verdict": "Four of the nine are children",
+   "total": "9 people",
+   "parts": [
+    {
+     "l": "Children",
+     "v": 4
+    },
+    {
+     "l": "Other family members",
+     "v": 5
+    }
+   ]
+  },
+  {
+   "t": "timeline",
+   "l": "What happens next",
+   "tone": "neutral",
+   "verdict": "Probe pending",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Meal",
+     "e": "Biryani from Amberpet hotel"
+    },
+    {
+     "t": "Hospital",
+     "e": "Fever Hospital, Nallakunta"
+    },
+    {
+     "t": "Next",
+     "e": "Food Safety inspection"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "9",
+  "label": "family members hospitalised",
+  "motion": "drift",
+  "scene": [
+   "🍛",
+   "🤢",
+   "🏥"
+  ]
+ },
+ "watch": "The Food Safety Department's findings on the hotel and the food served.",
+ "thread": "hyd-amberpet-hotel-biryani-nine-family-ill-fever-hospital",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Nine family members fall ill after eating hotel biryani in Amberpet",
+   "url": "https://telanganatoday.com/nine-family-members-fall-ill-after-eating-hotel-biryani-in-amberpet"
+  }
+ ],
+ "updated": 1795072253474,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Biryani.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "*Nine* family members, four of them children, hospitalised after Amberpet hotel biryani",
+ "twist": "It comes a day after food safety raids suspended four Hyderabad eateries' licences.",
+ "areas": [
+  "Amberpet",
+  "Nallakunta"
+ ],
+ "layer": "near"
+}

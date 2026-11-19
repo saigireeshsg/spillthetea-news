@@ -1,0 +1,134 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-78",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "politics",
+ "hook": "*200+* BRS workers detained before CM's Siddipet meeting, party says",
+ "hook_b": "*200+* BRS workers detained before CM's Siddipet meeting, party says",
+ "tldr": "Police took BRS leaders and cadres into preventive custody in Siddipet, Gajwel, Dubbak and other constituencies from early Thursday, ahead of CM Revanth Reddy's evening public meeting in Siddipet town.",
+ "beats": {
+  "what": "Police held BRS leaders and cadres in preventive custody across Siddipet district from early morning.",
+  "why": "Police acted on Intelligence inputs that cadres might raise local issues and create trouble at the meeting.",
+  "care": "BRS alleges detainees were shifted to undisclosed locations; thousands of police deployed."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎤",
+    "label": "CM's Siddipet meeting"
+   }
+  ],
+  "event": {
+   "icon": "👮",
+   "label": "Preventive custody of BRS cadres"
+  },
+  "effects": [
+   {
+    "icon": "📍",
+    "label": "Town under heavy security"
+   },
+   {
+    "icon": "📍",
+    "label": "BRS alleges secret locations"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 19): a BRS leader put the count at over 200 in Siddipet town alone by 10 am."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Preventive detentions before rallies: needed for security or overreach?",
+   "opts": [
+    "Needed for security",
+    "Overreach",
+    "Depends on the case",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How often are opposition workers detained before CM rallies, and how long are they held?"
+   ],
+   "facts": [
+    {
+     "big": "25+ yrs",
+     "t": "Siddipet has been a BRS stronghold for *more than two and a half decades*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/several-brs-leaders-workers-detained-ahead-of-revanth-reddys-public-meeting-in-siddipet"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Thursday in Siddipet",
+   "tone": "neutral",
+   "verdict": "Detentions ahead of evening meeting",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Early morning",
+     "e": "Cadres taken into custody"
+    },
+    {
+     "t": "10 am",
+     "e": "200+ held in town (BRS claim)"
+    },
+    {
+     "t": "Evening",
+     "e": "CM's public meeting"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "200+",
+  "label": "detained in Siddipet town (BRS claim)",
+  "motion": "drift",
+  "scene": [
+   "🎤",
+   "👮",
+   "📍"
+  ]
+ },
+ "learn": {
+  "t": "Preventive custody = police detaining people to stop a possible offence, without a charge"
+ },
+ "watch": "Whether the evening meeting passes off peacefully and when detainees are released.",
+ "thread": "tg-siddipet-brs-200-detained-revanth-public-meeting",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Several BRS leaders, workers detained ahead of Revanth Reddy's public meeting in Siddipet",
+   "url": "https://telanganatoday.com/several-brs-leaders-workers-detained-ahead-of-revanth-reddys-public-meeting-in-siddipet"
+  }
+ ],
+ "updated": 1795072253474,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/BRS-detain.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "BRS says *200+* workers were detained in Siddipet before the CM's rally",
+ "twist": "Siddipet has been a BRS stronghold for over two and a half decades.",
+ "areas": [
+  "Siddipet",
+  "Gajwel",
+  "Dubbak"
+ ],
+ "layer": "state"
+}

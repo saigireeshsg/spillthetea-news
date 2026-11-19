@@ -1,0 +1,155 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-86",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "Rare disease drug: *₹9 crore* a year cut to ₹2.5 lakh",
+ "hook_b": "Rare disease drug: *₹9 crore* a year cut to ₹2.5 lakh",
+ "tldr": "Seven Indian children with Allan-Herndon-Dudley syndrome will get a year's supply of tiratricol free on Nov 30, after an effort led by Hyderabad paediatrician Dr Sivaranjani Santosh and Access to Medicines India.",
+ "beats": {
+  "what": "Seven children with AHDS get a free year of tiratricol from Nov 30.",
+  "why": "The commercial drug costs about ₹4.68 crore to ₹9 crore per child a year; the compounded version about ₹2.5 lakh.",
+  "care": "Families got import permissions for one year; the medicine comes in two batches due to a six-month shelf life."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💸",
+    "label": "₹9-crore drug out of reach"
+   }
+  ],
+  "event": {
+   "icon": "💊",
+   "label": "Netherlands pharmacy compounds it"
+  },
+  "effects": [
+   {
+    "icon": "👶",
+    "label": "7 children treated free"
+   },
+   {
+    "icon": "👶",
+    "label": "Two six-month batches"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu (Nov 19): a compassionate-use request to maker Egetis Therapeutics did not succeed before compounding was explored."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should India allow more compounded versions of costly rare-disease drugs?",
+   "opts": [
+    "Yes",
+    "Only with strict checks",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What stops more rare-disease drugs from being compounded this way?"
+   ],
+   "facts": [
+    {
+     "big": "₹12-13 lakh",
+     "t": "One family had to arrange about *₹12-13 lakh* for just one month's supply from Germany.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-doctor-brings-down-rare-disease-drug-cost-by-65-lakh-seven-children-to-get-free-treatment/article71718621.ece"
+    },
+    {
+     "big": "6 months",
+     "t": "The compounded medicine has a shelf life of *six months*, so it is imported in two batches.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-doctor-brings-down-rare-disease-drug-cost-by-65-lakh-seven-children-to-get-free-treatment/article71718621.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Tiratricol, cost per child per year",
+   "a": {
+    "v": 90000000,
+    "d": "₹9 crore",
+    "l": "Commercial (upper end)"
+   },
+   "b": {
+    "v": 250000,
+    "d": "₹2.5 lakh",
+    "l": "Compounded version"
+   },
+   "goodIfUp": false,
+   "tone": "good",
+   "verdict": "Treatment becomes far cheaper for families"
+  },
+  {
+   "t": "timeline",
+   "l": "How it happened",
+   "tone": "neutral",
+   "verdict": "Social media appeal led to the compounded batch",
+   "now": 2,
+   "steps": [
+    {
+     "t": "Sep 7",
+     "e": "Doctor's public appeal"
+    },
+    {
+     "t": "Test batches",
+     "e": "Transvaal Pharmacy, The Hague"
+    },
+    {
+     "t": "Nov 30",
+     "e": "First batch to 7 families"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹2.5 lakh",
+  "label": "per child, per year",
+  "motion": "drift",
+  "scene": [
+   "💸",
+   "💊",
+   "👶"
+  ]
+ },
+ "learn": {
+  "t": "AHDS = Allan-Herndon-Dudley syndrome, a rare genetic disorder (MCT8 deficiency) affecting thyroid hormone transport to the brain"
+ },
+ "watch": "The first batch handover on Nov 30 and whether more families get access.",
+ "thread": "hyd-doctor-ahds-drug-rs-9-crore-to-2-5-lakh-seven-children",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Hyderabad doctor brings down rare disease drug cost from ₹9 crore to ₹2.5 lakh; seven children to get free treatment",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-doctor-brings-down-rare-disease-drug-cost-by-65-lakh-seven-children-to-get-free-treatment/article71718621.ece"
+  }
+ ],
+ "updated": 1795072253474,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/8cpr36/article71718625.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-18%20at%208.55.37%20PM.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "A Hyderabad doctor helped cut a rare-disease drug from *₹9 crore* to ₹2.5 lakh",
+ "twist": "The cheaper version was made by a pharmacy in The Hague using pharmaceutical compounding, not by the drug's maker.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}

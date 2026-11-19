@@ -1,0 +1,165 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "metro & transit",
+ "hook": "Driverless pod cars: *35 km*, 64 stations planned for IT corridor",
+ "hook_b": "Driverless pod cars: *35 km*, 64 stations planned for IT corridor",
+ "tldr": "HMRL presented a Personal Rapid Transit System (PRTS) plan to Chief Secretary Sanjay Jaju on Nov 18: Phase-I runs Kukatpally to Knowledge City via Raidurgam and Biodiversity Park, with 64 stations.",
+ "beats": {
+  "what": "HMRL showed the Chief Secretary a 35-km Phase-I pod car corridor with 64 stations.",
+  "why": "The government wants to ease IT-corridor traffic and link it with the Metro and RTC buses.",
+  "care": "The CS asked for a route map and action plan, built at the lowest possible cost."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚗",
+    "label": "IT-corridor traffic jams"
+   }
+  ],
+  "event": {
+   "icon": "🚝",
+   "label": "35-km PRTS plan presented"
+  },
+  "effects": [
+   {
+    "icon": "📋",
+    "label": "Route map ordered"
+   },
+   {
+    "icon": "📋",
+    "label": "Tender targeted by December"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat (Nov 19): HMRL projects commuter demand of 3.94 lakh by 2030, about 10 lakh by 2050."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you ride a driverless pod car to work?",
+   "opts": [
+    "Yes, daily",
+    "Sometimes",
+    "No, I'd stick to Metro/bus",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Would pods cut car trips in the IT corridor, or mostly pull riders off buses and autos?",
+    "Who pays under the PPP model being studied?"
+   ],
+   "facts": [
+    {
+     "big": "10 lakh",
+     "t": "HMRL projects about *10 lakh* pod car commuters by 2050, up from 3.94 lakh in 2030.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-plans-35-km-pod-car-network-to-ease-traffic-link-metro-3580987/"
+    },
+    {
+     "big": "64",
+     "t": "Phase-I would have *64* stations along the Kukatpally–Knowledge City route.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-plans-35-km-pod-car-network-to-ease-traffic-link-metro-3580987/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "trend",
+   "l": "Projected pod car riders (lakh)",
+   "pts": [
+    [
+     "2030",
+     3.94
+    ],
+    [
+     "2040",
+     7.96
+    ],
+    [
+     "2050",
+     10
+    ]
+   ],
+   "unit": " lakh",
+   "tone": "neutral",
+   "verdict": "HMRL's feasibility study projects demand more than doubling by 2040"
+  },
+  {
+   "t": "timeline",
+   "l": "How the plan moved",
+   "tone": "neutral",
+   "verdict": "Tender by December, line a year after (CM's target)",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Nov 12",
+     "e": "CM orders KPHB–Biodiversity corridor"
+    },
+    {
+     "t": "Nov 18",
+     "e": "HMRL presents 35-km plan to CS"
+    },
+    {
+     "t": "Dec",
+     "e": "Tender target"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "35 km",
+  "label": "Phase-I pod car network",
+  "motion": "drift",
+  "scene": [
+   "🚗",
+   "🚝",
+   "📋"
+  ]
+ },
+ "learn": {
+  "t": "PRTS = Personal Rapid Transit System: small electric pods on elevated tracks"
+ },
+ "watch": "Whether the first corridor's tender is finalised by December, as the CM directed.",
+ "thread": "hyd-pod-car-prts-35km-kukatpally-knowledge-city-64-stations",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad plans 35-km pod car network to ease traffic, link Metro",
+   "url": "https://www.siasat.com/hyderabad-plans-35-km-pod-car-network-to-ease-traffic-link-metro-3580987/"
+  }
+ ],
+ "updated": 1795072253472,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/10/image-114.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Hyderabad plans *35 km* of driverless pod cars from Kukatpally to Knowledge City",
+ "twist": "The CM wants the first corridor's tender finalised by December and the line ready within a year after.",
+ "areas": [
+  "Kukatpally",
+  "KPHB",
+  "Raidurgam",
+  "Gachibowli",
+  "Madhapur",
+  "Knowledge City"
+ ],
+ "layer": "near"
+}
