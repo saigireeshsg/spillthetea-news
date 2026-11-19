@@ -1,0 +1,145 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-86",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "Pacifica Hill Crest fire hits *floors 5 to 14*, no casualties",
+ "hook_b": "Pacifica Hill Crest fire hits *floors 5 to 14*, no casualties",
+ "tldr": "A fire broke out on Thursday afternoon in one tower of the Pacifica Hill Crest apartment complex at Puppalaguda, Nanakramguda, near the Financial District. Fire tenders from several stations responded and residents evacuated. Fire officials reported no casualties and no major property loss.",
+ "beats": {
+  "what": "Fire hit one tower of the Pacifica Hill Crest apartments in Puppalaguda on Thursday afternoon, affecting the 5th to 14th floors.",
+  "why": "Fire tenders from different stations were sent after the call; residents rushed out of the building.",
+  "care": "Residents of high-rises near the Financial District: officials have not yet said what caused it."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔥",
+    "label": "Fire in one tower (cause unknown)"
+   }
+  ],
+  "event": {
+   "icon": "🏢",
+   "label": "Floors 5-14 affected"
+  },
+  "effects": [
+   {
+    "icon": "🚒",
+    "label": "Residents evacuated"
+   },
+   {
+    "icon": "🚒",
+    "label": "Probe into the source"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 19): a fire official said there was no major loss of property or casualties; the cause is being ascertained."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you know your building's fire exit route?",
+   "opts": [
+    "Yes, clearly",
+    "Roughly",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What fire-safety checks do high-rises near the Financial District face?",
+    "How did residents get word to evacuate?"
+   ],
+   "facts": [
+    {
+     "big": "5th-14th",
+     "t": "Officials said the *fifth to 14th floors* were affected, with no major property loss.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/fire-breaks-out-in-pacifica-hill-crest-tower-no-casualties"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Floors affected in the tower",
+   "v": 10,
+   "max": 14,
+   "d": "Floors 5-14",
+   "tone": "bad",
+   "verdict": "Ten floors hit by fire; residents evacuated, no one hurt"
+  },
+  {
+   "t": "timeline",
+   "l": "How it unfolded",
+   "tone": "neutral",
+   "verdict": "Response done; cause still unknown",
+   "steps": [
+    {
+     "t": "Thu afternoon",
+     "e": "Fire breaks out in one tower"
+    },
+    {
+     "t": "Call received",
+     "e": "Tenders from several stations rush in"
+    },
+    {
+     "t": "Evacuation",
+     "e": "Residents rush out of the building"
+    },
+    {
+     "t": "Now",
+     "e": "Source and cause being ascertained"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "0",
+  "label": "Casualties reported",
+  "motion": "drift",
+  "scene": [
+   "🔥",
+   "🏢",
+   "🚒"
+  ]
+ },
+ "watch": "What fire officials find as the source and cause.",
+ "thread": "hyd-puppalaguda-pacifica-hill-crest-tower-fire-floors-5-14",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Fire breaks out in Pacifica Hill Crest tower; no casualties",
+   "url": "https://telanganatoday.com/fire-breaks-out-in-pacifica-hill-crest-tower-no-casualties"
+  }
+ ],
+ "updated": 1795089369636,
+ "city": "hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Untitled-1-54.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "A fire in a Puppalaguda high-rise affected *10 floors*, yet nobody was hurt",
+ "twist": "Officials say the source and cause of the fire are still being ascertained.",
+ "areas": [
+  "Puppalaguda",
+  "Nanakramguda",
+  "Financial District"
+ ],
+ "layer": "near"
+}

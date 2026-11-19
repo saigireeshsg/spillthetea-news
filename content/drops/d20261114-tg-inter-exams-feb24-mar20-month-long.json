@@ -1,15 +1,15 @@
 {
  "cat": "local",
  "lead": "local",
- "date": "2026-11-14",
- "sort": "2026-11-14-88",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-84",
  "order": 1,
  "heat": 4,
  "readSecs": 30,
  "topic": "exams",
  "hook": "Inter exams to run *Feb 24–Mar 20*",
  "hook_b": "Inter exams to run *Feb 24–Mar 20*",
- "tldr": "The government approved the IPE 2027 timetable: first-year papers start February 24, second-year from February 26, ending March 20.",
+ "tldr": "The Telangana Board of Intermediate Education issued the IPE 2027 timetable: first-year papers from February 24, second-year from February 25, ending March 19 and 20. Practicals and other assessments start in January.",
  "beats": {
   "what": "There will be a two-day gap between language papers, four days before Mathematics and five days before Chemistry; TG BIE will release the detailed schedule shortly.",
   "why": "Ramzan and Shivratri fall in the exam window; last year SSC exams were similarly stretched to over a month along CBSE lines.",
@@ -41,7 +41,7 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "First-year Inter exams begin February 24, second-year papers from February 26."
+   "body": "Telangana Today (Nov 19): BIE has issued the full timetable. Second-year theory starts Feb 25. Science practicals run Feb 1-18; English practicals Jan 29-30; first-year internal assessment Jan 20-25."
   },
   {
    "k": "poll",
@@ -73,23 +73,31 @@
  "viz": [
   {
    "t": "timeline",
-   "l": "IPE 2027",
+   "l": "IPE 2027 (BIE timetable, Nov 19)",
+   "tone": "neutral",
+   "verdict": "Assessments start in January; theory runs nearly a month",
    "steps": [
     {
-     "t": "Feb 24",
-     "e": "First-year papers begin"
+     "t": "Jan 20-25",
+     "e": "First-year internal assessment"
     },
     {
-     "t": "Feb 26",
-     "e": "Second-year papers begin"
+     "t": "Jan 27-30",
+     "e": "Environmental Education, Ethics, English practicals"
     },
     {
-     "t": "Mar 20",
-     "e": "Exams end"
+     "t": "Feb 1-18",
+     "e": "Science practicals (2nd year, then 1st year)"
+    },
+    {
+     "t": "Feb 24 / 25",
+     "e": "First-year / second-year theory begins"
+    },
+    {
+     "t": "Mar 19 / 20",
+     "e": "First-year / second-year exams end"
     }
-   ],
-   "tone": "neutral",
-   "verdict": "Nearly a month of exams for Inter students"
+   ]
   },
   {
    "t": "compare",
@@ -130,17 +138,22 @@
  "sources": [
   {
    "name": "Telangana Today",
+   "title": "Inter students get longer gaps in 2027 examination schedule",
+   "url": "https://telanganatoday.com/inter-students-get-longer-gaps-in-2027-examination-schedule"
+  },
+  {
+   "name": "Telangana Today",
    "title": "Telangana Inter exams stretched to nearly a month, to be held from Feb 24",
    "url": "https://telanganatoday.com/telangana-inter-exams-stretched-to-nearly-a-month-to-be-held-from-feb-24"
   }
  ],
- "updated": 1794618060978,
+ "updated": 1795089394614,
  "img": {
-  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Exastudentss.jpg",
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Students-1.jpg",
   "c": "Telangana Today"
  },
  "fact": "Telangana Inter exams will now stretch nearly a month: *Feb 24–Mar 20*",
- "twist": "They usually wrap up in *a little over two weeks*; Ramzan and Shivratri forced wider gaps.",
+ "twist": "Physics gets *3 days'* prep for both years; first-years get a 4-day gap before Chemistry on Mar 15.",
  "areas": [],
  "layer": "state"
 }

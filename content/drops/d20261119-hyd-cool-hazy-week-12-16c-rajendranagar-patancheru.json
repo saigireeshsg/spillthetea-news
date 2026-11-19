@@ -1,0 +1,148 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "weather",
+ "hook": "Cool, hazy week ahead: outskirts dip to *12-16°C*",
+ "hook_b": "Cool, hazy week ahead: outskirts dip to *12-16°C*",
+ "tldr": "While Cyclone Akvan keeps coastal Andhra Pradesh and Odisha on alert, IMD Hyderabad forecasts a partly cloudy, hazy sky for the city till Nov 25. Dry northerly winds keep humidity low; eastern Telangana districts may see thunderstorms and isolated heavy rain.",
+ "beats": {
+  "what": "IMD Hyderabad's seven-day forecast shows a partly cloudy sky with haze for the city till November 25.",
+  "why": "Dry, cold northerly winds are keeping daytime humidity low and pulling night temperatures down in western and northern Telangana.",
+  "care": "Early mornings in Rajendranagar, Patancheru and nearby districts are in the 12-16°C range; days in core Hyderabad stay around 30-31°C."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌬️",
+    "label": "Dry cold northerly winds"
+   }
+  ],
+  "event": {
+   "icon": "🌫️",
+   "label": "Cool, hazy days in Hyderabad"
+  },
+  "effects": [
+   {
+    "icon": "🧥",
+    "label": "Chilly dawns on the outskirts"
+   },
+   {
+    "icon": "🧥",
+    "label": "Rain risk only in east TG"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 19): IMD warns of thunderstorms, lightning and gusty winds at isolated places, with isolated heavy rain in Khammam, Bhadradri Kothagudem, Suryapet, Nalgonda, Mahabubabad, Mulugu and Bhupalpally."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How are the chilly mornings changing your routine?",
+   "opts": [
+    "Later starts",
+    "Extra layers, same routine",
+    "Not noticing a change",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will haze this week push Hyderabad's air quality readings up?",
+    "How far west does the cold pocket around Rajendranagar and Patancheru extend?"
+   ],
+   "facts": [
+    {
+     "big": "7",
+     "t": "IMD named *7* eastern districts for isolated heavy rain, including Khammam and Bhadradri Kothagudem.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/cool-hazy-spell-ahead-for-hyderabad-rain-likely-in-eastern-telangana"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Temperatures this week",
+   "a": {
+    "v": 31,
+    "d": "30-31°C",
+    "l": "Daytime, core Hyderabad"
+   },
+   "b": {
+    "v": 14,
+    "d": "12-16°C",
+    "l": "Early morning, western outskirts"
+   },
+   "tone": "neutral",
+   "verdict": "Warm afternoons, chilly dawns on the city's edge"
+  },
+  {
+   "t": "timeline",
+   "l": "What IMD expects",
+   "tone": "neutral",
+   "verdict": "Dry and hazy in the city; rain risk stays in eastern districts",
+   "steps": [
+    {
+     "t": "Nov 19",
+     "e": "Isolated thunderstorms, heavy rain warning for eastern districts"
+    },
+    {
+     "t": "Nov 22",
+     "e": "Hyderabad nights edge up to about 19°C after landfall"
+    },
+    {
+     "t": "Till Nov 25",
+     "e": "Partly cloudy sky with haze in Hyderabad"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "12-16°C",
+  "label": "Early mornings on the western outskirts",
+  "motion": "drift",
+  "scene": [
+   "🌬️",
+   "🌫️",
+   "🧥"
+  ]
+ },
+ "watch": "Whether night temperatures rise to 19°C from Nov 22 after Akvan's landfall, and IMD updates for eastern districts.",
+ "thread": "hyd-cool-hazy-week-12-16c-rajendranagar-patancheru",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Cool, hazy spell ahead for Hyderabad; rain likely in eastern Telangana",
+   "url": "https://telanganatoday.com/cool-hazy-spell-ahead-for-hyderabad-rain-likely-in-eastern-telangana"
+  }
+ ],
+ "updated": 1795089369635,
+ "city": "hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Rain.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Hyderabad's western outskirts are waking up to *12-16°C* while the cyclone stays east",
+ "twist": "Once Akvan makes landfall, IMD expects Hyderabad nights to edge *up* to 19°C from Nov 22.",
+ "areas": [
+  "Rajendranagar",
+  "Patancheru",
+  "Hyderabad"
+ ],
+ "layer": "city"
+}

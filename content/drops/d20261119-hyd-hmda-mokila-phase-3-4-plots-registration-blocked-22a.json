@@ -1,0 +1,153 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-88",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "real estate",
+ "hook": "Mokila plot buyers *can't register* HMDA auction plots",
+ "hook_b": "Mokila plot buyers *can't register* HMDA auction plots",
+ "tldr": "Revenue authorities put parts of Survey No 96/P at Mokila on the prohibited list under Section 22A of the Registration Act. So buyers who won Phase 3 and 4 plots in HMDA's official auctions cannot complete registration. HMDA says a proposal to fix it is with the state government.",
+ "beats": {
+  "what": "Buyers of HMDA-auctioned plots in Mokila Phases 3 and 4 are unable to register their properties.",
+  "why": "Parts of Survey No 96/P were included in the prohibited properties list under Section 22A of the Registration Act; removal needs senior Revenue approvals and a District Collector NOC, still pending.",
+  "care": "Plot buyers along the Hyderabad-Shankarpally road who paid at auction are waiting on the state to clear the land."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📜",
+    "label": "Survey No 96/P on 22A prohibited list"
+   }
+  ],
+  "event": {
+   "icon": "🚫",
+   "label": "Phase 3-4 registrations blocked"
+  },
+  "effects": [
+   {
+    "icon": "🏡",
+    "label": "Buyers wait on Collector NOC"
+   },
+   {
+    "icon": "🏡",
+    "label": "Proposal sent to state govt"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat (Nov 19): HMDA Metropolitan Commissioner Sarfaraz Ahmad said a proposal to address the registration issue has been submitted to the state government."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Who should move first to fix the Mokila registration block?",
+   "opts": [
+    "HMDA",
+    "Revenue department / Collector",
+    "State government",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How long have Phase 3-4 buyers been waiting since their auctions?",
+    "Are other HMDA layouts caught in the 22A prohibited list?"
+   ],
+   "facts": [
+    {
+     "big": "₹1.09 lakh",
+     "t": "The highest Mokila bid reached *₹1.09 lakh per square yard*.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hmda-mokila-plots-buyers-face-registration-hurdles-3581336/"
+    },
+    {
+     "big": "165 acres",
+     "t": "HMDA developed over 1,290 plots across *165 acres* along the Hyderabad-Shankarpally road.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hmda-mokila-plots-buyers-face-registration-hurdles-3581336/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Mokila plots auctioned so far",
+   "v": 700,
+   "max": 1290,
+   "d": "700+ of 1,290",
+   "tone": "neutral",
+   "verdict": "Over half of HMDA's Mokila plots are sold; Phase 3-4 buyers cannot register yet"
+  },
+  {
+   "t": "timeline",
+   "l": "What has to happen before buyers can register",
+   "tone": "neutral",
+   "verdict": "Clearances still pending",
+   "steps": [
+    {
+     "t": "Now",
+     "e": "Parts of Survey No 96/P on 22A prohibited list"
+    },
+    {
+     "t": "Step 1",
+     "e": "Approval from senior Revenue officials"
+    },
+    {
+     "t": "Step 2",
+     "e": "NOC from the District Collector"
+    },
+    {
+     "t": "Sent",
+     "e": "HMDA proposal with the state government"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "700+",
+  "label": "Mokila plots auctioned by HMDA",
+  "motion": "drift",
+  "scene": [
+   "📜",
+   "🚫",
+   "🏡"
+  ]
+ },
+ "learn": {
+  "t": "Section 22A = the Registration Act rule that lets the state bar registration of listed (prohibited) properties."
+ },
+ "watch": "Whether the state clears the proposal and the Collector issues the NOC to delist the survey number.",
+ "thread": "hyd-hmda-mokila-phase-3-4-plots-registration-blocked-22a",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "HMDA Mokila plots: Buyers face registration hurdles",
+   "url": "https://www.siasat.com/hmda-mokila-plots-buyers-face-registration-hurdles-3581336/"
+  }
+ ],
+ "updated": 1795089369635,
+ "city": "hyderabad",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2025/08/plots-hyderabad-august21.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Buyers of HMDA's Mokila Phase 3-4 plots *can't register* land bought at govt auctions",
+ "twist": "Phase 1 and 2 buyers face no such problem; the block hits only part of Survey No 96.",
+ "areas": [
+  "Mokila",
+  "Shankarpally"
+ ],
+ "layer": "near"
+}
