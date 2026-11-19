@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-84",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "food safety",
+ "hook": "*4* Hyderabad eateries lose food licences after raids",
+ "hook_b": "*4* Hyderabad eateries lose food licences after raids",
+ "tldr": "TG SAFE suspended FSSAI licences of Alpha Hotel (Secunderabad), Laham House (Jubilee Hills), Pandem Kodi (Vengal Rao Nagar) and Spice Kitchen (Gowlidoddy) after Nov 18 inspections found cockroaches, houseflies, clogged drains and unlabelled food.",
+ "beats": {
+  "what": "Five enforcement teams inspected 10 eateries on Nov 18 after consumer complaints; four licences were suspended.",
+  "why": "Inspectors reported cockroach infestation, rusted knives, and veg and non-veg food stored together.",
+  "care": "The four must stop operating; show-cause notices go to outlets in Nizampet, Banjara Hills and Serilingampally."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📣",
+    "label": "Consumer complaints"
+   }
+  ],
+  "event": {
+   "icon": "🍽️",
+   "label": "Raids at 10 eateries"
+  },
+  "effects": [
+   {
+    "icon": "🚫",
+    "label": "4 licences suspended"
+   },
+   {
+    "icon": "🚫",
+    "label": "300 kg food discarded"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu (Nov 18): New Blue Star Restaurant, Kukatpally, and Srinivasa Boys Hostel, Panjagutta, were closed for operating without licences."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do raids like this change where you eat out?",
+   "opts": [
+    "Yes, I check now",
+    "Only for places named",
+    "Not really",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Should inspection results be shown at restaurant entrances?"
+   ],
+   "facts": [
+    {
+     "big": "8",
+     "t": "TG SAFE collected *8* food samples on suspicion of adulteration during Wednesday's raids.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/fssai-licences-of-four-restaurants-in-hyderabad-suspended-over-food-safety-violations/article71716456.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "Outcome at 10 inspected eateries",
+   "tone": "bad",
+   "verdict": "Six of 10 places shut or suspended",
+   "total": "10 eateries",
+   "parts": [
+    {
+     "l": "Licence suspended",
+     "v": 4
+    },
+    {
+     "l": "Closed, no licence",
+     "v": 2
+    },
+    {
+     "l": "Notices issued",
+     "v": 4
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "300 kg",
+   "l": "food seized or discarded"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "4",
+  "label": "licences suspended",
+  "motion": "drift",
+  "scene": [
+   "📣",
+   "🍽️",
+   "🚫"
+  ]
+ },
+ "watch": "Re-inspections and whether suspended outlets get licences back after fixing lapses.",
+ "thread": "hyd-tg-safe-suspends-4-restaurant-licences-laham-house-300kg",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "FSSAI licences of four restaurants in Hyderabad suspended over food safety violations",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/fssai-licences-of-four-restaurants-in-hyderabad-suspended-over-food-safety-violations/article71716456.ece"
+  }
+ ],
+ "updated": 1795049881793,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/vl4yg7/article71716476.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-18%20at%201.30.30%20PM.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "Food safety raids shut *four* Hyderabad eateries, including Jubilee Hills' Laham House",
+ "twist": "Two more places, in Kukatpally and Panjagutta, were found running with no FSSAI licence at all.",
+ "areas": [
+  "Jubilee Hills",
+  "Secunderabad",
+  "Vengal Rao Nagar",
+  "Gowlidoddy",
+  "Kukatpally",
+  "Panjagutta"
+ ],
+ "layer": "near"
+}

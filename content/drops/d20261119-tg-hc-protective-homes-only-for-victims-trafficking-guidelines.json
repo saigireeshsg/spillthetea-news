@@ -1,0 +1,132 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "courts",
+ "hook": "HC: protective homes for victims only, not suspects",
+ "hook_b": "HC: protective homes for victims only, not suspects",
+ "tldr": "A bench of Acting Chief Justice P Sam Koshy and Justice Narsing Rao Nandikonda, ruling on NGO Prajwala's petition, said protective homes are for victims only and issued coordination directions to police, magistrates, legal services and welfare departments.",
+ "beats": {
+  "what": "The HC issued guidelines so trafficking victims are not housed with suspected organisers.",
+  "why": "Protective homes were being used in ways that mixed victims with alleged perpetrators, the petition argued.",
+  "care": "Departments must name contact officers and report on separate facilities and segregation protocols."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚖️",
+    "label": "NGO Prajwala's petition"
+   }
+  ],
+  "event": {
+   "icon": "🏠",
+   "label": "HC issues trafficking guidelines"
+  },
+  "effects": [
+   {
+    "icon": "📋",
+    "label": "Victims housed separately"
+   },
+   {
+    "icon": "📋",
+    "label": "Departments report every 6 months"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI (Nov 19): the court said its directions supplement, and do not override, existing law."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Will these guidelines change how rescued people are treated?",
+   "opts": [
+    "Yes, a real change",
+    "Depends on follow-through",
+    "Little change",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will authorities assess risk without labelling people on an accusation alone?"
+   ],
+   "facts": [
+    {
+     "big": "3 months",
+     "t": "Each department must file a first status report within *3 months*, without naming victims.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-high-court-directs-separate-housing-for-trafficking-victims-issues-guidelines-to-all-stakeholders/articleshow/135969373.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What the court ordered, and when",
+   "tone": "neutral",
+   "verdict": "Departments must report progress for a year",
+   "steps": [
+    {
+     "t": "Nov 13",
+     "e": "Bench disposes of Prajwala's petition"
+    },
+    {
+     "t": "3 months",
+     "e": "Initial status reports to home dept"
+    },
+    {
+     "t": "Every 6 months",
+     "e": "Follow-up reports for a year; collectors' review meetings"
+    },
+    {
+     "t": "DGP",
+     "e": "State nodal officer via women safety wing"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "1 year",
+  "label": "of progress reports ordered",
+  "motion": "drift",
+  "scene": [
+   "⚖️",
+   "🏠",
+   "📋"
+  ]
+ },
+ "watch": "Initial status reports due to the home department within three months.",
+ "thread": "tg-hc-protective-homes-only-for-victims-trafficking-guidelines",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Telangana high court directs separate housing for trafficking victims, issues guidelines to all stakeholders",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-high-court-directs-separate-housing-for-trafficking-victims-issues-guidelines-to-all-stakeholders/articleshow/135969373.cms"
+  }
+ ],
+ "updated": 1795049881793,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135744060,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Telangana HC says rescue homes must *never* hold suspected trafficking organisers",
+ "twist": "The bench also said a case or prior accusation alone cannot brand someone a trafficker.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "state"
+}

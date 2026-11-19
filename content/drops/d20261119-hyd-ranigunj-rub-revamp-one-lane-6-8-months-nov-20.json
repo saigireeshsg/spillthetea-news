@@ -1,0 +1,155 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-92",
+ "order": 1,
+ "heat": 5,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Ranigunj RUB: *one lane* open for 6-8 months from Nov 20",
+ "hook_b": "Ranigunj RUB: *one lane* open for 6-8 months from Nov 20",
+ "tldr": "Railways are renovating the Ranigunj Railway Under Bridge on MG Road, Secunderabad, from Nov 20 for six to eight months. Excavation across nearly three lanes leaves one carriageway for two-wheelers, autos and cars. Buses and goods vehicles are diverted.",
+ "beats": {
+  "what": "Hyderabad traffic police announced restrictions and diversions at Ranigunj Junction for the RUB renovation, starting Nov 20.",
+  "why": "Ranigunj sits on MG Road linking Secunderabad to Tank Bund, a main route for RTC buses and goods traffic.",
+  "care": "Commuters via Paradise, Patny, Tank Bund and Karbala should expect jams; heavy vehicles must take the diversion routes."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚧",
+    "label": "Railways renovate the RUB"
+   }
+  ],
+  "event": {
+   "icon": "🚗",
+   "label": "One carriageway left at Ranigunj"
+  },
+  "effects": [
+   {
+    "icon": "🚌",
+    "label": "Buses, trucks diverted"
+   },
+   {
+    "icon": "🚌",
+    "label": "Jams expected at 18 junctions"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 18): police will also install 10-ft height restrictors at five junctions to stop oversized vehicles."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How will the Ranigunj closure change your commute?",
+   "opts": [
+    "I will reroute",
+    "I will switch to metro/MMTS",
+    "It does not affect me",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will RTC bus routes through Secunderabad change for daily riders?",
+    "Will the 6-8 month timeline hold once excavation starts?"
+   ],
+   "facts": [
+    {
+     "big": "18",
+     "t": "Police have listed *18* junctions where congestion is expected, including Paradise, Patny and Karbala.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/ranigunj-rub-revamp-traffic-restrictions-diversions-from-november-20"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Ranigunj RUB during the works",
+   "a": {
+    "v": 3,
+    "d": "~3",
+    "l": "Lanes dug up (1.5 m deep)"
+   },
+   "b": {
+    "v": 1,
+    "d": "1",
+    "l": "Carriageway left open"
+   },
+   "tone": "bad",
+   "verdict": "Only light vehicles get through; buses and trucks diverted"
+  },
+  {
+   "t": "timeline",
+   "l": "How the diversions work",
+   "tone": "neutral",
+   "verdict": "Heavy vehicles rerouted at several junctions",
+   "steps": [
+    {
+     "t": "Nov 20",
+     "e": "Restrictions begin on MG Road, Secunderabad"
+    },
+    {
+     "t": "Heavy vehicles",
+     "e": "RTC buses, goods and travel buses barred from the RUB"
+    },
+    {
+     "t": "10 ft",
+     "e": "Height-restrictor railings at Patny, Paradise, Park Lane, Rasoolpura, Karbala"
+    },
+    {
+     "t": "6-8 months",
+     "e": "Expected length of the renovation"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "6-8 months",
+  "label": "Ranigunj RUB renovation",
+  "motion": "drift",
+  "scene": [
+   "🚧",
+   "🚗",
+   "🚌"
+  ]
+ },
+ "watch": "How the first weekday rush on Nov 20 goes at Paradise, Patny and Karbala, and any tweaks to the diversion plan.",
+ "thread": "hyd-ranigunj-rub-revamp-one-lane-6-8-months-nov-20",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Ranigunj RUB revamp: Traffic restrictions, diversions from November 20",
+   "url": "https://telanganatoday.com/ranigunj-rub-revamp-traffic-restrictions-diversions-from-november-20"
+  }
+ ],
+ "updated": 1795049881792,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Traffic-Advisory1.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "From Nov 20, Ranigunj rail underbridge keeps just *one carriageway* for light vehicles",
+ "twist": "Heavy vehicles from Medchal-Bowenpally on NH-44 get pushed at CTO towards Lakdikapul or Rail Nilayam.",
+ "areas": [
+  "Secunderabad",
+  "Ranigunj",
+  "Paradise",
+  "Tank Bund",
+  "Begumpet",
+  "Kavadiguda",
+  "Musheerabad"
+ ],
+ "layer": "near"
+}

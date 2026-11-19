@@ -1,0 +1,135 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-86",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Hyderabad reuses just *3.5%* of the sewage it treats",
+ "hook_b": "Hyderabad reuses just *3.5%* of the sewage it treats",
+ "tldr": "A 2025 study comparing Japan and India found Hyderabad reuses 27 MLD of the 772 MLD of sewage it treats, 3.5%, against a 20% central benchmark. HMWSSB plans tenders next month to supply treated water to data centres and industry.",
+ "beats": {
+  "what": "A study and HMWSSB figures show most of Hyderabad's treated wastewater is not reused.",
+  "why": "The city faces water shortages and growing tanker use amid El Niño and deficit rain.",
+  "care": "HMWSSB launched green tankers for construction and gardening on Nov 1 and plans grey-water filling stations."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💧",
+    "label": "Treatment capacity doubled"
+   }
+  ],
+  "event": {
+   "icon": "🚰",
+   "label": "Reuse stays near 2-3.5%"
+  },
+  "effects": [
+   {
+    "icon": "🏭",
+    "label": "Treated water flows into drains"
+   },
+   {
+    "icon": "🏭",
+    "label": "Board targets 20% in 18 months"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI (Nov 19): the board aims for the 20% benchmark in 18 months and will invite tenders next month."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Where should Hyderabad's treated wastewater go first?",
+   "opts": [
+    "Industries and data centres",
+    "Lakes and groundwater",
+    "Construction and gardens",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who should pay for pipelines carrying treated water to industries?",
+    "Could treated water refill Hyderabad lakes as in Bengaluru?"
+   ],
+   "facts": [
+    {
+     "big": "1,400 MLD",
+     "t": "HMWSSB says its treatment capacity doubled from over 700 MLD in 2025 to about *1,400 MLD*, yet ~30 MLD is recycled.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-reuses-just-3-5-of-treated-wastewater-shows-study/articleshow/135969872.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Treated wastewater reused (study)",
+   "v": 27,
+   "max": 772,
+   "unit": " MLD",
+   "tone": "bad",
+   "verdict": "Most treated water flows into drains while the city uses tankers"
+  },
+  {
+   "t": "compare",
+   "l": "Reuse rate vs national benchmark",
+   "a": {
+    "v": 3.5,
+    "d": "3.5%",
+    "l": "Hyderabad now"
+   },
+   "b": {
+    "v": 20,
+    "d": "20%",
+    "l": "Centre's benchmark"
+   },
+   "tone": "bad",
+   "verdict": "Water board targets 20% in 18 months"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3.5%",
+  "label": "treated wastewater reused",
+  "motion": "drift",
+  "scene": [
+   "💧",
+   "🚰",
+   "🏭"
+  ]
+ },
+ "watch": "HMWSSB tenders next month for supplying treated water to data centres and industries.",
+ "thread": "hyd-treated-wastewater-reuse-3-5pc-27-of-772-mld",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Hyderabad reuses just 3.5% of treated wastewater, shows study",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-reuses-just-3-5-of-treated-wastewater-shows-study/articleshow/135969872.cms"
+  }
+ ],
+ "updated": 1795049881793,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135969869,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Hyderabad reuses only *27 of 772 MLD* of treated sewage, a study finds",
+ "twist": "The water board puts it even lower, at about 2%, despite doubling treatment capacity this year.",
+ "areas": [
+  "Hyderabad",
+  "Nagole"
+ ],
+ "layer": "city"
+}

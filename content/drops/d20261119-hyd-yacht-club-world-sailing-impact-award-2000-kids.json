@@ -1,0 +1,130 @@
+{
+ "cat": "sport",
+ "lead": "sport",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-68",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "sport",
+ "hook": "Hussain Sagar's Yacht Club wins a *World Sailing* award",
+ "hook_b": "Hussain Sagar's Yacht Club wins a *World Sailing* award",
+ "tldr": "The Yacht Club of Hyderabad won the 2026 World Sailing 11th Hour Racing Impact Award in Qingdao on Wednesday. Its free programme gives children from low-income families sailing training, equipment, transport, education and nutrition.",
+ "beats": {
+  "what": "The Hussain Sagar-based club won World Sailing's 11th Hour Racing Impact Award.",
+  "why": "The award recognises marine sustainability work; the club also cites helping restore Hussain Sagar.",
+  "care": "Sailors from the programme have gone on to the armed forces and sailing careers, the club says."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⛵",
+    "label": "Free sailing for low-income kids"
+   }
+  ],
+  "event": {
+   "icon": "🏆",
+   "label": "World Sailing award win"
+  },
+  "effects": [
+   {
+    "icon": "🌊",
+    "label": "323 national medals"
+   },
+   {
+    "icon": "🌊",
+    "label": "29 international medals"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 19): the trophy is made from recycled carbon fibre from an America's Cup boat."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you try sailing at Hussain Sagar?",
+   "opts": [
+    "Yes, definitely",
+    "Maybe once",
+    "Not for me",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What would it take for more Hyderabad lakes to host free water sports?"
+   ],
+   "facts": [
+    {
+     "big": "1st",
+     "t": "It is the *first* time an Indian organisation was even shortlisted for this World Sailing award, the club says.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-yacht-club-wins-world-sailing-award-27a49e3f"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Medals won by the club's sailors since 2014",
+   "a": {
+    "v": 323,
+    "d": "323",
+    "l": "National"
+   },
+   "b": {
+    "v": 29,
+    "d": "29",
+    "l": "International"
+   },
+   "tone": "good",
+   "verdict": "Free programme for children from low-income families"
+  },
+  {
+   "t": "big",
+   "v": "2,000+",
+   "l": "children trained since 2014"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b1a10",
+   "#b5651d"
+  ],
+  "big": "2,000+",
+  "label": "children trained since 2014",
+  "motion": "drift",
+  "scene": [
+   "⛵",
+   "🏆",
+   "🌊"
+  ]
+ },
+ "watch": "Whether the award brings new funding or seats in the club's programme.",
+ "thread": "hyd-yacht-club-world-sailing-impact-award-2000-kids",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad Yacht Club wins World Sailing award",
+   "url": "https://telanganatoday.com/hyderabad-yacht-club-wins-world-sailing-award-27a49e3f"
+  }
+ ],
+ "updated": 1795049881794,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/hyderabad-yacht-club-wins-world-sailing-award-27a49e3f-27f4fc09.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Yacht Club of Hyderabad wins World Sailing's *2026* Racing Impact Award in China",
+ "twist": "Its free programme has trained 2,000+ children since 2014, winning 323 national medals.",
+ "areas": [
+  "Hussain Sagar",
+  "Secunderabad"
+ ],
+ "layer": "near"
+}

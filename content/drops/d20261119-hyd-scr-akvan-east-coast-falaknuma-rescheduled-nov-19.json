@@ -1,0 +1,125 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-88",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "transport",
+ "hook": "Akvan delays two Howrah-bound trains from Hyderabad today",
+ "hook_b": "Akvan delays two Howrah-bound trains from Hyderabad today",
+ "tldr": "South Central Railway rescheduled two express trains on Thursday because of Cyclone Akvan. The East Coast Express (18046) leaves Charlapalli at 3.40 pm and the Falaknuma Express (12704) leaves Secunderabad at 5.55 pm.",
+ "beats": {
+  "what": "SCR rescheduled the Charlapalli–Shalimar East Coast Express and Secunderabad–Howrah Falaknuma Express for Nov 19.",
+  "why": "Cyclone Akvan is affecting the east coast route these trains take towards Howrah.",
+  "care": "Passengers booked on 18046 or 12704 today need to check the new departure times."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌀",
+    "label": "Cyclone Akvan on the east coast"
+   }
+  ],
+  "event": {
+   "icon": "🚆",
+   "label": "Two express trains rescheduled"
+  },
+  "effects": [
+   {
+    "icon": "⏰",
+    "label": "18046 leaves 3.40 pm"
+   },
+   {
+    "icon": "⏰",
+    "label": "12704 leaves 5.55 pm"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 19): SCR asked passengers to note the revised timings and plan journeys accordingly."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How do you usually find out about train time changes?",
+   "opts": [
+    "Railway app/SMS",
+    "News or social media",
+    "At the station",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How do passengers learn about cyclone reschedules before reaching the station?"
+   ],
+   "facts": [
+    {
+     "big": "7 hrs",
+     "t": "The Charlapalli–Shalimar East Coast Express now leaves *7 hours* after its usual 8.40 am slot.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/scr-reschedules-two-express-trains-due-to-cyclone-akvan"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Revised departures today (Nov 19)",
+   "tone": "neutral",
+   "verdict": "Both trains leave later the same day",
+   "steps": [
+    {
+     "t": "East Coast Exp 18046",
+     "e": "Charlapalli: 8.40 am → 3.40 pm (7 hrs late)"
+    },
+    {
+     "t": "Falaknuma Exp 12704",
+     "e": "Secunderabad: 3.55 pm → 5.55 pm (2 hrs late)"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "7 hrs",
+  "label": "East Coast Express delay",
+  "motion": "drift",
+  "scene": [
+   "🌀",
+   "🚆",
+   "⏰"
+  ]
+ },
+ "watch": "Further SCR notices on east coast trains while Akvan moves.",
+ "thread": "hyd-scr-akvan-east-coast-falaknuma-rescheduled-nov-19",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "SCR reschedules two express trains due to Cyclone Akvan",
+   "url": "https://telanganatoday.com/scr-reschedules-two-express-trains-due-to-cyclone-akvan"
+  }
+ ],
+ "updated": 1795049881793,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/train-file-1.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Cyclone Akvan pushes Charlapalli's East Coast Express departure back by *7 hours* today",
+ "twist": "The Secunderabad–Howrah Falaknuma Express is also late, now leaving at 5.55 pm instead of 3.55 pm.",
+ "areas": [
+  "Secunderabad",
+  "Charlapalli"
+ ],
+ "layer": "city"
+}

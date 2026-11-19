@@ -1,0 +1,145 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-72",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "tech",
+ "hook": "IIIT-H students turn any webpage into *sign language*",
+ "hook_b": "IIIT-H students turn any webpage into *sign language*",
+ "tldr": "Third-year BTech students Masthan Sharif Shaik and Mohammed Raza at IIIT Hyderabad's CVIT built SignPlug, a browser plugin where a 3D avatar signs highlighted text in ISL. Tests showed signs understood in about 89% of sentences.",
+ "beats": {
+  "what": "IIIT-H students built a low-cost browser plugin that signs web text in Indian Sign Language.",
+  "why": "Websites offer captions and screen readers, but almost none show content in sign language, the students said.",
+  "care": "Words without a sign are finger-spelled; the avatar has no facial expressions yet, which ISL grammar uses."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌐",
+    "label": "Few sites offer sign language"
+   }
+  ],
+  "event": {
+   "icon": "🤟",
+   "label": "IIIT-H builds ISL plugin"
+  },
+  "effects": [
+   {
+    "icon": "💻",
+    "label": "Avatar signs highlighted text"
+   },
+   {
+    "icon": "💻",
+    "label": "No special hardware needed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI (Nov 19): the research is accepted at ICVGIP 2026 in Kolkata in December."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should sign language be standard on Indian websites?",
+   "opts": [
+    "Yes, on all sites",
+    "On government sites first",
+    "Optional is fine",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who should pay to add sign language to government websites?"
+   ],
+   "facts": [
+    {
+     "big": "89%",
+     "t": "Deaf and hard-of-hearing signers understood the avatar in about *89%* of sentences.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/click-to-sign-iiit-hyderabad-students-develop-indian-sign-language-plugin-for-web-users-with-hearing-impairment/articleshow/135969638.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Sentences understood by deaf signers in tests",
+   "v": 89,
+   "max": 100,
+   "unit": "%",
+   "tone": "good",
+   "verdict": "Facial expressions still missing"
+  },
+  {
+   "t": "timeline",
+   "l": "How \"click to sign\" works",
+   "tone": "neutral",
+   "verdict": "Runs in the browser, no GPU needed",
+   "steps": [
+    {
+     "t": "Highlight",
+     "e": "Select text on any webpage"
+    },
+    {
+     "t": "Reorder",
+     "e": "\"He will come home\" → \"He home come\""
+    },
+    {
+     "t": "Blend",
+     "e": "Stored 3D avatar motions play as one sequence"
+    },
+    {
+     "t": "Dec",
+     "e": "Paper at ICVGIP 2026, Kolkata"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "89%",
+  "label": "sentences understood in tests",
+  "motion": "drift",
+  "scene": [
+   "🌐",
+   "🤟",
+   "💻"
+  ]
+ },
+ "learn": {
+  "t": "ISL = Indian Sign Language, with its own word order and grammar",
+  "show": false
+ },
+ "watch": "The team's next version with facial expressions and context-aware signs.",
+ "thread": "hyd-iiith-click-to-sign-isl-browser-plugin-89pc",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Click to sign: IIIT Hyderabad students develop Indian Sign Language plugin",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/click-to-sign-iiit-hyderabad-students-develop-indian-sign-language-plugin-for-web-users-with-hearing-impairment/articleshow/135969638.cms"
+  }
+ ],
+ "updated": 1795049881793,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135969635,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Two IIIT-H students built a plugin turning highlighted web text into *Indian Sign Language*",
+ "twist": "It needs no GPU or server AI: motions come from the official ISL dictionary videos.",
+ "areas": [
+  "Gachibowli"
+ ],
+ "layer": "near"
+}

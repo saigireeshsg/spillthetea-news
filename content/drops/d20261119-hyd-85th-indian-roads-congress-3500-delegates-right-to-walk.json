@@ -1,0 +1,141 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "roads",
+ "hook": "*3,500* road experts in Hyderabad for 4-day Roads Congress",
+ "hook_b": "*3,500* road experts in Hyderabad for 4-day Roads Congress",
+ "tldr": "The 85th Indian Roads Congress opens in Hyderabad on Thursday, inaugurated by Union Minister Nitin Gadkari. R&B Minister Komatireddy Venkat Reddy says about 3,500 delegates will discuss green roads, climate-resilient infrastructure, AI and EVs.",
+ "beats": {
+  "what": "The four-day 85th IRC conference begins in Hyderabad on Nov 19.",
+  "why": "Gadkari, CM Revanth Reddy and the R&B minister will also review Telangana road projects including the RRR and Hyderabad–Vijayawada highway.",
+  "care": "Projects named for priority include the Regional Ring Road, Hyderabad Elevated Corridor and the Future City–Machilipatnam port highway."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛣️",
+    "label": "Hyderabad hosts the IRC"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "4-day Roads Congress opens"
+  },
+  "effects": [
+   {
+    "icon": "🚶",
+    "label": "Green, climate-resilient roads on agenda"
+   },
+   {
+    "icon": "🚶",
+    "label": "State road projects reviewed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 18): the IRC was set up in 1934 and sets road construction and safety standards across India."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Which road issue matters most to you in Hyderabad?",
+   "opts": [
+    "Footpaths and walking",
+    "Potholes and repairs",
+    "Flyovers and new roads",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What will a \"Right to Walk\" panel mean for Hyderabad's footpaths, if anything?"
+   ],
+   "facts": [
+    {
+     "big": "7th",
+     "t": "This is the *seventh* time Hyderabad hosts the Indian Roads Congress, and the second since Telangana formed.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-indian-road-congress-to-focus-on-climate-resilient-infrastructure-new-technologies"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Hyderabad has hosted the IRC before",
+   "tone": "neutral",
+   "verdict": "85th edition is the city's seventh",
+   "steps": [
+    {
+     "t": "1938",
+     "e": "4th IRC"
+    },
+    {
+     "t": "1976",
+     "e": "36th IRC"
+    },
+    {
+     "t": "1999",
+     "e": "59th IRC"
+    },
+    {
+     "t": "2016",
+     "e": "77th IRC"
+    },
+    {
+     "t": "Nov 19, 2026",
+     "e": "85th IRC, 4 days"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "₹5,677 cr",
+   "l": "for roads and bridges in Telangana's 2026-27 budget"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3,500",
+  "label": "delegates at the 85th IRC",
+  "motion": "drift",
+  "scene": [
+   "🛣️",
+   "🏛️",
+   "🚶"
+  ]
+ },
+ "watch": "Any announcements on Telangana projects after the Gadkari–Revanth review.",
+ "thread": "hyd-85th-indian-roads-congress-3500-delegates-right-to-walk",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad: Indian Road Congress to focus on climate-resilient infrastructure, new technologies",
+   "url": "https://telanganatoday.com/hyderabad-indian-road-congress-to-focus-on-climate-resilient-infrastructure-new-technologies"
+  }
+ ],
+ "updated": 1795049881793,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/IRC-roadcongress.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "About *3,500* road and highway experts meet in Hyderabad from today",
+ "twist": "The agenda includes a \"Right to Walk\" panel on every person's right to safe pedestrian movement.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}

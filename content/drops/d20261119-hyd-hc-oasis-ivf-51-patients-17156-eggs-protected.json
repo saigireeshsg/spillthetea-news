@@ -1,0 +1,136 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-78",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "HC: move *51* IVF patients, protect *17,156* stored eggs",
+ "hook_b": "HC: move *51* IVF patients, protect *17,156* stored eggs",
+ "tldr": "Justice SV Sravan Kumar told health officials to form a doctors' committee to supervise Oasis IVF centres, shift 51 patients to government IVF facilities and safeguard 17,156 stored eggs, amid a police probe into alleged illegal oocyte collection.",
+ "beats": {
+  "what": "The HC ordered patient transfers and protection of stored eggs at Oasis IVF centres.",
+  "why": "The firm said patients mid-treatment would suffer if care stopped; the state said its doctors are accused in the case.",
+  "care": "51 patients will continue treatment at nearby government IVF facilities under committee supervision."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔍",
+    "label": "Probe into oocyte collection"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "HC orders doctors' committee"
+  },
+  "effects": [
+   {
+    "icon": "🏥",
+    "label": "51 patients moved to govt IVF"
+   },
+   {
+    "icon": "🏥",
+    "label": "Stored eggs safeguarded"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI (Nov 19): the firm says it was only a custodian of the eggs; the government pleader said donors were identified and cases registered."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What should come first in cases like this?",
+   "opts": [
+    "Patients' ongoing treatment",
+    "The investigation",
+    "Both equally",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who is responsible for stored eggs when a clinic is under investigation?"
+   ],
+   "facts": [
+    {
+     "big": "Nov 28",
+     "t": "A related plea to club cases against another doctor is listed for *Nov 28*.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/shift-51-ivf-patients-protect-17156-eggs-at-oasis-centres-telangana-high-court-tells-officials/articleshow/135969290.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What the HC ordered",
+   "tone": "neutral",
+   "verdict": "Treatment continues while the probe goes on",
+   "steps": [
+    {
+     "t": "Committee",
+     "e": "Doctors' panel to supervise Oasis IVF centres"
+    },
+    {
+     "t": "51 patients",
+     "e": "Shift to nearby govt IVF facilities"
+    },
+    {
+     "t": "17,156 eggs",
+     "e": "Stored oocytes to be safeguarded"
+    },
+    {
+     "t": "2 weeks",
+     "e": "Counter-affidavits due; probe can proceed"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "51",
+  "label": "IVF patients to be shifted",
+  "motion": "drift",
+  "scene": [
+   "🔍",
+   "⚖️",
+   "🏥"
+  ]
+ },
+ "learn": {
+  "t": "Oocyte = a human egg cell, stored frozen for IVF",
+  "show": false
+ },
+ "watch": "Counter-affidavits in two weeks; the related plea on Nov 28.",
+ "thread": "hyd-hc-oasis-ivf-51-patients-17156-eggs-protected",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Shift 51 IVF patients, protect 17,156 eggs at Oasis centres, Telangana high court tells officials",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/shift-51-ivf-patients-protect-17156-eggs-at-oasis-centres-telangana-high-court-tells-officials/articleshow/135969290.cms"
+  }
+ ],
+ "updated": 1795049881793,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-135744060,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Telangana HC orders *17,156* stored eggs at Oasis IVF centres protected during probe",
+ "twist": "The court let the police investigation continue, and told the hospital and doctors to cooperate.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}

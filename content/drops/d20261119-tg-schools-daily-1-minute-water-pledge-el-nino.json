@@ -1,0 +1,132 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-19",
+ "sort": "2026-11-19-74",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Every Telangana school gets a daily *1-minute* water lesson",
+ "hook_b": "Every Telangana school gets a daily *1-minute* water lesson",
+ "tldr": "The school education department told all DEOs on Nov 15 that government and private schools, including in Hyderabad's CURE area, must run daily one-minute water conservation sessions and a pledge in assemblies, amid El Niño and deficit rain.",
+ "beats": {
+  "what": "Schools across Telangana must run daily water-saving messages and a pledge at morning assembly.",
+  "why": "HMWSSB is preparing an advance summer plan and cites deficit rainfall and low reservoir levels.",
+  "care": "Students are asked to turn off taps, report leaks and promote rainwater harvesting at home."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌡️",
+    "label": "El Niño, deficit rain"
+   }
+  ],
+  "event": {
+   "icon": "🏫",
+   "label": "Schools told to run water pledge"
+  },
+  "effects": [
+   {
+    "icon": "💧",
+    "label": "Daily assembly sessions"
+   },
+   {
+    "icon": "💧",
+    "label": "Students asked to report leaks"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI (Nov 19): the directive covers both government and private schools."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Will daily school sessions change how families use water?",
+   "opts": [
+    "Yes, kids will push it at home",
+    "A little",
+    "Not much",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will awareness sessions change water use at home, and how would anyone measure it?"
+   ],
+   "facts": [
+    {
+     "big": "2%",
+     "t": "HMWSSB says only about *2%* of its treated wastewater is reused today.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-reuses-just-3-5-of-treated-wastewater-shows-study/articleshow/135969872.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the school water drive works",
+   "tone": "neutral",
+   "verdict": "Daily one-minute sessions plus a pledge",
+   "steps": [
+    {
+     "t": "Request",
+     "e": "HMWSSB asks for awareness, citing low Singur, Manjeera levels"
+    },
+    {
+     "t": "Nov 15",
+     "e": "School education dept instructs all DEOs"
+    },
+    {
+     "t": "Daily",
+     "e": "1-minute session at morning assembly + pledge"
+    },
+    {
+     "t": "Summer",
+     "e": "Board preparing an advance drinking-water plan"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "1 min",
+  "label": "daily water session in schools",
+  "motion": "drift",
+  "scene": [
+   "🌡️",
+   "🏫",
+   "💧"
+  ]
+ },
+ "watch": "HMWSSB's advance action plan for summer drinking water.",
+ "thread": "tg-schools-daily-1-minute-water-pledge-el-nino",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Schools in Hyderabad told to run awareness messages on water conservation amid El Niño concerns",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/schools-in-hyderabad-told-to-run-awareness-messages-on-water-conservation-amid-el-nio-concerns/articleshow/135969945.cms"
+  }
+ ],
+ "updated": 1795049881793,
+ "img": {
+  "u": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Telangana schools must hold a *one-minute* water conservation session every morning",
+ "twist": "The order came at the water board's request, citing low levels in Singur and Manjeera reservoirs.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "state"
+}
