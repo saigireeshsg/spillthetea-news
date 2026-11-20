@@ -1,0 +1,146 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-92",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Cyberabad societies offer *200 MLD* treated water for drinking water",
+ "hook_b": "Cyberabad societies offer *200 MLD* treated water for drinking water",
+ "tldr": "About 150 gated communities and hundreds of societies in Kondapur, Gachibowli, Tellapur, Kollur, Osman Sagar and the Financial District generate nearly 200 MLD of treated wastewater. They want HMWSSB to take the surplus for parks and construction and give drinking water or tanker rebates in return.",
+ "beats": {
+  "what": "Cyberabad societies proposed a water-for-water barter with HMWSSB.",
+  "why": "The city is in a water crisis while surplus treated water flows into drains.",
+  "care": "RWAs asked for tankers at Rs 400 instead of Rs 500 for communities that supply treated water."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💧",
+    "label": "City water crisis"
+   }
+  ],
+  "event": {
+   "icon": "🔁",
+   "label": "Societies offer surplus STP water"
+  },
+  "effects": [
+   {
+    "icon": "🏘️",
+    "label": "Parks and construction could use it"
+   },
+   {
+    "icon": "🏘️",
+    "label": "Residents seek drinking water in return"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI (Nov 20): the Federation of Gated Communities Cyberabad wants the board to meet 25-30% of their drinking water shortfall in exchange."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should HMWSSB swap drinking water for societies' treated wastewater?",
+   "opts": [
+    "Yes, swap it",
+    "Only tanker rebates",
+    "Neither",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who would pay for pipelines to collect treated water from Tellapur and Kollur?",
+    "Would a swap change how much tanker water societies buy?"
+   ],
+   "facts": [
+    {
+     "big": "14 lakh L",
+     "t": "One Puppalguda society of 2,700 flats makes *14 lakh litres* of treated water a day and reuses about 9 lakh.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/barter-deal-cyberabad-societies-offer-treated-water-to-hmwssb-in-exchange-for-drinking-water/articleshow/136003100.cms"
+    },
+    {
+     "big": "70%",
+     "t": "Around 40 gated communities in Tellapur, Kollur and Osman Sagar discharge nearly *70%* of their treated water.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/barter-deal-cyberabad-societies-offer-treated-water-to-hmwssb-in-exchange-for-drinking-water/articleshow/136003100.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Tanker price asked by RWAs",
+   "a": {
+    "v": 500,
+    "d": "₹500",
+    "l": "Now"
+   },
+   "b": {
+    "v": 400,
+    "d": "₹400",
+    "l": "Asked for suppliers"
+   },
+   "tone": "neutral",
+   "verdict": "Residents seek a ₹100 rebate per tanker; board has not decided"
+  },
+  {
+   "t": "meter",
+   "l": "Treated water reused by societies",
+   "v": 45,
+   "max": 100,
+   "unit": "%",
+   "tone": "bad",
+   "verdict": "About half is reused; the surplus often goes to drains"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "200 MLD",
+  "label": "treated wastewater from Cyberabad societies",
+  "motion": "drift",
+  "scene": [
+   "💧",
+   "🔁",
+   "🏘️"
+  ]
+ },
+ "watch": "Officials say a water-for-water exchange model is likely to be discussed; the earlier incentive was Rs 25 per kilolitre.",
+ "thread": "hyd-cyberabad-gated-societies-treated-water-barter-200-mld",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Barter deal: Cyberabad societies offer treated water to HMWSSB in exchange for drinking water",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/barter-deal-cyberabad-societies-offer-treated-water-to-hmwssb-in-exchange-for-drinking-water/articleshow/136003100.cms"
+  }
+ ],
+ "updated": 1795136226284,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136003099,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Cyberabad gated communities make nearly *200 MLD* of treated wastewater daily",
+ "twist": "Only 40-50% of it is reused; the rest is often discharged into drains.",
+ "areas": [
+  "Kondapur",
+  "Gachibowli",
+  "Tellapur",
+  "Kollur",
+  "Narsingi",
+  "Puppalaguda",
+  "Financial District"
+ ],
+ "layer": "near"
+}

@@ -1,0 +1,142 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-86",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "courts",
+ "hook": "Telangana HC asks why *13* warrants against MPs, MLAs are pending",
+ "hook_b": "Telangana HC asks why *13* warrants against MPs, MLAs are pending",
+ "tldr": "A Telangana High Court bench hearing a suo motu petition on cases against elected representatives questioned delays in executing NBWs and serving summons. It sought case-wise status and the oldest pending cases, and posted the matter to Nov 30.",
+ "beats": {
+  "what": "The High Court pulled up the state over unexecuted warrants in cases against MPs and MLAs.",
+  "why": "The bench said rising backlog could weaken public confidence in justice delivery.",
+  "care": "It suggested the approach used in lower courts: identify the oldest cases and dispose of them first."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚖️",
+    "label": "Slow service of summons"
+   }
+  ],
+  "event": {
+   "icon": "📜",
+   "label": "HC questions 13 pending NBWs"
+  },
+  "effects": [
+   {
+    "icon": "🏛️",
+    "label": "State must file case-wise report"
+   },
+   {
+    "icon": "🏛️",
+    "label": "Hearing on Nov 30"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI (Nov 20): the bench wants chronological data on all pending cases up to March 31, 2026."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should cases against MPs and MLAs get time-bound trials?",
+   "opts": [
+    "Yes",
+    "No",
+    "Only serious cases",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Why do summons go unserved despite technology?",
+    "Should MLCs also come under the special courts?"
+   ],
+   "facts": [
+    {
+     "big": "30",
+     "t": "Lower courts were told to identify the *30 oldest* cases in each district and dispose of at least 10.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-high-court-pulls-up-state-govt-over-13-pending-non-bailable-warrants-in-cases-against-mps-mlas/articleshow/136002777.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Cases vs MPs/MLAs disposed (Apr 2025)",
+   "v": 15,
+   "max": 284,
+   "unit": " cases",
+   "tone": "bad",
+   "verdict": "269 cases were still pending"
+  },
+  {
+   "t": "stack",
+   "l": "Stage of pending trials",
+   "parts": [
+    {
+     "l": "Accused appearance",
+     "v": 8
+    },
+    {
+     "l": "Examination of accused",
+     "v": 63
+    },
+    {
+     "l": "Arguments",
+     "v": 33
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Most listed cases sit at the examination stage",
+   "total": "104 listed cases"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "13",
+  "label": "pending warrants",
+  "motion": "drift",
+  "scene": [
+   "⚖️",
+   "📜",
+   "🏛️"
+  ]
+ },
+ "learn": {
+  "t": "NBW = non-bailable warrant, a court order to arrest and produce a person"
+ },
+ "watch": "The High Court hears the matter again on Nov 30.",
+ "thread": "tg-hc-13-pending-nbws-mps-mlas-284-cases",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Telangana high court pulls up state govt over 13 pending non-bailable warrants in cases against MPs, MLAs",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-high-court-pulls-up-state-govt-over-13-pending-non-bailable-warrants-in-cases-against-mps-mlas/articleshow/136002777.cms"
+  }
+ ],
+ "updated": 1795136226287,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136002775,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Non-bailable warrants are still unexecuted in *13* cases against Telangana MPs, MLAs",
+ "twist": "Govt data showed 284 cases against MPs and MLAs as of April 2025, with only 15 disposed.",
+ "areas": [
+  "Telangana"
+ ],
+ "layer": "state"
+}

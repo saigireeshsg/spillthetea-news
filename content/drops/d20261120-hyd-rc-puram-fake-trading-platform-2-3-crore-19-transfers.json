@@ -1,0 +1,133 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-85",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "cyber",
+ "hook": "Fake trading app takes *₹2.3 crore* from RC Puram retiree",
+ "hook_b": "Fake trading app takes *₹2.3 crore* from RC Puram retiree",
+ "tldr": "A 76-year-old retired PSU executive transferred over ₹2.4 crore in 19 transactions between Aug 21 and Nov 13 to third-party accounts after a caller pitched forex and commodity trades. When he tried to withdraw, he was asked for fees and the withdrawal option was disabled.",
+ "beats": {
+  "what": "Cyberabad cybercrime police booked a case over a fake online trading platform fraud.",
+  "why": "Scammers pose as trading desks and use third-party bank and UPI accounts.",
+  "care": "Victims can call the 1930 cybercrime helpline; fees to withdraw are a warning sign."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📱",
+    "label": "Call pitching high returns"
+   }
+  ],
+  "event": {
+   "icon": "💸",
+   "label": "19 transfers over 3 months"
+  },
+  "effects": [
+   {
+    "icon": "🚨",
+    "label": "Withdrawal blocked with fee demands"
+   },
+   {
+    "icon": "🚨",
+    "label": "Case filed by Cyberabad police"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI (Nov 20): the complaint was filed on Nov 18 and the case registered under BNS and IT Act sections."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you spot a fake trading app before investing?",
+   "opts": [
+    "Yes",
+    "Maybe",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Why do small 'returns' make people trust a fake platform?",
+    "Should banks flag repeated transfers to third-party accounts?"
+   ],
+   "facts": [
+    {
+     "big": "19",
+     "t": "He transferred over ₹2.4 crore in *19 transactions* to accounts in third parties' names.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/retired-psu-executive-loses-2-3-crore-to-online-trading-fraud-in-hyderabad/articleshow/136002817.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the scam ran",
+   "steps": [
+    {
+     "t": "Aug 21",
+     "e": "First call from 'trading platform'"
+    },
+    {
+     "t": "Aug-Nov",
+     "e": "19 transfers, ₹2 lakh credited back"
+    },
+    {
+     "t": "Nov 13",
+     "e": "Last transfer"
+    },
+    {
+     "t": "Nov 18",
+     "e": "Complaint filed"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Fraud ran for nearly three months"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹2.3 cr",
+  "label": "lost to fake trading platform",
+  "motion": "drift",
+  "scene": [
+   "📱",
+   "💸",
+   "🚨"
+  ]
+ },
+ "watch": "Cyberabad cybercrime police are investigating the accounts used in the transfers.",
+ "thread": "hyd-rc-puram-fake-trading-platform-2-3-crore-19-transfers",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Retired PSU executive loses ₹2.3 crore to online trading fraud in Hyderabad",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/retired-psu-executive-loses-2-3-crore-to-online-trading-fraud-in-hyderabad/articleshow/136002817.cms"
+  }
+ ],
+ "updated": 1795136226287,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136002815,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "A fake trading platform took over *₹2.3 crore* from an RC Puram retiree",
+ "twist": "Fraudsters first credited ₹2 lakh back to him to keep him investing.",
+ "areas": [
+  "RC Puram"
+ ],
+ "layer": "near"
+}

@@ -1,0 +1,141 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-91",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "weather",
+ "hook": "Hyderabad's minimum fell *2.6°C* in a day to 17.9°C",
+ "hook_b": "Hyderabad's minimum fell *2.6°C* in a day to 17.9°C",
+ "tldr": "IMD recorded 17.9°C on Thursday morning, down from 20.5°C, near the 17.6°C normal. Minimums are expected at 18-19°C and maximums 30-32°C from Nov 20 to 25, with isolated light to moderate rain in Telangana on Friday and Saturday.",
+ "beats": {
+  "what": "Hyderabad's mornings turned cooler, close to seasonal normal.",
+  "why": "Temperatures had been running nearly 3°C above normal.",
+  "care": "Expect cool mornings and warm afternoons through Nov 25."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌡️",
+    "label": "Seasonal cooling"
+   }
+  ],
+  "event": {
+   "icon": "🌤️",
+   "label": "Minimum falls to 17.9°C"
+  },
+  "effects": [
+   {
+    "icon": "☔",
+    "label": "Cool mornings, warm afternoons"
+   },
+   {
+    "icon": "☔",
+    "label": "Isolated rain as Akvan nears coast"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI (Nov 20): thunderstorms and 30-40 kmph gusts are likely at isolated places in northern and eastern districts."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How are Hyderabad mornings feeling this week?",
+   "opts": [
+    "Pleasantly cool",
+    "Still warm",
+    "Too cold",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will the cyclone's clouds cut the morning chill or add rain?"
+   ],
+   "facts": [
+    {
+     "big": "15°C",
+     "t": "Golconda weather station in Hyderabad logged *15°C* on Nov 17; Kohir in Sangareddy hit 11.2°C.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-wakes-up-to-cooler-mornings-as-mercury-dips-below-18c-rain-likely-in-parts-of-telangana/articleshow/136000993.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Hyderabad minimum",
+   "a": {
+    "v": 20.5,
+    "d": "20.5°C",
+    "l": "Wednesday"
+   },
+   "b": {
+    "v": 17.9,
+    "d": "17.9°C",
+    "l": "Thursday"
+   },
+   "tone": "neutral",
+   "verdict": "Back near the 17.6°C seasonal normal"
+  },
+  {
+   "t": "compare",
+   "l": "Coldest in Telangana",
+   "a": {
+    "v": 13.5,
+    "d": "13.5°C",
+    "l": "Hanamkonda"
+   },
+   "b": {
+    "v": 10.2,
+    "d": "10.2°C",
+    "l": "Adilabad"
+   },
+   "tone": "neutral",
+   "verdict": "North Telangana is far colder than the city"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "17.9°C",
+  "label": "Hyderabad minimum, Thursday",
+  "motion": "drift",
+  "scene": [
+   "🌡️",
+   "🌤️",
+   "☔"
+  ]
+ },
+ "watch": "IMD expects minimums of 18-19°C and maximums of 30-32°C from Nov 20 to 25.",
+ "thread": "hyd-min-temp-17-9c-drop-2-6c-akvan-isolated-rain",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Hyderabad wakes up to cooler mornings as mercury dips below 18°C; rain likely in parts of Telangana",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-wakes-up-to-cooler-mornings-as-mercury-dips-below-18c-rain-likely-in-parts-of-telangana/articleshow/136000993.cms"
+  }
+ ],
+ "updated": 1795136226286,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136000989,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Hyderabad's minimum dropped *2.6°C* in 24 hours to 17.9°C",
+ "twist": "Adilabad was the state's coldest at 10.2°C, while Cyclone Akvan may bring isolated rain Friday and Saturday.",
+ "areas": [
+  "Hyderabad",
+  "Golconda"
+ ],
+ "layer": "city"
+}

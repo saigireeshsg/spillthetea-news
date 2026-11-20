@@ -1,0 +1,135 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "*66%* of India's road deaths are people aged 18-34",
+ "hook_b": "*66%* of India's road deaths are people aged 18-34",
+ "tldr": "Opening the 85th Indian Roads Congress session in Hyderabad, Union minister Nitin Gadkari called for zero road deaths and said 66% of those killed are aged 18-34. He assured support for Telangana Rising Vision 2047 but announced no specific project approvals.",
+ "beats": {
+  "what": "Gadkari opened the four-day 85th IRC session in Hyderabad and called for zero road deaths.",
+  "why": "India loses about 1.8 lakh lives on roads a year, mostly young people.",
+  "care": "He asked engineers to remove accident black spots through error-free project reports."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛣️",
+    "label": "1.8 lakh road deaths a year"
+   }
+  ],
+  "event": {
+   "icon": "🚦",
+   "label": "Gadkari calls for zero deaths at IRC"
+  },
+  "effects": [
+   {
+    "icon": "🧑",
+    "label": "Focus on black spots and quality"
+   },
+   {
+    "icon": "🧑",
+    "label": "No new Telangana project approvals announced"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI (Nov 20): Hyderabad is hosting the IRC session for the first time since 2016."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What would cut road deaths most in Hyderabad?",
+   "opts": [
+    "Fixing black spots",
+    "Stricter enforcement",
+    "Better public transport",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which Hyderabad junctions are listed as black spots?",
+    "How many of the city's crash victims are young riders?"
+   ],
+   "facts": [
+    {
+     "big": "92 yrs",
+     "t": "The Indian Roads Congress has completed *92 years*; Hyderabad last hosted its session in 2016.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/gadkari-calls-for-zero-road-deaths-says-safety-must-be-top-priority/articleshow/136003038.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "icons",
+   "l": "Road deaths by age",
+   "of": 3,
+   "tone": "bad",
+   "verdict": "Young adults make up most of those killed",
+   "n": 2,
+   "icon": "🧑",
+   "d": "66%"
+  },
+  {
+   "t": "compare",
+   "l": "India per year",
+   "a": {
+    "v": 5,
+    "d": "5 lakh",
+    "l": "Accidents"
+   },
+   "b": {
+    "v": 1.8,
+    "d": "1.8 lakh",
+    "l": "Deaths"
+   },
+   "tone": "bad",
+   "verdict": "Roughly one death for every three accidents"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "66%",
+  "label": "of road deaths aged 18-34",
+  "motion": "drift",
+  "scene": [
+   "🛣️",
+   "🚦",
+   "🧑"
+  ]
+ },
+ "watch": "The IRC session runs four days in Hyderabad with sessions on safety and sustainable roads.",
+ "thread": "hyd-irc-gadkari-1-8-lakh-road-deaths-66pc-aged-18-34",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Gadkari calls for zero road deaths, says safety must be top priority",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/gadkari-calls-for-zero-road-deaths-says-safety-must-be-top-priority/articleshow/136003038.cms"
+  }
+ ],
+ "updated": 1795136226285,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136003037,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Two in three people killed on India's roads are aged *18 to 34*",
+ "twist": "India records about 5 lakh road accidents and 1.8 lakh deaths every year, Gadkari said in Hyderabad.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "india"
+}

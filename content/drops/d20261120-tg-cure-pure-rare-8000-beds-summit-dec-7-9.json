@@ -1,0 +1,137 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-82",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Telangana splits into *3* growth zones: CURE, PURE, RARE",
+ "hook_b": "Telangana splits into *3* growth zones: CURE, PURE, RARE",
+ "tldr": "At the IRC inaugural session, CM Revanth Reddy said CURE (inside ORR) will focus on services, PURE (between ORR and RRR) on manufacturing, and RARE (beyond RRR) on agriculture. He invited delegates to the Invest Telangana Global Summit at Bharat Future City, Dec 7-9.",
+ "beats": {
+  "what": "The CM laid out three development regions tied to the ring roads.",
+  "why": "The government says road connectivity will drive growth, citing ORR.",
+  "care": "Where you live may decide whether your area is planned for services, factories or farming."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗺️",
+    "label": "ORR-led growth model"
+   }
+  ],
+  "event": {
+   "icon": "🛣️",
+   "label": "CURE, PURE, RARE zones"
+  },
+  "effects": [
+   {
+    "icon": "🏭",
+    "label": "Services, factories, farms by zone"
+   },
+   {
+    "icon": "🏭",
+    "label": "8,000 more hospital beds planned"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI (Nov 20): the state targets a $3-trillion economy by 2047."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Which zone matters most for jobs in your area?",
+   "opts": [
+    "CURE (inside ORR)",
+    "PURE (ORR to RRR)",
+    "RARE (beyond RRR)",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will PURE-zone factories affect villages between ORR and RRR?"
+   ],
+   "facts": [
+    {
+     "big": "$3 tn",
+     "t": "Telangana says it is working towards a *$3-trillion* economy by 2047.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/cure-pure-rare-to-power-telanganas-growth-revanth/articleshow/136000966.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Three rings, three economies",
+   "tone": "neutral",
+   "verdict": "Plan assigns each ring a different focus",
+   "steps": [
+    {
+     "t": "Inside ORR",
+     "e": "CURE: services"
+    },
+    {
+     "t": "ORR to RRR",
+     "e": "PURE: manufacturing"
+    },
+    {
+     "t": "Beyond RRR",
+     "e": "RARE: agriculture"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "8,000",
+   "l": "hospital beds to be added"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3",
+  "label": "development zones",
+  "motion": "drift",
+  "scene": [
+   "🗺️",
+   "🛣️",
+   "🏭"
+  ]
+ },
+ "learn": {
+  "t": "RRR = Regional Ring Road, a proposed outer ring around Hyderabad beyond the ORR"
+ },
+ "watch": "Invest Telangana Global Summit 2026 at Bharat Future City, Dec 7-9.",
+ "thread": "tg-cure-pure-rare-8000-beds-summit-dec-7-9",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "CURE, PURE & RARE to power Telangana's growth: Revanth",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/cure-pure-rare-to-power-telanganas-growth-revanth/articleshow/136000966.cms"
+  }
+ ],
+ "updated": 1795136226287,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136000956,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Telangana is dividing itself into *three* zones split by ORR and RRR",
+ "twist": "Revanth also said new hospitals including Osmania and TIMS will add 8,000 beds.",
+ "areas": [
+  "Hyderabad",
+  "Bharat Future City"
+ ],
+ "layer": "state"
+}

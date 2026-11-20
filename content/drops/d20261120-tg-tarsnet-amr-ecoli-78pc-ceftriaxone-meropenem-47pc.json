@@ -1,0 +1,146 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-89",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "*78%* of E. coli in Telangana blood samples resist a common antibiotic",
+ "hook_b": "*78%* of E. coli in Telangana blood samples resist a common antibiotic",
+ "tldr": "Osmania Medical College's TARS-Net report analysed 14,616 bacterial samples from 13 centres in 10 districts. It found high resistance to common antibiotics, and meropenem resistance in ICU Acinetobacter rising from 22% in 2024 to 47% in 2025.",
+ "beats": {
+  "what": "An OMC surveillance report shows common antibiotics failing against many infections in Telangana hospitals.",
+  "why": "Resistant bacteria leave doctors fewer options for critically ill patients.",
+  "care": "Experts say resistant bacteria are found even in people with no history of antibiotic use."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💊",
+    "label": "Overuse of antibiotics"
+   }
+  ],
+  "event": {
+   "icon": "🦠",
+   "label": "TARS-Net finds high resistance"
+  },
+  "effects": [
+   {
+    "icon": "🏥",
+    "label": "Fewer options for ICU patients"
+   },
+   {
+    "icon": "🏥",
+    "label": "Experts push state AMR plan TAPCAR"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI (Nov 20): the report comes during World AMR Awareness Week, Nov 18-24."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you take antibiotics only on a doctor's prescription?",
+   "opts": [
+    "Always",
+    "Sometimes",
+    "Rarely",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How often are antibiotics sold without prescription near you?",
+    "What happens when even last-line drugs stop working?"
+   ],
+   "facts": [
+    {
+     "big": "14,616",
+     "t": "The report analysed *14,616* bacterial samples; E. coli made up 5,716 of them.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/powerful-antibiotics-losing-effectiveness-against-infections-in-telangana-hospitals-states-osmania-medical-college-report/articleshow/136003248.cms"
+    },
+    {
+     "big": "74%",
+     "t": "Resistance to ceftriaxone was *74%* among E. coli found in urine samples.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/powerful-antibiotics-losing-effectiveness-against-infections-in-telangana-hospitals-states-osmania-medical-college-report/articleshow/136003248.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "trend",
+   "l": "Meropenem resistance, ICU Acinetobacter (blood)",
+   "pts": [
+    [
+     "2024",
+     22
+    ],
+    [
+     "2025",
+     47
+    ]
+   ],
+   "unit": "%",
+   "tone": "bad",
+   "goodIfUp": false,
+   "verdict": "A powerful drug is failing more often in ICU infections"
+  },
+  {
+   "t": "meter",
+   "l": "ICU Acinetobacter resistant to ceftazidime",
+   "v": 81,
+   "max": 100,
+   "unit": "%",
+   "tone": "bad",
+   "verdict": "Four in five samples resisted this drug"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "78%",
+  "label": "E. coli resistant to ceftriaxone",
+  "motion": "drift",
+  "scene": [
+   "💊",
+   "🦠",
+   "🏥"
+  ]
+ },
+ "learn": {
+  "t": "AMR = antimicrobial resistance, when germs stop responding to medicines meant to kill them"
+ },
+ "watch": "Experts urged the state to implement its AMR containment plan (TAPCAR) across health, animals and farming.",
+ "thread": "tg-tarsnet-amr-ecoli-78pc-ceftriaxone-meropenem-47pc",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Powerful antibiotics losing effectiveness against infections in Telangana hospitals, states Osmania Medical College report",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/powerful-antibiotics-losing-effectiveness-against-infections-in-telangana-hospitals-states-osmania-medical-college-report/articleshow/136003248.cms"
+  }
+ ],
+ "updated": 1795136226286,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136003247,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Nearly *78%* of E. coli in Telangana patients' blood resisted ceftriaxone",
+ "twist": "Resistance to meropenem, a last-line drug, nearly doubled in ICU Acinetobacter samples in a year.",
+ "areas": [
+  "Hyderabad",
+  "Telangana"
+ ],
+ "layer": "state"
+}

@@ -1,0 +1,130 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-83",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Cyberabad Moves mobility event at T-Hub, *Nov 26-28*",
+ "hook_b": "Cyberabad Moves mobility event at T-Hub, *Nov 26-28*",
+ "tldr": "CM Revanth Reddy launched the poster for Cyberabad Moves 2026, a three-day event on road safety, sustainable transport and mobility solutions, at T-Hub, Raidurgam, from Nov 26 to 28, 9 am to 6 pm.",
+ "beats": {
+  "what": "Cyberabad Moves 2026 will be held at T-Hub, Raidurgam.",
+  "why": "Cyberabad's mobility needs are growing, officials say.",
+  "care": "Registration is open at cyberabadmoves.in."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚗",
+    "label": "Growing mobility needs"
+   }
+  ],
+  "event": {
+   "icon": "🗣️",
+   "label": "Cyberabad Moves 2026 announced"
+  },
+  "effects": [
+   {
+    "icon": "🚲",
+    "label": "Public can pitch ideas"
+   },
+   {
+    "icon": "🚲",
+    "label": "Focus on road safety"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 19): CMC Commissioner G. Srijana urged people to register and take part."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What's the biggest commute problem in Cyberabad?",
+   "opts": [
+    "Traffic jams",
+    "Last-mile transport",
+    "Unsafe roads",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which Cyberabad roads would you bring to this event?"
+   ],
+   "facts": [
+    {
+     "big": "9-6",
+     "t": "Sessions run *9 am to 6 pm* each day at T-Hub, Raidurgam.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/cyberabad-moves-2026-poster-unveiled-df3828ca"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Cyberabad Moves",
+   "steps": [
+    {
+     "t": "Nov 19",
+     "e": "Poster launched by CM"
+    },
+    {
+     "t": "Now",
+     "e": "Registrations open"
+    },
+    {
+     "t": "Nov 26-28",
+     "e": "Event at T-Hub, 9am-6pm"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Open to citizens, students and industry"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3 days",
+  "label": "Nov 26-28 at T-Hub",
+  "motion": "drift",
+  "scene": [
+   "🚗",
+   "🗣️",
+   "🚲"
+  ]
+ },
+ "watch": "Event runs Nov 26-28, 9 am to 6 pm, at T-Hub.",
+ "thread": "hyd-cyberabad-moves-2026-t-hub-nov-26-28",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Cyberabad Moves 2026 poster unveiled",
+   "url": "https://telanganatoday.com/cyberabad-moves-2026-poster-unveiled-df3828ca"
+  }
+ ],
+ "updated": 1795136226287,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/cyberabad-moves-2026-poster-unveiled-df3828ca-f13e1964.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Cyberabad Moves invites citizens to T-Hub on *Nov 26-28* to fix commutes",
+ "twist": "Students and residents can register to pitch ideas, not just officials and industry.",
+ "areas": [
+  "Raidurgam",
+  "Madhapur",
+  "Gachibowli"
+ ],
+ "layer": "near"
+}

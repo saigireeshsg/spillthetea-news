@@ -1,0 +1,131 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "Gandhi Hospital's IVF unit records *3* deliveries in a week",
+ "hook_b": "Gandhi Hospital's IVF unit records *3* deliveries in a week",
+ "tldr": "The IVF unit at Gandhi Hospital, Secunderabad, recorded three deliveries between Nov 10 and 18: two boys and a girl. The couples came from Warangal, Vikarabad and Yadadri Bhuvanagiri districts.",
+ "beats": {
+  "what": "A government hospital's IVF unit recorded three successful deliveries in a week.",
+  "why": "Private fertility centres in Hyderabad are under scrutiny in an illegal egg trade case.",
+  "care": "Government IVF gives families an option beyond costly private treatment."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏥",
+    "label": "Scrutiny of private IVF centres"
+   }
+  ],
+  "event": {
+   "icon": "👶",
+   "label": "Gandhi IVF unit: 3 births"
+  },
+  "effects": [
+   {
+    "icon": "💙",
+    "label": "Couples from 3 districts"
+   },
+   {
+    "icon": "💙",
+    "label": "Option beyond private clinics"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu (Nov 19): one couple had spent about ₹3-4 lakh at private hospitals before."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Did you know government hospitals in Hyderabad offer IVF?",
+   "opts": [
+    "Yes",
+    "No",
+    "Heard of it",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many couples can the government IVF unit take each year?"
+   ],
+   "facts": [
+    {
+     "big": "16 yrs",
+     "t": "The first couple had struggled with infertility for *16 years* before the Nov 10 birth.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/as-private-fertility-centres-face-scrutiny-a-government-hospital-in-hyderabad-records-three-successful-ivf-deliveries-in-a-week/article71720204.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Deliveries at Gandhi Hospital",
+   "steps": [
+    {
+     "t": "Nov 10",
+     "e": "Baby boy, couple from Warangal"
+    },
+    {
+     "t": "Nov 18",
+     "e": "Baby boy, family from Vikarabad"
+    },
+    {
+     "t": "Nov 18",
+     "e": "Baby girl, couple from Yadadri Bhuvanagiri"
+    }
+   ],
+   "tone": "good",
+   "verdict": "Three families after waits of 9-16 years"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3",
+  "label": "IVF births in a week",
+  "motion": "drift",
+  "scene": [
+   "🏥",
+   "👶",
+   "💙"
+  ]
+ },
+ "learn": {
+  "t": "IVF = in vitro fertilisation, where an egg is fertilised outside the body"
+ },
+ "watch": "Watch for the state's action on private ART centres in the oocyte case.",
+ "thread": "hyd-gandhi-hospital-ivf-3-deliveries-in-a-week",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "As private fertility centres face scrutiny, a government hospital in Hyderabad records three successful IVF deliveries in a week",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/as-private-fertility-centres-face-scrutiny-a-government-hospital-in-hyderabad-records-three-successful-ivf-deliveries-in-a-week/article71720204.ece"
+  }
+ ],
+ "updated": 1795136226287,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/ua823r/article71720208.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-19%20at%204.56.27%20PM.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "Gandhi Hospital's government IVF unit delivered *three babies* within one week",
+ "twist": "Two of the couples had spent lakhs on IVF at private hospitals before; one had waited 16 years.",
+ "areas": [
+  "Secunderabad"
+ ],
+ "layer": "city"
+}
