@@ -1,0 +1,133 @@
+{
+ "cat": "campus",
+ "lead": "campus",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "campus",
+ "hook": "*14* KU B.Tech students fall ill after mess dinner",
+ "hook_b": "*14* KU B.Tech students fall ill after mess dinner",
+ "tldr": "At least 14 engineering students at Kakatiya University, Hanamkonda, fell ill from food poisoning after dinner at the common mess on Nov 19. Students protested at the main gate demanding quality food; SFI says the VC assured action against mess staff.",
+ "beats": {
+  "what": "14 B.Tech students at Kakatiya University fell sick after the common-mess dinner.",
+  "why": "Students allege repeated requests for hygienic, quality food were ignored.",
+  "care": "Hostel students in Telangana depend on campus messes for every meal."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🍛",
+    "label": "Common-mess dinner"
+   }
+  ],
+  "event": {
+   "icon": "🤢",
+   "label": "14 B.Tech students ill"
+  },
+  "effects": [
+   {
+    "icon": "📢",
+    "label": "Protest at main gate"
+   },
+   {
+    "icon": "📢",
+    "label": "VC assures action on mess staff"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat (Nov 20): SFI and PDSO demanded action; the vice-chancellor assured students of action against mess staff."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should university mess hygiene inspection reports be made public?",
+   "opts": [
+    "Yes",
+    "No",
+    "Only after incidents",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who inspects university hostel messes in Telangana, and how often?"
+   ],
+   "facts": [
+    {
+     "big": "40",
+     "t": "Siasat reported *40* students fell ill after food at the University of Hyderabad the same day.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/14-students-fall-ill-after-food-poisoning-at-telangana-university-3582027/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How it unfolded",
+   "steps": [
+    {
+     "t": "Nov 19 night",
+     "e": "14 B.Tech students ill after mess dinner"
+    },
+    {
+     "t": "Nov 19",
+     "e": "Similar incident at University of Hyderabad"
+    },
+    {
+     "t": "Nov 20",
+     "e": "Students protest at KU main gate"
+    },
+    {
+     "t": "Next",
+     "e": "VC assures action against mess staff"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Two campus food-safety incidents in one day"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1c2340",
+   "#4a5fb0"
+  ],
+  "big": "14",
+  "label": "KU students ill, Nov 19",
+  "motion": "drift",
+  "scene": [
+   "🍛",
+   "🤢",
+   "📢"
+  ]
+ },
+ "watch": "What action Kakatiya University takes against mess staff, and whether food is tested.",
+ "thread": "tg-kakatiya-university-14-btech-food-poisoning-uoh-same-day",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "14 students fall ill after food poisoning at Telangana university",
+   "url": "https://www.siasat.com/14-students-fall-ill-after-food-poisoning-at-telangana-university-3582027/"
+  }
+ ],
+ "updated": 1795175780980,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Untitled-Design-2026-11-20T143607.922.jpg",
+  "c": "Siasat"
+ },
+ "fact": "*14* Kakatiya University B.Tech students fell ill after a common-mess dinner on Nov 19",
+ "twist": "It was the second campus that day: Siasat also reported 40 students falling ill after food at the University of Hyderabad.",
+ "areas": [
+  "Hanamkonda",
+  "Gachibowli"
+ ],
+ "layer": "state"
+}

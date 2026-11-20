@@ -1,19 +1,19 @@
 {
  "cat": "local",
  "lead": "local",
- "date": "2026-11-11",
- "sort": "2026-11-11-91",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-90",
  "order": 1,
  "heat": 4,
  "readSecs": 30,
  "topic": "water",
- "hook": "Water Board races to add *40 MGD* Godavari water by Nov 15",
- "hook_b": "Water Board races to add *40 MGD* Godavari water by Nov 15",
- "tldr": "HMWSSB is speeding up Godavari pipeline interconnection works at Ghanpur, with crews working round the clock.",
+ "hook": "Nov 15 missed: Water Board now plans *40 MGD* Godavari trial run",
+ "hook_b": "Nov 15 missed: Water Board now plans *40 MGD* Godavari trial run",
+ "tldr": "HMWSSB is preparing a trial run to divert an extra 40 MGD of Godavari water from Mallannasagar to the Ghanpur Master Balancing Reservoir. The Nov 15 target slipped after crews hit heavy rock along a 150 m forest stretch; officials set a two-day deadline on Nov 20 to finish the interconnection.",
  "beats": {
-  "what": "MD K Ashok Reddy ordered three eight-hour shifts, floodlights for night work and extra labour teams.",
-  "why": "Water availability from the Singur-Manjeera sources is declining because of El Nino conditions.",
-  "care": "Areas that depend on Singur-Manjeera water are to get Godavari supply prioritised."
+  "what": "Pipeline integration is nearly done; HMWSSB and Mission Bhagiratha set a two-day deadline for the rest.",
+  "why": "El Nino conditions are draining the Singur and Manjira reservoirs.",
+  "care": "Singur-Manjira-fed areas face a supply deficit; the extra water is expected to offset about 50% of it."
  },
  "map": {
   "causes": [
@@ -24,16 +24,16 @@
   ],
   "event": {
    "icon": "🔧",
-   "label": "Ghanpur works 24x7"
+   "label": "Trial run after Nov 15 slip"
   },
   "effects": [
    {
     "icon": "💧",
-    "label": "40 MGD more by Nov 15"
+    "label": "~50% of deficit offset"
    },
    {
-    "icon": "💧",
-    "label": "Manjeera-fed areas first"
+    "icon": "⛰️",
+    "label": "150 m rock stretch delayed work"
    }
   ]
  },
@@ -41,15 +41,16 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "Telangana Today: Road-crossing work was ordered to start so pipes can be laid within two to three days."
+   "body": "Telangana Today (Nov 20): MD Ashok Reddy and Mission Bhagiratha E-in-C Krupakar Reddy inspected the works and set a two-day deadline before the trial run."
   },
   {
    "k": "poll",
    "vt": "stance",
-   "q": "Has your area's water supply dropped this month?",
+   "q": "Has your area's water supply changed this month?",
    "opts": [
-    "Yes",
-    "No",
+    "Dropped",
+    "Same",
+    "Improved",
     "Not sure"
    ]
   },
@@ -64,37 +65,49 @@
      "t": "Crews ordered to work *3 eight-hour shifts* with separate teams for each.",
      "s": "Telangana Today",
      "u": "https://telanganatoday.com/hmwssb-keen-to-complete-pipeline-works-by-nov-15-to-supply-7017a49a"
+    },
+    {
+     "big": "150 m",
+     "t": "Excavation through heavy rock along a *150 m* forest stretch delayed the Nov 15 target.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hmwssb-plans-40-mgd-water-trial-7c24bdd3"
     }
    ]
   }
  ],
  "viz": [
   {
-   "t": "big",
-   "v": "40 MGD",
-   "l": "extra Godavari supply planned",
+   "t": "meter",
+   "l": "Share of projected Singur-Manjira deficit the extra 40 MGD covers",
+   "v": 50,
+   "max": 100,
+   "unit": "%",
    "tone": "neutral",
-   "verdict": "Deadline-driven supply boost"
+   "verdict": "Helps Manjira-fed areas, but about half the gap remains"
   },
   {
    "t": "timeline",
-   "l": "Race to Nov 15",
+   "l": "Godavari 40 MGD so far",
    "steps": [
     {
      "t": "Nov 9",
-     "e": "MD inspects Ghanpur works"
-    },
-    {
-     "t": "Next 2-3 days",
-     "e": "Road-crossing pipes laid"
+     "e": "24x7 works ordered at Ghanpur"
     },
     {
      "t": "Nov 15",
-     "e": "Target: 40 MGD added"
+     "e": "Original target missed (rock stretch)"
+    },
+    {
+     "t": "Nov 20",
+     "e": "Two-day deadline set for interconnection"
+    },
+    {
+     "t": "Next",
+     "e": "Trial run of 40 MGD"
     }
    ],
    "tone": "neutral",
-   "verdict": "Deadline-driven supply boost"
+   "verdict": "Delayed by days, trial next"
   }
  ],
  "cover": {
@@ -103,7 +116,7 @@
    "#2a6fb0"
   ],
   "big": "40 MGD",
-  "label": "extra Godavari supply planned",
+  "label": "extra Godavari water, trial run next",
   "motion": "drift",
   "scene": [
    "🌵",
@@ -114,22 +127,27 @@
  "learn": {
   "t": "MGD = million gallons per day, the unit used for city water supply."
  },
- "watch": "Whether the Ghanpur interconnection is finished by the Nov 15 deadline.",
+ "watch": "Whether the trial run starts after the two-day deadline and when Manjira-fed areas see the water.",
  "thread": "hmwssb-ghanpur-godavari-40-mgd-nov-15",
  "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "HMWSSB plans trial run to divert additional 40 MGD of Godavari water to Hyderabad",
+   "url": "https://telanganatoday.com/hmwssb-plans-40-mgd-water-trial-7c24bdd3"
+  },
   {
    "name": "Telangana Today",
    "title": "HMWSSB speeds up Ghanpur pipeline works",
    "url": "https://telanganatoday.com/hmwssb-keen-to-complete-pipeline-works-by-nov-15-to-supply-7017a49a"
   }
  ],
- "updated": 1794358675256,
+ "updated": 1795175780981,
  "img": {
-  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/GODAVARI-WATER-SUPPLY.jpg.jpeg",
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/hmwssb-plans-40-mgd-water-trial-7c24bdd3-841e0787.jpg",
   "c": "Telangana Today"
  },
- "fact": "Hyderabad could get *40 million gallons a day* more Godavari water by Nov 15.",
- "twist": "The push comes because Singur-Manjeera supply is falling under El Nino conditions.",
+ "fact": "Hyderabad's extra *40 MGD* Godavari water missed Nov 15; a trial run is next",
+ "twist": "Officials expect the 40 MGD to cover only about half the projected Singur-Manjira shortfall.",
  "layer": "city",
  "areas": [
   "Hyderabad"

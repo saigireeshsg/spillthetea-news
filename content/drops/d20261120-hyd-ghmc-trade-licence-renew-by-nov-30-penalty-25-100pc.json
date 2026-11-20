@@ -1,0 +1,138 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-92",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "GHMC trade licences: renew by *Nov 30* or pay up to 100% penalty",
+ "hook_b": "GHMC trade licences: renew by *Nov 30* or pay up to 100% penalty",
+ "tldr": "GHMC Commissioner R.V. Karnan said on Nov 20 that 2026 trade licences stay valid until Dec 31, 2026, but 2027 renewals filed by Nov 30 carry no penalty. Late renewals from Dec 1 attract 25%, and from Feb 1, 2027, 50%.",
+ "beats": {
+  "what": "Shops and businesses inside GHMC limits must renew 2027 trade licences by Nov 30 to avoid penalties.",
+  "why": "Renewals must be filed in the 30-day window before the licence expires on Dec 31.",
+  "care": "Miss the date and the fee rises by 25% to 50%; no licence at all means a 100% penalty."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📅",
+    "label": "2026 licences expire Dec 31"
+   }
+  ],
+  "event": {
+   "icon": "🏪",
+   "label": "Renew 2027 licence by Nov 30"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "25% penalty from Dec 1"
+   },
+   {
+    "icon": "💸",
+    "label": "50% penalty from Feb 1"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today (Nov 20): 2026 licences stay valid until Dec 31, 2026, but the penalty-free renewal window closes Nov 30."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should GHMC send renewal reminders by SMS to every licence holder?",
+   "opts": [
+    "Yes",
+    "No",
+    "Already do",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many GHMC businesses renew late each year?",
+    "Can small vendors renew online without an agent?"
+   ],
+   "facts": [
+    {
+     "big": "10%",
+     "t": "Trading without a valid licence draws a *100%* penalty plus an extra *10%* fine every month.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/ghmc-seeks-trade-licence-renewals-f2132894"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "2027 trade licence penalty ladder",
+   "steps": [
+    {
+     "t": "By Nov 30",
+     "e": "No penalty"
+    },
+    {
+     "t": "Dec 1 - Jan 31",
+     "e": "25% penalty"
+    },
+    {
+     "t": "From Feb 1, 2027",
+     "e": "50% penalty"
+    },
+    {
+     "t": "No licence found",
+     "e": "100% + 10% a month"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Penalty rises the later traders renew"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 30",
+  "label": "last day for penalty-free renewal",
+  "motion": "drift",
+  "scene": [
+   "📅",
+   "🏪",
+   "💸"
+  ]
+ },
+ "learn": {
+  "t": "Trade licence = GHMC permission every shop or business needs to operate legally",
+  "show": false
+ },
+ "watch": "Whether GHMC extends the Nov 30 penalty-free window, as traders often ask.",
+ "thread": "hyd-ghmc-trade-licence-renew-by-nov-30-penalty-25-100pc",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "GHMC asks traders to renew 2027 trade licences by November 30 to avoid penalties",
+   "url": "https://telanganatoday.com/ghmc-seeks-trade-licence-renewals-f2132894"
+  }
+ ],
+ "updated": 1795175780979,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/ghmc-seeks-trade-licence-renewals-f2132894-fc296a81.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "GHMC traders have until *Nov 30* to renew 2027 trade licences penalty-free",
+ "twist": "Running a shop with no valid licence costs a 100% penalty, plus 10% more every month until it is renewed.",
+ "areas": [
+  "Hyderabad",
+  "Secunderabad"
+ ],
+ "layer": "city"
+}

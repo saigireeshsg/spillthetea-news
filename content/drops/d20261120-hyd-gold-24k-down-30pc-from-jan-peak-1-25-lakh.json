@@ -1,0 +1,132 @@
+{
+ "cat": "money",
+ "lead": "money",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-84",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "money",
+ "hook": "Hyderabad 24K gold is *30%* below its January record",
+ "hook_b": "Hyderabad 24K gold is *30%* below its January record",
+ "tldr": "On Nov 20, 10 grams of 24-carat gold cost ₹1,25,570 and 22-carat ₹1,15,100 in Hyderabad, down from ₹1,78,850 and ₹1,63,950 on the Jan 29 record. Siasat links the fall to a stronger US dollar, high bond yields and expected tighter US Fed policy.",
+ "beats": {
+  "what": "Gold in Hyderabad is ₹53,280 per 10 g cheaper than the Jan 29, 2026 record.",
+  "why": "A stronger US dollar, high bond yields and expectations of tighter US Fed policy are pulling prices down.",
+  "care": "Wedding-season buyers pay less now than in January; anyone who bought at the peak is sitting on a loss."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💵",
+    "label": "Strong dollar, Fed rate fears"
+   }
+  ],
+  "event": {
+   "icon": "🪙",
+   "label": "Gold falls ~30% from peak"
+  },
+  "effects": [
+   {
+    "icon": "💍",
+    "label": "Cheaper wedding buying"
+   },
+   {
+    "icon": "💍",
+    "label": "Peak buyers at a loss"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat (Nov 20): MCX gold December futures fell as much as 4.49% to ₹1,21,719 per 10 g by 10:30 am."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "With gold down 30% from its peak, what would you do?",
+   "opts": [
+    "Buy now",
+    "Wait for more dip",
+    "Not buying gold",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much of the fall is the US dollar versus local demand?",
+    "Do jewellers pass the full price drop to buyers?"
+   ],
+   "facts": [
+    {
+     "big": "$3,550",
+     "t": "Spot gold slipped below *USD 3,550* an ounce after trading near USD 3,630.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/gold-prices-tumble-in-hyderabad-is-it-time-to-buy-3582139/"
+    },
+    {
+     "big": "$6,300",
+     "t": "JPMorgan forecasts *USD 6,300* an ounce by Q4 2027; Goldman Sachs USD 5,400 by end-2027.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/gold-prices-tumble-in-hyderabad-is-it-time-to-buy-3582139/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Hyderabad 22K gold, ₹ per 10 g",
+   "a": {
+    "v": 163950,
+    "d": "₹1,63,950",
+    "l": "Jan 29 record"
+   },
+   "b": {
+    "v": 115100,
+    "d": "₹1,15,100",
+    "l": "Nov 20"
+   },
+   "goodIfUp": true,
+   "tone": "neutral",
+   "verdict": "Cheaper for buyers, a loss for those who bought at the peak"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b0f0f",
+   "#c0392b"
+  ],
+  "big": "-30%",
+  "label": "24K gold vs Jan 29 record",
+  "motion": "drift",
+  "scene": [
+   "💵",
+   "🪙",
+   "💍"
+  ]
+ },
+ "watch": "The next US Federal Reserve meeting, where a rate hike is expected, per Siasat.",
+ "thread": "hyd-gold-24k-down-30pc-from-jan-peak-1-25-lakh",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Gold prices tumble in Hyderabad: Is it time to buy?",
+   "url": "https://www.siasat.com/gold-prices-tumble-in-hyderabad-is-it-time-to-buy-3582139/"
+  }
+ ],
+ "updated": 1795175780980,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-29-at-11.46.29-AM.jpeg",
+  "c": "Siasat"
+ },
+ "fact": "Hyderabad's 24-carat gold fell to *₹1,25,570* per 10 grams, nearly 30% below January's record",
+ "twist": "Silver fell even harder on Friday: MCX December futures dropped 6.6%, or ₹10,416 per kg, in a day.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}
