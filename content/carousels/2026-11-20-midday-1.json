@@ -1,0 +1,51 @@
+{
+ "title": "Hyderabad's minimum fell 2.6°C in a day to 17.9°C",
+ "ts": 1795158800603,
+ "src": "Times of India",
+ "drop": "d20261120-hyd-min-temp-17-9c-drop-2-6c-akvan-isolated-rain",
+ "slides": [
+  {
+   "k": "cover",
+   "tag": "Golconda",
+   "head": "Hyderabad's minimum fell 2.6°C in a day to 17.9°C",
+   "body": "",
+   "img": "https://static.toiimg.com/thumb/msid-136000989,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "credit": "Times of India"
+  },
+  {
+   "k": "explain",
+   "head": "What happened",
+   "body": "Hyderabad's mornings turned cooler, close to seasonal normal.",
+   "img": "https://static.toiimg.com/thumb/msid-136000989,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+   "credit": "Times of India"
+  },
+  {
+   "k": "explain",
+   "head": "Why it matters",
+   "body": "Temperatures had been running nearly 3°C above normal."
+  },
+  {
+   "k": "fact",
+   "head": "Did you know",
+   "big": "15°C",
+   "body": "Golconda weather station in Hyderabad logged 15°C on Nov 17; Kohir in Sangareddy hit 11.2°C."
+  },
+  {
+   "k": "explain",
+   "head": "What to watch",
+   "body": "Hazy mornings until Nov 23; IMD expects minimums of 18-19°C and maximums of 30-32°C through Nov 25. Ask: Will the cyclone's clouds cut the morning chill or add rain?"
+  },
+  {
+   "k": "explain",
+   "head": "Spill the tea, daily",
+   "body": "Hyderabad news in 30 seconds, with the numbers and the questions. Follow for tomorrow's drop: spillthetea.news"
+  }
+ ],
+ "captions": {
+  "instagram": "Hyderabad's minimum fell 2.6°C in a day to 17.9°C\n\nIMD recorded 17.9°C on Thursday morning, down from 20.5°C, near the 17.6°C normal. Minimums are expected at 18-19°C and maximums 30-32°C from Nov 20 to 25, with isolated light to moderate rain in Telangana on Friday and Saturday.\n\nWhy it matters: Temperatures had been running nearly 3°C above normal.\n\nSource: Times of India. Image: Times of India\nMore at spillthetea.news\n\n#Hyderabad #HyderabadNews #Telangana #Spill",
+  "x": "1/ Hyderabad's minimum fell 2.6°C in a day to 17.9°C\n\n2/ Hyderabad's mornings turned cooler, close to seasonal normal.\n\n3/ Why it matters: Temperatures had been running nearly 3°C above normal.\n\n4/ Source: Times of India. More Hyderabad news: spillthetea.news",
+  "youtube": "HOOK (0-3s): Hyderabad's minimum fell 2.6°C in a day to 17.9°C\nWHAT (3-15s): Hyderabad's mornings turned cooler, close to seasonal normal.\nWHY (15-25s): Temperatures had been running nearly 3°C above normal.\nCLOSE (25-30s): Follow Spill for Hyderabad's news, daily. Source: Times of India.",
+  "linkedin": "Hyderabad's minimum fell 2.6°C in a day to 17.9°C\n\nHyderabad's mornings turned cooler, close to seasonal normal.\n\nWhy it matters: Temperatures had been running nearly 3°C above normal.\n\nSource: Times of India\n\n#Hyderabad #Telangana"
+ },
+ "slot": "midday"
+}

@@ -1,0 +1,152 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-84",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "money",
+ "hook": "Telangana spent *17%* less than it budgeted, says PRS",
+ "hook_b": "Telangana spent *17%* less than it budgeted, says PRS",
+ "tldr": "PRS Legislative Research's State of Finances Report 2026-27 says Telangana's actual spending fell 17% short of its budget, against a 9% average across states. Revenue expenditure was 20% below budget, and revenue receipts were 23% below projections between 2021-22 and 2024-25.",
+ "beats": {
+  "what": "A PRS report finds Telangana's spending fell well short of its budgets.",
+  "why": "Revenue receipts came in 23% below projections, among the largest gaps in India.",
+  "care": "Budget promises on welfare and services may not match what is actually spent."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💸",
+    "label": "Revenue receipts 23% below projections"
+   }
+  ],
+  "event": {
+   "icon": "📉",
+   "label": "Spending 17% below budget"
+  },
+  "effects": [
+   {
+    "icon": "🏛️",
+    "label": "Revenue spending 20% short"
+   },
+   {
+    "icon": "🏛️",
+    "label": "Less room as borrowing is restricted"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat (Nov 20): only Manipur (39%) and Jammu and Kashmir (32%) had bigger revenue receipt shortfalls than Telangana."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should states publish how much of each budget promise was actually spent?",
+   "opts": [
+    "Yes, every year",
+    "Only big schemes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which schemes took the biggest cuts when receipts fell short?",
+    "Does budgeting closer to real income change what gets promised?"
+   ],
+   "facts": [
+    {
+     "big": "2%",
+     "t": "Telangana's capital outlay was only *2%* below budget, against a 17% average shortfall across states.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/telangana-falls-short-of-budget-spending-by-17-pc-prs-report-3581802/"
+    },
+    {
+     "big": "39%",
+     "t": "Only Manipur (*39%*) and J&K (32%) missed revenue receipt targets by more than Telangana.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/telangana-falls-short-of-budget-spending-by-17-pc-prs-report-3581802/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Spending below budget",
+   "a": {
+    "v": 9,
+    "d": "9%",
+    "l": "All-state avg"
+   },
+   "b": {
+    "v": 17,
+    "d": "17%",
+    "l": "Telangana"
+   },
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "A bigger gap means less of the budget reached people"
+  },
+  {
+   "t": "compare",
+   "l": "Revenue receipts below projections",
+   "a": {
+    "v": 8,
+    "d": "8%",
+    "l": "All-state avg"
+   },
+   "b": {
+    "v": 23,
+    "d": "23%",
+    "l": "Telangana"
+   },
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Income fell far short of what budgets assumed"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "17%",
+  "label": "Telangana spending below budget",
+  "motion": "drift",
+  "scene": [
+   "💸",
+   "📉",
+   "🏛️"
+  ]
+ },
+ "learn": {
+  "t": "Revenue expenditure = recurring costs like salaries, pensions, interest and subsidies"
+ },
+ "watch": "How the 2027-28 Telangana budget projects receipts after this gap.",
+ "thread": "tg-budget-spending-17pc-short-prs-revenue-receipts-23pc",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Telangana falls short of budget spending by 17 pc: PRS report",
+   "url": "https://www.siasat.com/telangana-falls-short-of-budget-spending-by-17-pc-prs-report-3581802/"
+  }
+ ],
+ "updated": 1795158766830,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2022/01/revenue.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Telangana spent *17%* less than it budgeted, almost twice the 9% state average",
+ "twist": "Capital outlay on roads, bridges and irrigation was only 2% short; the big gap was salaries, subsidies and routine costs.",
+ "areas": [
+  "Telangana"
+ ],
+ "layer": "state"
+}

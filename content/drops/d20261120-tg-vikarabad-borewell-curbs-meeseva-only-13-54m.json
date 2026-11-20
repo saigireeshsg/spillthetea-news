@@ -1,0 +1,158 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Vikarabad's groundwater sank to *13.54 m*; new borewells now need MeeSeva permission",
+ "hook_b": "Vikarabad's groundwater sank to *13.54 m*; new borewells now need MeeSeva permission",
+ "tldr": "Vikarabad Collector Deepak Tiwari announced on Nov 19 that borewell permission applications will be accepted only through the MeeSeva portal; offline applications will not be accepted. The district's average groundwater level fell from 11.96 m in September to 13.54 m in October, after a 36% rainfall deficit from June to October.",
+ "beats": {
+  "what": "New borewells in Vikarabad need online MeeSeva permission and prior scientific clearance.",
+  "why": "Groundwater dropped 1.58 m in a month after a 36% monsoon deficit linked to El Nino.",
+  "care": "Drilling without permission can mean a seized borewell, a penalty and action under WALTA."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "36% rain deficit, El Nino"
+   }
+  ],
+  "event": {
+   "icon": "💧",
+   "label": "Borewells: MeeSeva permission only"
+  },
+  "effects": [
+   {
+    "icon": "🚜",
+    "label": "Unpermitted borewells and rigs seized"
+   },
+   {
+    "icon": "🚜",
+    "label": "Farmers urged to skip paddy in Yasangi"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Hindu (Nov 20): rigs without a Ground Water Department registration certificate will be seized, and industries must set up zero liquid discharge."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should borewell permits move online-only in Hyderabad's districts too?",
+   "opts": [
+    "Yes",
+    "No",
+    "Only for new layouts",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many borewells in Vikarabad already run dry in summer?",
+    "Will online-only permits slow drilling for small farmers?"
+   ],
+   "facts": [
+    {
+     "big": "12.93 m",
+     "t": "Sangareddy's average groundwater was *12.93 m* deep in October, Rangareddy 12.75 m, Medchal Malkajgiri 12.67 m.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/telanganas-district-with-deepest-groundwater-levels-announces-restrictions-on-borewell-drilling/article71721134.ece"
+    },
+    {
+     "big": "20",
+     "t": "Vikarabad has *20* drought-hit mandals and pockets deeper than 20 m.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/telanganas-district-with-deepest-groundwater-levels-announces-restrictions-on-borewell-drilling/article71721134.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Vikarabad avg groundwater depth (m below ground)",
+   "a": {
+    "v": 11.96,
+    "d": "11.96 m",
+    "l": "Sept"
+   },
+   "b": {
+    "v": 13.54,
+    "d": "13.54 m",
+    "l": "Oct"
+   },
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Water table fell 1.58 m in a month, harder for borewells and farms"
+  },
+  {
+   "t": "timeline",
+   "l": "New borewell rules",
+   "steps": [
+    {
+     "t": "Step 1",
+     "e": "Apply on MeeSeva only"
+    },
+    {
+     "t": "Step 2",
+     "e": "Prior scientific clearance"
+    },
+    {
+     "t": "Violation",
+     "e": "Borewell seized, penalty under WALTA"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Rules apply to farm and domestic borewells"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "13.54 m",
+  "label": "Vikarabad avg groundwater depth, Oct",
+  "motion": "drift",
+  "scene": [
+   "🌧️",
+   "💧",
+   "🚜"
+  ]
+ },
+ "learn": {
+  "t": "WALTA = Telangana's Water, Land and Trees Act, which regulates groundwater use"
+ },
+ "watch": "Whether other low-groundwater districts like Sangareddy and Rangareddy bring similar borewell curbs.",
+ "thread": "tg-vikarabad-borewell-curbs-meeseva-only-13-54m",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana's district with deepest groundwater levels announces restrictions on borewell drilling",
+   "url": "https://www.thehindu.com/news/national/telangana/telanganas-district-with-deepest-groundwater-levels-announces-restrictions-on-borewell-drilling/article71721134.ece"
+  }
+ ],
+ "updated": 1795158766829,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/fq8i7p/article71721147.ece/alternates/LANDSCAPE_1200/MEMAU_27-3-2018_17-17-6_1_1000.JPG",
+  "c": "The Hindu"
+ },
+ "fact": "Vikarabad's groundwater fell to *13.54 m* below ground, so borewells now need MeeSeva approval",
+ "twist": "Sangareddy, Rangareddy and Medchal Malkajgiri are close behind, at 12.67 to 12.93 m below ground in October.",
+ "areas": [
+  "Vikarabad",
+  "Sangareddy",
+  "Rangareddy",
+  "Medchal"
+ ],
+ "layer": "state"
+}

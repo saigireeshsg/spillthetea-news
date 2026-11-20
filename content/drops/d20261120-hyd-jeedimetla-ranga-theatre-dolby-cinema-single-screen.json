@@ -1,0 +1,135 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-20",
+ "sort": "2026-11-20-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "movies",
+ "hook": "Jeedimetla's Ranga Theatre may become the *world's first* single-screen Dolby Cinema",
+ "hook_b": "Jeedimetla's Ranga Theatre may become the *world's first* single-screen Dolby Cinema",
+ "tldr": "Siasat reports that Mythri Movie Makers is renovating Ranga Theatre in Jeedimetla, which it took over a few months ago, as a Dolby Cinema. It is reportedly expected to reopen in the first week of December; an official confirmation of the date and technical details is awaited.",
+ "beats": {
+  "what": "A Jeedimetla single screen is being rebuilt with Dolby Cinema technology.",
+  "why": "Renovated single screens like Sudarshan, Devi and Sandhya still draw crowds despite OTT and multiplexes.",
+  "care": "North Hyderabad may get a premium screen without a multiplex trip, if it opens as reported."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📺",
+    "label": "Single screens losing to OTT, multiplexes"
+   }
+  ],
+  "event": {
+   "icon": "🎬",
+   "label": "Ranga Theatre rebuilt as Dolby Cinema"
+  },
+  "effects": [
+   {
+    "icon": "🍿",
+    "label": "Premium screen in north Hyderabad"
+   },
+   {
+    "icon": "🍿",
+    "label": "Reopening date not yet confirmed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Siasat (Nov 20): Hyderabad already got Asia's largest Dolby screens at Allu Cinemas earlier this year."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you pick a renovated single screen over a multiplex?",
+   "opts": [
+    "Single screen",
+    "Multiplex",
+    "Depends on the film",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will premium tech keep single-screen ticket prices low?",
+    "Can renovated single screens slow theatre closures in the Telugu states?"
+   ],
+   "facts": [
+    {
+     "big": "70 ft",
+     "t": "Mythri's renovated Vimal Theatre in Balanagar has a *70-foot* screen and keeps ticket and canteen prices relatively affordable.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/worlds-first-single-screen-dolby-cinema-to-arrive-in-hyderabad-3581819/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Mythri's single-screen revivals",
+   "steps": [
+    {
+     "t": "Done",
+     "e": "Vimal, Balanagar: 70-ft screen"
+    },
+    {
+     "t": "Done",
+     "e": "Ganga, Dilsukhnagar renovated"
+    },
+    {
+     "t": "Underway",
+     "e": "Shiva screen, Dilsukhnagar"
+    },
+    {
+     "t": "Dec wk 1 (reported)",
+     "e": "Ranga, Jeedimetla as Dolby Cinema"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Reopening date awaits official confirmation"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Dec wk 1",
+  "label": "Reported reopening of Ranga Theatre",
+  "motion": "drift",
+  "scene": [
+   "📺",
+   "🎬",
+   "🍿"
+  ]
+ },
+ "watch": "Official confirmation of Ranga Theatre's reopening date and specifications.",
+ "thread": "hyd-jeedimetla-ranga-theatre-dolby-cinema-single-screen",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "World's first single-screen Dolby cinema to arrive in Hyderabad",
+   "url": "https://www.siasat.com/worlds-first-single-screen-dolby-cinema-to-arrive-in-hyderabad-3581819/"
+  }
+ ],
+ "updated": 1795158766830,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/dolby-hyd.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Jeedimetla's Ranga Theatre is reportedly set to be the *world's first* single-screen Dolby Cinema",
+ "twist": "Single screens are closing across the Telugu states, but Mythri has already revived Vimal in Balanagar and Ganga in Dilsukhnagar.",
+ "areas": [
+  "Jeedimetla",
+  "Balanagar",
+  "Dilsukhnagar"
+ ],
+ "layer": "near"
+}

@@ -41,7 +41,7 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "TOI (Nov 20): thunderstorms and 30-40 kmph gusts are likely at isolated places in northern and eastern districts."
+   "body": "Siasat (Nov 20): Zaheerabad (Satwar) hit 9.6°C and Kohir 9.7°C, Telangana's first single-digit lows this winter; IMD sees misty, hazy mornings until Nov 23."
   },
   {
    "k": "poll",
@@ -65,6 +65,12 @@
      "t": "Golconda weather station in Hyderabad logged *15°C* on Nov 17; Kohir in Sangareddy hit 11.2°C.",
      "s": "Times of India",
      "u": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-wakes-up-to-cooler-mornings-as-mercury-dips-below-18c-rain-likely-in-parts-of-telangana/articleshow/136000993.cms"
+    },
+    {
+     "big": "17.2°C",
+     "t": "Asifnagar and Shaikpet logged the city's lowest minimum, *17.2°C*.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/winter-tightens-grip-on-hyderabad-imd-warns-of-haze-3581772/"
     }
    ]
   }
@@ -117,25 +123,35 @@
    "☔"
   ]
  },
- "watch": "IMD expects minimums of 18-19°C and maximums of 30-32°C from Nov 20 to 25.",
+ "watch": "Hazy mornings until Nov 23; IMD expects minimums of 18-19°C and maximums of 30-32°C through Nov 25.",
  "thread": "hyd-min-temp-17-9c-drop-2-6c-akvan-isolated-rain",
  "sources": [
   {
    "name": "Times of India",
    "title": "Hyderabad wakes up to cooler mornings as mercury dips below 18°C; rain likely in parts of Telangana",
    "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-wakes-up-to-cooler-mornings-as-mercury-dips-below-18c-rain-likely-in-parts-of-telangana/articleshow/136000993.cms"
+  },
+  {
+   "name": "Siasat",
+   "title": "Winter tightens grip on Hyderabad, IMD warns of haze",
+   "url": "https://www.siasat.com/winter-tightens-grip-on-hyderabad-imd-warns-of-haze-3581772/"
   }
  ],
- "updated": 1795136226286,
+ "updated": 1795158787381,
  "img": {
   "u": "https://static.toiimg.com/thumb/msid-136000989,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
   "c": "Times of India"
  },
  "fact": "Hyderabad's minimum dropped *2.6°C* in 24 hours to 17.9°C",
- "twist": "Adilabad was the state's coldest at 10.2°C, while Cyclone Akvan may bring isolated rain Friday and Saturday.",
+ "twist": "Zaheerabad's Satwar dipped to 9.6°C, the state's first single-digit reading this winter.",
  "areas": [
   "Hyderabad",
-  "Golconda"
+  "Golconda",
+  "Asifnagar",
+  "Shaikpet",
+  "Bahadurpura",
+  "Maredpally",
+  "Tirumalagiri"
  ],
  "layer": "city"
 }
