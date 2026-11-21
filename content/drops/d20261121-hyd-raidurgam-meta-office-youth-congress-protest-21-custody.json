@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-21",
+ "sort": "2026-11-21-90",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "tech",
+ "hook": "Youth Congress protest inside Meta's Raidurgam office; *21* taken into custody",
+ "hook_b": "Youth Congress protest inside Meta's Raidurgam office; *21* taken into custody",
+ "tldr": "Telangana Youth Congress members protested at Meta's office in Raidurgam on Friday over blocked accounts of two national Youth Congress leaders; police said state president Jakkidi Shiva Charan Reddy and 20 others were taken into preventive custody.",
+ "beats": {
+  "what": "Police said around 25 activists entered the access-controlled Sky View premises around 3 pm, raised slogans and staged a sit-in; TOI reports flower pots in a corridor were damaged.",
+  "why": "Protesters said Meta blocked the social media accounts of Youth Congress leaders Uday Bhanu and Manish Sharma and demanded they be restored.",
+  "care": "Sky View in Raidurgam is an access-controlled office complex in the IT corridor."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📵",
+    "label": "Two leaders' accounts blocked"
+   }
+  ],
+  "event": {
+   "icon": "🪧",
+   "label": "Protest inside Meta's Raidurgam office"
+  },
+  "effects": [
+   {
+    "icon": "👮",
+    "label": "21 in preventive custody"
+   },
+   {
+    "icon": "👮",
+    "label": "All released on bail"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Meta's response was not reported."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should platforms explain publicly when they block political accounts?",
+   "opts": [
+    "Yes, always",
+    "Only on request",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What should a platform disclose when it blocks a politician's account?"
+   ],
+   "facts": [
+    {
+     "big": "~25",
+     "t": "Police said about *25* activists entered the access-controlled Sky View premises around 3 pm.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/meta-blocks-youth-congress-leaders-accounts-workers-storm-hyderabad-office-damage-flower-pots-21-detained/articleshow/136034626.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Friday at Sky View, Raidurgam",
+   "tone": "neutral",
+   "verdict": "Protest to bail within a day",
+   "steps": [
+    {
+     "t": "~3 pm",
+     "e": "About 25 activists enter the premises"
+    },
+    {
+     "t": "Inside",
+     "e": "Slogans, then a sit-in"
+    },
+    {
+     "t": "Police",
+     "e": "21 in preventive custody"
+    },
+    {
+     "t": "Same day",
+     "e": "All released on bail"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "21",
+   "l": "Taken into preventive custody"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "21",
+  "label": "Taken into preventive custody",
+  "motion": "drift",
+  "scene": [
+   "📵",
+   "🪧",
+   "👮"
+  ]
+ },
+ "watch": "Whether Meta restores the blocked accounts or responds publicly.",
+ "thread": "hyd-raidurgam-meta-office-youth-congress-protest-21-custody",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Meta blocks Youth Congress leaders' accounts: Workers storm Hyderabad office, damage flower pots; 21 detained",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/meta-blocks-youth-congress-leaders-accounts-workers-storm-hyderabad-office-damage-flower-pots-21-detained/articleshow/136034626.cms"
+  }
+ ],
+ "updated": 1795222659944,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136034792,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Youth Congress protest at Meta's Raidurgam office ends with *21* in custody",
+ "twist": "All 21 were released on bail the same day after giving sureties.",
+ "areas": [
+  "Raidurgam",
+  "HITEC City",
+  "Gachibowli"
+ ],
+ "layer": "city"
+}

@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-21",
+ "sort": "2026-11-21-92",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Old City diversions *4 pm-10 pm* today for Guru Nanak procession",
+ "hook_b": "Old City diversions *4 pm-10 pm* today for Guru Nanak procession",
+ "tldr": "Traffic police will divert vehicles around Afzalgunj, SA Bazar, MJ Market and Putlibowli from 4 pm to 10 pm on Nov 21 as a Guru Nanak Jayanti procession leaves and returns to Ashok Bazar Gurudwara.",
+ "beats": {
+  "what": "A religious procession leaves Ashok Bazar Gurudwara on Nov 21 and loops back via Afzalgunj, SA Bazar, MJ Market, Putlibowli and Gowliguda Chaman.",
+  "why": "It marks Guru Nanak's 557th birth anniversary.",
+  "care": "Expect diversions via SJ Bridge, Rangamahal and Salar Jung Museum Rotary; traffic from Abids and Gandhi Bhavan is barred from Jambagh Road when the procession enters it."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🙏",
+    "label": "Guru Nanak's 557th birth anniversary"
+   }
+  ],
+  "event": {
+   "icon": "🚩",
+   "label": "Procession from Ashok Bazar Gurudwara"
+  },
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Diversions via SJ Bridge, Rangamahal"
+   },
+   {
+    "icon": "🚗",
+    "label": "Jambagh Road closed to Abids traffic at times"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Diversions apply on a need basis; Hyderabad Traffic Police will post updates on its X page."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Passing through the Old City this evening?",
+   "opts": [
+    "Yes, will reroute",
+    "Yes, will wait it out",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which Old City routes see the biggest jams during festival processions?"
+   ],
+   "facts": [
+    {
+     "big": "557th",
+     "t": "Hyderabad's Sikh community is marking Guru Nanak Dev Ji's *557th* birth anniversary, with a joint Gurupurab at Nampally on Nov 24.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/guru-nanak-jayanti-celebrations-to-begin-in-hyderabad-on-november-19"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Procession route (loop)",
+   "tone": "neutral",
+   "verdict": "Diversions follow the procession, on a need basis",
+   "steps": [
+    {
+     "t": "4 pm",
+     "e": "Leaves Ashok Bazar Gurudwara"
+    },
+    {
+     "t": "Afzalgunj",
+     "e": "SA Bazar, MJ Market"
+    },
+    {
+     "t": "Putlibowli",
+     "e": "Gowliguda Chaman, Shankar Sher Hotel"
+    },
+    {
+     "t": "By 10 pm",
+     "e": "Back at Ashok Bazar Gurudwara"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "4-10 pm",
+   "l": "Old City diversions, Nov 21"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "4-10 pm",
+  "label": "Old City diversions, Nov 21",
+  "motion": "drift",
+  "scene": [
+   "🙏",
+   "🚩",
+   "🚗"
+  ]
+ },
+ "watch": "Diversions lift once the procession returns to Ashok Bazar Gurudwara, by 10 pm.",
+ "thread": "hyd-guru-nanak-procession-old-city-diversions-4-10pm-nov-21",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Guru Nanak procession in Old City on Nov 21, here's traffic advisory",
+   "url": "https://www.siasat.com/guru-nanak-procession-in-old-city-on-nov-21-heres-traffic-advisory-3582602/"
+  }
+ ],
+ "updated": 1795222659941,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/traffic-6.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Guru Nanak procession diverts Old City traffic from *4 pm to 10 pm* today",
+ "twist": "A joint Gurupurab programme follows at Exhibition Grounds, Nampally, on Nov 24.",
+ "areas": [
+  "Afzalgunj",
+  "Siddiamber Bazar",
+  "Moazamjahi Market",
+  "Putlibowli",
+  "Gowliguda",
+  "Jambagh",
+  "Abids",
+  "Nayapul"
+ ],
+ "layer": "near"
+}

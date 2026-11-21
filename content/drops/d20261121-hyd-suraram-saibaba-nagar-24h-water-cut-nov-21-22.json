@@ -1,0 +1,150 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-21",
+ "sort": "2026-11-21-93",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "*24-hour* water cut in Suraram and Saibaba Nagar from 9 pm tonight",
+ "hook_b": "*24-hour* water cut in Suraram and Saibaba Nagar from 9 pm tonight",
+ "tldr": "HMWSSB will disrupt supply from 9 pm on Nov 21 to 9 pm on Nov 22 in parts of Suraram and Saibaba Nagar wards while it replaces a 700 mm drinking-water pipeline on Suraram main road.",
+ "beats": {
+  "what": "Supply stops or runs at low pressure in Vishwakarma Colony, Vaishnavi Nagar, Vemareddy Nagar, Lakshmi Nagar, Suraram village, Telugu Thalli Nagar, Jai Bheem Nagar, Maitri Nagar and Suraram Colony.",
+  "why": "An 800 mm sewage line from Suraram lake to the 14 MLD treatment plant in Shivalaya Nagar needs a 700 mm water pipeline moved on Suraram main road.",
+  "care": "Store water before 9 pm tonight; HMWSSB asks residents to use water sparingly."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔧",
+    "label": "Sewage line to Shivalaya Nagar STP"
+   }
+  ],
+  "event": {
+   "icon": "🚱",
+   "label": "Water pipeline swap on Suraram main road"
+  },
+  "effects": [
+   {
+    "icon": "🪣",
+    "label": "Nine colonies dry or low pressure"
+   },
+   {
+    "icon": "🪣",
+    "label": "Store water before 9 pm"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Work runs on Suraram main road opposite Malla Reddy Hospital."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Does your area get advance notice of water cuts?",
+   "opts": [
+    "Usually yes",
+    "Sometimes",
+    "Rarely",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How often do Suraram's colonies face planned water cuts?"
+   ],
+   "facts": [
+    {
+     "big": "14 MLD",
+     "t": "The new 800 mm sewage line links Suraram lake to a *14 MLD* treatment plant in Shivalaya Nagar.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/24-hour-water-supply-disruption-in-suraram-and-saibaba-nagar-wards/article71724595.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The shutdown window",
+   "tone": "neutral",
+   "verdict": "One full day, Saturday night to Sunday night",
+   "steps": [
+    {
+     "t": "Sat 9 pm",
+     "e": "Supply stops or drops to low pressure"
+    },
+    {
+     "t": "Overnight",
+     "e": "700 mm water pipeline replaced"
+    },
+    {
+     "t": "Sun 9 pm",
+     "e": "Supply due to resume"
+    }
+   ]
+  },
+  {
+   "t": "meter",
+   "l": "Sewage line to Shivalaya Nagar STP built",
+   "v": 95,
+   "max": 100,
+   "unit": "%",
+   "tone": "neutral",
+   "verdict": "Last piece of work triggers the cut"
+  },
+  {
+   "t": "big",
+   "v": "24 hrs",
+   "l": "Suraram, Saibaba Nagar water cut"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "24 hrs",
+  "label": "Suraram, Saibaba Nagar water cut",
+  "motion": "drift",
+  "scene": [
+   "🔧",
+   "🚱",
+   "🪣"
+  ]
+ },
+ "watch": "Supply should resume after 9 pm on Sunday, Nov 22.",
+ "thread": "hyd-suraram-saibaba-nagar-24h-water-cut-nov-21-22",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad water supply to be disrupted for 24 hours on weekend",
+   "url": "https://www.siasat.com/hyderabad-water-supply-to-be-disrupted-for-24-hours-on-weekend-3582365/"
+  },
+  {
+   "name": "The Hindu",
+   "title": "24-hour water supply disruption in Suraram and Saibaba Nagar wards",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/24-hour-water-supply-disruption-in-suraram-and-saibaba-nagar-wards/article71724595.ece"
+  }
+ ],
+ "updated": 1795222659943,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/07/Recycled-water.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Nine Suraram and Saibaba Nagar colonies face a *24-hour* water cut from tonight",
+ "twist": "The cut is for a sewage line that is already 95% complete; only a drinking-water pipe swap remains.",
+ "areas": [
+  "Suraram",
+  "Saibaba Nagar",
+  "Quthbullapur",
+  "Jeedimetla"
+ ],
+ "layer": "near"
+}
