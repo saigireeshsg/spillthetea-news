@@ -1,0 +1,151 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-21",
+ "sort": "2026-11-21-82",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "education",
+ "hook": "Karimnagar MBBS students back on strike after *Nov 20* hostel deadline missed",
+ "hook_b": "Karimnagar MBBS students back on strike after *Nov 20* hostel deadline missed",
+ "tldr": "MBBS students of Government Medical College, Karimnagar resumed an indefinite peaceful strike on November 21 after neither the boys' nor girls' hostel was handed over by the November 20 deadline officials had given.",
+ "beats": {
+  "what": "Students say there is no fully working permanent college building, too few classrooms, and labs, exam halls and washrooms are inadequate.",
+  "why": "They had deferred a strike on November 2 after officials assured hostel handover by November 20.",
+  "care": "Students also lack dedicated college buses for classes and clinical postings."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏚️",
+    "label": "Hostels and campus still incomplete"
+   }
+  ],
+  "event": {
+   "icon": "✊",
+   "label": "Indefinite strike resumes Nov 21"
+  },
+  "effects": [
+   {
+    "icon": "🩺",
+    "label": "Classes and clinical postings hit"
+   },
+   {
+    "icon": "🩺",
+    "label": "Students seek campus by Jan 2027"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Students want the permanent campus handed over by the second week of January 2027."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should new medical colleges admit students before campuses are ready?",
+   "opts": [
+    "Yes",
+    "No",
+    "Only with deadlines",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who decides when a new medical college is ready to admit students?",
+    "What do NMC standards require before a batch starts?"
+   ],
+   "facts": [
+    {
+     "big": "4",
+     "t": "Students want dedicated buses for *all four* MBBS batches for classes and clinical postings.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/three-years-after-opening-medical-students-at-telanganas-gmc-karimnagar-still-await-basic-infrastructure/article71727476.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the strike came back",
+   "tone": "bad",
+   "verdict": "Deadline missed; students back on strike",
+   "steps": [
+    {
+     "t": "Sep 2023",
+     "e": "College starts functioning"
+    },
+    {
+     "t": "Oct 29",
+     "e": "Students warn of strike from Nov 21"
+    },
+    {
+     "t": "Nov 2",
+     "e": "Strike deferred after hostel assurance"
+    },
+    {
+     "t": "Nov 20",
+     "e": "Hostel handover deadline missed"
+    },
+    {
+     "t": "Nov 21",
+     "e": "Indefinite strike resumes"
+    }
+   ]
+  },
+  {
+   "t": "meter",
+   "l": "Permanent hostels handed over",
+   "v": 0,
+   "max": 2,
+   "unit": "",
+   "tone": "bad",
+   "verdict": "Neither boys' nor girls' hostel handed over"
+  },
+  {
+   "t": "big",
+   "v": "3 yrs",
+   "l": "GMC Karimnagar still without permanent hostels"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3 yrs",
+  "label": "GMC Karimnagar still without permanent hostels",
+  "motion": "drift",
+  "scene": [
+   "🏚️",
+   "✊",
+   "🩺"
+  ]
+ },
+ "watch": "Whether officials hand over the hostels; students seek the permanent campus by the second week of January 2027.",
+ "thread": "tg-gmc-karimnagar-mbbs-students-strike-hostels-not-handed-over",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Three years after opening, medical students at Telangana's GMC Karimnagar still await basic infrastructure",
+   "url": "https://www.thehindu.com/news/national/telangana/three-years-after-opening-medical-students-at-telanganas-gmc-karimnagar-still-await-basic-infrastructure/article71727476.ece"
+  }
+ ],
+ "updated": 1795245002948,
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/cities/Hyderabad/l8fpin/article71727530.ece/alternates/LANDSCAPE_1200/Karimnagar.png",
+  "c": "The Hindu"
+ },
+ "fact": "Karimnagar medical students resume strike as hostels promised by *Nov 20* stay unfinished",
+ "twist": "The college opened in September 2023, and its 2026 batch still relies on online classes.",
+ "layer": "state",
+ "areas": [
+  "Karimnagar"
+ ]
+}

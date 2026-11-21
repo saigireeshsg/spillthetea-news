@@ -1,0 +1,138 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-21",
+ "sort": "2026-11-21-84",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "education",
+ "hook": "Telangana Class 10 exams likely to start *March 17 or 18*",
+ "hook_b": "Telangana Class 10 exams likely to start *March 17 or 18*",
+ "tldr": "The School Education Department has sent the SSC 2027 timetable to the government for approval; the tentative schedule starts on March 17 or 18.",
+ "beats": {
+  "what": "The timetable is still tentative until the government approves it.",
+  "why": "Exam fees are now in the late-fee window: Rs 50 extra until December 1, then Rs 200 and Rs 500 slabs.",
+  "care": "Fees go to school headmasters: Rs 125 for more than three subjects, Rs 110 for up to three."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📚",
+    "label": "Annual SSC exam planning"
+   }
+  ],
+  "event": {
+   "icon": "🗓️",
+   "label": "Timetable sent for government approval"
+  },
+  "effects": [
+   {
+    "icon": "✏️",
+    "label": "Class 10 students get a likely start date"
+   },
+   {
+    "icon": "✏️",
+    "label": "Late-fee slabs rise through December"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Vocational students pay Rs 60 extra on top of the Rs 125 SSC fee."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Is a month-long SSC exam schedule the right length?",
+   "opts": [
+    "Yes",
+    "Too long",
+    "Too short",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What changes for students if the schedule is shortened to under a month?"
+   ],
+   "facts": [
+    {
+     "big": "34 days",
+     "t": "Last year's SSC exams ran from *March 14 to April 16*.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/telangana-ssc-exams-2027-timetable-sent-for-approval-3582775/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "SSC exam fee deadlines",
+   "tone": "neutral",
+   "verdict": "Late fee rises the longer you wait",
+   "steps": [
+    {
+     "t": "Oct 30-Nov 16",
+     "e": "No late fee"
+    },
+    {
+     "t": "Nov 18-Dec 1",
+     "e": "Rs 50 late fee"
+    },
+    {
+     "t": "Dec 3-14",
+     "e": "Rs 200 late fee"
+    },
+    {
+     "t": "Dec 16-28",
+     "e": "Rs 500 late fee"
+    },
+    {
+     "t": "Mar 17/18",
+     "e": "Exams likely begin"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "Mar 17/18",
+   "l": "Likely SSC 2027 start"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Mar 17/18",
+  "label": "Likely SSC 2027 start",
+  "motion": "drift",
+  "scene": [
+   "📚",
+   "🗓️",
+   "✏️"
+  ]
+ },
+ "watch": "Final timetable after government approval; Rs 50 late-fee window ends December 1.",
+ "thread": "tg-ssc-2027-timetable-sent-for-approval-march-17-18-start",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Telangana SSC exams 2027 timetable sent for approval",
+   "url": "https://www.siasat.com/telangana-ssc-exams-2027-timetable-sent-for-approval-3582775/"
+  }
+ ],
+ "updated": 1795245002948,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2020/06/SSC-Exams-in-Hyderabad.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Telangana's 2027 SSC exams are likely to begin on *March 17 or 18*",
+ "twist": "This year's exams are likely to finish within a month; last year they ran March 14 to April 16.",
+ "layer": "state"
+}

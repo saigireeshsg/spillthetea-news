@@ -1,0 +1,162 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-21",
+ "sort": "2026-11-21-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "jobs",
+ "hook": "Bank of America arm takes *10 lakh sq ft* in Madhapur",
+ "hook_b": "Bank of America arm takes *10 lakh sq ft* in Madhapur",
+ "tldr": "BA Continuum India has leased 10.1 lakh sq ft (chargeable) in Building No. 1 of Mindspace Cyberabad, Madhapur, for 12 years, per Propstack data cited by a Times of India report.",
+ "beats": {
+  "what": "The lease covers the ground floor and floors 7 to 17, with over 7 lakh sq ft of carpet area.",
+  "why": "Starting rent is Rs 82 per sq ft a month (about Rs 8.29 crore a month), rising 15% every three years.",
+  "care": "It is one of the biggest office deals Hyderabad has seen, following Accenture and Uber leases."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏢",
+    "label": "Big firms expanding Hyderabad offices"
+   }
+  ],
+  "event": {
+   "icon": "✍️",
+   "label": "10.1 lakh sq ft lease at Mindspace"
+  },
+  "effects": [
+   {
+    "icon": "💼",
+    "label": "More office space filling in Madhapur"
+   },
+   {
+    "icon": "💼",
+    "label": "Rent payable from Jan 2027"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "BA Continuum also reportedly paid a security deposit of Rs 49.72 crore."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would a big new Madhapur office change your job hunt?",
+   "opts": [
+    "Yes, I'd apply",
+    "Maybe",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many jobs could 7 lakh sq ft of carpet area hold?",
+    "Why do global banks keep picking Madhapur over other hubs?"
+   ],
+   "facts": [
+    {
+     "big": "Rs 700 cr+",
+     "t": "Accenture leased over *1 million sq ft* at Aparna Technopolis for 10 years at around Rs 74 per sq ft.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/bank-of-america-arm-to-pay-rs-1450-cr-rent-for-hyderabad-office-3582731/"
+    },
+    {
+     "big": "Rs 839 cr",
+     "t": "Uber took over *9 lakh sq ft* at Meenakshi Eco Park for 10 years.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/bank-of-america-arm-to-pay-rs-1450-cr-rent-for-hyderabad-office-3582731/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Big Hyderabad office leases (total value)",
+   "a": {
+    "v": 839,
+    "d": "Rs 839 cr",
+    "l": "Uber, Meenakshi Eco Park"
+   },
+   "b": {
+    "v": 1450,
+    "d": "Rs 1,450 cr",
+    "l": "BA Continuum, Mindspace"
+   },
+   "goodIfUp": true,
+   "tone": "neutral",
+   "verdict": "Biggest of the recent deals named; good for office jobs, cost borne by the firm"
+  },
+  {
+   "t": "timeline",
+   "l": "How the rent climbs",
+   "tone": "neutral",
+   "verdict": "Rent steps up 15% every three years",
+   "steps": [
+    {
+     "t": "Sep 7, 2026",
+     "e": "Lease begins"
+    },
+    {
+     "t": "Jan 2027",
+     "e": "Rent starts at Rs 82/sq ft/month (~Rs 8.29 cr)"
+    },
+    {
+     "t": "Every 3 yrs",
+     "e": "Rent rises 15%"
+    },
+    {
+     "t": "Year 12",
+     "e": "Total ~Rs 1,450 crore"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "₹1,450 cr",
+   "l": "12-year rent, Mindspace Madhapur"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹1,450 cr",
+  "label": "12-year rent, Mindspace Madhapur",
+  "motion": "drift",
+  "scene": [
+   "🏢",
+   "✍️",
+   "💼"
+  ]
+ },
+ "watch": "Rent payments start in January 2027; the lease runs 12 years.",
+ "thread": "hyd-bank-of-america-madhapur-mindspace-10-lakh-sqft-1450-crore-rent",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Bank of America arm to pay Rs 1450 cr rent for Hyderabad office",
+   "url": "https://www.siasat.com/bank-of-america-arm-to-pay-rs-1450-cr-rent-for-hyderabad-office-3582731/"
+  }
+ ],
+ "updated": 1795245002947,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Untitled-design_20261121_095241_0000.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Bank of America's India arm will pay about *Rs 1,450 crore* rent for a Madhapur office",
+ "twist": "Rent starts only in January 2027, though the lease began on September 7, 2026.",
+ "layer": "near",
+ "areas": [
+  "Madhapur",
+  "HITEC City"
+ ]
+}
