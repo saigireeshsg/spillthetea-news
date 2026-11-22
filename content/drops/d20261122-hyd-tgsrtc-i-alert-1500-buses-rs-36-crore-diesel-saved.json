@@ -1,0 +1,149 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-22",
+ "sort": "2026-11-22-97",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "transport",
+ "hook": "*Rs 36 crore* of diesel saved by tracking how RTC drivers drive",
+ "hook_b": "*Rs 36 crore* of diesel saved by tracking how RTC drivers drive",
+ "tldr": "TGSRTC says i-ALERT, fitted in 1,500 Ashok Leyland BS-VI buses, grades every driver after duty and has saved about Rs 36 crore of diesel.",
+ "beats": {
+  "what": "The system tracks gear choice, staying in the Green Band RPM range, idling, overspeeding and harsh braking; drivers get a grade and feedback after each duty.",
+  "why": "Fuel is one of the biggest running costs for a bus fleet, and TGSRTC says it is the first state RTC in India to use the system.",
+  "care": "If you ride TGSRTC buses, the same tracking that cuts fuel also flags overspeeding and harsh braking on your trip."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⛽",
+    "label": "Diesel is a top running cost for RTC"
+   }
+  ],
+  "event": {
+   "icon": "🚌",
+   "label": "i-ALERT grades drivers in 1,500 buses"
+  },
+  "effects": [
+   {
+    "icon": "🌱",
+    "label": "~1.98 lakh litres diesel saved a month"
+   },
+   {
+    "icon": "🌱",
+    "label": "CO2 down ~507 tonnes a month"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TGSRTC puts the monthly saving at nearly 1,98,090 litres of diesel, about Rs 2 crore a month."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should every driver's driving be graded by software after each shift?",
+   "opts": [
+    "Yes",
+    "Only for safety",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Do graded drivers get any reward, or only feedback?",
+    "Will the 1,500-bus figure grow to the rest of the fleet?"
+   ],
+   "facts": [
+    {
+     "big": "1,98,090 L",
+     "t": "i-ALERT buses save nearly *1,98,090 litres* of diesel a month, TGSRTC says.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/tgsrtc-saves-rs-36-crore-on-diesel-2437633d"
+    },
+    {
+     "big": "6,170 t",
+     "t": "Annual CO2 cut is projected at *6,169.84 tonnes*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/tgsrtc-saves-rs-36-crore-on-diesel-2437633d"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Buses fitted with i-ALERT",
+   "v": 1500,
+   "max": 1500,
+   "unit": " buses",
+   "tone": "neutral",
+   "verdict": "Only Ashok Leyland BS-VI buses have the system so far"
+  },
+  {
+   "t": "compare",
+   "l": "CO2 cut",
+   "a": {
+    "v": 507.11,
+    "d": "507 t",
+    "l": "Per month"
+   },
+   "b": {
+    "v": 6169.84,
+    "d": "6,170 t",
+    "l": "Projected per year"
+   },
+   "goodIfUp": true,
+   "tone": "good",
+   "verdict": "Less emission from the same fleet, good for city air"
+  },
+  {
+   "t": "big",
+   "v": "Rs 2 cr",
+   "l": "Diesel saved every month"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Rs 36 cr",
+  "label": "Diesel saved with i-ALERT",
+  "motion": "drift",
+  "scene": [
+   "⛽",
+   "🚌",
+   "🌱"
+  ]
+ },
+ "learn": {
+  "t": "Green Band RPM = the engine-speed range where a bus burns the least fuel"
+ },
+ "watch": "TGSRTC's MD asked other wings to adopt similar tech; AP and Karnataka RTCs are studying the results.",
+ "thread": "hyd-tgsrtc-i-alert-1500-buses-rs-36-crore-diesel-saved",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "TGSRTC saves Rs 36 crore in diesel costs using i-ALERT technology in 1,500 buses",
+   "url": "https://telanganatoday.com/tgsrtc-saves-rs-36-crore-on-diesel-2437633d"
+  }
+ ],
+ "updated": 1795348605345,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/tgsrtc-saves-rs-36-crore-on-diesel-2437633d-5d7bef8c.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "TGSRTC says driver-tracking tech in *1,500* buses saved *Rs 36 crore* in diesel",
+ "twist": "Andhra Pradesh and Karnataka's RTCs have already asked TGSRTC how the system performs.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}

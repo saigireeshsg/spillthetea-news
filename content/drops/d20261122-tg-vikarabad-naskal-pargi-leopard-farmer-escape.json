@@ -1,0 +1,129 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-22",
+ "sort": "2026-11-22-94",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "A leopard went for a farmer in Vikarabad's *Naskal* village",
+ "hook_b": "A leopard went for a farmer in Vikarabad's *Naskal* village",
+ "tldr": "Panic in Naskal village, Pargi mandal, after a leopard tried to attack a farmer working in his field on Sunday; he ran and escaped.",
+ "beats": {
+  "what": "Vikarabad District Forest Officer Vishal Battula confirmed a leopard was spotted in the area.",
+  "why": "Leopards usually keep moving rather than staying in one place, the DFO said.",
+  "care": "Forest officials ask people not to panic but to be careful, especially while working in fields."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌾",
+    "label": "Leopards moving through Vikarabad"
+   }
+  ],
+  "event": {
+   "icon": "🐆",
+   "label": "Leopard approaches farmer in Naskal field"
+  },
+  "effects": [
+   {
+    "icon": "⚠️",
+    "label": "Farmer escapes on foot"
+   },
+   {
+    "icon": "⚠️",
+    "label": "DFO urges caution in fields"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The DFO confirmed the sighting and urged residents to stay vigilant."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What should forest officials do after leopard sightings near villages?",
+   "opts": [
+    "Track and relocate",
+    "Alert villagers only",
+    "Set up cages",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Are the two sightings the same animal?",
+    "What do villagers do when a leopard is spotted?"
+   ],
+   "facts": [
+    {
+     "big": "2",
+     "t": "A leopard was seen in *Doma mandal* a few days before the Naskal incident.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/leopard-f869e294"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Leopard sightings, Vikarabad",
+   "steps": [
+    {
+     "t": "Days ago",
+     "e": "Leopard sighted in Doma mandal"
+    },
+    {
+     "t": "Sun, Nov 22",
+     "e": "Leopard approaches farmer in Naskal, Pargi mandal"
+    },
+    {
+     "t": "Now",
+     "e": "DFO confirms, urges caution"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Two sightings in one district within days"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2",
+  "label": "Leopard sightings in Vikarabad in days",
+  "motion": "drift",
+  "scene": [
+   "🌾",
+   "🐆",
+   "⚠️"
+  ]
+ },
+ "watch": "Whether the forest department reports more sightings around Pargi and Doma mandals.",
+ "thread": "tg-vikarabad-naskal-pargi-leopard-farmer-escape",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Leopard attempts to attack farmer in Vikarabad's Naskal village",
+   "url": "https://telanganatoday.com/leopard-f869e294"
+  }
+ ],
+ "updated": 1795348605347,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/leopard-f869e294-bf963b0f.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "A farmer in Vikarabad's *Naskal* outran a leopard approaching him in his field",
+ "twist": "It's the second leopard sighting in Vikarabad district in days, after one in Doma mandal.",
+ "areas": [
+  "Vikarabad"
+ ],
+ "layer": "state"
+}

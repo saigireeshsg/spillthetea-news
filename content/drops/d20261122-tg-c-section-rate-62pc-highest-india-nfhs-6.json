@@ -1,0 +1,170 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-22",
+ "sort": "2026-11-22-95",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "Telangana's *62.2%* C-section rate is the highest in India",
+ "hook_b": "Telangana's *62.2%* C-section rate is the highest in India",
+ "tldr": "NFHS-6 (2023-24) puts Telangana's caesarean rate at 62.2%, more than double India's 27.2%, and up from 60.7% in NFHS-5.",
+ "beats": {
+  "what": "Urban Telangana is at 70.1% C-sections and rural at 59.5%; urban births in public hospitals fell from 43.4% to 42.6%.",
+  "why": "Doctors quoted say every caesarean should be medically justified and call for hospital-level audits and better counselling.",
+  "care": "If you or family are expecting, doctors advise antenatal counselling on the risks and benefits of both delivery methods."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏥",
+    "label": "NFHS-6 survey data released"
+   }
+  ],
+  "event": {
+   "icon": "👶",
+   "label": "Telangana tops India in C-sections"
+  },
+  "effects": [
+   {
+    "icon": "📊",
+    "label": "Doctors seek hospital-level audits"
+   },
+   {
+    "icon": "📊",
+    "label": "Push for better counselling of mothers"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Overall, public hospitals' share of Telangana births rose from 49.7% to 57.5%, while urban areas moved the other way."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should hospitals publish their C-section rates?",
+   "opts": [
+    "Yes",
+    "Only to regulators",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Why are private hospital C-section rates so much higher?",
+    "Would public audits change the numbers?"
+   ],
+   "facts": [
+    {
+     "big": "70.1%",
+     "t": "In urban Telangana, *70.1%* of births are by C-section; rural is 59.5%.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-tops-national-chart-in-c-section-births/articleshow/136073042.cms"
+    },
+    {
+     "big": "54.1%",
+     "t": "Nationally, private hospitals' C-section rate is *54.1%*, against Telangana's 83.9%.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-tops-national-chart-in-c-section-births/articleshow/136073042.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Telangana vs India C-section rate",
+   "a": {
+    "v": 27.2,
+    "d": "27.2%",
+    "l": "India"
+   },
+   "b": {
+    "v": 62.2,
+    "d": "62.2%",
+    "l": "Telangana"
+   },
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "More than double the national rate; doctors want each case justified"
+  },
+  {
+   "t": "compare",
+   "l": "C-sections by hospital type, Telangana",
+   "a": {
+    "v": 48.1,
+    "d": "48.1%",
+    "l": "Govt"
+   },
+   "b": {
+    "v": 83.9,
+    "d": "83.9%",
+    "l": "Private"
+   },
+   "goodIfUp": false,
+   "tone": "neutral",
+   "verdict": "Private hospitals do far more caesareans than public ones"
+  },
+  {
+   "t": "trend",
+   "l": "Telangana C-section rate",
+   "pts": [
+    [
+     "NFHS-5",
+     60.7
+    ],
+    [
+     "NFHS-6",
+     62.2
+    ]
+   ],
+   "unit": "%",
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Still rising between surveys"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "62.2%",
+  "label": "Births by C-section in Telangana",
+  "motion": "drift",
+  "scene": [
+   "🏥",
+   "👶",
+   "📊"
+  ]
+ },
+ "learn": {
+  "t": "NFHS = National Family Health Survey, India's big household health survey"
+ },
+ "watch": "Experts want hospital-level monitoring and transparent reporting of why each C-section was done.",
+ "thread": "tg-c-section-rate-62pc-highest-india-nfhs-6",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Telangana tops national chart in C-section births",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-tops-national-chart-in-c-section-births/articleshow/136073042.cms"
+  }
+ ],
+ "updated": 1795348605346,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136073129,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "*62.2%* of Telangana births are C-sections, the highest rate in India",
+ "twist": "In Telangana's private hospitals, 83.9% of births are by C-section, against 48.1% in government ones.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "state"
+}

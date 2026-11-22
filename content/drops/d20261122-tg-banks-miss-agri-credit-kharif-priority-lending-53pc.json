@@ -1,0 +1,149 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-22",
+ "sort": "2026-11-22-93",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "farmers",
+ "hook": "Banks gave Telangana farmers far less kharif credit than *targeted*",
+ "hook_b": "Banks gave Telangana farmers far less kharif credit than *targeted*",
+ "tldr": "Banks in Telangana disbursed ₹96,942 crore of the ₹1.81 lakh crore priority sector lending target in April-September, The Hindu reports, as kharif output fell.",
+ "beats": {
+  "what": "Short-term kharif crop-loan targets of ₹58,152 crore were missed, with public sector banks lagging others.",
+  "why": "Kharif production fell an estimated 16-17% due to an El Niño-linked monsoon deficit.",
+  "care": "Farmers are being told to avoid paddy in rabi, and there are doubts banks will lend more in the second half."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "El Niño monsoon deficit cut kharif output"
+   }
+  ],
+  "event": {
+   "icon": "🏦",
+   "label": "Banks miss farm-credit targets"
+  },
+  "effects": [
+   {
+    "icon": "🌾",
+    "label": "Kharif output down ~16-17%"
+   },
+   {
+    "icon": "🌾",
+    "label": "Rabi lending in doubt"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Private banks disbursed ₹15,140 crore of a ₹21,316 crore target, 71.03%."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should banks face penalties for missing farm-loan targets?",
+   "opts": [
+    "Yes",
+    "No",
+    "Depends on the bank",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Do farmers turn to moneylenders when bank credit falls short?",
+    "Will rabi crop shifts change how much banks lend?"
+   ],
+   "facts": [
+    {
+     "big": "463%",
+     "t": "Foreign banks disbursed *₹567 crore*, 463% of a ₹122 crore target.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/farmers-suffer-during-kharif-as-banks-did-not-achieve-targets-of-agri-credit/article71731066.ece"
+    },
+    {
+     "big": "₹62,567 cr",
+     "t": "Public sector banks lent *₹62,567 crore* of a ₹1.15 lakh crore yearly target.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/farmers-suffer-during-kharif-as-banks-did-not-achieve-targets-of-agri-credit/article71731066.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Priority lending done, Apr-Sep",
+   "v": 96942,
+   "max": 181000,
+   "unit": " cr",
+   "tone": "bad",
+   "verdict": "About 54% of the year's target reached, farmers get less credit"
+  },
+  {
+   "t": "compare",
+   "l": "Target reached, by bank type",
+   "a": {
+    "v": 54.4,
+    "d": "~54%",
+    "l": "Public sector"
+   },
+   "b": {
+    "v": 71.03,
+    "d": "71%",
+    "l": "Private"
+   },
+   "goodIfUp": true,
+   "tone": "neutral",
+   "verdict": "Public sector banks lagged private banks"
+  },
+  {
+   "t": "big",
+   "v": "16-17%",
+   "l": "Estimated fall in kharif output"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹96,942 cr",
+  "label": "Lent of ₹1.81 lakh cr target",
+  "motion": "drift",
+  "scene": [
+   "🌧️",
+   "🏦",
+   "🌾"
+  ]
+ },
+ "learn": {
+  "t": "Priority sector lending = loans banks must give to farming and other set sectors"
+ },
+ "watch": "Whether banks lend more in the rabi season as farmers shift away from paddy.",
+ "thread": "tg-banks-miss-agri-credit-kharif-priority-lending-53pc",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Farmers suffer during kharif as banks did not achieve targets of agri credit",
+   "url": "https://www.thehindu.com/news/national/telangana/farmers-suffer-during-kharif-as-banks-did-not-achieve-targets-of-agri-credit/article71731066.ece"
+  }
+ ],
+ "updated": 1795348605347,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/bdoplb/article71731090.ece/alternates/LANDSCAPE_1200/_NGP9788.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "Banks hit only *about half* of Telangana's yearly priority-lending target by September",
+ "twist": "Foreign banks lent 463% of their target, while public sector banks reached about 54%.",
+ "areas": [
+  "Nalgonda"
+ ],
+ "layer": "state"
+}

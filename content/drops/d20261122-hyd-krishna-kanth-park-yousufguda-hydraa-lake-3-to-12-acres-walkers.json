@@ -1,0 +1,146 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-22",
+ "sort": "2026-11-22-96",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Krishna Kanth Park's lake is set to grow from *3 to 12 acres*",
+ "hook_b": "Krishna Kanth Park's lake is set to grow from *3 to 12 acres*",
+ "tldr": "On Sunday, walkers at Krishna Kanth Park in Yousufguda raised sanitation, wall and gym issues with HYDRAA chief A.V. Ranganath as he reviewed the Rs 7.5 crore lake expansion.",
+ "beats": {
+  "what": "Citizens asked for a boundary wall on the south side to block an adjoining garbage dumping yard, plus repairs to broken open-air gym equipment.",
+  "why": "In October HYDRAA launched a Rs 7.5 crore plan to expand the park's lake from three acres to 12, with walking paths, a gym and boating.",
+  "care": "Rainwater from Jubilee Hills and Venkatagiri is to be channelled into the pond, aimed at preventing flooding in Krishna Nagar, Yousufguda, Madhura Nagar, Srinivas Nagar, Ameerpet and Maitrivanam."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗑️",
+    "label": "Rs 7.5 crore lake expansion under way"
+   }
+  ],
+  "event": {
+   "icon": "🏞️",
+   "label": "Walkers flag garbage, gym issues to HYDRAA"
+  },
+  "effects": [
+   {
+    "icon": "🌧️",
+    "label": "Wall sought against dumping yard"
+   },
+   {
+    "icon": "🌧️",
+    "label": "Rainwater to be routed into pond"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Walkers asked for gym kit like the open-air gym HYDRAA recently set up at Tammidi Kunta."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What should the Krishna Kanth Park project fix first?",
+   "opts": [
+    "Garbage yard wall",
+    "Flood channel",
+    "Gym and paths",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "When is the expanded lake due to be finished?",
+    "Where will the adjoining garbage yard's waste go?"
+   ],
+   "facts": [
+    {
+     "big": "4x",
+     "t": "The plan makes the lake *four times* bigger, from 3 acres to 12.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/walkers-flag-park-issues-to-hydraa-846b816c"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Lake area",
+   "a": {
+    "v": 3,
+    "d": "3 acres",
+    "l": "Now"
+   },
+   "b": {
+    "v": 12,
+    "d": "12 acres",
+    "l": "Planned"
+   },
+   "goodIfUp": true,
+   "tone": "good",
+   "verdict": "Bigger lake means more water storage for nearby colonies"
+  },
+  {
+   "t": "icons",
+   "n": 6,
+   "of": 6,
+   "icon": "🏘️",
+   "d": "6 colonies",
+   "l": "to get flood relief from the rainwater channel",
+   "tone": "neutral",
+   "verdict": "Krishna Nagar, Yousufguda, Madhura Nagar, Srinivas Nagar, Ameerpet, Maitrivanam"
+  },
+  {
+   "t": "big",
+   "v": "Rs 7.5 cr",
+   "l": "Project cost"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "12 acres",
+  "label": "Planned lake size, up from 3",
+  "motion": "drift",
+  "scene": [
+   "🗑️",
+   "🏞️",
+   "🌧️"
+  ]
+ },
+ "watch": "Whether the southern boundary wall and gym repairs are added to the Rs 7.5 crore plan.",
+ "thread": "hyd-krishna-kanth-park-yousufguda-hydraa-lake-3-to-12-acres-walkers",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Krishna Kanth Park visitors seek sanitation fixes, better facilities during HYDRAA chief's visit",
+   "url": "https://telanganatoday.com/walkers-flag-park-issues-to-hydraa-846b816c"
+  }
+ ],
+ "updated": 1795348605346,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/walkers-flag-park-issues-to-hydraa-846b816c-f02a1f85.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Yousufguda walkers told HYDRAA a garbage yard's stink drifts across *Krishna Kanth Park*",
+ "twist": "HYDRAA says the expanded pond will take Jubilee Hills rainwater to cut flooding in six colonies.",
+ "areas": [
+  "Yousufguda",
+  "Krishna Nagar",
+  "Madhura Nagar",
+  "Srinivas Nagar",
+  "Ameerpet",
+  "Jubilee Hills"
+ ],
+ "layer": "near"
+}
