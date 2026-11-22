@@ -1,0 +1,151 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-22",
+ "sort": "2026-11-22-90",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "lakes",
+ "hook": "HYDRAA reclaims *4 acres* of Sandapalli lake near Shamshabad",
+ "hook_b": "HYDRAA reclaims *4 acres* of Sandapalli lake near Shamshabad",
+ "tldr": "HYDRAA removed walls and lawns built into Sandapalli lake in Tondipalli village, Shamshabad mandal, on Saturday, Nov 21, per Siasat.",
+ "beats": {
+  "what": "Officials razed boundary walls around the lake and a house inside its FTL, then put up 1,600 metres of fencing and a notice marking the land as lake property.",
+  "why": "HYDRAA was alerted to construction inside the 76-acre lake and confirmed it with irrigation officials before acting.",
+  "care": "The fenced line now marks where the lake ends, for anyone buying or building around Tondipalli."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧱",
+    "label": "Walls, lawns built into the lake"
+   }
+  ],
+  "event": {
+   "icon": "🚜",
+   "label": "HYDRAA clears 4 acres, razes house"
+  },
+  "effects": [
+   {
+    "icon": "💧",
+    "label": "1,600 m fence marks lake land"
+   },
+   {
+    "icon": "💧",
+    "label": "Notice says land belongs to lake"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "HYDRAA posted the action on X on Nov 21, calling it a protective shield for the lake."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How do you see HYDRAA's lake demolition drives?",
+   "opts": [
+    "Needed to save lakes",
+    "Fine, but notice people first",
+    "Too harsh on residents",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How is a lake's FTL line fixed, and who keeps the maps?",
+    "What happens to people who bought plots inside an FTL boundary?"
+   ],
+   "facts": [
+    {
+     "big": "76 acres",
+     "t": "Sandapalli lake covers *76 acres* in all, per Siasat.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hydraa-removes-encroachments-from-sandapalli-lake-in-rangareddy-3583684/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Encroached area cleared, of the lake's 76 acres",
+   "v": 4,
+   "max": 76,
+   "unit": " acres",
+   "tone": "neutral",
+   "verdict": "About 5% of the lake's area was cleared in one drive"
+  },
+  {
+   "t": "timeline",
+   "l": "How the drive went",
+   "tone": "neutral",
+   "verdict": "Alert, site check, demolition, fencing",
+   "steps": [
+    {
+     "t": "Alert",
+     "e": "HYDRAA told of construction inside the lake"
+    },
+    {
+     "t": "Inspection",
+     "e": "FTL breach confirmed with irrigation officials"
+    },
+    {
+     "t": "Nov 21",
+     "e": "Walls and a 100 sq yd house razed"
+    },
+    {
+     "t": "After",
+     "e": "1,600 m fence and lake-land notice"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "1,600 m",
+   "l": "Fencing put up around the lake"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "1,600 m",
+  "label": "Fencing put up around the lake",
+  "motion": "drift",
+  "scene": [
+   "🧱",
+   "🚜",
+   "💧"
+  ]
+ },
+ "learn": {
+  "t": "FTL = Full Tank Level, the boundary a lake fills up to; building inside it is barred"
+ },
+ "watch": "Whether HYDRAA acts on more encroachments around the rest of the 76-acre lake.",
+ "thread": "tg-shamshabad-sandapalli-lake-hydraa-4-acres-reclaimed-1600m-fence",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "HYDRAA removes encroachments from Sandapalli Lake in Rangareddy",
+   "url": "https://www.siasat.com/hydraa-removes-encroachments-from-sandapalli-lake-in-rangareddy-3583684/"
+  }
+ ],
+ "updated": 1795331422806,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Untitled-Design-2026-11-22T085338.996.jpg",
+  "c": "Siasat"
+ },
+ "fact": "HYDRAA cleared *4 acres* of encroachments from Sandapalli lake near Shamshabad",
+ "twist": "A 100 sq yd house built inside the lake's full tank level boundary was also razed.",
+ "layer": "near",
+ "areas": [
+  "Shamshabad",
+  "Tondipalli"
+ ]
+}

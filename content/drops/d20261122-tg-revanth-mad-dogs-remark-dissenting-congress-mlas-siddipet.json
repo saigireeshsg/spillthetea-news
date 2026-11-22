@@ -1,0 +1,143 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-22",
+ "sort": "2026-11-22-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "politics",
+ "hook": "CM says dissenting MLAs seem *'bitten by mad dogs'*",
+ "hook_b": "CM says dissenting MLAs seem *'bitten by mad dogs'*",
+ "tldr": "At a Siddipet public meeting on Nov 19, CM Revanth Reddy said party members criticising the government publicly but praising it privately would be taken to Erragadda by workers, per IANS via ap7am.",
+ "beats": {
+  "what": "He named no one; reports link the remark to MLAs Komatireddy Raj Gopal Reddy and Anirudh Reddy, who had recently criticised the government.",
+  "why": "Raj Gopal Reddy alleged bias in development fund allocation; Anirudh Reddy alleged officials demand commissions from contractors to clear bills.",
+  "care": "The row puts the ruling party's internal differences in public view as the remark draws reactions."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗣️",
+    "label": "Two MLAs criticise government publicly"
+   }
+  ],
+  "event": {
+   "icon": "🎤",
+   "label": "CM's 'mad dogs' remark at Siddipet"
+  },
+  "effects": [
+   {
+    "icon": "🏛️",
+    "label": "Row inside Telangana Congress"
+   },
+   {
+    "icon": "🏛️",
+    "label": "Remark draws reactions"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "NDTV on Nov 22 reported the remark has sparked a row inside the Telangana Congress."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should ruling-party MLAs air criticism of their government in public?",
+   "opts": [
+    "Yes, publicly",
+    "Only inside the party",
+    "Depends on the issue",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How do parties usually handle MLAs who criticise their own government?",
+    "Does public dissent change how funds get allocated?"
+   ],
+   "facts": [
+    {
+     "big": "2004",
+     "t": "Harish Rao has represented Siddipet since *2004*, per IANS.",
+     "s": "ap7am (IANS)",
+     "u": "https://www.ap7am.com/en/139755/amp/bitten-by-mad-dogs-telangana-cm-on-dissenting-mlas"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the row built",
+   "tone": "neutral",
+   "verdict": "Public criticism, then the CM's reply on stage",
+   "steps": [
+    {
+     "t": "Recently",
+     "e": "Raj Gopal Reddy alleges fund-allocation bias"
+    },
+    {
+     "t": "Recently",
+     "e": "Anirudh Reddy alleges officials seek commissions"
+    },
+    {
+     "t": "Nov 19",
+     "e": "CM's remark at Siddipet rally"
+    },
+    {
+     "t": "Nov 22",
+     "e": "NDTV reports a row in the party"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "2",
+   "l": "MLAs reports link the remark to"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2",
+  "label": "MLAs reports link the remark to",
+  "motion": "drift",
+  "scene": [
+   "🗣️",
+   "🎤",
+   "🏛️"
+  ]
+ },
+ "watch": "Whether the party leadership responds to the MLAs' complaints on fund allocation and commissions.",
+ "thread": "tg-revanth-mad-dogs-remark-dissenting-congress-mlas-siddipet",
+ "sources": [
+  {
+   "name": "ap7am (IANS)",
+   "title": "'Bitten by mad dogs': Telangana CM on dissenting MLAs",
+   "url": "https://www.ap7am.com/en/139755/amp/bitten-by-mad-dogs-telangana-cm-on-dissenting-mlas"
+  },
+  {
+   "name": "NDTV",
+   "title": "Trouble In Congress? Revanth Reddy's 'Dissenting MLAs Bitten By Mad Dogs' Remark Sparks Row",
+   "url": "https://www.ndtv.com/india-news/revanth-reddys-own-mlas-turn-critics-as-congress-telangana-crisis-deepens-12361213"
+  }
+ ],
+ "updated": 1795331422807,
+ "img": {
+  "u": "https://imgc.ap7am.com/bimg/cr-20261119_ea201ce49c581035.jpg?format=webp",
+  "c": "ap7am"
+ },
+ "fact": "Revanth Reddy said some Congress MLAs seemed *'bitten by mad dogs'* for public criticism",
+ "twist": "At the same Siddipet rally he promised a Cabinet berth to whoever defeats Harish Rao there.",
+ "layer": "state",
+ "areas": [
+  "Siddipet"
+ ]
+}

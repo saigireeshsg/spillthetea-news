@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-22",
+ "sort": "2026-11-22-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "Drum blast at Uppal food unit kills a *35-year-old* worker",
+ "hook_b": "Drum blast at Uppal food unit kills a *35-year-old* worker",
+ "tldr": "A woman disposing of waste at the Heritage Foods unit in IDA Uppal died when a drum exploded around 3 pm on Saturday, per Telangana Today.",
+ "beats": {
+  "what": "Uppal police booked a case and are investigating the cause; her body was taken to Gandhi Hospital for postmortem.",
+  "why": "The blast happened during routine waste disposal on the company premises.",
+  "care": "Workers staged a protest outside the unit demanding justice and compensation; she is survived by three children."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛢️",
+    "label": "Waste disposal work on premises"
+   }
+  ],
+  "event": {
+   "icon": "💥",
+   "label": "Drum explodes, worker killed"
+  },
+  "effects": [
+   {
+    "icon": "👷",
+    "label": "Police case, cause under probe"
+   },
+   {
+    "icon": "👷",
+    "label": "Workers protest for compensation"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Telangana Today reports the incident raised safety concerns among workers at the industrial unit."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What should come first after a factory death like this?",
+   "opts": [
+    "Independent safety audit",
+    "Compensation for the family",
+    "Wait for police findings",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who inspects safety at units inside Hyderabad's industrial development areas?",
+    "What compensation do workers' families get after a workplace death?"
+   ],
+   "facts": [
+    {
+     "big": "3 children",
+     "t": "The worker, from Gandhi Nagar in Ramanthapur, is survived by *three children*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/woman-killed-in-uppal-drum-explosion-f69f08e8"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Saturday, Nov 21",
+   "tone": "bad",
+   "verdict": "A worker died; the cause is still being probed",
+   "steps": [
+    {
+     "t": "3 pm",
+     "e": "Drum explodes during waste disposal"
+    },
+    {
+     "t": "After",
+     "e": "Body shifted to Gandhi Hospital"
+    },
+    {
+     "t": "Evening",
+     "e": "Workers protest outside the unit"
+    },
+    {
+     "t": "Now",
+     "e": "Uppal police case, probe on"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "3 pm",
+   "l": "Time of the drum explosion, Saturday"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3 pm",
+  "label": "Time of the drum explosion, Saturday",
+  "motion": "drift",
+  "scene": [
+   "🛢️",
+   "💥",
+   "👷"
+  ]
+ },
+ "watch": "What the Uppal police investigation finds on why the drum exploded.",
+ "thread": "hyd-uppal-ida-heritage-foods-drum-explosion-worker-killed",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Woman killed in drum explosion at Heritage Foods unit in Uppal",
+   "url": "https://telanganatoday.com/woman-killed-in-uppal-drum-explosion-f69f08e8"
+  }
+ ],
+ "updated": 1795331422807,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/woman-killed-in-uppal-drum-explosion-f69f08e8-8ae15af3.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "A drum exploded at Heritage Foods' IDA Uppal unit, killing a *35-year-old* worker",
+ "twist": "Police say the cause of the explosion has not yet been established.",
+ "layer": "near",
+ "areas": [
+  "Uppal",
+  "Ramanthapur"
+ ]
+}
