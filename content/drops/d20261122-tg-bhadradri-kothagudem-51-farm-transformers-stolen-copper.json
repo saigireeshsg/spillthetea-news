@@ -1,0 +1,151 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-22",
+ "sort": "2026-11-22-94",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "power",
+ "hook": "*51* farm transformers stolen or damaged in Bhadradri Kothagudem in a year",
+ "hook_b": "*51* farm transformers stolen or damaged in Bhadradri Kothagudem in a year",
+ "tldr": "Gangs are breaking open agricultural transformers in Bhadradri Kothagudem to steal copper and aluminium windings, cutting power to farm pumps.",
+ "beats": {
+  "what": "In Julurupadu mandal thieves struck 16 locations in Vinobhanagar, P Narsapuram and Peddathanda; Aswapuram, Manuguru, Burgampahad and other mandals report similar thefts.",
+  "why": "Fields sit far from villages and are unattended at night, giving thieves time to dismantle 16-100 KVA units.",
+  "care": "Until a replacement is installed, farmers cannot pump water, which disrupts irrigation schedules."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌙",
+    "label": "Copper and aluminium windings sell as scrap"
+   }
+  ],
+  "event": {
+   "icon": "⚡",
+   "label": "Farm transformers broken open at night"
+  },
+  "effects": [
+   {
+    "icon": "🌾",
+    "label": "Pumps lose power"
+   },
+   {
+    "icon": "🌾",
+    "label": "Farmers pay for replacements"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Officials say thieves are removing even the protective bolts fitted to stop thefts."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Who should bear the cost of replacing a stolen farm transformer?",
+   "opts": [
+    "Power utility",
+    "Farmer",
+    "Shared",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How quickly are stolen farm transformers replaced after a complaint?"
+   ],
+   "facts": [
+    {
+     "big": "16",
+     "t": "Thieves struck *16* locations in Julurupadu mandal alone, in four successive incidents.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/farmers-blow-a-fuse-as-thieves-target-transformers-to-steal-copper-and-aluminium-windings/articleshow/136061526.cms"
+    },
+    {
+     "big": "Rs 50,000",
+     "t": "Replacing a damaged transformer costs farmers *Rs 50,000* to Rs 2.5 lakh.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/farmers-blow-a-fuse-as-thieves-target-transformers-to-steal-copper-and-aluminium-windings/articleshow/136061526.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Scrap value vs replacement cost",
+   "a": {
+    "v": 5000,
+    "d": "Rs 5,000",
+    "l": "Thieves' scrap haul"
+   },
+   "b": {
+    "v": 250000,
+    "d": "Rs 2.5 lakh",
+    "l": "Farmer's replacement cost (upper end)"
+   },
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Thieves gain a few thousand; farmers lose up to 50 times more"
+  },
+  {
+   "t": "icons",
+   "l": "Julurupadu share of district cases",
+   "n": 16,
+   "of": 51,
+   "icon": "⚡",
+   "d": "16 of 51",
+   "tone": "bad",
+   "verdict": "Nearly a third of the district's 51 cases in one mandal"
+  },
+  {
+   "t": "big",
+   "v": "51",
+   "l": "Transformers hit in a year"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "51",
+  "label": "Transformers hit in a year",
+  "motion": "drift",
+  "scene": [
+   "🌙",
+   "⚡",
+   "🌾"
+  ]
+ },
+ "learn": {
+  "t": "KVA = kilovolt-ampere, the capacity rating of a transformer"
+ },
+ "watch": "A replacement unit is arranged only after a police case is registered, officials say.",
+ "thread": "tg-bhadradri-kothagudem-51-farm-transformers-stolen-copper",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Farmers blow a fuse as thieves target transformers to steal copper and aluminium windings",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/farmers-blow-a-fuse-as-thieves-target-transformers-to-steal-copper-and-aluminium-windings/articleshow/136061526.cms"
+  }
+ ],
+ "updated": 1795309062672,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136061525,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Thieves stole or wrecked *51* farm transformers in Bhadradri Kothagudem in a year",
+ "twist": "The copper they strip fetches about Rs 5,000 as scrap; a replacement transformer costs farmers up to Rs 2.5 lakh.",
+ "areas": [
+  "Bhadradri Kothagudem",
+  "Julurupadu",
+  "Manuguru"
+ ],
+ "layer": "state"
+}

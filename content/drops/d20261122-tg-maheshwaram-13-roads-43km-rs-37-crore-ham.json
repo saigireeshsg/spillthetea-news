@@ -1,0 +1,137 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-22",
+ "sort": "2026-11-22-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "roads",
+ "hook": "*13* roads, 43.38 km, Rs 37.13 crore: Maheshwaram works begin",
+ "hook_b": "*13* roads, 43.38 km, Rs 37.13 crore: Maheshwaram works begin",
+ "tldr": "Panchayat Raj Minister Seethakka laid the foundation stone on Nov 21 for 13 roads in Maheshwaram constituency of Rangareddy district.",
+ "beats": {
+  "what": "A plaque was unveiled at Mohabbatnagar gram panchayat on the Srisailam Highway to mark the start of works.",
+  "why": "The roads come under the state's Hybrid Annuity Model programme for rural roads.",
+  "care": "Villages along the Srisailam Highway stretch in Maheshwaram should see road works begin."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Hybrid Annuity Model rural roads"
+   }
+  ],
+  "event": {
+   "icon": "🛣️",
+   "label": "Foundation stone at Mohabbatnagar"
+  },
+  "effects": [
+   {
+    "icon": "🚜",
+    "label": "13 roads across Maheshwaram"
+   },
+   {
+    "icon": "🚜",
+    "label": "Cheyutha pension letters handed out"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Local MLA Sabitha Indra Reddy and MLC Balmuri Venkat attended the launch."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Which matters more for roads near you?",
+   "opts": [
+    "New roads",
+    "Repairing old ones",
+    "Both equally",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How are Hybrid Annuity roads maintained once built?"
+   ],
+   "facts": [
+    {
+     "big": "13",
+     "t": "The package covers *13* roads totalling 43.38 km in one constituency.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/seethakka-lays-foundation-stone-for-13-roads-worth-3713-crore-in-maheshwaram/article71728406.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What happened on Nov 21",
+   "tone": "neutral",
+   "verdict": "Works formally start; no end date given",
+   "steps": [
+    {
+     "t": "Mohabbatnagar",
+     "e": "Plaque unveiled on Srisailam Highway"
+    },
+    {
+     "t": "Maheshwaram",
+     "e": "Cheyutha pension sanction letters handed out"
+    },
+    {
+     "t": "Next",
+     "e": "Work on 13 roads, 43.38 km"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "Rs 37.13 cr",
+   "l": "Cost of 13 roads"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "43.38 km",
+  "label": "Road length in Maheshwaram",
+  "motion": "drift",
+  "scene": [
+   "🏗️",
+   "🛣️",
+   "🚜"
+  ]
+ },
+ "learn": {
+  "t": "Hybrid Annuity Model (HAM) = a road-building model where government and builder share the cost"
+ },
+ "watch": "The report does not give a completion deadline for the 13 roads.",
+ "thread": "tg-maheshwaram-13-roads-43km-rs-37-crore-ham",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Seethakka lays foundation stone for 13 roads worth ₹37.13 crore in Maheshwaram",
+   "url": "https://www.thehindu.com/news/national/telangana/seethakka-lays-foundation-stone-for-13-roads-worth-3713-crore-in-maheshwaram/article71728406.ece"
+  }
+ ],
+ "updated": 1795309062673,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/o0weci/article71728395.ece/alternates/LANDSCAPE_1200/Seethakka1.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "Maheshwaram gets *13* new roads covering 43.38 km for Rs 37.13 crore",
+ "twist": "The same day, sanction letters for newly approved Cheyutha pensions were handed out in Maheshwaram village.",
+ "areas": [
+  "Maheshwaram",
+  "Rangareddy"
+ ],
+ "layer": "near"
+}

@@ -1,0 +1,141 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-22",
+ "sort": "2026-11-22-90",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "schemes",
+ "hook": "Indiramma Rs 5 lakh cover: *one* application per ration card",
+ "hook_b": "Indiramma Rs 5 lakh cover: *one* application per ration card",
+ "tldr": "Telangana has issued enrolment guidelines for the Indiramma Kutumba Jeevitha Bima Padhakam, launched in Siddipet on Nov 19, which gives Rs 5 lakh life cover to one member per eligible household.",
+ "beats": {
+  "what": "Only one person per family, ordinarily the earning member the household names, can be enrolled, based on Telangana-issued ration cards.",
+  "why": "The Planning Department has linked the scheme to ration cards to fix who in each family is covered.",
+  "care": "Families with ration cards from another district can register at the nearest camp; verification happens in their home district."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪪",
+    "label": "Scheme launched in Siddipet on Nov 19"
+   }
+  ],
+  "event": {
+   "icon": "🛡️",
+   "label": "Enrolment rules tie cover to ration cards"
+  },
+  "effects": [
+   {
+    "icon": "👨‍👩‍👧",
+    "label": "One earning member per family"
+   },
+   {
+    "icon": "👨‍👩‍👧",
+    "label": "Help desks at enrolment camps"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Members can name more than one nominee, with shares in whole percentages adding up to no more than 100%."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should a family be able to cover more than one member?",
+   "opts": [
+    "Yes",
+    "One is enough",
+    "Depends on family size",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What happens to families without a Telangana-issued ration card?"
+   ],
+   "facts": [
+    {
+     "big": "100%",
+     "t": "Nominee shares must be whole percentages and cannot add up to more than *100%*.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/telangana-issues-guidelines-for-5-lakh-indiramma-family-life-insurance-scheme-permits-only-one-application-per-ration-card/article71728160.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How enrolment works",
+   "tone": "neutral",
+   "verdict": "Ration card decides who can apply",
+   "steps": [
+    {
+     "t": "Step 1",
+     "e": "Household names one member, usually the earner"
+    },
+    {
+     "t": "Step 2",
+     "e": "Ration card number becomes application number"
+    },
+    {
+     "t": "Step 3",
+     "e": "Register at nearest camp; home district verifies"
+    },
+    {
+     "t": "Step 4",
+     "e": "Name one or more nominees in whole percentages"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "Rs 5 lakh",
+   "l": "Life cover per household"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Rs 5 lakh",
+  "label": "Life cover per household",
+  "motion": "drift",
+  "scene": [
+   "🪪",
+   "🛡️",
+   "👨‍👩‍👧"
+  ]
+ },
+ "learn": {
+  "t": "IKJBP = Indiramma Kutumba Jeevitha Bima Padhakam, the state's family life insurance scheme"
+ },
+ "watch": "Help desks at enrolment camps will log record mismatches and refer them to officials.",
+ "thread": "tg-indiramma-life-insurance-one-application-per-ration-card",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana issues guidelines for ₹5 lakh Indiramma family life insurance scheme; permits only one application per ration card",
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-issues-guidelines-for-5-lakh-indiramma-family-life-insurance-scheme-permits-only-one-application-per-ration-card/article71728160.ece"
+  }
+ ],
+ "updated": 1795309062672,
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/cities/Hyderabad/rpycm8/article71728199.ece/alternates/LANDSCAPE_1200/Indiramma%20family%20life%20insurance%20scheme.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "Telangana's *Rs 5 lakh* family life cover allows only one application per ration card",
+ "twist": "The ration card number itself serves as the application number.",
+ "areas": [
+  "Hyderabad",
+  "Siddipet"
+ ],
+ "layer": "state"
+}

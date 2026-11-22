@@ -1,0 +1,137 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-22",
+ "sort": "2026-11-22-86",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "education",
+ "hook": "JNTUH cyber security: quantum cryptography only a *4th-year* elective",
+ "hook_b": "JNTUH cyber security: quantum cryptography only a *4th-year* elective",
+ "tldr": "Sakshi reports concerns that quantum computing in Telangana engineering colleges is limited to the syllabus, without dedicated labs or hands-on training.",
+ "beats": {
+  "what": "JNTUH's CSE (Cyber Security) syllabus lists quantum computing and quantum cryptography as electives in the first semester of the fourth year.",
+  "why": "First-year Advanced Engineering Physics introduces quantum computing basics, which experts quoted say is not enough for deeper skills.",
+  "care": "Students wanting practical work on qubits, quantum gates and post-quantum cryptography may find colleges lack labs and trained faculty, the report says."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📚",
+    "label": "Quantum seen as future cyber security challenge"
+   }
+  ],
+  "event": {
+   "icon": "🔐",
+   "label": "Syllabus has it only as late elective"
+  },
+  "effects": [
+   {
+    "icon": "🧪",
+    "label": "Not all students covered"
+   },
+   {
+    "icon": "🧪",
+    "label": "Labs and faculty reported missing"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Experts quoted call for a field-level review of facilities in colleges."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should quantum topics be compulsory for cyber security students?",
+   "opts": [
+    "Yes",
+    "Keep as elective",
+    "Not needed yet",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which skills do employers ask cyber security graduates for today?"
+   ],
+   "facts": [
+    {
+     "big": "2",
+     "t": "JNTUH's cyber security syllabus lists *2* quantum electives: quantum computing and quantum cryptography.",
+     "s": "Sakshi",
+     "u": "https://www.sakshi.com/telugu-news/telangana/substandard-cybersecurity-training-jntuh-2967391"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Where quantum sits in the B.Tech",
+   "tone": "neutral",
+   "verdict": "Basics early, depth only as an option",
+   "steps": [
+    {
+     "t": "Year 1",
+     "e": "Basics in Advanced Engineering Physics"
+    },
+    {
+     "t": "Years 2-3",
+     "e": "Not mentioned in the report"
+    },
+    {
+     "t": "Year 4, Sem 1",
+     "e": "Quantum computing, quantum cryptography electives"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "4th year",
+   "l": "When quantum cryptography appears"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "4th year",
+  "label": "When quantum cryptography appears",
+  "motion": "drift",
+  "scene": [
+   "📚",
+   "🔐",
+   "🧪"
+  ]
+ },
+ "learn": {
+  "t": "Post-quantum cryptography = encryption designed to stay safe against future quantum computers"
+ },
+ "watch": "Whether JNTUH reviews lab facilities for quantum courses, as experts quoted suggest.",
+ "thread": "tg-jntuh-quantum-cryptography-only-4th-year-elective-sakshi",
+ "sources": [
+  {
+   "name": "Sakshi",
+   "title": "'క్వాంటం' చదువులు.. కాగితాలకే పరిమితమా?",
+   "url": "https://www.sakshi.com/telugu-news/telangana/substandard-cybersecurity-training-jntuh-2967391"
+  }
+ ],
+ "updated": 1795309062673,
+ "img": {
+  "u": "https://www.sakshi.com/article_images/2026/11/22/QUANTUM24.jpg",
+  "c": "Sakshi"
+ },
+ "fact": "JNTUH cyber security students meet quantum cryptography only as a *4th-year* elective",
+ "twist": "Because it is an elective, there is no guarantee every cyber security student studies it at all.",
+ "areas": [
+  "Kukatpally",
+  "Hyderabad"
+ ],
+ "layer": "state"
+}

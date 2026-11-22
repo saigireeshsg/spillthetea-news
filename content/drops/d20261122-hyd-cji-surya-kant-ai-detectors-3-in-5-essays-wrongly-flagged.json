@@ -1,0 +1,146 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-22",
+ "sort": "2026-11-22-92",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "education",
+ "hook": "CJI in Hyderabad: AI detectors wrongly flag *3 in 5* non-native essays",
+ "hook_b": "CJI in Hyderabad: AI detectors wrongly flag *3 in 5* non-native essays",
+ "tldr": "Chief Justice of India Surya Kant told a Commonwealth legal education conference in Hyderabad that no student should be held guilty of misconduct on a machine's word alone.",
+ "beats": {
+  "what": "Opening the two-day CLEA conference, the CJI said banning AI tools would be neither practical nor wise, and colleges need clear rules on how students may use them.",
+  "why": "He cited a study finding widely used detectors wrongly marked more than three in five essays by non-native English speakers as machine-written.",
+  "care": "Students could see oral explanations and error-spotting in AI answers added to written tests, as he suggested."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🤖",
+    "label": "Colleges rely on AI-detection software"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "CJI warns against machine-only verdicts"
+  },
+  "effects": [
+   {
+    "icon": "🎓",
+    "label": "Oral tests suggested alongside essays"
+   },
+   {
+    "icon": "🎓",
+    "label": "Model AI-disclosure rules proposed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "He asked CLEA to draft model guidelines on disclosing AI help in legal research for law schools and journals."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should colleges use AI detectors to judge student work?",
+   "opts": [
+    "Yes",
+    "Only with other checks",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Do Hyderabad colleges tell students which AI detector they use and how it is checked?"
+   ],
+   "facts": [
+    {
+     "big": "1st",
+     "t": "This is the *first* international edition of the CLEA conference, held in Hyderabad.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/no-student-should-be-held-guilty-on-word-of-machine-alone-cji-surya-kant-at-legal-education-conference-in-hyderabad/articleshow/136057721.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "icons",
+   "l": "Non-native essays wrongly flagged (study)",
+   "n": 3,
+   "of": 5,
+   "icon": "📝",
+   "d": "3 in 5",
+   "tone": "bad",
+   "verdict": "Honest students risk being branded cheats, the CJI said"
+  },
+  {
+   "t": "timeline",
+   "l": "What the CJI proposed",
+   "tone": "neutral",
+   "verdict": "Rules for AI use, not a ban",
+   "steps": [
+    {
+     "t": "Tests",
+     "e": "Add oral explanations and error-spotting in AI answers"
+    },
+    {
+     "t": "Rules",
+     "e": "Model AI-disclosure guidelines from CLEA"
+    },
+    {
+     "t": "Degree",
+     "e": "Compulsory legal aid work before graduation"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "3 in 5",
+   "l": "Essays wrongly flagged as AI"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3 in 5",
+  "label": "Essays wrongly flagged as AI",
+  "motion": "drift",
+  "scene": [
+   "🤖",
+   "⚖️",
+   "🎓"
+  ]
+ },
+ "learn": {
+  "t": "CLEA = Commonwealth Legal Education Association"
+ },
+ "watch": "Whether CLEA drafts model guidelines on disclosing AI use in legal research.",
+ "thread": "hyd-cji-surya-kant-ai-detectors-3-in-5-essays-wrongly-flagged",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "'No student should be held guilty on word of machine alone': CJI Surya Kant at legal education conference in Hyderabad",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/no-student-should-be-held-guilty-on-word-of-machine-alone-cji-surya-kant-at-legal-education-conference-in-hyderabad/articleshow/136057721.cms"
+  }
+ ],
+ "updated": 1795309062672,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136057917,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "AI detectors wrongly flagged *3 in 5* non-native English essays, CJI said in Hyderabad",
+ "twist": "He also proposed making legal aid work compulsory for every law student before graduation.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}

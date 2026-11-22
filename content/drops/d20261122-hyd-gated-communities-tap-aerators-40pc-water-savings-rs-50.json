@@ -1,0 +1,150 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-22",
+ "sort": "2026-11-22-96",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "*Rs 50* tap aerators cut water use 40% in a Cyberabad community",
+ "hook_b": "*Rs 50* tap aerators cut water use 40% in a Cyberabad community",
+ "tldr": "Experts and the Indian Green Building Council are pushing tap aerators, small Rs 50-70 devices that mix air into tap water, as Hyderabad faces water-supply concerns.",
+ "beats": {
+  "what": "RWAs in Kondapur and Gachibowli have started handing out aerators; one community is fitting them across all 500 flats, three to four per home.",
+  "why": "Water from Singur and Manjeera is under pressure and HMWSSB has asked households to voluntarily cut use by at least 20%.",
+  "care": "A water-board tanker costs around Rs 500 and a private one Rs 3,000-4,000, so saving at the tap can delay that booking."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💧",
+    "label": "Singur, Manjeera reservoirs under pressure"
+   }
+  ],
+  "event": {
+   "icon": "🚰",
+   "label": "RWAs hand out Rs 50 tap aerators"
+  },
+  "effects": [
+   {
+    "icon": "🪣",
+    "label": "40% lower use reported in one community"
+   },
+   {
+    "icon": "🪣",
+    "label": "Fewer tanker bookings at Rs 500-4,000"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "IGBC says aerators are now sold in family kits covering kitchen and bathroom taps."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you fit aerators on your taps at home?",
+   "opts": [
+    "Already have",
+    "Yes, will try",
+    "Probably not",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much of a home's daily water goes through taps left running?",
+    "Would building rules ever require aerators, as in some cities?"
+   ],
+   "facts": [
+    {
+     "big": "Rs 3,000-4,000",
+     "t": "A private water tanker can cost *Rs 3,000-4,000*, against about Rs 500 for a board tanker.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/experts-pitch-use-of-low-cost-aerators-to-reduce-household-water-use/articleshow/136059789.cms"
+    },
+    {
+     "big": "500 flats",
+     "t": "One Cyberabad community is fitting aerators across *500 flats*, three to four per home.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/experts-pitch-use-of-low-cost-aerators-to-reduce-household-water-use/articleshow/136059789.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Water to wash vegetables",
+   "a": {
+    "v": 3,
+    "d": "3 L",
+    "l": "Before aerator"
+   },
+   "b": {
+    "v": 2,
+    "d": "2 L",
+    "l": "With aerator"
+   },
+   "goodIfUp": false,
+   "tone": "good",
+   "verdict": "Same task, a third less water for households"
+  },
+  {
+   "t": "meter",
+   "l": "Voluntary cut HMWSSB asks for",
+   "v": 20,
+   "max": 100,
+   "unit": "%",
+   "tone": "neutral",
+   "verdict": "Board asks every household to use at least 20% less"
+  },
+  {
+   "t": "big",
+   "v": "40%",
+   "l": "Water saved with tap aerators"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "40%",
+  "label": "Water saved with tap aerators",
+  "motion": "drift",
+  "scene": [
+   "💧",
+   "🚰",
+   "🪣"
+  ]
+ },
+ "learn": {
+  "t": "Aerator = a small mesh fitting on a tap that mixes air into the flow"
+ },
+ "watch": "HMWSSB's 40 MGD Godavari link, delayed past Nov 15, is meant to ease Singur-Manjeera areas once commissioned.",
+ "thread": "hyd-gated-communities-tap-aerators-40pc-water-savings-rs-50",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Experts pitch use of low-cost aerators to reduce household water use",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/experts-pitch-use-of-low-cost-aerators-to-reduce-household-water-use/articleshow/136059789.cms"
+  }
+ ],
+ "updated": 1795309062671,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136059788,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "A *Rs 50* tap aerator cut one gated community's water use by *40%*",
+ "twist": "Washing vegetables in that community dropped from about three litres of water to two.",
+ "areas": [
+  "Kondapur",
+  "Gachibowli"
+ ],
+ "layer": "near"
+}
