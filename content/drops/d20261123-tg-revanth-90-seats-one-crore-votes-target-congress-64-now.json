@@ -1,0 +1,146 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-90",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "politics",
+ "hook": "*90 seats, 1 crore votes*: Revanth's target for the next polls",
+ "hook_b": "*90 seats, 1 crore votes*: Revanth's target for the next polls",
+ "tldr": "At the Telangana Congress extended executive meeting, CM Revanth Reddy said the party would win 90 of 119 seats with one crore votes next time.",
+ "beats": {
+  "what": "He said the party would take welfare and development schemes to people after Sankranti and is watching what leaders say in public and in private.",
+  "why": "Congress currently holds 64 seats; he also told leaders to work in villages rather than lobby in Delhi.",
+  "care": "Expect stepped-up party outreach in your area after Sankranti."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "Congress holds 64 of 119 seats"
+   }
+  ],
+  "event": {
+   "icon": "🎯",
+   "label": "CM sets 90-seat, 1-crore-vote target"
+  },
+  "effects": [
+   {
+    "icon": "📣",
+    "label": "Outreach planned after Sankranti"
+   },
+   {
+    "icon": "📣",
+    "label": "Leaders' conduct monitored, CM says"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "He said Congress also aims to make Rahul Gandhi Prime Minister and win Telangana's Lok Sabha seats."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do early seat targets change how you see a party?",
+   "opts": [
+    "Yes",
+    "A little",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which districts would Congress need to win to reach 90?",
+    "How does the party plan to measure each leader's contribution?"
+   ],
+   "facts": [
+    {
+     "big": "48 lakh",
+     "t": "Revanth says Congress enrolled *48 lakh* digital members in 90 days before the last polls.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/congress-will-return-to-power-in-telangana-for-second-term-with-90-seats-and-one-crore-votes-revanth-reddy/article71732106.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Assembly seats",
+   "a": {
+    "v": 64,
+    "d": "64",
+    "l": "Won last time"
+   },
+   "b": {
+    "v": 90,
+    "d": "90",
+    "l": "Target"
+   },
+   "tone": "neutral",
+   "verdict": "A party target, not a result"
+  },
+  {
+   "t": "compare",
+   "l": "Votes",
+   "a": {
+    "v": 92.36,
+    "d": "92.36 lakh",
+    "l": "Last election"
+   },
+   "b": {
+    "v": 100,
+    "d": "1 crore",
+    "l": "Target"
+   },
+   "tone": "neutral",
+   "verdict": "About 7.6 lakh more votes than last time"
+  },
+  {
+   "t": "big",
+   "v": "90/119",
+   "l": "Seats Congress is targeting"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "90/119",
+  "label": "Seats Congress is targeting",
+  "motion": "drift",
+  "scene": [
+   "🗳️",
+   "🎯",
+   "📣"
+  ]
+ },
+ "watch": "Party outreach on welfare schemes is to start after Sankranti.",
+ "thread": "tg-revanth-90-seats-one-crore-votes-target-congress-64-now",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Congress will return to power in Telangana for second term with 90 seats and one crore votes: Revanth Reddy",
+   "url": "https://www.thehindu.com/news/national/telangana/congress-will-return-to-power-in-telangana-for-second-term-with-90-seats-and-one-crore-votes-revanth-reddy/article71732106.ece"
+  }
+ ],
+ "updated": 1795395503193,
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/national/telangana/jbq5g0/article71732114.ece/alternates/LANDSCAPE_1200/Congress.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "Revanth Reddy targets *90 seats* and one crore votes in next Telangana polls",
+ "twist": "Congress won 64 seats last time with 92,35,833 votes, about 7.6 lakh short of one crore.",
+ "areas": [
+  "Telangana"
+ ],
+ "layer": "state"
+}

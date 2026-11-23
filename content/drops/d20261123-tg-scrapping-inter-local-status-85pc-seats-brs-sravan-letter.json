@@ -1,0 +1,146 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-91",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "education",
+ "hook": "Merging Inter with school could hit *85%* local seats, BRS claims",
+ "hook_b": "Merging Inter with school could hit *85%* local seats, BRS claims",
+ "tldr": "BRS MLC Dasoju Sravan Kumar wrote to CM Revanth Reddy alleging that merging Intermediate with school education would let out-of-state students gain local status.",
+ "beats": {
+  "what": "He says if Classes 9-12 become one senior secondary school, corporate colleges could sell four-year Hyderabad hostel packages that make outside students 'local'.",
+  "why": "Today many students from AP and other states come to Hyderabad only for two Intermediate years, so they count as non-local.",
+  "care": "If you or a sibling are aiming for MBBS or engineering seats in Telangana, the 85% local quota is what this argument is about."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎓",
+    "label": "Plan to merge Inter with school"
+   }
+  ],
+  "event": {
+   "icon": "📜",
+   "label": "BRS letter to CM on local status"
+  },
+  "effects": [
+   {
+    "icon": "🏫",
+    "label": "Claim: outsiders could become 'local'"
+   },
+   {
+    "icon": "🏫",
+    "label": "Exam board for Classes 9-12 unclear"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "He also says there is no clarity on which board would conduct exams if Classes 9-12 are merged."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should Classes 9 to 12 become one senior secondary school in Telangana?",
+   "opts": [
+    "Yes",
+    "No",
+    "Need more details",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many out-of-state students join Hyderabad colleges only for Intermediate?",
+    "Which board would set exams if Classes 9-12 merge?"
+   ],
+   "facts": [
+    {
+     "big": "4 yrs",
+     "t": "Local status depends on *four* continuous years of study before the entrance exam.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/scrapping-inter-may-cost-telangana-students-local-status-says-brs-3584085/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Professional seats reserved for locals",
+   "v": 85,
+   "max": 100,
+   "unit": "%",
+   "tone": "neutral",
+   "verdict": "BRS says merged schooling could change who qualifies; the state hasn't replied in this report"
+  },
+  {
+   "t": "timeline",
+   "l": "Today vs proposed",
+   "steps": [
+    {
+     "t": "Class 9-10",
+     "e": "School, SSC Board exam"
+    },
+    {
+     "t": "Class 11-12",
+     "e": "Junior college, Inter Board exam"
+    },
+    {
+     "t": "Proposed",
+     "e": "Classes 9-12 as one senior secondary school"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Two boards today, one system proposed"
+  },
+  {
+   "t": "big",
+   "v": "85%",
+   "l": "Seats reserved for local students"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "85%",
+  "label": "Seats reserved for local students",
+  "motion": "drift",
+  "scene": [
+   "🎓",
+   "📜",
+   "🏫"
+  ]
+ },
+ "learn": {
+  "t": "Local status = eligibility for state-reserved seats, based on 4 years of study before the entrance exam"
+ },
+ "watch": "The report carries no government reply; watch for which board would run exams under any merged system.",
+ "thread": "tg-scrapping-inter-local-status-85pc-seats-brs-sravan-letter",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Scrapping Inter may cost Telangana students local status, says BRS",
+   "url": "https://www.siasat.com/scrapping-inter-may-cost-telangana-students-local-status-says-brs-3584085/"
+  }
+ ],
+ "updated": 1795395503192,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/08/College-admissions.jpg",
+  "c": "Siasat"
+ },
+ "fact": "BRS says scrapping Inter could let outsiders claim Telangana's *85%* local seats",
+ "twist": "Local status is set by where you studied the four years before the entrance exam, not where you were born.",
+ "areas": [
+  "Telangana"
+ ],
+ "layer": "state"
+}

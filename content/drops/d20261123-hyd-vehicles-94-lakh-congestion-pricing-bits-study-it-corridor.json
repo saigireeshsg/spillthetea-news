@@ -1,0 +1,151 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-95",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "*94.78 lakh* vehicles and counting: a study floats paying to drive",
+ "hook_b": "*94.78 lakh* vehicles and counting: a study floats paying to drive",
+ "tldr": "A BITS Pilani-led study says congestion pricing on Hyderabad's busiest corridors, plus better public transport, could ease traffic as vehicles near one crore.",
+ "beats": {
+  "what": "Researchers from BITS Pilani Hyderabad, Cardiff University and KFUPM surveyed 435 car commuters and suggest charging motorists on the most congested corridors at peak hours.",
+  "why": "Hyderabad, Ranga Reddy and Medchal-Malkajgiri had 94.78 lakh registered vehicles in 2025, up from 89.89 lakh in 2024, and road widening has not kept pace.",
+  "care": "If you drive to the IT corridor, experts name it as the most suitable place to pilot congestion charges or carpool lanes."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚗",
+    "label": "Vehicles rose 89.89 to 94.78 lakh in a year"
+   }
+  ],
+  "event": {
+   "icon": "💸",
+   "label": "Study backs peak-hour road charges"
+  },
+  "effects": [
+   {
+    "icon": "🛣️",
+    "label": "IT corridor suggested for a pilot"
+   },
+   {
+    "icon": "🛣️",
+    "label": "Fees could fund buses and footpaths"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Researchers say charge revenue could fund buses, feeder networks and footpaths; commuters were willing to pay if it cut travel time."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should cars pay a fee to use Hyderabad's busiest roads at peak hours?",
+   "opts": [
+    "Yes",
+    "Only on the IT corridor",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Would a road charge move commuters to Metro and buses, or onto side roads?",
+    "Who would decide which corridors get priced?"
+   ],
+   "facts": [
+    {
+     "big": "1.5 lakh",
+     "t": "HITEC City main road carries an estimated *1.5 lakh* vehicles a day.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/one-crore-vehicles-on-horizon-should-hyderabad-put-price-on-gridlock/articleshow/136082168.cms"
+    },
+    {
+     "big": "435",
+     "t": "The study surveyed *435* car commuters; faster travel was the top benefit they expected.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/one-crore-vehicles-on-horizon-should-hyderabad-put-price-on-gridlock/articleshow/136082168.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Registered vehicles (Hyd, RR, Medchal)",
+   "a": {
+    "v": 89.89,
+    "d": "89.89 lakh",
+    "l": "2024"
+   },
+   "b": {
+    "v": 94.78,
+    "d": "94.78 lakh",
+    "l": "2025"
+   },
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "More vehicles on the same roads, slower trips for commuters"
+  },
+  {
+   "t": "meter",
+   "l": "Single-occupancy vehicles per hour at Cyber Towers",
+   "v": 6550,
+   "max": 10000,
+   "unit": " of 10,000",
+   "tone": "neutral",
+   "verdict": "Most cars on the stretch carry one person, the study's carpool case"
+  },
+  {
+   "t": "big",
+   "v": "94.78 lakh",
+   "l": "Vehicles in Hyderabad region, 2025"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "94.78 lakh",
+  "label": "Vehicles in Hyderabad region, 2025",
+  "motion": "drift",
+  "scene": [
+   "🚗",
+   "💸",
+   "🛣️"
+  ]
+ },
+ "learn": {
+  "t": "Congestion pricing = a fee to drive on busy roads or zones at peak hours"
+ },
+ "watch": "No government decision is reported; experts suggest a pilot on the IT corridor and HOV lanes for shared cars.",
+ "thread": "hyd-vehicles-94-lakh-congestion-pricing-bits-study-it-corridor",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "One Crore Vehicles On Horizon, Should Hyderabad Put Price on Gridlock?",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/one-crore-vehicles-on-horizon-should-hyderabad-put-price-on-gridlock/articleshow/136082168.cms"
+  }
+ ],
+ "updated": 1795395503188,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136082166,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Hyderabad region's vehicle count hit *94.78 lakh* in 2025, nearing one crore",
+ "twist": "At Cyber Towers, over 10,000 vehicles pass an hour; about 6,550 carry only one person.",
+ "areas": [
+  "HITEC City",
+  "Madhapur",
+  "Gachibowli"
+ ],
+ "layer": "near"
+}

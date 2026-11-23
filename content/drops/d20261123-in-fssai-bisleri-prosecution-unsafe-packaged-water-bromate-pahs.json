@@ -1,0 +1,142 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-89",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "food safety",
+ "hook": "A *Bisleri* water sample failed two labs; FSSAI now prosecutes",
+ "hook_b": "A *Bisleri* water sample failed two labs; FSSAI now prosecutes",
+ "tldr": "Food regulator FSSAI sanctioned prosecution against Bisleri International after a packaged drinking water sample was declared unsafe.",
+ "beats": {
+  "what": "The first sample breached bromate limits; on the company's appeal, the referral lab also declared it unsafe after detecting PAHs.",
+  "why": "FSSAI has stepped up enforcement this year against food businesses, e-commerce firms, energy drink and alcoholic beverage makers.",
+  "care": "Bottled water is a daily buy for many; the report doesn't say which batch or city the sample came from."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧪",
+    "label": "Sample breached bromate limits"
+   }
+  ],
+  "event": {
+   "icon": "💧",
+   "label": "FSSAI sanctions prosecution"
+  },
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "Case under FSS Act, 2006"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Other firms also face action"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "FSSAI also sanctioned prosecution against Vasant Masala, Tit-Bit Foods India, Mimansa Industries and Asha Confectionery."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you check the label or batch on bottled water before buying?",
+   "opts": [
+    "Always",
+    "Sometimes",
+    "Never",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which batch and city was the sample from?",
+    "How often are packaged water brands tested?"
+   ],
+   "facts": [
+    {
+     "big": "2",
+     "t": "FSSAI suspended the licences of *2* firms: Urmi Lifesciences and Gaur Ayurvedic Store.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/fssai-orders-prosecution-against-bisleri-international-for-unsafe-packaged-drinking-water/article71732196.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "From sample to prosecution",
+   "now": 3,
+   "steps": [
+    {
+     "t": "Sample",
+     "e": "Collected from Bisleri premises"
+    },
+    {
+     "t": "Lab 1",
+     "e": "Fails bromate limit"
+    },
+    {
+     "t": "Appeal",
+     "e": "Referral lab finds PAHs"
+    },
+    {
+     "t": "Nov 22",
+     "e": "FSSAI sanctions prosecution"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Two labs called the sample unsafe; bad for buyers' trust"
+  },
+  {
+   "t": "big",
+   "v": "5",
+   "l": "Firms FSSAI cleared for prosecution"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "5",
+  "label": "Firms FSSAI cleared for prosecution",
+  "motion": "drift",
+  "scene": [
+   "🧪",
+   "💧",
+   "⚖️"
+  ]
+ },
+ "learn": {
+  "t": "FSSAI = Food Safety and Standards Authority of India, the national food regulator"
+ },
+ "watch": "Prosecution will proceed under the FSS Act, 2006; Asha Confectionery has been ordered to recall chocolate-filled cookies.",
+ "thread": "in-fssai-bisleri-prosecution-unsafe-packaged-water-bromate-pahs",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "FSSAI orders prosecution against Bisleri International for unsafe packaged drinking water",
+   "url": "https://www.thehindu.com/news/national/fssai-orders-prosecution-against-bisleri-international-for-unsafe-packaged-drinking-water/article71732196.ece"
+  }
+ ],
+ "updated": 1795395503193,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/azcq3b/article71732204.ece/alternates/LANDSCAPE_1200/2026-11-22T160916Z_1391015199_RC2V2KA1VC1C_RTRMADP_3_INDIA-FOOD-SAFETY-BISLERI.JPG",
+  "c": "The Hindu"
+ },
+ "fact": "FSSAI orders prosecution of Bisleri after its water sample failed *2* labs",
+ "twist": "The referral lab found polynuclear aromatic hydrocarbons (PAHs), on top of the first lab's bromate failure.",
+ "areas": [
+  "India"
+ ],
+ "layer": "india"
+}

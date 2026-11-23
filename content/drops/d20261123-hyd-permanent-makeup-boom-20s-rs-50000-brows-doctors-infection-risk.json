@@ -1,0 +1,159 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-92",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "Brows that last *2 years*, for up to Rs 2 lakh: doctors urge checks",
+ "hook_b": "Brows that last *2 years*, for up to Rs 2 lakh: doctors urge checks",
+ "tldr": "Permanent makeup like microbladed brows and lip tints is booming among Hyderabadis in their 20s; doctors warn the needle work carries infection risks.",
+ "beats": {
+  "what": "Pigment is pushed into the skin with needles, like a tattoo; results last one to two years depending on technique, pigment and skin.",
+  "why": "Convenience is driving demand: fewer parlour visits and less daily effort.",
+  "care": "Doctors say check the artist's training, single-use needles and sterile gloves, and don't pick by Instagram photos alone."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💄",
+    "label": "Young people want low-effort makeup"
+   }
+  ],
+  "event": {
+   "icon": "💉",
+   "label": "Permanent makeup demand rises"
+  },
+  "effects": [
+   {
+    "icon": "⚠️",
+    "label": "Needles break skin, infection risk"
+   },
+   {
+    "icon": "⚠️",
+    "label": "Bad results may need laser removal"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Costs range roughly Rs 10,000 to Rs 80,000; some high-end artists charge Rs 1.5-2 lakh."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you try permanent makeup?",
+   "opts": [
+    "Yes",
+    "Maybe, after research",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who licenses or inspects permanent makeup studios in Hyderabad?",
+    "Should before-and-after photos online be trusted?"
+   ],
+   "facts": [
+    {
+     "big": "1-2 yrs",
+     "t": "Results typically last *one to two years*, experts say.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/thinking-of-microbladed-brows-or-lip-tint-permanent-makeup-is-booming-among-young-hyderabadis-at-rs-10000-80000-but-doctors-warn-of-infection-risks-bad-results-and-skin-flare-ups/articleshow/136079407.cms"
+    },
+    {
+     "big": "Rs 2 lakh",
+     "t": "Some high-end artists charge *Rs 1.5-2 lakh*.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/thinking-of-microbladed-brows-or-lip-tint-permanent-makeup-is-booming-among-young-hyderabadis-at-rs-10000-80000-but-doctors-warn-of-infection-risks-bad-results-and-skin-flare-ups/articleshow/136079407.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Price range quoted by doctors",
+   "a": {
+    "v": 10000,
+    "d": "Rs 10,000",
+    "l": "Low end"
+   },
+   "b": {
+    "v": 200000,
+    "d": "Rs 2 lakh",
+    "l": "Some high-end artists"
+   },
+   "tone": "neutral",
+   "verdict": "Prices vary 20x; doctors say training and hygiene matter more than price"
+  },
+  {
+   "t": "timeline",
+   "l": "What the procedure involves",
+   "steps": [
+    {
+     "t": "Step 1",
+     "e": "Needles deposit pigment in skin"
+    },
+    {
+     "t": "Lasts",
+     "e": "1 to 2 years"
+    },
+    {
+     "t": "If it goes wrong",
+     "e": "Laser may be needed to remove it"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A needle procedure, not a routine salon service, doctors say"
+  },
+  {
+   "t": "big",
+   "v": "Rs 50,000",
+   "l": "Typical eyebrow PMU cost in Hyderabad"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Rs 50,000",
+  "label": "Typical eyebrow PMU cost in Hyderabad",
+  "motion": "drift",
+  "scene": [
+   "💄",
+   "💉",
+   "⚠️"
+  ]
+ },
+ "learn": {
+  "t": "PMU = permanent makeup: pigment put into the skin with needles, like tattooing"
+ },
+ "watch": "Doctors advise people with skin or scalp conditions to see a dermatologist first.",
+ "thread": "hyd-permanent-makeup-boom-20s-rs-50000-brows-doctors-infection-risk",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Permanent makeup is booming among young Hyderabadis at Rs 10,000-80,000, but doctors warn of risks",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/thinking-of-microbladed-brows-or-lip-tint-permanent-makeup-is-booming-among-young-hyderabadis-at-rs-10000-80000-but-doctors-warn-of-infection-risks-bad-results-and-skin-flare-ups/articleshow/136079407.cms"
+  }
+ ],
+ "updated": 1795395503191,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136079782,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Permanent eyebrow work in Hyderabad costs around *Rs 50,000*, doctors say",
+ "twist": "A dermatologist says there isn't enough clinical data on how often complications happen.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}

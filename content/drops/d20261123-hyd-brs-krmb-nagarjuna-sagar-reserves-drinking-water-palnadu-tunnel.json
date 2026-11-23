@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-93",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "*Nagarjuna Sagar* storage, Hyderabad's tap water, goes to the river board",
+ "hook_b": "*Nagarjuna Sagar* storage, Hyderabad's tap water, goes to the river board",
+ "tldr": "A BRS delegation meets the Krishna River Management Board on Monday to seek protection of Nagarjuna Sagar reserves needed for Hyderabad's drinking water.",
+ "beats": {
+  "what": "The delegation of about 10 MLAs, former ministers and senior leaders will ask KRMB to examine permissions, allocations and inter-State agreements for AP's tunnel works.",
+  "why": "Nagarjuna Sagar storage is crucial for Hyderabad's drinking water, and the party cites the El Nino crisis.",
+  "care": "Nagarjuna Sagar feeds Hyderabad's drinking water, so its storage level matters for supply in the coming dry months."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💧",
+    "label": "AP tunnel works near Nagarjuna Sagar"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "BRS delegation meets KRMB"
+  },
+  "effects": [
+   {
+    "icon": "🚰",
+    "label": "Board asked to check permissions"
+   },
+   {
+    "icon": "🚰",
+    "label": "Storage for Hyderabad flagged"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "BRS wants KRMB to assess the tunnel's impact on Telangana's water rights and keep adequate storage for the city."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How worried are you about Hyderabad's water supply next summer?",
+   "opts": [
+    "Very",
+    "A little",
+    "Not worried",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much of Hyderabad's water comes from Nagarjuna Sagar this season?",
+    "What can KRMB do once a project is under way?"
+   ],
+   "facts": [
+    {
+     "big": "₹1,200 cr",
+     "t": "Namasthe Telangana reported AP is digging a *₹1,200 crore* tunnel from Nagarjuna Sagar.",
+     "s": "Namasthe Telangana",
+     "u": "https://www.ntnews.com/telangana/nagarjuna-sagar-water-diversion-plan-raises-concerns-in-telangana-2561473"
+    },
+    {
+     "big": "510 ft",
+     "t": "The paper says the tunnel could draw water even at the *510 ft* dead storage level.",
+     "s": "Namasthe Telangana",
+     "u": "https://www.ntnews.com/telangana/nagarjuna-sagar-water-diversion-plan-raises-concerns-in-telangana-2561473"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The Sagar water row",
+   "now": 1,
+   "steps": [
+    {
+     "t": "Nov 16",
+     "e": "Report: AP digging Rs 1,200 cr tunnel"
+    },
+    {
+     "t": "Nov 23",
+     "e": "BRS delegation meets KRMB"
+    },
+    {
+     "t": "Next",
+     "e": "KRMB asked to check permissions"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "An inter-State dispute that can affect city water storage"
+  },
+  {
+   "t": "big",
+   "v": "~10",
+   "l": "BRS MLAs in the KRMB delegation"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "~10",
+  "label": "BRS MLAs in the KRMB delegation",
+  "motion": "drift",
+  "scene": [
+   "💧",
+   "🏛️",
+   "🚰"
+  ]
+ },
+ "learn": {
+  "t": "KRMB = Krishna River Management Board, which oversees Krishna water sharing between Telangana and AP"
+ },
+ "watch": "KRMB's response to the representation; the board has not been reported acting on it yet.",
+ "thread": "hyd-brs-krmb-nagarjuna-sagar-reserves-drinking-water-palnadu-tunnel",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "BRS flags Hyderabad drinking water concerns, seeks KRMB intervention",
+   "url": "https://telanganatoday.com/brs-flags-hyderabad-drinking-water-concerns-seeks-krmb-intervention"
+  }
+ ],
+ "updated": 1795395503190,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Telangana-Bhavan.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "About *10* BRS MLAs meet KRMB today over Hyderabad's Nagarjuna Sagar water",
+ "twist": "They will also object to Andhra Pradesh's tunnel works under the Palnadu Water Grid project.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}

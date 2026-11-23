@@ -1,0 +1,150 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-94",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "Threat email names *Kacheguda*; police say it looks like a hoax",
+ "hook_b": "Threat email names *Kacheguda*; police say it looks like a hoax",
+ "tldr": "An email sent in the name of Lashkar-e-Taiba named Kacheguda Railway Station and Hotel Tourist Plaza as targets; police ran checks and say it appears to be a hoax.",
+ "beats": {
+  "what": "Anti-sabotage checks were done at the named spots, visible policing was stepped up, and Cyber Crime Police are tracing the sender.",
+  "why": "The email threatened a 26/11-style attack and claimed at least 300 people would be killed, but gave no date.",
+  "care": "Expect more checks at railway stations, bus terminals and crowded places; police ask people to dial 112 for unattended objects."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📧",
+    "label": "Special Branch receives threat email"
+   }
+  ],
+  "event": {
+   "icon": "🚨",
+   "label": "Checks at Kacheguda station, Tourist Plaza"
+  },
+  "effects": [
+   {
+    "icon": "🔍",
+    "label": "Cyber Crime Police tracing sender"
+   },
+   {
+    "icon": "🔍",
+    "label": "Vigilance up at stations, terminals"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Police urged people not to believe or spread rumours and said they do not want anybody to panic."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "When police announce a likely-hoax threat, how do you feel?",
+   "opts": [
+    "Safer",
+    "More anxious",
+    "No difference",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How often do threat emails to Hyderabad turn out to be hoaxes?",
+    "What happens to senders once traced?"
+   ],
+   "facts": [
+    {
+     "big": "2",
+     "t": "The email named *2* targets: Kacheguda Railway Station and Hotel Tourist Plaza.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-police-issue-alert-over-terror-threat-email-security-checks-conducted-at-key-locations/article71731583.ece"
+    },
+    {
+     "big": "0",
+     "t": "The email gave *no date* for the threatened explosions.",
+     "s": "Hindustan Times",
+     "u": "https://www.hindustantimes.com/india-news/hyderabad-gets-terror-threat-from-let-named-email-in-retaliation-for-lateef-bhat-s-killing-101795361107231.html"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How police responded",
+   "now": 2,
+   "steps": [
+    {
+     "t": "Sunday",
+     "e": "Special Branch flags threat email"
+    },
+    {
+     "t": "Then",
+     "e": "Anti-sabotage checks at named spots"
+    },
+    {
+     "t": "Now",
+     "e": "Cyber Crime Police trace sender"
+    },
+    {
+     "t": "Ask",
+     "e": "Dial 112 for unattended objects"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A precaution; police say the email appears to be a hoax"
+  },
+  {
+   "t": "big",
+   "v": "112",
+   "l": "Number to report unattended objects"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "112",
+  "label": "Number to report unattended objects",
+  "motion": "drift",
+  "scene": [
+   "📧",
+   "🚨",
+   "🔍"
+  ]
+ },
+ "watch": "Cyber Crime Police are tracing the email's origin and checking whether it is genuinely linked to LeT.",
+ "thread": "hyd-lashkar-named-email-kacheguda-threat-police-say-hoax",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Hyderabad Police issue alert over terror threat email; security checks conducted at key locations",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-police-issue-alert-over-terror-threat-email-security-checks-conducted-at-key-locations/article71731583.ece"
+  },
+  {
+   "name": "Hindustan Times",
+   "title": "Hyderabad on high alert after email from 'LeT operatives' warns of terror attacks",
+   "url": "https://www.hindustantimes.com/india-news/hyderabad-gets-terror-threat-from-let-named-email-in-retaliation-for-lateef-bhat-s-killing-101795361107231.html"
+  }
+ ],
+ "updated": 1795395503190,
+ "img": {
+  "u": "https://www.hindustantimes.com/ht-img/img/2026/11/22/1600x900/logo/The-email-warned-of-attacks-in-retaliation-for-the_1795361099148_HEiX.jpg",
+  "c": "Hindustan Times"
+ },
+ "fact": "Police call LeT-named email threatening *300* deaths in Hyderabad a likely hoax",
+ "twist": "A senior official told The Hindu police get similar threat messages frequently; the alert was to keep people vigilant.",
+ "areas": [
+  "Kacheguda"
+ ],
+ "layer": "near"
+}
