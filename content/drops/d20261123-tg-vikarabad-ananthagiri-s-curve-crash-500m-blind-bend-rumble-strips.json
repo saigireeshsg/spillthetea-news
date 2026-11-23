@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-93",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "A *500 m* blind bend in Ananthagiri forest gets rumble strips after a crash",
+ "hook_b": "A *500 m* blind bend in Ananthagiri forest gets rumble strips after a crash",
+ "tldr": "Four members of a family died when a truck hit their auto on a sharp S-curve in Ananthagiri forest, Vikarabad; officials have recommended safety fixes on the stretch.",
+ "beats": {
+  "what": "The crash happened around 9am near Bugga Rameswaram temple on the Vikarabad-Dharur road, when a truck collided with the auto on the curve.",
+  "why": "Police say the curve runs nearly 500 metres and dense trees block the view of oncoming vehicles.",
+  "care": "If you ride to Ananthagiri hills on weekends, this interior forest stretch is now flagged accident-prone."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌳",
+    "label": "Trees block view on a long curve"
+   }
+  ],
+  "event": {
+   "icon": "🚛",
+   "label": "Truck-auto crash kills four"
+  },
+  "effects": [
+   {
+    "icon": "🚧",
+    "label": "Rumble strips, bollards planned"
+   },
+   {
+    "icon": "🚧",
+    "label": "Accident-prone signs to go up"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Word reached police only around 9.25am because the stretch is deep in the forest; they reached by 9.40am."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What would make blind forest curves safest?",
+   "opts": [
+    "Rumble strips and signs",
+    "Cutting trees for visibility",
+    "Speed checks",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which other ghat or forest roads near Hyderabad lack warning signs?",
+    "How quickly are recommended road fixes usually carried out?"
+   ],
+   "facts": [
+    {
+     "big": "40 min",
+     "t": "Police reached the spot about *40 minutes* after the crash in the remote stretch.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/four-of-family-killed-as-auto-rickshaw-hits-truck-on-treacherous-s-curve-near-vikarabad/articleshow/136082348.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Sunday on the Vikarabad-Dharur road",
+   "now": 3,
+   "steps": [
+    {
+     "t": "9:00",
+     "e": "Truck and auto collide on curve"
+    },
+    {
+     "t": "9:25",
+     "e": "Information reaches police"
+    },
+    {
+     "t": "9:40",
+     "e": "Police and ambulance arrive"
+    },
+    {
+     "t": "Next",
+     "e": "Fixes recommended for the bend"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A remote stretch where help took 40 minutes to arrive"
+  },
+  {
+   "t": "big",
+   "v": "500 m",
+   "l": "Length of the blind S-curve"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "500 m",
+  "label": "Length of the blind S-curve",
+  "motion": "drift",
+  "scene": [
+   "🌳",
+   "🚛",
+   "🚧"
+  ]
+ },
+ "watch": "Whether the recommended trees removal, rumble strips, bollards and signs are installed.",
+ "thread": "tg-vikarabad-ananthagiri-s-curve-crash-500m-blind-bend-rumble-strips",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Four of family killed as auto-rickshaw hits truck on treacherous S-curve near Vikarabad",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/four-of-family-killed-as-auto-rickshaw-hits-truck-on-treacherous-s-curve-near-vikarabad/articleshow/136082348.cms"
+  }
+ ],
+ "updated": 1795417819628,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136082347,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "A *500-metre* blind S-curve on Vikarabad-Dharur road killed four on Sunday",
+ "twist": "Officials now plan to cut trees, add rumble strips, bollards and 'Go Slow' signs there.",
+ "areas": [
+  "Vikarabad"
+ ],
+ "layer": "state"
+}

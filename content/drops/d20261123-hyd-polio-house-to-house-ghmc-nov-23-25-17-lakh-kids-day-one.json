@@ -1,0 +1,155 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-96",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "Missed Sunday's polio booth? Teams knock on *GHMC* doors till Nov 25",
+ "hook_b": "Missed Sunday's polio booth? Teams knock on *GHMC* doors till Nov 25",
+ "tldr": "After Sunday's booth day covered 17.21 lakh children in five districts, health teams visit GHMC homes on November 23-25 to reach those who missed it.",
+ "beats": {
+  "what": "Field workers will visit households in GHMC areas on November 23, 24 and 25 to give oral polio drops to children under five who missed the booths.",
+  "why": "The Sunday drive in Hyderabad, Rangareddy, Medchal Malkajgiri, Sangareddy and Hanamkonda hit 95.6% of its 18.01 lakh target.",
+  "care": "If a child under five at home missed the drops on Sunday, a health worker should come to your door by Tuesday."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💉",
+    "label": "Booth day missed some children"
+   }
+  ],
+  "event": {
+   "icon": "🏠",
+   "label": "House-to-house drive in GHMC"
+  },
+  "effects": [
+   {
+    "icon": "👶",
+    "label": "Nov 23-25 home visits"
+   },
+   {
+    "icon": "👶",
+    "label": "Under-5s get two drops"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "7,428 booths, 245 transit points and 245 mobile teams ran on Sunday, with 29,712 vaccinators."
+  },
+  {
+   "k": "poll",
+   "vt": "experience",
+   "q": "Did polio drops reach the under-5 kids in your home or lane?",
+   "opts": [
+    "Yes, at a booth",
+    "Yes, at home",
+    "Not yet",
+    "No kids under 5",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which neighbourhoods are hardest for booth-day drives to reach?",
+    "How do teams track children who move between districts?"
+   ],
+   "facts": [
+    {
+     "big": "29,712",
+     "t": "The drive used *29,712* vaccinators and 744 supervisors.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/1721-lakh-children-receive-polio-drops-in-telanganas-five-district-house-to-house-drive-in-ghmc-from-november-23-to-25/article71732205.ece"
+    },
+    {
+     "big": "21,369",
+     "t": "*21,369* children got drops at airports, bus and railway stations.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/1721-lakh-children-receive-polio-drops-in-telanganas-five-district-house-to-house-drive-in-ghmc-from-november-23-to-25/article71732205.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Day-one coverage of 18.01 lakh target",
+   "v": 95.6,
+   "max": 100,
+   "unit": "%",
+   "tone": "good",
+   "verdict": "Most children reached on day one; home visits cover the rest"
+  },
+  {
+   "t": "stack",
+   "l": "Where 17.21 lakh got drops",
+   "parts": [
+    {
+     "l": "Booths",
+     "v": 1683000
+    },
+    {
+     "l": "Transit points",
+     "v": 21369
+    },
+    {
+     "l": "Mobile teams",
+     "v": 16796
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Nearly all at booths; airports, bus and rail stations covered the rest"
+  },
+  {
+   "t": "big",
+   "v": "17.21 lakh",
+   "l": "Children given polio drops on day one"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "17.21 lakh",
+  "label": "Children given polio drops on day one",
+  "motion": "drift",
+  "scene": [
+   "💉",
+   "🏠",
+   "👶"
+  ]
+ },
+ "learn": {
+  "t": "Pulse Polio = mass campaign giving oral polio drops to every child under five"
+ },
+ "watch": "The final coverage figure after the three-day house-to-house round.",
+ "thread": "hyd-polio-house-to-house-ghmc-nov-23-25-17-lakh-kids-day-one",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "17.21 lakh children receive polio drops in Telangana's five districts; house-to-house drive in GHMC from November 23 to 25",
+   "url": "https://www.thehindu.com/news/national/telangana/1721-lakh-children-receive-polio-drops-in-telanganas-five-district-house-to-house-drive-in-ghmc-from-november-23-to-25/article71732205.ece"
+  }
+ ],
+ "updated": 1795417819626,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/qin4fm/article71733716.ece/alternates/LANDSCAPE_1200/_DSC8584.JPG",
+  "c": "The Hindu"
+ },
+ "fact": "Polio teams go house to house across *GHMC* from November 23 to 25",
+ "twist": "Day one already reached 17.21 lakh children, 95.6% of the five-district target.",
+ "areas": [
+  "Hyderabad",
+  "Secunderabad",
+  "Old City"
+ ],
+ "layer": "city"
+}

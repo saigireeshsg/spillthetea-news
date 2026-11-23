@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-94",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "transport",
+ "hook": "*Seven years* of pillars, no bridge: Malakpet's Metro-rail link waits",
+ "hook_b": "*Seven years* of pillars, no bridge: Malakpet's Metro-rail link waits",
+ "tldr": "Residents say a foot overbridge linking Malakpet Metro station to the railway station near Sri Krupa Market is still in limbo seven years after its pillars went up.",
+ "beats": {
+  "what": "The planned bridge would add stairs, an escalator and a lift on railway land, giving the Metro station a second entry.",
+  "why": "The station has one entry with stairs and an often broken escalator, and no lift, residents told TOI.",
+  "care": "If you change between Metro and train at Malakpet, you still take the longer road route between the two stations."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚉",
+    "label": "Bridge needs railway land"
+   }
+  ],
+  "event": {
+   "icon": "🌉",
+   "label": "Footbridge stuck for 7 years"
+  },
+  "effects": [
+   {
+    "icon": "🚶",
+    "label": "No lift at Metro entry"
+   },
+   {
+    "icon": "🚶",
+    "label": "Longer walk between stations"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "GHMC officials did not respond to TOI; residents say departments cite pending approvals and poor coordination."
+  },
+  {
+   "k": "poll",
+   "vt": "experience",
+   "q": "How do you get between Malakpet Metro and the railway station?",
+   "opts": [
+    "Walk the long way",
+    "Auto or bus",
+    "Never use both",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who owns the delay when a project crosses Metro, GHMC and railway land?",
+    "Do other busy Metro stations have second entries?"
+   ],
+   "facts": [
+    {
+     "big": "1",
+     "t": "Malakpet Metro has *one* entry on this side, with no lift.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/seven-years-on-malakpet-commuters-still-await-metro-rail-footbridge/articleshow/136082832.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Malakpet footbridge so far",
+   "now": 1,
+   "steps": [
+    {
+     "t": "~2019",
+     "e": "Pillars erected"
+    },
+    {
+     "t": "Now",
+     "e": "RTI: awaiting Railway Board nod"
+    },
+    {
+     "t": "Next",
+     "e": "Clearance, then stairs, escalator, lift"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A link between two stations still waiting on approvals"
+  },
+  {
+   "t": "big",
+   "v": "7 years",
+   "l": "Pillars waiting for a bridge"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "7 years",
+  "label": "Pillars waiting for a bridge",
+  "motion": "drift",
+  "scene": [
+   "🚉",
+   "🌉",
+   "🚶"
+  ]
+ },
+ "learn": {
+  "t": "FOB = foot overbridge, a pedestrian bridge over a road or track"
+ },
+ "watch": "Railway Board clearance; the railway station is also being redeveloped under the Amrit Bharat scheme.",
+ "thread": "hyd-malakpet-metro-rail-footbridge-7-years-pillars-railway-board-clearance",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Seven years on, Malakpet commuters still await Metro-rail footbridge",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/seven-years-on-malakpet-commuters-still-await-metro-rail-footbridge/articleshow/136082832.cms"
+  }
+ ],
+ "updated": 1795417819628,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136082830,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Malakpet's Metro-to-railway footbridge pillars have stood unfinished for *seven years*",
+ "twist": "An RTI reply shows the file is stuck awaiting Railway Board clearance in Delhi.",
+ "areas": [
+  "Malakpet",
+  "Dilsukhnagar"
+ ],
+ "layer": "near"
+}

@@ -1,0 +1,149 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-97",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "*Singur* dam, a Hyderabad water source, drops below 2 TMC ft",
+ "hook_b": "*Singur* dam, a Hyderabad water source, drops below 2 TMC ft",
+ "tldr": "Singur reservoir, which supplies drinking water to Hyderabad, erstwhile Medak and Nizamabad, has fallen below 2 TMC ft for the first time in six years.",
+ "beats": {
+  "what": "Storage stood at 1.95 TMC ft on Monday against a full capacity of 29.91 TMC ft, after the project received only 3.56 TMC ft this year.",
+  "why": "Poor rain in the Manjeera catchment, and storage capped at 16 TMC ft last year on dam safety panel advice for repairs.",
+  "care": "HMWSSB officials say the water left is hardly enough for another fortnight of drinking water needs."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Poor rain in Manjeera catchment"
+   }
+  ],
+  "event": {
+   "icon": "💧",
+   "label": "Singur below 2 TMC ft"
+  },
+  "effects": [
+   {
+    "icon": "🚰",
+    "label": "About a fortnight of supply left"
+   },
+   {
+    "icon": "🚰",
+    "label": "Switch to other sources"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "HMWSSB will stop drawing from Singur at 0.8 TMC ft, the dead storage level, and switch to other sources."
+  },
+  {
+   "k": "poll",
+   "vt": "experience",
+   "q": "Has your area's water supply changed in the last month?",
+   "opts": [
+    "Less water",
+    "Same as usual",
+    "More tankers needed",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which other reservoirs will Hyderabad lean on if Singur stops?",
+    "How often has Singur hit dead storage before?"
+   ],
+   "facts": [
+    {
+     "big": "2018-20",
+     "t": "Singur also touched dead storage in *2018-19 and 2019-20*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/singur-storage-touches-rock-bottom-at-below-2-tmc-ft-e1f26829"
+    },
+    {
+     "big": "16 TMC",
+     "t": "Storage was capped at *16 TMC ft* on dam safety panel advice for repairs.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/singur-storage-touches-rock-bottom-at-below-2-tmc-ft-e1f26829"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Water flowing into Singur",
+   "a": {
+    "v": 237,
+    "d": "237 TMC ft",
+    "l": "2025"
+   },
+   "b": {
+    "v": 3.56,
+    "d": "3.56 TMC ft",
+    "l": "2026"
+   },
+   "goodIfUp": true,
+   "tone": "bad",
+   "verdict": "Far less water reached the dam this year, less for city taps"
+  },
+  {
+   "t": "meter",
+   "l": "Storage vs full capacity (29.91 TMC ft)",
+   "v": 1.95,
+   "max": 29.91,
+   "unit": " TMC ft",
+   "tone": "bad",
+   "verdict": "The reservoir is about 7% full"
+  },
+  {
+   "t": "big",
+   "v": "1.95 TMC ft",
+   "l": "Singur storage on Monday"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "1.95 TMC ft",
+  "label": "Singur storage on Monday",
+  "motion": "drift",
+  "scene": [
+   "🌧️",
+   "💧",
+   "🚰"
+  ]
+ },
+ "learn": {
+  "t": "TMC ft = thousand million cubic feet, the unit for reservoir water"
+ },
+ "watch": "HMWSSB stops drawing at 0.8 TMC ft; officials expected about 1 TMC ft by end-December.",
+ "thread": "hyd-singur-reservoir-below-2-tmc-first-in-six-years-fortnight-drinking-water",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Singur reservoir storage falls below 2 TMC ft for first time in six years",
+   "url": "https://telanganatoday.com/singur-storage-touches-rock-bottom-at-below-2-tmc-ft-e1f26829"
+  }
+ ],
+ "updated": 1795417819628,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/singur-storage-touches-rock-bottom-at-below-2-tmc-ft-e1f26829-ecb9d2c9.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Singur reservoir fell to *1.95 TMC ft*, its lowest in six years",
+ "twist": "Last year it got its heaviest inflow in 29 years, 237 TMC ft; this year just 3.56.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}
