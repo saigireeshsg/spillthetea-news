@@ -1,0 +1,156 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-93",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "weather",
+ "hook": "Isolated *rain* possible in Telangana Tue-Wed, dry from Nov 26",
+ "hook_b": "Isolated *rain* possible in Telangana Tue-Wed, dry from Nov 26",
+ "tldr": "IMD forecasts light to moderate rain or thundershowers at isolated places in Telangana on Tuesday and Wednesday, with dry weather back from Nov 26.",
+ "beats": {
+  "what": "Hyderabad will see partly cloudy skies with morning mist or haze; max around 33°C, min 20°C Tuesday and 19°C Wednesday.",
+  "why": "A trough in easterlies over the Bay of Bengal to north-coastal Andhra Pradesh has become less marked.",
+  "care": "Morning mist can cut visibility on commutes; carry an umbrella just in case on Tue-Wed."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌊",
+    "label": "Bay of Bengal trough weakens"
+   }
+  ],
+  "event": {
+   "icon": "🌦️",
+   "label": "Isolated showers Tue-Wed"
+  },
+  "effects": [
+   {
+    "icon": "🌫️",
+    "label": "Misty, hazy mornings"
+   },
+   {
+    "icon": "🌫️",
+    "label": "Dry again from Nov 26"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Monday was dry: city max 32.6°C, min 20.6°C, 76% humidity. Patancheru was coolest at 18.2°C."
+  },
+  {
+   "k": "poll",
+   "vt": "experience",
+   "q": "Will you carry an umbrella tomorrow?",
+   "opts": [
+    "Yes",
+    "No",
+    "Already do daily",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will the morning mist slow traffic on ORR and highways?",
+    "Is this the last rain of the season?"
+   ],
+   "facts": [
+    {
+     "big": "18.2°C",
+     "t": "Patancheru was the coolest GHMC-map spot on Monday at *18.2°C*.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/isolated-rain-likely-in-telangana-on-nov-24-25-imd/articleshow/136099245.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Telangana weather this week",
+   "steps": [
+    {
+     "t": "Mon Nov 23",
+     "e": "Dry, max 32.6°C"
+    },
+    {
+     "t": "Tue Nov 24",
+     "e": "Isolated light rain, min ~20°C"
+    },
+    {
+     "t": "Wed Nov 25",
+     "e": "Isolated light rain, min ~19°C"
+    },
+    {
+     "t": "Thu Nov 26",
+     "e": "Dry weather returns"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A short wet window, then dry"
+  },
+  {
+   "t": "compare",
+   "l": "Hyderabad minimum temperature",
+   "a": {
+    "v": 20,
+    "d": "20°C",
+    "l": "Tue"
+   },
+   "b": {
+    "v": 19,
+    "d": "19°C",
+    "l": "Wed"
+   },
+   "tone": "neutral",
+   "verdict": "Nights cool slightly through the week"
+  },
+  {
+   "t": "big",
+   "v": "Nov 24-25",
+   "l": "Isolated rain window"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 24-25",
+  "label": "Isolated rain window",
+  "motion": "drift",
+  "scene": [
+   "🌊",
+   "🌦️",
+   "🌫️"
+  ]
+ },
+ "watch": "IMD says dry weather returns from Nov 26 with no warnings for seven days.",
+ "thread": "hyd-isolated-rain-nov-24-25-imd-dry-from-nov-26",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Isolated rain likely in Telangana on Nov 24, 25: IMD",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/isolated-rain-likely-in-telangana-on-nov-24-25-imd/articleshow/136099245.cms"
+  }
+ ],
+ "updated": 1795435060609,
+ "fact": "IMD says isolated light rain may hit Telangana on *Nov 24-25*",
+ "twist": "No weather warning is issued for the state for the next seven days.",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136099244,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "layer": "city",
+ "areas": [
+  "Hyderabad",
+  "Patancheru",
+  "Begumpet"
+ ]
+}

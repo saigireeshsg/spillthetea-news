@@ -1,0 +1,142 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-78",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "Free cancer drugs allegedly sold to *15,000+* patients, Telangana too",
+ "hook_b": "Free cancer drugs allegedly sold to *15,000+* patients, Telangana too",
+ "tldr": "A Karnataka SIT says a racket diverted free cancer medicines from the Karnataka government and companies and sold them at high prices in six states, including Telangana.",
+ "beats": {
+  "what": "The accused allegedly hid a scheme where buying two injections worth about Rs 5 lakh got a third free, and sold the free dose too.",
+  "why": "It allegedly ran through private hospitals and pharmacy outlets, mainly in South India.",
+  "care": "Cancer patients' families: ask your hospital in writing about free-dose schemes before paying."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💊",
+    "label": "Free drugs diverted"
+   }
+  ],
+  "event": {
+   "icon": "🕵️",
+   "label": "Racket across 6 states"
+  },
+  "effects": [
+   {
+    "icon": "🏥",
+    "label": "Patients paid full price"
+   },
+   {
+    "icon": "🏥",
+    "label": "SIT tracing supply chain"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The alleged kingpin has been taken into Delhi Police custody in a separate Rs 2 crore cheating case."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should hospitals have to display free-drug schemes to patients?",
+   "opts": [
+    "Yes",
+    "No",
+    "Already enough rules",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How can patients check whether a drug they paid for was meant to be free?"
+   ],
+   "facts": [
+    {
+     "big": "Rs 5 lakh",
+     "t": "Two injections cost about *Rs 5 lakh*; a third was supposed to be free.",
+     "s": "Telangana Today (IANS)",
+     "u": "https://telanganatoday.com/free-cancer-medicines-allegedly-sold-at-high-prices-over-15000-patients-cheated-across-six-states-including-telangana-andhra"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the alleged scam worked",
+   "steps": [
+    {
+     "t": "Step 1",
+     "e": "Free doses from govt and firms diverted"
+    },
+    {
+     "t": "Step 2",
+     "e": "Buy-2-get-1-free offer hidden from patients"
+    },
+    {
+     "t": "Step 3",
+     "e": "Free dose sold at market price"
+    },
+    {
+     "t": "Step 4",
+     "e": "Unused doses bought back cheap, resold"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Patients allegedly paid for medicine meant to be free"
+  },
+  {
+   "t": "icons",
+   "l": "States where patients were affected",
+   "of": 6,
+   "tone": "bad",
+   "verdict": "AP, Karnataka, Kerala, Telangana, Tamil Nadu, Himachal",
+   "n": 6
+  },
+  {
+   "t": "big",
+   "v": "15,000+",
+   "l": "Patients allegedly cheated"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "15,000+",
+  "label": "Patients allegedly cheated",
+  "motion": "drift",
+  "scene": [
+   "💊",
+   "🕵️",
+   "🏥"
+  ]
+ },
+ "watch": "The SIT is working out how many injections were diverted and the money trail.",
+ "thread": "in-cancer-drug-racket-free-medicines-sold-15000-patients-six-states-telangana",
+ "sources": [
+  {
+   "name": "Telangana Today (IANS)",
+   "title": "Free cancer medicines allegedly sold at high prices, over 15,000 patients cheated across six states including Telangana, Andhra",
+   "url": "https://telanganatoday.com/free-cancer-medicines-allegedly-sold-at-high-prices-over-15000-patients-cheated-across-six-states-including-telangana-andhra"
+  }
+ ],
+ "updated": 1795435060610,
+ "fact": "Free cancer medicines were allegedly sold to over *15,000* patients in six states",
+ "twist": "When a patient died, the gang allegedly bought back unused injections cheap and resold them at full price.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Free-cancer-medicines-allegedly-sold-at-high-prices-over-15-000-patients-cheated-across-six-states-including-Telangana-Andhra.jpg",
+  "c": "Telangana Today"
+ },
+ "layer": "india"
+}

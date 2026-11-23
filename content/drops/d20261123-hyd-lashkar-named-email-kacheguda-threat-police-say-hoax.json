@@ -41,7 +41,7 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "Police urged people not to believe or spread rumours and said they do not want anybody to panic."
+   "body": "Update: the sender used a Europe-based VPN and a temporary email account, which has complicated tracing, The Hindu reports. No explosives were found in anti-sabotage checks."
   },
   {
    "k": "poll",
@@ -72,6 +72,12 @@
      "t": "The email gave *no date* for the threatened explosions.",
      "s": "Hindustan Times",
      "u": "https://www.hindustantimes.com/india-news/hyderabad-gets-terror-threat-from-let-named-email-in-retaliation-for-lateef-bhat-s-killing-101795361107231.html"
+    },
+    {
+     "big": "VPN",
+     "t": "The sender hid behind a *Europe-based VPN* and a temporary email account.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-bomb-threat-email-sender-used-vpn-temporary-email-account/article71733944.ece"
     }
    ]
   }
@@ -122,7 +128,7 @@
    "🔍"
   ]
  },
- "watch": "Cyber Crime Police are tracing the email's origin and checking whether it is genuinely linked to LeT.",
+ "watch": "Cyber Crime teams are analysing the email's digital trail; the VPN and temporary account slow tracing.",
  "thread": "hyd-lashkar-named-email-kacheguda-threat-police-say-hoax",
  "sources": [
   {
@@ -134,9 +140,14 @@
    "name": "Hindustan Times",
    "title": "Hyderabad on high alert after email from 'LeT operatives' warns of terror attacks",
    "url": "https://www.hindustantimes.com/india-news/hyderabad-gets-terror-threat-from-let-named-email-in-retaliation-for-lateef-bhat-s-killing-101795361107231.html"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Hyderabad bomb threat email sender used Europe-based VPN, temporary email account",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-bomb-threat-email-sender-used-vpn-temporary-email-account/article71733944.ece"
   }
  ],
- "updated": 1795395503190,
+ "updated": 1795434986577,
  "img": {
   "u": "https://www.hindustantimes.com/ht-img/img/2026/11/22/1600x900/logo/The-email-warned-of-attacks-in-retaliation-for-the_1795361099148_HEiX.jpg",
   "c": "Hindustan Times"

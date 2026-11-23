@@ -1,0 +1,134 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-95",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "holidays",
+ "hook": "Tomorrow is a *holiday*: schools, colleges, offices shut in Telangana",
+ "hook_b": "Tomorrow is a *holiday*: schools, colleges, offices shut in Telangana",
+ "tldr": "Telangana and Andhra Pradesh close schools, colleges and offices on Tuesday, Nov 24, for Kartika Purnima and Guru Nanak Jayanti.",
+ "beats": {
+  "what": "The holiday is for Kartika Purnima and Guru Nanak Jayanti, per the state holiday calendar.",
+  "why": "Both festivals fall on the same day this year.",
+  "care": "Plan errands: government offices are closed; check with your school, college or employer."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪔",
+    "label": "Kartika Purnima + Guru Nanak Jayanti"
+   }
+  ],
+  "event": {
+   "icon": "🏫",
+   "label": "Holiday Tuesday Nov 24"
+  },
+  "effects": [
+   {
+    "icon": "📅",
+    "label": "Schools, colleges shut"
+   },
+   {
+    "icon": "📅",
+    "label": "Government offices closed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "With five Sundays and the second Saturday, November has seven scheduled holidays."
+  },
+  {
+   "k": "poll",
+   "vt": "experience",
+   "q": "What's your plan for the Nov 24 holiday?",
+   "opts": [
+    "Temple or gurdwara visit",
+    "Rest at home",
+    "Work anyway",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Do private offices in your area follow the state holiday?"
+   ],
+   "facts": [
+    {
+     "big": "Nov 8",
+     "t": "Diwali fell on *Sunday, Nov 8*, so it gave no separate day off.",
+     "s": "The Hans India",
+     "u": "https://www.thehansindia.com/andhra-pradesh/ap-telangana-festival-holidays-in-november-2026-dates-and-school-closures-1138116"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "November's 7 scheduled holidays",
+   "parts": [
+    {
+     "l": "Sundays",
+     "v": 5
+    },
+    {
+     "l": "Second Saturday",
+     "v": 1
+    },
+    {
+     "l": "Nov 24 festival",
+     "v": 1
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Only one is an extra weekday off"
+  },
+  {
+   "t": "big",
+   "v": "Nov 24",
+   "l": "Holiday in Telangana"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 24",
+  "label": "Holiday in Telangana",
+  "motion": "drift",
+  "scene": [
+   "🪔",
+   "🏫",
+   "📅"
+  ]
+ },
+ "watch": "Expect crowds at temples and gurdwaras through the day.",
+ "thread": "tg-holiday-nov-24-kartika-purnima-guru-nanak-jayanti-schools-offices-shut",
+ "sources": [
+  {
+   "name": "The Hans India",
+   "title": "AP, Telangana festival holidays in November 2026: dates and school closures",
+   "url": "https://www.thehansindia.com/andhra-pradesh/ap-telangana-festival-holidays-in-november-2026-dates-and-school-closures-1138116"
+  }
+ ],
+ "updated": 1795435060610,
+ "fact": "Schools, colleges and offices in Telangana close *Tuesday, Nov 24* for festivals",
+ "twist": "It's November's only extra weekday off: Diwali fell on a Sunday this year.",
+ "img": {
+  "u": "https://assets.thehansindia.com/h-upload/2026/11/01/1719948-november-2026-calendar.jpg",
+  "c": "The Hans India"
+ },
+ "layer": "state",
+ "areas": [
+  "Hyderabad",
+  "Secunderabad"
+ ]
+}

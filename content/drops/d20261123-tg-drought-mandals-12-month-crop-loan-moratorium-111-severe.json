@@ -1,0 +1,135 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "farmers",
+ "hook": "Telangana asks banks for a *12-month* pause on drought-hit crop loans",
+ "hook_b": "Telangana asks banks for a *12-month* pause on drought-hit crop loans",
+ "tldr": "The state has asked banks to give a 12-month moratorium and stretch repayment to 60 months for borrowers in 111 severely drought-hit mandals.",
+ "beats": {
+  "what": "For 254 moderately affected mandals, it seeks a 12-month moratorium and a 36-month repayment extension.",
+  "why": "Telangana declared 365 mandals drought-affected, 111 of them severely.",
+  "care": "Farm families in these mandals could get breathing room on loans; borrowers can opt out within 135 days of the Oct 24 declaration."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌾",
+    "label": "Drought in 365 mandals"
+   }
+  ],
+  "event": {
+   "icon": "🏦",
+   "label": "State seeks loan moratorium"
+  },
+  "effects": [
+   {
+    "icon": "⏳",
+    "label": "Repayment up to 60 months"
+   },
+   {
+    "icon": "⏳",
+    "label": "Fresh need-based loans"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The SLBC, chaired by Deputy CM Mallu Bhatti Vikramarka, also resolved to give extra need-based loans to eligible farmers."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Is a loan pause the right kind of drought relief?",
+   "opts": [
+    "Yes",
+    "Need more than this",
+    "Not enough info",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many farmers in the 111 mandals carry crop loans?",
+    "Will banks act before the 135-day window ends?"
+   ],
+   "facts": [
+    {
+     "big": "135 days",
+     "t": "Borrowers can opt out of the plan till *135 days* from the Oct 24 calamity declaration.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/telangana-govt-seeks-12-month-gap-in-crop-loan-repayment-for-farmers-in-drought-hit-mandals/article71734148.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "Drought-hit mandals by severity",
+   "parts": [
+    {
+     "l": "Severe (60-month repayment)",
+     "v": 111
+    },
+    {
+     "l": "Moderate (+36 months)",
+     "v": 254
+    }
+   ],
+   "tone": "bad",
+   "verdict": "365 mandals hit; relief depends on severity"
+  },
+  {
+   "t": "big",
+   "l": "Proposed total repayment, severe mandals",
+   "v": "60 months"
+  },
+  {
+   "t": "big",
+   "v": "365",
+   "l": "Drought-affected mandals"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "365",
+  "label": "Drought-affected mandals",
+  "motion": "drift",
+  "scene": [
+   "🌾",
+   "🏦",
+   "⏳"
+  ]
+ },
+ "learn": {
+  "t": "SLBC = State Level Bankers Committee, which coordinates banks in a state"
+ },
+ "watch": "SLBC wants the Centre to extend interest subvention on rescheduled crop loans till repayment ends.",
+ "thread": "tg-drought-mandals-12-month-crop-loan-moratorium-111-severe",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana govt seeks 12-month gap in crop loan repayment for farmers in drought-hit mandals",
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-govt-seeks-12-month-gap-in-crop-loan-repayment-for-farmers-in-drought-hit-mandals/article71734148.ece"
+  }
+ ],
+ "updated": 1795435060610,
+ "fact": "Telangana wants banks to pause crop loans for *12 months* in drought mandals",
+ "twist": "Banks are asked to find eligible accounts themselves, without waiting for farmers to apply.",
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/jh09n5/article71734275.ece/alternates/LANDSCAPE_1200/Maize%20%2009.jpg",
+  "c": "The Hindu"
+ },
+ "layer": "state"
+}

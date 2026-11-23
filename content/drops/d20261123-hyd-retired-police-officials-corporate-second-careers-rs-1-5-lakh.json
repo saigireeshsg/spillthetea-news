@@ -1,0 +1,133 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-70",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "work",
+ "hook": "Retired Hyderabad cops get *Rs 1.5 lakh*-a-month corporate jobs",
+ "hook_b": "Retired Hyderabad cops get *Rs 1.5 lakh*-a-month corporate jobs",
+ "tldr": "Real estate, finance, security, education and healthcare firms are hiring retired police officials for second careers, Telangana Today reports.",
+ "beats": {
+  "what": "They handle negotiations, dues recovery, pilferage prevention and internal issues; IG-rank and above are hired as advisers.",
+  "why": "Employers value their administrative, law-and-order and crisis experience and their contact networks, HR managers say.",
+  "care": "It shows which skills companies pay for: crisis handling, negotiation and networks."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "👮",
+    "label": "Firms want crisis and admin skills"
+   }
+  ],
+  "event": {
+   "icon": "🏢",
+   "label": "Retired cops go corporate"
+  },
+  "effects": [
+   {
+    "icon": "💼",
+    "label": "Offers before retirement"
+   },
+   {
+    "icon": "💼",
+    "label": "Advisers on sensitive matters"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "A former ACP now works as a legal consultant for a real estate company."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should retired officers face a cooling-off period before corporate jobs?",
+   "opts": [
+    "Yes",
+    "No",
+    "Only senior ranks",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What rules apply to retired officers taking private jobs?"
+   ],
+   "facts": [
+    {
+     "big": "3",
+     "t": "One retired DSP got *3* company offers before superannuation.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/retired-police-officials-find-corporate-jobs-cf8d8ae0"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the move happens",
+   "steps": [
+    {
+     "t": "Months before retirement",
+     "e": "Companies approach officers"
+    },
+    {
+     "t": "Retirement",
+     "e": "Officer picks an offer"
+    },
+    {
+     "t": "New role",
+     "e": "Recovery, security, legal, advisory"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Hiring starts before officers leave service"
+  },
+  {
+   "t": "big",
+   "v": "Rs 1.5 lakh+",
+   "l": "Monthly pay some draw"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Rs 1.5 lakh+",
+  "label": "Monthly pay some draw",
+  "motion": "drift",
+  "scene": [
+   "👮",
+   "🏢",
+   "💼"
+  ]
+ },
+ "watch": "Watch which sectors keep hiring: real estate and security lead the list.",
+ "thread": "hyd-retired-police-officials-corporate-second-careers-rs-1-5-lakh",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Retired Hyderabad police officials land corporate jobs with salaries of Rs 1.5 lakh and more",
+   "url": "https://telanganatoday.com/retired-police-officials-find-corporate-jobs-cf8d8ae0"
+  }
+ ],
+ "updated": 1795435060610,
+ "fact": "Retired Hyderabad cops are landing corporate roles paying *Rs 1.5 lakh+* a month",
+ "twist": "Firms now approach officers months before retirement; one DSP had three offers before superannuation.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/retired-police-officials-find-corporate-jobs-cf8d8ae0-6de8171a.jpg",
+  "c": "Telangana Today"
+ },
+ "layer": "city",
+ "areas": [
+  "Hyderabad"
+ ]
+}

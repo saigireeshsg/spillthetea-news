@@ -1,0 +1,145 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "policing",
+ "hook": "Telangana pays *Rs 5.59 crore* to 214 surrendered Maoists",
+ "hook_b": "Telangana pays *Rs 5.59 crore* to 214 surrendered Maoists",
+ "tldr": "DGP C.V. Anand released pending cash rewards to 214 former CPI (Maoist) members under the state's surrender and rehabilitation policy.",
+ "beats": {
+  "what": "Total cash rewards released so far reach Rs 17.68 crore for 659 cadres; Rs 22.31 crore is sanctioned for 755.",
+  "why": "The policy aims to bring surrendered cadres back into mainstream life with cash, health cards and house sites.",
+  "care": "Police also seized 252 firearms, including 48 AK-47s, from surrendered cadres and dumps in the Karreguttalu hills."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📜",
+    "label": "Surrender and rehabilitation policy"
+   }
+  ],
+  "event": {
+   "icon": "💰",
+   "label": "Rs 5.59 cr released"
+  },
+  "effects": [
+   {
+    "icon": "🏠",
+    "label": "Health cards at NIMS"
+   },
+   {
+    "icon": "🏠",
+    "label": "House sites for natives"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Rewards for 96 more cadres will be released once Aadhaar and bank details come in."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should surrender rewards be paid faster?",
+   "opts": [
+    "Yes",
+    "No",
+    "Depends on case",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What happens to cadres who have no Aadhaar or bank account?"
+   ],
+   "facts": [
+    {
+     "big": "754",
+     "t": "*754* of the 824 surrendered cadres are from Chhattisgarh.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-disburses-rs-5-59-crore-to-surrendered-maoists-92c6c72d"
+    },
+    {
+     "big": "10 of 59",
+     "t": "House sites are allotted to *10* of 59 Telangana natives so far.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/telangana-disburses-rs-5-59-crore-to-surrendered-maoists-92c6c72d"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "Surrendered cadres by year",
+   "parts": [
+    {
+     "l": "2024",
+     "v": 49
+    },
+    {
+     "l": "2025",
+     "v": 509
+    },
+    {
+     "l": "2026",
+     "v": 266
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Most surrenders came in 2025"
+  },
+  {
+   "t": "meter",
+   "l": "Cash rewards released vs sanctioned",
+   "v": 17.68,
+   "max": 22.31,
+   "unit": " cr",
+   "tone": "neutral",
+   "verdict": "About 79% of sanctioned rewards paid so far"
+  },
+  {
+   "t": "big",
+   "v": "824",
+   "l": "Cadres surrendered since Jan 2024"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "824",
+  "label": "Cadres surrendered since Jan 2024",
+  "motion": "drift",
+  "scene": [
+   "📜",
+   "💰",
+   "🏠"
+  ]
+ },
+ "watch": "Three senior Telangana Maoist leaders, including Ganapathi, remain underground, police say.",
+ "thread": "tg-surrendered-maoists-rs-5-59-crore-rewards-824-since-2024",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana Police release Rs 5.59 crore in pending rewards to 214 surrendered Maoist cadres",
+   "url": "https://telanganatoday.com/telangana-disburses-rs-5-59-crore-to-surrendered-maoists-92c6c72d"
+  }
+ ],
+ "updated": 1795435060610,
+ "fact": "Telangana Police paid *Rs 5.59 crore* in pending rewards to 214 surrendered Maoists",
+ "twist": "Of 824 who surrendered since 2024, 754 are from Chhattisgarh; only 59 are from Telangana.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/telangana-disburses-rs-5-59-crore-to-surrendered-maoists-92c6c72d-06ae388c.jpg",
+  "c": "Telangana Today"
+ },
+ "layer": "state"
+}

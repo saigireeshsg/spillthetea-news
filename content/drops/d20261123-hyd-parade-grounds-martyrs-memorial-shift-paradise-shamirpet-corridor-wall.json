@@ -1,0 +1,143 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-23",
+ "sort": "2026-11-23-90",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Parade Grounds wall work speeds up for *18-km* Shamirpet flyover",
+ "hook_b": "Parade Grounds wall work speeds up for *18-km* Shamirpet flyover",
+ "tldr": "HMDA has sped up a retaining wall near the Martyrs' Memorial at Parade Grounds for the Paradise-Shamirpet elevated corridor on Rajiv Rahdari.",
+ "beats": {
+  "what": "HMDA is relocating two memorials, the WWII memorial and Veerula Sainik Smarak, after Cantonment Board approval; land up to 20 m from the road is being acquired.",
+  "why": "The six-lane corridor is meant to bypass bottlenecks at Karkhana, Trimulghery, Bolarum, Alwal, Hakimpet and more.",
+  "care": "Expect construction slowdowns on the Paradise-Gymkhana-Shamirpet stretch while works run."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚗",
+    "label": "Jams on Secunderabad-Shamirpet stretch"
+   }
+  ],
+  "event": {
+   "icon": "🏗️",
+   "label": "Memorial shift, wall work"
+  },
+  "effects": [
+   {
+    "icon": "🌳",
+    "label": "Trees and lawns cleared"
+   },
+   {
+    "icon": "🌳",
+    "label": "Bypass for Alwal, Bolarum"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The new memorial platform is due by December; the new Rs 5 crore memorial is set for March-April 2027."
+  },
+  {
+   "k": "poll",
+   "vt": "experience",
+   "q": "How bad is your commute on Rajiv Rahdari right now?",
+   "opts": [
+    "Very slow",
+    "Manageable",
+    "I avoid it",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which junctions on the stretch will change during construction?",
+    "Where will the cleared trees be compensated?"
+   ],
+   "facts": [
+    {
+     "big": "6 lanes",
+     "t": "The corridor is *six-lane*, Paradise Junction to ORR Shamirpet.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/retaining-wall-work-gathers-pace-at-parade-grounds-as-080ad033"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Parade Grounds memorial shift",
+   "steps": [
+    {
+     "t": "Now",
+     "e": "Retaining wall works speed up"
+    },
+    {
+     "t": "Dec 2026",
+     "e": "New memorial platform ready"
+    },
+    {
+     "t": "Mar-Apr 2027",
+     "e": "Rs 5 cr memorial installed"
+    },
+    {
+     "t": "~24 months",
+     "e": "Elevated corridor target"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Works will run for about two years"
+  },
+  {
+   "t": "big",
+   "v": "Rs 2,232 cr",
+   "l": "Corridor cost"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Rs 2,232 cr",
+  "label": "Corridor cost",
+  "motion": "drift",
+  "scene": [
+   "🚗",
+   "🏗️",
+   "🌳"
+  ]
+ },
+ "watch": "Corridor is targeted for completion within 24 months.",
+ "thread": "hyd-parade-grounds-martyrs-memorial-shift-paradise-shamirpet-corridor-wall",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Retaining wall work speeds up near Martyrs' Memorial at Secunderabad Parade Grounds",
+   "url": "https://telanganatoday.com/retaining-wall-work-gathers-pace-at-parade-grounds-as-080ad033"
+  }
+ ],
+ "updated": 1795435060610,
+ "fact": "Secunderabad's Martyrs' Memorial will move for an *18.18-km* elevated corridor",
+ "twist": "Decades-old trees and landscaped lawns near the memorial were cleared for the retaining wall.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/retaining-wall-work-gathers-pace-at-parade-grounds-as-080ad033-c4e6c2e3.jpg",
+  "c": "Telangana Today"
+ },
+ "layer": "near",
+ "areas": [
+  "Secunderabad",
+  "Paradise",
+  "Trimulghery",
+  "Bolarum",
+  "Alwal",
+  "Shamirpet"
+ ]
+}
