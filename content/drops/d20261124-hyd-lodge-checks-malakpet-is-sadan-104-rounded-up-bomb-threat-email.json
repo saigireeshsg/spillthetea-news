@@ -1,0 +1,157 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-88",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "Midnight lodge checks: *104* people rounded up in Malakpet, IS Sadan",
+ "hook_b": "Midnight lodge checks: *104* people rounded up in Malakpet, IS Sadan",
+ "tldr": "Police searched lodges and hotels in Malakpet and IS Sadan on Monday night and checked guests' ID papers, three days after Hyderabad Police got a bomb-threat email.",
+ "beats": {
+  "what": "Malakpet police checked 10 lodges from 10.30 pm to 2 am and rounded up 54 people; IS Sadan police checked six lodges and rounded up 50.",
+  "why": "Hyderabad Police received a threatening email on November 21 and tightened security across the city.",
+  "care": "Police say hotels, lodges and other stays across the city are under watch, and owners must keep proper guest records."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📧",
+    "label": "Threat email on Nov 21"
+   }
+  ],
+  "event": {
+   "icon": "🚔",
+   "label": "Overnight lodge and hotel checks"
+  },
+  "effects": [
+   {
+    "icon": "🏨",
+    "label": "Guests' ID papers checked"
+   },
+   {
+    "icon": "🏨",
+    "label": "One lodge booked for liquor"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "One Malakpet lodge was booked for selling liquor. Police have not officially disclosed what the email said."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Have you noticed extra security checks near you this week?",
+   "opts": [
+    "Yes, a lot",
+    "A little",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What records must lodges keep on guests?",
+    "How long will the city-wide watch on stays continue?"
+   ],
+   "facts": [
+    {
+     "big": "10",
+     "t": "Malakpet police checked *10 lodges*; one was booked for selling liquor.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/lodges-hotels-under-scanner-amid-26-11-style-bomb-threat-in-hyderabad-3585261/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "People rounded up, by station",
+   "parts": [
+    {
+     "l": "Malakpet",
+     "v": 54
+    },
+    {
+     "l": "IS Sadan",
+     "v": 50
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Malakpet checked 10 lodges, IS Sadan six; nothing suspicious found in IS Sadan"
+  },
+  {
+   "t": "timeline",
+   "l": "How the checks unfolded",
+   "steps": [
+    {
+     "t": "Nov 21",
+     "e": "Police receive threat email"
+    },
+    {
+     "t": "Nov 23, 10.30 pm",
+     "e": "Checks begin in both limits"
+    },
+    {
+     "t": "Midnight",
+     "e": "IS Sadan checks end"
+    },
+    {
+     "t": "2 am",
+     "e": "Malakpet checks end"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "104",
+   "l": "people rounded up in two station limits"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "104",
+  "label": "people rounded up in two station limits",
+  "motion": "drift",
+  "scene": [
+   "📧",
+   "🚔",
+   "🏨"
+  ]
+ },
+ "learn": {
+  "t": "SHO = Station House Officer, the officer in charge of a police station"
+ },
+ "watch": "Whether police share what the November 21 email said, and whether checks widen to other station limits.",
+ "thread": "hyd-lodge-checks-malakpet-is-sadan-104-rounded-up-bomb-threat-email",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Lodges, hotels under scanner amid 26/11-style bomb threat in Hyderabad",
+   "url": "https://www.siasat.com/lodges-hotels-under-scanner-amid-26-11-style-bomb-threat-in-hyderabad-3585261/"
+  }
+ ],
+ "updated": 1795504271732,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Untitled-Design-2026-11-24T113057.049.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Police checked *16 lodges* overnight in Malakpet and IS Sadan after a threat email",
+ "twist": "In IS Sadan, the inspector said guests were in town for office work or college admissions; nothing suspicious was found.",
+ "areas": [
+  "Malakpet",
+  "IS Sadan",
+  "Kacheguda"
+ ],
+ "layer": "near"
+}

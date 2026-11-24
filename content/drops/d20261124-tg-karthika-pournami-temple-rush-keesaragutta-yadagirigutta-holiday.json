@@ -1,0 +1,134 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "culture",
+ "hook": "Karthika Pournami: queues from *4 am* at Yadagirigutta, Shiva temples packed",
+ "hook_b": "Karthika Pournami: queues from *4 am* at Yadagirigutta, Shiva temples packed",
+ "tldr": "Thousands of devotees queued at Shiva temples in Hyderabad and nearby districts on Tuesday for Karthika Pournami, the holiest full moon of Karthika Masam.",
+ "beats": {
+  "what": "Keesaragutta Sri Ramalingeswara Swamy Temple and neighbourhood Shivalayams saw an unbroken stream of devotees lighting deepams and doing abhishekams.",
+  "why": "Karthika Pournami is the holiest full-moon day of the Karthika month.",
+  "care": "Expect crowds and traffic around Keesaragutta, Vemulawada, Yadagirigutta, Kaleshwaram and the Thousand Pillar Temple today."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌕",
+    "label": "Holiest full moon of Karthika Masam"
+   }
+  ],
+  "event": {
+   "icon": "🪔",
+   "label": "Heavy rush at Shiva temples"
+  },
+  "effects": [
+   {
+    "icon": "🛕",
+    "label": "Crowds at Keesaragutta, Yadagirigutta"
+   },
+   {
+    "icon": "🛕",
+    "label": "Barricades, extra volunteers"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Temple managements added volunteers, barricades and drinking water points for the rush."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How are you spending today's holiday?",
+   "opts": [
+    "Temple visit",
+    "Out with friends",
+    "Resting at home",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which temple near you draws the biggest Karthika crowd?"
+   ],
+   "facts": [
+    {
+     "big": "5",
+     "t": "Pilgrims fanned out to *5 major shrines*: Vemulawada, Yadagirigutta, Kaleshwaram, Thousand Pillar Temple and Keesaragutta.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/city-marks-karthika-pournami-3b545bbf"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Karthika Pournami day",
+   "steps": [
+    {
+     "t": "4 am",
+     "e": "Footfall begins at Yadagirigutta"
+    },
+    {
+     "t": "Early hours",
+     "e": "Queues at Keesaragutta, city Shivalayams"
+    },
+    {
+     "t": "All day",
+     "e": "Deepams, abhishekams, Rudrabhishekam"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "4 am",
+   "l": "when the Yadagirigutta rush began"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "4 am",
+  "label": "when the Yadagirigutta rush began",
+  "motion": "drift",
+  "scene": [
+   "🌕",
+   "🪔",
+   "🛕"
+  ]
+ },
+ "watch": "Temple managements have barricades, volunteers and drinking water in place for the full-day rush.",
+ "thread": "tg-karthika-pournami-temple-rush-keesaragutta-yadagirigutta-holiday",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Devotees throng temples to mark Karthika Pournami in Hyderabad",
+   "url": "https://telanganatoday.com/city-marks-karthika-pournami-3b545bbf"
+  }
+ ],
+ "updated": 1795504271733,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/city-marks-karthika-pournami-3b545bbf-61668834.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Karthika Pournami queues began at *4 am* at Yadagirigutta as Shiva temples filled",
+ "twist": "Tuesday is a public holiday for both Guru Nanak Jayanthi and Karthika Pournami, so families set out on day-long temple trips.",
+ "areas": [
+  "Keesaragutta",
+  "Yadagirigutta",
+  "Vemulawada",
+  "Hanamkonda"
+ ],
+ "layer": "city"
+}

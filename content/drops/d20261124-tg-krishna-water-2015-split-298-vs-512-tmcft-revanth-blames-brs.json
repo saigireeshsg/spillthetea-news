@@ -40,6 +40,11 @@
  "cards": [
   {
    "k": "tea",
+   "title": "🔄 Update, midday",
+   "body": "At Monday's KRMB meeting in Hyderabad, AP sought 19 TMC and Telangana 21 TMC from Nagarjuna Sagar until February. No consensus: the board deferred the decision."
+  },
+  {
+   "k": "tea",
    "title": "🆕 What's new",
    "body": "He said Telangana has complained to the KRMB about Palnadu and Irrigation Minister Uttam Kumar Reddy has approached the Centre."
   },
@@ -66,11 +71,33 @@
      "t": "The CM cited a *February 16, 2022* AP order on Palnadu.",
      "s": "Telangana Today",
      "u": "https://telanganatoday.com/revanth-reddy-blames-brs-for-permanent-surrender-of-krishna-water-sidesteps-congress-role"
+    },
+    {
+     "big": "25 TMC",
+     "t": "Telangana proposed discussing the remaining *25 TMC* only after Hyderabad's drinking water needs are met.",
+     "s": "Hindustan Times",
+     "u": "https://www.hindustantimes.com/india-news/no-consensus-between-andhra-telangana-over-distribution-of-water-in-krishna-river-101795492570407.html"
     }
    ]
   }
  ],
  "viz": [
+  {
+   "t": "compare",
+   "l": "Nagarjuna Sagar demand until Feb (TMC)",
+   "a": {
+    "v": 19,
+    "d": "19 TMC",
+    "l": "Andhra Pradesh"
+   },
+   "b": {
+    "v": 21,
+    "d": "21 TMC",
+    "l": "Telangana"
+   },
+   "tone": "neutral",
+   "verdict": "Both states want more than they can agree on amid drought; KRMB will discuss again"
+  },
   {
    "t": "stack",
    "l": "2015 Krishna allocation (TMC ft)",
@@ -126,16 +153,21 @@
  "learn": {
   "t": "KRMB = Krishna River Management Board, which manages Krishna water between Telangana and AP"
  },
- "watch": "Whether the KRMB or the Centre acts on Telangana's complaint about the Palnadu project.",
+ "watch": "When the KRMB meets again on the 19 vs 21 TMC demands, and whether it acts on Telangana's Palnadu complaint.",
  "thread": "tg-krishna-water-2015-split-298-vs-512-tmcft-revanth-blames-brs",
  "sources": [
   {
    "name": "Telangana Today",
    "title": "Revanth Reddy blames BRS for permanent surrender of Krishna water",
    "url": "https://telanganatoday.com/revanth-reddy-blames-brs-for-permanent-surrender-of-krishna-water-sidesteps-congress-role"
+  },
+  {
+   "name": "Hindustan Times",
+   "title": "No consensus between Andhra, Telangana over distribution of water in Krishna river",
+   "url": "https://www.hindustantimes.com/india-news/no-consensus-between-andhra-telangana-over-distribution-of-water-in-krishna-river-101795492570407.html"
   }
  ],
- "updated": 1795481814658,
+ "updated": 1795504292573,
  "img": {
   "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Revanth-Reddy-2.jpg",
   "c": "Telangana Today"

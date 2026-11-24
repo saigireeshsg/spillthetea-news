@@ -1,0 +1,166 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-84",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "jobs",
+ "hook": "Sigachi blast, one year on: families got about *₹41.5 lakh* of ₹1 crore",
+ "hook_b": "Sigachi blast, one year on: families got about *₹41.5 lakh* of ₹1 crore",
+ "tldr": "A year after the Sigachi Industries blast at Pashamylaram, widows, relatives and activists gathered to demand the full ₹1 crore compensation announced by the CM.",
+ "beats": {
+  "what": "Families say they received only about ₹41.5 lakh each; kin of casual and temporary workers got less, split among wives and mothers.",
+  "why": "CM Revanth Reddy announced ₹1 crore per family right after the blast, and the company told the stock exchanges it would pay ₹1 crore ex gratia.",
+  "care": "It tests what happens to compensation promises after industrial accidents in Telangana's pharma belt."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💥",
+    "label": "₹1 crore promised after blast"
+   }
+  ],
+  "event": {
+   "icon": "💰",
+   "label": "Families say only ₹41.5 lakh paid"
+  },
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "Protest at Pashamylaram"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Unpaid EDLI, EPF dues"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TPJAC data: 19 families did not get the EDLI insurance payout, 13 did not get EPF dues and 11 did not get the Centre's compensation."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Who should pay the remaining compensation?",
+   "opts": [
+    "The company",
+    "The state government",
+    "Both share it",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who is legally liable for the remaining amount: the company or the state?",
+    "Why did casual and temporary workers' families get less?"
+   ],
+   "facts": [
+    {
+     "big": "₹42 lakh",
+     "t": "The company reportedly told the High Court its liability was discharged at *₹42 lakh* per family.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/cms-promise-of-1-crore-a-mirage-for-sigachi-blast-victims-kin-in-telangana/article71735412.ece"
+    },
+    {
+     "big": "19",
+     "t": "*19 families* did not receive the EDLI insurance payout, per TPJAC data.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/cms-promise-of-1-crore-a-mirage-for-sigachi-blast-victims-kin-in-telangana/article71735412.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Compensation per family",
+   "a": {
+    "v": 100,
+    "d": "₹1 crore",
+    "l": "Promised"
+   },
+   "b": {
+    "v": 41.5,
+    "d": "₹41.5 lakh",
+    "l": "Received, families say"
+   },
+   "goodIfUp": true,
+   "tone": "bad",
+   "verdict": "Families say they got well under half of what was announced"
+  },
+  {
+   "t": "bars",
+   "card": {
+    "title": "Families missing payouts (TPJAC data)",
+    "items": [
+     {
+      "label": "No EDLI payout",
+      "value": 19,
+      "display": "19 families"
+     },
+     {
+      "label": "No EPF dues",
+      "value": 13,
+      "display": "13 families"
+     },
+     {
+      "label": "No Centre compensation",
+      "value": 11,
+      "display": "11 families"
+     }
+    ]
+   },
+   "tone": "bad",
+   "verdict": "Dozens of families still waiting on insurance and PF dues"
+  },
+  {
+   "t": "big",
+   "v": "₹41.5 lakh",
+   "l": "received per family, families say"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹41.5 lakh",
+  "label": "received per family, families say",
+  "motion": "drift",
+  "scene": [
+   "💥",
+   "💰",
+   "⚖️"
+  ]
+ },
+ "learn": {
+  "t": "EDLI = Employees' Deposit Linked Insurance, a life cover linked to a worker's PF account"
+ },
+ "watch": "Whether the state pays the balance, and what the High Court says in the PIL on compensation.",
+ "thread": "tg-sigachi-blast-one-year-families-got-rs-41-lakh-of-rs-1-crore-promised",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "CM's promise of ₹1 crore a mirage for Sigachi blast victims' kin in Telangana",
+   "url": "https://www.thehindu.com/news/national/telangana/cms-promise-of-1-crore-a-mirage-for-sigachi-blast-victims-kin-in-telangana/article71735412.ece"
+  }
+ ],
+ "updated": 1795504271733,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/j916wj/article71737113.ece/alternates/LANDSCAPE_1200/DSC06903.JPG",
+  "c": "The Hindu"
+ },
+ "fact": "Sigachi blast families say they got about *₹41.5 lakh*, not the ₹1 crore promised",
+ "twist": "The company reportedly told the High Court its liability ended at ₹42 lakh per family, with the rest to be paid by the government.",
+ "areas": [
+  "Pashamylaram",
+  "Sangareddy"
+ ],
+ "layer": "state"
+}
