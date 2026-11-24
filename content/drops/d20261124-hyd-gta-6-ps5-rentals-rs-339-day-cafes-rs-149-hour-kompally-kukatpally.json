@@ -1,0 +1,164 @@
+{
+ "cat": "tech",
+ "lead": "tech",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-85",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "gaming",
+ "hook": "Play GTA 6 in Hyderabad without a PS5: cafes from *₹149 an hour*",
+ "hook_b": "Play GTA 6 in Hyderabad without a PS5: cafes from *₹149 an hour*",
+ "tldr": "With GTA 6 out since Nov 19, Hyderabad rental platforms and gaming cafes are offering ways to play without buying a ₹50,000 console.",
+ "beats": {
+  "what": "ShareStation: GTA 6-loaded PS5 at ₹339/day. RentConsole: ₹2,499 first day, ₹300 after. Cafes: ₹149/hr (Kompally) to ₹250/hr (Banjara Hills).",
+  "why": "GTA 6 launched after a 13-year wait since GTA V, and runs only on PS5 and Xbox Series X/S.",
+  "care": "Cafe rates are advertised PS5 rates and may not be separate GTA 6 tariffs, TOI notes."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎮",
+    "label": "GTA 6 out, PS5 costs ₹49,990"
+   }
+  ],
+  "event": {
+   "icon": "🕹️",
+   "label": "Rentals and cafes step in"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "₹339/day rentals"
+   },
+   {
+    "icon": "💸",
+    "label": "₹149-250/hr cafe sessions"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Blinkit lists GTA 6's PS5 Standard Edition at ₹5,999 with delivery in select Hyderabad areas."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How would you play GTA 6?",
+   "opts": [
+    "Buy a console",
+    "Rent one",
+    "Gaming cafe",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "At what point does renting cost more than buying?",
+    "Will gaming cafes become regular hangouts again?"
+   ],
+   "facts": [
+    {
+     "big": "17.07M",
+     "t": "GTA 6 had an estimated *17.07 million* pre-orders worth $1.65 billion as of Nov 18.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-gamers-can-play-gta-6-without-buying-a-ps5-rentals-start-at-rs-339-a-day-and-cafe-sessions-at-rs-149-an-hour-game-listed-at-rs-5999-on-blinkit-while-ps5-slim-costs-rs-49990/articleshow/136127809.cms"
+    },
+    {
+     "big": "1,600+",
+     "t": "More than *1,600 developers* at Rockstar's Bengaluru studio worked on the game.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-gamers-can-play-gta-6-without-buying-a-ps5-rentals-start-at-rs-339-a-day-and-cafe-sessions-at-rs-149-an-hour-game-listed-at-rs-5999-on-blinkit-while-ps5-slim-costs-rs-49990/articleshow/136127809.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "bars",
+   "card": {
+    "title": "PS5 cafe rates per hour (listed)",
+    "items": [
+     {
+      "label": "Kompally (Wild Gaming)",
+      "value": 149,
+      "display": "₹149"
+     },
+     {
+      "label": "Kukatpally (AdamsDen)",
+      "value": 179,
+      "display": "₹179"
+     },
+     {
+      "label": "Begumpet (Gamers Guild)",
+      "value": 200,
+      "display": "₹200"
+     },
+     {
+      "label": "Banjara Hills (Gamers Guild)",
+      "value": 250,
+      "display": "₹250"
+     }
+    ]
+   },
+   "tone": "neutral",
+   "verdict": "North Hyderabad cafes list the lowest hourly rates"
+  },
+  {
+   "t": "compare",
+   "l": "Buy vs rent",
+   "a": {
+    "v": 49990,
+    "d": "₹49,990",
+    "l": "PS5 Slim Digital"
+   },
+   "b": {
+    "v": 339,
+    "d": "₹339/day",
+    "l": "GTA 6 PS5 rental"
+   },
+   "tone": "neutral",
+   "verdict": "Renting is cheaper short-term; buying wins for long play"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1a1030",
+   "#6a3fb5"
+  ],
+  "big": "₹149/hr",
+  "label": "cheapest listed PS5 cafe session (Kompally)",
+  "motion": "drift",
+  "scene": [
+   "🎮",
+   "🕹️",
+   "💸"
+  ]
+ },
+ "watch": "Whether cafes add GTA 6-specific slots or prices as weekend demand builds.",
+ "thread": "hyd-gta-6-ps5-rentals-rs-339-day-cafes-rs-149-hour-kompally-kukatpally",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Hyderabad gamers can play GTA 6 without buying a PS5",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-gamers-can-play-gta-6-without-buying-a-ps5-rentals-start-at-rs-339-a-day-and-cafe-sessions-at-rs-149-an-hour-game-listed-at-rs-5999-on-blinkit-while-ps5-slim-costs-rs-49990/articleshow/136127809.cms"
+  }
+ ],
+ "updated": 1795521353602,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136128050,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Hyderabad gamers can rent a GTA 6-loaded PS5 for *₹339 a day*",
+ "twist": "A PS5 Slim costs ₹49,990, so the daily rental is about 147 days of renting before you match the console price.",
+ "areas": [
+  "Kompally",
+  "Kukatpally",
+  "Begumpet",
+  "Banjara Hills"
+ ],
+ "layer": "city"
+}

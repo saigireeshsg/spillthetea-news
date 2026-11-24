@@ -1,0 +1,134 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-87",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "*Three* sanitation workers die inside a septic tank in Bachupally",
+ "hook_b": "*Three* sanitation workers die inside a septic tank in Bachupally",
+ "tldr": "Three workers from septic tank cleaning agency HR Invests entered an underground tank at a Bachupally apartment complex on Tuesday and did not come out.",
+ "beats": {
+  "what": "Bachupally police registered a case and are probing toxic gas build-up and asphyxiation.",
+  "why": "Closed septic tanks can collect toxic gases; police are examining the safety arrangements in place.",
+  "care": "Apartment associations hire such agencies routinely; who checks the safety gear is the open question."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🕳️",
+    "label": "Workers enter underground tank"
+   }
+  ],
+  "event": {
+   "icon": "⚠️",
+   "label": "All three die inside"
+  },
+  "effects": [
+   {
+    "icon": "🚔",
+    "label": "Police case filed"
+   },
+   {
+    "icon": "🚔",
+    "label": "Safety gear under probe"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Police are examining whether the workers had adequate protective equipment before being sent into the confined space."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Who should be held responsible when workers die cleaning a septic tank?",
+   "opts": [
+    "The agency",
+    "The apartment association",
+    "Both",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Should apartment complexes be required to use machines instead of people for tank cleaning?",
+    "Who verifies a cleaning agency's safety gear before work starts?"
+   ],
+   "facts": [
+    {
+     "big": "24-25",
+     "t": "The three workers who died were aged *24, 25 and 25*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/three-sanitation-workers-die-in-septic-tank-1346db62"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What happened",
+   "steps": [
+    {
+     "t": "Tue",
+     "e": "Three workers enter an underground septic tank"
+    },
+    {
+     "t": "Tue",
+     "e": "They do not come out; residents alert police"
+    },
+    {
+     "t": "Tue",
+     "e": "Bachupally police retrieve bodies, register case"
+    },
+    {
+     "t": "Next",
+     "e": "Probe into toxic gas and safety gear"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Three young workers lost; safety arrangements under investigation"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3",
+  "label": "workers dead, aged 24-25",
+  "motion": "drift",
+  "scene": [
+   "🕳️",
+   "⚠️",
+   "🚔"
+  ]
+ },
+ "watch": "What the probe finds on gas levels and protective equipment, and whether the agency faces charges.",
+ "thread": "hyd-bachupally-septic-tank-3-sanitation-workers-die-safety-probe",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad: Three sanitation workers die in septic tank",
+   "url": "https://telanganatoday.com/three-sanitation-workers-die-in-septic-tank-1346db62"
+  }
+ ],
+ "updated": 1795521353602,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/three-sanitation-workers-die-in-septic-tank-1346db62-7f5a1c05.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "*Three* young sanitation workers died cleaning an apartment septic tank in Bachupally",
+ "twist": "The workers were 24, 25 and 25, and police are now checking whether they were given any protective gear before entering.",
+ "areas": [
+  "Bachupally",
+  "Nizampet"
+ ],
+ "layer": "near"
+}

@@ -1,0 +1,174 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-88",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "exams",
+ "hook": "Inter practicals 2027: no jumbling, students write at *their own colleges*",
+ "hook_b": "Inter practicals 2027: no jumbling, students write at *their own colleges*",
+ "tldr": "TG BIE had planned to send students to other colleges for practicals (jumbling), but no steps were taken, so the 2027 practicals stay at home colleges.",
+ "beats": {
+  "what": "Jumbling is used only for theory exams. Science students have practicals in Physics, Chemistry, Botany and Zoology, 30 marks each.",
+  "why": "Without jumbling, there are allegations of marks awarded without proper assessment at some private and corporate junior colleges.",
+  "care": "About 10 lakh students write Inter exams this year; second-year science practicals run Feb 1-10."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📋",
+    "label": "Jumbling plan never started"
+   }
+  ],
+  "event": {
+   "icon": "🧪",
+   "label": "2027 practicals at own colleges"
+  },
+  "effects": [
+   {
+    "icon": "🎓",
+    "label": "Marks-for-fee worry"
+   },
+   {
+    "icon": "🎓",
+    "label": "First-years face practicals too"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TG BIE's 2027 timetable: second-year science practicals Feb 1-10, first-year Feb 11-18, theory from Feb 24 (first year) and Feb 25 (second year)."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should Inter practicals be held at a different college, like theory exams?",
+   "opts": [
+    "Yes, jumble them",
+    "No, own college is fine",
+    "Only for second year",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How can practical marks be checked fairly without jumbling?",
+    "Will adding first-year practicals raise costs for families?"
+   ],
+   "facts": [
+    {
+     "big": "10 lakh",
+     "t": "Around *10 lakh* students are expected to write the Inter public exams this year.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/no-jumbling-for-practical-exams-again-79a81568"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Inter 2027 exam calendar",
+   "steps": [
+    {
+     "t": "Jan 20-25",
+     "e": "First-year internal assessment"
+    },
+    {
+     "t": "Jan 27",
+     "e": "Environmental Education exam"
+    },
+    {
+     "t": "Jan 29-30",
+     "e": "English practicals (1st, 2nd year)"
+    },
+    {
+     "t": "Feb 1-10",
+     "e": "2nd-year science practicals"
+    },
+    {
+     "t": "Feb 11-18",
+     "e": "1st-year science practicals"
+    },
+    {
+     "t": "Feb 24-25",
+     "e": "Theory exams begin"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Key dates for about 10 lakh Inter students"
+  },
+  {
+   "t": "bars",
+   "card": {
+    "title": "Practical marks per subject",
+    "items": [
+     {
+      "label": "Physics",
+      "value": 30,
+      "display": "30"
+     },
+     {
+      "label": "Chemistry",
+      "value": 30,
+      "display": "30"
+     },
+     {
+      "label": "Botany",
+      "value": 30,
+      "display": "30"
+     },
+     {
+      "label": "Zoology",
+      "value": 30,
+      "display": "30"
+     }
+    ]
+   },
+   "tone": "neutral",
+   "verdict": "120 marks across four science practicals are assessed by home colleges"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Feb 1",
+  "label": "second-year science practicals begin",
+  "motion": "drift",
+  "scene": [
+   "📋",
+   "🧪",
+   "🎓"
+  ]
+ },
+ "learn": {
+  "t": "Jumbling = sending students to write exams at a different college's centre"
+ },
+ "watch": "Whether TG BIE adds any checks on practicals before Feb 1.",
+ "thread": "tg-bie-no-jumbling-practicals-2027-own-colleges-timetable-feb-1",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "TG BIE drops jumbling for practical exams",
+   "url": "https://telanganatoday.com/no-jumbling-for-practical-exams-again-79a81568"
+  }
+ ],
+ "updated": 1795521353601,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/no-jumbling-for-practical-exams-again-79a81568-c97ee9b8.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Telangana Inter students will again take 2027 practicals at *their own colleges*",
+ "twist": "Student groups allege some private colleges give the full 30 marks per subject for a fee, and first-year students now have practicals too.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "state"
+}

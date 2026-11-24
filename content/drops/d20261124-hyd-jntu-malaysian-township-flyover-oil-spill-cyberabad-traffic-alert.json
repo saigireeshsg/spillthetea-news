@@ -1,0 +1,131 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-89",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Oil spill on JNTU flyover: Cyberabad police tell riders to *slow down*",
+ "hook_b": "Oil spill on JNTU flyover: Cyberabad police tell riders to *slow down*",
+ "tldr": "Cyberabad Traffic Police alerted motorists to an oil spillage on the JNTU-Malaysian Township flyover and warned of possible congestion.",
+ "beats": {
+  "what": "The affected stretch runs towards JNTU from Malaysian Towers.",
+  "why": "Oil on the road makes two-wheelers skid, especially when riders brake hard.",
+  "care": "If you ride this flyover, police advise slowing down, avoiding sudden braking and expecting delays until it is cleared."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛢️",
+    "label": "Oil spilled on flyover"
+   }
+  ],
+  "event": {
+   "icon": "🚦",
+   "label": "Cyberabad traffic alert issued"
+  },
+  "effects": [
+   {
+    "icon": "🛵",
+    "label": "Skid risk for bikes"
+   },
+   {
+    "icon": "🛵",
+    "label": "Possible congestion"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Traffic police asked commuters to plan journeys and cooperate until the spill is cleaned up."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you get road alerts like this in time to change your route?",
+   "opts": [
+    "Yes, usually",
+    "Sometimes",
+    "Rarely",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who is responsible for cleaning spills on flyovers, and how fast?",
+    "Should alerts reach riders before they enter a flyover?"
+   ],
+   "facts": [
+    {
+     "big": "1 direction",
+     "t": "Only the stretch *towards JNTU from Malaysian Towers* was affected, per traffic police.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/oil-spillage-on-jntu-flyover-ctp-caution-motorists-b80c155c"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What police advised",
+   "steps": [
+    {
+     "t": "1",
+     "e": "Slow down on the flyover"
+    },
+    {
+     "t": "2",
+     "e": "Avoid sudden braking"
+    },
+    {
+     "t": "3",
+     "e": "Expect delays, plan your trip"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Safety advice for riders on the JNTU-bound stretch"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "⚠️ Slippery",
+  "label": "JNTU-bound flyover from Malaysian Towers",
+  "motion": "drift",
+  "scene": [
+   "🛢️",
+   "🚦",
+   "🛵"
+  ]
+ },
+ "watch": "Whether the stretch is cleared before the evening peak; check traffic updates before you ride.",
+ "thread": "hyd-jntu-malaysian-township-flyover-oil-spill-cyberabad-traffic-alert",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad: Oil spillage on JNTU flyover, CTP caution motorists",
+   "url": "https://telanganatoday.com/oil-spillage-on-jntu-flyover-ctp-caution-motorists-b80c155c"
+  }
+ ],
+ "updated": 1795521353601,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/oil-spillage-on-jntu-flyover-ctp-caution-motorists-b80c155c-eaef1527.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "An oil spill made the JNTU-Malaysian Township flyover *slippery* on Tuesday",
+ "twist": "The stretch hit is the one towards JNTU from Malaysian Towers, so riders heading to Kukatpally were the ones warned.",
+ "areas": [
+  "KPHB",
+  "Kukatpally",
+  "JNTU"
+ ],
+ "layer": "near"
+}

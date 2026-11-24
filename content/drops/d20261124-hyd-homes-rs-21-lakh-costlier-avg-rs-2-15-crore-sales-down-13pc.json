@@ -1,0 +1,177 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "housing",
+ "hook": "Hyderabad's average home now costs *₹2.15 crore*, up ₹21 lakh in a year",
+ "hook_b": "Hyderabad's average home now costs *₹2.15 crore*, up ₹21 lakh in a year",
+ "tldr": "CRE Matrix-CREDAI data shows Hyderabad property prices rose 10.5% between Q3 2025 and Q3 2026, making it India's second-most expensive metro housing market after Delhi.",
+ "beats": {
+  "what": "Average property value rose from ₹1.94 crore to ₹2.15 crore. Only Chennai saw a bigger jump (₹25 lakh); Bengaluru was third (₹19 lakh).",
+  "why": "Industry players point to land costs and Hyderabad's no-cap FSI rule, which has pushed average flat size to around 2,000 sft vs 1,000-1,500 sft in Mumbai and Bengaluru.",
+  "care": "Bigger flats mean bigger ticket sizes, so first-time buyers face a higher entry price even as demand cools."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Land costs + no FSI cap"
+   }
+  ],
+  "event": {
+   "icon": "🏠",
+   "label": "Avg home up 10.5% to ₹2.15 cr"
+  },
+  "effects": [
+   {
+    "icon": "📉",
+    "label": "Sales down 13.5%"
+   },
+   {
+    "icon": "📉",
+    "label": "Unsold stock takes longer to clear"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Hyderabad recorded 13,270 home sales in Q3 2026, down from 15,349 a year earlier, per CRE Matrix."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should Hyderabad cap how much builders can construct on a plot (FSI)?",
+   "opts": [
+    "Yes, cap it",
+    "No, keep it open",
+    "Only in some zones",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "If sales are falling, why are prices still rising?",
+    "Would smaller flats make Hyderabad homes affordable again?"
+   ],
+   "facts": [
+    {
+     "big": "13,270",
+     "t": "Hyderabad sold *13,270* homes in Q3 2026, down from 15,349 a year earlier.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-homes-get-costlier-by-21-lakh-in-a-year-as-city-becomes-second-most-expensive-metropolitan-housing-market-in-country-after-delhi/articleshow/136125337.cms"
+    },
+    {
+     "big": "2,000 sft",
+     "t": "Average Hyderabad flat is now about *2,000 sft*, vs 1,000-1,500 sft in Mumbai and Bengaluru.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-homes-get-costlier-by-21-lakh-in-a-year-as-city-becomes-second-most-expensive-metropolitan-housing-market-in-country-after-delhi/articleshow/136125337.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Average property value",
+   "a": {
+    "v": 1.94,
+    "d": "₹1.94 cr",
+    "l": "Q3 2025"
+   },
+   "b": {
+    "v": 2.15,
+    "d": "₹2.15 cr",
+    "l": "Q3 2026"
+   },
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Homes got pricier for buyers, while builders sold fewer units"
+  },
+  {
+   "t": "bars",
+   "card": {
+    "title": "Rise in average home value in a year",
+    "items": [
+     {
+      "label": "Chennai",
+      "value": 25,
+      "display": "₹25 lakh"
+     },
+     {
+      "label": "Hyderabad",
+      "value": 21,
+      "display": "₹21 lakh"
+     },
+     {
+      "label": "Bengaluru",
+      "value": 19,
+      "display": "₹19 lakh"
+     }
+    ]
+   },
+   "tone": "bad",
+   "verdict": "Hyderabad saw the second-biggest jump among metros"
+  },
+  {
+   "t": "compare",
+   "l": "Quarters needed to sell unsold stock",
+   "a": {
+    "v": 7.9,
+    "d": "7.9",
+    "l": "2025"
+   },
+   "b": {
+    "v": 10.6,
+    "d": "10.6",
+    "l": "2026"
+   },
+   "goodIfUp": false,
+   "tone": "neutral",
+   "verdict": "Homes are taking longer to sell; watch for buyers and builders"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹2.15 cr",
+  "label": "average Hyderabad home, Q3 2026",
+  "motion": "drift",
+  "scene": [
+   "🏗️",
+   "🏠",
+   "📉"
+  ]
+ },
+ "learn": {
+  "t": "FSI = floor space index, how much floor area can be built relative to the plot size"
+ },
+ "watch": "Whether prices hold as unsold stock piles up, and the Q4 sales numbers.",
+ "thread": "hyd-homes-rs-21-lakh-costlier-avg-rs-2-15-crore-sales-down-13pc",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Hyderabad homes get costlier by ₹21 lakh in a year",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-homes-get-costlier-by-21-lakh-in-a-year-as-city-becomes-second-most-expensive-metropolitan-housing-market-in-country-after-delhi/articleshow/136125337.cms"
+  }
+ ],
+ "updated": 1795521353599,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136127960,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Hyderabad's average home now costs *₹2.15 crore*, ₹21 lakh more than last year",
+ "twist": "Sales actually fell 13.5% in the same quarter, and unsold stock now needs 10.6 quarters to clear, up from 7.9.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}

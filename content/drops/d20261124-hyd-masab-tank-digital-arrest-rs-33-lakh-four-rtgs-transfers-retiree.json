@@ -1,0 +1,145 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-86",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "Fake 'digital arrest' takes *₹33.4 lakh* from a Masab Tank retiree",
+ "hook_b": "Fake 'digital arrest' takes *₹33.4 lakh* from a Masab Tank retiree",
+ "tldr": "Fraudsters posing as Karnataka police and an IPS officer told a retired LIC employee her Aadhaar was linked to a ₹3 crore laundering case and kept her under 'digital arrest'.",
+ "beats": {
+  "what": "Between Aug 31 and Sept 22 she made four RTGS transfers for 'verification of funds', 'security deposit' and 'e-court charges'.",
+  "why": "The callers claimed 247 debit cards, one in her name, were seized from a criminal, and said an FIR and arrest warrant existed.",
+  "care": "Police never place anyone under 'digital arrest' over a call; the script told her not to tell family or bank staff."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📞",
+    "label": "Call from fake police"
+   }
+  ],
+  "event": {
+   "icon": "🔒",
+   "label": "'Digital arrest' for 3 weeks"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "₹33.4 lakh sent"
+   },
+   {
+    "icon": "💸",
+    "label": "Gold pledged, RD broken"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "She broke a recurring deposit early and pledged gold to pay; the complaint was filed with Hyderabad cybercrime police on Monday."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should banks pause large transfers by senior citizens for a cooling-off check?",
+   "opts": [
+    "Yes, always",
+    "Only above a limit",
+    "No, it's their money",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What should a bank do when a customer's explanation sounds scripted?",
+    "How can families spot that an elder is under a 'digital arrest'?"
+   ],
+   "facts": [
+    {
+     "big": "247",
+     "t": "Fraudsters claimed *247 debit cards*, one in her name, were seized from a criminal.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/retired-lic-employee-loses-33-4-lakh-in-digital-arrest-scam-in-hyderabad/articleshow/136129149.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the scam unfolded",
+   "steps": [
+    {
+     "t": "Aug",
+     "e": "Call from fake 'Karnataka police' constable"
+    },
+    {
+     "t": "Aug",
+     "e": "Fake IPS officer claims ₹3 crore laundering case"
+    },
+    {
+     "t": "Aug 31-Sep 22",
+     "e": "Four RTGS transfers, ₹33.4 lakh"
+    },
+    {
+     "t": "Nov",
+     "e": "Numbers go dead; she realises the fraud"
+    },
+    {
+     "t": "Mon",
+     "e": "Complaint with Hyderabad cybercrime police"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Three weeks of calls, four transfers, months before the fraud was spotted"
+  },
+  {
+   "t": "big",
+   "v": "4",
+   "l": "RTGS transfers to different accounts"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹33.4 lakh",
+  "label": "lost in four RTGS transfers",
+  "motion": "drift",
+  "scene": [
+   "📞",
+   "🔒",
+   "💸"
+  ]
+ },
+ "learn": {
+  "t": "Digital arrest = a scam where callers posing as officials keep a victim on video/phone 'under arrest' and demand money; no such arrest exists in law"
+ },
+ "watch": "Whether cybercrime police trace the accounts.",
+ "thread": "hyd-masab-tank-digital-arrest-rs-33-lakh-four-rtgs-transfers-retiree",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Retired LIC employee loses ₹33.4 lakh in digital arrest scam in Hyderabad",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/retired-lic-employee-loses-33-4-lakh-in-digital-arrest-scam-in-hyderabad/articleshow/136129149.cms"
+  }
+ ],
+ "updated": 1795521353602,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136129148,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "A 65-year-old Masab Tank retiree lost *₹33.4 lakh* in a fake 'digital arrest'",
+ "twist": "A bank official did question one big transfer, but she gave the cover story the fraudsters had told her to use.",
+ "areas": [
+  "Masab Tank"
+ ],
+ "layer": "near"
+}
