@@ -1,0 +1,132 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-86",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "*6 lakh litres* of treated factory water a day for ORR greenery",
+ "hook_b": "*6 lakh litres* of treated factory water a day for ORR greenery",
+ "tldr": "HMDA signed an MoU with Hindustan Coca-Cola Beverages to reuse treated industrial wastewater for plantations along the ORR.",
+ "beats": {
+  "what": "HCCB's Avinya plant at Banda Thimmapur will supply 6 lakh litres of treated wastewater daily, mainly for ORR Exits 4 to 8.",
+  "why": "HMDA says it cuts groundwater use for green belts after recent El Niño conditions.",
+  "care": "Less freshwater and groundwater drawn for roadside plants as the city faces dry spells."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏭",
+    "label": "Dry spells, groundwater strain"
+   }
+  ],
+  "event": {
+   "icon": "💧",
+   "label": "HMDA-HCCB water reuse MoU"
+  },
+  "effects": [
+   {
+    "icon": "🌳",
+    "label": "ORR Exits 4-8 plantations watered"
+   },
+   {
+    "icon": "🌳",
+    "label": "Less groundwater drawn"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The water will also irrigate other green belts managed by HMDA."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should treated wastewater be used more for city greenery?",
+   "opts": [
+    "Yes, widely",
+    "Only if quality is checked",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will the treated water's quality be checked?",
+    "How much groundwater did ORR plantations use before?"
+   ],
+   "facts": [
+    {
+     "big": "Exits 4-8",
+     "t": "Supply focuses on ORR between *Exits 4 and 8*.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/hmda-signs-agreement-with-hccb-to-reuse-treated-industrial-water-to-irrigate-plantations-along-orr/articleshow/136105941.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Where the water goes",
+   "steps": [
+    {
+     "t": "Source",
+     "e": "HCCB Avinya plant, Banda Thimmapur, Siddipet"
+    },
+    {
+     "t": "Treated",
+     "e": "6 lakh litres a day"
+    },
+    {
+     "t": "Used",
+     "e": "ORR Exits 4-8 and HMDA green belts"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "6 lakh L",
+   "l": "Treated water per day"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "6 lakh L",
+  "label": "Treated water per day",
+  "motion": "drift",
+  "scene": [
+   "🏭",
+   "💧",
+   "🌳"
+  ]
+ },
+ "watch": "How the supply reaches ORR stretches and whether more industries sign similar MoUs.",
+ "thread": "hyd-orr-plantations-6-lakh-litres-treated-wastewater-hmda-hccb-exits-4-8",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "HMDA signs agreement with HCCB to reuse treated industrial water along ORR",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/hmda-signs-agreement-with-hccb-to-reuse-treated-industrial-water-to-irrigate-plantations-along-orr/articleshow/136105941.cms"
+  }
+ ],
+ "updated": 1795481814658,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136105939,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "ORR plantations will get *6 lakh litres* of treated factory water daily",
+ "twist": "The water comes from a Coca-Cola bottler's plant in Siddipet district, not the city.",
+ "areas": [
+  "ORR"
+ ],
+ "layer": "near"
+}

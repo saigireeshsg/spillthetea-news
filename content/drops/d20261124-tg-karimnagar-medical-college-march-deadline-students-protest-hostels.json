@@ -1,0 +1,152 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "Karimnagar medical college gets a *March-end* deadline amid protests",
+ "hook_b": "Karimnagar medical college gets a *March-end* deadline amid protests",
+ "tldr": "Health Minister Damodar Raja Narasimha set new deadlines for Karimnagar Medical College and its hostels as students protest over lack of basic facilities.",
+ "beats": {
+  "what": "The girls' hostel is due by end-November, the boys' hostel by December-end and the college building by March-end.",
+  "why": "Students of Government Medical College, Karimnagar are protesting a lack of basic facilities.",
+  "care": "The review also covered Siddipet Teaching Hospital (due last week of March) and Warangal Super Specialty Hospital."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📢",
+    "label": "Students protest missing facilities"
+   }
+  ],
+  "event": {
+   "icon": "🏥",
+   "label": "Minister sets new deadlines"
+  },
+  "effects": [
+   {
+    "icon": "🎓",
+    "label": "Hostels due Nov-Dec"
+   },
+   {
+    "icon": "🎓",
+    "label": "Other hospitals reviewed"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Husnabad Area Hospital will expand from 100 to 250 beds with a new ₹82 crore building."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Will these hospital deadlines be met?",
+   "opts": [
+    "Yes",
+    "Partly",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How long have Karimnagar students waited for these buildings?",
+    "What happens if the deadlines slip again?"
+   ],
+   "facts": [
+    {
+     "big": "₹82 cr",
+     "t": "Husnabad's new *250-bed* building is sanctioned at ₹82 crore.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/karimnagar-medical-college-building-to-be-ready-by-march-end-says-health-minister/article71734728.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Karimnagar deadlines",
+   "steps": [
+    {
+     "t": "End-Nov",
+     "e": "Girls' hostel"
+    },
+    {
+     "t": "End-Dec",
+     "e": "Boys' hostel"
+    },
+    {
+     "t": "End-Mar",
+     "e": "College building"
+    }
+   ]
+  },
+  {
+   "t": "compare",
+   "l": "Husnabad Area Hospital beds",
+   "a": {
+    "v": 100,
+    "d": "100",
+    "l": "Now"
+   },
+   "b": {
+    "v": 250,
+    "d": "250",
+    "l": "Planned"
+   },
+   "goodIfUp": true,
+   "tone": "good",
+   "verdict": "More beds for patients in Husnabad"
+  },
+  {
+   "t": "big",
+   "v": "March-end",
+   "l": "College building deadline"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "March-end",
+  "label": "College building deadline",
+  "motion": "drift",
+  "scene": [
+   "📢",
+   "🏥",
+   "🎓"
+  ]
+ },
+ "watch": "Girls' hostel due by end-November; boys' hostel by December-end.",
+ "thread": "tg-karimnagar-medical-college-march-deadline-students-protest-hostels",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Karimnagar Medical College building to be ready by March-end, says Health Minister",
+   "url": "https://www.thehindu.com/news/national/telangana/karimnagar-medical-college-building-to-be-ready-by-march-end-says-health-minister/article71734728.ece"
+  }
+ ],
+ "updated": 1795481814658,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/tsbsre/article71734743.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-11-23%20at%202.33.30%20PM.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "Karimnagar medical students protest; college building now due by *March-end*",
+ "twist": "Jangaon's medical college and critical care block are already done, at about ₹154 crore.",
+ "areas": [
+  "Karimnagar",
+  "Jangaon",
+  "Siddipet",
+  "Warangal"
+ ],
+ "layer": "state"
+}

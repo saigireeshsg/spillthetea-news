@@ -1,0 +1,136 @@
+{
+ "cat": "money",
+ "lead": "money",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-92",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "cyber",
+ "hook": "RBI draft: a *trusted person* could approve your big transfers",
+ "hook_b": "RBI draft: a *trusted person* could approve your big transfers",
+ "tldr": "RBI's draft rules let customers name a trusted person to approve large transfers and add an account-wide 'stop' switch to block outgoing payments.",
+ "beats": {
+  "what": "Under the draft, any transfer above a threshold alerts the trusted person, who has one hour to approve or reject; unapproved ones are cancelled.",
+  "why": "RBI wants to curb digital payment fraud and give customers more control over channels and limits.",
+  "care": "A stop switch via branch, ATM, app, net banking or IVR would block outgoing payments, new mandates and new UPI registrations."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚨",
+    "label": "Rising digital payment fraud"
+   }
+  ],
+  "event": {
+   "icon": "🏦",
+   "label": "RBI drafts new safeguards"
+  },
+  "effects": [
+   {
+    "icon": "🛑",
+    "label": "Optional trusted approver"
+   },
+   {
+    "icon": "🛑",
+    "label": "Account-wide stop switch"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Digital channels would be off by default for new accounts, and new cards would start with only domestic ATM and PoS use."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you name a trusted person to approve big transfers?",
+   "opts": [
+    "Yes",
+    "Maybe for parents",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What threshold will count as a 'large' transfer?",
+    "Who would you trust with approval rights on your account?"
+   ],
+   "facts": [
+    {
+     "big": "24 hrs",
+     "t": "New accounts would get a bank-set limit for the first *24 hours* after activation.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/business/india-business/rbi-proposes-trusted-approver-stop-switch-to-curb-digital-fraud/articleshow/136116676.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the trusted-person check works",
+   "steps": [
+    {
+     "t": "You send",
+     "e": "Transfer above threshold"
+    },
+    {
+     "t": "Alert",
+     "e": "Trusted person notified"
+    },
+    {
+     "t": "1 hour",
+     "e": "They approve or reject"
+    },
+    {
+     "t": "No reply",
+     "e": "Transfer auto-cancelled"
+    }
+   ]
+  },
+  {
+   "t": "big",
+   "v": "1 hour",
+   "l": "To approve or reject"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b0f0f",
+   "#c0392b"
+  ],
+  "big": "1 hour",
+  "label": "To approve or reject",
+  "motion": "drift",
+  "scene": [
+   "🚨",
+   "🏦",
+   "🛑"
+  ]
+ },
+ "watch": "These are draft directions; RBI will finalise them after feedback. An earlier one-hour delay on all transfers was dropped.",
+ "thread": "in-rbi-draft-trusted-person-approver-stop-switch-digital-fraud",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "RBI proposes trusted approver, stop switch to curb digital fraud",
+   "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-proposes-trusted-approver-stop-switch-to-curb-digital-fraud/articleshow/136116676.cms"
+  }
+ ],
+ "updated": 1795481814658,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136116688,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "RBI proposes a *one-hour* trusted-person approval for large bank transfers",
+ "twist": "UPI and merchant payments are excluded, and the approver carries no financial liability.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "india"
+}

@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "education",
+ "hook": "A parent-built app now lists real costs at *451* Hyderabad schools",
+ "hook_b": "A parent-built app now lists real costs at *451* Hyderabad schools",
+ "tldr": "FirstBell, built by a Hyderabad parent, lets families compare full school costs, including transport, books, uniforms and yearly hikes.",
+ "beats": {
+  "what": "As of Nov 23 it listed 451 schools across 125 areas of Hyderabad and Secunderabad, with 98 anonymous parent submissions published.",
+  "why": "Schools quote tuition at admission but transport, books, uniforms and annual hikes are often not disclosed upfront.",
+  "care": "One parent said fees rise around 10% a year: ₹2 lakh can become ₹2.2 lakh the next year."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🧾",
+    "label": "Extra school costs not disclosed"
+   }
+  ],
+  "event": {
+   "icon": "🏫",
+   "label": "Parent builds fee-compare app"
+  },
+  "effects": [
+   {
+    "icon": "👪",
+    "label": "451 schools, 125 areas listed"
+   },
+   {
+    "icon": "👪",
+    "label": "Families see full yearly bill"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "It also collects commute times, homework load, teacher changes, CCTV and washroom cleanliness, submitted without names or phone numbers."
+  },
+  {
+   "k": "poll",
+   "vt": "experience",
+   "q": "Did your school disclose all fees upfront?",
+   "opts": [
+    "Yes, fully",
+    "Only tuition",
+    "No, surprises later",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Should schools be required to publish the full yearly cost?",
+    "How much of a school bill is not tuition?"
+   ],
+   "facts": [
+    {
+     "big": "63",
+     "t": "Published reviews cover *63 schools* in 34 areas so far.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/vexed-by-opaque-school-fees-hyderabad-parent-develops-app-to-help-families-compare-annual-costs/articleshow/136111162.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Fee hike example a parent gave",
+   "a": {
+    "v": 2,
+    "d": "₹2 lakh",
+    "l": "This year"
+   },
+   "b": {
+    "v": 2.2,
+    "d": "₹2.2 lakh",
+    "l": "Next year"
+   },
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Around 10% yearly hikes add up for parents paying"
+  },
+  {
+   "t": "meter",
+   "l": "Parent submissions published",
+   "v": 98,
+   "max": 105,
+   "unit": "",
+   "tone": "neutral",
+   "verdict": "98 of 105 submissions are live, covering 63 schools in 34 areas"
+  },
+  {
+   "t": "big",
+   "v": "451",
+   "l": "Schools listed"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "451",
+  "label": "Schools listed",
+  "motion": "drift",
+  "scene": [
+   "🧾",
+   "🏫",
+   "👪"
+  ]
+ },
+ "watch": "Most responses so far are from west and north-west Hyderabad; coverage elsewhere is still thin.",
+ "thread": "hyd-firstbell-school-fee-compare-451-schools-125-areas-hidden-costs",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Vexed by opaque school fees, Hyderabad parent develops app to help families compare annual costs",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/vexed-by-opaque-school-fees-hyderabad-parent-develops-app-to-help-families-compare-annual-costs/articleshow/136111162.cms"
+  }
+ ],
+ "updated": 1795481814658,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136111161,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "A parent's app now tracks true fees at *451* Hyderabad schools",
+ "twist": "Parents say a 20-minute school can mean 50 minutes to an hour on the bus.",
+ "areas": [
+  "Hyderabad",
+  "Secunderabad",
+  "Gachibowli",
+  "Kondapur",
+  "Kukatpally"
+ ],
+ "layer": "near"
+}

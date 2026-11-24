@@ -1,0 +1,147 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-96",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "transport",
+ "hook": "*₹36 crore* saved: TGSRTC buses now grade how drivers drive",
+ "hook_b": "*₹36 crore* saved: TGSRTC buses now grade how drivers drive",
+ "tldr": "TGSRTC says the i-ALERT system in 1,500 BS-VI buses has saved nearly ₹36 crore in diesel, about ₹2 crore a month.",
+ "beats": {
+  "what": "The i-ALERT system in 1,500 Ashok Leyland BS-VI buses saves about 1.98 lakh litres of diesel a month, TGSRTC MD Anil Kumar said.",
+  "why": "It tracks gear use, engine RPM, idling, overspeeding and harsh braking, and grades each driver after every shift.",
+  "care": "TGSRTC says it is the first state transport corporation to use the system; APSRTC and KSRTC have asked for details."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚌",
+    "label": "Tracker grades every driver's shift"
+   }
+  ],
+  "event": {
+   "icon": "⛽",
+   "label": "₹36 crore diesel saved"
+  },
+  "effects": [
+   {
+    "icon": "🌿",
+    "label": "1.98 lakh litres saved a month"
+   },
+   {
+    "icon": "🌿",
+    "label": "Other states asking to copy it"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Drivers get individual performance reports and feedback after each shift to keep the engine in the 'Green Band' RPM range."
+  },
+  {
+   "k": "poll",
+   "vt": "experience",
+   "q": "How do TGSRTC bus rides feel to you lately?",
+   "opts": [
+    "Smoother",
+    "Same as before",
+    "Rougher",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will the system reach older, non-BS-VI buses too?",
+    "Does grading drivers change how passengers experience rides?"
+   ],
+   "facts": [
+    {
+     "big": "1,500",
+     "t": "The system runs in *1,500* Ashok Leyland BS-VI buses.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/tgsrtc-saves-36-crore-in-diesel-costs-using-i-alert-technology-that-monitors-driving-behaviour-across-1500-buses/articleshow/136111270.cms"
+    },
+    {
+     "big": "6,170 t",
+     "t": "TGSRTC estimates *6,169.84 tonnes* of CO2 avoided a year.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/tgsrtc-saves-36-crore-in-diesel-costs-using-i-alert-technology-that-monitors-driving-behaviour-across-1500-buses/articleshow/136111270.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the savings stack up",
+   "steps": [
+    {
+     "t": "Per day",
+     "e": "6,603 litres"
+    },
+    {
+     "t": "Per month",
+     "e": "1.98 lakh litres, ~₹2 crore"
+    },
+    {
+     "t": "So far",
+     "e": "~₹36 crore"
+    }
+   ]
+  },
+  {
+   "t": "meter",
+   "l": "CO2 avoided per year (tonnes)",
+   "v": 6169.84,
+   "max": 6169.84,
+   "unit": " t",
+   "tone": "good",
+   "verdict": "Less diesel burnt means fewer emissions from city buses"
+  },
+  {
+   "t": "big",
+   "v": "₹36 cr",
+   "l": "Diesel cost saved"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹36 cr",
+  "label": "Diesel cost saved",
+  "motion": "drift",
+  "scene": [
+   "🚌",
+   "⛽",
+   "🌿"
+  ]
+ },
+ "watch": "APSRTC and KSRTC officials have sought details on how the system performs.",
+ "thread": "hyd-tgsrtc-i-alert-rs-36-crore-diesel-saved-1500-buses",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "TGSRTC saves ₹36 crore in diesel costs using i-ALERT technology",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/tgsrtc-saves-36-crore-in-diesel-costs-using-i-alert-technology-that-monitors-driving-behaviour-across-1500-buses/articleshow/136111270.cms"
+  }
+ ],
+ "updated": 1795481814657,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136111269,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "TGSRTC says a driving-behaviour tracker saved *₹36 crore* in diesel",
+ "twist": "It cuts about 6,603 litres of diesel a day, roughly 16.9 tonnes of CO2 daily.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}

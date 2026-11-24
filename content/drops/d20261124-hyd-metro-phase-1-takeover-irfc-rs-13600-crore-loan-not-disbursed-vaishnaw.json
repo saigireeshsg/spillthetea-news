@@ -1,0 +1,155 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-97",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "transport",
+ "hook": "*₹13,600 crore* Metro takeover loan stuck; Railway Minister 'not aware'",
+ "hook_b": "*₹13,600 crore* Metro takeover loan stuck; Railway Minister 'not aware'",
+ "tldr": "Railway minister Ashwini Vaishnaw said Metro Phase II isn't under his purview and he isn't aware of the IRFC loan Telangana needs to take over Phase I from L&T.",
+ "beats": {
+  "what": "IRFC signed an agreement in May but has not released about ₹13,600 crore, state officials say.",
+  "why": "The state needs the loan to complete the Phase I takeover from L&T; the Centre wants that done before Phase II.",
+  "care": "Phase II, estimated at ₹38,595 crore for 122 km of new corridors, still awaits Centre's DPR approval and funding."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏦",
+    "label": "IRFC loan not released since May"
+   }
+  ],
+  "event": {
+   "icon": "🚇",
+   "label": "Metro takeover delayed"
+  },
+  "effects": [
+   {
+    "icon": "⏳",
+    "label": "L&T deadline moved to Dec"
+   },
+   {
+    "icon": "⏳",
+    "label": "Phase II DPR still pending"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The state has started approaching other lenders, including Japanese ones for lower interest, and may take a lender switch to the cabinet."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Which matters more to you right now?",
+   "opts": [
+    "Finishing Phase I takeover",
+    "Starting Phase II routes",
+    "Both equally",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who runs Metro day to day once the state takes over?",
+    "Would a new lender change the takeover timeline?"
+   ],
+   "facts": [
+    {
+     "big": "122 km",
+     "t": "Phase II plans *122 km* of new corridors at ₹38,595 crore.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-metro-phase-ii-not-under-my-purview-not-aware-of-13-6k-crore-irfc-loan-says-railway-minister-ashwini-vaishnaw/articleshow/136111268.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Metro takeover so far",
+   "steps": [
+    {
+     "t": "May",
+     "e": "IRFC loan agreement signed"
+    },
+    {
+     "t": "May 1",
+     "e": "Original Phase I handover deadline"
+    },
+    {
+     "t": "Nov 23",
+     "e": "Vaishnaw says not aware of loan"
+    },
+    {
+     "t": "Dec",
+     "e": "Extended L&T deadline"
+    }
+   ]
+  },
+  {
+   "t": "compare",
+   "l": "Money needed",
+   "a": {
+    "v": 13600,
+    "d": "₹13,600 cr",
+    "l": "Phase I takeover loan"
+   },
+   "b": {
+    "v": 38595,
+    "d": "₹38,595 cr",
+    "l": "Phase II, 122 km"
+   },
+   "tone": "neutral",
+   "verdict": "Phase II needs nearly 3x the stuck takeover loan"
+  },
+  {
+   "t": "big",
+   "v": "₹13,600 cr",
+   "l": "Loan not yet disbursed"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹13,600 cr",
+  "label": "Loan not yet disbursed",
+  "motion": "drift",
+  "scene": [
+   "🏦",
+   "🚇",
+   "⏳"
+  ]
+ },
+ "learn": {
+  "t": "IRFC = Indian Railway Finance Corporation, a government lender for rail projects"
+ },
+ "watch": "Whether the cabinet approves switching to another lender before the December handover deadline.",
+ "thread": "hyd-metro-phase-1-takeover-irfc-rs-13600-crore-loan-not-disbursed-vaishnaw",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Hyderabad Metro Phase-II not under my purview, not aware of ₹13.6K crore IRFC loan, says Ashwini Vaishnaw",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-metro-phase-ii-not-under-my-purview-not-aware-of-13-6k-crore-irfc-loan-says-railway-minister-ashwini-vaishnaw/articleshow/136111268.cms"
+  }
+ ],
+ "updated": 1795481814657,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136111267,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Telangana still waits for a *₹13,600 crore* loan to take over Metro",
+ "twist": "L&T already pushed the Phase I handover deadline from May 1 to December.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}

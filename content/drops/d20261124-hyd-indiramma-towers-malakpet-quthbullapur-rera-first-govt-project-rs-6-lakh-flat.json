@@ -1,0 +1,156 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-94",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "schemes",
+ "hook": "Indiramma towers get *RERA* nod, so buyers can take bank loans",
+ "hook_b": "Indiramma towers get *RERA* nod, so buyers can take bank loans",
+ "tldr": "Indiramma Housing towers planned in Malakpet and Quthbullapur got Telangana RERA approval, letting beneficiaries get home loans.",
+ "beats": {
+  "what": "Telangana RERA approved the towers, which are yet to be built; applications are filed for towers in other localities.",
+  "why": "RERA approval lets banks lend to beneficiaries for their ₹6 lakh share, paid in four instalments.",
+  "care": "The state plans one lakh flats within the ORR; the pilot builds 480 flats each in 20 constituencies."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📝",
+    "label": "Govt towers need bank-loan eligibility"
+   }
+  ],
+  "event": {
+   "icon": "🏢",
+   "label": "RERA approves 2 towers"
+  },
+  "effects": [
+   {
+    "icon": "🏦",
+    "label": "Beneficiaries can get home loans"
+   },
+   {
+    "icon": "🏦",
+    "label": "More towers awaiting approval"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Each 480 sq ft flat gets a ₹5 lakh subsidy, and the undivided land share is registered in the beneficiary's name."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would a ₹6 lakh flat within the ORR work for families you know?",
+   "opts": [
+    "Yes",
+    "Only if near work",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "When will construction actually start in Malakpet and Quthbullapur?",
+    "How were the beneficiaries selected?"
+   ],
+   "facts": [
+    {
+     "big": "9,600",
+     "t": "The pilot builds *480 flats each* in 20 constituencies.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/rera-approvals-for-two-indiramma-housing-towers-in-hyderabad-to-help-beneficiaries-in-getting-bank-loans/article71735686.ece"
+    },
+    {
+     "big": "1 lakh",
+     "t": "The state aims for *one lakh* affordable flats within the ORR.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/rera-approvals-for-two-indiramma-housing-towers-in-hyderabad-to-help-beneficiaries-in-getting-bank-loans/article71735686.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Flat price vs market value",
+   "a": {
+    "v": 35,
+    "d": "₹30-40 lakh",
+    "l": "Market estimate"
+   },
+   "b": {
+    "v": 6,
+    "d": "₹6 lakh",
+    "l": "Beneficiary pays"
+   },
+   "tone": "good",
+   "verdict": "Beneficiaries pay a fraction of the estimated market price"
+  },
+  {
+   "t": "stack",
+   "l": "Who pays for a flat (₹ lakh)",
+   "parts": [
+    {
+     "l": "Beneficiary",
+     "v": 6
+    },
+    {
+     "l": "Govt subsidy",
+     "v": 5
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Govt also gives the land, on top of the ₹5 lakh subsidy"
+  },
+  {
+   "t": "big",
+   "v": "₹6 lakh",
+   "l": "Beneficiary pays per flat"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹6 lakh",
+  "label": "Beneficiary pays per flat",
+  "motion": "drift",
+  "scene": [
+   "📝",
+   "🏢",
+   "🏦"
+  ]
+ },
+ "learn": {
+  "t": "RERA = Real Estate Regulatory Authority, which registers housing projects so buyers are protected"
+ },
+ "watch": "RERA decisions on the other localities' towers; the government had said towers would be finished within a year.",
+ "thread": "hyd-indiramma-towers-malakpet-quthbullapur-rera-first-govt-project-rs-6-lakh-flat",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "RERA approvals for two Indiramma Housing towers in Hyderabad",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/rera-approvals-for-two-indiramma-housing-towers-in-hyderabad-to-help-beneficiaries-in-getting-bank-loans/article71735686.ece"
+  }
+ ],
+ "updated": 1795481814658,
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/cities/Hyderabad/m7a1pw/article71735659.ece/alternates/LANDSCAPE_1200/Indiramm%20Housing%20towers%20in%20Telangana.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "Flats worth *₹30-40 lakh* go to Indiramma beneficiaries for ₹6 lakh",
+ "twist": "It is the first government housing project in Telangana to get RERA approval.",
+ "areas": [
+  "Malakpet",
+  "Quthbullapur"
+ ],
+ "layer": "near"
+}

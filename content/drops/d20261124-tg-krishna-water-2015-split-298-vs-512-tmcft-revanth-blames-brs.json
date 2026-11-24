@@ -1,0 +1,150 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-24",
+ "sort": "2026-11-24-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Krishna water row: *298.96 vs 512* TMC ft split back in focus",
+ "hook_b": "Krishna water row: *298.96 vs 512* TMC ft split back in focus",
+ "tldr": "CM Revanth Reddy said the BRS government permanently surrendered Telangana's Krishna water rights; BRS leaders dispute this.",
+ "beats": {
+  "what": "At a press meet on Monday, Revanth Reddy blamed KCR and Harish Rao for the 2015 allocation and for not objecting to AP's Palnadu project.",
+  "why": "Telangana is opposing AP's Palnadu Water Grid, and both parties are trading blame over who let Krishna rights slip.",
+  "care": "Nagarjuna Sagar and Krishna flows feed Hyderabad's drinking water and Telangana's farms."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📜",
+    "label": "AP's Palnadu Water Grid works"
+   }
+  ],
+  "event": {
+   "icon": "💧",
+   "label": "CM blames BRS for 2015 split"
+  },
+  "effects": [
+   {
+    "icon": "🌾",
+    "label": "KRMB complaint filed"
+   },
+   {
+    "icon": "🌾",
+    "label": "Blame game over Krishna share"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "He said Telangana has complained to the KRMB about Palnadu and Irrigation Minister Uttam Kumar Reddy has approached the Centre."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What do you want to hear next on Krishna water?",
+   "opts": [
+    "What the KRMB decides",
+    "What the Centre says",
+    "A permanent water split",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Was the 2015 split meant to be temporary or permanent?",
+    "What can KRMB actually order on Palnadu?"
+   ],
+   "facts": [
+    {
+     "big": "2022",
+     "t": "The CM cited a *February 16, 2022* AP order on Palnadu.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/revanth-reddy-blames-brs-for-permanent-surrender-of-krishna-water-sidesteps-congress-role"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "2015 Krishna allocation (TMC ft)",
+   "parts": [
+    {
+     "l": "Andhra Pradesh",
+     "v": 512
+    },
+    {
+     "l": "Telangana",
+     "v": 298.96
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "AP got about 63% of the 811 TMC ft in the 2015 arrangement"
+  },
+  {
+   "t": "compare",
+   "l": "Pothireddypadu capacity (proposed, 2005)",
+   "a": {
+    "v": 11000,
+    "d": "11,000 cusecs",
+    "l": "Earlier"
+   },
+   "b": {
+    "v": 44000,
+    "d": "44,000 cusecs",
+    "l": "Proposed"
+   },
+   "tone": "neutral",
+   "verdict": "CM says capacity was raised 4x when TRS ministers were in the YSR cabinet"
+  },
+  {
+   "t": "big",
+   "v": "298.96",
+   "l": "TMC ft for Telangana (2015)"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "298.96",
+  "label": "TMC ft for Telangana (2015)",
+  "motion": "drift",
+  "scene": [
+   "📜",
+   "💧",
+   "🌾"
+  ]
+ },
+ "learn": {
+  "t": "KRMB = Krishna River Management Board, which manages Krishna water between Telangana and AP"
+ },
+ "watch": "Whether the KRMB or the Centre acts on Telangana's complaint about the Palnadu project.",
+ "thread": "tg-krishna-water-2015-split-298-vs-512-tmcft-revanth-blames-brs",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Revanth Reddy blames BRS for permanent surrender of Krishna water",
+   "url": "https://telanganatoday.com/revanth-reddy-blames-brs-for-permanent-surrender-of-krishna-water-sidesteps-congress-role"
+  }
+ ],
+ "updated": 1795481814658,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Revanth-Reddy-2.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Under the 2015 split, Telangana got *298.96 TMC ft*, Andhra 512",
+ "twist": "Journalists called the 2015 arrangement temporary; the CM rejected that description.",
+ "areas": [
+  "Telangana",
+  "Nagarjuna Sagar"
+ ],
+ "layer": "state"
+}
