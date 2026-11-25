@@ -1,0 +1,138 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-25",
+ "sort": "2026-11-25-62",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "entertainment",
+ "hook": "A Miyapur single screen just got Disney's *premium-format* tag",
+ "hook_b": "A Miyapur single screen just got Disney's *premium-format* tag",
+ "tldr": "Sai Ranga 70MM in Miyapur became the first single-screen theatre in Telangana to get Disney's Infinity Vision certification.",
+ "beats": {
+  "what": "Infinity Vision is Disney's Premium Large Format certification programme in India.",
+  "why": "It recognises auditoriums that meet standards for screen size, projection and immersive sound.",
+  "care": "Single screens in the Telugu states face rising competition from multiplexes and OTT."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎬",
+    "label": "Single screens losing audiences"
+   }
+  ],
+  "event": {
+   "icon": "🏆",
+   "label": "Sai Ranga 70MM gets Infinity Vision tag"
+  },
+  "effects": [
+   {
+    "icon": "🍿",
+    "label": "Bigger screen, laser projection"
+   },
+   {
+    "icon": "🍿",
+    "label": "Premium sound in Miyapur"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The tag needs a screen at least 45 feet wide, 2K-or-better laser projection, set brightness levels and Dolby Atmos or 7.1 sound."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Where do you watch big releases?",
+   "opts": [
+    "Single screen",
+    "Multiplex",
+    "OTT later",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will premium upgrades change ticket prices at single screens?",
+    "How many single screens are still running in Hyderabad?"
+   ],
+   "facts": [
+    {
+     "big": "~300",
+     "t": "Around *300* screens across India carry Infinity Vision certification.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-theatre-earns-prestigious-walt-disney-certification-3585634/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What the Infinity Vision tag needs",
+   "steps": [
+    {
+     "t": "Screen",
+     "e": "At least 45 ft wide"
+    },
+    {
+     "t": "Projection",
+     "e": "Laser, 2K or higher"
+    },
+    {
+     "t": "Picture",
+     "e": "Prescribed brightness levels"
+    },
+    {
+     "t": "Sound",
+     "e": "Dolby Atmos or 7.1 surround"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A checklist the theatre had to meet; ticket prices are not mentioned in the report."
+  },
+  {
+   "t": "big",
+   "v": "~300",
+   "l": "certified screens in India"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "45 ft",
+  "label": "minimum screen width for the certification",
+  "motion": "drift",
+  "scene": [
+   "🎬",
+   "🏆",
+   "🍿"
+  ]
+ },
+ "watch": "Whether more Hyderabad single screens upgrade for premium certification.",
+ "thread": "hyd-sai-ranga-70mm-miyapur-first-telangana-single-screen-disney-infinity-vision",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad theatre earns prestigious Walt Disney certification",
+   "url": "https://www.siasat.com/hyderabad-theatre-earns-prestigious-walt-disney-certification-3585634/"
+  }
+ ],
+ "updated": 1795607743293,
+ "fact": "Miyapur's Sai Ranga 70MM is Telangana's *first* single screen with Disney certification",
+ "twist": "Only about *300 screens* in India carry this certification.",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/sai-ranga.jpg",
+  "c": "Siasat"
+ },
+ "areas": [
+  "Miyapur"
+ ],
+ "layer": "near"
+}

@@ -1,0 +1,141 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-25",
+ "sort": "2026-11-25-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "Fail one of *5* quality tests and a drug's licence could stop instantly",
+ "hook_b": "Fail one of *5* quality tests and a drug's licence could stop instantly",
+ "tldr": "A proposed amendment to the Drugs and Cosmetics Rules, 1945, would let regulators, including TGSAFE in Telangana, suspend a drug's manufacturing licence once a State lab declares it Not of Standard Quality.",
+ "beats": {
+  "what": "The five tests: sterility, dissolution, assay of active ingredient strength, impurities and related substances.",
+  "why": "It follows frequent cases of people being exposed to substandard drugs, sometimes with fatal results.",
+  "care": "Failed batches would be recalled and quarantined, and production halted until fixes are verified."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💊",
+    "label": "Substandard drugs reaching patients"
+   }
+  ],
+  "event": {
+   "icon": "🧪",
+   "label": "Draft rule: instant licence suspension"
+  },
+  "effects": [
+   {
+    "icon": "⛔",
+    "label": "Failed batch recalled"
+   },
+   {
+    "icon": "⛔",
+    "label": "Pharma firms flag due process"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Today, a failed test usually leads to a show-cause notice and several steps first; officials say this lag leaves bad batches in circulation."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should a drug licence be suspended before the company gets a hearing?",
+   "opts": [
+    "Yes",
+    "No",
+    "Only after re-test",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How would a company dispute a lab result under the new rule?",
+    "How often do medicines fail State lab tests in Telangana?"
+   ],
+   "facts": [
+    {
+     "big": "1945",
+     "t": "The change amends the *Drugs and Cosmetics Rules, 1945*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/fail-critical-quality-test-lose-drug-licence-immediately"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What happens under the draft",
+   "steps": [
+    {
+     "t": "1",
+     "e": "State lab declares drug NSQ"
+    },
+    {
+     "t": "2",
+     "e": "Licence for that drug suspended"
+    },
+    {
+     "t": "3",
+     "e": "Batch recalled and quarantined"
+    },
+    {
+     "t": "4",
+     "e": "Root cause analysis + CAPA, then verification to resume"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Production stays halted until the regulator verifies fixes."
+  },
+  {
+   "t": "big",
+   "v": "5",
+   "l": "critical tests: sterility, dissolution, assay, impurities, related substances"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "5",
+  "label": "critical quality tests in the draft rule",
+  "motion": "drift",
+  "scene": [
+   "💊",
+   "🧪",
+   "⛔"
+  ]
+ },
+ "learn": {
+  "t": "NSQ = Not of Standard Quality, the label a lab gives a drug that fails tests"
+ },
+ "watch": "Whether the Union Health Ministry adds a re-testing or hearing route before notifying the rule.",
+ "thread": "tg-drug-fails-5-critical-quality-tests-instant-licence-suspension-draft-rule",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Failed drug quality tests may trigger immediate licence suspension",
+   "url": "https://telanganatoday.com/fail-critical-quality-test-lose-drug-licence-immediately"
+  }
+ ],
+ "updated": 1795607743293,
+ "fact": "Medicines failing *5 critical* quality tests may lose their manufacturing licence immediately",
+ "twist": "Big pharma groups *IPA, FOPE and CIPI* have opposed the move.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/fail-critical-quality-test-lose-drug-licence-immediately-c03d8218.jpg",
+  "c": "Telangana Today"
+ },
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "state"
+}

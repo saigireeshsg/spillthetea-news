@@ -1,0 +1,145 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-25",
+ "sort": "2026-11-25-78",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "housing",
+ "hook": "Builder took *38%* of a flat's price with no sale agreement: ₹2 cr fine",
+ "hook_b": "Builder took *38%* of a flat's price with no sale agreement: ₹2 cr fine",
+ "tldr": "TGRERA fined Aliens Developers ₹2 crore for collecting nearly 38% of a Tellapur flat's price from two buyers without a registered sale agreement.",
+ "beats": {
+  "what": "The buyers booked a 1,412 sq ft flat in Aliens Space Station Township in Oct 2022 for ₹1 crore and paid ₹40 lakh.",
+  "why": "Under RERA rules, a builder cannot collect more than 10% of the price without a registered agreement.",
+  "care": "If the buyers opt out, Aliens must refund ₹42 lakh within 60 days with 10.85% annual interest."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏢",
+    "label": "38% collected with no registered agreement"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "TGRERA fines builder ₹2 crore"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Buyers can get ₹42 lakh refund"
+   },
+   {
+    "icon": "💸",
+    "label": "7 days to give the filed agreement"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The buyers got a draft agreement only on Sept 6, 2025, nearly three years after booking. Aliens expects completion by April 2028."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Before paying a builder, would you check for a registered sale agreement?",
+   "opts": [
+    "Always",
+    "Didn't know about it",
+    "Depends",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many other Hyderabad buyers paid past 10% without a registered agreement?",
+    "What happens to the project if its registration lapses on Dec 14, 2026?"
+   ],
+   "facts": [
+    {
+     "big": "~3 yrs",
+     "t": "Buyers booked in *Oct 2022* but got a draft agreement only on *Sept 6, 2025*.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-rera-fines-aliens-developers-2-crore-for-collecting-38-of-flat-price-without-sale-agreement/articleshow/136159789.cms"
+    },
+    {
+     "big": "10.85%",
+     "t": "Any refund carries *10.85%* annual interest from each payment date.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-rera-fines-aliens-developers-2-crore-for-collecting-38-of-flat-price-without-sale-agreement/articleshow/136159789.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Compensation for a 1-year delay",
+   "a": {
+    "v": 50832,
+    "d": "₹50,832",
+    "l": "Builder's draft"
+   },
+   "b": {
+    "v": 1190000,
+    "d": "₹11.9 lakh",
+    "l": "Under the rules"
+   },
+   "goodIfUp": true,
+   "tone": "good",
+   "verdict": "TGRERA found the builder's draft would have paid buyers far less than the rules require."
+  },
+  {
+   "t": "meter",
+   "l": "Share of flat price collected without a registered agreement",
+   "v": 38,
+   "max": 100,
+   "unit": "%",
+   "note": "Legal limit without agreement: 10%",
+   "tone": "bad",
+   "verdict": "Buyers had paid well past the 10% limit before getting any registered agreement."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹2 cr",
+  "label": "TGRERA penalty on Aliens Developers",
+  "motion": "drift",
+  "scene": [
+   "🏢",
+   "⚖️",
+   "💸"
+  ]
+ },
+ "learn": {
+  "t": "RERA = Real Estate Regulatory Authority, the state body that registers projects and protects flat buyers"
+ },
+ "watch": "Whether the buyers continue or opt for the ₹42 lakh refund, and whether Aliens extends its registration, valid till Dec 14, 2026.",
+ "thread": "tg-rera-fines-aliens-developers-rs-2-crore-tellapur-38-pct-without-sale-agreement",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Telangana RERA fines Aliens Developers ₹2 crore for collecting 38% of flat price without sale agreement",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-rera-fines-aliens-developers-2-crore-for-collecting-38-of-flat-price-without-sale-agreement/articleshow/136159789.cms"
+  }
+ ],
+ "updated": 1795607743292,
+ "fact": "Telangana RERA fined Aliens Developers *₹2 crore* over a Tellapur flat",
+ "twist": "The builder's draft offered *₹50,832* for a year's delay; the rules say *₹11.9 lakh*.",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136159783,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "areas": [
+  "Tellapur"
+ ],
+ "layer": "near"
+}

@@ -1,0 +1,142 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-25",
+ "sort": "2026-11-25-72",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Cyberabad Corporation's new HQ: *₹169 crore*, twin towers, net-zero",
+ "hook_b": "Cyberabad Corporation's new HQ: *₹169 crore*, twin towers, net-zero",
+ "tldr": "The new Cyberabad Municipal Corporation (CMC) floated e-tenders on Wednesday for its permanent headquarters at Izzath Nagar, Serilingampally mandal.",
+ "beats": {
+  "what": "Two interconnected towers, G 6 and G 8, with 2,41,540 sq ft of built-up area.",
+  "why": "The CMC needs a permanent home for its present and future administrative work.",
+  "care": "It will hold citizen service centres, a Prajavani grievance hall and an integrated command centre."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏛️",
+    "label": "New Cyberabad corporation needs an office"
+   }
+  ],
+  "event": {
+   "icon": "🏗️",
+   "label": "E-tenders floated for twin-tower HQ"
+  },
+  "effects": [
+   {
+    "icon": "🌿",
+    "label": "Citizen service centres in one place"
+   },
+   {
+    "icon": "🌿",
+    "label": "Net-zero green building"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Renewable energy, wastewater recycling, smart building management and climate-responsive design are planned to make it net-zero."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you go to a corporation office in person for a complaint?",
+   "opts": [
+    "Yes",
+    "Only online",
+    "Never tried",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will the building's net-zero claim be checked once it opens?",
+    "What happens to Kotha Kunta Lake's edge during construction?"
+   ],
+   "facts": [
+    {
+     "big": "4.11 acres",
+     "t": "The HQ site is *4.11 acres* adjoining Kotha Kunta Lake.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/cyberabad-municipal-corporation-to-build-twin-tower-headquarters-worth-rs-169-crore"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "CMC headquarters: what's planned",
+   "steps": [
+    {
+     "t": "Nov 25",
+     "e": "E-tenders floated"
+    },
+    {
+     "t": "Site",
+     "e": "4.11 acres, Izzath Nagar, by Kotha Kunta Lake"
+    },
+    {
+     "t": "Build",
+     "e": "G 6 + G 8 towers, 2,41,540 sq ft"
+    },
+    {
+     "t": "Inside",
+     "e": "Council hall, Prajavani hall, service centres, command centre"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A permanent office for the new Cyberabad corporation; construction timeline not given yet."
+  },
+  {
+   "t": "big",
+   "v": "2.4 lakh sq ft",
+   "l": "built-up area across two towers"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹169 cr",
+  "label": "estimated cost of the CMC headquarters",
+  "motion": "drift",
+  "scene": [
+   "🏛️",
+   "🏗️",
+   "🌿"
+  ]
+ },
+ "learn": {
+  "t": "Net-zero building = one that produces or offsets as much energy as it uses"
+ },
+ "watch": "Who wins the e-tender and when construction starts.",
+ "thread": "hyd-cyberabad-corporation-rs-169-crore-twin-tower-hq-izzath-nagar-net-zero",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Cyberabad Municipal Corporation to build twin-tower headquarters worth Rs 169 crore",
+   "url": "https://telanganatoday.com/cyberabad-municipal-corporation-to-build-twin-tower-headquarters-worth-rs-169-crore"
+  }
+ ],
+ "updated": 1795607743292,
+ "fact": "Cyberabad Municipal Corporation will build a *₹169 crore* net-zero twin-tower headquarters",
+ "twist": "The site is *4.11 acres* right next to Kotha Kunta Lake at Izzath Nagar.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/CMC-4.jpg",
+  "c": "Telangana Today"
+ },
+ "areas": [
+  "Serilingampally",
+  "Gachibowli"
+ ],
+ "layer": "near"
+}
