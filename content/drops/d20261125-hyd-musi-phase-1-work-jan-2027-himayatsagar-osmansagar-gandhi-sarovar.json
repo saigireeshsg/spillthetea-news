@@ -1,0 +1,154 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-25",
+ "sort": "2026-11-25-92",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Musi Phase 1 work to start *January 2027*",
+ "hook_b": "Musi Phase 1 work to start *January 2027*",
+ "tldr": "Officials told CM Revanth Reddy the Phase 1 tender process has started and work will begin in January 2027.",
+ "beats": {
+  "what": "Zone-1A is the 9.20-km Himayatsagar to Gandhi Sarovar stretch; Zone-1B is the 11.8-km Osmansagar to Gandhi Sarovar stretch.",
+  "why": "It came up at a review of Musi, the PRTS pod transit plan, Mir Alam Tank, Koheda fruit market and radial roads.",
+  "care": "Residents near the river's western stretches could see construction activity from early next year."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏞️",
+    "label": "Musi rejuvenation plan"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "Phase 1 tender started"
+  },
+  "effects": [
+   {
+    "icon": "📅",
+    "label": "Work from Jan 2027"
+   },
+   {
+    "icon": "📅",
+    "label": "Mir Alam Tank target Jan 2028"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The same review looked at a PRTS route from Kukatpally via Raidurg to Biodiversity Junction."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Musi Phase 1 starting Jan 2027 — how do you see it?",
+   "opts": [
+    "Good, overdue",
+    "Worried about disruption",
+    "Need more details first",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will traffic and residents along the stretches be managed during work?",
+    "What will the Phase 1 tender cost?"
+   ],
+   "facts": [
+    {
+     "big": "Jan 2028",
+     "t": "Mir Alam Tank development is targeted for completion by *January 2028*.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/musi-river-project-phase-1-work-from-january-2027/articleshow/136140912.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What's planned when",
+   "steps": [
+    {
+     "t": "Now",
+     "e": "Phase 1 tender process started"
+    },
+    {
+     "t": "Jan 2027",
+     "e": "Musi Phase 1 work begins"
+    },
+    {
+     "t": "Jan 2028",
+     "e": "Mir Alam Tank project target"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Dates officials gave the CM; watch for the tender result."
+  },
+  {
+   "t": "stack",
+   "l": "Phase 1 stretches (km)",
+   "total": "21 km",
+   "parts": [
+    {
+     "l": "Zone-1A Himayatsagar",
+     "v": 9.2
+    },
+    {
+     "l": "Zone-1B Osmansagar",
+     "v": 11.8
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Two arms of the river meet at Gandhi Sarovar."
+  },
+  {
+   "t": "big",
+   "v": "21 km",
+   "l": "Phase 1 river stretch"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "21 km",
+  "label": "Phase 1 river stretch",
+  "motion": "drift",
+  "scene": [
+   "🏞️",
+   "🚧",
+   "📅"
+  ]
+ },
+ "watch": "Who wins the Phase 1 tender and the work schedule for each zone.",
+ "thread": "hyd-musi-phase-1-work-jan-2027-himayatsagar-osmansagar-gandhi-sarovar",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Musi River Project Phase-1 work from January 2027",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/musi-river-project-phase-1-work-from-january-2027/articleshow/136140912.cms"
+  }
+ ],
+ "updated": 1795568213061,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136140911,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Work on Musi rejuvenation Phase 1 will begin in *January 2027*",
+ "twist": "Phase 1 covers two stretches totalling *21 km*: 9.2 km from Himayatsagar and 11.8 km from Osmansagar, both to Gandhi Sarovar.",
+ "areas": [
+  "Himayatsagar",
+  "Gandipet",
+  "Narsingi",
+  "Langar Houz"
+ ],
+ "layer": "near"
+}

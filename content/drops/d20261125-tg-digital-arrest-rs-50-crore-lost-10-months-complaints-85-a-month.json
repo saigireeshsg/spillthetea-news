@@ -1,0 +1,162 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-25",
+ "sort": "2026-11-25-90",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "*₹50 crore* lost to 'digital arrest' scams this year",
+ "hook_b": "*₹50 crore* lost to 'digital arrest' scams this year",
+ "tldr": "The Telangana Cyber Security Bureau got 846 digital arrest complaints from January to October 2026; police filed 241 FIRs.",
+ "beats": {
+  "what": "Fraudsters pose as police, CBI or ED officers with fake warrants and keep victims on video calls, sometimes for days.",
+  "why": "Since January 2024 Telangana has logged 5,097 such complaints with ₹320 crore lost.",
+  "care": "No real agency arrests anyone over a video call; calls about a 'parcel with drugs' are a known opening line."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📞",
+    "label": "Fake CBI/ED/police video calls"
+   }
+  ],
+  "event": {
+   "icon": "🚨",
+   "label": "846 complaints in 10 months"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "₹50 crore lost"
+   },
+   {
+    "icon": "💸",
+    "label": "241 FIRs registered"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Average monthly losses dropped to ₹5 crore this year from ₹14.7 crore in 2024."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Has anyone you know got a fake 'police' or 'parcel' call?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Why is each victim losing more even as complaints fall?",
+    "How much of the ₹50 crore has been recovered?"
+   ],
+   "facts": [
+    {
+     "big": "₹320 cr",
+     "t": "Since Jan 2024 Telangana has recorded *5,097* digital arrest complaints and *₹320 crore* in losses.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-loses-50-crore-to-digital-arrest-scams-in-10-months-even-as-monthly-complaints-fall-to-85/articleshow/136140532.cms"
+    },
+    {
+     "big": "₹5.9 lakh",
+     "t": "Average loss per complaint is *₹5.9 lakh* in 2026, vs ₹5.8 lakh in 2024.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-loses-50-crore-to-digital-arrest-scams-in-10-months-even-as-monthly-complaints-fall-to-85/articleshow/136140532.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "trend",
+   "l": "Complaints per month",
+   "pts": [
+    [
+     "2024",
+     253
+    ],
+    [
+     "2025",
+     101
+    ],
+    [
+     "2026",
+     85
+    ]
+   ],
+   "unit": "",
+   "goodIfUp": false,
+   "tone": "good",
+   "verdict": "Fewer people are reporting these calls each month."
+  },
+  {
+   "t": "compare",
+   "l": "Avg monthly loss",
+   "a": {
+    "v": 14.7,
+    "d": "₹14.7 cr",
+    "l": "2024"
+   },
+   "b": {
+    "v": 5,
+    "d": "₹5 cr",
+    "l": "2026"
+   },
+   "goodIfUp": false,
+   "tone": "good",
+   "verdict": "Monthly losses are down, but each victim loses more on average."
+  },
+  {
+   "t": "big",
+   "v": "₹50 cr",
+   "l": "Lost Jan-Oct 2026"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹50 cr",
+  "label": "Lost Jan-Oct 2026",
+  "motion": "drift",
+  "scene": [
+   "📞",
+   "🚨",
+   "💸"
+  ]
+ },
+ "learn": {
+  "t": "Digital arrest = a scam where callers pretend to be officials and 'arrest' you over video call to extort money",
+  "show": true
+ },
+ "watch": "Whether the per-complaint loss keeps rising even as cases fall.",
+ "thread": "tg-digital-arrest-rs-50-crore-lost-10-months-complaints-85-a-month",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Telangana loses ₹50 crore to 'digital arrest' scams in 10 months",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-loses-50-crore-to-digital-arrest-scams-in-10-months-even-as-monthly-complaints-fall-to-85/articleshow/136140532.cms"
+  }
+ ],
+ "updated": 1795568213063,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136140530,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Telangana lost *₹50 crore* to 'digital arrest' scams in 10 months",
+ "twist": "Complaints fell to *85 a month* from 253 in 2024, yet the average loss per complaint rose to ₹5.9 lakh.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "state"
+}

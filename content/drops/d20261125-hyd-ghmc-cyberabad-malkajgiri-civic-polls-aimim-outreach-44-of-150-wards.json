@@ -1,0 +1,147 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-25",
+ "sort": "2026-11-25-80",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Parties gear up for *3 city corporation* polls",
+ "hook_b": "Parties gear up for *3 city corporation* polls",
+ "tldr": "Elections to GHMC and the new Malkajgiri and Cyberabad corporations are expected soon; AIMIM has stepped up outreach.",
+ "beats": {
+  "what": "AIMIM floor leader Akbaruddin Owaisi has visited Chandrayangutta, Hafez Babanagar and Riyasatnagar and met traffic police on road safety.",
+  "why": "AIMIM won 44 of 150 wards in each of the last two GHMC elections and wants to contest the new corporations too.",
+  "care": "Your ward may have changed after delimitation; the new corporations mean new local representatives."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗳️",
+    "label": "Delimitation, new corporations"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "Civic polls expected soon"
+  },
+  "effects": [
+   {
+    "icon": "📍",
+    "label": "Parties step up outreach"
+   },
+   {
+    "icon": "📍",
+    "label": "New southern areas join GHMC"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "AIMIM leaders also met senior GHMC officials on city development works."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you know which corporation and ward you now fall under?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many wards does GHMC now have after delimitation?",
+    "When will the poll dates be announced?"
+   ],
+   "facts": [
+    {
+     "big": "44/150",
+     "t": "AIMIM won *44 of 150* wards in each of the last two GHMC elections.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/aimim-prepares-for-elections-fda6999d"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "AIMIM's GHMC wards (last two polls)",
+   "v": 44,
+   "max": 150,
+   "d": "44 of 150",
+   "tone": "neutral",
+   "verdict": "Same tally in each of the last two GHMC elections."
+  },
+  {
+   "t": "timeline",
+   "l": "Who's going to polls",
+   "steps": [
+    {
+     "t": "GHMC",
+     "e": "Expanded after delimitation"
+    },
+    {
+     "t": "Malkajgiri",
+     "e": "Newly formed corporation"
+    },
+    {
+     "t": "Cyberabad",
+     "e": "Newly formed corporation"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Dates not announced yet."
+  },
+  {
+   "t": "big",
+   "v": "3",
+   "l": "Corporations going to polls"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3",
+  "label": "Corporations going to polls",
+  "motion": "drift",
+  "scene": [
+   "🗳️",
+   "🏛️",
+   "📍"
+  ]
+ },
+ "watch": "The State Election Commission's poll schedule for the three corporations.",
+ "thread": "hyd-ghmc-cyberabad-malkajgiri-civic-polls-aimim-outreach-44-of-150-wards",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "AIMIM steps up public outreach ahead of GHMC, Malkajgiri and Cyberabad civic polls",
+   "url": "https://telanganatoday.com/aimim-prepares-for-elections-fda6999d"
+  }
+ ],
+ "updated": 1795568213064,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/aimim-prepares-for-elections-fda6999d-6374ac02.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "*Three* Hyderabad city corporations head toward polls as parties step up outreach",
+ "twist": "GHMC's ward count has grown after delimitation added Shamshabad, Jalpally, Adibatla, Badangpet and Meerpet.",
+ "areas": [
+  "Chandrayangutta",
+  "Shamshabad",
+  "Jalpally",
+  "Adibatla",
+  "Badangpet",
+  "Meerpet"
+ ],
+ "layer": "city"
+}

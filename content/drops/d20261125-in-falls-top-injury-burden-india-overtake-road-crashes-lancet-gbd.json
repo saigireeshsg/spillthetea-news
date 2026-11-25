@@ -1,0 +1,157 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-25",
+ "sort": "2026-11-25-70",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "Falls now hurt India more than *road crashes*",
+ "hook_b": "Falls now hurt India more than *road crashes*",
+ "tldr": "A Lancet Regional Health–Southeast Asia study of GBD 2023 data ranks falls as India's top injury burden.",
+ "beats": {
+  "what": "Falls scored 958.7 DALYs per 1 lakh people in 2023, ahead of road injuries at 831.1 and self-harm at 671.9.",
+  "why": "India's ageing population is pushing up the total, even as rates adjusted for age have fallen.",
+  "care": "Older relatives at home face the biggest fall risk; roads remain the second biggest injury burden."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "👵",
+    "label": "Ageing population"
+   }
+  ],
+  "event": {
+   "icon": "🩹",
+   "label": "Falls top injury burden"
+  },
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Road injuries now second"
+   },
+   {
+    "icon": "🚗",
+    "label": "60+ population to double by 2050"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Road injury rates fell just 0.26% a year since 1990, the slowest among injury types studied."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Which feels like the bigger risk in your family?",
+   "opts": [
+    "Falls at home",
+    "Road crashes",
+    "Both equally",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What do Hyderabad homes and hospitals do to prevent falls among the elderly?"
+   ],
+   "facts": [
+    {
+     "big": "+9.4%",
+     "t": "Road injury deaths reached *1,68,000* in 2022, up *9.4%* from the year before.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/falls-emerge-as-no-1-injury-threat-in-india-surpass-road-crashes/articleshow/136140475.cms"
+    },
+    {
+     "big": "-30.6%",
+     "t": "The age-standardised fall rate is projected to drop *30.6%* by 2047, yet stay India's top injury burden.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/falls-emerge-as-no-1-injury-threat-in-india-surpass-road-crashes/articleshow/136140475.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Injury burden 2023 (DALYs per 1 lakh)",
+   "a": {
+    "v": 831.1,
+    "d": "831.1",
+    "l": "Road injuries"
+   },
+   "b": {
+    "v": 958.7,
+    "d": "958.7",
+    "l": "Falls"
+   },
+   "tone": "neutral",
+   "verdict": "Falls have overtaken road crashes as the biggest injury burden."
+  },
+  {
+   "t": "stack",
+   "l": "Top 3 injury burdens 2023",
+   "parts": [
+    {
+     "l": "Falls",
+     "v": 958.7
+    },
+    {
+     "l": "Road",
+     "v": 831.1
+    },
+    {
+     "l": "Self-harm",
+     "v": 671.9
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Per 1 lakh people, age-standardised."
+  },
+  {
+   "t": "big",
+   "v": "958.7",
+   "l": "Fall DALYs per 1 lakh"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "958.7",
+  "label": "Fall DALYs per 1 lakh",
+  "motion": "drift",
+  "scene": [
+   "👵",
+   "🩹",
+   "🚗"
+  ]
+ },
+ "learn": {
+  "t": "DALY = years of healthy life lost to early death or disability",
+  "show": true
+ },
+ "watch": "Whether road injury rates fall faster as vehicle ownership keeps rising.",
+ "thread": "in-falls-top-injury-burden-india-overtake-road-crashes-lancet-gbd",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Falls emerge as No. 1 injury threat in India, surpass road crashes",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/falls-emerge-as-no-1-injury-threat-in-india-surpass-road-crashes/articleshow/136140475.cms"
+  }
+ ],
+ "updated": 1795568213063,
+ "img": {
+  "u": "https://static.toiimg.com/photo/msid-47529300/47529300.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Falls now cause more injury harm in India than *road crashes*",
+ "twist": "Road injury deaths still hit *1,68,000* in 2022, up 9.4% in a year.",
+ "areas": [],
+ "layer": "india"
+}

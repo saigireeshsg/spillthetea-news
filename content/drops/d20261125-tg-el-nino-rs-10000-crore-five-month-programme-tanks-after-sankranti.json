@@ -1,0 +1,137 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-25",
+ "sort": "2026-11-25-84",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "*₹10,000 crore* El Niño plan for Telangana's tanks",
+ "hook_b": "*₹10,000 crore* El Niño plan for Telangana's tanks",
+ "tldr": "The state's El Niño preparedness programme will be a highlight of the Telangana Climate Conclave at the Rising summit.",
+ "beats": {
+  "what": "Irrigation and Panchayat Raj departments will jointly rejuvenate tanks, streams and canals and expand rainwater harvesting.",
+  "why": "El Niño threatens drought; the plan aims at groundwater recharge and water security across rural Telangana.",
+  "care": "Water security in districts feeds into city supply worries; the works also aim to create lean-season jobs."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌡️",
+    "label": "El Niño drought risk"
+   }
+  ],
+  "event": {
+   "icon": "💧",
+   "label": "₹10,000 cr water plan"
+  },
+  "effects": [
+   {
+    "icon": "🏞️",
+    "label": "Tanks, canals rejuvenated"
+   },
+   {
+    "icon": "🏞️",
+    "label": "Lean-season jobs"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Minister Uttam Kumar Reddy asked that ICRISAT-backed climate models feature at the conclave."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Is tank restoration the right first step for El Niño?",
+   "opts": [
+    "Yes",
+    "Need city measures too",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much of the work will reach tanks around Hyderabad?",
+    "How will ₹2,000 crore a month be funded?"
+   ],
+   "facts": [
+    {
+     "big": "355",
+     "t": "A list of *355 categories* of works was prepared for the El Niño employment drive.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/telangana-counters-el-nino-impact-with-rural-employment-programme-3570395/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How it rolls out",
+   "steps": [
+    {
+     "t": "Dec",
+     "e": "Showcased at Telangana Climate Conclave"
+    },
+    {
+     "t": "After Sankranti",
+     "e": "Works begin, ~₹2,000 cr a month"
+    },
+    {
+     "t": "5 months",
+     "e": "₹10,000 crore total"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A plan; spending has not started yet."
+  },
+  {
+   "t": "big",
+   "v": "₹2,000 cr",
+   "l": "Works per month"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹2,000 cr",
+  "label": "Works per month",
+  "motion": "drift",
+  "scene": [
+   "🌡️",
+   "💧",
+   "🏞️"
+  ]
+ },
+ "watch": "The action plan the Panchayat Raj department releases before Sankranti.",
+ "thread": "tg-el-nino-rs-10000-crore-five-month-programme-tanks-after-sankranti",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "₹10,000 crore five-month programme planned to prepare Telangana for El Nino",
+   "url": "https://www.thehindu.com/news/national/telangana/10000-crore-five-month-programme-planned-to-prepare-telangana-for-el-nino/article71739410.ece"
+  },
+  {
+   "name": "Siasat",
+   "title": "Telangana counters El Nino impact with rural employment programme",
+   "url": "https://www.siasat.com/telangana-counters-el-nino-impact-with-rural-employment-programme-3570395/"
+  }
+ ],
+ "updated": 1795568213064,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/uttam-kumar-reddy-.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Telangana plans a *₹10,000 crore* five-month programme to prepare for El Niño",
+ "twist": "Works worth nearly *₹2,000 crore* a month will start after Sankranti.",
+ "areas": [],
+ "layer": "state"
+}

@@ -1,0 +1,133 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-25",
+ "sort": "2026-11-25-88",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "weather",
+ "hook": "Isolated rain till *Nov 27*, then a cold spell",
+ "hook_b": "Isolated rain till *Nov 27*, then a cold spell",
+ "tldr": "IMD Hyderabad predicts light to moderate rain over two days followed by dry weather, with misty mornings.",
+ "beats": {
+  "what": "Southern and central Telangana, including Hyderabad, could see isolated rain from November 25 to 27.",
+  "why": "IMD says partly cloudy skies and hazy morning conditions will persist due to the rain effect.",
+  "care": "Expect hazy early commutes now and colder nights from the weekend."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Rain effect, cloud cover"
+   }
+  ],
+  "event": {
+   "icon": "🌫️",
+   "label": "Isolated rain Nov 25-27"
+  },
+  "effects": [
+   {
+    "icon": "🥶",
+    "label": "Hazy mornings"
+   },
+   {
+    "icon": "🥶",
+    "label": "Cold spell Nov 29-Dec 4"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "IMD expects dry weather after the two rainy days."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Ready for the cold spell?",
+   "opts": [
+    "Jackets out",
+    "Love it",
+    "Hate the cold",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How cold could nights get during the Nov 29-Dec 4 spell?"
+   ],
+   "facts": [
+    {
+     "big": "2 days",
+     "t": "IMD predicts light to moderate rain for *two days*, then dry weather.",
+     "s": "The Hans India",
+     "u": "https://www.thehansindia.com/news/cities/hyderabad/scattered-showers-likely-across-telangana-1145525"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The week ahead",
+   "steps": [
+    {
+     "t": "Nov 25-27",
+     "e": "Isolated rain, hazy mornings"
+    },
+    {
+     "t": "Nov 28",
+     "e": "Dry weather expected"
+    },
+    {
+     "t": "Nov 29-Dec 4",
+     "e": "Strong cold forecast"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Forecasts from IMD and Telangana Weatherman."
+  },
+  {
+   "t": "big",
+   "v": "Nov 29",
+   "l": "Cold spell begins"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 29",
+  "label": "Cold spell begins",
+  "motion": "drift",
+  "scene": [
+   "🌧️",
+   "🌫️",
+   "🥶"
+  ]
+ },
+ "watch": "IMD minimum temperature readings from November 29.",
+ "thread": "hyd-isolated-rain-nov-25-27-cold-spell-nov-29-dec-4-haze",
+ "sources": [
+  {
+   "name": "The Hans India",
+   "title": "Scattered showers likely across Telangana",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/scattered-showers-likely-across-telangana-1145525"
+  }
+ ],
+ "updated": 1795568213064,
+ "img": {
+  "u": "https://assets.thehansindia.com/h-upload/2026/11/24/1728390-rainfall.jpg",
+  "c": "The Hans India"
+ },
+ "fact": "Hyderabad may see isolated rain till *November 27*, then a cold spell",
+ "twist": "Telangana Weatherman T Balaji forecasts strong cold from *November 29 to December 4*.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "city"
+}
