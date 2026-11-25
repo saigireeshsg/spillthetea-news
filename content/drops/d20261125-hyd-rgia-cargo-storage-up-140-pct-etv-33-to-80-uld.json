@@ -1,0 +1,134 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-25",
+ "sort": "2026-11-25-70",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "economy",
+ "hook": "Airport cargo storage up *140%* without a bigger terminal",
+ "hook_b": "Airport cargo storage up *140%* without a bigger terminal",
+ "tldr": "RGIA Shamshabad commissioned an upgraded Elevated Transfer Vehicle storage system at its cargo terminal.",
+ "beats": {
+  "what": "The new system raises storage for Unit Load Devices, the containers cargo flies in, from 33 to 80.",
+  "why": "Vertical storage lets the airport handle more cargo and several freighter operations at once in the same building.",
+  "care": "GHIAL says it helps time-sensitive and pharma cargo, a big part of Hyderabad's export story."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📦",
+    "label": "Growing cargo demand"
+   }
+  ],
+  "event": {
+   "icon": "✈️",
+   "label": "ETV storage upgrade at RGIA"
+  },
+  "effects": [
+   {
+    "icon": "💊",
+    "label": "More freighters handled at once"
+   },
+   {
+    "icon": "💊",
+    "label": "Faster pharma cargo"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "GHIAL CEO Kadhir Kadhiravan said it strengthens Hyderabad as a hub for pharma and time-critical cargo."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Did you know Hyderabad ships so much pharma by air?",
+   "opts": [
+    "Yes",
+    "No",
+    "Heard a bit",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What share of Hyderabad's air cargo is pharma?",
+    "Will more storage bring more freighter flights?"
+   ],
+   "facts": [
+    {
+     "big": "33→80",
+     "t": "ULD storage went from *33 to 80* slots by adding vertical space, not floor area.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-airport-commissions-facility-to-raise-storage-capacity-by-140/article71738689.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Cargo container (ULD) storage slots",
+   "a": {
+    "v": 33,
+    "d": "33",
+    "l": "Before"
+   },
+   "b": {
+    "v": 80,
+    "d": "80",
+    "l": "Now"
+   },
+   "goodIfUp": true,
+   "tone": "good",
+   "verdict": "More room for airlines and freight firms moving cargo through Hyderabad."
+  },
+  {
+   "t": "big",
+   "v": "80",
+   "l": "ULD slots now"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "80",
+  "label": "cargo container slots, up from 33",
+  "motion": "drift",
+  "scene": [
+   "📦",
+   "✈️",
+   "💊"
+  ]
+ },
+ "learn": {
+  "t": "ULD = Unit Load Device, the standard container or pallet cargo is loaded onto a plane in"
+ },
+ "watch": "Whether cargo volumes at RGIA rise in the coming months.",
+ "thread": "hyd-rgia-cargo-storage-up-140-pct-etv-33-to-80-uld",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Hyderabad airport commissions facility to raise storage capacity by 140%",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-airport-commissions-facility-to-raise-storage-capacity-by-140/article71738689.ece"
+  }
+ ],
+ "updated": 1795590639965,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/jjw6nt/article71741265.ece/alternates/LANDSCAPE_1200/IMG_BL0801_Logistics_Lea_2_1_VTC82KRM.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "Hyderabad airport's cargo terminal storage capacity jumps by over *140%*",
+ "twist": "It grew by stacking upward: *no extra terminal area* was needed.",
+ "areas": [
+  "Shamshabad"
+ ],
+ "layer": "city"
+}

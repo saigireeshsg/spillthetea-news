@@ -1,0 +1,151 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-25",
+ "sort": "2026-11-25-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Illegal borewell tanker points found across *Cyberabad*",
+ "hook_b": "Illegal borewell tanker points found across *Cyberabad*",
+ "tldr": "A TOI ground visit found groundwater being pumped and sold to private tankers near lakes, fields and homes across Cyberabad.",
+ "beats": {
+  "what": "Operators were drawing groundwater with high-powered motors, storing it in sumps and filling private tankers in Tellapur, Vattinagulapally, Osmannagar and near Thammidikunta lake.",
+  "why": "The city's water shortage is fuelling demand, and the WALTA Act 2002 bans commercial extraction in residential areas, recharge zones and over-exploited areas.",
+  "care": "Residents say the extraction is draining the local groundwater table; tankers were tracked to Gachibowli and HITEC City."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚱",
+    "label": "City water shortage"
+   }
+  ],
+  "event": {
+   "icon": "🚛",
+   "label": "Illegal tanker extraction points"
+  },
+  "effects": [
+   {
+    "icon": "💧",
+    "label": "Groundwater table falls"
+   },
+   {
+    "icon": "💧",
+    "label": "Tankers supply Gachibowli, HITEC City"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TOI tracked tankers from the sites to commercial and residential hubs in Gachibowli and HITEC City."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Does your building buy tanker water?",
+   "opts": [
+    "Yes, regularly",
+    "Sometimes",
+    "Never",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who checks extraction inside lake buffer zones, and how often?",
+    "Where does your area's tanker water come from?"
+   ],
+   "facts": [
+    {
+     "big": "2002",
+     "t": "Telangana's WALTA Act of *2002* bans commercial groundwater extraction in residential areas and recharge zones.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/toi-ground-report-illegal-groundwater-extraction-rampant-across-cyberabad/articleshow/136141007.cms"
+    },
+    {
+     "big": "Metres",
+     "t": "Tankers were found just *a few metres* from Thammidikunta lake on Hitex Road, inside its buffer zone.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/toi-ground-report-illegal-groundwater-extraction-rampant-across-cyberabad/articleshow/136141007.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the water moves",
+   "steps": [
+    {
+     "t": "1",
+     "e": "High-powered motors draw groundwater"
+    },
+    {
+     "t": "2",
+     "e": "Stored in underground sumps"
+    },
+    {
+     "t": "3",
+     "e": "Pumped into private tankers on site"
+    },
+    {
+     "t": "4",
+     "e": "Tankers head to Gachibowli, HITEC City"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Residents say the extraction is lowering the local groundwater table."
+  },
+  {
+   "t": "big",
+   "v": "20-30",
+   "l": "CCTV cameras at some sites"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "20-30",
+  "label": "CCTV cameras at some sites",
+  "motion": "drift",
+  "scene": [
+   "🚱",
+   "🚛",
+   "💧"
+  ]
+ },
+ "learn": {
+  "t": "WALTA Act = Telangana's 2002 water, land and trees law that limits groundwater extraction"
+ },
+ "watch": "Whether officials act on extraction points inside lake buffer zones.",
+ "thread": "hyd-illegal-groundwater-tankers-cyberabad-tellapur-thammidikunta-walta",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "TOI ground report: Illegal groundwater extraction rampant across Cyberabad",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/toi-ground-report-illegal-groundwater-extraction-rampant-across-cyberabad/articleshow/136141007.cms"
+  }
+ ],
+ "updated": 1795590639964,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136141006,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "TOI found *at least 4* illegal groundwater tanker points in Tellapur alone",
+ "twist": "Some extraction points ran *20 to 30* CCTV cameras to watch who came near.",
+ "areas": [
+  "Tellapur",
+  "HITEC City",
+  "Gachibowli",
+  "Vattinagulapally",
+  "Osman Nagar"
+ ],
+ "layer": "near"
+}

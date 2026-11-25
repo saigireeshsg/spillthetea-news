@@ -40,8 +40,8 @@
  "cards": [
   {
    "k": "tea",
-   "title": "🆕 What's new",
-   "body": "IMD expects dry weather after the two rainy days."
+   "title": "🆕 Midday update",
+   "body": "No rain in the city till noon Wednesday. IMD forecast cloudy skies turning partly cloudy by evening, with no rain for Hyderabad today."
   },
   {
    "k": "poll",
@@ -65,6 +65,12 @@
      "t": "IMD predicts light to moderate rain for *two days*, then dry weather.",
      "s": "The Hans India",
      "u": "https://www.thehansindia.com/news/cities/hyderabad/scattered-showers-likely-across-telangana-1145525"
+    },
+    {
+     "big": "3.8 mm",
+     "t": "Till 11 am Wednesday, *3.8 mm* rain fell in Kamkole (Sangareddy) and Gunegal (Rangareddy).",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/cloudy-wednesday-for-hyderabad-rain-recorded-in-few-parts-of-rangareddy-sangareddy/article71741328.ece"
     }
    ]
   }
@@ -89,6 +95,22 @@
    ],
    "tone": "neutral",
    "verdict": "Forecasts from IMD and Telangana Weatherman."
+  },
+  {
+   "t": "compare",
+   "l": "Lowest temperature today",
+   "a": {
+    "v": 22.5,
+    "d": "22.5°C",
+    "l": "Hyderabad"
+   },
+   "b": {
+    "v": 15.6,
+    "d": "15.6°C",
+    "l": "Kumaram Bheem Asifabad"
+   },
+   "tone": "neutral",
+   "verdict": "Districts are far colder than the city for now."
   },
   {
    "t": "big",
@@ -117,15 +139,20 @@
    "name": "The Hans India",
    "title": "Scattered showers likely across Telangana",
    "url": "https://www.thehansindia.com/news/cities/hyderabad/scattered-showers-likely-across-telangana-1145525"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Cloudy Wednesday for Hyderabad; rain recorded in few parts of Rangareddy, Sangareddy",
+   "url": "https://www.thehindu.com/news/national/telangana/cloudy-wednesday-for-hyderabad-rain-recorded-in-few-parts-of-rangareddy-sangareddy/article71741328.ece"
   }
  ],
- "updated": 1795568213064,
+ "updated": 1795590657013,
  "img": {
   "u": "https://assets.thehansindia.com/h-upload/2026/11/24/1728390-rainfall.jpg",
   "c": "The Hans India"
  },
- "fact": "Hyderabad may see isolated rain till *November 27*, then a cold spell",
- "twist": "Telangana Weatherman T Balaji forecasts strong cold from *November 29 to December 4*.",
+ "fact": "Cloudy but dry Hyderabad Wednesday; only *3.8 mm* fell in Sangareddy, Rangareddy",
+ "twist": "Hyderabad's low was *22.5°C*, while Asifabad dipped to *15.6°C*; a cold spell is forecast from *Nov 29*.",
  "areas": [
   "Hyderabad"
  ],
