@@ -1,0 +1,128 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "AP draws *15,000 cusecs* from Sagar; Telangana matches it",
+ "hook_b": "AP draws *15,000 cusecs* from Sagar; Telangana matches it",
+ "tldr": "Tension at Nagarjunasagar on Thursday after Andhra Pradesh released water through the right canal without prior information, Telangana Today reported.",
+ "beats": {
+  "what": "About 15,000 cusecs flowed to AP via the right canal; Telangana officials then released 15,000 cusecs from the left canal.",
+  "why": "Telangana officials charged AP with drawing water without informing them.",
+  "care": "Both states share Krishna water stored at Sagar, which is tight in a dry year."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💧",
+    "label": "Water-sharing dispute"
+   }
+  ],
+  "event": {
+   "icon": "🌊",
+   "label": "AP release without notice"
+  },
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "Telangana matches release"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Tensions escalate"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "This adds to the row over AP's Palnadu Water Grid project, which Telangana says lacks permission. Irrigation Minister Uttam Kumar Reddy had not responded yet, the report said."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Who should settle Sagar water releases?",
+   "opts": [
+    "KRMB (river board)",
+    "Centre",
+    "Both states talk",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Without telemetry, how do the states agree on how much each has drawn?"
+   ],
+   "facts": [
+    {
+     "big": "18",
+     "t": "Only *18* telemetry stations measure Krishna water use, so drawals are hard to verify.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/no-accurate-measure-of-krishna-water-use-as-telangana-ap-spar/articleshow/136171653.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Releases from Nagarjunasagar on Thursday",
+   "a": {
+    "v": 15000,
+    "d": "15,000",
+    "l": "AP right canal"
+   },
+   "b": {
+    "v": 15000,
+    "d": "15,000",
+    "l": "TG left canal"
+   },
+   "tone": "neutral",
+   "verdict": "Equal releases on both sides as the two states dispute the drawal."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "15,000",
+  "label": "cusecs each side",
+  "motion": "drift",
+  "scene": [
+   "💧",
+   "🌊",
+   "⚖️"
+  ]
+ },
+ "learn": {
+  "t": "Cusec = one cubic foot of water flowing per second"
+ },
+ "watch": "Whether the Krishna River Management Board steps in.",
+ "thread": "tg-nagarjunasagar-ap-releases-15000-cusecs-right-canal-telangana-matches-left-canal",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Telangana, Andhra Pradesh spar over water release at Nagarjunasagar",
+   "url": "https://telanganatoday.com/telangana-andhra-pradesh-spar-over-water-release-at-nagarjunasagar"
+  }
+ ],
+ "updated": 1795694231888,
+ "city": "Telangana",
+ "fact": "AP released *15,000 cusecs* from Nagarjunasagar without notice; Telangana released the same",
+ "twist": "AP said the water was for *drinking needs*; Telangana officials called it unauthorised.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/Sagar-1.jpg",
+  "c": "Telangana Today"
+ },
+ "layer": "state",
+ "areas": [
+  "Nalgonda"
+ ]
+}

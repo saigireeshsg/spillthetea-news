@@ -1,0 +1,140 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "cyber safety",
+ "hook": "Fake 'bank managers' take *₹2.28 crore* from Kukatpally family",
+ "hook_b": "Fake 'bank managers' take *₹2.28 crore* from Kukatpally family",
+ "tldr": "A 61-year-old software professional and his son lost ₹2.28 crore after being added to WhatsApp investment groups and shown fake bank ID cards.",
+ "beats": {
+  "what": "The father was added to two WhatsApp groups and contacted by women claiming to be private bank relationship managers.",
+  "why": "They showed real SEBI registration details of genuine bank-linked entities, so the platforms looked real.",
+  "care": "Anyone in WhatsApp 'investment circles' is a target; real banks don't ask you to trade on links they send."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📱",
+    "label": "WhatsApp 'investment' groups"
+   }
+  ],
+  "event": {
+   "icon": "🏦",
+   "label": "Fake bank staff push trading app"
+  },
+  "effects": [
+   {
+    "icon": "🚨",
+    "label": "₹2.28 cr transferred"
+   },
+   {
+    "icon": "🚨",
+    "label": "Withdrawal blocked by 'tax' demand"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The victims opened 'direct market access' accounts on a website and app the fraudsters set up. A case was registered on Tuesday for cheating, personation and forgery."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Who should block fake investment WhatsApp groups?",
+   "opts": [
+    "WhatsApp",
+    "SEBI and banks",
+    "Police",
+    "Users themselves",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How can someone check if a WhatsApp 'relationship manager' really works for a bank?"
+   ],
+   "facts": [
+    {
+     "big": "₹50 cr",
+     "t": "Telangana lost *₹50 crore* to 'digital arrest' scams in 10 months.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-loses-50-crore-to-digital-arrest-scams-in-10-months-even-as-monthly-complaints-fall-to-85/articleshow/136140532.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the scam unfolded",
+   "steps": [
+    {
+     "t": "Step 1",
+     "e": "Added to 2 WhatsApp 'investor' groups"
+    },
+    {
+     "t": "Step 2",
+     "e": "Fake bank staff show ID cards, SEBI details"
+    },
+    {
+     "t": "Step 3",
+     "e": "Money moved to accounts on fake app"
+    },
+    {
+     "t": "Nov 10-13",
+     "e": "₹22.92 lakh paid as 'taxes' to withdraw"
+    },
+    {
+     "t": "Tuesday",
+     "e": "Case registered"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "A layered trust trick that used real registration details."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹2.28 cr",
+  "label": "lost",
+  "motion": "drift",
+  "scene": [
+   "📱",
+   "🏦",
+   "🚨"
+  ]
+ },
+ "learn": {
+  "t": "DMA = direct market access, a trading account; fraudsters use the term to sound official"
+ },
+ "watch": "Whether police trace the bank accounts the money went to.",
+ "thread": "hyd-kukatpally-fake-bank-officials-whatsapp-stock-fraud-rs-2-28-crore",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Fake bank officials lure Hyderabad techie, son into ₹2 crore stock investment fraud",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/fake-bank-officials-lure-hyderabad-techie-son-into-2-crore-stock-investment-fraud/articleshow/136189061.cms"
+  }
+ ],
+ "updated": 1795694231888,
+ "fact": "WhatsApp stock 'advisers' posing as bank staff took *₹2.28 crore* from a Kukatpally family",
+ "twist": "When the son tried to withdraw, fraudsters demanded 'taxes'; he paid *₹22.92 lakh* more.",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136189060,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "layer": "near",
+ "areas": [
+  "Kukatpally"
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "cat": "campus",
+ "lead": "campus",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "education",
+ "hook": "*225* graduate at NIPER Hyderabad's convocation tomorrow",
+ "hook_b": "*225* graduate at NIPER Hyderabad's convocation tomorrow",
+ "tldr": "The pharma institute's 14th convocation is on Friday, Nov 27, at its Balanagar campus.",
+ "beats": {
+  "what": "210 Master's students of the 2024-26 batch and 15 Ph.D. scholars graduate.",
+  "why": "NIPER Hyderabad trains researchers for India's pharma sector, a big Hyderabad industry.",
+  "care": "Expect convocation crowds around the Balanagar campus on Friday."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎓",
+    "label": "2024-26 batch completes"
+   }
+  ],
+  "event": {
+   "icon": "💊",
+   "label": "14th convocation, Nov 27"
+  },
+  "effects": [
+   {
+    "icon": "🏅",
+    "label": "12 gold medals"
+   },
+   {
+    "icon": "🏅",
+    "label": "15 new Ph.D.s"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Department of Pharmaceuticals senior economic advisor Awadhesh Kumar Choudhary and Dhanush Group MD DSN Murthy will attend; Director Shailendra Saraf presents the institute report."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Pharma grads: where should they work?",
+   "opts": [
+    "Hyderabad pharma firms",
+    "Research labs",
+    "Abroad",
+    "Start-ups",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many of these graduates will stay with Hyderabad's pharma industry?"
+   ],
+   "facts": [
+    {
+     "big": "12",
+     "t": "*12* meritorious students will receive gold medals.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/niper-hyderabad-convocation-today"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "NIPER Hyderabad graduates",
+   "parts": [
+    {
+     "l": "Master's",
+     "v": 210,
+     "c": "#4a7fd0"
+    },
+    {
+     "l": "Ph.D.",
+     "v": 15,
+     "c": "#f0a030"
+    }
+   ],
+   "total": "225 graduates",
+   "tone": "neutral",
+   "verdict": "Most graduates are Master's students of the 2024-26 batch."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#1c2340",
+   "#4a5fb0"
+  ],
+  "big": "225",
+  "label": "graduates",
+  "motion": "drift",
+  "scene": [
+   "🎓",
+   "💊",
+   "🏅"
+  ]
+ },
+ "learn": {
+  "t": "NIPER = National Institute of Pharmaceutical Education and Research"
+ },
+ "watch": "The institute report on research and placements at Friday's ceremony.",
+ "thread": "hyd-niper-balanagar-14th-convocation-friday-225-graduates-15-phd",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "225 students to graduate at NIPER Hyderabad's 14th convocation on Friday",
+   "url": "https://telanganatoday.com/niper-hyderabad-convocation-today"
+  }
+ ],
+ "updated": 1795694231888,
+ "fact": "NIPER Hyderabad confers degrees on *225* students at Balanagar on Friday",
+ "twist": "*12* students get gold medals; only *15* of the 225 are Ph.D. scholars.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/niper-hyderabad-convocation-today-5d168389.jpg",
+  "c": "Telangana Today"
+ },
+ "layer": "city",
+ "areas": [
+  "Balanagar"
+ ]
+}

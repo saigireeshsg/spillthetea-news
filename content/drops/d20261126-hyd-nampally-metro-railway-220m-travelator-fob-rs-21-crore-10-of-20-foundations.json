@@ -1,0 +1,147 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-90",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "transport",
+ "hook": "*220 m* travelator bridge to link Nampally Metro and railway station",
+ "hook_b": "*220 m* travelator bridge to link Nampally Metro and railway station",
+ "tldr": "SCR is building a ₹21 crore foot over bridge with travelators between Nampally Metro station and Hyderabad Deccan station; 10 of its 20 foundations are done.",
+ "beats": {
+  "what": "A nine-metre-wide foot over bridge with travelators along most of its length will connect the two stations.",
+  "why": "It is part of the ₹327 crore Amrit Station redevelopment, after nearly a decade of planning.",
+  "care": "Rail passengers, including MMTS riders, can reach the Metro without stepping onto busy roads below."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚉",
+    "label": "Rail-Metro gap on busy roads"
+   }
+  ],
+  "event": {
+   "icon": "🛤️",
+   "label": "₹21 cr travelator FOB being built"
+  },
+  "effects": [
+   {
+    "icon": "🚶",
+    "label": "Walk-free transfer to Metro"
+   },
+   {
+    "icon": "🚶",
+    "label": "Part of ₹327 cr revamp"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Foundation work is halfway: 10 of 20 foundations completed, SCR CPRO A. Sridhar said. The upgraded station gets 16 lifts, eight escalators and an AC concourse."
+  },
+  {
+   "k": "poll",
+   "vt": "priority",
+   "q": "What matters most in the new Nampally station?",
+   "opts": [
+    "Metro link bridge",
+    "Lifts and escalators",
+    "Parking",
+    "Keeping heritage look",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will passengers move while the old station building is being replaced?"
+   ],
+   "facts": [
+    {
+     "big": "16",
+     "t": "The upgraded station will have *16* lifts, *8* escalators and a 500 KLD sewage plant.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/21-cr-travelator-bridge-to-link-nampally-railway-station-hyderabad-metro-station/article71745578.ece"
+    },
+    {
+     "big": "13,550",
+     "t": "Circulation area of *13,550 sq m* with basement parking; platforms 4-6 will handle long-distance trains.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/21-cr-travelator-bridge-to-link-nampally-railway-station-hyderabad-metro-station/article71745578.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Bridge foundations completed",
+   "v": 10,
+   "max": 20,
+   "d": "10 of 20",
+   "tone": "good",
+   "verdict": "Halfway on foundations for the Metro-rail link bridge."
+  },
+  {
+   "t": "stack",
+   "l": "₹327 cr station revamp",
+   "parts": [
+    {
+     "l": "Travelator FOB",
+     "v": 21,
+     "c": "#4a7fd0"
+    },
+    {
+     "l": "Rest of station",
+     "v": 306,
+     "c": "#8a94a6"
+    }
+   ],
+   "total": "₹327 crore",
+   "tone": "neutral",
+   "verdict": "The bridge is about 6% of the redevelopment budget."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "10/20",
+  "label": "foundations done",
+  "motion": "drift",
+  "scene": [
+   "🚉",
+   "🛤️",
+   "🚶"
+  ]
+ },
+ "learn": {
+  "t": "FOB = foot over bridge, a pedestrian bridge over tracks or roads"
+ },
+ "watch": "When SCR completes the remaining 10 foundations and opens the bridge.",
+ "thread": "hyd-nampally-metro-railway-220m-travelator-fob-rs-21-crore-10-of-20-foundations",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "21-cr travelator bridge to link Nampally Railway Station, Hyderabad Metro Station",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/21-cr-travelator-bridge-to-link-nampally-railway-station-hyderabad-metro-station/article71745578.ece"
+  }
+ ],
+ "updated": 1795694231886,
+ "fact": "A *220-metre* travelator bridge will link Nampally Metro to the railway station",
+ "twist": "The 1907 station handles nearly *25,000* passengers and about *60* trains a day.",
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/3tvbmq/article71745657.ece/alternates/LANDSCAPE_1200/DSC5669.jpg",
+  "c": "The Hindu"
+ },
+ "layer": "near",
+ "areas": [
+  "Nampally",
+  "Abids"
+ ]
+}

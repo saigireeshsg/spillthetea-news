@@ -1,0 +1,130 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-76",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "GHMC clears footpaths in Tolichowki, Shaikpet: drives *every week* now",
+ "hook_b": "GHMC clears footpaths in Tolichowki, Shaikpet: drives *every week* now",
+ "tldr": "GHMC's Town Planning wing ran a drive against footpath encroachments on Thursday and says such drives will happen every week.",
+ "beats": {
+  "what": "The drive targeted footpath encroachments in Shaikpet, Tolichowki and Golconda on Nov 26.",
+  "why": "GHMC says it wants safe walking space for pedestrians and less traffic congestion.",
+  "care": "Shop owners with sheds or hoardings on footpaths could be next; walkers may get space back."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚧",
+    "label": "Footpaths taken by sheds, hoardings"
+   }
+  ],
+  "event": {
+   "icon": "🧹",
+   "label": "GHMC clearing drive"
+  },
+  "effects": [
+   {
+    "icon": "🚶",
+    "label": "Space for walkers"
+   },
+   {
+    "icon": "🚶",
+    "label": "Weekly repeat drives"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "ACP Swamy Naik of GHMC's Town Planning wing said the drives will be weekly. Tolichowki and Golconda police and Tolichowki traffic police were present."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Weekly footpath clearing drives: fair call?",
+   "opts": [
+    "Yes, footpaths first",
+    "Warn shops first",
+    "Only on busy roads",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will cleared footpaths stay clear between weekly drives?"
+   ],
+   "facts": [
+    {
+     "big": "3",
+     "t": "Police from *3* units, Tolichowki, Golconda and Tolichowki traffic, joined the drive.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/ghmc-removes-footpath-encroachments-from-shaikpet-tolichowki-3587479/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The drive",
+   "steps": [
+    {
+     "t": "Nov 26",
+     "e": "Footpaths cleared in Shaikpet, Tolichowki, Golconda"
+    },
+    {
+     "t": "Advice",
+     "e": "Owners told to remove sheds, hoardings themselves"
+    },
+    {
+     "t": "Every week",
+     "e": "Repeat drives, says GHMC ACP"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Walkers gain space; shops on footpaths face removal."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Weekly",
+  "label": "drives planned",
+  "motion": "drift",
+  "scene": [
+   "🚧",
+   "🧹",
+   "🚶"
+  ]
+ },
+ "watch": "Which neighbourhoods GHMC targets in next week's drive.",
+ "thread": "hyd-ghmc-footpath-encroachment-drive-shaikpet-tolichowki-golconda-weekly",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "GHMC removes footpath encroachments from Shaikpet, Tolichowki",
+   "url": "https://www.siasat.com/ghmc-removes-footpath-encroachments-from-shaikpet-tolichowki-3587479/"
+  }
+ ],
+ "updated": 1795694231888,
+ "fact": "GHMC cleared footpath encroachments in Shaikpet, Tolichowki and Golconda, *weekly* drives next",
+ "twist": "GHMC asked owners to remove sheds and hoardings themselves, warning its removal *might damage* property.",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/ghmc-32.jpg",
+  "c": "Siasat"
+ },
+ "layer": "near",
+ "areas": [
+  "Shaikpet",
+  "Tolichowki",
+  "Golconda"
+ ]
+}

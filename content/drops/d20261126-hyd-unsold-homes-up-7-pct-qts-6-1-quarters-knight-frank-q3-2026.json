@@ -1,0 +1,141 @@
+{
+ "cat": "money",
+ "lead": "money",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-82",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "real estate",
+ "hook": "Hyderabad unsold homes up *7%*; sales rose only 3%",
+ "hook_b": "Hyderabad unsold homes up *7%*; sales rose only 3%",
+ "tldr": "Knight Frank India says new launches stayed ahead of sales in Q3 2026, so Hyderabad's unsold inventory rose 7% while average sales rose 3%.",
+ "beats": {
+  "what": "Quarters to Sell (QTS) rose from 5.8 quarters in Q3 2025 to 6.1 quarters in Q3 2026.",
+  "why": "New project launches continued to outpace demand, Knight Frank said.",
+  "care": "Homebuyers face a market with more unsold stock on the shelf."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏗️",
+    "label": "Launches outpace sales"
+   }
+  ],
+  "event": {
+   "icon": "🏢",
+   "label": "Unsold stock up 7%"
+  },
+  "effects": [
+   {
+    "icon": "🔑",
+    "label": "Longer selling cycle"
+   },
+   {
+    "icon": "🔑",
+    "label": "More choice for buyers"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Across India's top eight markets, average QTS also edged up to 6.1 quarters from an eight-year low of 5.8; it was 7-11 quarters between 2018 and 2021."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "More unsold homes: what should change first?",
+   "opts": [
+    "Lower prices",
+    "Fewer new launches",
+    "Smaller, cheaper flats",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Will slower absorption push developers to cut prices or slow launches?"
+   ],
+   "facts": [
+    {
+     "big": "7-11",
+     "t": "India's top markets took *7-11 quarters* to clear stock in 2018-21, versus 6.1 now.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-qts-rises-to-6-1-quarters"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Hyderabad Quarters to Sell",
+   "a": {
+    "v": 5.8,
+    "d": "5.8",
+    "l": "Q3 2025"
+   },
+   "b": {
+    "v": 6.1,
+    "d": "6.1",
+    "l": "Q3 2026"
+   },
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Unsold homes take longer to clear; tougher for developers, more choice for buyers."
+  },
+  {
+   "t": "compare",
+   "l": "Growth over the year",
+   "a": {
+    "v": 3,
+    "d": "+3%",
+    "l": "Avg sales"
+   },
+   "b": {
+    "v": 7,
+    "d": "+7%",
+    "l": "Unsold stock"
+   },
+   "tone": "neutral",
+   "verdict": "Supply grew faster than demand."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b0f0f",
+   "#c0392b"
+  ],
+  "big": "6.1",
+  "label": "quarters to sell",
+  "motion": "drift",
+  "scene": [
+   "🏗️",
+   "🏢",
+   "🔑"
+  ]
+ },
+ "learn": {
+  "t": "QTS = Quarters to Sell, time to clear unsold stock at the last eight quarters' sales rate"
+ },
+ "watch": "Whether developers slow new launches in the coming quarters.",
+ "thread": "hyd-unsold-homes-up-7-pct-qts-6-1-quarters-knight-frank-q3-2026",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Unsold housing inventory rises 7 per cent in Hyderabad",
+   "url": "https://telanganatoday.com/hyderabad-qts-rises-to-6-1-quarters"
+  }
+ ],
+ "updated": 1795694231887,
+ "fact": "Hyderabad's unsold housing stock rose *7%* as launches outpaced sales",
+ "twist": "At current pace it would take *1.52 years* to sell the stock, up from 1.45 years.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/hyderabad-qts-rises-to-6-1-quarters-b9abc63d.jpg",
+  "c": "Telangana Today"
+ },
+ "layer": "city"
+}

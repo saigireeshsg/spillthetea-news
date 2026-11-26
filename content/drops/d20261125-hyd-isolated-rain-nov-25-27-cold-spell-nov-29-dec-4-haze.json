@@ -1,14 +1,14 @@
 {
  "cat": "local",
  "lead": "local",
- "date": "2026-11-25",
- "sort": "2026-11-25-88",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-86",
  "order": 1,
  "heat": 2,
  "readSecs": 30,
  "topic": "weather",
- "hook": "Isolated rain till *Nov 27*, then a cold spell",
- "hook_b": "Isolated rain till *Nov 27*, then a cold spell",
+ "hook": "Dry till *Dec 3*: nights to get 2-4°C colder",
+ "hook_b": "Dry till *Dec 3*: nights to get 2-4°C colder",
  "tldr": "IMD Hyderabad predicts light to moderate rain over two days followed by dry weather, with misty mornings.",
  "beats": {
   "what": "Southern and central Telangana, including Hyderabad, could see isolated rain from November 25 to 27.",
@@ -29,7 +29,7 @@
   "effects": [
    {
     "icon": "🥶",
-    "label": "Hazy mornings"
+    "label": "Minimums fall 2-4°C"
    },
    {
     "icon": "🥶",
@@ -40,8 +40,8 @@
  "cards": [
   {
    "k": "tea",
-   "title": "🆕 Midday update",
-   "body": "No rain in the city till noon Wednesday. IMD forecast cloudy skies turning partly cloudy by evening, with no rain for Hyderabad today."
+   "title": "🆕 Evening update",
+   "body": "IMD Hyderabad says dry weather is very likely from Thursday morning till December 3, with minimum temperatures dropping 2-4°C over the next five days."
   },
   {
    "k": "poll",
@@ -60,6 +60,12 @@
     "How cold could nights get during the Nov 29-Dec 4 spell?"
    ],
    "facts": [
+    {
+     "big": "2-4°C",
+     "t": "IMD expects minimums to drop *2-4°C* over five days as dry weather returns.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/minimum-temperatures-to-drop-as-dry-spell-returns"
+    },
     {
      "big": "2 days",
      "t": "IMD predicts light to moderate rain for *two days*, then dry weather.",
@@ -81,33 +87,33 @@
    "l": "The week ahead",
    "steps": [
     {
-     "t": "Nov 25-27",
-     "e": "Isolated rain, hazy mornings"
+     "t": "Till Nov 26 morning",
+     "e": "Isolated light rain"
     },
     {
-     "t": "Nov 28",
-     "e": "Dry weather expected"
+     "t": "Nov 26-Dec 3",
+     "e": "Dry weather (IMD)"
     },
     {
-     "t": "Nov 29-Dec 4",
-     "e": "Strong cold forecast"
+     "t": "Next 5 days",
+     "e": "Minimums drop 2-4°C"
     }
    ],
    "tone": "neutral",
-   "verdict": "Forecasts from IMD and Telangana Weatherman."
+   "verdict": "Cooler nights ahead as clouds clear."
   },
   {
    "t": "compare",
-   "l": "Lowest temperature today",
+   "l": "Lowest minimum, 24 hrs to 8.30 am Thu",
    "a": {
-    "v": 22.5,
-    "d": "22.5°C",
-    "l": "Hyderabad"
+    "v": 21.3,
+    "d": "19.9-21.3°C",
+    "l": "Greater Hyderabad, Cyberabad"
    },
    "b": {
-    "v": 15.6,
-    "d": "15.6°C",
-    "l": "Kumaram Bheem Asifabad"
+    "v": 15,
+    "d": "15°C",
+    "l": "Sirpur Urban"
    },
    "tone": "neutral",
    "verdict": "Districts are far colder than the city for now."
@@ -132,9 +138,14 @@
    "🥶"
   ]
  },
- "watch": "IMD minimum temperature readings from November 29.",
+ "watch": "Whether city minimums dip below 18°C by the weekend.",
  "thread": "hyd-isolated-rain-nov-25-27-cold-spell-nov-29-dec-4-haze",
  "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Minimum temps to drop by 2-4 degrees in Telangana as dry spell returns: IMD Hyderabad",
+   "url": "https://telanganatoday.com/minimum-temperatures-to-drop-as-dry-spell-returns"
+  },
   {
    "name": "The Hans India",
    "title": "Scattered showers likely across Telangana",
@@ -146,13 +157,13 @@
    "url": "https://www.thehindu.com/news/national/telangana/cloudy-wednesday-for-hyderabad-rain-recorded-in-few-parts-of-rangareddy-sangareddy/article71741328.ece"
   }
  ],
- "updated": 1795590657013,
+ "updated": 1795694271768,
  "img": {
-  "u": "https://assets.thehansindia.com/h-upload/2026/11/24/1728390-rainfall.jpg",
-  "c": "The Hans India"
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/minimum-temperatures-to-drop-as-dry-spell-returns-2d0be229.jpg",
+  "c": "Telangana Today"
  },
- "fact": "Cloudy but dry Hyderabad Wednesday; only *3.8 mm* fell in Sangareddy, Rangareddy",
- "twist": "Hyderabad's low was *22.5°C*, while Asifabad dipped to *15.6°C*; a cold spell is forecast from *Nov 29*.",
+ "fact": "Night temperatures to fall *2-4°C* as dry weather returns till Dec 3",
+ "twist": "Cloud cover had kept city minimums at *19.9-21.3°C*, above normal; Sirpur Urban hit *15°C*.",
  "areas": [
   "Hyderabad"
  ],
