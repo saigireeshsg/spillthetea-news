@@ -1,0 +1,141 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-78",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "*75* PAANI complaints: people mopping floors with drinking water",
+ "hook_b": "*75* PAANI complaints: people mopping floors with drinking water",
+ "tldr": "Over 250 complaints came in on the water board's PAANI app in four weeks; about 75 were about residents mopping floors with drinking water or groundwater.",
+ "beats": {
+  "what": "PAANI, launched on Oct 29, lets residents photograph and report misuse of drinking water across 10 categories.",
+  "why": "HMWSSB says the city's water reserves are in a critical state and wants potable water kept for drinking and cooking.",
+  "care": "Fines run from ₹1,000 to ₹20,000; unpaid penalties get added to the water bill."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💧",
+    "label": "Water reserves under stress"
+   }
+  ],
+  "event": {
+   "icon": "📱",
+   "label": "Residents report misuse on PAANI"
+  },
+  "effects": [
+   {
+    "icon": "🧾",
+    "label": "Field teams verify each ticket"
+   },
+   {
+    "icon": "🧾",
+    "label": "Fines of ₹1,000-₹20,000"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Most floor-mopping complaints came from Jubilee Hills and Banjara Hills, officials said; field teams found pressure motors on drinking-water lines used to wash floors and driveways."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should water-wasting fines show up on your water bill?",
+   "opts": [
+    "Yes",
+    "No",
+    "Only after a warning",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Would residents switch to treated STP water for cleaning if it were piped to homes?"
+   ],
+   "facts": [
+    {
+     "big": "700",
+     "t": "The PAANI app has *1,000+* downloads and about *700* active users.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/mopping-floors-with-potable-water-tops-paani-app-complaints/articleshow/136171680.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "PAANI complaints in 4 weeks (250+)",
+   "parts": [
+    {
+     "l": "Mopping floors",
+     "v": 75,
+     "c": "#e0533d"
+    },
+    {
+     "l": "Leakages",
+     "v": 60,
+     "c": "#f0a030"
+    },
+    {
+     "l": "Washing streets",
+     "v": 31,
+     "c": "#4a7fd0"
+    },
+    {
+     "l": "Other",
+     "v": 84,
+     "c": "#8a94a6"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Floor-mopping with drinking water is the most-flagged misuse.",
+   "total": "250+ complaints"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "250+",
+  "label": "PAANI complaints in 4 weeks",
+  "motion": "drift",
+  "scene": [
+   "💧",
+   "📱",
+   "🧾"
+  ]
+ },
+ "watch": "Whether HMWSSB pushes treated STP water for floor cleaning, gardening and construction.",
+ "thread": "hyd-paani-app-250-complaints-mopping-floors-drinking-water-jubilee-hills",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Mopping floors with potable water tops PAANI app complaints",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/mopping-floors-with-potable-water-tops-paani-app-complaints/articleshow/136171680.cms"
+  }
+ ],
+ "updated": 1795676999312,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136171679,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Mopping floors with drinking water is the top complaint on HMWSSB's *PAANI* app",
+ "twist": "HMWSSB has fined about *1,700* residents nearly *₹50 lakh* for wasting water this year.",
+ "areas": [
+  "Jubilee Hills",
+  "Banjara Hills",
+  "Kukatpally",
+  "Khairatabad",
+  "Mehdipatnam"
+ ],
+ "layer": "near"
+}

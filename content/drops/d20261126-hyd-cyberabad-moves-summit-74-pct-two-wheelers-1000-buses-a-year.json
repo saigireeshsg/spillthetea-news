@@ -1,0 +1,128 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "*74%* of Telangana citizens rely on their own two-wheeler",
+ "hook_b": "*74%* of Telangana citizens rely on their own two-wheeler",
+ "tldr": "Cyberabad Moves, a three-day summit on traffic and urban mobility, begins today with international experts, the DGP and CM Revanth Reddy.",
+ "beats": {
+  "what": "The summit runs panel discussions, two breakout sessions and an ideathon; the CM is to present the ideathon awards.",
+  "why": "Cyberabad and West Hyderabad face growing congestion, CMC Commissioner G. Srijana said.",
+  "care": "Talks are on with TGRTC over the bus shortage in the IT corridor and last-mile connectivity."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🛵",
+    "label": "Bus shortage in IT corridor"
+   }
+  ],
+  "event": {
+   "icon": "🏙️",
+   "label": "Cyberabad Moves summit opens"
+  },
+  "effects": [
+   {
+    "icon": "🚌",
+    "label": "TGRTC talks on last-mile links"
+   },
+   {
+    "icon": "🚌",
+    "label": "1,000 e/AC buses a year planned"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "CP M. Ramesh contrasted Telangana with London, where he said 97% of commuters use public transport and 9,000 buses carry more people than the Underground."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What would get you out of your own vehicle in the IT corridor?",
+   "opts": [
+    "More frequent buses",
+    "Last-mile shuttles to Metro",
+    "Safer footpaths",
+    "Nothing would",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Can 1,000 new buses a year keep pace with Cyberabad's growth?"
+   ],
+   "facts": [
+    {
+     "big": "1,172",
+     "t": "The summit drew *1,172* individual registrations plus 93 schools, 27 colleges and 62 RWAs.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/cyberabad-moves-summit-to-focus-on-traffic-congestion-public-transport-and-urban-mobility/article71743745.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "How people commute",
+   "a": {
+    "v": 74,
+    "d": "74%",
+    "l": "Telangana: own two-wheeler"
+   },
+   "b": {
+    "v": 97,
+    "d": "97%",
+    "l": "London: public transport"
+   },
+   "tone": "neutral",
+   "verdict": "Figures cited by the Cyberabad CP to show the gap in public transport use."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "74%",
+  "label": "Depend on personal two-wheelers",
+  "motion": "drift",
+  "scene": [
+   "🛵",
+   "🏙️",
+   "🚌"
+  ]
+ },
+ "watch": "What the CM announces at the summit and the ideathon winners.",
+ "thread": "hyd-cyberabad-moves-summit-74-pct-two-wheelers-1000-buses-a-year",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Cyberabad Moves summit to focus on traffic congestion, public transport and urban mobility",
+   "url": "https://www.thehindu.com/news/national/telangana/cyberabad-moves-summit-to-focus-on-traffic-congestion-public-transport-and-urban-mobility/article71743745.ece"
+  }
+ ],
+ "updated": 1795676999313,
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/cities/Hyderabad/b63f72/article71745496.ece/alternates/LANDSCAPE_1200/Cyberabad%20Moves.png",
+  "c": "The Hindu"
+ },
+ "fact": "*74%* of Telangana citizens depend on personal two-wheelers, says Cyberabad CP",
+ "twist": "The state plans to add *1,000* buses a year for the next four to five years.",
+ "areas": [
+  "Gachibowli",
+  "Madhapur",
+  "HITEC City",
+  "Kondapur"
+ ],
+ "layer": "city"
+}

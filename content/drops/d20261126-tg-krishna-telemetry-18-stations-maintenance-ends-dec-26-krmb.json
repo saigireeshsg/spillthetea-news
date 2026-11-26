@@ -1,0 +1,155 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-74",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Telangana, AP fight over Krishna water with *no* full meter",
+ "hook_b": "Telangana, AP fight over Krishna water with *no* full meter",
+ "tldr": "The Krishna River Management Board has no complete real-time system to show how much water Telangana and Andhra Pradesh each draw.",
+ "beats": {
+  "what": "Phase I installed 18 telemetry stations, including at Jurala, Nagarjuna Sagar and Srisailam; phases II (9) and III (11) never started.",
+  "why": "Phase II stalled because AP did not release its share of the ₹9 crore, per Telangana officials.",
+  "care": "The contractor's five-year maintenance deal for the 18 stations ends on Dec 26; neither state has replied to KRMB's letters."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💸",
+    "label": "AP didn't release its share of funds"
+   }
+  ],
+  "event": {
+   "icon": "📡",
+   "label": "Telemetry phases II, III stalled"
+  },
+  "effects": [
+   {
+    "icon": "🌊",
+    "label": "No real-time data on drawals"
+   },
+   {
+    "icon": "🌊",
+    "label": "Station upkeep unclear after Dec 26"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "In 2024-25, AP used 718 tmc and Telangana 288 tmc of the 1,006 tmc drawn from the Krishna, per the KRMB annual report."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Who should pay to finish Krishna water metering?",
+   "opts": [
+    "Both states equally",
+    "The Centre",
+    "KRMB from its budget",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Without shared real-time data, how can either state's claims about overdrawal be checked?"
+   ],
+   "facts": [
+    {
+     "big": "₹9 cr",
+     "t": "Phase II needed *₹9 crore*; Telangana released ₹4.5 crore, AP's matching share never came, officials said.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/no-accurate-measure-of-krishna-water-use-as-telangana-ap-spar/articleshow/136171653.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "Krishna water used in 2024-25 (1,006 tmc)",
+   "parts": [
+    {
+     "l": "Andhra Pradesh",
+     "v": 718,
+     "c": "#e0533d"
+    },
+    {
+     "l": "Telangana",
+     "v": 288,
+     "c": "#f0a030"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "AP drew about 71% of the total, per the KRMB annual report.",
+   "total": "1,006 tmc"
+  },
+  {
+   "t": "timeline",
+   "l": "Telemetry plan",
+   "steps": [
+    {
+     "t": "Phase I",
+     "e": "18 stations installed"
+    },
+    {
+     "t": "Phase II",
+     "e": "9 stations, stalled for funds"
+    },
+    {
+     "t": "Phase III",
+     "e": "11 stations, not started"
+    },
+    {
+     "t": "Dec 26",
+     "e": "Contractor maintenance ends"
+    }
+   ],
+   "now": 1
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "18 of 38",
+  "label": "Planned telemetry stations built",
+  "motion": "drift",
+  "scene": [
+   "💸",
+   "📡",
+   "🌊"
+  ]
+ },
+ "learn": {
+  "t": "KRMB = Krishna River Management Board, which manages Krishna water sharing between Telangana and AP"
+ },
+ "watch": "KRMB's next meetings on the stalled network and who maintains stations after Dec 26.",
+ "thread": "tg-krishna-telemetry-18-stations-maintenance-ends-dec-26-krmb",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "No accurate measure of Krishna water use as Telangana, AP spar",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/no-accurate-measure-of-krishna-water-use-as-telangana-ap-spar/articleshow/136171653.cms"
+  }
+ ],
+ "updated": 1795676999313,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136171651,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "KRMB still can't measure Krishna water use; only *18* telemetry stations exist",
+ "twist": "Telangana's ₹4.5 crore for new stations was spent by KRMB on office upkeep and salaries, a Telangana official said.",
+ "areas": [
+  "Nagarjuna Sagar",
+  "Srisailam",
+  "Jurala"
+ ],
+ "layer": "state"
+}

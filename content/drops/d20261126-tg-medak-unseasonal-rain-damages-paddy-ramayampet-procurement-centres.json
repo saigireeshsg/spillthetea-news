@@ -1,0 +1,125 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-72",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "weather",
+ "hook": "Wednesday night rain soaks Medak's harvested paddy",
+ "hook_b": "Wednesday night rain soaks Medak's harvested paddy",
+ "tldr": "Unseasonal rain lashed parts of Medak district on Wednesday night, damaging standing paddy and harvested grain left out to dry.",
+ "beats": {
+  "what": "Paddy brought to procurement centres and drying platforms was hit, along with crops ready for harvest.",
+  "why": "Harvested paddy is spread out in the open to dry before it is bought, so a night of rain can sweep it away.",
+  "care": "A video of a farmer crying over a tractor load of swept-away paddy went viral; several farmers reported similar losses."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌧️",
+    "label": "Unseasonal rain Wednesday night"
+   }
+  ],
+  "event": {
+   "icon": "🌾",
+   "label": "Paddy at drying platforms damaged"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Standing crop hit"
+   },
+   {
+    "icon": "💸",
+    "label": "Farmers report heavy losses"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "A tenant farmer from Konapur woke on Thursday to find more than half of his two truckloads of harvest washed away."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should procurement centres have covered drying platforms?",
+   "opts": [
+    "Yes",
+    "Farmers should get tarpaulins",
+    "Faster buying is the fix",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who bears the loss when paddy is damaged while waiting at a procurement centre?"
+   ],
+   "facts": [
+    {
+     "big": "2",
+     "t": "The farmer had leased *two acres* and got two truckloads of harvest before the rain.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/unseasonal-rains-leave-farmers-in-huge-losses-in-medak"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "One tenant farmer's two-acre paddy",
+   "a": {
+    "v": 60000,
+    "d": "₹60,000",
+    "l": "Spent on the crop"
+   },
+   "b": {
+    "v": 40000,
+    "d": "₹40,000+",
+    "l": "Lost to the rain"
+   },
+   "tone": "bad",
+   "verdict": "The loss is two-thirds of what he spent, he told Telangana Today."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹40,000",
+  "label": "One tenant farmer's loss",
+  "motion": "drift",
+  "scene": [
+   "🌧️",
+   "🌾",
+   "💸"
+  ]
+ },
+ "watch": "Whether officials assess the losses at Medak's procurement centres.",
+ "thread": "tg-medak-unseasonal-rain-damages-paddy-ramayampet-procurement-centres",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Unseasonal rains cause huge losses to farmers in Medak",
+   "url": "https://telanganatoday.com/unseasonal-rains-leave-farmers-in-huge-losses-in-medak"
+  }
+ ],
+ "updated": 1795676999313,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/unseasonal-rains-leave-farmers-in-huge-losses-in-medak-e3151bff.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Untimely rain in Medak damaged paddy drying at *procurement centres* on Wednesday night",
+ "twist": "One tenant farmer in Ramayampet mandal said he lost over *₹40,000* of a ₹60,000 two-acre crop.",
+ "areas": [
+  "Medak",
+  "Ramayampet"
+ ],
+ "layer": "state"
+}
