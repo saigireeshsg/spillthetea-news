@@ -1,0 +1,118 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-86",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "HYDRAA fences *₹70 crore* of park land in Khajaguda",
+ "hook_b": "HYDRAA fences *₹70 crore* of park land in Khajaguda",
+ "tldr": "HYDRAA fenced 3,500 sq yards of park land in Khajaguda on Nov 25 after local complaints and declared it government land.",
+ "beats": {
+  "what": "Officials inspected the site after local complaints, fenced it and declared it government land.",
+  "why": "The layout's open space was split across two spots; a temple stands on 700 sq yards.",
+  "care": "Another 1,000 sq yards of the open space is in an encroachment dispute pending in court."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌳",
+    "label": "Local complaints about park land"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "HYDRAA fences 3,500 sq yards"
+  },
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "Declared government land"
+   },
+   {
+    "icon": "⚖️",
+    "label": "1,000 sq yards still in court"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The land is valued at around ₹70 crore, Siasat reported."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Does your colony's layout park still exist as open space?",
+   "opts": [
+    "Yes",
+    "Partly",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who will develop and maintain the fenced land as a park?"
+   ],
+   "facts": [
+    {
+     "big": "262",
+     "t": "The 25-acre layout has *262 plots*.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hydraa-protects-park-land-worth-rs-70-crore-in-khajaguda-3586885/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Layout open space now fenced",
+   "v": 3500,
+   "max": 5870,
+   "d": "3,500 of 5,870 sq yd",
+   "note": "700 sq yd temple; 1,000 sq yd in court",
+   "tone": "good",
+   "verdict": "Most of the layout's open space is now fenced as government land."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹70 cr",
+  "label": "Value of park land fenced",
+  "motion": "drift",
+  "scene": [
+   "🌳",
+   "🚧",
+   "⚖️"
+  ]
+ },
+ "watch": "The court ruling on the disputed 1,000 sq yards of open space.",
+ "thread": "hyd-hydraa-khajaguda-park-land-3500-sq-yards-rs-70-crore",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "HYDRAA protects park land worth Rs 70 crore in Khajaguda",
+   "url": "https://www.siasat.com/hydraa-protects-park-land-worth-rs-70-crore-in-khajaguda-3586885/"
+  }
+ ],
+ "updated": 1795654593476,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Untitled-Design-76.jpg",
+  "c": "Siasat"
+ },
+ "fact": "HYDRAA fenced *3,500 sq yards* of Khajaguda park land worth ₹70 crore",
+ "twist": "The 25-acre, 262-plot layout had kept only *5,870 sq yards* as open space.",
+ "areas": [
+  "Khajaguda"
+ ],
+ "layer": "near"
+}

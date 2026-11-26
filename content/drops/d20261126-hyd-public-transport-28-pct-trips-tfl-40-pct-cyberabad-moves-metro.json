@@ -1,0 +1,131 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Only *28%* of Hyderabad trips use public transport",
+ "hook_b": "Only *28%* of Hyderabad trips use public transport",
+ "tldr": "Transport for London CTO Shashi Verma said Hyderabad must raise public transport's share of daily travel to at least 40%.",
+ "beats": {
+  "what": "Verma spoke at Hyderabad Metro Rail Bhavan on lessons from London for the city's traffic.",
+  "why": "He said road widening and flyovers give limited relief; metro, buses and footpaths are needed.",
+  "care": "He suggested demand-management steps to discourage excessive private vehicle use."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚗",
+    "label": "Rising single-occupancy vehicles"
+   }
+  ],
+  "event": {
+   "icon": "🚇",
+   "label": "TfL official urges 40%+ public transport"
+  },
+  "effects": [
+   {
+    "icon": "🚌",
+    "label": "Calls for more metro, buses"
+   },
+   {
+    "icon": "🚌",
+    "label": "Cyberabad police push Metro, RTC"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Ahead of the 'Cyberabad Moves' drive, Cyberabad CP M. Ramesh rode the Metro from Rasoolpura to Raidurg."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How do you mostly get to work or college?",
+   "opts": [
+    "Metro/bus",
+    "Own bike/car",
+    "Cab/auto",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What would get single-occupancy car users onto the Metro or buses?"
+   ],
+   "facts": [
+    {
+     "big": "60%+",
+     "t": "Verma said the share should eventually go *beyond 60%*.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/public-transport-key-to-tackling-hyderabad-traffic-woes-london-official/article71743233.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Public transport share of daily trips",
+   "a": {
+    "v": 28,
+    "d": "28%",
+    "l": "Now"
+   },
+   "b": {
+    "v": 40,
+    "d": "40%",
+    "l": "Minimum Verma says is needed"
+   },
+   "goodIfUp": true,
+   "tone": "neutral",
+   "verdict": "Verma said the share should later go beyond 60%."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "28%",
+  "label": "Public transport share of daily trips",
+  "motion": "drift",
+  "scene": [
+   "🚗",
+   "🚇",
+   "🚌"
+  ]
+ },
+ "watch": "What the 'Cyberabad Moves' drive asks of IT commuters.",
+ "thread": "hyd-public-transport-28-pct-trips-tfl-40-pct-cyberabad-moves-metro",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Public transport key to tackling Hyderabad traffic woes: London official",
+   "url": "https://www.thehindu.com/news/national/telangana/public-transport-key-to-tackling-hyderabad-traffic-woes-london-official/article71743233.ece"
+  },
+  {
+   "name": "Siasat",
+   "title": "Ahead of 'Cyberabad Moves', CP takes Metro to drive home point",
+   "url": "https://www.siasat.com/ahead-of-cyberabad-moves-cp-takes-metro-to-drive-home-point-3586891/"
+  }
+ ],
+ "updated": 1795654593476,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/wlkrm2/article71743940.ece/alternates/LANDSCAPE_1200/thick%20traffic%20jams%2004.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "Only *28%* of Hyderabad's daily trips use public transport, says London's TfL CTO",
+ "twist": "London tamed congestion by merging *14* transport agencies into one authority.",
+ "areas": [
+  "Raidurg",
+  "Rasoolpura"
+ ],
+ "layer": "city"
+}

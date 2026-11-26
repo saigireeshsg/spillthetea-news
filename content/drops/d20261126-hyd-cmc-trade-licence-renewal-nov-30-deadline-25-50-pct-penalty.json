@@ -1,0 +1,128 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-88",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Miss *Nov 30* and your trade licence costs 25% more",
+ "hook_b": "Miss *Nov 30* and your trade licence costs 25% more",
+ "tldr": "Cyberabad Municipal Corporation wants all trade licences renewed for 2027 by November 30, 2026, or penalties kick in.",
+ "beats": {
+  "what": "CMC Commissioner G. Srijana announced renewal of existing trade licences for Jan 1 to Dec 31, 2027.",
+  "why": "Renewals from Dec 1, 2026 to Jan 31, 2027 attract a 25% penalty under the applicable provisions.",
+  "care": "Shop and business owners in CMC limits pay more for every month they delay."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏪",
+    "label": "2027 licence year starts Jan 1"
+   }
+  ],
+  "event": {
+   "icon": "📅",
+   "label": "CMC sets Nov 30 renewal deadline"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "25% penalty Dec 1-Jan 31"
+   },
+   {
+    "icon": "💸",
+    "label": "50% penalty from Feb 1"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "CMC has started generating renewal demands and will send SMS alerts to traders."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "If you run a business, have you renewed your trade licence yet?",
+   "opts": [
+    "Done",
+    "Will before Nov 30",
+    "Didn't know",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many traders in CMC limits hold licences due for renewal?"
+   ],
+   "facts": [
+    {
+     "big": "12 mo",
+     "t": "Renewed licences cover *Jan 1 to Dec 31, 2027*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/trade-licence-renewal-deadline-november-30"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Penalty by renewal date",
+   "steps": [
+    {
+     "t": "By Nov 30",
+     "e": "No penalty"
+    },
+    {
+     "t": "Dec 1-Jan 31",
+     "e": "25% penalty"
+    },
+    {
+     "t": "From Feb 1",
+     "e": "50% penalty"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Delay costs traders more the longer they wait."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 30",
+  "label": "Last day to renew without penalty",
+  "motion": "drift",
+  "scene": [
+   "🏪",
+   "📅",
+   "💸"
+  ]
+ },
+ "watch": "SMS renewal demands from CMC to traders in the coming days.",
+ "thread": "hyd-cmc-trade-licence-renewal-nov-30-deadline-25-50-pct-penalty",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "CMC sets November 30 deadline for trade licence renewal",
+   "url": "https://telanganatoday.com/trade-licence-renewal-deadline-november-30"
+  }
+ ],
+ "updated": 1795654593475,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/trade-licence-renewal-deadline-november-30-485131c4.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Cyberabad traders who miss the *Nov 30* licence renewal face a 25% penalty",
+ "twist": "Renew on or after *Feb 1, 2027* and the penalty doubles to 50%.",
+ "areas": [
+  "Cyberabad"
+ ],
+ "layer": "city"
+}

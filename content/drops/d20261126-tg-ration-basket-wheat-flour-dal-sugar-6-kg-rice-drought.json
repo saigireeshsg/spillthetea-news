@@ -1,0 +1,137 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "prices",
+ "hook": "Ration may add dal, sugar, atta to your *6 kg* rice",
+ "hook_b": "Ration may add dal, sugar, atta to your *6 kg* rice",
+ "tldr": "Civil Supplies Minister Uttam Kumar Reddy asked officials for financially viable options to add essential items to ration supplies.",
+ "beats": {
+  "what": "Food Security Card holders get 6 kg of fine rice per person a month through ration shops.",
+  "why": "The state cites anticipated drought and expected price rises; the CM wants an expanded basket.",
+  "care": "Items studied include wheat flour, red gram, sugar, tamarind, palm oil and chilli powder."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌾",
+    "label": "Drought and price-rise fears"
+   }
+  ],
+  "event": {
+   "icon": "🛒",
+   "label": "Options sought for bigger ration basket"
+  },
+  "effects": [
+   {
+    "icon": "🏠",
+    "label": "Cabinet Sub-committee to decide"
+   },
+   {
+    "icon": "🏠",
+    "label": "More items for FSC holders"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The options go to a Cabinet Sub-committee, keeping the state's finances in view."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Which extra ration item would matter most at home?",
+   "opts": [
+    "Dal",
+    "Cooking oil",
+    "Wheat flour",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much would each added item cost the state per month?"
+   ],
+   "facts": [
+    {
+     "big": "10 lakh t",
+     "t": "The minister also ordered *10 lakh metric tonnes* of silo storage across the state.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/telangana-cm-keen-on-expanding-ration-basket-providing-essential-commodities-to-fsc-holders-comes-up-for-discussion-again/article71743606.ece"
+    },
+    {
+     "big": "₹500",
+     "t": "Farmers get a *₹500 per quintal* bonus on seven notified fine paddy varieties.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/telangana-cm-keen-on-expanding-ration-basket-providing-essential-commodities-to-fsc-holders-comes-up-for-discussion-again/article71743606.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Bigger ration basket: so far",
+   "steps": [
+    {
+     "t": "Oct 19",
+     "e": "Govt says it is examining more items"
+    },
+    {
+     "t": "Nov 25",
+     "e": "Minister seeks viable options"
+    },
+    {
+     "t": "Next",
+     "e": "Cabinet Sub-committee"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Cardholders may gain items; cost to the state is still being worked out."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "6 kg",
+  "label": "Fine rice per person a month now",
+  "motion": "drift",
+  "scene": [
+   "🌾",
+   "🛒",
+   "🏠"
+  ]
+ },
+ "learn": {
+  "t": "FSC = Food Security Card, Telangana's ration card for subsidised grain"
+ },
+ "watch": "The Cabinet Sub-committee's call on which items and quantities are funded.",
+ "thread": "tg-ration-basket-wheat-flour-dal-sugar-6-kg-rice-drought",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana CM keen on expanding ration basket",
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-cm-keen-on-expanding-ration-basket-providing-essential-commodities-to-fsc-holders-comes-up-for-discussion-again/article71743606.ece"
+  }
+ ],
+ "updated": 1795654593476,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/xuwhp2/article71743624.ece/alternates/LANDSCAPE_1200/MEMAU_6_8_2026_13_38_56_1_3005.JPG",
+  "c": "The Hindu"
+ },
+ "fact": "Telangana weighs adding wheat flour, dal and sugar to the *6 kg* rice ration",
+ "twist": "Only cardholders in *GHMC limits* get wheat today; elsewhere it is rice alone.",
+ "areas": [
+  "Hyderabad"
+ ],
+ "layer": "state"
+}

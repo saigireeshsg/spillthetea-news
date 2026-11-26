@@ -1,0 +1,137 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-26",
+ "sort": "2026-11-26-92",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Constitution Day rally from *10 am* jams central Hyderabad",
+ "hook_b": "Constitution Day rally from *10 am* jams central Hyderabad",
+ "tldr": "A Constitution Day foot rally from Old Ambedkar Statue to Indira Gandhi Rotary on Thursday brings need-based diversions from 10 am.",
+ "beats": {
+  "what": "The rally starts at the Old Ambedkar Statue and goes to Indira Gandhi Rotary via Secretariat Junction and NTR Marg.",
+  "why": "Police will divert traffic as needed around Basheerbagh, Liberty, Secretariat, Iqbal Minar, Tank Bund and Khairatabad.",
+  "care": "Congestion is likely at Himayatnagar, Ravindra Bharathi, Necklace Rotary and Upper and Lower Tank Bund."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📜",
+    "label": "Constitution Day foot rally"
+   }
+  ],
+  "event": {
+   "icon": "🚦",
+   "label": "Diversions in central Hyderabad"
+  },
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Jams likely near Tank Bund, Khairatabad"
+   },
+   {
+    "icon": "🚗",
+    "label": "No parking on rally route"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Hyderabad Traffic Police advised commuters to avoid the stretches, plan journeys in advance and follow personnel on the ground."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Passing through central Hyderabad today?",
+   "opts": [
+    "Yes, will reroute",
+    "Yes, no choice",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How long do need-based diversions usually stay after a rally passes?"
+   ],
+   "facts": [
+    {
+     "big": "10+",
+     "t": "Police listed *over 10* spots likely to see congestion, from Himayatnagar to Necklace Rotary.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/constitution-day-rally-traffic-advisory"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Rally route",
+   "steps": [
+    {
+     "t": "10 am",
+     "e": "Starts at Old Ambedkar Statue"
+    },
+    {
+     "t": "Via",
+     "e": "Secretariat Junction"
+    },
+    {
+     "t": "Via",
+     "e": "NTR Marg"
+    },
+    {
+     "t": "End",
+     "e": "Indira Gandhi Rotary"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Commuters on the Tank Bund-Khairatabad belt are most affected."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "10 am",
+  "label": "Rally start, Old Ambedkar Statue",
+  "motion": "drift",
+  "scene": [
+   "📜",
+   "🚦",
+   "🚗"
+  ]
+ },
+ "watch": "Diversions are need-based, so expect them to lift once the rally reaches Indira Gandhi Rotary.",
+ "thread": "hyd-constitution-day-rally-traffic-diversions-basheerbagh-tank-bund-khairatabad",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad police announce traffic restrictions for Constitution Day rally",
+   "url": "https://telanganatoday.com/constitution-day-rally-traffic-advisory"
+  }
+ ],
+ "updated": 1795654593475,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/constitution-day-rally-traffic-advisory-4fe0cd43.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Constitution Day foot rally from *10 am* brings diversions across central Hyderabad",
+ "twist": "No parking is allowed along the route; traffic helpline is *9010203626*.",
+ "areas": [
+  "Basheerbagh",
+  "Liberty",
+  "Tank Bund",
+  "Khairatabad",
+  "Himayatnagar",
+  "Secretariat"
+ ],
+ "layer": "near"
+}
