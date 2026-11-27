@@ -1,0 +1,134 @@
+{
+ "cat": "money",
+ "lead": "money",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-60",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "farming",
+ "hook": "Telangana eyes stevia on *500-1,000 acres*",
+ "hook_b": "Telangana eyes stevia on *500-1,000 acres*",
+ "tldr": "Buyers and officials at the first National Stevia Summit in Hyderabad said cultivation could start on 500 to 1,000 acres, expanding with market response.",
+ "beats": {
+  "what": "Sri Konda Laxman Telangana Horticultural University will run a stevia nursery at its Rajendranagar college.",
+  "why": "Demand for natural sweeteners is rising, opening scope in cultivation, extraction and processing.",
+  "care": "Adoption depends on planting material, water, costs and assured buyers, the report says."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌱",
+    "label": "Rising demand for natural sweeteners"
+   }
+  ],
+  "event": {
+   "icon": "🍬",
+   "label": "Stevia pitched as Telangana crop"
+  },
+  "effects": [
+   {
+    "icon": "🏭",
+    "label": "Nursery at Rajendranagar"
+   },
+   {
+    "icon": "🏭",
+    "label": "Needs buyers and market links"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The university suggested stevia as an intercrop in oil palm and mango plantations."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you switch to a natural sweetener like stevia?",
+   "opts": [
+    "Already use it",
+    "Would try",
+    "No, sugar's fine",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who are the assured buyers for Telangana stevia?",
+    "How does stevia's water need compare with paddy?"
+   ],
+   "facts": [
+    {
+     "big": "25-35°C",
+     "t": "Stevia grows well at *25-35°C* in soils with pH 5.5-7.5, suited to Telangana.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/natural-sweetener-stevia-offers-new-farm-to-industry-opportunity-for-telangana/articleshow/136201546.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the stevia plan rolls out",
+   "steps": [
+    {
+     "t": "Now",
+     "e": "Nursery at College of Horticulture, Rajendranagar"
+    },
+    {
+     "t": "Start",
+     "e": "500-1,000 acres of cultivation"
+    },
+    {
+     "t": "Later",
+     "e": "Expansion based on market response"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Scale depends on assured buyers and processing units."
+  },
+  {
+   "t": "big",
+   "v": "4x",
+   "l": "Harvests a year possible"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#2b0f0f",
+   "#c0392b"
+  ],
+  "big": "4x",
+  "label": "Harvests a year possible",
+  "motion": "drift",
+  "scene": [
+   "🌱",
+   "🍬",
+   "🏭"
+  ]
+ },
+ "watch": "Whether buyers sign up for the first 500-1,000 acres.",
+ "thread": "tg-stevia-natural-sweetener-500-1000-acres-skltghu-rajendranagar-nursery",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Natural sweetener stevia offers new farm-to-industry opportunity for Telangana",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/natural-sweetener-stevia-offers-new-farm-to-industry-opportunity-for-telangana/articleshow/136201546.cms"
+  }
+ ],
+ "updated": 1795741041626,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136201503,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Telangana could start growing the natural sweetener stevia on *500-1,000 acres*",
+ "twist": "Farmers can harvest stevia up to *4 times* a year under good conditions.",
+ "layer": "state",
+ "areas": [
+  "Rajendranagar"
+ ]
+}

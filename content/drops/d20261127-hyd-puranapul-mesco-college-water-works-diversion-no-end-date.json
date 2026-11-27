@@ -1,0 +1,140 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-92",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Water works shut *Mesco College-Puranapul* stretch, no end date",
+ "hook_b": "Water works shut *Mesco College-Puranapul* stretch, no end date",
+ "tldr": "Traffic diversions between Mesco College and Puranapul Crossroads began Thursday night for water works and stay until the work is done.",
+ "beats": {
+  "what": "Hyderabad Traffic Police imposed diversions between Mesco College and Puranapul Crossroads from Thursday night.",
+  "why": "Ongoing water works on the stretch; curbs continue until the work is completed.",
+  "care": "Commuters between Puranapul and Tappachabutra must take longer alternate routes."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚧",
+    "label": "Water works on Puranapul stretch"
+   }
+  ],
+  "event": {
+   "icon": "🚦",
+   "label": "Mesco College-Puranapul diversions"
+  },
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Puranapul-Tappachabutra traffic rerouted"
+   },
+   {
+    "icon": "🚗",
+    "label": "Longer trips till work ends"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "A second option runs via Jiyaguda, 2J Bus Stop and Darbar Maisamma Temple."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Do you use the Puranapul-Tappachabutra route?",
+   "opts": [
+    "Daily",
+    "Sometimes",
+    "Never",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How long will the water works on this stretch take?",
+    "Which lines are being laid, and which colonies get supply from them?"
+   ],
+   "facts": [
+    {
+     "big": "2",
+     "t": "Police list *2* alternate routes for Puranapul-Tappachabutra trips.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/traffic-diversions-near-puranapul"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Official detour, Puranapul to Tappachabutra",
+   "steps": [
+    {
+     "t": "Step 1",
+     "e": "100 Feet Road, Nehru School"
+    },
+    {
+     "t": "Step 2",
+     "e": "Darbar Maisamma Temple, Gandhi Statue"
+    },
+    {
+     "t": "Step 3",
+     "e": "Rahimpura, Anita Towers, Lodh Bhavan"
+    },
+    {
+     "t": "Or",
+     "e": "Jiyaguda, 2J Bus Stop, Darbar Maisamma Temple"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Two detours offered while the water works run."
+  },
+  {
+   "t": "big",
+   "v": "7",
+   "l": "Landmarks on the official detour"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "7",
+  "label": "Landmarks on the official detour",
+  "motion": "drift",
+  "scene": [
+   "🚧",
+   "🚦",
+   "🚗"
+  ]
+ },
+ "watch": "Traffic police updates on when the works end; helpline 9010203626.",
+ "thread": "hyd-puranapul-mesco-college-water-works-diversion-no-end-date",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad traffic diversions between Mesco College and Puranapul due to water works",
+   "url": "https://telanganatoday.com/traffic-diversions-near-puranapul"
+  }
+ ],
+ "updated": 1795741041625,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/traffic-diversions-near-puranapul-f16c82c9.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Water works close the Mesco College-Puranapul stretch with *no end date* given",
+ "twist": "The official detour threads through *7* landmarks, from 100 Feet Road to Lodh Bhavan.",
+ "layer": "near",
+ "areas": [
+  "Puranapul",
+  "Tappachabutra",
+  "Jiyaguda"
+ ]
+}

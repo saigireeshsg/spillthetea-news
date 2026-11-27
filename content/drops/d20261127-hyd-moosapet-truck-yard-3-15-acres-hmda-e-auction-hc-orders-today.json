@@ -1,0 +1,143 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "courts",
+ "hook": "*3.15 acres* of Moosapet truck-yard land go under the hammer today",
+ "hook_b": "*3.15 acres* of Moosapet truck-yard land go under the hammer today",
+ "tldr": "The Telangana High Court reserved orders on two PILs against HMDA's e-auction of 3.15 acres at the Kukatpally truck yard in Moosapet; HMDA says the auction goes ahead Friday.",
+ "beats": {
+  "what": "A bench of Acting Chief Justice P Sam Koshy and Justice Suddala Chalapathi Rao reserved orders on Thursday; HMDA says no stay was granted.",
+  "why": "Petitioners argue land acquired for a public purpose cannot be sold; the state says the terminal plan was cancelled as the area became residential.",
+  "care": "How the court rules sets the tone for selling other old public-purpose land in the city."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚛",
+    "label": "1981 truck terminal plan dropped"
+   }
+  ],
+  "event": {
+   "icon": "🔨",
+   "label": "HMDA e-auction of 3.15 acres"
+  },
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "PILs say public-purpose land can't be sold"
+   },
+   {
+    "icon": "⚖️",
+    "label": "HC orders due on the PILs"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The state told the court truckers now park at Mangalapalli, Ibrahimpatnam and Abdullapurmet outside the ORR."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "If land acquired for a public project is never used, what should happen to it?",
+   "opts": [
+    "Auction it, use funds publicly",
+    "Keep it for public use",
+    "Depends on the case",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What will the auction proceeds be spent on?",
+    "What happens to the rest of the 33.22 acres?"
+   ],
+   "facts": [
+    {
+     "big": "3",
+     "t": "Truckers now use *3* parking areas outside the ORR, the state told the court.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/hc-questions-pils-over-3-acre-moosapet-truck-yard-auction-land-to-go-under-the-hammer-today/articleshow/136201928.cms"
+    },
+    {
+     "big": "1981",
+     "t": "The land was acquired in *1981* to keep heavy vehicles out of the city at peak hours.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/hc-reserves-orders-over-e-auction-of-truck-parking-land-at-kukatpally/article71747312.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Share of the 1981 acquisition being auctioned",
+   "v": 3.15,
+   "max": 33.22,
+   "d": "3.15 of 33.22 acres",
+   "tone": "neutral",
+   "verdict": "A small slice of the old truck-terminal land; petitioners and the state disagree on whether it can be sold."
+  },
+  {
+   "t": "big",
+   "v": "3.15 acres",
+   "l": "Moosapet land up for e-auction"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3.15 acres",
+  "label": "Moosapet land up for e-auction",
+  "motion": "drift",
+  "scene": [
+   "🚛",
+   "🔨",
+   "⚖️"
+  ]
+ },
+ "learn": {
+  "t": "PIL = public interest litigation, a case filed in court on behalf of the public"
+ },
+ "watch": "The High Court's order on the two PILs, due Friday, and whether the e-auction result stands.",
+ "thread": "hyd-moosapet-truck-yard-3-15-acres-hmda-e-auction-hc-orders-today",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "HMDA says Moosapet land e-auction will proceed despite claims of High Court stay",
+   "url": "https://telanganatoday.com/hmda-denies-stay-on-moosapet-auction"
+  },
+  {
+   "name": "Times of India",
+   "title": "HC questions PILs over 3-acre Moosapet truck yard auction",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/hc-questions-pils-over-3-acre-moosapet-truck-yard-auction-land-to-go-under-the-hammer-today/articleshow/136201928.cms"
+  },
+  {
+   "name": "The Hindu",
+   "title": "HC reserves orders over e-auction of truck parking land at Kukatpally",
+   "url": "https://www.thehindu.com/news/national/telangana/hc-reserves-orders-over-e-auction-of-truck-parking-land-at-kukatpally/article71747312.ece"
+  }
+ ],
+ "updated": 1795741041626,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/hmda-denies-stay-on-moosapet-auction-b51e281a.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "HMDA auctions *3.15 acres* of Moosapet truck-yard land today as HC readies ruling",
+ "twist": "The land is part of *33.22 acres* acquired in 1981 for a truck terminal never built.",
+ "layer": "near",
+ "areas": [
+  "Moosapet",
+  "Kukatpally"
+ ]
+}

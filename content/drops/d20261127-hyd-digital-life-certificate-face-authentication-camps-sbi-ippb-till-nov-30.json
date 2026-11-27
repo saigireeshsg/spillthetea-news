@@ -1,0 +1,133 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-75",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Pensioners: life certificate by *face scan* till Nov 30",
+ "hook_b": "Pensioners: life certificate by *face scan* till Nov 30",
+ "tldr": "The Department of Pension and Pensioners' Welfare is running a Digital Life Certificate campaign in Hyderabad from Nov 1 to 30 using Aadhaar-based face authentication on Android phones.",
+ "beats": {
+  "what": "SBI at its local head office and India Post Payments Bank at the General Post Office are running camps.",
+  "why": "Pensioners must submit a life certificate; face authentication lets them do it on a smartphone.",
+  "care": "If a parent or grandparent draws a central pension, this is the window to help them file."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "👴",
+    "label": "Pensioners need yearly life proof"
+   }
+  ],
+  "event": {
+   "icon": "📱",
+   "label": "Face-scan certificate camps in Hyderabad"
+  },
+  "effects": [
+   {
+    "icon": "✅",
+    "label": "SBI, IPPB help at camps"
+   },
+   {
+    "icon": "✅",
+    "label": "Doorstep help for elderly"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Senior Director (IT) Anil Bansal visited the SBI and IPPB camps on Thursday."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Has anyone in your family filed a digital life certificate?",
+   "opts": [
+    "Yes",
+    "Not yet",
+    "No pensioner at home",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many Hyderabad pensioners have filed digitally this month?"
+   ],
+   "facts": [
+    {
+     "big": "2014",
+     "t": "Digital life certificates began in *2014* with biometric devices; face scan came later with MeitY and UIDAI.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/digital-life-certificate-campaign-underway"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Digital life certificates so far",
+   "steps": [
+    {
+     "t": "2014",
+     "e": "Biometric-device certificates introduced"
+    },
+    {
+     "t": "Since 2022",
+     "e": "Four nationwide campaigns"
+    },
+    {
+     "t": "Nov 1-30, 2026",
+     "e": "Face-scan camps in Hyderabad"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Officials want pensioners to file on their own in future."
+  },
+  {
+   "t": "big",
+   "v": "Nov 30",
+   "l": "Campaign ends"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Nov 30",
+  "label": "Campaign ends",
+  "motion": "drift",
+  "scene": [
+   "👴",
+   "📱",
+   "✅"
+  ]
+ },
+ "watch": "Camps run until Nov 30 at SBI's local head office and the GPO.",
+ "thread": "hyd-digital-life-certificate-face-authentication-camps-sbi-ippb-till-nov-30",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Digital Life Certificate campaign in Hyderabad to help central government pensioners use face authentication",
+   "url": "https://telanganatoday.com/digital-life-certificate-campaign-underway"
+  }
+ ],
+ "updated": 1795741041626,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/digital-life-certificate-campaign-underway-d9b74231.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Central pensioners in Hyderabad can file life certificates by face scan till *Nov 30*",
+ "twist": "Officials are also visiting *super-senior and disabled* pensioners at home to generate certificates.",
+ "layer": "city",
+ "areas": [
+  "Abids"
+ ]
+}

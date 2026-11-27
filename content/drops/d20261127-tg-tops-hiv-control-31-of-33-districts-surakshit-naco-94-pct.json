@@ -1,0 +1,153 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "Telangana ranks *No. 1* in India for HIV control",
+ "hook_b": "Telangana ranks *No. 1* in India for HIV control",
+ "tldr": "Under NACO's Mobilisation for AIDS Suraksha programme, 31 of Telangana's 33 districts hit 'Surakshit' status, a 94% success rate, per the national dashboard as of Nov 25.",
+ "beats": {
+  "what": "Telangana posted a 94% success rate on the national MAS dashboard, ahead of Maharashtra (92%) and West Bengal (83%).",
+  "why": "Districts are rated against the 95:95:99 targets for testing, treatment and viral suppression.",
+  "care": "Two districts still need to meet all three targets, the health minister told officials."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎗️",
+    "label": "NACO tracks 95:95:99 targets"
+   }
+  ],
+  "event": {
+   "icon": "📊",
+   "label": "31 of 33 TG districts rated Surakshit"
+  },
+  "effects": [
+   {
+    "icon": "🏥",
+    "label": "Telangana ranks first in India"
+   },
+   {
+    "icon": "🏥",
+    "label": "Focus on last 2 districts"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Health minister Damodar Rajanarsimha directed officials to focus on the remaining two districts."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should HIV awareness be part of college orientation?",
+   "opts": [
+    "Yes",
+    "No",
+    "Already is at mine",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which two districts are yet to reach Surakshit status?"
+   ],
+   "facts": [
+    {
+     "big": "260",
+     "t": "*260* districts nationally are still in the lowest 'Sangharshsheel' category.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-tops-hiv-control-with-31-districts-rated-safe/articleshow/136201310.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "bars",
+   "card": {
+    "title": "Share of districts rated Surakshit",
+    "items": [
+     {
+      "label": "Telangana",
+      "value": 94,
+      "display": "94%"
+     },
+     {
+      "label": "Maharashtra",
+      "value": 92,
+      "display": "92%"
+     },
+     {
+      "label": "West Bengal",
+      "value": 83,
+      "display": "83%"
+     },
+     {
+      "label": "Arunachal Pradesh",
+      "value": 74,
+      "display": "74%"
+     },
+     {
+      "label": "Tamil Nadu",
+      "value": 71,
+      "display": "71%"
+     },
+     {
+      "label": "India",
+      "value": 35,
+      "display": "35%"
+     }
+    ]
+   },
+   "tone": "good",
+   "verdict": "Telangana leads the states; the national share is far lower."
+  },
+  {
+   "t": "big",
+   "v": "94%",
+   "l": "Telangana districts rated Surakshit"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "94%",
+  "label": "Telangana districts rated Surakshit",
+  "motion": "drift",
+  "scene": [
+   "🎗️",
+   "📊",
+   "🏥"
+  ]
+ },
+ "learn": {
+  "t": "95:95:99 = 95% of people with HIV know their status, 95% of them get treatment, 99% of those reach viral suppression"
+ },
+ "watch": "Whether the last two districts reach Surakshit status.",
+ "thread": "tg-tops-hiv-control-31-of-33-districts-surakshit-naco-94-pct",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Telangana tops HIV control with 31 districts rated safe",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/telangana-tops-hiv-control-with-31-districts-rated-safe/articleshow/136201310.cms"
+  }
+ ],
+ "updated": 1795741041626,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136201308,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Telangana tops India in HIV control with *31 of 33* districts rated safe",
+ "twist": "Nationally only *35%* of districts, 273 of 784, have reached the same status.",
+ "layer": "state"
+}

@@ -1,0 +1,139 @@
+{
+ "cat": "planet",
+ "lead": "planet",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-70",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "environment",
+ "hook": "A Western Ghats frog just turned up in *Nallamala*",
+ "hook_b": "A Western Ghats frog just turned up in *Nallamala*",
+ "tldr": "ZSI researchers confirmed three frogs from Saleswaram waterfall in Amrabad Tiger Reserve as Hylarana indica, the first Eastern Ghats record of the species.",
+ "beats": {
+  "what": "Three specimens collected at Saleswaram waterfall, Amrabad Tiger Reserve, were identified as the Indian golden-backed frog.",
+  "why": "Genetic tests showed only 0.2-0.5% divergence from Western Ghats populations, confirming the species.",
+  "care": "The less-studied Eastern Ghats, including Telangana's Nallamala, may hold more species than recorded."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🐸",
+    "label": "ZSI survey at Saleswaram waterfall"
+   }
+  ],
+  "event": {
+   "icon": "🔬",
+   "label": "Golden-backed frog confirmed in Nallamala"
+  },
+  "effects": [
+   {
+    "icon": "🌿",
+    "label": "Species range extends to Eastern Ghats"
+   },
+   {
+    "icon": "🌿",
+    "label": "Call for population assessment"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Researchers reported the find in 'Records of the Zoological Survey of India'."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Have you visited Saleswaram or Amrabad Tiger Reserve?",
+   "opts": [
+    "Yes",
+    "Planning to",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many golden-backed frogs live in Nallamala?",
+    "What other species might surveys in the Eastern Ghats find?"
+   ],
+   "facts": [
+    {
+     "big": "0.2-0.5%",
+     "t": "Telangana frogs differ genetically by just *0.2-0.5%* from Western Ghats populations.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/golden-backed-frog-leaps-from-western-ghats-to-telanganas-nallamala-hills/articleshow/136201294.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "bars",
+   "card": {
+    "title": "Recorded amphibian species",
+    "items": [
+     {
+      "label": "All India",
+      "value": 455,
+      "display": "455"
+     },
+     {
+      "label": "Western Ghats",
+      "value": 253,
+      "display": "253"
+     },
+     {
+      "label": "Eastern Ghats",
+      "value": 28,
+      "display": "28"
+     }
+    ]
+   },
+   "tone": "neutral",
+   "verdict": "The Eastern Ghats are far less studied; new records keep turning up."
+  },
+  {
+   "t": "big",
+   "v": "1st",
+   "l": "Eastern Ghats record of the species"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#0f2a2a",
+   "#2e8b7a"
+  ],
+  "big": "1st",
+  "label": "Eastern Ghats record of the species",
+  "motion": "drift",
+  "scene": [
+   "🐸",
+   "🔬",
+   "🌿"
+  ]
+ },
+ "watch": "ZSI calls for population surveys and molecular studies across the Eastern Ghats.",
+ "thread": "tg-golden-backed-frog-hylarana-indica-nallamala-saleswaram-first-eastern-ghats",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Golden-backed frog leaps from Western Ghats to Telangana's Nallamala hills",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/golden-backed-frog-leaps-from-western-ghats-to-telanganas-nallamala-hills/articleshow/136201294.cms"
+  }
+ ],
+ "updated": 1795741041626,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136201293,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "A golden-backed frog known only from the Western Ghats is found in *Nallamala*",
+ "twist": "The Eastern Ghats have just *28* recorded amphibian species, against 253 in the Western Ghats.",
+ "layer": "state",
+ "areas": [
+  "Nagarkurnool"
+ ]
+}

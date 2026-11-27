@@ -1,0 +1,135 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-91",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Ameerpet to Jubilee Hills padayatra: diversions *10 am-4 pm* today",
+ "hook_b": "Ameerpet to Jubilee Hills padayatra: diversions *10 am-4 pm* today",
+ "tldr": "The 'Hyderabad Walks for Nasha Mukth Bharath' padayatra led by Union Minister G Kishan Reddy runs from Satyam Theatre, Ameerpet, to Jubilee Public School, Road No. 71, on Friday.",
+ "beats": {
+  "what": "Traffic police announced diversions for a padayatra led by Union Minister G Kishan Reddy on Friday.",
+  "why": "The procession runs from Satyam Theatre in Ameerpet to Jubilee Public School, Road No. 71, Jubilee Hills.",
+  "care": "Diversions at Maitrivanam, Yousufguda Checkpost and Indira Nagar on a need basis can slow commutes."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚶",
+    "label": "Anti-drug padayatra on Friday"
+   }
+  ],
+  "event": {
+   "icon": "🚦",
+   "label": "Diversions Ameerpet to Jubilee Hills"
+  },
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Need-basis curbs at Maitrivanam, Yousufguda"
+   },
+   {
+    "icon": "🚗",
+    "label": "Jams likely near KBR Park, BVB Jn"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Roads around KBR Park, NTR Bhavan, Cancer Hospital, Agrasen Island and BVB Junction may see congestion."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Will today's padayatra change how you travel?",
+   "opts": [
+    "Yes, new route",
+    "Leaving early/late",
+    "Not on my route",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which junctions will police close fully, and for how long?"
+   ],
+   "facts": [
+    {
+     "big": "5",
+     "t": "*5* off-route spots flagged for congestion: KBR Park, NTR Bhavan, Cancer Hospital, Agrasen Island, BVB Junction.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/nasha-mukth-bharath-rally-traffic-advisory"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Padayatra route",
+   "steps": [
+    {
+     "t": "10 am",
+     "e": "Start: Satyam Theatre, Ameerpet"
+    },
+    {
+     "t": "En route",
+     "e": "Maitrivanam, Yousufguda Checkpost, Indira Nagar"
+    },
+    {
+     "t": "By 4 pm",
+     "e": "End: Jubilee Public School, Road No. 71"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Expect slow traffic along the route during the day."
+  },
+  {
+   "t": "big",
+   "v": "6 hrs",
+   "l": "Padayatra window, 10 am-4 pm"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "6 hrs",
+  "label": "Padayatra window, 10 am-4 pm",
+  "motion": "drift",
+  "scene": [
+   "🚶",
+   "🚦",
+   "🚗"
+  ]
+ },
+ "watch": "Live diversions from Hyderabad Traffic Police; helpline 9010203626.",
+ "thread": "hyd-nasha-mukth-bharath-padayatra-ameerpet-jubilee-hills-diversions-10am-4pm",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad traffic diversions on Friday for Kishan Reddy-led Nasha Mukth Bharath padayatra",
+   "url": "https://telanganatoday.com/nasha-mukth-bharath-rally-traffic-advisory"
+  }
+ ],
+ "updated": 1795741041626,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/nasha-mukth-bharath-rally-traffic-advisory-02d35eb2.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "A padayatra from Ameerpet to Jubilee Hills brings diversions from *10 am-4 pm* today",
+ "twist": "Congestion is flagged at *5* spots off the route too, including KBR Park and BVB Junction.",
+ "layer": "near",
+ "areas": [
+  "Ameerpet",
+  "Yousufguda",
+  "Jubilee Hills"
+ ]
+}
