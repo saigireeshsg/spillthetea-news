@@ -1,0 +1,171 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-98",
+ "order": 1,
+ "heat": 5,
+ "readSecs": 30,
+ "topic": "weather",
+ "hook": "Overnight downpour: Kukatpally gets *79.3 mm*, dry spell over",
+ "hook_b": "Overnight downpour: Kukatpally gets *79.3 mm*, dry spell over",
+ "tldr": "A sharp spell of rain after 1 a.m. on Friday flooded parts of west Hyderabad and disrupted power in places; the IMD expects minimum temperatures to fall 2-4 degrees over five days.",
+ "beats": {
+  "what": "Almost all of Hyderabad got rain between 8.30 am Thursday and 8.30 am Friday, heaviest in Kukatpally, Safilguda and Shaikpet.",
+  "why": "It ended a nearly month-long dry spell; the spread was uneven, with some areas getting only a brief spell.",
+  "care": "Areas around Hafeezpet station flooded and power supply was disrupted in parts of the city."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "☀️",
+    "label": "Month-long dry spell"
+   }
+  ],
+  "event": {
+   "icon": "🌧️",
+   "label": "Sharp overnight rain after 1 a.m."
+  },
+  "effects": [
+   {
+    "icon": "🥶",
+    "label": "Flooding near Hafeezpet station"
+   },
+   {
+    "icon": "🥶",
+    "label": "Night temps to fall 2-4°C"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Outside the city, Bhongir received 12 cm by 6 a.m. and Alair 10 cm."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How much rain did your area get last night?",
+   "opts": [
+    "Heavy",
+    "Light",
+    "Stayed dry",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which drains overflowed, and how quickly was water cleared?",
+    "Will this rain help groundwater after the dry spell?"
+   ],
+   "facts": [
+    {
+     "big": "12 cm",
+     "t": "Bhongir got *12 cm* of rain by 6 a.m., Alair 10 cm.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/overnight-sharp-spell-of-rain-drenches-hyderabad/article71749201.ece"
+    },
+    {
+     "big": "≤1 mm",
+     "t": "Shamshabad, Nadargul, Kanchanbagh and Bachupally got *1 mm or less*.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/overnight-showers-end-dry-spell-in-hyderabad"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "bars",
+   "card": {
+    "title": "Rain in 24 hrs to 8.30 am Friday (mm)",
+    "items": [
+     {
+      "label": "Vivekananda Nagar, Kukatpally",
+      "value": 79.3,
+      "display": "79.3"
+     },
+     {
+      "label": "Safilguda",
+      "value": 75.3,
+      "display": "75.3"
+     },
+     {
+      "label": "Shaikpet",
+      "value": 68.3,
+      "display": "68.3"
+     },
+     {
+      "label": "Madhapur",
+      "value": 64.3,
+      "display": "64.3"
+     },
+     {
+      "label": "Borabanda",
+      "value": 63.5,
+      "display": "63.5"
+     },
+     {
+      "label": "Cherlapalli",
+      "value": 63,
+      "display": "63"
+     }
+    ]
+   },
+   "tone": "neutral",
+   "verdict": "Heavy in the west and north-east; south and east got little or none."
+  },
+  {
+   "t": "big",
+   "v": "79.3 mm",
+   "l": "Highest rain, Vivekananda Nagar"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "79.3 mm",
+  "label": "Highest rain, Vivekananda Nagar",
+  "motion": "drift",
+  "scene": [
+   "☀️",
+   "🌧️",
+   "🥶"
+  ]
+ },
+ "watch": "IMD: minimum temperatures to dip 2-4 degrees over the next five days, with a winter chill this weekend.",
+ "thread": "hyd-overnight-rain-kukatpally-vivekananda-nagar-79mm-ends-dry-spell",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad rains end month-long dry spell, bring down temperatures",
+   "url": "https://telanganatoday.com/overnight-showers-end-dry-spell-in-hyderabad"
+  },
+  {
+   "name": "The Hindu",
+   "title": "Overnight sharp spell of rain drenches Hyderabad",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/overnight-sharp-spell-of-rain-drenches-hyderabad/article71749201.ece"
+  }
+ ],
+ "updated": 1795760695147,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/overnight-showers-end-dry-spell-in-hyderabad-4bf699e6.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Vivekananda Nagar in Kukatpally logged *79.3 mm* overnight, ending a month-long dry spell",
+ "twist": "Across town, Amberpet, Shamshiguda and Dulapally stayed *completely dry*.",
+ "layer": "near",
+ "areas": [
+  "Kukatpally",
+  "Safilguda",
+  "Shaikpet",
+  "Madhapur",
+  "Borabanda",
+  "Cherlapalli",
+  "Hafeezpet"
+ ]
+}

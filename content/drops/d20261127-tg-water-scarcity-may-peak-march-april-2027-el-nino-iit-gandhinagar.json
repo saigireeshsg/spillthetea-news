@@ -1,0 +1,147 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-85",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Water crunch may peak in *March-April 2027*, expert warns",
+ "hook_b": "Water crunch may peak in *March-April 2027*, expert warns",
+ "tldr": "With kharif crops failed under El Niño, IIT-Gandhinagar's Vimal Mishra warns effects could last until the next monsoon, with scarcity sharpest in March and April 2027.",
+ "beats": {
+  "what": "Vimal Mishra, Dean (R&D), IIT-Gandhinagar, said governments must assess reservoir and groundwater stocks against domestic and farm needs.",
+  "why": "Rising temperatures in coming months could raise irrigation needs, pressuring reservoirs and groundwater.",
+  "care": "Experts quoted urge putting drinking water, hospitals and schools first if supplies run short."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌡️",
+    "label": "El Niño weakens monsoon"
+   }
+  ],
+  "event": {
+   "icon": "🏜️",
+   "label": "Kharif crops fail across districts"
+  },
+  "effects": [
+   {
+    "icon": "🚰",
+    "label": "Scarcity may peak Mar-Apr 2027"
+   },
+   {
+    "icon": "🚰",
+    "label": "Advice against thirsty rabi crops"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Mishra advised that irrigation-intensive crops may not be advisable this rabi season in affected regions."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Have you noticed water supply cuts where you live this month?",
+   "opts": [
+    "Yes, often",
+    "Sometimes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How much water do Hyderabad's reservoirs hold for summer?",
+    "Which crops would farmers switch to in rabi?"
+   ],
+   "facts": [
+    {
+     "big": "10-15k",
+     "t": "Farmers on one Kalwakurthy branch canal cut paddy to *10,000-15,000 acres* from a usual 20,000-30,000, a farmer estimated.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/droughts-bitter-harvest-of-debt/article71748155.ece"
+    },
+    {
+     "big": "12%",
+     "t": "The Union Agriculture Minister put India's rainfall deficit at about *12%*.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/droughts-bitter-harvest-of-debt/article71748155.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the dry year unfolds",
+   "steps": [
+    {
+     "t": "Oct 24",
+     "e": "365 mandals in 31 districts declared drought-hit"
+    },
+    {
+     "t": "Now",
+     "e": "Kharif losses; rabi water planning"
+    },
+    {
+     "t": "Mar-Apr 2027",
+     "e": "Scarcity expected to be sharpest"
+    },
+    {
+     "t": "Next monsoon",
+     "e": "El Niño effects may last until then"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Water stress is expected to worsen before it eases."
+  },
+  {
+   "t": "big",
+   "v": "67%",
+   "l": "Of Telangana drought-affected (expert estimate)"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "67%",
+  "label": "Of Telangana drought-affected (expert estimate)",
+  "motion": "drift",
+  "scene": [
+   "🌡️",
+   "🏜️",
+   "🚰"
+  ]
+ },
+ "watch": "Water budgeting by the State before summer, and whether rabi sowing shifts away from water-heavy crops.",
+ "thread": "tg-water-scarcity-may-peak-march-april-2027-el-nino-iit-gandhinagar",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Drought's bitter harvest of debt",
+   "url": "https://www.thehindu.com/news/national/telangana/droughts-bitter-harvest-of-debt/article71748155.ece"
+  }
+ ],
+ "updated": 1795760695148,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/45pn1g/article71748153.ece/alternates/LANDSCAPE_1200/dry%20paddy%20fields%20%2005.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "Telangana's water scarcity may be worst in *March-April 2027*, an IIT-Gandhinagar expert warns",
+ "twist": "He estimates *67%* of Telangana is drought-affected and calls this El Niño the strongest ever.",
+ "layer": "state",
+ "areas": [
+  "Wanaparthy",
+  "Nagarkurnool",
+  "Narayanpet",
+  "Mahabubnagar"
+ ]
+}

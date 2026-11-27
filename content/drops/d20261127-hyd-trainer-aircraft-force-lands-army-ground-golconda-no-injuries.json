@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-70",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "Trainer plane *force-lands* on Army ground, both on board safe",
+ "hook_b": "Trainer plane *force-lands* on Army ground, both on board safe",
+ "tldr": "A two-seater training aircraft of the Telangana State Aviation Academy force-landed on an Army parade ground in Hyderabad on Thursday, November 26; the instructor and trainee were unhurt.",
+ "beats": {
+  "what": "The two-seater force-landed on an Army parade ground in Golconda Cantonment on Thursday.",
+  "why": "A senior official said the aircraft had a power issue and landed following procedure.",
+  "care": "Training flights operate over the city; no one on board or on the ground was reported hurt."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "✈️",
+    "label": "Power issue mid-flight"
+   }
+  ],
+  "event": {
+   "icon": "⚠️",
+   "label": "Trainer force-lands on Army ground"
+  },
+  "effects": [
+   {
+    "icon": "✅",
+    "label": "Instructor, trainee unhurt"
+   },
+   {
+    "icon": "✅",
+    "label": "Landing followed procedure"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The aircraft belongs to the Telangana State Aviation Academy."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should flight-training routes over the city be reviewed after this?",
+   "opts": [
+    "Yes",
+    "No",
+    "Only if incidents repeat",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How often do training aircraft have to force-land in Telangana?",
+    "Which agency investigates such incidents?"
+   ],
+   "facts": [
+    {
+     "big": "2",
+     "t": "*2* people on board, an instructor and a trainee, were unhurt.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-training-aircraft-force-lands-at-army-ground-no-injuries-3587722/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What happened on Thursday",
+   "steps": [
+    {
+     "t": "In flight",
+     "e": "Two-seater trainer develops a power issue"
+    },
+    {
+     "t": "Landing",
+     "e": "Force-lands on Army parade ground per procedure"
+    },
+    {
+     "t": "After",
+     "e": "Instructor and trainee unhurt"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A safe outcome; the cause has been described only as a power issue."
+  },
+  {
+   "t": "big",
+   "v": "0",
+   "l": "Injuries reported"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "0",
+  "label": "Injuries reported",
+  "motion": "drift",
+  "scene": [
+   "✈️",
+   "⚠️",
+   "✅"
+  ]
+ },
+ "watch": "Any inquiry findings from the aviation academy or regulators.",
+ "thread": "hyd-trainer-aircraft-force-lands-army-ground-golconda-no-injuries",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad: Training aircraft force-lands at Army ground, no injuries",
+   "url": "https://www.siasat.com/hyderabad-training-aircraft-force-lands-at-army-ground-no-injuries-3587722/"
+  },
+  {
+   "name": "Times of India",
+   "title": "Engine fails, instructor and trainee pilot crash-land aircraft in Hyderabad's Golconda Cantt",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/trainer-aircraft-crash-lands-in-golconda-cantt-pilot-instructor-escape/articleshow/136202621.cms"
+  }
+ ],
+ "updated": 1795760695149,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/aircraft.jpg",
+  "c": "Siasat"
+ },
+ "fact": "A Telangana aviation academy trainer plane *force-landed* on an Army parade ground, nobody hurt",
+ "twist": "The landing was done *by procedure* after a power issue, an official told PTI.",
+ "layer": "near",
+ "areas": [
+  "Golconda"
+ ]
+}
