@@ -1,0 +1,134 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Fire in Khairatabad GHMC zonal office burns *cheque section* papers",
+ "hook_b": "Fire in Khairatabad GHMC zonal office burns *cheque section* papers",
+ "tldr": "A fire broke out on Friday morning on the second floor of the GHMC Zonal Office in Khairatabad, reportedly reducing several documents in the cheque section to ashes.",
+ "beats": {
+  "what": "A fire broke out on the second floor of the GHMC Zonal Office in Khairatabad on Friday morning.",
+  "why": "Several important documents stored in the cheque section were reportedly reduced to ashes.",
+  "care": "Fire personnel brought the blaze under control before it reached other parts of the building."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🔥",
+    "label": "Fire on second floor"
+   }
+  ],
+  "event": {
+   "icon": "🏢",
+   "label": "Cheque-section documents burnt"
+  },
+  "effects": [
+   {
+    "icon": "📄",
+    "label": "Blaze contained to the room"
+   },
+   {
+    "icon": "📄",
+    "label": "Cause not yet known"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Officials have not yet said what caused the fire or how many records were lost."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "After this fire, what matters most for civic records?",
+   "opts": [
+    "Digital backups",
+    "Fire safety checks",
+    "Probe the cause first",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Were the burnt cheque-section records backed up digitally?",
+    "Will services at the Khairatabad zonal office be affected?"
+   ],
+   "facts": [
+    {
+     "big": "Records room",
+     "t": "Siasat reports the fire was in the office's *records room*.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/fire-erupts-in-records-room-of-khairatabad-ghmc-office-3587935/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Friday at the zonal office",
+   "steps": [
+    {
+     "t": "Morning",
+     "e": "Fire in 2nd-floor cheque section"
+    },
+    {
+     "t": "Soon after",
+     "e": "Fire crews contain it to the room"
+    },
+    {
+     "t": "Pending",
+     "e": "Cause and damage not yet known"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "No word yet on which records were lost."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2nd floor",
+  "label": "Cheque section hit",
+  "motion": "drift",
+  "scene": [
+   "🔥",
+   "🏢",
+   "📄"
+  ]
+ },
+ "watch": "Officials are yet to ascertain the cause and the extent of the damage.",
+ "thread": "hyd-khairatabad-ghmc-zonal-office-fire-cheque-section-documents",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Fire breaks out at Khairatabad GHMC Zonal Office",
+   "url": "https://telanganatoday.com/fire-breaks-out-at-khairatabad-ghmc-zonal-office"
+  },
+  {
+   "name": "Siasat",
+   "title": "Fire erupts in records room of Khairatabad GHMC office",
+   "url": "https://www.siasat.com/fire-erupts-in-records-room-of-khairatabad-ghmc-office-3587935/"
+  }
+ ],
+ "updated": 1795763480159,
+ "fact": "Friday-morning fire at Khairatabad GHMC zonal office burns documents in its *cheque section*",
+ "twist": "Fire crews contained it before it spread, but the *cause and damage* are still unknown.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/fire-breaks-out-at-khairatabad-ghmc-zonal-office-d8658743.jpg",
+  "c": "Telangana Today"
+ },
+ "layer": "near",
+ "areas": [
+  "Khairatabad"
+ ]
+}

@@ -41,7 +41,7 @@
   {
    "k": "tea",
    "title": "🆕 What's new",
-   "body": "Outside the city, Bhongir received 12 cm by 6 a.m. and Alair 10 cm."
+   "body": "Midday update: Siasat calls it Hyderabad's heaviest November rain in 10 years, with 60-80 mm in some areas in just three hours (midnight to 3 am). Outside the city, Bhongir received 12 cm by 6 a.m. and Alair 10 cm."
   },
   {
    "k": "poll",
@@ -72,6 +72,12 @@
      "t": "Shamshabad, Nadargul, Kanchanbagh and Bachupally got *1 mm or less*.",
      "s": "Telangana Today",
      "u": "https://telanganatoday.com/overnight-showers-end-dry-spell-in-hyderabad"
+    },
+    {
+     "big": "10 yrs",
+     "t": "Heaviest *November* rain in Hyderabad in *10 years*, after 28 dry days.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/heaviest-november-rain-in-10-years-drenches-hyderabad-3587955/"
     }
    ]
   }
@@ -137,7 +143,7 @@
    "🥶"
   ]
  },
- "watch": "IMD: minimum temperatures to dip 2-4 degrees over the next five days, with a winter chill this weekend.",
+ "watch": "Rain eases across Telangana from Nov 28; a strong chill is likely in Hyderabad on Nov 29, 30 and Dec 1.",
  "thread": "hyd-overnight-rain-kukatpally-vivekananda-nagar-79mm-ends-dry-spell",
  "sources": [
   {
@@ -149,9 +155,14 @@
    "name": "The Hindu",
    "title": "Overnight sharp spell of rain drenches Hyderabad",
    "url": "https://www.thehindu.com/news/cities/Hyderabad/overnight-sharp-spell-of-rain-drenches-hyderabad/article71749201.ece"
+  },
+  {
+   "name": "Siasat",
+   "title": "Heaviest November rain in 10 years drenches Hyderabad",
+   "url": "https://www.siasat.com/heaviest-november-rain-in-10-years-drenches-hyderabad-3587955/"
   }
  ],
- "updated": 1795760695147,
+ "updated": 1795763480159,
  "img": {
   "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/overnight-showers-end-dry-spell-in-hyderabad-4bf699e6.jpg",
   "c": "Telangana Today"

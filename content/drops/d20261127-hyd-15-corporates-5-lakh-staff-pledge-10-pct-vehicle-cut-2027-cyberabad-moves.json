@@ -1,0 +1,141 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-86",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "*15* big employers pledge to cut their vehicle use *10%* from 2027",
+ "hook_b": "*15* big employers pledge to cut their vehicle use *10%* from 2027",
+ "tldr": "At Cyberabad Police's 'Cyberabad Moves' launch at T-Hub, about 15 firms including Infosys, TCS, Cognizant, Tech Mahindra and LPL Financial pledged to cut vehicle use linked to their offices by 10% from 2027.",
+ "beats": {
+  "what": "About 15 corporates, including LPL Financial, Cognizant, Infosys, TCS and Tech Mahindra, pledged to cut vehicle use linked to their establishments by 10% from 2027.",
+  "why": "The pledge came at Cyberabad Moves, launched by DGP CV Anand on Thursday with the Cyberabad Municipal Corporation and SCSC, to tackle worsening traffic congestion.",
+  "care": "Firms pledged carpooling, public transport, better last-mile links, higher-capacity vehicles instead of cabs, hybrid work and company shuttle buses."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚗",
+    "label": "Worsening IT-corridor congestion"
+   }
+  ],
+  "event": {
+   "icon": "🤝",
+   "label": "Corporate pledge at T-Hub"
+  },
+  "effects": [
+   {
+    "icon": "🚌",
+    "label": "Fewer solo cabs, more shuttles"
+   },
+   {
+    "icon": "🚌",
+    "label": "Pick-ups at Metro, bus stops"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Companies told TOI they have already started shrinking cab fleets in the IT corridor."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "What would get you out of a car or cab for the office commute?",
+   "opts": [
+    "Company shuttle",
+    "Metro + last-mile link",
+    "Carpool",
+    "Hybrid work",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will the firms measure a 10% cut?",
+    "Will smaller companies in the IT corridor join?"
+   ],
+   "facts": [
+    {
+     "big": "₹0",
+     "t": "Traffic Police say *no* fine for solo car drivers has been proposed.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-traffic-police-debunk-claims-of-fine-for-solo-car-drivers-say-no-congestion-penalty-proposed/article71747463.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "v": 10,
+   "max": 100,
+   "l": "Cut in company-linked vehicle use pledged from 2027",
+   "tone": "neutral",
+   "verdict": "A target for 15 firms; results depend on staff shifting modes.",
+   "d": "10% from 2027"
+  },
+  {
+   "t": "timeline",
+   "l": "Cyberabad Moves",
+   "steps": [
+    {
+     "t": "Thu, Nov 26",
+     "e": "Launched at T-Hub by DGP CV Anand"
+    },
+    {
+     "t": "Now",
+     "e": "Firms shrink cab fleets, Metro/bus pick-ups"
+    },
+    {
+     "t": "2027",
+     "e": "10% vehicle-use cut target"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Commuters in the IT corridor may see more shuttles and pooled rides."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "10%",
+  "label": "Vehicle-use cut pledged",
+  "motion": "drift",
+  "scene": [
+   "🚗",
+   "🤝",
+   "🚌"
+  ]
+ },
+ "watch": "The 10% target applies from 2027; firms named carpools, shuttles and hybrid work as the tools.",
+ "thread": "hyd-15-corporates-5-lakh-staff-pledge-10-pct-vehicle-cut-2027-cyberabad-moves",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "15 corporate majors pledge 10% cut in vehicle use on Hyd roads by 2027",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/15-corporate-majors-pledge-10-cut-in-vehicle-use-on-hyd-roads-by-2027/articleshow/136202634.cms"
+  }
+ ],
+ "updated": 1795763480159,
+ "fact": "15 companies employing *5 lakh* Hyderabadis pledge a *10%* cut in vehicle use",
+ "twist": "Some firms already drop staff at *Metro stations and bus stops* instead of door-to-door cabs.",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136202633,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "layer": "near",
+ "areas": [
+  "HITEC City",
+  "Madhapur",
+  "Gachibowli"
+ ]
+}

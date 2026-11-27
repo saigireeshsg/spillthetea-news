@@ -1,0 +1,172 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-88",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Mopping with drinking water is *No. 1* on the water board's complaint app",
+ "hook_b": "Mopping with drinking water is *No. 1* on the water board's complaint app",
+ "tldr": "Four weeks after HMWSSB launched its PAANI app, mopping with drinking water or groundwater is the most reported misuse, mostly from Jubilee Hills and Banjara Hills.",
+ "beats": {
+  "what": "About 75 of 250-plus complaints filed on HMWSSB's PAANI app in four weeks are about people mopping homes with drinking water or groundwater.",
+  "why": "The app, launched on October 29, lets residents photograph and report water misuse; field teams now verify every complaint in person.",
+  "care": "Violators are fined Rs 1,000 to Rs 20,000; notices come first, and unpaid fines are added to the water bill."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚰",
+    "label": "Drinking water used to mop and wash"
+   }
+  ],
+  "event": {
+   "icon": "📱",
+   "label": "PAANI app complaints, 75 on mopping"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "Fines Rs 1,000-20,000"
+   },
+   {
+    "icon": "💸",
+    "label": "Unpaid fines go on water bill"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Officials found some residents using pressure motors on drinking water lines to wash floors and driveways, mostly in the mornings."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Rs 1,000-20,000 fines for wasting drinking water: fair call?",
+   "opts": [
+    "Fair",
+    "Too harsh",
+    "Too soft",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many of the 250-plus complaints ended in a fine?",
+    "Does groundwater mopping count the same as drinking-water mopping?"
+   ],
+   "facts": [
+    {
+     "big": "1,000+",
+     "t": "PAANI has *1,000+* downloads so far.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-residents-face-rs-20k-fine-for-mopping-with-drinking-water-3587904/"
+    },
+    {
+     "big": "10",
+     "t": "The app covers *10* kinds of violations, from illegal motors to overflowing tanks.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/hyderabad-residents-face-rs-20k-fine-for-mopping-with-drinking-water-3587904/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "bars",
+   "card": {
+    "title": "PAANI app complaints in 4 weeks",
+    "items": [
+     {
+      "label": "Mopping with drinking/groundwater",
+      "value": 75,
+      "display": "~75"
+     },
+     {
+      "label": "Water leakages",
+      "value": 60,
+      "display": "~60"
+     },
+     {
+      "label": "Washing streets",
+      "value": 31,
+      "display": "~31"
+     }
+    ]
+   },
+   "tone": "neutral",
+   "verdict": "Mopping leads the complaints; leakages are a close second."
+  },
+  {
+   "t": "timeline",
+   "l": "How a complaint turns into a fine",
+   "steps": [
+    {
+     "t": "Oct 29",
+     "e": "PAANI app launched"
+    },
+    {
+     "t": "4 weeks",
+     "e": "250-plus complaints"
+    },
+    {
+     "t": "Visit",
+     "e": "Field team verifies, shows photos"
+    },
+    {
+     "t": "Notice",
+     "e": "Then fine of Rs 1,000-20,000"
+    },
+    {
+     "t": "Unpaid",
+     "e": "Added to water bill"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Residents who waste drinking water face fines; others report it."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "75",
+  "label": "Mopping complaints in 4 weeks",
+  "motion": "drift",
+  "scene": [
+   "🚰",
+   "📱",
+   "💸"
+  ]
+ },
+ "watch": "Field teams show violators the complainant's photos and videos, serve a notice, then add any unpaid fine to the water bill.",
+ "thread": "hyd-paani-app-mopping-drinking-water-top-complaint-fines-1000-20000",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Hyderabad residents face Rs 20K fine for mopping with drinking water",
+   "url": "https://www.siasat.com/hyderabad-residents-face-rs-20k-fine-for-mopping-with-drinking-water-3587904/"
+  }
+ ],
+ "updated": 1795763480157,
+ "fact": "Mopping floors with drinking water tops the PAANI app's complaints: *75* of 250-plus",
+ "twist": "Since January, the water board has fined about *1,700* residents, nearly *Rs 50 lakh* in all.",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2025/10/Untitled-design-2025-10-11T220955.470.jpg",
+  "c": "Siasat"
+ },
+ "layer": "near",
+ "areas": [
+  "Jubilee Hills",
+  "Banjara Hills",
+  "Kukatpally",
+  "Khairatabad",
+  "Mehdipatnam"
+ ]
+}
