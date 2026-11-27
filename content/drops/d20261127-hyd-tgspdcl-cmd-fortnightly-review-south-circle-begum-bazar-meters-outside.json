@@ -1,0 +1,142 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "power",
+ "hook": "TGSPDCL boss orders *every-15-day* reviews of Old City power circle",
+ "hook_b": "TGSPDCL boss orders *every-15-day* reviews of Old City power circle",
+ "tldr": "TGSPDCL CMD Jitesh V Patil visited the Sitarambagh sub-division on Nov 27 and announced fortnightly reviews of Hyderabad South Circle covering dues, maintenance and complaints.",
+ "beats": {
+  "what": "Patil reviewed the Mangalhat, Dattatreya Colony, Sitarambagh and Chudibazar sections under Begum Bazar Division, checking bill collection, maintenance and staff performance.",
+  "why": "He said negligence and corruption would not be tolerated and staff who fail to improve would face strict action.",
+  "care": "Old City residents may see a push on pending dues (the 'D-list'), meter shifting outside homes, and grievance resolution."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "⚡",
+    "label": "Dues and service gaps in South Circle"
+   }
+  ],
+  "event": {
+   "icon": "📋",
+   "label": "CMD orders fortnightly reviews"
+  },
+  "effects": [
+   {
+    "icon": "🏠",
+    "label": "Push to recover pending dues"
+   },
+   {
+    "icon": "🏠",
+    "label": "Meters shifted outside homes"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Employees must report for duty by 8.30 am daily, the CMD directed."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "How is power supply in your area lately?",
+   "opts": [
+    "Steady",
+    "Some cuts",
+    "Frequent cuts",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will residents know whether grievance resolution improves after the reviews?",
+    "Who pays for shifting a meter from inside a house to outside?"
+   ],
+   "facts": [
+    {
+     "big": "4",
+     "t": "*4* sections reviewed: Mangalhat, Dattatreya Colony, Sitarambagh and Chudibazar.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/tgspdcl-md-asks-officials-to-ensure-uninterrupted-power-in-old-city-3588265/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What the CMD ordered",
+   "steps": [
+    {
+     "t": "Daily",
+     "e": "Staff on duty by 8.30 am"
+    },
+    {
+     "t": "Ongoing",
+     "e": "Recover D-list pending dues"
+    },
+    {
+     "t": "Ongoing",
+     "e": "Shift meters from inside homes to outside"
+    },
+    {
+     "t": "Every 15 days",
+     "e": "Review of targets, dues, maintenance, grievances"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Tighter monitoring of staff; residents may see dues follow-ups."
+  },
+  {
+   "t": "big",
+   "v": "15 days",
+   "l": "Review cycle, South Circle"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "15 days",
+  "label": "Review cycle, South Circle",
+  "motion": "drift",
+  "scene": [
+   "⚡",
+   "📋",
+   "🏠"
+  ]
+ },
+ "watch": "Next review due in about two weeks; focus on dues recovery and consumer grievances.",
+ "thread": "hyd-tgspdcl-cmd-fortnightly-review-south-circle-begum-bazar-meters-outside",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "TGSPDCL MD calls for regular review of Hyderabad South Circle",
+   "url": "https://www.siasat.com/tgspdcl-md-asks-officials-to-ensure-uninterrupted-power-in-old-city-3588265/"
+  }
+ ],
+ "updated": 1795780581952,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/TGSPDCL-3.jpg",
+  "c": "Siasat"
+ },
+ "fact": "TGSPDCL will review Hyderabad South Circle's power service *every 15 days*",
+ "twist": "Staff were told to move electricity meters from inside homes to outside premises faster.",
+ "layer": "near",
+ "areas": [
+  "Begum Bazaar",
+  "Mangalhat",
+  "Sitarambagh",
+  "Chudi Bazaar",
+  "Old City"
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-68",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "land",
+ "hook": "New land passbooks get *QR-style code* and map of your plot",
+ "hook_b": "New land passbooks get *QR-style code* and map of your plot",
+ "tldr": "Telangana is designing pattadar passbooks with an embedded land map, coordinates and a scannable unique code, which The Hindu calls a first-of-its-kind exercise in India.",
+ "beats": {
+  "what": "The design is in final stages; the code can be scanned for the land's latest details.",
+  "why": "The state is resurveying 10,900 revenue villages in phases, 2,500 in the first phase; passbooks follow the survey.",
+  "care": "Farmers in surveyed villages can raise claims and objections on land extent before passbooks are issued."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗺️",
+    "label": "Phased resurvey of revenue villages"
+   }
+  ],
+  "event": {
+   "icon": "📗",
+   "label": "Passbooks with map and scannable code"
+  },
+  "effects": [
+   {
+    "icon": "🌾",
+    "label": "Exact plot location on record"
+   },
+   {
+    "icon": "🌾",
+    "label": "Targeted inputs, MSP, insurance"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "A digital registry from the survey may help target fertiliser, urea and seed supply, MSP payments and crop insurance claims."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Does your family own farm land in Telangana?",
+   "opts": [
+    "Yes",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will farmers dispute a map that shows less land than they believe they own?",
+    "Who will run the digital land registry?"
+   ],
+   "facts": [
+    {
+     "big": "2.35 cr",
+     "t": "Survey of *2.35 crore* land holdings completed so far in pilot villages.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/telanganas-new-pattadar-passbooks-to-have-unique-code-land-maps/article71750274.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Revenue villages in first resurvey phase",
+   "v": 2500,
+   "tone": "neutral",
+   "verdict": "About a quarter of villages are in phase one.",
+   "max": 10900,
+   "d": "2,500 of 10,900 villages"
+  },
+  {
+   "t": "big",
+   "v": "530+",
+   "l": "Villages first in line"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "530+",
+  "label": "Villages first in line",
+  "motion": "drift",
+  "scene": [
+   "🗺️",
+   "📗",
+   "🌾"
+  ]
+ },
+ "learn": {
+  "t": "Pattadar passbook = the official land ownership record book issued to a landholder (pattadar) in Telangana."
+ },
+ "watch": "Issue of passbooks in the 530-plus surveyed villages after claims and objections.",
+ "thread": "tg-new-pattadar-passbooks-qr-code-land-maps-coordinates-530-villages",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana's new pattadar passbooks to have unique code, land maps",
+   "url": "https://www.thehindu.com/news/national/telangana/telanganas-new-pattadar-passbooks-to-have-unique-code-land-maps/article71750274.ece"
+  }
+ ],
+ "updated": 1795780581953,
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/x199j6/article71750467.ece/alternates/LANDSCAPE_1200/10215_10-5-2018_14-3-17_1_10GNRAO-RYTHUBANDHU_8_.JPG",
+  "c": "The Hindu"
+ },
+ "fact": "Telangana's new pattadar passbooks will carry land maps with *exact coordinates*",
+ "twist": "Survey of *2.35 crore* land holdings is done in pilot villages; passbooks start in over *530* villages.",
+ "layer": "state",
+ "areas": [
+  "Telangana"
+ ]
+}

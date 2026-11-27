@@ -1,0 +1,130 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-90",
+ "order": 1,
+ "heat": 5,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "No fine for driving alone: traffic police call *congestion fine* fake",
+ "hook_b": "No fine for driving alone: traffic police call *congestion fine* fake",
+ "tldr": "Hyderabad Traffic Police flagged social media posts and reels claiming motorists would be fined for travelling alone in a car as false; no congestion penalty has been proposed.",
+ "beats": {
+  "what": "On Nov 26 the traffic police posted a fake news alert: there is no fine for travelling alone in a car, and claims of a new 'congestion fine' are unverified.",
+  "why": "The reels followed Cyberabad Moves 2026, where mobility experts from Bogotá and London suggested congestion charges and parking reforms in a panel discussion.",
+  "care": "Nothing changes for car users now; police ask people to rely only on their official handles and helpline 9010203626."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎤",
+    "label": "Expert panel floated congestion charges"
+   }
+  ],
+  "event": {
+   "icon": "📱",
+   "label": "Reels claimed solo drivers will be fined"
+  },
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Police: no such fine exists"
+   },
+   {
+    "icon": "🚗",
+    "label": "Official channels only for updates"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Experts' panel suggestions (peak-hour charges, ending free office parking) were not government decisions, police said."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Did you see the solo-driver fine reel before this?",
+   "opts": [
+    "Yes, believed it",
+    "Yes, doubted it",
+    "Didn't see it",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "If a congestion charge were ever proposed, who would decide it and how would the public be consulted?",
+    "What share of IT corridor commuters have a workable bus or metro option?"
+   ],
+   "facts": [
+    {
+     "big": "10,138",
+     "t": "*10,138* people drove alone near Cyber Towers in the morning peak; *3,584* travelled two to a car.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-traffic-police-debunk-claims-of-fine-for-solo-car-drivers-say-no-congestion-penalty-proposed/article71747463.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Cars near Cyber Towers, morning peak (people)",
+   "a": {
+    "v": 10138,
+    "l": "Driving alone"
+   },
+   "b": {
+    "v": 3584,
+    "l": "Two in a car"
+   },
+   "tone": "neutral",
+   "verdict": "Most car commuters in the IT hub travel solo; no fine applies to them."
+  },
+  {
+   "t": "big",
+   "v": "₹0",
+   "l": "Fine for driving alone"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹0",
+  "label": "Fine for driving alone",
+  "motion": "drift",
+  "scene": [
+   "🎤",
+   "📱",
+   "🚗"
+  ]
+ },
+ "watch": "Whether any parking or congestion policy is formally proposed; police say none is on the table now.",
+ "thread": "hyd-traffic-police-no-fine-solo-car-drivers-congestion-charge-fake",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Hyderabad Traffic Police debunk claims of fine for solo car drivers",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-traffic-police-debunk-claims-of-fine-for-solo-car-drivers-say-no-congestion-penalty-proposed/article71747463.ece"
+  }
+ ],
+ "updated": 1795780581951,
+ "img": {
+  "u": "https://th-i.thgim.com/public/todays-paper/tp-national/tp-telangana/lzg7af/article70910291.ece/alternates/LANDSCAPE_1200/Only-3.2_-TelanG3EFTF4QL.3.jpg.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "Hyderabad Traffic Police say reels about a *solo-driver fine* are false",
+ "twist": "A Cyberabad Moves survey counted *10,138* people driving alone near Cyber Towers in one morning peak.",
+ "layer": "city",
+ "areas": [
+  "HITEC City",
+  "Madhapur",
+  "Gachibowli"
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-80",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "money",
+ "hook": "Airline swapped direct Phuket flights for *11-hour* layover: pays ₹70,000",
+ "hook_b": "Airline swapped direct Phuket flights for *11-hour* layover: pays ₹70,000",
+ "tldr": "A Telangana consumer commission held an airline liable for deficiency in service after it cancelled a family's booked non-stop Hyderabad–Phuket flights and moved them to connecting flights.",
+ "beats": {
+  "what": "The family paid ₹1,16,477 for four round-trip tickets (June 6–13, 2026); on May 21 the airline cancelled them and rebooked via Bengaluru, with an 11-hour halt on return.",
+  "why": "The airline cited winter schedule changes and operational reasons but did not substantiate why confirmed flights were cancelled, the commission found.",
+  "care": "Passengers whose flights are cancelled or rescheduled can approach a consumer commission; airlines must assist passengers during long halts."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "✈️",
+    "label": "Airline cancelled booked non-stop flights"
+   }
+  ],
+  "event": {
+   "icon": "⚖️",
+   "label": "Commission finds deficiency in service"
+  },
+  "effects": [
+   {
+    "icon": "💸",
+    "label": "₹15,000 per passenger"
+   },
+   {
+    "icon": "💸",
+    "label": "₹10,000 litigation costs"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Award: ₹15,000 per passenger (₹60,000) plus ₹10,000 litigation costs. The family had paid for its own stay during the Bengaluru stopover."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Has an airline ever changed your booked flight?",
+   "opts": [
+    "Yes, got compensated",
+    "Yes, got nothing",
+    "Never",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What assistance are airlines required to give during long halts caused by rescheduling?",
+    "How long do such consumer cases usually take to be decided?"
+   ],
+   "facts": [
+    {
+     "big": "₹2,949",
+     "t": "The family also paid *₹2,949* extra for baggage, and had non-refundable Phuket hotel bookings.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-family-books-direct-flights-to-thailand-for-rs-1-16-lakh-airline-shifts-them-to-connecting-flights-with-11-hour-layover-telangana-consumer-commission-orders-airline-to-pay-rs-70000-compensation-and-rs-10000-litigation-costs/articleshow/136214575.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Ticket cost vs compensation",
+   "a": {
+    "v": 116477,
+    "l": "Paid for 4 tickets",
+    "d": "₹1,16,477"
+   },
+   "b": {
+    "v": 70000,
+    "l": "Awarded",
+    "d": "₹70,000"
+   },
+   "tone": "good",
+   "verdict": "Passengers recover about 60% of the fare for the disruption."
+  },
+  {
+   "t": "timeline",
+   "l": "How it unfolded",
+   "steps": [
+    {
+     "t": "Booked",
+     "e": "4 non-stop tickets, ₹1,16,477"
+    },
+    {
+     "t": "May 21",
+     "e": "Airline cancels, rebooks via Bengaluru"
+    },
+    {
+     "t": "June 6-13",
+     "e": "Trip with 2h40m and ~11h halts"
+    },
+    {
+     "t": "Nov 2026",
+     "e": "Commission orders ₹70,000"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Rescheduling without valid reason cost the airline."
+  },
+  {
+   "t": "big",
+   "v": "₹70,000",
+   "l": "Compensation awarded"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "₹70,000",
+  "label": "Compensation awarded",
+  "motion": "drift",
+  "scene": [
+   "✈️",
+   "⚖️",
+   "💸"
+  ]
+ },
+ "learn": {
+  "t": "Deficiency in service = a legal term under consumer law for a shortfall in quality or manner of a service that was promised."
+ },
+ "watch": "Whether the airline appeals the order.",
+ "thread": "hyd-consumer-commission-airline-rs-70000-cancelled-direct-phuket-flights-11-hour-layover",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Telangana consumer commission orders airline to pay Rs 70,000",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/hyderabad-family-books-direct-flights-to-thailand-for-rs-1-16-lakh-airline-shifts-them-to-connecting-flights-with-11-hour-layover-telangana-consumer-commission-orders-airline-to-pay-rs-70000-compensation-and-rs-10000-litigation-costs/articleshow/136214575.cms"
+  }
+ ],
+ "updated": 1795780581953,
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136214646,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "fact": "Consumer commission orders an airline to pay a Hyderabad family *₹70,000*",
+ "twist": "The airline's counsel appeared, but it never filed a written reply within *45 days*, so its right to respond was closed.",
+ "layer": "city",
+ "areas": [
+  "Hyderabad"
+ ]
+}

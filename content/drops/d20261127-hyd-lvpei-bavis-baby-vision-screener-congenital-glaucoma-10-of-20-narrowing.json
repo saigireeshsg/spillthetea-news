@@ -1,0 +1,149 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-72",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "Hyderabad-made dome maps babies' side vision: *10 of 20* showed loss",
+ "hook_b": "Hyderabad-made dome maps babies' side vision: *10 of 20* showed loss",
+ "tldr": "Researchers at L V Prasad Eye Institute tested the Baby Vision Screener (BaViS), which tracks babies' eye movements to LED lights to detect early vision loss from primary congenital glaucoma.",
+ "beats": {
+  "what": "A baby lies under a dome; LEDs flash from the edge towards the centre along 12 directions while an examiner tracks eye shifts via infrared camera.",
+  "why": "In primary congenital glaucoma side vision is damaged, and infants can't speak or follow instructions, making early loss hard to measure.",
+  "care": "The study, in the Journal of Glaucoma, suggests doctors may spot and track vision loss in babies years earlier."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "👶",
+    "label": "No infant side-vision test exists"
+   }
+  ],
+  "event": {
+   "icon": "💡",
+   "label": "LVPEI tests LED dome screener"
+  },
+  "effects": [
+   {
+    "icon": "👁️",
+    "label": "Vision maps for 20 children"
+   },
+   {
+    "icon": "👁️",
+    "label": "Earlier tracking of glaucoma loss"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Of 29 young patients tested, reliable maps came for 20; half of them showed narrowing of the visual field."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should newborn eye screening be routine in hospitals?",
+   "opts": [
+    "Yes",
+    "Only if at risk",
+    "No",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How would a device like this reach district hospitals?",
+    "What does it cost to screen one baby?"
+   ],
+   "facts": [
+    {
+     "big": "12",
+     "t": "LEDs flash along *12* directions from the dome's edge to its centre.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-researchers-develop-led-vision-screener"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "icons",
+   "l": "Mapped children with narrowed side vision",
+   "n": 10,
+   "of": 20,
+   "tone": "bad",
+   "verdict": "Half the mapped children already had measurable vision loss."
+  },
+  {
+   "t": "timeline",
+   "l": "From 29 tested to 20 mapped",
+   "steps": [
+    {
+     "t": "Tested",
+     "e": "29 PCG patients (14 infants, 15 young children)"
+    },
+    {
+     "t": "Excluded",
+     "e": "8 (fussiness or technical issues)"
+    },
+    {
+     "t": "Mapped",
+     "e": "20 reliable vision maps"
+    },
+    {
+     "t": "Found",
+     "e": "10 of 20 with narrowing"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Early study; small sample."
+  },
+  {
+   "t": "big",
+   "v": "2.3 mo",
+   "l": "Youngest infant with reliable result"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "2.3 mo",
+  "label": "Youngest infant with reliable result",
+  "motion": "drift",
+  "scene": [
+   "👶",
+   "💡",
+   "👁️"
+  ]
+ },
+ "learn": {
+  "t": "Primary congenital glaucoma = high eye pressure present from birth that damages the optic nerve and can cause permanent blindness."
+ },
+ "watch": "Whether BaViS moves from study to wider clinical use.",
+ "thread": "hyd-lvpei-bavis-baby-vision-screener-congenital-glaucoma-10-of-20-narrowing",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad-developed BaViS device detects early vision loss in babies",
+   "url": "https://telanganatoday.com/hyderabad-researchers-develop-led-vision-screener"
+  }
+ ],
+ "updated": 1795780581953,
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/hyderabad-researchers-develop-led-vision-screener-58ceb8c5.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "LVPEI's LED dome mapped side vision in babies as young as *2.3 months*",
+ "twist": "There are no commercial automated side-vision machines for infants; doctors usually wave a toy to test.",
+ "layer": "city",
+ "areas": [
+  "Banjara Hills"
+ ]
+}

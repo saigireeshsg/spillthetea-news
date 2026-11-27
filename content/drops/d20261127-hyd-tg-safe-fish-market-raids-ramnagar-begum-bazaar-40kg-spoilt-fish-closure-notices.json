@@ -1,0 +1,142 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-27",
+ "sort": "2026-11-27-76",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "food safety",
+ "hook": "Food safety raid: *40 kg* spoilt fish dumped at Ramnagar market",
+ "hook_b": "Food safety raid: *40 kg* spoilt fish dumped at Ramnagar market",
+ "tldr": "TG SAFE's Food Wing inspected fish markets in Begum Bazaar and Ramnagar on Nov 27, checking hygiene, storage and food safety compliance.",
+ "beats": {
+  "what": "Vendors violating food safety norms were issued notices; two Ramnagar establishments got closure notices and 40 kg of spoilt fish was discarded.",
+  "why": "The drive aims to stop the sale of spoiled or unsafe fish and ensure hygienic seafood for buyers.",
+  "care": "If you buy fish at these markets, check freshness; violators have been told to comply with prescribed norms."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🐟",
+    "label": "Unhygienic storage at fish stalls"
+   }
+  ],
+  "event": {
+   "icon": "🔍",
+   "label": "TG SAFE raids two markets"
+  },
+  "effects": [
+   {
+    "icon": "🚫",
+    "label": "2 closure notices in Ramnagar"
+   },
+   {
+    "icon": "🚫",
+    "label": "Vendors told to comply"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Officials checked sanitation, storage conditions and compliance at fish vending units."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Where do you usually buy fish?",
+   "opts": [
+    "Local market",
+    "Supermarket",
+    "Online app",
+    "Don't buy fish"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How often are city fish markets inspected?",
+    "What happens to a vendor after a closure notice?"
+   ],
+   "facts": [
+    {
+     "big": "2",
+     "t": "*2* markets covered in the Nov 27 drive: Begum Bazaar and Ramnagar.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/tg-safe-cracks-down-on-fish-markets-in-begum-bazaar-ramnagar-3587998/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "What the Nov 27 drive did",
+   "steps": [
+    {
+     "t": "Inspect",
+     "e": "Hygiene, storage, compliance checks"
+    },
+    {
+     "t": "Discard",
+     "e": "40 kg spoilt fish"
+    },
+    {
+     "t": "Notices",
+     "e": "Violating vendors told to comply"
+    },
+    {
+     "t": "Close",
+     "e": "2 Ramnagar establishments get closure notices"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Enforcement step for buyers' safety; vendors must fix storage."
+  },
+  {
+   "t": "big",
+   "v": "40 kg",
+   "l": "Spoilt fish discarded"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "40 kg",
+  "label": "Spoilt fish discarded",
+  "motion": "drift",
+  "scene": [
+   "🐟",
+   "🔍",
+   "🚫"
+  ]
+ },
+ "learn": {
+  "t": "TG SAFE = Telangana Standards Authority for Food and Essential Drugs, the state's food and drug safety regulator."
+ },
+ "watch": "Whether the drive extends to other fish markets.",
+ "thread": "hyd-tg-safe-fish-market-raids-ramnagar-begum-bazaar-40kg-spoilt-fish-closure-notices",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "TGSAFE cracks down on fish markets, issues closure notices",
+   "url": "https://www.siasat.com/tg-safe-cracks-down-on-fish-markets-in-begum-bazaar-ramnagar-3587998/"
+  }
+ ],
+ "updated": 1795780581953,
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Image-3.jpg",
+  "c": "Siasat"
+ },
+ "fact": "TG SAFE discarded *40 kg* of spoilt fish in Ramnagar, Begum Bazaar raids",
+ "twist": "Two Ramnagar fish establishments got *closure notices*, not just warnings.",
+ "layer": "near",
+ "areas": [
+  "Ramnagar",
+  "Begum Bazaar"
+ ]
+}
