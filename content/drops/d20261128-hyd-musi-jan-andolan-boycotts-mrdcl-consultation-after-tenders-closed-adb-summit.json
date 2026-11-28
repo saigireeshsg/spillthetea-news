@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-80",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Musi consultation held *a day after* tender bids closed",
+ "hook_b": "Musi consultation held *a day after* tender bids closed",
+ "tldr": "MRDCL invited Musi Jan Andolan on Nov 25 to a 90-minute consultation on Nov 28; ADB's bid deadline for Phase I was 5 pm Nov 27. MJA boycotted, calling it meaningless.",
+ "beats": {
+  "what": "Musi Jan Andolan, displaced communities and civil society groups boycotted the Musi Riverfront Development Corporation's stakeholder consultation on Saturday.",
+  "why": "They say Phase I tenders were already issued and the project promoted to investors before any public consultation.",
+  "care": "MJA wants MRDCL dissolved, a statutory participatory Musi River Basin Authority, a halt to tenders and construction, an ecological reassessment and GO Ms No 921 revoked."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📑",
+    "label": "Phase I tenders already issued"
+   }
+  ],
+  "event": {
+   "icon": "🌊",
+   "label": "MJA boycotts consultation"
+  },
+  "effects": [
+   {
+    "icon": "✋",
+    "label": "Demands halt to tenders"
+   },
+   {
+    "icon": "✋",
+    "label": "Seeks Musi River Basin Authority"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Asian Development Bank, which funds the project, set 5 pm on November 27 as the final bid deadline; civil society groups got the same deadline to confirm attendance."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should public consultation on big city projects come before tenders?",
+   "opts": [
+    "Yes, always",
+    "Can run in parallel",
+    "Depends on project",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What can a consultation change once bids are in?",
+    "Who would sit on a statutory Musi River Basin Authority?"
+   ],
+   "facts": [
+    {
+     "big": "5",
+     "t": "MJA lists *5* demands, from dissolving MRDCL to revoking GO Ms No 921 of Dec 16, 2025.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/mja-boycotts-mrdcl-consultation-seeks-tender-cancellation"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Four dates in the Musi dispute",
+   "steps": [
+    {
+     "t": "Nov 25",
+     "e": "MRDCL invites MJA to a 90-min consultation"
+    },
+    {
+     "t": "Nov 27, 5 pm",
+     "e": "ADB's final bid-submission deadline"
+    },
+    {
+     "t": "Nov 28",
+     "e": "Consultation held; MJA boycotts"
+    },
+    {
+     "t": "Dec 7-9",
+     "e": "Invest Global Summit, where the project is to be promoted"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "The consultation came after the bid deadline, which is MJA's main objection."
+  },
+  {
+   "t": "big",
+   "v": "90 min",
+   "l": "Length of the consultation MJA was invited to"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "90 min",
+  "label": "Length of the consultation MJA was invited to",
+  "motion": "drift",
+  "scene": [
+   "📑",
+   "🌊",
+   "✋"
+  ]
+ },
+ "learn": {
+  "t": "MRDCL = Musi Riverfront Development Corporation Limited, the state company running the Musi project."
+ },
+ "watch": "Whether tenders are awarded and how the project is presented at the December 7-9 summit.",
+ "thread": "hyd-musi-jan-andolan-boycotts-mrdcl-consultation-after-tenders-closed-adb-summit",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Musi Jan Andolan boycotts consultation, alleges Musi project decisions were pre-empted",
+   "url": "https://telanganatoday.com/mja-boycotts-mrdcl-consultation-seeks-tender-cancellation"
+  }
+ ],
+ "updated": 1795867041607,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/mja-boycotts-mrdcl-consultation-seeks-tender-cancellation-4589fa74.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Musi Jan Andolan boycotts project consultation held *a day after* tender bids closed",
+ "twist": "The government is set to pitch the Musi project at the Invest Global Summit on *December 7-9*, which MJA also opposes.",
+ "areas": [
+  "Musi",
+  "Old City",
+  "Amberpet"
+ ],
+ "layer": "city"
+}

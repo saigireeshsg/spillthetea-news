@@ -1,0 +1,153 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-86",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "traffic",
+ "hook": "Cantonment Board votes to make *4* public roads Defence land",
+ "hook_b": "Cantonment Board votes to make *4* public roads Defence land",
+ "tldr": "SCB passed a resolution on November 27 to move Richardson, Protnee, Barr and Rajendra Singhji roads from Class C to Class A1 Defence land; FNECS objects and fears closures.",
+ "beats": {
+  "what": "At its November 27 meeting, the Secunderabad Cantonment Board unanimously resolved to reclassify four roads from Class 'C' to Class 'A1' Defence land, after Telangana Andhra Sub Area (TASA) sought it.",
+  "why": "FNECS says the roads have been used by civilians for decades and no one from the affected colonies was consulted; it wants at least an official notice.",
+  "care": "FNECS says residents of Kowkoor, Yapral, Balaji Nagar, Sainikpuri and AS Rao Nagar already take longer, costlier detours, and fears the roads may be closed."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪖",
+    "label": "TASA sought reclassification"
+   }
+  ],
+  "event": {
+   "icon": "🛣️",
+   "label": "SCB votes C to A1"
+  },
+  "effects": [
+   {
+    "icon": "🚗",
+    "label": "Fears of road closures"
+   },
+   {
+    "icon": "🚗",
+    "label": "Longer detours for colonies"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The four roads: Richardson Road (Unnikrishnan Marg), Protnee Road (Tarpore Marg), Barr Road (Kowkoor Army Road) and Rajendra Singhji Road. FNECS says the public has right of way on both A1 and C roads under CLAR."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Cantonment roads used by civilians for decades: who should decide if they stay open?",
+   "opts": [
+    "Army / Defence",
+    "Cantonment Board",
+    "Residents' say too",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What happens to colonies that rely on these roads if they close?",
+    "Has the Centre been asked to approve the change yet?"
+   ],
+   "facts": [
+    {
+     "big": "5",
+     "t": "FNECS names *5* colonies hit by road restrictions: Kowkoor, Yapral, Balaji Nagar, Sainikpuri, AS Rao Nagar.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/colonies-oppose-scb-road-reclassification"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "Road stretches being reclassified (km)",
+   "parts": [
+    {
+     "l": "Rashtrapati Nilayam–Trinity Church Jn",
+     "v": 2.0,
+     "d": "2.0 km"
+    },
+    {
+     "l": "Lakdawal Jn–Golf Course",
+     "v": 0.5,
+     "d": "0.5 km"
+    },
+    {
+     "l": "Married Airforce Accn–Abdul Hamid Marg",
+     "v": 0.5,
+     "d": "0.5 km"
+    },
+    {
+     "l": "Trinity Church Jn–Abdul Hamid Marg",
+     "v": 0.3,
+     "d": "0.3 km"
+    }
+   ],
+   "total": "3.3 km",
+   "tone": "neutral",
+   "verdict": "Most of the length is one 2 km stretch; residents of north-east Secunderabad use these roads."
+  },
+  {
+   "t": "big",
+   "v": "3.3 km",
+   "l": "Total length of the four roads"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3.3 km",
+  "label": "Total length of the four roads",
+  "motion": "drift",
+  "scene": [
+   "🪖",
+   "🛣️",
+   "🚗"
+  ]
+ },
+ "learn": {
+  "t": "A1 Defence land = cantonment land under the Army's active use; Class C land is managed by the Cantonment Board."
+ },
+ "watch": "Whether the Centre approves the reclassification and whether SCB issues a public notice.",
+ "thread": "hyd-scb-4-public-roads-a1-defence-land-fnecs-objects-kowkoor-yapral-sainikpuri",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "FNECS objects to SCB move to reclassify four public roads as A1 Defence land",
+   "url": "https://telanganatoday.com/colonies-oppose-scb-road-reclassification"
+  }
+ ],
+ "updated": 1795867041604,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/colonies-oppose-scb-road-reclassification-6b74a5d8.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Secunderabad Cantonment Board votes to reclassify *4* public roads as A1 Defence land",
+ "twist": "Residents' federation FNECS says under cantonment land rules only the *Central government* can reclassify such land.",
+ "areas": [
+  "Secunderabad",
+  "Kowkoor",
+  "Yapral",
+  "Balaji Nagar",
+  "Sainikpuri",
+  "AS Rao Nagar",
+  "Bolarum"
+ ],
+ "layer": "near"
+}

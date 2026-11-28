@@ -1,0 +1,134 @@
+{
+ "cat": "india",
+ "lead": "india",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-78",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "politics",
+ "hook": "Telangana's Lok Sabha seats would go from *17 to 26*",
+ "hook_b": "Telangana's Lok Sabha seats would go from *17 to 26*",
+ "tldr": "BRS working president KT Rama Rao said the party backs the delimitation proposal: a 50% seat increase with a safeguard on the inter-state ratio until 2051.",
+ "beats": {
+  "what": "KTR posted on X that BRS's stand has always been: no reduction in South India's parliamentary representation and no injustice to Telangana.",
+  "why": "He said the proposal's 50% increase in seats, with the inter-state ratio frozen until 2051, addresses the party's concern about the South's 24% share.",
+  "care": "Telangana would get 9 more Lok Sabha seats, per KTR's figures; BRS's three Rajya Sabha MPs will vote in favour."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🗺️",
+    "label": "Fear of South losing seats"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "BRS backs delimitation Bill"
+  },
+  "effects": [
+   {
+    "icon": "🗳️",
+    "label": "Telangana 17 to 26 seats"
+   },
+   {
+    "icon": "🗳️",
+    "label": "Ratio frozen till 2051"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "KTR also said BRS has always supported women's reservation and remains committed to its implementation."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "A 50% bigger Lok Sabha with today's state ratios locked till 2051:",
+   "opts": [
+    "Support",
+    "Oppose",
+    "Need more details",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "If every state grows by the same ratio, what changes for Telangana's voice in Parliament?",
+    "Why 2051 as the cut-off?"
+   ],
+   "facts": [
+    {
+     "big": "24%",
+     "t": "South India holds *24%* of Parliament seats, a share BRS wants protected.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/our-delimitation-stand-has-always-been-clear-ktr"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Telangana's Lok Sabha seats",
+   "a": {
+    "v": 17,
+    "d": "17",
+    "l": "Now"
+   },
+   "b": {
+    "v": 26,
+    "d": "26",
+    "l": "Proposed"
+   },
+   "tone": "neutral",
+   "verdict": "More seats for Telangana; the South's overall share stays the same, per KTR."
+  },
+  {
+   "t": "big",
+   "v": "+9",
+   "l": "More Lok Sabha seats for Telangana"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#14281a",
+   "#3a8a52"
+  ],
+  "big": "+9",
+  "label": "More Lok Sabha seats for Telangana",
+  "motion": "drift",
+  "scene": [
+   "🗺️",
+   "🏛️",
+   "🗳️"
+  ]
+ },
+ "learn": {
+  "t": "Delimitation = redrawing constituency boundaries and seat numbers based on population."
+ },
+ "watch": "The Rajya Sabha vote on the Bill.",
+ "thread": "tg-delimitation-bill-lok-sabha-seats-17-to-26-brs-backs-ktr",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "BRS to back delimitation proposal as KTR says Telangana's interests are protected",
+   "url": "https://telanganatoday.com/our-delimitation-stand-has-always-been-clear-ktr"
+  }
+ ],
+ "updated": 1795867041607,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/our-delimitation-stand-has-always-been-clear-ktr-22e9f4b9.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Telangana's Lok Sabha seats would rise from *17 to 26* under the delimitation proposal",
+ "twist": "BRS will vote for it with its *3* Rajya Sabha MPs; KTR says the South's 24% share in Parliament is protected until 2051.",
+ "areas": [
+  "Telangana"
+ ],
+ "layer": "state"
+}

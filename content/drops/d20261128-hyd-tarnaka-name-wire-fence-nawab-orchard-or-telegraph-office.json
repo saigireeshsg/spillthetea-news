@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-70",
+ "order": 1,
+ "heat": 2,
+ "readSecs": 30,
+ "topic": "heritage",
+ "hook": "Tarnaka's name may come from a *wire* fence or a telegraph office",
+ "hook_b": "Tarnaka's name may come from a *wire* fence or a telegraph office",
+ "tldr": "Two local stories explain Tarnaka: a wire-fenced Nawab's mango orchard with a guard at the gate, or a telegraph office where people sent 'taar'.",
+ "beats": {
+  "what": "Tarnaka is commonly explained as 'Taar' (wire) plus 'Naka' (checkpost), Siasat reports.",
+  "why": "One story: a Nawab's mango orchard was fenced with wire and guarded at the entrance. Another: 'taar' also means telegram, and Tarnaka had a telegraph office.",
+  "care": "A BSNL office still stands at the junction; local accounts say the area had vineyards in the Nizam's time, with grapes reportedly grown until the 1980s."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🥭",
+    "label": "Farmland and orchards"
+   }
+  ],
+  "event": {
+   "icon": "📨",
+   "label": "Name Tarnaka sticks"
+  },
+  "effects": [
+   {
+    "icon": "🚇",
+    "label": "Orchard fence story"
+   },
+   {
+    "icon": "🚇",
+    "label": "Telegraph office story"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Before flyovers and the metro station, Tarnaka was farmland, according to local Instagram accounts cited by Siasat."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Which 'wire' do you think gave Tarnaka its name?",
+   "opts": [
+    "Orchard fence",
+    "Telegraph wires",
+    "A bit of both",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which other Hyderabad area names hide old professions or landmarks?",
+    "Who keeps records of how localities got their names?"
+   ],
+   "facts": [
+    {
+     "big": "160+ yrs",
+     "t": "India's telegram service ran *more than 160 years* before ending in July 2013.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/tarnaka-hyderabad-fascinating-stories-behind-the-areas-name-3589054/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Tarnaka through time",
+   "steps": [
+    {
+     "t": "Nizam era",
+     "e": "Farmland and vineyards (local accounts)"
+    },
+    {
+     "t": "Until 1980s",
+     "e": "Grapes reportedly still grown here"
+    },
+    {
+     "t": "July 2013",
+     "e": "India's telegram service ends after 160+ years"
+    },
+    {
+     "t": "Today",
+     "e": "Busy junction, metro station, BSNL office"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "From orchards to a metro junction; the name's origin is still debated."
+  },
+  {
+   "t": "big",
+   "v": "Taar + Naka",
+   "l": "Wire + checkpost"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Taar + Naka",
+  "label": "Wire + checkpost",
+  "motion": "drift",
+  "scene": [
+   "🥭",
+   "📨",
+   "🚇"
+  ]
+ },
+ "watch": "Whether any historical record settles which story is true.",
+ "thread": "hyd-tarnaka-name-wire-fence-nawab-orchard-or-telegraph-office",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "Tarnaka, Hyderabad: Fascinating stories behind the area's name",
+   "url": "https://www.siasat.com/tarnaka-hyderabad-fascinating-stories-behind-the-areas-name-3589054/"
+  }
+ ],
+ "updated": 1795867041608,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/p-17.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Tarnaka's name comes from 'Taar' and 'Naka': a *wire* checkpost, but which wire?",
+ "twist": "No conclusive historical record proves the telegraph story; India's telegram service ended in *July 2013* after 160+ years.",
+ "areas": [
+  "Tarnaka"
+ ],
+ "layer": "near"
+}

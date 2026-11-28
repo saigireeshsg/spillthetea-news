@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-82",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "safety",
+ "hook": "First-time young drug users can skip prosecution after *7-8 days* of counselling",
+ "hook_b": "First-time young drug users can skip prosecution after *7-8 days* of counselling",
+ "tldr": "Hyderabad CP Mahesh Muralidhar Bhagwat asked Old City religious elders to help curb drug abuse among youth and explained the Section 64A NDPS option for first-time users.",
+ "beats": {
+  "what": "At Kotwal House, Purani Haveli, the Police Commissioner met religious elders and peace committee members on communal harmony and drug abuse among Old City youth.",
+  "why": "He flagged schoolchildren's and youth's growing vulnerability to narcotics and misuse of social media, and asked elders to use sermons and gatherings to warn families.",
+  "care": "Under Section 64A of the NDPS Act, eligible youngsters and parents get 7-8 days of counselling and can be exempted from prosecution if later blood tests are negative."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "💊",
+    "label": "Youth at risk of narcotics"
+   }
+  ],
+  "event": {
+   "icon": "👮",
+   "label": "CP meets Old City elders"
+  },
+  "effects": [
+   {
+    "icon": "🕌",
+    "label": "Counselling route for first-timers"
+   },
+   {
+    "icon": "🕌",
+    "label": "Mission Chabutra expanded"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Tips on drug activity: helpline 1908, Dial 112 or Dial 100. He also warned against reposting old videos of resolved incidents, and said a job mela with private firms is planned."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "For first-time young drug users: counselling instead of prosecution?",
+   "opts": [
+    "Counselling first",
+    "Prosecute",
+    "Depends on case",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who decides which youngsters are 'eligible' for the counselling route?",
+    "How will the police measure if Mission Chabutra works?"
+   ],
+   "facts": [
+    {
+     "big": "3",
+     "t": "Residents can report drug activity on *3* numbers: 1908, 112 and 100.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/hyderabad-cp-holds-meeting-with-religious-leaders"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "The Section 64A route for first-time users",
+   "steps": [
+    {
+     "t": "Step 1",
+     "e": "Youngster caught consuming drugs"
+    },
+    {
+     "t": "Step 2",
+     "e": "7-8 days of counselling with parents"
+    },
+    {
+     "t": "Step 3",
+     "e": "Follow-up blood test"
+    },
+    {
+     "t": "Step 4",
+     "e": "Negative test: can be exempted from prosecution"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "How the counselling option works for eligible first-time youth, as the Commissioner described."
+  },
+  {
+   "t": "big",
+   "v": "1908",
+   "l": "Drug information helpline"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "1908",
+  "label": "Drug information helpline",
+  "motion": "drift",
+  "scene": [
+   "💊",
+   "👮",
+   "🕌"
+  ]
+ },
+ "learn": {
+  "t": "NDPS Act = Narcotic Drugs and Psychotropic Substances Act, India's main drug law; Section 64A gives immunity to addicts who volunteer for treatment."
+ },
+ "watch": "Expansion of Mission Chabutra and action on elders' requests on late-night shop timings.",
+ "thread": "hyd-cp-bhagwat-old-city-drug-abuse-ndps-64a-first-time-youth-counselling-mission-chabutra",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Hyderabad Police Commissioner seeks support to curb drug abuse in Old City",
+   "url": "https://telanganatoday.com/hyderabad-cp-holds-meeting-with-religious-leaders"
+  }
+ ],
+ "updated": 1795867041606,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/hyderabad-cp-holds-meeting-with-religious-leaders-96ecbef5.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "First-time young drug users can avoid prosecution after *7-8 days* of de-addiction counselling",
+ "twist": "Mission Chabutra, which counsels youngsters found loitering late at night, is being *expanded*, the Commissioner said.",
+ "areas": [
+  "Old City",
+  "Purani Haveli",
+  "Charminar"
+ ],
+ "layer": "near"
+}

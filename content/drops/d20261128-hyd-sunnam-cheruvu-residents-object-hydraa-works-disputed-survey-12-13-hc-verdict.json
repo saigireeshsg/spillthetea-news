@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "lakes",
+ "hook": "Residents say HYDRAA is digging on *disputed* Sunnam Cheruvu land",
+ "hook_b": "Residents say HYDRAA is digging on *disputed* Sunnam Cheruvu land",
+ "tldr": "HYDRAA plans to open the restored Sunnam Cheruvu in the first week of December; SIET Maruthi Hills Colony residents say works are on their patta land in Survey Nos 12 and 13.",
+ "beats": {
+  "what": "The SIET Maruthi Hills Colony Welfare Association at Guttala Begumpet alleges HYDRAA is excavating, fencing and building compound walls on Survey Nos 12 and 13.",
+  "why": "The association says these are dry patta lands of the SIET Employees Co-operative Housing Society and not part of the lake bed; the case is in Writ Petition 6531/2025.",
+  "care": "It wants an independent, document-based survey and a halt to works until the court rules; it says it supports lawful lake rejuvenation."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏞️",
+    "label": "Lake restoration by HYDRAA"
+   }
+  ],
+  "event": {
+   "icon": "🚧",
+   "label": "Residents object to works"
+  },
+  "effects": [
+   {
+    "icon": "⚖️",
+    "label": "Seek independent survey"
+   },
+   {
+    "icon": "⚖️",
+    "label": "Want halt till HC verdict"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "HYDRAA plans to inaugurate the restored lake in the first week of December. The association says arguments in the High Court case are over and judgment is reserved."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Lake restoration vs disputed land: what should happen until the court rules?",
+   "opts": [
+    "Pause works",
+    "Continue works",
+    "Independent survey first",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who verifies lake boundaries when old records conflict?",
+    "What happens to finished works if the court rules either way?"
+   ],
+   "facts": [
+    {
+     "big": "3",
+     "t": "Residents allege *3* kinds of work on the plots: excavation, fencing and compound walls.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/residents-oppose-sunnam-cheruvu-inauguration"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "Sunnam Cheruvu dispute",
+   "steps": [
+    {
+     "t": "2025",
+     "e": "Writ Petition 6531/2025 filed in High Court"
+    },
+    {
+     "t": "Before Nov 28",
+     "e": "Arguments concluded, judgment reserved (per residents)"
+    },
+    {
+     "t": "Nov 28",
+     "e": "Residents seek halt to works"
+    },
+    {
+     "t": "Dec, week 1",
+     "e": "HYDRAA plans lake inauguration"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "The court verdict and the planned opening are both pending."
+  },
+  {
+   "t": "big",
+   "v": "Survey 12, 13",
+   "l": "Plots the residents say are theirs"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "Survey 12, 13",
+  "label": "Plots the residents say are theirs",
+  "motion": "drift",
+  "scene": [
+   "🏞️",
+   "🚧",
+   "⚖️"
+  ]
+ },
+ "learn": {
+  "t": "Patta = a land title record showing who owns a piece of land."
+ },
+ "watch": "The High Court's reserved verdict and whether the December inauguration goes ahead.",
+ "thread": "hyd-sunnam-cheruvu-residents-object-hydraa-works-disputed-survey-12-13-hc-verdict",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "Sunnam Cheruvu works: Residents allege HYDRAA interference with disputed land",
+   "url": "https://telanganatoday.com/residents-oppose-sunnam-cheruvu-inauguration"
+  }
+ ],
+ "updated": 1795867041606,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/residents-oppose-sunnam-cheruvu-inauguration-5c64d1d0.jpg",
+  "c": "Telangana Today"
+ },
+ "fact": "Residents say HYDRAA is digging on *2* disputed survey plots at Sunnam Cheruvu",
+ "twist": "The ownership case is before the High Court, which has *reserved its judgment*, the association says.",
+ "areas": [
+  "Guttala Begumpet",
+  "Madhapur",
+  "Hitech City"
+ ],
+ "layer": "near"
+}
