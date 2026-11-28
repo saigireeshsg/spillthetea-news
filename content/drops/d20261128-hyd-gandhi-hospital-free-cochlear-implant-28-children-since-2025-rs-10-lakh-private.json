@@ -1,0 +1,137 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-82",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "health",
+ "hook": "A surgery that costs *Rs 10 lakh+* privately was done free at Gandhi Hospital",
+ "hook_b": "A surgery that costs *Rs 10 lakh+* privately was done free at Gandhi Hospital",
+ "tldr": "Gandhi Hospital doctors performed a free cochlear implant on an eight-year-old from Nizamabad with congenital hearing loss, funded by CMRF.",
+ "beats": {
+  "what": "Doctors at Gandhi Hospital performed cochlear implant surgery on an eight-year-old boy from Nizamabad with congenital hearing loss on Thursday.",
+  "why": "The implant was sponsored by the Chief Minister's Relief Fund, superintendent T. Usha Rani said.",
+  "care": "A speech processor will be fitted about four weeks after healing, followed by over a year of free auditory verbal therapy."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "👂",
+    "label": "Congenital hearing loss"
+   }
+  ],
+  "event": {
+   "icon": "🏥",
+   "label": "Free implant at Gandhi Hospital"
+  },
+  "effects": [
+   {
+    "icon": "🗣️",
+    "label": "CMRF paid, Rs 10 lakh+ privately"
+   },
+   {
+    "icon": "🗣️",
+    "label": "Year-plus free therapy"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The Meenakshi Venkataraman Foundation will give the therapy free at the hospital, ENT head K. Nagaraju said."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should more costly surgeries be offered free at govt hospitals via CMRF?",
+   "opts": [
+    "Yes",
+    "No",
+    "Depends on cost",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How many children are waiting for implants in Telangana?",
+    "How does CMRF pick which surgeries to fund?"
+   ],
+   "facts": [
+    {
+     "big": "28+",
+     "t": "Gandhi Hospital has given implants to a little over *28* children since 2025.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/cochlear-implant-surgery-performed-free-for-8-yr-old-boy-at-gandhi-hospital/article71751669.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "From surgery to speech",
+   "steps": [
+    {
+     "t": "Thu",
+     "e": "Implant surgery"
+    },
+    {
+     "t": "~4 weeks",
+     "e": "Speech processor fitted"
+    },
+    {
+     "t": "1 year+",
+     "e": "Free auditory verbal therapy"
+    }
+   ],
+   "tone": "good",
+   "verdict": "A family avoids a Rs 10 lakh+ private bill."
+  },
+  {
+   "t": "big",
+   "v": "28+",
+   "l": "Children given implants since 2025"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "28+",
+  "label": "Children given implants since 2025",
+  "motion": "drift",
+  "scene": [
+   "👂",
+   "🏥",
+   "🗣️"
+  ]
+ },
+ "learn": {
+  "t": "Cochlear implant = a device placed in the ear that sends sound signals straight to the hearing nerve"
+ },
+ "watch": "The external speech processor is fitted about four weeks after healing.",
+ "thread": "hyd-gandhi-hospital-free-cochlear-implant-28-children-since-2025-rs-10-lakh-private",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Cochlear implant surgery performed free for 8-yr-old boy at Gandhi Hospital",
+   "url": "https://www.thehindu.com/news/national/telangana/cochlear-implant-surgery-performed-free-for-8-yr-old-boy-at-gandhi-hospital/article71751669.ece"
+  }
+ ],
+ "updated": 1795827402702,
+ "fact": "Gandhi Hospital did a cochlear implant free that costs over *Rs 10 lakh* privately",
+ "twist": "Since 2025, the government hospital has given implants to a little over *28* children.",
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/cities/Hyderabad/1b3sdy/article71751673.ece/alternates/LANDSCAPE_1200/Image%2081.jpeg",
+  "c": "The Hindu"
+ },
+ "layer": "city",
+ "areas": [
+  "Secunderabad"
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-78",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "culture",
+ "hook": "An Australian photographer's Stolen Generations portraits are on show at *Indian Photo Festival*",
+ "hook_b": "An Australian photographer's Stolen Generations portraits are on show at *Indian Photo Festival*",
+ "tldr": "Tace Stevens' project 'We Were Just Little Boys', on men taken from their families as children, is showing at the Indian Photo Festival in Hyderabad.",
+ "beats": {
+  "what": "'We Were Just Little Boys' pairs portraits of survivors of Kinchela Boys Home with archival photos and their handwritten testimonies.",
+  "why": "The Stolen Generations were indigenous children forcibly removed from families under Australian policies, mainly 1910 to the 1970s.",
+  "care": "It is Stevens' first visit to India; the project was made at the request of a survivor-led organisation."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📷",
+    "label": "Forced removal of indigenous kids"
+   }
+  ],
+  "event": {
+   "icon": "🖼️",
+   "label": "Portraits at Indian Photo Festival"
+  },
+  "effects": [
+   {
+    "icon": "🇦🇺",
+    "label": "Survivors' own handwritten words"
+   },
+   {
+    "icon": "🇦🇺",
+    "label": "First India showing"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The project was commissioned by the Magnum Foundation and World Monuments Fund."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Would you go see a photo exhibition on history like this?",
+   "opts": [
+    "Yes",
+    "No",
+    "Maybe",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What other international projects are at this year's festival?"
+   ],
+   "facts": [
+    {
+     "big": "10+",
+     "t": "Stevens visited the Kinchela site at least *10* times, about four and a half hours north of Sydney.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/australian-photographer-tace-stevens-brings-stories-of-stolen-generations-alive-through-black-and-white-portraits/articleshow/136231295.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the project came together",
+   "steps": [
+    {
+     "t": "1910-1970s",
+     "e": "Forced removals under assimilation policies"
+    },
+    {
+     "t": "2 years",
+     "e": "10+ visits to Kinchela Boys Home"
+    },
+    {
+     "t": "Now",
+     "e": "Shown at Indian Photo Festival"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "A history project from Australia, shown in Hyderabad."
+  },
+  {
+   "t": "big",
+   "v": "1910-70s",
+   "l": "Years of forced removals"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "1910-70s",
+  "label": "Years of forced removals",
+  "motion": "drift",
+  "scene": [
+   "📷",
+   "🖼️",
+   "🇦🇺"
+  ]
+ },
+ "watch": "The project is on show at the Indian Photo Festival in Hyderabad.",
+ "thread": "hyd-indian-photo-festival-tace-stevens-stolen-generations-kinchela-boys-home",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Australian photographer Tace Stevens brings stories of 'Stolen Generations' alive",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/australian-photographer-tace-stevens-brings-stories-of-stolen-generations-alive-through-black-and-white-portraits/articleshow/136231295.cms"
+  }
+ ],
+ "updated": 1795827402703,
+ "fact": "Indian Photo Festival shows survivors of Australia's *Stolen Generations* in black-and-white",
+ "twist": "Stevens visited the Kinchela Boys Home site at least *10* times across seasons over two years.",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136231294,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "layer": "city",
+ "areas": [
+  "Hyderabad"
+ ]
+}

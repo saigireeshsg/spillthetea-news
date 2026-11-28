@@ -1,0 +1,124 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-88",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "air",
+ "hook": "Doctors want hospitals to pool data on what Hyderabad's *AQI 300* days do to us",
+ "hook_b": "Doctors want hospitals to pool data on what Hyderabad's *AQI 300* days do to us",
+ "tldr": "At Cyberabad Moves, doctors from KIMS, AIG and PHFI called for hospitals to share anonymised data on pollution-linked illness.",
+ "beats": {
+  "what": "KIMS's Dr Sudheer Vinnamala proposed hospitals share anonymised data on respiratory illness, strokes and heart conditions with health authorities.",
+  "why": "Hyderabad's AQI crossed 300 on Deepavali, and PM2.5 and PM10 were several times above limits, the panel heard.",
+  "care": "AIG pulmonologist Dr Vishwanath Gella said asthma and lung cases rise during poor-air periods, especially around Deepavali and in winter."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌫️",
+    "label": "AQI 300+ on Deepavali"
+   }
+  ],
+  "event": {
+   "icon": "🏥",
+   "label": "Doctors seek city health database"
+  },
+  "effects": [
+   {
+    "icon": "🫁",
+    "label": "Track lung, heart, stroke cases"
+   },
+   {
+    "icon": "🫁",
+    "label": "AQI alerts for asthma patients"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Doctors said daily AQI alerts could warn asthma patients, and hospitals could stagger appointments and run Metro last-mile links."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should hospitals share anonymised pollution-illness data with the city?",
+   "opts": [
+    "Yes",
+    "No",
+    "Only with consent",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What would a city health database measure first?",
+    "Which roads around schools see the most exposure?"
+   ],
+   "facts": [
+    {
+     "big": "80%",
+     "t": "About *80%* of children live within 2-3 km of their schools, PHFI research shows.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/hyderabads-air-pollution-puts-focus-on-hospitals-doctors-call-for-city-level-health-database/article71750758.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "icons",
+   "l": "Children living within 2-3 km of school",
+   "n": 8,
+   "of": 10,
+   "tone": "neutral",
+   "verdict": "Most school trips are short, so road fixes near schools reach most kids.",
+   "icon": "🧒",
+   "d": "8 of 10"
+  },
+  {
+   "t": "big",
+   "v": "300+",
+   "l": "AQI on Deepavali"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "300+",
+  "label": "AQI on Deepavali",
+  "motion": "drift",
+  "scene": [
+   "🌫️",
+   "🏥",
+   "🫁"
+  ]
+ },
+ "watch": "Whether health authorities take up the hospital data-sharing idea before the winter pollution peak.",
+ "thread": "hyd-doctors-city-health-database-pollution-aqi-300-deepavali-80pct-kids-near-school",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Hyderabad's air pollution puts focus on hospitals; doctors call for city-level health database",
+   "url": "https://www.thehindu.com/news/national/telangana/hyderabads-air-pollution-puts-focus-on-hospitals-doctors-call-for-city-level-health-database/article71750758.ece"
+  }
+ ],
+ "updated": 1795827402701,
+ "fact": "Hyderabad's AQI crossed *300* on Deepavali; doctors now want a city health database",
+ "twist": "About *80%* of children live within 2-3 km of their school, so fixes near schools cover most trips.",
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/1ch81k/article70103299.ece/alternates/LANDSCAPE_1200/IMG_Deepavali_Festival_2_1_ERDLCIS5.jpg",
+  "c": "The Hindu"
+ },
+ "layer": "city",
+ "areas": [
+  "Hyderabad"
+ ]
+}

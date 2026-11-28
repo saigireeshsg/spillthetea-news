@@ -1,0 +1,127 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-86",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "welfare",
+ "hook": "Families without ration cards may get the *Rs 5 lakh* Indiramma cover via Aadhaar",
+ "hook_b": "Families without ration cards may get the *Rs 5 lakh* Indiramma cover via Aadhaar",
+ "tldr": "Officials are exploring Aadhaar-based enrolment for Indiramma Kutumba Jeevitha Bima for households without ration cards; guidelines are pending.",
+ "beats": {
+  "what": "Officials are considering Aadhaar-based enrolment for families without ration cards in a later phase; one proposal excludes income-tax payers.",
+  "why": "The scheme, launched on Nov 19, enrols through ration card details; about 3 lakh families have joined so far.",
+  "care": "It gives Rs 5 lakh life cover to one member aged 18-59 per household, with the government paying the premium."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🪪",
+    "label": "Scheme enrols only via ration cards"
+   }
+  ],
+  "event": {
+   "icon": "🛡️",
+   "label": "Aadhaar-based enrolment weighed"
+  },
+  "effects": [
+   {
+    "icon": "👨‍👩‍👧",
+    "label": "Cover for non-card families"
+   },
+   {
+    "icon": "👨‍👩‍👧",
+    "label": "Income-tax payers may be excluded"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Guidelines from Nov 21 let families with ration cards from other districts enrol at the nearest camp."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Aadhaar-based enrolment for families without ration cards: good idea?",
+   "opts": [
+    "Yes",
+    "No",
+    "Only for low-income",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will officials verify income for families without ration cards?",
+    "Will Rythu Bima holders need to re-enrol?"
+   ],
+   "facts": [
+    {
+     "big": "1.15 cr",
+     "t": "Telangana has about *1.15 crore* families; nearly 40 lakh are already under govt insurance or welfare schemes.",
+     "s": "Times of India",
+     "u": "https://timesofindia.indiatimes.com/city/hyderabad/indiramma-insurance-telangana-weighs-aadhaar-based-cover-for-families-without-ration-cards/articleshow/136230874.cms"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "meter",
+   "l": "Telangana families already covered by govt insurance or welfare schemes",
+   "v": 40,
+   "tone": "neutral",
+   "verdict": "Most families are not yet in a govt insurance scheme; the new cover aims to fill that gap.",
+   "max": 115,
+   "unit": "",
+   "d": "~40 lakh / 1.15 crore"
+  },
+  {
+   "t": "big",
+   "v": "3 lakh",
+   "l": "Families enrolled since Nov 19"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "3 lakh",
+  "label": "Families enrolled since Nov 19",
+  "motion": "drift",
+  "scene": [
+   "🪪",
+   "🛡️",
+   "👨‍👩‍👧"
+  ]
+ },
+ "learn": {
+  "t": "e-KYC = online identity check; pending ration card e-KYC must be done at PDS shops before enrolling"
+ },
+ "watch": "Fresh instructions on eligibility and exceptional cases are expected shortly, officials said.",
+ "thread": "tg-indiramma-insurance-aadhaar-cover-families-without-ration-cards-3-lakh-enrolled",
+ "sources": [
+  {
+   "name": "Times of India",
+   "title": "Indiramma insurance: Telangana weighs Aadhaar-based cover for families without ration cards",
+   "url": "https://timesofindia.indiatimes.com/city/hyderabad/indiramma-insurance-telangana-weighs-aadhaar-based-cover-for-families-without-ration-cards/articleshow/136230874.cms"
+  }
+ ],
+ "updated": 1795827402701,
+ "fact": "Telangana may open its *Rs 5 lakh* Indiramma cover to families without ration cards",
+ "twist": "Around *3 lakh* families have household heads living abroad, and enrolment rules for them are undecided.",
+ "img": {
+  "u": "https://static.toiimg.com/thumb/msid-136230873,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+  "c": "Times of India"
+ },
+ "layer": "state",
+ "areas": [
+  "Hyderabad"
+ ]
+}

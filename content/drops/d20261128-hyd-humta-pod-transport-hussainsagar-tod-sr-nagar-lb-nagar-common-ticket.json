@@ -1,0 +1,142 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-90",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "transport",
+ "hook": "Pods from Metro stations straight to buildings around *Hussainsagar* are being studied",
+ "hook_b": "Pods from Metro stations straight to buildings around *Hussainsagar* are being studied",
+ "tldr": "HUMTA outlined pod transport near Hussainsagar, transit-oriented plans for SR Nagar and LB Nagar, and common bus-Metro ticketing at Cyberabad Moves.",
+ "beats": {
+  "what": "HUMTA MD B. Jeevan Babu said techno-economic feasibility studies are under way for a pod system linking Metro stations to buildings around Hussainsagar.",
+  "why": "He said the city's transport is not well integrated, with bus stops often far from Metro and MMTS stations.",
+  "care": "SR Nagar and LB Nagar local area plans envisage shops below, homes above and multi-level parking to switch to bus or Metro."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🚏",
+    "label": "Bus stops far from Metro, MMTS stations"
+   }
+  ],
+  "event": {
+   "icon": "🚡",
+   "label": "HUMTA mobility roadmap"
+  },
+  "effects": [
+   {
+    "icon": "🏙️",
+    "label": "Pods, common ticket studied"
+   },
+   {
+    "icon": "🏙️",
+    "label": "Shops below, homes above in SR Nagar, LB Nagar"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "HUMTA also wants to link the 23-km cycle track to Kokapet and the Financial District, and use space under flyovers for sports."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Pods from Metro stations to buildings around Hussainsagar: would you use them?",
+   "opts": [
+    "Yes",
+    "No",
+    "Maybe",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who would pay for pod transport around Hussainsagar?",
+    "How far apart are bus stops and Metro stations today?"
+   ],
+   "facts": [
+    {
+     "big": "23 km",
+     "t": "Hyderabad already has a *23-km* cycle track HUMTA wants to connect to Kokapet.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/pod-transport-vertical-neighbourhoods-on-humtas-mobility-roadmap-for-hyderabad/article71750732.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "HUMTA's roadmap, step by step",
+   "steps": [
+    {
+     "t": "Now",
+     "e": "Feasibility study: Hussainsagar pods"
+    },
+    {
+     "t": "Plans",
+     "e": "TOD local plans for SR Nagar, LB Nagar"
+    },
+    {
+     "t": "Next",
+     "e": "Common bus-Metro ticket"
+    },
+    {
+     "t": "Later",
+     "e": "Ola, Uber integration"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Proposals only so far; no dates or costs given."
+  },
+  {
+   "t": "big",
+   "v": "23 km",
+   "l": "Cycle track to link Kokapet, Financial District"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "23 km",
+  "label": "Cycle track to link Kokapet, Financial District",
+  "motion": "drift",
+  "scene": [
+   "🚏",
+   "🚡",
+   "🏙️"
+  ]
+ },
+ "watch": "Results of the techno-economic feasibility study for Hussainsagar pods, and the SR Nagar and LB Nagar local area plans.",
+ "thread": "hyd-humta-pod-transport-hussainsagar-tod-sr-nagar-lb-nagar-common-ticket",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Pod transport, vertical neighbourhoods on HUMTA's mobility roadmap for Hyderabad",
+   "url": "https://www.thehindu.com/news/national/telangana/pod-transport-vertical-neighbourhoods-on-humtas-mobility-roadmap-for-hyderabad/article71750732.ece"
+  }
+ ],
+ "updated": 1795827402700,
+ "fact": "HUMTA is studying pods that run from Metro stations straight to *Hussainsagar* buildings",
+ "twist": "A common bus-Metro ticket is also in the works, with *Ola and Uber* tie-ins planned later.",
+ "img": {
+  "u": "https://th-i.thgim.com/public/incoming/k2oz3/article71637059.ece/alternates/LANDSCAPE_1200/_DSC4572.JPG",
+  "c": "The Hindu"
+ },
+ "layer": "near",
+ "areas": [
+  "Hussain Sagar",
+  "SR Nagar",
+  "LB Nagar",
+  "Kokapet",
+  "Financial District"
+ ]
+}

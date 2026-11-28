@@ -1,0 +1,137 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-84",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "Only *40 TMC* of usable water is left in Nagarjuna Sagar, officials say",
+ "hook_b": "Only *40 TMC* of usable water is left in Nagarjuna Sagar, officials say",
+ "tldr": "Telangana Retired Engineers Association wants an urgent KRMB meeting after AP drew water from the Nagarjuna Sagar Right Canal.",
+ "beats": {
+  "what": "TREA said AP diverted 6,000 cusecs from Nagarjuna Sagar Right Canal on Thursday, citing drinking water, without KRMB permission.",
+  "why": "Officials say only 40 TMC is available after evaporation losses and keeping levels above the minimum drawdown level.",
+  "care": "TREA wants the 40 TMC reserved only for the drinking water needs of both states, used in a regulated way."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌊",
+    "label": "AP draws 6,000 cusecs"
+   }
+  ],
+  "event": {
+   "icon": "🏛️",
+   "label": "TREA seeks KRMB meeting"
+  },
+  "effects": [
+   {
+    "icon": "🚰",
+    "label": "40 TMC usable left"
+   },
+   {
+    "icon": "🚰",
+    "label": "Palnadu grid raised"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "TREA also flagged AP's Palnadu Water Grid, saying Telangana was unaware of it, and wants it raised at the Apex Council."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Should the 40 TMC be kept only for drinking water?",
+   "opts": [
+    "Yes",
+    "No",
+    "Split with farms",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How long can 40 TMC meet both states' drinking needs?",
+    "Who decides releases when KRMB has not met?"
+   ],
+   "facts": [
+    {
+     "big": "15 TMC",
+     "t": "TREA says AP diverts about *15 TMC* for Chennai's supply from Srisailam.",
+     "s": "Telangana Today",
+     "u": "https://telanganatoday.com/trea-seeks-krmb-meeting-over-nagarjunasagar-issue"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "How the dispute moved",
+   "steps": [
+    {
+     "t": "Thu",
+     "e": "AP draws 6,000 cusecs, cites drinking water"
+    },
+    {
+     "t": "Fri",
+     "e": "TREA seeks KRMB, Apex Council meet"
+    },
+    {
+     "t": "Now",
+     "e": "40 TMC usable left, officials say"
+    }
+   ],
+   "tone": "bad",
+   "verdict": "Less water left for both states' drinking needs as summer approaches."
+  },
+  {
+   "t": "big",
+   "v": "6,000",
+   "l": "Cusecs drawn by AP on Thursday"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "6,000",
+  "label": "Cusecs drawn by AP on Thursday",
+  "motion": "drift",
+  "scene": [
+   "🌊",
+   "🏛️",
+   "🚰"
+  ]
+ },
+ "learn": {
+  "t": "TMC = thousand million cubic feet, the unit used to measure reservoir water"
+ },
+ "watch": "Whether the Centre convenes a KRMB or Apex Council meeting on the diversion.",
+ "thread": "tg-nagarjuna-sagar-40-tmc-left-ap-6000-cusecs-trea-krmb-meeting",
+ "sources": [
+  {
+   "name": "Telangana Today",
+   "title": "TREA condemns AP's Nagarjuna Sagar water diversion, seeks KRMB meeting",
+   "url": "https://telanganatoday.com/trea-seeks-krmb-meeting-over-nagarjunasagar-issue"
+  }
+ ],
+ "updated": 1795827402702,
+ "fact": "Only *40 TMC* of usable water remains in Nagarjuna Sagar, officials say",
+ "twist": "AP drew *6,000 cusecs* on Thursday citing drinking needs, without KRMB approval, engineers say.",
+ "img": {
+  "u": "https://media.telanganatoday.com/wp-content/uploads/2026/11/trea-seeks-krmb-meeting-over-nagarjunasagar-issue-8f2cd1a0.jpg",
+  "c": "Telangana Today"
+ },
+ "layer": "state",
+ "areas": [
+  "Hyderabad"
+ ]
+}
