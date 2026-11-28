@@ -1,0 +1,159 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-88",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "civic",
+ "hook": "Hyderabad logs up to *200* streetlight complaints a day",
+ "hook_b": "Hyderabad logs up to *200* streetlight complaints a day",
+ "tldr": "Hyderabad CURE gets 150-200 streetlight complaints daily after EESL's contract ended; GHMC has issued an LoA for a Rs 1,720.83 crore, 10-year contract, with work expected by January 2027.",
+ "beats": {
+  "what": "The Hyderabad Core Urban Region receives 150-200 faulty-streetlight complaints daily, some taking days or weeks to fix, Siasat reported citing The New Indian Express.",
+  "why": "EESL's contract to maintain 5.42 lakh LED streetlights ended; staff shortage, a dysfunctional central monitoring system (CCMS) and material delays add to it.",
+  "care": "GHMC issued a Letter of Agreement to BAC Infratech and Vinci Global for 7.60 lakh lights, but the formal agreement is not yet signed."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "📄",
+    "label": "EESL contract ended, staff short"
+   }
+  ],
+  "event": {
+   "icon": "💡",
+   "label": "Up to 200 complaints a day"
+  },
+  "effects": [
+   {
+    "icon": "🌃",
+    "label": "Fixes take days or weeks"
+   },
+   {
+    "icon": "🌃",
+    "label": "New agency from Jan 2027"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "Of the 7.60 lakh lights in the new contract, 3,30,487 are under GHMC, 1,85,258 under Cyberabad and 2,44,846 under Malkajgiri. Officials expect work to begin by January 2027."
+  },
+  {
+   "k": "poll",
+   "vt": "rate",
+   "q": "How are the streetlights on your street?",
+   "opts": [
+    "Mostly dark",
+    "Many out",
+    "Patchy",
+    "Mostly fine",
+    "All working"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Who answers streetlight complaints until the new agency starts?",
+    "Why is the central monitoring system not working?"
+   ],
+   "facts": [
+    {
+     "big": "Rs 1,720.83 cr",
+     "t": "The new streetlight maintenance contract runs *10 years* for Rs 1,720.83 crore.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/200-streetlight-complaints-daily-hyderabad-awaits-new-agency-3588798/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "7.60 lakh LED lights in the new contract",
+   "parts": [
+    {
+     "l": "GHMC",
+     "v": 330487,
+     "d": "330,487"
+    },
+    {
+     "l": "Malkajgiri",
+     "v": 244846,
+     "d": "244,846"
+    },
+    {
+     "l": "Cyberabad",
+     "v": 185258,
+     "d": "185,258"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Who manages the most lights under the new 10-year deal.",
+   "total": "7.60 lakh"
+  },
+  {
+   "t": "compare",
+   "l": "LED streetlights to be maintained",
+   "a": {
+    "v": 5.42,
+    "d": "5.42 lakh",
+    "l": "EESL contract"
+   },
+   "b": {
+    "v": 7.6,
+    "d": "7.60 lakh",
+    "l": "New contract"
+   },
+   "goodIfUp": true,
+   "tone": "neutral",
+   "verdict": "Old EESL contract vs new contract coverage; work not yet started."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "200/day",
+  "label": "Streetlight complaints in core Hyderabad",
+  "motion": "drift",
+  "scene": [
+   "📄",
+   "💡",
+   "🌃"
+  ]
+ },
+ "insight": "EESL's maintenance contract for 5.42 lakh LED lights has ended; temporary staff and subcontractors fill in.",
+ "learn": {
+  "t": "CCMS = Centralised Control and Monitoring System, the network meant to track and switch streetlights remotely."
+ },
+ "watch": "Signing of the formal agreement with BAC Infratech and Vinci Global, and whether work starts by January 2027.",
+ "thread": "hyd-streetlight-complaints-200-daily-new-agency-7-60-lakh-leds-rs-1720-crore",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "200 streetlight complaints daily, Hyderabad awaits new agency",
+   "url": "https://www.siasat.com/200-streetlight-complaints-daily-hyderabad-awaits-new-agency-3588798/"
+  }
+ ],
+ "updated": 1795849826238,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/11/Untitled-Design-78.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Hyderabad's core city logs up to *200* faulty-streetlight complaints every single day",
+ "twist": "A new 10-year, *Rs 1,720.83 crore* contract is awarded, but work is expected only by January 2027.",
+ "layer": "near",
+ "areas": [
+  "GHMC",
+  "Cyberabad",
+  "Malkajgiri",
+  "Hitech City"
+ ]
+}

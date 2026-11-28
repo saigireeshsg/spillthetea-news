@@ -1,0 +1,155 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-86",
+ "order": 1,
+ "heat": 4,
+ "readSecs": 30,
+ "topic": "water",
+ "hook": "CM asks Telangana to use water carefully for *8 months*",
+ "hook_b": "CM asks Telangana to use water carefully for *8 months*",
+ "tldr": "At the Climate Conclave curtain raiser, the CM urged careful water use for eight months due to El Nino, told farmers to avoid water-heavy crops and announced free EV conversion for 2 lakh diesel autos.",
+ "beats": {
+  "what": "CM Revanth Reddy on Friday urged people not to waste water over the next eight months, citing El Nino-driven low rainfall and drought.",
+  "why": "His office's release said dry conditions and no rains are expected for the next 8 months.",
+  "care": "He asked farmers to avoid water-heavy crops, and said food grains will not run short for the next two years."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🌡️",
+    "label": "El Nino, low rainfall"
+   }
+  ],
+  "event": {
+   "icon": "💧",
+   "label": "CM's water-saving appeal"
+  },
+  "effects": [
+   {
+    "icon": "🛺",
+    "label": "Farmers told to avoid thirsty crops"
+   },
+   {
+    "icon": "🛺",
+    "label": "2 lakh autos to go electric free"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The CM said city infrastructure was designed for 2 cm of rain while Hyderabad sometimes gets 24 cm in two hours. Diesel RTC buses are also to be phased out of the city. Timelines for the auto conversion were not given."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Eight dry months ahead: what should come first?",
+   "opts": [
+    "Fix leaks and supply",
+    "Limit industry water",
+    "Farmers switch crops",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "How will the free conversion of 2 lakh autos be funded?",
+    "Which crops count as water-heavy for this season?"
+   ],
+   "facts": [
+    {
+     "big": "24 cm",
+     "t": "Hyderabad sometimes gets *24 cm* of rain in two hours, the CM said.",
+     "s": "Siasat",
+     "u": "https://www.siasat.com/el-nino-use-water-carefully-for-8-months-says-telangana-cm-3588722/"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "compare",
+   "l": "Rain city drains were built for vs what falls",
+   "a": {
+    "v": 2,
+    "d": "2 cm",
+    "l": "Design benchmark"
+   },
+   "b": {
+    "v": 24,
+    "d": "24 cm in 2 hrs",
+    "l": "Cloudburst"
+   },
+   "goodIfUp": false,
+   "tone": "bad",
+   "verdict": "Per the CM, cloudbursts far exceed the design benchmark, flooding colonies."
+  },
+  {
+   "t": "timeline",
+   "l": "What the CM announced",
+   "steps": [
+    {
+     "t": "Next 8 months",
+     "e": "Use water carefully, CM says"
+    },
+    {
+     "t": "2 years",
+     "e": "No food grain shortage, CM says"
+    },
+    {
+     "t": "Dec 7-9",
+     "e": "Climate Conclave, Bharat Future City"
+    },
+    {
+     "t": "No date",
+     "e": "2 lakh diesel autos to EV, free"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Appeal plus plans; no timeline for the EV conversion yet."
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "8 months",
+  "label": "Of careful water use, CM says",
+  "motion": "drift",
+  "scene": [
+   "🌡️",
+   "💧",
+   "🛺"
+  ]
+ },
+ "insight": "Per his office, dry weather and no rain are expected for the next eight months due to El Nino.",
+ "learn": {
+  "t": "El Nino = a warming of the Pacific Ocean that can weaken India's monsoon."
+ },
+ "watch": "Climate Conclave at Bharat Future City, December 7-9, and details of the free auto-to-EV conversion.",
+ "thread": "tg-cm-el-nino-use-water-carefully-8-months-2-lakh-diesel-autos-free-ev",
+ "sources": [
+  {
+   "name": "Siasat",
+   "title": "El Nino: Use water carefully for 8 months, says Telangana CM",
+   "url": "https://www.siasat.com/el-nino-use-water-carefully-for-8-months-says-telangana-cm-3588722/"
+  }
+ ],
+ "updated": 1795849826240,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://cdn.siasat.com/wp-content/uploads/2026/10/Untitled-design-2026-10-25T151518.868.jpg",
+  "c": "Siasat"
+ },
+ "fact": "Revanth Reddy asks Telangana to use water with care for the next *8 months*",
+ "twist": "He also said *2 lakh* diesel autos in Hyderabad will be converted to EVs at no cost to owners.",
+ "layer": "city",
+ "areas": [
+  "Hyderabad"
+ ]
+}

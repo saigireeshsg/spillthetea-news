@@ -1,0 +1,144 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-84",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "environment",
+ "hook": "'Water man of India' tells Telangana: don't copy *Sabarmati* for Musi",
+ "hook_b": "'Water man of India' tells Telangana: don't copy *Sabarmati* for Musi",
+ "tldr": "At the Climate Conclave curtain raiser, Magsaysay awardee Rajendra Singh asked the government to build its own Musi model, keep banks green, and deny water to industries during El Nino.",
+ "beats": {
+  "what": "Rajendra Singh, speaking before the CM on Friday, advised against the Sabarmati model for Musi riverfront development.",
+  "why": "He cautioned against 'economic infrastructure' and 'contractor and corporate driven democracy', saying development should protect nature.",
+  "care": "He suggested bushes near the water, medium trees in the middle and tall trees above, and no concrete banks."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🏞️",
+    "label": "Musi riverfront plans"
+   }
+  ],
+  "event": {
+   "icon": "🎤",
+   "label": "Rajendra Singh's advice"
+  },
+  "effects": [
+   {
+    "icon": "🌳",
+    "label": "Three layers of green banks"
+   },
+   {
+    "icon": "🌳",
+    "label": "No concrete canal"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "He also asked the government to avoid commercial crops, deny water to industries during El Nino, not de-notify forests, and speed up HYDRAA's lake work. The government's response was not reported."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Musi riverfront: which look do you prefer?",
+   "opts": [
+    "Green natural banks",
+    "Built promenade",
+    "Mix of both",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "What has the Musi plan proposed for the river banks so far?",
+    "How does Sabarmati differ from a natural riverbank?"
+   ],
+   "facts": [
+    {
+     "big": "15,800",
+     "t": "Singh said *15,800* small dams across those rivers were designed by local people, not engineers.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/cities/Hyderabad/water-man-of-india-rajendra-singh-advises-against-sabarmati-model-for-musi-river/article71752356.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "timeline",
+   "l": "His three-layer bank plan",
+   "steps": [
+    {
+     "t": "Near water",
+     "e": "Small bushes"
+    },
+    {
+     "t": "Middle",
+     "e": "Medium trees"
+    },
+    {
+     "t": "Top",
+     "e": "Tall trees"
+    },
+    {
+     "t": "Never",
+     "e": "Concrete banks"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Advice from one expert; no government decision reported."
+  },
+  {
+   "t": "big",
+   "v": "15,800",
+   "l": "Small dams built by local people across his 33 rivers"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "33",
+  "label": "Small rivers he says he revived",
+  "motion": "drift",
+  "scene": [
+   "🏞️",
+   "🎤",
+   "🌳"
+  ]
+ },
+ "insight": "He asked for three layers of vegetation on the banks and no concretisation: 'Don't convert it into a canal.'",
+ "learn": {
+  "t": "Sabarmati model = Ahmedabad's riverfront with concrete embankments and promenades."
+ },
+ "watch": "Telangana Climate Conclave, December 7-9.",
+ "thread": "hyd-musi-rajendra-singh-against-sabarmati-model-three-layers-vegetation",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Water man of India Rajendra Singh advises against Sabarmati model for Musi river",
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/water-man-of-india-rajendra-singh-advises-against-sabarmati-model-for-musi-river/article71752356.ece"
+  }
+ ],
+ "updated": 1795849826240,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://th-i.thgim.com/public/todays-paper/tp-national/tp-telangana/i3nht6/article71303377.ece/alternates/LANDSCAPE_1200/Musi-river-sediGN5GBH68R.3.jpg.jpg",
+  "c": "The Hindu"
+ },
+ "fact": "Rajendra Singh urged Telangana not to follow the *Sabarmati* model for the Musi",
+ "twist": "He says he revived *33* small rivers without a single rupee from governments.",
+ "layer": "city",
+ "areas": [
+  "Musi",
+  "Hyderabad"
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "cat": "local",
+ "lead": "local",
+ "date": "2026-11-28",
+ "sort": "2026-11-28-82",
+ "order": 1,
+ "heat": 3,
+ "readSecs": 30,
+ "topic": "jobs",
+ "hook": "Telangana readies *11* new policies for its Global Summit",
+ "hook_b": "Telangana readies *11* new policies for its Global Summit",
+ "tldr": "Telangana will unveil 11 policies at the Invest Telangana Global Summit, covering industry, IT, GCCs, data centres, chips, AVGC and offshore campuses of foreign universities.",
+ "beats": {
+  "what": "The State is preparing 11 policies covering industry, IT and higher education for the Invest Telangana Global Summit, The Hindu reported.",
+  "why": "They follow the Telangana Rising Vision 2047, which aims at a $3 trillion economy, unveiled at last year's summit.",
+  "care": "Labour-intensive sectors like textiles, footwear and leather get special policies aimed at large-scale jobs; IT gets ICT Policy 2.0 plus GCC, data centre and chip policies."
+ },
+ "map": {
+  "causes": [
+   {
+    "icon": "🎯",
+    "label": "Vision 2047: $3 trillion goal"
+   }
+  ],
+  "event": {
+   "icon": "📜",
+   "label": "11 policies being readied"
+  },
+  "effects": [
+   {
+    "icon": "🏭",
+    "label": "Jobs push in textiles, leather"
+   },
+   {
+    "icon": "🏭",
+    "label": "Foreign campuses in Telangana"
+   }
+  ]
+ },
+ "cards": [
+  {
+   "k": "tea",
+   "title": "🆕 What's new",
+   "body": "The full list: Industrial 2.0, Footwear and Leather, Textiles and Apparel 2.0, Aerospace-Defence-Space, Logistics, ICT 2.0, GCC, Data Centres 2.0, Electronics and Semiconductors, AVGC, and Foreign Offshore Campus. Incentive details are not out yet."
+  },
+  {
+   "k": "poll",
+   "vt": "stance",
+   "q": "Of the 11 policies, which matters most to you?",
+   "opts": [
+    "IT and GCC jobs",
+    "Factory jobs",
+    "Foreign campuses here",
+    "Not sure"
+   ]
+  },
+  {
+   "k": "dig",
+   "qs": [
+    "Which of these policies are new, and which are 2.0 updates?",
+    "What incentives will foreign universities get?"
+   ],
+   "facts": [
+    {
+     "big": "$3 trillion",
+     "t": "Telangana Rising Vision 2047 aims for a *$3 trillion* economy by 2047.",
+     "s": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/telangana-to-unveil-11-new-policies-at-global-summit/article71753637.ece"
+    }
+   ]
+  }
+ ],
+ "viz": [
+  {
+   "t": "stack",
+   "l": "The 11 policies by area",
+   "parts": [
+    {
+     "l": "Industry and manufacturing",
+     "v": 5,
+     "d": "5"
+    },
+    {
+     "l": "IT and tech",
+     "v": 5,
+     "d": "5"
+    },
+    {
+     "l": "Education",
+     "v": 1,
+     "d": "1"
+    }
+   ],
+   "tone": "neutral",
+   "verdict": "Five policies each for industry and IT/tech; one for higher education.",
+   "total": "11"
+  }
+ ],
+ "cover": {
+  "bg": [
+   "#10243d",
+   "#2a6fb0"
+  ],
+  "big": "11",
+  "label": "New policies at the Global Summit",
+  "motion": "drift",
+  "scene": [
+   "🎯",
+   "📜",
+   "🏭"
+  ]
+ },
+ "insight": "The policies follow Telangana Rising Vision 2047, which targets a $3 trillion economy by 2047.",
+ "learn": {
+  "t": "GCC = Global Capability Centre, an in-house tech or operations hub of a foreign company."
+ },
+ "watch": "The policy texts and incentives when they are unveiled at the summit.",
+ "thread": "tg-11-new-policies-global-summit-ict-2-0-gcc-data-centres-offshore-campuses",
+ "sources": [
+  {
+   "name": "The Hindu",
+   "title": "Telangana to unveil 11 new policies at Global Summit",
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-to-unveil-11-new-policies-at-global-summit/article71753637.ece"
+  }
+ ],
+ "updated": 1795849826241,
+ "city": "Hyderabad",
+ "img": {
+  "u": "https://th-i.thgim.com/public/news/national/3255r0/article71753655.ece/alternates/LANDSCAPE_1200/1789545341261.jpeg",
+  "c": "The Hindu"
+ },
+ "fact": "Telangana will unveil *11* new policies, from GCCs to foreign university campuses",
+ "twist": "One policy aims to bring *foreign universities'* offshore campuses to Telangana.",
+ "layer": "state",
+ "areas": [
+  "Hyderabad",
+  "Bharat Future City"
+ ]
+}
